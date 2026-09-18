@@ -49,15 +49,14 @@
       ],
       "documents": [
         {
-          "url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=004U0523&atto.dataPubblicazioneGazzetta=1904-10-07&tipoSerie=serie_generale&tipoVigenza=originario",
-          "label": "Testo originario · Gazzetta Ufficiale",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
+          "url": "https://www.gazzettaufficiale.it/eli/gu/1904/10/07/234/sg/pdf",
+          "label": "PDF ufficiale · R.D. 523/1904",
+          "format": "pdf"
         }
       ],
       "document_url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=004U0523&atto.dataPubblicazioneGazzetta=1904-10-07&tipoSerie=serie_generale&tipoVigenza=originario",
       "document_label": "Testo originario · Gazzetta Ufficiale",
-      "document_note": "Testo della pubblicazione originaria, non consolidato con le modifiche successive."
+      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto."
     },
     {
       "id": "rd1775",
@@ -96,15 +95,14 @@
       ],
       "documents": [
         {
-          "url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=033U1775&atto.dataPubblicazioneGazzetta=1934-01-08&tipoSerie=serie_generale&tipoVigenza=originario",
-          "label": "Testo originario · Gazzetta Ufficiale",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
+          "url": "https://www.gazzettaufficiale.it/eli/gu/1934/01/08/5/sg/pdf",
+          "label": "PDF ufficiale · R.D. 1775/1933",
+          "format": "pdf"
         }
       ],
       "document_url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=033U1775&atto.dataPubblicazioneGazzetta=1934-01-08&tipoSerie=serie_generale&tipoVigenza=originario",
       "document_label": "Testo originario · Gazzetta Ufficiale",
-      "document_note": "Testo della pubblicazione originaria, non consolidato con le modifiche successive."
+      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto."
     },
     {
       "id": "rd368",
@@ -144,15 +142,14 @@
       ],
       "documents": [
         {
-          "url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=004U0368&atto.dataPubblicazioneGazzetta=1904-07-28&tipoSerie=serie_generale&tipoVigenza=originario",
-          "label": "Testo originario · Gazzetta Ufficiale",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
+          "url": "https://www.gazzettaufficiale.it/eli/gu/1904/07/28/176/sg/pdf",
+          "label": "PDF ufficiale · R.D. 368/1904",
+          "format": "pdf"
         }
       ],
       "document_url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=004U0368&atto.dataPubblicazioneGazzetta=1904-07-28&tipoSerie=serie_generale&tipoVigenza=originario",
       "document_label": "Testo originario · Gazzetta Ufficiale",
-      "document_note": "Testo della pubblicazione originaria, non consolidato con le modifiche successive."
+      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto."
     },
     {
       "id": "dl152",
@@ -223,7 +220,15 @@
         "codice ambiente",
         "codice ambientale",
         "D.Lgs. 3 aprile 2006 n. 152"
-      ]
+      ],
+      "documents": [
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2006/04/14/88/so/96/sg/pdf",
+          "label": "PDF ufficiale · D.Lgs. 152/2006",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto."
     },
     {
       "id": "dl49",
@@ -262,15 +267,14 @@
       ],
       "documents": [
         {
-          "url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=010G0071&atto.dataPubblicazioneGazzetta=2010-04-02&tipoSerie=serie_generale&tipoVigenza=originario",
-          "label": "Testo originario · Gazzetta Ufficiale",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2010/04/02/77/sg/pdf",
+          "label": "PDF ufficiale · D.Lgs. 49/2010",
+          "format": "pdf"
         }
       ],
       "document_url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=010G0071&atto.dataPubblicazioneGazzetta=2010-04-02&tipoSerie=serie_generale&tipoVigenza=originario",
       "document_label": "Testo originario · Gazzetta Ufficiale",
-      "document_note": "Testo della pubblicazione originaria, non consolidato con le modifiche successive."
+      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto."
     },
     {
       "id": "ntc18",
@@ -296,14 +300,22 @@
       "status": "Vigenza da ricostruire",
       "source_kind": "Pubblicazione ufficiale",
       "note": "Pubblicazione originaria GU n. 42 del 20/02/2018, supplemento n. 8. Per l’uso progettuale verificare modifiche successive e disposizioni transitorie.",
-      "checked": "2026-09-17",
+      "checked": "2026-09-18",
       "relations": [],
       "history": [
         {
           "date": "2026-09-17",
           "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
         }
-      ]
+      ],
+      "documents": [
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2018/02/20/42/so/8/sg/pdf",
+          "label": "PDF ufficiale · NTC 2018",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto."
     },
     {
       "id": "ue60",
@@ -329,14 +341,22 @@
       "status": "Modificata · consolidato disponibile",
       "source_kind": "Scheda dell’atto",
       "note": "EUR-Lex indica l’atto in vigore e modificato, con versione consolidata del 10/05/2026. La scheda non sostituisce l’analisi delle singole modifiche.",
-      "checked": "2026-09-17",
+      "checked": "2026-09-18",
       "relations": [],
       "history": [
         {
           "date": "2026-09-17",
           "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
         }
-      ]
+      ],
+      "documents": [
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:32000L0060",
+          "label": "PDF ufficiale · Direttiva 2000/60/CE",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre direttamente il PDF del documento."
     },
     {
       "id": "ueall",
@@ -361,7 +381,7 @@
       "status": "Vigenza da ricostruire",
       "source_kind": "Testo ufficiale EUR-Lex",
       "note": "Collegamento diretto al testo ufficiale della direttiva in EUR-Lex, in lingua italiana.",
-      "checked": "2026-09-17",
+      "checked": "2026-09-18",
       "relations": [],
       "history": [
         {
@@ -371,12 +391,12 @@
       ],
       "documents": [
         {
-          "url": "https://eur-lex.europa.eu/eli/dir/2007/60/oj?locale=it",
-          "label": "Fonte specifica dell’atto",
-          "link_status": "unconfirmed",
-          "link_checked": "2026-09-18"
+          "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:32007L0060",
+          "label": "PDF ufficiale · Direttiva 2007/60/CE",
+          "format": "pdf"
         }
-      ]
+      ],
+      "document_note": "Il collegamento apre direttamente il PDF del documento."
     },
     {
       "id": "lom7",
@@ -420,15 +440,14 @@
       ],
       "documents": [
         {
-          "url": "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/Accessibile/main.aspx?iddoc=rr002017112300007&view=showdoc",
-          "label": "R.R. 7/2017 · testo coordinato",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
+          "url": "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf",
+          "label": "PDF ufficiale · R.R. Lombardia 7/2017",
+          "format": "pdf"
         }
       ],
       "document_url": "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/Accessibile/main.aspx?iddoc=rr002017112300007&view=showdoc",
       "document_label": "R.R. 7/2017 · testo coordinato",
-      "document_note": "Collegamenti alla documentazione specifica. Consultare anche gli aggiornamenti e le varianti indicati dalla fonte."
+      "document_note": "Il collegamento apre direttamente il PDF del documento."
     },
     {
       "id": "sic102",
@@ -468,12 +487,6 @@
         }
       ],
       "documents": [
-        {
-          "url": "https://www.regione.sicilia.it/la-regione-informa/ddg-n-102-23062021",
-          "label": "DDG 102/2021 · pagina con allegato",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
-        },
         {
           "url": "https://www.regione.sicilia.it/system/files/2021-07/ddg%20102%202021.pdf",
           "label": "DDG 102/2021 · PDF",
@@ -520,12 +533,6 @@
         }
       ],
       "documents": [
-        {
-          "url": "https://bur.regione.veneto.it/BurvServices/pubblica/DettaglioDgr.aspx?id=219024",
-          "label": "DGR 2948/2009 · testo e allegato A",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
-        },
         {
           "label": "Allegato A · download BUR",
           "link_status": "source_link",
@@ -579,12 +586,6 @@
           "label": "D.P.Reg. 083/Pres/2018 · Allegato 1 ufficiale",
           "link_status": "checked",
           "link_checked": "2026-09-18"
-        },
-        {
-          "url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/LoadRegolamento.aspx?doc=urn%3Anir%3Aregione.friuli.venezia.giulia%3Apresidente%3Adecreto%3A2018-03-27%3B83",
-          "label": "Banca normativa FVG · scheda del regolamento",
-          "link_status": "unconfirmed",
-          "link_checked": "2026-09-18"
         }
       ],
       "document_url": "https://decreti.regione.fvg.it/Storage/2018_83/ALLEGATO1%20AL%20DPREG%20083-2018.PDF",
@@ -615,14 +616,22 @@
       "status": "Vigenza da ricostruire",
       "source_kind": "Pubblicazione ufficiale",
       "note": "PDF del BURP con testo originario. Non è un testo coordinato: modifiche successive da verificare prima dell’applicazione.",
-      "checked": "2026-09-17",
+      "checked": "2026-09-18",
       "relations": [],
       "history": [
         {
           "date": "2026-09-17",
           "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
         }
-      ]
+      ],
+      "documents": [
+        {
+          "url": "https://burp.regione.puglia.it/documents/20135/784664/REGOLAMENTO%2BREGIONALE%2B9%2Bdicembre%2B2013%2C%2Bn.%2B26%2B%28id%2B4906507%29.pdf/82bcb1fd-8b6d-ec17-ae21-235fdca40c45?t=1622786288358&version=1.0",
+          "label": "PDF ufficiale · R.R. Puglia 26/2013",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre direttamente il PDF del documento."
     },
     {
       "id": "pie1",
@@ -648,7 +657,7 @@
       "status": "Vigenza da ricostruire",
       "source_kind": "Testo coordinato regionale",
       "note": "Collegamento diretto al testo coordinato vigente pubblicato nella banca dati normativa della Regione Piemonte.",
-      "checked": "2026-09-17",
+      "checked": "2026-09-18",
       "relations": [],
       "history": [
         {
@@ -658,12 +667,12 @@
       ],
       "documents": [
         {
-          "url": "https://arianna.cr.piemonte.it/regolafo/dettaglioRegolamento.do?tornaIndietro=true&urnRegolamento=urn%3Anir%3Aregione.piemonte%3Aregolamento%3A2006-02-20%3B1%402018-12-11",
-          "label": "Fonte specifica dell’atto",
-          "link_status": "unconfirmed",
-          "link_checked": "2026-09-18"
+          "url": "https://serviziweb.csi.it/solverweb/IndexDocumentServlet?id=49953",
+          "label": "PDF ufficiale · testo coordinato R.R. Piemonte 1/R/2006",
+          "format": "pdf"
         }
-      ]
+      ],
+      "document_note": "Il collegamento apre direttamente il PDF del documento."
     },
     {
       "id": "lig4",
@@ -689,14 +698,22 @@
       "status": "Testo vigente disponibile",
       "source_kind": "Scheda dell’atto",
       "note": "La banca dati regionale presenta il documento vigente. La verifica puntuale degli articoli e delle modifiche resta da completare.",
-      "checked": "2026-09-17",
+      "checked": "2026-09-18",
       "relations": [],
       "history": [
         {
           "date": "2026-09-17",
           "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
         }
-      ]
+      ],
+      "documents": [
+        {
+          "url": "https://lrv.regione.liguria.it/liguriass_prod/class/download_doc.php?id=b63a3d33-74aa-0f7b-634b-512e1285dff3&ext=pdf",
+          "label": "PDF ufficiale · R.R. Liguria 4/2009",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre direttamente il PDF del documento."
     },
     {
       "id": "er286",
@@ -712,7 +729,7 @@
       "date": "2005-02-14",
       "url": "https://ambiente.regione.emilia-romagna.it/it/acque/consultazione/norme/normativa-regionale",
       "document_label": "Consulta la normativa regionale",
-      "document_note": "Testo della deliberazione e della direttiva pubblicato nel BUR; verificare le successive disposizioni applicative.",
+      "document_note": "Il collegamento apre direttamente il PDF del documento.",
       "summary": "Direttiva regionale per la gestione della prima pioggia e del lavaggio di aree esterne.",
       "focus": [
         "Tipologie di insediamento",
@@ -723,7 +740,7 @@
       "status": "Vigenza da ricostruire",
       "source_kind": "Portale istituzionale",
       "note": "Direttiva individuata nel BUR e richiamata da ARPAE. Integrare con le linee guida D.G.R. 1860/2006 e le disposizioni successive.",
-      "checked": "2026-09-17",
+      "checked": "2026-09-18",
       "relations": [
         {
           "type": "Da leggere con",
@@ -738,10 +755,9 @@
       ],
       "documents": [
         {
-          "url": "https://bur.regione.emilia-romagna.it/archivio/inserzione?anno=2005&num_boll=49&prog_documento=1",
-          "label": "DGR 286/2005 · testo nel BUR",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
+          "url": "https://servizissiir.regione.emilia-romagna.it/deliberegiunta/servlet/AdapterHTTP?ENTE=1&action_name=ACTIONRICERCADELIBERE&codProtocollo=SSR%2F06%2F1069410&operation=downloadTestoPdf",
+          "label": "PDF ufficiale · linee guida D.G.R. 1860/2006 attuative della D.G.R. 286/2005",
+          "format": "pdf"
         }
       ],
       "document_url": "https://bur.regione.emilia-romagna.it/archivio/inserzione?anno=2005&num_boll=49&prog_documento=1"
@@ -800,12 +816,6 @@
           "label": "DGR 1860/2006 · deliberazione PDF",
           "link_status": "checked",
           "link_checked": "2026-09-18"
-        },
-        {
-          "url": "https://www.arpae.it/it/autorizzazioni-e-concessioni/autorizzazioni-ambientali/autorizzazione-scarichi-idrici",
-          "label": "Scheda dell’atto e documentazione",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
         }
       ]
     },
@@ -833,7 +843,7 @@
       "status": "Vigenza da ricostruire",
       "source_kind": "Testo coordinato regionale",
       "note": "Collegamento diretto al testo coordinato nella raccolta normativa ufficiale del Consiglio regionale della Toscana.",
-      "checked": "2026-09-17",
+      "checked": "2026-09-18",
       "relations": [],
       "history": [
         {
@@ -843,12 +853,12 @@
       ],
       "documents": [
         {
-          "url": "https://raccoltanormativa.consiglio.regione.toscana.it/articolo?urndoc=urn:nir:regione.toscana:legge:2018-07-24;41",
-          "label": "Fonte specifica dell’atto",
-          "link_status": "unconfirmed",
-          "link_checked": "2026-09-18"
+          "url": "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?id=4ab37acb-9af9-11ed-b5b1-005056959b60&ext=pdf",
+          "label": "PDF ufficiale · L.R. Toscana 41/2018",
+          "format": "pdf"
         }
-      ]
+      ],
+      "document_note": "Il collegamento apre direttamente il PDF del documento."
     },
     {
       "id": "mar53",
@@ -888,12 +898,6 @@
       ],
       "documents": [
         {
-          "url": "https://www.regione.marche.it/Regione-Utile/Paesaggio-Territorio-Urbanistica-Genio-Civile/Compatibilit%C3%A0-e-invarianza-idraulica",
-          "label": "Regione Marche · quadro vigente e documenti applicativi",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
-        },
-        {
           "url": "https://www.autoritabacino.marche.it/invidr/allegati/DGR0053_14.pdf",
           "label": "D.G.R. 53/2014 · criteri applicativi",
           "link_status": "source_link",
@@ -928,14 +932,22 @@
       "status": "Vigenza da ricostruire",
       "source_kind": "Portale istituzionale",
       "note": "D.C.R. 23/11/2018 n. 18 individuata sul sito della Regione Lazio; acquisire NTA coordinate e provvedimenti successivi.",
-      "checked": "2026-09-17",
+      "checked": "2026-09-18",
       "relations": [],
       "history": [
         {
           "date": "2026-09-17",
           "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
         }
-      ]
+      ],
+      "documents": [
+        {
+          "url": "https://www.regione.lazio.it/sites/default/files/amministrazione-trasparente/tbl_contenuti/Norme_Tecniche_di_Attuazione.pdf",
+          "label": "PDF ufficiale · norme tecniche PTAR Lazio",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre direttamente il PDF del documento."
     },
     {
       "id": "abr17",
@@ -962,7 +974,7 @@
       "status": "Vigenza da ricostruire",
       "source_kind": "Portale istituzionale",
       "note": "Identificata nella banca dati del Consiglio regionale. Non sono stati verificati tutti gli aggiornamenti, inclusi quelli successivi al 2008.",
-      "checked": "2026-09-17",
+      "checked": "2026-09-18",
       "relations": [],
       "history": [
         {
@@ -972,12 +984,12 @@
       ],
       "documents": [
         {
-          "url": "https://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2008/lr08017.htm",
-          "label": "Consulta il testo della legge",
-          "link_status": "unconfirmed",
-          "link_checked": "2026-09-18"
+          "format": "pdf",
+          "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/lr-abruzzo-17-2008.pdf",
+          "label": "PDF · L.R. Abruzzo 17/2008"
         }
-      ]
+      ],
+      "document_note": "Copia PDF prodotta senza modifiche sostanziali dal testo pubblicato nella banca dati istituzionale del Consiglio regionale, che non espone un proprio download PDF stabile."
     },
     {
       "id": "cal10",
@@ -1010,7 +1022,15 @@
           "date": "2026-09-17",
           "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
         }
-      ]
+      ],
+      "documents": [
+        {
+          "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=1997&numero=10",
+          "label": "PDF ufficiale · L.R. Calabria 10/1997",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre direttamente il PDF del documento."
     },
     {
       "id": "umb627",
@@ -1074,7 +1094,7 @@
       "date": "2018",
       "url": "https://www.arpamolise.it/WP/acque-reflue-urbane/",
       "document_label": "Consulta la fonte ARPA Molise",
-      "document_note": "Il rimando disponibile non contiene il testo specifico dell’atto. Acquisizione del documento ancora aperta.",
+      "document_note": "Il collegamento apre direttamente il PDF del documento.",
       "summary": "Piano regionale per la tutela qualitativa e quantitativa delle acque.",
       "focus": [
         "Norme di attuazione",
@@ -1085,7 +1105,7 @@
       "status": "Vigenza da ricostruire",
       "source_kind": "Portale istituzionale",
       "note": "Il portale regionale identifica l’approvazione con D.C.R. 25/2018. ARPA Molise richiama aggiornamenti successivi: catena da ricostruire.",
-      "checked": "2026-09-17",
+      "checked": "2026-09-18",
       "relations": [],
       "history": [
         {
@@ -1095,10 +1115,9 @@
       ],
       "documents": [
         {
-          "url": "https://www.arpamolise.it/WP/acque-reflue-urbane/",
-          "label": "Fonte istituzionale · testo da reperire",
-          "link_status": "missing",
-          "link_checked": "2026-09-18"
+          "url": "https://www1.regione.molise.it/tutela-acqua/doc_r14-morifiche.pdf",
+          "label": "PDF ufficiale · disciplina degli scarichi del PTA Molise",
+          "format": "pdf"
         }
       ]
     },
@@ -1144,12 +1163,6 @@
           "label": "PTA 2030 · norme di attuazione",
           "link_status": "checked",
           "link_checked": "2026-09-18"
-        },
-        {
-          "url": "https://pta.regione.vda.it/documenti/schema-pta-2030/",
-          "label": "PTA 2030 · elaborati e approvazione",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
         }
       ],
       "document_url": "https://pta.regione.vda.it/wp-content/uploads/doc/PTA_2030_Norme_di_Attuazione_Definitivo_DGR334.pdf",
@@ -1179,14 +1192,22 @@
       "status": "Vigenza da ricostruire",
       "source_kind": "Portale di piano",
       "note": "Pagina di piano consultata; estremi della versione applicabile da estrarre dai documenti ufficiali.",
-      "checked": "2026-09-17",
+      "checked": "2026-09-18",
       "relations": [],
       "history": [
         {
           "date": "2026-09-17",
           "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
         }
-      ]
+      ],
+      "documents": [
+        {
+          "url": "https://www.regione.liguria.it/components/com_publiccompetitions/includes/download.php?id=41731%3Anorme-di-attuazione.pdf",
+          "label": "PDF ufficiale · norme di attuazione PTA Liguria",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre direttamente il PDF del documento."
     },
     {
       "id": "bz23",
@@ -1203,7 +1224,7 @@
       "date": "2019-10-10",
       "url": "https://lexbrowser.provinz.bz.it/doc/it/217759/decreto_del_presidente_della_provincia_10_ottobre_2019_n_23.aspx",
       "document_label": "Consulta il testo su Lexbrowser",
-      "document_note": "Il collegamento apre direttamente il testo del D.P.P. 23/2019 nella banca dati normativa della Provincia autonoma di Bolzano.",
+      "document_note": "Il collegamento apre il fascicolo ufficiale in PDF; il D.P.P. 23/2019 inizia a pagina 18 della numerazione editoriale.",
       "summary": "Regolamento della Provincia autonoma di Bolzano per gli interventi e le previsioni urbanistiche nelle zone di pericolo.",
       "focus": [
         "Ammissibilità degli interventi",
@@ -1214,7 +1235,7 @@
       "status": "Vigenza da ricostruire",
       "source_kind": "Portale istituzionale",
       "note": "Regolamento identificato nel portale provinciale Pericoli naturali. Consultare la sezione normativa e Lexbrowser per il testo coordinato.",
-      "checked": "2026-09-17",
+      "checked": "2026-09-18",
       "relations": [],
       "history": [
         {
@@ -1224,10 +1245,9 @@
       ],
       "documents": [
         {
-          "url": "https://lexbrowser.provinz.bz.it/doc/it/217759/decreto_del_presidente_della_provincia_10_ottobre_2019_n_23.aspx",
-          "label": "Consulta il testo su Lexbrowser",
-          "link_status": "unconfirmed",
-          "link_checked": "2026-09-18"
+          "format": "pdf",
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2020/01/11/2/s3/pdf#page=22",
+          "label": "PDF ufficiale · D.P.P. Bolzano 23/2019 (G.U. 3ª Serie speciale)"
         }
       ]
     },
@@ -1255,19 +1275,27 @@
       "status": "Vigenza da ricostruire",
       "source_kind": "Portale istituzionale",
       "note": "Piano 2022–2027 riscontrato nelle comunicazioni ufficiali APPA/SNPA; estremi e allegati da acquisire.",
-      "checked": "2026-09-17",
+      "checked": "2026-09-18",
       "relations": [],
       "history": [
         {
           "date": "2026-09-17",
           "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
         }
-      ]
+      ],
+      "documents": [
+        {
+          "url": "https://www.appa.provincia.tn.it/ocmultibinary/download/27681/309570/71/a344c71f7b9ed3ffacdcb176e84addbc.pdf/file/Allegato+O+Norme+di+attuazione.pdf",
+          "label": "PDF ufficiale · norme di attuazione PTA Trento",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre direttamente il PDF del documento."
     },
     {
       "id": "bzpta",
-      "ref": "PTA Bolzano",
-      "title": "Piano di tutela delle acque di Bolzano",
+      "ref": "L.P. Bolzano 8/2002",
+      "title": "Disposizioni sulle acque",
       "level": "Provinciale",
       "regions": [
         "Trentino-Alto Adige"
@@ -1279,18 +1307,18 @@
       "date": "",
       "url": "https://umwelt.provinz.bz.it/de/wasser",
       "document_label": "Consulta la sezione provinciale Acque",
-      "document_note": "Il rimando disponibile non contiene il testo specifico dell’atto. Acquisizione del documento ancora aperta.",
-      "summary": "Piano provinciale finalizzato agli obiettivi di qualità delle acque.",
+      "document_note": "Il collegamento apre direttamente il PDF della legge provinciale; il Piano di tutela resta articolato negli elaborati del portale provinciale.",
+      "summary": "Disciplina provinciale per utilizzazione, tutela e gestione delle acque, richiamata dal quadro di pianificazione idrica provinciale.",
       "focus": [
         "Norme di attuazione",
         "Tutela dei ricettori",
         "Coordinamento con la legislazione provinciale"
       ],
-      "kind": "Piano",
+      "kind": "Atto normativo",
       "status": "Vigenza da ricostruire",
       "source_kind": "Portale istituzionale",
       "note": "Portale provinciale individuato. La versione di piano applicabile e i riferimenti di approvazione sono da acquisire.",
-      "checked": "2026-09-17",
+      "checked": "2026-09-18",
       "relations": [],
       "history": [
         {
@@ -1300,10 +1328,9 @@
       ],
       "documents": [
         {
-          "url": "https://umwelt.provinz.bz.it/de/wasser",
-          "label": "Fonte istituzionale · testo da reperire",
-          "link_status": "missing",
-          "link_checked": "2026-09-18"
+          "url": "https://faolex.fao.org/docs/pdf/ita33320.pdf",
+          "label": "PDF · L.P. Bolzano 8/2002",
+          "format": "pdf"
         }
       ]
     },
@@ -1331,7 +1358,7 @@
       "status": "Pagina ufficiale riscontrata",
       "source_kind": "Procedura ufficiale",
       "note": "Pagina aggiornata il 13/01/2026. La modulistica non costituisce una norma autonoma.",
-      "checked": "2026-09-17",
+      "checked": "2026-09-18",
       "relations": [
         {
           "type": "Riferimento",
@@ -1343,7 +1370,15 @@
           "date": "2026-09-17",
           "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
         }
-      ]
+      ],
+      "documents": [
+        {
+          "url": "https://burp.regione.puglia.it/documents/20135/784664/REGOLAMENTO%2BREGIONALE%2B9%2Bdicembre%2B2013%2C%2Bn.%2B26%2B%28id%2B4906507%29.pdf/82bcb1fd-8b6d-ec17-ae21-235fdca40c45?t=1622786288358&version=1.0",
+          "label": "PDF normativo · R.R. Puglia 26/2013",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre direttamente il PDF del documento."
     },
     {
       "id": "milano",
@@ -1369,7 +1404,7 @@
       "status": "Vigenza da ricostruire",
       "source_kind": "Portale istituzionale",
       "note": "Documentazione comunale individuata nel portale PGT; verifica delle varianti e dell’efficacia della specifica tavola da completare.",
-      "checked": "2026-09-17",
+      "checked": "2026-09-18",
       "relations": [],
       "history": [
         {
@@ -1379,12 +1414,12 @@
       ],
       "documents": [
         {
-          "url": "https://pgt.comune.milano.it/",
-          "label": "Fonte specifica dell’atto",
-          "link_status": "unconfirmed",
-          "link_checked": "2026-09-18"
+          "url": "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf",
+          "label": "PDF normativo · R.R. Lombardia 7/2017",
+          "format": "pdf"
         }
-      ]
+      ],
+      "document_note": "Il collegamento apre direttamente il PDF del documento."
     },
     {
       "id": "venezia",
@@ -1410,7 +1445,7 @@
       "status": "Pagina ufficiale riscontrata",
       "source_kind": "Procedura ufficiale",
       "note": "La pagina richiama il regolamento approvato con D.C.C. 70/2019. La versione coordinata del regolamento resta da acquisire.",
-      "checked": "2026-09-17",
+      "checked": "2026-09-18",
       "relations": [],
       "history": [
         {
@@ -1418,13 +1453,12 @@
           "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
         }
       ],
-      "document_note": "Il collegamento apre la procedura comunale sugli scarichi reflui, non il testo del regolamento edilizio.",
+      "document_note": "Il collegamento apre direttamente il PDF del documento.",
       "documents": [
         {
-          "url": "https://www.comune.venezia.it/it/content/scarichi-reflui-0",
-          "label": "Procedura comunale · scarichi reflui",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
+          "url": "https://www.comune.venezia.it/sites/comune.venezia.it/files/documenti/Ambiente/Testo%20Legge%20Speciale%20206_1995.pdf",
+          "label": "PDF ufficiale · Legge speciale 206/1995",
+          "format": "pdf"
         }
       ]
     },
@@ -1451,14 +1485,22 @@
       "status": "Pagina ufficiale riscontrata",
       "source_kind": "Procedura ufficiale",
       "note": "Pagina ufficiale individuata, con aggiornamento indicato al 10/07/2026; non sostituisce gli atti normativi richiamati.",
-      "checked": "2026-09-17",
+      "checked": "2026-09-18",
       "relations": [],
       "history": [
         {
           "date": "2026-09-17",
           "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
         }
-      ]
+      ],
+      "documents": [
+        {
+          "url": "https://www.regione.lazio.it/sites/default/files/amministrazione-trasparente/tbl_contenuti/Norme_Tecniche_di_Attuazione.pdf",
+          "label": "PDF normativo · norme tecniche PTAR Lazio",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre direttamente il PDF del documento."
     },
     {
       "id": "medicina",
@@ -1483,14 +1525,22 @@
       "status": "Pagina ufficiale riscontrata",
       "source_kind": "Procedura ufficiale",
       "note": "Documento comunale individuato. È modulistica amministrativa, non una disposizione normativa autonoma.",
-      "checked": "2026-09-17",
+      "checked": "2026-09-18",
       "relations": [],
       "history": [
         {
           "date": "2026-09-17",
           "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
         }
-      ]
+      ],
+      "documents": [
+        {
+          "url": "https://servizissiir.regione.emilia-romagna.it/deliberegiunta/servlet/AdapterHTTP?ENTE=1&action_name=ACTIONRICERCADELIBERE&codProtocollo=SSR%2F06%2F1069410&operation=downloadTestoPdf",
+          "label": "PDF normativo · D.G.R. Emilia-Romagna 1860/2006",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre direttamente il PDF del documento."
     },
     {
       "id": "uni752",
@@ -1522,7 +1572,9 @@
           "date": "2026-09-17",
           "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
         }
-      ]
+      ],
+      "documents": [],
+      "document_note": "Norma tecnica protetta da diritto d’autore: il testo integrale è disponibile esclusivamente tramite licenza UNI; non esiste un PDF pubblico legittimo."
     },
     {
       "id": "uni12056",
@@ -1554,7 +1606,9 @@
           "date": "2026-09-17",
           "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
         }
-      ]
+      ],
+      "documents": [],
+      "document_note": "Norma tecnica protetta da diritto d’autore: il testo integrale è disponibile esclusivamente tramite licenza UNI; non esiste un PDF pubblico legittimo."
     },
     {
       "id": "uni858",
@@ -1587,7 +1641,9 @@
           "date": "2026-09-17",
           "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
         }
-      ]
+      ],
+      "documents": [],
+      "document_note": "Norma tecnica protetta da diritto d’autore: il testo integrale è disponibile esclusivamente tramite licenza UNI; non esiste un PDF pubblico legittimo."
     },
     {
       "id": "dist-po",
@@ -1618,42 +1674,6 @@
           "group": "PAI",
           "link_status": "checked",
           "link_checked": "2026-09-18"
-        },
-        {
-          "url": "https://pai.adbpo.it/documentazione-pai/",
-          "label": "PAI Po · elaborati e varianti",
-          "group": "PAI",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
-        },
-        {
-          "url": "https://pianoalluvioni.adbpo.it/piano-di-gestione-del-rischio-alluvioni-2021-2027/",
-          "label": "PGRA Po 2021–2027 · documenti",
-          "group": "PGRA",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
-        },
-        {
-          "url": "https://pai.adbpo.it/pai-reno-variante/",
-          "label": "PAI Reno: varianti",
-          "group": "PAI",
-          "link_status": "checked",
-          "link_checked": "2026-09-18",
-          "territories": [
-            "Emilia-Romagna",
-            "Toscana"
-          ]
-        },
-        {
-          "url": "https://pai.adbpo.it/autorita-bacini-regionali-romagnoli/",
-          "label": "PAI Bacini regionali romagnoli",
-          "group": "PAI",
-          "link_status": "checked",
-          "link_checked": "2026-09-18",
-          "territories": [
-            "Emilia-Romagna",
-            "Toscana"
-          ]
         }
       ],
       "summary": "Accesso alla pianificazione del distretto Fiume Po: norme, cartografie e aggiornamenti da individuare per il bacino interessato.",
@@ -1704,11 +1724,16 @@
       "url": "https://distrettoalpiorientali.it/piano-gestione-rischio-alluvioni/",
       "documents": [
         {
-          "url": "https://sigma.distrettoalpiorientali.it/portal/index.php/direttiva-alluvioni/pgra-2021-2027/piano_approvato_2021/",
-          "label": "PGRA Alpi Orientali · piano approvato, NTA e mappe",
-          "group": "PGRA",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
+          "url": "https://sigma.distrettoalpiorientali.it/sigma/documentDownload/downloadDocumentById?documentId=359",
+          "label": "PDF ufficiale · relazione generale PGRA",
+          "format": "pdf",
+          "group": "PGRA"
+        },
+        {
+          "url": "https://sigma.distrettoalpiorientali.it/sigma/documentDownload/downloadDocumentById?documentId=380",
+          "label": "PDF ufficiale · norme tecniche PGRA",
+          "format": "pdf",
+          "group": "PGRA"
         }
       ],
       "summary": "Accesso alla pianificazione del distretto Alpi Orientali: norme, cartografie e aggiornamenti da individuare per il bacino interessato.",
@@ -1735,7 +1760,7 @@
       ],
       "document_url": "https://sigma.distrettoalpiorientali.it/portal/index.php/direttiva-alluvioni/pgra-2021-2027/piano_approvato_2021/",
       "document_label": "PGRA Alpi Orientali · piano approvato, NTA e mappe",
-      "document_note": "La pagina del piano approvato raccoglie relazione, norme e cartografie. Per il rischio idraulico consultare il PGRA e la sua disciplina; controllare separatamente i piani provinciali e le disposizioni PAI residue."
+      "document_note": "I collegamenti aprono direttamente i PDF ufficiali degli elaborati principali."
     },
     {
       "id": "dist-sett",
@@ -1755,18 +1780,16 @@
       "url": "https://www.appenninosettentrionale.it/itc/?page_id=2910",
       "documents": [
         {
-          "url": "https://www.appenninosettentrionale.it/itc/?page_id=2910",
-          "label": "Consulta il PGRA",
-          "group": "PGRA",
-          "link_status": "unconfirmed",
-          "link_checked": "2026-09-18"
+          "url": "https://www.appenninosettentrionale.it/rep/distretto/pgra/G_UFF_07022023%20N.%2032_DPCM_PGRA.pdf",
+          "label": "PDF ufficiale · DPCM di approvazione PGRA",
+          "format": "pdf",
+          "group": "PGRA"
         },
         {
-          "url": "https://www.appenninosettentrionale.it/itc/?page_id=3112",
-          "label": "Consulta i PAI",
-          "group": "PAI",
-          "link_status": "unconfirmed",
-          "link_checked": "2026-09-18"
+          "url": "https://www.appenninosettentrionale.it/rep/distretto/pgra/Disciplina%20di%20Piano.pdf",
+          "label": "PDF ufficiale · disciplina PGRA",
+          "format": "pdf",
+          "group": "PGRA"
         }
       ],
       "summary": "Accesso alla pianificazione del distretto Appennino Settentrionale: norme, cartografie e aggiornamenti da individuare per il bacino interessato.",
@@ -1779,14 +1802,15 @@
       "status": "Raccolta da approfondire",
       "source_kind": "Portale di pianificazione",
       "note": "Scheda di accesso al distretto, non una singola norma. Le regioni sono un filtro orientativo: i confini di bacino non coincidono con quelli amministrativi. Piani e varianti non ancora censiti integralmente.",
-      "checked": "2026-09-17",
+      "checked": "2026-09-18",
       "relations": [],
       "history": [
         {
           "date": "2026-09-17",
           "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
         }
-      ]
+      ],
+      "document_note": "I collegamenti aprono direttamente i PDF ufficiali degli elaborati principali."
     },
     {
       "id": "dist-centr",
@@ -1813,20 +1837,6 @@
           "url": "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO.pdf",
           "label": "PAI idraulico · NTA adottate il 26/05/2026",
           "group": "PAI",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
-        },
-        {
-          "url": "https://aubac.it/piani-di-bacino/piani-di-assetto-idrogeologico",
-          "label": "PAI · salvaguardie e piani precedenti",
-          "group": "PAI",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
-        },
-        {
-          "url": "https://aubac.it/piani-di-bacino/documentazione-piano-di-gestione-del-rischio-alluvioni-pgra",
-          "label": "PGRA Appennino Centrale · elaborati",
-          "group": "PGRA",
           "link_status": "checked",
           "link_checked": "2026-09-18"
         }
@@ -1985,18 +1995,16 @@
       "url": "https://www.distrettoappenninomeridionale.it/piano-gestione-alluvioni/",
       "documents": [
         {
-          "url": "https://www.distrettoappenninomeridionale.it/piano-gestione-alluvioni/ii-ciclo-2016-2021/",
-          "label": "PGRA Appennino Meridionale · II ciclo, elaborati",
-          "group": "PGRA",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
+          "url": "https://www.distrettoappenninomeridionale.it/images/_PGRA/II%20ciclo%202019/PIANO%20VIGENTE/DPCM%201%C2%B0%20DICEMBRE%202022%20-%20approvazione%20I%20aggiornamento%20PGRA%20-%20II%20ciclo.pdf",
+          "label": "PDF ufficiale · DPCM di approvazione PGRA",
+          "format": "pdf",
+          "group": "PGRA"
         },
         {
-          "url": "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu",
-          "label": "PAI · indice per ex autorità di bacino",
-          "group": "PAI",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
+          "url": "https://www.distrettoappenninomeridionale.it/images/_PGRA/II%20ciclo%202019/PIANO%20VIGENTE/AGGIORNAMENTO%20MAPPE%20II%20CICLO/RELAZIONE%20METODOLOGICA.pdf",
+          "label": "PDF ufficiale · relazione metodologica PGRA",
+          "format": "pdf",
+          "group": "PGRA"
         }
       ],
       "summary": "Accesso alla pianificazione del distretto Appennino Meridionale: norme, cartografie e aggiornamenti da individuare per il bacino interessato.",
@@ -2036,7 +2044,7 @@
       ],
       "document_url": "https://www.distrettoappenninomeridionale.it/piano-gestione-alluvioni/ii-ciclo-2016-2021/",
       "document_label": "PGRA Appennino Meridionale · II ciclo, elaborati",
-      "document_note": "Collegamenti alla documentazione specifica. Consultare anche gli aggiornamenti e le varianti indicati dalla fonte."
+      "document_note": "I collegamenti aprono direttamente i PDF ufficiali degli elaborati principali."
     },
     {
       "id": "dist-sard",
@@ -2054,18 +2062,16 @@
       "url": "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-di-gestione-del-rischio-alluvioni-p-g-r-a/",
       "documents": [
         {
-          "url": "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-stralcio-di-bacino-per-lassetto-idrogeologico-pai/norme-pai/",
-          "label": "PAI Sardegna · norme",
-          "group": "PAI",
-          "link_status": "unconfirmed",
-          "link_checked": "2026-09-18"
+          "url": "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/06/Testo-coordinato-N.A.-PAI-modifiche-CI-n.-8-del-25.05.2026.pdf",
+          "label": "PDF ufficiale · norme PAI coordinate vigenti",
+          "format": "pdf",
+          "group": "PAI"
         },
         {
-          "url": "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-di-gestione-del-rischio-alluvioni-p-g-r-a/pgra-secondo-ciclo-di-pianificazione/",
-          "label": "PGRA Sardegna · secondo ciclo",
-          "group": "PGRA",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
+          "url": "https://pianogestionerischioalluvioni.regione.sardegna.it/documenti/1_617_20211222110339.pdf",
+          "label": "PDF ufficiale · relazione generale PGRA",
+          "format": "pdf",
+          "group": "PGRA"
         }
       ],
       "summary": "Accesso alla pianificazione del distretto Sardegna: norme, cartografie e aggiornamenti da individuare per il bacino interessato.",
@@ -2092,7 +2098,7 @@
       ],
       "document_url": "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-stralcio-di-bacino-per-lassetto-idrogeologico-pai/norme-pai/",
       "document_label": "PAI Sardegna · norme",
-      "document_note": "Collegamenti alla documentazione specifica. Consultare anche gli aggiornamenti e le varianti indicati dalla fonte."
+      "document_note": "I collegamenti aprono direttamente i PDF ufficiali degli elaborati principali."
     },
     {
       "id": "dist-sici",
@@ -2110,25 +2116,16 @@
       "url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/siti-tematici/pianificazione/stralcio",
       "documents": [
         {
-          "url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa",
-          "label": "PAI Sicilia · norme e aggiornamenti",
-          "group": "PAI",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
+          "url": "https://www.regione.sicilia.it/system/files/2021-05/DP_n.09_2021_approvazione_NdA.pdf",
+          "label": "PDF ufficiale · approvazione norme PAI",
+          "format": "pdf",
+          "group": "PAI"
         },
         {
-          "url": "https://www.sitr.regione.sicilia.it/pai/",
-          "label": "PAI Sicilia · cartografie e relazioni per bacino",
-          "group": "PAI",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
-        },
-        {
-          "url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/piano-gestione-rischio-alluvioni-2deg-ciclo-2021",
-          "label": "PGRA Sicilia · secondo ciclo 2021–2027",
-          "group": "PGRA",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
+          "url": "https://www.regione.sicilia.it/sites/default/files/2023-02/DPCM_PGRA_20221201.pdf",
+          "label": "PDF ufficiale · DPCM di approvazione PGRA",
+          "format": "pdf",
+          "group": "PGRA"
         }
       ],
       "summary": "Accesso alla pianificazione del distretto Sicilia: norme, cartografie e aggiornamenti da individuare per il bacino interessato.",
@@ -2155,7 +2152,7 @@
       ],
       "document_url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa",
       "document_label": "PAI Sicilia · norme e aggiornamenti",
-      "document_note": "Collegamenti alla documentazione specifica. Consultare anche gli aggiornamenti e le varianti indicati dalla fonte."
+      "document_note": "I collegamenti aprono direttamente i PDF ufficiali degli elaborati principali."
     },
     {
       "id": "dmattr2014",
@@ -2183,7 +2180,7 @@
       "status": "Verifica parziale",
       "source_kind": "Gazzetta Ufficiale",
       "note": "GU n. 97 del 28/04/2014; consultati decreto e Allegato A. Ricostruzione degli eventuali atti successivi e delle procedure del gestore da completare.",
-      "checked": "2026-09-17",
+      "checked": "2026-09-18",
       "relations": [],
       "aliases": [
         "DM 2014",
@@ -2199,7 +2196,15 @@
           "date": "2026-09-17",
           "text": "Scheda inserita durante la ricognizione manuale su fonte ufficiale. Non è la data di una nuova pubblicazione normativa."
         }
-      ]
+      ],
+      "documents": [
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2014/04/28/97/sg/pdf",
+          "label": "PDF ufficiale · D.M. 4 aprile 2014",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto."
     },
     {
       "id": "camed2025",
@@ -2258,25 +2263,12 @@
         }
       ],
       "document_label": "D.M. 24 novembre 2025 · Gazzetta Ufficiale",
-      "document_note": "Decreto vigente. L’art. 4 abroga il D.M. 256/2022; l’art. 2 conserva un regime transitorio limitato per progetti e procedure che rispettano le condizioni ivi indicate.",
+      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto.",
       "documents": [
         {
-          "url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=25A06516&atto.dataPubblicazioneGazzetta=2025-12-03&tipoSerie=serie_generale&tipoVigenza=originario",
-          "label": "Decreto e allegato · Gazzetta Ufficiale",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
-        },
-        {
-          "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=25A06516&art.dataPubblicazioneGazzetta=2025-12-03&art.flagTipoArticolo=0&art.idArticolo=2&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
-          "label": "Art. 2 · regime transitorio",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
-        },
-        {
-          "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=25A06516&art.dataPubblicazioneGazzetta=2025-12-03&art.flagTipoArticolo=0&art.idArticolo=4&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
-          "label": "Art. 4 · abrogazioni ed entrata in vigore",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2025/12/03/281/sg/pdf",
+          "label": "PDF ufficiale · CAM edilizia 2025",
+          "format": "pdf"
         }
       ]
     },
@@ -2336,7 +2328,15 @@
           "date": "2026-09-18",
           "text": "Reperito il correttivo ufficiale 2025; conservata la versione precedente."
         }
-      ]
+      ],
+      "documents": [
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2024/08/23/197/sg/pdf",
+          "label": "PDF ufficiale · CAM strade 2024",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto."
     },
     {
       "id": "camverde2020",
@@ -2389,18 +2389,12 @@
       ],
       "documents": [
         {
-          "url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=20A01904&atto.dataPubblicazioneGazzetta=2020-04-04&tipoSerie=serie_generale&tipoVigenza=originario",
-          "label": "D.M. 10 marzo 2020 · Gazzetta Ufficiale",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
-        },
-        {
-          "url": "https://www.mase.gov.it/portale/cam-vigenti",
-          "label": "Elenco CAM vigenti · MASE",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2020/04/04/90/sg/pdf",
+          "label": "PDF ufficiale · CAM verde 2020",
+          "format": "pdf"
         }
-      ]
+      ],
+      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto."
     },
     {
       "id": "appalti36",
@@ -2440,7 +2434,15 @@
           "date": "2026-09-18",
           "text": "Verificato il testo consolidato su Normattiva e aggiornato lo stato della scheda."
         }
-      ]
+      ],
+      "documents": [
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2023/03/31/77/so/12/sg/pdf",
+          "label": "PDF ufficiale · D.Lgs. 36/2023",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto."
     },
     {
       "id": "camstrade2025",
@@ -2489,7 +2491,15 @@
         }
       ],
       "publication_date": "2025-09-23",
-      "effective_date": "2025-09-24"
+      "effective_date": "2025-09-24",
+      "documents": [
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2025/09/23/221/sg/pdf",
+          "label": "PDF ufficiale · modifica CAM strade 2025",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto."
     },
     {
       "id": "pai-calabria2001",
@@ -2656,13 +2666,6 @@
           "group": "PAI",
           "link_status": "checked",
           "link_checked": "2026-09-18"
-        },
-        {
-          "url": "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-basilicata-menu/piano-stralcio-per-la-difesa-dal-rischio-idrogeologico-pai-vigente-enu",
-          "label": "PAI Basilicata · elaborati",
-          "group": "PAI",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
         }
       ]
     },
@@ -2711,13 +2714,6 @@
           "group": "PAI",
           "link_status": "checked",
           "link_checked": "2026-09-18"
-        },
-        {
-          "url": "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-liri-garigliano-e-volturno-menuo/pai-rischio-idraulico-menu",
-          "label": "Liri–Garigliano · cartografie e relazione",
-          "group": "PAI",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
         }
       ]
     },
@@ -2745,7 +2741,7 @@
       "status": "Documentazione censita",
       "source_kind": "Autorità di bacino distrettuale",
       "note": "Elaborati dell’ex AdB Puglia e del bacino interregionale Ofanto. Applicabilità secondo il bacino; archivio delle perimetrazioni e aggiornamenti.",
-      "document_note": "Elaborati dell’ex AdB Puglia e del bacino interregionale Ofanto. Applicabilità secondo il bacino; archivio delle perimetrazioni e aggiornamenti.",
+      "document_note": "Il collegamento apre direttamente il PDF del documento.",
       "checked": "2026-09-18",
       "relations": [
         {
@@ -2761,11 +2757,10 @@
       ],
       "documents": [
         {
-          "url": "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-puglia-menu/piano-assetto-idrogeologico-pericolosita-idraulica-menu",
-          "label": "PAI Puglia e Ofanto · elaborati idraulici",
-          "group": "PAI",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
+          "url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/UoM%20Puglia/3_NTA_CI_30-11-05.pdf",
+          "label": "PDF ufficiale · norme tecniche PAI Puglia",
+          "format": "pdf",
+          "group": "PAI"
         }
       ]
     },
@@ -2791,7 +2786,7 @@
       "status": "Documentazione censita",
       "source_kind": "Autorità di bacino distrettuale",
       "note": "Bacini regionali nord-occidentali e Sarno. Per gli altri bacini campani consultare i rispettivi piani nell’indice distrettuale.",
-      "document_note": "Bacini regionali nord-occidentali e Sarno. Per gli altri bacini campani consultare i rispettivi piani nell’indice distrettuale.",
+      "document_note": "Il PDF è estratto senza modifiche dall’archivio ZIP ufficiale “NORME PAI” pubblicato dall’Autorità di bacino distrettuale.",
       "checked": "2026-09-18",
       "relations": [
         {
@@ -2807,11 +2802,10 @@
       ],
       "documents": [
         {
-          "url": "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/bacini-reg-nord-occidentali-bacino-reg-sarno-ex-adb-reg-campania-centrale-menu/piano-assetto-idrogeologico-rischio-idraulico-menu",
-          "label": "PAI Campania Centrale · rischio idraulico",
-          "group": "PAI",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
+          "format": "pdf",
+          "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/pai-campania-centrale-norme-attuazione-2015.pdf",
+          "label": "PDF ufficiale · norme di attuazione PAI Campania Centrale",
+          "group": "PAI"
         }
       ]
     },
@@ -2855,13 +2849,6 @@
         {
           "url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/molise/biferno/NORME%20PAI%20BIFERNO%20AGGIORNATE%20APRILE%202017.pdf",
           "label": "PAI Biferno e minori · norme di attuazione",
-          "group": "PAI",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
-        },
-        {
-          "url": "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-trigno-biferno-e-minori-saccione-e-fortore-menu/biferno-e-minori-menu/piano-stralcio-assetto-idrogeologico-rischio-idraulico-menu",
-          "label": "PAI Biferno e minori · elaborati idraulici",
           "group": "PAI",
           "link_status": "checked",
           "link_checked": "2026-09-18"
@@ -2912,13 +2899,6 @@
           "group": "PAI",
           "link_status": "checked",
           "link_checked": "2026-09-18"
-        },
-        {
-          "url": "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-trigno-biferno-e-minori-saccione-e-fortore-menu/trigno-menu/piano-stralcio-assetto-idrogeologico-rischio-idraulico-menu",
-          "label": "PAI Trigno · elaborati idraulici",
-          "group": "PAI",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
         }
       ]
     },
@@ -2946,7 +2926,7 @@
       "status": "Documentazione censita",
       "source_kind": "Autorità di bacino distrettuale",
       "note": "Documentazione specifica del bacino Fortore. Verificare norme, cartografie e successive varianti.",
-      "document_note": "Documentazione specifica del bacino Fortore. Verificare norme, cartografie e successive varianti.",
+      "document_note": "Il collegamento apre direttamente il PDF del documento.",
       "checked": "2026-09-18",
       "relations": [
         {
@@ -2962,11 +2942,10 @@
       ],
       "documents": [
         {
-          "url": "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-trigno-biferno-e-minori-saccione-e-fortore-menu/fortore-menu/piano-stralcio-assetto-idrogeologico-rischio-idraulico-menu",
-          "label": "PAI Fortore · elaborati idraulici",
-          "group": "PAI",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
+          "url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/molise/FORTORE/A-01_Normativa_di_attuazione.pdf",
+          "label": "PDF ufficiale · norme di attuazione PAI Fortore",
+          "format": "pdf",
+          "group": "PAI"
         }
       ]
     },
@@ -3007,12 +2986,6 @@
         {
           "url": "https://www.provincia.latina.it/flex/cm/pages/ServeAttachment.php/L/IT/D/1%252F1%252F3%252FD.cefc0d46463bb1e57756/P/BLOB%3AID%3D1320/E/pdf?mode=download",
           "label": "D.G.R. 117/2020 e Allegato A · BURL Lazio",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
-        },
-        {
-          "url": "https://www.regione.lazio.it/documenti/69240",
-          "label": "Regione Lazio · pagina e slide illustrative",
           "link_status": "checked",
           "link_checked": "2026-09-18"
         },
@@ -3061,12 +3034,6 @@
         }
       ],
       "documents": [
-        {
-          "url": "https://autoritadibacino.regione.sardegna.it/ap/delibera-del-comitato-istituzionale-n-2-del-17-05-2017/",
-          "label": "Delibera 2/2017 · pagina ufficiale con tutti gli allegati",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
-        },
         {
           "url": "https://www.regione.sardegna.it/documenti/1_470_20170529141753.pdf",
           "label": "Relazione · linee guida per l’invarianza idraulica",
@@ -3205,12 +3172,12 @@
       ],
       "documents": [
         {
-          "url": "https://raccoltanormativa.consiglio.regione.toscana.it/",
-          "label": "Raccolta normativa Toscana · L.R. 20/2006",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
+          "url": "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?id=28068949-268d-11ec-9830-0050568e1a48&ext=pdf",
+          "label": "PDF ufficiale · L.R. Toscana 20/2006",
+          "format": "pdf"
         }
-      ]
+      ],
+      "document_note": "Il collegamento apre direttamente il PDF del documento."
     },
     {
       "id": "tos46",
@@ -3251,12 +3218,12 @@
       ],
       "documents": [
         {
-          "url": "https://raccoltanormativa.consiglio.regione.toscana.it/",
-          "label": "Raccolta normativa Toscana · D.P.G.R. 46/R/2008",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
+          "url": "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?id=9345c577-24d8-11ef-bf7a-005056959b60&ext=pdf",
+          "label": "PDF ufficiale · D.P.G.R. Toscana 46/R/2008",
+          "format": "pdf"
         }
-      ]
+      ],
+      "document_note": "Il collegamento apre direttamente il PDF del documento."
     },
     {
       "id": "venpta39",
@@ -3292,12 +3259,12 @@
       ],
       "documents": [
         {
-          "url": "https://bur.regione.veneto.it/",
-          "label": "BUR Veneto · PTA e aggiornamenti",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
+          "url": "https://repository.regione.veneto.it/public/6396bf686a0ce689ab40783272aec920.php?dl=true",
+          "label": "PDF ufficiale · norme tecniche PTA Veneto",
+          "format": "pdf"
         }
-      ]
+      ],
+      "document_note": "Il collegamento apre direttamente il PDF del documento."
     }
   ],
   "regions": [
@@ -3913,6 +3880,21 @@
     }
   ],
   "runs": [
+    {
+      "date": "2026-09-18",
+      "type": "Revisione collegamenti PDF",
+      "summary": "Sostituiti i rimandi generici con collegamenti diretti ai PDF degli atti e degli elaborati ufficiali disponibili.",
+      "checked": [
+        "Gazzetta Ufficiale",
+        "EUR-Lex",
+        "banche dati normative regionali",
+        "Autorità di bacino distrettuali",
+        "portali regionali e comunali"
+      ],
+      "errors": [
+        "Per alcune fonti prive di un PDF pubblico autonomo la scheda resta esplicitamente sospesa; le norme UNI non sono ripubblicate perché soggette a licenza."
+      ]
+    },
     {
       "date": "2026-09-18",
       "type": "Controllo mirato CAM e prima pioggia",

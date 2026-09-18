@@ -1,0 +1,87 @@
+.record-actions {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-top: 14px;
+}
+
+.record-actions a {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 11px;
+  border-radius: 4px;
+  background: #e8f4f4;
+  color: #086b70;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.record-actions a:hover { background: #d9eded; }
+.record-actions .reset { padding: 8px 0; }
+
+.source-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 22px 0;
+  padding: 18px;
+  border: 1px solid #b9dada;
+  border-left: 4px solid var(--teal);
+  border-radius: 6px;
+  background: #f0f8f8;
+}
+
+.source-box strong,
+.source-box span { display: block; }
+
+.source-box span {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.source-box a {
+  flex: 0 0 auto;
+  display: inline-flex;
+  padding: 10px 13px;
+  border-radius: 4px;
+  background: var(--teal);
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.source-actions {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: stretch;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.source-actions a { justify-content: center; }
+
+.secondary-source { margin-top: 8px; }
+
+@media (max-width: 760px) {
+  .source-box { display: block; }
+  .source-actions { margin-top: 14px; justify-content: flex-start; }
+  .source-box a { margin-top: 0; }
+  .record-actions { gap: 12px; }
+}
+
+.document-link { min-width:0; max-width:100%; }
+.document-link a { overflow-wrap:anywhere; }
+.document-link small { display:block; font-size:12px; line-height:1.4; margin:5px 0 8px; color:var(--muted); }
+.document-link .link-warning { color:#935015; }
+.source-box { align-items:flex-start; flex-wrap:wrap; }
+.source-actions { flex:1 1 260px; justify-content:flex-start; }
+.regional-plans { border-top:1px solid #d9e4e4; margin:16px 0; padding-top:3px; }
+.regional-plans h4 { margin:16px 0 10px; font-size:14px; }
+.regional-plans .document-link { margin-bottom:10px; font-size:14px; }
+.regional-plans .plan-note { font-size:12px; margin-top:16px; }

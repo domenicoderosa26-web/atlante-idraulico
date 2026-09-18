@@ -1858,6 +1858,112 @@
       "document_note": "NTA del nuovo PAI idraulico adottate il 26 maggio 2026. Adozione e approvazione sono distinte: consultare le misure di salvaguardia e il regime transitorio nella pagina PAI."
     },
     {
+      "id": "bas9",
+      "ref": "L.R. Basilicata 9/2017",
+      "title": "Disciplina degli impianti di trattamento delle acque reflue urbane e delle autorizzazioni provvisorie agli scarichi",
+      "level": "Regionale",
+      "regions": [
+        "Basilicata"
+      ],
+      "topics": [
+        "Prima pioggia",
+        "Scarichi e tutela acque"
+      ],
+      "date": "2017-05-29",
+      "url": "https://www.astrid-online.it/static/upload/regi/regione-basilicata_legge-regionale-29-maggio-2017--n9.pdf",
+      "summary": "Legge-quadro regionale tuttora vigente. L’articolo 5 demanda alla Giunta l’approvazione delle linee guida, comprese le disposizioni tecniche sugli scarichi e sulle acque meteoriche.",
+      "focus": [
+        "Legge-quadro regionale",
+        "Approvazione dei progetti",
+        "Base legislativa delle linee guida regionali"
+      ],
+      "kind": "Legge regionale",
+      "status": "Vigente · legge-quadro",
+      "source_kind": "Testo pubblicato in G.U. · copia PDF",
+      "note": "La L.R. 9/2017 non è stata abrogata dalla D.G.R. 471/2026. La disciplina tecnica aggiornata delle acque di prima pioggia è contenuta nelle linee guida allegate alla D.G.R. 471/2026.",
+      "checked": "2026-09-18",
+      "relations": [
+        {
+          "type": "Attuata e aggiornata da",
+          "id": "bas471"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-18",
+          "text": "Ripristinata dopo verifica della vigenza e collegata al PDF integrale."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www.astrid-online.it/static/upload/regi/regione-basilicata_legge-regionale-29-maggio-2017--n9.pdf",
+          "label": "L.R. Basilicata 9/2017 · PDF integrale",
+          "format": "pdf",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "bas471",
+      "ref": "D.G.R. Basilicata 471/2026",
+      "title": "Linee guida regionali sugli scarichi, sulle acque di prima pioggia e di lavaggio · aggiornamento 2026",
+      "level": "Regionale",
+      "regions": [
+        "Basilicata"
+      ],
+      "topics": [
+        "Prima pioggia",
+        "Scarichi e tutela acque"
+      ],
+      "date": "2026-07-28",
+      "url": "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A35795B0B&idDocumento=795801377B580A307C5C",
+      "summary": "Aggiornamento 2026 delle linee guida adottate in attuazione dell’articolo 5 della L.R. 9/2017; sostituisce la D.G.R. 305/2023 dal 1° agosto 2026.",
+      "focus": [
+        "Acque meteoriche di dilavamento",
+        "Acque di prima pioggia e di lavaggio",
+        "Regimi amministrativi e autorizzazioni"
+      ],
+      "kind": "Linee guida regionali",
+      "status": "Vigente dal 1° agosto 2026",
+      "source_kind": "Repertorio ufficiale Regione Basilicata",
+      "note": "La D.G.R. 772/2019 era una proposta sottoposta al parere consiliare, poi confermata dalla D.G.R. 380/2020. La D.G.R. 305/2023 è stata abrogata e sostituita dalla D.G.R. 471/2026.",
+      "checked": "2026-09-18",
+      "relations": [
+        {
+          "type": "Attua",
+          "id": "bas9"
+        },
+        {
+          "type": "Sostituisce",
+          "text": "D.G.R. Basilicata 305/2023 (abrogata dal 01/08/2026)"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-18",
+          "text": "Sostituito l’errato rinvio alla D.G.R. 772/2019 con l’aggiornamento vigente 2026 e con i PDF ufficiali."
+        }
+      ],
+      "document_note": "Entrambi i collegamenti aprono direttamente file PDF del repertorio ufficiale della Regione Basilicata.",
+      "documents": [
+        {
+          "url": "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A397A5C07&idDocumento=795801377B580A307C5C",
+          "label": "D.G.R. Basilicata 471/2026 · PDF",
+          "format": "pdf",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        },
+        {
+          "url": "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A35795B0B&idDocumento=795801377B580A307C5C",
+          "label": "Linee guida 2026 · allegato PDF",
+          "format": "pdf",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        }
+      ]
+    },
+    {
       "id": "dist-merid",
       "ref": "PAI / PGRA · Appennino Meridionale",
       "title": "Pianificazione di bacino e rischio alluvioni",
@@ -2973,48 +3079,6 @@
       "document_note": "La pagina ufficiale raccoglie la deliberazione, la relazione, le tabelle, gli esempi di calcolo e le schede tecniche."
     },
     {
-      "id": "bas772",
-      "ref": "D.G.R. 772/2019",
-      "title": "Acque meteoriche di dilavamento e acque di prima pioggia",
-      "level": "Regionale",
-      "regions": [
-        "Basilicata"
-      ],
-      "topics": [
-        "Prima pioggia",
-        "Scarichi e tutela acque"
-      ],
-      "date": "2019-10-30",
-      "url": "https://burweb.regione.basilicata.it/bur/ricercaBollettini.zul",
-      "summary": "Direttiva regionale che definisce le acque di prima pioggia e disciplina raccolta, trattamento, recapito e autorizzazione.",
-      "focus": [
-        "Primi 5 mm di precipitazione",
-        "Superfici e attività soggette",
-        "Trattamento e autorizzazione AUA"
-      ],
-      "kind": "Direttiva tecnica",
-      "status": "Atto specifico verificato · testo nel BUR da ricercare per estremi",
-      "source_kind": "Bollettino ufficiale regionale",
-      "note": "Sostituisce la precedente scheda non riscontrata “L.R. 9/2017”. La D.G.R. 772 del 30 ottobre 2019 e l’allegato tecnico sono il riferimento regionale individuato; il portale BUR non offre un URL stabile al singolo allegato.",
-      "checked": "2026-09-18",
-      "relations": [],
-      "history": [
-        {
-          "date": "2026-09-18",
-          "text": "Inserita dopo controllo mirato; eliminato il precedente riferimento L.R. 9/2017 non adeguatamente riscontrato."
-        }
-      ],
-      "documents": [
-        {
-          "url": "https://burweb.regione.basilicata.it/bur/ricercaBollettini.zul",
-          "label": "BUR Basilicata · cerca D.G.R. 772/2019",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
-        }
-      ],
-      "document_note": "Nel motore del BUR cercare numero 772, anno 2019 e data 30/10/2019; consultare anche l’allegato “Acque meteoriche di dilavamento e acque di prima pioggia”."
-    },
-    {
       "id": "lom4pp",
       "ref": "R.R. Lombardia 4/2006",
       "title": "Smaltimento delle acque di prima pioggia e di lavaggio delle aree esterne",
@@ -3027,7 +3091,7 @@
         "Scarichi e tutela acque"
       ],
       "date": "2006-03-24",
-      "url": "https://normelombardia.consiglio.regione.lombardia.it/",
+      "url": "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002006032400004&type=pdf",
       "summary": "Regolamento regionale specifico adottato in attuazione dell’art. 52 della L.R. 26/2003.",
       "focus": [
         "Superfici scolanti soggette",
@@ -3035,25 +3099,31 @@
         "Autorizzazione allo scarico"
       ],
       "kind": "Atto normativo",
-      "status": "Vigente nella banca normativa regionale",
-      "source_kind": "Banca normativa regionale",
-      "note": "La banca dati del Consiglio regionale espone il testo vigente e le note. Cercare “R.R. 24 marzo 2006, n. 4”; la pubblicazione ufficiale resta il BURL.",
+      "status": "Vigente · testo coordinato",
+      "source_kind": "Banca normativa del Consiglio regionale",
+      "note": "Il collegamento apre direttamente il PDF esportato dalla banca normativa ufficiale del Consiglio regionale della Lombardia.",
       "checked": "2026-09-18",
       "relations": [],
       "history": [
         {
           "date": "2026-09-18",
           "text": "Inserito dopo controllo mirato sulla banca normativa regionale."
+        },
+        {
+          "date": "2026-09-18",
+          "text": "Sostituito il collegamento generico con il PDF diretto del testo vigente."
         }
       ],
       "documents": [
         {
-          "url": "https://normelombardia.consiglio.regione.lombardia.it/",
-          "label": "Norme Lombardia · R.R. 4/2006",
+          "url": "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002006032400004&type=pdf",
+          "label": "R.R. Lombardia 4/2006 · PDF del testo vigente",
+          "format": "pdf",
           "link_status": "checked",
           "link_checked": "2026-09-18"
         }
-      ]
+      ],
+      "document_note": "Collegamento diretto al PDF del testo coordinato vigente."
     },
     {
       "id": "sar6925",
@@ -3278,11 +3348,12 @@
       },
       "first_rain": {
         "status": "specific",
-        "label": "Direttiva regionale specifica reperita",
+        "label": "Legge-quadro e linee guida regionali vigenti",
         "record_ids": [
-          "bas772"
+          "bas9",
+          "bas471"
         ],
-        "note": "Il riferimento verificato è la D.G.R. 772/2019 con allegato tecnico, non la precedente scheda L.R. 9/2017.",
+        "note": "La L.R. 9/2017 resta vigente; le prescrizioni tecniche aggiornate sono nell’allegato alla D.G.R. 471/2026, che sostituisce la D.G.R. 305/2023.",
         "checked": "2026-09-18"
       }
     },
@@ -4020,6 +4091,13 @@
     }
   ],
   "news": [
+    {
+      "date": "2026-09-18",
+      "status": "Verificato",
+      "title": "Basilicata · corretta la disciplina sulle acque di prima pioggia",
+      "summary": "Ripristinata la L.R. 9/2017 vigente e sostituito il riferimento preparatorio alla D.G.R. 772/2019 con la D.G.R. 471/2026 e il relativo allegato tecnico.",
+      "url": "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A35795B0B&idDocumento=795801377B580A307C5C"
+    },
     {
       "date": "2026-09-18",
       "title": "Lazio: aggiunte le linee guida regionali sull’invarianza idraulica",

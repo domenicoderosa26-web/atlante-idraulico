@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Normativa idraulica italiana: ricerca territoriale, fonti ufficiali e monitoraggio delle modifiche."
+    />
+    <title>Atlante Idraulico · Osservatorio normativo</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230d3045'/%3E%3Cpath d='M5 12Q10 6 16 12T27 12M5 20Q10 14 16 20T27 20' fill='none' stroke='%2357d7d3' stroke-width='3'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js?v=20260918-pdf-diretti" defer></script>
+  </head>
+  <body>
+    <div class="shell">
+      <aside>
+        <a class="brand" href="#catalogo"
+          ><span class="mark">≋</span
+          ><span>Atlante<br /><b>Idraulico</b></span></a
+        >
+        <div class="eyebrow">OSSERVATORIO NORMATIVO</div>
+        <nav aria-label="Principale">
+          <button data-view="catalogo" class="active">
+            ▤ <span>Normativa</span></button
+          ><button data-view="territori">
+            ◎ <span>Copertura territoriale</span></button
+          ><button data-view="fonti">↗ <span>Fonti ufficiali</span></button
+          ><button data-view="aggiornamenti">
+            ◷ <span>Monitoraggio</span>
+          </button>
+        </nav>
+        <div class="side-bottom">
+          <span>ITALIA</span>
+          <p>Dal quadro nazionale<br />alle prescrizioni locali.</p>
+          <div class="rule"></div>
+          <small
+            >Archivio in ampliamento<br />Solo riferimenti istituzionali</small
+          >
+        </div>
+      </aside>
+      <main>
+        <header>
+          <span>OSSERVATORIO / <b id="crumb">NORMATIVA</b></span
+          ><span class="edition">EDIZIONE <span id="edition">—</span></span>
+        </header>
+        <div class="main-inner">
+          <section class="heading">
+            <div>
+              <div class="eyebrow teal">
+                IL QUADRO NORMATIVO, IN UN SOLO LUOGO
+              </div>
+              <h1 id="title">Normativa idraulica</h1>
+              <p id="subtitle">
+                Trova i riferimenti per il tuo territorio e il tuo intervento.
+              </p>
+            </div>
+            <button class="outline" id="refresh">↻ Ricarica archivio</button>
+          </section>
+          <div id="load-error" role="alert" hidden></div>
+          <section class="stats" id="stats"></section>
+          <section id="catalogo" class="view">
+            <div class="searchbox">
+              <span aria-hidden="true">⌕</span
+              ><input
+                type="search"
+                id="search"
+                aria-label="Cerca una norma"
+                placeholder="Cerca per norma, ente, comune o parola chiave…"
+              /><kbd>/</kbd>
+            </div>
+            <div class="filters">
+              <label
+                >Territorio<select id="region">
+                  <option value="">Tutta Italia</option>
+                </select></label
+              ><label
+                >Livello<select id="level">
+                  <option value="">Tutti i livelli</option>
+                </select></label
+              ><label
+                >Argomento<select id="topic">
+                  <option value="">Tutti gli argomenti</option>
+                </select></label
+              ><button class="reset" id="reset">Azzera filtri</button>
+            </div>
+            <div class="topics" id="topics"></div>
+            <div class="result-head">
+              <h2>Riferimenti normativi <span id="count"></span></h2>
+              <label class="sort"
+                >Ordina
+                <select id="sort">
+                  <option value="level">Per livello</option>
+                  <option value="date">Più recenti</option>
+                  <option value="title">Per titolo</option>
+                </select></label
+              >
+            </div>
+            <div class="coverage-note" id="coverage-note">
+              Catalogo iniziale selettivo. La presenza di una scheda non
+              certifica la ricostruzione integrale della vigenza.
+            </div>
+            <div id="results"></div>
+          </section>
+          <section id="territori" class="view" hidden></section>
+          <section id="fonti" class="view" hidden></section>
+          <section id="aggiornamenti" class="view" hidden></section>
+          <footer>
+            <span>ATLANTE IDRAULICO</span
+            ><span
+              >Fonti consultate e limiti di copertura indicati nelle
+              schede.</span
+            >
+          </footer>
+        </div>
+      </main>
+    </div>
+    <dialog id="detail">
+      <div id="detail-content"></div>
+      <button id="close" class="close" aria-label="Chiudi scheda">×</button>
+    </dialog>
+  </body>
+</html>

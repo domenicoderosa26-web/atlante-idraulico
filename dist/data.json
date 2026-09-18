@@ -1,0 +1,4174 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-18",
+  "scope": "Catalogo selettivo con controllo mirato dei CAM e della disciplina delle acque di prima pioggia per tutte le regioni. La verifica locale e autorizzativa resta necessaria.",
+  "automation": {
+    "enabled": true,
+    "cadence": "Ogni giorno, ore 07:00 · Europe/Rome",
+    "configuredAt": "2026-09-17",
+    "lastCompletedRun": "2026-09-18",
+    "note": "Ultima revisione manuale del 18/09/2026: controllo mirato dell’invarianza idraulica su tutte le regioni, integrazione Lazio e Sardegna e correzione dei rimandi FVG e Marche. Il controllo giornaliero resta distinto dalla verifica giuridica puntuale.",
+    "lastPublicationStatus": "published_github_pages"
+  },
+  "records": [
+    {
+      "id": "rd523",
+      "ref": "R.D. 523/1904",
+      "title": "Opere idrauliche e polizia delle acque",
+      "level": "Nazionale",
+      "regions": [
+        "Italia"
+      ],
+      "topics": [
+        "Demanio e polizia idraulica",
+        "Attraversamenti"
+      ],
+      "date": "1904-07-25",
+      "url": "https://www.mase.gov.it/portale/documents/d/guest/rd_25-7-1904_n-523-pdf-1",
+      "summary": "Testo unico di riferimento per le opere idrauliche e gli interventi sui corsi d’acqua pubblici.",
+      "focus": [
+        "Divieti e distanze di rispetto",
+        "Autorizzazioni per opere in alveo",
+        "Interferenze con ponti, strade e ferrovie"
+      ],
+      "kind": "Atto normativo",
+      "status": "Vigenza da ricostruire",
+      "source_kind": "PDF ufficiale MASE",
+      "note": "Collegamento diretto al testo pubblicato dal Ministero dell’Ambiente e della Sicurezza Energetica. La ricostruzione della vigenza e delle modifiche successive resta da completare.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        },
+        {
+          "date": "2026-09-18",
+          "text": "Revisione manuale dei rimandi ai documenti e della relativa descrizione."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/1904/10/07/234/sg/pdf",
+          "label": "PDF ufficiale · R.D. 523/1904",
+          "format": "pdf"
+        }
+      ],
+      "document_url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=004U0523&atto.dataPubblicazioneGazzetta=1904-10-07&tipoSerie=serie_generale&tipoVigenza=originario",
+      "document_label": "Testo originario · Gazzetta Ufficiale",
+      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto."
+    },
+    {
+      "id": "rd1775",
+      "ref": "R.D. 1775/1933",
+      "title": "Acque pubbliche e derivazioni",
+      "level": "Nazionale",
+      "regions": [
+        "Italia"
+      ],
+      "topics": [
+        "Derivazioni e risorsa idrica"
+      ],
+      "date": "1933-12-11",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1933-12-11;1775",
+      "summary": "Testo unico sulle acque e sugli impianti elettrici, rilevante per concessioni e utilizzazioni della risorsa.",
+      "focus": [
+        "Derivazioni e concessioni",
+        "Compatibilità con le utilizzazioni esistenti",
+        "Coordinamento con la disciplina regionale"
+      ],
+      "kind": "Atto normativo",
+      "status": "Vigenza da ricostruire",
+      "source_kind": "Testo vigente Normattiva",
+      "note": "Collegamento diretto al testo dell’atto in Normattiva. La ricostruzione delle modifiche e dell’applicabilità delle singole disposizioni non è ancora completata.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        },
+        {
+          "date": "2026-09-18",
+          "text": "Revisione manuale dei rimandi ai documenti e della relativa descrizione."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/1934/01/08/5/sg/pdf",
+          "label": "PDF ufficiale · R.D. 1775/1933",
+          "format": "pdf"
+        }
+      ],
+      "document_url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=033U1775&atto.dataPubblicazioneGazzetta=1934-01-08&tipoSerie=serie_generale&tipoVigenza=originario",
+      "document_label": "Testo originario · Gazzetta Ufficiale",
+      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto."
+    },
+    {
+      "id": "rd368",
+      "ref": "R.D. 368/1904",
+      "title": "Regolamento sulle bonificazioni",
+      "level": "Nazionale",
+      "regions": [
+        "Italia"
+      ],
+      "topics": [
+        "Bonifica",
+        "Demanio e polizia idraulica"
+      ],
+      "date": "1904-05-08",
+      "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=004U0368&atto.dataPubblicazioneGazzetta=1904-07-28",
+      "summary": "Disciplina delle opere di bonifica e dei relativi canali.",
+      "focus": [
+        "Regime del reticolo di bonifica",
+        "Opere interferenti e distanze",
+        "Prescrizioni del consorzio competente"
+      ],
+      "kind": "Atto normativo",
+      "status": "Testo vigente disponibile",
+      "source_kind": "Scheda dell’atto",
+      "note": "Normattiva riporta il testo vigente al 17/09/2026. L’applicazione va coordinata con la disciplina territoriale e consortile.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        },
+        {
+          "date": "2026-09-18",
+          "text": "Revisione manuale dei rimandi ai documenti e della relativa descrizione."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/1904/07/28/176/sg/pdf",
+          "label": "PDF ufficiale · R.D. 368/1904",
+          "format": "pdf"
+        }
+      ],
+      "document_url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=004U0368&atto.dataPubblicazioneGazzetta=1904-07-28&tipoSerie=serie_generale&tipoVigenza=originario",
+      "document_label": "Testo originario · Gazzetta Ufficiale",
+      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto."
+    },
+    {
+      "id": "dl152",
+      "ref": "D.Lgs. 152/2006",
+      "title": "Testo unico ambientale (TUA) · Norme in materia ambientale · Parte III",
+      "level": "Nazionale",
+      "regions": [
+        "Italia"
+      ],
+      "topics": [
+        "Scarichi e tutela acque",
+        "Prima pioggia",
+        "PAI e PGRA",
+        "Drenaggio",
+        "Risorse idriche"
+      ],
+      "date": "2006-04-03",
+      "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2006-04-14&atto.codiceRedazionale=006G0171",
+      "summary": "Riferimento nazionale per difesa del suolo, pianificazione di bacino, tutela delle acque, fognature, scarichi e risorse idriche. Indice tematico delle disposizioni da consultare.",
+      "focus": [
+        "Artt. 53–72: difesa del suolo; autorità distrettuali, distretti, piani di bacino e piani stralcio per l’assetto idrogeologico (in particolare artt. 63–68).",
+        "Artt. 94–95: aree di salvaguardia delle acque destinate al consumo umano e pianificazione del bilancio idrico.",
+        "Artt. 98–99: risparmio e riutilizzo delle acque; ricostruire anche la disciplina attuativa e il quadro europeo del riuso.",
+        "Art. 100: reti fognarie. Artt. 101–108: criteri generali e disciplina degli scarichi, differenziata per recapito e tipologia.",
+        "Art. 113: acque meteoriche di dilavamento e di prima pioggia; raccordo con le discipline regionali.",
+        "Art. 114: dighe e gestione degli invasi. Art. 115: tutela delle aree di pertinenza dei corpi idrici.",
+        "Art. 121: piani di tutela delle acque (PTA). Artt. 124–125: autorizzazioni agli scarichi e domande.",
+        "Artt. 128–130: controllo degli scarichi e inosservanza delle prescrizioni. Artt. 133 e 137: apparato sanzionatorio.",
+        "Allegato 5 alla Parte III: limiti di emissione degli scarichi. Verificare tabelle pertinenti, deroghe e prescrizioni locali.",
+        "Parte II: verificare VIA, VAS e AIA quando pertinenti al progetto; il titolo allo scarico non esaurisce gli adempimenti dell’opera."
+      ],
+      "kind": "Atto normativo",
+      "status": "Vigenza da ricostruire",
+      "source_kind": "Scheda dell’atto",
+      "note": "Consultata la scheda e l’indice Normattiva vigente al 17/09/2026; il portale indica ultimo aggiornamento pubblicato l’11/08/2026. L’esportazione del testo completo ha restituito un errore. L’indice tematico orienta la consultazione: non riproduce il testo coordinato dei singoli commi né certifica tutte le modifiche e la loro applicabilità. Controllo 18/09/2026: la scheda mostra ancora ultimo aggiornamento pubblicato 11/08/2026; esportazione integrale nuovamente non riuscita. Nessuna attestazione sull’assenza di modifiche ulteriori.",
+      "checked": "2026-09-18",
+      "relations": [
+        {
+          "type": "Criteri ambientali pertinenti agli affidamenti",
+          "id": "camstrade2024"
+        },
+        {
+          "type": "Criteri ambientali pertinenti agli affidamenti",
+          "id": "camverde2020"
+        },
+        {
+          "type": "Criteri ambientali pertinenti agli affidamenti",
+          "id": "camed2025"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        },
+        {
+          "date": "2026-09-17",
+          "text": "Aggiunti nome Testo unico ambientale, alias TUA e indice delle disposizioni idrauliche; preservata la precedente scheda in history/2026-09-17-prima-integrazione.json."
+        },
+        {
+          "date": "2026-09-18",
+          "text": "Riletta la scheda Normattiva; testo coordinato integrale non acquisito."
+        }
+      ],
+      "aliases": [
+        "TUA",
+        "testo unico ambiente",
+        "codice ambiente",
+        "codice ambientale",
+        "D.Lgs. 3 aprile 2006 n. 152"
+      ],
+      "documents": [
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2006/04/14/88/so/96/sg/pdf",
+          "label": "PDF ufficiale · D.Lgs. 152/2006",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto."
+    },
+    {
+      "id": "dl49",
+      "ref": "D.Lgs. 49/2010",
+      "title": "Valutazione e gestione dei rischi di alluvioni",
+      "level": "Nazionale",
+      "regions": [
+        "Italia"
+      ],
+      "topics": [
+        "PAI e PGRA"
+      ],
+      "date": "2010-02-23",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-02-23;49",
+      "summary": "Riferimento nazionale per l’attuazione della direttiva Alluvioni e il processo di pianificazione PGRA.",
+      "focus": [
+        "Mappe di pericolosità e rischio",
+        "Piani di gestione del rischio alluvioni",
+        "Cicli di aggiornamento"
+      ],
+      "kind": "Atto normativo",
+      "status": "Vigenza da ricostruire",
+      "source_kind": "Testo vigente Normattiva",
+      "note": "Collegamento diretto al testo dell’atto in Normattiva. Il raccordo con i cicli di pianificazione e con gli aggiornamenti dei PGRA va verificato nelle schede distrettuali.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        },
+        {
+          "date": "2026-09-18",
+          "text": "Revisione manuale dei rimandi ai documenti e della relativa descrizione."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2010/04/02/77/sg/pdf",
+          "label": "PDF ufficiale · D.Lgs. 49/2010",
+          "format": "pdf"
+        }
+      ],
+      "document_url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=010G0071&atto.dataPubblicazioneGazzetta=2010-04-02&tipoSerie=serie_generale&tipoVigenza=originario",
+      "document_label": "Testo originario · Gazzetta Ufficiale",
+      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto."
+    },
+    {
+      "id": "ntc18",
+      "ref": "D.M. 17/01/2018",
+      "title": "Norme tecniche per le costruzioni",
+      "level": "Nazionale",
+      "regions": [
+        "Italia"
+      ],
+      "topics": [
+        "Attraversamenti",
+        "Drenaggio"
+      ],
+      "date": "2018-01-17",
+      "url": "https://www.gazzettaufficiale.it/eli/id/2018/2/20/18A00716/sg",
+      "summary": "Riferimento tecnico per le costruzioni, da consultare per le verifiche idrauliche dei ponti e delle opere interferenti.",
+      "focus": [
+        "Compatibilità idraulica dei ponti",
+        "Franco e interferenza con la corrente",
+        "Scalzamento e fondazioni"
+      ],
+      "kind": "Atto normativo",
+      "status": "Vigenza da ricostruire",
+      "source_kind": "Pubblicazione ufficiale",
+      "note": "Pubblicazione originaria GU n. 42 del 20/02/2018, supplemento n. 8. Per l’uso progettuale verificare modifiche successive e disposizioni transitorie.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2018/02/20/42/so/8/sg/pdf",
+          "label": "PDF ufficiale · NTC 2018",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto."
+    },
+    {
+      "id": "ue60",
+      "ref": "Direttiva 2000/60/CE",
+      "title": "Direttiva quadro sulle acque",
+      "level": "Europeo",
+      "regions": [
+        "Italia"
+      ],
+      "topics": [
+        "Scarichi e tutela acque",
+        "Derivazioni e risorsa idrica"
+      ],
+      "date": "2000-10-23",
+      "url": "https://eur-lex.europa.eu/eli/dir/2000/60/oj?locale=it",
+      "summary": "Quadro europeo per la protezione delle acque e gli obiettivi ambientali dei corpi idrici.",
+      "focus": [
+        "Stato dei corpi idrici",
+        "Obiettivi ambientali",
+        "Pianificazione distrettuale"
+      ],
+      "kind": "Atto normativo",
+      "status": "Modificata · consolidato disponibile",
+      "source_kind": "Scheda dell’atto",
+      "note": "EUR-Lex indica l’atto in vigore e modificato, con versione consolidata del 10/05/2026. La scheda non sostituisce l’analisi delle singole modifiche.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:32000L0060",
+          "label": "PDF ufficiale · Direttiva 2000/60/CE",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre direttamente il PDF del documento."
+    },
+    {
+      "id": "ueall",
+      "ref": "Direttiva 2007/60/CE",
+      "title": "Direttiva Alluvioni",
+      "level": "Europeo",
+      "regions": [
+        "Italia"
+      ],
+      "topics": [
+        "PAI e PGRA"
+      ],
+      "date": "2007-10-23",
+      "url": "https://eur-lex.europa.eu/eli/dir/2007/60/oj?locale=it",
+      "summary": "Quadro europeo per la valutazione e la gestione del rischio alluvioni.",
+      "focus": [
+        "Valutazione preliminare",
+        "Mappe e piani",
+        "Coordinamento con la direttiva Acque"
+      ],
+      "kind": "Atto normativo",
+      "status": "Vigenza da ricostruire",
+      "source_kind": "Testo ufficiale EUR-Lex",
+      "note": "Collegamento diretto al testo ufficiale della direttiva in EUR-Lex, in lingua italiana.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:32007L0060",
+          "label": "PDF ufficiale · Direttiva 2007/60/CE",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre direttamente il PDF del documento."
+    },
+    {
+      "id": "lom7",
+      "ref": "R.R. 7/2017",
+      "title": "Invarianza idraulica e idrologica",
+      "level": "Regionale",
+      "regions": [
+        "Lombardia"
+      ],
+      "topics": [
+        "Invarianza idraulica",
+        "Drenaggio"
+      ],
+      "date": "2017-11-23",
+      "url": "https://www.regione.lombardia.it/ambiente-e-territorio/difesa-del-suolo/invarianza-idraulica-idrologica",
+      "summary": "Criteri e metodi regionali per il controllo del deflusso prodotto dalle trasformazioni del suolo.",
+      "focus": [
+        "Classe di intervento e ambito territoriale",
+        "Dimensionamento delle misure compensative",
+        "Studio comunale e documento semplificato"
+      ],
+      "kind": "Atto normativo",
+      "status": "Testo coordinato verificato",
+      "source_kind": "Portale istituzionale",
+      "note": "Il regolamento si applica su tutto il territorio regionale. La pagina regionale conferma gli aggiornamenti introdotti dal R.R. 8/2019 e dal R.R. 3/2025; il collegamento apre il testo coordinato della banca dati del Consiglio regionale.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        },
+        {
+          "date": "2026-09-18",
+          "text": "Revisione manuale dei rimandi ai documenti e della relativa descrizione."
+        },
+        {
+          "date": "2026-09-18",
+          "text": "Confermati applicazione regionale e aggiornamenti R.R. 8/2019 e R.R. 3/2025 sulla pagina istituzionale."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf",
+          "label": "PDF ufficiale · R.R. Lombardia 7/2017",
+          "format": "pdf"
+        }
+      ],
+      "document_url": "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/Accessibile/main.aspx?iddoc=rr002017112300007&view=showdoc",
+      "document_label": "R.R. 7/2017 · testo coordinato",
+      "document_note": "Il collegamento apre direttamente il PDF del documento."
+    },
+    {
+      "id": "sic102",
+      "ref": "D.D.G. 102/2021",
+      "title": "Indirizzi applicativi per l’invarianza",
+      "level": "Regionale",
+      "regions": [
+        "Sicilia"
+      ],
+      "topics": [
+        "Invarianza idraulica"
+      ],
+      "date": "2021-06-23",
+      "url": "https://www.gurs.regione.sicilia.it/Gazzette/g21-30/g21-30.pdf",
+      "document_label": "DDG 102/2021 · pagina con allegato",
+      "document_note": "Pagina specifica verificata; il PDF è l’allegato pubblicato dalla Regione, ma il download non è stato confermato durante il controllo.",
+      "summary": "Indirizzi applicativi regionali per l’invarianza idraulica e idrologica nelle trasformazioni territoriali.",
+      "focus": [
+        "Ambito di applicazione",
+        "Superfici e portate di progetto",
+        "Compensazione e recapito finale"
+      ],
+      "kind": "Atto normativo",
+      "status": "Vigenza da ricostruire",
+      "source_kind": "Portale istituzionale",
+      "note": "Atto individuato nella pagina regionale “Norme per il governo del territorio” e pubblicato nella GURS 30/2021. Il collegamento apre il fascicolo ufficiale; eventuali aggiornamenti successivi restano da ricostruire.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        },
+        {
+          "date": "2026-09-18",
+          "text": "Revisione manuale dei rimandi ai documenti e della relativa descrizione."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www.regione.sicilia.it/system/files/2021-07/ddg%20102%202021.pdf",
+          "label": "DDG 102/2021 · PDF",
+          "link_status": "source_link",
+          "link_checked": "2026-09-18"
+        }
+      ],
+      "document_url": "https://www.regione.sicilia.it/la-regione-informa/ddg-n-102-23062021"
+    },
+    {
+      "id": "ven2948",
+      "ref": "D.G.R. 2948/2009",
+      "title": "Valutazione di compatibilità idraulica",
+      "level": "Regionale",
+      "regions": [
+        "Veneto"
+      ],
+      "topics": [
+        "Invarianza idraulica",
+        "Compatibilità idraulica"
+      ],
+      "date": "2009-10-06",
+      "url": "https://bur.regione.veneto.it/BurvServices/pubblica/Download.aspx?name=2948_AllegatoA_219024.pdf&storico=False&type=9",
+      "summary": "Indicazioni per la valutazione di compatibilità idraulica delle trasformazioni territoriali.",
+      "focus": [
+        "Trasformazioni urbanistiche",
+        "Misure compensative",
+        "Pareri degli enti competenti"
+      ],
+      "kind": "Atto normativo",
+      "status": "Vigenza da ricostruire",
+      "source_kind": "PDF ufficiale BUR Veneto",
+      "note": "Collegamento diretto all’Allegato A della D.G.R. 2948/2009 pubblicato nel Bollettino Ufficiale della Regione Veneto.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        },
+        {
+          "date": "2026-09-18",
+          "text": "Revisione manuale dei rimandi ai documenti e della relativa descrizione."
+        }
+      ],
+      "documents": [
+        {
+          "label": "Allegato A · download BUR",
+          "link_status": "source_link",
+          "link_checked": "2026-09-18",
+          "url": "https://bur.regione.veneto.it/BurvServices/pubblica/Download.aspx?name=2948_AllegatoA_219024.pdf&storico=False&type=9"
+        }
+      ],
+      "document_url": "https://bur.regione.veneto.it/BurvServices/pubblica/DettaglioDgr.aspx?id=219024",
+      "document_label": "DGR 2948/2009 · testo e allegato A",
+      "document_note": "Collegamenti alla documentazione specifica. Consultare anche gli aggiornamenti e le varianti indicati dalla fonte."
+    },
+    {
+      "id": "fvg83",
+      "ref": "D.P.Reg. 083/Pres/2018",
+      "title": "Regolamento di invarianza idraulica",
+      "level": "Regionale",
+      "regions": [
+        "Friuli-Venezia Giulia"
+      ],
+      "topics": [
+        "Invarianza idraulica",
+        "Compatibilità idraulica"
+      ],
+      "date": "2018-03-27",
+      "url": "https://decreti.regione.fvg.it/Storage/2018_83/ALLEGATO1%20AL%20DPREG%20083-2018.PDF",
+      "summary": "Regolamento attuativo della L.R. 11/2015, con criteri e metodi per l’invarianza.",
+      "focus": [
+        "Significatività della trasformazione",
+        "Studio di compatibilità idraulica",
+        "Metodi idrologici e volumi di invaso"
+      ],
+      "kind": "Atto normativo",
+      "status": "Testo tecnico verificato",
+      "source_kind": "Scheda dell’atto",
+      "note": "Verificato il PDF ufficiale dell’Allegato 1 al D.P.Reg. 083/Pres/2018. Il collegamento alla banca normativa può restituire un errore applicativo: per questo la scheda usa come primo rimando il PDF pubblicato nel sistema regionale dei decreti.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        },
+        {
+          "date": "2026-09-18",
+          "text": "Aggiunto il PDF ufficiale dell’Allegato 1 e segnalato l’errore della banca normativa."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://decreti.regione.fvg.it/Storage/2018_83/ALLEGATO1%20AL%20DPREG%20083-2018.PDF",
+          "label": "D.P.Reg. 083/Pres/2018 · Allegato 1 ufficiale",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        }
+      ],
+      "document_url": "https://decreti.regione.fvg.it/Storage/2018_83/ALLEGATO1%20AL%20DPREG%20083-2018.PDF",
+      "document_label": "D.P.Reg. 083/Pres/2018 · Allegato 1 ufficiale",
+      "document_note": "È disponibile il PDF ufficiale del regolamento; la banca normativa regionale ha restituito un errore applicativo durante il controllo."
+    },
+    {
+      "id": "pug26",
+      "ref": "R.R. 26/2013",
+      "title": "Acque meteoriche di dilavamento e prima pioggia",
+      "level": "Regionale",
+      "regions": [
+        "Puglia"
+      ],
+      "topics": [
+        "Prima pioggia",
+        "Scarichi e tutela acque"
+      ],
+      "date": "2013-12-09",
+      "url": "https://burp.regione.puglia.it/documents/20135/784664/REGOLAMENTO%2BREGIONALE%2B9%2Bdicembre%2B2013%2C%2Bn.%2B26%2B%28id%2B4906507%29.pdf/82bcb1fd-8b6d-ec17-ae21-235fdca40c45?t=1622786288358&version=1.0",
+      "summary": "Disciplina regionale in attuazione dell’art. 113 del D.Lgs. 152/2006.",
+      "focus": [
+        "Attività e superfici soggette",
+        "Raccolta e trattamento",
+        "Autorizzazione del recapito"
+      ],
+      "kind": "Atto normativo",
+      "status": "Vigenza da ricostruire",
+      "source_kind": "Pubblicazione ufficiale",
+      "note": "PDF del BURP con testo originario. Non è un testo coordinato: modifiche successive da verificare prima dell’applicazione.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://burp.regione.puglia.it/documents/20135/784664/REGOLAMENTO%2BREGIONALE%2B9%2Bdicembre%2B2013%2C%2Bn.%2B26%2B%28id%2B4906507%29.pdf/82bcb1fd-8b6d-ec17-ae21-235fdca40c45?t=1622786288358&version=1.0",
+          "label": "PDF ufficiale · R.R. Puglia 26/2013",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre direttamente il PDF del documento."
+    },
+    {
+      "id": "pie1",
+      "ref": "R.R. 1/R/2006",
+      "title": "Dilavamento e lavaggio delle aree esterne",
+      "level": "Regionale",
+      "regions": [
+        "Piemonte"
+      ],
+      "topics": [
+        "Prima pioggia",
+        "Scarichi e tutela acque"
+      ],
+      "date": "2006-02-20",
+      "url": "https://arianna.cr.piemonte.it/regolafo/dettaglioRegolamento.do?tornaIndietro=true&urnRegolamento=urn%3Anir%3Aregione.piemonte%3Aregolamento%3A2006-02-20%3B1%402018-12-11",
+      "summary": "Disciplina delle acque meteoriche e delle acque di lavaggio delle aree esterne.",
+      "focus": [
+        "Superfici e attività interessate",
+        "Piano di prevenzione e gestione",
+        "Raccolta, trattamento e scarico"
+      ],
+      "kind": "Atto normativo",
+      "status": "Vigenza da ricostruire",
+      "source_kind": "Testo coordinato regionale",
+      "note": "Collegamento diretto al testo coordinato vigente pubblicato nella banca dati normativa della Regione Piemonte.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://serviziweb.csi.it/solverweb/IndexDocumentServlet?id=49953",
+          "label": "PDF ufficiale · testo coordinato R.R. Piemonte 1/R/2006",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre direttamente il PDF del documento."
+    },
+    {
+      "id": "lig4",
+      "ref": "R.R. 4/2009",
+      "title": "Acque meteoriche e lavaggio delle aree esterne",
+      "level": "Regionale",
+      "regions": [
+        "Liguria"
+      ],
+      "topics": [
+        "Prima pioggia",
+        "Scarichi e tutela acque"
+      ],
+      "date": "2009-07-10",
+      "url": "https://lrv.regione.liguria.it/liguriass_prod/articolo?urndoc=urn%3Anir%3Aregione.liguria%3Aregolamento.consiglio%3A2009-07-10%3B4",
+      "summary": "Regolamento regionale sulla gestione delle acque provenienti dalle superfici esterne.",
+      "focus": [
+        "Ambito delle superfici scolanti",
+        "Regime degli scarichi",
+        "Misure di gestione"
+      ],
+      "kind": "Atto normativo",
+      "status": "Testo vigente disponibile",
+      "source_kind": "Scheda dell’atto",
+      "note": "La banca dati regionale presenta il documento vigente. La verifica puntuale degli articoli e delle modifiche resta da completare.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://lrv.regione.liguria.it/liguriass_prod/class/download_doc.php?id=b63a3d33-74aa-0f7b-634b-512e1285dff3&ext=pdf",
+          "label": "PDF ufficiale · R.R. Liguria 4/2009",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre direttamente il PDF del documento."
+    },
+    {
+      "id": "er286",
+      "ref": "D.G.R. 286/2005",
+      "title": "Indirizzi per le acque di prima pioggia",
+      "level": "Regionale",
+      "regions": [
+        "Emilia-Romagna"
+      ],
+      "topics": [
+        "Prima pioggia"
+      ],
+      "date": "2005-02-14",
+      "url": "https://ambiente.regione.emilia-romagna.it/it/acque/consultazione/norme/normativa-regionale",
+      "document_label": "Consulta la normativa regionale",
+      "document_note": "Il collegamento apre direttamente il PDF del documento.",
+      "summary": "Direttiva regionale per la gestione della prima pioggia e del lavaggio di aree esterne.",
+      "focus": [
+        "Tipologie di insediamento",
+        "Acque da raccogliere e trattare",
+        "Coordinamento con le linee guida attuative"
+      ],
+      "kind": "Atto normativo",
+      "status": "Vigenza da ricostruire",
+      "source_kind": "Portale istituzionale",
+      "note": "Direttiva individuata nel BUR e richiamata da ARPAE. Integrare con le linee guida D.G.R. 1860/2006 e le disposizioni successive.",
+      "checked": "2026-09-18",
+      "relations": [
+        {
+          "type": "Da leggere con",
+          "id": "er1860"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://servizissiir.regione.emilia-romagna.it/deliberegiunta/servlet/AdapterHTTP?ENTE=1&action_name=ACTIONRICERCADELIBERE&codProtocollo=SSR%2F06%2F1069410&operation=downloadTestoPdf",
+          "label": "PDF ufficiale · linee guida D.G.R. 1860/2006 attuative della D.G.R. 286/2005",
+          "format": "pdf"
+        }
+      ],
+      "document_url": "https://bur.regione.emilia-romagna.it/archivio/inserzione?anno=2005&num_boll=49&prog_documento=1"
+    },
+    {
+      "id": "er1860",
+      "ref": "D.G.R. 1860/2006",
+      "title": "Linee guida per dilavamento e prima pioggia",
+      "level": "Regionale",
+      "regions": [
+        "Emilia-Romagna"
+      ],
+      "topics": [
+        "Prima pioggia",
+        "Drenaggio"
+      ],
+      "date": "2006-12-18",
+      "url": "https://www.arpae.it/it/autorizzazioni-e-concessioni/autorizzazioni-ambientali/autorizzazione-scarichi-idrici",
+      "document_label": "DGR 1860/2006 · deliberazione PDF",
+      "document_note": "Il PDF contiene la deliberazione. Gli allegati tecnici vanno consultati separatamente nella documentazione dell’atto.",
+      "summary": "Criteri applicativi per la gestione delle acque meteoriche in attuazione della direttiva regionale.",
+      "focus": [
+        "Classificazione dei deflussi",
+        "Gestione delle aree impermeabili",
+        "Trattamento e recapito"
+      ],
+      "kind": "Linee guida",
+      "status": "Vigenza da ricostruire",
+      "source_kind": "Portale istituzionale",
+      "note": "ARPAE pubblica nella pagina collegata i riferimenti applicativi della D.G.R. 286/2005 e della D.G.R. 1860/2006.",
+      "checked": "2026-09-18",
+      "relations": [
+        {
+          "type": "Attua",
+          "id": "er286"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        },
+        {
+          "date": "2026-09-18",
+          "text": "Sostituito il rimando principale alla pagina tematica ARPAE con la scheda puntuale regionale."
+        },
+        {
+          "date": "2026-09-18",
+          "text": "Revisione manuale dei rimandi ai documenti e della relativa descrizione."
+        }
+      ],
+      "document_url": "https://servizissiir.regione.emilia-romagna.it/deliberegiunta/servlet/AdapterHTTP?ENTE=1&action_name=ACTIONRICERCADELIBERE&codProtocollo=SSR%2F06%2F1069410&operation=downloadTestoPdf",
+      "documents": [
+        {
+          "url": "https://servizissiir.regione.emilia-romagna.it/deliberegiunta/servlet/AdapterHTTP?ENTE=1&action_name=ACTIONRICERCADELIBERE&codProtocollo=SSR%2F06%2F1069410&operation=downloadTestoPdf",
+          "label": "DGR 1860/2006 · deliberazione PDF",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "tos41",
+      "ref": "L.R. 41/2018",
+      "title": "Rischio di alluvioni e tutela dei corsi d’acqua",
+      "level": "Regionale",
+      "regions": [
+        "Toscana"
+      ],
+      "topics": [
+        "Compatibilità idraulica",
+        "PAI e PGRA"
+      ],
+      "date": "2018-07-24",
+      "url": "https://raccoltanormativa.consiglio.regione.toscana.it/articolo?urndoc=urn:nir:regione.toscana:legge:2018-07-24;41",
+      "summary": "Disciplina regionale per gli interventi nelle aree esposte alle alluvioni e la tutela del reticolo.",
+      "focus": [
+        "Condizioni di fattibilità",
+        "Opere di gestione del rischio",
+        "Interventi presso i corsi d’acqua"
+      ],
+      "kind": "Atto normativo",
+      "status": "Vigenza da ricostruire",
+      "source_kind": "Testo coordinato regionale",
+      "note": "Collegamento diretto al testo coordinato nella raccolta normativa ufficiale del Consiglio regionale della Toscana.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?id=4ab37acb-9af9-11ed-b5b1-005056959b60&ext=pdf",
+          "label": "PDF ufficiale · L.R. Toscana 41/2018",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre direttamente il PDF del documento."
+    },
+    {
+      "id": "mar53",
+      "ref": "L.R. 19/2023, art. 31 · D.G.R. 53/2014",
+      "title": "Compatibilità e invarianza delle trasformazioni",
+      "level": "Regionale",
+      "regions": [
+        "Marche"
+      ],
+      "topics": [
+        "Compatibilità idraulica",
+        "Invarianza idraulica"
+      ],
+      "date": "2023-11-30",
+      "url": "https://www.regione.marche.it/Regione-Utile/Paesaggio-Territorio-Urbanistica-Genio-Civile/Compatibilit%C3%A0-e-invarianza-idraulica",
+      "summary": "La L.R. 19/2023, art. 31, costituisce la base vigente; continuano ad applicarsi, in quanto compatibili, i criteri della D.G.R. 53/2014, integrati dalla D.G.R. 671/2017.",
+      "focus": [
+        "Verifica di compatibilità",
+        "Misure per l’invarianza",
+        "Coordinamento con aggiornamenti regionali"
+      ],
+      "kind": "Atto normativo",
+      "status": "Quadro vigente verificato",
+      "source_kind": "Portale Regione Marche",
+      "note": "La pagina regionale chiarisce che la L.R. 19/2023 ha abrogato la L.R. 22/2011 ma mantiene applicabili, fino ai nuovi atti attuativi e se compatibili, i criteri della D.G.R. 53/2014, modificati dalla D.G.R. 671/2017.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        },
+        {
+          "date": "2026-09-18",
+          "text": "Aggiornata la scheda alla L.R. 19/2023, art. 31, e verificata la permanenza applicativa dei criteri D.G.R. 53/2014."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www.autoritabacino.marche.it/invidr/allegati/DGR0053_14.pdf",
+          "label": "D.G.R. 53/2014 · criteri applicativi",
+          "link_status": "source_link",
+          "link_checked": "2026-09-18"
+        }
+      ],
+      "document_url": "https://www.regione.marche.it/Regione-Utile/Paesaggio-Territorio-Urbanistica-Genio-Civile/Compatibilit%C3%A0-e-invarianza-idraulica",
+      "document_label": "Regione Marche · quadro vigente e documenti applicativi",
+      "document_note": "La pagina regionale ricostruisce la successione normativa e pubblica criteri, linee guida, foglio di calcolo e schema di asseverazione."
+    },
+    {
+      "id": "laz18",
+      "ref": "D.C.R. 18/2018",
+      "title": "Aggiornamento del Piano di tutela delle acque",
+      "level": "Regionale",
+      "regions": [
+        "Lazio"
+      ],
+      "topics": [
+        "Scarichi e tutela acque",
+        "Prima pioggia"
+      ],
+      "date": "2018-11-23",
+      "url": "https://www.regione.lazio.it/sites/default/files/amministrazione-trasparente/tbl_contenuti/Norme_Tecniche_di_Attuazione.pdf",
+      "summary": "PTAR: quadro regionale di tutela dei corpi idrici e disciplina delle pressioni e degli scarichi.",
+      "focus": [
+        "Norme tecniche di attuazione",
+        "Acque meteoriche e prima pioggia",
+        "Recapiti e autorizzazioni"
+      ],
+      "kind": "Piano",
+      "status": "Vigenza da ricostruire",
+      "source_kind": "Portale istituzionale",
+      "note": "D.C.R. 23/11/2018 n. 18 individuata sul sito della Regione Lazio; acquisire NTA coordinate e provvedimenti successivi.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www.regione.lazio.it/sites/default/files/amministrazione-trasparente/tbl_contenuti/Norme_Tecniche_di_Attuazione.pdf",
+          "label": "PDF ufficiale · norme tecniche PTAR Lazio",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre direttamente il PDF del documento."
+    },
+    {
+      "id": "abr17",
+      "ref": "L.R. 17/2008",
+      "title": "Disciplina regionale degli scarichi",
+      "level": "Regionale",
+      "regions": [
+        "Abruzzo"
+      ],
+      "topics": [
+        "Prima pioggia",
+        "Scarichi e tutela acque"
+      ],
+      "date": "2008-11-24",
+      "url": "https://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2008/lr08017.htm",
+      "document_label": "Consulta il testo della legge",
+      "summary": "Riferimento regionale comprendente disposizioni sulle acque di prima pioggia.",
+      "focus": [
+        "Definizioni regionali",
+        "Ambiti soggetti a disciplina",
+        "Coordinamento con gli aggiornamenti"
+      ],
+      "kind": "Atto normativo",
+      "status": "Vigenza da ricostruire",
+      "source_kind": "Portale istituzionale",
+      "note": "Identificata nella banca dati del Consiglio regionale. Non sono stati verificati tutti gli aggiornamenti, inclusi quelli successivi al 2008.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        }
+      ],
+      "documents": [
+        {
+          "format": "pdf",
+          "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/lr-abruzzo-17-2008.pdf",
+          "label": "PDF · L.R. Abruzzo 17/2008"
+        }
+      ],
+      "document_note": "Copia PDF prodotta senza modifiche sostanziali dal testo pubblicato nella banca dati istituzionale del Consiglio regionale, che non espone un proprio download PDF stabile."
+    },
+    {
+      "id": "cal10",
+      "ref": "L.R. 10/1997",
+      "title": "Tutela delle acque dall’inquinamento",
+      "level": "Regionale",
+      "regions": [
+        "Calabria"
+      ],
+      "topics": [
+        "Scarichi e tutela acque"
+      ],
+      "date": "1997-10-03",
+      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=1997&numero=10",
+      "document_label": "Apri il testo ufficiale",
+      "summary": "Disciplina regionale storica per la tutela delle acque, da coordinare con il quadro ambientale successivo.",
+      "focus": [
+        "Norme regionali sugli scarichi",
+        "Trattamento dei deflussi",
+        "Coordinamento con D.Lgs. 152/2006 e PTA"
+      ],
+      "kind": "Atto normativo",
+      "status": "Vigenza da ricostruire",
+      "source_kind": "Portale istituzionale",
+      "note": "Disciplina regionale storica sugli scarichi. Nel controllo mirato non è stata riscontrata come normativa autonoma e specifica sulle acque di prima pioggia; coordinare con D.Lgs. 152/2006, PTA e prescrizioni dell’ente competente.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=1997&numero=10",
+          "label": "PDF ufficiale · L.R. Calabria 10/1997",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre direttamente il PDF del documento."
+    },
+    {
+      "id": "umb627",
+      "ref": "D.G.R. 627/2019",
+      "title": "Direttiva tecnica sugli scarichi di acque reflue",
+      "level": "Regionale",
+      "regions": [
+        "Umbria"
+      ],
+      "topics": [
+        "Scarichi e tutela acque",
+        "Prima pioggia"
+      ],
+      "date": "2019-05-07",
+      "url": "https://www.auriumbria.it/documento_pubblico/normativa-e-regolamenti-di-riferimento/",
+      "document_label": "DGR 627/2019 · PDF del BUR",
+      "document_note": "Collegamenti alla documentazione specifica. Consultare anche gli aggiornamenti e le varianti indicati dalla fonte.",
+      "summary": "Direttiva regionale per la disciplina tecnica e autorizzativa degli scarichi.",
+      "focus": [
+        "Classificazione delle acque",
+        "Requisiti di trattamento",
+        "Gestione della prima pioggia"
+      ],
+      "kind": "Direttiva tecnica",
+      "status": "Vigenza da ricostruire",
+      "source_kind": "Portale istituzionale",
+      "note": "Pubblicazione del 22/05/2019 individuata nel portale regionale. Esistono indicazioni di modifiche successive: acquisire il testo coordinato prima dell’uso.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        },
+        {
+          "date": "2026-09-18",
+          "text": "Revisione manuale dei rimandi ai documenti e della relativa descrizione."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www.auriumbria.it/wp-content/uploads/2023/12/DGR-627-2019.pdf?x95031=",
+          "label": "DGR 627/2019 · PDF del BUR",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        }
+      ],
+      "document_url": "https://www.auriumbria.it/wp-content/uploads/2023/12/DGR-627-2019.pdf?x95031="
+    },
+    {
+      "id": "mol25",
+      "ref": "D.C.R. 25/2018",
+      "title": "Piano di tutela delle acque",
+      "level": "Regionale",
+      "regions": [
+        "Molise"
+      ],
+      "topics": [
+        "Scarichi e tutela acque"
+      ],
+      "date": "2018",
+      "url": "https://www.arpamolise.it/WP/acque-reflue-urbane/",
+      "document_label": "Consulta la fonte ARPA Molise",
+      "document_note": "Il collegamento apre direttamente il PDF del documento.",
+      "summary": "Piano regionale per la tutela qualitativa e quantitativa delle acque.",
+      "focus": [
+        "Norme di attuazione",
+        "Obiettivi per i corpi idrici",
+        "Requisiti per gli scarichi"
+      ],
+      "kind": "Piano",
+      "status": "Vigenza da ricostruire",
+      "source_kind": "Portale istituzionale",
+      "note": "Il portale regionale identifica l’approvazione con D.C.R. 25/2018. ARPA Molise richiama aggiornamenti successivi: catena da ricostruire.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www1.regione.molise.it/tutela-acqua/doc_r14-morifiche.pdf",
+          "label": "PDF ufficiale · disciplina degli scarichi del PTA Molise",
+          "format": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "vda2030",
+      "ref": "PTA 2030",
+      "title": "Piano di tutela delle acque della Valle d’Aosta",
+      "level": "Regionale",
+      "regions": [
+        "Valle d’Aosta"
+      ],
+      "topics": [
+        "Scarichi e tutela acque",
+        "Derivazioni e risorsa idrica"
+      ],
+      "date": "2025-06-18",
+      "url": "https://pta.regione.vda.it/",
+      "summary": "Aggiornamento del piano regionale per la protezione e gestione delle acque.",
+      "focus": [
+        "Norme tecniche di attuazione",
+        "Obiettivi ambientali",
+        "Utilizzazioni della risorsa"
+      ],
+      "kind": "Piano",
+      "status": "Approvazione riscontrata",
+      "source_kind": "Portale di piano",
+      "note": "Il portale istituzionale indica approvazione in Giunta il 05/06/2025 e in Consiglio il 18/06/2025. Estremi di pubblicazione ed efficacia da approfondire.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        },
+        {
+          "date": "2026-09-18",
+          "text": "Revisione manuale dei rimandi ai documenti e della relativa descrizione."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://pta.regione.vda.it/wp-content/uploads/doc/PTA_2030_Norme_di_Attuazione_Definitivo_DGR334.pdf",
+          "label": "PTA 2030 · norme di attuazione",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        }
+      ],
+      "document_url": "https://pta.regione.vda.it/wp-content/uploads/doc/PTA_2030_Norme_di_Attuazione_Definitivo_DGR334.pdf",
+      "document_label": "PTA 2030 · norme di attuazione",
+      "document_note": "Collegamenti alla documentazione specifica. Consultare anche gli aggiornamenti e le varianti indicati dalla fonte."
+    },
+    {
+      "id": "ligpta",
+      "ref": "PTA Liguria",
+      "title": "Piano regionale di tutela delle acque",
+      "level": "Regionale",
+      "regions": [
+        "Liguria"
+      ],
+      "topics": [
+        "Scarichi e tutela acque"
+      ],
+      "date": "",
+      "url": "https://www.regione.liguria.it/homepage-ambiente/cosa-cerchi/acqua/direttiva-acque/piano-regionale-acque.html",
+      "summary": "Piano regionale previsto dal quadro nazionale per la tutela delle acque.",
+      "focus": [
+        "Norme di piano",
+        "Misure di tutela",
+        "Coordinamento con i regolamenti regionali"
+      ],
+      "kind": "Piano",
+      "status": "Vigenza da ricostruire",
+      "source_kind": "Portale di piano",
+      "note": "Pagina di piano consultata; estremi della versione applicabile da estrarre dai documenti ufficiali.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www.regione.liguria.it/components/com_publiccompetitions/includes/download.php?id=41731%3Anorme-di-attuazione.pdf",
+          "label": "PDF ufficiale · norme di attuazione PTA Liguria",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre direttamente il PDF del documento."
+    },
+    {
+      "id": "bz23",
+      "ref": "D.P.P. 23/2019",
+      "title": "Interventi nelle zone di pericolo",
+      "level": "Provinciale",
+      "regions": [
+        "Trentino-Alto Adige"
+      ],
+      "topics": [
+        "PZP",
+        "Compatibilità idraulica"
+      ],
+      "date": "2019-10-10",
+      "url": "https://lexbrowser.provinz.bz.it/doc/it/217759/decreto_del_presidente_della_provincia_10_ottobre_2019_n_23.aspx",
+      "document_label": "Consulta il testo su Lexbrowser",
+      "document_note": "Il collegamento apre il fascicolo ufficiale in PDF; il D.P.P. 23/2019 inizia a pagina 18 della numerazione editoriale.",
+      "summary": "Regolamento della Provincia autonoma di Bolzano per gli interventi e le previsioni urbanistiche nelle zone di pericolo.",
+      "focus": [
+        "Ammissibilità degli interventi",
+        "Verifiche di pericolo e compatibilità",
+        "Coordinamento con il PZP comunale"
+      ],
+      "kind": "Atto normativo",
+      "status": "Vigenza da ricostruire",
+      "source_kind": "Portale istituzionale",
+      "note": "Regolamento identificato nel portale provinciale Pericoli naturali. Consultare la sezione normativa e Lexbrowser per il testo coordinato.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        }
+      ],
+      "documents": [
+        {
+          "format": "pdf",
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2020/01/11/2/s3/pdf#page=22",
+          "label": "PDF ufficiale · D.P.P. Bolzano 23/2019 (G.U. 3ª Serie speciale)"
+        }
+      ]
+    },
+    {
+      "id": "tnpta",
+      "ref": "PTA 2022–2027",
+      "title": "Piano di tutela delle acque di Trento",
+      "level": "Provinciale",
+      "regions": [
+        "Trentino-Alto Adige"
+      ],
+      "topics": [
+        "Scarichi e tutela acque",
+        "Derivazioni e risorsa idrica"
+      ],
+      "date": "2022",
+      "url": "https://www.appa.provincia.tn.it/Documenti-e-dati/Documenti-tecnici-di-supporto/Piano-di-Tutela-delle-acque-2022-2027",
+      "summary": "Pianificazione provinciale della tutela e della gestione delle acque.",
+      "focus": [
+        "Norme di attuazione",
+        "Obiettivi ambientali",
+        "Requisiti provinciali"
+      ],
+      "kind": "Piano",
+      "status": "Vigenza da ricostruire",
+      "source_kind": "Portale istituzionale",
+      "note": "Piano 2022–2027 riscontrato nelle comunicazioni ufficiali APPA/SNPA; estremi e allegati da acquisire.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www.appa.provincia.tn.it/ocmultibinary/download/27681/309570/71/a344c71f7b9ed3ffacdcb176e84addbc.pdf/file/Allegato+O+Norme+di+attuazione.pdf",
+          "label": "PDF ufficiale · norme di attuazione PTA Trento",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre direttamente il PDF del documento."
+    },
+    {
+      "id": "bzpta",
+      "ref": "L.P. Bolzano 8/2002",
+      "title": "Disposizioni sulle acque",
+      "level": "Provinciale",
+      "regions": [
+        "Trentino-Alto Adige"
+      ],
+      "topics": [
+        "Scarichi e tutela acque",
+        "Derivazioni e risorsa idrica"
+      ],
+      "date": "",
+      "url": "https://umwelt.provinz.bz.it/de/wasser",
+      "document_label": "Consulta la sezione provinciale Acque",
+      "document_note": "Il collegamento apre direttamente il PDF della legge provinciale; il Piano di tutela resta articolato negli elaborati del portale provinciale.",
+      "summary": "Disciplina provinciale per utilizzazione, tutela e gestione delle acque, richiamata dal quadro di pianificazione idrica provinciale.",
+      "focus": [
+        "Norme di attuazione",
+        "Tutela dei ricettori",
+        "Coordinamento con la legislazione provinciale"
+      ],
+      "kind": "Atto normativo",
+      "status": "Vigenza da ricostruire",
+      "source_kind": "Portale istituzionale",
+      "note": "Portale provinciale individuato. La versione di piano applicabile e i riferimenti di approvazione sono da acquisire.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://faolex.fao.org/docs/pdf/ita33320.pdf",
+          "label": "PDF · L.P. Bolzano 8/2002",
+          "format": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "bari",
+      "ref": "Città metropolitana di Bari",
+      "title": "Autorizzazione scarico acque meteoriche",
+      "level": "Provinciale",
+      "regions": [
+        "Puglia"
+      ],
+      "topics": [
+        "Prima pioggia",
+        "Scarichi e tutela acque"
+      ],
+      "date": "",
+      "url": "https://www.cittametropolitana.ba.it/amministrazione/documenti_e_dati/modulistica/documento_268.html",
+      "summary": "Procedura e modulistica territoriale relativa agli scarichi disciplinati dal R.R. 26/2013.",
+      "focus": [
+        "Documentazione da presentare",
+        "Competenza autorizzativa",
+        "Coerenza con il regolamento regionale"
+      ],
+      "kind": "Procedura amministrativa",
+      "status": "Pagina ufficiale riscontrata",
+      "source_kind": "Procedura ufficiale",
+      "note": "Pagina aggiornata il 13/01/2026. La modulistica non costituisce una norma autonoma.",
+      "checked": "2026-09-18",
+      "relations": [
+        {
+          "type": "Riferimento",
+          "id": "pug26"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://burp.regione.puglia.it/documents/20135/784664/REGOLAMENTO%2BREGIONALE%2B9%2Bdicembre%2B2013%2C%2Bn.%2B26%2B%28id%2B4906507%29.pdf/82bcb1fd-8b6d-ec17-ae21-235fdca40c45?t=1622786288358&version=1.0",
+          "label": "PDF normativo · R.R. Puglia 26/2013",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre direttamente il PDF del documento."
+    },
+    {
+      "id": "milano",
+      "ref": "PGT Milano",
+      "title": "Componente geologica e rischio idraulico",
+      "level": "Comunale",
+      "regions": [
+        "Lombardia"
+      ],
+      "topics": [
+        "PAI e PGRA",
+        "Invarianza idraulica"
+      ],
+      "date": "",
+      "url": "https://pgt.comune.milano.it/",
+      "summary": "Documenti comunali di piano, componente geologica e documento semplificato del rischio idraulico.",
+      "focus": [
+        "Tavole di pericolosità",
+        "Prescrizioni locali di piano",
+        "Coordinamento con il PGRA"
+      ],
+      "kind": "Piano comunale",
+      "status": "Vigenza da ricostruire",
+      "source_kind": "Portale istituzionale",
+      "note": "Documentazione comunale individuata nel portale PGT; verifica delle varianti e dell’efficacia della specifica tavola da completare.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf",
+          "label": "PDF normativo · R.R. Lombardia 7/2017",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre direttamente il PDF del documento."
+    },
+    {
+      "id": "venezia",
+      "ref": "Regolamento edilizio · Venezia",
+      "title": "Scarichi reflui e adeguamento fognario",
+      "level": "Comunale",
+      "regions": [
+        "Veneto"
+      ],
+      "topics": [
+        "Scarichi e tutela acque",
+        "Drenaggio"
+      ],
+      "date": "2019",
+      "url": "https://www.comune.venezia.it/it/content/scarichi-reflui-0",
+      "summary": "Pagina comunale sulle procedure di adeguamento fognario e i riferimenti al regolamento edilizio.",
+      "focus": [
+        "Art. 63 del regolamento richiamato",
+        "Condizioni di adeguamento",
+        "Procedura comunale"
+      ],
+      "kind": "Procedura amministrativa",
+      "status": "Pagina ufficiale riscontrata",
+      "source_kind": "Procedura ufficiale",
+      "note": "La pagina richiama il regolamento approvato con D.C.C. 70/2019. La versione coordinata del regolamento resta da acquisire.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        }
+      ],
+      "document_note": "Il collegamento apre direttamente il PDF del documento.",
+      "documents": [
+        {
+          "url": "https://www.comune.venezia.it/sites/comune.venezia.it/files/documenti/Ambiente/Testo%20Legge%20Speciale%20206_1995.pdf",
+          "label": "PDF ufficiale · Legge speciale 206/1995",
+          "format": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "aprilia",
+      "ref": "Comune di Aprilia",
+      "title": "Autorizzazione allo scarico delle acque reflue",
+      "level": "Comunale",
+      "regions": [
+        "Lazio"
+      ],
+      "topics": [
+        "Scarichi e tutela acque"
+      ],
+      "date": "",
+      "url": "https://www.comune.aprilia.lt.it/servizi/autorizzazione-allo-scarico-di-acque-reflue",
+      "summary": "Servizio comunale per le autorizzazioni allo scarico e i relativi adempimenti.",
+      "focus": [
+        "Procedura e documenti",
+        "Classificazione del refluo",
+        "Coordinamento con il PTAR"
+      ],
+      "kind": "Procedura amministrativa",
+      "status": "Pagina ufficiale riscontrata",
+      "source_kind": "Procedura ufficiale",
+      "note": "Pagina ufficiale individuata, con aggiornamento indicato al 10/07/2026; non sostituisce gli atti normativi richiamati.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www.regione.lazio.it/sites/default/files/amministrazione-trasparente/tbl_contenuti/Norme_Tecniche_di_Attuazione.pdf",
+          "label": "PDF normativo · norme tecniche PTAR Lazio",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre direttamente il PDF del documento."
+    },
+    {
+      "id": "medicina",
+      "ref": "Comune di Medicina",
+      "title": "Scarichi non incanalati in fognatura",
+      "level": "Comunale",
+      "regions": [
+        "Emilia-Romagna"
+      ],
+      "topics": [
+        "Scarichi e tutela acque"
+      ],
+      "date": "",
+      "url": "https://www.comune.medicina.bo.it/documento/modulo-richiesta-autorizzazione-per-lo-scarico-di-acque-domestiche-non-incanalate-in-fognatura",
+      "summary": "Modulistica comunale per domanda e rinnovo di autorizzazione allo scarico.",
+      "focus": [
+        "Acque domestiche",
+        "Recapito in acque superficiali o suolo",
+        "Richiesta e rinnovo"
+      ],
+      "kind": "Procedura amministrativa",
+      "status": "Pagina ufficiale riscontrata",
+      "source_kind": "Procedura ufficiale",
+      "note": "Documento comunale individuato. È modulistica amministrativa, non una disposizione normativa autonoma.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://servizissiir.regione.emilia-romagna.it/deliberegiunta/servlet/AdapterHTTP?ENTE=1&action_name=ACTIONRICERCADELIBERE&codProtocollo=SSR%2F06%2F1069410&operation=downloadTestoPdf",
+          "label": "PDF normativo · D.G.R. Emilia-Romagna 1860/2006",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre direttamente il PDF del documento."
+    },
+    {
+      "id": "uni752",
+      "ref": "UNI EN 752:2017",
+      "title": "Connessioni di scarico e collettori di fognatura",
+      "level": "Tecnica",
+      "regions": [
+        "Italia"
+      ],
+      "topics": [
+        "Drenaggio"
+      ],
+      "date": "2017-06-08",
+      "url": "https://store.uni.com/uni-en-752-2017",
+      "summary": "Requisiti funzionali dei sistemi di drenaggio e fognatura esterni agli edifici.",
+      "focus": [
+        "Pianificazione e progettazione",
+        "Esercizio e manutenzione",
+        "Prestazioni del sistema"
+      ],
+      "kind": "Norma tecnica",
+      "status": "In vigore nel catalogo UNI",
+      "source_kind": "Catalogo ufficiale UNI",
+      "note": "Stato riscontrato sul catalogo UNI al 17/09/2026. È una norma tecnica: obbligatorietà da valutare in base a richiami legislativi e contrattuali. Testo integrale soggetto alle condizioni UNI.",
+      "checked": "2026-09-17",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        }
+      ],
+      "documents": [],
+      "document_note": "Norma tecnica protetta da diritto d’autore: il testo integrale è disponibile esclusivamente tramite licenza UNI; non esiste un PDF pubblico legittimo."
+    },
+    {
+      "id": "uni12056",
+      "ref": "UNI EN 12056-3:2001",
+      "title": "Drenaggio delle coperture",
+      "level": "Tecnica",
+      "regions": [
+        "Italia"
+      ],
+      "topics": [
+        "Drenaggio"
+      ],
+      "date": "2001-09-30",
+      "url": "https://store.uni.com/uni-en-12056-3-2001",
+      "summary": "Criteri per i sistemi di evacuazione delle acque meteoriche dalle coperture.",
+      "focus": [
+        "Dimensionamento pluviali e collettori",
+        "Drenaggio a gravità",
+        "Prestazioni dei sistemi sifonici"
+      ],
+      "kind": "Norma tecnica",
+      "status": "In vigore nel catalogo UNI",
+      "source_kind": "Catalogo ufficiale UNI",
+      "note": "Stato riscontrato sul catalogo UNI al 17/09/2026. È una norma tecnica: obbligatorietà da valutare in base a richiami legislativi e contrattuali. Testo integrale soggetto alle condizioni UNI.",
+      "checked": "2026-09-17",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        }
+      ],
+      "documents": [],
+      "document_note": "Norma tecnica protetta da diritto d’autore: il testo integrale è disponibile esclusivamente tramite licenza UNI; non esiste un PDF pubblico legittimo."
+    },
+    {
+      "id": "uni858",
+      "ref": "UNI EN 858-2:2004",
+      "title": "Separatori di liquidi leggeri",
+      "level": "Tecnica",
+      "regions": [
+        "Italia"
+      ],
+      "topics": [
+        "Prima pioggia",
+        "Drenaggio"
+      ],
+      "date": "2004-06-01",
+      "url": "https://store.uni.com/uni-en-858-2-2004",
+      "summary": "Guida al dimensionamento e alla manutenzione degli impianti di separazione degli idrocarburi minerali.",
+      "focus": [
+        "Dimensione nominale",
+        "Esercizio e manutenzione",
+        "Campo di applicazione"
+      ],
+      "kind": "Norma tecnica",
+      "status": "In vigore nel catalogo UNI",
+      "source_kind": "Catalogo ufficiale UNI",
+      "note": "Stato riscontrato sul catalogo UNI al 17/09/2026. È una norma tecnica: obbligatorietà da valutare in base a richiami legislativi e contrattuali. Testo integrale soggetto alle condizioni UNI.",
+      "checked": "2026-09-17",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        }
+      ],
+      "documents": [],
+      "document_note": "Norma tecnica protetta da diritto d’autore: il testo integrale è disponibile esclusivamente tramite licenza UNI; non esiste un PDF pubblico legittimo."
+    },
+    {
+      "id": "dist-po",
+      "ref": "PAI / PGRA · Fiume Po",
+      "title": "Pianificazione di bacino e rischio alluvioni",
+      "level": "Distrettuale",
+      "regions": [
+        "Valle d’Aosta",
+        "Piemonte",
+        "Lombardia",
+        "Liguria",
+        "Veneto",
+        "Emilia-Romagna",
+        "Toscana",
+        "Marche",
+        "Trentino-Alto Adige"
+      ],
+      "topics": [
+        "PAI e PGRA",
+        "Compatibilità idraulica"
+      ],
+      "date": "",
+      "url": "https://pianoalluvioni.adbpo.it/piano-di-gestione-del-rischio-alluvioni-2021-2027/",
+      "documents": [
+        {
+          "url": "https://pai.adbpo.it/wp-content/uploads/2025/05/NA_PAI-PO.pdf",
+          "label": "PAI Po · norme di attuazione",
+          "group": "PAI",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        }
+      ],
+      "summary": "Accesso alla pianificazione del distretto Fiume Po: norme, cartografie e aggiornamenti da individuare per il bacino interessato.",
+      "focus": [
+        "Individuare il bacino e il piano pertinente",
+        "Consultare NTA, mappe e varianti",
+        "Verificare adozione, salvaguardia e approvazione"
+      ],
+      "kind": "Raccolta di piani",
+      "status": "Raccolta da approfondire",
+      "source_kind": "Portale di pianificazione",
+      "note": "Scheda di accesso al distretto, non una singola norma. Le regioni sono un filtro orientativo: i confini di bacino non coincidono con quelli amministrativi. Piani e varianti non ancora censiti integralmente.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        },
+        {
+          "date": "2026-09-18",
+          "text": "Aggiunti documenti distinti dei piani territoriali, senza equipararli a un unico PAI regionale."
+        },
+        {
+          "date": "2026-09-18",
+          "text": "Revisione manuale dei rimandi ai documenti e della relativa descrizione."
+        }
+      ],
+      "document_url": "https://pai.adbpo.it/wp-content/uploads/2025/05/NA_PAI-PO.pdf",
+      "document_label": "PAI Po · norme di attuazione",
+      "document_note": "Collegamenti alla documentazione specifica. Consultare anche gli aggiornamenti e le varianti indicati dalla fonte."
+    },
+    {
+      "id": "dist-alpi",
+      "ref": "PAI / PGRA · Alpi Orientali",
+      "title": "Pianificazione di bacino e rischio alluvioni",
+      "level": "Distrettuale",
+      "regions": [
+        "Trentino-Alto Adige",
+        "Veneto",
+        "Friuli-Venezia Giulia"
+      ],
+      "topics": [
+        "PAI e PGRA",
+        "Compatibilità idraulica"
+      ],
+      "date": "",
+      "url": "https://distrettoalpiorientali.it/piano-gestione-rischio-alluvioni/",
+      "documents": [
+        {
+          "url": "https://sigma.distrettoalpiorientali.it/sigma/documentDownload/downloadDocumentById?documentId=359",
+          "label": "PDF ufficiale · relazione generale PGRA",
+          "format": "pdf",
+          "group": "PGRA"
+        },
+        {
+          "url": "https://sigma.distrettoalpiorientali.it/sigma/documentDownload/downloadDocumentById?documentId=380",
+          "label": "PDF ufficiale · norme tecniche PGRA",
+          "format": "pdf",
+          "group": "PGRA"
+        }
+      ],
+      "summary": "Accesso alla pianificazione del distretto Alpi Orientali: norme, cartografie e aggiornamenti da individuare per il bacino interessato.",
+      "focus": [
+        "Individuare il bacino e il piano pertinente",
+        "Consultare NTA, mappe e varianti",
+        "Verificare adozione, salvaguardia e approvazione"
+      ],
+      "kind": "Raccolta di piani",
+      "status": "Raccolta da approfondire",
+      "source_kind": "Portale di pianificazione",
+      "note": "Scheda di accesso al distretto, non una singola norma. Le regioni sono un filtro orientativo: i confini di bacino non coincidono con quelli amministrativi. Piani e varianti non ancora censiti integralmente.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        },
+        {
+          "date": "2026-09-18",
+          "text": "Revisione manuale dei rimandi ai documenti e della relativa descrizione."
+        }
+      ],
+      "document_url": "https://sigma.distrettoalpiorientali.it/portal/index.php/direttiva-alluvioni/pgra-2021-2027/piano_approvato_2021/",
+      "document_label": "PGRA Alpi Orientali · piano approvato, NTA e mappe",
+      "document_note": "I collegamenti aprono direttamente i PDF ufficiali degli elaborati principali."
+    },
+    {
+      "id": "dist-sett",
+      "ref": "PAI / PGRA · Appennino Settentrionale",
+      "title": "Pianificazione di bacino e rischio alluvioni",
+      "level": "Distrettuale",
+      "regions": [
+        "Liguria",
+        "Toscana",
+        "Umbria"
+      ],
+      "topics": [
+        "PAI e PGRA",
+        "Compatibilità idraulica"
+      ],
+      "date": "",
+      "url": "https://www.appenninosettentrionale.it/itc/?page_id=2910",
+      "documents": [
+        {
+          "url": "https://www.appenninosettentrionale.it/rep/distretto/pgra/G_UFF_07022023%20N.%2032_DPCM_PGRA.pdf",
+          "label": "PDF ufficiale · DPCM di approvazione PGRA",
+          "format": "pdf",
+          "group": "PGRA"
+        },
+        {
+          "url": "https://www.appenninosettentrionale.it/rep/distretto/pgra/Disciplina%20di%20Piano.pdf",
+          "label": "PDF ufficiale · disciplina PGRA",
+          "format": "pdf",
+          "group": "PGRA"
+        }
+      ],
+      "summary": "Accesso alla pianificazione del distretto Appennino Settentrionale: norme, cartografie e aggiornamenti da individuare per il bacino interessato.",
+      "focus": [
+        "Individuare il bacino e il piano pertinente",
+        "Consultare NTA, mappe e varianti",
+        "Verificare adozione, salvaguardia e approvazione"
+      ],
+      "kind": "Raccolta di piani",
+      "status": "Raccolta da approfondire",
+      "source_kind": "Portale di pianificazione",
+      "note": "Scheda di accesso al distretto, non una singola norma. Le regioni sono un filtro orientativo: i confini di bacino non coincidono con quelli amministrativi. Piani e varianti non ancora censiti integralmente.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        }
+      ],
+      "document_note": "I collegamenti aprono direttamente i PDF ufficiali degli elaborati principali."
+    },
+    {
+      "id": "dist-centr",
+      "ref": "PAI / PGRA · Appennino Centrale",
+      "title": "Pianificazione di bacino e rischio alluvioni",
+      "level": "Distrettuale",
+      "regions": [
+        "Lazio",
+        "Umbria",
+        "Marche",
+        "Abruzzo",
+        "Toscana",
+        "Emilia-Romagna",
+        "Molise"
+      ],
+      "topics": [
+        "PAI e PGRA",
+        "Compatibilità idraulica"
+      ],
+      "date": "",
+      "url": "https://aubac.it/piani-di-bacino/piano-di-gestione-del-rischio-alluvioni-pgra",
+      "documents": [
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO.pdf",
+          "label": "PAI idraulico · NTA adottate il 26/05/2026",
+          "group": "PAI",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        }
+      ],
+      "summary": "Accesso alla pianificazione del distretto Appennino Centrale: norme, cartografie e aggiornamenti da individuare per il bacino interessato.",
+      "focus": [
+        "Individuare il bacino e il piano pertinente",
+        "Consultare NTA, mappe e varianti",
+        "Verificare adozione, salvaguardia e approvazione"
+      ],
+      "kind": "Raccolta di piani",
+      "status": "Raccolta da approfondire",
+      "source_kind": "Portale di pianificazione",
+      "note": "Scheda di accesso al distretto, non una singola norma. Le regioni sono un filtro orientativo: i confini di bacino non coincidono con quelli amministrativi. Piani e varianti non ancora censiti integralmente.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        },
+        {
+          "date": "2026-09-18",
+          "text": "Revisione manuale dei rimandi ai documenti e della relativa descrizione."
+        }
+      ],
+      "document_url": "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO.pdf",
+      "document_label": "PAI idraulico · NTA adottate il 26/05/2026",
+      "document_note": "NTA del nuovo PAI idraulico adottate il 26 maggio 2026. Adozione e approvazione sono distinte: consultare le misure di salvaguardia e il regime transitorio nella pagina PAI."
+    },
+    {
+      "id": "bas9",
+      "ref": "L.R. Basilicata 9/2017",
+      "title": "Disciplina degli impianti di trattamento delle acque reflue urbane e delle autorizzazioni provvisorie agli scarichi",
+      "level": "Regionale",
+      "regions": [
+        "Basilicata"
+      ],
+      "topics": [
+        "Prima pioggia",
+        "Scarichi e tutela acque"
+      ],
+      "date": "2017-05-29",
+      "url": "https://www.astrid-online.it/static/upload/regi/regione-basilicata_legge-regionale-29-maggio-2017--n9.pdf",
+      "summary": "Legge-quadro regionale tuttora vigente. L’articolo 5 demanda alla Giunta l’approvazione delle linee guida, comprese le disposizioni tecniche sugli scarichi e sulle acque meteoriche.",
+      "focus": [
+        "Legge-quadro regionale",
+        "Approvazione dei progetti",
+        "Base legislativa delle linee guida regionali"
+      ],
+      "kind": "Legge regionale",
+      "status": "Vigente · legge-quadro",
+      "source_kind": "Testo pubblicato in G.U. · copia PDF",
+      "note": "La L.R. 9/2017 non è stata abrogata dalla D.G.R. 471/2026. La disciplina tecnica aggiornata delle acque di prima pioggia è contenuta nelle linee guida allegate alla D.G.R. 471/2026.",
+      "checked": "2026-09-18",
+      "relations": [
+        {
+          "type": "Attuata e aggiornata da",
+          "id": "bas471"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-18",
+          "text": "Ripristinata dopo verifica della vigenza e collegata al PDF integrale."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www.astrid-online.it/static/upload/regi/regione-basilicata_legge-regionale-29-maggio-2017--n9.pdf",
+          "label": "L.R. Basilicata 9/2017 · PDF integrale",
+          "format": "pdf",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "bas471",
+      "ref": "D.G.R. Basilicata 471/2026",
+      "title": "Linee guida regionali sugli scarichi, sulle acque di prima pioggia e di lavaggio · aggiornamento 2026",
+      "level": "Regionale",
+      "regions": [
+        "Basilicata"
+      ],
+      "topics": [
+        "Prima pioggia",
+        "Scarichi e tutela acque"
+      ],
+      "date": "2026-07-28",
+      "url": "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A35795B0B&idDocumento=795801377B580A307C5C",
+      "summary": "Aggiornamento 2026 delle linee guida adottate in attuazione dell’articolo 5 della L.R. 9/2017; sostituisce la D.G.R. 305/2023 dal 1° agosto 2026.",
+      "focus": [
+        "Acque meteoriche di dilavamento",
+        "Acque di prima pioggia e di lavaggio",
+        "Regimi amministrativi e autorizzazioni"
+      ],
+      "kind": "Linee guida regionali",
+      "status": "Vigente dal 1° agosto 2026",
+      "source_kind": "Repertorio ufficiale Regione Basilicata",
+      "note": "La D.G.R. 772/2019 era una proposta sottoposta al parere consiliare, poi confermata dalla D.G.R. 380/2020. La D.G.R. 305/2023 è stata abrogata e sostituita dalla D.G.R. 471/2026.",
+      "checked": "2026-09-18",
+      "relations": [
+        {
+          "type": "Attua",
+          "id": "bas9"
+        },
+        {
+          "type": "Sostituisce",
+          "text": "D.G.R. Basilicata 305/2023 (abrogata dal 01/08/2026)"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-18",
+          "text": "Sostituito l’errato rinvio alla D.G.R. 772/2019 con l’aggiornamento vigente 2026 e con i PDF ufficiali."
+        }
+      ],
+      "document_note": "Entrambi i collegamenti aprono direttamente file PDF del repertorio ufficiale della Regione Basilicata.",
+      "documents": [
+        {
+          "url": "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A397A5C07&idDocumento=795801377B580A307C5C",
+          "label": "D.G.R. Basilicata 471/2026 · PDF",
+          "format": "pdf",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        },
+        {
+          "url": "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A35795B0B&idDocumento=795801377B580A307C5C",
+          "label": "Linee guida 2026 · allegato PDF",
+          "format": "pdf",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "dist-merid",
+      "ref": "PAI / PGRA · Appennino Meridionale",
+      "title": "Pianificazione di bacino e rischio alluvioni",
+      "level": "Distrettuale",
+      "regions": [
+        "Campania",
+        "Puglia",
+        "Basilicata",
+        "Calabria",
+        "Molise",
+        "Abruzzo",
+        "Lazio"
+      ],
+      "topics": [
+        "PAI e PGRA",
+        "Compatibilità idraulica"
+      ],
+      "date": "",
+      "url": "https://www.distrettoappenninomeridionale.it/piano-gestione-alluvioni/",
+      "documents": [
+        {
+          "url": "https://www.distrettoappenninomeridionale.it/images/_PGRA/II%20ciclo%202019/PIANO%20VIGENTE/DPCM%201%C2%B0%20DICEMBRE%202022%20-%20approvazione%20I%20aggiornamento%20PGRA%20-%20II%20ciclo.pdf",
+          "label": "PDF ufficiale · DPCM di approvazione PGRA",
+          "format": "pdf",
+          "group": "PGRA"
+        },
+        {
+          "url": "https://www.distrettoappenninomeridionale.it/images/_PGRA/II%20ciclo%202019/PIANO%20VIGENTE/AGGIORNAMENTO%20MAPPE%20II%20CICLO/RELAZIONE%20METODOLOGICA.pdf",
+          "label": "PDF ufficiale · relazione metodologica PGRA",
+          "format": "pdf",
+          "group": "PGRA"
+        }
+      ],
+      "summary": "Accesso alla pianificazione del distretto Appennino Meridionale: norme, cartografie e aggiornamenti da individuare per il bacino interessato.",
+      "focus": [
+        "Individuare il bacino e il piano pertinente",
+        "Consultare NTA, mappe e varianti",
+        "Verificare adozione, salvaguardia e approvazione"
+      ],
+      "kind": "Raccolta di piani",
+      "status": "Raccolta da approfondire",
+      "source_kind": "Portale di pianificazione",
+      "note": "Scheda di accesso al distretto, non una singola norma. Le regioni sono un filtro orientativo: i confini di bacino non coincidono con quelli amministrativi. Piani e varianti non ancora censiti integralmente.",
+      "checked": "2026-09-18",
+      "relations": [
+        {
+          "type": "PAI territoriale Calabria",
+          "id": "pai-calabria2001"
+        },
+        {
+          "type": "Procedimento Calabria/Lao",
+          "id": "pai-calabria-lao"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        },
+        {
+          "date": "2026-09-18",
+          "text": "Aggiunti rinvii territoriali distinti: PAI Calabria storico e progetto Calabria/Lao."
+        },
+        {
+          "date": "2026-09-18",
+          "text": "Revisione manuale dei rimandi ai documenti e della relativa descrizione."
+        }
+      ],
+      "document_url": "https://www.distrettoappenninomeridionale.it/piano-gestione-alluvioni/ii-ciclo-2016-2021/",
+      "document_label": "PGRA Appennino Meridionale · II ciclo, elaborati",
+      "document_note": "I collegamenti aprono direttamente i PDF ufficiali degli elaborati principali."
+    },
+    {
+      "id": "dist-sard",
+      "ref": "PAI / PGRA · Sardegna",
+      "title": "Pianificazione di bacino e rischio alluvioni",
+      "level": "Distrettuale",
+      "regions": [
+        "Sardegna"
+      ],
+      "topics": [
+        "PAI e PGRA",
+        "Compatibilità idraulica"
+      ],
+      "date": "",
+      "url": "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-di-gestione-del-rischio-alluvioni-p-g-r-a/",
+      "documents": [
+        {
+          "url": "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/06/Testo-coordinato-N.A.-PAI-modifiche-CI-n.-8-del-25.05.2026.pdf",
+          "label": "PDF ufficiale · norme PAI coordinate vigenti",
+          "format": "pdf",
+          "group": "PAI"
+        },
+        {
+          "url": "https://pianogestionerischioalluvioni.regione.sardegna.it/documenti/1_617_20211222110339.pdf",
+          "label": "PDF ufficiale · relazione generale PGRA",
+          "format": "pdf",
+          "group": "PGRA"
+        }
+      ],
+      "summary": "Accesso alla pianificazione del distretto Sardegna: norme, cartografie e aggiornamenti da individuare per il bacino interessato.",
+      "focus": [
+        "Individuare il bacino e il piano pertinente",
+        "Consultare NTA, mappe e varianti",
+        "Verificare adozione, salvaguardia e approvazione"
+      ],
+      "kind": "Raccolta di piani",
+      "status": "Raccolta da approfondire",
+      "source_kind": "Portale di pianificazione",
+      "note": "Scheda di accesso al distretto, non una singola norma. Le regioni sono un filtro orientativo: i confini di bacino non coincidono con quelli amministrativi. Piani e varianti non ancora censiti integralmente.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        },
+        {
+          "date": "2026-09-18",
+          "text": "Revisione manuale dei rimandi ai documenti e della relativa descrizione."
+        }
+      ],
+      "document_url": "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-stralcio-di-bacino-per-lassetto-idrogeologico-pai/norme-pai/",
+      "document_label": "PAI Sardegna · norme",
+      "document_note": "I collegamenti aprono direttamente i PDF ufficiali degli elaborati principali."
+    },
+    {
+      "id": "dist-sici",
+      "ref": "PAI / PGRA · Sicilia",
+      "title": "Pianificazione di bacino e rischio alluvioni",
+      "level": "Distrettuale",
+      "regions": [
+        "Sicilia"
+      ],
+      "topics": [
+        "PAI e PGRA",
+        "Compatibilità idraulica"
+      ],
+      "date": "",
+      "url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/siti-tematici/pianificazione/stralcio",
+      "documents": [
+        {
+          "url": "https://www.regione.sicilia.it/system/files/2021-05/DP_n.09_2021_approvazione_NdA.pdf",
+          "label": "PDF ufficiale · approvazione norme PAI",
+          "format": "pdf",
+          "group": "PAI"
+        },
+        {
+          "url": "https://www.regione.sicilia.it/sites/default/files/2023-02/DPCM_PGRA_20221201.pdf",
+          "label": "PDF ufficiale · DPCM di approvazione PGRA",
+          "format": "pdf",
+          "group": "PGRA"
+        }
+      ],
+      "summary": "Accesso alla pianificazione del distretto Sicilia: norme, cartografie e aggiornamenti da individuare per il bacino interessato.",
+      "focus": [
+        "Individuare il bacino e il piano pertinente",
+        "Consultare NTA, mappe e varianti",
+        "Verificare adozione, salvaguardia e approvazione"
+      ],
+      "kind": "Raccolta di piani",
+      "status": "Raccolta da approfondire",
+      "source_kind": "Portale di pianificazione",
+      "note": "Scheda di accesso al distretto, non una singola norma. Le regioni sono un filtro orientativo: i confini di bacino non coincidono con quelli amministrativi. Piani e varianti non ancora censiti integralmente.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        },
+        {
+          "date": "2026-09-18",
+          "text": "Revisione manuale dei rimandi ai documenti e della relativa descrizione."
+        }
+      ],
+      "document_url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa",
+      "document_label": "PAI Sicilia · norme e aggiornamenti",
+      "document_note": "I collegamenti aprono direttamente i PDF ufficiali degli elaborati principali."
+    },
+    {
+      "id": "dmattr2014",
+      "ref": "D.M. 04/04/2014",
+      "title": "Attraversamenti e parallelismi di condotte e canali con ferrovie e altre linee di trasporto",
+      "level": "Nazionale",
+      "regions": [
+        "Italia"
+      ],
+      "topics": [
+        "Attraversamenti e parallelismi",
+        "Drenaggio",
+        "Risorse idriche"
+      ],
+      "date": "2014-04-04",
+      "url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=14A03304&atto.dataPubblicazioneGazzetta=2014-04-28&tipoSerie=serie_generale&tipoVigenza=originario",
+      "summary": "Norme tecniche per interferenze di condotte e canali convoglianti liquidi e gas con infrastrutture ferroviarie e altre linee di trasporto individuate dal decreto.",
+      "focus": [
+        "Allegato A, capitolo 1: individuare la linea di trasporto e il campo di applicazione; non è una regola generale per ogni attraversamento di corso d’acqua.",
+        "Capitolo 4: condotte convoglianti acque sotto pressione; attraversamenti, parallelismi, protezione e prove.",
+        "Distinguere gli acquedotti e le canalizzazioni a pelo libero dalle condotte disciplinate dai capitoli 2 e 3.",
+        "Verificare geometria, protezioni, carichi, massima pressione compreso il colpo d’ariete e prescrizioni del gestore competente."
+      ],
+      "kind": "Atto normativo",
+      "status": "Verifica parziale",
+      "source_kind": "Gazzetta Ufficiale",
+      "note": "GU n. 97 del 28/04/2014; consultati decreto e Allegato A. Ricostruzione degli eventuali atti successivi e delle procedure del gestore da completare.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "aliases": [
+        "DM 2014",
+        "DM 4 aprile 2014",
+        "DM 04/04/2014",
+        "parallelismo",
+        "attraversamento",
+        "ferroviario",
+        "acquedotti"
+      ],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Scheda inserita durante la ricognizione manuale su fonte ufficiale. Non è la data di una nuova pubblicazione normativa."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2014/04/28/97/sg/pdf",
+          "label": "PDF ufficiale · D.M. 4 aprile 2014",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto."
+    },
+    {
+      "id": "camed2025",
+      "ref": "D.M. 24/11/2025",
+      "title": "CAM edilizia · Progettazione e lavori per interventi edilizi",
+      "level": "Nazionale",
+      "regions": [
+        "Italia"
+      ],
+      "topics": [
+        "CAM",
+        "Drenaggio",
+        "Risorse idriche"
+      ],
+      "date": "2025-11-24",
+      "url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=25A06516&atto.dataPubblicazioneGazzetta=2025-12-03&tipoSerie=serie_generale&tipoVigenza=originario",
+      "summary": "Nuovo riferimento CAM edilizia; sostituzione del decreto del 2022 con disposizioni transitorie da verificare per la singola procedura.",
+      "focus": [
+        "Art. 4: abroga il D.M. 23/06/2022 n. 256 e il relativo modificativo del 05/08/2024; efficacia dopo 60 giorni dalla pubblicazione.",
+        "Art. 2: disciplina transitoria legata a progetti validati sotto il precedente quadro e alla pubblicazione del bando o all’invito entro tre mesi dalla validazione, nei casi indicati.",
+        "Approfondimenti idraulici nell’allegato MASE: gestione delle acque, permeabilità, risparmio idrico e impianti. Numerazione e requisiti quantitativi da acquisire dal nuovo allegato, senza trasferirli automaticamente dai CAM 2022.",
+        "Identificare prima la categoria dell’appalto e il regime temporale applicabile."
+      ],
+      "kind": "Atto normativo",
+      "status": "Vigente dal 1 febbraio 2026",
+      "source_kind": "Gazzetta Ufficiale",
+      "note": "Pubblicato nella G.U. n. 281 del 3 dicembre 2025 ed entrato in vigore sessanta giorni dopo. Il previgente D.M. 256/2022 è rimosso dal catalogo attivo; i casi transitori devono essere verificati puntualmente ai sensi dell’art. 2.",
+      "checked": "2026-09-18",
+      "relations": [
+        {
+          "type": "Sostituisce, salvo disciplina transitoria",
+          "id": "camed2022"
+        },
+        {
+          "type": "Allegati ufficiali",
+          "text": "Portale CAM vigenti MASE",
+          "url": "https://www.mase.gov.it/portale/cam-vigenti"
+        },
+        {
+          "type": "Quadro degli appalti",
+          "id": "appalti36"
+        }
+      ],
+      "aliases": [
+        "criteri ambientali minimi edilizia",
+        "CAM edifici"
+      ],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Scheda inserita durante la ricognizione manuale su fonte ufficiale. Non è la data di una nuova pubblicazione normativa."
+        },
+        {
+          "date": "2026-09-18",
+          "text": "Verificata l’entrata in vigore; rimosso dal catalogo attivo il D.M. 256/2022, espressamente abrogato, mantenendo l’avvertenza sul regime transitorio."
+        }
+      ],
+      "document_label": "D.M. 24 novembre 2025 · Gazzetta Ufficiale",
+      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto.",
+      "documents": [
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2025/12/03/281/sg/pdf",
+          "label": "PDF ufficiale · CAM edilizia 2025",
+          "format": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "camstrade2024",
+      "ref": "D.M. 05/08/2024 · CAM Strade",
+      "title": "Criteri ambientali minimi per infrastrutture stradali",
+      "level": "Nazionale",
+      "regions": [
+        "Italia"
+      ],
+      "topics": [
+        "CAM",
+        "Drenaggio",
+        "Prima pioggia"
+      ],
+      "date": "2024-08-05",
+      "url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=24A04332&atto.dataPubblicazioneGazzetta=2024-08-23&tipoSerie=serie_generale&tipoVigenza=originario",
+      "summary": "CAM per progettazione, costruzione, manutenzione e adeguamento stradale, con criteri specifici per drenaggi e tubazioni.",
+      "focus": [
+        "Allegato 1, § 2.3.7: sistemi di drenaggio lineare.",
+        "§§ 2.3.8–2.3.9: tubazioni in gres ceramico e materiale plastico.",
+        "§ 2.4.1: prestazioni ambientali del cantiere; verificare la protezione delle acque nel testo applicabile.",
+        "Integrare i criteri di prodotto con la normativa sugli scarichi e le prescrizioni idrauliche del territorio."
+      ],
+      "kind": "Atto normativo",
+      "status": "Vigente come modificato dal D.M. 11 settembre 2025",
+      "source_kind": "Gazzetta Ufficiale",
+      "note": "Il D.M. 5 agosto 2024 resta il testo-base dei CAM Strade e deve essere applicato con le modifiche del D.M. 11 settembre 2025. Verificare anche le disposizioni transitorie del correttivo.",
+      "checked": "2026-09-18",
+      "relations": [
+        {
+          "type": "Quadro degli appalti",
+          "id": "appalti36"
+        },
+        {
+          "type": "Disciplina delle acque",
+          "id": "dl152"
+        },
+        {
+          "id": "camstrade2025",
+          "type": "Modificato da"
+        }
+      ],
+      "aliases": [
+        "criteri ambientali minimi strade",
+        "CAM stradali",
+        "drenaggio lineare",
+        "gres"
+      ],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Scheda inserita durante la ricognizione manuale su fonte ufficiale. Non è la data di una nuova pubblicazione normativa."
+        },
+        {
+          "date": "2026-09-18",
+          "text": "Reperito il correttivo ufficiale 2025; conservata la versione precedente."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2024/08/23/197/sg/pdf",
+          "label": "PDF ufficiale · CAM strade 2024",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto."
+    },
+    {
+      "id": "camverde2020",
+      "ref": "D.M. 10/03/2020 · CAM Verde",
+      "title": "Gestione del verde pubblico e prodotti per la cura del verde",
+      "level": "Nazionale",
+      "regions": [
+        "Italia"
+      ],
+      "topics": [
+        "CAM",
+        "Drenaggio",
+        "Risorse idriche"
+      ],
+      "date": "2020-03-10",
+      "url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=20A01904&atto.dataPubblicazioneGazzetta=2020-04-04&tipoSerie=serie_generale&tipoVigenza=originario",
+      "summary": "Criteri per il verde pubblico con indicazioni su gestione meteorica, contenimento del deflusso, irrigazione e ingegneria naturalistica.",
+      "focus": [
+        "Allegato: gestione delle acque, superfici permeabili, contenimento del deflusso e accumulo temporaneo; considerare suoli, inquinanti e vulnerabilità delle falde.",
+        "Impianti irrigui: idrozone, stima dei consumi, raccolta pluviale, regolazione e controllo delle perdite.",
+        "Interventi pertinenti su scarpate, versanti e corsi d’acqua: tecniche di ingegneria naturalistica.",
+        "Verificare l’applicabilità della specifica sezione CAM all’oggetto dell’affidamento."
+      ],
+      "kind": "Atto normativo",
+      "status": "Vigente · presente nell’elenco MASE dei CAM vigenti",
+      "source_kind": "Gazzetta Ufficiale",
+      "note": "Il D.M. 10 marzo 2020 continua a essere riportato dal MASE tra i CAM vigenti per il verde pubblico. Verificati decreto in G.U. e pagina ministeriale di ricognizione.",
+      "checked": "2026-09-18",
+      "relations": [
+        {
+          "type": "Quadro degli appalti",
+          "id": "appalti36"
+        }
+      ],
+      "aliases": [
+        "criteri ambientali minimi verde pubblico",
+        "irrigazione",
+        "rain garden",
+        "SuDS"
+      ],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Scheda inserita durante la ricognizione manuale su fonte ufficiale. Non è la data di una nuova pubblicazione normativa."
+        },
+        {
+          "date": "2026-09-18",
+          "text": "Vigenza riscontrata nell’elenco ministeriale dei CAM vigenti."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2020/04/04/90/sg/pdf",
+          "label": "PDF ufficiale · CAM verde 2020",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto."
+    },
+    {
+      "id": "appalti36",
+      "ref": "D.Lgs. 36/2023 · art. 57",
+      "title": "Codice dei contratti pubblici · Raccordo con i CAM",
+      "level": "Nazionale",
+      "regions": [
+        "Italia"
+      ],
+      "topics": [
+        "CAM"
+      ],
+      "date": "2023-03-31",
+      "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2023-03-31&atto.codiceRedazionale=23G00044",
+      "summary": "Quadro degli appalti pubblici per l’inquadramento dei criteri ambientali minimi pertinenti all’affidamento.",
+      "focus": [
+        "Consultare l’art. 57 nel testo coordinato e il decreto CAM della categoria interessata.",
+        "Distinguere specifiche tecniche, clausole contrattuali e criteri premianti. Non ogni CAM è applicabile indistintamente a ogni opera idraulica."
+      ],
+      "kind": "Atto normativo",
+      "status": "Vigente · consultare il testo coordinato",
+      "source_kind": "Normattiva",
+      "note": "Il D.Lgs. 36/2023 è vigente nel testo consolidato pubblicato da Normattiva. L’art. 57 impone l’inserimento almeno delle specifiche tecniche e delle clausole contrattuali contenute nei CAM applicabili; verificare sempre il testo coordinato e il decreto CAM della categoria interessata.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "aliases": [
+        "CAM obblighi appalti",
+        "criteri ambientali minimi",
+        "articolo 57"
+      ],
+      "history": [
+        {
+          "date": "2026-09-17",
+          "text": "Scheda inserita durante la ricognizione manuale su fonte ufficiale. Non è la data di una nuova pubblicazione normativa."
+        },
+        {
+          "date": "2026-09-18",
+          "text": "Verificato il testo consolidato su Normattiva e aggiornato lo stato della scheda."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2023/03/31/77/so/12/sg/pdf",
+          "label": "PDF ufficiale · D.Lgs. 36/2023",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto."
+    },
+    {
+      "id": "camstrade2025",
+      "ref": "D.M. 11/09/2025 · correttivo CAM Strade",
+      "title": "Modifiche all’allegato 1 del D.M. 05/08/2024",
+      "level": "Nazionale",
+      "regions": [
+        "Italia"
+      ],
+      "topics": [
+        "CAM",
+        "Drenaggio"
+      ],
+      "date": "2025-09-11",
+      "url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=25A05133&atto.dataPubblicazioneGazzetta=2025-09-23&tipoSerie=serie_generale&tipoVigenza=originario",
+      "document_label": "Consulta il correttivo in Gazzetta Ufficiale",
+      "summary": "Correttivo verificato sulla GU: da applicare insieme ai CAM Strade 2024, ricostruendo il regime della singola procedura.",
+      "focus": [
+        "Art. 1: modifiche all’allegato tecnico, comprese prescrizioni progettuali e prove dei materiali; il coordinamento integrale dei criteri idraulici resta da completare.",
+        "Art. 3: applicazione anche ai procedimenti in corso, salvo art. 4; distinguere progettazione, lavori, affidamenti congiunti e progettazione interna.",
+        "Art. 4: deroghe nei casi indicati per progetti non soggetti al DM 2024, con bando/avviso o invito entro 180 giorni dall’entrata in vigore."
+      ],
+      "kind": "Atto normativo",
+      "status": "Vigente dal 24 settembre 2025 · correttivo CAM Strade",
+      "source_kind": "Gazzetta Ufficiale",
+      "note": "Il decreto modifica l’allegato 1 del D.M. 5 agosto 2024; l’art. 5 ne dispone l’entrata in vigore il giorno successivo alla pubblicazione. Gli artt. 3 e 4 regolano applicazione e deroghe transitorie.",
+      "checked": "2026-09-18",
+      "relations": [
+        {
+          "type": "Quadro degli appalti",
+          "id": "appalti36"
+        },
+        {
+          "id": "camstrade2024",
+          "type": "Modifica"
+        }
+      ],
+      "aliases": [
+        "correttivo CAM strade",
+        "11 settembre 2025"
+      ],
+      "history": [
+        {
+          "date": "2026-09-18",
+          "text": "Inserimento retrospettivo su testo ufficiale GU; pubblicazione del Site sospesa fino alla validazione documentale."
+        }
+      ],
+      "publication_date": "2025-09-23",
+      "effective_date": "2025-09-24",
+      "documents": [
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2025/09/23/221/sg/pdf",
+          "label": "PDF ufficiale · modifica CAM strade 2025",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto."
+    },
+    {
+      "id": "pai-calabria2001",
+      "ref": "PAI Calabria · NAMS aggiornate 2011",
+      "title": "Norme di attuazione e misure di salvaguardia del PAI regionale",
+      "level": "Regionale",
+      "regions": [
+        "Calabria"
+      ],
+      "topics": [
+        "PAI e PGRA",
+        "Compatibilità idraulica"
+      ],
+      "date": "2011-08-02",
+      "url": "https://www.distrettoappenninomeridionale.it/progetto-di-piano-stralcio-di-bacino-del-distretto-idrografico-dellappennino-meridionale-per-lassetto-la-mitigazione-e-la-gestione-del-rischio-da-alluvioni/psdgdam-risal-cal-l/",
+      "document_url": "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2024/11/NAMS_PAI_2001.pdf",
+      "document_label": "Apri le NAMS del PAI Calabria (PDF)",
+      "document_note": "PDF ufficiale del testo aggiornato con delibera C.I. 27 del 02/08/2011. Non è un testo coordinato al 2026.",
+      "summary": "Riferimento specifico del PAI Calabria, distinto dal PGRA distrettuale e dal progetto Calabria/Lao.",
+      "focus": [
+        "Artt. 21–26: rischio di inondazione, aree di attenzione e verifiche di compatibilità.",
+        "Verificare bacino, varianti cartografiche e salvaguardie sopravvenute prima dell’applicazione."
+      ],
+      "kind": "Piano",
+      "status": "Testo storico verificato · vigenza da coordinare",
+      "source_kind": "Documento ufficiale dell’Autorità di bacino",
+      "note": "Letti frontespizio, indice e disposizioni generali del PDF. La pagina Calabria/Lao lo pubblica tra le misure di salvaguardia. Non dedotta abrogazione o sostituzione integrale dalla presenza del nuovo progetto.",
+      "checked": "2026-09-18",
+      "relations": [
+        {
+          "type": "Da coordinare con il procedimento",
+          "id": "pai-calabria-lao"
+        },
+        {
+          "type": "Pianificazione distrettuale",
+          "id": "dist-merid"
+        }
+      ],
+      "aliases": [
+        "NAMS",
+        "PAI Calabria",
+        "27/2011"
+      ],
+      "history": [
+        {
+          "date": "2026-09-18",
+          "text": "Recuperato documento storico ufficiale precedentemente assente."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2024/11/NAMS_PAI_2001.pdf",
+          "label": "Apri le NAMS del PAI Calabria (PDF)",
+          "group": "PAI",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "pai-calabria-lao",
+      "ref": "PSdGDAM-RisAl-Cal/L",
+      "title": "Progetto di piano rischio alluvioni Calabria/Lao",
+      "level": "Distrettuale",
+      "regions": [
+        "Calabria"
+      ],
+      "topics": [
+        "PAI e PGRA",
+        "Compatibilità idraulica"
+      ],
+      "date": "",
+      "url": "https://www.distrettoappenninomeridionale.it/progetto-di-piano-stralcio-di-bacino-del-distretto-idrografico-dellappennino-meridionale-per-lassetto-la-mitigazione-e-la-gestione-del-rischio-da-alluvioni/psdgdam-risal-cal-l/",
+      "document_url": "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2024/11/Norme_di_Attuazione.pdf",
+      "document_label": "Apri le norme del progetto Calabria/Lao (PDF)",
+      "document_note": "Edizione ottobre 2024: verificare gli atti successivi nella pagina del procedimento prima di assumerla come disciplina efficace.",
+      "summary": "Pagina specifica del procedimento Calabria/Lao, con norme, cartografie e deliberazioni; non una pagina generica del distretto.",
+      "focus": [
+        "Consultati indice e preambolo delle norme: artt. 12–15 per pericolosità, art. 18 per compatibilità, artt. 30–32 per pareri.",
+        "La pagina elenca le delibere del 19/02/2025 e del 31/07/2025: non attribuire efficacia o approvazione definitiva senza leggere gli atti e i relativi avvisi."
+      ],
+      "kind": "Piano",
+      "status": "Progetto · iter ed efficacia da verificare",
+      "source_kind": "Pagina e documento ufficiale del procedimento",
+      "note": "La delibera 6/2025 è distribuita in ZIP, non acquisito dal lettore. Non dichiarata la sostituzione del PAI Calabria. Estensione territoriale da verificare sulle mappe; il filtro Calabria non sostituisce il controllo del bacino.",
+      "checked": "2026-09-18",
+      "relations": [
+        {
+          "type": "Quadro precedente da coordinare",
+          "id": "pai-calabria2001"
+        },
+        {
+          "type": "Pianificazione distrettuale",
+          "id": "dist-merid"
+        },
+        {
+          "type": "Procedura richiamata: art. 67",
+          "id": "dl152"
+        }
+      ],
+      "aliases": [
+        "Calabria Lao",
+        "PAI Calabria",
+        "RisAl"
+      ],
+      "history": [
+        {
+          "date": "2026-09-18",
+          "text": "Aggiunta scheda del procedimento con PDF ufficiale verificato; iter non ricostruito integralmente."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2024/11/Norme_di_Attuazione.pdf",
+          "label": "Apri le norme del progetto Calabria/Lao (PDF)",
+          "group": "PAI",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "pai-basilicata",
+      "ref": "PAI ex AdB Basilicata",
+      "title": "Norme, elaborati e cartografie del piano di bacino",
+      "level": "Distrettuale",
+      "regions": [
+        "Basilicata",
+        "Puglia",
+        "Calabria"
+      ],
+      "topics": [
+        "PAI e PGRA"
+      ],
+      "date": "",
+      "url": "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-basilicata-menu/piano-stralcio-per-la-difesa-dal-rischio-idrogeologico-pai-vigente-enu",
+      "summary": "Piano dei bacini dell’ex AdB Basilicata, con porzioni di Puglia e Calabria. NTA aggiornamento 2024; verificare le successive varianti.",
+      "focus": [
+        "Verificare il bacino del punto di intervento e le varianti successive.",
+        "Consultare insieme norme e cartografia."
+      ],
+      "kind": "Piano",
+      "status": "Documentazione censita",
+      "source_kind": "Autorità di bacino distrettuale",
+      "note": "Piano dei bacini dell’ex AdB Basilicata, con porzioni di Puglia e Calabria. NTA aggiornamento 2024; verificare le successive varianti.",
+      "document_note": "Piano dei bacini dell’ex AdB Basilicata, con porzioni di Puglia e Calabria. NTA aggiornamento 2024; verificare le successive varianti.",
+      "checked": "2026-09-18",
+      "relations": [
+        {
+          "id": "dist-merid",
+          "type": "PGRA distrettuale collegato"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-18",
+          "text": "Inseriti rimandi specifici al piano e ai suoi elaborati."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/UOM%20BASILICATA/PAI-RF/Norme_PAI_Basilicata_2024.pdf",
+          "label": "PAI Basilicata · NTA aggiornamento 2024",
+          "group": "PAI",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "pai-lgv",
+      "ref": "PSAI Liri–Garigliano · rischio idraulico",
+      "title": "Norme, elaborati e cartografie del piano di bacino",
+      "level": "Distrettuale",
+      "regions": [
+        "Abruzzo",
+        "Lazio",
+        "Campania"
+      ],
+      "topics": [
+        "PAI e PGRA"
+      ],
+      "date": "",
+      "url": "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-liri-garigliano-e-volturno-menuo/pai-rischio-idraulico-menu",
+      "summary": "Documenti del PSAI-RI del bacino Liri–Garigliano. Non estendere automaticamente al Volturno; consultare le varianti.",
+      "focus": [
+        "Verificare il bacino del punto di intervento e le varianti successive.",
+        "Consultare insieme norme e cartografia."
+      ],
+      "kind": "Piano",
+      "status": "Documentazione censita",
+      "source_kind": "Autorità di bacino distrettuale",
+      "note": "Documenti del PSAI-RI del bacino Liri–Garigliano. Non estendere automaticamente al Volturno; consultare le varianti.",
+      "document_note": "Documenti del PSAI-RI del bacino Liri–Garigliano. Non estendere automaticamente al Volturno; consultare le varianti.",
+      "checked": "2026-09-18",
+      "relations": [
+        {
+          "id": "dist-merid",
+          "type": "PGRA distrettuale collegato"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-18",
+          "text": "Inseriti rimandi specifici al piano e ai suoi elaborati."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/PAI-RI%20LGV%20norme%20luglio_2006.pdf",
+          "label": "Liri–Garigliano · norme PSAI-RI",
+          "group": "PAI",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "pai-puglia",
+      "ref": "PAI Puglia e Ofanto",
+      "title": "Norme, elaborati e cartografie del piano di bacino",
+      "level": "Distrettuale",
+      "regions": [
+        "Puglia",
+        "Basilicata",
+        "Campania"
+      ],
+      "topics": [
+        "PAI e PGRA"
+      ],
+      "date": "",
+      "url": "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-puglia-menu/piano-assetto-idrogeologico-pericolosita-idraulica-menu",
+      "summary": "Elaborati dell’ex AdB Puglia e del bacino interregionale Ofanto. Applicabilità secondo il bacino; archivio delle perimetrazioni e aggiornamenti.",
+      "focus": [
+        "Verificare il bacino del punto di intervento e le varianti successive.",
+        "Consultare insieme norme e cartografia."
+      ],
+      "kind": "Piano",
+      "status": "Documentazione censita",
+      "source_kind": "Autorità di bacino distrettuale",
+      "note": "Elaborati dell’ex AdB Puglia e del bacino interregionale Ofanto. Applicabilità secondo il bacino; archivio delle perimetrazioni e aggiornamenti.",
+      "document_note": "Il collegamento apre direttamente il PDF del documento.",
+      "checked": "2026-09-18",
+      "relations": [
+        {
+          "id": "dist-merid",
+          "type": "PGRA distrettuale collegato"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-18",
+          "text": "Inseriti rimandi specifici al piano e ai suoi elaborati."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/UoM%20Puglia/3_NTA_CI_30-11-05.pdf",
+          "label": "PDF ufficiale · norme tecniche PAI Puglia",
+          "format": "pdf",
+          "group": "PAI"
+        }
+      ]
+    },
+    {
+      "id": "pai-campania",
+      "ref": "PAI Campania Centrale",
+      "title": "Norme, elaborati e cartografie del piano di bacino",
+      "level": "Distrettuale",
+      "regions": [
+        "Campania"
+      ],
+      "topics": [
+        "PAI e PGRA"
+      ],
+      "date": "",
+      "url": "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/bacini-reg-nord-occidentali-bacino-reg-sarno-ex-adb-reg-campania-centrale-menu/piano-assetto-idrogeologico-rischio-idraulico-menu",
+      "summary": "Bacini regionali nord-occidentali e Sarno. Per gli altri bacini campani consultare i rispettivi piani nell’indice distrettuale.",
+      "focus": [
+        "Verificare il bacino del punto di intervento e le varianti successive.",
+        "Consultare insieme norme e cartografia."
+      ],
+      "kind": "Piano",
+      "status": "Documentazione censita",
+      "source_kind": "Autorità di bacino distrettuale",
+      "note": "Bacini regionali nord-occidentali e Sarno. Per gli altri bacini campani consultare i rispettivi piani nell’indice distrettuale.",
+      "document_note": "Il PDF è estratto senza modifiche dall’archivio ZIP ufficiale “NORME PAI” pubblicato dall’Autorità di bacino distrettuale.",
+      "checked": "2026-09-18",
+      "relations": [
+        {
+          "id": "dist-merid",
+          "type": "PGRA distrettuale collegato"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-18",
+          "text": "Inseriti rimandi specifici al piano e ai suoi elaborati."
+        }
+      ],
+      "documents": [
+        {
+          "format": "pdf",
+          "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/pai-campania-centrale-norme-attuazione-2015.pdf",
+          "label": "PDF ufficiale · norme di attuazione PAI Campania Centrale",
+          "group": "PAI"
+        }
+      ]
+    },
+    {
+      "id": "pai-biferno-e-minori",
+      "ref": "PAI Biferno e minori",
+      "title": "Norme, elaborati e cartografie del piano di bacino",
+      "level": "Distrettuale",
+      "regions": [
+        "Molise"
+      ],
+      "topics": [
+        "PAI e PGRA"
+      ],
+      "date": "",
+      "url": "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-trigno-biferno-e-minori-saccione-e-fortore-menu/biferno-e-minori-menu/piano-stralcio-assetto-idrogeologico-rischio-idraulico-menu",
+      "summary": "Documentazione specifica del bacino Biferno e minori. Verificare norme, cartografie e successive varianti.",
+      "focus": [
+        "Verificare il bacino del punto di intervento e le varianti successive.",
+        "Consultare insieme norme e cartografia."
+      ],
+      "kind": "Piano",
+      "status": "Documentazione censita",
+      "source_kind": "Autorità di bacino distrettuale",
+      "note": "Documentazione specifica del bacino Biferno e minori. Verificare norme, cartografie e successive varianti.",
+      "document_note": "Documentazione specifica del bacino Biferno e minori. Verificare norme, cartografie e successive varianti.",
+      "checked": "2026-09-18",
+      "relations": [
+        {
+          "id": "dist-merid",
+          "type": "PGRA distrettuale collegato"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-18",
+          "text": "Inseriti rimandi specifici al piano e ai suoi elaborati."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/molise/biferno/NORME%20PAI%20BIFERNO%20AGGIORNATE%20APRILE%202017.pdf",
+          "label": "PAI Biferno e minori · norme di attuazione",
+          "group": "PAI",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "pai-trigno",
+      "ref": "PAI Trigno",
+      "title": "Norme, elaborati e cartografie del piano di bacino",
+      "level": "Distrettuale",
+      "regions": [
+        "Molise",
+        "Abruzzo"
+      ],
+      "topics": [
+        "PAI e PGRA"
+      ],
+      "date": "",
+      "url": "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-trigno-biferno-e-minori-saccione-e-fortore-menu/trigno-menu/piano-stralcio-assetto-idrogeologico-rischio-idraulico-menu",
+      "summary": "Documentazione specifica del bacino Trigno. Verificare norme, cartografie e successive varianti.",
+      "focus": [
+        "Verificare il bacino del punto di intervento e le varianti successive.",
+        "Consultare insieme norme e cartografia."
+      ],
+      "kind": "Piano",
+      "status": "Documentazione censita",
+      "source_kind": "Autorità di bacino distrettuale",
+      "note": "Documentazione specifica del bacino Trigno. Verificare norme, cartografie e successive varianti.",
+      "document_note": "Documentazione specifica del bacino Trigno. Verificare norme, cartografie e successive varianti.",
+      "checked": "2026-09-18",
+      "relations": [
+        {
+          "id": "dist-merid",
+          "type": "PGRA distrettuale collegato"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-18",
+          "text": "Inseriti rimandi specifici al piano e ai suoi elaborati."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/trigno/NORME%20PAI%20TRIGNO%20AGGIORNATE%20APRILE%202017.pdf",
+          "label": "PAI Trigno · norme di attuazione",
+          "group": "PAI",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "pai-fortore",
+      "ref": "PAI Fortore",
+      "title": "Norme, elaborati e cartografie del piano di bacino",
+      "level": "Distrettuale",
+      "regions": [
+        "Molise",
+        "Puglia",
+        "Campania"
+      ],
+      "topics": [
+        "PAI e PGRA"
+      ],
+      "date": "",
+      "url": "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-trigno-biferno-e-minori-saccione-e-fortore-menu/fortore-menu/piano-stralcio-assetto-idrogeologico-rischio-idraulico-menu",
+      "summary": "Documentazione specifica del bacino Fortore. Verificare norme, cartografie e successive varianti.",
+      "focus": [
+        "Verificare il bacino del punto di intervento e le varianti successive.",
+        "Consultare insieme norme e cartografia."
+      ],
+      "kind": "Piano",
+      "status": "Documentazione censita",
+      "source_kind": "Autorità di bacino distrettuale",
+      "note": "Documentazione specifica del bacino Fortore. Verificare norme, cartografie e successive varianti.",
+      "document_note": "Il collegamento apre direttamente il PDF del documento.",
+      "checked": "2026-09-18",
+      "relations": [
+        {
+          "id": "dist-merid",
+          "type": "PGRA distrettuale collegato"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-18",
+          "text": "Inseriti rimandi specifici al piano e ai suoi elaborati."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/molise/FORTORE/A-01_Normativa_di_attuazione.pdf",
+          "label": "PDF ufficiale · norme di attuazione PAI Fortore",
+          "format": "pdf",
+          "group": "PAI"
+        }
+      ]
+    },
+    {
+      "id": "laz117",
+      "ref": "D.G.R. Lazio 117/2020",
+      "title": "Linee guida sull’invarianza idraulica nelle trasformazioni territoriali",
+      "level": "Regionale",
+      "regions": [
+        "Lazio"
+      ],
+      "topics": [
+        "Invarianza idraulica",
+        "Compatibilità idraulica",
+        "Drenaggio"
+      ],
+      "date": "2020-03-24",
+      "url": "https://www.regione.lazio.it/documenti/69240",
+      "summary": "Linee guida regionali per valutare gli effetti idrologico-idraulici delle trasformazioni territoriali e dimensionare le misure compensative.",
+      "focus": [
+        "Ambito territoriale e classi di trasformazione",
+        "Studio idrologico-idraulico e misure compensative",
+        "Volumi di laminazione e recapito delle acque meteoriche"
+      ],
+      "kind": "Linee guida",
+      "status": "Atto e documenti verificati",
+      "source_kind": "BURL Lazio e portale regionale",
+      "note": "La D.G.R. 24 marzo 2020, n. 117 approva le linee guida regionali. Il testo integrale con Allegato A è collegato nella copia del BURL pubblicata dalla Provincia di Latina; la pagina Regione Lazio rende disponibili anche le slide illustrative. Per il singolo intervento vanno comunque controllati PAI/PGRA e prescrizioni dell’autorità di bacino, del comune e del gestore.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-18",
+          "text": "Scheda inserita dopo controllo mirato della disciplina regionale sull’invarianza idraulica."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www.provincia.latina.it/flex/cm/pages/ServeAttachment.php/L/IT/D/1%252F1%252F3%252FD.cefc0d46463bb1e57756/P/BLOB%3AID%3D1320/E/pdf?mode=download",
+          "label": "D.G.R. 117/2020 e Allegato A · BURL Lazio",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        },
+        {
+          "url": "https://www.regione.lazio.it/sites/default/files/documentazione/AMB_Slides_Linee_guida_sulla_invarianza_idraulica_trasformazioni_territoriali.pdf",
+          "label": "Regione Lazio · slide sulle linee guida",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        }
+      ],
+      "document_url": "https://www.provincia.latina.it/flex/cm/pages/ServeAttachment.php/L/IT/D/1%252F1%252F3%252FD.cefc0d46463bb1e57756/P/BLOB%3AID%3D1320/E/pdf?mode=download",
+      "document_label": "D.G.R. 117/2020 e Allegato A · BURL Lazio",
+      "document_note": "Il primo collegamento apre il testo della D.G.R. e l’Allegato A; gli altri rimandano alla documentazione illustrativa pubblicata dalla Regione Lazio."
+    },
+    {
+      "id": "sar-inv-2017",
+      "ref": "Del. C.I. 2/2017 · art. 47 NTA PAI",
+      "title": "Linee guida per l’attuazione del principio di invarianza idraulica",
+      "level": "Distrettuale",
+      "regions": [
+        "Sardegna"
+      ],
+      "topics": [
+        "Invarianza idraulica",
+        "Compatibilità idraulica",
+        "PAI e PGRA"
+      ],
+      "date": "2017-05-17",
+      "url": "https://autoritadibacino.regione.sardegna.it/ap/delibera-del-comitato-istituzionale-n-2-del-17-05-2017/",
+      "summary": "Aggiornamento delle linee guida e degli indirizzi operativi per applicare il principio di invarianza idraulica previsto dall’articolo 47 delle NTA del PAI Sardegna.",
+      "focus": [
+        "Classificazione degli interventi",
+        "Coefficienti di afflusso e calcolo idraulico",
+        "Misure compensative e schede tecniche"
+      ],
+      "kind": "Linee guida",
+      "status": "In vigore secondo la fonte ufficiale",
+      "source_kind": "Autorità di bacino regionale",
+      "note": "La pagina ufficiale dell’Autorità di Bacino della Sardegna indica la deliberazione come in vigore e pubblicata sul BURAS l’8 giugno 2017. La disciplina è connessa all’art. 47 delle NTA PAI; occorre quindi leggere anche il testo coordinato delle NTA e gli eventuali strumenti comunali applicabili.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-18",
+          "text": "Scheda inserita dopo controllo mirato della disciplina regionale e distrettuale sull’invarianza idraulica."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www.regione.sardegna.it/documenti/1_470_20170529141753.pdf",
+          "label": "Relazione · linee guida per l’invarianza idraulica",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        }
+      ],
+      "document_url": "https://autoritadibacino.regione.sardegna.it/ap/delibera-del-comitato-istituzionale-n-2-del-17-05-2017/",
+      "document_label": "Delibera 2/2017 · pagina ufficiale con tutti gli allegati",
+      "document_note": "La pagina ufficiale raccoglie la deliberazione, la relazione, le tabelle, gli esempi di calcolo e le schede tecniche."
+    },
+    {
+      "id": "lom4pp",
+      "ref": "R.R. Lombardia 4/2006",
+      "title": "Smaltimento delle acque di prima pioggia e di lavaggio delle aree esterne",
+      "level": "Regionale",
+      "regions": [
+        "Lombardia"
+      ],
+      "topics": [
+        "Prima pioggia",
+        "Scarichi e tutela acque"
+      ],
+      "date": "2006-03-24",
+      "url": "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002006032400004&type=pdf",
+      "summary": "Regolamento regionale specifico adottato in attuazione dell’art. 52 della L.R. 26/2003.",
+      "focus": [
+        "Superfici scolanti soggette",
+        "Separazione e trattamento",
+        "Autorizzazione allo scarico"
+      ],
+      "kind": "Atto normativo",
+      "status": "Vigente · testo coordinato",
+      "source_kind": "Banca normativa del Consiglio regionale",
+      "note": "Il collegamento apre direttamente il PDF esportato dalla banca normativa ufficiale del Consiglio regionale della Lombardia.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-18",
+          "text": "Inserito dopo controllo mirato sulla banca normativa regionale."
+        },
+        {
+          "date": "2026-09-18",
+          "text": "Sostituito il collegamento generico con il PDF diretto del testo vigente."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002006032400004&type=pdf",
+          "label": "R.R. Lombardia 4/2006 · PDF del testo vigente",
+          "format": "pdf",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        }
+      ],
+      "document_note": "Collegamento diretto al PDF del testo coordinato vigente."
+    },
+    {
+      "id": "sar6925",
+      "ref": "D.G.R. Sardegna 69/25 del 10/12/2008",
+      "title": "Direttiva regionale sulla disciplina degli scarichi",
+      "level": "Regionale",
+      "regions": [
+        "Sardegna"
+      ],
+      "topics": [
+        "Prima pioggia",
+        "Scarichi e tutela acque"
+      ],
+      "date": "2008-12-10",
+      "url": "https://www.regione.sardegna.it/documenti/1_73_20090127105834.pdf",
+      "summary": "Direttiva regionale sugli scarichi; il Capo V disciplina le acque di prima pioggia e di lavaggio delle aree esterne.",
+      "focus": [
+        "Definizioni",
+        "Attività soggette",
+        "Raccolta, trattamento e recapito"
+      ],
+      "kind": "Direttiva tecnica",
+      "status": "Atto specifico verificato",
+      "source_kind": "PDF ufficiale regionale",
+      "note": "Deliberazione e direttiva approvate in attuazione del PTA e del D.Lgs. 152/2006. Verificare eventuali prescrizioni dell’ente competente e del gestore.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-18",
+          "text": "Inserita dopo controllo mirato su fonte ufficiale regionale."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www.regione.sardegna.it/documenti/1_73_20090127105834.pdf",
+          "label": "D.G.R. 69/25 · PDF ufficiale",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "tos20",
+      "ref": "L.R. Toscana 20/2006",
+      "title": "Norme per la tutela delle acque dall’inquinamento",
+      "level": "Regionale",
+      "regions": [
+        "Toscana"
+      ],
+      "topics": [
+        "Prima pioggia",
+        "Scarichi e tutela acque"
+      ],
+      "date": "2006-05-31",
+      "url": "https://raccoltanormativa.consiglio.regione.toscana.it/",
+      "summary": "Legge regionale quadro; l’art. 8 disciplina lo scarico delle acque di prima pioggia e delle acque meteoriche dilavanti contaminate.",
+      "focus": [
+        "Articolo 8",
+        "Autorizzazione",
+        "Coordinamento con il regolamento 46/R"
+      ],
+      "kind": "Atto normativo",
+      "status": "Testo vigente nella raccolta normativa regionale",
+      "source_kind": "Banca normativa regionale",
+      "note": "Consultare il testo vigente e le note di coordinamento nella Raccolta normativa della Regione Toscana.",
+      "checked": "2026-09-18",
+      "relations": [
+        {
+          "id": "tos46",
+          "type": "Attuata da"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-18",
+          "text": "Inserita dopo controllo mirato sul testo regionale vigente."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?id=28068949-268d-11ec-9830-0050568e1a48&ext=pdf",
+          "label": "PDF ufficiale · L.R. Toscana 20/2006",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre direttamente il PDF del documento."
+    },
+    {
+      "id": "tos46",
+      "ref": "D.P.G.R. Toscana 46/R/2008",
+      "title": "Regolamento di attuazione della L.R. 20/2006",
+      "level": "Regionale",
+      "regions": [
+        "Toscana"
+      ],
+      "topics": [
+        "Prima pioggia",
+        "Scarichi e tutela acque"
+      ],
+      "date": "2008-09-08",
+      "url": "https://raccoltanormativa.consiglio.regione.toscana.it/",
+      "summary": "Regolamento attuativo che dettaglia acque meteoriche dilavanti, prima pioggia, trattamenti e autorizzazioni.",
+      "focus": [
+        "Classificazione AMD e AMPP",
+        "Piani di prevenzione e gestione",
+        "Trattamenti e recapiti"
+      ],
+      "kind": "Atto normativo",
+      "status": "Vigente con modifiche · consultare il testo coordinato",
+      "source_kind": "Banca normativa regionale",
+      "note": "Il regolamento è stato modificato più volte; usare esclusivamente il testo vigente esposto dalla Raccolta normativa regionale.",
+      "checked": "2026-09-18",
+      "relations": [
+        {
+          "id": "tos20",
+          "type": "Attua"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-18",
+          "text": "Inserito dopo controllo mirato; segnalata la necessità del testo coordinato."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?id=9345c577-24d8-11ef-bf7a-005056959b60&ext=pdf",
+          "label": "PDF ufficiale · D.P.G.R. Toscana 46/R/2008",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre direttamente il PDF del documento."
+    },
+    {
+      "id": "venpta39",
+      "ref": "PTA Veneto · art. 39 NTA",
+      "title": "Acque meteoriche di dilavamento, acque di prima pioggia e acque di lavaggio",
+      "level": "Regionale",
+      "regions": [
+        "Veneto"
+      ],
+      "topics": [
+        "Prima pioggia",
+        "Scarichi e tutela acque"
+      ],
+      "date": "2009-11-05",
+      "url": "https://bur.regione.veneto.it/",
+      "summary": "L’art. 39 delle Norme tecniche del Piano di tutela delle acque disciplina separazione, trattamento e recapito delle acque meteoriche contaminate.",
+      "focus": [
+        "Articolo 39 NTA",
+        "Superfici soggette",
+        "Trattamento e autorizzazione"
+      ],
+      "kind": "Piano",
+      "status": "Disciplina nel PTA · verificare il testo coordinato vigente",
+      "source_kind": "Bollettino ufficiale regionale",
+      "note": "PTA approvato con D.C.R. 107/2009 e successivamente modificato. Prima dell’uso progettuale consultare le NTA coordinate pubblicate dalla Regione.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-18",
+          "text": "Inserita la disciplina specifica contenuta nel PTA dopo controllo mirato."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://repository.regione.veneto.it/public/6396bf686a0ce689ab40783272aec920.php?dl=true",
+          "label": "PDF ufficiale · norme tecniche PTA Veneto",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre direttamente il PDF del documento."
+    }
+  ],
+  "regions": [
+    {
+      "name": "Abruzzo",
+      "url": "https://www.regione.abruzzo.it/",
+      "status": "Censimento parziale",
+      "plan_ids": [
+        "pai-trigno",
+        "pai-lgv",
+        "dist-centr",
+        "dist-merid"
+      ],
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "not_confirmed",
+        "label": "Atto regionale organico non reperito nel controllo mirato",
+        "record_ids": [],
+        "note": "La ricognizione sulle fonti regionali non ha restituito un atto organico dedicato. Non equivale ad assenza di disciplina: verificare PAI/PGRA, norme di bacino, urbanistiche, provinciali, comunali, consortili e del gestore.",
+        "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "specific",
+        "label": "Normativa regionale specifica reperita",
+        "record_ids": [
+          "abr17"
+        ],
+        "note": "La L.R. 17/2008 contiene la disciplina regionale delle acque meteoriche e di prima pioggia; verificare il testo coordinato.",
+        "checked": "2026-09-18"
+      }
+    },
+    {
+      "name": "Basilicata",
+      "url": "https://www.regione.basilicata.it/",
+      "status": "Censimento parziale",
+      "plan_ids": [
+        "pai-basilicata",
+        "pai-puglia",
+        "dist-merid"
+      ],
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "not_confirmed",
+        "label": "Atto regionale organico non reperito nel controllo mirato",
+        "record_ids": [],
+        "note": "La ricognizione sulle fonti regionali non ha restituito un atto organico dedicato. Non equivale ad assenza di disciplina: verificare PAI/PGRA, norme di bacino, urbanistiche, provinciali, comunali, consortili e del gestore.",
+        "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "specific",
+        "label": "Legge-quadro e linee guida regionali vigenti",
+        "record_ids": [
+          "bas9",
+          "bas471"
+        ],
+        "note": "La L.R. 9/2017 resta vigente; le prescrizioni tecniche aggiornate sono nell’allegato alla D.G.R. 471/2026, che sostituisce la D.G.R. 305/2023.",
+        "checked": "2026-09-18"
+      }
+    },
+    {
+      "name": "Calabria",
+      "url": "https://www.regione.calabria.it/",
+      "status": "Censimento parziale",
+      "plan_ids": [
+        "pai-calabria2001",
+        "pai-calabria-lao",
+        "pai-basilicata",
+        "dist-merid"
+      ],
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "not_confirmed",
+        "label": "Atto regionale organico non reperito nel controllo mirato",
+        "record_ids": [],
+        "note": "Non è stato reperito un atto regionale organico dedicato nella ricognizione odierna; il PAI Calabria/Lao e gli strumenti locali restano da verificare per il punto di intervento.",
+        "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "not_confirmed",
+        "label": "Normativa regionale specifica non confermata",
+        "record_ids": [],
+        "note": "La L.R. 10/1997 è una disciplina generale storica sugli scarichi, ma non è stata confermata come atto autonomo sulla prima pioggia. Verificare PTA, AUA, provincia/comune e gestore.",
+        "checked": "2026-09-18"
+      }
+    },
+    {
+      "name": "Campania",
+      "url": "https://www.regione.campania.it/",
+      "status": "Atti regionali da censire",
+      "plan_ids": [
+        "pai-fortore",
+        "pai-lgv",
+        "pai-puglia",
+        "pai-campania",
+        "dist-merid"
+      ],
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "not_confirmed",
+        "label": "Atto regionale organico non reperito nel controllo mirato",
+        "record_ids": [],
+        "note": "La ricognizione sulle fonti regionali non ha restituito un atto organico dedicato. Non equivale ad assenza di disciplina: verificare PAI/PGRA, norme di bacino, urbanistiche, provinciali, comunali, consortili e del gestore.",
+        "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "not_confirmed",
+        "label": "Normativa regionale specifica non reperita nel controllo mirato",
+        "record_ids": [],
+        "note": "Non è emerso un atto regionale autonomo verificabile. Restano applicabili l’art. 113 del D.Lgs. 152/2006 e le prescrizioni di autorizzazione, ente competente e gestore.",
+        "checked": "2026-09-18"
+      }
+    },
+    {
+      "name": "Emilia-Romagna",
+      "url": "https://www.regione.emilia-romagna.it/",
+      "status": "Censimento parziale",
+      "plan_ids": [
+        "dist-po",
+        "dist-centr"
+      ],
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "not_confirmed",
+        "label": "Atto regionale organico non reperito nel controllo mirato",
+        "record_ids": [],
+        "note": "Non è stato reperito un atto regionale unitario dedicato; la disciplina può derivare da piani di bacino, consorzi, gestori e strumenti comunali.",
+        "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "specific",
+        "label": "Indirizzi e linee guida regionali specifici",
+        "record_ids": [
+          "er286",
+          "er1860"
+        ],
+        "note": "Le D.G.R. 286/2005 e 1860/2006 costituiscono il quadro regionale per prima pioggia e dilavamento.",
+        "checked": "2026-09-18"
+      }
+    },
+    {
+      "name": "Friuli-Venezia Giulia",
+      "url": "https://www.regione.fvg.it/",
+      "status": "Censimento parziale",
+      "plan_ids": [
+        "dist-alpi"
+      ],
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "specific",
+        "label": "Regolamento regionale verificato",
+        "record_ids": [
+          "fvg83"
+        ],
+        "note": "Il D.P.Reg. 083/Pres/2018 disciplina il principio regionale e lo studio di compatibilità idraulica.",
+        "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "not_confirmed",
+        "label": "Normativa regionale specifica non reperita nel controllo mirato",
+        "record_ids": [],
+        "note": "Il regolamento regionale sull’invarianza idraulica non disciplina di per sé il trattamento qualitativo della prima pioggia. Verificare PTA, autorizzazione e regolamento del gestore.",
+        "checked": "2026-09-18"
+      }
+    },
+    {
+      "name": "Lazio",
+      "url": "https://www.regione.lazio.it/",
+      "status": "Censimento parziale",
+      "plan_ids": [
+        "pai-lgv",
+        "dist-centr",
+        "dist-merid"
+      ],
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "specific",
+        "label": "Linee guida regionali verificate",
+        "record_ids": [
+          "laz117"
+        ],
+        "note": "La D.G.R. 117/2020 approva le linee guida regionali per le trasformazioni territoriali.",
+        "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "plan_based",
+        "label": "Disciplina contenuta nel Piano di tutela delle acque",
+        "record_ids": [
+          "laz18"
+        ],
+        "note": "Le NTA del PTAR contengono il quadro regionale sulle acque meteoriche e di prima pioggia; verificare le prescrizioni autorizzative applicabili al sito.",
+        "checked": "2026-09-18"
+      }
+    },
+    {
+      "name": "Liguria",
+      "url": "https://www.regione.liguria.it/",
+      "status": "Censimento parziale",
+      "plan_ids": [
+        "dist-po",
+        "dist-sett"
+      ],
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "not_confirmed",
+        "label": "Atto regionale organico non reperito nel controllo mirato",
+        "record_ids": [],
+        "note": "La ricognizione sulle fonti regionali non ha restituito un atto organico dedicato. Non equivale ad assenza di disciplina: verificare PAI/PGRA, norme di bacino, urbanistiche, provinciali, comunali, consortili e del gestore.",
+        "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "specific",
+        "label": "Regolamento regionale specifico reperito",
+        "record_ids": [
+          "lig4"
+        ],
+        "note": "Il R.R. 4/2009 disciplina le acque meteoriche di dilavamento e di lavaggio delle aree esterne.",
+        "checked": "2026-09-18"
+      }
+    },
+    {
+      "name": "Lombardia",
+      "url": "https://www.regione.lombardia.it/",
+      "status": "Censimento parziale",
+      "plan_ids": [
+        "dist-po"
+      ],
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "specific",
+        "label": "Regolamento regionale verificato",
+        "record_ids": [
+          "lom7"
+        ],
+        "note": "Il R.R. 7/2017, nel testo coordinato, si applica all’intero territorio regionale.",
+        "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "specific",
+        "label": "Regolamento regionale specifico vigente",
+        "record_ids": [
+          "lom4pp"
+        ],
+        "note": "Il R.R. 4/2006 disciplina espressamente prima pioggia e lavaggio delle aree esterne.",
+        "checked": "2026-09-18"
+      }
+    },
+    {
+      "name": "Marche",
+      "url": "https://www.regione.marche.it/",
+      "status": "Censimento parziale",
+      "plan_ids": [
+        "dist-po",
+        "dist-centr"
+      ],
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "specific",
+        "label": "Quadro regionale vigente verificato",
+        "record_ids": [
+          "mar53"
+        ],
+        "note": "La L.R. 19/2023, art. 31, mantiene applicabili in via transitoria i criteri della D.G.R. 53/2014, se compatibili.",
+        "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "not_confirmed",
+        "label": "Normativa regionale autonoma non confermata",
+        "record_ids": [],
+        "note": "La ricognizione non ha consentito di confermare un atto regionale autonomo dedicato. Verificare PTA, autorizzazione, provincia e gestore per l’attività concreta.",
+        "checked": "2026-09-18"
+      }
+    },
+    {
+      "name": "Molise",
+      "url": "https://www.regione.molise.it/",
+      "status": "Censimento parziale",
+      "plan_ids": [
+        "pai-fortore",
+        "pai-trigno",
+        "pai-biferno-e-minori",
+        "dist-centr",
+        "dist-merid"
+      ],
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "not_confirmed",
+        "label": "Atto regionale organico non reperito nel controllo mirato",
+        "record_ids": [],
+        "note": "La ricognizione sulle fonti regionali non ha restituito un atto organico dedicato. Non equivale ad assenza di disciplina: verificare PAI/PGRA, norme di bacino, urbanistiche, provinciali, comunali, consortili e del gestore.",
+        "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "plan_based",
+        "label": "Quadro da verificare nel Piano di tutela delle acque",
+        "record_ids": [
+          "mol25"
+        ],
+        "note": "Non è stato confermato un atto autonomo dedicato; la verifica va svolta nelle NTA del PTA e nelle prescrizioni dell’ente autorizzante.",
+        "checked": "2026-09-18"
+      }
+    },
+    {
+      "name": "Piemonte",
+      "url": "https://www.regione.piemonte.it/",
+      "status": "Censimento parziale",
+      "plan_ids": [
+        "dist-po"
+      ],
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "not_confirmed",
+        "label": "Atto regionale organico non reperito nel controllo mirato",
+        "record_ids": [],
+        "note": "La ricognizione sulle fonti regionali non ha restituito un atto organico dedicato. Non equivale ad assenza di disciplina: verificare PAI/PGRA, norme di bacino, urbanistiche, provinciali, comunali, consortili e del gestore.",
+        "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "specific",
+        "label": "Regolamento regionale specifico vigente",
+        "record_ids": [
+          "pie1"
+        ],
+        "note": "Il R.R. 1/R/2006, nel testo coordinato, disciplina dilavamento e lavaggio delle aree esterne.",
+        "checked": "2026-09-18"
+      }
+    },
+    {
+      "name": "Puglia",
+      "url": "https://www.regione.puglia.it/",
+      "status": "Censimento parziale",
+      "plan_ids": [
+        "pai-fortore",
+        "pai-basilicata",
+        "pai-puglia",
+        "dist-merid"
+      ],
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "not_confirmed",
+        "label": "Atto regionale organico non reperito nel controllo mirato",
+        "record_ids": [],
+        "note": "La ricognizione sulle fonti regionali non ha restituito un atto organico dedicato. Non equivale ad assenza di disciplina: verificare PAI/PGRA, norme di bacino, urbanistiche, provinciali, comunali, consortili e del gestore.",
+        "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "specific",
+        "label": "Regolamento regionale specifico reperito",
+        "record_ids": [
+          "pug26"
+        ],
+        "note": "Il R.R. 26/2013 è il riferimento specifico; usare il testo coordinato con le modifiche successive, non il solo testo originario del BUR.",
+        "checked": "2026-09-18"
+      }
+    },
+    {
+      "name": "Sardegna",
+      "url": "https://www.regione.sardegna.it/",
+      "status": "Atti regionali da censire",
+      "plan_ids": [
+        "dist-sard"
+      ],
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "specific",
+        "label": "Disciplina PAI regionale verificata",
+        "record_ids": [
+          "sar-inv-2017"
+        ],
+        "note": "Le linee guida approvate con Del. C.I. 2/2017 attuano l’art. 47 delle NTA PAI.",
+        "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "specific",
+        "label": "Direttiva regionale specifica reperita",
+        "record_ids": [
+          "sar6925"
+        ],
+        "note": "Il Capo V della direttiva approvata con D.G.R. 69/25 disciplina prima pioggia e lavaggio delle aree esterne.",
+        "checked": "2026-09-18"
+      }
+    },
+    {
+      "name": "Sicilia",
+      "url": "https://www.regione.sicilia.it/",
+      "status": "Censimento parziale",
+      "plan_ids": [
+        "dist-sici"
+      ],
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "specific",
+        "label": "Indirizzi regionali verificati",
+        "record_ids": [
+          "sic102"
+        ],
+        "note": "Il D.D.G. 102/2021 reca indirizzi applicativi regionali per l’invarianza idraulica.",
+        "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "not_confirmed",
+        "label": "Normativa regionale specifica non reperita nel controllo mirato",
+        "record_ids": [],
+        "note": "Non è stato confermato un atto regionale autonomo dedicato. Verificare PTA, disciplina degli scarichi, AUA e prescrizioni dell’ente competente.",
+        "checked": "2026-09-18"
+      }
+    },
+    {
+      "name": "Toscana",
+      "url": "https://www.regione.toscana.it/",
+      "status": "Censimento parziale",
+      "plan_ids": [
+        "dist-po",
+        "dist-sett",
+        "dist-centr"
+      ],
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "not_confirmed",
+        "label": "Atto regionale organico non reperito nel controllo mirato",
+        "record_ids": [],
+        "note": "La ricognizione sulle fonti regionali non ha restituito un atto organico dedicato. Non equivale ad assenza di disciplina: verificare PAI/PGRA, norme di bacino, urbanistiche, provinciali, comunali, consortili e del gestore.",
+        "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "specific",
+        "label": "Legge e regolamento regionali specifici",
+        "record_ids": [
+          "tos20",
+          "tos46"
+        ],
+        "note": "La L.R. 20/2006 e il D.P.G.R. 46/R/2008 disciplinano AMPP e acque meteoriche dilavanti contaminate; consultare i testi coordinati.",
+        "checked": "2026-09-18"
+      }
+    },
+    {
+      "name": "Trentino-Alto Adige",
+      "url": "https://www.regione.taa.it/",
+      "status": "Censimento parziale",
+      "plan_ids": [
+        "dist-po",
+        "dist-alpi"
+      ],
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "not_confirmed",
+        "label": "Atto regionale organico non reperito nel controllo mirato",
+        "record_ids": [],
+        "note": "Non è stato reperito un atto regionale unitario dedicato; la verifica va svolta separatamente per le Province autonome di Trento e Bolzano e per il comune interessato.",
+        "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "plan_based",
+        "label": "Verifica distinta per le due Province autonome",
+        "record_ids": [
+          "tnpta",
+          "bzpta"
+        ],
+        "note": "Non esiste un’unica disciplina regionale applicabile: occorre verificare separatamente PTA e norme sugli scarichi di Trento o Bolzano, oltre al gestore.",
+        "checked": "2026-09-18"
+      }
+    },
+    {
+      "name": "Umbria",
+      "url": "https://www.regione.umbria.it/",
+      "status": "Censimento parziale",
+      "plan_ids": [
+        "dist-sett",
+        "dist-centr"
+      ],
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "not_confirmed",
+        "label": "Atto regionale organico non reperito nel controllo mirato",
+        "record_ids": [],
+        "note": "La ricognizione sulle fonti regionali non ha restituito un atto organico dedicato. Non equivale ad assenza di disciplina: verificare PAI/PGRA, norme di bacino, urbanistiche, provinciali, comunali, consortili e del gestore.",
+        "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "specific",
+        "label": "Direttiva tecnica regionale reperita",
+        "record_ids": [
+          "umb627"
+        ],
+        "note": "La D.G.R. 627/2019 contiene la disciplina tecnica degli scarichi, inclusa la gestione della prima pioggia; verificare le modifiche successive.",
+        "checked": "2026-09-18"
+      }
+    },
+    {
+      "name": "Valle d’Aosta",
+      "url": "https://www.regione.vda.it/",
+      "status": "Censimento parziale",
+      "plan_ids": [
+        "dist-po"
+      ],
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "not_confirmed",
+        "label": "Atto regionale organico non reperito nel controllo mirato",
+        "record_ids": [],
+        "note": "La ricognizione sulle fonti regionali non ha restituito un atto organico dedicato. Non equivale ad assenza di disciplina: verificare PAI/PGRA, norme di bacino, urbanistiche, provinciali, comunali, consortili e del gestore.",
+        "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "plan_based",
+        "label": "Quadro da verificare nel PTA e negli atti autorizzativi",
+        "record_ids": [
+          "vda2030"
+        ],
+        "note": "Non è stato confermato un atto autonomo dedicato; controllare PTA 2030, autorizzazione e prescrizioni del gestore.",
+        "checked": "2026-09-18"
+      }
+    },
+    {
+      "name": "Veneto",
+      "url": "https://www.regione.veneto.it/",
+      "status": "Censimento parziale",
+      "plan_ids": [
+        "dist-po",
+        "dist-alpi"
+      ],
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "specific",
+        "label": "Criteri regionali verificati",
+        "record_ids": [
+          "ven2948"
+        ],
+        "note": "La D.G.R. 2948/2009 contiene le modalità operative per la valutazione di compatibilità idraulica.",
+        "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "plan_based",
+        "label": "Disciplina specifica nell’art. 39 delle NTA del PTA",
+        "record_ids": [
+          "venpta39"
+        ],
+        "note": "La disciplina è contenuta nel PTA regionale, non in un regolamento autonomo; usare il testo coordinato vigente.",
+        "checked": "2026-09-18"
+      }
+    }
+  ],
+  "districts": [
+    {
+      "name": "Fiume Po",
+      "url": "https://www.adbpo.it/",
+      "regions": [
+        "Valle d’Aosta",
+        "Piemonte",
+        "Lombardia",
+        "Liguria",
+        "Veneto",
+        "Emilia-Romagna",
+        "Toscana",
+        "Marche",
+        "Trentino-Alto Adige"
+      ]
+    },
+    {
+      "name": "Alpi Orientali",
+      "url": "https://sigma.distrettoalpiorientali.it/",
+      "regions": [
+        "Trentino-Alto Adige",
+        "Veneto",
+        "Friuli-Venezia Giulia"
+      ]
+    },
+    {
+      "name": "Appennino Settentrionale",
+      "url": "https://www.appenninosettentrionale.it/",
+      "regions": [
+        "Liguria",
+        "Toscana",
+        "Umbria"
+      ]
+    },
+    {
+      "name": "Appennino Centrale",
+      "url": "https://aubac.it/",
+      "regions": [
+        "Lazio",
+        "Umbria",
+        "Marche",
+        "Abruzzo",
+        "Toscana"
+      ]
+    },
+    {
+      "name": "Appennino Meridionale",
+      "url": "https://www.distrettoappenninomeridionale.it/piano-gestione-alluvioni/",
+      "regions": [
+        "Campania",
+        "Puglia",
+        "Basilicata",
+        "Calabria",
+        "Molise",
+        "Abruzzo",
+        "Lazio"
+      ]
+    },
+    {
+      "name": "Sardegna",
+      "url": "https://autoritadibacino.regione.sardegna.it/",
+      "regions": [
+        "Sardegna"
+      ]
+    },
+    {
+      "name": "Sicilia",
+      "url": "https://www.regione.sicilia.it/",
+      "regions": [
+        "Sicilia"
+      ]
+    }
+  ],
+  "runs": [
+    {
+      "date": "2026-09-18",
+      "type": "Revisione collegamenti PDF",
+      "summary": "Sostituiti i rimandi generici con collegamenti diretti ai PDF degli atti e degli elaborati ufficiali disponibili.",
+      "checked": [
+        "Gazzetta Ufficiale",
+        "EUR-Lex",
+        "banche dati normative regionali",
+        "Autorità di bacino distrettuali",
+        "portali regionali e comunali"
+      ],
+      "errors": [
+        "Per alcune fonti prive di un PDF pubblico autonomo la scheda resta esplicitamente sospesa; le norme UNI non sono ripubblicate perché soggette a licenza."
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "type": "Controllo mirato CAM e prima pioggia",
+      "summary": "Verificati i CAM censiti e classificata la disciplina delle acque di prima pioggia per tutte le regioni.",
+      "checked": [
+        "Gazzetta Ufficiale e pagina MASE CAM vigenti",
+        "Banche normative e bollettini regionali",
+        "PTA e direttive regionali già censiti"
+      ],
+      "errors": [
+        "In alcune regioni non è stato reperito un atto autonomo specifico: la scheda lo segnala senza trasformare l’esito della ricerca in una dichiarazione di assenza normativa.",
+        "Alcuni portali regionali non forniscono URL stabili al singolo allegato; sono indicati gli estremi da cercare nel BUR."
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "type": "Ricognizione mirata · invarianza idraulica regionale",
+      "summary": "Integrata la D.G.R. Lazio 117/2020, aggiunta la disciplina PAI della Sardegna e verificata la copertura tematica di tutte le regioni.",
+      "checked": [
+        "Lazio: D.G.R. 117/2020, Allegato A e pagina regionale",
+        "Sardegna: Del. C.I. 2/2017, art. 47 NTA PAI e allegati ufficiali",
+        "Lombardia: testo coordinato R.R. 7/2017 e aggiornamenti 2019/2025",
+        "Marche: L.R. 19/2023, art. 31, e continuità applicativa D.G.R. 53/2014",
+        "Friuli-Venezia Giulia: PDF ufficiale D.P.Reg. 083/Pres/2018",
+        "Veneto e Sicilia: confermati i rimandi già censiti",
+        "Tutte le 20 regioni: esito della ricognizione esposto nelle schede territoriali"
+      ],
+      "errors": [
+        "Per 13 regioni non è stato reperito un atto regionale organico dedicato: il risultato è registrato come non conclusivo, non come assenza normativa.",
+        "Il collegamento alla banca normativa FVG ha restituito un errore applicativo; aggiunto il PDF ufficiale alternativo.",
+        "Il download BURL Lazio è pubblicato su portale istituzionale ma può applicare restrizioni automatiche: mantenuti anche i rimandi Regione Lazio."
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "type": "Correzione manuale dei collegamenti",
+      "summary": "Rimandi documentali corretti e indice PAI/PGRA per tutte le regioni.",
+      "checked": [
+        "Sostituiti collegamenti non pertinenti o superati con testi e pagine specifiche.",
+        "Inseriti PAI specifici Calabria, Basilicata, Puglia/Ofanto, Campania Centrale e Liri–Garigliano.",
+        "Separati PAI e PGRA nelle schede territoriali."
+      ],
+      "errors": [
+        "Alcune fonti esterne non hanno risposto al controllo: segnalate nei collegamenti.",
+        "Testi specifici ancora da reperire: L.R. Basilicata 9/2017, PTA Molise e PTA Bolzano."
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "type": "Ciclo automatico · ambito parziale · non pubblicato",
+      "summary": "Tre nuove schede (correttivo CAM Strade, PAI Calabria storico, progetto Calabria/Lao); cinque schede integrate. Pubblicazione sospesa per validazione documentale incompleta.",
+      "checked": [
+        "Passaggio A: aggiornamenti dal 17/09/2026 al 18/09/2026; riletta la scheda TUA, ricerca GU non conclusiva.",
+        "Passaggio B: ricerca retrospettiva senza recenza; reperiti correttivo CAM 2025 e NAMS Calabria 2011.",
+        "Settore prima non approfondito: PAI/PGRA, Calabria e bacino Po.",
+        "Tentata apertura dei collegamenti principali di tutte le 51 schede preesistenti; non equivale a lettura di tutti gli atti.",
+        "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=25A05133&atto.dataPubblicazioneGazzetta=2025-09-23&tipoSerie=serie_generale&tipoVigenza=originario",
+        "https://www.distrettoappenninomeridionale.it/progetto-di-piano-stralcio-di-bacino-del-distretto-idrografico-dellappennino-meridionale-per-lassetto-la-mitigazione-e-la-gestione-del-rischio-da-alluvioni/psdgdam-risal-cal-l/",
+        "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2024/11/NAMS_PAI_2001.pdf",
+        "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2024/11/Norme_di_Attuazione.pdf",
+        "https://servizissiir.regione.emilia-romagna.it/deliberegiunta/servlet/AdapterHTTP?action_name=ACTIONRICERCADELIBERE&cod_protocollo=SSR%2F06%2F1069410&operation=leggi",
+        "https://pai.adbpo.it/documentazione-pai/",
+        "https://pai.adbpo.it/pai-reno-variante/",
+        "https://pai.adbpo.it/autorita-bacini-regionali-romagnoli/",
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2006-04-14&atto.codiceRedazionale=006G0171"
+      ],
+      "errors": [
+        "Non superato il requisito di almeno un collegamento HTTPS apribile per ogni scheda.",
+        "MASE: 403/errori; allegato CAM edilizia e modello non acquisiti.",
+        "Normattiva: esportazione TUA non riuscita; alcuni URN restituiscono pagina di errore.",
+        "Ricerche per AUA, riuso, regi decreti e Campania hanno restituito anche risultati incoerenti: nessuna conclusione di assenza di norme.",
+        "Controlli regionali, locali e dei sette distretti limitati a tentativi di apertura e pagine indicate. Nessuna copertura nazionale totale.",
+        "Nessuna pubblicazione eseguita; sito online invariato. Errori di rete e limitazione richieste trattati come transitori."
+      ],
+      "queries": [
+        "site.mase.gov.it CAM edilizia 2025 allegato 24 novembre 2025 chiarimenti",
+        "site.gazzettaufficiale.it \"11 settembre 2025\" \"stradali\"",
+        "site.gazzettaufficiale.it settembre 2026 \"acque\" \"17\"",
+        "site.distrettoappenninomeridionale.it PAI Calabria norme piano",
+        "site.gazzettaufficiale.it \"12 giugno 2003\" \"185\"",
+        "site.gazzettaufficiale.it \"13 marzo 2013\" \"59\"",
+        "DPR 59 2013 autorizzazione unica ambientale [domini GU e Normattiva]",
+        "\"CAM edilizia\" \"2025\" \"allegato\" site.mase.gov.it/portale/",
+        "\"PAI\" \"settembre 2026\" site.regione.campania.it",
+        "\"regio decreto\" \"215\" \"bonifica\" site.normattiva.it"
+      ],
+      "read_urls": [
+        "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=25A05133&atto.dataPubblicazioneGazzetta=2025-09-23&tipoSerie=serie_generale&tipoVigenza=originario",
+        "https://www.distrettoappenninomeridionale.it/progetto-di-piano-stralcio-di-bacino-del-distretto-idrografico-dellappennino-meridionale-per-lassetto-la-mitigazione-e-la-gestione-del-rischio-da-alluvioni/psdgdam-risal-cal-l/",
+        "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2024/11/NAMS_PAI_2001.pdf",
+        "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2024/11/Norme_di_Attuazione.pdf",
+        "https://servizissiir.regione.emilia-romagna.it/deliberegiunta/servlet/AdapterHTTP?action_name=ACTIONRICERCADELIBERE&cod_protocollo=SSR%2F06%2F1069410&operation=leggi",
+        "https://pai.adbpo.it/documentazione-pai/",
+        "https://pai.adbpo.it/pai-reno-variante/",
+        "https://pai.adbpo.it/autorita-bacini-regionali-romagnoli/",
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2006-04-14&atto.codiceRedazionale=006G0171"
+      ],
+      "temporal_scope": {
+        "updates": {
+          "from": "2026-09-17",
+          "to": "2026-09-18"
+        },
+        "discovery": "Senza filtro di recenza"
+      },
+      "sectors": [
+        "CAM edilizia, strade e verde",
+        "TUA, scarichi e norme attuative",
+        "PAI, PGRA e prescrizioni distrettuali"
+      ],
+      "new_records": [
+        "camstrade2025",
+        "pai-calabria2001",
+        "pai-calabria-lao"
+      ],
+      "updated_records": [
+        "camstrade2024",
+        "dist-merid",
+        "dist-po",
+        "er1860",
+        "dl152"
+      ],
+      "publication": "withheld",
+      "audit_file": "history/2026-09-18-link-audit.json"
+    },
+    {
+      "date": "2026-09-17",
+      "type": "Revisione collegamenti · verifica manuale",
+      "summary": "Sostituite le homepage generiche con documenti o pagine istituzionali specifiche; aggiunti collegamenti separati per PAI e PGRA e corretto il rinvio al CAM edilizia 2022.",
+      "checked": [
+        "51 schede controllate; 58 collegamenti documentali censiti",
+        "Gazzetta Ufficiale: collegamento specifico al D.M. 23/06/2022 n. 256",
+        "Fonti regionali specifiche per Sicilia, Emilia-Romagna, Abruzzo, Calabria, Umbria, Molise e Bolzano",
+        "Pagine ufficiali PAI e PGRA dei sette distretti idrografici"
+      ],
+      "errors": [
+        "Basilicata: il BUR non espone un permalink stabile al singolo atto; resta disponibile la ricerca ufficiale per estremi",
+        "Bolzano PTA: non individuato un permalink italiano stabile al singolo piano; collegata la sezione provinciale Acque"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "type": "Integrazione manuale · verifica parziale",
+      "summary": "Aggiunti attraversamenti ferroviari e CAM; ampliati TUA e ricerca. Rafforzato il protocollo di scoperta degli atti assenti.",
+      "checked": [
+        "GU: D.M. 04/04/2014 e Allegato A",
+        "Normattiva: scheda e indice D.Lgs. 152/2006 e D.Lgs. 36/2023",
+        "GU: D.M. 24/11/2025, artt. 2–4",
+        "GU: Allegato 1 CAM Strade 05/08/2024",
+        "GU: Allegato CAM Verde 10/03/2020, gestione delle acque e ingegneria naturalistica"
+      ],
+      "errors": [
+        "MASE: allegato CAM edilizia 2025 non acquisito per errore di accesso",
+        "Normattiva: esportazione del TUA non riuscita; commi coordinati non integralmente verificati",
+        "CAM Strade: modificativo 11/09/2025 segnalato ma non ancora verificato su testo ufficiale",
+        "Nessun ciclo automatico completato; il presente intervento è manuale"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "type": "Censimento iniziale",
+      "summary": "Ricognizione iniziale di riferimenti nazionali, regionali, provinciali, comunali e tecnici. Nessuna esecuzione automatica ancora completata.",
+      "checked": [
+        "Normattiva: scheda D.Lgs. 152/2006 e R.D. 368/1904",
+        "Gazzetta Ufficiale: D.M. 17/01/2018",
+        "EUR-Lex: direttiva 2000/60/CE",
+        "Catalogo UNI: 752, 12056-3, 858-2",
+        "Portali ADBPO, AUBAC e Autorità di bacino Sardegna",
+        "Fonti regionali e locali: riscontri indicati nelle singole schede",
+        "Sardegna: letta la notizia del 14/07/2026 sulle mappe PAI/PGRA, con distinzione tra data pubblicazione e aggiornamento cartografico."
+      ],
+      "errors": [
+        "Collegamenti URN diretti Normattiva non risolti per R.D. 523/1904 e 1775/1933: mantenuto accesso al portale.",
+        "Alcune fonti sono state identificate nei risultati di ricerca senza acquisizione integrale del testo.",
+        "Censimento degli atti provinciali e comunali non esaustivo."
+      ]
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-09-18",
+      "status": "Verificato",
+      "title": "Basilicata · corretta la disciplina sulle acque di prima pioggia",
+      "summary": "Ripristinata la L.R. 9/2017 vigente e sostituito il riferimento preparatorio alla D.G.R. 772/2019 con la D.G.R. 471/2026 e il relativo allegato tecnico.",
+      "url": "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A35795B0B&idDocumento=795801377B580A307C5C"
+    },
+    {
+      "date": "2026-09-18",
+      "title": "Lazio: aggiunte le linee guida regionali sull’invarianza idraulica",
+      "status": "Atto regionale verificato",
+      "summary": "Inserita la D.G.R. 24 marzo 2020, n. 117 con il rimando al testo e all’Allegato A, oltre alla documentazione illustrativa pubblicata dalla Regione Lazio.",
+      "url": "https://www.regione.lazio.it/documenti/69240"
+    },
+    {
+      "date": "2026-07-14",
+      "title": "Sardegna: pubblicate le mappe PAI/PGRA aggiornate a dicembre 2025",
+      "status": "Notizia cartografica verificata",
+      "summary": "Il portale distingue la data della notizia dall’aggiornamento dei dati. Le mappe online hanno finalità informativa; per ulteriori varianti occorre consultare gli atti dell’Autorità e la documentazione comunale. Non è una sostituzione automatica delle NTA.",
+      "url": "https://autoritadibacino.regione.sardegna.it/aggiornamento-delle-mappe-pai-pgra-nel-geoportale-della-sardegna/"
+    }
+  ],
+  "discovery": {
+    "method": "Due ricerche distinte: aggiornamenti delle schede esistenti e censimento degli atti assenti, senza limite di anzianità. Per ciascuna materia si cercano anche gli atti richiamati, attuativi, modificativi e sostitutivi.",
+    "sectors": [
+      {
+        "name": "Attraversamenti e parallelismi",
+        "lastReviewed": "2026-09-17",
+        "status": "DM 2014 inserito; procedure e atti successivi da approfondire"
+      },
+      {
+        "name": "TUA, scarichi e norme attuative",
+        "lastReviewed": "2026-09-17",
+        "status": "Indice Parte III ampliato; testi coordinati e decreti attuativi da approfondire"
+      },
+      {
+        "name": "CAM edilizia, strade e verde",
+        "lastReviewed": "2026-09-18",
+        "status": "Correttivo strade reperito; allegato edilizia 2025 ancora non accessibile; coordinamento tecnico aperto"
+      },
+      {
+        "name": "PAI, PGRA e prescrizioni distrettuali",
+        "lastReviewed": "2026-09-18",
+        "status": "Approfondimento parziale Calabria/Lao e Po; altri territori non verificati integralmente"
+      },
+      {
+        "name": "Regi decreti, demanio e bonifica",
+        "lastReviewed": null,
+        "status": "Ricerca retrospettiva da eseguire"
+      },
+      {
+        "name": "Regioni, province, comuni e gestori",
+        "lastReviewed": "2026-09-18",
+        "status": "Ricognizione mirata sull’invarianza completata per tutte le regioni: 7 quadri specifici verificati; 13 regioni senza atto organico reperito, da approfondire nelle fonti di bacino e locali."
+      }
+    ],
+    "queue": [
+      {
+        "title": "CAM edilizia 2025: allegato MASE e chiarimenti successivi",
+        "reason": "Reperiti URL puntuali MASE dell’allegato e del modello di relazione, ma apertura non riuscita il 18/09/2026; nessuna lettura o verifica dei criteri dichiarata.",
+        "status": "Da verificare",
+        "candidate_urls": [
+          "https://www.mase.gov.it/portale/documents/d/guest/allegato_1_cam_edilizia_30_10_25-def-pdf",
+          "https://www.mase.gov.it/portale/documents/d/guest/modello-di-relazione-cam-di-progetto-vers-_02-02-2026-pdf"
+        ]
+      },
+      {
+        "title": "CAM Strade: coordinare integralmente l’allegato 2024 con il correttivo 2025",
+        "reason": "D.M. 11/09/2025 reperito e scheda inserita; resta la verifica analitica dei criteri e delle prove idrauliche.",
+        "status": "Parzialmente risolto"
+      },
+      {
+        "title": "Attuazione TUA: riuso, AUA, invasi e disciplina regionale degli scarichi",
+        "reason": "Ricostruire rinvii normativi e integrare gli atti assenti anche anteriori al 2006",
+        "status": "Da ricercare"
+      },
+      {
+        "title": "Priorità pubblicazione: validare tutti i documenti e i rinvii PAI regionali",
+        "reason": "Aperture fallite o non conclusive: rd523, rd1775, rd368, dl49, ue60, ueall, lom7, sic102, ven2948, fvg83, tos41, mar53, abr17, bas9, bz23, bzpta, milano, aprilia, dist-alpi, dist-sett. Fonti generiche: er286, umb627, mol25. Non eliminare o declassare i link sulla sola base di timeout/403/502. Registro in history/2026-09-18-link-audit.json.",
+        "status": "Da verificare"
+      },
+      {
+        "title": "Calabria/Lao: delibere 1/2025 e 6/2025 e coordinamento con PAI storico",
+        "reason": "Norme e pagina ufficiale reperite; ZIP delibera 6/2025 non letto. Verificare approvazione, pubblicazione, salvaguardie ed efficacia.",
+        "status": "Da verificare"
+      },
+      {
+        "title": "Rinvii CAM: D.M. 28/06/2024 n.127 e PAN GPP 03/08/2023",
+        "reason": "Richiamati nelle premesse del correttivo CAM Strade; acquisire testo prima di creare le schede.",
+        "status": "Da verificare"
+      },
+      {
+        "title": "Invarianza idraulica: approfondire le 13 regioni senza atto organico reperito",
+        "reason": "La ricerca mirata del 18/09/2026 non ha confermato un atto regionale organico per Abruzzo, Basilicata, Calabria, Campania, Emilia-Romagna, Liguria, Molise, Piemonte, Puglia, Toscana, Trentino-Alto Adige, Umbria e Valle d’Aosta. Verificare sistematicamente NTA PAI/PGRA, leggi urbanistiche, province autonome, consorzi, gestori e regolamenti comunali.",
+        "status": "Da approfondire per bacino e livello locale"
+      }
+    ]
+  }
+}

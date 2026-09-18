@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-09-18",
-  "scope": "Catalogo iniziale selettivo. Non comprende ancora tutte le norme italiane e tutti gli enti locali.",
+  "scope": "Catalogo selettivo con controllo mirato dei CAM e della disciplina delle acque di prima pioggia per tutte le regioni. La verifica locale e autorizzativa resta necessaria.",
   "automation": {
     "enabled": true,
     "cadence": "Ogni giorno, ore 07:00 · Europe/Rome",
@@ -980,49 +980,6 @@
       ]
     },
     {
-      "id": "bas9",
-      "ref": "L.R. 9/2017",
-      "title": "Acque meteoriche e prima pioggia",
-      "level": "Regionale",
-      "regions": [
-        "Basilicata"
-      ],
-      "topics": [
-        "Prima pioggia",
-        "Scarichi e tutela acque"
-      ],
-      "date": "2017-05-29",
-      "url": "https://burweb.regione.basilicata.it/bur/ricercaBollettini.zul",
-      "document_label": "Consulta il BUR Basilicata",
-      "document_note": "Non è stato reperito il testo specifico: anche la corrispondenza fra estremi e materia della scheda resta da verificare.",
-      "summary": "Riferimento regionale per le acque meteoriche di dilavamento e di prima pioggia.",
-      "focus": [
-        "Categorie di attività e superfici",
-        "Trattamento richiesto",
-        "Autorizzazione e recapito"
-      ],
-      "kind": "Atto normativo",
-      "status": "Estremi e testo da verificare",
-      "source_kind": "Portale istituzionale",
-      "note": "Riferimento riscontrato in documentazione pubblicata sul portale VIA del Ministero. Fonte primaria dell’atto e testo coordinato ancora da acquisire; scheda da verificare.",
-      "checked": "2026-09-17",
-      "relations": [],
-      "history": [
-        {
-          "date": "2026-09-17",
-          "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
-        }
-      ],
-      "documents": [
-        {
-          "url": "https://burweb.regione.basilicata.it/bur/ricercaBollettini.zul",
-          "label": "Fonte istituzionale · testo da reperire",
-          "link_status": "missing",
-          "link_checked": "2026-09-18"
-        }
-      ]
-    },
-    {
       "id": "cal10",
       "ref": "L.R. 10/1997",
       "title": "Tutela delle acque dall’inquinamento",
@@ -1031,8 +988,7 @@
         "Calabria"
       ],
       "topics": [
-        "Scarichi e tutela acque",
-        "Prima pioggia"
+        "Scarichi e tutela acque"
       ],
       "date": "1997-10-03",
       "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=1997&numero=10",
@@ -1046,8 +1002,8 @@
       "kind": "Atto normativo",
       "status": "Vigenza da ricostruire",
       "source_kind": "Portale istituzionale",
-      "note": "Atto individuato nel portale del Consiglio regionale; ricostruzione della vigenza dei singoli articoli necessaria.",
-      "checked": "2026-09-17",
+      "note": "Disciplina regionale storica sugli scarichi. Nel controllo mirato non è stata riscontrata come normativa autonoma e specifica sulle acque di prima pioggia; coordinare con D.Lgs. 152/2006, PTA e prescrizioni dell’ente competente.",
+      "checked": "2026-09-18",
       "relations": [],
       "history": [
         {
@@ -2162,10 +2118,10 @@
         "Identificare prima la categoria dell’appalto e il regime temporale applicabile."
       ],
       "kind": "Atto normativo",
-      "status": "Decreto verificato · allegato da acquisire",
+      "status": "Vigente dal 1 febbraio 2026",
       "source_kind": "Gazzetta Ufficiale",
-      "note": "GU n. 281 del 03/12/2025. Letti artt. 2–4. Allegati rinviati dalla GU al portale MASE, non acquisiti a causa di errore di accesso; approfondimento puntuale dei criteri idraulici ancora da completare.",
-      "checked": "2026-09-17",
+      "note": "Pubblicato nella G.U. n. 281 del 3 dicembre 2025 ed entrato in vigore sessanta giorni dopo. Il previgente D.M. 256/2022 è rimosso dal catalogo attivo; i casi transitori devono essere verificati puntualmente ai sensi dell’art. 2.",
+      "checked": "2026-09-18",
       "relations": [
         {
           "type": "Sostituisce, salvo disciplina transitoria",
@@ -2189,46 +2145,32 @@
         {
           "date": "2026-09-17",
           "text": "Scheda inserita durante la ricognizione manuale su fonte ufficiale. Non è la data di una nuova pubblicazione normativa."
-        }
-      ]
-    },
-    {
-      "id": "camed2022",
-      "ref": "D.M. 23/06/2022 n. 256",
-      "title": "CAM edilizia 2022 · Riferimento storico e transitorio",
-      "level": "Nazionale",
-      "regions": [
-        "Italia"
-      ],
-      "topics": [
-        "CAM",
-        "Drenaggio",
-        "Risorse idriche"
-      ],
-      "date": "2022-06-23",
-      "url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=22A04307&atto.dataPubblicazioneGazzetta=2022-08-06&tipoSerie=serie_generale&tipoVigenza=originario",
-      "document_label": "Consulta il decreto CAM 2022",
-      "summary": "Precedente quadro CAM edilizia, come modificato il 5 agosto 2024; conservarlo per ricostruire le procedure soggette al regime transitorio.",
-      "focus": [
-        "Non utilizzare come riferimento generale per nuove procedure senza verificare il D.M. 24/11/2025.",
-        "La permanenza applicativa riguarda i casi dell’art. 2 del decreto del 2025; distinguere abrogazione e disciplina transitoria."
-      ],
-      "kind": "Atto normativo",
-      "status": "Abrogato · casi transitori",
-      "source_kind": "Gazzetta Ufficiale",
-      "note": "Il collegamento apre la pubblicazione ufficiale del decreto 2022. Modifica del 2024, abrogazione e regime transitorio sono richiamati negli artt. 2 e 4 del D.M. 24/11/2025.",
-      "checked": "2026-09-17",
-      "relations": [
+        },
         {
-          "type": "Sostituito da, salvo disciplina transitoria",
-          "id": "camed2025"
+          "date": "2026-09-18",
+          "text": "Verificata l’entrata in vigore; rimosso dal catalogo attivo il D.M. 256/2022, espressamente abrogato, mantenendo l’avvertenza sul regime transitorio."
         }
       ],
-      "aliases": [],
-      "history": [
+      "document_label": "D.M. 24 novembre 2025 · Gazzetta Ufficiale",
+      "document_note": "Decreto vigente. L’art. 4 abroga il D.M. 256/2022; l’art. 2 conserva un regime transitorio limitato per progetti e procedure che rispettano le condizioni ivi indicate.",
+      "documents": [
         {
-          "date": "2026-09-17",
-          "text": "Scheda inserita durante la ricognizione manuale su fonte ufficiale. Non è la data di una nuova pubblicazione normativa."
+          "url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=25A06516&atto.dataPubblicazioneGazzetta=2025-12-03&tipoSerie=serie_generale&tipoVigenza=originario",
+          "label": "Decreto e allegato · Gazzetta Ufficiale",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        },
+        {
+          "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=25A06516&art.dataPubblicazioneGazzetta=2025-12-03&art.flagTipoArticolo=0&art.idArticolo=2&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+          "label": "Art. 2 · regime transitorio",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        },
+        {
+          "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=25A06516&art.dataPubblicazioneGazzetta=2025-12-03&art.flagTipoArticolo=0&art.idArticolo=4&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+          "label": "Art. 4 · abrogazioni ed entrata in vigore",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
         }
       ]
     },
@@ -2255,9 +2197,9 @@
         "Integrare i criteri di prodotto con la normativa sugli scarichi e le prescrizioni idrauliche del territorio."
       ],
       "kind": "Atto normativo",
-      "status": "Modificato · coordinamento parziale",
+      "status": "Vigente come modificato dal D.M. 11 settembre 2025",
       "source_kind": "Gazzetta Ufficiale",
-      "note": "Il correttivo D.M. 11/09/2025 è stato reperito e letto in GU n. 221 del 23/09/2025. Consultare la scheda collegata per gli artt. 3–5 (transitorio, deroghe, efficacia). Il coordinamento integrale dell’allegato tecnico resta aperto.",
+      "note": "Il D.M. 5 agosto 2024 resta il testo-base dei CAM Strade e deve essere applicato con le modifiche del D.M. 11 settembre 2025. Verificare anche le disposizioni transitorie del correttivo.",
       "checked": "2026-09-18",
       "relations": [
         {
@@ -2269,8 +2211,8 @@
           "id": "dl152"
         },
         {
-          "type": "Modificato da",
-          "id": "camstrade2025"
+          "id": "camstrade2025",
+          "type": "Modificato da"
         }
       ],
       "aliases": [
@@ -2313,10 +2255,10 @@
         "Verificare l’applicabilità della specifica sezione CAM all’oggetto dell’affidamento."
       ],
       "kind": "Atto normativo",
-      "status": "Verifica parziale",
+      "status": "Vigente · presente nell’elenco MASE dei CAM vigenti",
       "source_kind": "Gazzetta Ufficiale",
-      "note": "GU n. 90 del 04/04/2020. Letto l’allegato, in particolare Gestione delle acque e Ingegneria naturalistica. Verifica completa di eventuali atti successivi da completare.",
-      "checked": "2026-09-17",
+      "note": "Il D.M. 10 marzo 2020 continua a essere riportato dal MASE tra i CAM vigenti per il verde pubblico. Verificati decreto in G.U. e pagina ministeriale di ricognizione.",
+      "checked": "2026-09-18",
       "relations": [
         {
           "type": "Quadro degli appalti",
@@ -2333,6 +2275,24 @@
         {
           "date": "2026-09-17",
           "text": "Scheda inserita durante la ricognizione manuale su fonte ufficiale. Non è la data di una nuova pubblicazione normativa."
+        },
+        {
+          "date": "2026-09-18",
+          "text": "Vigenza riscontrata nell’elenco ministeriale dei CAM vigenti."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=20A01904&atto.dataPubblicazioneGazzetta=2020-04-04&tipoSerie=serie_generale&tipoVigenza=originario",
+          "label": "D.M. 10 marzo 2020 · Gazzetta Ufficiale",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        },
+        {
+          "url": "https://www.mase.gov.it/portale/cam-vigenti",
+          "label": "Elenco CAM vigenti · MASE",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
         }
       ]
     },
@@ -2355,10 +2315,10 @@
         "Distinguere specifiche tecniche, clausole contrattuali e criteri premianti. Non ogni CAM è applicabile indistintamente a ogni opera idraulica."
       ],
       "kind": "Atto normativo",
-      "status": "Verifica parziale",
+      "status": "Vigente · consultare il testo coordinato",
       "source_kind": "Normattiva",
-      "note": "Consultata scheda e indice Normattiva. L’applicazione dei singoli commi e le modifiche successive vanno ricostruite sul testo coordinato. Raccordo con i CAM richiamato anche nell’Allegato 1 del D.M. 05/08/2024.",
-      "checked": "2026-09-17",
+      "note": "Il D.Lgs. 36/2023 è vigente nel testo consolidato pubblicato da Normattiva. L’art. 57 impone l’inserimento almeno delle specifiche tecniche e delle clausole contrattuali contenute nei CAM applicabili; verificare sempre il testo coordinato e il decreto CAM della categoria interessata.",
+      "checked": "2026-09-18",
       "relations": [],
       "aliases": [
         "CAM obblighi appalti",
@@ -2369,6 +2329,10 @@
         {
           "date": "2026-09-17",
           "text": "Scheda inserita durante la ricognizione manuale su fonte ufficiale. Non è la data di una nuova pubblicazione normativa."
+        },
+        {
+          "date": "2026-09-18",
+          "text": "Verificato il testo consolidato su Normattiva e aggiornato lo stato della scheda."
         }
       ]
     },
@@ -2394,18 +2358,18 @@
         "Art. 4: deroghe nei casi indicati per progetti non soggetti al DM 2024, con bando/avviso o invito entro 180 giorni dall’entrata in vigore."
       ],
       "kind": "Atto normativo",
-      "status": "Testo verificato · coordinamento parziale",
+      "status": "Vigente dal 24 settembre 2025 · correttivo CAM Strade",
       "source_kind": "Gazzetta Ufficiale",
-      "note": "Pubblicazione: GU n. 221 del 23/09/2025, codice 25A05133. Efficacia dal 24/09/2025 ai sensi dell’art. 5. Non è una nuova pubblicazione del settembre 2026: è una lacuna del catalogo recuperata. Articoli 1–5 consultati; non attestata l’assenza di ulteriori modifiche.",
+      "note": "Il decreto modifica l’allegato 1 del D.M. 5 agosto 2024; l’art. 5 ne dispone l’entrata in vigore il giorno successivo alla pubblicazione. Gli artt. 3 e 4 regolano applicazione e deroghe transitorie.",
       "checked": "2026-09-18",
       "relations": [
         {
-          "type": "Modifica",
-          "id": "camstrade2024"
-        },
-        {
           "type": "Quadro degli appalti",
           "id": "appalti36"
+        },
+        {
+          "id": "camstrade2024",
+          "type": "Modifica"
         }
       ],
       "aliases": [
@@ -3007,6 +2971,263 @@
       "document_url": "https://autoritadibacino.regione.sardegna.it/ap/delibera-del-comitato-istituzionale-n-2-del-17-05-2017/",
       "document_label": "Delibera 2/2017 · pagina ufficiale con tutti gli allegati",
       "document_note": "La pagina ufficiale raccoglie la deliberazione, la relazione, le tabelle, gli esempi di calcolo e le schede tecniche."
+    },
+    {
+      "id": "bas772",
+      "ref": "D.G.R. 772/2019",
+      "title": "Acque meteoriche di dilavamento e acque di prima pioggia",
+      "level": "Regionale",
+      "regions": [
+        "Basilicata"
+      ],
+      "topics": [
+        "Prima pioggia",
+        "Scarichi e tutela acque"
+      ],
+      "date": "2019-10-30",
+      "url": "https://burweb.regione.basilicata.it/bur/ricercaBollettini.zul",
+      "summary": "Direttiva regionale che definisce le acque di prima pioggia e disciplina raccolta, trattamento, recapito e autorizzazione.",
+      "focus": [
+        "Primi 5 mm di precipitazione",
+        "Superfici e attività soggette",
+        "Trattamento e autorizzazione AUA"
+      ],
+      "kind": "Direttiva tecnica",
+      "status": "Atto specifico verificato · testo nel BUR da ricercare per estremi",
+      "source_kind": "Bollettino ufficiale regionale",
+      "note": "Sostituisce la precedente scheda non riscontrata “L.R. 9/2017”. La D.G.R. 772 del 30 ottobre 2019 e l’allegato tecnico sono il riferimento regionale individuato; il portale BUR non offre un URL stabile al singolo allegato.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-18",
+          "text": "Inserita dopo controllo mirato; eliminato il precedente riferimento L.R. 9/2017 non adeguatamente riscontrato."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://burweb.regione.basilicata.it/bur/ricercaBollettini.zul",
+          "label": "BUR Basilicata · cerca D.G.R. 772/2019",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        }
+      ],
+      "document_note": "Nel motore del BUR cercare numero 772, anno 2019 e data 30/10/2019; consultare anche l’allegato “Acque meteoriche di dilavamento e acque di prima pioggia”."
+    },
+    {
+      "id": "lom4pp",
+      "ref": "R.R. Lombardia 4/2006",
+      "title": "Smaltimento delle acque di prima pioggia e di lavaggio delle aree esterne",
+      "level": "Regionale",
+      "regions": [
+        "Lombardia"
+      ],
+      "topics": [
+        "Prima pioggia",
+        "Scarichi e tutela acque"
+      ],
+      "date": "2006-03-24",
+      "url": "https://normelombardia.consiglio.regione.lombardia.it/",
+      "summary": "Regolamento regionale specifico adottato in attuazione dell’art. 52 della L.R. 26/2003.",
+      "focus": [
+        "Superfici scolanti soggette",
+        "Separazione e trattamento",
+        "Autorizzazione allo scarico"
+      ],
+      "kind": "Atto normativo",
+      "status": "Vigente nella banca normativa regionale",
+      "source_kind": "Banca normativa regionale",
+      "note": "La banca dati del Consiglio regionale espone il testo vigente e le note. Cercare “R.R. 24 marzo 2006, n. 4”; la pubblicazione ufficiale resta il BURL.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-18",
+          "text": "Inserito dopo controllo mirato sulla banca normativa regionale."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://normelombardia.consiglio.regione.lombardia.it/",
+          "label": "Norme Lombardia · R.R. 4/2006",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "sar6925",
+      "ref": "D.G.R. Sardegna 69/25 del 10/12/2008",
+      "title": "Direttiva regionale sulla disciplina degli scarichi",
+      "level": "Regionale",
+      "regions": [
+        "Sardegna"
+      ],
+      "topics": [
+        "Prima pioggia",
+        "Scarichi e tutela acque"
+      ],
+      "date": "2008-12-10",
+      "url": "https://www.regione.sardegna.it/documenti/1_73_20090127105834.pdf",
+      "summary": "Direttiva regionale sugli scarichi; il Capo V disciplina le acque di prima pioggia e di lavaggio delle aree esterne.",
+      "focus": [
+        "Definizioni",
+        "Attività soggette",
+        "Raccolta, trattamento e recapito"
+      ],
+      "kind": "Direttiva tecnica",
+      "status": "Atto specifico verificato",
+      "source_kind": "PDF ufficiale regionale",
+      "note": "Deliberazione e direttiva approvate in attuazione del PTA e del D.Lgs. 152/2006. Verificare eventuali prescrizioni dell’ente competente e del gestore.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-18",
+          "text": "Inserita dopo controllo mirato su fonte ufficiale regionale."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www.regione.sardegna.it/documenti/1_73_20090127105834.pdf",
+          "label": "D.G.R. 69/25 · PDF ufficiale",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "tos20",
+      "ref": "L.R. Toscana 20/2006",
+      "title": "Norme per la tutela delle acque dall’inquinamento",
+      "level": "Regionale",
+      "regions": [
+        "Toscana"
+      ],
+      "topics": [
+        "Prima pioggia",
+        "Scarichi e tutela acque"
+      ],
+      "date": "2006-05-31",
+      "url": "https://raccoltanormativa.consiglio.regione.toscana.it/",
+      "summary": "Legge regionale quadro; l’art. 8 disciplina lo scarico delle acque di prima pioggia e delle acque meteoriche dilavanti contaminate.",
+      "focus": [
+        "Articolo 8",
+        "Autorizzazione",
+        "Coordinamento con il regolamento 46/R"
+      ],
+      "kind": "Atto normativo",
+      "status": "Testo vigente nella raccolta normativa regionale",
+      "source_kind": "Banca normativa regionale",
+      "note": "Consultare il testo vigente e le note di coordinamento nella Raccolta normativa della Regione Toscana.",
+      "checked": "2026-09-18",
+      "relations": [
+        {
+          "id": "tos46",
+          "type": "Attuata da"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-18",
+          "text": "Inserita dopo controllo mirato sul testo regionale vigente."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://raccoltanormativa.consiglio.regione.toscana.it/",
+          "label": "Raccolta normativa Toscana · L.R. 20/2006",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "tos46",
+      "ref": "D.P.G.R. Toscana 46/R/2008",
+      "title": "Regolamento di attuazione della L.R. 20/2006",
+      "level": "Regionale",
+      "regions": [
+        "Toscana"
+      ],
+      "topics": [
+        "Prima pioggia",
+        "Scarichi e tutela acque"
+      ],
+      "date": "2008-09-08",
+      "url": "https://raccoltanormativa.consiglio.regione.toscana.it/",
+      "summary": "Regolamento attuativo che dettaglia acque meteoriche dilavanti, prima pioggia, trattamenti e autorizzazioni.",
+      "focus": [
+        "Classificazione AMD e AMPP",
+        "Piani di prevenzione e gestione",
+        "Trattamenti e recapiti"
+      ],
+      "kind": "Atto normativo",
+      "status": "Vigente con modifiche · consultare il testo coordinato",
+      "source_kind": "Banca normativa regionale",
+      "note": "Il regolamento è stato modificato più volte; usare esclusivamente il testo vigente esposto dalla Raccolta normativa regionale.",
+      "checked": "2026-09-18",
+      "relations": [
+        {
+          "id": "tos20",
+          "type": "Attua"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-18",
+          "text": "Inserito dopo controllo mirato; segnalata la necessità del testo coordinato."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://raccoltanormativa.consiglio.regione.toscana.it/",
+          "label": "Raccolta normativa Toscana · D.P.G.R. 46/R/2008",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "venpta39",
+      "ref": "PTA Veneto · art. 39 NTA",
+      "title": "Acque meteoriche di dilavamento, acque di prima pioggia e acque di lavaggio",
+      "level": "Regionale",
+      "regions": [
+        "Veneto"
+      ],
+      "topics": [
+        "Prima pioggia",
+        "Scarichi e tutela acque"
+      ],
+      "date": "2009-11-05",
+      "url": "https://bur.regione.veneto.it/",
+      "summary": "L’art. 39 delle Norme tecniche del Piano di tutela delle acque disciplina separazione, trattamento e recapito delle acque meteoriche contaminate.",
+      "focus": [
+        "Articolo 39 NTA",
+        "Superfici soggette",
+        "Trattamento e autorizzazione"
+      ],
+      "kind": "Piano",
+      "status": "Disciplina nel PTA · verificare il testo coordinato vigente",
+      "source_kind": "Bollettino ufficiale regionale",
+      "note": "PTA approvato con D.C.R. 107/2009 e successivamente modificato. Prima dell’uso progettuale consultare le NTA coordinate pubblicate dalla Regione.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-18",
+          "text": "Inserita la disciplina specifica contenuta nel PTA dopo controllo mirato."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://bur.regione.veneto.it/",
+          "label": "BUR Veneto · PTA e aggiornamenti",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        }
+      ]
     }
   ],
   "regions": [
@@ -3027,6 +3248,15 @@
         "record_ids": [],
         "note": "La ricognizione sulle fonti regionali non ha restituito un atto organico dedicato. Non equivale ad assenza di disciplina: verificare PAI/PGRA, norme di bacino, urbanistiche, provinciali, comunali, consortili e del gestore.",
         "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "specific",
+        "label": "Normativa regionale specifica reperita",
+        "record_ids": [
+          "abr17"
+        ],
+        "note": "La L.R. 17/2008 contiene la disciplina regionale delle acque meteoriche e di prima pioggia; verificare il testo coordinato.",
+        "checked": "2026-09-18"
       }
     },
     {
@@ -3044,6 +3274,15 @@
         "label": "Atto regionale organico non reperito nel controllo mirato",
         "record_ids": [],
         "note": "La ricognizione sulle fonti regionali non ha restituito un atto organico dedicato. Non equivale ad assenza di disciplina: verificare PAI/PGRA, norme di bacino, urbanistiche, provinciali, comunali, consortili e del gestore.",
+        "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "specific",
+        "label": "Direttiva regionale specifica reperita",
+        "record_ids": [
+          "bas772"
+        ],
+        "note": "Il riferimento verificato è la D.G.R. 772/2019 con allegato tecnico, non la precedente scheda L.R. 9/2017.",
         "checked": "2026-09-18"
       }
     },
@@ -3063,6 +3302,13 @@
         "label": "Atto regionale organico non reperito nel controllo mirato",
         "record_ids": [],
         "note": "Non è stato reperito un atto regionale organico dedicato nella ricognizione odierna; il PAI Calabria/Lao e gli strumenti locali restano da verificare per il punto di intervento.",
+        "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "not_confirmed",
+        "label": "Normativa regionale specifica non confermata",
+        "record_ids": [],
+        "note": "La L.R. 10/1997 è una disciplina generale storica sugli scarichi, ma non è stata confermata come atto autonomo sulla prima pioggia. Verificare PTA, AUA, provincia/comune e gestore.",
         "checked": "2026-09-18"
       }
     },
@@ -3084,6 +3330,13 @@
         "record_ids": [],
         "note": "La ricognizione sulle fonti regionali non ha restituito un atto organico dedicato. Non equivale ad assenza di disciplina: verificare PAI/PGRA, norme di bacino, urbanistiche, provinciali, comunali, consortili e del gestore.",
         "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "not_confirmed",
+        "label": "Normativa regionale specifica non reperita nel controllo mirato",
+        "record_ids": [],
+        "note": "Non è emerso un atto regionale autonomo verificabile. Restano applicabili l’art. 113 del D.Lgs. 152/2006 e le prescrizioni di autorizzazione, ente competente e gestore.",
+        "checked": "2026-09-18"
       }
     },
     {
@@ -3100,6 +3353,16 @@
         "label": "Atto regionale organico non reperito nel controllo mirato",
         "record_ids": [],
         "note": "Non è stato reperito un atto regionale unitario dedicato; la disciplina può derivare da piani di bacino, consorzi, gestori e strumenti comunali.",
+        "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "specific",
+        "label": "Indirizzi e linee guida regionali specifici",
+        "record_ids": [
+          "er286",
+          "er1860"
+        ],
+        "note": "Le D.G.R. 286/2005 e 1860/2006 costituiscono il quadro regionale per prima pioggia e dilavamento.",
         "checked": "2026-09-18"
       }
     },
@@ -3118,6 +3381,13 @@
           "fvg83"
         ],
         "note": "Il D.P.Reg. 083/Pres/2018 disciplina il principio regionale e lo studio di compatibilità idraulica.",
+        "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "not_confirmed",
+        "label": "Normativa regionale specifica non reperita nel controllo mirato",
+        "record_ids": [],
+        "note": "Il regolamento regionale sull’invarianza idraulica non disciplina di per sé il trattamento qualitativo della prima pioggia. Verificare PTA, autorizzazione e regolamento del gestore.",
         "checked": "2026-09-18"
       }
     },
@@ -3139,6 +3409,15 @@
         ],
         "note": "La D.G.R. 117/2020 approva le linee guida regionali per le trasformazioni territoriali.",
         "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "plan_based",
+        "label": "Disciplina contenuta nel Piano di tutela delle acque",
+        "record_ids": [
+          "laz18"
+        ],
+        "note": "Le NTA del PTAR contengono il quadro regionale sulle acque meteoriche e di prima pioggia; verificare le prescrizioni autorizzative applicabili al sito.",
+        "checked": "2026-09-18"
       }
     },
     {
@@ -3155,6 +3434,15 @@
         "label": "Atto regionale organico non reperito nel controllo mirato",
         "record_ids": [],
         "note": "La ricognizione sulle fonti regionali non ha restituito un atto organico dedicato. Non equivale ad assenza di disciplina: verificare PAI/PGRA, norme di bacino, urbanistiche, provinciali, comunali, consortili e del gestore.",
+        "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "specific",
+        "label": "Regolamento regionale specifico reperito",
+        "record_ids": [
+          "lig4"
+        ],
+        "note": "Il R.R. 4/2009 disciplina le acque meteoriche di dilavamento e di lavaggio delle aree esterne.",
         "checked": "2026-09-18"
       }
     },
@@ -3174,6 +3462,15 @@
         ],
         "note": "Il R.R. 7/2017, nel testo coordinato, si applica all’intero territorio regionale.",
         "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "specific",
+        "label": "Regolamento regionale specifico vigente",
+        "record_ids": [
+          "lom4pp"
+        ],
+        "note": "Il R.R. 4/2006 disciplina espressamente prima pioggia e lavaggio delle aree esterne.",
+        "checked": "2026-09-18"
       }
     },
     {
@@ -3192,6 +3489,13 @@
           "mar53"
         ],
         "note": "La L.R. 19/2023, art. 31, mantiene applicabili in via transitoria i criteri della D.G.R. 53/2014, se compatibili.",
+        "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "not_confirmed",
+        "label": "Normativa regionale autonoma non confermata",
+        "record_ids": [],
+        "note": "La ricognizione non ha consentito di confermare un atto regionale autonomo dedicato. Verificare PTA, autorizzazione, provincia e gestore per l’attività concreta.",
         "checked": "2026-09-18"
       }
     },
@@ -3213,6 +3517,15 @@
         "record_ids": [],
         "note": "La ricognizione sulle fonti regionali non ha restituito un atto organico dedicato. Non equivale ad assenza di disciplina: verificare PAI/PGRA, norme di bacino, urbanistiche, provinciali, comunali, consortili e del gestore.",
         "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "plan_based",
+        "label": "Quadro da verificare nel Piano di tutela delle acque",
+        "record_ids": [
+          "mol25"
+        ],
+        "note": "Non è stato confermato un atto autonomo dedicato; la verifica va svolta nelle NTA del PTA e nelle prescrizioni dell’ente autorizzante.",
+        "checked": "2026-09-18"
       }
     },
     {
@@ -3228,6 +3541,15 @@
         "label": "Atto regionale organico non reperito nel controllo mirato",
         "record_ids": [],
         "note": "La ricognizione sulle fonti regionali non ha restituito un atto organico dedicato. Non equivale ad assenza di disciplina: verificare PAI/PGRA, norme di bacino, urbanistiche, provinciali, comunali, consortili e del gestore.",
+        "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "specific",
+        "label": "Regolamento regionale specifico vigente",
+        "record_ids": [
+          "pie1"
+        ],
+        "note": "Il R.R. 1/R/2006, nel testo coordinato, disciplina dilavamento e lavaggio delle aree esterne.",
         "checked": "2026-09-18"
       }
     },
@@ -3248,6 +3570,15 @@
         "record_ids": [],
         "note": "La ricognizione sulle fonti regionali non ha restituito un atto organico dedicato. Non equivale ad assenza di disciplina: verificare PAI/PGRA, norme di bacino, urbanistiche, provinciali, comunali, consortili e del gestore.",
         "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "specific",
+        "label": "Regolamento regionale specifico reperito",
+        "record_ids": [
+          "pug26"
+        ],
+        "note": "Il R.R. 26/2013 è il riferimento specifico; usare il testo coordinato con le modifiche successive, non il solo testo originario del BUR.",
+        "checked": "2026-09-18"
       }
     },
     {
@@ -3265,6 +3596,15 @@
           "sar-inv-2017"
         ],
         "note": "Le linee guida approvate con Del. C.I. 2/2017 attuano l’art. 47 delle NTA PAI.",
+        "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "specific",
+        "label": "Direttiva regionale specifica reperita",
+        "record_ids": [
+          "sar6925"
+        ],
+        "note": "Il Capo V della direttiva approvata con D.G.R. 69/25 disciplina prima pioggia e lavaggio delle aree esterne.",
         "checked": "2026-09-18"
       }
     },
@@ -3284,6 +3624,13 @@
         ],
         "note": "Il D.D.G. 102/2021 reca indirizzi applicativi regionali per l’invarianza idraulica.",
         "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "not_confirmed",
+        "label": "Normativa regionale specifica non reperita nel controllo mirato",
+        "record_ids": [],
+        "note": "Non è stato confermato un atto regionale autonomo dedicato. Verificare PTA, disciplina degli scarichi, AUA e prescrizioni dell’ente competente.",
+        "checked": "2026-09-18"
       }
     },
     {
@@ -3302,6 +3649,16 @@
         "record_ids": [],
         "note": "La ricognizione sulle fonti regionali non ha restituito un atto organico dedicato. Non equivale ad assenza di disciplina: verificare PAI/PGRA, norme di bacino, urbanistiche, provinciali, comunali, consortili e del gestore.",
         "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "specific",
+        "label": "Legge e regolamento regionali specifici",
+        "record_ids": [
+          "tos20",
+          "tos46"
+        ],
+        "note": "La L.R. 20/2006 e il D.P.G.R. 46/R/2008 disciplinano AMPP e acque meteoriche dilavanti contaminate; consultare i testi coordinati.",
+        "checked": "2026-09-18"
       }
     },
     {
@@ -3318,6 +3675,16 @@
         "label": "Atto regionale organico non reperito nel controllo mirato",
         "record_ids": [],
         "note": "Non è stato reperito un atto regionale unitario dedicato; la verifica va svolta separatamente per le Province autonome di Trento e Bolzano e per il comune interessato.",
+        "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "plan_based",
+        "label": "Verifica distinta per le due Province autonome",
+        "record_ids": [
+          "tnpta",
+          "bzpta"
+        ],
+        "note": "Non esiste un’unica disciplina regionale applicabile: occorre verificare separatamente PTA e norme sugli scarichi di Trento o Bolzano, oltre al gestore.",
         "checked": "2026-09-18"
       }
     },
@@ -3336,6 +3703,15 @@
         "record_ids": [],
         "note": "La ricognizione sulle fonti regionali non ha restituito un atto organico dedicato. Non equivale ad assenza di disciplina: verificare PAI/PGRA, norme di bacino, urbanistiche, provinciali, comunali, consortili e del gestore.",
         "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "specific",
+        "label": "Direttiva tecnica regionale reperita",
+        "record_ids": [
+          "umb627"
+        ],
+        "note": "La D.G.R. 627/2019 contiene la disciplina tecnica degli scarichi, inclusa la gestione della prima pioggia; verificare le modifiche successive.",
+        "checked": "2026-09-18"
       }
     },
     {
@@ -3351,6 +3727,15 @@
         "label": "Atto regionale organico non reperito nel controllo mirato",
         "record_ids": [],
         "note": "La ricognizione sulle fonti regionali non ha restituito un atto organico dedicato. Non equivale ad assenza di disciplina: verificare PAI/PGRA, norme di bacino, urbanistiche, provinciali, comunali, consortili e del gestore.",
+        "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "plan_based",
+        "label": "Quadro da verificare nel PTA e negli atti autorizzativi",
+        "record_ids": [
+          "vda2030"
+        ],
+        "note": "Non è stato confermato un atto autonomo dedicato; controllare PTA 2030, autorizzazione e prescrizioni del gestore.",
         "checked": "2026-09-18"
       }
     },
@@ -3370,6 +3755,15 @@
           "ven2948"
         ],
         "note": "La D.G.R. 2948/2009 contiene le modalità operative per la valutazione di compatibilità idraulica.",
+        "checked": "2026-09-18"
+      },
+      "first_rain": {
+        "status": "plan_based",
+        "label": "Disciplina specifica nell’art. 39 delle NTA del PTA",
+        "record_ids": [
+          "venpta39"
+        ],
+        "note": "La disciplina è contenuta nel PTA regionale, non in un regolamento autonomo; usare il testo coordinato vigente.",
         "checked": "2026-09-18"
       }
     }
@@ -3448,6 +3842,20 @@
     }
   ],
   "runs": [
+    {
+      "date": "2026-09-18",
+      "type": "Controllo mirato CAM e prima pioggia",
+      "summary": "Verificati i CAM censiti e classificata la disciplina delle acque di prima pioggia per tutte le regioni.",
+      "checked": [
+        "Gazzetta Ufficiale e pagina MASE CAM vigenti",
+        "Banche normative e bollettini regionali",
+        "PTA e direttive regionali già censiti"
+      ],
+      "errors": [
+        "In alcune regioni non è stato reperito un atto autonomo specifico: la scheda lo segnala senza trasformare l’esito della ricerca in una dichiarazione di assenza normativa.",
+        "Alcuni portali regionali non forniscono URL stabili al singolo allegato; sono indicati gli estremi da cercare nel BUR."
+      ]
+    },
     {
       "date": "2026-09-18",
       "type": "Ricognizione mirata · invarianza idraulica regionale",

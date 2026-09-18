@@ -7,8 +7,8 @@
     "cadence": "Ogni giorno, ore 07:00 · Europe/Rome",
     "configuredAt": "2026-09-17",
     "lastCompletedRun": "2026-09-18",
-    "note": "Ciclo del 18/09/2026 svolto con ambito parziale: CAM Strade, scheda TUA e PAI Calabria/Lao/Po. Pubblicazione sospesa: non validato almeno un documento apribile per ogni scheda. Data del controllo distinta dalla pubblicazione online.",
-    "lastPublicationStatus": "manual_revision_prepared"
+    "note": "Ultima revisione manuale del 18/09/2026: controllo mirato dell’invarianza idraulica su tutte le regioni, integrazione Lazio e Sardegna e correzione dei rimandi FVG e Marche. Il controllo giornaliero resta distinto dalla verifica giuridica puntuale.",
+    "lastPublicationStatus": "published_github_pages"
   },
   "records": [
     {
@@ -399,9 +399,9 @@
         "Studio comunale e documento semplificato"
       ],
       "kind": "Atto normativo",
-      "status": "Vigenza da ricostruire",
+      "status": "Testo coordinato verificato",
       "source_kind": "Portale istituzionale",
-      "note": "Regolamento identificato nella banca dati regionale. Sono segnalate modifiche successive: consultare il testo coordinato del R.R. 7/2017, non il solo testo del 2017.",
+      "note": "Il regolamento si applica su tutto il territorio regionale. La pagina regionale conferma gli aggiornamenti introdotti dal R.R. 8/2019 e dal R.R. 3/2025; il collegamento apre il testo coordinato della banca dati del Consiglio regionale.",
       "checked": "2026-09-18",
       "relations": [],
       "history": [
@@ -412,6 +412,10 @@
         {
           "date": "2026-09-18",
           "text": "Revisione manuale dei rimandi ai documenti e della relativa descrizione."
+        },
+        {
+          "date": "2026-09-18",
+          "text": "Confermati applicazione regionale e aggiornamenti R.R. 8/2019 e R.R. 3/2025 sulla pagina istituzionale."
         }
       ],
       "documents": [
@@ -546,7 +550,7 @@
         "Compatibilità idraulica"
       ],
       "date": "2018-03-27",
-      "url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/LoadRegolamento.aspx?doc=urn%3Anir%3Aregione.friuli.venezia.giulia%3Apresidente%3Adecreto%3A2018-03-27%3B83",
+      "url": "https://decreti.regione.fvg.it/Storage/2018_83/ALLEGATO1%20AL%20DPREG%20083-2018.PDF",
       "summary": "Regolamento attuativo della L.R. 11/2015, con criteri e metodi per l’invarianza.",
       "focus": [
         "Significatività della trasformazione",
@@ -554,25 +558,38 @@
         "Metodi idrologici e volumi di invaso"
       ],
       "kind": "Atto normativo",
-      "status": "Vigenza da ricostruire",
+      "status": "Testo tecnico verificato",
       "source_kind": "Scheda dell’atto",
-      "note": "Scheda regionale e allegato tecnico individuati. Verificare nel testo coordinato eventuali modifiche e disciplina transitoria.",
-      "checked": "2026-09-17",
+      "note": "Verificato il PDF ufficiale dell’Allegato 1 al D.P.Reg. 083/Pres/2018. Il collegamento alla banca normativa può restituire un errore applicativo: per questo la scheda usa come primo rimando il PDF pubblicato nel sistema regionale dei decreti.",
+      "checked": "2026-09-18",
       "relations": [],
       "history": [
         {
           "date": "2026-09-17",
           "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        },
+        {
+          "date": "2026-09-18",
+          "text": "Aggiunto il PDF ufficiale dell’Allegato 1 e segnalato l’errore della banca normativa."
         }
       ],
       "documents": [
         {
+          "url": "https://decreti.regione.fvg.it/Storage/2018_83/ALLEGATO1%20AL%20DPREG%20083-2018.PDF",
+          "label": "D.P.Reg. 083/Pres/2018 · Allegato 1 ufficiale",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        },
+        {
           "url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/LoadRegolamento.aspx?doc=urn%3Anir%3Aregione.friuli.venezia.giulia%3Apresidente%3Adecreto%3A2018-03-27%3B83",
-          "label": "Fonte specifica dell’atto",
+          "label": "Banca normativa FVG · scheda del regolamento",
           "link_status": "unconfirmed",
           "link_checked": "2026-09-18"
         }
-      ]
+      ],
+      "document_url": "https://decreti.regione.fvg.it/Storage/2018_83/ALLEGATO1%20AL%20DPREG%20083-2018.PDF",
+      "document_label": "D.P.Reg. 083/Pres/2018 · Allegato 1 ufficiale",
+      "document_note": "È disponibile il PDF ufficiale del regolamento; la banca normativa regionale ha restituito un errore applicativo durante il controllo."
     },
     {
       "id": "pug26",
@@ -835,7 +852,7 @@
     },
     {
       "id": "mar53",
-      "ref": "D.G.R. 53/2014",
+      "ref": "L.R. 19/2023, art. 31 · D.G.R. 53/2014",
       "title": "Compatibilità e invarianza delle trasformazioni",
       "level": "Regionale",
       "regions": [
@@ -845,34 +862,47 @@
         "Compatibilità idraulica",
         "Invarianza idraulica"
       ],
-      "date": "2014-01-27",
-      "url": "https://www.autoritabacino.marche.it/invidr/allegati/DGR0053_14.pdf",
-      "summary": "Criteri applicativi relativi alla compatibilità e all’invarianza idraulica delle trasformazioni territoriali.",
+      "date": "2023-11-30",
+      "url": "https://www.regione.marche.it/Regione-Utile/Paesaggio-Territorio-Urbanistica-Genio-Civile/Compatibilit%C3%A0-e-invarianza-idraulica",
+      "summary": "La L.R. 19/2023, art. 31, costituisce la base vigente; continuano ad applicarsi, in quanto compatibili, i criteri della D.G.R. 53/2014, integrati dalla D.G.R. 671/2017.",
       "focus": [
         "Verifica di compatibilità",
         "Misure per l’invarianza",
         "Coordinamento con aggiornamenti regionali"
       ],
       "kind": "Atto normativo",
-      "status": "Vigenza da ricostruire",
-      "source_kind": "PDF ufficiale regionale",
-      "note": "Collegamento diretto al PDF della D.G.R. 53/2014 e dei relativi criteri, pubblicato dall’Autorità di bacino regionale. La vigenza e gli aggiornamenti successivi restano da verificare.",
-      "checked": "2026-09-17",
+      "status": "Quadro vigente verificato",
+      "source_kind": "Portale Regione Marche",
+      "note": "La pagina regionale chiarisce che la L.R. 19/2023 ha abrogato la L.R. 22/2011 ma mantiene applicabili, fino ai nuovi atti attuativi e se compatibili, i criteri della D.G.R. 53/2014, modificati dalla D.G.R. 671/2017.",
+      "checked": "2026-09-18",
       "relations": [],
       "history": [
         {
           "date": "2026-09-17",
           "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        },
+        {
+          "date": "2026-09-18",
+          "text": "Aggiornata la scheda alla L.R. 19/2023, art. 31, e verificata la permanenza applicativa dei criteri D.G.R. 53/2014."
         }
       ],
       "documents": [
         {
+          "url": "https://www.regione.marche.it/Regione-Utile/Paesaggio-Territorio-Urbanistica-Genio-Civile/Compatibilit%C3%A0-e-invarianza-idraulica",
+          "label": "Regione Marche · quadro vigente e documenti applicativi",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        },
+        {
           "url": "https://www.autoritabacino.marche.it/invidr/allegati/DGR0053_14.pdf",
-          "label": "Fonte specifica dell’atto",
-          "link_status": "unconfirmed",
+          "label": "D.G.R. 53/2014 · criteri applicativi",
+          "link_status": "source_link",
           "link_checked": "2026-09-18"
         }
-      ]
+      ],
+      "document_url": "https://www.regione.marche.it/Regione-Utile/Paesaggio-Territorio-Urbanistica-Genio-Civile/Compatibilit%C3%A0-e-invarianza-idraulica",
+      "document_label": "Regione Marche · quadro vigente e documenti applicativi",
+      "document_note": "La pagina regionale ricostruisce la successione normativa e pubblica criteri, linee guida, foglio di calcolo e schema di asseverazione."
     },
     {
       "id": "laz18",
@@ -2869,6 +2899,114 @@
           "link_checked": "2026-09-18"
         }
       ]
+    },
+    {
+      "id": "laz117",
+      "ref": "D.G.R. Lazio 117/2020",
+      "title": "Linee guida sull’invarianza idraulica nelle trasformazioni territoriali",
+      "level": "Regionale",
+      "regions": [
+        "Lazio"
+      ],
+      "topics": [
+        "Invarianza idraulica",
+        "Compatibilità idraulica",
+        "Drenaggio"
+      ],
+      "date": "2020-03-24",
+      "url": "https://www.regione.lazio.it/documenti/69240",
+      "summary": "Linee guida regionali per valutare gli effetti idrologico-idraulici delle trasformazioni territoriali e dimensionare le misure compensative.",
+      "focus": [
+        "Ambito territoriale e classi di trasformazione",
+        "Studio idrologico-idraulico e misure compensative",
+        "Volumi di laminazione e recapito delle acque meteoriche"
+      ],
+      "kind": "Linee guida",
+      "status": "Atto e documenti verificati",
+      "source_kind": "BURL Lazio e portale regionale",
+      "note": "La D.G.R. 24 marzo 2020, n. 117 approva le linee guida regionali. Il testo integrale con Allegato A è collegato nella copia del BURL pubblicata dalla Provincia di Latina; la pagina Regione Lazio rende disponibili anche le slide illustrative. Per il singolo intervento vanno comunque controllati PAI/PGRA e prescrizioni dell’autorità di bacino, del comune e del gestore.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-18",
+          "text": "Scheda inserita dopo controllo mirato della disciplina regionale sull’invarianza idraulica."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www.provincia.latina.it/flex/cm/pages/ServeAttachment.php/L/IT/D/1%252F1%252F3%252FD.cefc0d46463bb1e57756/P/BLOB%3AID%3D1320/E/pdf?mode=download",
+          "label": "D.G.R. 117/2020 e Allegato A · BURL Lazio",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        },
+        {
+          "url": "https://www.regione.lazio.it/documenti/69240",
+          "label": "Regione Lazio · pagina e slide illustrative",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        },
+        {
+          "url": "https://www.regione.lazio.it/sites/default/files/documentazione/AMB_Slides_Linee_guida_sulla_invarianza_idraulica_trasformazioni_territoriali.pdf",
+          "label": "Regione Lazio · slide sulle linee guida",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        }
+      ],
+      "document_url": "https://www.provincia.latina.it/flex/cm/pages/ServeAttachment.php/L/IT/D/1%252F1%252F3%252FD.cefc0d46463bb1e57756/P/BLOB%3AID%3D1320/E/pdf?mode=download",
+      "document_label": "D.G.R. 117/2020 e Allegato A · BURL Lazio",
+      "document_note": "Il primo collegamento apre il testo della D.G.R. e l’Allegato A; gli altri rimandano alla documentazione illustrativa pubblicata dalla Regione Lazio."
+    },
+    {
+      "id": "sar-inv-2017",
+      "ref": "Del. C.I. 2/2017 · art. 47 NTA PAI",
+      "title": "Linee guida per l’attuazione del principio di invarianza idraulica",
+      "level": "Distrettuale",
+      "regions": [
+        "Sardegna"
+      ],
+      "topics": [
+        "Invarianza idraulica",
+        "Compatibilità idraulica",
+        "PAI e PGRA"
+      ],
+      "date": "2017-05-17",
+      "url": "https://autoritadibacino.regione.sardegna.it/ap/delibera-del-comitato-istituzionale-n-2-del-17-05-2017/",
+      "summary": "Aggiornamento delle linee guida e degli indirizzi operativi per applicare il principio di invarianza idraulica previsto dall’articolo 47 delle NTA del PAI Sardegna.",
+      "focus": [
+        "Classificazione degli interventi",
+        "Coefficienti di afflusso e calcolo idraulico",
+        "Misure compensative e schede tecniche"
+      ],
+      "kind": "Linee guida",
+      "status": "In vigore secondo la fonte ufficiale",
+      "source_kind": "Autorità di bacino regionale",
+      "note": "La pagina ufficiale dell’Autorità di Bacino della Sardegna indica la deliberazione come in vigore e pubblicata sul BURAS l’8 giugno 2017. La disciplina è connessa all’art. 47 delle NTA PAI; occorre quindi leggere anche il testo coordinato delle NTA e gli eventuali strumenti comunali applicabili.",
+      "checked": "2026-09-18",
+      "relations": [],
+      "history": [
+        {
+          "date": "2026-09-18",
+          "text": "Scheda inserita dopo controllo mirato della disciplina regionale e distrettuale sull’invarianza idraulica."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://autoritadibacino.regione.sardegna.it/ap/delibera-del-comitato-istituzionale-n-2-del-17-05-2017/",
+          "label": "Delibera 2/2017 · pagina ufficiale con tutti gli allegati",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        },
+        {
+          "url": "https://www.regione.sardegna.it/documenti/1_470_20170529141753.pdf",
+          "label": "Relazione · linee guida per l’invarianza idraulica",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        }
+      ],
+      "document_url": "https://autoritadibacino.regione.sardegna.it/ap/delibera-del-comitato-istituzionale-n-2-del-17-05-2017/",
+      "document_label": "Delibera 2/2017 · pagina ufficiale con tutti gli allegati",
+      "document_note": "La pagina ufficiale raccoglie la deliberazione, la relazione, le tabelle, gli esempi di calcolo e le schede tecniche."
     }
   ],
   "regions": [
@@ -2882,7 +3020,14 @@
         "dist-centr",
         "dist-merid"
       ],
-      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento."
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "not_confirmed",
+        "label": "Atto regionale organico non reperito nel controllo mirato",
+        "record_ids": [],
+        "note": "La ricognizione sulle fonti regionali non ha restituito un atto organico dedicato. Non equivale ad assenza di disciplina: verificare PAI/PGRA, norme di bacino, urbanistiche, provinciali, comunali, consortili e del gestore.",
+        "checked": "2026-09-18"
+      }
     },
     {
       "name": "Basilicata",
@@ -2893,7 +3038,14 @@
         "pai-puglia",
         "dist-merid"
       ],
-      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento."
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "not_confirmed",
+        "label": "Atto regionale organico non reperito nel controllo mirato",
+        "record_ids": [],
+        "note": "La ricognizione sulle fonti regionali non ha restituito un atto organico dedicato. Non equivale ad assenza di disciplina: verificare PAI/PGRA, norme di bacino, urbanistiche, provinciali, comunali, consortili e del gestore.",
+        "checked": "2026-09-18"
+      }
     },
     {
       "name": "Calabria",
@@ -2905,7 +3057,14 @@
         "pai-basilicata",
         "dist-merid"
       ],
-      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento."
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "not_confirmed",
+        "label": "Atto regionale organico non reperito nel controllo mirato",
+        "record_ids": [],
+        "note": "Non è stato reperito un atto regionale organico dedicato nella ricognizione odierna; il PAI Calabria/Lao e gli strumenti locali restano da verificare per il punto di intervento.",
+        "checked": "2026-09-18"
+      }
     },
     {
       "name": "Campania",
@@ -2918,7 +3077,14 @@
         "pai-campania",
         "dist-merid"
       ],
-      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento."
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "not_confirmed",
+        "label": "Atto regionale organico non reperito nel controllo mirato",
+        "record_ids": [],
+        "note": "La ricognizione sulle fonti regionali non ha restituito un atto organico dedicato. Non equivale ad assenza di disciplina: verificare PAI/PGRA, norme di bacino, urbanistiche, provinciali, comunali, consortili e del gestore.",
+        "checked": "2026-09-18"
+      }
     },
     {
       "name": "Emilia-Romagna",
@@ -2928,7 +3094,14 @@
         "dist-po",
         "dist-centr"
       ],
-      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento."
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "not_confirmed",
+        "label": "Atto regionale organico non reperito nel controllo mirato",
+        "record_ids": [],
+        "note": "Non è stato reperito un atto regionale unitario dedicato; la disciplina può derivare da piani di bacino, consorzi, gestori e strumenti comunali.",
+        "checked": "2026-09-18"
+      }
     },
     {
       "name": "Friuli-Venezia Giulia",
@@ -2937,7 +3110,16 @@
       "plan_ids": [
         "dist-alpi"
       ],
-      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento."
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "specific",
+        "label": "Regolamento regionale verificato",
+        "record_ids": [
+          "fvg83"
+        ],
+        "note": "Il D.P.Reg. 083/Pres/2018 disciplina il principio regionale e lo studio di compatibilità idraulica.",
+        "checked": "2026-09-18"
+      }
     },
     {
       "name": "Lazio",
@@ -2948,7 +3130,16 @@
         "dist-centr",
         "dist-merid"
       ],
-      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento."
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "specific",
+        "label": "Linee guida regionali verificate",
+        "record_ids": [
+          "laz117"
+        ],
+        "note": "La D.G.R. 117/2020 approva le linee guida regionali per le trasformazioni territoriali.",
+        "checked": "2026-09-18"
+      }
     },
     {
       "name": "Liguria",
@@ -2958,7 +3149,14 @@
         "dist-po",
         "dist-sett"
       ],
-      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento."
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "not_confirmed",
+        "label": "Atto regionale organico non reperito nel controllo mirato",
+        "record_ids": [],
+        "note": "La ricognizione sulle fonti regionali non ha restituito un atto organico dedicato. Non equivale ad assenza di disciplina: verificare PAI/PGRA, norme di bacino, urbanistiche, provinciali, comunali, consortili e del gestore.",
+        "checked": "2026-09-18"
+      }
     },
     {
       "name": "Lombardia",
@@ -2967,7 +3165,16 @@
       "plan_ids": [
         "dist-po"
       ],
-      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento."
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "specific",
+        "label": "Regolamento regionale verificato",
+        "record_ids": [
+          "lom7"
+        ],
+        "note": "Il R.R. 7/2017, nel testo coordinato, si applica all’intero territorio regionale.",
+        "checked": "2026-09-18"
+      }
     },
     {
       "name": "Marche",
@@ -2977,7 +3184,16 @@
         "dist-po",
         "dist-centr"
       ],
-      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento."
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "specific",
+        "label": "Quadro regionale vigente verificato",
+        "record_ids": [
+          "mar53"
+        ],
+        "note": "La L.R. 19/2023, art. 31, mantiene applicabili in via transitoria i criteri della D.G.R. 53/2014, se compatibili.",
+        "checked": "2026-09-18"
+      }
     },
     {
       "name": "Molise",
@@ -2990,7 +3206,14 @@
         "dist-centr",
         "dist-merid"
       ],
-      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento."
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "not_confirmed",
+        "label": "Atto regionale organico non reperito nel controllo mirato",
+        "record_ids": [],
+        "note": "La ricognizione sulle fonti regionali non ha restituito un atto organico dedicato. Non equivale ad assenza di disciplina: verificare PAI/PGRA, norme di bacino, urbanistiche, provinciali, comunali, consortili e del gestore.",
+        "checked": "2026-09-18"
+      }
     },
     {
       "name": "Piemonte",
@@ -2999,7 +3222,14 @@
       "plan_ids": [
         "dist-po"
       ],
-      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento."
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "not_confirmed",
+        "label": "Atto regionale organico non reperito nel controllo mirato",
+        "record_ids": [],
+        "note": "La ricognizione sulle fonti regionali non ha restituito un atto organico dedicato. Non equivale ad assenza di disciplina: verificare PAI/PGRA, norme di bacino, urbanistiche, provinciali, comunali, consortili e del gestore.",
+        "checked": "2026-09-18"
+      }
     },
     {
       "name": "Puglia",
@@ -3011,7 +3241,14 @@
         "pai-puglia",
         "dist-merid"
       ],
-      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento."
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "not_confirmed",
+        "label": "Atto regionale organico non reperito nel controllo mirato",
+        "record_ids": [],
+        "note": "La ricognizione sulle fonti regionali non ha restituito un atto organico dedicato. Non equivale ad assenza di disciplina: verificare PAI/PGRA, norme di bacino, urbanistiche, provinciali, comunali, consortili e del gestore.",
+        "checked": "2026-09-18"
+      }
     },
     {
       "name": "Sardegna",
@@ -3020,7 +3257,16 @@
       "plan_ids": [
         "dist-sard"
       ],
-      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento."
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "specific",
+        "label": "Disciplina PAI regionale verificata",
+        "record_ids": [
+          "sar-inv-2017"
+        ],
+        "note": "Le linee guida approvate con Del. C.I. 2/2017 attuano l’art. 47 delle NTA PAI.",
+        "checked": "2026-09-18"
+      }
     },
     {
       "name": "Sicilia",
@@ -3029,7 +3275,16 @@
       "plan_ids": [
         "dist-sici"
       ],
-      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento."
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "specific",
+        "label": "Indirizzi regionali verificati",
+        "record_ids": [
+          "sic102"
+        ],
+        "note": "Il D.D.G. 102/2021 reca indirizzi applicativi regionali per l’invarianza idraulica.",
+        "checked": "2026-09-18"
+      }
     },
     {
       "name": "Toscana",
@@ -3040,7 +3295,14 @@
         "dist-sett",
         "dist-centr"
       ],
-      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento."
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "not_confirmed",
+        "label": "Atto regionale organico non reperito nel controllo mirato",
+        "record_ids": [],
+        "note": "La ricognizione sulle fonti regionali non ha restituito un atto organico dedicato. Non equivale ad assenza di disciplina: verificare PAI/PGRA, norme di bacino, urbanistiche, provinciali, comunali, consortili e del gestore.",
+        "checked": "2026-09-18"
+      }
     },
     {
       "name": "Trentino-Alto Adige",
@@ -3050,7 +3312,14 @@
         "dist-po",
         "dist-alpi"
       ],
-      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento."
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "not_confirmed",
+        "label": "Atto regionale organico non reperito nel controllo mirato",
+        "record_ids": [],
+        "note": "Non è stato reperito un atto regionale unitario dedicato; la verifica va svolta separatamente per le Province autonome di Trento e Bolzano e per il comune interessato.",
+        "checked": "2026-09-18"
+      }
     },
     {
       "name": "Umbria",
@@ -3060,7 +3329,14 @@
         "dist-sett",
         "dist-centr"
       ],
-      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento."
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "not_confirmed",
+        "label": "Atto regionale organico non reperito nel controllo mirato",
+        "record_ids": [],
+        "note": "La ricognizione sulle fonti regionali non ha restituito un atto organico dedicato. Non equivale ad assenza di disciplina: verificare PAI/PGRA, norme di bacino, urbanistiche, provinciali, comunali, consortili e del gestore.",
+        "checked": "2026-09-18"
+      }
     },
     {
       "name": "Valle d’Aosta",
@@ -3069,7 +3345,14 @@
       "plan_ids": [
         "dist-po"
       ],
-      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento."
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "not_confirmed",
+        "label": "Atto regionale organico non reperito nel controllo mirato",
+        "record_ids": [],
+        "note": "La ricognizione sulle fonti regionali non ha restituito un atto organico dedicato. Non equivale ad assenza di disciplina: verificare PAI/PGRA, norme di bacino, urbanistiche, provinciali, comunali, consortili e del gestore.",
+        "checked": "2026-09-18"
+      }
     },
     {
       "name": "Veneto",
@@ -3079,7 +3362,16 @@
         "dist-po",
         "dist-alpi"
       ],
-      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento."
+      "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
+      "invariance": {
+        "status": "specific",
+        "label": "Criteri regionali verificati",
+        "record_ids": [
+          "ven2948"
+        ],
+        "note": "La D.G.R. 2948/2009 contiene le modalità operative per la valutazione di compatibilità idraulica.",
+        "checked": "2026-09-18"
+      }
     }
   ],
   "districts": [
@@ -3156,6 +3448,25 @@
     }
   ],
   "runs": [
+    {
+      "date": "2026-09-18",
+      "type": "Ricognizione mirata · invarianza idraulica regionale",
+      "summary": "Integrata la D.G.R. Lazio 117/2020, aggiunta la disciplina PAI della Sardegna e verificata la copertura tematica di tutte le regioni.",
+      "checked": [
+        "Lazio: D.G.R. 117/2020, Allegato A e pagina regionale",
+        "Sardegna: Del. C.I. 2/2017, art. 47 NTA PAI e allegati ufficiali",
+        "Lombardia: testo coordinato R.R. 7/2017 e aggiornamenti 2019/2025",
+        "Marche: L.R. 19/2023, art. 31, e continuità applicativa D.G.R. 53/2014",
+        "Friuli-Venezia Giulia: PDF ufficiale D.P.Reg. 083/Pres/2018",
+        "Veneto e Sicilia: confermati i rimandi già censiti",
+        "Tutte le 20 regioni: esito della ricognizione esposto nelle schede territoriali"
+      ],
+      "errors": [
+        "Per 13 regioni non è stato reperito un atto regionale organico dedicato: il risultato è registrato come non conclusivo, non come assenza normativa.",
+        "Il collegamento alla banca normativa FVG ha restituito un errore applicativo; aggiunto il PDF ufficiale alternativo.",
+        "Il download BURL Lazio è pubblicato su portale istituzionale ma può applicare restrizioni automatiche: mantenuti anche i rimandi Regione Lazio."
+      ]
+    },
     {
       "date": "2026-09-18",
       "type": "Correzione manuale dei collegamenti",
@@ -3302,6 +3613,13 @@
   ],
   "news": [
     {
+      "date": "2026-09-18",
+      "title": "Lazio: aggiunte le linee guida regionali sull’invarianza idraulica",
+      "status": "Atto regionale verificato",
+      "summary": "Inserita la D.G.R. 24 marzo 2020, n. 117 con il rimando al testo e all’Allegato A, oltre alla documentazione illustrativa pubblicata dalla Regione Lazio.",
+      "url": "https://www.regione.lazio.it/documenti/69240"
+    },
+    {
       "date": "2026-07-14",
       "title": "Sardegna: pubblicate le mappe PAI/PGRA aggiornate a dicembre 2025",
       "status": "Notizia cartografica verificata",
@@ -3339,8 +3657,8 @@
       },
       {
         "name": "Regioni, province, comuni e gestori",
-        "lastReviewed": null,
-        "status": "Censimento locale da estendere"
+        "lastReviewed": "2026-09-18",
+        "status": "Ricognizione mirata sull’invarianza completata per tutte le regioni: 7 quadri specifici verificati; 13 regioni senza atto organico reperito, da approfondire nelle fonti di bacino e locali."
       }
     ],
     "queue": [
@@ -3377,6 +3695,11 @@
         "title": "Rinvii CAM: D.M. 28/06/2024 n.127 e PAN GPP 03/08/2023",
         "reason": "Richiamati nelle premesse del correttivo CAM Strade; acquisire testo prima di creare le schede.",
         "status": "Da verificare"
+      },
+      {
+        "title": "Invarianza idraulica: approfondire le 13 regioni senza atto organico reperito",
+        "reason": "La ricerca mirata del 18/09/2026 non ha confermato un atto regionale organico per Abruzzo, Basilicata, Calabria, Campania, Emilia-Romagna, Liguria, Molise, Piemonte, Puglia, Toscana, Trentino-Alto Adige, Umbria e Valle d’Aosta. Verificare sistematicamente NTA PAI/PGRA, leggi urbanistiche, province autonome, consorzi, gestori e regolamenti comunali.",
+        "status": "Da approfondire per bacino e livello locale"
       }
     ]
   }

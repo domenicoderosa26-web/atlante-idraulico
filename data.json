@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-18",
+  "updatedAt": "2026-09-19",
   "scope": "Catalogo selettivo con controllo mirato dei CAM e della disciplina delle acque di prima pioggia per tutte le regioni. La verifica locale e autorizzativa resta necessaria.",
   "automation": {
     "enabled": true,
     "cadence": "Ogni giorno, ore 07:00 · Europe/Rome",
     "configuredAt": "2026-09-17",
-    "lastCompletedRun": "2026-09-18",
-    "note": "Ultima revisione manuale del 18/09/2026: controllo mirato dell’invarianza idraulica su tutte le regioni, integrazione Lazio e Sardegna e correzione dei rimandi FVG e Marche. Il controllo giornaliero resta distinto dalla verifica giuridica puntuale.",
+    "lastCompletedRun": "2026-09-19",
+    "note": "Ciclo del 19/09/2026: verificati tutti i 169 URL univoci con doppio controllo; corretti sette rimandi principali, rimossa una fonte non istituzionale, risolti i PDF CAM edilizia e aggiunto il R.D. 215/1933 con vigenza da ricostruire.",
     "lastPublicationStatus": "published_github_pages"
   },
   "records": [
@@ -24,7 +24,7 @@
         "Attraversamenti"
       ],
       "date": "1904-07-25",
-      "url": "https://www.mase.gov.it/portale/documents/d/guest/rd_25-7-1904_n-523-pdf-1",
+      "url": "https://www.gazzettaufficiale.it/eli/gu/1904/10/07/234/sg/pdf",
       "summary": "Testo unico di riferimento per le opere idrauliche e gli interventi sui corsi d’acqua pubblici.",
       "focus": [
         "Divieti e distanze di rispetto",
@@ -33,11 +33,15 @@
       ],
       "kind": "Atto normativo",
       "status": "Vigenza da ricostruire",
-      "source_kind": "PDF ufficiale MASE",
-      "note": "Collegamento diretto al testo pubblicato dal Ministero dell’Ambiente e della Sicurezza Energetica. La ricostruzione della vigenza e delle modifiche successive resta da completare.",
-      "checked": "2026-09-18",
+      "source_kind": "PDF ufficiale · Gazzetta Ufficiale",
+      "note": "Il collegamento principale apre il fascicolo ufficiale della Gazzetta Ufficiale contenente il testo originario. La ricostruzione della vigenza e delle modifiche successive resta da completare.",
+      "checked": "2026-09-19",
       "relations": [],
       "history": [
+        {
+          "date": "2026-09-19",
+          "text": "Reso principale il PDF ufficiale della Gazzetta Ufficiale, mantenendo la verifica di vigenza aperta."
+        },
         {
           "date": "2026-09-17",
           "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
@@ -70,7 +74,7 @@
         "Derivazioni e risorsa idrica"
       ],
       "date": "1933-12-11",
-      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1933-12-11;1775",
+      "url": "https://www.gazzettaufficiale.it/eli/gu/1934/01/08/5/sg/pdf",
       "summary": "Testo unico sulle acque e sugli impianti elettrici, rilevante per concessioni e utilizzazioni della risorsa.",
       "focus": [
         "Derivazioni e concessioni",
@@ -79,11 +83,15 @@
       ],
       "kind": "Atto normativo",
       "status": "Vigenza da ricostruire",
-      "source_kind": "Testo vigente Normattiva",
-      "note": "Collegamento diretto al testo dell’atto in Normattiva. La ricostruzione delle modifiche e dell’applicabilità delle singole disposizioni non è ancora completata.",
-      "checked": "2026-09-18",
+      "source_kind": "PDF ufficiale · Gazzetta Ufficiale",
+      "note": "Il collegamento principale apre il fascicolo ufficiale della Gazzetta Ufficiale contenente il testo originario. La ricostruzione delle modifiche e dell’applicabilità delle singole disposizioni resta da completare.",
+      "checked": "2026-09-19",
       "relations": [],
       "history": [
+        {
+          "date": "2026-09-19",
+          "text": "Sostituito il collegamento Normattiva che restituiva una pagina d’errore con il PDF ufficiale della Gazzetta Ufficiale."
+        },
         {
           "date": "2026-09-17",
           "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
@@ -117,7 +125,7 @@
         "Demanio e polizia idraulica"
       ],
       "date": "1904-05-08",
-      "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=004U0368&atto.dataPubblicazioneGazzetta=1904-07-28",
+      "url": "https://www.gazzettaufficiale.it/eli/gu/1904/07/28/176/sg/pdf",
       "summary": "Disciplina delle opere di bonifica e dei relativi canali.",
       "focus": [
         "Regime del reticolo di bonifica",
@@ -126,11 +134,15 @@
       ],
       "kind": "Atto normativo",
       "status": "Testo vigente disponibile",
-      "source_kind": "Scheda dell’atto",
-      "note": "Normattiva riporta il testo vigente al 17/09/2026. L’applicazione va coordinata con la disciplina territoriale e consortile.",
-      "checked": "2026-09-18",
+      "source_kind": "PDF ufficiale · Gazzetta Ufficiale",
+      "note": "Il collegamento principale apre il fascicolo ufficiale della Gazzetta Ufficiale contenente il testo originario. La precedente verifica del testo coordinato resta storicizzata; l’applicazione va coordinata con disciplina territoriale e consortile.",
+      "checked": "2026-09-19",
       "relations": [],
       "history": [
+        {
+          "date": "2026-09-19",
+          "text": "Reso principale il PDF ufficiale della Gazzetta Ufficiale; conservata la precedente evidenza sul testo coordinato."
+        },
         {
           "date": "2026-09-17",
           "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
@@ -150,6 +162,46 @@
       "document_url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=004U0368&atto.dataPubblicazioneGazzetta=1904-07-28&tipoSerie=serie_generale&tipoVigenza=originario",
       "document_label": "Testo originario · Gazzetta Ufficiale",
       "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto."
+    },
+    {
+      "id": "rd215",
+      "ref": "R.D. 215/1933",
+      "title": "Nuove norme per la bonifica integrale",
+      "level": "Nazionale",
+      "regions": [
+        "Italia"
+      ],
+      "topics": [
+        "Bonifica",
+        "Consorzi di bonifica",
+        "Demanio e polizia idraulica"
+      ],
+      "date": "1933-02-13",
+      "url": "https://www.provincia.tn.it/Amministrazione/Documenti/Regio-Decreto-13-febbraio-1933-n.-215",
+      "summary": "Riferimento storico nazionale per opere di bonifica integrale, comprensori e consorzi di bonifica.",
+      "focus": [
+        "Classificazione e attuazione delle opere di bonifica",
+        "Competenze dei consorzi",
+        "Manutenzione e contribuenza"
+      ],
+      "kind": "Atto normativo",
+      "status": "Vigenza da ricostruire",
+      "source_kind": "Scheda istituzionale · Provincia autonoma di Trento",
+      "note": "La fonte istituzionale identifica l’atto e rinvia a Normattiva. La vigenza delle singole disposizioni, comprese abrogazioni e modifiche intervenute, non è dichiarata come integralmente verificata. Il PDF ufficiale puntuale non è ancora disponibile nella scheda.",
+      "checked": "2026-09-19",
+      "relations": [
+        {
+          "id": "rd368",
+          "type": "Coordina il quadro della bonifica con"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-19",
+          "text": "Scheda aggiunta nella ricognizione retrospettiva sul settore bonifica; mantenuta aperta la verifica di vigenza articolo per articolo."
+        }
+      ],
+      "source_status": "missing"
     },
     {
       "id": "dl152",
@@ -242,7 +294,7 @@
         "PAI e PGRA"
       ],
       "date": "2010-02-23",
-      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-02-23;49",
+      "url": "https://www.gazzettaufficiale.it/eli/gu/2010/04/02/77/sg/pdf",
       "summary": "Riferimento nazionale per l’attuazione della direttiva Alluvioni e il processo di pianificazione PGRA.",
       "focus": [
         "Mappe di pericolosità e rischio",
@@ -251,11 +303,15 @@
       ],
       "kind": "Atto normativo",
       "status": "Vigenza da ricostruire",
-      "source_kind": "Testo vigente Normattiva",
-      "note": "Collegamento diretto al testo dell’atto in Normattiva. Il raccordo con i cicli di pianificazione e con gli aggiornamenti dei PGRA va verificato nelle schede distrettuali.",
-      "checked": "2026-09-18",
+      "source_kind": "PDF ufficiale · Gazzetta Ufficiale",
+      "note": "Il collegamento principale apre il fascicolo ufficiale della Gazzetta Ufficiale contenente il testo originario. Il raccordo con gli aggiornamenti dei PGRA e la vigenza coordinata vanno verificati nelle schede distrettuali.",
+      "checked": "2026-09-19",
       "relations": [],
       "history": [
+        {
+          "date": "2026-09-19",
+          "text": "Sostituito il collegamento Normattiva che restituiva una pagina d’errore con il PDF ufficiale della Gazzetta Ufficiale."
+        },
         {
           "date": "2026-09-17",
           "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
@@ -1880,7 +1936,7 @@
         "Scarichi e tutela acque"
       ],
       "date": "2017-05-29",
-      "url": "https://www.astrid-online.it/static/upload/regi/regione-basilicata_legge-regionale-29-maggio-2017--n9.pdf",
+      "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
       "summary": "Legge-quadro regionale tuttora vigente. L’articolo 5 demanda alla Giunta l’approvazione delle linee guida, comprese le disposizioni tecniche sugli scarichi e sulle acque meteoriche.",
       "focus": [
         "Legge-quadro regionale",
@@ -1888,10 +1944,10 @@
         "Base legislativa delle linee guida regionali"
       ],
       "kind": "Legge regionale",
-      "status": "Vigente · legge-quadro",
-      "source_kind": "Testo pubblicato in G.U. · copia PDF",
-      "note": "La L.R. 9/2017 non è stata abrogata dalla D.G.R. 471/2026. La disciplina tecnica aggiornata delle acque di prima pioggia è contenuta nelle linee guida allegate alla D.G.R. 471/2026.",
-      "checked": "2026-09-18",
+      "status": "Vigenza riscontrata · PDF ufficiale puntuale da reperire",
+      "source_kind": "Banca dati ufficiale · Consiglio regionale della Basilicata",
+      "note": "La banca dati ufficiale del Consiglio regionale espone le leggi coordinate, ma nel controllo del 19/09/2026 non è stato reperito un permalink o PDF ufficiale puntuale della L.R. 9/2017. Il precedente PDF su fonte non istituzionale è stato rimosso. La verifica della vigenza resta collegata agli atti regionali successivi già censiti.",
+      "checked": "2026-09-19",
       "relations": [
         {
           "type": "Attuata e aggiornata da",
@@ -1900,19 +1956,16 @@
       ],
       "history": [
         {
+          "date": "2026-09-19",
+          "text": "Rimosso il PDF ospitato su fonte non istituzionale; mantenuta la scheda con stato esplicito di fonte ufficiale puntuale mancante."
+        },
+        {
           "date": "2026-09-18",
           "text": "Ripristinata dopo verifica della vigenza e collegata al PDF integrale."
         }
       ],
-      "documents": [
-        {
-          "url": "https://www.astrid-online.it/static/upload/regi/regione-basilicata_legge-regionale-29-maggio-2017--n9.pdf",
-          "label": "L.R. Basilicata 9/2017 · PDF integrale",
-          "format": "pdf",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
-        }
-      ]
+      "documents": [],
+      "source_status": "missing"
     },
     {
       "id": "bas471",
@@ -2232,11 +2285,11 @@
       "status": "Vigente dal 1 febbraio 2026",
       "source_kind": "Gazzetta Ufficiale",
       "note": "Pubblicato nella G.U. n. 281 del 3 dicembre 2025 ed entrato in vigore sessanta giorni dopo. Il previgente D.M. 256/2022 è rimosso dal catalogo attivo; i casi transitori devono essere verificati puntualmente ai sensi dell’art. 2.",
-      "checked": "2026-09-18",
+      "checked": "2026-09-19",
       "relations": [
         {
           "type": "Sostituisce, salvo disciplina transitoria",
-          "id": "camed2022"
+          "text": "D.M. 23 giugno 2022 n. 256 · versione precedente conservata nella cronologia del catalogo"
         },
         {
           "type": "Allegati ufficiali",
@@ -2254,6 +2307,14 @@
       ],
       "history": [
         {
+          "date": "2026-09-19",
+          "text": "Corretta la relazione storica verso la precedente edizione CAM edilizia, non presente come scheda autonoma nel catalogo corrente."
+        },
+        {
+          "date": "2026-09-19",
+          "text": "Verificati e collegati l’Allegato 1 CAM edilizia e il modello MASE di relazione CAM di progetto."
+        },
+        {
           "date": "2026-09-17",
           "text": "Scheda inserita durante la ricognizione manuale su fonte ufficiale. Non è la data di una nuova pubblicazione normativa."
         },
@@ -2269,6 +2330,20 @@
           "url": "https://www.gazzettaufficiale.it/eli/gu/2025/12/03/281/sg/pdf",
           "label": "PDF ufficiale · CAM edilizia 2025",
           "format": "pdf"
+        },
+        {
+          "url": "https://www.mase.gov.it/portale/documents/d/guest/allegato_1_cam_edilizia_30_10_25-def-pdf",
+          "label": "PDF ufficiale MASE · Allegato 1 CAM edilizia",
+          "format": "pdf",
+          "link_status": "checked",
+          "link_checked": "2026-09-19"
+        },
+        {
+          "url": "https://www.mase.gov.it/portale/documents/d/guest/modello-di-relazione-cam-di-progetto-vers-_02-02-2026-pdf",
+          "label": "PDF ufficiale MASE · Modello di relazione CAM di progetto",
+          "format": "pdf",
+          "link_status": "checked",
+          "link_checked": "2026-09-19"
         }
       ]
     },
@@ -3146,7 +3221,7 @@
         "Scarichi e tutela acque"
       ],
       "date": "2006-05-31",
-      "url": "https://raccoltanormativa.consiglio.regione.toscana.it/",
+      "url": "https://raccoltanormativa.consiglio.regione.toscana.it/articolo?urndoc=urn:nir:regione.toscana:legge:2006-05-31;20",
       "summary": "Legge regionale quadro; l’art. 8 disciplina lo scarico delle acque di prima pioggia e delle acque meteoriche dilavanti contaminate.",
       "focus": [
         "Articolo 8",
@@ -3155,9 +3230,9 @@
       ],
       "kind": "Atto normativo",
       "status": "Testo vigente nella raccolta normativa regionale",
-      "source_kind": "Banca normativa regionale",
+      "source_kind": "Testo coordinato · Raccolta normativa Regione Toscana",
       "note": "Consultare il testo vigente e le note di coordinamento nella Raccolta normativa della Regione Toscana.",
-      "checked": "2026-09-18",
+      "checked": "2026-09-19",
       "relations": [
         {
           "id": "tos46",
@@ -3165,6 +3240,10 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-09-19",
+          "text": "Sostituita la homepage della banca dati con la pagina ufficiale puntuale del testo coordinato."
+        },
         {
           "date": "2026-09-18",
           "text": "Inserita dopo controllo mirato sul testo regionale vigente."
@@ -3192,7 +3271,7 @@
         "Scarichi e tutela acque"
       ],
       "date": "2008-09-08",
-      "url": "https://raccoltanormativa.consiglio.regione.toscana.it/",
+      "url": "https://raccoltanormativa.consiglio.regione.toscana.it/articolo?urndoc=urn:nir:regione.toscana:regolamento.giunta:2008-09-08;46/R",
       "summary": "Regolamento attuativo che dettaglia acque meteoriche dilavanti, prima pioggia, trattamenti e autorizzazioni.",
       "focus": [
         "Classificazione AMD e AMPP",
@@ -3201,9 +3280,9 @@
       ],
       "kind": "Atto normativo",
       "status": "Vigente con modifiche · consultare il testo coordinato",
-      "source_kind": "Banca normativa regionale",
+      "source_kind": "Testo coordinato · Raccolta normativa Regione Toscana",
       "note": "Il regolamento è stato modificato più volte; usare esclusivamente il testo vigente esposto dalla Raccolta normativa regionale.",
-      "checked": "2026-09-18",
+      "checked": "2026-09-19",
       "relations": [
         {
           "id": "tos20",
@@ -3211,6 +3290,10 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-09-19",
+          "text": "Sostituita la homepage della banca dati con la pagina ufficiale puntuale del testo coordinato."
+        },
         {
           "date": "2026-09-18",
           "text": "Inserito dopo controllo mirato; segnalata la necessità del testo coordinato."
@@ -3238,7 +3321,7 @@
         "Scarichi e tutela acque"
       ],
       "date": "2009-11-05",
-      "url": "https://bur.regione.veneto.it/",
+      "url": "https://repository.regione.veneto.it/public/6396bf686a0ce689ab40783272aec920.php?dl=true",
       "summary": "L’art. 39 delle Norme tecniche del Piano di tutela delle acque disciplina separazione, trattamento e recapito delle acque meteoriche contaminate.",
       "focus": [
         "Articolo 39 NTA",
@@ -3247,11 +3330,15 @@
       ],
       "kind": "Piano",
       "status": "Disciplina nel PTA · verificare il testo coordinato vigente",
-      "source_kind": "Bollettino ufficiale regionale",
+      "source_kind": "PDF ufficiale · NTA del Piano di tutela delle acque",
       "note": "PTA approvato con D.C.R. 107/2009 e successivamente modificato. Prima dell’uso progettuale consultare le NTA coordinate pubblicate dalla Regione.",
-      "checked": "2026-09-18",
+      "checked": "2026-09-19",
       "relations": [],
       "history": [
+        {
+          "date": "2026-09-19",
+          "text": "Sostituita la homepage del BUR con il PDF ufficiale delle norme tecniche del PTA."
+        },
         {
           "date": "2026-09-18",
           "text": "Inserita la disciplina specifica contenuta nel PTA dopo controllo mirato."
@@ -3881,6 +3968,62 @@
   ],
   "runs": [
     {
+      "date": "2026-09-19",
+      "type": "Ciclo automatico · bonifica e manutenzione integrale collegamenti",
+      "summary": "Controllati tutti i 169 URL univoci del catalogo. Corretti i rimandi principali di R.D. 523/1904, R.D. 1775/1933, R.D. 368/1904, D.Lgs. 49/2010, L.R. Toscana 20/2006, D.P.G.R. Toscana 46/R/2008 e PTA Veneto; risolti i documenti CAM edilizia; rimossa una fonte non istituzionale; aggiunto il R.D. 215/1933.",
+      "checked": [
+        "Gazzetta Ufficiale: fascicoli PDF e pagine atto dei R.D. 523/1904, 1775/1933, 368/1904 e D.Lgs. 49/2010",
+        "MASE: Allegato 1 CAM edilizia 2025 e modello di relazione CAM, entrambi HTTP 200 application/pdf",
+        "Raccolta normativa Regione Toscana: pagine puntuali e PDF di L.R. 20/2006 e D.P.G.R. 46/R/2008",
+        "Regione Veneto: PDF ufficiale delle NTA PTA con disciplina dell’art. 39",
+        "Consiglio regionale Basilicata: banca dati ufficiale; PDF puntuale L.R. 9/2017 non reperito",
+        "Provincia autonoma di Trento: scheda istituzionale del R.D. 215/1933",
+        "Tutti i 169 URL univoci del JSON: apertura via crawler e controllo HTTP parallelo; i timeout sono stati trattati come non conclusivi"
+      ],
+      "errors": [
+        "Numerosi portali istituzionali hanno restituito timeout o blocchi al controllo automatizzato; nessun collegamento è stato declassato sulla base del solo errore transitorio.",
+        "Normattiva ha restituito una pagina d’errore per i permalink URN del R.D. 1775/1933 e del D.Lgs. 49/2010; i rimandi principali sono stati sostituiti con fascicoli PDF ufficiali della Gazzetta Ufficiale.",
+        "L.R. Basilicata 9/2017: non reperito un PDF ufficiale puntuale; rimossa la copia non istituzionale e registrata la lacuna."
+      ],
+      "queries": [
+        "site:normattiva.it regio decreto 215 1933 bonifica",
+        "site:gazzettaufficiale.it 2026 acque rischio alluvioni decreto settembre 2026",
+        "site:raccoltanormativa.consiglio.regione.toscana.it legge regionale 31 maggio 2006 n. 20",
+        "site:raccoltanormativa.consiglio.regione.toscana.it 46/R 8 settembre 2008",
+        "site:regione.veneto.it art. 39 acque meteoriche di dilavamento PDF",
+        "site:consiglio.basilicata.it legge regionale 29 maggio 2017 n. 9"
+      ],
+      "sectors": [
+        "Regi decreti, demanio e bonifica",
+        "CAM edilizia",
+        "Prima pioggia e scarichi regionali",
+        "PAI/PGRA e piani di bacino"
+      ],
+      "territories": [
+        "Italia",
+        "Toscana",
+        "Veneto",
+        "Basilicata",
+        "Calabria/Lao",
+        "Appennino Meridionale"
+      ],
+      "new_records": [
+        "rd215"
+      ],
+      "updated_records": [
+        "rd523",
+        "rd1775",
+        "rd368",
+        "dl49",
+        "tos20",
+        "tos46",
+        "venpta39",
+        "camed2025",
+        "bas9"
+      ],
+      "publication": "committed_and_pages_verified"
+    },
+    {
       "date": "2026-09-18",
       "type": "Revisione collegamenti PDF",
       "summary": "Sostituiti i rimandi generici con collegamenti diretti ai PDF degli atti e degli elaborati ufficiali disponibili.",
@@ -4074,6 +4217,20 @@
   ],
   "news": [
     {
+      "date": "2026-09-19",
+      "status": "Verificato",
+      "title": "Bonifica integrale: aggiunto il R.D. 215/1933",
+      "summary": "La ricognizione retrospettiva ha aggiunto il riferimento nazionale sulle opere e sui consorzi di bonifica. La scheda non estende automaticamente la vigenza all’intero testo: resta aperta la verifica articolo per articolo.",
+      "url": "https://www.provincia.tn.it/Amministrazione/Documenti/Regio-Decreto-13-febbraio-1933-n.-215"
+    },
+    {
+      "date": "2026-09-19",
+      "status": "Collegamenti corretti",
+      "title": "Riparati i rinvii a Gazzetta Ufficiale, Toscana, Veneto e CAM edilizia",
+      "summary": "Sostituiti permalink errati o generici con fascicoli PDF e pagine ufficiali puntuali; aggiunti Allegato 1 e modello di relazione dei CAM edilizia.",
+      "url": "https://www.mase.gov.it/portale/documents/d/guest/allegato_1_cam_edilizia_30_10_25-def-pdf"
+    },
+    {
       "date": "2026-09-18",
       "status": "Verificato",
       "title": "Basilicata · corretta la disciplina sulle acque di prima pioggia",
@@ -4120,8 +4277,8 @@
       },
       {
         "name": "Regi decreti, demanio e bonifica",
-        "lastReviewed": null,
-        "status": "Ricerca retrospettiva da eseguire"
+        "lastReviewed": "2026-09-19",
+        "status": "Ricognizione retrospettiva avviata: aggiunto R.D. 215/1933; vigenza articolo per articolo ancora da ricostruire."
       },
       {
         "name": "Regioni, province, comuni e gestori",
@@ -4132,8 +4289,8 @@
     "queue": [
       {
         "title": "CAM edilizia 2025: allegato MASE e chiarimenti successivi",
-        "reason": "Reperiti URL puntuali MASE dell’allegato e del modello di relazione, ma apertura non riuscita il 18/09/2026; nessuna lettura o verifica dei criteri dichiarata.",
-        "status": "Da verificare",
+        "reason": "Allegato 1 CAM edilizia e modello di relazione CAM di progetto aperti con esito HTTP 200 e tipo application/pdf sul portale MASE il 19/09/2026; collegamenti aggiunti alla scheda.",
+        "status": "Risolto il 19/09/2026",
         "candidate_urls": [
           "https://www.mase.gov.it/portale/documents/d/guest/allegato_1_cam_edilizia_30_10_25-def-pdf",
           "https://www.mase.gov.it/portale/documents/d/guest/modello-di-relazione-cam-di-progetto-vers-_02-02-2026-pdf"
@@ -4168,6 +4325,16 @@
         "title": "Invarianza idraulica: approfondire le 13 regioni senza atto organico reperito",
         "reason": "La ricerca mirata del 18/09/2026 non ha confermato un atto regionale organico per Abruzzo, Basilicata, Calabria, Campania, Emilia-Romagna, Liguria, Molise, Piemonte, Puglia, Toscana, Trentino-Alto Adige, Umbria e Valle d’Aosta. Verificare sistematicamente NTA PAI/PGRA, leggi urbanistiche, province autonome, consorzi, gestori e regolamenti comunali.",
         "status": "Da approfondire per bacino e livello locale"
+      },
+      {
+        "title": "L.R. Basilicata 9/2017: PDF ufficiale puntuale",
+        "reason": "Rimosso il PDF proveniente da fonte non istituzionale. La banca dati del Consiglio regionale è stata individuata, ma non espone nel controllo eseguito un permalink o PDF puntuale stabile dell’atto.",
+        "status": "Da reperire su fonte ufficiale"
+      },
+      {
+        "title": "R.D. 215/1933: ricostruzione della vigenza",
+        "reason": "Scheda istituzionale reperita; verificare su fonti ufficiali le disposizioni vigenti, modificate o abrogate senza estendere automaticamente la vigenza all’intero testo originario.",
+        "status": "Da verificare articolo per articolo"
       }
     ]
   }

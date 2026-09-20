@@ -6,9 +6,9 @@
     "enabled": true,
     "cadence": "Ogni giorno, ore 07:00 · Europe/Rome",
     "configuredAt": "2026-09-17",
-    "lastCompletedRun": "2026-09-19",
-    "note": "Ciclo del 20/09/2026 in pubblicazione: controllo integrale dei 166 URL preesistenti, correzione del rinvio PGRA Sicilia e approfondimento su attraversamenti stradali e ferroviari con tre schede nazionali mancanti.",
-    "lastPublicationStatus": "publishing_github_pages"
+    "lastCompletedRun": "2026-09-20",
+    "note": "Ciclo del 20/09/2026 completato: verificati i 166 URL preesistenti e i nuovi collegamenti; corretto il rinvio PGRA Sicilia; aggiunti D.P.R. 753/1980, D.Lgs. 285/1992 art. 25 e D.P.R. 495/1992 artt. 65–69.",
+    "lastPublicationStatus": "published_github_pages"
   },
   "records": [
     {
@@ -4187,7 +4187,7 @@
         "dist-sici",
         "discovery:CAM edilizia, strade e verde"
       ],
-      "publication": "awaiting_pages_verification"
+      "publication": "committed_and_pages_verified"
     },
     {
       "date": "2026-09-19",

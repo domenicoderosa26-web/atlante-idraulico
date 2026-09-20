@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-19",
+  "updatedAt": "2026-09-20",
   "scope": "Catalogo selettivo con controllo mirato dei CAM e della disciplina delle acque di prima pioggia per tutte le regioni. La verifica locale e autorizzativa resta necessaria.",
   "automation": {
     "enabled": true,
     "cadence": "Ogni giorno, ore 07:00 · Europe/Rome",
     "configuredAt": "2026-09-17",
     "lastCompletedRun": "2026-09-19",
-    "note": "Ciclo del 19/09/2026: verificati tutti i 169 URL univoci con doppio controllo; corretti sette rimandi principali, rimossa una fonte non istituzionale, risolti i PDF CAM edilizia e aggiunto il R.D. 215/1933 con vigenza da ricostruire.",
-    "lastPublicationStatus": "published_github_pages"
+    "note": "Ciclo del 20/09/2026 in pubblicazione: controllo integrale dei 166 URL preesistenti, correzione del rinvio PGRA Sicilia e approfondimento su attraversamenti stradali e ferroviari con tre schede nazionali mancanti.",
+    "lastPublicationStatus": "publishing_github_pages"
   },
   "records": [
     {
@@ -2175,10 +2175,12 @@
           "group": "PAI"
         },
         {
-          "url": "https://www.regione.sicilia.it/sites/default/files/2023-02/DPCM_PGRA_20221201.pdf",
-          "label": "PDF ufficiale · DPCM di approvazione PGRA",
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2023/02/08/32/sg/pdf#page=12",
+          "label": "PDF ufficiale · GU n. 32/2023, DPCM PGRA Sicilia a p. 8",
           "format": "pdf",
-          "group": "PGRA"
+          "group": "PGRA",
+          "link_status": "checked",
+          "link_checked": "2026-09-20"
         }
       ],
       "summary": "Accesso alla pianificazione del distretto Sicilia: norme, cartografie e aggiornamenti da individuare per il bacino interessato.",
@@ -2191,9 +2193,13 @@
       "status": "Raccolta da approfondire",
       "source_kind": "Portale di pianificazione",
       "note": "Scheda di accesso al distretto, non una singola norma. Le regioni sono un filtro orientativo: i confini di bacino non coincidono con quelli amministrativi. Piani e varianti non ancora censiti integralmente.",
-      "checked": "2026-09-18",
+      "checked": "2026-09-20",
       "relations": [],
       "history": [
+        {
+          "date": "2026-09-20",
+          "text": "Sostituito il PDF regionale non più reperibile (HTTP 404) con la scheda ufficiale puntuale del DPCM in Gazzetta Ufficiale."
+        },
         {
           "date": "2026-09-17",
           "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
@@ -2205,7 +2211,7 @@
       ],
       "document_url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa",
       "document_label": "PAI Sicilia · norme e aggiornamenti",
-      "document_note": "I collegamenti aprono direttamente i PDF ufficiali degli elaborati principali."
+      "document_note": "I collegamenti aprono fonti ufficiali puntuali; il PDF della Gazzetta Ufficiale contiene il DPCM di approvazione del PGRA Sicilia a pagina 8."
     },
     {
       "id": "dmattr2014",
@@ -2233,8 +2239,17 @@
       "status": "Verifica parziale",
       "source_kind": "Gazzetta Ufficiale",
       "note": "GU n. 97 del 28/04/2014; consultati decreto e Allegato A. Ricostruzione degli eventuali atti successivi e delle procedure del gestore da completare.",
-      "checked": "2026-09-18",
-      "relations": [],
+      "checked": "2026-09-20",
+      "relations": [
+        {
+          "id": "dpr753",
+          "type": "Si coordina con"
+        },
+        {
+          "id": "codstrada285",
+          "type": "Si coordina con"
+        }
+      ],
       "aliases": [
         "DM 2014",
         "DM 4 aprile 2014",
@@ -2245,6 +2260,10 @@
         "acquedotti"
       ],
       "history": [
+        {
+          "date": "2026-09-20",
+          "text": "Collegata la disciplina generale ferroviaria e stradale reperita nella ricognizione sugli attraversamenti."
+        },
         {
           "date": "2026-09-17",
           "text": "Scheda inserita durante la ricognizione manuale su fonte ufficiale. Non è la data di una nuova pubblicazione normativa."
@@ -3352,6 +3371,163 @@
         }
       ],
       "document_note": "Il collegamento apre direttamente il PDF del documento."
+    },
+    {
+      "id": "dpr753",
+      "ref": "D.P.R. 753/1980",
+      "title": "Polizia, sicurezza e regolarità dell’esercizio ferroviario",
+      "level": "Nazionale",
+      "regions": [
+        "Italia"
+      ],
+      "topics": [
+        "Attraversamenti e parallelismi",
+        "Attraversamenti"
+      ],
+      "date": "1980-07-11",
+      "url": "https://www.gazzettaufficiale.it/eli/id/1980/11/15/080U0753/sg",
+      "summary": "Quadro nazionale di polizia e sicurezza per ferrovie e altri servizi di trasporto, pertinente alla verifica delle interferenze e delle opere in prossimità delle linee.",
+      "focus": [
+        "Individuare il servizio di trasporto e l’autorità o il gestore competente",
+        "Coordinare distanze, sicurezza e autorizzazioni con le norme tecniche speciali",
+        "Non estendere automaticamente al testo originario una vigenza non verificata articolo per articolo"
+      ],
+      "kind": "Atto normativo",
+      "status": "Testo originario ufficiale · vigenza da ricostruire",
+      "source_kind": "Gazzetta Ufficiale",
+      "note": "GU n. 314 del 15/11/1980, supplemento ordinario. La scheda documenta l’atto originario; modifiche, abrogazioni parziali e procedure del gestore restano da verificare.",
+      "checked": "2026-09-20",
+      "relations": [
+        {
+          "id": "dmattr2014",
+          "type": "Si coordina con"
+        }
+      ],
+      "aliases": [
+        "DPR 753/1980",
+        "polizia ferroviaria",
+        "sicurezza ferroviaria"
+      ],
+      "history": [
+        {
+          "date": "2026-09-20",
+          "text": "Scheda inserita durante la ricognizione retrospettiva su fonte ufficiale; non è una nuova pubblicazione normativa."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/1980/11/15/314/so/0/sg/pdf",
+          "label": "PDF ufficiale · D.P.R. 753/1980",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale contenente l’atto."
+    },
+    {
+      "id": "codstrada285",
+      "ref": "D.Lgs. 285/1992 · art. 25",
+      "title": "Attraversamenti e uso della sede stradale",
+      "level": "Nazionale",
+      "regions": [
+        "Italia"
+      ],
+      "topics": [
+        "Attraversamenti e parallelismi",
+        "Drenaggio"
+      ],
+      "date": "1992-04-30",
+      "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0306&atto.dataPubblicazioneGazzetta=1992-05-18",
+      "summary": "L’art. 25 del Nuovo codice della strada disciplina attraversamenti e occupazioni della sede stradale, rilevanti per condotte, canali e altre interferenze idrauliche.",
+      "focus": [
+        "Articolo 25 del Codice della strada",
+        "Titolo abilitativo dell’ente proprietario della strada",
+        "Coordinamento con il regolamento di esecuzione e con le prescrizioni del gestore"
+      ],
+      "kind": "Atto normativo",
+      "status": "Testo vigente consultato su Normattiva il 20/09/2026",
+      "source_kind": "Testo coordinato · Normattiva",
+      "note": "Entrata in vigore 01/01/1993. Normattiva indica ultimo aggiornamento all’atto pubblicato il 24/04/2026; verificare sempre la versione vigente alla data del progetto.",
+      "checked": "2026-09-20",
+      "relations": [
+        {
+          "id": "dpr495",
+          "type": "Attuato da"
+        },
+        {
+          "id": "dmattr2014",
+          "type": "Si coordina con"
+        }
+      ],
+      "aliases": [
+        "Codice della strada",
+        "D.Lgs. 285/1992",
+        "articolo 25"
+      ],
+      "history": [
+        {
+          "date": "2026-09-20",
+          "text": "Scheda inserita dopo verifica del testo coordinato su Normattiva e del fascicolo ufficiale."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/1992/05/18/114/so/74/sg/pdf",
+          "label": "PDF ufficiale · D.Lgs. 285/1992",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il PDF riproduce il fascicolo originario; per il testo coordinato usare Normattiva."
+    },
+    {
+      "id": "dpr495",
+      "ref": "D.P.R. 495/1992 · artt. 65–69",
+      "title": "Regolamento del Codice della strada: attraversamenti e condotta delle acque",
+      "level": "Nazionale",
+      "regions": [
+        "Italia"
+      ],
+      "topics": [
+        "Attraversamenti e parallelismi",
+        "Drenaggio"
+      ],
+      "date": "1992-12-16",
+      "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0531&atto.dataPubblicazioneGazzetta=1992-12-28",
+      "summary": "Gli articoli 65–69 del regolamento di esecuzione del Codice della strada dettagliano attraversamenti, occupazioni e condotta delle acque nella sede stradale.",
+      "focus": [
+        "Articoli 65–69",
+        "Modalità tecniche e condizioni dell’ente proprietario",
+        "Coordinamento con concessioni, autorizzazioni idrauliche e prescrizioni del gestore"
+      ],
+      "kind": "Atto normativo",
+      "status": "Testo vigente consultato su Normattiva il 20/09/2026",
+      "source_kind": "Testo coordinato · Normattiva",
+      "note": "Entrata in vigore 01/01/1993. Normattiva indica ultimo aggiornamento all’atto pubblicato il 24/02/2025; verificare sempre la versione vigente alla data del progetto.",
+      "checked": "2026-09-20",
+      "relations": [
+        {
+          "id": "codstrada285",
+          "type": "Attua"
+        }
+      ],
+      "aliases": [
+        "Regolamento Codice della strada",
+        "DPR 495/1992",
+        "articoli 65 69"
+      ],
+      "history": [
+        {
+          "date": "2026-09-20",
+          "text": "Scheda inserita dopo verifica del testo coordinato su Normattiva e del fascicolo ufficiale."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/1992/12/28/303/so/134/sg/pdf",
+          "label": "PDF ufficiale · D.P.R. 495/1992",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il PDF riproduce il fascicolo originario; per il testo coordinato usare Normattiva."
     }
   ],
   "regions": [
@@ -3968,6 +4144,52 @@
   ],
   "runs": [
     {
+      "date": "2026-09-20",
+      "type": "Ciclo automatico · attraversamenti e manutenzione integrale collegamenti",
+      "summary": "Approfondita la disciplina degli attraversamenti ferroviari e stradali con tre schede nazionali mancanti; controllati tutti i 166 URL univoci preesistenti e corretto il rinvio non più reperibile al DPCM di approvazione del PGRA Sicilia.",
+      "checked": [
+        "Tutti i 166 URL univoci preesistenti: apertura semantica e controllo HTTP con reindirizzamenti",
+        "Normattiva: D.Lgs. 285/1992, art. 25, testo vigente al 20/09/2026",
+        "Normattiva: D.P.R. 495/1992, artt. 65–69, testo vigente al 20/09/2026",
+        "Gazzetta Ufficiale: D.P.R. 753/1980 e fascicolo grafico ufficiale",
+        "Gazzetta Ufficiale: DPCM 01/12/2022 di approvazione del primo aggiornamento PGRA Sicilia",
+        "Ricerca quotidiana su Gazzetta Ufficiale e portali distrettuali per aggiornamenti successivi"
+      ],
+      "errors": [
+        "Ventidue URL hanno restituito timeout, 403 o 502 nel controllo HTTP; gli errori sono stati considerati transitori e non hanno determinato declassamenti.",
+        "Il PDF regionale del DPCM PGRA Sicilia ha restituito HTTP 404; la scheda ufficiale puntuale della Gazzetta Ufficiale ha fornito il sostituto istituzionale.",
+        "La vigenza del D.P.R. 753/1980 non è stata estesa all’intero testo originario e resta da ricostruire articolo per articolo."
+      ],
+      "queries": [
+        "site:gazzettaufficiale.it D.P.R. 753/1980",
+        "site:normattiva.it D.Lgs. 285/1992 articolo 25 attraversamenti",
+        "site:normattiva.it D.P.R. 495/1992 articoli 65 69",
+        "site:gazzettaufficiale.it DPCM 1 dicembre 2022 PGRA Sicilia",
+        "site:gazzettaufficiale.it 19 settembre 2026 acque idraulico alluvioni bacino scarichi"
+      ],
+      "sectors": [
+        "Attraversamenti e parallelismi",
+        "Opere ferroviarie e stradali",
+        "PAI e PGRA"
+      ],
+      "territories": [
+        "Italia",
+        "Sicilia",
+        "tutte le 20 regioni tramite validazione delle schede territoriali e dei rinvii di piano"
+      ],
+      "new_records": [
+        "dpr753",
+        "codstrada285",
+        "dpr495"
+      ],
+      "updated_records": [
+        "dmattr2014",
+        "dist-sici",
+        "discovery:CAM edilizia, strade e verde"
+      ],
+      "publication": "awaiting_pages_verification"
+    },
+    {
       "date": "2026-09-19",
       "type": "Ciclo automatico · bonifica e manutenzione integrale collegamenti",
       "summary": "Controllati tutti i 169 URL univoci del catalogo. Corretti i rimandi principali di R.D. 523/1904, R.D. 1775/1933, R.D. 368/1904, D.Lgs. 49/2010, L.R. Toscana 20/2006, D.P.G.R. Toscana 46/R/2008 e PTA Veneto; risolti i documenti CAM edilizia; rimossa una fonte non istituzionale; aggiunto il R.D. 215/1933.",
@@ -4217,6 +4439,20 @@
   ],
   "news": [
     {
+      "date": "2026-09-20",
+      "status": "Collegamento corretto",
+      "title": "PGRA Sicilia: ripristinato il DPCM di approvazione",
+      "summary": "Il PDF regionale non più reperibile è stato sostituito con la scheda ufficiale puntuale del DPCM 1 dicembre 2022 in Gazzetta Ufficiale.",
+      "url": "https://www.gazzettaufficiale.it/eli/id/2023/02/08/23A00690/sg"
+    },
+    {
+      "date": "2026-09-20",
+      "status": "Verificato",
+      "title": "Attraversamenti: aggiunti i quadri ferroviario e stradale",
+      "summary": "Inseriti D.P.R. 753/1980, art. 25 del Codice della strada e artt. 65–69 del regolamento, distinguendo testo originario e versioni coordinate.",
+      "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0306&atto.dataPubblicazioneGazzetta=1992-05-18"
+    },
+    {
       "date": "2026-09-19",
       "status": "Verificato",
       "title": "Bonifica integrale: aggiunto il R.D. 215/1933",
@@ -4257,8 +4493,8 @@
     "sectors": [
       {
         "name": "Attraversamenti e parallelismi",
-        "lastReviewed": "2026-09-17",
-        "status": "DM 2014 inserito; procedure e atti successivi da approfondire"
+        "lastReviewed": "2026-09-20",
+        "status": "Aggiunti D.P.R. 753/1980, D.Lgs. 285/1992 art. 25 e D.P.R. 495/1992 artt. 65–69; restano da approfondire procedure ANSFISA, enti proprietari e gestori."
       },
       {
         "name": "TUA, scarichi e norme attuative",
@@ -4267,8 +4503,8 @@
       },
       {
         "name": "CAM edilizia, strade e verde",
-        "lastReviewed": "2026-09-18",
-        "status": "Correttivo strade reperito; allegato edilizia 2025 ancora non accessibile; coordinamento tecnico aperto"
+        "lastReviewed": "2026-09-20",
+        "status": "Allegato 1 CAM edilizia 2025 e modello di relazione collegati; coordinamento tecnico con i CAM strade e gli atti richiamati ancora aperto."
       },
       {
         "name": "PAI, PGRA e prescrizioni distrettuali",
@@ -4335,6 +4571,11 @@
         "title": "R.D. 215/1933: ricostruzione della vigenza",
         "reason": "Scheda istituzionale reperita; verificare su fonti ufficiali le disposizioni vigenti, modificate o abrogate senza estendere automaticamente la vigenza all’intero testo originario.",
         "status": "Da verificare articolo per articolo"
+      },
+      {
+        "title": "Attraversamenti ferroviari e stradali: procedure attuative dei gestori",
+        "reason": "Ricostruire su fonti ufficiali procedure, modulistica e prescrizioni aggiornate di ANSFISA, RFI e principali enti proprietari, verificando i rinvii al D.P.R. 753/1980, al D.M. 04/04/2014 e al Codice della strada.",
+        "status": "Da approfondire"
       }
     ]
   }

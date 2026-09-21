@@ -6,9 +6,9 @@
     "enabled": true,
     "cadence": "Ogni giorno, ore 07:00 · Europe/Rome",
     "configuredAt": "2026-09-17",
-    "lastCompletedRun": "2026-09-20",
-    "note": "Aggiornamento del 21/09/2026 pronto per la pubblicazione: approfonditi TUA, riuso e AUA; verificati i 173 URL preesistenti; deployment GitHub Pages da completare.",
-    "lastPublicationStatus": "publishing"
+    "lastCompletedRun": "2026-09-21",
+    "note": "Ciclo del 21/09/2026 completato: verificati tutti i 173 URL preesistenti; corretto il portale Regione Umbria; aggiunti D.M. 185/2003, D.P.R. 59/2013, regolamento (UE) 2020/741 e regolamento delegato (UE) 2024/1765; aggiornata la vigenza del TUA.",
+    "lastPublicationStatus": "published_github_pages"
   },
   "records": [
     {
@@ -4429,7 +4429,7 @@
         "discovery:TUA, scarichi e norme attuative",
         "region:Umbria"
       ],
-      "publication": "awaiting_pages"
+      "publication": "committed_and_pages_verified"
     },
     {
       "date": "2026-09-20",

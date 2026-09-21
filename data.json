@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-20",
+  "updatedAt": "2026-09-21",
   "scope": "Catalogo selettivo con controllo mirato dei CAM e della disciplina delle acque di prima pioggia per tutte le regioni. La verifica locale e autorizzativa resta necessaria.",
   "automation": {
     "enabled": true,
     "cadence": "Ogni giorno, ore 07:00 · Europe/Rome",
     "configuredAt": "2026-09-17",
     "lastCompletedRun": "2026-09-20",
-    "note": "Ciclo del 20/09/2026 completato: verificati i 166 URL preesistenti e i nuovi collegamenti; corretto il rinvio PGRA Sicilia; aggiunti D.P.R. 753/1980, D.Lgs. 285/1992 art. 25 e D.P.R. 495/1992 artt. 65–69.",
-    "lastPublicationStatus": "published_github_pages"
+    "note": "Aggiornamento del 21/09/2026 pronto per la pubblicazione: approfonditi TUA, riuso e AUA; verificati i 173 URL preesistenti; deployment GitHub Pages da completare.",
+    "lastPublicationStatus": "publishing"
   },
   "records": [
     {
@@ -234,10 +234,10 @@
         "Parte II: verificare VIA, VAS e AIA quando pertinenti al progetto; il titolo allo scarico non esaurisce gli adempimenti dell’opera."
       ],
       "kind": "Atto normativo",
-      "status": "Vigenza da ricostruire",
+      "status": "Vigente al 20/09/2026 su Normattiva",
       "source_kind": "Scheda dell’atto",
-      "note": "Consultata la scheda e l’indice Normattiva vigente al 17/09/2026; il portale indica ultimo aggiornamento pubblicato l’11/08/2026. L’esportazione del testo completo ha restituito un errore. L’indice tematico orienta la consultazione: non riproduce il testo coordinato dei singoli commi né certifica tutte le modifiche e la loro applicabilità. Controllo 18/09/2026: la scheda mostra ancora ultimo aggiornamento pubblicato 11/08/2026; esportazione integrale nuovamente non riuscita. Nessuna attestazione sull’assenza di modifiche ulteriori.",
-      "checked": "2026-09-18",
+      "note": "Consultata il 21/09/2026 la scheda Normattiva, che espone il testo vigente al 20/09/2026 e indica ultimo aggiornamento all’atto pubblicato l’11/08/2026. La consultazione conferma il quadro coordinato della Parte III; applicabilità e disciplina di dettaglio devono essere verificate sul singolo articolo, sugli allegati e sugli atti regionali e attuativi.",
+      "checked": "2026-09-21",
       "relations": [
         {
           "type": "Criteri ambientali pertinenti agli affidamenti",
@@ -250,6 +250,18 @@
         {
           "type": "Criteri ambientali pertinenti agli affidamenti",
           "id": "camed2025"
+        },
+        {
+          "type": "Attuato per il riuso da",
+          "id": "dm185"
+        },
+        {
+          "type": "Procedimento AUA disciplinato da",
+          "id": "dpr59"
+        },
+        {
+          "type": "Si coordina con",
+          "id": "ue741reuse"
         }
       ],
       "history": [
@@ -264,6 +276,10 @@
         {
           "date": "2026-09-18",
           "text": "Riletta la scheda Normattiva; testo coordinato integrale non acquisito."
+        },
+        {
+          "date": "2026-09-21",
+          "text": "Verificato su Normattiva il testo vigente al 20/09/2026; aggiunti i rinvii a D.M. 185/2003, D.P.R. 59/2013 e regolamento (UE) 2020/741."
         }
       ],
       "aliases": [
@@ -3528,6 +3544,230 @@
         }
       ],
       "document_note": "Il PDF riproduce il fascicolo originario; per il testo coordinato usare Normattiva."
+    },
+    {
+      "id": "dm185",
+      "ref": "D.M. 185/2003",
+      "title": "Norme tecniche per il riutilizzo delle acque reflue",
+      "level": "Nazionale",
+      "regions": [
+        "Italia"
+      ],
+      "topics": [
+        "Riuso",
+        "Scarichi e tutela acque",
+        "Risorse idriche"
+      ],
+      "date": "2003-06-12",
+      "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2003-07-23&atto.codiceRedazionale=003G0210",
+      "summary": "Regolamento tecnico nazionale sul riutilizzo delle acque reflue domestiche, urbane e industriali, sulle destinazioni d’uso, sui requisiti di qualità e sulle modalità di controllo.",
+      "focus": [
+        "Distinguere riuso irriguo, civile e industriale e verificare destinazioni d’uso e requisiti di qualità dell’allegato.",
+        "Coordinare la disciplina con l’art. 99 del D.Lgs. 152/2006, con le norme regionali e con i piani di tutela.",
+        "Per il riuso irriguo agricolo verificare anche il regolamento (UE) 2020/741 e il piano di gestione dei rischi.",
+        "L’abrogazione prevista dal D.L. 200/2025, convertito dalla L. 26/2026, opera soltanto dall’entrata in vigore del futuro regolamento adottato ai sensi dell’art. 99, comma 1, TUA."
+      ],
+      "kind": "Atto normativo",
+      "status": "Vigente al 21/09/2026 · abrogazione futura condizionata",
+      "source_kind": "Testo vigente Normattiva",
+      "note": "Normattiva indica ultimo aggiornamento pubblicato il 28/02/2026 e testo in vigore dal 01/03/2026. L’art. 13, comma 1-ter, del D.L. 200/2025, convertito dalla L. 26/2026, dispone l’abrogazione del D.M. 185/2003 solo dalla data di entrata in vigore del futuro regolamento ex art. 99, comma 1, D.Lgs. 152/2006. Nel controllo del 21/09/2026 non è stato reperito sulla fonte ufficiale un regolamento definitivo già entrato in vigore; le pagine MASE individuate descrivono attività preparatorie e consultazione.",
+      "checked": "2026-09-21",
+      "relations": [
+        {
+          "type": "Attua e si coordina con",
+          "id": "dl152"
+        },
+        {
+          "type": "Si coordina con",
+          "id": "ue741reuse"
+        }
+      ],
+      "aliases": [
+        "DM 185/2003",
+        "decreto riuso acque reflue",
+        "riutilizzo reflui"
+      ],
+      "history": [
+        {
+          "date": "2026-09-21",
+          "text": "Scheda inserita da fonte ufficiale. Confermata la vigenza; registrata separatamente la futura abrogazione condizionata, senza dichiarare la sostituzione già efficace."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2003/07/23/169/sg/pdf",
+          "label": "PDF ufficiale · G.U. n. 169 del 23/07/2003",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il PDF apre il fascicolo ufficiale della Gazzetta Ufficiale contenente il D.M. 185/2003."
+    },
+    {
+      "id": "dpr59",
+      "ref": "D.P.R. 59/2013",
+      "title": "Autorizzazione unica ambientale (AUA)",
+      "level": "Nazionale",
+      "regions": [
+        "Italia"
+      ],
+      "topics": [
+        "Scarichi e tutela acque",
+        "Autorizzazioni"
+      ],
+      "date": "2013-03-13",
+      "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2013-05-29&atto.codiceRedazionale=13G00101",
+      "summary": "Disciplina l’autorizzazione unica ambientale per piccole e medie imprese e impianti non soggetti ad AIA, includendo tra i titoli sostituiti l’autorizzazione agli scarichi.",
+      "focus": [
+        "Verificare se l’attività rientra nell’ambito AUA o in una delle esclusioni.",
+        "Individuare i titoli ambientali sostituiti, compresa l’autorizzazione agli scarichi ex capo II del titolo IV della Parte III TUA.",
+        "Coordinare procedimento, SUAP, autorità competente e disciplina regionale applicabile."
+      ],
+      "kind": "Atto normativo",
+      "status": "Vigente · testo coordinato consultato il 21/09/2026",
+      "source_kind": "Testo vigente Normattiva",
+      "note": "Normattiva indica entrata in vigore il 13/06/2013 e ultimo aggiornamento pubblicato il 03/04/2023; la pagina consultata espone il testo vigente. La scheda non sostituisce la verifica del procedimento regionale e del titolo specifico.",
+      "checked": "2026-09-21",
+      "relations": [
+        {
+          "type": "Procedimento per titoli previsti da",
+          "id": "dl152"
+        }
+      ],
+      "aliases": [
+        "AUA",
+        "autorizzazione unica ambientale",
+        "DPR 59/2013"
+      ],
+      "history": [
+        {
+          "date": "2026-09-21",
+          "text": "Scheda inserita nella ricognizione delle norme attuative sugli scarichi."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2013/05/29/124/so/42/sg/pdf",
+          "label": "PDF ufficiale · D.P.R. 59/2013",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Il PDF apre il supplemento ordinario della Gazzetta Ufficiale contenente l’atto originario; per le modifiche usare il testo coordinato Normattiva."
+    },
+    {
+      "id": "ue741reuse",
+      "ref": "Reg. (UE) 2020/741",
+      "title": "Prescrizioni minime per il riutilizzo dell’acqua",
+      "level": "Europeo",
+      "regions": [
+        "Unione europea",
+        "Italia"
+      ],
+      "topics": [
+        "Riuso",
+        "Scarichi e tutela acque",
+        "Risorse idriche"
+      ],
+      "date": "2020-05-25",
+      "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32020R0741",
+      "summary": "Stabilisce prescrizioni minime per qualità e monitoraggio delle acque affinate e per la gestione dei rischi quando sono riutilizzate a fini irrigui in agricoltura.",
+      "focus": [
+        "Si applica dal 26/06/2023 ed è direttamente applicabile negli Stati membri.",
+        "Verificare classe di qualità, colture, monitoraggi e punto di conformità.",
+        "Predisporre il piano di gestione dei rischi e verificare permesso, responsabilità e informazione al pubblico.",
+        "Coordinare con la disciplina nazionale e regionale del riuso e degli scarichi."
+      ],
+      "kind": "Atto normativo",
+      "status": "In vigore · applicabile dal 26/06/2023",
+      "source_kind": "EUR-Lex · testo ufficiale",
+      "note": "EUR-Lex classifica l’atto come in vigore. L’art. 16 dispone l’applicazione dal 26/06/2023. Il campo riguarda il riutilizzo a fini irrigui in agricoltura e non va esteso automaticamente ad altri usi.",
+      "checked": "2026-09-21",
+      "relations": [
+        {
+          "type": "Si coordina con",
+          "id": "dm185"
+        },
+        {
+          "type": "Si coordina con",
+          "id": "dl152"
+        },
+        {
+          "type": "Integrato da",
+          "id": "ue1765reuse"
+        }
+      ],
+      "aliases": [
+        "regolamento riuso acqua",
+        "water reuse regulation",
+        "Regolamento UE 741/2020"
+      ],
+      "history": [
+        {
+          "date": "2026-09-21",
+          "text": "Scheda inserita da EUR-Lex con distinzione fra entrata in vigore e data di applicazione."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:32020R0741",
+          "label": "PDF ufficiale · Regolamento (UE) 2020/741",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Testo ufficiale in lingua italiana pubblicato su EUR-Lex."
+    },
+    {
+      "id": "ue1765reuse",
+      "ref": "Reg. delegato (UE) 2024/1765",
+      "title": "Specifiche tecniche per la gestione dei rischi nel riutilizzo dell’acqua",
+      "level": "Europeo",
+      "regions": [
+        "Unione europea",
+        "Italia"
+      ],
+      "topics": [
+        "Riuso",
+        "Scarichi e tutela acque",
+        "Risorse idriche"
+      ],
+      "date": "2024-03-11",
+      "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32024R1765",
+      "summary": "Integra il regolamento (UE) 2020/741 con le specifiche tecniche dei principali elementi dei piani di gestione dei rischi per il riutilizzo dell’acqua.",
+      "focus": [
+        "Descrivere l’intero sistema di riutilizzo, dalla produzione all’uso finale.",
+        "Individuare pericoli, eventi pericolosi, vie di esposizione e soggetti esposti.",
+        "Definire misure preventive, barriere, monitoraggi e responsabilità.",
+        "Applicare le specifiche insieme al regolamento (UE) 2020/741."
+      ],
+      "kind": "Atto normativo",
+      "status": "In vigore · direttamente applicabile",
+      "source_kind": "EUR-Lex · testo ufficiale",
+      "note": "Pubblicato nella Gazzetta ufficiale dell’Unione europea il 20/06/2024. EUR-Lex lo classifica in vigore. Il precedente regolamento delegato (UE) 2024/1261, di contenuto corrispondente, risulta non più in vigore dal 08/05/2024 e non è catalogato come testo attivo.",
+      "checked": "2026-09-21",
+      "relations": [
+        {
+          "type": "Integra",
+          "id": "ue741reuse"
+        }
+      ],
+      "aliases": [
+        "piano gestione rischi riuso",
+        "risk management water reuse",
+        "Regolamento UE 1765/2024"
+      ],
+      "history": [
+        {
+          "date": "2026-09-21",
+          "text": "Scheda inserita come atto delegato attivo; distinto dal regolamento 2024/1261 non più in vigore."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:32024R1765",
+          "label": "PDF ufficiale · Regolamento delegato (UE) 2024/1765",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Testo ufficiale in lingua italiana pubblicato su EUR-Lex."
     }
   ],
   "regions": [
@@ -3991,7 +4231,7 @@
     },
     {
       "name": "Umbria",
-      "url": "https://www.regione.umbria.it/",
+      "url": "https://www.regione.umbria.it/home",
       "status": "Censimento parziale",
       "plan_ids": [
         "dist-sett",
@@ -4143,6 +4383,54 @@
     }
   ],
   "runs": [
+    {
+      "date": "2026-09-21",
+      "type": "Ciclo automatico · TUA, scarichi, riuso e manutenzione integrale collegamenti",
+      "summary": "Approfonditi TUA, riuso delle acque e AUA con quattro schede mancanti; verificati tutti i 173 URL univoci preesistenti e corretto il collegamento istituzionale della Regione Umbria.",
+      "checked": [
+        "Tutti i 173 URL univoci preesistenti: apertura semantica e controllo HTTP con reindirizzamenti",
+        "Normattiva: D.Lgs. 152/2006, testo vigente al 20/09/2026",
+        "Normattiva: D.M. 185/2003, vigente al 21/09/2026 e aggiornato dalla clausola di abrogazione futura condizionata",
+        "Normattiva e Gazzetta Ufficiale: D.P.R. 59/2013 e fascicolo PDF",
+        "EUR-Lex: regolamento (UE) 2020/741 e regolamento delegato (UE) 2024/1765, testi e PDF ufficiali",
+        "Portale MASE: pagine preparatorie sul futuro regolamento ex art. 99 TUA, non trattate come atto definitivo"
+      ],
+      "errors": [
+        "Nel controllo HTTP 25 URL hanno superato il limite di tempo, 6 hanno restituito 502 e uno 403; gli esiti sono stati considerati transitori e non hanno determinato declassamenti.",
+        "La radice del portale Regione Umbria ha restituito una pagina tecnica 404 con rinvio client-side; sostituita con la pagina istituzionale /home verificata HTTP 200.",
+        "Non è stato dedotto che il futuro regolamento ex art. 99 TUA sia in vigore dalle sole pagine MASE di consultazione."
+      ],
+      "queries": [
+        "site:normattiva.it D.M. 185/2003 riutilizzo acque reflue vigente",
+        "site:gazzettaufficiale.it D.M. 185/2003 PDF",
+        "site:normattiva.it D.P.R. 59/2013 autorizzazione unica ambientale scarichi",
+        "site:eur-lex.europa.eu regolamento 2020/741 riutilizzo acqua",
+        "site:eur-lex.europa.eu regolamento delegato 2024/1765 gestione rischi riuso",
+        "site:mase.gov.it regolamento articolo 99 riutilizzo acque reflue 2026"
+      ],
+      "sectors": [
+        "TUA, scarichi e norme attuative",
+        "Riuso delle acque",
+        "Autorizzazione unica ambientale"
+      ],
+      "territories": [
+        "Unione europea",
+        "Italia",
+        "tutte le 20 regioni tramite validazione delle schede territoriali e dei rinvii PAI/PGRA"
+      ],
+      "new_records": [
+        "dm185",
+        "dpr59",
+        "ue741reuse",
+        "ue1765reuse"
+      ],
+      "updated_records": [
+        "dl152",
+        "discovery:TUA, scarichi e norme attuative",
+        "region:Umbria"
+      ],
+      "publication": "awaiting_pages"
+    },
     {
       "date": "2026-09-20",
       "type": "Ciclo automatico · attraversamenti e manutenzione integrale collegamenti",
@@ -4439,6 +4727,20 @@
   ],
   "news": [
     {
+      "date": "2026-09-21",
+      "status": "Nuove schede",
+      "title": "Riuso e scarichi: integrati il quadro UE e l’AUA",
+      "summary": "Aggiunti il regolamento (UE) 2020/741, il regolamento delegato (UE) 2024/1765 e il D.P.R. 59/2013; aggiornato il rinvio al TUA.",
+      "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32020R0741"
+    },
+    {
+      "date": "2026-09-21",
+      "status": "Aggiornamento normativo",
+      "title": "Riuso delle acque: il D.M. 185/2003 resta vigente",
+      "summary": "Normattiva conferma la vigenza al 21/09/2026. L’abrogazione introdotta nel 2026 decorrerà soltanto dall’entrata in vigore del futuro regolamento ex art. 99 TUA, non ancora reperito come atto definitivo pubblicato.",
+      "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2003-07-23&atto.codiceRedazionale=003G0210"
+    },
+    {
       "date": "2026-09-20",
       "status": "Collegamento corretto",
       "title": "PGRA Sicilia: ripristinato il DPCM di approvazione",
@@ -4498,8 +4800,8 @@
       },
       {
         "name": "TUA, scarichi e norme attuative",
-        "lastReviewed": "2026-09-17",
-        "status": "Indice Parte III ampliato; testi coordinati e decreti attuativi da approfondire"
+        "lastReviewed": "2026-09-21",
+        "status": "Aggiunti D.M. 185/2003, D.P.R. 59/2013, regolamento (UE) 2020/741 e regolamento delegato (UE) 2024/1765; confermata la vigenza del D.M. 185 fino all’entrata in vigore del futuro regolamento ex art. 99 TUA."
       },
       {
         "name": "CAM edilizia, strade e verde",
@@ -4539,8 +4841,8 @@
       },
       {
         "title": "Attuazione TUA: riuso, AUA, invasi e disciplina regionale degli scarichi",
-        "reason": "Ricostruire rinvii normativi e integrare gli atti assenti anche anteriori al 2006",
-        "status": "Da ricercare"
+        "reason": "Integrati riuso e AUA: D.M. 185/2003, D.P.R. 59/2013, regolamento (UE) 2020/741 e regolamento delegato (UE) 2024/1765. Restano da approfondire invasi e discipline regionali degli scarichi.",
+        "status": "Parzialmente risolto il 21/09/2026"
       },
       {
         "title": "Priorità pubblicazione: validare tutti i documenti e i rinvii PAI regionali",
@@ -4576,6 +4878,15 @@
         "title": "Attraversamenti ferroviari e stradali: procedure attuative dei gestori",
         "reason": "Ricostruire su fonti ufficiali procedure, modulistica e prescrizioni aggiornate di ANSFISA, RFI e principali enti proprietari, verificando i rinvii al D.P.R. 753/1980, al D.M. 04/04/2014 e al Codice della strada.",
         "status": "Da approfondire"
+      },
+      {
+        "title": "Regolamento ex art. 99 TUA sul riuso: monitorare l’adozione definitiva",
+        "reason": "Il D.L. 200/2025, convertito dalla L. 26/2026, lega l’abrogazione del D.M. 185/2003 all’entrata in vigore del futuro regolamento. Nel controllo del 21/09/2026 sono state reperite pagine MASE di schema e consultazione, non la pubblicazione di un regolamento definitivo in vigore.",
+        "status": "Da monitorare · non dichiarare sostituito il D.M. 185/2003",
+        "candidate_urls": [
+          "https://www.mase.gov.it/portale/acque-mase-in-consultazione-pubblica-il-dpr-sul-riutilizzo-dei-reflui-urbani-depurati-e-affinati",
+          "https://www.mase.gov.it/portale/il-riutilizzo-acque-reflue-affinate"
+        ]
       }
     ]
   }

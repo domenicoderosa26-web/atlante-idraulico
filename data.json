@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-21",
+  "updatedAt": "2026-09-23",
   "scope": "Catalogo selettivo con controllo mirato dei CAM e della disciplina delle acque di prima pioggia per tutte le regioni. La verifica locale e autorizzativa resta necessaria.",
   "automation": {
     "enabled": true,
     "cadence": "Ogni giorno, ore 07:00 · Europe/Rome",
     "configuredAt": "2026-09-17",
     "lastCompletedRun": "2026-09-21",
-    "note": "Ciclo del 21/09/2026 completato: verificati tutti i 173 URL preesistenti; corretto il portale Regione Umbria; aggiunti D.M. 185/2003, D.P.R. 59/2013, regolamento (UE) 2020/741 e regolamento delegato (UE) 2024/1765; aggiornata la vigenza del TUA.",
-    "lastPublicationStatus": "published_github_pages"
+    "note": "Ciclo del 23/09/2026 in pubblicazione: verificati tutti i 174 URL preesistenti del catalogo; approfonditi PGRA e PAI dell’Appennino Meridionale, con chiarimento ufficiale sul regime transitorio Calabria/Lao.",
+    "lastPublicationStatus": "pending_github_pages"
   },
   "records": [
     {
@@ -2067,13 +2067,17 @@
           "url": "https://www.distrettoappenninomeridionale.it/images/_PGRA/II%20ciclo%202019/PIANO%20VIGENTE/DPCM%201%C2%B0%20DICEMBRE%202022%20-%20approvazione%20I%20aggiornamento%20PGRA%20-%20II%20ciclo.pdf",
           "label": "PDF ufficiale · DPCM di approvazione PGRA",
           "format": "pdf",
-          "group": "PGRA"
+          "group": "PGRA",
+          "link_status": "checked",
+          "link_checked": "2026-09-23"
         },
         {
           "url": "https://www.distrettoappenninomeridionale.it/images/_PGRA/II%20ciclo%202019/PIANO%20VIGENTE/AGGIORNAMENTO%20MAPPE%20II%20CICLO/RELAZIONE%20METODOLOGICA.pdf",
           "label": "PDF ufficiale · relazione metodologica PGRA",
           "format": "pdf",
-          "group": "PGRA"
+          "group": "PGRA",
+          "link_status": "checked",
+          "link_checked": "2026-09-23"
         }
       ],
       "summary": "Accesso alla pianificazione del distretto Appennino Meridionale: norme, cartografie e aggiornamenti da individuare per il bacino interessato.",
@@ -2086,7 +2090,7 @@
       "status": "Raccolta da approfondire",
       "source_kind": "Portale di pianificazione",
       "note": "Scheda di accesso al distretto, non una singola norma. Le regioni sono un filtro orientativo: i confini di bacino non coincidono con quelli amministrativi. Piani e varianti non ancora censiti integralmente.",
-      "checked": "2026-09-18",
+      "checked": "2026-09-23",
       "relations": [
         {
           "type": "PAI territoriale Calabria",
@@ -2637,7 +2641,7 @@
       "status": "Testo storico verificato · vigenza da coordinare",
       "source_kind": "Documento ufficiale dell’Autorità di bacino",
       "note": "Letti frontespizio, indice e disposizioni generali del PDF. La pagina Calabria/Lao lo pubblica tra le misure di salvaguardia. Non dedotta abrogazione o sostituzione integrale dalla presenza del nuovo progetto.",
-      "checked": "2026-09-18",
+      "checked": "2026-09-23",
       "relations": [
         {
           "type": "Da coordinare con il procedimento",
@@ -2665,7 +2669,7 @@
           "label": "Apri le NAMS del PAI Calabria (PDF)",
           "group": "PAI",
           "link_status": "checked",
-          "link_checked": "2026-09-18"
+          "link_checked": "2026-09-23"
         }
       ]
     },
@@ -2688,14 +2692,16 @@
       "document_note": "Edizione ottobre 2024: verificare gli atti successivi nella pagina del procedimento prima di assumerla come disciplina efficace.",
       "summary": "Pagina specifica del procedimento Calabria/Lao, con norme, cartografie e deliberazioni; non una pagina generica del distretto.",
       "focus": [
-        "Consultati indice e preambolo delle norme: artt. 12–15 per pericolosità, art. 18 per compatibilità, artt. 30–32 per pareri.",
-        "La pagina elenca le delibere del 19/02/2025 e del 31/07/2025: non attribuire efficacia o approvazione definitiva senza leggere gli atti e i relativi avvisi."
+        "Delibera CIP n. 1/2025: proroga delle osservazioni e disciplina transitoria sino all’adozione del Piano.",
+        "Nelle aree già perimetrate dal PAI vigente continuano ad applicarsi le NAMS aggiornate al 02/08/2011.",
+        "Norme del progetto: artt. 12–15 per pericolosità, art. 18 per compatibilità, artt. 30–32 per pareri.",
+        "Verificare bacino, cartografia e successivi atti prima di assumere il progetto come disciplina definitiva."
       ],
       "kind": "Piano",
-      "status": "Progetto · iter ed efficacia da verificare",
+      "status": "Progetto adottato · osservazioni prorogate e misure transitorie da coordinare",
       "source_kind": "Pagina e documento ufficiale del procedimento",
-      "note": "La delibera 6/2025 è distribuita in ZIP, non acquisito dal lettore. Non dichiarata la sostituzione del PAI Calabria. Estensione territoriale da verificare sulle mappe; il filtro Calabria non sostituisce il controllo del bacino.",
-      "checked": "2026-09-18",
+      "note": "La Delibera CIP n. 1 del 19/02/2025 proroga il termine delle osservazioni e applica, sino all’adozione del Piano, la disposizione transitoria nelle aree a pericolosità idraulica esterne alle perimetrazioni del PAI vigente; nelle aree già perimetrate continuano ad applicarsi le NAMS del PAI Calabria aggiornate al 02/08/2011. La Delibera n. 6 del 31/07/2025 resta distribuita in ZIP e non è stata letta integralmente: non è dichiarata l’approvazione definitiva né la sostituzione integrale del PAI.",
+      "checked": "2026-09-23",
       "relations": [
         {
           "type": "Quadro precedente da coordinare",
@@ -2717,6 +2723,10 @@
       ],
       "history": [
         {
+          "date": "2026-09-23",
+          "text": "Letta la Delibera CIP n. 1 del 19/02/2025 e aggiunto il PDF ufficiale; precisati proroga, regime transitorio e permanenza delle NAMS del PAI vigente nelle aree già perimetrate."
+        },
+        {
           "date": "2026-09-18",
           "text": "Aggiunta scheda del procedimento con PDF ufficiale verificato; iter non ricostruito integralmente."
         }
@@ -2727,7 +2737,15 @@
           "label": "Apri le norme del progetto Calabria/Lao (PDF)",
           "group": "PAI",
           "link_status": "checked",
-          "link_checked": "2026-09-18"
+          "link_checked": "2026-09-23"
+        },
+        {
+          "url": "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2025/03/Delibera_n_1_Conferenza_Istituzionale_19_febbraio_2025_signed_signed.pdf",
+          "label": "PDF ufficiale · Delibera CIP n. 1 del 19/02/2025",
+          "format": "pdf",
+          "group": "PAI",
+          "link_status": "checked",
+          "link_checked": "2026-09-23"
         }
       ]
     },
@@ -2756,7 +2774,7 @@
       "source_kind": "Autorità di bacino distrettuale",
       "note": "Piano dei bacini dell’ex AdB Basilicata, con porzioni di Puglia e Calabria. NTA aggiornamento 2024; verificare le successive varianti.",
       "document_note": "Piano dei bacini dell’ex AdB Basilicata, con porzioni di Puglia e Calabria. NTA aggiornamento 2024; verificare le successive varianti.",
-      "checked": "2026-09-18",
+      "checked": "2026-09-23",
       "relations": [
         {
           "id": "dist-merid",
@@ -2775,7 +2793,7 @@
           "label": "PAI Basilicata · NTA aggiornamento 2024",
           "group": "PAI",
           "link_status": "checked",
-          "link_checked": "2026-09-18"
+          "link_checked": "2026-09-23"
         }
       ]
     },
@@ -2804,7 +2822,7 @@
       "source_kind": "Autorità di bacino distrettuale",
       "note": "Documenti del PSAI-RI del bacino Liri–Garigliano. Non estendere automaticamente al Volturno; consultare le varianti.",
       "document_note": "Documenti del PSAI-RI del bacino Liri–Garigliano. Non estendere automaticamente al Volturno; consultare le varianti.",
-      "checked": "2026-09-18",
+      "checked": "2026-09-23",
       "relations": [
         {
           "id": "dist-merid",
@@ -2823,7 +2841,7 @@
           "label": "Liri–Garigliano · norme PSAI-RI",
           "group": "PAI",
           "link_status": "checked",
-          "link_checked": "2026-09-18"
+          "link_checked": "2026-09-23"
         }
       ]
     },
@@ -2852,7 +2870,7 @@
       "source_kind": "Autorità di bacino distrettuale",
       "note": "Elaborati dell’ex AdB Puglia e del bacino interregionale Ofanto. Applicabilità secondo il bacino; archivio delle perimetrazioni e aggiornamenti.",
       "document_note": "Il collegamento apre direttamente il PDF del documento.",
-      "checked": "2026-09-18",
+      "checked": "2026-09-23",
       "relations": [
         {
           "id": "dist-merid",
@@ -2870,7 +2888,9 @@
           "url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/UoM%20Puglia/3_NTA_CI_30-11-05.pdf",
           "label": "PDF ufficiale · norme tecniche PAI Puglia",
           "format": "pdf",
-          "group": "PAI"
+          "group": "PAI",
+          "link_status": "checked",
+          "link_checked": "2026-09-23"
         }
       ]
     },
@@ -2897,7 +2917,7 @@
       "source_kind": "Autorità di bacino distrettuale",
       "note": "Bacini regionali nord-occidentali e Sarno. Per gli altri bacini campani consultare i rispettivi piani nell’indice distrettuale.",
       "document_note": "Il PDF è estratto senza modifiche dall’archivio ZIP ufficiale “NORME PAI” pubblicato dall’Autorità di bacino distrettuale.",
-      "checked": "2026-09-18",
+      "checked": "2026-09-23",
       "relations": [
         {
           "id": "dist-merid",
@@ -2942,7 +2962,7 @@
       "source_kind": "Autorità di bacino distrettuale",
       "note": "Documentazione specifica del bacino Biferno e minori. Verificare norme, cartografie e successive varianti.",
       "document_note": "Documentazione specifica del bacino Biferno e minori. Verificare norme, cartografie e successive varianti.",
-      "checked": "2026-09-18",
+      "checked": "2026-09-23",
       "relations": [
         {
           "id": "dist-merid",
@@ -2961,7 +2981,7 @@
           "label": "PAI Biferno e minori · norme di attuazione",
           "group": "PAI",
           "link_status": "checked",
-          "link_checked": "2026-09-18"
+          "link_checked": "2026-09-23"
         }
       ]
     },
@@ -2989,7 +3009,7 @@
       "source_kind": "Autorità di bacino distrettuale",
       "note": "Documentazione specifica del bacino Trigno. Verificare norme, cartografie e successive varianti.",
       "document_note": "Documentazione specifica del bacino Trigno. Verificare norme, cartografie e successive varianti.",
-      "checked": "2026-09-18",
+      "checked": "2026-09-23",
       "relations": [
         {
           "id": "dist-merid",
@@ -3008,7 +3028,7 @@
           "label": "PAI Trigno · norme di attuazione",
           "group": "PAI",
           "link_status": "checked",
-          "link_checked": "2026-09-18"
+          "link_checked": "2026-09-23"
         }
       ]
     },
@@ -3037,7 +3057,7 @@
       "source_kind": "Autorità di bacino distrettuale",
       "note": "Documentazione specifica del bacino Fortore. Verificare norme, cartografie e successive varianti.",
       "document_note": "Il collegamento apre direttamente il PDF del documento.",
-      "checked": "2026-09-18",
+      "checked": "2026-09-23",
       "relations": [
         {
           "id": "dist-merid",
@@ -3055,7 +3075,9 @@
           "url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/molise/FORTORE/A-01_Normativa_di_attuazione.pdf",
           "label": "PDF ufficiale · norme di attuazione PAI Fortore",
           "format": "pdf",
-          "group": "PAI"
+          "group": "PAI",
+          "link_status": "checked",
+          "link_checked": "2026-09-23"
         }
       ]
     },
@@ -4384,6 +4406,59 @@
   ],
   "runs": [
     {
+      "date": "2026-09-23",
+      "type": "Ciclo automatico · PAI/PGRA Appennino Meridionale e manutenzione integrale collegamenti",
+      "summary": "Controllati tutti i 174 URL preesistenti del catalogo e approfonditi i piani dell’Appennino Meridionale. Aggiunto il PDF ufficiale della Delibera CIP n. 1/2025 Calabria/Lao e chiarito il regime transitorio senza dichiarare approvazione definitiva.",
+      "checked": [
+        "Tutti i 174 URL univoci preesistenti: apertura automatizzata, controllo HTTPS, destinazione e tipo di contenuto; 47 aperture non conclusive sono state trattate come errori transitori",
+        "Autorità di Bacino Distrettuale dell’Appennino Meridionale: portale PGRA, II ciclo, DPCM di approvazione e relazione metodologica",
+        "Calabria/Lao: pagina del procedimento, NAMS PAI 2001 aggiornate al 2011, norme del progetto 2024 e Delibera CIP n. 1 del 19/02/2025",
+        "PAI specifici: Basilicata, Liri–Garigliano, Puglia/Ofanto, Campania Centrale, Biferno e minori, Trigno e Fortore",
+        "Validazione strutturale: JSON, ID univoci, relazioni, URL HTTPS, 20 schede territoriali, plan_ids e rimandi PAI/PGRA"
+      ],
+      "errors": [
+        "Quarantasette URL hanno prodotto apertura non conclusiva o errore interno del lettore; nessuna scheda è stata declassata sulla base del singolo esito transitorio.",
+        "Il PDF PAI Campania Centrale ospitato sul sito ha prodotto un errore interno del lettore durante il controllo odierno; la scheda è stata conservata e non dichiarata rotta.",
+        "La Delibera CIP n. 6 del 31/07/2025 Calabria/Lao è pubblicata in un archivio ZIP non leggibile dal controllo automatico; iter ed efficacia restano da verificare integralmente."
+      ],
+      "queries": [
+        "site:distrettoappenninomeridionale.it settembre 2026 PAI PGRA delibera Comitato Istituzionale Permanente",
+        "site:distrettoappenninomeridionale.it 2026 Calabria Lao PAI delibera 6/2025",
+        "site:distrettoappenninomeridionale.it 2026 PAI Basilicata Puglia Ofanto Campania Liri Garigliano Biferno Trigno Fortore",
+        "site:gazzettaufficiale.it 22 settembre 2026 acque rischio alluvioni bacino scarichi",
+        "site:distrettoappenninomeridionale.it Delibera n. 6 31 luglio 2025 Calabria Lao"
+      ],
+      "sectors": [
+        "PAI, PGRA e prescrizioni distrettuali",
+        "Compatibilità idraulica",
+        "Misure di salvaguardia"
+      ],
+      "territories": [
+        "Italia",
+        "Calabria e Lao",
+        "Basilicata",
+        "Puglia e Ofanto",
+        "Campania",
+        "Liri–Garigliano",
+        "Molise: Biferno, Trigno e Fortore",
+        "tutte le 20 regioni tramite validazione delle schede territoriali"
+      ],
+      "new_records": [],
+      "updated_records": [
+        "dist-merid",
+        "pai-calabria2001",
+        "pai-calabria-lao",
+        "pai-basilicata",
+        "pai-lgv",
+        "pai-puglia",
+        "pai-campania",
+        "pai-biferno-e-minori",
+        "pai-trigno",
+        "pai-fortore"
+      ],
+      "publication": "pending_github_pages"
+    },
+    {
       "date": "2026-09-21",
       "type": "Ciclo automatico · TUA, scarichi, riuso e manutenzione integrale collegamenti",
       "summary": "Approfonditi TUA, riuso delle acque e AUA con quattro schede mancanti; verificati tutti i 173 URL univoci preesistenti e corretto il collegamento istituzionale della Regione Umbria.",
@@ -4727,6 +4802,13 @@
   ],
   "news": [
     {
+      "date": "2026-09-23",
+      "status": "Verifica ufficiale",
+      "title": "Calabria/Lao · chiarito il regime transitorio",
+      "summary": "La Delibera CIP n. 1 del 19/02/2025 proroga le osservazioni e disciplina transitoriamente le aree esterne alle perimetrazioni del PAI vigente; nelle aree già perimetrate restano applicabili le NAMS aggiornate al 02/08/2011. Non risulta provata l’approvazione definitiva del nuovo Piano.",
+      "url": "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2025/03/Delibera_n_1_Conferenza_Istituzionale_19_febbraio_2025_signed_signed.pdf"
+    },
+    {
       "date": "2026-09-21",
       "status": "Nuove schede",
       "title": "Riuso e scarichi: integrati il quadro UE e l’AUA",
@@ -4810,8 +4892,8 @@
       },
       {
         "name": "PAI, PGRA e prescrizioni distrettuali",
-        "lastReviewed": "2026-09-18",
-        "status": "Approfondimento parziale Calabria/Lao e Po; altri territori non verificati integralmente"
+        "lastReviewed": "2026-09-23",
+        "status": "Verificati PGRA II ciclo Appennino Meridionale e documenti specifici Calabria/Lao, Basilicata, Puglia/Ofanto, Liri–Garigliano, Campania Centrale, Biferno, Trigno e Fortore. Letta la Delibera CIP n. 1/2025 Calabria/Lao; Delibera n. 6/2025 ancora da acquisire integralmente dal pacchetto ZIP."
       },
       {
         "name": "Regi decreti, demanio e bonifica",
@@ -4851,8 +4933,12 @@
       },
       {
         "title": "Calabria/Lao: delibere 1/2025 e 6/2025 e coordinamento con PAI storico",
-        "reason": "Norme e pagina ufficiale reperite; ZIP delibera 6/2025 non letto. Verificare approvazione, pubblicazione, salvaguardie ed efficacia.",
-        "status": "Da verificare"
+        "reason": "Letta integralmente la Delibera CIP n. 1 del 19/02/2025: proroga osservazioni e disciplina transitoria; aggiunto il PDF ufficiale alla scheda. La Delibera CIP n. 6 del 31/07/2025 è disponibile sul portale ufficiale soltanto in ZIP e non è stata acquisita integralmente; non dichiarare approvazione definitiva o sostituzione del PAI.",
+        "status": "Parzialmente risolto il 23/09/2026",
+        "candidate_urls": [
+          "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2025/03/Delibera_n_1_Conferenza_Istituzionale_19_febbraio_2025_signed_signed.pdf",
+          "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2025/07/Atti-Conferenza-Istituzionale-Permanente/delibera%20n.%206%20e%20allegati.zip"
+        ]
       },
       {
         "title": "Rinvii CAM: D.M. 28/06/2024 n.127 e PAN GPP 03/08/2023",

@@ -6,9 +6,9 @@
     "enabled": true,
     "cadence": "Ogni giorno, ore 07:00 · Europe/Rome",
     "configuredAt": "2026-09-17",
-    "lastCompletedRun": "2026-09-21",
-    "note": "Ciclo del 23/09/2026 in pubblicazione: verificati tutti i 174 URL preesistenti del catalogo; approfonditi PGRA e PAI dell’Appennino Meridionale, con chiarimento ufficiale sul regime transitorio Calabria/Lao.",
-    "lastPublicationStatus": "pending_github_pages"
+    "lastCompletedRun": "2026-09-23",
+    "note": "Ciclo del 23/09/2026 completato: controllati tutti i 174 URL preesistenti; verificati PGRA e PAI dell’Appennino Meridionale; aggiunto il PDF della Delibera CIP n. 1/2025 e chiarito il regime transitorio Calabria/Lao.",
+    "lastPublicationStatus": "published_github_pages"
   },
   "records": [
     {
@@ -4414,7 +4414,8 @@
         "Autorità di Bacino Distrettuale dell’Appennino Meridionale: portale PGRA, II ciclo, DPCM di approvazione e relazione metodologica",
         "Calabria/Lao: pagina del procedimento, NAMS PAI 2001 aggiornate al 2011, norme del progetto 2024 e Delibera CIP n. 1 del 19/02/2025",
         "PAI specifici: Basilicata, Liri–Garigliano, Puglia/Ofanto, Campania Centrale, Biferno e minori, Trigno e Fortore",
-        "Validazione strutturale: JSON, ID univoci, relazioni, URL HTTPS, 20 schede territoriali, plan_ids e rimandi PAI/PGRA"
+        "Validazione strutturale: JSON, ID univoci, relazioni, URL HTTPS, 20 schede territoriali, plan_ids e rimandi PAI/PGRA",
+        "Prima pubblicazione GitHub Pages verificata nel browser live: edizione 23/09/2026 caricata correttamente senza errori applicativi del sito"
       ],
       "errors": [
         "Quarantasette URL hanno prodotto apertura non conclusiva o errore interno del lettore; nessuna scheda è stata declassata sulla base del singolo esito transitorio.",
@@ -4456,7 +4457,7 @@
         "pai-trigno",
         "pai-fortore"
       ],
-      "publication": "pending_github_pages"
+      "publication": "committed_and_pages_verified"
     },
     {
       "date": "2026-09-21",

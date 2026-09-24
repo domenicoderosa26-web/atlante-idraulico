@@ -6,9 +6,9 @@
     "enabled": true,
     "cadence": "Ogni giorno, ore 07:00 · Europe/Rome",
     "configuredAt": "2026-09-17",
-    "lastCompletedRun": "2026-09-23",
-    "note": "Ciclo del 24/09/2026 verificato e commit in preparazione: 175 URL preesistenti controllati; aggiunto il D.P.P. Bolzano 6/2008 e corretta la fonte della L.P. 8/2002. Completamento subordinato alla pubblicazione GitHub Pages.",
-    "lastPublicationStatus": "pending_github_pages"
+    "lastCompletedRun": "2026-09-24",
+    "note": "Ciclo del 24/09/2026 completato e pubblicato: controllati tutti i 175 URL preesistenti; aggiunto il D.P.P. Bolzano 6/2008 sulle acque meteoriche e sostituita la copia FAO della L.P. 8/2002 con il PDF del Bollettino ufficiale ospitato da SEAB. GitHub Pages e risorse principali verificati con HTTP 200.",
+    "lastPublicationStatus": "published_github_pages"
   },
   "records": [
     {
@@ -4468,7 +4468,8 @@
         "Provincia autonoma di Bolzano: pagine ufficiali Acque meteoriche e Regolamento di fognatura",
         "L.P. Bolzano 8/2002: PDF bilingue del Bollettino ufficiale del 2 luglio 2002 ospitato dal gestore pubblico SEAB",
         "Ricerca autonoma su invarianza idraulica, prima pioggia, scarichi e gestori nelle regioni ancora in coda",
-        "Validazione strutturale: JSON, ID univoci, relazioni, URL HTTPS, 20 schede territoriali, plan_ids e rimandi PAI/PGRA"
+        "Validazione strutturale: JSON, ID univoci, relazioni, URL HTTPS, 20 schede territoriali, plan_ids e rimandi PAI/PGRA",
+        "GitHub Pages: workflow 35958442558 concluso con successo per il commit d659770; pagina pubblica, data.json, app.js e .nojekyll verificati con HTTP 200"
       ],
       "errors": [
         "Quarantadue aperture hanno prodotto esito non conclusivo o errore transitorio (inclusi timeout, 403, 502 e formati non supportati); nessun collegamento è stato dichiarato definitivamente rotto sulla sola base di tali esiti.",
@@ -4500,7 +4501,7 @@
       "updated_records": [
         "bzpta"
       ],
-      "publication": "pending_github_pages"
+      "publication": "committed_and_pages_verified"
     },
     {
       "date": "2026-09-23",

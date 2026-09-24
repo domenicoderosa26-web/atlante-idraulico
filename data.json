@@ -1317,16 +1317,16 @@
       "history": [
         {
           "date": "2026-09-24",
+          "text": "Rimosso il collegamento HTML: la scheda non espone documenti finché non viene reperito un PDF ufficiale diretto."
+        },
+        {
+          "date": "2026-09-24",
           "text": "Scheda aggiunta dopo verifica delle pagine provinciali Acque meteoriche e Regolamento di fognatura."
         }
       ],
-      "documents": [
-        {
-          "url": "https://ambiente.provincia.bz.it/it/acqua/regolamento-di-fognatura",
-          "label": "Regolamento di fognatura · attuazione comunale dell'art. 2",
-          "format": "html"
-        }
-      ]
+      "documents": [],
+      "source_status": "unconfirmed",
+      "document_note": "Scheda mantenuta per la rilevanza normativa; il collegamento sarà riattivato soltanto dopo il reperimento del PDF ufficiale diretto."
     },
     {
       "id": "bz23",

@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-23",
+  "updatedAt": "2026-09-24",
   "scope": "Catalogo selettivo con controllo mirato dei CAM e della disciplina delle acque di prima pioggia per tutte le regioni. La verifica locale e autorizzativa resta necessaria.",
   "automation": {
     "enabled": true,
     "cadence": "Ogni giorno, ore 07:00 · Europe/Rome",
     "configuredAt": "2026-09-17",
     "lastCompletedRun": "2026-09-23",
-    "note": "Ciclo del 23/09/2026 completato: controllati tutti i 174 URL preesistenti; verificati PGRA e PAI dell’Appennino Meridionale; aggiunto il PDF della Delibera CIP n. 1/2025 e chiarito il regime transitorio Calabria/Lao.",
-    "lastPublicationStatus": "published_github_pages"
+    "note": "Ciclo del 24/09/2026 verificato e commit in preparazione: 175 URL preesistenti controllati; aggiunto il D.P.P. Bolzano 6/2008 e corretta la fonte della L.P. 8/2002. Completamento subordinato alla pubblicazione GitHub Pages.",
+    "lastPublicationStatus": "pending_github_pages"
   },
   "records": [
     {
@@ -1282,6 +1282,53 @@
       "document_note": "Il collegamento apre direttamente il PDF del documento."
     },
     {
+      "id": "bz6",
+      "ref": "D.P.P. Bolzano 6/2008",
+      "title": "Regolamento di esecuzione in materia di tutela delle acque",
+      "level": "Provinciale",
+      "regions": [
+        "Trentino-Alto Adige"
+      ],
+      "topics": [
+        "Prima pioggia",
+        "Scarichi e tutela acque",
+        "Drenaggio"
+      ],
+      "date": "2008-01-21",
+      "url": "https://ambiente.provincia.bz.it/it/acqua/acque-meteoriche",
+      "summary": "Regolamento attuativo della L.P. 8/2002: il capo IV disciplina classificazione, raccolta, trattamento, infiltrazione e smaltimento sostenibile delle acque meteoriche, comprese le acque di prima pioggia.",
+      "focus": [
+        "Classificazione delle acque meteoriche in non inquinate, moderatamente inquinate, inquinate e sistematicamente inquinate",
+        "Trattamento in funzione di superficie, uso dell'area e traffico; soglie operative indicate dalla pagina provinciale",
+        "Preferenza per riutilizzo, ritenzione e infiltrazione compatibile con la tutela delle acque",
+        "Regolamenti comunali di fognatura e depurazione previsti dall'art. 2"
+      ],
+      "kind": "Atto normativo",
+      "status": "Disciplina applicabile confermata dal portale provinciale · testo coordinato da verificare",
+      "source_kind": "Pagina tematica ufficiale · Provincia autonoma di Bolzano",
+      "note": "La Provincia richiama espressamente il capo IV del D.P.P. 6/2008 e pubblica criteri e soglie per acque meteoriche e prima pioggia. Il testo coordinato deve essere verificato rispetto alle modifiche successive; la scheda non dichiara invariato l'intero testo originario.",
+      "checked": "2026-09-24",
+      "relations": [
+        {
+          "id": "bzpta",
+          "type": "Attua"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-24",
+          "text": "Scheda aggiunta dopo verifica delle pagine provinciali Acque meteoriche e Regolamento di fognatura."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://ambiente.provincia.bz.it/it/acqua/regolamento-di-fognatura",
+          "label": "Regolamento di fognatura · attuazione comunale dell'art. 2",
+          "format": "html"
+        }
+      ]
+    },
+    {
       "id": "bz23",
       "ref": "D.P.P. 23/2019",
       "title": "Interventi nelle zone di pericolo",
@@ -1376,10 +1423,10 @@
         "Scarichi e tutela acque",
         "Derivazioni e risorsa idrica"
       ],
-      "date": "",
-      "url": "https://umwelt.provinz.bz.it/de/wasser",
+      "date": "2002-06-18",
+      "url": "https://ambiente.provincia.bz.it/it/acqua",
       "document_label": "Consulta la sezione provinciale Acque",
-      "document_note": "Il collegamento apre direttamente il PDF della legge provinciale; il Piano di tutela resta articolato negli elaborati del portale provinciale.",
+      "document_note": "Il documento collegato è la pubblicazione bilingue nel Bollettino ufficiale del 2 luglio 2002, ospitata dal gestore pubblico SEAB; per l'applicazione occorre coordinare le modifiche successive.",
       "summary": "Disciplina provinciale per utilizzazione, tutela e gestione delle acque, richiamata dal quadro di pianificazione idrica provinciale.",
       "focus": [
         "Norme di attuazione",
@@ -1387,12 +1434,16 @@
         "Coordinamento con la legislazione provinciale"
       ],
       "kind": "Atto normativo",
-      "status": "Vigenza da ricostruire",
-      "source_kind": "Portale istituzionale",
-      "note": "Portale provinciale individuato. La versione di piano applicabile e i riferimenti di approvazione sono da acquisire.",
-      "checked": "2026-09-18",
+      "status": "Testo originario ufficiale disponibile · vigenza da coordinare",
+      "source_kind": "Portale provinciale e PDF del Bollettino ufficiale",
+      "note": "Verificati la sezione Acque della Provincia e il PDF bilingue della L.P. 8/2002 pubblicato nel Bollettino ufficiale. Il testo originario disciplina utilizzazione, tutela, scarichi, acque meteoriche e opere idrauliche; modifiche e disposizioni attuative restano da coordinare.",
+      "checked": "2026-09-24",
       "relations": [],
       "history": [
+        {
+          "date": "2026-09-24",
+          "text": "Sostituita la copia FAO con il PDF bilingue del Bollettino ufficiale ospitato dal gestore pubblico SEAB; corretti data, fonte e ambito della scheda."
+        },
         {
           "date": "2026-09-17",
           "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
@@ -1400,8 +1451,8 @@
       ],
       "documents": [
         {
-          "url": "https://faolex.fao.org/docs/pdf/ita33320.pdf",
-          "label": "PDF · L.P. Bolzano 8/2002",
+          "url": "https://www.seab.bz.it/sites/default/files/2024-04/landesgesetz_vom_18._juni_2002_nr._8_bestimmungen_ueber_die_gewaesser_1.pdf",
+          "label": "PDF del Bollettino ufficiale · L.P. Bolzano 8/2002",
           "format": "pdf"
         }
       ]
@@ -4235,20 +4286,23 @@
       "plan_note": "I piani si applicano per bacino: la regione può ricadere in più distretti. Controllare la cartografia del punto di intervento.",
       "invariance": {
         "status": "not_confirmed",
-        "label": "Atto regionale organico non reperito nel controllo mirato",
-        "record_ids": [],
-        "note": "Non è stato reperito un atto regionale unitario dedicato; la verifica va svolta separatamente per le Province autonome di Trento e Bolzano e per il comune interessato.",
-        "checked": "2026-09-18"
+        "label": "Nessun atto unitario regionale; disciplina provinciale distinta",
+        "record_ids": [
+          "bz6"
+        ],
+        "note": "Per Bolzano sono verificati obblighi di gestione sostenibile delle acque meteoriche nel D.P.P. 6/2008; non è stato confermato un unico atto regionale organico di invarianza valido anche per Trento.",
+        "checked": "2026-09-24"
       },
       "first_rain": {
-        "status": "plan_based",
-        "label": "Verifica distinta per le due Province autonome",
+        "status": "specific",
+        "label": "Disciplina specifica verificata per Bolzano; Trento da verificare separatamente",
         "record_ids": [
+          "bz6",
           "tnpta",
           "bzpta"
         ],
-        "note": "Non esiste un’unica disciplina regionale applicabile: occorre verificare separatamente PTA e norme sugli scarichi di Trento o Bolzano, oltre al gestore.",
-        "checked": "2026-09-18"
+        "note": "Il capo IV del D.P.P. Bolzano 6/2008 disciplina classificazione e trattamento delle acque meteoriche e di prima pioggia. Per Trento e per i regolamenti comunali/gestori resta necessaria una verifica separata.",
+        "checked": "2026-09-24"
       }
     },
     {
@@ -4405,6 +4459,49 @@
     }
   ],
   "runs": [
+    {
+      "date": "2026-09-24",
+      "type": "Ciclo automatico · discipline provinciali/locali e manutenzione integrale collegamenti",
+      "summary": "Controllati tutti i 175 URL univoci preesistenti e approfondita la disciplina provinciale di Bolzano. Aggiunto il D.P.P. 6/2008 sulle acque meteoriche e corretta la fonte documentale della L.P. 8/2002.",
+      "checked": [
+        "Tutti i 175 URL univoci preesistenti: verifica HTTPS, apertura, destinazione e tipo di contenuto",
+        "Provincia autonoma di Bolzano: pagine ufficiali Acque meteoriche e Regolamento di fognatura",
+        "L.P. Bolzano 8/2002: PDF bilingue del Bollettino ufficiale del 2 luglio 2002 ospitato dal gestore pubblico SEAB",
+        "Ricerca autonoma su invarianza idraulica, prima pioggia, scarichi e gestori nelle regioni ancora in coda",
+        "Validazione strutturale: JSON, ID univoci, relazioni, URL HTTPS, 20 schede territoriali, plan_ids e rimandi PAI/PGRA"
+      ],
+      "errors": [
+        "Quarantadue aperture hanno prodotto esito non conclusivo o errore transitorio (inclusi timeout, 403, 502 e formati non supportati); nessun collegamento è stato dichiarato definitivamente rotto sulla sola base di tali esiti.",
+        "Sei URL non sono stati restituiti singolarmente dal lettore dopo l'invio in audit; sono conservati e restano nella coda di ricontrollo.",
+        "Non è stato reperito un permalink ufficiale provinciale al testo coordinato del D.P.P. 6/2008; la pagina tematica ufficiale conferma l'applicazione del capo IV, ma le modifiche successive devono essere coordinate."
+      ],
+      "queries": [
+        "site:provincia.bz.it acque meteoriche D.P.P. 6/2008 prima pioggia",
+        "site:ambiente.provincia.bz.it regolamento fognatura D.P.P. 6/2008",
+        "site:lexbrowser.provinz.bz.it 21 gennaio 2008 n. 6 tutela acque",
+        "site:regione.emilia-romagna.it invarianza idraulica regolamento",
+        "site:regione.campania.it invarianza idraulica acque meteoriche",
+        "site:regione.basilicata.it L.R. 9/2017 PDF ufficiale"
+      ],
+      "sectors": [
+        "Regioni, province, comuni e gestori",
+        "Prima pioggia e drenaggio",
+        "Scarichi e tutela delle acque"
+      ],
+      "territories": [
+        "Italia",
+        "tutte le 20 regioni tramite controllo integrale dei collegamenti",
+        "Provincia autonoma di Bolzano",
+        "Provincia autonoma di Trento (ricerca non conclusiva)"
+      ],
+      "new_records": [
+        "bz6"
+      ],
+      "updated_records": [
+        "bzpta"
+      ],
+      "publication": "pending_github_pages"
+    },
     {
       "date": "2026-09-23",
       "type": "Ciclo automatico · PAI/PGRA Appennino Meridionale e manutenzione integrale collegamenti",
@@ -4803,6 +4900,13 @@
   ],
   "news": [
     {
+      "date": "2026-09-24",
+      "status": "Nuova scheda e collegamento corretto",
+      "title": "Bolzano: verificata la disciplina delle acque meteoriche",
+      "summary": "Aggiunto il D.P.P. 6/2008, richiamato dalla Provincia per classificazione, trattamento, ritenzione e infiltrazione delle acque meteoriche e di prima pioggia. La scheda della L.P. 8/2002 usa ora il PDF del Bollettino ufficiale ospitato da SEAB al posto della copia FAO.",
+      "url": "https://ambiente.provincia.bz.it/it/acqua/acque-meteoriche"
+    },
+    {
       "date": "2026-09-23",
       "status": "Verifica ufficiale",
       "title": "Calabria/Lao · chiarito il regime transitorio",
@@ -4903,8 +5007,8 @@
       },
       {
         "name": "Regioni, province, comuni e gestori",
-        "lastReviewed": "2026-09-18",
-        "status": "Ricognizione mirata sull’invarianza completata per tutte le regioni: 7 quadri specifici verificati; 13 regioni senza atto organico reperito, da approfondire nelle fonti di bacino e locali."
+        "lastReviewed": "2026-09-24",
+        "status": "Approfondita la Provincia autonoma di Bolzano: aggiunto il D.P.P. 6/2008 su acque meteoriche e prima pioggia; sostituita la copia FAO della L.P. 8/2002 con il PDF del Bollettino ufficiale ospitato da SEAB. Restano aperti Trento e gli altri livelli locali."
       }
     ],
     "queue": [
@@ -4948,8 +5052,12 @@
       },
       {
         "title": "Invarianza idraulica: approfondire le 13 regioni senza atto organico reperito",
-        "reason": "La ricerca mirata del 18/09/2026 non ha confermato un atto regionale organico per Abruzzo, Basilicata, Calabria, Campania, Emilia-Romagna, Liguria, Molise, Piemonte, Puglia, Toscana, Trentino-Alto Adige, Umbria e Valle d’Aosta. Verificare sistematicamente NTA PAI/PGRA, leggi urbanistiche, province autonome, consorzi, gestori e regolamenti comunali.",
-        "status": "Da approfondire per bacino e livello locale"
+        "reason": "L'approfondimento del 24/09/2026 ha risolto la lacuna sulla disciplina delle acque meteoriche e di prima pioggia della Provincia di Bolzano (D.P.P. 6/2008), senza confermare un atto unitario regionale di invarianza. Restano da verificare Trento e, per Abruzzo, Basilicata, Calabria, Campania, Emilia-Romagna, Liguria, Molise, Piemonte, Puglia, Toscana, Umbria e Valle d'Aosta, NTA di bacino e regolamenti locali.",
+        "status": "Parzialmente risolto per Bolzano il 24/09/2026 · approfondimento locale aperto",
+        "candidate_urls": [
+          "https://ambiente.provincia.bz.it/it/acqua/acque-meteoriche",
+          "https://ambiente.provincia.bz.it/it/acqua/regolamento-di-fognatura"
+        ]
       },
       {
         "title": "L.R. Basilicata 9/2017: PDF ufficiale puntuale",

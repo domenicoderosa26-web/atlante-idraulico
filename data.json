@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-24",
+  "updatedAt": "2026-09-25",
   "scope": "Catalogo selettivo con controllo mirato dei CAM e della disciplina delle acque di prima pioggia per tutte le regioni. La verifica locale e autorizzativa resta necessaria.",
   "automation": {
     "enabled": true,
     "cadence": "Ogni giorno, ore 07:00 · Europe/Rome",
     "configuredAt": "2026-09-17",
-    "lastCompletedRun": "2026-09-24",
-    "note": "Ciclo del 24/09/2026 completato e pubblicato: controllati tutti i 175 URL preesistenti; aggiunto il D.P.P. Bolzano 6/2008 sulle acque meteoriche e sostituita la copia FAO della L.P. 8/2002 con il PDF del Bollettino ufficiale ospitato da SEAB. GitHub Pages e risorse principali verificati con HTTP 200.",
+    "lastCompletedRun": "2026-09-25",
+    "note": "Ciclo del 25/09/2026 completato e pubblicato: controllati tutti i 187 URL univoci presenti nell’archivio e approfondite le discipline della Provincia autonoma di Trento, le acque meteoriche e gli aggiornamenti nazionali. Nessuna novità normativa o correzione sostanziale confermata; gli esiti tecnicamente non conclusivi sono rimasti in coda senza declassamenti.",
     "lastPublicationStatus": "published_github_pages"
   },
   "records": [
@@ -4460,6 +4460,52 @@
   ],
   "runs": [
     {
+      "date": "2026-09-25",
+      "type": "Ciclo automatico · discipline provinciali/locali e manutenzione integrale collegamenti",
+      "summary": "Controllati tutti i 187 URL univoci presenti nel catalogo e approfondite le discipline della Provincia autonoma di Trento. Controllo giornaliero completato senza novità normative o correzioni sostanziali confermate.",
+      "checked": [
+        "Tutti i 187 URL univoci presenti in data.json: verifica HTTPS, apertura, destinazione e tipo di contenuto",
+        "Provincia autonoma di Trento: PTA 2022–2027 e Allegato O – Norme di attuazione",
+        "Ricerca autonoma su acque meteoriche, prima pioggia, invarianza idraulica e regolamenti di fognatura in Trentino",
+        "Gazzetta Ufficiale e Normattiva: ricerca di aggiornamenti nazionali; ricontrollati D.P.R. 495/1992 e D.M. 185/2003",
+        "R.D. 215/1933: riscontro sulla pagina ufficiale della Provincia autonoma di Trento, senza estendere automaticamente la vigenza a ogni articolo",
+        "Validazione strutturale: JSON, ID univoci, relazioni, URL HTTPS, 20 schede territoriali e rimandi PAI/PGRA"
+      ],
+      "errors": [
+        "Cinquantaquattro aperture hanno prodotto un errore interno o esito tecnicamente non conclusivo; nessun collegamento è stato dichiarato rotto sulla sola base di tali esiti.",
+        "Tre URL non restituiti nel primo invio sono stati ricontrollati separatamente: le pagine Normattiva del D.P.R. 495/1992 e del D.M. 185/2003 risultano leggibili; il PDF GU del D.P.R. 495/1992 ha restituito un errore transitorio.",
+        "La ricerca su Trento non ha confermato un atto organico provinciale autonomo di invarianza idraulica; la lacuna resta aperta e non è stata interpretata come assenza normativa definitiva."
+      ],
+      "queries": [
+        "site:provincia.tn.it OR site:appa.provincia.tn.it acque meteoriche prima pioggia regolamento fognatura invarianza idraulica",
+        "site:provincia.tn.it OR site:appa.provincia.tn.it 2026 tutela acque scarichi aggiornamento normativa",
+        "site:gazzettaufficiale.it settembre 2026 acque alluvioni idraulica decreto",
+        "site:normattiva.it Regio decreto 13 febbraio 1933 n. 215 vigente",
+        "site:appa.provincia.tn.it acque meteoriche",
+        "site:provincia.tn.it acque di prima pioggia",
+        "site:comune.trento.it regolamento fognatura acque meteoriche pdf",
+        "site:comune.trento.it invarianza idraulica"
+      ],
+      "sectors": [
+        "Regioni, province, comuni e gestori",
+        "Prima pioggia e drenaggio",
+        "Invarianza idraulica",
+        "Regi decreti, demanio e bonifica"
+      ],
+      "territories": [
+        "Italia",
+        "tutte le 20 regioni tramite controllo integrale dei collegamenti",
+        "Provincia autonoma di Trento",
+        "Provincia autonoma di Bolzano"
+      ],
+      "new_records": [],
+      "updated_records": [
+        "discovery:Regioni, province, comuni e gestori",
+        "discovery:Invarianza idraulica"
+      ],
+      "publication": "committed_and_pages_verified"
+    },
+    {
       "date": "2026-09-24",
       "type": "Ciclo automatico · discipline provinciali/locali e manutenzione integrale collegamenti",
       "summary": "Controllati tutti i 175 URL univoci preesistenti e approfondita la disciplina provinciale di Bolzano. Aggiunto il D.P.P. 6/2008 sulle acque meteoriche e corretta la fonte documentale della L.P. 8/2002.",
@@ -5008,8 +5054,8 @@
       },
       {
         "name": "Regioni, province, comuni e gestori",
-        "lastReviewed": "2026-09-24",
-        "status": "Approfondita la Provincia autonoma di Bolzano: aggiunto il D.P.P. 6/2008 su acque meteoriche e prima pioggia; sostituita la copia FAO della L.P. 8/2002 con il PDF del Bollettino ufficiale ospitato da SEAB. Restano aperti Trento e gli altri livelli locali."
+        "lastReviewed": "2026-09-25",
+        "status": "Approfondita la Provincia autonoma di Trento dopo Bolzano: verificati PTA 2022–2027, Norme di attuazione, portali provinciali e ricerca su acque meteoriche, prima pioggia e invarianza. Non è stato confermato un nuovo atto organico provinciale da aggiungere; prosegue l’approfondimento locale."
       }
     ],
     "queue": [
@@ -5053,8 +5099,8 @@
       },
       {
         "title": "Invarianza idraulica: approfondire le 13 regioni senza atto organico reperito",
-        "reason": "L'approfondimento del 24/09/2026 ha risolto la lacuna sulla disciplina delle acque meteoriche e di prima pioggia della Provincia di Bolzano (D.P.P. 6/2008), senza confermare un atto unitario regionale di invarianza. Restano da verificare Trento e, per Abruzzo, Basilicata, Calabria, Campania, Emilia-Romagna, Liguria, Molise, Piemonte, Puglia, Toscana, Umbria e Valle d'Aosta, NTA di bacino e regolamenti locali.",
-        "status": "Parzialmente risolto per Bolzano il 24/09/2026 · approfondimento locale aperto",
+        "reason": "L'approfondimento del 24/09/2026 ha risolto la lacuna sulla disciplina delle acque meteoriche e di prima pioggia della Provincia di Bolzano (D.P.P. 6/2008). Il controllo del 25/09/2026 su Trento ha verificato PTA 2022–2027, Norme di attuazione e portali provinciali, senza confermare un nuovo atto organico di invarianza. Restano da verificare, anche tramite NTA di bacino e regolamenti locali, Abruzzo, Basilicata, Calabria, Campania, Emilia-Romagna, Liguria, Molise, Piemonte, Puglia, Toscana, Umbria e Valle d'Aosta.",
+        "status": "Parzialmente risolto per Bolzano · Trento ricontrollato il 25/09/2026 senza nuovo atto organico confermato · approfondimento locale aperto",
         "candidate_urls": [
           "https://ambiente.provincia.bz.it/it/acqua/acque-meteoriche",
           "https://ambiente.provincia.bz.it/it/acqua/regolamento-di-fognatura"

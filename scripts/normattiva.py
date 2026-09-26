@@ -79,6 +79,26 @@ class Client:
             raise APIError('Numero di atti discordante')
         return acts
 
+    def classification(self, row):
+        parts = row['date'].split('-')
+        base = {'denominazioneAtto': row['act_type'], 'annoProvvedimento': parts[0],
+                'meseProvvedimento': str(int(parts[1])), 'giornoProvvedimento': str(int(parts[2])),
+                'numeroProvvedimento': str(row['number']),
+                'paginazione': {'paginaCorrente': 1, 'numeroElementiPerPagina': 20}}
+        found = []
+        for category, status in (('3', 'ABROGATA'), ('2', 'MODIFICATA'), ('1', 'VIGENTE')):
+            result = self.post('/ricerca/avanzata', dict(base, classeProvvedimento=category))
+            acts = result.get('listaAtti')
+            if not isinstance(acts, list) or int(result.get('numeroPagine', 0)) > 1:
+                raise APIError('Classificazione incompleta per ' + row['urn'])
+            exact = [a for a in acts if matches(row, a) and
+                     (not row.get('editorial_code') or a.get('codiceRedazionale') == row['editorial_code'])]
+            if exact:
+                found.append(status)
+        if len(found) != 1:
+            raise APIError('Classificazione ambigua per ' + row['urn'] + ': ' + repr(found))
+        return found[0]
+
     def detail(self, urn, editorial_code=None):
         result = self.post('/atto/dettaglio-atto-urn', {'urn': urn})
         data = result.get('data')
@@ -164,9 +184,10 @@ def monitor(registry, state, client, now):
                 row['last_checked'] = stamp(now)
                 row['title_full'] = (detail.get('titolo') or row['title_full']) + (' — ' + detail['sottoTitolo'].strip() if detail.get('sottoTitolo') else '')
                 row['editorial_code'] = item.get('codiceRedazionale') or row.get('editorial_code')
-                # The update feed reports modifications, not whole-act repeal status.
-                row['status'] = 'MODIFICATA' if before != 'ABROGATA' else 'DA VERIFICARE'
-                row['status_note'] = 'Aggiornamento rilevato; vigenza delle singole disposizioni da verificare.'
+                # Official class 3 means repealed, 2 updated, 1 without updates.
+                # Partial repeal cannot be established from this act-level classification.
+                row['status'] = client.classification(row)
+                row['status_note'] = 'Classe ufficiale Normattiva; applicabilità dei singoli articoli da verificare.'
                 row['amending_act'] = item.get('ultimiAttiModificanti') or row.get('amending_act')
                 events.append({'checked_at': stamp(now), 'id': row['id'], 'urn': row['urn'],
                     'change': 'Modifica rilevata nell’elenco ufficiale', 'previous_status': before,

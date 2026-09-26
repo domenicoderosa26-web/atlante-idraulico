@@ -38,11 +38,19 @@ class Tests(unittest.TestCase):
         def transport(path, payload):
             if path.endswith('aggiornati'):
                 return {'listaAtti':[item], 'numeroPagine':1,'numeroAttiTrovati':1}
+            if path.endswith('avanzata'):
+                match = payload['classeProvvedimento'] == '2'
+                return {'listaAtti':[dict(item, codiceRedazionale='004U0523')] if match else [], 'numeroPagine':1}
             return {'data':{'atto':dict(item,titolo='REGIO DECRETO 25 luglio 1904, n. 523')}}
         out, state, events = monitor({'acts':[ROW.copy()]}, STATE, Client(transport), NOW)
         self.assertEqual(out['acts'][0]['status'],'MODIFICATA')
         self.assertEqual(events[0]['amending_code'],'26A00001')
         self.assertTrue(events[0]['manual_review'])
+
+    def test_repeal_classification(self):
+        def transport(path, payload):
+            return {'listaAtti':[dict(annoProvvedimento='1904', meseProvvedimento='7', giornoProvvedimento='25', numeroProvvedimento='523', denominazioneAtto='REGIO DECRETO')] if payload['classeProvvedimento']=='3' else [], 'numeroPagine':1}
+        self.assertEqual(Client(transport).classification(ROW), 'ABROGATA')
 
     def test_error_and_incomplete_preserve_inputs(self):
         reg = {'acts':[ROW.copy()]}; state = STATE.copy()

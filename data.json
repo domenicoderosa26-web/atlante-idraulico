@@ -186,7 +186,7 @@
       ],
       "kind": "Atto normativo",
       "status": "Vigenza da ricostruire",
-      "source_kind": "Scheda istituzionale · Provincia autonoma di Trento",
+      "source_kind": "PDF istituzionale · Provincia autonoma di Bolzano",
       "note": "La fonte istituzionale identifica l’atto e rinvia a Normattiva. La vigenza delle singole disposizioni, comprese abrogazioni e modifiche intervenute, non è dichiarata come integralmente verificata. Il PDF ufficiale puntuale non è ancora disponibile nella scheda.",
       "checked": "2026-09-19",
       "relations": [
@@ -201,7 +201,15 @@
           "text": "Scheda aggiunta nella ricognizione retrospettiva sul settore bonifica; mantenuta aperta la verifica di vigenza articolo per articolo."
         }
       ],
-      "source_status": "missing"
+      "source_status": "missing",
+      "documents": [
+        {
+          "url": "https://www.provinz.bz.it/agricoltura/download/RD_215-1933.pdf",
+          "label": "PDF istituzionale · R.D. 215/1933",
+          "format": "pdf"
+        }
+      ],
+      "document_note": "Riproduzione in PDF del R.D. 215/1933 pubblicata dalla Provincia autonoma di Bolzano; per il testo vigente consulta Normattiva."
     },
     {
       "id": "dl152",

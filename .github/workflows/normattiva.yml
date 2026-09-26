@@ -1,0 +1,79 @@
+name: Controllo Normattiva nazionale
+on:
+  schedule:
+    # Copre le 07:00 italiane con ora solare e legale.
+    - cron: '0 5 * * *'
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: normattiva-nazionale
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Ora locale
+        id: time
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          scheduled_hour=$(echo "$SCHEDULE" | cut -d' ' -f2 | cut -d',' -f1)
+          if [ "$EVENT_NAME" = 'workflow_dispatch' ]; then
+            echo 'run=true' >> "$GITHUB_OUTPUT"
+          elif [ "$(TZ=Europe/Rome date -d "$(date -u +%F) ${scheduled_hour}:00 UTC" +%H)" = '07' ]; then
+            echo 'run=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'run=false' >> "$GITHUB_OUTPUT"
+          fi
+      - name: Test e controllo nazionale
+        if: steps.time.outputs.run == 'true'
+        run: |
+          python -m unittest discover -s tests -v
+          mkdir -p monitor-state
+          git fetch origin normattiva-state || true
+          if git show origin/normattiva-state:checkpoint.json > monitor-state/checkpoint.json 2>/dev/null; then :; else rm -f monitor-state/checkpoint.json; fi
+          if git show origin/normattiva-state:events.json > monitor-state/events.json 2>/dev/null; then :; else rm -f monitor-state/events.json; fi
+          set +e
+          python scripts/normattiva.py
+          result=$?
+          echo "$result" > /tmp/normattiva-result
+          exit 0
+      - name: Salva checkpoint e log tecnico su ramo separato
+        if: steps.time.outputs.run == 'true'
+        run: |
+          cp monitor-state/checkpoint.json /tmp/normattiva-checkpoint.json 2>/dev/null || true
+          cp monitor-state/events.json /tmp/normattiva-events.json
+          if ! git diff --quiet -- national.json; then cp national.json /tmp/normattiva-national.json; fi
+          git restore -- national.json
+          if git show-ref --verify --quiet refs/remotes/origin/normattiva-state; then
+            git switch -C normattiva-state origin/normattiva-state
+          else
+            git switch --orphan normattiva-state
+            git rm -rf . >/dev/null
+          fi
+          cp /tmp/normattiva-events.json events.json
+          if [ -f /tmp/normattiva-checkpoint.json ]; then cp /tmp/normattiva-checkpoint.json checkpoint.json; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add events.json
+          if [ -f checkpoint.json ]; then git add checkpoint.json; fi
+          if ! git diff --cached --quiet; then git commit -m 'Registra controllo Normattiva'; git push origin HEAD:normattiva-state; fi
+      - name: Pubblica soltanto modifiche normative validate
+        if: steps.time.outputs.run == 'true'
+        run: |
+          git switch main
+          if [ -f /tmp/normattiva-national.json ]; then cp /tmp/normattiva-national.json national.json; fi
+          if ! git diff --quiet -- national.json; then
+            python -c "import json;from scripts.normattiva import validate;validate(json.load(open('national.json')),json.load(open('data.json'))['records'])"
+            git add national.json
+            git commit -m 'Aggiorna atti nazionali da Normattiva'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+          test "$(cat /tmp/normattiva-result)" = 0

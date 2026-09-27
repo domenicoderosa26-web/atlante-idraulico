@@ -1,79 +1,189 @@
 name: Controllo Normattiva nazionale
 on:
   schedule:
-    # Copre le 07:00 italiane con ora solare e legale.
-    - cron: '0 5 * * *'
-    - cron: '0 6 * * *'
+    - cron: '17 7,8,9 * * *'
+      timezone: Europe/Rome
   workflow_dispatch:
 permissions:
   contents: write
 concurrency:
-  group: normattiva-nazionale
+  group: atlante-publication
   cancel-in-progress: false
 jobs:
   check:
     runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.prepare.outputs.changed }}
+      skipped: ${{ steps.prepare.outputs.skipped }}
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Ora locale
-        id: time
+      - name: Test
+        run: python -m unittest discover -s tests -v
+      - name: Recupera stato tecnico e verifica idempotenza
+        id: prepare
         env:
           EVENT_NAME: ${{ github.event_name }}
-          SCHEDULE: ${{ github.event.schedule }}
         run: |
-          scheduled_hour=$(echo "$SCHEDULE" | cut -d' ' -f2 | cut -d',' -f1)
-          if [ "$EVENT_NAME" = 'workflow_dispatch' ]; then
-            echo 'run=true' >> "$GITHUB_OUTPUT"
-          elif [ "$(TZ=Europe/Rome date -d "$(date -u +%F) ${scheduled_hour}:00 UTC" +%H)" = '07' ]; then
-            echo 'run=true' >> "$GITHUB_OUTPUT"
-          else
-            echo 'run=false' >> "$GITHUB_OUTPUT"
-          fi
-      - name: Test e controllo nazionale
-        if: steps.time.outputs.run == 'true'
-        run: |
-          python -m unittest discover -s tests -v
+          set -euo pipefail
           mkdir -p monitor-state
-          git fetch origin normattiva-state || true
-          if git show origin/normattiva-state:checkpoint.json > monitor-state/checkpoint.json 2>/dev/null; then :; else rm -f monitor-state/checkpoint.json; fi
-          if git show origin/normattiva-state:events.json > monitor-state/events.json 2>/dev/null; then :; else rm -f monitor-state/events.json; fi
-          set +e
-          python scripts/normattiva.py
-          result=$?
-          echo "$result" > /tmp/normattiva-result
-          exit 0
-      - name: Salva checkpoint e log tecnico su ramo separato
-        if: steps.time.outputs.run == 'true'
-        run: |
-          cp monitor-state/checkpoint.json /tmp/normattiva-checkpoint.json 2>/dev/null || true
-          cp monitor-state/events.json /tmp/normattiva-events.json
-          if ! git diff --quiet -- national.json; then cp national.json /tmp/normattiva-national.json; fi
-          git restore -- national.json
-          if git show-ref --verify --quiet refs/remotes/origin/normattiva-state; then
-            git switch -C normattiva-state origin/normattiva-state
+          if git ls-remote --exit-code origin refs/heads/normattiva-state >/dev/null; then
+            git fetch origin refs/heads/normattiva-state:refs/remotes/origin/normattiva-state
+            for file in checkpoint.json events.json; do
+              if git cat-file -e "origin/normattiva-state:$file" 2>/dev/null; then
+                git show "origin/normattiva-state:$file" > "monitor-state/$file"
+              fi
+            done
           else
-            git switch --orphan normattiva-state
-            git rm -rf . >/dev/null
+            code=$?
+            if [ "$code" -ne 2 ]; then exit "$code"; fi
           fi
-          cp /tmp/normattiva-events.json events.json
-          if [ -f /tmp/normattiva-checkpoint.json ]; then cp /tmp/normattiva-checkpoint.json checkpoint.json; fi
+          python scripts/workflow_state.py validate-state monitor-state/checkpoint.json
+          if [ "$EVENT_NAME" = 'schedule' ] && python scripts/workflow_state.py already-complete monitor-state/checkpoint.json; then
+            echo 'skipped=true' >> "$GITHUB_OUTPUT"
+            echo 'Controllo nazionale già completato oggi; fallback non necessario.'
+          else
+            echo 'skipped=false' >> "$GITHUB_OUTPUT"
+          fi
+      - name: Interroga Normattiva e valida i dati
+        if: steps.prepare.outputs.skipped == 'false'
+        run: |
+          set -euo pipefail
+          python scripts/normattiva.py
+          python scripts/workflow_state.py validate national.json data.json update-status.json monitor-state/checkpoint.json
+          python -m unittest discover -s tests -v
+      - name: Pubblica stato e modifiche validate su main
+        if: steps.prepare.outputs.skipped == 'false'
+        id: publish
+        run: |
+          set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add events.json
-          if [ -f checkpoint.json ]; then git add checkpoint.json; fi
-          if ! git diff --cached --quiet; then git commit -m 'Registra controllo Normattiva'; git push origin HEAD:normattiva-state; fi
-      - name: Pubblica soltanto modifiche normative validate
-        if: steps.time.outputs.run == 'true'
+          cp national.json /tmp/atlante-national.json
+          cp update-status.json /tmp/atlante-status.json
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            cp /tmp/atlante-national.json national.json
+            cp /tmp/atlante-status.json update-status.json
+            python scripts/workflow_state.py validate national.json data.json update-status.json monitor-state/checkpoint.json
+            git add national.json update-status.json
+            if git diff --cached --quiet; then
+              echo 'changed=false' >> "$GITHUB_OUTPUT"
+              break
+            fi
+            git commit -m 'Registra controllo nazionale Normattiva'
+            if git push origin HEAD:main; then
+              echo 'changed=true' >> "$GITHUB_OUTPUT"
+              break
+            fi
+            if [ "$attempt" -eq 3 ]; then exit 1; fi
+            sleep $((attempt * 3))
+          done
+      - name: Conserva stato per il deploy
+        if: steps.prepare.outputs.skipped == 'false'
+        uses: actions/upload-artifact@v4
+        with:
+          name: normattiva-state-result
+          path: |
+            monitor-state/checkpoint.json
+            monitor-state/events.json
+            update-status.json
+      - name: Prepara sito per GitHub Pages
+        if: steps.prepare.outputs.skipped == 'false'
         run: |
-          git switch main
-          if [ -f /tmp/normattiva-national.json ]; then cp /tmp/normattiva-national.json national.json; fi
-          if ! git diff --quiet -- national.json; then
-            python -c "import json;from scripts.normattiva import validate;validate(json.load(open('national.json')),json.load(open('data.json'))['records'])"
-            git add national.json
-            git commit -m 'Aggiorna atti nazionali da Normattiva'
-            git pull --rebase origin main
-            git push origin HEAD:main
+          mkdir -p /tmp/atlante-pages
+          cp index.html app.js style.css source-links.css data.json national.json update-status.json .nojekyll google4a14c93539ccefbf.html /tmp/atlante-pages/
+          cp -R docs /tmp/atlante-pages/
+          for optional in robots.txt sitemap.xml; do
+            if [ -f "$optional" ]; then cp "$optional" /tmp/atlante-pages/; fi
+          done
+      - name: Carica sito verificato
+        if: steps.prepare.outputs.skipped == 'false'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: /tmp/atlante-pages
+  deploy:
+    if: needs.check.outputs.skipped == 'false'
+    needs: check
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: normattiva-state-result
+      - name: Pubblica su GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Verifica stato pubblico
+        env:
+          SITE_URL: https://domenicoderosa26-web.github.io/atlante-idraulico/update-status.json
+        run: |
+          python - <<'PY'
+          import json, os, time, urllib.request
+          for attempt in range(12):
+              try:
+                  with urllib.request.urlopen(os.environ['SITE_URL'] + '?v=' + str(time.time()), timeout=15) as response:
+                      status = json.load(response)
+                  expected = json.load(open('update-status.json'))['last_completed_at']
+                  if status.get('outcome') == 'completato' and status.get('last_completed_at') == expected:
+                      print('Stato pubblico:', status)
+                      break
+              except (OSError, ValueError) as exc:
+                  print('Pages in aggiornamento:', exc)
+              if attempt == 11:
+                  raise SystemExit('Stato pubblico non verificabile')
+              time.sleep(10)
+          PY
+  finalize:
+    needs: deploy
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/download-artifact@v4
+        with:
+          name: normattiva-state-result
+      - name: Archivia checkpoint e log dopo il deploy
+        if: steps.prepare.outputs.skipped == 'false'
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          if git ls-remote --exit-code origin refs/heads/normattiva-state >/dev/null; then
+            git fetch origin refs/heads/normattiva-state:refs/remotes/origin/normattiva-state
+          else
+            code=$?
+            if [ "$code" -ne 2 ]; then exit "$code"; fi
           fi
-          test "$(cat /tmp/normattiva-result)" = 0
+          mkdir -p /tmp/atlante-state
+          cp monitor-state/checkpoint.json monitor-state/events.json /tmp/atlante-state/
+          if git show-ref --verify --quiet refs/remotes/origin/normattiva-state; then
+            git worktree add --detach /tmp/atlante-state-tree origin/normattiva-state
+            git -C /tmp/atlante-state-tree switch -C normattiva-state
+          else
+            git worktree add --detach /tmp/atlante-state-tree HEAD
+            git -C /tmp/atlante-state-tree switch --orphan normattiva-state
+            git -C /tmp/atlante-state-tree ls-files -z | xargs -0 -r git -C /tmp/atlante-state-tree rm -rf --
+          fi
+          cp /tmp/atlante-state/checkpoint.json /tmp/atlante-state/events.json /tmp/atlante-state-tree/
+          git -C /tmp/atlante-state-tree config user.name 'github-actions[bot]'
+          git -C /tmp/atlante-state-tree config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git -C /tmp/atlante-state-tree add checkpoint.json events.json
+          if ! git -C /tmp/atlante-state-tree diff --cached --quiet; then
+            git -C /tmp/atlante-state-tree commit -m 'Registra checkpoint Normattiva'
+            for attempt in 1 2 3; do
+              if git -C /tmp/atlante-state-tree push origin HEAD:normattiva-state; then break; fi
+              if [ "$attempt" -eq 3 ]; then exit 1; fi
+              sleep $((attempt * 3))
+            done
+          fi

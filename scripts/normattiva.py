@@ -11,6 +11,7 @@ import sys
 import time
 import urllib.error
 import urllib.request
+from zoneinfo import ZoneInfo
 
 BASE = 'https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1'
 VALID = {'VIGENTE', 'MODIFICATA', 'ABROGATA', 'PARZIALMENTE ABROGATA', 'DA VERIFICARE'}
@@ -206,12 +207,20 @@ def write_atomic(path, obj):
     os.replace(tmp, dest)
 
 
+def public_status(now, changes):
+    return {'last_completed_at': now.astimezone(ZoneInfo('Europe/Rome')).isoformat(timespec='seconds'),
+            'timezone': 'Europe/Rome', 'outcome': 'completato',
+            'sources': ['Normattiva Open Data: normativa nazionale'],
+            'changes_detected': changes, 'changes_published': changes, 'warnings': []}
+
+
 def main():
     p = argparse.ArgumentParser()
     p.add_argument('--registry', default='national.json')
     p.add_argument('--data', default='data.json')
     p.add_argument('--state', default='monitor-state/checkpoint.json')
     p.add_argument('--log', default='monitor-state/events.json')
+    p.add_argument('--public-status', default='update-status.json')
     args = p.parse_args()
     registry = json.loads(Path(args.registry).read_text())
     validate(registry, json.loads(Path(args.data).read_text())['records'])
@@ -220,6 +229,10 @@ def main():
     state = json.loads(state_file.read_text()) if state_file.exists() else {'last_successful_end': stamp(now - dt.timedelta(days=7))}
     log_file = Path(args.log)
     log = json.loads(log_file.read_text()) if log_file.exists() else []
+    if not isinstance(log, list):
+        raise ValueError('Log tecnico non valido')
+    if not isinstance(state, dict) or 'last_successful_end' not in state:
+        raise ValueError('Checkpoint non valido')
     try:
         new_registry, new_state, events = monitor(registry, state, Client(), now)
         validate(new_registry, json.loads(Path(args.data).read_text())['records'])
@@ -235,6 +248,7 @@ def main():
         write_atomic(args.registry, new_registry)
     write_atomic(args.state, new_state)
     write_atomic(args.log, (log + events)[-500:])
+    write_atomic(args.public_status, public_status(now, len(events)))
     print(f'{len(events)} modifiche; checkpoint {new_state["last_successful_end"]}')
     return 0
 

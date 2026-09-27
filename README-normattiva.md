@@ -8,8 +8,12 @@ Le API ufficiali sono documentate da Normattiva in <https://dati.normattiva.it/a
 
 I decreti ministeriali per cui l'API URN non ha restituito un atto univoco conservano il PDF della fonte istituzionale. Il D.M. 185/2003 dispone di permalink Normattiva, ma il dettaglio API restituisce HTTP 400 ed è escluso dal confronto automatico. I collegamenti PDF ufficiali restano separati dai testi coordinati Normattiva.
 
-## Esecuzione
+## Esecuzione quotidiana e pubblicazione
 
-La Action `.github/workflows/normattiva.yml` è programmata per le 07:00 in `Europe/Rome`, con due trigger UTC e selezione secondo l'ora legale. Si può avviare manualmente. Il ramo `normattiva-state` conserva `checkpoint.json` (fine dell'ultimo intervallo concluso) ed `events.json` (log tecnico). Il ramo `main` viene aggiornato solo se ci sono modifiche nazionali validate. Al primo avvio si controllano i sette giorni precedenti. La successiva esecuzione riparte dal checkpoint, suddividendo intervalli di sette giorni; se una chiamata fallisce, il checkpoint non avanza e il sito mantiene i dati esistenti. Un errore viene registrato nel log tecnico. Il log è conservato fino agli ultimi 500 eventi.
+La Action usa `07:17`, `08:17` e `09:17` in `Europe/Rome`. I due avvii di riserva leggono `checkpoint.json`: se il controllo odierno è concluso, terminano senza ripetere le API. `workflow_dispatch` può eseguire un controllo anche nello stesso giorno.
 
-Test locali: `python -m unittest discover -s tests -v`. Per un controllo effettivo: `python scripts/normattiva.py` dalla radice, con credenziali di scrittura GitHub disponibili alla Action. La Action necessita del permesso `contents: write` per il token del workflow.
+Il controllo scrive `update-status.json` anche con zero modifiche normative. Prima del push valida registro e stato; poi pubblica il sito con `upload-pages-artifact` e `deploy-pages`. Verifica che Pages serva il medesimo timestamp del risultato prodotto. Soltanto dopo il deploy confermato salva `checkpoint.json` ed `events.json` sul ramo tecnico `normattiva-state`. Un errore non avanza il checkpoint, quindi il successivo tentativo può recuperare l'intervallo. I log sono limitati agli ultimi 500 eventi. Il ramo tecnico viene creato alla prima esecuzione se assente.
+
+Il controllo territoriale resta distinto: non è implementato in questa Action e i suoi esiti non sono attribuiti a Normattiva. Lo stato pubblico di questa Action riguarda esclusivamente la normativa nazionale.
+
+Test locali: `python -m unittest discover -s tests -v`.

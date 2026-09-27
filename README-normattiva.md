@@ -12,7 +12,7 @@ I decreti ministeriali per cui l'API URN non ha restituito un atto univoco conse
 
 La Action usa `07:17`, `08:17` e `09:17` in `Europe/Rome`. I due avvii di riserva leggono `checkpoint.json`: se il controllo odierno è concluso, terminano senza ripetere le API. `workflow_dispatch` può eseguire un controllo anche nello stesso giorno.
 
-Il controllo scrive `update-status.json` anche con zero modifiche normative. Prima del push valida registro e stato; poi pubblica il sito con `upload-pages-artifact` e `deploy-pages`. Verifica che Pages serva il medesimo timestamp del risultato prodotto. Soltanto dopo il deploy confermato salva `checkpoint.json` ed `events.json` sul ramo tecnico `normattiva-state`. Un errore non avanza il checkpoint, quindi il successivo tentativo può recuperare l'intervallo. I log sono limitati agli ultimi 500 eventi. Il ramo tecnico viene creato alla prima esecuzione se assente.
+Il controllo scrive `update-status.json` anche con zero modifiche normative. Prima del push valida registro e stato; poi attende la pubblicazione GitHub Pages da `main/(root)`. Se il build automatico non compare, richiede un build tramite API ufficiale. Verifica che Pages serva il medesimo timestamp del risultato prodotto. Soltanto dopo il deploy confermato salva `checkpoint.json` ed `events.json` sul ramo tecnico `normattiva-state`. Un errore non avanza il checkpoint, quindi il successivo tentativo può recuperare l'intervallo. I log sono limitati agli ultimi 500 eventi. Il ramo tecnico viene creato alla prima esecuzione se assente.
 
 Il controllo territoriale resta distinto: non è implementato in questa Action e i suoi esiti non sono attribuiti a Normattiva. Lo stato pubblico di questa Action riguarda esclusivamente la normativa nazionale.
 

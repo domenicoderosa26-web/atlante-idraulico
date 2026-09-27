@@ -90,20 +90,6 @@ jobs:
             monitor-state/checkpoint.json
             monitor-state/events.json
             update-status.json
-      - name: Prepara sito per GitHub Pages
-        if: steps.prepare.outputs.skipped == 'false'
-        run: |
-          mkdir -p /tmp/atlante-pages
-          cp index.html app.js style.css source-links.css data.json national.json update-status.json .nojekyll google4a14c93539ccefbf.html /tmp/atlante-pages/
-          cp -R docs /tmp/atlante-pages/
-          for optional in robots.txt sitemap.xml; do
-            if [ -f "$optional" ]; then cp "$optional" /tmp/atlante-pages/; fi
-          done
-      - name: Carica sito verificato
-        if: steps.prepare.outputs.skipped == 'false'
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: /tmp/atlante-pages
   deploy:
     if: needs.check.outputs.skipped == 'false'
     needs: check
@@ -111,36 +97,46 @@ jobs:
     permissions:
       contents: read
       pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/download-artifact@v4
         with:
           name: normattiva-state-result
-      - name: Pubblica su GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
       - name: Verifica stato pubblico
         env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
           SITE_URL: https://domenicoderosa26-web.github.io/atlante-idraulico/update-status.json
         run: |
           python - <<'PY'
-          import json, os, time, urllib.request
-          for attempt in range(12):
+          import json, os, time, urllib.request, urllib.error
+          expected = json.load(open('update-status.json'))['last_completed_at']
+          url = os.environ['SITE_URL']
+          def visible():
               try:
-                  with urllib.request.urlopen(os.environ['SITE_URL'] + '?v=' + str(time.time()), timeout=15) as response:
+                  with urllib.request.urlopen(url + '?v=' + str(time.time()), timeout=15) as response:
                       status = json.load(response)
-                  expected = json.load(open('update-status.json'))['last_completed_at']
-                  if status.get('outcome') == 'completato' and status.get('last_completed_at') == expected:
-                      print('Stato pubblico:', status)
-                      break
-              except (OSError, ValueError) as exc:
-                  print('Pages in aggiornamento:', exc)
-              if attempt == 11:
-                  raise SystemExit('Stato pubblico non verificabile')
+                  return status.get('outcome') == 'completato' and status.get('last_completed_at') == expected
+              except (OSError, ValueError):
+                  return False
+          for attempt in range(6):
+              if visible(): break
               time.sleep(10)
+          else:
+              request = urllib.request.Request(
+                  'https://api.github.com/repos/' + os.environ['GITHUB_REPOSITORY'] + '/pages/builds',
+                  data=b'{}', method='POST', headers={
+                      'Authorization':'Bearer ' + os.environ['GITHUB_TOKEN'],
+                      'Accept':'application/vnd.github+json',
+                      'X-GitHub-Api-Version':'2022-11-28'})
+              with urllib.request.urlopen(request, timeout=20) as response:
+                  if response.status not in (200, 201, 202):
+                      raise RuntimeError('Richiesta build Pages non accettata')
+              for attempt in range(18):
+                  if visible(): break
+                  time.sleep(10)
+              else:
+                  raise SystemExit('Stato pubblico non verificabile dopo il build Pages')
+          print('Pages serve lo stato nazionale del controllo:', expected)
           PY
   finalize:
     needs: deploy

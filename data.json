@@ -4,10 +4,10 @@
   "scope": "Catalogo selettivo con controllo mirato dei CAM e della disciplina delle acque di prima pioggia per tutte le regioni. La verifica locale e autorizzativa resta necessaria.",
   "automation": {
     "enabled": true,
-    "cadence": "Ogni giorno, ore 07:00 · Europe/Rome",
-    "configuredAt": "2026-09-17",
+    "cadence": "Normattiva: 07:17, 08:17, 09:17 (riserva) · fonti territoriali: 10:17 · Europe/Rome",
+    "configuredAt": "2026-09-27",
     "lastCompletedRun": "2026-09-25",
-    "note": "Ciclo del 25/09/2026 completato e pubblicato: controllati tutti i 187 URL univoci presenti nell’archivio e approfondite le discipline della Provincia autonoma di Trento, le acque meteoriche e gli aggiornamenti nazionali. Nessuna novità normativa o correzione sostanziale confermata; gli esiti tecnicamente non conclusivi sono rimasti in coda senza declassamenti.",
+    "note": "Il controllo nazionale ha stato pubblico separato e checkpoint verificato dopo Pages. Il controllo territoriale resta nella cronologia runs; ultimo ciclo territoriale completato il 25/09/2026. Le fonti regionali, PAI e PGRA sono consultate dai rispettivi enti istituzionali.",
     "lastPublicationStatus": "published_github_pages"
   },
   "records": [

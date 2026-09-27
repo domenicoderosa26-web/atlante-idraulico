@@ -151,7 +151,6 @@ jobs:
         with:
           name: normattiva-state-result
       - name: Archivia checkpoint e log dopo il deploy
-        if: steps.prepare.outputs.skipped == 'false'
         run: |
           set -euo pipefail
           git fetch origin main
@@ -183,3 +182,6 @@ jobs:
               sleep $((attempt * 3))
             done
           fi
+          local_sha=$(git -C /tmp/atlante-state-tree rev-parse HEAD)
+          remote_sha=$(git ls-remote origin refs/heads/normattiva-state | cut -f1)
+          test "$local_sha" = "$remote_sha"

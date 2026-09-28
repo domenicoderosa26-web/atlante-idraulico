@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-25",
+  "updatedAt": "2026-09-28",
   "scope": "Catalogo selettivo con controllo mirato dei CAM e della disciplina delle acque di prima pioggia per tutte le regioni. La verifica locale e autorizzativa resta necessaria.",
   "automation": {
     "enabled": true,
@@ -1401,10 +1401,14 @@
       "kind": "Piano",
       "status": "Vigenza da ricostruire",
       "source_kind": "Portale istituzionale",
-      "note": "Piano 2022–2027 riscontrato nelle comunicazioni ufficiali APPA/SNPA; estremi e allegati da acquisire.",
-      "checked": "2026-09-18",
+      "note": "PTA 2022–2027 approvato con D.G.P. n. 2320 del 16/12/2022. La pagina APPA raccoglie gli allegati, incluso l’Allegato O – Norme di attuazione. Eventuali modifiche successive restano da verificare.",
+      "checked": "2026-09-28",
       "relations": [],
       "history": [
+        {
+          "date": "2026-09-28",
+          "text": "Verificati su APPA gli estremi della D.G.P. 2320/2022 e l’indice degli allegati, compreso l’Allegato O."
+        },
         {
           "date": "2026-09-17",
           "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
@@ -3849,6 +3853,53 @@
         }
       ],
       "document_note": "Testo ufficiale in lingua italiana pubblicato su EUR-Lex."
+    },
+    {
+      "id": "bz-badia-pzp-782-2026",
+      "ref": "D.G.P. Bolzano 782/2026",
+      "title": "Modifica PZP Badia · Pedraces–Ustaria Posta",
+      "level": "Provinciale",
+      "regions": [
+        "Trentino-Alto Adige"
+      ],
+      "topics": [
+        "PZP",
+        "Compatibilità idraulica"
+      ],
+      "date": "2026-09-18",
+      "url": "https://giunta-provinciale.provincia.bz.it/it/delibere",
+      "summary": "Modifica della carta delle zone di pericolo idraulico nel Comune di Badia, località Pedraces–Ustaria Posta.",
+      "focus": [
+        "Carta delle zone di pericolo sostituita nell’ambito interessato.",
+        "Verificare la pubblicazione nel Bollettino Ufficiale per la data di efficacia."
+      ],
+      "kind": "Piano",
+      "status": "Approvazione verificata · efficacia da accertare",
+      "source_kind": "Delibera ufficiale Provincia autonoma di Bolzano",
+      "note": "D.G.P. 782 del 18/09/2026; la delibera dispone l’entrata in vigore il giorno dopo la pubblicazione nel Bollettino Ufficiale regionale. Pubblicazione e cartografia non acquisite al 28/09/2026.",
+      "checked": "2026-09-28",
+      "relations": [
+        {
+          "type": "Disciplina degli interventi",
+          "id": "bz23"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-28",
+          "text": "Letta la D.G.P. 782/2026; efficacia ancora da verificare sul Bollettino."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/esiuL8RBQoDk1lstoAKo%2BQ%3D%3D/document?tstmp=1790196547437",
+          "label": "PDF ufficiale · D.G.P. Bolzano 782/2026",
+          "format": "pdf"
+        }
+      ],
+      "document_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/esiuL8RBQoDk1lstoAKo%2BQ%3D%3D/document?tstmp=1790196547437",
+      "document_label": "Delibera provinciale (PDF)",
+      "document_note": "Approvazione verificata; efficacia subordinata alla pubblicazione nel Bollettino."
     }
   ],
   "regions": [
@@ -4468,6 +4519,50 @@
   ],
   "runs": [
     {
+      "date": "2026-09-28",
+      "type": "Ciclo automatico · verifica territoriale mirata · copertura parziale",
+      "summary": "Acquisita la D.G.P. Bolzano 782/2026 sul PZP di Badia; integrati gli estremi ufficiali del PTA Trento. Nessuna conclusione sull’assenza di altre modifiche territoriali.",
+      "checked": [
+        "Bolzano: portale PZP, elenco delibere e PDF integrale della D.G.P. 782 del 18/09/2026.",
+        "Trento: pagina APPA PTA 2022–2027, D.G.P. 2320/2022 e indice allegati.",
+        "Lombardia: pagina ufficiale invarianza idraulica e richiami ai R.R. 7/2017, 8/2019 e 3/2025.",
+        "Appennino Meridionale: pagine ufficiali PAI storico Calabria/Lao e progetto PSdGDAM-RisAl-Cal/L."
+      ],
+      "read_urls": [
+        "https://api.integrations.services.siag.it/delibere/v1/delibere/esiuL8RBQoDk1lstoAKo%2BQ%3D%3D/document?tstmp=1790196547437",
+        "https://pericoli-naturali.provincia.bz.it/it/normativa-e-documentazione-tecnica",
+        "https://www.appa.provincia.tn.it/Documenti-e-dati/Documenti-tecnici-di-supporto/Piano-di-Tutela-delle-acque-2022-2027",
+        "https://www.regione.lombardia.it/ambiente-e-territorio/difesa-del-suolo/invarianza-idraulica-idrologica",
+        "https://www.distrettoappenninomeridionale.it/piano-stralcio-assetto-idrogeologico-rischio-idraulico/uom-regionale-calabria-e-interregionale-lao/",
+        "https://www.distrettoappenninomeridionale.it/progetto-di-piano-stralcio-di-bacino-del-distretto-idrografico-dellappennino-meridionale-per-lassetto-la-mitigazione-e-la-gestione-del-rischio-da-alluvioni/psdgdam-risal-cal-l/"
+      ],
+      "errors": [
+        "Bollettino Ufficiale per D.G.P. 782/2026 non verificato: efficacia non dichiarata.",
+        "PGRA Sardegna e PAI Sicilia: timeout; fonti non considerate controllate.",
+        "Lexbrowser D.P.P. 23/2019: TooManyRequests; vigenza non rivalidata.",
+        "Nessuna verifica integrale delle 20 regioni, dei sette distretti e di tutti i link."
+      ],
+      "sectors": [
+        "PZP Bolzano",
+        "PTA Trento",
+        "Invarianza Lombardia",
+        "PAI Calabria/Lao"
+      ],
+      "territories": [
+        "Provincia autonoma di Bolzano",
+        "Provincia autonoma di Trento",
+        "Lombardia",
+        "Calabria/Lao"
+      ],
+      "new_records": [
+        "bz-badia-pzp-782-2026"
+      ],
+      "updated_records": [
+        "tnpta"
+      ],
+      "publication": "data_json_update"
+    },
+    {
       "date": "2026-09-25",
       "type": "Ciclo automatico · discipline provinciali/locali e manutenzione integrale collegamenti",
       "summary": "Controllati tutti i 187 URL univoci presenti nel catalogo e approfondite le discipline della Provincia autonoma di Trento. Controllo giornaliero completato senza novità normative o correzioni sostanziali confermate.",
@@ -4954,6 +5049,13 @@
     }
   ],
   "news": [
+    {
+      "date": "2026-09-28",
+      "status": "Nuova scheda · efficacia da accertare",
+      "title": "Badia: approvata la modifica del PZP a Pedraces–Ustaria Posta",
+      "summary": "D.G.P. Bolzano 782 del 18/09/2026: sostituita la carta delle zone di pericolo nell’ambito interessato. Efficacia dal giorno dopo la pubblicazione nel Bollettino Ufficiale, non ancora verificata.",
+      "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/esiuL8RBQoDk1lstoAKo%2BQ%3D%3D/document?tstmp=1790196547437"
+    },
     {
       "date": "2026-09-24",
       "status": "Nuova scheda e collegamento corretto",

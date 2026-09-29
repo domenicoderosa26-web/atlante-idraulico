@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-28",
+  "updatedAt": "2026-09-29",
   "scope": "Catalogo selettivo con controllo mirato dei CAM e della disciplina delle acque di prima pioggia per tutte le regioni. La verifica locale e autorizzativa resta necessaria.",
   "automation": {
     "enabled": true,
@@ -3900,6 +3900,54 @@
       "document_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/esiuL8RBQoDk1lstoAKo%2BQ%3D%3D/document?tstmp=1790196547437",
       "document_label": "Delibera provinciale (PDF)",
       "document_note": "Approvazione verificata; efficacia subordinata alla pubblicazione nel Bollettino."
+    },
+    {
+      "id": "bz-campo-tures-pzp-799-2026",
+      "ref": "D.G.P. Bolzano 799/2026",
+      "title": "Modifica PZP Campo Tures · zona produttiva Griesberg",
+      "level": "Provinciale",
+      "regions": [
+        "Trentino-Alto Adige"
+      ],
+      "topics": [
+        "PZP",
+        "Compatibilità idraulica"
+      ],
+      "date": "2026-09-25",
+      "url": "https://giunta-provinciale.provincia.bz.it/it/delibere",
+      "summary": "Approvata la modifica della carta delle zone di pericolo da frana nei lotti 2 e 3 della zona produttiva Griesberg, conseguente a opere di protezione realizzate dal Comune.",
+      "focus": [
+        "Modifica circoscritta al pericolo da frana nei lotti 2 e 3 della zona produttiva Griesberg.",
+        "La carta delle zone di pericolo è sostituita nell’ambito interessato.",
+        "Verificare la pubblicazione nel Bollettino Ufficiale regionale prima di assumere l’efficacia della modifica."
+      ],
+      "kind": "Piano",
+      "status": "Approvazione provinciale verificata · efficacia da accertare",
+      "source_kind": "Delibera ufficiale della Provincia autonoma di Bolzano",
+      "note": "D.G.P. n. 799 del 25/09/2026, adottata ai sensi dell’art. 56, comma 1/ter, della L.P. 9/2018 dopo opere comunali di protezione. La delibera dispone l’entrata in vigore il giorno successivo alla pubblicazione nel Bollettino Ufficiale regionale; pubblicazione e cartografia modificata non sono state acquisite nel controllo del 29/09/2026.",
+      "checked": "2026-09-29",
+      "relations": [
+        {
+          "type": "Disciplina degli interventi nelle zone di pericolo",
+          "id": "bz23"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-29",
+          "text": "Acquisita e letta la D.G.P. 799/2026; approvazione verificata, efficacia ancora da accertare sul Bollettino Ufficiale."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/ZzOArA8ANeWZFuTKiVQGSA%3D%3D/document?tstmp=1790598720328",
+          "label": "PDF ufficiale · D.G.P. Bolzano 799/2026",
+          "format": "pdf"
+        }
+      ],
+      "document_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/ZzOArA8ANeWZFuTKiVQGSA%3D%3D/document?tstmp=1790598720328",
+      "document_label": "Apri la delibera provinciale (PDF)",
+      "document_note": "La delibera approva la modifica; la data di efficacia richiede verifica della pubblicazione nel Bollettino Ufficiale."
     }
   ],
   "regions": [
@@ -4519,6 +4567,45 @@
   ],
   "runs": [
     {
+      "date": "2026-09-29",
+      "type": "Ciclo automatico · verifica territoriale mirata · copertura parziale",
+      "summary": "Acquisita la D.G.P. Bolzano 799/2026 di modifica del PZP di Campo Tures. Verificate le pagine ufficiali del Fiume Po e dell’Autorità di Bacino della Sicilia; nessuna conclusione generale sull’assenza di ulteriori modifiche territoriali.",
+      "checked": [
+        "Provincia autonoma di Bolzano: ultima seduta della Giunta del 25/09/2026 e PDF integrale della D.G.P. 799/2026 sul PZP di Campo Tures.",
+        "Autorità di Bacino Distrettuale del Fiume Po: homepage istituzionale, sezione notizie e accessi PAI/PGRA; nessun nuovo atto PAI/PGRA individuato tra i contenuti mostrati fino al 18/09/2026.",
+        "Autorità di Bacino del Distretto Idrografico della Sicilia: pagina istituzionale e contenuti in primo piano; ultima notizia visibile del 17/09/2026, relativa a lavori sul Torrente delle Grazie e non a modifiche PAI/PGRA."
+      ],
+      "read_urls": [
+        "https://giunta-provinciale.provincia.bz.it/it/delibere",
+        "https://api.integrations.services.siag.it/delibere/v1/delibere/ZzOArA8ANeWZFuTKiVQGSA%3D%3D/document?tstmp=1790598720328",
+        "https://www.adbpo.it/",
+        "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia"
+      ],
+      "errors": [
+        "Pubblicazione nel Bollettino Ufficiale della D.G.P. 799/2026 non verificata: efficacia non dichiarata.",
+        "Portale PGRA Sardegna: timeout; fonte non considerata controllata.",
+        "Pagina PAI AUBAC: accesso non riuscito; fonte non considerata controllata.",
+        "Il controllo è mirato e non equivale alla verifica integrale delle 20 regioni, dei sette distretti, dei comuni e di tutti i collegamenti del catalogo."
+      ],
+      "sectors": [
+        "PZP Bolzano",
+        "PAI/PGRA Fiume Po",
+        "Autorità di Bacino Sicilia"
+      ],
+      "territories": [
+        "Provincia autonoma di Bolzano",
+        "Distretto del Fiume Po",
+        "Sicilia"
+      ],
+      "new_records": [
+        "bz-campo-tures-pzp-799-2026"
+      ],
+      "updated_records": [
+        "discovery:Regioni, province, comuni e gestori"
+      ],
+      "publication": "data_json_update"
+    },
+    {
       "date": "2026-09-28",
       "type": "Ciclo automatico · verifica territoriale mirata · copertura parziale",
       "summary": "Acquisita la D.G.P. Bolzano 782/2026 sul PZP di Badia; integrati gli estremi ufficiali del PTA Trento. Nessuna conclusione sull’assenza di altre modifiche territoriali.",
@@ -5050,6 +5137,13 @@
   ],
   "news": [
     {
+      "date": "2026-09-29",
+      "status": "Nuova scheda · efficacia da accertare",
+      "title": "Campo Tures: approvata la modifica del PZP nella zona produttiva Griesberg",
+      "summary": "La D.G.P. Bolzano 799 del 25/09/2026 sostituisce la carta delle zone di pericolo da frana nei lotti 2 e 3 dopo opere comunali di protezione. L’efficacia decorre dal giorno successivo alla pubblicazione nel Bollettino Ufficiale, non ancora verificata.",
+      "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/ZzOArA8ANeWZFuTKiVQGSA%3D%3D/document?tstmp=1790598720328"
+    },
+    {
       "date": "2026-09-28",
       "status": "Nuova scheda · efficacia da accertare",
       "title": "Badia: approvata la modifica del PZP a Pedraces–Ustaria Posta",
@@ -5164,8 +5258,8 @@
       },
       {
         "name": "Regioni, province, comuni e gestori",
-        "lastReviewed": "2026-09-25",
-        "status": "Approfondita la Provincia autonoma di Trento dopo Bolzano: verificati PTA 2022–2027, Norme di attuazione, portali provinciali e ricerca su acque meteoriche, prima pioggia e invarianza. Non è stato confermato un nuovo atto organico provinciale da aggiungere; prosegue l’approfondimento locale."
+        "lastReviewed": "2026-09-29",
+        "status": "Verificate le ultime delibere provinciali di Bolzano: aggiunta la D.G.P. 799/2026 sul PZP di Campo Tures. Efficacia subordinata alla pubblicazione nel Bollettino Ufficiale, ancora da accertare; prosegue l’approfondimento locale."
       }
     ],
     "queue": [

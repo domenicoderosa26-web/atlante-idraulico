@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-30",
+  "updatedAt": "2026-10-01",
   "scope": "Catalogo selettivo con controllo mirato dei CAM e della disciplina delle acque di prima pioggia per tutte le regioni. La verifica locale e autorizzativa resta necessaria.",
   "automation": {
     "enabled": true,
@@ -1871,17 +1871,17 @@
           "group": "PGRA"
         }
       ],
-      "summary": "Accesso alla pianificazione del distretto Alpi Orientali: norme, cartografie e aggiornamenti da individuare per il bacino interessato.",
+      "summary": "Il PGRA 2021–2027 disciplina la pericolosità e il rischio idraulico nel distretto. Dalla sua entrata in vigore sono cessati gli effetti dei PAI per la parte idraulica; i PAI restano riferimento per pericolosità e rischio geologico da fenomeni gravitativi e valanghivi.",
       "focus": [
-        "Individuare il bacino e il piano pertinente",
-        "Consultare NTA, mappe e varianti",
-        "Verificare adozione, salvaguardia e approvazione"
+        "Per il rischio idraulico consultare PGRA, NTA, mappe e aggiornamenti",
+        "Per frane e valanghe individuare il PAI del bacino pertinente",
+        "Nelle Province autonome coordinare il quadro distrettuale con PGUAP e pianificazione provinciale"
       ],
       "kind": "Raccolta di piani",
-      "status": "Raccolta da approfondire",
+      "status": "Coordinamento PAI/PGRA verificato",
       "source_kind": "Portale di pianificazione",
-      "note": "Scheda di accesso al distretto, non una singola norma. Le regioni sono un filtro orientativo: i confini di bacino non coincidono con quelli amministrativi. Piani e varianti non ancora censiti integralmente.",
-      "checked": "2026-09-18",
+      "note": "L’articolo 16 delle NTA PGRA stabilisce la cessazione di efficacia dei PAI per la parte idraulica e la loro permanenza per pericolosità e rischio geologico gravitativo e valanghivo. Il PGRA 2021–2027 è stato approvato con D.P.C.M. 1 dicembre 2022, pubblicato nella G.U. n. 31 del 7 febbraio 2023. Restano ferme le competenze delle Province autonome; la ricognizione delle varianti dei singoli bacini non è integrale.",
+      "checked": "2026-10-01",
       "relations": [],
       "history": [
         {
@@ -1891,6 +1891,10 @@
         {
           "date": "2026-09-18",
           "text": "Revisione manuale dei rimandi ai documenti e della relativa descrizione."
+        },
+        {
+          "date": "2026-10-01",
+          "text": "Lette integralmente la relazione generale e le NTA ufficiali del PGRA 2021–2027; chiarito il coordinamento con i PAI ai sensi dell’articolo 16 e verificati i relativi collegamenti diretti."
         }
       ],
       "document_url": "https://sigma.distrettoalpiorientali.it/portal/index.php/direttiva-alluvioni/pgra-2021-2027/piano_approvato_2021/",
@@ -4713,6 +4717,41 @@
   ],
   "runs": [
     {
+      "date": "2026-10-01",
+      "type": "Ciclo automatico · verifica territoriale mirata · copertura parziale",
+      "summary": "Verificato sul portale e sui documenti ufficiali del Distretto delle Alpi Orientali il coordinamento tra PGRA 2021–2027 e PAI. La scheda distrettuale ora distingue la disciplina idraulica del PGRA dalla residua funzione dei PAI per frane e valanghe; nessuna conclusione generale sull’assenza di ulteriori modifiche territoriali.",
+      "checked": [
+        "Autorità di bacino distrettuale delle Alpi Orientali: relazione generale e NTA ufficiali del PGRA 2021–2027, acquisite integralmente dai collegamenti diretti del portale SIGMA.",
+        "NTA PGRA, articolo 16: verificata la cessazione di efficacia dei PAI per la parte idraulica e la loro permanenza per pericolosità e rischio geologico gravitativo e valanghivo.",
+        "Portale ufficiale PGRA 2021–2027: verificati gli estremi del D.P.C.M. 1 dicembre 2022, pubblicato nella G.U. n. 31 del 7 febbraio 2023."
+      ],
+      "read_urls": [
+        "https://distrettoalpiorientali.it/piano-assetto-idrogeologico/",
+        "https://distrettoalpiorientali.it/piano-gestione-rischio-alluvioni/pgra-2021-2027/",
+        "https://sigma.distrettoalpiorientali.it/sigma/documentDownload/downloadDocumentById?documentId=359",
+        "https://sigma.distrettoalpiorientali.it/sigma/documentDownload/downloadDocumentById?documentId=380"
+      ],
+      "errors": [
+        "Le pagine HTML del Distretto hanno restituito timeout o HTTP 502 in alcune aperture; i due PDF ufficiali SIGMA sono stati invece acquisiti integralmente con HTTP 200. Gli errori HTML non sono stati interpretati come assenza di aggiornamenti.",
+        "Il controllo è mirato e non equivale alla verifica integrale dei sette distretti, delle 20 regioni, dei comuni, dei gestori o delle varianti di tutti i bacini."
+      ],
+      "sectors": [
+        "PAI/PGRA Alpi Orientali"
+      ],
+      "territories": [
+        "Distretto delle Alpi Orientali",
+        "Trentino-Alto Adige",
+        "Veneto",
+        "Friuli-Venezia Giulia"
+      ],
+      "new_records": [],
+      "updated_records": [
+        "dist-alpi",
+        "discovery:PAI, PGRA e prescrizioni distrettuali"
+      ],
+      "publication": "data_json_update"
+    },
+    {
       "date": "2026-09-30",
       "type": "Ciclo automatico · verifica territoriale mirata · copertura parziale",
       "summary": "Interrogata l’API ufficiale delle delibere della Provincia autonoma di Bolzano e colmata la ricognizione PZP di settembre con sei atti non ancora censiti. Verificate inoltre le pagine ufficiali delle varianti PAI Sardegna e del Distretto del Fiume Po; nessuna conclusione generale sull’assenza di ulteriori modifiche territoriali.",
@@ -5318,6 +5357,13 @@
   ],
   "news": [
     {
+      "date": "2026-10-01",
+      "status": "Quadro pianificatorio verificato",
+      "title": "Alpi Orientali: chiarito il coordinamento tra PGRA e PAI",
+      "summary": "Le NTA del PGRA 2021–2027 dispongono che i PAI cessino di avere efficacia per la parte idraulica e continuino a valere per pericolosità e rischio geologico da frane e valanghe. Restano ferme le competenze delle Province autonome e la necessità di verificare gli aggiornamenti del bacino interessato.",
+      "url": "https://distrettoalpiorientali.it/piano-gestione-rischio-alluvioni/pgra-2021-2027/"
+    },
+    {
       "date": "2026-09-30",
       "status": "Sei nuove schede · efficacia da accertare",
       "title": "Bolzano: completata la ricognizione dei PZP di settembre",
@@ -5436,8 +5482,8 @@
       },
       {
         "name": "PAI, PGRA e prescrizioni distrettuali",
-        "lastReviewed": "2026-09-23",
-        "status": "Verificati PGRA II ciclo Appennino Meridionale e documenti specifici Calabria/Lao, Basilicata, Puglia/Ofanto, Liri–Garigliano, Campania Centrale, Biferno, Trigno e Fortore. Letta la Delibera CIP n. 1/2025 Calabria/Lao; Delibera n. 6/2025 ancora da acquisire integralmente dal pacchetto ZIP."
+        "lastReviewed": "2026-10-01",
+        "status": "Alpi Orientali: verificate integralmente le NTA PGRA 2021–2027 e chiarito il coordinamento con i PAI (PGRA per la parte idraulica; PAI ancora rilevanti per frane e valanghe). Per Appennino Meridionale restano acquisiti i documenti specifici già censiti; la Delibera n. 6/2025 Calabria/Lao è ancora da leggere integralmente dal pacchetto ZIP."
       },
       {
         "name": "Regi decreti, demanio e bonifica",

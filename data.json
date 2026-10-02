@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-01",
+  "updatedAt": "2026-10-02",
   "scope": "Catalogo selettivo con controllo mirato dei CAM e della disciplina delle acque di prima pioggia per tutte le regioni. La verifica locale e autorizzativa resta necessaria.",
   "automation": {
     "enabled": true,
@@ -2214,17 +2214,17 @@
           "group": "PGRA"
         }
       ],
-      "summary": "Accesso alla pianificazione del distretto Sardegna: norme, cartografie e aggiornamenti da individuare per il bacino interessato.",
+      "summary": "Quadro PAI/PGRA della Sardegna con accesso alle norme coordinate, alle cartografie e agli atti di variante. Le NTA PAI pubblicate dall’Autorità sono aggiornate alla Deliberazione C.I. n. 8 del 25 maggio 2026 e indicate in vigore dal 4 giugno 2026.",
       "focus": [
-        "Individuare il bacino e il piano pertinente",
-        "Consultare NTA, mappe e varianti",
-        "Verificare adozione, salvaguardia e approvazione"
+        "Consultare insieme NTA, mappe PAI/PGRA e varianti successive",
+        "Verificare se l’intervento ricade nelle nuove perimetrazioni della variante generale PAI–frane 2026",
+        "Coordinare gli studi di compatibilità con gli articoli 24, 25 e 47 delle NTA vigenti"
       ],
       "kind": "Raccolta di piani",
-      "status": "Raccolta da approfondire",
+      "status": "NTA vigenti verificate al 04/06/2026",
       "source_kind": "Portale di pianificazione",
-      "note": "Scheda di accesso al distretto, non una singola norma. Le regioni sono un filtro orientativo: i confini di bacino non coincidono con quelli amministrativi. Piani e varianti non ancora censiti integralmente.",
-      "checked": "2026-09-18",
+      "note": "Il testo coordinato vigente è aggiornato alla Deliberazione C.I. n. 8 del 25/05/2026, pubblicata sul BURAS il 04/06/2026. La variante generale PAI–frane approvata con decreto presidenziale n. 42/2026 è censita in una scheda specifica. Le varianti puntuali comunali non sono censite integralmente.",
+      "checked": "2026-10-02",
       "relations": [],
       "history": [
         {
@@ -2234,11 +2234,66 @@
         {
           "date": "2026-09-18",
           "text": "Revisione manuale dei rimandi ai documenti e della relativa descrizione."
+        },
+        {
+          "date": "2026-10-02",
+          "text": "Verificate la pagina ufficiale delle NTA, il testo coordinato aggiornato alla Deliberazione C.I. 8/2026 e la variante generale PAI–frane approvata nel giugno 2026."
         }
       ],
       "document_url": "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-stralcio-di-bacino-per-lassetto-idrogeologico-pai/norme-pai/",
       "document_label": "PAI Sardegna · norme",
       "document_note": "I collegamenti aprono direttamente i PDF ufficiali degli elaborati principali."
+    },
+    {
+      "id": "sar-pai-frane-42-2026",
+      "ref": "D.P.Reg. Sardegna 42/2026 · variante PAI–frane",
+      "title": "Variante generale PAI per la pericolosità e il rischio da frana",
+      "level": "Regionale",
+      "regions": ["Sardegna"],
+      "topics": ["PAI e PGRA", "Pericolosità da frana"],
+      "date": "2026-06-17",
+      "url": "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-stralcio-di-bacino-per-lassetto-idrogeologico-pai/variante-pai-frane-per-i-sub-bacini-1-2-4-5-6-7/",
+      "documents": [
+        {
+          "url": "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/06/dp_2026_06_17_n.42_prot.12805.pdf",
+          "label": "PDF ufficiale · decreto della Presidente n. 42/2026",
+          "format": "pdf",
+          "group": "PAI",
+          "link_status": "checked",
+          "link_checked": "2026-10-02"
+        },
+        {
+          "url": "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-stralcio-di-bacino-per-lassetto-idrogeologico-pai/variante-pai-frane-per-i-sub-bacini-1-2-4-5-6-7/",
+          "label": "Pagina ufficiale · atti ed elaborati della variante",
+          "format": "html",
+          "group": "PAI",
+          "link_status": "checked",
+          "link_checked": "2026-10-02"
+        }
+      ],
+      "summary": "Approvazione della variante generale PAI–frane per i sub-bacini 1 Sulcis, 2 Tirso, 4 Liscia, 5 Posada-Cedrino, 6 Sud-Orientale e 7 Flumendosa-Campidano-Cixerri, relativa a 304 comuni.",
+      "focus": [
+        "Verificare le nuove perimetrazioni e classi di pericolosità da frana negli elaborati del sub-bacino interessato",
+        "Coordinare la variante con le NTA PAI vigenti e con gli strumenti urbanistici comunali",
+        "Il sub-bacino 3 Coghinas-Mannu-Temo è oggetto di un procedimento distinto"
+      ],
+      "kind": "Variante generale PAI",
+      "status": "In vigore dal 25/06/2026",
+      "source_kind": "Decreto e portale ufficiale dell’Autorità di bacino",
+      "note": "Il decreto della Presidente della Regione n. 42 del 17/06/2026 dispone l’efficacia dalla pubblicazione nel BURAS. La pagina ufficiale attesta la pubblicazione nel BURAS n. 33 del 25/06/2026 e rinvia agli elaborati approvati.",
+      "checked": "2026-10-02",
+      "relations": [
+        {"type": "Quadro PAI/PGRA regionale", "id": "dist-sard"}
+      ],
+      "history": [
+        {
+          "date": "2026-10-02",
+          "text": "Inserita dopo lettura integrale del decreto n. 42/2026 e verifica della pagina ufficiale della variante e della pubblicazione BURAS."
+        }
+      ],
+      "document_url": "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/06/dp_2026_06_17_n.42_prot.12805.pdf",
+      "document_label": "Apri il decreto di approvazione n. 42/2026 (PDF)",
+      "document_note": "Il decreto approva la variante generale per sei sub-bacini e 304 comuni; gli elaborati cartografici sono raccolti nella pagina ufficiale collegata."
     },
     {
       "id": "dist-sici",
@@ -4717,6 +4772,34 @@
   ],
   "runs": [
     {
+      "date": "2026-10-02",
+      "type": "Ciclo automatico · verifica territoriale mirata · copertura parziale",
+      "summary": "Verificato il quadro PAI della Sardegna e colmata la lacuna relativa alla variante generale per la pericolosità e il rischio da frana approvata nel giugno 2026. Aggiornata inoltre la scheda distrettuale con gli estremi del testo coordinato vigente; nessuna conclusione generale sull’assenza di ulteriori modifiche territoriali.",
+      "checked": [
+        "Autorità di Bacino della Sardegna: pagina delle Norme di Attuazione PAI e testo coordinato aggiornato alla Deliberazione C.I. n. 8 del 25/05/2026, indicato in vigore dal 04/06/2026.",
+        "Autorità di Bacino della Sardegna: pagina della variante generale PAI–frane per i sub-bacini 1, 2, 4, 5, 6 e 7 e lettura integrale del decreto della Presidente n. 42 del 17/06/2026.",
+        "Autorità di Bacino della Sardegna: elenco delle determinazioni di variante PAI, con ultimo atto mostrato del 02/09/2026 e pubblicazione BURAS del 24/09/2026.",
+        "Provincia autonoma di Bolzano: pagina ufficiale delle delibere, con ultimi atti PZP mostrati al 25/09/2026 già censiti."
+      ],
+      "read_urls": [
+        "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-stralcio-di-bacino-per-lassetto-idrogeologico-pai/norme-pai/",
+        "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/06/Testo-coordinato-N.A.-PAI-modifiche-CI-n.-8-del-25.05.2026.pdf",
+        "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-stralcio-di-bacino-per-lassetto-idrogeologico-pai/variante-pai-frane-per-i-sub-bacini-1-2-4-5-6-7/",
+        "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/06/dp_2026_06_17_n.42_prot.12805.pdf",
+        "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/approvazione-varianti-pai/",
+        "https://giunta-provinciale.provincia.bz.it/it/delibere"
+      ],
+      "errors": [
+        "Il download diretto da riga di comando delle fonti sarde non si è concluso nel tempo disponibile; pagine e PDF sono stati acquisiti e letti tramite il servizio web. L’errore tecnico non è stato interpretato come assenza di aggiornamenti.",
+        "Il controllo è mirato e non equivale alla verifica integrale dei sette distretti, delle 20 regioni, dei comuni, dei gestori o di tutte le varianti puntuali."
+      ],
+      "sectors": ["PAI/PGRA Sardegna", "PZP Bolzano"],
+      "territories": ["Sardegna", "Provincia autonoma di Bolzano"],
+      "new_records": ["sar-pai-frane-42-2026"],
+      "updated_records": ["dist-sard", "discovery:PAI, PGRA e prescrizioni distrettuali"],
+      "publication": "data_json_update"
+    },
+    {
       "date": "2026-10-01",
       "type": "Ciclo automatico · verifica territoriale mirata · copertura parziale",
       "summary": "Verificato sul portale e sui documenti ufficiali del Distretto delle Alpi Orientali il coordinamento tra PGRA 2021–2027 e PAI. La scheda distrettuale ora distingue la disciplina idraulica del PGRA dalla residua funzione dei PAI per frane e valanghe; nessuna conclusione generale sull’assenza di ulteriori modifiche territoriali.",
@@ -5357,6 +5440,13 @@
   ],
   "news": [
     {
+      "date": "2026-10-02",
+      "status": "Nuova scheda · variante in vigore",
+      "title": "Sardegna: censita la variante generale PAI–frane per sei sub-bacini",
+      "summary": "Il decreto della Presidente n. 42/2026 approva la variante per Sulcis, Tirso, Liscia, Posada-Cedrino, Sud-Orientale e Flumendosa-Campidano-Cixerri, relativa a 304 comuni. L’efficacia decorre dalla pubblicazione nel BURAS n. 33 del 25 giugno 2026.",
+      "url": "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-stralcio-di-bacino-per-lassetto-idrogeologico-pai/variante-pai-frane-per-i-sub-bacini-1-2-4-5-6-7/"
+    },
+    {
       "date": "2026-10-01",
       "status": "Quadro pianificatorio verificato",
       "title": "Alpi Orientali: chiarito il coordinamento tra PGRA e PAI",
@@ -5482,8 +5572,8 @@
       },
       {
         "name": "PAI, PGRA e prescrizioni distrettuali",
-        "lastReviewed": "2026-10-01",
-        "status": "Alpi Orientali: verificate integralmente le NTA PGRA 2021–2027 e chiarito il coordinamento con i PAI (PGRA per la parte idraulica; PAI ancora rilevanti per frane e valanghe). Per Appennino Meridionale restano acquisiti i documenti specifici già censiti; la Delibera n. 6/2025 Calabria/Lao è ancora da leggere integralmente dal pacchetto ZIP."
+        "lastReviewed": "2026-10-02",
+        "status": "Sardegna: verificato il testo coordinato PAI vigente dal 04/06/2026 e censita la variante generale PAI–frane approvata con D.P.Reg. 42/2026 per sei sub-bacini e 304 comuni. Restano validi i precedenti controlli su Alpi Orientali e Appennino Meridionale; la Delibera n. 6/2025 Calabria/Lao è ancora da leggere integralmente dal pacchetto ZIP."
       },
       {
         "name": "Regi decreti, demanio e bonifica",

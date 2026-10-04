@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-03",
+  "updatedAt": "2026-10-04",
   "scope": "Catalogo selettivo con controllo mirato dei CAM e della disciplina delle acque di prima pioggia per tutte le regioni. La verifica locale e autorizzativa resta necessaria.",
   "automation": {
     "enabled": true,
@@ -2018,12 +2018,21 @@
       "status": "Raccolta da approfondire",
       "source_kind": "Portale di pianificazione",
       "note": "Scheda di accesso al distretto, non una singola norma. Le regioni sono un filtro orientativo: i confini di bacino non coincidono con quelli amministrativi. Piani e varianti non ancora censiti integralmente.",
-      "checked": "2026-09-18",
-      "relations": [],
+      "checked": "2026-10-04",
+      "relations": [
+        {
+          "type": "Progetto variante mappe PGRA 2026",
+          "id": "sett-pgra-variante-62-2026"
+        }
+      ],
       "history": [
         {
           "date": "2026-09-17",
           "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        },
+        {
+          "date": "2026-10-04",
+          "text": "Verificato il progetto di variante alle mappe di pericolosità da alluvione adottato con Deliberazione CIP 62/2026 e il relativo layer ufficiale."
         }
       ],
       "document_note": "I collegamenti aprono direttamente i PDF ufficiali degli elaborati principali."
@@ -2050,6 +2059,16 @@
       "url": "https://aubac.it/piani-di-bacino/piano-di-gestione-del-rischio-alluvioni-pgra",
       "documents": [
         {
+          "url": "https://aubac.it/pai-distrettuale-idraulico",
+          "label": "PAI distrettuale idraulico · raccolta ufficiale",
+          "group": "PAI"
+        },
+        {
+          "url": "https://aubac.it/pai-distrettuale-frane",
+          "label": "PAI distrettuale frane · raccolta ufficiale",
+          "group": "PAI"
+        },
+        {
           "url": "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO.pdf",
           "label": "PAI idraulico · NTA adottate il 26/05/2026",
           "group": "PAI",
@@ -2057,18 +2076,31 @@
           "link_checked": "2026-09-18"
         }
       ],
-      "summary": "Accesso alla pianificazione del distretto Appennino Centrale: norme, cartografie e aggiornamenti da individuare per il bacino interessato.",
+      "summary": "Quadro distrettuale verificato: PAI idraulico e PAI frane adottati definitivamente il 26/05/2026; le relative misure di salvaguardia sono operative dal 04/06/2026. Restano da seguire l’approvazione con D.P.C.M. e le varianti locali.",
       "focus": [
         "Individuare il bacino e il piano pertinente",
         "Consultare NTA, mappe e varianti",
         "Verificare adozione, salvaguardia e approvazione"
       ],
       "kind": "Raccolta di piani",
-      "status": "Raccolta da approfondire",
+      "status": "Pianificazione distrettuale verificata",
       "source_kind": "Portale di pianificazione",
       "note": "Scheda di accesso al distretto, non una singola norma. Le regioni sono un filtro orientativo: i confini di bacino non coincidono con quelli amministrativi. Piani e varianti non ancora censiti integralmente.",
-      "checked": "2026-09-18",
-      "relations": [],
+      "checked": "2026-10-04",
+      "relations": [
+        {
+          "type": "PAI idraulico",
+          "id": "centr-pai-idraulico-67-2026"
+        },
+        {
+          "type": "PAI frane",
+          "id": "centr-pai-frane-68-2026"
+        },
+        {
+          "type": "Variante Fiume Nestore",
+          "id": "centr-pai-nestore-139-2026"
+        }
+      ],
       "history": [
         {
           "date": "2026-09-17",
@@ -2077,6 +2109,10 @@
         {
           "date": "2026-09-18",
           "text": "Revisione manuale dei rimandi ai documenti e della relativa descrizione."
+        },
+        {
+          "date": "2026-10-04",
+          "text": "Verificate adozione definitiva dei PAI idraulico e frane, misure di salvaguardia operative dal 04/06/2026 e variante efficace del Fiume Nestore."
         }
       ],
       "document_url": "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO.pdf",
@@ -4302,6 +4338,246 @@
       "document_label": "Apri la delibera provinciale (PDF)",
       "document_note": "Approvazione verificata; la data di efficacia richiede la pubblicazione nel Bollettino Ufficiale."
     }
+  ,
+    {
+      "id": "centr-pai-idraulico-67-2026",
+      "ref": "Del. CIP AUBAC 67/2026",
+      "title": "PAI distrettuale per il rischio idraulico da alluvioni",
+      "level": "Distrettuale",
+      "regions": [
+        "Lazio",
+        "Umbria",
+        "Marche",
+        "Abruzzo",
+        "Toscana",
+        "Emilia-Romagna",
+        "Molise"
+      ],
+      "topics": [
+        "PAI e PGRA",
+        "Pericolosità e rischio idraulico",
+        "Misure di salvaguardia"
+      ],
+      "date": "2026-05-26",
+      "url": "https://aubac.it/pai-distrettuale-idraulico",
+      "documents": [
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2067%20-%20PAI%20IDRAULICO_signed_signed_0.pdf",
+          "label": "Deliberazione CIP 67/2026 · adozione definitiva e salvaguardia",
+          "format": "pdf",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO_0.pdf",
+          "label": "NTA con allegati · testo definitivo adottato",
+          "format": "pdf",
+          "group": "Norme"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20RELAZIONE%20GENERALE_def_0.pdf",
+          "label": "Relazione generale",
+          "format": "pdf",
+          "group": "Relazione"
+        }
+      ],
+      "summary": "La CIP AUBAC ha adottato definitivamente il PAI idraulico distrettuale. Le misure di salvaguardia su disposizioni, allegati e mappe individuati dalla Deliberazione 67/2026 sono vincolanti dal 4 giugno 2026, data di pubblicazione dell’avviso in G.U. n. 127, fino all’approvazione con D.P.C.M. e comunque per non oltre tre anni.",
+      "focus": [
+        "Verificare fasce, ambiti e perimetrazioni nelle mappe adottate",
+        "Applicare le disposizioni poste in salvaguardia e il reticolo principale dell’Allegato 3",
+        "Distinguere adozione definitiva da approvazione con D.P.C.M."
+      ],
+      "kind": "Piano di assetto idrogeologico",
+      "status": "Adottato definitivamente · misure di salvaguardia operative",
+      "source_kind": "Autorità di bacino distrettuale",
+      "note": "Le discipline dei PAI previgenti continuano a regolare i procedimenti transitori, fermo il rispetto delle nuove misure di salvaguardia.",
+      "checked": "2026-10-04",
+      "relations": [
+        {
+          "type": "Quadro distrettuale",
+          "id": "dist-centr"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-04",
+          "text": "Scheda creata da pagina ufficiale, Deliberazione CIP 67/2026, NTA e relazione generale; verificata l’operatività delle misure di salvaguardia dal 04/06/2026."
+        }
+      ],
+      "document_url": "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2067%20-%20PAI%20IDRAULICO_signed_signed_0.pdf",
+      "document_label": "Deliberazione CIP 67/2026",
+      "document_note": "Atto di adozione definitiva con elenco puntuale delle disposizioni e mappe poste in salvaguardia."
+    },
+    {
+      "id": "centr-pai-frane-68-2026",
+      "ref": "Del. CIP AUBAC 68/2026",
+      "title": "PAI distrettuale per il rischio da frana",
+      "level": "Distrettuale",
+      "regions": [
+        "Lazio",
+        "Umbria",
+        "Marche",
+        "Abruzzo",
+        "Toscana",
+        "Emilia-Romagna",
+        "Molise"
+      ],
+      "topics": [
+        "PAI",
+        "Pericolosità e rischio da frana",
+        "Misure di salvaguardia"
+      ],
+      "date": "2026-05-26",
+      "url": "https://aubac.it/pai-distrettuale-frane",
+      "documents": [
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2068%20-%20PAI%20FRANE_signed_signed_0.pdf",
+          "label": "Deliberazione CIP 68/2026 · adozione definitiva e salvaguardia",
+          "format": "pdf",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-06/PAI%20FRANE%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO_0.pdf",
+          "label": "NTA con allegati · testo definitivo adottato",
+          "format": "pdf",
+          "group": "Norme"
+        }
+      ],
+      "summary": "La CIP AUBAC ha adottato definitivamente il PAI frane distrettuale. Le misure di salvaguardia sulle disposizioni, sugli allegati e sulla cartografia individuati dalla Deliberazione 68/2026 sono vincolanti dal 4 giugno 2026, data di pubblicazione dell’avviso in G.U. n. 127, fino all’approvazione con D.P.C.M. e comunque per non oltre tre anni.",
+      "focus": [
+        "Verificare classi di pericolosità, livelli di rischio e perimetrazioni",
+        "Applicare le disposizioni poste in salvaguardia e gli Allegati 1 e 5",
+        "Distinguere adozione definitiva da approvazione con D.P.C.M."
+      ],
+      "kind": "Piano di assetto idrogeologico",
+      "status": "Adottato definitivamente · misure di salvaguardia operative",
+      "source_kind": "Autorità di bacino distrettuale",
+      "note": "Nel periodo transitorio proseguono i procedimenti avviati secondo i PAI previgenti, fermo il rispetto delle nuove misure di salvaguardia.",
+      "checked": "2026-10-04",
+      "relations": [
+        {
+          "type": "Quadro distrettuale",
+          "id": "dist-centr"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-04",
+          "text": "Scheda creata da pagina ufficiale, Deliberazione CIP 68/2026 e NTA; verificata l’operatività delle misure di salvaguardia dal 04/06/2026."
+        }
+      ],
+      "document_url": "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2068%20-%20PAI%20FRANE_signed_signed_0.pdf",
+      "document_label": "Deliberazione CIP 68/2026",
+      "document_note": "Atto di adozione definitiva con elenco puntuale delle disposizioni, degli allegati e della cartografia posti in salvaguardia."
+    },
+    {
+      "id": "centr-pai-nestore-139-2026",
+      "ref": "D.S. AUBAC 139/2026",
+      "title": "Aggiornamento PAI Tevere · fasce fluviali e rischio di esondazione del Fiume Nestore",
+      "level": "Distrettuale",
+      "regions": [
+        "Umbria"
+      ],
+      "topics": [
+        "PAI",
+        "Pericolosità e rischio idraulico",
+        "Variante cartografica"
+      ],
+      "date": "2026-07-09",
+      "url": "https://www.aubac.it/news/notizie/rischio-idraulico-approvato-laggiornamento-delle-fasce-fluviali-e-delle-aree-rischio-di-esondazione",
+      "documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3268&StwEvent=101",
+          "label": "Decreto segretariale 139/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+          "label": "Raccolta ufficiale dei decreti di pianificazione 2026",
+          "group": "Raccolta"
+        }
+      ],
+      "summary": "Aggiornamento definitivo delle fasce fluviali e delle aree a rischio di esondazione del Fiume Nestore, da Piegaro alla confluenza con il Tevere, nei comuni di Piegaro, Panicale, Perugia, Marsciano, San Venanzo e Collazzone. La variante è immediatamente efficace e allinea il quadro conoscitivo del nuovo PAI idraulico distrettuale.",
+      "focus": [
+        "Consultare le nuove fasce fluviali e aree a rischio",
+        "Verificare l’incidenza nei sei comuni umbri",
+        "Coordinare la variante con il PAI idraulico distrettuale adottato"
+      ],
+      "kind": "Variante PAI",
+      "status": "Aggiornamento definitivo · efficace",
+      "source_kind": "Autorità di bacino distrettuale",
+      "note": "Il decreto produce effetti dalla pubblicazione dell’avviso nel BUR Umbria n. 35 del 21/07/2026.",
+      "checked": "2026-10-04",
+      "relations": [
+        {
+          "type": "PAI distrettuale idraulico",
+          "id": "centr-pai-idraulico-67-2026"
+        },
+        {
+          "type": "Quadro distrettuale",
+          "id": "dist-centr"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-04",
+          "text": "Scheda creata dalla notizia istituzionale, dalla raccolta ufficiale dei decreti e dal riferimento al BUR Umbria n. 35 del 21/07/2026."
+        }
+      ],
+      "document_url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3268&StwEvent=101",
+      "document_label": "Decreto segretariale 139/2026",
+      "document_note": "Il portale URBI ha restituito timeout durante l’apertura odierna; estremi, oggetto ed efficacia sono stati verificati sulle pagine istituzionali AUBAC e sul riferimento al BUR Umbria."
+    },
+    {
+      "id": "sett-pgra-variante-62-2026",
+      "ref": "Del. CIP 62/2026 · Appennino Settentrionale",
+      "title": "Progetto di variante alle mappe di pericolosità da alluvione del PGRA",
+      "level": "Distrettuale",
+      "regions": [
+        "Liguria",
+        "Toscana",
+        "Umbria"
+      ],
+      "topics": [
+        "PGRA",
+        "Pericolosità da alluvione",
+        "Variante cartografica"
+      ],
+      "date": "2026-04-28",
+      "url": "https://geodataserver.appenninosettentrionale.it/arcgis/rest/services/Pericolosita_Alluvione/mappa_variante_pericolosita2026/MapServer/0",
+      "documents": [
+        {
+          "url": "https://geodataserver.appenninosettentrionale.it/arcgis/rest/services/Pericolosita_Alluvione/mappa_variante_pericolosita2026/MapServer/0",
+          "label": "Layer ufficiale · mappa della variante 2026",
+          "group": "Cartografia"
+        }
+      ],
+      "summary": "La Deliberazione CIP 62/2026 ha adottato il progetto di variante alle mappe di pericolosità da alluvione sul reticolo principale del PGRA, in fase di consultazione. È stralciata la porzione ligure tra il torrente Bettigna e il torrente Parmignola.",
+      "focus": [
+        "Consultare la cartografia della variante",
+        "Verificare l’esito della consultazione e l’adozione definitiva",
+        "Tenere distinto il progetto dalle mappe vigenti"
+      ],
+      "kind": "Progetto di variante PGRA",
+      "status": "Progetto adottato · consultazione",
+      "source_kind": "Servizio cartografico dell’Autorità di bacino distrettuale",
+      "note": "La fonte cartografica ufficiale qualifica espressamente il layer come progetto di variante in fase di consultazione; non sostituisce ancora le mappe vigenti.",
+      "checked": "2026-10-04",
+      "relations": [
+        {
+          "type": "Quadro distrettuale",
+          "id": "dist-sett"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-04",
+          "text": "Scheda creata dai metadati del layer ufficiale dell’Autorità di bacino, con stato procedurale e stralcio territoriale esplicitati."
+        }
+      ],
+      "document_url": "https://geodataserver.appenninosettentrionale.it/arcgis/rest/services/Pericolosita_Alluvione/mappa_variante_pericolosita2026/MapServer/0",
+      "document_label": "Mappa variante pericolosità 2026",
+      "document_note": "Servizio ArcGIS istituzionale; il layer espone classi PI1, PI2 e PI3 e lo stato di consultazione."
+    }
   ],
   "regions": [
     {
@@ -4919,6 +5195,54 @@
     }
   ],
   "runs": [
+    {
+      "date": "2026-10-04",
+      "type": "Ciclo automatico · verifica territoriale mirata · copertura parziale",
+      "summary": "Colmate lacune sull’Appennino Centrale con i due PAI distrettuali adottati definitivamente e la variante efficace del Fiume Nestore; censito inoltre il progetto di variante alle mappe PGRA dell’Appennino Settentrionale. Nessuna conclusione generale sull’assenza di ulteriori modifiche territoriali.",
+      "checked": [
+        "AUBAC: pagine ufficiali dei PAI distrettuali idraulico e frane, Deliberazioni CIP 67/2026 e 68/2026, NTA e relazione generale del PAI idraulico; verificati stato procedurale, decorrenza e durata delle misure di salvaguardia.",
+        "AUBAC: notizia istituzionale sul Fiume Nestore e raccolta dei decreti segretariali di pianificazione 2026; verificati Decreto 139/2026, ambito comunale, efficacia e BUR Umbria n. 35 del 21/07/2026.",
+        "Autorità di bacino distrettuale dell’Appennino Settentrionale: metadati del layer ufficiale relativo al progetto di variante PGRA adottato con Deliberazione CIP 62/2026."
+      ],
+      "read_urls": [
+        "https://aubac.it/pai-distrettuale-idraulico",
+        "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2067%20-%20PAI%20IDRAULICO_signed_signed_0.pdf",
+        "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO_0.pdf",
+        "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20RELAZIONE%20GENERALE_def_0.pdf",
+        "https://aubac.it/pai-distrettuale-frane",
+        "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2068%20-%20PAI%20FRANE_signed_signed_0.pdf",
+        "https://cms.aubac.it/sites/default/files/2026-06/PAI%20FRANE%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO_0.pdf",
+        "https://www.aubac.it/news/notizie/rischio-idraulico-approvato-laggiornamento-delle-fasce-fluviali-e-delle-aree-rischio-di-esondazione",
+        "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+        "https://geodataserver.appenninosettentrionale.it/arcgis/rest/services/Pericolosita_Alluvione/mappa_variante_pericolosita2026/MapServer/0"
+      ],
+      "errors": [
+        "Il dettaglio URBI del Decreto segretariale 139/2026 ha restituito timeout; estremi, oggetto, ambito ed efficacia sono stati verificati sulle due pagine istituzionali AUBAC e sul riferimento al BUR Umbria. L’errore non è stato interpretato come assenza di aggiornamenti.",
+        "Nella raccolta AUBAC il collegamento mostrato per il Decreto 148/2026 rimanda al dettaglio del Decreto 120/2026; la scheda relativa a Penne non è stata creata in attesa di un collegamento istituzionale corretto.",
+        "Il controllo è mirato e non equivale alla verifica integrale dei sette distretti, delle 20 regioni, dei comuni, dei gestori o di tutte le varianti puntuali."
+      ],
+      "sectors": [
+        "PAI Appennino Centrale",
+        "PGRA Appennino Settentrionale"
+      ],
+      "territories": [
+        "Distretto dell’Appennino Centrale",
+        "Distretto dell’Appennino Settentrionale",
+        "Umbria"
+      ],
+      "new_records": [
+        "centr-pai-idraulico-67-2026",
+        "centr-pai-frane-68-2026",
+        "centr-pai-nestore-139-2026",
+        "sett-pgra-variante-62-2026"
+      ],
+      "updated_records": [
+        "dist-centr",
+        "dist-sett",
+        "discovery:PAI, PGRA e prescrizioni distrettuali"
+      ],
+      "publication": "data_json_update"
+    },
     {
       "date": "2026-10-03",
       "type": "Ciclo automatico · verifica territoriale mirata · copertura parziale",
@@ -5635,6 +5959,13 @@
   ],
   "news": [
     {
+      "date": "2026-10-04",
+      "status": "Quattro nuove schede · salvaguardie e varianti",
+      "title": "Appennini: censiti i nuovi PAI AUBAC e due aggiornamenti cartografici",
+      "summary": "I PAI idraulico e frane dell’Appennino Centrale sono adottati definitivamente e le misure di salvaguardia sono operative dal 4 giugno 2026. Censite anche la variante efficace del Fiume Nestore e la variante PGRA dell’Appennino Settentrionale ancora in consultazione.",
+      "url": "https://aubac.it/piani-di-bacino/piani-di-assetto-idrogeologico"
+    },
+    {
       "date": "2026-10-03",
       "status": "Nuova scheda · misure di salvaguardia vigenti",
       "title": "PAI Po: censita la variante di estensione ai bacini orientali e appenninici",
@@ -5781,8 +6112,8 @@
       },
       {
         "name": "PAI, PGRA e prescrizioni distrettuali",
-        "lastReviewed": "2026-10-03",
-        "status": "Fiume Po: censito il progetto di estensione del PAI Po adottato con Del. CIP 13/2025 e le misure temporanee di salvaguardia. Sicilia: censiti VGP e mappe del PGRA III ciclo 2027–2033, senza confonderli con il PGRA II ciclo vigente. Restano validi i precedenti controlli su Sardegna, Alpi Orientali e Appennino Meridionale; la Delibera n. 6/2025 Calabria/Lao è ancora da leggere integralmente dal pacchetto ZIP."
+        "lastReviewed": "2026-10-04",
+        "status": "Appennino Centrale: censiti PAI idraulico e PAI frane adottati definitivamente con Del. CIP 67/2026 e 68/2026, misure di salvaguardia operative dal 04/06/2026, e variante efficace del Fiume Nestore (D.S. 139/2026). Appennino Settentrionale: censito il progetto di variante alle mappe di pericolosità da alluvione adottato con Del. CIP 62/2026, ancora in consultazione. Il link AUBAC del D.S. 148/2026 risulta errato e resta da risolvere."
       },
       {
         "name": "Regi decreti, demanio e bonifica",

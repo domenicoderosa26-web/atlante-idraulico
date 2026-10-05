@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-04",
+  "updatedAt": "2026-10-05",
   "scope": "Catalogo selettivo con controllo mirato dei CAM e della disciplina delle acque di prima pioggia per tutte le regioni. La verifica locale e autorizzativa resta necessaria.",
   "automation": {
     "enabled": true,
@@ -2086,7 +2086,7 @@
       "status": "Pianificazione distrettuale verificata",
       "source_kind": "Portale di pianificazione",
       "note": "Scheda di accesso al distretto, non una singola norma. Le regioni sono un filtro orientativo: i confini di bacino non coincidono con quelli amministrativi. Piani e varianti non ancora censiti integralmente.",
-      "checked": "2026-10-04",
+      "checked": "2026-10-05",
       "relations": [
         {
           "type": "PAI idraulico",
@@ -2099,6 +2099,14 @@
         {
           "type": "Variante Fiume Nestore",
           "id": "centr-pai-nestore-139-2026"
+        },
+        {
+          "type": "Variante idraulica Fiume Tronto",
+          "id": "centr-pai-tronto-140-2026"
+        },
+        {
+          "type": "Variante frane Offida",
+          "id": "centr-pai-offida-39-2026"
         }
       ],
       "history": [
@@ -2113,6 +2121,10 @@
         {
           "date": "2026-10-04",
           "text": "Verificate adozione definitiva dei PAI idraulico e frane, misure di salvaguardia operative dal 04/06/2026 e variante efficace del Fiume Nestore."
+        },
+        {
+          "date": "2026-10-05",
+          "text": "Censite la variante idraulica efficace del Fiume Tronto (D.S. 140/2026) e la variante frane di Offida (D.S. 39/2026)."
         }
       ],
       "document_url": "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO.pdf",
@@ -4578,6 +4590,132 @@
       "document_label": "Mappa variante pericolosità 2026",
       "document_note": "Servizio ArcGIS istituzionale; il layer espone classi PI1, PI2 e PI3 e lo stato di consultazione."
     }
+  ,
+    {
+      "id": "centr-pai-tronto-140-2026",
+      "ref": "D.S. AUBAC 140/2026",
+      "title": "Aggiornamento PAI Tronto · aree a rischio di esondazione del Fiume Tronto e affluenti",
+      "level": "Distrettuale",
+      "regions": [
+        "Marche",
+        "Abruzzo"
+      ],
+      "topics": [
+        "PAI",
+        "Pericolosità e rischio idraulico",
+        "Variante cartografica"
+      ],
+      "date": "2026-07-09",
+      "url": "https://www.aubac.it/news/notizie/rischio-idraulico-approvato-laggiornamento-delle-aree-rischio-di-esondazione-del-fiume-tronto-e-dei",
+      "documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3267&StwEvent=101",
+          "label": "Decreto segretariale 140/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURM%20n.%2068%20del%2023%20luglio%202026.pdf",
+          "label": "BUR Marche n. 68 del 23/07/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "label": "BUR Abruzzo n. 30 del 29/07/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        }
+      ],
+      "summary": "Aggiornamento definitivo delle aree a rischio di esondazione del Fiume Tronto e degli affluenti, dal ponte di Viale Rozzi ad Ascoli Piceno alla foce. Interessa nove comuni marchigiani e cinque comuni abruzzesi; le nuove perimetrazioni sono efficaci dalla prima pubblicazione nel BUR Marche del 23 luglio 2026.",
+      "focus": [
+        "Consultare le nuove perimetrazioni idrauliche",
+        "Verificare l’incidenza nei quattordici comuni interessati",
+        "Coordinare la variante con il PAI idraulico distrettuale adottato"
+      ],
+      "kind": "Variante PAI",
+      "status": "Aggiornamento definitivo · efficace dal 23/07/2026",
+      "source_kind": "Autorità di bacino distrettuale",
+      "note": "La notizia AUBAC documenta 21 osservazioni e l’allineamento contestuale del quadro conoscitivo del nuovo PAI idraulico distrettuale.",
+      "checked": "2026-10-05",
+      "relations": [
+        {
+          "type": "PAI distrettuale idraulico",
+          "id": "centr-pai-idraulico-67-2026"
+        },
+        {
+          "type": "Quadro distrettuale",
+          "id": "dist-centr"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-05",
+          "text": "Scheda creata dalla notizia istituzionale, dalla raccolta ufficiale dei decreti e dagli avvisi pubblicati nei BUR Marche e Abruzzo."
+        }
+      ],
+      "document_url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3267&StwEvent=101",
+      "document_label": "Decreto segretariale 140/2026",
+      "document_note": "Il dettaglio URBI ha restituito timeout; numero, data, oggetto, ambito ed efficacia sono verificati sulle pagine AUBAC e sui due bollettini regionali."
+    },
+    {
+      "id": "centr-pai-offida-39-2026",
+      "ref": "D.S. AUBAC 39/2026",
+      "title": "Aggiornamento PAI Tronto · perimetrazioni da frana nel Comune di Offida",
+      "level": "Distrettuale",
+      "regions": [
+        "Marche"
+      ],
+      "topics": [
+        "PAI",
+        "Pericolosità e rischio da frana",
+        "Variante cartografica"
+      ],
+      "date": "2026-02-19",
+      "url": "https://aubac.it/decreti-segretariali-di-pianificazione-2025",
+      "documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=2943&StwEvent=101",
+          "label": "Decreto segretariale 39/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-03/N20%20del%2026%20febbraio%202026_0.pdf",
+          "label": "BUR Marche n. 20 del 26/02/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        }
+      ],
+      "summary": "Aggiornamento definitivo del PAI Tronto nel Comune di Offida: eliminati i perimetri 293 (H3–R4) e 277 (H2–R1) e inseriti i nuovi perimetri 7011, 7012 e 7013 (H3–R3) e 7014 e 7015 (H2–R3). La pubblicazione è avvenuta nel BUR Marche n. 20 del 26 febbraio 2026.",
+      "focus": [
+        "Consultare i nuovi perimetri 7011–7015",
+        "Verificare la sostituzione dei perimetri 293 e 277",
+        "Applicare le nuove classi di pericolosità e rischio"
+      ],
+      "kind": "Variante PAI",
+      "status": "Aggiornamento definitivo · efficace",
+      "source_kind": "Autorità di bacino distrettuale",
+      "note": "La scheda è riportata in coda alla raccolta AUBAC 2025 perché il procedimento deriva dalla proposta D.S. 196/2025, ma l’atto definitivo è il D.S. 39/2026.",
+      "checked": "2026-10-05",
+      "relations": [
+        {
+          "type": "PAI distrettuale frane",
+          "id": "centr-pai-frane-68-2026"
+        },
+        {
+          "type": "Quadro distrettuale",
+          "id": "dist-centr"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-05",
+          "text": "Scheda creata dal dettaglio ufficiale del Decreto 39/2026, dalla raccolta AUBAC e dal BUR Marche n. 20 del 26/02/2026."
+        }
+      ],
+      "document_url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=2943&StwEvent=101",
+      "document_label": "Decreto segretariale 39/2026",
+      "document_note": "Atto definitivo richiamato dalla raccolta ufficiale AUBAC e dalla pubblicazione nel BUR Marche."
+    }
   ],
   "regions": [
     {
@@ -5195,6 +5333,49 @@
     }
   ],
   "runs": [
+    {
+      "date": "2026-10-05",
+      "type": "Ciclo automatico · verifica territoriale mirata · copertura parziale",
+      "summary": "Censite due varianti definitive del PAI Tronto: aggiornamento idraulico dal ponte di Viale Rozzi alla foce e aggiornamento delle perimetrazioni da frana nel Comune di Offida. Nessuna conclusione generale sull’assenza di ulteriori modifiche territoriali.",
+      "checked": [
+        "AUBAC: notizia istituzionale del 09/07/2026 sull’aggiornamento idraulico del Fiume Tronto, raccolta dei decreti segretariali 2026, avvisi nel BUR Marche n. 68 del 23/07/2026 e nel BUR Abruzzo n. 30 del 29/07/2026.",
+        "AUBAC: raccolta dei decreti segretariali 2025, dettaglio del Decreto 39/2026 e BUR Marche n. 20 del 26/02/2026 per la variante frane di Offida.",
+        "AUBAC: ricontrollato il collegamento del Decreto 148/2026 relativo a Penne, che continua a puntare al dettaglio del Decreto 120/2026."
+      ],
+      "read_urls": [
+        "https://www.aubac.it/news/notizie/rischio-idraulico-approvato-laggiornamento-delle-aree-rischio-di-esondazione-del-fiume-tronto-e-dei",
+        "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+        "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3267&StwEvent=101",
+        "https://cms.aubac.it/sites/default/files/2026-07/BURM%20n.%2068%20del%2023%20luglio%202026.pdf",
+        "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+        "https://aubac.it/decreti-segretariali-di-pianificazione-2025",
+        "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=2943&StwEvent=101",
+        "https://cms.aubac.it/sites/default/files/2026-03/N20%20del%2026%20febbraio%202026_0.pdf"
+      ],
+      "errors": [
+        "Il dettaglio URBI del Decreto 140/2026 ha restituito timeout; numero, data, oggetto, territori ed efficacia sono stati verificati sulla notizia AUBAC, nella raccolta ufficiale e negli avvisi dei due BUR. L’errore non è stato interpretato come assenza di aggiornamenti.",
+        "Il BUR Marche n. 68/2026 supera il limite di acquisizione integrale del servizio web; l’avviso e gli estremi di pubblicazione sono verificati dalla raccolta AUBAC, mentre il PDF diretto è stato conservato come fonte ufficiale.",
+        "Il collegamento AUBAC del Decreto 148/2026 continua a puntare al Decreto 120/2026; la variante di Penne non è stata censita senza un collegamento ufficiale corretto.",
+        "Il controllo è mirato e non equivale alla verifica integrale dei sette distretti, delle 20 regioni, dei comuni, dei gestori o di tutte le varianti puntuali."
+      ],
+      "sectors": [
+        "PAI Appennino Centrale"
+      ],
+      "territories": [
+        "Distretto dell’Appennino Centrale",
+        "Marche",
+        "Abruzzo"
+      ],
+      "new_records": [
+        "centr-pai-tronto-140-2026",
+        "centr-pai-offida-39-2026"
+      ],
+      "updated_records": [
+        "dist-centr",
+        "discovery:PAI, PGRA e prescrizioni distrettuali"
+      ],
+      "publication": "data_json_update"
+    },
     {
       "date": "2026-10-04",
       "type": "Ciclo automatico · verifica territoriale mirata · copertura parziale",
@@ -5959,6 +6140,13 @@
   ],
   "news": [
     {
+      "date": "2026-10-05",
+      "status": "Due nuove schede · varianti PAI efficaci",
+      "title": "PAI Tronto: censite le varianti del Fiume Tronto e di Offida",
+      "summary": "Il D.S. 140/2026 aggiorna le aree a rischio di esondazione dal ponte di Viale Rozzi alla foce in quattordici comuni di Marche e Abruzzo. Il D.S. 39/2026 sostituisce le perimetrazioni da frana 293 e 277 con i nuovi perimetri 7011–7015 nel Comune di Offida.",
+      "url": "https://www.aubac.it/news/notizie/rischio-idraulico-approvato-laggiornamento-delle-aree-rischio-di-esondazione-del-fiume-tronto-e-dei"
+    },
+    {
       "date": "2026-10-04",
       "status": "Quattro nuove schede · salvaguardie e varianti",
       "title": "Appennini: censiti i nuovi PAI AUBAC e due aggiornamenti cartografici",
@@ -6112,8 +6300,8 @@
       },
       {
         "name": "PAI, PGRA e prescrizioni distrettuali",
-        "lastReviewed": "2026-10-04",
-        "status": "Appennino Centrale: censiti PAI idraulico e PAI frane adottati definitivamente con Del. CIP 67/2026 e 68/2026, misure di salvaguardia operative dal 04/06/2026, e variante efficace del Fiume Nestore (D.S. 139/2026). Appennino Settentrionale: censito il progetto di variante alle mappe di pericolosità da alluvione adottato con Del. CIP 62/2026, ancora in consultazione. Il link AUBAC del D.S. 148/2026 risulta errato e resta da risolvere."
+        "lastReviewed": "2026-10-05",
+        "status": "Appennino Centrale: oltre ai PAI distrettuali e alla variante Nestore, censite la variante idraulica efficace del Fiume Tronto (D.S. 140/2026; BUR Marche 23/07/2026) e la variante frane di Offida (D.S. 39/2026; BUR Marche 26/02/2026). Appennino Settentrionale: resta censito il progetto di variante alle mappe di pericolosità adottato con Del. CIP 62/2026. Il link AUBAC del D.S. 148/2026 continua a rimandare al D.S. 120/2026 e resta da risolvere."
       },
       {
         "name": "Regi decreti, demanio e bonifica",

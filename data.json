@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-05",
+  "updatedAt": "2026-10-06",
   "scope": "Catalogo selettivo con controllo mirato dei CAM e della disciplina delle acque di prima pioggia per tutte le regioni. La verifica locale e autorizzativa resta necessaria.",
   "automation": {
     "enabled": true,
@@ -2086,7 +2086,7 @@
       "status": "Pianificazione distrettuale verificata",
       "source_kind": "Portale di pianificazione",
       "note": "Scheda di accesso al distretto, non una singola norma. Le regioni sono un filtro orientativo: i confini di bacino non coincidono con quelli amministrativi. Piani e varianti non ancora censiti integralmente.",
-      "checked": "2026-10-05",
+      "checked": "2026-10-06",
       "relations": [
         {
           "type": "PAI idraulico",
@@ -2107,6 +2107,34 @@
         {
           "type": "Variante frane Offida",
           "id": "centr-pai-offida-39-2026"
+        },
+        {
+          "type": "Variante frane D.S. 142/2026",
+          "id": "centr-pai-lettomanoppello-142-2026"
+        },
+        {
+          "type": "Variante frane D.S. 143/2026",
+          "id": "centr-pai-notaresco-143-2026"
+        },
+        {
+          "type": "Variante frane D.S. 144/2026",
+          "id": "centr-pai-notaresco-144-2026"
+        },
+        {
+          "type": "Variante frane D.S. 145/2026",
+          "id": "centr-pai-notaresco-145-2026"
+        },
+        {
+          "type": "Variante frane D.S. 146/2026",
+          "id": "centr-pai-pescara-146-2026"
+        },
+        {
+          "type": "Variante frane D.S. 147/2026",
+          "id": "centr-pai-spoltore-147-2026"
+        },
+        {
+          "type": "Variante frane D.S. 148/2026",
+          "id": "centr-pai-penne-148-2026"
         }
       ],
       "history": [
@@ -2125,6 +2153,10 @@
         {
           "date": "2026-10-05",
           "text": "Censite la variante idraulica efficace del Fiume Tronto (D.S. 140/2026) e la variante frane di Offida (D.S. 39/2026)."
+        },
+        {
+          "date": "2026-10-06",
+          "text": "Censite le sette varianti PAI-frane Abruzzo D.S. 142–148/2026, efficaci dalla pubblicazione nel BUR Abruzzo n. 30 del 29/07/2026."
         }
       ],
       "document_url": "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO.pdf",
@@ -4592,6 +4624,419 @@
     }
   ,
     {
+      "id": "centr-pai-lettomanoppello-142-2026",
+      "ref": "D.S. AUBAC 142/2026",
+      "title": "Aggiornamento PAI Abruzzo · dissesti nel capoluogo di Lettomanoppello",
+      "level": "Distrettuale",
+      "regions": [
+        "Abruzzo"
+      ],
+      "topics": [
+        "PAI",
+        "Pericolosità e rischio da frana",
+        "Variante cartografica"
+      ],
+      "date": "2026-07-15",
+      "url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+      "documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3273&StwEvent=101",
+          "label": "Decreto segretariale 142/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "label": "BUR Abruzzo n. 30 del 29/07/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        }
+      ],
+      "summary": "Aggiornamento definitivo del PAI frane nel capoluogo di Lettomanoppello: ampliamento di un corpo di frana a pericolosità molto elevata P3 e inserimento di ulteriori corpi di frana P3 nel centro storico e nella zona a sud-est del centro storico.",
+      "focus": [
+        "Consultare le nuove perimetrazioni P3",
+        "Verificare l’ampliamento del dissesto esistente",
+        "Coordinare l’aggiornamento con il PAI frane distrettuale"
+      ],
+      "kind": "Variante PAI",
+      "status": "Aggiornamento definitivo · efficace dal 29/07/2026",
+      "source_kind": "Autorità di bacino distrettuale",
+      "note": "Il BUR Abruzzo conferma l’immediata variante del PAI, l’allineamento del quadro conoscitivo del PAI frane distrettuale e l’efficacia dalla pubblicazione dell’avviso.",
+      "checked": "2026-10-06",
+      "relations": [
+        {
+          "type": "PAI distrettuale frane",
+          "id": "centr-pai-frane-68-2026"
+        },
+        {
+          "type": "Quadro distrettuale",
+          "id": "dist-centr"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-06",
+          "text": "Scheda creata dalla raccolta AUBAC e dall’avviso ufficiale nel BUR Abruzzo n. 30 del 29/07/2026; il dettaglio URBI del D.S. 142/2026 non è stato acquisito dal servizio di verifica."
+        }
+      ],
+      "document_url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3273&StwEvent=101",
+      "document_label": "Decreto segretariale 142/2026",
+      "document_note": "Collegamento ufficiale pubblicato nell’avviso del BUR Abruzzo; il portale URBI non è risultato acquisibile dal servizio di verifica."
+    },
+    {
+      "id": "centr-pai-notaresco-143-2026",
+      "ref": "D.S. AUBAC 143/2026",
+      "title": "Aggiornamento PAI Abruzzo · dissesti nel capoluogo di Notaresco",
+      "level": "Distrettuale",
+      "regions": [
+        "Abruzzo"
+      ],
+      "topics": [
+        "PAI",
+        "Pericolosità e rischio da frana",
+        "Variante cartografica"
+      ],
+      "date": "2026-07-15",
+      "url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+      "documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3274&StwEvent=101",
+          "label": "Decreto segretariale 143/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "label": "BUR Abruzzo n. 30 del 29/07/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        }
+      ],
+      "summary": "Aggiornamento definitivo del PAI frane nel Comune di Notaresco: inserimento di corpi di frana a pericolosità elevata P3 sul versante orientale del centro storico e nella zona di via Berlinguer.",
+      "focus": [
+        "Consultare le nuove perimetrazioni P3",
+        "Verificare il versante orientale del capoluogo",
+        "Verificare la zona di via Berlinguer"
+      ],
+      "kind": "Variante PAI",
+      "status": "Aggiornamento definitivo · efficace dal 29/07/2026",
+      "source_kind": "Autorità di bacino distrettuale",
+      "note": "Il BUR Abruzzo conferma l’immediata variante del PAI, l’allineamento del quadro conoscitivo del PAI frane distrettuale e l’efficacia dalla pubblicazione dell’avviso.",
+      "checked": "2026-10-06",
+      "relations": [
+        {
+          "type": "PAI distrettuale frane",
+          "id": "centr-pai-frane-68-2026"
+        },
+        {
+          "type": "Quadro distrettuale",
+          "id": "dist-centr"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-06",
+          "text": "Scheda creata dalla raccolta AUBAC e dall’avviso ufficiale nel BUR Abruzzo n. 30 del 29/07/2026; il dettaglio URBI del D.S. 143/2026 non è stato acquisito dal servizio di verifica."
+        }
+      ],
+      "document_url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3274&StwEvent=101",
+      "document_label": "Decreto segretariale 143/2026",
+      "document_note": "Collegamento ufficiale pubblicato nell’avviso del BUR Abruzzo; il portale URBI non è risultato acquisibile dal servizio di verifica."
+    },
+    {
+      "id": "centr-pai-notaresco-144-2026",
+      "ref": "D.S. AUBAC 144/2026",
+      "title": "Aggiornamento PAI Abruzzo · località Casette Grasciano a Notaresco",
+      "level": "Distrettuale",
+      "regions": [
+        "Abruzzo"
+      ],
+      "topics": [
+        "PAI",
+        "Pericolosità e rischio da frana",
+        "Variante cartografica"
+      ],
+      "date": "2026-07-15",
+      "url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+      "documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3275&StwEvent=101",
+          "label": "Decreto segretariale 144/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "label": "BUR Abruzzo n. 30 del 29/07/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        }
+      ],
+      "summary": "Aggiornamento definitivo del PAI frane relativo alla località Casette Grasciano nel Comune di Notaresco, compreso nel gruppo di varianti pubblicato nel BUR Abruzzo n. 30 del 29 luglio 2026.",
+      "focus": [
+        "Consultare la cartografia aggiornata",
+        "Verificare l’area di Casette Grasciano",
+        "Coordinare l’aggiornamento con il PAI frane distrettuale"
+      ],
+      "kind": "Variante PAI",
+      "status": "Aggiornamento definitivo · efficace dal 29/07/2026",
+      "source_kind": "Autorità di bacino distrettuale",
+      "note": "Il BUR Abruzzo conferma l’immediata variante del PAI, l’allineamento del quadro conoscitivo del PAI frane distrettuale e l’efficacia dalla pubblicazione dell’avviso.",
+      "checked": "2026-10-06",
+      "relations": [
+        {
+          "type": "PAI distrettuale frane",
+          "id": "centr-pai-frane-68-2026"
+        },
+        {
+          "type": "Quadro distrettuale",
+          "id": "dist-centr"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-06",
+          "text": "Scheda creata dalla raccolta AUBAC e dall’avviso ufficiale nel BUR Abruzzo n. 30 del 29/07/2026; il dettaglio URBI del D.S. 144/2026 non è stato acquisito dal servizio di verifica."
+        }
+      ],
+      "document_url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3275&StwEvent=101",
+      "document_label": "Decreto segretariale 144/2026",
+      "document_note": "Collegamento ufficiale pubblicato nell’avviso del BUR Abruzzo; il portale URBI non è risultato acquisibile dal servizio di verifica."
+    },
+    {
+      "id": "centr-pai-notaresco-145-2026",
+      "ref": "D.S. AUBAC 145/2026",
+      "title": "Aggiornamento PAI Abruzzo · Contrada Santa Croce a Notaresco",
+      "level": "Distrettuale",
+      "regions": [
+        "Abruzzo"
+      ],
+      "topics": [
+        "PAI",
+        "Pericolosità e rischio da frana",
+        "Variante cartografica"
+      ],
+      "date": "2026-07-15",
+      "url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+      "documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3276&StwEvent=101",
+          "label": "Decreto segretariale 145/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "label": "BUR Abruzzo n. 30 del 29/07/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        }
+      ],
+      "summary": "Aggiornamento definitivo del PAI frane relativo alla Contrada Santa Croce nel Comune di Notaresco, compreso nel gruppo di varianti pubblicato nel BUR Abruzzo n. 30 del 29 luglio 2026.",
+      "focus": [
+        "Consultare la cartografia aggiornata",
+        "Verificare l’area di Contrada Santa Croce",
+        "Coordinare l’aggiornamento con il PAI frane distrettuale"
+      ],
+      "kind": "Variante PAI",
+      "status": "Aggiornamento definitivo · efficace dal 29/07/2026",
+      "source_kind": "Autorità di bacino distrettuale",
+      "note": "Il BUR Abruzzo conferma l’immediata variante del PAI, l’allineamento del quadro conoscitivo del PAI frane distrettuale e l’efficacia dalla pubblicazione dell’avviso.",
+      "checked": "2026-10-06",
+      "relations": [
+        {
+          "type": "PAI distrettuale frane",
+          "id": "centr-pai-frane-68-2026"
+        },
+        {
+          "type": "Quadro distrettuale",
+          "id": "dist-centr"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-06",
+          "text": "Scheda creata dalla raccolta AUBAC e dall’avviso ufficiale nel BUR Abruzzo n. 30 del 29/07/2026; il dettaglio URBI del D.S. 145/2026 non è stato acquisito dal servizio di verifica."
+        }
+      ],
+      "document_url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3276&StwEvent=101",
+      "document_label": "Decreto segretariale 145/2026",
+      "document_note": "Collegamento ufficiale pubblicato nell’avviso del BUR Abruzzo; il portale URBI non è risultato acquisibile dal servizio di verifica."
+    },
+    {
+      "id": "centr-pai-pescara-146-2026",
+      "ref": "D.S. AUBAC 146/2026",
+      "title": "Aggiornamento PAI Abruzzo · Strada del Palazzo nel Comune di Pescara",
+      "level": "Distrettuale",
+      "regions": [
+        "Abruzzo"
+      ],
+      "topics": [
+        "PAI",
+        "Pericolosità e rischio da frana",
+        "Variante cartografica"
+      ],
+      "date": "2026-07-15",
+      "url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+      "documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3277&StwEvent=101",
+          "label": "Decreto segretariale 146/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "label": "BUR Abruzzo n. 30 del 29/07/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        }
+      ],
+      "summary": "Aggiornamento definitivo del PAI frane in Strada del Palazzo a Pescara: eliminazione di un corpo di frana di colamento a pericolosità elevata P2 e di un orlo di scarpata di frana a pericolosità PS.",
+      "focus": [
+        "Verificare l’eliminazione del dissesto P2",
+        "Verificare la rimozione dell’orlo di scarpata PS",
+        "Consultare la cartografia aggiornata"
+      ],
+      "kind": "Variante PAI",
+      "status": "Aggiornamento definitivo · efficace dal 29/07/2026",
+      "source_kind": "Autorità di bacino distrettuale",
+      "note": "Il BUR Abruzzo conferma l’immediata variante del PAI, l’allineamento del quadro conoscitivo del PAI frane distrettuale e l’efficacia dalla pubblicazione dell’avviso.",
+      "checked": "2026-10-06",
+      "relations": [
+        {
+          "type": "PAI distrettuale frane",
+          "id": "centr-pai-frane-68-2026"
+        },
+        {
+          "type": "Quadro distrettuale",
+          "id": "dist-centr"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-06",
+          "text": "Scheda creata dalla raccolta AUBAC e dall’avviso ufficiale nel BUR Abruzzo n. 30 del 29/07/2026; il dettaglio URBI del D.S. 146/2026 non è stato acquisito dal servizio di verifica."
+        }
+      ],
+      "document_url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3277&StwEvent=101",
+      "document_label": "Decreto segretariale 146/2026",
+      "document_note": "Collegamento ufficiale pubblicato nell’avviso del BUR Abruzzo; il portale URBI non è risultato acquisibile dal servizio di verifica."
+    },
+    {
+      "id": "centr-pai-spoltore-147-2026",
+      "ref": "D.S. AUBAC 147/2026",
+      "title": "Aggiornamento PAI Abruzzo · Villa Santa Maria nel Comune di Spoltore",
+      "level": "Distrettuale",
+      "regions": [
+        "Abruzzo"
+      ],
+      "topics": [
+        "PAI",
+        "Pericolosità e rischio da frana",
+        "Variante cartografica"
+      ],
+      "date": "2026-07-15",
+      "url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+      "documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3278&StwEvent=101",
+          "label": "Decreto segretariale 147/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "label": "BUR Abruzzo n. 30 del 29/07/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        }
+      ],
+      "summary": "Aggiornamento definitivo del PAI frane nella frazione Villa Santa Maria di Spoltore mediante inserimento di una nuova area a pericolosità molto elevata P3.",
+      "focus": [
+        "Consultare la nuova perimetrazione P3",
+        "Verificare l’incidenza nella frazione Villa Santa Maria",
+        "Coordinare l’aggiornamento con il PAI frane distrettuale"
+      ],
+      "kind": "Variante PAI",
+      "status": "Aggiornamento definitivo · efficace dal 29/07/2026",
+      "source_kind": "Autorità di bacino distrettuale",
+      "note": "Il BUR Abruzzo conferma l’immediata variante del PAI, l’allineamento del quadro conoscitivo del PAI frane distrettuale e l’efficacia dalla pubblicazione dell’avviso.",
+      "checked": "2026-10-06",
+      "relations": [
+        {
+          "type": "PAI distrettuale frane",
+          "id": "centr-pai-frane-68-2026"
+        },
+        {
+          "type": "Quadro distrettuale",
+          "id": "dist-centr"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-06",
+          "text": "Scheda creata dalla raccolta AUBAC e dall’avviso ufficiale nel BUR Abruzzo n. 30 del 29/07/2026; il dettaglio URBI del D.S. 147/2026 non è stato acquisito dal servizio di verifica."
+        }
+      ],
+      "document_url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3278&StwEvent=101",
+      "document_label": "Decreto segretariale 147/2026",
+      "document_note": "Collegamento ufficiale pubblicato nell’avviso del BUR Abruzzo; il portale URBI non è risultato acquisibile dal servizio di verifica."
+    },
+    {
+      "id": "centr-pai-penne-148-2026",
+      "ref": "D.S. AUBAC 148/2026",
+      "title": "Aggiornamento PAI Abruzzo · dissesti nel Comune di Penne",
+      "level": "Distrettuale",
+      "regions": [
+        "Abruzzo"
+      ],
+      "topics": [
+        "PAI",
+        "Pericolosità e rischio da frana",
+        "Variante cartografica"
+      ],
+      "date": "2026-07-15",
+      "url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+      "documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3279&StwEvent=101",
+          "label": "Decreto segretariale 148/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "label": "BUR Abruzzo n. 30 del 29/07/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        }
+      ],
+      "summary": "Aggiornamento definitivo del PAI frane mediante inserimento e modifica di dissesti in località varie del Comune di Penne. Il collegamento corretto al decreto è stato ricostruito dall’avviso ufficiale del BUR Abruzzo.",
+      "focus": [
+        "Consultare le perimetrazioni aggiornate",
+        "Individuare le località interessate nel Comune di Penne",
+        "Coordinare l’aggiornamento con il PAI frane distrettuale"
+      ],
+      "kind": "Variante PAI",
+      "status": "Aggiornamento definitivo · efficace dal 29/07/2026",
+      "source_kind": "Autorità di bacino distrettuale",
+      "note": "Il BUR Abruzzo conferma l’immediata variante del PAI, l’allineamento del quadro conoscitivo del PAI frane distrettuale e l’efficacia dalla pubblicazione dell’avviso.",
+      "checked": "2026-10-06",
+      "relations": [
+        {
+          "type": "PAI distrettuale frane",
+          "id": "centr-pai-frane-68-2026"
+        },
+        {
+          "type": "Quadro distrettuale",
+          "id": "dist-centr"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-06",
+          "text": "Scheda creata dalla raccolta AUBAC e dall’avviso ufficiale nel BUR Abruzzo n. 30 del 29/07/2026; il dettaglio URBI del D.S. 148/2026 non è stato acquisito dal servizio di verifica."
+        }
+      ],
+      "document_url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3279&StwEvent=101",
+      "document_label": "Decreto segretariale 148/2026",
+      "document_note": "Collegamento ufficiale pubblicato nell’avviso del BUR Abruzzo; il portale URBI non è risultato acquisibile dal servizio di verifica."
+    },
+    {
       "id": "centr-pai-tronto-140-2026",
       "ref": "D.S. AUBAC 140/2026",
       "title": "Aggiornamento PAI Tronto · aree a rischio di esondazione del Fiume Tronto e affluenti",
@@ -5333,6 +5778,53 @@
     }
   ],
   "runs": [
+    {
+      "date": "2026-10-06",
+      "type": "Ciclo automatico · verifica territoriale mirata · copertura parziale",
+      "summary": "Censite sette varianti definitive del PAI-frane Abruzzo, efficaci dal 29 luglio 2026; risolto tramite il BUR Abruzzo il collegamento del D.S. 148/2026 relativo a Penne. Nessuna conclusione generale sull’assenza di ulteriori modifiche territoriali.",
+      "checked": [
+        "AUBAC: raccolta dei decreti segretariali di pianificazione 2026 e avviso nel BUR Abruzzo n. 30 del 29/07/2026 per i D.S. 142–148/2026.",
+        "Provincia autonoma di Bolzano: pagina ufficiale delle delibere e risultati visibili dell’ultima seduta del 02/10/2026; nessun atto PZP tra i contenuti mostrati.",
+        "Autorità di Bacino della Sicilia: pagina istituzionale e notizie visibili fino al 29/09/2026; nessun nuovo atto PAI/PGRA tra i contenuti mostrati."
+      ],
+      "read_urls": [
+        "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+        "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+        "https://giunta-provinciale.provincia.bz.it/it/delibere",
+        "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia"
+      ],
+      "errors": [
+        "I dettagli URBI dei D.S. 142–148/2026 non sono stati acquisiti dal servizio web; numero, data, oggetto, collegamenti ufficiali ed efficacia sono stati verificati nella raccolta AUBAC e nel BUR Abruzzo. L’errore non è stato interpretato come assenza di aggiornamenti.",
+        "La pagina delle varianti PAI Sardegna è andata in timeout; la fonte non è stata considerata controllata e non è stata dedotta assenza di modifiche.",
+        "I controlli Bolzano e Sicilia sono limitati ai contenuti mostrati dalle pagine istituzionali e non equivalgono a una ricerca integrale negli archivi.",
+        "Il controllo è mirato e non equivale alla verifica integrale dei sette distretti, delle 20 regioni, dei comuni, dei gestori o di tutte le varianti puntuali."
+      ],
+      "sectors": [
+        "PAI Appennino Centrale",
+        "PZP Bolzano",
+        "PAI/PGRA Sicilia"
+      ],
+      "territories": [
+        "Distretto dell’Appennino Centrale",
+        "Abruzzo",
+        "Provincia autonoma di Bolzano",
+        "Sicilia"
+      ],
+      "new_records": [
+        "centr-pai-lettomanoppello-142-2026",
+        "centr-pai-notaresco-143-2026",
+        "centr-pai-notaresco-144-2026",
+        "centr-pai-notaresco-145-2026",
+        "centr-pai-pescara-146-2026",
+        "centr-pai-spoltore-147-2026",
+        "centr-pai-penne-148-2026"
+      ],
+      "updated_records": [
+        "dist-centr",
+        "discovery:PAI, PGRA e prescrizioni distrettuali"
+      ],
+      "publication": "data_json_update"
+    },
     {
       "date": "2026-10-05",
       "type": "Ciclo automatico · verifica territoriale mirata · copertura parziale",
@@ -6140,6 +6632,13 @@
   ],
   "news": [
     {
+      "date": "2026-10-06",
+      "status": "Sette nuove schede · varianti PAI-frane efficaci",
+      "title": "PAI Abruzzo: censite sette varianti definitive da Lettomanoppello a Penne",
+      "summary": "I D.S. AUBAC 142–148/2026 aggiornano le perimetrazioni da frana nei Comuni di Lettomanoppello, Notaresco, Pescara, Spoltore e Penne. Gli aggiornamenti sono efficaci dalla pubblicazione nel BUR Abruzzo n. 30 del 29 luglio 2026.",
+      "url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026"
+    },
+    {
       "date": "2026-10-05",
       "status": "Due nuove schede · varianti PAI efficaci",
       "title": "PAI Tronto: censite le varianti del Fiume Tronto e di Offida",
@@ -6300,8 +6799,8 @@
       },
       {
         "name": "PAI, PGRA e prescrizioni distrettuali",
-        "lastReviewed": "2026-10-05",
-        "status": "Appennino Centrale: oltre ai PAI distrettuali e alla variante Nestore, censite la variante idraulica efficace del Fiume Tronto (D.S. 140/2026; BUR Marche 23/07/2026) e la variante frane di Offida (D.S. 39/2026; BUR Marche 26/02/2026). Appennino Settentrionale: resta censito il progetto di variante alle mappe di pericolosità adottato con Del. CIP 62/2026. Il link AUBAC del D.S. 148/2026 continua a rimandare al D.S. 120/2026 e resta da risolvere."
+        "lastReviewed": "2026-10-06",
+        "status": "Appennino Centrale: censite anche le sette varianti PAI-frane Abruzzo D.S. 142–148/2026, efficaci dal 29/07/2026; il BUR ha consentito di ricostruire il collegamento corretto del D.S. 148/2026. Restano da acquisire integralmente i dettagli URBI e da proseguire il censimento delle varianti puntuali."
       },
       {
         "name": "Regi decreti, demanio e bonifica",

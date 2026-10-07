@@ -1,13 +1,6 @@
 {
-  "schemaVersion": 1,
+  "version": 2,
   "categories": [
-    {
-      "id": "demanio",
-      "label": "Demanio e polizia idraulica",
-      "aliases": [],
-      "quick": true,
-      "contextual": false
-    },
     {
       "id": "attraversamenti",
       "label": "Attraversamenti e parallelismi",
@@ -21,12 +14,28 @@
       "contextual": false
     },
     {
-      "id": "drenaggio",
-      "label": "Drenaggio e acque meteoriche",
+      "id": "autorizzazioni",
+      "label": "Autorizzazioni ambientali",
       "aliases": [
-        "Drenaggio",
-        "Acque meteoriche"
+        "Autorizzazioni"
       ],
+      "quick": false,
+      "contextual": false
+    },
+    {
+      "id": "bonifica",
+      "label": "Bonifica e consorzi",
+      "aliases": [
+        "Bonifica",
+        "Consorzi di bonifica"
+      ],
+      "quick": false,
+      "contextual": false
+    },
+    {
+      "id": "demanio",
+      "label": "Demanio e polizia idraulica",
+      "aliases": [],
       "quick": true,
       "contextual": false
     },
@@ -39,57 +48,6 @@
       ],
       "quick": true,
       "contextual": false
-    },
-    {
-      "id": "prima-pioggia",
-      "label": "Prima pioggia",
-      "aliases": [],
-      "quick": true,
-      "contextual": false
-    },
-    {
-      "id": "scarichi",
-      "label": "Scarichi e tutela delle acque",
-      "aliases": [
-        "Scarichi e tutela acque"
-      ],
-      "quick": false,
-      "contextual": false
-    },
-    {
-      "id": "risorse",
-      "label": "Risorse idriche e derivazioni",
-      "aliases": [
-        "Derivazioni e risorsa idrica",
-        "Risorse idriche"
-      ],
-      "quick": false,
-      "contextual": false
-    },
-    {
-      "id": "riuso",
-      "label": "Riuso delle acque",
-      "aliases": [
-        "Riuso"
-      ],
-      "quick": false,
-      "contextual": false
-    },
-    {
-      "id": "cam",
-      "label": "CAM - Gestione sostenibile delle acque",
-      "aliases": [
-        "CAM"
-      ],
-      "quick": true,
-      "contextual": false
-    },
-    {
-      "id": "pai-idraulico",
-      "label": "PAI - Pericolosità e rischio idraulico",
-      "aliases": [],
-      "quick": true,
-      "contextual": true
     },
     {
       "id": "pai-frane",
@@ -106,6 +64,13 @@
       "contextual": true
     },
     {
+      "id": "pai-idraulico",
+      "label": "PAI - Pericolosità e rischio idraulico",
+      "aliases": [],
+      "quick": true,
+      "contextual": true
+    },
+    {
       "id": "pgra",
       "label": "PGRA - Pericolosità alluvioni",
       "aliases": [],
@@ -114,65 +79,44 @@
     },
     {
       "id": "pzp",
-      "label": "PZP - Pericolosità e rischio",
-      "aliases": [
-        "PZP"
-      ],
+      "label": "PZP - Pericolosità e rischio idraulico",
+      "aliases": [],
       "quick": false,
       "contextual": true
     },
     {
-      "id": "salvaguardia",
-      "label": "Misure di salvaguardia",
+      "id": "riuso",
+      "label": "Riuso delle acque meteoriche",
       "aliases": [],
       "quick": false,
-      "contextual": false
+      "contextual": true
     },
     {
-      "id": "dissesto",
-      "label": "Dissesto idrogeologico e stabilità dei versanti",
-      "aliases": [],
-      "quick": false,
-      "contextual": false
-    },
-    {
-      "id": "valanghe",
-      "label": "Valanghe",
-      "aliases": [],
-      "quick": false,
-      "contextual": false
-    },
-    {
-      "id": "compatibilita",
-      "label": "Compatibilità idraulica",
-      "aliases": [],
-      "quick": false,
-      "contextual": false
-    },
-    {
-      "id": "bonifica",
-      "label": "Bonifica e consorzi",
+      "id": "scarichi",
+      "label": "Scarichi e tutela delle acque",
       "aliases": [
-        "Bonifica",
-        "Consorzi di bonifica"
+        "Scarichi e tutela acque"
       ],
       "quick": false,
       "contextual": false
     },
     {
-      "id": "autorizzazioni",
-      "label": "Autorizzazioni ambientali",
+      "id": "drenaggio",
+      "label": "Smaltimento acque meteoriche e reflue",
       "aliases": [
-        "Autorizzazioni"
+        "Drenaggio",
+        "Drenaggio e acque meteoriche"
       ],
-      "quick": false,
+      "quick": true,
       "contextual": false
     },
     {
-      "id": "quadro-alluvioni",
-      "label": "Pianificazione e gestione del rischio alluvioni",
-      "aliases": [],
-      "quick": false,
+      "id": "prima-pioggia",
+      "label": "Trattamento acque di prima pioggia",
+      "aliases": [
+        "Prima pioggia"
+      ],
+      "quick": true,
       "contextual": false
     }
   ],
@@ -212,6 +156,48 @@
     },
     "Variante cartografica": {
       "resolve": "plan"
+    },
+    "PZP": {
+      "resolve": "plan"
+    },
+    "PZP - Pericolosità e rischio": {
+      "resolve": "plan"
+    },
+    "Compatibilità idraulica": {
+      "resolve": "invariance"
+    },
+    "Misure di salvaguardia": {
+      "resolve": "plan"
+    },
+    "Valanghe": {
+      "resolve": "landslide"
+    },
+    "Dissesto idrogeologico e stabilità dei versanti": {
+      "resolve": "landslide"
+    },
+    "Pianificazione e gestione del rischio alluvioni": {
+      "resolve": "hydraulic"
+    },
+    "Risorse idriche e derivazioni": {
+      "resolve": "water"
+    },
+    "Derivazioni e risorsa idrica": {
+      "resolve": "water"
+    },
+    "Risorse idriche": {
+      "resolve": "water"
+    },
+    "Riuso": {
+      "resolve": "water"
+    },
+    "Riuso delle acque": {
+      "resolve": "water"
+    },
+    "CAM": {
+      "resolve": "drainage"
+    },
+    "CAM - Gestione sostenibile delle acque": {
+      "resolve": "drainage"
     }
   },
   "inference_rules": [
@@ -323,74 +309,1138 @@
             "ref"
           ],
           "pattern": "\\bpzp\\b|piano delle zone di pericolo"
-        }
-      ]
-    },
-    {
-      "topics": [
-        "pzp"
-      ],
-      "all": [
-        {
-          "fields": [
-            "title"
-          ],
-          "pattern": "interventi nelle zone di pericolo"
         },
-        {
-          "fields": [
-            "ref"
-          ],
-          "pattern": "23/2019"
-        },
-        {
-          "fields": [
-            "regions"
-          ],
-          "pattern": "trentino-alto adige"
-        }
-      ]
-    },
-    {
-      "topics": [
-        "dissesto"
-      ],
-      "all": [
         {
           "fields": [
             "title",
             "summary"
           ],
-          "pattern": "fran[ae]|stabilita dei versanti"
+          "pattern": "pericolo idraulic|pericoli idraulic|componente idraulica|componenti idraulica|bacino idrico"
         }
+      ]
+    },
+    {
+      "topics": [
+        "pai-frane"
       ],
-      "unless_topics": [
-        "pai-frane",
-        "pai-geomorfologico"
+      "all": [
+        {
+          "fields": [
+            "title",
+            "ref"
+          ],
+          "pattern": "\\bpzp\\b|piano delle zone di pericolo"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "pattern": "carta delle zone di pericolo da frana|componenti frane e valanghe|componente frane|area di accumulo della valanga"
+        }
+      ]
+    },
+    {
+      "topics": [
+        "invarianza"
+      ],
+      "all": [
+        {
+          "fields": [
+            "title",
+            "ref"
+          ],
+          "pattern": "invarianza idraulica|invarianza idrologica"
+        }
+      ]
+    },
+    {
+      "topics": [
+        "prima-pioggia"
+      ],
+      "all": [
+        {
+          "fields": [
+            "title",
+            "ref"
+          ],
+          "pattern": "prima pioggia|prime piogge|separatori di liquidi leggeri"
+        }
+      ]
+    },
+    {
+      "topics": [
+        "scarichi"
+      ],
+      "all": [
+        {
+          "fields": [
+            "title",
+            "ref"
+          ],
+          "pattern": "scarich|tutela delle acque|direttiva quadro sulle acque|riutilizzo (?:dell.acqua|delle acque reflue)"
+        }
+      ]
+    },
+    {
+      "topics": [
+        "attraversamenti"
+      ],
+      "all": [
+        {
+          "fields": [
+            "title",
+            "ref"
+          ],
+          "pattern": "attraversament|parallelism"
+        }
+      ]
+    },
+    {
+      "topics": [
+        "drenaggio"
+      ],
+      "all": [
+        {
+          "fields": [
+            "title",
+            "ref"
+          ],
+          "pattern": "drenaggio|collettori di fognatura|reti di smaltimento"
+        }
+      ]
+    },
+    {
+      "topics": [
+        "riuso"
+      ],
+      "all": [
+        {
+          "fields": [
+            "title",
+            "ref"
+          ],
+          "pattern": "(?:riuso|riutilizzo|recupero) delle acque meteoriche"
+        }
+      ]
+    },
+    {
+      "topics": [
+        "demanio"
+      ],
+      "all": [
+        {
+          "fields": [
+            "title",
+            "ref"
+          ],
+          "pattern": "demanio|polizia (?:delle acque|idraulica)|acque pubbliche e derivazioni"
+        }
+      ]
+    },
+    {
+      "topics": [
+        "bonifica"
+      ],
+      "all": [
+        {
+          "fields": [
+            "title",
+            "ref"
+          ],
+          "pattern": "bonifica|bonificazion|consorzi di bonifica"
+        }
+      ]
+    },
+    {
+      "topics": [
+        "autorizzazioni"
+      ],
+      "all": [
+        {
+          "fields": [
+            "title",
+            "ref"
+          ],
+          "pattern": "autorizzazione unica ambientale|autorizzazione integrata ambientale|valutazione (?:di impatto|ambientale strategica)"
+        }
       ]
     }
   ],
   "reviewed_records": {
+    "rd523": {
+      "topics": [
+        "attraversamenti",
+        "demanio"
+      ],
+      "source_urls": [
+        "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=004U0523&atto.dataPubblicazioneGazzetta=1904-10-07&tipoSerie=serie_generale&tipoVigenza=originario",
+        "https://www.gazzettaufficiale.it/eli/gu/1904/10/07/234/sg/pdf",
+        "https://www.mase.gov.it/portale/documents/d/guest/rd_25-7-1904_n-523-pdf-1"
+      ],
+      "object_versions": [
+        {
+          "title": "Opere idrauliche e polizia delle acque",
+          "ref": "R.D. 523/1904",
+          "summary": "Testo unico di riferimento per le opere idrauliche e gli interventi sui corsi d’acqua pubblici.",
+          "focus": [
+            "Divieti e distanze di rispetto",
+            "Autorizzazioni per opere in alveo",
+            "Interferenze con ponti, strade e ferrovie"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Testo unico di riferimento per le opere idrauliche e gli interventi sui corsi d’acqua pubblici. Focus: Divieti e distanze di rispetto; Autorizzazioni per opere in alveo; Interferenze con ponti, strade e ferrovie"
+    },
+    "rd1775": {
+      "topics": [
+        "demanio"
+      ],
+      "source_urls": [
+        "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=033U1775&atto.dataPubblicazioneGazzetta=1934-01-08&tipoSerie=serie_generale&tipoVigenza=originario",
+        "https://www.gazzettaufficiale.it/eli/gu/1934/01/08/5/sg/pdf",
+        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1933-12-11;1775"
+      ],
+      "object_versions": [
+        {
+          "title": "Acque pubbliche e derivazioni",
+          "ref": "R.D. 1775/1933",
+          "summary": "Testo unico sulle acque e sugli impianti elettrici, rilevante per concessioni e utilizzazioni della risorsa.",
+          "focus": [
+            "Derivazioni e concessioni",
+            "Compatibilità con le utilizzazioni esistenti",
+            "Coordinamento con la disciplina regionale"
+          ]
+        }
+      ],
+      "evidence": "Concessioni e utilizzazioni delle acque pubbliche: ricondotte al demanio."
+    },
+    "rd368": {
+      "topics": [
+        "bonifica",
+        "demanio"
+      ],
+      "source_urls": [
+        "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=004U0368&atto.dataPubblicazioneGazzetta=1904-07-28&tipoSerie=serie_generale&tipoVigenza=originario",
+        "https://www.gazzettaufficiale.it/eli/gu/1904/07/28/176/sg/pdf",
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=004U0368&atto.dataPubblicazioneGazzetta=1904-07-28"
+      ],
+      "object_versions": [
+        {
+          "title": "Regolamento sulle bonificazioni",
+          "ref": "R.D. 368/1904",
+          "summary": "Disciplina delle opere di bonifica e dei relativi canali.",
+          "focus": [
+            "Regime del reticolo di bonifica",
+            "Opere interferenti e distanze",
+            "Prescrizioni del consorzio competente"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Disciplina delle opere di bonifica e dei relativi canali. Focus: Regime del reticolo di bonifica; Opere interferenti e distanze; Prescrizioni del consorzio competente"
+    },
+    "rd215": {
+      "topics": [
+        "bonifica"
+      ],
+      "source_urls": [
+        "https://www.provincia.tn.it/Amministrazione/Documenti/Regio-Decreto-13-febbraio-1933-n.-215",
+        "https://www.provinz.bz.it/agricoltura/download/RD_215-1933.pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Nuove norme per la bonifica integrale",
+          "ref": "R.D. 215/1933",
+          "summary": "Riferimento storico nazionale per opere di bonifica integrale, comprensori e consorzi di bonifica.",
+          "focus": [
+            "Classificazione e attuazione delle opere di bonifica",
+            "Competenze dei consorzi",
+            "Manutenzione e contribuenza"
+          ]
+        }
+      ],
+      "evidence": "Opere, competenze e contribuenza di bonifica: unica materia sostanziale; eliminato il demanio generico."
+    },
+    "dl152": {
+      "topics": [
+        "demanio",
+        "scarichi",
+        "drenaggio",
+        "prima-pioggia"
+      ],
+      "source_urls": [
+        "https://www.gazzettaufficiale.it/eli/gu/2006/04/14/88/so/96/sg/pdf",
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2006-04-14&atto.codiceRedazionale=006G0171"
+      ],
+      "object_versions": [
+        {
+          "title": "Testo unico ambientale (TUA) · Norme in materia ambientale · Parte III",
+          "ref": "D.Lgs. 152/2006",
+          "summary": "Riferimento nazionale per difesa del suolo, pianificazione di bacino, tutela delle acque, fognature, scarichi e risorse idriche. Indice tematico delle disposizioni da consultare.",
+          "focus": [
+            "Artt. 53–72: difesa del suolo; autorità distrettuali, distretti, piani di bacino e piani stralcio per l’assetto idrogeologico (in particolare artt. 63–68).",
+            "Artt. 94–95: aree di salvaguardia delle acque destinate al consumo umano e pianificazione del bilancio idrico.",
+            "Artt. 98–99: risparmio e riutilizzo delle acque; ricostruire anche la disciplina attuativa e il quadro europeo del riuso.",
+            "Art. 100: reti fognarie. Artt. 101–108: criteri generali e disciplina degli scarichi, differenziata per recapito e tipologia.",
+            "Art. 113: acque meteoriche di dilavamento e di prima pioggia; raccordo con le discipline regionali.",
+            "Art. 114: dighe e gestione degli invasi. Art. 115: tutela delle aree di pertinenza dei corpi idrici.",
+            "Art. 121: piani di tutela delle acque (PTA). Artt. 124–125: autorizzazioni agli scarichi e domande.",
+            "Artt. 128–130: controllo degli scarichi e inosservanza delle prescrizioni. Artt. 133 e 137: apparato sanzionatorio.",
+            "Allegato 5 alla Parte III: limiti di emissione degli scarichi. Verificare tabelle pertinenti, deroghe e prescrizioni locali.",
+            "Parte II: verificare VIA, VAS e AIA quando pertinenti al progetto; il titolo allo scarico non esaurisce gli adempimenti dell’opera."
+          ]
+        }
+      ],
+      "evidence": "Parte III: art. 100 reti fognarie, artt. 101–108 e 124–130 scarichi, art. 113 prima pioggia, art. 115 pertinenze idriche. Riuso generale/refluo non equiparato al riuso meteorico; rinvii generali alla pianificazione non producono tag di piano."
+    },
+    "dl49": {
+      "topics": [
+        "pgra"
+      ],
+      "source_urls": [
+        "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=010G0071&atto.dataPubblicazioneGazzetta=2010-04-02&tipoSerie=serie_generale&tipoVigenza=originario",
+        "https://www.gazzettaufficiale.it/eli/gu/2010/04/02/77/sg/pdf",
+        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-02-23;49"
+      ],
+      "object_versions": [
+        {
+          "title": "Valutazione e gestione dei rischi di alluvioni",
+          "ref": "D.Lgs. 49/2010",
+          "summary": "Riferimento nazionale per l’attuazione della direttiva Alluvioni e il processo di pianificazione PGRA.",
+          "focus": [
+            "Mappe di pericolosità e rischio",
+            "Piani di gestione del rischio alluvioni",
+            "Cicli di aggiornamento"
+          ]
+        }
+      ],
+      "evidence": "Mappe e processo di pianificazione PGRA: norma quadro sostanziale del tema alluvioni; non qualificata come atto di approvazione del piano."
+    },
+    "ntc18": {
+      "topics": [
+        "attraversamenti"
+      ],
+      "source_urls": [
+        "https://www.gazzettaufficiale.it/eli/gu/2018/02/20/42/so/8/sg/pdf",
+        "https://www.gazzettaufficiale.it/eli/id/2018/2/20/18A00716/sg"
+      ],
+      "object_versions": [
+        {
+          "title": "Norme tecniche per le costruzioni",
+          "ref": "D.M. 17/01/2018",
+          "summary": "Riferimento tecnico per le costruzioni, da consultare per le verifiche idrauliche dei ponti e delle opere interferenti.",
+          "focus": [
+            "Compatibilità idraulica dei ponti",
+            "Franco e interferenza con la corrente",
+            "Scalzamento e fondazioni"
+          ]
+        }
+      ],
+      "evidence": "Verifiche idrauliche dei ponti, franco e scalzamento: attraversamenti; eliminato drenaggio non sostanziale nel focus."
+    },
+    "ue60": {
+      "topics": [
+        "scarichi"
+      ],
+      "source_urls": [
+        "https://eur-lex.europa.eu/eli/dir/2000/60/oj?locale=it",
+        "https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:32000L0060"
+      ],
+      "object_versions": [
+        {
+          "title": "Direttiva quadro sulle acque",
+          "ref": "Direttiva 2000/60/CE",
+          "summary": "Quadro europeo per la protezione delle acque e gli obiettivi ambientali dei corpi idrici.",
+          "focus": [
+            "Stato dei corpi idrici",
+            "Obiettivi ambientali",
+            "Pianificazione distrettuale"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Quadro europeo per la protezione delle acque e gli obiettivi ambientali dei corpi idrici. Focus: Stato dei corpi idrici; Obiettivi ambientali; Pianificazione distrettuale"
+    },
+    "ueall": {
+      "topics": [
+        "pgra"
+      ],
+      "source_urls": [
+        "https://eur-lex.europa.eu/eli/dir/2007/60/oj?locale=it",
+        "https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:32007L0060"
+      ],
+      "object_versions": [
+        {
+          "title": "Direttiva Alluvioni",
+          "ref": "Direttiva 2007/60/CE",
+          "summary": "Quadro europeo per la valutazione e la gestione del rischio alluvioni.",
+          "focus": [
+            "Valutazione preliminare",
+            "Mappe e piani",
+            "Coordinamento con la direttiva Acque"
+          ]
+        }
+      ],
+      "evidence": "Direttiva fondativa delle mappe e piani di rischio alluvionale; categoria PGRA usata come tema della pianificazione alluvionale."
+    },
+    "lom7": {
+      "topics": [
+        "invarianza"
+      ],
+      "source_urls": [
+        "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf",
+        "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/Accessibile/main.aspx?iddoc=rr002017112300007&view=showdoc",
+        "https://www.regione.lombardia.it/ambiente-e-territorio/difesa-del-suolo/invarianza-idraulica-idrologica"
+      ],
+      "object_versions": [
+        {
+          "title": "Invarianza idraulica e idrologica",
+          "ref": "R.R. 7/2017",
+          "summary": "Criteri e metodi regionali per il controllo del deflusso prodotto dalle trasformazioni del suolo.",
+          "focus": [
+            "Classe di intervento e ambito territoriale",
+            "Dimensionamento delle misure compensative",
+            "Studio comunale e documento semplificato"
+          ]
+        }
+      ],
+      "evidence": "Compensazione dei deflussi e volumi/portate per trasformazioni territoriali: unica voce invarianza, senza compatibilità o drenaggio generici."
+    },
+    "sic102": {
+      "topics": [
+        "invarianza"
+      ],
+      "source_urls": [
+        "https://www.gurs.regione.sicilia.it/Gazzette/g21-30/g21-30.pdf",
+        "https://www.regione.sicilia.it/la-regione-informa/ddg-n-102-23062021",
+        "https://www.regione.sicilia.it/system/files/2021-07/ddg%20102%202021.pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Indirizzi applicativi per l’invarianza",
+          "ref": "D.D.G. 102/2021",
+          "summary": "Indirizzi applicativi regionali per l’invarianza idraulica e idrologica nelle trasformazioni territoriali.",
+          "focus": [
+            "Ambito di applicazione",
+            "Superfici e portate di progetto",
+            "Compensazione e recapito finale"
+          ]
+        }
+      ],
+      "evidence": "Compensazione dei deflussi e volumi/portate per trasformazioni territoriali: unica voce invarianza, senza compatibilità o drenaggio generici."
+    },
+    "ven2948": {
+      "topics": [
+        "invarianza"
+      ],
+      "source_urls": [
+        "https://bur.regione.veneto.it/BurvServices/pubblica/DettaglioDgr.aspx?id=219024",
+        "https://bur.regione.veneto.it/BurvServices/pubblica/Download.aspx?name=2948_AllegatoA_219024.pdf&storico=False&type=9"
+      ],
+      "object_versions": [
+        {
+          "title": "Valutazione di compatibilità idraulica",
+          "ref": "D.G.R. 2948/2009",
+          "summary": "Indicazioni per la valutazione di compatibilità idraulica delle trasformazioni territoriali.",
+          "focus": [
+            "Trasformazioni urbanistiche",
+            "Misure compensative",
+            "Pareri degli enti competenti"
+          ]
+        }
+      ],
+      "evidence": "Compensazione dei deflussi e volumi/portate per trasformazioni territoriali: unica voce invarianza, senza compatibilità o drenaggio generici."
+    },
+    "fvg83": {
+      "topics": [
+        "invarianza"
+      ],
+      "source_urls": [
+        "https://decreti.regione.fvg.it/Storage/2018_83/ALLEGATO1%20AL%20DPREG%20083-2018.PDF"
+      ],
+      "object_versions": [
+        {
+          "title": "Regolamento di invarianza idraulica",
+          "ref": "D.P.Reg. 083/Pres/2018",
+          "summary": "Regolamento attuativo della L.R. 11/2015, con criteri e metodi per l’invarianza.",
+          "focus": [
+            "Significatività della trasformazione",
+            "Studio di compatibilità idraulica",
+            "Metodi idrologici e volumi di invaso"
+          ]
+        }
+      ],
+      "evidence": "Compensazione dei deflussi e volumi/portate per trasformazioni territoriali: unica voce invarianza, senza compatibilità o drenaggio generici."
+    },
+    "pug26": {
+      "topics": [
+        "scarichi",
+        "prima-pioggia"
+      ],
+      "source_urls": [
+        "https://burp.regione.puglia.it/documents/20135/784664/REGOLAMENTO%2BREGIONALE%2B9%2Bdicembre%2B2013%2C%2Bn.%2B26%2B%28id%2B4906507%29.pdf/82bcb1fd-8b6d-ec17-ae21-235fdca40c45?t=1622786288358&version=1.0"
+      ],
+      "object_versions": [
+        {
+          "title": "Acque meteoriche di dilavamento e prima pioggia",
+          "ref": "R.R. 26/2013",
+          "summary": "Disciplina regionale in attuazione dell’art. 113 del D.Lgs. 152/2006.",
+          "focus": [
+            "Attività e superfici soggette",
+            "Raccolta e trattamento",
+            "Autorizzazione del recapito"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Disciplina regionale in attuazione dell’art. 113 del D.Lgs. 152/2006. Focus: Attività e superfici soggette; Raccolta e trattamento; Autorizzazione del recapito"
+    },
+    "pie1": {
+      "topics": [
+        "scarichi",
+        "prima-pioggia"
+      ],
+      "source_urls": [
+        "https://arianna.cr.piemonte.it/regolafo/dettaglioRegolamento.do?tornaIndietro=true&urnRegolamento=urn%3Anir%3Aregione.piemonte%3Aregolamento%3A2006-02-20%3B1%402018-12-11",
+        "https://serviziweb.csi.it/solverweb/IndexDocumentServlet?id=49953"
+      ],
+      "object_versions": [
+        {
+          "title": "Dilavamento e lavaggio delle aree esterne",
+          "ref": "R.R. 1/R/2006",
+          "summary": "Disciplina delle acque meteoriche e delle acque di lavaggio delle aree esterne.",
+          "focus": [
+            "Superfici e attività interessate",
+            "Piano di prevenzione e gestione",
+            "Raccolta, trattamento e scarico"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Disciplina delle acque meteoriche e delle acque di lavaggio delle aree esterne. Focus: Superfici e attività interessate; Piano di prevenzione e gestione; Raccolta, trattamento e scarico"
+    },
+    "lig4": {
+      "topics": [
+        "scarichi",
+        "prima-pioggia"
+      ],
+      "source_urls": [
+        "https://lrv.regione.liguria.it/liguriass_prod/articolo?urndoc=urn%3Anir%3Aregione.liguria%3Aregolamento.consiglio%3A2009-07-10%3B4",
+        "https://lrv.regione.liguria.it/liguriass_prod/class/download_doc.php?id=b63a3d33-74aa-0f7b-634b-512e1285dff3&ext=pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Acque meteoriche e lavaggio delle aree esterne",
+          "ref": "R.R. 4/2009",
+          "summary": "Regolamento regionale sulla gestione delle acque provenienti dalle superfici esterne.",
+          "focus": [
+            "Ambito delle superfici scolanti",
+            "Regime degli scarichi",
+            "Misure di gestione"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Regolamento regionale sulla gestione delle acque provenienti dalle superfici esterne. Focus: Ambito delle superfici scolanti; Regime degli scarichi; Misure di gestione"
+    },
+    "er286": {
+      "topics": [
+        "prima-pioggia"
+      ],
+      "source_urls": [
+        "https://ambiente.regione.emilia-romagna.it/it/acque/consultazione/norme/normativa-regionale",
+        "https://bur.regione.emilia-romagna.it/archivio/inserzione?anno=2005&num_boll=49&prog_documento=1",
+        "https://servizissiir.regione.emilia-romagna.it/deliberegiunta/servlet/AdapterHTTP?ENTE=1&action_name=ACTIONRICERCADELIBERE&codProtocollo=SSR%2F06%2F1069410&operation=downloadTestoPdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Indirizzi per le acque di prima pioggia",
+          "ref": "D.G.R. 286/2005",
+          "summary": "Direttiva regionale per la gestione della prima pioggia e del lavaggio di aree esterne.",
+          "focus": [
+            "Tipologie di insediamento",
+            "Acque da raccogliere e trattare",
+            "Coordinamento con le linee guida attuative"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Direttiva regionale per la gestione della prima pioggia e del lavaggio di aree esterne. Focus: Tipologie di insediamento; Acque da raccogliere e trattare; Coordinamento con le linee guida attuative"
+    },
+    "er1860": {
+      "topics": [
+        "prima-pioggia"
+      ],
+      "source_urls": [
+        "https://servizissiir.regione.emilia-romagna.it/deliberegiunta/servlet/AdapterHTTP?ENTE=1&action_name=ACTIONRICERCADELIBERE&codProtocollo=SSR%2F06%2F1069410&operation=downloadTestoPdf",
+        "https://www.arpae.it/it/autorizzazioni-e-concessioni/autorizzazioni-ambientali/autorizzazione-scarichi-idrici"
+      ],
+      "object_versions": [
+        {
+          "title": "Linee guida per dilavamento e prima pioggia",
+          "ref": "D.G.R. 1860/2006",
+          "summary": "Criteri applicativi per la gestione delle acque meteoriche in attuazione della direttiva regionale.",
+          "focus": [
+            "Classificazione dei deflussi",
+            "Gestione delle aree impermeabili",
+            "Trattamento e recapito"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Criteri applicativi per la gestione delle acque meteoriche in attuazione della direttiva regionale. Focus: Classificazione dei deflussi; Gestione delle aree impermeabili; Trattamento e recapito"
+    },
+    "tos41": {
+      "topics": [
+        "demanio",
+        "pgra"
+      ],
+      "source_urls": [
+        "https://raccoltanormativa.consiglio.regione.toscana.it/articolo?urndoc=urn:nir:regione.toscana:legge:2018-07-24;41",
+        "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?id=4ab37acb-9af9-11ed-b5b1-005056959b60&ext=pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Rischio di alluvioni e tutela dei corsi d’acqua",
+          "ref": "L.R. 41/2018",
+          "summary": "Disciplina regionale per gli interventi nelle aree esposte alle alluvioni e la tutela del reticolo.",
+          "focus": [
+            "Condizioni di fattibilità",
+            "Opere di gestione del rischio",
+            "Interventi presso i corsi d’acqua"
+          ]
+        }
+      ],
+      "evidence": "Tutela del reticolo e gestione/interventi nelle aree alluvionabili: demanio e tema PGRA, senza affermare che la legge sia un piano."
+    },
+    "mar53": {
+      "topics": [
+        "invarianza"
+      ],
+      "source_urls": [
+        "https://www.autoritabacino.marche.it/invidr/allegati/DGR0053_14.pdf",
+        "https://www.regione.marche.it/Regione-Utile/Paesaggio-Territorio-Urbanistica-Genio-Civile/Compatibilit%C3%A0-e-invarianza-idraulica"
+      ],
+      "object_versions": [
+        {
+          "title": "Compatibilità e invarianza delle trasformazioni",
+          "ref": "L.R. 19/2023, art. 31 · D.G.R. 53/2014",
+          "summary": "La L.R. 19/2023, art. 31, costituisce la base vigente; continuano ad applicarsi, in quanto compatibili, i criteri della D.G.R. 53/2014, integrati dalla D.G.R. 671/2017.",
+          "focus": [
+            "Verifica di compatibilità",
+            "Misure per l’invarianza",
+            "Coordinamento con aggiornamenti regionali"
+          ]
+        }
+      ],
+      "evidence": "Compensazione dei deflussi e volumi/portate per trasformazioni territoriali: unica voce invarianza, senza compatibilità o drenaggio generici."
+    },
+    "laz18": {
+      "topics": [
+        "scarichi",
+        "prima-pioggia"
+      ],
+      "source_urls": [
+        "https://www.regione.lazio.it/sites/default/files/amministrazione-trasparente/tbl_contenuti/Norme_Tecniche_di_Attuazione.pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Aggiornamento del Piano di tutela delle acque",
+          "ref": "D.C.R. 18/2018",
+          "summary": "PTAR: quadro regionale di tutela dei corpi idrici e disciplina delle pressioni e degli scarichi.",
+          "focus": [
+            "Norme tecniche di attuazione",
+            "Acque meteoriche e prima pioggia",
+            "Recapiti e autorizzazioni"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: PTAR: quadro regionale di tutela dei corpi idrici e disciplina delle pressioni e degli scarichi. Focus: Norme tecniche di attuazione; Acque meteoriche e prima pioggia; Recapiti e autorizzazioni"
+    },
+    "abr17": {
+      "topics": [
+        "scarichi",
+        "prima-pioggia"
+      ],
+      "source_urls": [
+        "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/lr-abruzzo-17-2008.pdf",
+        "https://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2008/lr08017.htm"
+      ],
+      "object_versions": [
+        {
+          "title": "Disciplina regionale degli scarichi",
+          "ref": "L.R. 17/2008",
+          "summary": "Riferimento regionale comprendente disposizioni sulle acque di prima pioggia.",
+          "focus": [
+            "Definizioni regionali",
+            "Ambiti soggetti a disciplina",
+            "Coordinamento con gli aggiornamenti"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Riferimento regionale comprendente disposizioni sulle acque di prima pioggia. Focus: Definizioni regionali; Ambiti soggetti a disciplina; Coordinamento con gli aggiornamenti"
+    },
+    "cal10": {
+      "topics": [
+        "scarichi"
+      ],
+      "source_urls": [
+        "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=1997&numero=10"
+      ],
+      "object_versions": [
+        {
+          "title": "Tutela delle acque dall’inquinamento",
+          "ref": "L.R. 10/1997",
+          "summary": "Disciplina regionale storica per la tutela delle acque, da coordinare con il quadro ambientale successivo.",
+          "focus": [
+            "Norme regionali sugli scarichi",
+            "Trattamento dei deflussi",
+            "Coordinamento con D.Lgs. 152/2006 e PTA"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Disciplina regionale storica per la tutela delle acque, da coordinare con il quadro ambientale successivo. Focus: Norme regionali sugli scarichi; Trattamento dei deflussi; Coordinamento con D.Lgs. 152/2006 e PTA"
+    },
+    "umb627": {
+      "topics": [
+        "scarichi",
+        "prima-pioggia"
+      ],
+      "source_urls": [
+        "https://www.auriumbria.it/documento_pubblico/normativa-e-regolamenti-di-riferimento/",
+        "https://www.auriumbria.it/wp-content/uploads/2023/12/DGR-627-2019.pdf?x95031="
+      ],
+      "object_versions": [
+        {
+          "title": "Direttiva tecnica sugli scarichi di acque reflue",
+          "ref": "D.G.R. 627/2019",
+          "summary": "Direttiva regionale per la disciplina tecnica e autorizzativa degli scarichi.",
+          "focus": [
+            "Classificazione delle acque",
+            "Requisiti di trattamento",
+            "Gestione della prima pioggia"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Direttiva regionale per la disciplina tecnica e autorizzativa degli scarichi. Focus: Classificazione delle acque; Requisiti di trattamento; Gestione della prima pioggia"
+    },
+    "mol25": {
+      "topics": [
+        "scarichi"
+      ],
+      "source_urls": [
+        "https://www.arpamolise.it/WP/acque-reflue-urbane/",
+        "https://www1.regione.molise.it/tutela-acqua/doc_r14-morifiche.pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Piano di tutela delle acque",
+          "ref": "D.C.R. 25/2018",
+          "summary": "Piano regionale per la tutela qualitativa e quantitativa delle acque.",
+          "focus": [
+            "Norme di attuazione",
+            "Obiettivi per i corpi idrici",
+            "Requisiti per gli scarichi"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Piano regionale per la tutela qualitativa e quantitativa delle acque. Focus: Norme di attuazione; Obiettivi per i corpi idrici; Requisiti per gli scarichi"
+    },
+    "vda2030": {
+      "topics": [
+        "scarichi"
+      ],
+      "source_urls": [
+        "https://pta.regione.vda.it/",
+        "https://pta.regione.vda.it/wp-content/uploads/doc/PTA_2030_Norme_di_Attuazione_Definitivo_DGR334.pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Piano di tutela delle acque della Valle d’Aosta",
+          "ref": "PTA 2030",
+          "summary": "Aggiornamento del piano regionale per la protezione e gestione delle acque.",
+          "focus": [
+            "Norme tecniche di attuazione",
+            "Obiettivi ambientali",
+            "Utilizzazioni della risorsa"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Aggiornamento del piano regionale per la protezione e gestione delle acque. Focus: Norme tecniche di attuazione; Obiettivi ambientali; Utilizzazioni della risorsa"
+    },
+    "ligpta": {
+      "topics": [
+        "scarichi"
+      ],
+      "source_urls": [
+        "https://www.regione.liguria.it/components/com_publiccompetitions/includes/download.php?id=41731%3Anorme-di-attuazione.pdf",
+        "https://www.regione.liguria.it/homepage-ambiente/cosa-cerchi/acqua/direttiva-acque/piano-regionale-acque.html"
+      ],
+      "object_versions": [
+        {
+          "title": "Piano regionale di tutela delle acque",
+          "ref": "PTA Liguria",
+          "summary": "Piano regionale previsto dal quadro nazionale per la tutela delle acque.",
+          "focus": [
+            "Norme di piano",
+            "Misure di tutela",
+            "Coordinamento con i regolamenti regionali"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Piano regionale previsto dal quadro nazionale per la tutela delle acque. Focus: Norme di piano; Misure di tutela; Coordinamento con i regolamenti regionali"
+    },
+    "bz6": {
+      "topics": [
+        "riuso",
+        "scarichi",
+        "drenaggio",
+        "prima-pioggia"
+      ],
+      "source_urls": [
+        "https://ambiente.provincia.bz.it/it/acqua/acque-meteoriche"
+      ],
+      "object_versions": [
+        {
+          "title": "Regolamento di esecuzione in materia di tutela delle acque",
+          "ref": "D.P.P. Bolzano 6/2008",
+          "summary": "Regolamento attuativo della L.P. 8/2002: il capo IV disciplina classificazione, raccolta, trattamento, infiltrazione e smaltimento sostenibile delle acque meteoriche, comprese le acque di prima pioggia.",
+          "focus": [
+            "Classificazione delle acque meteoriche in non inquinate, moderatamente inquinate, inquinate e sistematicamente inquinate",
+            "Trattamento in funzione di superficie, uso dell'area e traffico; soglie operative indicate dalla pagina provinciale",
+            "Preferenza per riutilizzo, ritenzione e infiltrazione compatibile con la tutela delle acque",
+            "Regolamenti comunali di fognatura e depurazione previsti dall'art. 2"
+          ]
+        }
+      ],
+      "evidence": "Capo IV: raccolta/trattamento/smaltimento meteorico e preferenza per il riutilizzo; materie effettive tutela, prima pioggia, smaltimento e riuso."
+    },
+    "bz23": {
+      "topics": [
+        "pzp"
+      ],
+      "source_urls": [
+        "https://lexbrowser.provinz.bz.it/doc/it/217759/decreto_del_presidente_della_provincia_10_ottobre_2019_n_23.aspx",
+        "https://www.gazzettaufficiale.it/eli/gu/2020/01/11/2/s3/pdf#page=22"
+      ],
+      "object_versions": [
+        {
+          "title": "Interventi nelle zone di pericolo",
+          "ref": "D.P.P. 23/2019",
+          "summary": "Regolamento della Provincia autonoma di Bolzano per gli interventi e le previsioni urbanistiche nelle zone di pericolo.",
+          "focus": [
+            "Ammissibilità degli interventi",
+            "Verifiche di pericolo e compatibilità",
+            "Coordinamento con il PZP comunale"
+          ]
+        }
+      ],
+      "evidence": "Regole generali interventi nelle zone di pericolo applicabili anche alla componente idraulica PZP."
+    },
+    "tnpta": {
+      "topics": [
+        "scarichi"
+      ],
+      "source_urls": [
+        "https://www.appa.provincia.tn.it/Documenti-e-dati/Documenti-tecnici-di-supporto/Piano-di-Tutela-delle-acque-2022-2027",
+        "https://www.appa.provincia.tn.it/ocmultibinary/download/27681/309570/71/a344c71f7b9ed3ffacdcb176e84addbc.pdf/file/Allegato+O+Norme+di+attuazione.pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Piano di tutela delle acque di Trento",
+          "ref": "PTA 2022–2027",
+          "summary": "Pianificazione provinciale della tutela e della gestione delle acque.",
+          "focus": [
+            "Norme di attuazione",
+            "Obiettivi ambientali",
+            "Requisiti provinciali"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Pianificazione provinciale della tutela e della gestione delle acque. Focus: Norme di attuazione; Obiettivi ambientali; Requisiti provinciali"
+    },
+    "bzpta": {
+      "topics": [
+        "scarichi"
+      ],
+      "source_urls": [
+        "https://ambiente.provincia.bz.it/it/acqua",
+        "https://faolex.fao.org/docs/pdf/ita33320.pdf",
+        "https://umwelt.provinz.bz.it/de/wasser",
+        "https://www.seab.bz.it/sites/default/files/2024-04/landesgesetz_vom_18._juni_2002_nr._8_bestimmungen_ueber_die_gewaesser_1.pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Disposizioni sulle acque",
+          "ref": "L.P. Bolzano 8/2002",
+          "summary": "Disciplina provinciale per utilizzazione, tutela e gestione delle acque, richiamata dal quadro di pianificazione idrica provinciale.",
+          "focus": [
+            "Norme di attuazione",
+            "Tutela dei ricettori",
+            "Coordinamento con la legislazione provinciale"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Disciplina provinciale per utilizzazione, tutela e gestione delle acque, richiamata dal quadro di pianificazione idrica provinciale. Focus: Norme di attuazione; Tutela dei ricettori; Coordinamento con la legislazione provinciale"
+    },
+    "bari": {
+      "topics": [
+        "scarichi",
+        "prima-pioggia"
+      ],
+      "source_urls": [
+        "https://burp.regione.puglia.it/documents/20135/784664/REGOLAMENTO%2BREGIONALE%2B9%2Bdicembre%2B2013%2C%2Bn.%2B26%2B%28id%2B4906507%29.pdf/82bcb1fd-8b6d-ec17-ae21-235fdca40c45?t=1622786288358&version=1.0",
+        "https://www.cittametropolitana.ba.it/amministrazione/documenti_e_dati/modulistica/documento_268.html"
+      ],
+      "object_versions": [
+        {
+          "title": "Autorizzazione scarico acque meteoriche",
+          "ref": "Città metropolitana di Bari",
+          "summary": "Procedura e modulistica territoriale relativa agli scarichi disciplinati dal R.R. 26/2013.",
+          "focus": [
+            "Documentazione da presentare",
+            "Competenza autorizzativa",
+            "Coerenza con il regolamento regionale"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Procedura e modulistica territoriale relativa agli scarichi disciplinati dal R.R. 26/2013. Focus: Documentazione da presentare; Competenza autorizzativa; Coerenza con il regolamento regionale"
+    },
+    "milano": {
+      "topics": [
+        "invarianza"
+      ],
+      "source_urls": [
+        "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf",
+        "https://pgt.comune.milano.it/"
+      ],
+      "object_versions": [
+        {
+          "title": "Componente geologica e rischio idraulico",
+          "ref": "PGT Milano",
+          "summary": "Documenti comunali di piano, componente geologica e documento semplificato del rischio idraulico.",
+          "focus": [
+            "Tavole di pericolosità",
+            "Prescrizioni locali di piano",
+            "Coordinamento con il PGRA"
+          ]
+        }
+      ],
+      "evidence": "Documento comunale collegato al R.R. 7/2017: studio del rischio per invarianza. Nessun tag PAI/PGRA per il mero coordinamento."
+    },
+    "venezia": {
+      "topics": [
+        "scarichi",
+        "drenaggio"
+      ],
+      "source_urls": [
+        "https://www.comune.venezia.it/it/content/scarichi-reflui-0",
+        "https://www.comune.venezia.it/sites/comune.venezia.it/files/documenti/Ambiente/Testo%20Legge%20Speciale%20206_1995.pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Scarichi reflui e adeguamento fognario",
+          "ref": "Regolamento edilizio · Venezia",
+          "summary": "Pagina comunale sulle procedure di adeguamento fognario e i riferimenti al regolamento edilizio.",
+          "focus": [
+            "Art. 63 del regolamento richiamato",
+            "Condizioni di adeguamento",
+            "Procedura comunale"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Pagina comunale sulle procedure di adeguamento fognario e i riferimenti al regolamento edilizio. Focus: Art. 63 del regolamento richiamato; Condizioni di adeguamento; Procedura comunale"
+    },
+    "aprilia": {
+      "topics": [
+        "scarichi"
+      ],
+      "source_urls": [
+        "https://www.comune.aprilia.lt.it/servizi/autorizzazione-allo-scarico-di-acque-reflue",
+        "https://www.regione.lazio.it/sites/default/files/amministrazione-trasparente/tbl_contenuti/Norme_Tecniche_di_Attuazione.pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Autorizzazione allo scarico delle acque reflue",
+          "ref": "Comune di Aprilia",
+          "summary": "Servizio comunale per le autorizzazioni allo scarico e i relativi adempimenti.",
+          "focus": [
+            "Procedura e documenti",
+            "Classificazione del refluo",
+            "Coordinamento con il PTAR"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Servizio comunale per le autorizzazioni allo scarico e i relativi adempimenti. Focus: Procedura e documenti; Classificazione del refluo; Coordinamento con il PTAR"
+    },
+    "medicina": {
+      "topics": [
+        "scarichi"
+      ],
+      "source_urls": [
+        "https://servizissiir.regione.emilia-romagna.it/deliberegiunta/servlet/AdapterHTTP?ENTE=1&action_name=ACTIONRICERCADELIBERE&codProtocollo=SSR%2F06%2F1069410&operation=downloadTestoPdf",
+        "https://www.comune.medicina.bo.it/documento/modulo-richiesta-autorizzazione-per-lo-scarico-di-acque-domestiche-non-incanalate-in-fognatura"
+      ],
+      "object_versions": [
+        {
+          "title": "Scarichi non incanalati in fognatura",
+          "ref": "Comune di Medicina",
+          "summary": "Modulistica comunale per domanda e rinnovo di autorizzazione allo scarico.",
+          "focus": [
+            "Acque domestiche",
+            "Recapito in acque superficiali o suolo",
+            "Richiesta e rinnovo"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Modulistica comunale per domanda e rinnovo di autorizzazione allo scarico. Focus: Acque domestiche; Recapito in acque superficiali o suolo; Richiesta e rinnovo"
+    },
+    "uni752": {
+      "topics": [
+        "drenaggio"
+      ],
+      "source_urls": [
+        "https://store.uni.com/uni-en-752-2017"
+      ],
+      "object_versions": [
+        {
+          "title": "Connessioni di scarico e collettori di fognatura",
+          "ref": "UNI EN 752:2017",
+          "summary": "Requisiti funzionali dei sistemi di drenaggio e fognatura esterni agli edifici.",
+          "focus": [
+            "Pianificazione e progettazione",
+            "Esercizio e manutenzione",
+            "Prestazioni del sistema"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Requisiti funzionali dei sistemi di drenaggio e fognatura esterni agli edifici. Focus: Pianificazione e progettazione; Esercizio e manutenzione; Prestazioni del sistema"
+    },
+    "uni12056": {
+      "topics": [
+        "drenaggio"
+      ],
+      "source_urls": [
+        "https://store.uni.com/uni-en-12056-3-2001"
+      ],
+      "object_versions": [
+        {
+          "title": "Drenaggio delle coperture",
+          "ref": "UNI EN 12056-3:2001",
+          "summary": "Criteri per i sistemi di evacuazione delle acque meteoriche dalle coperture.",
+          "focus": [
+            "Dimensionamento pluviali e collettori",
+            "Drenaggio a gravità",
+            "Prestazioni dei sistemi sifonici"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Criteri per i sistemi di evacuazione delle acque meteoriche dalle coperture. Focus: Dimensionamento pluviali e collettori; Drenaggio a gravità; Prestazioni dei sistemi sifonici"
+    },
+    "uni858": {
+      "topics": [
+        "prima-pioggia"
+      ],
+      "source_urls": [
+        "https://store.uni.com/uni-en-858-2-2004"
+      ],
+      "object_versions": [
+        {
+          "title": "Separatori di liquidi leggeri",
+          "ref": "UNI EN 858-2:2004",
+          "summary": "Guida al dimensionamento e alla manutenzione degli impianti di separazione degli idrocarburi minerali.",
+          "focus": [
+            "Dimensione nominale",
+            "Esercizio e manutenzione",
+            "Campo di applicazione"
+          ]
+        }
+      ],
+      "evidence": "Separazione di idrocarburi e dimensionamento/manutenzione: trattamento meteorico contaminato/prima pioggia; eliminato drenaggio generico."
+    },
     "dist-po": {
       "topics": [
-        "pai-idraulico",
         "pai-frane",
+        "pai-idraulico",
         "pgra"
       ],
       "source_urls": [
         "https://pai.adbpo.it/wp-content/uploads/2025/05/NA_PAI-PO.pdf",
         "https://pianoalluvioni.adbpo.it/piano-di-gestione-del-rischio-alluvioni-2021-2027/"
       ],
+      "object_versions": [
+        {
+          "title": "Pianificazione di bacino e rischio alluvioni",
+          "ref": "PAI / PGRA · Fiume Po",
+          "summary": "Accesso alla pianificazione del Distretto del Fiume Po, comprendente il PAI vigente, il PGRA 2021–2027 e gli aggiornamenti in corso per il ciclo 2027–2033.",
+          "focus": [
+            "Individuare il bacino e il piano pertinente",
+            "Consultare NTA, mappe e varianti",
+            "Verificare adozione, salvaguardia e approvazione"
+          ]
+        },
+        {
+          "title": "Pianificazione di bacino e rischio alluvioni",
+          "ref": "PAI / PGRA · Fiume Po",
+          "summary": "Accesso alla pianificazione del distretto Fiume Po: norme, cartografie e aggiornamenti da individuare per il bacino interessato.",
+          "focus": [
+            "Individuare il bacino e il piano pertinente",
+            "Consultare NTA, mappe e varianti",
+            "Verificare adozione, salvaguardia e approvazione"
+          ]
+        }
+      ],
       "evidence": "Raccolta PAI/PGRA; NTA PAI Po titoli I (rete e versanti) e II (fasce fluviali); portale PGRA nel campo url."
+    },
+    "po-pai-estensione-13-2025": {
+      "topics": [
+        "pai-frane",
+        "pai-idraulico"
+      ],
+      "source_urls": [
+        "https://pai.adbpo.it/progetto-variante-pai-po-estensione-ai-bacini-del-reno-romagnoli-conca-marecchia-e-fissero-tartaro-canalbianco/",
+        "https://pianoalluvioni.adbpo.it/mappe-della-pericolosita-e-del-rischio-di-alluvione-2027/",
+        "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/Relazione_generale.pdf",
+        "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/delibera_CIP_13_2025_variante_PAI_Po_signed_signed.pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Estensione del PAI Po ai bacini Reno, Romagnoli, Conca–Marecchia e Fissero–Tartaro–Canalbianco",
+          "ref": "Del. CIP 13/2025 · progetto di variante PAI Po",
+          "summary": "Progetto di variante adottato per estendere contenuti ed effetti del PAI Po ai bacini Reno, Romagnoli, Conca–Marecchia e Fissero–Tartaro–Canalbianco, con fasce fluviali, aree allagabili e dissesti di versante.",
+          "focus": [
+            "Misure temporanee di salvaguardia immediatamente vincolanti fino all’approvazione definitiva, entro il limite massimo previsto dall’atto",
+            "Applicazione delle NTA PAI Po e mantenimento delle disposizioni dei PAI preesistenti quando più restrittive",
+            "Verifica degli elaborati cartografici per fasce fluviali, aree allagabili e dissesti di versante"
+          ]
+        }
+      ],
+      "evidence": "Progetto di variante PAI Po: fasce fluviali, aree allagabili e dissesti di versante, descritti nella relazione generale. Non un PGRA."
     },
     "dist-alpi": {
       "topics": [
         "pgra"
       ],
       "source_urls": [
+        "https://distrettoalpiorientali.it/piano-gestione-rischio-alluvioni/",
+        "https://sigma.distrettoalpiorientali.it/portal/index.php/direttiva-alluvioni/pgra-2021-2027/piano_approvato_2021/",
         "https://sigma.distrettoalpiorientali.it/sigma/documentDownload/downloadDocumentById?documentId=359",
-        "https://sigma.distrettoalpiorientali.it/sigma/documentDownload/downloadDocumentById?documentId=380",
-        "https://distrettoalpiorientali.it/piano-gestione-rischio-alluvioni/"
+        "https://sigma.distrettoalpiorientali.it/sigma/documentDownload/downloadDocumentById?documentId=380"
+      ],
+      "object_versions": [
+        {
+          "title": "Pianificazione di bacino e rischio alluvioni",
+          "ref": "PAI / PGRA · Alpi Orientali",
+          "summary": "Il PGRA 2021–2027 disciplina la pericolosità e il rischio idraulico nel distretto. Dalla sua entrata in vigore sono cessati gli effetti dei PAI per la parte idraulica; i PAI restano riferimento per pericolosità e rischio geologico da fenomeni gravitativi e valanghivi.",
+          "focus": [
+            "Per il rischio idraulico consultare PGRA, NTA, mappe e aggiornamenti",
+            "Per frane e valanghe individuare il PAI del bacino pertinente",
+            "Nelle Province autonome coordinare il quadro distrettuale con PGUAP e pianificazione provinciale"
+          ]
+        },
+        {
+          "title": "Pianificazione di bacino e rischio alluvioni",
+          "ref": "PAI / PGRA · Alpi Orientali",
+          "summary": "Accesso alla pianificazione del distretto Alpi Orientali: norme, cartografie e aggiornamenti da individuare per il bacino interessato.",
+          "focus": [
+            "Individuare il bacino e il piano pertinente",
+            "Consultare NTA, mappe e varianti",
+            "Verificare adozione, salvaguardia e approvazione"
+          ]
+        }
       ],
       "evidence": "Gli elaborati collegati sono PGRA. La menzione di PAI nel riferimento della raccolta non basta ad attribuire una componente PAI."
     },
@@ -399,71 +1449,428 @@
         "pgra"
       ],
       "source_urls": [
-        "https://www.appenninosettentrionale.it/rep/distretto/pgra/G_UFF_07022023%20N.%2032_DPCM_PGRA.pdf",
+        "https://www.appenninosettentrionale.it/itc/?page_id=2910",
         "https://www.appenninosettentrionale.it/rep/distretto/pgra/Disciplina%20di%20Piano.pdf",
-        "https://www.appenninosettentrionale.it/itc/?page_id=2910"
+        "https://www.appenninosettentrionale.it/rep/distretto/pgra/G_UFF_07022023%20N.%2032_DPCM_PGRA.pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Pianificazione di bacino e rischio alluvioni",
+          "ref": "PAI / PGRA · Appennino Settentrionale",
+          "summary": "Accesso alla pianificazione del distretto Appennino Settentrionale: norme, cartografie e aggiornamenti da individuare per il bacino interessato.",
+          "focus": [
+            "Individuare il bacino e il piano pertinente",
+            "Consultare NTA, mappe e varianti",
+            "Verificare adozione, salvaguardia e approvazione"
+          ]
+        }
       ],
       "evidence": "Gli elaborati collegati sono PGRA. La menzione di PAI nel riferimento della raccolta non basta ad attribuire una componente PAI."
+    },
+    "dist-centr": {
+      "topics": [
+        "pai-frane",
+        "pai-idraulico",
+        "pgra"
+      ],
+      "source_urls": [
+        "https://aubac.it/pai-distrettuale-frane",
+        "https://aubac.it/pai-distrettuale-idraulico",
+        "https://aubac.it/piani-di-bacino/piano-di-gestione-del-rischio-alluvioni-pgra",
+        "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO.pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Pianificazione di bacino e rischio alluvioni",
+          "ref": "PAI / PGRA · Appennino Centrale",
+          "summary": "Quadro distrettuale verificato: PAI idraulico e PAI frane adottati definitivamente il 26/05/2026; le relative misure di salvaguardia sono operative dal 04/06/2026. Restano da seguire l’approvazione con D.P.C.M. e le varianti locali.",
+          "focus": [
+            "Individuare il bacino e il piano pertinente",
+            "Consultare NTA, mappe e varianti",
+            "Verificare adozione, salvaguardia e approvazione"
+          ]
+        },
+        {
+          "title": "Pianificazione di bacino e rischio alluvioni",
+          "ref": "PAI / PGRA · Appennino Centrale",
+          "summary": "Accesso alla pianificazione del distretto Appennino Centrale: norme, cartografie e aggiornamenti da individuare per il bacino interessato.",
+          "focus": [
+            "Individuare il bacino e il piano pertinente",
+            "Consultare NTA, mappe e varianti",
+            "Verificare adozione, salvaguardia e approvazione"
+          ]
+        }
+      ],
+      "evidence": "Raccolta distrettuale: PAI idraulico e frane nei documenti, portale PGRA nel campo url."
+    },
+    "bas9": {
+      "topics": [
+        "scarichi"
+      ],
+      "source_urls": [
+        "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+        "https://www.astrid-online.it/static/upload/regi/regione-basilicata_legge-regionale-29-maggio-2017--n9.pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Disciplina degli impianti di trattamento delle acque reflue urbane e delle autorizzazioni provvisorie agli scarichi",
+          "ref": "L.R. Basilicata 9/2017",
+          "summary": "Legge-quadro regionale tuttora vigente. L’articolo 5 demanda alla Giunta l’approvazione delle linee guida, comprese le disposizioni tecniche sugli scarichi e sulle acque meteoriche.",
+          "focus": [
+            "Legge-quadro regionale",
+            "Approvazione dei progetti",
+            "Base legislativa delle linee guida regionali"
+          ]
+        }
+      ],
+      "evidence": "Norma quadro per trattamento reflui/autorizzazioni scarichi; rinvia a linee guida che disciplinano prima pioggia. Rimosso tag prima pioggia dal solo atto quadro."
+    },
+    "bas471": {
+      "topics": [
+        "scarichi",
+        "prima-pioggia"
+      ],
+      "source_urls": [
+        "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A35795B0B&idDocumento=795801377B580A307C5C",
+        "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A397A5C07&idDocumento=795801377B580A307C5C"
+      ],
+      "object_versions": [
+        {
+          "title": "Linee guida regionali sugli scarichi, sulle acque di prima pioggia e di lavaggio · aggiornamento 2026",
+          "ref": "D.G.R. Basilicata 471/2026",
+          "summary": "Aggiornamento 2026 delle linee guida adottate in attuazione dell’articolo 5 della L.R. 9/2017; sostituisce la D.G.R. 305/2023 dal 1° agosto 2026.",
+          "focus": [
+            "Acque meteoriche di dilavamento",
+            "Acque di prima pioggia e di lavaggio",
+            "Regimi amministrativi e autorizzazioni"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Aggiornamento 2026 delle linee guida adottate in attuazione dell’articolo 5 della L.R. 9/2017; sostituisce la D.G.R. 305/2023 dal 1° agosto 2026. Focus: Acque meteoriche di dilavamento; Acque di prima pioggia e di lavaggio; Regimi amministrativi e autorizzazioni"
     },
     "dist-merid": {
       "topics": [
         "pgra"
       ],
       "source_urls": [
-        "https://www.distrettoappenninomeridionale.it/images/_PGRA/II%20ciclo%202019/PIANO%20VIGENTE/DPCM%201%C2%B0%20DICEMBRE%202022%20-%20approvazione%20I%20aggiornamento%20PGRA%20-%20II%20ciclo.pdf",
         "https://www.distrettoappenninomeridionale.it/images/_PGRA/II%20ciclo%202019/PIANO%20VIGENTE/AGGIORNAMENTO%20MAPPE%20II%20CICLO/RELAZIONE%20METODOLOGICA.pdf",
-        "https://www.distrettoappenninomeridionale.it/piano-gestione-alluvioni/"
+        "https://www.distrettoappenninomeridionale.it/images/_PGRA/II%20ciclo%202019/PIANO%20VIGENTE/DPCM%201%C2%B0%20DICEMBRE%202022%20-%20approvazione%20I%20aggiornamento%20PGRA%20-%20II%20ciclo.pdf",
+        "https://www.distrettoappenninomeridionale.it/piano-gestione-alluvioni/",
+        "https://www.distrettoappenninomeridionale.it/piano-gestione-alluvioni/ii-ciclo-2016-2021/"
+      ],
+      "object_versions": [
+        {
+          "title": "Pianificazione di bacino e rischio alluvioni",
+          "ref": "PAI / PGRA · Appennino Meridionale",
+          "summary": "Accesso alla pianificazione del distretto Appennino Meridionale: norme, cartografie e aggiornamenti da individuare per il bacino interessato.",
+          "focus": [
+            "Individuare il bacino e il piano pertinente",
+            "Consultare NTA, mappe e varianti",
+            "Verificare adozione, salvaguardia e approvazione"
+          ]
+        }
       ],
       "evidence": "Gli elaborati collegati sono PGRA. La menzione di PAI nel riferimento della raccolta non basta ad attribuire una componente PAI."
     },
-    "dist-centr": {
-      "topics": [
-        "pai-idraulico",
-        "pai-frane",
-        "pgra"
-      ],
-      "source_urls": [
-        "https://aubac.it/pai-distrettuale-idraulico",
-        "https://aubac.it/pai-distrettuale-frane",
-        "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO.pdf",
-        "https://aubac.it/piani-di-bacino/piano-di-gestione-del-rischio-alluvioni-pgra"
-      ],
-      "evidence": "Raccolta distrettuale: PAI idraulico e frane nei documenti, portale PGRA nel campo url."
-    },
     "dist-sard": {
       "topics": [
-        "pai-idraulico",
         "pai-frane",
+        "pai-idraulico",
         "pgra"
       ],
       "source_urls": [
+        "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-di-gestione-del-rischio-alluvioni-p-g-r-a/",
+        "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-stralcio-di-bacino-per-lassetto-idrogeologico-pai/norme-pai/",
         "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/06/Testo-coordinato-N.A.-PAI-modifiche-CI-n.-8-del-25.05.2026.pdf",
-        "https://pianogestionerischioalluvioni.regione.sardegna.it/documenti/1_617_20211222110339.pdf",
-        "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-di-gestione-del-rischio-alluvioni-p-g-r-a/"
+        "https://pianogestionerischioalluvioni.regione.sardegna.it/documenti/1_617_20211222110339.pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Pianificazione di bacino e rischio alluvioni",
+          "ref": "PAI / PGRA · Sardegna",
+          "summary": "Quadro PAI/PGRA della Sardegna con accesso alle norme coordinate, alle cartografie e agli atti di variante. Le NTA PAI pubblicate dall’Autorità sono aggiornate alla Deliberazione C.I. n. 8 del 25 maggio 2026 e indicate in vigore dal 4 giugno 2026.",
+          "focus": [
+            "Consultare insieme NTA, mappe PAI/PGRA e varianti successive",
+            "Verificare se l’intervento ricade nelle nuove perimetrazioni della variante generale PAI–frane 2026",
+            "Coordinare gli studi di compatibilità con gli articoli 24, 25 e 47 delle NTA vigenti"
+          ]
+        },
+        {
+          "title": "Pianificazione di bacino e rischio alluvioni",
+          "ref": "PAI / PGRA · Sardegna",
+          "summary": "Accesso alla pianificazione del distretto Sardegna: norme, cartografie e aggiornamenti da individuare per il bacino interessato.",
+          "focus": [
+            "Individuare il bacino e il piano pertinente",
+            "Consultare NTA, mappe e varianti",
+            "Verificare adozione, salvaguardia e approvazione"
+          ]
+        }
       ],
       "evidence": "Raccolta NTA PAI (componente idraulica e frane) e relazione PGRA; varianti idrauliche e frane censite separatamente."
     },
+    "sar-pai-frane-42-2026": {
+      "topics": [
+        "pai-frane"
+      ],
+      "source_urls": [
+        "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-stralcio-di-bacino-per-lassetto-idrogeologico-pai/variante-pai-frane-per-i-sub-bacini-1-2-4-5-6-7/",
+        "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/06/dp_2026_06_17_n.42_prot.12805.pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Variante generale PAI per la pericolosità e il rischio da frana",
+          "ref": "D.P.Reg. Sardegna 42/2026 · variante PAI–frane",
+          "summary": "Approvazione della variante generale PAI–frane per i sub-bacini 1 Sulcis, 2 Tirso, 4 Liscia, 5 Posada-Cedrino, 6 Sud-Orientale e 7 Flumendosa-Campidano-Cixerri, relativa a 304 comuni.",
+          "focus": [
+            "Verificare le nuove perimetrazioni e classi di pericolosità da frana negli elaborati del sub-bacino interessato",
+            "Coordinare la variante con le NTA PAI vigenti e con gli strumenti urbanistici comunali",
+            "Il sub-bacino 3 Coghinas-Mannu-Temo è oggetto di un procedimento distinto"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Approvazione della variante generale PAI–frane per i sub-bacini 1 Sulcis, 2 Tirso, 4 Liscia, 5 Posada-Cedrino, 6 Sud-Orientale e 7 Flumendosa-Campidano-Cixerri, relativa a 304 comuni. Focus: Verificare le nuove perimetrazioni e classi di pericolosità da frana negli elaborati del sub-bacino interessato; Coordinare la variante con le NTA PAI vigenti e con gli strumenti urbanistici comunali; Il sub-bacino 3 Coghinas-Mannu-Temo è oggetto di un procedimento distinto"
+    },
+    "sar-pai-barrali-162-2026": {
+      "topics": [
+        "pai-idraulico"
+      ],
+      "source_urls": [
+        "https://autoritadibacino.regione.sardegna.it/ap/determinazione-n-162-prot-n-11367-del-28-09-2026/",
+        "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/09/avp_2026_09_28_det.162_prot.11367_barrali.pdf",
+        "https://buras.regione.sardegna.it/bollettino/59386/parte/59550/inserzione/63054?summary=AVVISI_E_COMUNICATIv"
+      ],
+      "object_versions": [
+        {
+          "title": "Variante PAI idraulica del territorio comunale di Barrali",
+          "ref": "Det. SG Sardegna 162/2026 · variante PAI Barrali",
+          "summary": "Approvazione della variante puntuale al PAI relativa alla pericolosità idraulica dell’intero territorio comunale di Barrali, ai sensi degli articoli 8 e 37 delle Norme di Attuazione.",
+          "focus": [
+            "Verificare le nuove perimetrazioni di pericolosità idraulica negli elaborati approvati",
+            "Coordinare la variante con le NTA PAI vigenti e con lo strumento urbanistico comunale",
+            "Consultare l’avviso nel BURAS n. 50 del 1º ottobre 2026"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Approvazione della variante puntuale al PAI relativa alla pericolosità idraulica dell’intero territorio comunale di Barrali, ai sensi degli articoli 8 e 37 delle Norme di Attuazione. Focus: Verificare le nuove perimetrazioni di pericolosità idraulica negli elaborati approvati; Coordinare la variante con le NTA PAI vigenti e con lo strumento urbanistico comunale; Consultare l’avviso nel BURAS n. 50 del 1º ottobre 2026"
+    },
     "dist-sici": {
       "topics": [
-        "pai-idraulico",
         "pai-geomorfologico",
+        "pai-idraulico",
         "pgra"
       ],
       "source_urls": [
-        "https://www.regione.sicilia.it/system/files/2021-05/DP_n.09_2021_approvazione_NdA.pdf",
         "https://www.gazzettaufficiale.it/eli/gu/2023/02/08/32/sg/pdf#page=12",
-        "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/siti-tematici/pianificazione/stralcio"
+        "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa",
+        "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/siti-tematici/pianificazione/stralcio",
+        "https://www.regione.sicilia.it/sites/default/files/2023-02/DPCM_PGRA_20221201.pdf",
+        "https://www.regione.sicilia.it/system/files/2021-05/DP_n.09_2021_approvazione_NdA.pdf"
       ],
-      "evidence": "NTA PAI: componenti idraulica e geomorfologica; DPCM PGRA distinto nella raccolta.",
-      "evidence_url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa"
+      "object_versions": [
+        {
+          "title": "Pianificazione di bacino e rischio alluvioni",
+          "ref": "PAI / PGRA · Sicilia",
+          "summary": "Accesso al PAI e al PGRA Sicilia: il PGRA II ciclo 2021–2027 resta il riferimento vigente, mentre Valutazione Globale Provvisoria e mappe del III ciclo 2027–2033 sono pubblicate per la consultazione.",
+          "focus": [
+            "Individuare il bacino e il piano pertinente",
+            "Consultare NTA, mappe e varianti",
+            "Verificare adozione, salvaguardia e approvazione"
+          ]
+        },
+        {
+          "title": "Pianificazione di bacino e rischio alluvioni",
+          "ref": "PAI / PGRA · Sicilia",
+          "summary": "Accesso alla pianificazione del distretto Sicilia: norme, cartografie e aggiornamenti da individuare per il bacino interessato.",
+          "focus": [
+            "Individuare il bacino e il piano pertinente",
+            "Consultare NTA, mappe e varianti",
+            "Verificare adozione, salvaguardia e approvazione"
+          ]
+        }
+      ],
+      "evidence": "NTA PAI: componenti idraulica e geomorfologica; DPCM PGRA distinto nella raccolta."
+    },
+    "sic-pgra3-02-2026": {
+      "topics": [
+        "pgra"
+      ],
+      "source_urls": [
+        "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/partecipazione-pubblica",
+        "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/piano-gestione-rischio-alluvione-iideg-ciclo-2021-2027",
+        "https://www.regione.sicilia.it/la-regione-informa/pubblicate-valutazione-globale-provvisoria-mappe-pericolosita-alluvioni-piano-gestione-rischio-alluvioni-pgra",
+        "https://www.sitr.regione.sicilia.it/geoportale/it/metadata/details/1042"
+      ],
+      "object_versions": [
+        {
+          "title": "Valutazione globale provvisoria e mappe di pericolosità da alluvioni 2027–2033",
+          "ref": "Del. CIP Sicilia 2/2026 · PGRA III ciclo",
+          "summary": "La Conferenza Istituzionale Permanente ha preso atto della Valutazione Globale Provvisoria e delle mappe di pericolosità del PGRA Sicilia per il III ciclo 2027–2033, pubblicate per la consultazione.",
+          "focus": [
+            "Mappe di pericolosità per scenari TR 50, 100 e 300 anni",
+            "Consultazione pubblica degli elaborati del III ciclo",
+            "Distinzione tra documenti preparatori 2027–2033 e PGRA II ciclo 2021–2027 vigente"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: La Conferenza Istituzionale Permanente ha preso atto della Valutazione Globale Provvisoria e delle mappe di pericolosità del PGRA Sicilia per il III ciclo 2027–2033, pubblicate per la consultazione. Focus: Mappe di pericolosità per scenari TR 50, 100 e 300 anni; Consultazione pubblica degli elaborati del III ciclo; Distinzione tra documenti preparatori 2027–2033 e PGRA II ciclo 2021–2027 vigente"
+    },
+    "dmattr2014": {
+      "topics": [
+        "attraversamenti"
+      ],
+      "source_urls": [
+        "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=14A03304&atto.dataPubblicazioneGazzetta=2014-04-28&tipoSerie=serie_generale&tipoVigenza=originario",
+        "https://www.gazzettaufficiale.it/eli/gu/2014/04/28/97/sg/pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Attraversamenti e parallelismi di condotte e canali con ferrovie e altre linee di trasporto",
+          "ref": "D.M. 04/04/2014",
+          "summary": "Norme tecniche per interferenze di condotte e canali convoglianti liquidi e gas con infrastrutture ferroviarie e altre linee di trasporto individuate dal decreto.",
+          "focus": [
+            "Allegato A, capitolo 1: individuare la linea di trasporto e il campo di applicazione; non è una regola generale per ogni attraversamento di corso d’acqua.",
+            "Capitolo 4: condotte convoglianti acque sotto pressione; attraversamenti, parallelismi, protezione e prove.",
+            "Distinguere gli acquedotti e le canalizzazioni a pelo libero dalle condotte disciplinate dai capitoli 2 e 3.",
+            "Verificare geometria, protezioni, carichi, massima pressione compreso il colpo d’ariete e prescrizioni del gestore competente."
+          ]
+        }
+      ],
+      "evidence": "Prescrizioni tecniche per attraversamenti/parallelismi di condotte e canali: unica voce attraversamenti; eliminati drenaggio e risorse idriche generici."
+    },
+    "camed2025": {
+      "topics": [
+        "riuso",
+        "drenaggio"
+      ],
+      "source_urls": [
+        "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=25A06516&atto.dataPubblicazioneGazzetta=2025-12-03&tipoSerie=serie_generale&tipoVigenza=originario",
+        "https://www.gazzettaufficiale.it/eli/gu/2025/12/03/281/sg/pdf",
+        "https://www.mase.gov.it/portale/documents/d/guest/allegato_1_cam_edilizia_30_10_25-def-pdf",
+        "https://www.mase.gov.it/portale/documents/d/guest/modello-di-relazione-cam-di-progetto-vers-_02-02-2026-pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "CAM edilizia · Progettazione e lavori per interventi edilizi",
+          "ref": "D.M. 24/11/2025",
+          "summary": "Nuovo riferimento CAM edilizia; sostituzione del decreto del 2022 con disposizioni transitorie da verificare per la singola procedura.",
+          "focus": [
+            "Art. 4: abroga il D.M. 23/06/2022 n. 256 e il relativo modificativo del 05/08/2024; efficacia dopo 60 giorni dalla pubblicazione.",
+            "Art. 2: disciplina transitoria legata a progetti validati sotto il precedente quadro e alla pubblicazione del bando o all’invito entro tre mesi dalla validazione, nei casi indicati.",
+            "Approfondimenti idraulici nell’allegato MASE: gestione delle acque, permeabilità, risparmio idrico e impianti. Numerazione e requisiti quantitativi da acquisire dal nuovo allegato, senza trasferirli automaticamente dai CAM 2022.",
+            "Identificare prima la categoria dell’appalto e il regime temporale applicabile."
+          ]
+        }
+      ],
+      "evidence": "Allegato 1 CAM edilizia: §§ 2.3.14–2.3.15 reti separate e raccolta/trattamento/stoccaggio/riuso meteorico. Testo MASE riprodotto dall’ANCE letto per la classificazione; nessun trasferimento automatico dei CAM 2022."
+    },
+    "camstrade2024": {
+      "topics": [
+        "drenaggio"
+      ],
+      "source_urls": [
+        "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=24A04332&atto.dataPubblicazioneGazzetta=2024-08-23&tipoSerie=serie_generale&tipoVigenza=originario",
+        "https://www.gazzettaufficiale.it/eli/gu/2024/08/23/197/sg/pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Criteri ambientali minimi per infrastrutture stradali",
+          "ref": "D.M. 05/08/2024 · CAM Strade",
+          "summary": "CAM per progettazione, costruzione, manutenzione e adeguamento stradale, con criteri specifici per drenaggi e tubazioni.",
+          "focus": [
+            "Allegato 1, § 2.3.7: sistemi di drenaggio lineare.",
+            "§§ 2.3.8–2.3.9: tubazioni in gres ceramico e materiale plastico.",
+            "§ 2.4.1: prestazioni ambientali del cantiere; verificare la protezione delle acque nel testo applicabile.",
+            "Integrare i criteri di prodotto con la normativa sugli scarichi e le prescrizioni idrauliche del territorio."
+          ]
+        }
+      ],
+      "evidence": "Allegato 1 §§ 2.3.7–2.3.9: drenaggi lineari e tubazioni. Eliminata prima pioggia: il focus non dimostra un trattamento specifico sostanziale."
+    },
+    "camverde2020": {
+      "topics": [
+        "riuso",
+        "drenaggio"
+      ],
+      "source_urls": [
+        "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=20A01904&atto.dataPubblicazioneGazzetta=2020-04-04&tipoSerie=serie_generale&tipoVigenza=originario",
+        "https://www.gazzettaufficiale.it/eli/gu/2020/04/04/90/sg/pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Gestione del verde pubblico e prodotti per la cura del verde",
+          "ref": "D.M. 10/03/2020 · CAM Verde",
+          "summary": "Criteri per il verde pubblico con indicazioni su gestione meteorica, contenimento del deflusso, irrigazione e ingegneria naturalistica.",
+          "focus": [
+            "Allegato: gestione delle acque, superfici permeabili, contenimento del deflusso e accumulo temporaneo; considerare suoli, inquinanti e vulnerabilità delle falde.",
+            "Impianti irrigui: idrozone, stima dei consumi, raccolta pluviale, regolazione e controllo delle perdite.",
+            "Interventi pertinenti su scarpate, versanti e corsi d’acqua: tecniche di ingegneria naturalistica.",
+            "Verificare l’applicabilità della specifica sezione CAM all’oggetto dell’affidamento."
+          ]
+        }
+      ],
+      "evidence": "Gestione deflussi e raccolta pluviale per irrigazione: smaltimento e riuso meteorico sostanziali. Non aggiunti frane/invarianza per i soli riferimenti alle scarpate e al contenimento dei deflussi."
+    },
+    "appalti36": {
+      "topics": [
+        "drenaggio"
+      ],
+      "source_urls": [
+        "https://www.gazzettaufficiale.it/eli/gu/2023/03/31/77/so/12/sg/pdf",
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2023-03-31&atto.codiceRedazionale=23G00044"
+      ],
+      "object_versions": [
+        {
+          "title": "Codice dei contratti pubblici · Raccordo con i CAM",
+          "ref": "D.Lgs. 36/2023 · art. 57",
+          "summary": "Quadro degli appalti pubblici per l’inquadramento dei criteri ambientali minimi pertinenti all’affidamento.",
+          "focus": [
+            "Consultare l’art. 57 nel testo coordinato e il decreto CAM della categoria interessata.",
+            "Distinguere specifiche tecniche, clausole contrattuali e criteri premianti. Non ogni CAM è applicabile indistintamente a ogni opera idraulica."
+          ]
+        }
+      ],
+      "evidence": "Caso limite: art. 57 impone l’applicazione dei CAM di categoria negli affidamenti. Collocato per tema prevalente nel raccordo agli affidamenti di drenaggi/reti (smaltimento), conservando oggetto e descrizione di norma generale; non contiene prescrizioni tecniche di drenaggio."
+    },
+    "camstrade2025": {
+      "topics": [
+        "drenaggio"
+      ],
+      "source_urls": [
+        "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=25A05133&atto.dataPubblicazioneGazzetta=2025-09-23&tipoSerie=serie_generale&tipoVigenza=originario",
+        "https://www.gazzettaufficiale.it/eli/gu/2025/09/23/221/sg/pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Modifiche all’allegato 1 del D.M. 05/08/2024",
+          "ref": "D.M. 11/09/2025 · correttivo CAM Strade",
+          "summary": "Correttivo verificato sulla GU: da applicare insieme ai CAM Strade 2024, ricostruendo il regime della singola procedura.",
+          "focus": [
+            "Art. 1: modifiche all’allegato tecnico, comprese prescrizioni progettuali e prove dei materiali; il coordinamento integrale dei criteri idraulici resta da completare.",
+            "Art. 3: applicazione anche ai procedimenti in corso, salvo art. 4; distinguere progettazione, lavori, affidamenti congiunti e progettazione interna.",
+            "Art. 4: deroghe nei casi indicati per progetti non soggetti al DM 2024, con bando/avviso o invito entro 180 giorni dall’entrata in vigore."
+          ]
+        }
+      ],
+      "evidence": "Correttivo del CAM Strade, da leggere col testo base relativo a drenaggi e tubazioni: tema smaltimento."
     },
     "pai-calabria2001": {
       "topics": [
         "pai-idraulico"
       ],
       "source_urls": [
-        "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2024/11/NAMS_PAI_2001.pdf",
-        "https://www.distrettoappenninomeridionale.it/progetto-di-piano-stralcio-di-bacino-del-distretto-idrografico-dellappennino-meridionale-per-lassetto-la-mitigazione-e-la-gestione-del-rischio-da-alluvioni/psdgdam-risal-cal-l/"
+        "https://www.distrettoappenninomeridionale.it/progetto-di-piano-stralcio-di-bacino-del-distretto-idrografico-dellappennino-meridionale-per-lassetto-la-mitigazione-e-la-gestione-del-rischio-da-alluvioni/psdgdam-risal-cal-l/",
+        "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2024/11/NAMS_PAI_2001.pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Norme di attuazione e misure di salvaguardia del PAI regionale",
+          "ref": "PAI Calabria · NAMS aggiornate 2011",
+          "summary": "Riferimento specifico del PAI Calabria, distinto dal PGRA distrettuale e dal progetto Calabria/Lao.",
+          "focus": [
+            "Artt. 21–26: rischio di inondazione, aree di attenzione e verifiche di compatibilità.",
+            "Verificare bacino, varianti cartografiche e salvaguardie sopravvenute prima dell’applicazione."
+          ]
+        }
       ],
       "evidence": "Scheda e fonte riferite alla componente idraulica del PAI / piano stralcio di rischio alluvioni; nessuna equiparazione al PGRA."
     },
@@ -472,11 +1879,55 @@
         "pai-idraulico"
       ],
       "source_urls": [
+        "https://www.distrettoappenninomeridionale.it/progetto-di-piano-stralcio-di-bacino-del-distretto-idrografico-dellappennino-meridionale-per-lassetto-la-mitigazione-e-la-gestione-del-rischio-da-alluvioni/psdgdam-risal-cal-l/",
         "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2024/11/Norme_di_Attuazione.pdf",
-        "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2025/03/Delibera_n_1_Conferenza_Istituzionale_19_febbraio_2025_signed_signed.pdf",
-        "https://www.distrettoappenninomeridionale.it/progetto-di-piano-stralcio-di-bacino-del-distretto-idrografico-dellappennino-meridionale-per-lassetto-la-mitigazione-e-la-gestione-del-rischio-da-alluvioni/psdgdam-risal-cal-l/"
+        "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2025/03/Delibera_n_1_Conferenza_Istituzionale_19_febbraio_2025_signed_signed.pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Progetto di piano rischio alluvioni Calabria/Lao",
+          "ref": "PSdGDAM-RisAl-Cal/L",
+          "summary": "Pagina specifica del procedimento Calabria/Lao, con norme, cartografie e deliberazioni; non una pagina generica del distretto.",
+          "focus": [
+            "Delibera CIP n. 1/2025: proroga delle osservazioni e disciplina transitoria sino all’adozione del Piano.",
+            "Nelle aree già perimetrate dal PAI vigente continuano ad applicarsi le NAMS aggiornate al 02/08/2011.",
+            "Norme del progetto: artt. 12–15 per pericolosità, art. 18 per compatibilità, artt. 30–32 per pareri.",
+            "Verificare bacino, cartografia e successivi atti prima di assumere il progetto come disciplina definitiva."
+          ]
+        },
+        {
+          "title": "Progetto di piano rischio alluvioni Calabria/Lao",
+          "ref": "PSdGDAM-RisAl-Cal/L",
+          "summary": "Pagina specifica del procedimento Calabria/Lao, con norme, cartografie e deliberazioni; non una pagina generica del distretto.",
+          "focus": [
+            "Consultati indice e preambolo delle norme: artt. 12–15 per pericolosità, art. 18 per compatibilità, artt. 30–32 per pareri.",
+            "La pagina elenca le delibere del 19/02/2025 e del 31/07/2025: non attribuire efficacia o approvazione definitiva senza leggere gli atti e i relativi avvisi."
+          ]
+        }
       ],
       "evidence": "Scheda e fonte riferite alla componente idraulica del PAI / piano stralcio di rischio alluvioni; nessuna equiparazione al PGRA."
+    },
+    "pai-basilicata": {
+      "topics": [
+        "pai-frane",
+        "pai-idraulico"
+      ],
+      "source_urls": [
+        "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/UOM%20BASILICATA/PAI-RF/Norme_PAI_Basilicata_2024.pdf",
+        "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-basilicata-menu/piano-stralcio-per-la-difesa-dal-rischio-idrogeologico-pai-vigente-enu"
+      ],
+      "object_versions": [
+        {
+          "title": "Norme, elaborati e cartografie del piano di bacino",
+          "ref": "PAI ex AdB Basilicata",
+          "summary": "Piano dei bacini dell’ex AdB Basilicata, con porzioni di Puglia e Calabria. NTA aggiornamento 2024; verificare le successive varianti.",
+          "focus": [
+            "Verificare il bacino del punto di intervento e le varianti successive.",
+            "Consultare insieme norme e cartografia."
+          ]
+        }
+      ],
+      "evidence": "NTA 2024: aree di versante e fasce fluviali, disciplina rischio frana e idraulico."
     },
     "pai-lgv": {
       "topics": [
@@ -486,7 +1937,40 @@
         "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/PAI-RI%20LGV%20norme%20luglio_2006.pdf",
         "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-liri-garigliano-e-volturno-menuo/pai-rischio-idraulico-menu"
       ],
+      "object_versions": [
+        {
+          "title": "Norme, elaborati e cartografie del piano di bacino",
+          "ref": "PSAI Liri–Garigliano · rischio idraulico",
+          "summary": "Documenti del PSAI-RI del bacino Liri–Garigliano. Non estendere automaticamente al Volturno; consultare le varianti.",
+          "focus": [
+            "Verificare il bacino del punto di intervento e le varianti successive.",
+            "Consultare insieme norme e cartografia."
+          ]
+        }
+      ],
       "evidence": "Scheda e fonte riferite alla componente idraulica del PAI / piano stralcio di rischio alluvioni; nessuna equiparazione al PGRA."
+    },
+    "pai-puglia": {
+      "topics": [
+        "pai-geomorfologico",
+        "pai-idraulico"
+      ],
+      "source_urls": [
+        "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/UoM%20Puglia/3_NTA_CI_30-11-05.pdf",
+        "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-puglia-menu/piano-assetto-idrogeologico-pericolosita-idraulica-menu"
+      ],
+      "object_versions": [
+        {
+          "title": "Norme, elaborati e cartografie del piano di bacino",
+          "ref": "PAI Puglia e Ofanto",
+          "summary": "Elaborati dell’ex AdB Puglia e del bacino interregionale Ofanto. Applicabilità secondo il bacino; archivio delle perimetrazioni e aggiornamenti.",
+          "focus": [
+            "Verificare il bacino del punto di intervento e le varianti successive.",
+            "Consultare insieme norme e cartografia."
+          ]
+        }
+      ],
+      "evidence": "NTA 2005: titolo II Assetto idraulico, titolo III Assetto geomorfologico (PG1/PG2/PG3). Non duplicato come PAI frane."
     },
     "pai-campania": {
       "topics": [
@@ -495,6 +1979,17 @@
       "source_urls": [
         "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/pai-campania-centrale-norme-attuazione-2015.pdf",
         "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/bacini-reg-nord-occidentali-bacino-reg-sarno-ex-adb-reg-campania-centrale-menu/piano-assetto-idrogeologico-rischio-idraulico-menu"
+      ],
+      "object_versions": [
+        {
+          "title": "Norme, elaborati e cartografie del piano di bacino",
+          "ref": "PAI Campania Centrale",
+          "summary": "Bacini regionali nord-occidentali e Sarno. Per gli altri bacini campani consultare i rispettivi piani nell’indice distrettuale.",
+          "focus": [
+            "Verificare il bacino del punto di intervento e le varianti successive.",
+            "Consultare insieme norme e cartografia."
+          ]
+        }
       ],
       "evidence": "Scheda e fonte riferite alla componente idraulica del PAI / piano stralcio di rischio alluvioni; nessuna equiparazione al PGRA."
     },
@@ -506,6 +2001,17 @@
         "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/molise/biferno/NORME%20PAI%20BIFERNO%20AGGIORNATE%20APRILE%202017.pdf",
         "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-trigno-biferno-e-minori-saccione-e-fortore-menu/biferno-e-minori-menu/piano-stralcio-assetto-idrogeologico-rischio-idraulico-menu"
       ],
+      "object_versions": [
+        {
+          "title": "Norme, elaborati e cartografie del piano di bacino",
+          "ref": "PAI Biferno e minori",
+          "summary": "Documentazione specifica del bacino Biferno e minori. Verificare norme, cartografie e successive varianti.",
+          "focus": [
+            "Verificare il bacino del punto di intervento e le varianti successive.",
+            "Consultare insieme norme e cartografia."
+          ]
+        }
+      ],
       "evidence": "Scheda e fonte riferite alla componente idraulica del PAI / piano stralcio di rischio alluvioni; nessuna equiparazione al PGRA."
     },
     "pai-trigno": {
@@ -515,6 +2021,17 @@
       "source_urls": [
         "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/trigno/NORME%20PAI%20TRIGNO%20AGGIORNATE%20APRILE%202017.pdf",
         "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-trigno-biferno-e-minori-saccione-e-fortore-menu/trigno-menu/piano-stralcio-assetto-idrogeologico-rischio-idraulico-menu"
+      ],
+      "object_versions": [
+        {
+          "title": "Norme, elaborati e cartografie del piano di bacino",
+          "ref": "PAI Trigno",
+          "summary": "Documentazione specifica del bacino Trigno. Verificare norme, cartografie e successive varianti.",
+          "focus": [
+            "Verificare il bacino del punto di intervento e le varianti successive.",
+            "Consultare insieme norme e cartografia."
+          ]
+        }
       ],
       "evidence": "Scheda e fonte riferite alla componente idraulica del PAI / piano stralcio di rischio alluvioni; nessuna equiparazione al PGRA."
     },
@@ -526,115 +2043,812 @@
         "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/molise/FORTORE/A-01_Normativa_di_attuazione.pdf",
         "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-trigno-biferno-e-minori-saccione-e-fortore-menu/fortore-menu/piano-stralcio-assetto-idrogeologico-rischio-idraulico-menu"
       ],
+      "object_versions": [
+        {
+          "title": "Norme, elaborati e cartografie del piano di bacino",
+          "ref": "PAI Fortore",
+          "summary": "Documentazione specifica del bacino Fortore. Verificare norme, cartografie e successive varianti.",
+          "focus": [
+            "Verificare il bacino del punto di intervento e le varianti successive.",
+            "Consultare insieme norme e cartografia."
+          ]
+        }
+      ],
       "evidence": "Scheda e fonte riferite alla componente idraulica del PAI / piano stralcio di rischio alluvioni; nessuna equiparazione al PGRA."
     },
-    "pai-basilicata": {
+    "laz117": {
       "topics": [
-        "pai-idraulico",
+        "invarianza"
+      ],
+      "source_urls": [
+        "https://www.provincia.latina.it/flex/cm/pages/ServeAttachment.php/L/IT/D/1%252F1%252F3%252FD.cefc0d46463bb1e57756/P/BLOB%3AID%3D1320/E/pdf?mode=download",
+        "https://www.regione.lazio.it/documenti/69240",
+        "https://www.regione.lazio.it/sites/default/files/documentazione/AMB_Slides_Linee_guida_sulla_invarianza_idraulica_trasformazioni_territoriali.pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Linee guida sull’invarianza idraulica nelle trasformazioni territoriali",
+          "ref": "D.G.R. Lazio 117/2020",
+          "summary": "Linee guida regionali per valutare gli effetti idrologico-idraulici delle trasformazioni territoriali e dimensionare le misure compensative.",
+          "focus": [
+            "Ambito territoriale e classi di trasformazione",
+            "Studio idrologico-idraulico e misure compensative",
+            "Volumi di laminazione e recapito delle acque meteoriche"
+          ]
+        }
+      ],
+      "evidence": "Compensazione dei deflussi e volumi/portate per trasformazioni territoriali: unica voce invarianza, senza compatibilità o drenaggio generici."
+    },
+    "sar-inv-2017": {
+      "topics": [
+        "invarianza"
+      ],
+      "source_urls": [
+        "https://autoritadibacino.regione.sardegna.it/ap/delibera-del-comitato-istituzionale-n-2-del-17-05-2017/",
+        "https://www.regione.sardegna.it/documenti/1_470_20170529141753.pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Linee guida per l’attuazione del principio di invarianza idraulica",
+          "ref": "Del. C.I. 2/2017 · art. 47 NTA PAI",
+          "summary": "Aggiornamento delle linee guida e degli indirizzi operativi per applicare il principio di invarianza idraulica previsto dall’articolo 47 delle NTA del PAI Sardegna.",
+          "focus": [
+            "Classificazione degli interventi",
+            "Coefficienti di afflusso e calcolo idraulico",
+            "Misure compensative e schede tecniche"
+          ]
+        }
+      ],
+      "evidence": "Art. 47 NTA PAI: l’oggetto specifico è l’invarianza; il raccordo col PAI non giustifica duplicare la voce idraulica."
+    },
+    "lom4pp": {
+      "topics": [
+        "scarichi",
+        "prima-pioggia"
+      ],
+      "source_urls": [
+        "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002006032400004&type=pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Smaltimento delle acque di prima pioggia e di lavaggio delle aree esterne",
+          "ref": "R.R. Lombardia 4/2006",
+          "summary": "Regolamento regionale specifico adottato in attuazione dell’art. 52 della L.R. 26/2003.",
+          "focus": [
+            "Superfici scolanti soggette",
+            "Separazione e trattamento",
+            "Autorizzazione allo scarico"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Regolamento regionale specifico adottato in attuazione dell’art. 52 della L.R. 26/2003. Focus: Superfici scolanti soggette; Separazione e trattamento; Autorizzazione allo scarico"
+    },
+    "sar6925": {
+      "topics": [
+        "scarichi",
+        "prima-pioggia"
+      ],
+      "source_urls": [
+        "https://www.regione.sardegna.it/documenti/1_73_20090127105834.pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Direttiva regionale sulla disciplina degli scarichi",
+          "ref": "D.G.R. Sardegna 69/25 del 10/12/2008",
+          "summary": "Direttiva regionale sugli scarichi; il Capo V disciplina le acque di prima pioggia e di lavaggio delle aree esterne.",
+          "focus": [
+            "Definizioni",
+            "Attività soggette",
+            "Raccolta, trattamento e recapito"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Direttiva regionale sugli scarichi; il Capo V disciplina le acque di prima pioggia e di lavaggio delle aree esterne. Focus: Definizioni; Attività soggette; Raccolta, trattamento e recapito"
+    },
+    "tos20": {
+      "topics": [
+        "scarichi",
+        "prima-pioggia"
+      ],
+      "source_urls": [
+        "https://raccoltanormativa.consiglio.regione.toscana.it/",
+        "https://raccoltanormativa.consiglio.regione.toscana.it/articolo?urndoc=urn:nir:regione.toscana:legge:2006-05-31;20",
+        "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?id=28068949-268d-11ec-9830-0050568e1a48&ext=pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Norme per la tutela delle acque dall’inquinamento",
+          "ref": "L.R. Toscana 20/2006",
+          "summary": "Legge regionale quadro; l’art. 8 disciplina lo scarico delle acque di prima pioggia e delle acque meteoriche dilavanti contaminate.",
+          "focus": [
+            "Articolo 8",
+            "Autorizzazione",
+            "Coordinamento con il regolamento 46/R"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Legge regionale quadro; l’art. 8 disciplina lo scarico delle acque di prima pioggia e delle acque meteoriche dilavanti contaminate. Focus: Articolo 8; Autorizzazione; Coordinamento con il regolamento 46/R"
+    },
+    "tos46": {
+      "topics": [
+        "scarichi",
+        "prima-pioggia"
+      ],
+      "source_urls": [
+        "https://raccoltanormativa.consiglio.regione.toscana.it/",
+        "https://raccoltanormativa.consiglio.regione.toscana.it/articolo?urndoc=urn:nir:regione.toscana:regolamento.giunta:2008-09-08;46/R",
+        "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?id=9345c577-24d8-11ef-bf7a-005056959b60&ext=pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Regolamento di attuazione della L.R. 20/2006",
+          "ref": "D.P.G.R. Toscana 46/R/2008",
+          "summary": "Regolamento attuativo che dettaglia acque meteoriche dilavanti, prima pioggia, trattamenti e autorizzazioni.",
+          "focus": [
+            "Classificazione AMD e AMPP",
+            "Piani di prevenzione e gestione",
+            "Trattamenti e recapiti"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Regolamento attuativo che dettaglia acque meteoriche dilavanti, prima pioggia, trattamenti e autorizzazioni. Focus: Classificazione AMD e AMPP; Piani di prevenzione e gestione; Trattamenti e recapiti"
+    },
+    "venpta39": {
+      "topics": [
+        "scarichi",
+        "prima-pioggia"
+      ],
+      "source_urls": [
+        "https://bur.regione.veneto.it/",
+        "https://repository.regione.veneto.it/public/6396bf686a0ce689ab40783272aec920.php?dl=true"
+      ],
+      "object_versions": [
+        {
+          "title": "Acque meteoriche di dilavamento, acque di prima pioggia e acque di lavaggio",
+          "ref": "PTA Veneto · art. 39 NTA",
+          "summary": "L’art. 39 delle Norme tecniche del Piano di tutela delle acque disciplina separazione, trattamento e recapito delle acque meteoriche contaminate.",
+          "focus": [
+            "Articolo 39 NTA",
+            "Superfici soggette",
+            "Trattamento e autorizzazione"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: L’art. 39 delle Norme tecniche del Piano di tutela delle acque disciplina separazione, trattamento e recapito delle acque meteoriche contaminate. Focus: Articolo 39 NTA; Superfici soggette; Trattamento e autorizzazione"
+    },
+    "dpr753": {
+      "topics": [
+        "attraversamenti"
+      ],
+      "source_urls": [
+        "https://www.gazzettaufficiale.it/eli/gu/1980/11/15/314/so/0/sg/pdf",
+        "https://www.gazzettaufficiale.it/eli/id/1980/11/15/080U0753/sg"
+      ],
+      "object_versions": [
+        {
+          "title": "Polizia, sicurezza e regolarità dell’esercizio ferroviario",
+          "ref": "D.P.R. 753/1980",
+          "summary": "Quadro nazionale di polizia e sicurezza per ferrovie e altri servizi di trasporto, pertinente alla verifica delle interferenze e delle opere in prossimità delle linee.",
+          "focus": [
+            "Individuare il servizio di trasporto e l’autorità o il gestore competente",
+            "Coordinare distanze, sicurezza e autorizzazioni con le norme tecniche speciali",
+            "Non estendere automaticamente al testo originario una vigenza non verificata articolo per articolo"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Quadro nazionale di polizia e sicurezza per ferrovie e altri servizi di trasporto, pertinente alla verifica delle interferenze e delle opere in prossimità delle linee. Focus: Individuare il servizio di trasporto e l’autorità o il gestore competente; Coordinare distanze, sicurezza e autorizzazioni con le norme tecniche speciali; Non estendere automaticamente al testo originario una vigenza non verificata articolo per articolo"
+    },
+    "codstrada285": {
+      "topics": [
+        "attraversamenti"
+      ],
+      "source_urls": [
+        "https://www.gazzettaufficiale.it/eli/gu/1992/05/18/114/so/74/sg/pdf",
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0306&atto.dataPubblicazioneGazzetta=1992-05-18"
+      ],
+      "object_versions": [
+        {
+          "title": "Attraversamenti e uso della sede stradale",
+          "ref": "D.Lgs. 285/1992 · art. 25",
+          "summary": "L’art. 25 del Nuovo codice della strada disciplina attraversamenti e occupazioni della sede stradale, rilevanti per condotte, canali e altre interferenze idrauliche.",
+          "focus": [
+            "Articolo 25 del Codice della strada",
+            "Titolo abilitativo dell’ente proprietario della strada",
+            "Coordinamento con il regolamento di esecuzione e con le prescrizioni del gestore"
+          ]
+        }
+      ],
+      "evidence": "Art. 25: attraversamenti e occupazioni della sede; eliminato drenaggio come generico raccordo."
+    },
+    "dpr495": {
+      "topics": [
+        "attraversamenti",
+        "drenaggio"
+      ],
+      "source_urls": [
+        "https://www.gazzettaufficiale.it/eli/gu/1992/12/28/303/so/134/sg/pdf",
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0531&atto.dataPubblicazioneGazzetta=1992-12-28"
+      ],
+      "object_versions": [
+        {
+          "title": "Regolamento del Codice della strada: attraversamenti e condotta delle acque",
+          "ref": "D.P.R. 495/1992 · artt. 65–69",
+          "summary": "Gli articoli 65–69 del regolamento di esecuzione del Codice della strada dettagliano attraversamenti, occupazioni e condotta delle acque nella sede stradale.",
+          "focus": [
+            "Articoli 65–69",
+            "Modalità tecniche e condizioni dell’ente proprietario",
+            "Coordinamento con concessioni, autorizzazioni idrauliche e prescrizioni del gestore"
+          ]
+        }
+      ],
+      "evidence": "Artt. 65–69: attraversamenti e condotta delle acque nella sede stradale; due materie tecniche sostanziali."
+    },
+    "dm185": {
+      "topics": [
+        "scarichi"
+      ],
+      "source_urls": [
+        "https://www.gazzettaufficiale.it/eli/gu/2003/07/23/169/sg/pdf",
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2003-07-23&atto.codiceRedazionale=003G0210"
+      ],
+      "object_versions": [
+        {
+          "title": "Norme tecniche per il riutilizzo delle acque reflue",
+          "ref": "D.M. 185/2003",
+          "summary": "Regolamento tecnico nazionale sul riutilizzo delle acque reflue domestiche, urbane e industriali, sulle destinazioni d’uso, sui requisiti di qualità e sulle modalità di controllo.",
+          "focus": [
+            "Distinguere riuso irriguo, civile e industriale e verificare destinazioni d’uso e requisiti di qualità dell’allegato.",
+            "Coordinare la disciplina con l’art. 99 del D.Lgs. 152/2006, con le norme regionali e con i piani di tutela.",
+            "Per il riuso irriguo agricolo verificare anche il regolamento (UE) 2020/741 e il piano di gestione dei rischi.",
+            "L’abrogazione prevista dal D.L. 200/2025, convertito dalla L. 26/2026, opera soltanto dall’entrata in vigore del futuro regolamento adottato ai sensi dell’art. 99, comma 1, TUA."
+          ]
+        }
+      ],
+      "evidence": "Riuso delle acque reflue/affinate: requisiti qualitativi e tutela delle acque; non è riuso di pioggia, quindi unica voce Scarichi e tutela delle acque."
+    },
+    "dpr59": {
+      "topics": [
+        "autorizzazioni",
+        "scarichi"
+      ],
+      "source_urls": [
+        "https://www.gazzettaufficiale.it/eli/gu/2013/05/29/124/so/42/sg/pdf",
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2013-05-29&atto.codiceRedazionale=13G00101"
+      ],
+      "object_versions": [
+        {
+          "title": "Autorizzazione unica ambientale (AUA)",
+          "ref": "D.P.R. 59/2013",
+          "summary": "Disciplina l’autorizzazione unica ambientale per piccole e medie imprese e impianti non soggetti ad AIA, includendo tra i titoli sostituiti l’autorizzazione agli scarichi.",
+          "focus": [
+            "Verificare se l’attività rientra nell’ambito AUA o in una delle esclusioni.",
+            "Individuare i titoli ambientali sostituiti, compresa l’autorizzazione agli scarichi ex capo II del titolo IV della Parte III TUA.",
+            "Coordinare procedimento, SUAP, autorità competente e disciplina regionale applicabile."
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Disciplina l’autorizzazione unica ambientale per piccole e medie imprese e impianti non soggetti ad AIA, includendo tra i titoli sostituiti l’autorizzazione agli scarichi. Focus: Verificare se l’attività rientra nell’ambito AUA o in una delle esclusioni.; Individuare i titoli ambientali sostituiti, compresa l’autorizzazione agli scarichi ex capo II del titolo IV della Parte III TUA.; Coordinare procedimento, SUAP, autorità competente e disciplina regionale applicabile."
+    },
+    "ue741reuse": {
+      "topics": [
+        "scarichi"
+      ],
+      "source_urls": [
+        "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32020R0741",
+        "https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:32020R0741"
+      ],
+      "object_versions": [
+        {
+          "title": "Prescrizioni minime per il riutilizzo dell’acqua",
+          "ref": "Reg. (UE) 2020/741",
+          "summary": "Stabilisce prescrizioni minime per qualità e monitoraggio delle acque affinate e per la gestione dei rischi quando sono riutilizzate a fini irrigui in agricoltura.",
+          "focus": [
+            "Si applica dal 26/06/2023 ed è direttamente applicabile negli Stati membri.",
+            "Verificare classe di qualità, colture, monitoraggi e punto di conformità.",
+            "Predisporre il piano di gestione dei rischi e verificare permesso, responsabilità e informazione al pubblico.",
+            "Coordinare con la disciplina nazionale e regionale del riuso e degli scarichi."
+          ]
+        }
+      ],
+      "evidence": "Riuso delle acque reflue/affinate: requisiti qualitativi e tutela delle acque; non è riuso di pioggia, quindi unica voce Scarichi e tutela delle acque."
+    },
+    "ue1765reuse": {
+      "topics": [
+        "scarichi"
+      ],
+      "source_urls": [
+        "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32024R1765",
+        "https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:32024R1765"
+      ],
+      "object_versions": [
+        {
+          "title": "Specifiche tecniche per la gestione dei rischi nel riutilizzo dell’acqua",
+          "ref": "Reg. delegato (UE) 2024/1765",
+          "summary": "Integra il regolamento (UE) 2020/741 con le specifiche tecniche dei principali elementi dei piani di gestione dei rischi per il riutilizzo dell’acqua.",
+          "focus": [
+            "Descrivere l’intero sistema di riutilizzo, dalla produzione all’uso finale.",
+            "Individuare pericoli, eventi pericolosi, vie di esposizione e soggetti esposti.",
+            "Definire misure preventive, barriere, monitoraggi e responsabilità.",
+            "Applicare le specifiche insieme al regolamento (UE) 2020/741."
+          ]
+        }
+      ],
+      "evidence": "Riuso delle acque reflue/affinate: requisiti qualitativi e tutela delle acque; non è riuso di pioggia, quindi unica voce Scarichi e tutela delle acque."
+    },
+    "bz-badia-pzp-782-2026": {
+      "topics": [
+        "pzp"
+      ],
+      "source_urls": [
+        "https://api.integrations.services.siag.it/delibere/v1/delibere/esiuL8RBQoDk1lstoAKo%2BQ%3D%3D/document?tstmp=1790196547437",
+        "https://giunta-provinciale.provincia.bz.it/it/delibere"
+      ],
+      "object_versions": [
+        {
+          "title": "Modifica PZP Badia · Pedraces–Ustaria Posta",
+          "ref": "D.G.P. Bolzano 782/2026",
+          "summary": "Modifica della carta delle zone di pericolo idraulico nel Comune di Badia, località Pedraces–Ustaria Posta.",
+          "focus": [
+            "Carta delle zone di pericolo sostituita nell’ambito interessato.",
+            "Verificare la pubblicazione nel Bollettino Ufficiale per la data di efficacia."
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Modifica della carta delle zone di pericolo idraulico nel Comune di Badia, località Pedraces–Ustaria Posta. Focus: Carta delle zone di pericolo sostituita nell’ambito interessato.; Verificare la pubblicazione nel Bollettino Ufficiale per la data di efficacia."
+    },
+    "bz-campo-tures-pzp-799-2026": {
+      "topics": [
         "pai-frane"
       ],
       "source_urls": [
-        "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/UOM%20BASILICATA/PAI-RF/Norme_PAI_Basilicata_2024.pdf",
-        "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-basilicata-menu/piano-stralcio-per-la-difesa-dal-rischio-idrogeologico-pai-vigente-enu"
+        "https://api.integrations.services.siag.it/delibere/v1/delibere/ZzOArA8ANeWZFuTKiVQGSA%3D%3D/document?tstmp=1790598720328",
+        "https://giunta-provinciale.provincia.bz.it/it/delibere"
       ],
-      "evidence": "NTA 2024: aree di versante e fasce fluviali, disciplina rischio frana e idraulico."
+      "object_versions": [
+        {
+          "title": "Modifica PZP Campo Tures · zona produttiva Griesberg",
+          "ref": "D.G.P. Bolzano 799/2026",
+          "summary": "Approvata la modifica della carta delle zone di pericolo da frana nei lotti 2 e 3 della zona produttiva Griesberg, conseguente a opere di protezione realizzate dal Comune.",
+          "focus": [
+            "Modifica circoscritta al pericolo da frana nei lotti 2 e 3 della zona produttiva Griesberg.",
+            "La carta delle zone di pericolo è sostituita nell’ambito interessato.",
+            "Verificare la pubblicazione nel Bollettino Ufficiale regionale prima di assumere l’efficacia della modifica."
+          ]
+        }
+      ],
+      "evidence": "PZP con componente esclusivamente frane (e valanghe per Rasun-Anterselva): tema frane/fenomeni gravitativi nella voce ammessa più vicina. Non è classificato come PZP idraulico né trasformato in strumento PAI; titolo e fonte conservano la natura PZP."
     },
-    "pai-puglia": {
+    "bz-nova-ponente-pzp-776-2026": {
       "topics": [
-        "pai-idraulico",
-        "pai-geomorfologico"
+        "pai-frane"
       ],
       "source_urls": [
-        "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/UoM%20Puglia/3_NTA_CI_30-11-05.pdf",
-        "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-puglia-menu/piano-assetto-idrogeologico-pericolosita-idraulica-menu"
+        "https://api.integrations.services.siag.it/delibere/v1/delibere/03qj3RHzult3pGstFd%2BQsQ%3D%3D/document?tstmp=1790750000000",
+        "https://giunta-provinciale.provincia.bz.it/it/delibere"
       ],
-      "evidence": "NTA 2005: titolo II Assetto idraulico, titolo III Assetto geomorfologico (PG1/PG2/PG3). Non duplicato come PAI frane."
+      "object_versions": [
+        {
+          "title": "Modifica PZP Nova Ponente · SS 241 km 11+000–11+900",
+          "ref": "D.G.P. Bolzano 776/2026",
+          "summary": "Approvata la sostituzione della carta delle zone di pericolo da frana lungo la SS 241, tra le progressive km 11+000 e km 11+900, dopo opere di protezione pubbliche.",
+          "focus": [
+            "Modifica circoscritta alla componente frane.",
+            "La carta delle zone di pericolo è sostituita nell’ambito interessato.",
+            "L’efficacia decorre dal giorno successivo alla pubblicazione nel Bollettino Ufficiale."
+          ]
+        }
+      ],
+      "evidence": "PZP con componente esclusivamente frane (e valanghe per Rasun-Anterselva): tema frane/fenomeni gravitativi nella voce ammessa più vicina. Non è classificato come PZP idraulico né trasformato in strumento PAI; titolo e fonte conservano la natura PZP."
     },
-    "sar-inv-2017": {
+    "bz-fortezza-pzp-742-2026": {
+      "topics": [
+        "pzp"
+      ],
+      "source_urls": [
+        "https://api.integrations.services.siag.it/delibere/v1/delibere/f5awpYMYyI7-Nv91yjrfaw%3D%3D/document?tstmp=1790750000000",
+        "https://giunta-provinciale.provincia.bz.it/it/delibere"
+      ],
+      "object_versions": [
+        {
+          "title": "Modifica PZP Fortezza · zona Greithwald",
+          "ref": "D.G.P. Bolzano 742/2026",
+          "summary": "Approvata la modifica della carta delle zone di pericolo idraulico nella zona Greithwald, conseguente a opere di protezione realizzate dall’Amministrazione pubblica.",
+          "focus": [
+            "Modifica circoscritta ai pericoli idraulici.",
+            "La carta delle zone di pericolo è sostituita nell’ambito interessato.",
+            "L’efficacia decorre dal giorno successivo alla pubblicazione nel Bollettino Ufficiale."
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Approvata la modifica della carta delle zone di pericolo idraulico nella zona Greithwald, conseguente a opere di protezione realizzate dall’Amministrazione pubblica. Focus: Modifica circoscritta ai pericoli idraulici.; La carta delle zone di pericolo è sostituita nell’ambito interessato.; L’efficacia decorre dal giorno successivo alla pubblicazione nel Bollettino Ufficiale."
+    },
+    "bz-nova-ponente-pzp-741-2026": {
+      "topics": [
+        "pai-frane"
+      ],
+      "source_urls": [
+        "https://api.integrations.services.siag.it/delibere/v1/delibere/XB%2BxsmykMNX4WRP4cDf9Eg%3D%3D/document?tstmp=1790750000000",
+        "https://giunta-provinciale.provincia.bz.it/it/delibere"
+      ],
+      "object_versions": [
+        {
+          "title": "Modifica PZP Nova Ponente · SS 241 km 10+640",
+          "ref": "D.G.P. Bolzano 741/2026",
+          "summary": "Approvata la sostituzione della carta delle zone di pericolo da frana presso la SS 241 km 10+640, dopo opere di protezione pubbliche.",
+          "focus": [
+            "Modifica circoscritta alla componente frane.",
+            "La carta delle zone di pericolo è sostituita nell’ambito interessato.",
+            "L’efficacia decorre dal giorno successivo alla pubblicazione nel Bollettino Ufficiale."
+          ]
+        }
+      ],
+      "evidence": "PZP con componente esclusivamente frane (e valanghe per Rasun-Anterselva): tema frane/fenomeni gravitativi nella voce ammessa più vicina. Non è classificato come PZP idraulico né trasformato in strumento PAI; titolo e fonte conservano la natura PZP."
+    },
+    "bz-sarentino-pzp-740-2026": {
+      "topics": [
+        "pai-frane",
+        "pzp"
+      ],
+      "source_urls": [
+        "https://api.integrations.services.siag.it/delibere/v1/delibere/QDiyUDJvk7Ajnb95m6fsng%3D%3D/document?tstmp=1790750000000",
+        "https://giunta-provinciale.provincia.bz.it/it/delibere"
+      ],
+      "object_versions": [
+        {
+          "title": "Modifica PZP Sarentino · Rio di Monterosso e Pichlereschbaum",
+          "ref": "D.G.P. Bolzano 740/2026",
+          "summary": "Approvata la modifica della carta delle zone di pericolo per il bacino idrico F.310 Rio di Monterosso e l’area di accumulo della valanga Pichlereschbaum, dopo opere comunali di protezione.",
+          "focus": [
+            "Modifica delle componenti idraulica e valanghiva.",
+            "La carta delle zone di pericolo è sostituita nell’ambito interessato.",
+            "L’efficacia decorre dal giorno successivo alla pubblicazione nel Bollettino Ufficiale."
+          ]
+        }
+      ],
+      "evidence": "PZP misto idraulica e valanghe: PZP idraulico + tema frane/fenomeni gravitativi, senza categoria valanghe autonoma."
+    },
+    "bz-la-valle-pzp-739-2026": {
+      "topics": [
+        "pzp"
+      ],
+      "source_urls": [
+        "https://api.integrations.services.siag.it/delibere/v1/delibere/sSWjeY6wMsUs%2BRZX0J8S0Q%3D%3D/document?tstmp=1790750000000",
+        "https://giunta-provinciale.provincia.bz.it/it/delibere"
+      ],
+      "object_versions": [
+        {
+          "title": "Modifica PZP La Valle · Rio di Armentara E.155",
+          "ref": "D.G.P. Bolzano 739/2026",
+          "summary": "Approvata la modifica della carta delle zone di pericolo idraulico sul Rio di Armentara E.155, conseguente a opere di protezione provinciali.",
+          "focus": [
+            "Modifica circoscritta ai pericoli idraulici.",
+            "La carta delle zone di pericolo è sostituita nell’ambito interessato.",
+            "L’efficacia decorre dal giorno successivo alla pubblicazione nel Bollettino Ufficiale."
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Approvata la modifica della carta delle zone di pericolo idraulico sul Rio di Armentara E.155, conseguente a opere di protezione provinciali. Focus: Modifica circoscritta ai pericoli idraulici.; La carta delle zone di pericolo è sostituita nell’ambito interessato.; L’efficacia decorre dal giorno successivo alla pubblicazione nel Bollettino Ufficiale."
+    },
+    "bz-rasun-anterselva-pzp-738-2026": {
+      "topics": [
+        "pai-frane"
+      ],
+      "source_urls": [
+        "https://api.integrations.services.siag.it/delibere/v1/delibere/EG2E4ptZZnKQGIZaBUV5Qg%3D%3D/document?tstmp=1790750000000",
+        "https://giunta-provinciale.provincia.bz.it/it/delibere"
+      ],
+      "object_versions": [
+        {
+          "title": "Modifica PZP Rasun-Anterselva · centro Biathlon",
+          "ref": "D.G.P. Bolzano 738/2026",
+          "summary": "Approvata la modifica della carta delle zone di pericolo da frana e valanga nell’area del centro Biathlon di Anterselva.",
+          "focus": [
+            "Modifica delle componenti frane e valanghe.",
+            "La carta delle zone di pericolo è sostituita nell’ambito interessato.",
+            "L’efficacia decorre dal giorno successivo alla pubblicazione nel Bollettino Ufficiale."
+          ]
+        }
+      ],
+      "evidence": "PZP con componente esclusivamente frane (e valanghe per Rasun-Anterselva): tema frane/fenomeni gravitativi nella voce ammessa più vicina. Non è classificato come PZP idraulico né trasformato in strumento PAI; titolo e fonte conservano la natura PZP."
+    },
+    "centr-pai-idraulico-67-2026": {
       "topics": [
         "pai-idraulico"
       ],
       "source_urls": [
-        "https://www.regione.sardegna.it/documenti/1_470_20170529141753.pdf",
-        "https://autoritadibacino.regione.sardegna.it/ap/delibera-del-comitato-istituzionale-n-2-del-17-05-2017/"
+        "https://aubac.it/pai-distrettuale-idraulico",
+        "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2067%20-%20PAI%20IDRAULICO_signed_signed_0.pdf",
+        "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO_0.pdf",
+        "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20RELAZIONE%20GENERALE_def_0.pdf"
       ],
-      "evidence": "Linee guida attuative dell’articolo 47 delle NTA PAI per invarianza idraulica; non PGRA."
+      "object_versions": [
+        {
+          "title": "PAI distrettuale per il rischio idraulico da alluvioni",
+          "ref": "Del. CIP AUBAC 67/2026",
+          "summary": "La CIP AUBAC ha adottato definitivamente il PAI idraulico distrettuale. Le misure di salvaguardia su disposizioni, allegati e mappe individuati dalla Deliberazione 67/2026 sono vincolanti dal 4 giugno 2026, data di pubblicazione dell’avviso in G.U. n. 127, fino all’approvazione con D.P.C.M. e comunque per non oltre tre anni.",
+          "focus": [
+            "Verificare fasce, ambiti e perimetrazioni nelle mappe adottate",
+            "Applicare le disposizioni poste in salvaguardia e il reticolo principale dell’Allegato 3",
+            "Distinguere adozione definitiva da approvazione con D.P.C.M."
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: La CIP AUBAC ha adottato definitivamente il PAI idraulico distrettuale. Le misure di salvaguardia su disposizioni, allegati e mappe individuati dalla Deliberazione 67/2026 sono vincolanti dal 4 giugno 2026, data di pubblicazione dell’avviso in G.U. n. 127, fino all’approvazione con D.P.C.M. e comunque per non oltre tre anni. Focus: Verificare fasce, ambiti e perimetrazioni nelle mappe adottate; Applicare le disposizioni poste in salvaguardia e il reticolo principale dell’Allegato 3; Distinguere adozione definitiva da approvazione con D.P.C.M."
     },
-    "dl152": {
+    "centr-pai-frane-68-2026": {
       "topics": [
-        "quadro-alluvioni",
-        "riuso"
-      ],
-      "source_urls": [
-        "https://www.gazzettaufficiale.it/eli/gu/2006/04/14/88/so/96/sg/pdf",
-        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2006-04-14&atto.codiceRedazionale=006G0171"
-      ],
-      "evidence": "Norma quadro o disciplina territoriale sul rischio alluvioni; non un atto di piano PAI/PGRA. Il focus della scheda comprende espressamente gli articoli 98-99 sul riuso."
-    },
-    "dl49": {
-      "topics": [
-        "quadro-alluvioni"
-      ],
-      "source_urls": [
-        "https://www.gazzettaufficiale.it/eli/gu/2010/04/02/77/sg/pdf"
-      ],
-      "evidence": "Norma quadro o disciplina territoriale sul rischio alluvioni; non un atto di piano PAI/PGRA."
-    },
-    "ueall": {
-      "topics": [
-        "quadro-alluvioni"
-      ],
-      "source_urls": [
-        "https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:32007L0060",
-        "https://eur-lex.europa.eu/eli/dir/2007/60/oj?locale=it"
-      ],
-      "evidence": "Norma quadro o disciplina territoriale sul rischio alluvioni; non un atto di piano PAI/PGRA."
-    },
-    "tos41": {
-      "topics": [
-        "quadro-alluvioni"
-      ],
-      "source_urls": [
-        "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?id=4ab37acb-9af9-11ed-b5b1-005056959b60&ext=pdf",
-        "https://raccoltanormativa.consiglio.regione.toscana.it/articolo?urndoc=urn:nir:regione.toscana:legge:2018-07-24;41"
-      ],
-      "evidence": "Norma quadro o disciplina territoriale sul rischio alluvioni; non un atto di piano PAI/PGRA."
-    },
-    "milano": {
-      "topics": [
-        "compatibilita"
-      ],
-      "source_urls": [
-        "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf",
-        "https://pgt.comune.milano.it/"
-      ],
-      "evidence": "Pianificazione comunale PGT e documento rischio idraulico. Il semplice coordinamento con PGRA non rende il documento un PGRA."
-    },
-    "po-pai-estensione-13-2025": {
-      "topics": [
-        "pai-idraulico",
         "pai-frane"
       ],
       "source_urls": [
-        "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/delibera_CIP_13_2025_variante_PAI_Po_signed_signed.pdf",
-        "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/Relazione_generale.pdf",
-        "https://pianoalluvioni.adbpo.it/mappe-della-pericolosita-e-del-rischio-di-alluvione-2027/",
-        "https://pai.adbpo.it/progetto-variante-pai-po-estensione-ai-bacini-del-reno-romagnoli-conca-marecchia-e-fissero-tartaro-canalbianco/"
+        "https://aubac.it/pai-distrettuale-frane",
+        "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2068%20-%20PAI%20FRANE_signed_signed_0.pdf",
+        "https://cms.aubac.it/sites/default/files/2026-06/PAI%20FRANE%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO_0.pdf"
       ],
-      "evidence": "Progetto di variante PAI Po: fasce fluviali, aree allagabili e dissesti di versante, descritti nella relazione generale. Non un PGRA."
+      "object_versions": [
+        {
+          "title": "PAI distrettuale per il rischio da frana",
+          "ref": "Del. CIP AUBAC 68/2026",
+          "summary": "La CIP AUBAC ha adottato definitivamente il PAI frane distrettuale. Le misure di salvaguardia sulle disposizioni, sugli allegati e sulla cartografia individuati dalla Deliberazione 68/2026 sono vincolanti dal 4 giugno 2026, data di pubblicazione dell’avviso in G.U. n. 127, fino all’approvazione con D.P.C.M. e comunque per non oltre tre anni.",
+          "focus": [
+            "Verificare classi di pericolosità, livelli di rischio e perimetrazioni",
+            "Applicare le disposizioni poste in salvaguardia e gli Allegati 1 e 5",
+            "Distinguere adozione definitiva da approvazione con D.P.C.M."
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: La CIP AUBAC ha adottato definitivamente il PAI frane distrettuale. Le misure di salvaguardia sulle disposizioni, sugli allegati e sulla cartografia individuati dalla Deliberazione 68/2026 sono vincolanti dal 4 giugno 2026, data di pubblicazione dell’avviso in G.U. n. 127, fino all’approvazione con D.P.C.M. e comunque per non oltre tre anni. Focus: Verificare classi di pericolosità, livelli di rischio e perimetrazioni; Applicare le disposizioni poste in salvaguardia e gli Allegati 1 e 5; Distinguere adozione definitiva da approvazione con D.P.C.M."
     },
-    "bz-campo-tures-pzp-799-2026": {
+    "centr-pai-nestore-139-2026": {
       "topics": [
-        "pzp",
-        "dissesto"
-      ],
-      "exclude_topics": [
-        "compatibilita"
+        "pai-idraulico"
       ],
       "source_urls": [
-        "https://api.integrations.services.siag.it/delibere/v1/delibere/ZzOArA8ANeWZFuTKiVQGSA%3D%3D/document?tstmp=1790598720328"
+        "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+        "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3268&StwEvent=101",
+        "https://www.aubac.it/news/notizie/rischio-idraulico-approvato-laggiornamento-delle-fasce-fluviali-e-delle-aree-rischio-di-esondazione"
       ],
-      "evidence": "La variante riguarda esclusivamente pericolo da frana nei lotti 2 e 3, non pericolo o compatibilità idraulica."
+      "object_versions": [
+        {
+          "title": "Aggiornamento PAI Tevere · fasce fluviali e rischio di esondazione del Fiume Nestore",
+          "ref": "D.S. AUBAC 139/2026",
+          "summary": "Aggiornamento definitivo delle fasce fluviali e delle aree a rischio di esondazione del Fiume Nestore, da Piegaro alla confluenza con il Tevere, nei comuni di Piegaro, Panicale, Perugia, Marsciano, San Venanzo e Collazzone. La variante è immediatamente efficace e allinea il quadro conoscitivo del nuovo PAI idraulico distrettuale.",
+          "focus": [
+            "Consultare le nuove fasce fluviali e aree a rischio",
+            "Verificare l’incidenza nei sei comuni umbri",
+            "Coordinare la variante con il PAI idraulico distrettuale adottato"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Aggiornamento definitivo delle fasce fluviali e delle aree a rischio di esondazione del Fiume Nestore, da Piegaro alla confluenza con il Tevere, nei comuni di Piegaro, Panicale, Perugia, Marsciano, San Venanzo e Collazzone. La variante è immediatamente efficace e allinea il quadro conoscitivo del nuovo PAI idraulico distrettuale. Focus: Consultare le nuove fasce fluviali e aree a rischio; Verificare l’incidenza nei sei comuni umbri; Coordinare la variante con il PAI idraulico distrettuale adottato"
+    },
+    "sett-pgra-variante-62-2026": {
+      "topics": [
+        "pgra"
+      ],
+      "source_urls": [
+        "https://geodataserver.appenninosettentrionale.it/arcgis/rest/services/Pericolosita_Alluvione/mappa_variante_pericolosita2026/MapServer/0"
+      ],
+      "object_versions": [
+        {
+          "title": "Progetto di variante alle mappe di pericolosità da alluvione del PGRA",
+          "ref": "Del. CIP 62/2026 · Appennino Settentrionale",
+          "summary": "La Deliberazione CIP 62/2026 ha adottato il progetto di variante alle mappe di pericolosità da alluvione sul reticolo principale del PGRA, in fase di consultazione. È stralciata la porzione ligure tra il torrente Bettigna e il torrente Parmignola.",
+          "focus": [
+            "Consultare la cartografia della variante",
+            "Verificare l’esito della consultazione e l’adozione definitiva",
+            "Tenere distinto il progetto dalle mappe vigenti"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: La Deliberazione CIP 62/2026 ha adottato il progetto di variante alle mappe di pericolosità da alluvione sul reticolo principale del PGRA, in fase di consultazione. È stralciata la porzione ligure tra il torrente Bettigna e il torrente Parmignola. Focus: Consultare la cartografia della variante; Verificare l’esito della consultazione e l’adozione definitiva; Tenere distinto il progetto dalle mappe vigenti"
+    },
+    "centr-pai-lettomanoppello-142-2026": {
+      "topics": [
+        "pai-frane"
+      ],
+      "source_urls": [
+        "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+        "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3273&StwEvent=101",
+        "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Aggiornamento PAI Abruzzo · dissesti nel capoluogo di Lettomanoppello",
+          "ref": "D.S. AUBAC 142/2026",
+          "summary": "Aggiornamento definitivo del PAI frane nel capoluogo di Lettomanoppello: ampliamento di un corpo di frana a pericolosità molto elevata P3 e inserimento di ulteriori corpi di frana P3 nel centro storico e nella zona a sud-est del centro storico.",
+          "focus": [
+            "Consultare le nuove perimetrazioni P3",
+            "Verificare l’ampliamento del dissesto esistente",
+            "Coordinare l’aggiornamento con il PAI frane distrettuale"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Aggiornamento definitivo del PAI frane nel capoluogo di Lettomanoppello: ampliamento di un corpo di frana a pericolosità molto elevata P3 e inserimento di ulteriori corpi di frana P3 nel centro storico e nella zona a sud-est del centro storico. Focus: Consultare le nuove perimetrazioni P3; Verificare l’ampliamento del dissesto esistente; Coordinare l’aggiornamento con il PAI frane distrettuale"
+    },
+    "centr-pai-notaresco-143-2026": {
+      "topics": [
+        "pai-frane"
+      ],
+      "source_urls": [
+        "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+        "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3274&StwEvent=101",
+        "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Aggiornamento PAI Abruzzo · dissesti nel capoluogo di Notaresco",
+          "ref": "D.S. AUBAC 143/2026",
+          "summary": "Aggiornamento definitivo del PAI frane nel Comune di Notaresco: inserimento di corpi di frana a pericolosità elevata P3 sul versante orientale del centro storico e nella zona di via Berlinguer.",
+          "focus": [
+            "Consultare le nuove perimetrazioni P3",
+            "Verificare il versante orientale del capoluogo",
+            "Verificare la zona di via Berlinguer"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Aggiornamento definitivo del PAI frane nel Comune di Notaresco: inserimento di corpi di frana a pericolosità elevata P3 sul versante orientale del centro storico e nella zona di via Berlinguer. Focus: Consultare le nuove perimetrazioni P3; Verificare il versante orientale del capoluogo; Verificare la zona di via Berlinguer"
+    },
+    "centr-pai-notaresco-144-2026": {
+      "topics": [
+        "pai-frane"
+      ],
+      "source_urls": [
+        "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+        "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3275&StwEvent=101",
+        "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Aggiornamento PAI Abruzzo · località Casette Grasciano a Notaresco",
+          "ref": "D.S. AUBAC 144/2026",
+          "summary": "Aggiornamento definitivo del PAI frane relativo alla località Casette Grasciano nel Comune di Notaresco, compreso nel gruppo di varianti pubblicato nel BUR Abruzzo n. 30 del 29 luglio 2026.",
+          "focus": [
+            "Consultare la cartografia aggiornata",
+            "Verificare l’area di Casette Grasciano",
+            "Coordinare l’aggiornamento con il PAI frane distrettuale"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Aggiornamento definitivo del PAI frane relativo alla località Casette Grasciano nel Comune di Notaresco, compreso nel gruppo di varianti pubblicato nel BUR Abruzzo n. 30 del 29 luglio 2026. Focus: Consultare la cartografia aggiornata; Verificare l’area di Casette Grasciano; Coordinare l’aggiornamento con il PAI frane distrettuale"
+    },
+    "centr-pai-notaresco-145-2026": {
+      "topics": [
+        "pai-frane"
+      ],
+      "source_urls": [
+        "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+        "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3276&StwEvent=101",
+        "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Aggiornamento PAI Abruzzo · Contrada Santa Croce a Notaresco",
+          "ref": "D.S. AUBAC 145/2026",
+          "summary": "Aggiornamento definitivo del PAI frane relativo alla Contrada Santa Croce nel Comune di Notaresco, compreso nel gruppo di varianti pubblicato nel BUR Abruzzo n. 30 del 29 luglio 2026.",
+          "focus": [
+            "Consultare la cartografia aggiornata",
+            "Verificare l’area di Contrada Santa Croce",
+            "Coordinare l’aggiornamento con il PAI frane distrettuale"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Aggiornamento definitivo del PAI frane relativo alla Contrada Santa Croce nel Comune di Notaresco, compreso nel gruppo di varianti pubblicato nel BUR Abruzzo n. 30 del 29 luglio 2026. Focus: Consultare la cartografia aggiornata; Verificare l’area di Contrada Santa Croce; Coordinare l’aggiornamento con il PAI frane distrettuale"
+    },
+    "centr-pai-pescara-146-2026": {
+      "topics": [
+        "pai-frane"
+      ],
+      "source_urls": [
+        "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+        "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3277&StwEvent=101",
+        "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Aggiornamento PAI Abruzzo · Strada del Palazzo nel Comune di Pescara",
+          "ref": "D.S. AUBAC 146/2026",
+          "summary": "Aggiornamento definitivo del PAI frane in Strada del Palazzo a Pescara: eliminazione di un corpo di frana di colamento a pericolosità elevata P2 e di un orlo di scarpata di frana a pericolosità PS.",
+          "focus": [
+            "Verificare l’eliminazione del dissesto P2",
+            "Verificare la rimozione dell’orlo di scarpata PS",
+            "Consultare la cartografia aggiornata"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Aggiornamento definitivo del PAI frane in Strada del Palazzo a Pescara: eliminazione di un corpo di frana di colamento a pericolosità elevata P2 e di un orlo di scarpata di frana a pericolosità PS. Focus: Verificare l’eliminazione del dissesto P2; Verificare la rimozione dell’orlo di scarpata PS; Consultare la cartografia aggiornata"
+    },
+    "centr-pai-spoltore-147-2026": {
+      "topics": [
+        "pai-frane"
+      ],
+      "source_urls": [
+        "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+        "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3278&StwEvent=101",
+        "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Aggiornamento PAI Abruzzo · Villa Santa Maria nel Comune di Spoltore",
+          "ref": "D.S. AUBAC 147/2026",
+          "summary": "Aggiornamento definitivo del PAI frane nella frazione Villa Santa Maria di Spoltore mediante inserimento di una nuova area a pericolosità molto elevata P3.",
+          "focus": [
+            "Consultare la nuova perimetrazione P3",
+            "Verificare l’incidenza nella frazione Villa Santa Maria",
+            "Coordinare l’aggiornamento con il PAI frane distrettuale"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Aggiornamento definitivo del PAI frane nella frazione Villa Santa Maria di Spoltore mediante inserimento di una nuova area a pericolosità molto elevata P3. Focus: Consultare la nuova perimetrazione P3; Verificare l’incidenza nella frazione Villa Santa Maria; Coordinare l’aggiornamento con il PAI frane distrettuale"
+    },
+    "centr-pai-penne-148-2026": {
+      "topics": [
+        "pai-frane"
+      ],
+      "source_urls": [
+        "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+        "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3279&StwEvent=101",
+        "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Aggiornamento PAI Abruzzo · dissesti nel Comune di Penne",
+          "ref": "D.S. AUBAC 148/2026",
+          "summary": "Aggiornamento definitivo del PAI frane mediante inserimento e modifica di dissesti in località varie del Comune di Penne. Il collegamento corretto al decreto è stato ricostruito dall’avviso ufficiale del BUR Abruzzo.",
+          "focus": [
+            "Consultare le perimetrazioni aggiornate",
+            "Individuare le località interessate nel Comune di Penne",
+            "Coordinare l’aggiornamento con il PAI frane distrettuale"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Aggiornamento definitivo del PAI frane mediante inserimento e modifica di dissesti in località varie del Comune di Penne. Il collegamento corretto al decreto è stato ricostruito dall’avviso ufficiale del BUR Abruzzo. Focus: Consultare le perimetrazioni aggiornate; Individuare le località interessate nel Comune di Penne; Coordinare l’aggiornamento con il PAI frane distrettuale"
+    },
+    "centr-pai-tronto-140-2026": {
+      "topics": [
+        "pai-idraulico"
+      ],
+      "source_urls": [
+        "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3267&StwEvent=101",
+        "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+        "https://cms.aubac.it/sites/default/files/2026-07/BURM%20n.%2068%20del%2023%20luglio%202026.pdf",
+        "https://www.aubac.it/news/notizie/rischio-idraulico-approvato-laggiornamento-delle-aree-rischio-di-esondazione-del-fiume-tronto-e-dei"
+      ],
+      "object_versions": [
+        {
+          "title": "Aggiornamento PAI Tronto · aree a rischio di esondazione del Fiume Tronto e affluenti",
+          "ref": "D.S. AUBAC 140/2026",
+          "summary": "Aggiornamento definitivo delle aree a rischio di esondazione del Fiume Tronto e degli affluenti, dal ponte di Viale Rozzi ad Ascoli Piceno alla foce. Interessa nove comuni marchigiani e cinque comuni abruzzesi; le nuove perimetrazioni sono efficaci dalla prima pubblicazione nel BUR Marche del 23 luglio 2026.",
+          "focus": [
+            "Consultare le nuove perimetrazioni idrauliche",
+            "Verificare l’incidenza nei quattordici comuni interessati",
+            "Coordinare la variante con il PAI idraulico distrettuale adottato"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Aggiornamento definitivo delle aree a rischio di esondazione del Fiume Tronto e degli affluenti, dal ponte di Viale Rozzi ad Ascoli Piceno alla foce. Interessa nove comuni marchigiani e cinque comuni abruzzesi; le nuove perimetrazioni sono efficaci dalla prima pubblicazione nel BUR Marche del 23 luglio 2026. Focus: Consultare le nuove perimetrazioni idrauliche; Verificare l’incidenza nei quattordici comuni interessati; Coordinare la variante con il PAI idraulico distrettuale adottato"
+    },
+    "centr-pai-offida-39-2026": {
+      "topics": [
+        "pai-frane"
+      ],
+      "source_urls": [
+        "https://aubac.it/decreti-segretariali-di-pianificazione-2025",
+        "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=2943&StwEvent=101",
+        "https://cms.aubac.it/sites/default/files/2026-03/N20%20del%2026%20febbraio%202026_0.pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Aggiornamento PAI Tronto · perimetrazioni da frana nel Comune di Offida",
+          "ref": "D.S. AUBAC 39/2026",
+          "summary": "Aggiornamento definitivo del PAI Tronto nel Comune di Offida: eliminati i perimetri 293 (H3–R4) e 277 (H2–R1) e inseriti i nuovi perimetri 7011, 7012 e 7013 (H3–R3) e 7014 e 7015 (H2–R3). La pubblicazione è avvenuta nel BUR Marche n. 20 del 26 febbraio 2026.",
+          "focus": [
+            "Consultare i nuovi perimetri 7011–7015",
+            "Verificare la sostituzione dei perimetri 293 e 277",
+            "Applicare le nuove classi di pericolosità e rischio"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Aggiornamento definitivo del PAI Tronto nel Comune di Offida: eliminati i perimetri 293 (H3–R4) e 277 (H2–R1) e inseriti i nuovi perimetri 7011, 7012 e 7013 (H3–R3) e 7014 e 7015 (H2–R3). La pubblicazione è avvenuta nel BUR Marche n. 20 del 26 febbraio 2026. Focus: Consultare i nuovi perimetri 7011–7015; Verificare la sostituzione dei perimetri 293 e 277; Applicare le nuove classi di pericolosità e rischio"
     }
   }
 }

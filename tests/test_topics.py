@@ -37,7 +37,7 @@ class TopicTests(unittest.TestCase):
     def test_alias_multi_topic_and_deduplication(self):
         row = self.record('Opere idrauliche', ['Attraversamenti','parallelismi','Demanio e polizia idraulica'])
         out = normalize_record(row,self.taxonomy)
-        self.assertEqual(out['topics'],[self.labels['demanio'],self.labels['attraversamenti']])
+        self.assertEqual(out['topics'],[self.labels['attraversamenti'],self.labels['demanio']])
         self.assertEqual(normalize_record(out,self.taxonomy),out)
 
     def test_instrument_not_inferred_from_generic_hazard_or_notes(self):
@@ -58,17 +58,51 @@ class TopicTests(unittest.TestCase):
             self.assertEqual(out['topics'],[self.labels[expected]])
             self.assertNotIn('topic_classification',out)
 
-    def test_pzp_not_pai_and_framework_not_pgra(self):
-        out = normalize_record(self.record('Modifica PZP per frana',['PZP','Frane']),self.taxonomy)
-        self.assertEqual(set(out['topics']),{self.labels['pzp'],self.labels['dissesto']})
+    def test_reviewed_edge_cases_and_substantial_associations(self):
         rows = {r['id']:r for r in self.data['records']}
-        for id in ['dl49','ueall','dl152','tos41','milano']:
+        for id in ['dl152','milano']:
             self.assertFalse(any(t.startswith(('PAI -','PGRA -')) for t in rows[id]['topics']))
+        for id in ['dl49','ueall','tos41']:
+            self.assertIn(self.labels['pgra'],rows[id]['topics'])
         self.assertIn(self.labels['pai-geomorfologico'],rows['pai-puglia']['topics'])
         self.assertNotIn(self.labels['pai-frane'],rows['pai-puglia']['topics'])
-        self.assertNotIn(self.labels['compatibilita'],rows['bz-campo-tures-pzp-799-2026']['topics'])
-        self.assertIn(self.labels['riuso'],rows['dl152']['topics'])
-        self.assertEqual(set(rows['dist-alpi']['topics']),{self.labels['pgra'],self.labels['compatibilita']})
+        for id in ['bz-campo-tures-pzp-799-2026','bz-nova-ponente-pzp-776-2026','bz-nova-ponente-pzp-741-2026','bz-rasun-anterselva-pzp-738-2026']:
+            self.assertEqual(rows[id]['topics'],[self.labels['pai-frane']])
+        self.assertEqual(set(rows['bz-sarentino-pzp-740-2026']['topics']),{self.labels['pzp'],self.labels['pai-frane']})
+        for id in ['dm185','ue741reuse','ue1765reuse']:
+            self.assertEqual(rows[id]['topics'],[self.labels['scarichi']])
+        self.assertEqual(rows['dist-alpi']['topics'],[self.labels['pgra']])
+        for id in ['lom7','ven2948','fvg83','mar53','milano','laz117','sar-inv-2017']:
+            self.assertEqual(rows[id]['topics'],[self.labels['invarianza']])
+        self.assertEqual(rows['appalti36']['topics'],[self.labels['drenaggio']])
+
+    def test_exact_authorized_taxonomy_and_complete_reviews(self):
+        expected=['Attraversamenti e parallelismi','Autorizzazioni ambientali','Bonifica e consorzi',
+                  'Demanio e polizia idraulica','Invarianza idraulica e idrologica',
+                  'PAI - Pericolosità e rischio frane','PAI - Pericolosità e rischio geomorfologico',
+                  'PAI - Pericolosità e rischio idraulico','PGRA - Pericolosità alluvioni',
+                  'PZP - Pericolosità e rischio idraulico','Riuso delle acque meteoriche',
+                  'Scarichi e tutela delle acque','Smaltimento acque meteoriche e reflue',
+                  'Trattamento acque di prima pioggia']
+        self.assertEqual(sorted(self.labels.values()),expected)
+        for r in self.data['records']:
+            self.assertEqual(normalize_record(r,self.taxonomy)['topics'],r['topics'])
+
+    def test_all_candidates_checked_before_any_write(self):
+        with tempfile.TemporaryDirectory() as temp:
+            first=Path(temp)/'first.json';second=Path(temp)/'second.json'
+            first.write_text(json.dumps({'records':[self.record('Attraversamenti',['Attraversamenti'])]}))
+            second.write_text(json.dumps({'records':[self.record('Sconosciuto',['Categoria nuova'])]}))
+            originals=[first.read_text(),second.read_text()]
+            result=subprocess.run([sys.executable,str(ROOT/'scripts/topics.py'),'normalize',str(first),str(second)],capture_output=True,text=True)
+            self.assertNotEqual(result.returncode,0)
+            self.assertEqual([first.read_text(),second.read_text()],originals)
+
+    def test_review_does_not_apply_to_changed_object(self):
+        row=copy.deepcopy(next(r for r in self.data['records'] if r['id']=='bz-campo-tures-pzp-799-2026'))
+        row['summary']='Nuovo oggetto: pericolo idraulico';row['topics']=['PZP']
+        out=normalize_record(row,self.taxonomy)
+        self.assertEqual(out['topics'],[self.labels['pzp']])
 
     def test_unreviewed_mixed_collection_requires_evidence(self):
         row=self.record('PAI / PGRA raccolta',['PAI e PGRA'])
@@ -78,17 +112,15 @@ class TopicTests(unittest.TestCase):
         out=normalize_record(row,self.taxonomy)
         self.assertEqual(out['topics'],[self.labels['pgra']])
 
-    def test_unknown_import_retains_record_and_warns(self):
+    def test_unknown_import_blocks_publication_without_losing_source(self):
         row=self.record('Documento non classificato',['Categoria arbitraria'])
-        out=normalize_archive({'records':[row]},self.taxonomy)
-        self.assertEqual(len(out['records']),1)
-        self.assertEqual(out['records'][0]['url'],row['url'])
+        with self.assertRaises(ValueError):normalize_archive({'records':[row]},self.taxonomy)
         with tempfile.TemporaryDirectory() as temp:
             path=Path(temp)/'candidate.json';path.write_text(json.dumps({'records':[row]}))
+            original=path.read_text()
             result=subprocess.run([sys.executable,str(ROOT/'scripts/topics.py'),'normalize',str(path)],capture_output=True,text=True)
-            self.assertEqual(result.returncode,0,result.stderr)
-            self.assertIn('argomento da classificare',result.stderr)
-            saved=json.loads(path.read_text());self.assertEqual(saved,out)
+            self.assertNotEqual(result.returncode,0)
+            self.assertEqual(path.read_text(),original)
 
     def test_invalid_publication_fails_and_no_source_mutation(self):
         for topics in [['PAI'],[],[self.labels['pgra']], [self.labels['demanio']]*2]:

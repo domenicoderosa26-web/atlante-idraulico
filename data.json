@@ -20,8 +20,8 @@
         "Italia"
       ],
       "topics": [
-        "Demanio e polizia idraulica",
-        "Attraversamenti e parallelismi"
+        "Attraversamenti e parallelismi",
+        "Demanio e polizia idraulica"
       ],
       "date": "1904-07-25",
       "url": "https://www.gazzettaufficiale.it/eli/gu/1904/10/07/234/sg/pdf",
@@ -71,7 +71,7 @@
         "Italia"
       ],
       "topics": [
-        "Risorse idriche e derivazioni"
+        "Demanio e polizia idraulica"
       ],
       "date": "1933-12-11",
       "url": "https://www.gazzettaufficiale.it/eli/gu/1934/01/08/5/sg/pdf",
@@ -121,8 +121,8 @@
         "Italia"
       ],
       "topics": [
-        "Demanio e polizia idraulica",
-        "Bonifica e consorzi"
+        "Bonifica e consorzi",
+        "Demanio e polizia idraulica"
       ],
       "date": "1904-05-08",
       "url": "https://www.gazzettaufficiale.it/eli/gu/1904/07/28/176/sg/pdf",
@@ -172,7 +172,6 @@
         "Italia"
       ],
       "topics": [
-        "Demanio e polizia idraulica",
         "Bonifica e consorzi"
       ],
       "date": "1933-02-13",
@@ -219,12 +218,10 @@
         "Italia"
       ],
       "topics": [
-        "Drenaggio e acque meteoriche",
-        "Prima pioggia",
+        "Demanio e polizia idraulica",
         "Scarichi e tutela delle acque",
-        "Risorse idriche e derivazioni",
-        "Riuso delle acque",
-        "Pianificazione e gestione del rischio alluvioni"
+        "Smaltimento acque meteoriche e reflue",
+        "Trattamento acque di prima pioggia"
       ],
       "date": "2006-04-03",
       "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2006-04-14&atto.codiceRedazionale=006G0171",
@@ -315,7 +312,7 @@
         "Italia"
       ],
       "topics": [
-        "Pianificazione e gestione del rischio alluvioni"
+        "PGRA - Pericolosità alluvioni"
       ],
       "date": "2010-02-23",
       "url": "https://www.gazzettaufficiale.it/eli/gu/2010/04/02/77/sg/pdf",
@@ -365,8 +362,7 @@
         "Italia"
       ],
       "topics": [
-        "Attraversamenti e parallelismi",
-        "Drenaggio e acque meteoriche"
+        "Attraversamenti e parallelismi"
       ],
       "date": "2018-01-17",
       "url": "https://www.gazzettaufficiale.it/eli/id/2018/2/20/18A00716/sg",
@@ -406,8 +402,7 @@
         "Italia"
       ],
       "topics": [
-        "Scarichi e tutela delle acque",
-        "Risorse idriche e derivazioni"
+        "Scarichi e tutela delle acque"
       ],
       "date": "2000-10-23",
       "url": "https://eur-lex.europa.eu/eli/dir/2000/60/oj?locale=it",
@@ -447,7 +442,7 @@
         "Italia"
       ],
       "topics": [
-        "Pianificazione e gestione del rischio alluvioni"
+        "PGRA - Pericolosità alluvioni"
       ],
       "date": "2007-10-23",
       "url": "https://eur-lex.europa.eu/eli/dir/2007/60/oj?locale=it",
@@ -487,7 +482,6 @@
         "Lombardia"
       ],
       "topics": [
-        "Drenaggio e acque meteoriche",
         "Invarianza idraulica e idrologica"
       ],
       "date": "2017-11-23",
@@ -585,8 +579,7 @@
         "Veneto"
       ],
       "topics": [
-        "Invarianza idraulica e idrologica",
-        "Compatibilità idraulica"
+        "Invarianza idraulica e idrologica"
       ],
       "date": "2009-10-06",
       "url": "https://bur.regione.veneto.it/BurvServices/pubblica/Download.aspx?name=2948_AllegatoA_219024.pdf&storico=False&type=9",
@@ -633,8 +626,7 @@
         "Friuli-Venezia Giulia"
       ],
       "topics": [
-        "Invarianza idraulica e idrologica",
-        "Compatibilità idraulica"
+        "Invarianza idraulica e idrologica"
       ],
       "date": "2018-03-27",
       "url": "https://decreti.regione.fvg.it/Storage/2018_83/ALLEGATO1%20AL%20DPREG%20083-2018.PDF",
@@ -681,8 +673,8 @@
         "Puglia"
       ],
       "topics": [
-        "Prima pioggia",
-        "Scarichi e tutela delle acque"
+        "Scarichi e tutela delle acque",
+        "Trattamento acque di prima pioggia"
       ],
       "date": "2013-12-09",
       "url": "https://burp.regione.puglia.it/documents/20135/784664/REGOLAMENTO%2BREGIONALE%2B9%2Bdicembre%2B2013%2C%2Bn.%2B26%2B%28id%2B4906507%29.pdf/82bcb1fd-8b6d-ec17-ae21-235fdca40c45?t=1622786288358&version=1.0",
@@ -722,8 +714,8 @@
         "Piemonte"
       ],
       "topics": [
-        "Prima pioggia",
-        "Scarichi e tutela delle acque"
+        "Scarichi e tutela delle acque",
+        "Trattamento acque di prima pioggia"
       ],
       "date": "2006-02-20",
       "url": "https://arianna.cr.piemonte.it/regolafo/dettaglioRegolamento.do?tornaIndietro=true&urnRegolamento=urn%3Anir%3Aregione.piemonte%3Aregolamento%3A2006-02-20%3B1%402018-12-11",
@@ -763,8 +755,8 @@
         "Liguria"
       ],
       "topics": [
-        "Prima pioggia",
-        "Scarichi e tutela delle acque"
+        "Scarichi e tutela delle acque",
+        "Trattamento acque di prima pioggia"
       ],
       "date": "2009-07-10",
       "url": "https://lrv.regione.liguria.it/liguriass_prod/articolo?urndoc=urn%3Anir%3Aregione.liguria%3Aregolamento.consiglio%3A2009-07-10%3B4",
@@ -804,7 +796,7 @@
         "Emilia-Romagna"
       ],
       "topics": [
-        "Prima pioggia"
+        "Trattamento acque di prima pioggia"
       ],
       "date": "2005-02-14",
       "url": "https://ambiente.regione.emilia-romagna.it/it/acque/consultazione/norme/normativa-regionale",
@@ -851,8 +843,7 @@
         "Emilia-Romagna"
       ],
       "topics": [
-        "Drenaggio e acque meteoriche",
-        "Prima pioggia"
+        "Trattamento acque di prima pioggia"
       ],
       "date": "2006-12-18",
       "url": "https://www.arpae.it/it/autorizzazioni-e-concessioni/autorizzazioni-ambientali/autorizzazione-scarichi-idrici",
@@ -908,8 +899,8 @@
         "Toscana"
       ],
       "topics": [
-        "Compatibilità idraulica",
-        "Pianificazione e gestione del rischio alluvioni"
+        "Demanio e polizia idraulica",
+        "PGRA - Pericolosità alluvioni"
       ],
       "date": "2018-07-24",
       "url": "https://raccoltanormativa.consiglio.regione.toscana.it/articolo?urndoc=urn:nir:regione.toscana:legge:2018-07-24;41",
@@ -949,8 +940,7 @@
         "Marche"
       ],
       "topics": [
-        "Invarianza idraulica e idrologica",
-        "Compatibilità idraulica"
+        "Invarianza idraulica e idrologica"
       ],
       "date": "2023-11-30",
       "url": "https://www.regione.marche.it/Regione-Utile/Paesaggio-Territorio-Urbanistica-Genio-Civile/Compatibilit%C3%A0-e-invarianza-idraulica",
@@ -997,8 +987,8 @@
         "Lazio"
       ],
       "topics": [
-        "Prima pioggia",
-        "Scarichi e tutela delle acque"
+        "Scarichi e tutela delle acque",
+        "Trattamento acque di prima pioggia"
       ],
       "date": "2018-11-23",
       "url": "https://www.regione.lazio.it/sites/default/files/amministrazione-trasparente/tbl_contenuti/Norme_Tecniche_di_Attuazione.pdf",
@@ -1038,8 +1028,8 @@
         "Abruzzo"
       ],
       "topics": [
-        "Prima pioggia",
-        "Scarichi e tutela delle acque"
+        "Scarichi e tutela delle acque",
+        "Trattamento acque di prima pioggia"
       ],
       "date": "2008-11-24",
       "url": "https://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2008/lr08017.htm",
@@ -1121,8 +1111,8 @@
         "Umbria"
       ],
       "topics": [
-        "Prima pioggia",
-        "Scarichi e tutela delle acque"
+        "Scarichi e tutela delle acque",
+        "Trattamento acque di prima pioggia"
       ],
       "date": "2019-05-07",
       "url": "https://www.auriumbria.it/documento_pubblico/normativa-e-regolamenti-di-riferimento/",
@@ -1210,8 +1200,7 @@
         "Valle d’Aosta"
       ],
       "topics": [
-        "Scarichi e tutela delle acque",
-        "Risorse idriche e derivazioni"
+        "Scarichi e tutela delle acque"
       ],
       "date": "2025-06-18",
       "url": "https://pta.regione.vda.it/",
@@ -1298,9 +1287,10 @@
         "Trentino-Alto Adige"
       ],
       "topics": [
-        "Drenaggio e acque meteoriche",
-        "Prima pioggia",
-        "Scarichi e tutela delle acque"
+        "Riuso delle acque meteoriche",
+        "Scarichi e tutela delle acque",
+        "Smaltimento acque meteoriche e reflue",
+        "Trattamento acque di prima pioggia"
       ],
       "date": "2008-01-21",
       "url": "https://ambiente.provincia.bz.it/it/acqua/acque-meteoriche",
@@ -1345,8 +1335,7 @@
         "Trentino-Alto Adige"
       ],
       "topics": [
-        "PZP - Pericolosità e rischio",
-        "Compatibilità idraulica"
+        "PZP - Pericolosità e rischio idraulico"
       ],
       "date": "2019-10-10",
       "url": "https://lexbrowser.provinz.bz.it/doc/it/217759/decreto_del_presidente_della_provincia_10_ottobre_2019_n_23.aspx",
@@ -1387,8 +1376,7 @@
         "Trentino-Alto Adige"
       ],
       "topics": [
-        "Scarichi e tutela delle acque",
-        "Risorse idriche e derivazioni"
+        "Scarichi e tutela delle acque"
       ],
       "date": "2022",
       "url": "https://www.appa.provincia.tn.it/Documenti-e-dati/Documenti-tecnici-di-supporto/Piano-di-Tutela-delle-acque-2022-2027",
@@ -1432,8 +1420,7 @@
         "Trentino-Alto Adige"
       ],
       "topics": [
-        "Scarichi e tutela delle acque",
-        "Risorse idriche e derivazioni"
+        "Scarichi e tutela delle acque"
       ],
       "date": "2002-06-18",
       "url": "https://ambiente.provincia.bz.it/it/acqua",
@@ -1478,8 +1465,8 @@
         "Puglia"
       ],
       "topics": [
-        "Prima pioggia",
-        "Scarichi e tutela delle acque"
+        "Scarichi e tutela delle acque",
+        "Trattamento acque di prima pioggia"
       ],
       "date": "",
       "url": "https://www.cittametropolitana.ba.it/amministrazione/documenti_e_dati/modulistica/documento_268.html",
@@ -1524,8 +1511,7 @@
         "Lombardia"
       ],
       "topics": [
-        "Invarianza idraulica e idrologica",
-        "Compatibilità idraulica"
+        "Invarianza idraulica e idrologica"
       ],
       "date": "",
       "url": "https://pgt.comune.milano.it/",
@@ -1565,8 +1551,8 @@
         "Veneto"
       ],
       "topics": [
-        "Drenaggio e acque meteoriche",
-        "Scarichi e tutela delle acque"
+        "Scarichi e tutela delle acque",
+        "Smaltimento acque meteoriche e reflue"
       ],
       "date": "2019",
       "url": "https://www.comune.venezia.it/it/content/scarichi-reflui-0",
@@ -1686,7 +1672,7 @@
         "Italia"
       ],
       "topics": [
-        "Drenaggio e acque meteoriche"
+        "Smaltimento acque meteoriche e reflue"
       ],
       "date": "2017-06-08",
       "url": "https://store.uni.com/uni-en-752-2017",
@@ -1720,7 +1706,7 @@
         "Italia"
       ],
       "topics": [
-        "Drenaggio e acque meteoriche"
+        "Smaltimento acque meteoriche e reflue"
       ],
       "date": "2001-09-30",
       "url": "https://store.uni.com/uni-en-12056-3-2001",
@@ -1754,8 +1740,7 @@
         "Italia"
       ],
       "topics": [
-        "Drenaggio e acque meteoriche",
-        "Prima pioggia"
+        "Trattamento acque di prima pioggia"
       ],
       "date": "2004-06-01",
       "url": "https://store.uni.com/uni-en-858-2-2004",
@@ -1797,10 +1782,9 @@
         "Trentino-Alto Adige"
       ],
       "topics": [
-        "PAI - Pericolosità e rischio idraulico",
         "PAI - Pericolosità e rischio frane",
-        "PGRA - Pericolosità alluvioni",
-        "Compatibilità idraulica"
+        "PAI - Pericolosità e rischio idraulico",
+        "PGRA - Pericolosità alluvioni"
       ],
       "date": "",
       "url": "https://pianoalluvioni.adbpo.it/piano-di-gestione-del-rischio-alluvioni-2021-2027/",
@@ -1866,10 +1850,8 @@
         "Trentino-Alto Adige"
       ],
       "topics": [
-        "PAI - Pericolosità e rischio idraulico",
         "PAI - Pericolosità e rischio frane",
-        "Misure di salvaguardia",
-        "Compatibilità idraulica"
+        "PAI - Pericolosità e rischio idraulico"
       ],
       "date": "2025-12-18",
       "url": "https://pai.adbpo.it/progetto-variante-pai-po-estensione-ai-bacini-del-reno-romagnoli-conca-marecchia-e-fissero-tartaro-canalbianco/",
@@ -1932,8 +1914,7 @@
         "Friuli-Venezia Giulia"
       ],
       "topics": [
-        "PGRA - Pericolosità alluvioni",
-        "Compatibilità idraulica"
+        "PGRA - Pericolosità alluvioni"
       ],
       "date": "",
       "url": "https://distrettoalpiorientali.it/piano-gestione-rischio-alluvioni/",
@@ -1992,8 +1973,7 @@
         "Umbria"
       ],
       "topics": [
-        "PGRA - Pericolosità alluvioni",
-        "Compatibilità idraulica"
+        "PGRA - Pericolosità alluvioni"
       ],
       "date": "",
       "url": "https://www.appenninosettentrionale.it/itc/?page_id=2910",
@@ -2055,10 +2035,9 @@
         "Molise"
       ],
       "topics": [
-        "PAI - Pericolosità e rischio idraulico",
         "PAI - Pericolosità e rischio frane",
-        "PGRA - Pericolosità alluvioni",
-        "Compatibilità idraulica"
+        "PAI - Pericolosità e rischio idraulico",
+        "PGRA - Pericolosità alluvioni"
       ],
       "date": "",
       "url": "https://aubac.it/piani-di-bacino/piano-di-gestione-del-rischio-alluvioni-pgra",
@@ -2177,7 +2156,6 @@
         "Basilicata"
       ],
       "topics": [
-        "Prima pioggia",
         "Scarichi e tutela delle acque"
       ],
       "date": "2017-05-29",
@@ -2221,8 +2199,8 @@
         "Basilicata"
       ],
       "topics": [
-        "Prima pioggia",
-        "Scarichi e tutela delle acque"
+        "Scarichi e tutela delle acque",
+        "Trattamento acque di prima pioggia"
       ],
       "date": "2026-07-28",
       "url": "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A35795B0B&idDocumento=795801377B580A307C5C",
@@ -2286,8 +2264,7 @@
         "Lazio"
       ],
       "topics": [
-        "PGRA - Pericolosità alluvioni",
-        "Compatibilità idraulica"
+        "PGRA - Pericolosità alluvioni"
       ],
       "date": "",
       "url": "https://www.distrettoappenninomeridionale.it/piano-gestione-alluvioni/",
@@ -2357,10 +2334,9 @@
         "Sardegna"
       ],
       "topics": [
-        "PAI - Pericolosità e rischio idraulico",
         "PAI - Pericolosità e rischio frane",
-        "PGRA - Pericolosità alluvioni",
-        "Compatibilità idraulica"
+        "PAI - Pericolosità e rischio idraulico",
+        "PGRA - Pericolosità alluvioni"
       ],
       "date": "",
       "url": "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-di-gestione-del-rischio-alluvioni-p-g-r-a/",
@@ -2538,10 +2514,9 @@
         "Sicilia"
       ],
       "topics": [
-        "PAI - Pericolosità e rischio idraulico",
         "PAI - Pericolosità e rischio geomorfologico",
-        "PGRA - Pericolosità alluvioni",
-        "Compatibilità idraulica"
+        "PAI - Pericolosità e rischio idraulico",
+        "PGRA - Pericolosità alluvioni"
       ],
       "date": "",
       "url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/siti-tematici/pianificazione/stralcio",
@@ -2609,8 +2584,7 @@
         "Sicilia"
       ],
       "topics": [
-        "PGRA - Pericolosità alluvioni",
-        "Compatibilità idraulica"
+        "PGRA - Pericolosità alluvioni"
       ],
       "date": "2026-04-08",
       "url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/partecipazione-pubblica",
@@ -2671,9 +2645,7 @@
         "Italia"
       ],
       "topics": [
-        "Attraversamenti e parallelismi",
-        "Drenaggio e acque meteoriche",
-        "Risorse idriche e derivazioni"
+        "Attraversamenti e parallelismi"
       ],
       "date": "2014-04-04",
       "url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=14A03304&atto.dataPubblicazioneGazzetta=2014-04-28&tipoSerie=serie_generale&tipoVigenza=originario",
@@ -2736,9 +2708,8 @@
         "Italia"
       ],
       "topics": [
-        "Drenaggio e acque meteoriche",
-        "Risorse idriche e derivazioni",
-        "CAM - Gestione sostenibile delle acque"
+        "Riuso delle acque meteoriche",
+        "Smaltimento acque meteoriche e reflue"
       ],
       "date": "2025-11-24",
       "url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=25A06516&atto.dataPubblicazioneGazzetta=2025-12-03&tipoSerie=serie_generale&tipoVigenza=originario",
@@ -2824,9 +2795,7 @@
         "Italia"
       ],
       "topics": [
-        "Drenaggio e acque meteoriche",
-        "Prima pioggia",
-        "CAM - Gestione sostenibile delle acque"
+        "Smaltimento acque meteoriche e reflue"
       ],
       "date": "2024-08-05",
       "url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=24A04332&atto.dataPubblicazioneGazzetta=2024-08-23&tipoSerie=serie_generale&tipoVigenza=originario",
@@ -2890,9 +2859,8 @@
         "Italia"
       ],
       "topics": [
-        "Drenaggio e acque meteoriche",
-        "Risorse idriche e derivazioni",
-        "CAM - Gestione sostenibile delle acque"
+        "Riuso delle acque meteoriche",
+        "Smaltimento acque meteoriche e reflue"
       ],
       "date": "2020-03-10",
       "url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=20A01904&atto.dataPubblicazioneGazzetta=2020-04-04&tipoSerie=serie_generale&tipoVigenza=originario",
@@ -2948,7 +2916,7 @@
         "Italia"
       ],
       "topics": [
-        "CAM - Gestione sostenibile delle acque"
+        "Smaltimento acque meteoriche e reflue"
       ],
       "date": "2023-03-31",
       "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2023-03-31&atto.codiceRedazionale=23G00044",
@@ -2996,8 +2964,7 @@
         "Italia"
       ],
       "topics": [
-        "Drenaggio e acque meteoriche",
-        "CAM - Gestione sostenibile delle acque"
+        "Smaltimento acque meteoriche e reflue"
       ],
       "date": "2025-09-11",
       "url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=25A05133&atto.dataPubblicazioneGazzetta=2025-09-23&tipoSerie=serie_generale&tipoVigenza=originario",
@@ -3053,8 +3020,7 @@
         "Calabria"
       ],
       "topics": [
-        "PAI - Pericolosità e rischio idraulico",
-        "Compatibilità idraulica"
+        "PAI - Pericolosità e rischio idraulico"
       ],
       "date": "2011-08-02",
       "url": "https://www.distrettoappenninomeridionale.it/progetto-di-piano-stralcio-di-bacino-del-distretto-idrografico-dellappennino-meridionale-per-lassetto-la-mitigazione-e-la-gestione-del-rischio-da-alluvioni/psdgdam-risal-cal-l/",
@@ -3111,8 +3077,7 @@
         "Calabria"
       ],
       "topics": [
-        "PAI - Pericolosità e rischio idraulico",
-        "Compatibilità idraulica"
+        "PAI - Pericolosità e rischio idraulico"
       ],
       "date": "",
       "url": "https://www.distrettoappenninomeridionale.it/progetto-di-piano-stralcio-di-bacino-del-distretto-idrografico-dellappennino-meridionale-per-lassetto-la-mitigazione-e-la-gestione-del-rischio-da-alluvioni/psdgdam-risal-cal-l/",
@@ -3189,8 +3154,8 @@
         "Calabria"
       ],
       "topics": [
-        "PAI - Pericolosità e rischio idraulico",
-        "PAI - Pericolosità e rischio frane"
+        "PAI - Pericolosità e rischio frane",
+        "PAI - Pericolosità e rischio idraulico"
       ],
       "date": "",
       "url": "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-basilicata-menu/piano-stralcio-per-la-difesa-dal-rischio-idrogeologico-pai-vigente-enu",
@@ -3286,8 +3251,8 @@
         "Campania"
       ],
       "topics": [
-        "PAI - Pericolosità e rischio idraulico",
-        "PAI - Pericolosità e rischio geomorfologico"
+        "PAI - Pericolosità e rischio geomorfologico",
+        "PAI - Pericolosità e rischio idraulico"
       ],
       "date": "",
       "url": "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-puglia-menu/piano-assetto-idrogeologico-pericolosita-idraulica-menu",
@@ -3521,9 +3486,7 @@
         "Lazio"
       ],
       "topics": [
-        "Drenaggio e acque meteoriche",
-        "Invarianza idraulica e idrologica",
-        "Compatibilità idraulica"
+        "Invarianza idraulica e idrologica"
       ],
       "date": "2020-03-24",
       "url": "https://www.regione.lazio.it/documenti/69240",
@@ -3572,9 +3535,7 @@
         "Sardegna"
       ],
       "topics": [
-        "Invarianza idraulica e idrologica",
-        "PAI - Pericolosità e rischio idraulico",
-        "Compatibilità idraulica"
+        "Invarianza idraulica e idrologica"
       ],
       "date": "2017-05-17",
       "url": "https://autoritadibacino.regione.sardegna.it/ap/delibera-del-comitato-istituzionale-n-2-del-17-05-2017/",
@@ -3617,8 +3578,8 @@
         "Lombardia"
       ],
       "topics": [
-        "Prima pioggia",
-        "Scarichi e tutela delle acque"
+        "Scarichi e tutela delle acque",
+        "Trattamento acque di prima pioggia"
       ],
       "date": "2006-03-24",
       "url": "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002006032400004&type=pdf",
@@ -3664,8 +3625,8 @@
         "Sardegna"
       ],
       "topics": [
-        "Prima pioggia",
-        "Scarichi e tutela delle acque"
+        "Scarichi e tutela delle acque",
+        "Trattamento acque di prima pioggia"
       ],
       "date": "2008-12-10",
       "url": "https://www.regione.sardegna.it/documenti/1_73_20090127105834.pdf",
@@ -3705,8 +3666,8 @@
         "Toscana"
       ],
       "topics": [
-        "Prima pioggia",
-        "Scarichi e tutela delle acque"
+        "Scarichi e tutela delle acque",
+        "Trattamento acque di prima pioggia"
       ],
       "date": "2006-05-31",
       "url": "https://raccoltanormativa.consiglio.regione.toscana.it/articolo?urndoc=urn:nir:regione.toscana:legge:2006-05-31;20",
@@ -3755,8 +3716,8 @@
         "Toscana"
       ],
       "topics": [
-        "Prima pioggia",
-        "Scarichi e tutela delle acque"
+        "Scarichi e tutela delle acque",
+        "Trattamento acque di prima pioggia"
       ],
       "date": "2008-09-08",
       "url": "https://raccoltanormativa.consiglio.regione.toscana.it/articolo?urndoc=urn:nir:regione.toscana:regolamento.giunta:2008-09-08;46/R",
@@ -3805,8 +3766,8 @@
         "Veneto"
       ],
       "topics": [
-        "Prima pioggia",
-        "Scarichi e tutela delle acque"
+        "Scarichi e tutela delle acque",
+        "Trattamento acque di prima pioggia"
       ],
       "date": "2009-11-05",
       "url": "https://repository.regione.veneto.it/public/6396bf686a0ce689ab40783272aec920.php?dl=true",
@@ -3900,8 +3861,7 @@
         "Italia"
       ],
       "topics": [
-        "Attraversamenti e parallelismi",
-        "Drenaggio e acque meteoriche"
+        "Attraversamenti e parallelismi"
       ],
       "date": "1992-04-30",
       "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0306&atto.dataPubblicazioneGazzetta=1992-05-18",
@@ -3956,7 +3916,7 @@
       ],
       "topics": [
         "Attraversamenti e parallelismi",
-        "Drenaggio e acque meteoriche"
+        "Smaltimento acque meteoriche e reflue"
       ],
       "date": "1992-12-16",
       "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0531&atto.dataPubblicazioneGazzetta=1992-12-28",
@@ -4006,9 +3966,7 @@
         "Italia"
       ],
       "topics": [
-        "Scarichi e tutela delle acque",
-        "Risorse idriche e derivazioni",
-        "Riuso delle acque"
+        "Scarichi e tutela delle acque"
       ],
       "date": "2003-06-12",
       "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2003-07-23&atto.codiceRedazionale=003G0210",
@@ -4063,8 +4021,8 @@
         "Italia"
       ],
       "topics": [
-        "Scarichi e tutela delle acque",
-        "Autorizzazioni ambientali"
+        "Autorizzazioni ambientali",
+        "Scarichi e tutela delle acque"
       ],
       "date": "2013-03-13",
       "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2013-05-29&atto.codiceRedazionale=13G00101",
@@ -4115,9 +4073,7 @@
         "Italia"
       ],
       "topics": [
-        "Scarichi e tutela delle acque",
-        "Risorse idriche e derivazioni",
-        "Riuso delle acque"
+        "Scarichi e tutela delle acque"
       ],
       "date": "2020-05-25",
       "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32020R0741",
@@ -4177,9 +4133,7 @@
         "Italia"
       ],
       "topics": [
-        "Scarichi e tutela delle acque",
-        "Risorse idriche e derivazioni",
-        "Riuso delle acque"
+        "Scarichi e tutela delle acque"
       ],
       "date": "2024-03-11",
       "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32024R1765",
@@ -4230,8 +4184,7 @@
         "Trentino-Alto Adige"
       ],
       "topics": [
-        "PZP - Pericolosità e rischio",
-        "Compatibilità idraulica"
+        "PZP - Pericolosità e rischio idraulico"
       ],
       "date": "2026-09-18",
       "url": "https://giunta-provinciale.provincia.bz.it/it/delibere",
@@ -4277,8 +4230,7 @@
         "Trentino-Alto Adige"
       ],
       "topics": [
-        "PZP - Pericolosità e rischio",
-        "Dissesto idrogeologico e stabilità dei versanti"
+        "PAI - Pericolosità e rischio frane"
       ],
       "date": "2026-09-25",
       "url": "https://giunta-provinciale.provincia.bz.it/it/delibere",
@@ -4322,7 +4274,7 @@
       "title": "Modifica PZP Nova Ponente · SS 241 km 11+000–11+900",
       "level": "Provinciale",
       "regions": ["Trentino-Alto Adige"],
-      "topics": ["PZP - Pericolosità e rischio", "Dissesto idrogeologico e stabilità dei versanti"],
+      "topics": ["PAI - Pericolosità e rischio frane"],
       "date": "2026-09-18",
       "url": "https://giunta-provinciale.provincia.bz.it/it/delibere",
       "summary": "Approvata la sostituzione della carta delle zone di pericolo da frana lungo la SS 241, tra le progressive km 11+000 e km 11+900, dopo opere di protezione pubbliche.",
@@ -4349,7 +4301,7 @@
       "title": "Modifica PZP Fortezza · zona Greithwald",
       "level": "Provinciale",
       "regions": ["Trentino-Alto Adige"],
-      "topics": ["PZP - Pericolosità e rischio"],
+      "topics": ["PZP - Pericolosità e rischio idraulico"],
       "date": "2026-09-11",
       "url": "https://giunta-provinciale.provincia.bz.it/it/delibere",
       "summary": "Approvata la modifica della carta delle zone di pericolo idraulico nella zona Greithwald, conseguente a opere di protezione realizzate dall’Amministrazione pubblica.",
@@ -4376,7 +4328,7 @@
       "title": "Modifica PZP Nova Ponente · SS 241 km 10+640",
       "level": "Provinciale",
       "regions": ["Trentino-Alto Adige"],
-      "topics": ["PZP - Pericolosità e rischio", "Dissesto idrogeologico e stabilità dei versanti"],
+      "topics": ["PAI - Pericolosità e rischio frane"],
       "date": "2026-09-11",
       "url": "https://giunta-provinciale.provincia.bz.it/it/delibere",
       "summary": "Approvata la sostituzione della carta delle zone di pericolo da frana presso la SS 241 km 10+640, dopo opere di protezione pubbliche.",
@@ -4399,7 +4351,7 @@
       "title": "Modifica PZP Sarentino · Rio di Monterosso e Pichlereschbaum",
       "level": "Provinciale",
       "regions": ["Trentino-Alto Adige"],
-      "topics": ["PZP - Pericolosità e rischio", "Valanghe"],
+      "topics": ["PAI - Pericolosità e rischio frane", "PZP - Pericolosità e rischio idraulico"],
       "date": "2026-09-11",
       "url": "https://giunta-provinciale.provincia.bz.it/it/delibere",
       "summary": "Approvata la modifica della carta delle zone di pericolo per il bacino idrico F.310 Rio di Monterosso e l’area di accumulo della valanga Pichlereschbaum, dopo opere comunali di protezione.",
@@ -4422,7 +4374,7 @@
       "title": "Modifica PZP La Valle · Rio di Armentara E.155",
       "level": "Provinciale",
       "regions": ["Trentino-Alto Adige"],
-      "topics": ["PZP - Pericolosità e rischio"],
+      "topics": ["PZP - Pericolosità e rischio idraulico"],
       "date": "2026-09-11",
       "url": "https://giunta-provinciale.provincia.bz.it/it/delibere",
       "summary": "Approvata la modifica della carta delle zone di pericolo idraulico sul Rio di Armentara E.155, conseguente a opere di protezione provinciali.",
@@ -4445,7 +4397,7 @@
       "title": "Modifica PZP Rasun-Anterselva · centro Biathlon",
       "level": "Provinciale",
       "regions": ["Trentino-Alto Adige"],
-      "topics": ["PZP - Pericolosità e rischio", "Dissesto idrogeologico e stabilità dei versanti", "Valanghe"],
+      "topics": ["PAI - Pericolosità e rischio frane"],
       "date": "2026-09-11",
       "url": "https://giunta-provinciale.provincia.bz.it/it/delibere",
       "summary": "Approvata la modifica della carta delle zone di pericolo da frana e valanga nell’area del centro Biathlon di Anterselva.",
@@ -4478,8 +4430,7 @@
         "Molise"
       ],
       "topics": [
-        "PAI - Pericolosità e rischio idraulico",
-        "Misure di salvaguardia"
+        "PAI - Pericolosità e rischio idraulico"
       ],
       "date": "2026-05-26",
       "url": "https://aubac.it/pai-distrettuale-idraulico",
@@ -4545,8 +4496,7 @@
         "Molise"
       ],
       "topics": [
-        "PAI - Pericolosità e rischio frane",
-        "Misure di salvaguardia"
+        "PAI - Pericolosità e rischio frane"
       ],
       "date": "2026-05-26",
       "url": "https://aubac.it/pai-distrettuale-frane",

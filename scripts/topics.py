@@ -21,6 +21,8 @@ def key(value):
 def load_taxonomy(path=TAXONOMY_PATH):
     taxonomy = json.loads(Path(path).read_text(encoding='utf-8'))
     categories = taxonomy['categories']
+    if len(categories) != 14:
+        raise ValueError('La tassonomia deve contenere esattamente 14 argomenti')
     ids, labels, aliases = set(), set(), set()
     for category in categories:
         cid, label = category['id'], category['label']
@@ -52,6 +54,12 @@ def source_urls(record):
             *(d.get('url', '') for d in record.get('documents', []))}
 
 
+def review_matches(record, review):
+    return bool(review and set(review['source_urls']) & source_urls(record)
+                and any(all(record.get(field) == value for field, value in fields.items())
+                        for fields in review.get('object_versions', [{}])))
+
+
 def context_topics(record, taxonomy):
     """Identify the instrument from object fields and reviewed source evidence.
 
@@ -60,7 +68,7 @@ def context_topics(record, taxonomy):
     """
     found = set()
     review = taxonomy['reviewed_records'].get(record.get('id'))
-    reviewed = review and bool(set(review['source_urls']) & source_urls(record))
+    reviewed = review_matches(record, review)
     if reviewed:
         found.update(review['topics'])
     object_text = key(record.get('title', '') + ' ' + record.get('ref', ''))
@@ -69,8 +77,7 @@ def context_topics(record, taxonomy):
         if mixed and not reviewed:
             continue
         # Reviewed collections/framework acts have explicitly delimited scope.
-        if reviewed and any(next(c for c in taxonomy['categories'] if c['id'] == cid)
-                            .get('contextual') for cid in rule['topics']):
+        if reviewed:
             continue
         if set(rule.get('unless_topics', [])) & found:
             continue
@@ -94,6 +101,8 @@ def normalize_record(record, taxonomy):
     direct = {key(a): c['id'] for c in categories for a in [c['label'], *c.get('aliases', [])]}
     contextual = {key(a): v['resolve'] for a, v in taxonomy['context_aliases'].items()}
     inferred = context_topics(record, taxonomy)
+    review = taxonomy['reviewed_records'].get(record.get('id'))
+    reviewed = review_matches(record, review)
     found, unresolved = set(inferred), []
     raw_topics = record.get('topics', [])
     if not isinstance(raw_topics, list) or any(not isinstance(t, str) or not t.strip() for t in raw_topics):
@@ -102,6 +111,10 @@ def normalize_record(record, taxonomy):
     pending = record.get('topic_classification', {})
     raw_topics = list(dict.fromkeys(raw_topics + pending.get('unresolved', [])))
     for topic in raw_topics:
+        # A source-bound, content-bound review determines the complete set,
+        # rather than blindly carrying forward every old association.
+        if reviewed and (key(topic) in direct or key(topic) in contextual):
+            continue
         cid = direct.get(key(topic))
         if cid:
             if not by_id[cid].get('contextual') or cid in inferred:
@@ -111,16 +124,16 @@ def normalize_record(record, taxonomy):
             continue
         mode = contextual.get(key(topic))
         candidates = {
-            'plan': {c['id'] for c in categories if c.get('contextual')} | {'quadro-alluvioni', 'compatibilita'},
-            'hydraulic': {'pai-idraulico', 'pgra', 'pzp', 'quadro-alluvioni'},
-            'landslide': {'pai-frane', 'pai-geomorfologico', 'pzp', 'dissesto'},
+            'plan': {c['id'] for c in categories if c.get('contextual')},
+            'hydraulic': {'pai-idraulico', 'pgra', 'pzp'},
+            'landslide': {'pai-frane', 'pai-geomorfologico'},
+            'invariance': {'invarianza'},
+            'water': {'demanio', 'scarichi', 'riuso'},
+            'drainage': {'drenaggio', 'riuso', 'prima-pioggia'},
         }.get(mode, set())
         if not candidates & inferred:
             unresolved.append(topic)
-    review = taxonomy['reviewed_records'].get(record.get('id'), {})
-    if set(review.get('source_urls', [])) & source_urls(record):
-        found.difference_update(review.get('exclude_topics', []))
-    out['topics'] = [c['label'] for c in categories if c['id'] in found]
+    out['topics'] = sorted([c['label'] for c in categories if c['id'] in found], key=key)
     if unresolved or not out['topics']:
         out['topic_classification'] = {'status': 'argomento da classificare',
                                        'unresolved': unresolved or ['Nessun argomento riconosciuto']}
@@ -156,8 +169,8 @@ def validate_archive(archive, taxonomy=None):
         if len(topics) != len(set(topics)):
             raise ValueError('Argomento duplicato: ' + record['id'])
         pending = record.get('topic_classification', {})
-        if not topics and (pending.get('status') != 'argomento da classificare' or not pending.get('unresolved')):
-            raise ValueError('Scheda priva di argomenti: ' + record['id'])
+        if not topics or pending:
+            raise ValueError('Argomenti assenti o da classificare: ' + record['id'])
         evidence = context_topics(record, taxonomy)
         if any(contextual[t] not in evidence for t in topics if t in contextual):
             raise ValueError('Strumento di piano non comprovato: ' + record['id'])

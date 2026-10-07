@@ -1,0 +1,640 @@
+{
+  "schemaVersion": 1,
+  "categories": [
+    {
+      "id": "demanio",
+      "label": "Demanio e polizia idraulica",
+      "aliases": [],
+      "quick": true,
+      "contextual": false
+    },
+    {
+      "id": "attraversamenti",
+      "label": "Attraversamenti e parallelismi",
+      "aliases": [
+        "Attraversamenti",
+        "attraversamento",
+        "parallelismo",
+        "parallelismi"
+      ],
+      "quick": true,
+      "contextual": false
+    },
+    {
+      "id": "drenaggio",
+      "label": "Drenaggio e acque meteoriche",
+      "aliases": [
+        "Drenaggio",
+        "Acque meteoriche"
+      ],
+      "quick": true,
+      "contextual": false
+    },
+    {
+      "id": "invarianza",
+      "label": "Invarianza idraulica e idrologica",
+      "aliases": [
+        "Invarianza idraulica",
+        "Invarianza idrologica"
+      ],
+      "quick": true,
+      "contextual": false
+    },
+    {
+      "id": "prima-pioggia",
+      "label": "Prima pioggia",
+      "aliases": [],
+      "quick": true,
+      "contextual": false
+    },
+    {
+      "id": "scarichi",
+      "label": "Scarichi e tutela delle acque",
+      "aliases": [
+        "Scarichi e tutela acque"
+      ],
+      "quick": false,
+      "contextual": false
+    },
+    {
+      "id": "risorse",
+      "label": "Risorse idriche e derivazioni",
+      "aliases": [
+        "Derivazioni e risorsa idrica",
+        "Risorse idriche"
+      ],
+      "quick": false,
+      "contextual": false
+    },
+    {
+      "id": "riuso",
+      "label": "Riuso delle acque",
+      "aliases": [
+        "Riuso"
+      ],
+      "quick": false,
+      "contextual": false
+    },
+    {
+      "id": "cam",
+      "label": "CAM - Gestione sostenibile delle acque",
+      "aliases": [
+        "CAM"
+      ],
+      "quick": true,
+      "contextual": false
+    },
+    {
+      "id": "pai-idraulico",
+      "label": "PAI - Pericolosità e rischio idraulico",
+      "aliases": [],
+      "quick": true,
+      "contextual": true
+    },
+    {
+      "id": "pai-frane",
+      "label": "PAI - Pericolosità e rischio frane",
+      "aliases": [],
+      "quick": false,
+      "contextual": true
+    },
+    {
+      "id": "pai-geomorfologico",
+      "label": "PAI - Pericolosità e rischio geomorfologico",
+      "aliases": [],
+      "quick": false,
+      "contextual": true
+    },
+    {
+      "id": "pgra",
+      "label": "PGRA - Pericolosità alluvioni",
+      "aliases": [],
+      "quick": true,
+      "contextual": true
+    },
+    {
+      "id": "pzp",
+      "label": "PZP - Pericolosità e rischio",
+      "aliases": [
+        "PZP"
+      ],
+      "quick": false,
+      "contextual": true
+    },
+    {
+      "id": "salvaguardia",
+      "label": "Misure di salvaguardia",
+      "aliases": [],
+      "quick": false,
+      "contextual": false
+    },
+    {
+      "id": "dissesto",
+      "label": "Dissesto idrogeologico e stabilità dei versanti",
+      "aliases": [],
+      "quick": false,
+      "contextual": false
+    },
+    {
+      "id": "valanghe",
+      "label": "Valanghe",
+      "aliases": [],
+      "quick": false,
+      "contextual": false
+    },
+    {
+      "id": "compatibilita",
+      "label": "Compatibilità idraulica",
+      "aliases": [],
+      "quick": false,
+      "contextual": false
+    },
+    {
+      "id": "bonifica",
+      "label": "Bonifica e consorzi",
+      "aliases": [
+        "Bonifica",
+        "Consorzi di bonifica"
+      ],
+      "quick": false,
+      "contextual": false
+    },
+    {
+      "id": "autorizzazioni",
+      "label": "Autorizzazioni ambientali",
+      "aliases": [
+        "Autorizzazioni"
+      ],
+      "quick": false,
+      "contextual": false
+    },
+    {
+      "id": "quadro-alluvioni",
+      "label": "Pianificazione e gestione del rischio alluvioni",
+      "aliases": [],
+      "quick": false,
+      "contextual": false
+    }
+  ],
+  "context_aliases": {
+    "PAI": {
+      "resolve": "plan"
+    },
+    "PAI e PGRA": {
+      "resolve": "plan"
+    },
+    "PGRA": {
+      "resolve": "plan"
+    },
+    "Pericolosità idraulica": {
+      "resolve": "hydraulic"
+    },
+    "Pericolosità e rischio idraulico": {
+      "resolve": "hydraulic"
+    },
+    "Rischio idraulico": {
+      "resolve": "hydraulic"
+    },
+    "Pericolosità da alluvione": {
+      "resolve": "hydraulic"
+    },
+    "Pericolosità da frana": {
+      "resolve": "landslide"
+    },
+    "Pericolosità e rischio da frana": {
+      "resolve": "landslide"
+    },
+    "Frane": {
+      "resolve": "landslide"
+    },
+    "Rischio frana": {
+      "resolve": "landslide"
+    },
+    "Variante cartografica": {
+      "resolve": "plan"
+    }
+  },
+  "inference_rules": [
+    {
+      "topics": [
+        "pai-idraulico"
+      ],
+      "all": [
+        {
+          "fields": [
+            "title",
+            "ref"
+          ],
+          "pattern": "\\bpai\\b|piano stralcio.*assetto idrogeologico"
+        },
+        {
+          "fields": [
+            "title",
+            "ref"
+          ],
+          "pattern": "idraulic|esondazion|fasce fluviali"
+        }
+      ]
+    },
+    {
+      "topics": [
+        "pai-frane"
+      ],
+      "all": [
+        {
+          "fields": [
+            "title",
+            "ref"
+          ],
+          "pattern": "\\bpai\\b|piano stralcio.*assetto idrogeologico"
+        },
+        {
+          "fields": [
+            "title",
+            "ref"
+          ],
+          "pattern": "fran[ae]|franosi"
+        }
+      ]
+    },
+    {
+      "topics": [
+        "pai-frane"
+      ],
+      "all": [
+        {
+          "fields": [
+            "title",
+            "ref"
+          ],
+          "pattern": "\\bpai\\b"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "pattern": "pai frane|pai.*rischio da frana"
+        }
+      ]
+    },
+    {
+      "topics": [
+        "pai-geomorfologico"
+      ],
+      "all": [
+        {
+          "fields": [
+            "title",
+            "ref"
+          ],
+          "pattern": "\\bpai\\b|piano stralcio.*assetto idrogeologico"
+        },
+        {
+          "fields": [
+            "title",
+            "ref"
+          ],
+          "pattern": "geomorfologic"
+        }
+      ]
+    },
+    {
+      "topics": [
+        "pgra"
+      ],
+      "all": [
+        {
+          "fields": [
+            "title",
+            "ref"
+          ],
+          "pattern": "\\bpgra\\b|piano di gestione del rischio (?:di )?alluvion"
+        }
+      ]
+    },
+    {
+      "topics": [
+        "pzp"
+      ],
+      "all": [
+        {
+          "fields": [
+            "title",
+            "ref"
+          ],
+          "pattern": "\\bpzp\\b|piano delle zone di pericolo"
+        }
+      ]
+    },
+    {
+      "topics": [
+        "pzp"
+      ],
+      "all": [
+        {
+          "fields": [
+            "title"
+          ],
+          "pattern": "interventi nelle zone di pericolo"
+        },
+        {
+          "fields": [
+            "ref"
+          ],
+          "pattern": "23/2019"
+        },
+        {
+          "fields": [
+            "regions"
+          ],
+          "pattern": "trentino-alto adige"
+        }
+      ]
+    },
+    {
+      "topics": [
+        "dissesto"
+      ],
+      "all": [
+        {
+          "fields": [
+            "title",
+            "summary"
+          ],
+          "pattern": "fran[ae]|stabilita dei versanti"
+        }
+      ],
+      "unless_topics": [
+        "pai-frane",
+        "pai-geomorfologico"
+      ]
+    }
+  ],
+  "reviewed_records": {
+    "dist-po": {
+      "topics": [
+        "pai-idraulico",
+        "pai-frane",
+        "pgra"
+      ],
+      "source_urls": [
+        "https://pai.adbpo.it/wp-content/uploads/2025/05/NA_PAI-PO.pdf",
+        "https://pianoalluvioni.adbpo.it/piano-di-gestione-del-rischio-alluvioni-2021-2027/"
+      ],
+      "evidence": "Raccolta PAI/PGRA; NTA PAI Po titoli I (rete e versanti) e II (fasce fluviali); portale PGRA nel campo url."
+    },
+    "dist-alpi": {
+      "topics": [
+        "pgra"
+      ],
+      "source_urls": [
+        "https://sigma.distrettoalpiorientali.it/sigma/documentDownload/downloadDocumentById?documentId=359",
+        "https://sigma.distrettoalpiorientali.it/sigma/documentDownload/downloadDocumentById?documentId=380",
+        "https://distrettoalpiorientali.it/piano-gestione-rischio-alluvioni/"
+      ],
+      "evidence": "Gli elaborati collegati sono PGRA. La menzione di PAI nel riferimento della raccolta non basta ad attribuire una componente PAI."
+    },
+    "dist-sett": {
+      "topics": [
+        "pgra"
+      ],
+      "source_urls": [
+        "https://www.appenninosettentrionale.it/rep/distretto/pgra/G_UFF_07022023%20N.%2032_DPCM_PGRA.pdf",
+        "https://www.appenninosettentrionale.it/rep/distretto/pgra/Disciplina%20di%20Piano.pdf",
+        "https://www.appenninosettentrionale.it/itc/?page_id=2910"
+      ],
+      "evidence": "Gli elaborati collegati sono PGRA. La menzione di PAI nel riferimento della raccolta non basta ad attribuire una componente PAI."
+    },
+    "dist-merid": {
+      "topics": [
+        "pgra"
+      ],
+      "source_urls": [
+        "https://www.distrettoappenninomeridionale.it/images/_PGRA/II%20ciclo%202019/PIANO%20VIGENTE/DPCM%201%C2%B0%20DICEMBRE%202022%20-%20approvazione%20I%20aggiornamento%20PGRA%20-%20II%20ciclo.pdf",
+        "https://www.distrettoappenninomeridionale.it/images/_PGRA/II%20ciclo%202019/PIANO%20VIGENTE/AGGIORNAMENTO%20MAPPE%20II%20CICLO/RELAZIONE%20METODOLOGICA.pdf",
+        "https://www.distrettoappenninomeridionale.it/piano-gestione-alluvioni/"
+      ],
+      "evidence": "Gli elaborati collegati sono PGRA. La menzione di PAI nel riferimento della raccolta non basta ad attribuire una componente PAI."
+    },
+    "dist-centr": {
+      "topics": [
+        "pai-idraulico",
+        "pai-frane",
+        "pgra"
+      ],
+      "source_urls": [
+        "https://aubac.it/pai-distrettuale-idraulico",
+        "https://aubac.it/pai-distrettuale-frane",
+        "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO.pdf",
+        "https://aubac.it/piani-di-bacino/piano-di-gestione-del-rischio-alluvioni-pgra"
+      ],
+      "evidence": "Raccolta distrettuale: PAI idraulico e frane nei documenti, portale PGRA nel campo url."
+    },
+    "dist-sard": {
+      "topics": [
+        "pai-idraulico",
+        "pai-frane",
+        "pgra"
+      ],
+      "source_urls": [
+        "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/06/Testo-coordinato-N.A.-PAI-modifiche-CI-n.-8-del-25.05.2026.pdf",
+        "https://pianogestionerischioalluvioni.regione.sardegna.it/documenti/1_617_20211222110339.pdf",
+        "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-di-gestione-del-rischio-alluvioni-p-g-r-a/"
+      ],
+      "evidence": "Raccolta NTA PAI (componente idraulica e frane) e relazione PGRA; varianti idrauliche e frane censite separatamente."
+    },
+    "dist-sici": {
+      "topics": [
+        "pai-idraulico",
+        "pai-geomorfologico",
+        "pgra"
+      ],
+      "source_urls": [
+        "https://www.regione.sicilia.it/system/files/2021-05/DP_n.09_2021_approvazione_NdA.pdf",
+        "https://www.gazzettaufficiale.it/eli/gu/2023/02/08/32/sg/pdf#page=12",
+        "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/siti-tematici/pianificazione/stralcio"
+      ],
+      "evidence": "NTA PAI: componenti idraulica e geomorfologica; DPCM PGRA distinto nella raccolta.",
+      "evidence_url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa"
+    },
+    "pai-calabria2001": {
+      "topics": [
+        "pai-idraulico"
+      ],
+      "source_urls": [
+        "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2024/11/NAMS_PAI_2001.pdf",
+        "https://www.distrettoappenninomeridionale.it/progetto-di-piano-stralcio-di-bacino-del-distretto-idrografico-dellappennino-meridionale-per-lassetto-la-mitigazione-e-la-gestione-del-rischio-da-alluvioni/psdgdam-risal-cal-l/"
+      ],
+      "evidence": "Scheda e fonte riferite alla componente idraulica del PAI / piano stralcio di rischio alluvioni; nessuna equiparazione al PGRA."
+    },
+    "pai-calabria-lao": {
+      "topics": [
+        "pai-idraulico"
+      ],
+      "source_urls": [
+        "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2024/11/Norme_di_Attuazione.pdf",
+        "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2025/03/Delibera_n_1_Conferenza_Istituzionale_19_febbraio_2025_signed_signed.pdf",
+        "https://www.distrettoappenninomeridionale.it/progetto-di-piano-stralcio-di-bacino-del-distretto-idrografico-dellappennino-meridionale-per-lassetto-la-mitigazione-e-la-gestione-del-rischio-da-alluvioni/psdgdam-risal-cal-l/"
+      ],
+      "evidence": "Scheda e fonte riferite alla componente idraulica del PAI / piano stralcio di rischio alluvioni; nessuna equiparazione al PGRA."
+    },
+    "pai-lgv": {
+      "topics": [
+        "pai-idraulico"
+      ],
+      "source_urls": [
+        "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/PAI-RI%20LGV%20norme%20luglio_2006.pdf",
+        "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-liri-garigliano-e-volturno-menuo/pai-rischio-idraulico-menu"
+      ],
+      "evidence": "Scheda e fonte riferite alla componente idraulica del PAI / piano stralcio di rischio alluvioni; nessuna equiparazione al PGRA."
+    },
+    "pai-campania": {
+      "topics": [
+        "pai-idraulico"
+      ],
+      "source_urls": [
+        "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/pai-campania-centrale-norme-attuazione-2015.pdf",
+        "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/bacini-reg-nord-occidentali-bacino-reg-sarno-ex-adb-reg-campania-centrale-menu/piano-assetto-idrogeologico-rischio-idraulico-menu"
+      ],
+      "evidence": "Scheda e fonte riferite alla componente idraulica del PAI / piano stralcio di rischio alluvioni; nessuna equiparazione al PGRA."
+    },
+    "pai-biferno-e-minori": {
+      "topics": [
+        "pai-idraulico"
+      ],
+      "source_urls": [
+        "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/molise/biferno/NORME%20PAI%20BIFERNO%20AGGIORNATE%20APRILE%202017.pdf",
+        "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-trigno-biferno-e-minori-saccione-e-fortore-menu/biferno-e-minori-menu/piano-stralcio-assetto-idrogeologico-rischio-idraulico-menu"
+      ],
+      "evidence": "Scheda e fonte riferite alla componente idraulica del PAI / piano stralcio di rischio alluvioni; nessuna equiparazione al PGRA."
+    },
+    "pai-trigno": {
+      "topics": [
+        "pai-idraulico"
+      ],
+      "source_urls": [
+        "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/trigno/NORME%20PAI%20TRIGNO%20AGGIORNATE%20APRILE%202017.pdf",
+        "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-trigno-biferno-e-minori-saccione-e-fortore-menu/trigno-menu/piano-stralcio-assetto-idrogeologico-rischio-idraulico-menu"
+      ],
+      "evidence": "Scheda e fonte riferite alla componente idraulica del PAI / piano stralcio di rischio alluvioni; nessuna equiparazione al PGRA."
+    },
+    "pai-fortore": {
+      "topics": [
+        "pai-idraulico"
+      ],
+      "source_urls": [
+        "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/molise/FORTORE/A-01_Normativa_di_attuazione.pdf",
+        "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-trigno-biferno-e-minori-saccione-e-fortore-menu/fortore-menu/piano-stralcio-assetto-idrogeologico-rischio-idraulico-menu"
+      ],
+      "evidence": "Scheda e fonte riferite alla componente idraulica del PAI / piano stralcio di rischio alluvioni; nessuna equiparazione al PGRA."
+    },
+    "pai-basilicata": {
+      "topics": [
+        "pai-idraulico",
+        "pai-frane"
+      ],
+      "source_urls": [
+        "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/UOM%20BASILICATA/PAI-RF/Norme_PAI_Basilicata_2024.pdf",
+        "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-basilicata-menu/piano-stralcio-per-la-difesa-dal-rischio-idrogeologico-pai-vigente-enu"
+      ],
+      "evidence": "NTA 2024: aree di versante e fasce fluviali, disciplina rischio frana e idraulico."
+    },
+    "pai-puglia": {
+      "topics": [
+        "pai-idraulico",
+        "pai-geomorfologico"
+      ],
+      "source_urls": [
+        "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/UoM%20Puglia/3_NTA_CI_30-11-05.pdf",
+        "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-puglia-menu/piano-assetto-idrogeologico-pericolosita-idraulica-menu"
+      ],
+      "evidence": "NTA 2005: titolo II Assetto idraulico, titolo III Assetto geomorfologico (PG1/PG2/PG3). Non duplicato come PAI frane."
+    },
+    "sar-inv-2017": {
+      "topics": [
+        "pai-idraulico"
+      ],
+      "source_urls": [
+        "https://www.regione.sardegna.it/documenti/1_470_20170529141753.pdf",
+        "https://autoritadibacino.regione.sardegna.it/ap/delibera-del-comitato-istituzionale-n-2-del-17-05-2017/"
+      ],
+      "evidence": "Linee guida attuative dell’articolo 47 delle NTA PAI per invarianza idraulica; non PGRA."
+    },
+    "dl152": {
+      "topics": [
+        "quadro-alluvioni",
+        "riuso"
+      ],
+      "source_urls": [
+        "https://www.gazzettaufficiale.it/eli/gu/2006/04/14/88/so/96/sg/pdf",
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2006-04-14&atto.codiceRedazionale=006G0171"
+      ],
+      "evidence": "Norma quadro o disciplina territoriale sul rischio alluvioni; non un atto di piano PAI/PGRA. Il focus della scheda comprende espressamente gli articoli 98-99 sul riuso."
+    },
+    "dl49": {
+      "topics": [
+        "quadro-alluvioni"
+      ],
+      "source_urls": [
+        "https://www.gazzettaufficiale.it/eli/gu/2010/04/02/77/sg/pdf"
+      ],
+      "evidence": "Norma quadro o disciplina territoriale sul rischio alluvioni; non un atto di piano PAI/PGRA."
+    },
+    "ueall": {
+      "topics": [
+        "quadro-alluvioni"
+      ],
+      "source_urls": [
+        "https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:32007L0060",
+        "https://eur-lex.europa.eu/eli/dir/2007/60/oj?locale=it"
+      ],
+      "evidence": "Norma quadro o disciplina territoriale sul rischio alluvioni; non un atto di piano PAI/PGRA."
+    },
+    "tos41": {
+      "topics": [
+        "quadro-alluvioni"
+      ],
+      "source_urls": [
+        "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?id=4ab37acb-9af9-11ed-b5b1-005056959b60&ext=pdf",
+        "https://raccoltanormativa.consiglio.regione.toscana.it/articolo?urndoc=urn:nir:regione.toscana:legge:2018-07-24;41"
+      ],
+      "evidence": "Norma quadro o disciplina territoriale sul rischio alluvioni; non un atto di piano PAI/PGRA."
+    },
+    "milano": {
+      "topics": [
+        "compatibilita"
+      ],
+      "source_urls": [
+        "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf",
+        "https://pgt.comune.milano.it/"
+      ],
+      "evidence": "Pianificazione comunale PGT e documento rischio idraulico. Il semplice coordinamento con PGRA non rende il documento un PGRA."
+    },
+    "po-pai-estensione-13-2025": {
+      "topics": [
+        "pai-idraulico",
+        "pai-frane"
+      ],
+      "source_urls": [
+        "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/delibera_CIP_13_2025_variante_PAI_Po_signed_signed.pdf",
+        "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/Relazione_generale.pdf",
+        "https://pianoalluvioni.adbpo.it/mappe-della-pericolosita-e-del-rischio-di-alluvione-2027/",
+        "https://pai.adbpo.it/progetto-variante-pai-po-estensione-ai-bacini-del-reno-romagnoli-conca-marecchia-e-fissero-tartaro-canalbianco/"
+      ],
+      "evidence": "Progetto di variante PAI Po: fasce fluviali, aree allagabili e dissesti di versante, descritti nella relazione generale. Non un PGRA."
+    },
+    "bz-campo-tures-pzp-799-2026": {
+      "topics": [
+        "pzp",
+        "dissesto"
+      ],
+      "exclude_topics": [
+        "compatibilita"
+      ],
+      "source_urls": [
+        "https://api.integrations.services.siag.it/delibere/v1/delibere/ZzOArA8ANeWZFuTKiVQGSA%3D%3D/document?tstmp=1790598720328"
+      ],
+      "evidence": "La variante riguarda esclusivamente pericolo da frana nei lotti 2 e 3, non pericolo o compatibilità idraulica."
+    }
+  }
+}

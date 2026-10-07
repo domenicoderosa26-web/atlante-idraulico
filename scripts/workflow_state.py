@@ -5,6 +5,7 @@ from pathlib import Path
 import sys
 from zoneinfo import ZoneInfo
 from normattiva import parse, validate
+from topics import validate_archive
 
 
 def already_complete(path, now=None):
@@ -20,6 +21,7 @@ def already_complete(path, now=None):
 
 def check(paths):
     national, data, status, checkpoint = [json.loads(Path(path).read_text()) for path in paths]
+    validate_archive(data)
     validate(national, data['records'])
     if status['outcome'] != 'completato' or status['timezone'] != 'Europe/Rome':
         raise ValueError('Stato pubblico non valido')

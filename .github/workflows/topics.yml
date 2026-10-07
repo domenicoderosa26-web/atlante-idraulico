@@ -1,0 +1,35 @@
+name: Validazione argomenti canonici
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data.json'
+      - 'dist/data.json'
+      - 'topic-taxonomy.json'
+      - 'app.js'
+      - 'dist/app.js'
+      - 'scripts/**'
+      - 'tests/**'
+      - '.github/workflows/topics.yml'
+  pull_request:
+    paths:
+      - 'data.json'
+      - 'dist/data.json'
+      - 'topic-taxonomy.json'
+      - 'app.js'
+      - 'dist/app.js'
+      - 'scripts/**'
+      - 'tests/**'
+      - '.github/workflows/topics.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python scripts/topics.py validate data.json dist/data.json
+      - run: python -m unittest discover -s tests -v
+      - run: node --check app.js && node --check dist/app.js
+      - run: node tests/test_topic_filters.js

@@ -12,6 +12,7 @@ import time
 import urllib.error
 import urllib.request
 from zoneinfo import ZoneInfo
+from topics import validate_archive
 
 BASE = 'https://api.normattiva.it/t/normattiva.api/bff-opendata/v1/api/v1'
 VALID = {'VIGENTE', 'MODIFICATA', 'ABROGATA', 'PARZIALMENTE ABROGATA', 'DA VERIFICARE'}
@@ -223,7 +224,9 @@ def main():
     p.add_argument('--public-status', default='update-status.json')
     args = p.parse_args()
     registry = json.loads(Path(args.registry).read_text())
-    validate(registry, json.loads(Path(args.data).read_text())['records'])
+    archive = json.loads(Path(args.data).read_text())
+    validate_archive(archive)
+    validate(registry, archive['records'])
     now = utcnow()
     state_file = Path(args.state)
     state = json.loads(state_file.read_text()) if state_file.exists() else {'last_successful_end': stamp(now - dt.timedelta(days=7))}

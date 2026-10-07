@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-06",
+  "updatedAt": "2026-10-07",
   "scope": "Catalogo selettivo con controllo mirato dei CAM e della disciplina delle acque di prima pioggia per tutte le regioni. La verifica locale e autorizzativa resta necessaria.",
   "automation": {
     "enabled": true,
@@ -2380,8 +2380,8 @@
       "kind": "Raccolta di piani",
       "status": "NTA vigenti verificate al 04/06/2026",
       "source_kind": "Portale di pianificazione",
-      "note": "Il testo coordinato vigente è aggiornato alla Deliberazione C.I. n. 8 del 25/05/2026, pubblicata sul BURAS il 04/06/2026. La variante generale PAI–frane approvata con decreto presidenziale n. 42/2026 è censita in una scheda specifica. Le varianti puntuali comunali non sono censite integralmente.",
-      "checked": "2026-10-02",
+      "note": "Il testo coordinato vigente è aggiornato alla Deliberazione C.I. n. 8 del 25/05/2026, pubblicata sul BURAS il 04/06/2026. Sono censite la variante generale PAI–frane approvata con decreto presidenziale n. 42/2026 e la variante PAI idraulica di Barrali approvata con Determinazione n. 162/2026. Le altre varianti puntuali comunali non sono censite integralmente.",
+      "checked": "2026-10-07",
       "relations": [],
       "history": [
         {
@@ -2395,6 +2395,10 @@
         {
           "date": "2026-10-02",
           "text": "Verificate la pagina ufficiale delle NTA, il testo coordinato aggiornato alla Deliberazione C.I. 8/2026 e la variante generale PAI–frane approvata nel giugno 2026."
+        },
+        {
+          "date": "2026-10-07",
+          "text": "Censita la variante PAI idraulica del Comune di Barrali, approvata con Determinazione n. 162/2026 e in vigore dalla pubblicazione nel BURAS del 01/10/2026."
         }
       ],
       "document_url": "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-stralcio-di-bacino-per-lassetto-idrogeologico-pai/norme-pai/",
@@ -2406,8 +2410,13 @@
       "ref": "D.P.Reg. Sardegna 42/2026 · variante PAI–frane",
       "title": "Variante generale PAI per la pericolosità e il rischio da frana",
       "level": "Regionale",
-      "regions": ["Sardegna"],
-      "topics": ["PAI e PGRA", "Pericolosità da frana"],
+      "regions": [
+        "Sardegna"
+      ],
+      "topics": [
+        "PAI e PGRA",
+        "Pericolosità da frana"
+      ],
       "date": "2026-06-17",
       "url": "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-stralcio-di-bacino-per-lassetto-idrogeologico-pai/variante-pai-frane-per-i-sub-bacini-1-2-4-5-6-7/",
       "documents": [
@@ -2440,7 +2449,10 @@
       "note": "Il decreto della Presidente della Regione n. 42 del 17/06/2026 dispone l’efficacia dalla pubblicazione nel BURAS. La pagina ufficiale attesta la pubblicazione nel BURAS n. 33 del 25/06/2026 e rinvia agli elaborati approvati.",
       "checked": "2026-10-02",
       "relations": [
-        {"type": "Quadro PAI/PGRA regionale", "id": "dist-sard"}
+        {
+          "type": "Quadro PAI/PGRA regionale",
+          "id": "dist-sard"
+        }
       ],
       "history": [
         {
@@ -2451,6 +2463,73 @@
       "document_url": "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/06/dp_2026_06_17_n.42_prot.12805.pdf",
       "document_label": "Apri il decreto di approvazione n. 42/2026 (PDF)",
       "document_note": "Il decreto approva la variante generale per sei sub-bacini e 304 comuni; gli elaborati cartografici sono raccolti nella pagina ufficiale collegata."
+    },
+    {
+      "id": "sar-pai-barrali-162-2026",
+      "ref": "Det. SG Sardegna 162/2026 · variante PAI Barrali",
+      "title": "Variante PAI idraulica del territorio comunale di Barrali",
+      "level": "Regionale",
+      "regions": [
+        "Sardegna"
+      ],
+      "topics": [
+        "PAI e PGRA",
+        "Pericolosità idraulica"
+      ],
+      "date": "2026-09-28",
+      "url": "https://autoritadibacino.regione.sardegna.it/ap/determinazione-n-162-prot-n-11367-del-28-09-2026/",
+      "documents": [
+        {
+          "url": "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/09/avp_2026_09_28_det.162_prot.11367_barrali.pdf",
+          "label": "PDF ufficiale · Determinazione n. 162/2026",
+          "format": "pdf",
+          "group": "PAI",
+          "link_status": "checked",
+          "link_checked": "2026-10-07"
+        },
+        {
+          "url": "https://buras.regione.sardegna.it/bollettino/59386/parte/59550/inserzione/63054?summary=AVVISI_E_COMUNICATIv",
+          "label": "BURAS n. 50 del 1º ottobre 2026 · avviso ufficiale",
+          "format": "html",
+          "group": "PAI",
+          "link_status": "checked",
+          "link_checked": "2026-10-07"
+        },
+        {
+          "url": "https://autoritadibacino.regione.sardegna.it/ap/determinazione-n-162-prot-n-11367-del-28-09-2026/",
+          "label": "Pagina ufficiale · determina ed elaborati approvati",
+          "format": "html",
+          "group": "PAI",
+          "link_status": "checked",
+          "link_checked": "2026-10-07"
+        }
+      ],
+      "summary": "Approvazione della variante puntuale al PAI relativa alla pericolosità idraulica dell’intero territorio comunale di Barrali, ai sensi degli articoli 8 e 37 delle Norme di Attuazione.",
+      "focus": [
+        "Verificare le nuove perimetrazioni di pericolosità idraulica negli elaborati approvati",
+        "Coordinare la variante con le NTA PAI vigenti e con lo strumento urbanistico comunale",
+        "Consultare l’avviso nel BURAS n. 50 del 1º ottobre 2026"
+      ],
+      "kind": "Variante puntuale PAI",
+      "status": "In vigore dal 01/10/2026",
+      "source_kind": "Determinazione e portale ufficiale dell’Autorità di bacino",
+      "note": "La pagina istituzionale indica la Determinazione n. 162 del 28/09/2026 come in vigore e pubblicata nel BURAS n. 50 del 01/10/2026; rende disponibili la determina firmata e gli elaborati approvati.",
+      "checked": "2026-10-07",
+      "relations": [
+        {
+          "type": "Quadro PAI/PGRA regionale",
+          "id": "dist-sard"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-07",
+          "text": "Inserita dopo verifica della pagina istituzionale, della determina diretta e dell’avviso di pubblicazione nel BURAS n. 50 del 01/10/2026."
+        }
+      ],
+      "document_url": "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/09/avp_2026_09_28_det.162_prot.11367_barrali.pdf",
+      "document_label": "Apri la Determinazione n. 162/2026 (PDF)",
+      "document_note": "La determina approva la variante idraulica di Barrali; gli elaborati completi sono raccolti nella pagina ufficiale collegata."
     },
     {
       "id": "dist-sici",
@@ -4241,8 +4320,13 @@
       "ref": "D.G.P. Bolzano 776/2026",
       "title": "Modifica PZP Nova Ponente · SS 241 km 11+000–11+900",
       "level": "Provinciale",
-      "regions": ["Trentino-Alto Adige"],
-      "topics": ["PZP", "Frane"],
+      "regions": [
+        "Trentino-Alto Adige"
+      ],
+      "topics": [
+        "PZP",
+        "Frane"
+      ],
       "date": "2026-09-18",
       "url": "https://giunta-provinciale.provincia.bz.it/it/delibere",
       "summary": "Approvata la sostituzione della carta delle zone di pericolo da frana lungo la SS 241, tra le progressive km 11+000 e km 11+900, dopo opere di protezione pubbliche.",
@@ -4256,9 +4340,25 @@
       "source_kind": "Delibera ufficiale della Provincia autonoma di Bolzano",
       "note": "D.G.P. n. 776 del 18/09/2026, adottata ai sensi dell’art. 56, comma 1/ter, della L.P. 9/2018. PDF integrale letto; pubblicazione nel Bollettino Ufficiale e cartografia modificata non acquisite al 30/09/2026.",
       "checked": "2026-09-30",
-      "relations": [{"type": "Disciplina degli interventi nelle zone di pericolo", "id": "bz23"}],
-      "history": [{"date": "2026-09-30", "text": "Acquisita e letta la D.G.P. 776/2026; approvazione verificata, efficacia ancora da accertare sul Bollettino Ufficiale."}],
-      "documents": [{"url": "https://api.integrations.services.siag.it/delibere/v1/delibere/03qj3RHzult3pGstFd%2BQsQ%3D%3D/document?tstmp=1790750000000", "label": "PDF ufficiale · D.G.P. Bolzano 776/2026", "format": "pdf"}],
+      "relations": [
+        {
+          "type": "Disciplina degli interventi nelle zone di pericolo",
+          "id": "bz23"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-30",
+          "text": "Acquisita e letta la D.G.P. 776/2026; approvazione verificata, efficacia ancora da accertare sul Bollettino Ufficiale."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/03qj3RHzult3pGstFd%2BQsQ%3D%3D/document?tstmp=1790750000000",
+          "label": "PDF ufficiale · D.G.P. Bolzano 776/2026",
+          "format": "pdf"
+        }
+      ],
       "document_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/03qj3RHzult3pGstFd%2BQsQ%3D%3D/document?tstmp=1790750000000",
       "document_label": "Apri la delibera provinciale (PDF)",
       "document_note": "Approvazione verificata; la data di efficacia richiede la pubblicazione nel Bollettino Ufficiale."
@@ -4268,8 +4368,13 @@
       "ref": "D.G.P. Bolzano 742/2026",
       "title": "Modifica PZP Fortezza · zona Greithwald",
       "level": "Provinciale",
-      "regions": ["Trentino-Alto Adige"],
-      "topics": ["PZP", "Pericolosità idraulica"],
+      "regions": [
+        "Trentino-Alto Adige"
+      ],
+      "topics": [
+        "PZP",
+        "Pericolosità idraulica"
+      ],
       "date": "2026-09-11",
       "url": "https://giunta-provinciale.provincia.bz.it/it/delibere",
       "summary": "Approvata la modifica della carta delle zone di pericolo idraulico nella zona Greithwald, conseguente a opere di protezione realizzate dall’Amministrazione pubblica.",
@@ -4283,9 +4388,25 @@
       "source_kind": "Delibera ufficiale della Provincia autonoma di Bolzano",
       "note": "D.G.P. n. 742 dell’11/09/2026, adottata ai sensi dell’art. 56, comma 1/ter, della L.P. 9/2018. PDF integrale letto; pubblicazione nel Bollettino Ufficiale e cartografia modificata non acquisite al 30/09/2026.",
       "checked": "2026-09-30",
-      "relations": [{"type": "Disciplina degli interventi nelle zone di pericolo", "id": "bz23"}],
-      "history": [{"date": "2026-09-30", "text": "Acquisita e letta la D.G.P. 742/2026; approvazione verificata, efficacia ancora da accertare sul Bollettino Ufficiale."}],
-      "documents": [{"url": "https://api.integrations.services.siag.it/delibere/v1/delibere/f5awpYMYyI7-Nv91yjrfaw%3D%3D/document?tstmp=1790750000000", "label": "PDF ufficiale · D.G.P. Bolzano 742/2026", "format": "pdf"}],
+      "relations": [
+        {
+          "type": "Disciplina degli interventi nelle zone di pericolo",
+          "id": "bz23"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-30",
+          "text": "Acquisita e letta la D.G.P. 742/2026; approvazione verificata, efficacia ancora da accertare sul Bollettino Ufficiale."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/f5awpYMYyI7-Nv91yjrfaw%3D%3D/document?tstmp=1790750000000",
+          "label": "PDF ufficiale · D.G.P. Bolzano 742/2026",
+          "format": "pdf"
+        }
+      ],
       "document_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/f5awpYMYyI7-Nv91yjrfaw%3D%3D/document?tstmp=1790750000000",
       "document_label": "Apri la delibera provinciale (PDF)",
       "document_note": "Approvazione verificata; la data di efficacia richiede la pubblicazione nel Bollettino Ufficiale."
@@ -4295,20 +4416,45 @@
       "ref": "D.G.P. Bolzano 741/2026",
       "title": "Modifica PZP Nova Ponente · SS 241 km 10+640",
       "level": "Provinciale",
-      "regions": ["Trentino-Alto Adige"],
-      "topics": ["PZP", "Frane"],
+      "regions": [
+        "Trentino-Alto Adige"
+      ],
+      "topics": [
+        "PZP",
+        "Frane"
+      ],
       "date": "2026-09-11",
       "url": "https://giunta-provinciale.provincia.bz.it/it/delibere",
       "summary": "Approvata la sostituzione della carta delle zone di pericolo da frana presso la SS 241 km 10+640, dopo opere di protezione pubbliche.",
-      "focus": ["Modifica circoscritta alla componente frane.", "La carta delle zone di pericolo è sostituita nell’ambito interessato.", "L’efficacia decorre dal giorno successivo alla pubblicazione nel Bollettino Ufficiale."],
+      "focus": [
+        "Modifica circoscritta alla componente frane.",
+        "La carta delle zone di pericolo è sostituita nell’ambito interessato.",
+        "L’efficacia decorre dal giorno successivo alla pubblicazione nel Bollettino Ufficiale."
+      ],
       "kind": "Piano",
       "status": "Approvazione provinciale verificata · efficacia da accertare",
       "source_kind": "Delibera ufficiale della Provincia autonoma di Bolzano",
       "note": "D.G.P. n. 741 dell’11/09/2026, adottata ai sensi dell’art. 56, comma 1/ter, della L.P. 9/2018. PDF integrale letto; pubblicazione nel Bollettino Ufficiale e cartografia modificata non acquisite al 30/09/2026.",
       "checked": "2026-09-30",
-      "relations": [{"type": "Disciplina degli interventi nelle zone di pericolo", "id": "bz23"}],
-      "history": [{"date": "2026-09-30", "text": "Acquisita e letta la D.G.P. 741/2026; approvazione verificata, efficacia ancora da accertare sul Bollettino Ufficiale."}],
-      "documents": [{"url": "https://api.integrations.services.siag.it/delibere/v1/delibere/XB%2BxsmykMNX4WRP4cDf9Eg%3D%3D/document?tstmp=1790750000000", "label": "PDF ufficiale · D.G.P. Bolzano 741/2026", "format": "pdf"}],
+      "relations": [
+        {
+          "type": "Disciplina degli interventi nelle zone di pericolo",
+          "id": "bz23"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-30",
+          "text": "Acquisita e letta la D.G.P. 741/2026; approvazione verificata, efficacia ancora da accertare sul Bollettino Ufficiale."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/XB%2BxsmykMNX4WRP4cDf9Eg%3D%3D/document?tstmp=1790750000000",
+          "label": "PDF ufficiale · D.G.P. Bolzano 741/2026",
+          "format": "pdf"
+        }
+      ],
       "document_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/XB%2BxsmykMNX4WRP4cDf9Eg%3D%3D/document?tstmp=1790750000000",
       "document_label": "Apri la delibera provinciale (PDF)",
       "document_note": "Approvazione verificata; la data di efficacia richiede la pubblicazione nel Bollettino Ufficiale."
@@ -4318,20 +4464,46 @@
       "ref": "D.G.P. Bolzano 740/2026",
       "title": "Modifica PZP Sarentino · Rio di Monterosso e Pichlereschbaum",
       "level": "Provinciale",
-      "regions": ["Trentino-Alto Adige"],
-      "topics": ["PZP", "Pericolosità idraulica", "Valanghe"],
+      "regions": [
+        "Trentino-Alto Adige"
+      ],
+      "topics": [
+        "PZP",
+        "Pericolosità idraulica",
+        "Valanghe"
+      ],
       "date": "2026-09-11",
       "url": "https://giunta-provinciale.provincia.bz.it/it/delibere",
       "summary": "Approvata la modifica della carta delle zone di pericolo per il bacino idrico F.310 Rio di Monterosso e l’area di accumulo della valanga Pichlereschbaum, dopo opere comunali di protezione.",
-      "focus": ["Modifica delle componenti idraulica e valanghiva.", "La carta delle zone di pericolo è sostituita nell’ambito interessato.", "L’efficacia decorre dal giorno successivo alla pubblicazione nel Bollettino Ufficiale."],
+      "focus": [
+        "Modifica delle componenti idraulica e valanghiva.",
+        "La carta delle zone di pericolo è sostituita nell’ambito interessato.",
+        "L’efficacia decorre dal giorno successivo alla pubblicazione nel Bollettino Ufficiale."
+      ],
       "kind": "Piano",
       "status": "Approvazione provinciale verificata · efficacia da accertare",
       "source_kind": "Delibera ufficiale della Provincia autonoma di Bolzano",
       "note": "D.G.P. n. 740 dell’11/09/2026, adottata ai sensi dell’art. 56, comma 1/ter, della L.P. 9/2018. PDF integrale letto; pubblicazione nel Bollettino Ufficiale e cartografia modificata non acquisite al 30/09/2026.",
       "checked": "2026-09-30",
-      "relations": [{"type": "Disciplina degli interventi nelle zone di pericolo", "id": "bz23"}],
-      "history": [{"date": "2026-09-30", "text": "Acquisita e letta la D.G.P. 740/2026; approvazione verificata, efficacia ancora da accertare sul Bollettino Ufficiale."}],
-      "documents": [{"url": "https://api.integrations.services.siag.it/delibere/v1/delibere/QDiyUDJvk7Ajnb95m6fsng%3D%3D/document?tstmp=1790750000000", "label": "PDF ufficiale · D.G.P. Bolzano 740/2026", "format": "pdf"}],
+      "relations": [
+        {
+          "type": "Disciplina degli interventi nelle zone di pericolo",
+          "id": "bz23"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-30",
+          "text": "Acquisita e letta la D.G.P. 740/2026; approvazione verificata, efficacia ancora da accertare sul Bollettino Ufficiale."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/QDiyUDJvk7Ajnb95m6fsng%3D%3D/document?tstmp=1790750000000",
+          "label": "PDF ufficiale · D.G.P. Bolzano 740/2026",
+          "format": "pdf"
+        }
+      ],
       "document_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/QDiyUDJvk7Ajnb95m6fsng%3D%3D/document?tstmp=1790750000000",
       "document_label": "Apri la delibera provinciale (PDF)",
       "document_note": "Approvazione verificata; la data di efficacia richiede la pubblicazione nel Bollettino Ufficiale."
@@ -4341,20 +4513,45 @@
       "ref": "D.G.P. Bolzano 739/2026",
       "title": "Modifica PZP La Valle · Rio di Armentara E.155",
       "level": "Provinciale",
-      "regions": ["Trentino-Alto Adige"],
-      "topics": ["PZP", "Pericolosità idraulica"],
+      "regions": [
+        "Trentino-Alto Adige"
+      ],
+      "topics": [
+        "PZP",
+        "Pericolosità idraulica"
+      ],
       "date": "2026-09-11",
       "url": "https://giunta-provinciale.provincia.bz.it/it/delibere",
       "summary": "Approvata la modifica della carta delle zone di pericolo idraulico sul Rio di Armentara E.155, conseguente a opere di protezione provinciali.",
-      "focus": ["Modifica circoscritta ai pericoli idraulici.", "La carta delle zone di pericolo è sostituita nell’ambito interessato.", "L’efficacia decorre dal giorno successivo alla pubblicazione nel Bollettino Ufficiale."],
+      "focus": [
+        "Modifica circoscritta ai pericoli idraulici.",
+        "La carta delle zone di pericolo è sostituita nell’ambito interessato.",
+        "L’efficacia decorre dal giorno successivo alla pubblicazione nel Bollettino Ufficiale."
+      ],
       "kind": "Piano",
       "status": "Approvazione provinciale verificata · efficacia da accertare",
       "source_kind": "Delibera ufficiale della Provincia autonoma di Bolzano",
       "note": "D.G.P. n. 739 dell’11/09/2026, adottata ai sensi dell’art. 56, comma 1/ter, della L.P. 9/2018. PDF integrale letto; pubblicazione nel Bollettino Ufficiale e cartografia modificata non acquisite al 30/09/2026.",
       "checked": "2026-09-30",
-      "relations": [{"type": "Disciplina degli interventi nelle zone di pericolo", "id": "bz23"}],
-      "history": [{"date": "2026-09-30", "text": "Acquisita e letta la D.G.P. 739/2026; approvazione verificata, efficacia ancora da accertare sul Bollettino Ufficiale."}],
-      "documents": [{"url": "https://api.integrations.services.siag.it/delibere/v1/delibere/sSWjeY6wMsUs%2BRZX0J8S0Q%3D%3D/document?tstmp=1790750000000", "label": "PDF ufficiale · D.G.P. Bolzano 739/2026", "format": "pdf"}],
+      "relations": [
+        {
+          "type": "Disciplina degli interventi nelle zone di pericolo",
+          "id": "bz23"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-30",
+          "text": "Acquisita e letta la D.G.P. 739/2026; approvazione verificata, efficacia ancora da accertare sul Bollettino Ufficiale."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/sSWjeY6wMsUs%2BRZX0J8S0Q%3D%3D/document?tstmp=1790750000000",
+          "label": "PDF ufficiale · D.G.P. Bolzano 739/2026",
+          "format": "pdf"
+        }
+      ],
       "document_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/sSWjeY6wMsUs%2BRZX0J8S0Q%3D%3D/document?tstmp=1790750000000",
       "document_label": "Apri la delibera provinciale (PDF)",
       "document_note": "Approvazione verificata; la data di efficacia richiede la pubblicazione nel Bollettino Ufficiale."
@@ -4364,25 +4561,50 @@
       "ref": "D.G.P. Bolzano 738/2026",
       "title": "Modifica PZP Rasun-Anterselva · centro Biathlon",
       "level": "Provinciale",
-      "regions": ["Trentino-Alto Adige"],
-      "topics": ["PZP", "Frane", "Valanghe"],
+      "regions": [
+        "Trentino-Alto Adige"
+      ],
+      "topics": [
+        "PZP",
+        "Frane",
+        "Valanghe"
+      ],
       "date": "2026-09-11",
       "url": "https://giunta-provinciale.provincia.bz.it/it/delibere",
       "summary": "Approvata la modifica della carta delle zone di pericolo da frana e valanga nell’area del centro Biathlon di Anterselva.",
-      "focus": ["Modifica delle componenti frane e valanghe.", "La carta delle zone di pericolo è sostituita nell’ambito interessato.", "L’efficacia decorre dal giorno successivo alla pubblicazione nel Bollettino Ufficiale."],
+      "focus": [
+        "Modifica delle componenti frane e valanghe.",
+        "La carta delle zone di pericolo è sostituita nell’ambito interessato.",
+        "L’efficacia decorre dal giorno successivo alla pubblicazione nel Bollettino Ufficiale."
+      ],
       "kind": "Piano",
       "status": "Approvazione provinciale verificata · efficacia da accertare",
       "source_kind": "Delibera ufficiale della Provincia autonoma di Bolzano",
       "note": "D.G.P. n. 738 dell’11/09/2026, approvata a seguito del procedimento comunale previsto dalla L.P. 9/2018. PDF integrale letto; pubblicazione nel Bollettino Ufficiale e cartografia modificata non acquisite al 30/09/2026.",
       "checked": "2026-09-30",
-      "relations": [{"type": "Disciplina degli interventi nelle zone di pericolo", "id": "bz23"}],
-      "history": [{"date": "2026-09-30", "text": "Acquisita e letta la D.G.P. 738/2026; approvazione verificata, efficacia ancora da accertare sul Bollettino Ufficiale."}],
-      "documents": [{"url": "https://api.integrations.services.siag.it/delibere/v1/delibere/EG2E4ptZZnKQGIZaBUV5Qg%3D%3D/document?tstmp=1790750000000", "label": "PDF ufficiale · D.G.P. Bolzano 738/2026", "format": "pdf"}],
+      "relations": [
+        {
+          "type": "Disciplina degli interventi nelle zone di pericolo",
+          "id": "bz23"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-30",
+          "text": "Acquisita e letta la D.G.P. 738/2026; approvazione verificata, efficacia ancora da accertare sul Bollettino Ufficiale."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/EG2E4ptZZnKQGIZaBUV5Qg%3D%3D/document?tstmp=1790750000000",
+          "label": "PDF ufficiale · D.G.P. Bolzano 738/2026",
+          "format": "pdf"
+        }
+      ],
       "document_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/EG2E4ptZZnKQGIZaBUV5Qg%3D%3D/document?tstmp=1790750000000",
       "document_label": "Apri la delibera provinciale (PDF)",
       "document_note": "Approvazione verificata; la data di efficacia richiede la pubblicazione nel Bollettino Ufficiale."
-    }
-  ,
+    },
     {
       "id": "centr-pai-idraulico-67-2026",
       "ref": "Del. CIP AUBAC 67/2026",
@@ -4621,8 +4843,7 @@
       "document_url": "https://geodataserver.appenninosettentrionale.it/arcgis/rest/services/Pericolosita_Alluvione/mappa_variante_pericolosita2026/MapServer/0",
       "document_label": "Mappa variante pericolosità 2026",
       "document_note": "Servizio ArcGIS istituzionale; il layer espone classi PI1, PI2 e PI3 e lo stato di consultazione."
-    }
-  ,
+    },
     {
       "id": "centr-pai-lettomanoppello-142-2026",
       "ref": "D.S. AUBAC 142/2026",
@@ -5779,6 +6000,47 @@
   ],
   "runs": [
     {
+      "date": "2026-10-07",
+      "type": "Ciclo automatico · verifica territoriale mirata · copertura parziale",
+      "summary": "Censita la variante PAI idraulica del Comune di Barrali, in vigore dal 1º ottobre 2026. Nessuna conclusione generale sull’assenza di ulteriori modifiche territoriali.",
+      "checked": [
+        "Autorità di Bacino della Sardegna: raccolta delle determinazioni di approvazione delle varianti puntuali PAI, dettaglio della Determinazione n. 162/2026 di Barrali, PDF diretto e avviso nel BURAS n. 50 del 01/10/2026.",
+        "Provincia autonoma di Bolzano: pagina ufficiale delle delibere e risultati visibili dell’ultima seduta del 02/10/2026; nessun atto PZP tra i contenuti mostrati.",
+        "Autorità di Bacino della Sicilia: pagina istituzionale e notizie visibili fino al 29/09/2026; nessun nuovo atto PAI/PGRA tra i contenuti mostrati."
+      ],
+      "read_urls": [
+        "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/approvazione-varianti-pai/",
+        "https://autoritadibacino.regione.sardegna.it/ap/determinazione-n-162-prot-n-11367-del-28-09-2026/",
+        "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/09/avp_2026_09_28_det.162_prot.11367_barrali.pdf",
+        "https://buras.regione.sardegna.it/bollettino/59386/parte/59550/inserzione/63054?summary=AVVISI_E_COMUNICATIv",
+        "https://giunta-provinciale.provincia.bz.it/it/delibere",
+        "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia"
+      ],
+      "errors": [
+        "La home dell’Autorità di bacino del Po ha restituito timeout e il portale dell’Appennino Settentrionale errore 502; le due fonti non sono state considerate controllate e non è stata dedotta assenza di modifiche.",
+        "I controlli Bolzano e Sicilia sono limitati ai contenuti mostrati dalle pagine istituzionali e non equivalgono a una ricerca integrale negli archivi.",
+        "Il controllo è mirato e non equivale alla verifica integrale dei sette distretti, delle 20 regioni, dei comuni, dei gestori o di tutte le varianti puntuali."
+      ],
+      "sectors": [
+        "PAI Sardegna",
+        "PZP Bolzano",
+        "PAI/PGRA Sicilia"
+      ],
+      "territories": [
+        "Sardegna",
+        "Provincia autonoma di Bolzano",
+        "Sicilia"
+      ],
+      "new_records": [
+        "sar-pai-barrali-162-2026"
+      ],
+      "updated_records": [
+        "dist-sard",
+        "discovery:PAI, PGRA e prescrizioni distrettuali"
+      ],
+      "publication": "data_json_update"
+    },
+    {
       "date": "2026-10-06",
       "type": "Ciclo automatico · verifica territoriale mirata · copertura parziale",
       "summary": "Censite sette varianti definitive del PAI-frane Abruzzo, efficaci dal 29 luglio 2026; risolto tramite il BUR Abruzzo il collegamento del D.S. 148/2026 relativo a Penne. Nessuna conclusione generale sull’assenza di ulteriori modifiche territoriali.",
@@ -5985,10 +6247,21 @@
         "Il download diretto da riga di comando delle fonti sarde non si è concluso nel tempo disponibile; pagine e PDF sono stati acquisiti e letti tramite il servizio web. L’errore tecnico non è stato interpretato come assenza di aggiornamenti.",
         "Il controllo è mirato e non equivale alla verifica integrale dei sette distretti, delle 20 regioni, dei comuni, dei gestori o di tutte le varianti puntuali."
       ],
-      "sectors": ["PAI/PGRA Sardegna", "PZP Bolzano"],
-      "territories": ["Sardegna", "Provincia autonoma di Bolzano"],
-      "new_records": ["sar-pai-frane-42-2026"],
-      "updated_records": ["dist-sard", "discovery:PAI, PGRA e prescrizioni distrettuali"],
+      "sectors": [
+        "PAI/PGRA Sardegna",
+        "PZP Bolzano"
+      ],
+      "territories": [
+        "Sardegna",
+        "Provincia autonoma di Bolzano"
+      ],
+      "new_records": [
+        "sar-pai-frane-42-2026"
+      ],
+      "updated_records": [
+        "dist-sard",
+        "discovery:PAI, PGRA e prescrizioni distrettuali"
+      ],
       "publication": "data_json_update"
     },
     {
@@ -6048,8 +6321,16 @@
         "Pagina istituzionale dell’Autorità di Bacino della Sicilia non acquisita per timeout; fonte non considerata controllata.",
         "Il controllo è mirato e non equivale alla verifica integrale delle 20 regioni, dei sette distretti, dei comuni e di tutti i collegamenti del catalogo."
       ],
-      "sectors": ["PZP Bolzano", "Varianti PAI Sardegna", "PAI/PGRA Fiume Po"],
-      "territories": ["Provincia autonoma di Bolzano", "Sardegna", "Distretto del Fiume Po"],
+      "sectors": [
+        "PZP Bolzano",
+        "Varianti PAI Sardegna",
+        "PAI/PGRA Fiume Po"
+      ],
+      "territories": [
+        "Provincia autonoma di Bolzano",
+        "Sardegna",
+        "Distretto del Fiume Po"
+      ],
       "new_records": [
         "bz-nova-ponente-pzp-776-2026",
         "bz-fortezza-pzp-742-2026",
@@ -6058,7 +6339,9 @@
         "bz-la-valle-pzp-739-2026",
         "bz-rasun-anterselva-pzp-738-2026"
       ],
-      "updated_records": ["discovery:Regioni, province, comuni e gestori"],
+      "updated_records": [
+        "discovery:Regioni, province, comuni e gestori"
+      ],
       "publication": "data_json_update"
     },
     {
@@ -6632,6 +6915,13 @@
   ],
   "news": [
     {
+      "date": "2026-10-07",
+      "status": "Nuova scheda · variante PAI idraulica efficace",
+      "title": "Sardegna: censita la variante PAI idraulica di Barrali",
+      "summary": "La Determinazione n. 162/2026 approva la variante relativa alla pericolosità idraulica dell’intero territorio comunale di Barrali. La fonte istituzionale la indica in vigore dalla pubblicazione nel BURAS n. 50 del 1º ottobre 2026.",
+      "url": "https://autoritadibacino.regione.sardegna.it/ap/determinazione-n-162-prot-n-11367-del-28-09-2026/"
+    },
+    {
       "date": "2026-10-06",
       "status": "Sette nuove schede · varianti PAI-frane efficaci",
       "title": "PAI Abruzzo: censite sette varianti definitive da Lettomanoppello a Penne",
@@ -6799,8 +7089,8 @@
       },
       {
         "name": "PAI, PGRA e prescrizioni distrettuali",
-        "lastReviewed": "2026-10-06",
-        "status": "Appennino Centrale: censite anche le sette varianti PAI-frane Abruzzo D.S. 142–148/2026, efficaci dal 29/07/2026; il BUR ha consentito di ricostruire il collegamento corretto del D.S. 148/2026. Restano da acquisire integralmente i dettagli URBI e da proseguire il censimento delle varianti puntuali."
+        "lastReviewed": "2026-10-07",
+        "status": "Sardegna: censita la variante PAI idraulica di Barrali (Determinazione n. 162/2026), in vigore dal 01/10/2026. Appennino Centrale: già censite le varianti PAI-frane Abruzzo D.S. 142–148/2026. Restano da proseguire il censimento delle varianti puntuali e le verifiche sulle fonti non raggiungibili."
       },
       {
         "name": "Regi decreti, demanio e bonifica",

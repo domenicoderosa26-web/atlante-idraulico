@@ -2343,7 +2343,7 @@
       "document_label": "PGRA Appennino Meridionale · II ciclo, elaborati",
       "document_note": "I collegamenti aprono direttamente i PDF ufficiali degli elaborati principali."
     },
-    {
+        {
       "id": "dist-sard",
       "ref": "PAI / PGRA · Sardegna",
       "title": "Pianificazione di bacino e rischio alluvioni",
@@ -2410,13 +2410,8 @@
       "ref": "D.P.Reg. Sardegna 42/2026 · variante PAI–frane",
       "title": "Variante generale PAI per la pericolosità e il rischio da frana",
       "level": "Regionale",
-      "regions": [
-        "Sardegna"
-      ],
-      "topics": [
-        "PAI e PGRA",
-        "Pericolosità da frana"
-      ],
+      "regions": ["Sardegna"],
+      "topics": ["PAI e PGRA", "Pericolosità da frana"],
       "date": "2026-06-17",
       "url": "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-stralcio-di-bacino-per-lassetto-idrogeologico-pai/variante-pai-frane-per-i-sub-bacini-1-2-4-5-6-7/",
       "documents": [
@@ -2449,10 +2444,7 @@
       "note": "Il decreto della Presidente della Regione n. 42 del 17/06/2026 dispone l’efficacia dalla pubblicazione nel BURAS. La pagina ufficiale attesta la pubblicazione nel BURAS n. 33 del 25/06/2026 e rinvia agli elaborati approvati.",
       "checked": "2026-10-02",
       "relations": [
-        {
-          "type": "Quadro PAI/PGRA regionale",
-          "id": "dist-sard"
-        }
+        {"type": "Quadro PAI/PGRA regionale", "id": "dist-sard"}
       ],
       "history": [
         {
@@ -4320,13 +4312,8 @@
       "ref": "D.G.P. Bolzano 776/2026",
       "title": "Modifica PZP Nova Ponente · SS 241 km 11+000–11+900",
       "level": "Provinciale",
-      "regions": [
-        "Trentino-Alto Adige"
-      ],
-      "topics": [
-        "PZP",
-        "Frane"
-      ],
+      "regions": ["Trentino-Alto Adige"],
+      "topics": ["PZP", "Frane"],
       "date": "2026-09-18",
       "url": "https://giunta-provinciale.provincia.bz.it/it/delibere",
       "summary": "Approvata la sostituzione della carta delle zone di pericolo da frana lungo la SS 241, tra le progressive km 11+000 e km 11+900, dopo opere di protezione pubbliche.",
@@ -4340,25 +4327,9 @@
       "source_kind": "Delibera ufficiale della Provincia autonoma di Bolzano",
       "note": "D.G.P. n. 776 del 18/09/2026, adottata ai sensi dell’art. 56, comma 1/ter, della L.P. 9/2018. PDF integrale letto; pubblicazione nel Bollettino Ufficiale e cartografia modificata non acquisite al 30/09/2026.",
       "checked": "2026-09-30",
-      "relations": [
-        {
-          "type": "Disciplina degli interventi nelle zone di pericolo",
-          "id": "bz23"
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-09-30",
-          "text": "Acquisita e letta la D.G.P. 776/2026; approvazione verificata, efficacia ancora da accertare sul Bollettino Ufficiale."
-        }
-      ],
-      "documents": [
-        {
-          "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/03qj3RHzult3pGstFd%2BQsQ%3D%3D/document?tstmp=1790750000000",
-          "label": "PDF ufficiale · D.G.P. Bolzano 776/2026",
-          "format": "pdf"
-        }
-      ],
+      "relations": [{"type": "Disciplina degli interventi nelle zone di pericolo", "id": "bz23"}],
+      "history": [{"date": "2026-09-30", "text": "Acquisita e letta la D.G.P. 776/2026; approvazione verificata, efficacia ancora da accertare sul Bollettino Ufficiale."}],
+      "documents": [{"url": "https://api.integrations.services.siag.it/delibere/v1/delibere/03qj3RHzult3pGstFd%2BQsQ%3D%3D/document?tstmp=1790750000000", "label": "PDF ufficiale · D.G.P. Bolzano 776/2026", "format": "pdf"}],
       "document_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/03qj3RHzult3pGstFd%2BQsQ%3D%3D/document?tstmp=1790750000000",
       "document_label": "Apri la delibera provinciale (PDF)",
       "document_note": "Approvazione verificata; la data di efficacia richiede la pubblicazione nel Bollettino Ufficiale."
@@ -4368,13 +4339,8 @@
       "ref": "D.G.P. Bolzano 742/2026",
       "title": "Modifica PZP Fortezza · zona Greithwald",
       "level": "Provinciale",
-      "regions": [
-        "Trentino-Alto Adige"
-      ],
-      "topics": [
-        "PZP",
-        "Pericolosità idraulica"
-      ],
+      "regions": ["Trentino-Alto Adige"],
+      "topics": ["PZP", "Pericolosità idraulica"],
       "date": "2026-09-11",
       "url": "https://giunta-provinciale.provincia.bz.it/it/delibere",
       "summary": "Approvata la modifica della carta delle zone di pericolo idraulico nella zona Greithwald, conseguente a opere di protezione realizzate dall’Amministrazione pubblica.",
@@ -4388,25 +4354,9 @@
       "source_kind": "Delibera ufficiale della Provincia autonoma di Bolzano",
       "note": "D.G.P. n. 742 dell’11/09/2026, adottata ai sensi dell’art. 56, comma 1/ter, della L.P. 9/2018. PDF integrale letto; pubblicazione nel Bollettino Ufficiale e cartografia modificata non acquisite al 30/09/2026.",
       "checked": "2026-09-30",
-      "relations": [
-        {
-          "type": "Disciplina degli interventi nelle zone di pericolo",
-          "id": "bz23"
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-09-30",
-          "text": "Acquisita e letta la D.G.P. 742/2026; approvazione verificata, efficacia ancora da accertare sul Bollettino Ufficiale."
-        }
-      ],
-      "documents": [
-        {
-          "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/f5awpYMYyI7-Nv91yjrfaw%3D%3D/document?tstmp=1790750000000",
-          "label": "PDF ufficiale · D.G.P. Bolzano 742/2026",
-          "format": "pdf"
-        }
-      ],
+      "relations": [{"type": "Disciplina degli interventi nelle zone di pericolo", "id": "bz23"}],
+      "history": [{"date": "2026-09-30", "text": "Acquisita e letta la D.G.P. 742/2026; approvazione verificata, efficacia ancora da accertare sul Bollettino Ufficiale."}],
+      "documents": [{"url": "https://api.integrations.services.siag.it/delibere/v1/delibere/f5awpYMYyI7-Nv91yjrfaw%3D%3D/document?tstmp=1790750000000", "label": "PDF ufficiale · D.G.P. Bolzano 742/2026", "format": "pdf"}],
       "document_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/f5awpYMYyI7-Nv91yjrfaw%3D%3D/document?tstmp=1790750000000",
       "document_label": "Apri la delibera provinciale (PDF)",
       "document_note": "Approvazione verificata; la data di efficacia richiede la pubblicazione nel Bollettino Ufficiale."
@@ -4416,45 +4366,20 @@
       "ref": "D.G.P. Bolzano 741/2026",
       "title": "Modifica PZP Nova Ponente · SS 241 km 10+640",
       "level": "Provinciale",
-      "regions": [
-        "Trentino-Alto Adige"
-      ],
-      "topics": [
-        "PZP",
-        "Frane"
-      ],
+      "regions": ["Trentino-Alto Adige"],
+      "topics": ["PZP", "Frane"],
       "date": "2026-09-11",
       "url": "https://giunta-provinciale.provincia.bz.it/it/delibere",
       "summary": "Approvata la sostituzione della carta delle zone di pericolo da frana presso la SS 241 km 10+640, dopo opere di protezione pubbliche.",
-      "focus": [
-        "Modifica circoscritta alla componente frane.",
-        "La carta delle zone di pericolo è sostituita nell’ambito interessato.",
-        "L’efficacia decorre dal giorno successivo alla pubblicazione nel Bollettino Ufficiale."
-      ],
+      "focus": ["Modifica circoscritta alla componente frane.", "La carta delle zone di pericolo è sostituita nell’ambito interessato.", "L’efficacia decorre dal giorno successivo alla pubblicazione nel Bollettino Ufficiale."],
       "kind": "Piano",
       "status": "Approvazione provinciale verificata · efficacia da accertare",
       "source_kind": "Delibera ufficiale della Provincia autonoma di Bolzano",
       "note": "D.G.P. n. 741 dell’11/09/2026, adottata ai sensi dell’art. 56, comma 1/ter, della L.P. 9/2018. PDF integrale letto; pubblicazione nel Bollettino Ufficiale e cartografia modificata non acquisite al 30/09/2026.",
       "checked": "2026-09-30",
-      "relations": [
-        {
-          "type": "Disciplina degli interventi nelle zone di pericolo",
-          "id": "bz23"
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-09-30",
-          "text": "Acquisita e letta la D.G.P. 741/2026; approvazione verificata, efficacia ancora da accertare sul Bollettino Ufficiale."
-        }
-      ],
-      "documents": [
-        {
-          "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/XB%2BxsmykMNX4WRP4cDf9Eg%3D%3D/document?tstmp=1790750000000",
-          "label": "PDF ufficiale · D.G.P. Bolzano 741/2026",
-          "format": "pdf"
-        }
-      ],
+      "relations": [{"type": "Disciplina degli interventi nelle zone di pericolo", "id": "bz23"}],
+      "history": [{"date": "2026-09-30", "text": "Acquisita e letta la D.G.P. 741/2026; approvazione verificata, efficacia ancora da accertare sul Bollettino Ufficiale."}],
+      "documents": [{"url": "https://api.integrations.services.siag.it/delibere/v1/delibere/XB%2BxsmykMNX4WRP4cDf9Eg%3D%3D/document?tstmp=1790750000000", "label": "PDF ufficiale · D.G.P. Bolzano 741/2026", "format": "pdf"}],
       "document_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/XB%2BxsmykMNX4WRP4cDf9Eg%3D%3D/document?tstmp=1790750000000",
       "document_label": "Apri la delibera provinciale (PDF)",
       "document_note": "Approvazione verificata; la data di efficacia richiede la pubblicazione nel Bollettino Ufficiale."
@@ -4464,46 +4389,20 @@
       "ref": "D.G.P. Bolzano 740/2026",
       "title": "Modifica PZP Sarentino · Rio di Monterosso e Pichlereschbaum",
       "level": "Provinciale",
-      "regions": [
-        "Trentino-Alto Adige"
-      ],
-      "topics": [
-        "PZP",
-        "Pericolosità idraulica",
-        "Valanghe"
-      ],
+      "regions": ["Trentino-Alto Adige"],
+      "topics": ["PZP", "Pericolosità idraulica", "Valanghe"],
       "date": "2026-09-11",
       "url": "https://giunta-provinciale.provincia.bz.it/it/delibere",
       "summary": "Approvata la modifica della carta delle zone di pericolo per il bacino idrico F.310 Rio di Monterosso e l’area di accumulo della valanga Pichlereschbaum, dopo opere comunali di protezione.",
-      "focus": [
-        "Modifica delle componenti idraulica e valanghiva.",
-        "La carta delle zone di pericolo è sostituita nell’ambito interessato.",
-        "L’efficacia decorre dal giorno successivo alla pubblicazione nel Bollettino Ufficiale."
-      ],
+      "focus": ["Modifica delle componenti idraulica e valanghiva.", "La carta delle zone di pericolo è sostituita nell’ambito interessato.", "L’efficacia decorre dal giorno successivo alla pubblicazione nel Bollettino Ufficiale."],
       "kind": "Piano",
       "status": "Approvazione provinciale verificata · efficacia da accertare",
       "source_kind": "Delibera ufficiale della Provincia autonoma di Bolzano",
       "note": "D.G.P. n. 740 dell’11/09/2026, adottata ai sensi dell’art. 56, comma 1/ter, della L.P. 9/2018. PDF integrale letto; pubblicazione nel Bollettino Ufficiale e cartografia modificata non acquisite al 30/09/2026.",
       "checked": "2026-09-30",
-      "relations": [
-        {
-          "type": "Disciplina degli interventi nelle zone di pericolo",
-          "id": "bz23"
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-09-30",
-          "text": "Acquisita e letta la D.G.P. 740/2026; approvazione verificata, efficacia ancora da accertare sul Bollettino Ufficiale."
-        }
-      ],
-      "documents": [
-        {
-          "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/QDiyUDJvk7Ajnb95m6fsng%3D%3D/document?tstmp=1790750000000",
-          "label": "PDF ufficiale · D.G.P. Bolzano 740/2026",
-          "format": "pdf"
-        }
-      ],
+      "relations": [{"type": "Disciplina degli interventi nelle zone di pericolo", "id": "bz23"}],
+      "history": [{"date": "2026-09-30", "text": "Acquisita e letta la D.G.P. 740/2026; approvazione verificata, efficacia ancora da accertare sul Bollettino Ufficiale."}],
+      "documents": [{"url": "https://api.integrations.services.siag.it/delibere/v1/delibere/QDiyUDJvk7Ajnb95m6fsng%3D%3D/document?tstmp=1790750000000", "label": "PDF ufficiale · D.G.P. Bolzano 740/2026", "format": "pdf"}],
       "document_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/QDiyUDJvk7Ajnb95m6fsng%3D%3D/document?tstmp=1790750000000",
       "document_label": "Apri la delibera provinciale (PDF)",
       "document_note": "Approvazione verificata; la data di efficacia richiede la pubblicazione nel Bollettino Ufficiale."
@@ -4513,45 +4412,20 @@
       "ref": "D.G.P. Bolzano 739/2026",
       "title": "Modifica PZP La Valle · Rio di Armentara E.155",
       "level": "Provinciale",
-      "regions": [
-        "Trentino-Alto Adige"
-      ],
-      "topics": [
-        "PZP",
-        "Pericolosità idraulica"
-      ],
+      "regions": ["Trentino-Alto Adige"],
+      "topics": ["PZP", "Pericolosità idraulica"],
       "date": "2026-09-11",
       "url": "https://giunta-provinciale.provincia.bz.it/it/delibere",
       "summary": "Approvata la modifica della carta delle zone di pericolo idraulico sul Rio di Armentara E.155, conseguente a opere di protezione provinciali.",
-      "focus": [
-        "Modifica circoscritta ai pericoli idraulici.",
-        "La carta delle zone di pericolo è sostituita nell’ambito interessato.",
-        "L’efficacia decorre dal giorno successivo alla pubblicazione nel Bollettino Ufficiale."
-      ],
+      "focus": ["Modifica circoscritta ai pericoli idraulici.", "La carta delle zone di pericolo è sostituita nell’ambito interessato.", "L’efficacia decorre dal giorno successivo alla pubblicazione nel Bollettino Ufficiale."],
       "kind": "Piano",
       "status": "Approvazione provinciale verificata · efficacia da accertare",
       "source_kind": "Delibera ufficiale della Provincia autonoma di Bolzano",
       "note": "D.G.P. n. 739 dell’11/09/2026, adottata ai sensi dell’art. 56, comma 1/ter, della L.P. 9/2018. PDF integrale letto; pubblicazione nel Bollettino Ufficiale e cartografia modificata non acquisite al 30/09/2026.",
       "checked": "2026-09-30",
-      "relations": [
-        {
-          "type": "Disciplina degli interventi nelle zone di pericolo",
-          "id": "bz23"
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-09-30",
-          "text": "Acquisita e letta la D.G.P. 739/2026; approvazione verificata, efficacia ancora da accertare sul Bollettino Ufficiale."
-        }
-      ],
-      "documents": [
-        {
-          "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/sSWjeY6wMsUs%2BRZX0J8S0Q%3D%3D/document?tstmp=1790750000000",
-          "label": "PDF ufficiale · D.G.P. Bolzano 739/2026",
-          "format": "pdf"
-        }
-      ],
+      "relations": [{"type": "Disciplina degli interventi nelle zone di pericolo", "id": "bz23"}],
+      "history": [{"date": "2026-09-30", "text": "Acquisita e letta la D.G.P. 739/2026; approvazione verificata, efficacia ancora da accertare sul Bollettino Ufficiale."}],
+      "documents": [{"url": "https://api.integrations.services.siag.it/delibere/v1/delibere/sSWjeY6wMsUs%2BRZX0J8S0Q%3D%3D/document?tstmp=1790750000000", "label": "PDF ufficiale · D.G.P. Bolzano 739/2026", "format": "pdf"}],
       "document_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/sSWjeY6wMsUs%2BRZX0J8S0Q%3D%3D/document?tstmp=1790750000000",
       "document_label": "Apri la delibera provinciale (PDF)",
       "document_note": "Approvazione verificata; la data di efficacia richiede la pubblicazione nel Bollettino Ufficiale."
@@ -4561,50 +4435,25 @@
       "ref": "D.G.P. Bolzano 738/2026",
       "title": "Modifica PZP Rasun-Anterselva · centro Biathlon",
       "level": "Provinciale",
-      "regions": [
-        "Trentino-Alto Adige"
-      ],
-      "topics": [
-        "PZP",
-        "Frane",
-        "Valanghe"
-      ],
+      "regions": ["Trentino-Alto Adige"],
+      "topics": ["PZP", "Frane", "Valanghe"],
       "date": "2026-09-11",
       "url": "https://giunta-provinciale.provincia.bz.it/it/delibere",
       "summary": "Approvata la modifica della carta delle zone di pericolo da frana e valanga nell’area del centro Biathlon di Anterselva.",
-      "focus": [
-        "Modifica delle componenti frane e valanghe.",
-        "La carta delle zone di pericolo è sostituita nell’ambito interessato.",
-        "L’efficacia decorre dal giorno successivo alla pubblicazione nel Bollettino Ufficiale."
-      ],
+      "focus": ["Modifica delle componenti frane e valanghe.", "La carta delle zone di pericolo è sostituita nell’ambito interessato.", "L’efficacia decorre dal giorno successivo alla pubblicazione nel Bollettino Ufficiale."],
       "kind": "Piano",
       "status": "Approvazione provinciale verificata · efficacia da accertare",
       "source_kind": "Delibera ufficiale della Provincia autonoma di Bolzano",
       "note": "D.G.P. n. 738 dell’11/09/2026, approvata a seguito del procedimento comunale previsto dalla L.P. 9/2018. PDF integrale letto; pubblicazione nel Bollettino Ufficiale e cartografia modificata non acquisite al 30/09/2026.",
       "checked": "2026-09-30",
-      "relations": [
-        {
-          "type": "Disciplina degli interventi nelle zone di pericolo",
-          "id": "bz23"
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-09-30",
-          "text": "Acquisita e letta la D.G.P. 738/2026; approvazione verificata, efficacia ancora da accertare sul Bollettino Ufficiale."
-        }
-      ],
-      "documents": [
-        {
-          "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/EG2E4ptZZnKQGIZaBUV5Qg%3D%3D/document?tstmp=1790750000000",
-          "label": "PDF ufficiale · D.G.P. Bolzano 738/2026",
-          "format": "pdf"
-        }
-      ],
+      "relations": [{"type": "Disciplina degli interventi nelle zone di pericolo", "id": "bz23"}],
+      "history": [{"date": "2026-09-30", "text": "Acquisita e letta la D.G.P. 738/2026; approvazione verificata, efficacia ancora da accertare sul Bollettino Ufficiale."}],
+      "documents": [{"url": "https://api.integrations.services.siag.it/delibere/v1/delibere/EG2E4ptZZnKQGIZaBUV5Qg%3D%3D/document?tstmp=1790750000000", "label": "PDF ufficiale · D.G.P. Bolzano 738/2026", "format": "pdf"}],
       "document_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/EG2E4ptZZnKQGIZaBUV5Qg%3D%3D/document?tstmp=1790750000000",
       "document_label": "Apri la delibera provinciale (PDF)",
       "document_note": "Approvazione verificata; la data di efficacia richiede la pubblicazione nel Bollettino Ufficiale."
-    },
+    }
+  ,
     {
       "id": "centr-pai-idraulico-67-2026",
       "ref": "Del. CIP AUBAC 67/2026",
@@ -4843,7 +4692,8 @@
       "document_url": "https://geodataserver.appenninosettentrionale.it/arcgis/rest/services/Pericolosita_Alluvione/mappa_variante_pericolosita2026/MapServer/0",
       "document_label": "Mappa variante pericolosità 2026",
       "document_note": "Servizio ArcGIS istituzionale; il layer espone classi PI1, PI2 e PI3 e lo stato di consultazione."
-    },
+    }
+  ,
     {
       "id": "centr-pai-lettomanoppello-142-2026",
       "ref": "D.S. AUBAC 142/2026",
@@ -6247,21 +6097,10 @@
         "Il download diretto da riga di comando delle fonti sarde non si è concluso nel tempo disponibile; pagine e PDF sono stati acquisiti e letti tramite il servizio web. L’errore tecnico non è stato interpretato come assenza di aggiornamenti.",
         "Il controllo è mirato e non equivale alla verifica integrale dei sette distretti, delle 20 regioni, dei comuni, dei gestori o di tutte le varianti puntuali."
       ],
-      "sectors": [
-        "PAI/PGRA Sardegna",
-        "PZP Bolzano"
-      ],
-      "territories": [
-        "Sardegna",
-        "Provincia autonoma di Bolzano"
-      ],
-      "new_records": [
-        "sar-pai-frane-42-2026"
-      ],
-      "updated_records": [
-        "dist-sard",
-        "discovery:PAI, PGRA e prescrizioni distrettuali"
-      ],
+      "sectors": ["PAI/PGRA Sardegna", "PZP Bolzano"],
+      "territories": ["Sardegna", "Provincia autonoma di Bolzano"],
+      "new_records": ["sar-pai-frane-42-2026"],
+      "updated_records": ["dist-sard", "discovery:PAI, PGRA e prescrizioni distrettuali"],
       "publication": "data_json_update"
     },
     {
@@ -6321,16 +6160,8 @@
         "Pagina istituzionale dell’Autorità di Bacino della Sicilia non acquisita per timeout; fonte non considerata controllata.",
         "Il controllo è mirato e non equivale alla verifica integrale delle 20 regioni, dei sette distretti, dei comuni e di tutti i collegamenti del catalogo."
       ],
-      "sectors": [
-        "PZP Bolzano",
-        "Varianti PAI Sardegna",
-        "PAI/PGRA Fiume Po"
-      ],
-      "territories": [
-        "Provincia autonoma di Bolzano",
-        "Sardegna",
-        "Distretto del Fiume Po"
-      ],
+      "sectors": ["PZP Bolzano", "Varianti PAI Sardegna", "PAI/PGRA Fiume Po"],
+      "territories": ["Provincia autonoma di Bolzano", "Sardegna", "Distretto del Fiume Po"],
       "new_records": [
         "bz-nova-ponente-pzp-776-2026",
         "bz-fortezza-pzp-742-2026",
@@ -6339,9 +6170,7 @@
         "bz-la-valle-pzp-739-2026",
         "bz-rasun-anterselva-pzp-738-2026"
       ],
-      "updated_records": [
-        "discovery:Regioni, province, comuni e gestori"
-      ],
+      "updated_records": ["discovery:Regioni, province, comuni e gestori"],
       "publication": "data_json_update"
     },
     {
@@ -7087,7 +6916,7 @@
         "lastReviewed": "2026-09-20",
         "status": "Allegato 1 CAM edilizia 2025 e modello di relazione collegati; coordinamento tecnico con i CAM strade e gli atti richiamati ancora aperto."
       },
-      {
+            {
         "name": "PAI, PGRA e prescrizioni distrettuali",
         "lastReviewed": "2026-10-07",
         "status": "Sardegna: censita la variante PAI idraulica di Barrali (Determinazione n. 162/2026), in vigore dal 01/10/2026. Appennino Centrale: già censite le varianti PAI-frane Abruzzo D.S. 142–148/2026. Restano da proseguire il censimento delle varianti puntuali e le verifiche sulle fonti non raggiungibili."

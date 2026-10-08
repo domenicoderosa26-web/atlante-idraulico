@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "catalog_path": "data.json",
-  "updated_at": "2026-10-08T20:14:10.952998+00:00",
+  "updated_at": "2026-10-08T20:19:14.603752+00:00",
   "basis": [
     "docs/audit/2026-10-08/schede.json",
     "docs/audit/2026-10-08/coda.json",
@@ -11,22 +11,19 @@
   "note": "Registro derivato di attività: non è un secondo catalogo. Le revisioni anteriori sono conservate negli audit citati e in data.json. I conteggi sono una fotografia alla data indicata.",
   "catalog_snapshot": {
     "records": 106,
-    "documentary_reviews": 89,
+    "documentary_reviews": 92,
     "without_documentary_review": [
       "er1860",
       "abr17",
       "mol25",
       "bari",
       "milano",
-      "dist-alpi",
       "dist-sett",
       "bas471",
       "dist-merid",
-      "dist-sard",
       "dist-sici",
       "sic-pgra3-02-2026",
       "pai-calabria2001",
-      "pai-fortore",
       "codstrada285",
       "dpr495",
       "sett-pgra-variante-62-2026"
@@ -804,7 +801,11 @@
       "record_version": "c27c3d263bde3d3edbcfb61a16157f5b6af00224f4e2c38d2f781d8dd5b020f9",
       "evidence": "docs/audit/2026-10-08/incrementale/lotto-06.json",
       "publication": {
-        "state": "validated_pending_deployment"
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/13",
+        "merge_commit": "1ad0de069947b1f39b037852f2ce9007a7726ff2",
+        "verified_at": "2026-10-08T20:17:27.434998+00:00",
+        "evidence": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-06.json"
       },
       "history": []
     },
@@ -829,7 +830,11 @@
       "record_version": "af66fc4aba7d9d7b408bcea5962cfa4cc116788e6e26278952b3abc10398afc8",
       "evidence": "docs/audit/2026-10-08/incrementale/lotto-06.json",
       "publication": {
-        "state": "validated_pending_deployment"
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/13",
+        "merge_commit": "1ad0de069947b1f39b037852f2ce9007a7726ff2",
+        "verified_at": "2026-10-08T20:17:27.434998+00:00",
+        "evidence": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-06.json"
       },
       "history": []
     },
@@ -853,7 +858,11 @@
       "record_version": "3c07251b2238ce66d5e4f0f6f433bc693e42a1cc29878841453dc18ff4a99939",
       "evidence": "docs/audit/2026-10-08/incrementale/lotto-06.json",
       "publication": {
-        "state": "validated_pending_deployment"
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/13",
+        "merge_commit": "1ad0de069947b1f39b037852f2ce9007a7726ff2",
+        "verified_at": "2026-10-08T20:17:27.434998+00:00",
+        "evidence": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-06.json"
       },
       "history": []
     },
@@ -880,7 +889,11 @@
       "record_version": "86ca15c0702f2b4959871bd2e366f4c4f90203962a4db78e397f05b03b29753a",
       "evidence": "docs/audit/2026-10-08/incrementale/lotto-06.json",
       "publication": {
-        "state": "validated_pending_deployment"
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/13",
+        "merge_commit": "1ad0de069947b1f39b037852f2ce9007a7726ff2",
+        "verified_at": "2026-10-08T20:17:27.434998+00:00",
+        "evidence": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-06.json"
       },
       "history": []
     },
@@ -906,6 +919,124 @@
       ],
       "record_version": "7e2898d7b20e858611b5926adb7ae59f2bf08ffe4d41b2d1bfad98ad229dfad8",
       "evidence": "docs/audit/2026-10-08/incrementale/lotto-06.json",
+      "publication": {
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/13",
+        "merge_commit": "1ad0de069947b1f39b037852f2ce9007a7726ff2",
+        "verified_at": "2026-10-08T20:17:27.434998+00:00",
+        "evidence": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-06.json"
+      },
+      "history": []
+    },
+    "pai-fortore": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-08T20:19:14.603752+00:00",
+      "source_urls": [
+        "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/molise/FORTORE/A-01_Normativa_di_attuazione.pdf"
+      ],
+      "verified_results": [
+        "Il PDF reca «Progetto di Piano stralcio» del bacino interregionale del Fortore. Questa denominazione non è prova dello stato procedurale attuale, né consente di trasferire al Fortore l’approvazione verificata per Biferno e Trigno.",
+        "Per gli studi idraulici: PI3 fino a 30 anni, PI2 oltre 30 fino a 200, PI1 oltre 200 fino a 500; sono distinti i criteri geomorfologici e prevista la trasmissione dei rilievi degli eventi alluvionali dai Comuni.",
+        "Fascia di riassetto con disciplina prevalente in sovrapposizione e assimilazione a PI2 nei tratti non esplicitamente definiti; interventi soltanto nell’elenco e alle condizioni del testo."
+      ],
+      "limitations": [
+        "La revisione resta parziale: cartografie, fascicoli regionali o catena degli atti successivi non completati nel perimetro dichiarato."
+      ],
+      "next_operation": [
+        "Acquisire l’atto e la versione approvata, ricostruire eventuali varianti, completare NTA e cartografie del bacino Fortore."
+      ],
+      "record_version": "1dce0cfc5ab07f0133dfa4f186e1794a862d665e45cce51266df454ac85f393b",
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-07.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
+    },
+    "dist-alpi": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-08T20:19:14.603752+00:00",
+      "source_urls": [
+        "https://sigma.distrettoalpiorientali.it/sigma/documentDownload/downloadDocumentById?documentId=380"
+      ],
+      "verified_results": [
+        "Pericolosità in assenza di mappatura: verifiche per aree con studi/dissesto documentato e trasmissione all’Autorità. L’aggiornamento con decreto acquista efficacia con la pubblicazione in GU; assenza sulla carta non equivale ad assenza di pericolo.",
+        "Zone di attenzione non ancora associate a una classe: disciplina e aggiornamento specifici, con verifica secondo Allegato A nei casi previsti e limite del rischio specifico medio R2.",
+        "Dall’entrata in vigore delle norme PGRA cessano gli effetti dei PAI per la parte idraulica; restano conoscenze, disposizioni e mappe gravitativo/valanghive. Preservate le competenze statutarie delle Province autonome. La data concreta del relativo avviso GU non è stata ricostruita in questo lotto."
+      ],
+      "limitations": [
+        "La revisione resta parziale: cartografie, fascicoli regionali o catena degli atti successivi non completati nel perimetro dichiarato."
+      ],
+      "next_operation": [
+        "Acquisire avviso GU e atti successivi; completare Allegato A, NTA e cartografie applicabili al luogo e il III ciclo."
+      ],
+      "record_version": "bd9860bca15989ce19a9e59f053b7d456f4a93af8304c4d3f0cb7c21d40305a0",
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-07.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
+    },
+    "dist-sard": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-08T20:19:14.603752+00:00",
+      "source_urls": [
+        "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/06/Testo-coordinato-N.A.-PAI-modifiche-CI-n.-8-del-25.05.2026.pdf",
+        "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-di-gestione-del-rischio-alluvioni-p-g-r-a/"
+      ],
+      "verified_results": [
+        "Testo coordinato con modifiche CI 8 del 25 maggio 2026, pubblicato a fini divulgativi: distinto dagli atti che stabiliscono vigenza e modifiche.",
+        "Invarianza: portate scaricate non maggiori delle preesistenti; strumenti e studi comunali con infrastrutture compensative. Gli studi sono approvati e vigilati dal Comune; il comma 7 esclude specifici piani e riporta modifiche CI 1/2019, non un’esenzione generale per tutti gli interventi.",
+        "Il secondo ciclo è indicato approvato con CI 14/2021 e DPCM 1 dicembre 2022, GU 43 del 20 febbraio 2023; il III ciclo è in preparazione con revisione prevista entro 22 dicembre 2027. L’avvio del III ciclo non sostituisce automaticamente il secondo."
+      ],
+      "limitations": [
+        "La revisione resta parziale: cartografie, fascicoli regionali o catena degli atti successivi non completati nel perimetro dichiarato."
+      ],
+      "next_operation": [
+        "Completare gli atti CI/DPCM e le NTA, verificare la catena successiva, relazione PGRA e cartografie puntuali e il procedimento III ciclo."
+      ],
+      "record_version": "1a623d346d09bbf882816c973604f3a6b3755b5d8667aa2f1f6700623f196861",
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-07.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
+    },
+    "bas471": {
+      "state": "bloccata",
+      "last_activity": "2026-10-08T20:19:14.603752+00:00",
+      "source_urls": [
+        "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A35795B0B&idDocumento=795801377B580A307C5C",
+        "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A397A5C07&idDocumento=795801377B580A307C5C"
+      ],
+      "verified_results": [],
+      "limitations": [
+        "Fonte ufficiale non acquisita; nessuna verifica normativa sostanziale, nessuna deduzione di assenza di modifiche."
+      ],
+      "next_operation": [
+        "Riprendere la fonte istituzionale o un’alternativa ufficiale che consenta di leggere il testo e le modifiche, senza basarsi sulla sola copia del portale."
+      ],
+      "record_version": "dea04e0e0f4e03961f9b086296c75274d5fe86cc137d97c3894c610ac0622acb",
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-07.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
+    },
+    "abr17": {
+      "state": "bloccata",
+      "last_activity": "2026-10-08T20:19:14.603752+00:00",
+      "source_urls": [
+        "https://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2008/lr08017.htm"
+      ],
+      "verified_results": [],
+      "limitations": [
+        "Fonte ufficiale non acquisita; nessuna verifica normativa sostanziale, nessuna deduzione di assenza di modifiche."
+      ],
+      "next_operation": [
+        "Riprendere la fonte istituzionale o un’alternativa ufficiale che consenta di leggere il testo e le modifiche, senza basarsi sulla sola copia del portale."
+      ],
+      "record_version": "a4f79630057605dfa24235de44af71f5a2c4f1fefc8de839150244e82e288cc5",
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-07.json",
       "publication": {
         "state": "validated_pending_deployment"
       },
@@ -1020,16 +1151,35 @@
       ],
       "evidence": "docs/audit/2026-10-08/incrementale/lotto-06.json",
       "publication": {
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/13",
+        "merge_commit": "1ad0de069947b1f39b037852f2ce9007a7726ff2",
+        "verified_at": "2026-10-08T20:17:27.434998+00:00",
+        "evidence": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-06.json"
+      }
+    },
+    {
+      "id": "incrementale-07",
+      "date": "2026-10-08",
+      "record_ids": [
+        "pai-fortore",
+        "dist-alpi",
+        "dist-sard",
+        "bas471",
+        "abr17"
+      ],
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-07.json",
+      "publication": {
         "state": "validated_pending_deployment"
       }
     }
   ],
   "next_batch": [
-    "pai-fortore",
-    "dist-alpi",
-    "dist-sard",
-    "bas471",
-    "abr17"
+    "dist-sett",
+    "dist-merid",
+    "dist-sici",
+    "sic-pgra3-02-2026",
+    "sett-pgra-variante-62-2026"
   ],
   "queue_history": [
     {

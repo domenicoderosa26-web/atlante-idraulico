@@ -1,0 +1,1448 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-08",
+  "note": "Matrice della revisione sostanziale, non della presenza di schede nel catalogo; un controllo URL non copre la materia. La ricerca estesa di atti mancanti resta successiva al completamento dell’audit prioritario. Nessuno stato implica assenza di normativa.",
+  "matrix": [
+    {
+      "territory": "Abruzzo",
+      "sectors": [
+        {
+          "sector": "invarianza",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "prima_pioggia",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "scarichi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "riuso",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "demanio",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "pai_pgra",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "regolamenti_attuativi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "norme_locali",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        }
+      ]
+    },
+    {
+      "territory": "Basilicata",
+      "sectors": [
+        {
+          "sector": "invarianza",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "prima_pioggia",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "scarichi",
+          "state": "atto_verificato_e_censito_perimetro_parziale",
+          "record_ids": [
+            "bas9"
+          ],
+          "scope": "Solo i riscontri delle schede indicate; nessuna attestazione di completezza della disciplina territoriale.",
+          "source_urls": [
+            "https://www.gazzettaufficiale.it/eli/id/2017/12/16/17R00266/s3",
+            "https://www.regione.basilicata.it/wp-content/uploads/giunta/docs/DOCUMENT_FILE_3068771.pdf"
+          ]
+        },
+        {
+          "sector": "riuso",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "demanio",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "pai_pgra",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "regolamenti_attuativi",
+          "state": "atto_verificato_e_censito_perimetro_parziale",
+          "record_ids": [
+            "bas9"
+          ],
+          "scope": "Solo i riscontri delle schede indicate; nessuna attestazione di completezza della disciplina territoriale.",
+          "source_urls": [
+            "https://www.gazzettaufficiale.it/eli/id/2017/12/16/17R00266/s3",
+            "https://www.regione.basilicata.it/wp-content/uploads/giunta/docs/DOCUMENT_FILE_3068771.pdf"
+          ]
+        },
+        {
+          "sector": "norme_locali",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        }
+      ]
+    },
+    {
+      "territory": "Calabria",
+      "sectors": [
+        {
+          "sector": "invarianza",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "prima_pioggia",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "scarichi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "riuso",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "demanio",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "pai_pgra",
+          "state": "atto_verificato_e_censito_perimetro_parziale",
+          "record_ids": [
+            "pai-calabria-lao"
+          ],
+          "scope": "Solo i riscontri delle schede indicate; nessuna attestazione di completezza della disciplina territoriale.",
+          "source_urls": [
+            "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2024/11/Norme_di_Attuazione.pdf",
+            "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2025/03/Delibera_n_1_Conferenza_Istituzionale_19_febbraio_2025_signed_signed.pdf"
+          ]
+        },
+        {
+          "sector": "regolamenti_attuativi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "norme_locali",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        }
+      ]
+    },
+    {
+      "territory": "Campania",
+      "sectors": [
+        {
+          "sector": "invarianza",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "prima_pioggia",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "scarichi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "riuso",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "demanio",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "pai_pgra",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "regolamenti_attuativi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "norme_locali",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        }
+      ]
+    },
+    {
+      "territory": "Emilia-Romagna",
+      "sectors": [
+        {
+          "sector": "invarianza",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "prima_pioggia",
+          "state": "atto_verificato_e_censito_perimetro_parziale",
+          "record_ids": [
+            "er286"
+          ],
+          "scope": "Solo i riscontri delle schede indicate; nessuna attestazione di completezza della disciplina territoriale.",
+          "source_urls": [
+            "https://bur.regione.emilia-romagna.it/archivio/inserzione?anno=2005&num_boll=49&prog_documento=1"
+          ]
+        },
+        {
+          "sector": "scarichi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "riuso",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "demanio",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "pai_pgra",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "regolamenti_attuativi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "norme_locali",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        }
+      ]
+    },
+    {
+      "territory": "Friuli-Venezia Giulia",
+      "sectors": [
+        {
+          "sector": "invarianza",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "prima_pioggia",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "scarichi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "riuso",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "demanio",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "pai_pgra",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "regolamenti_attuativi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "norme_locali",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        }
+      ]
+    },
+    {
+      "territory": "Lazio",
+      "sectors": [
+        {
+          "sector": "invarianza",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "prima_pioggia",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "scarichi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "riuso",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "demanio",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "pai_pgra",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "regolamenti_attuativi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "norme_locali",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        }
+      ]
+    },
+    {
+      "territory": "Liguria",
+      "sectors": [
+        {
+          "sector": "invarianza",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "prima_pioggia",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "scarichi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "riuso",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "demanio",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "pai_pgra",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "regolamenti_attuativi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "norme_locali",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        }
+      ]
+    },
+    {
+      "territory": "Lombardia",
+      "sectors": [
+        {
+          "sector": "invarianza",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "prima_pioggia",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "scarichi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "riuso",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "demanio",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "pai_pgra",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "regolamenti_attuativi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "norme_locali",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        }
+      ]
+    },
+    {
+      "territory": "Marche",
+      "sectors": [
+        {
+          "sector": "invarianza",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "prima_pioggia",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "scarichi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "riuso",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "demanio",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "pai_pgra",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "regolamenti_attuativi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "norme_locali",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        }
+      ]
+    },
+    {
+      "territory": "Molise",
+      "sectors": [
+        {
+          "sector": "invarianza",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "prima_pioggia",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "scarichi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "riuso",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "demanio",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "pai_pgra",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "regolamenti_attuativi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "norme_locali",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        }
+      ]
+    },
+    {
+      "territory": "Piemonte",
+      "sectors": [
+        {
+          "sector": "invarianza",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "prima_pioggia",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "scarichi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "riuso",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "demanio",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "pai_pgra",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "regolamenti_attuativi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "norme_locali",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        }
+      ]
+    },
+    {
+      "territory": "Puglia",
+      "sectors": [
+        {
+          "sector": "invarianza",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "prima_pioggia",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "scarichi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "riuso",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "demanio",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "pai_pgra",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "regolamenti_attuativi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "norme_locali",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        }
+      ]
+    },
+    {
+      "territory": "Sardegna",
+      "sectors": [
+        {
+          "sector": "invarianza",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "prima_pioggia",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "scarichi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "riuso",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "demanio",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "pai_pgra",
+          "state": "atto_verificato_e_censito_perimetro_parziale",
+          "record_ids": [
+            "sar-pai-frane-42-2026",
+            "sar-pai-barrali-162-2026"
+          ],
+          "scope": "Solo i riscontri delle schede indicate; nessuna attestazione di completezza della disciplina territoriale.",
+          "source_urls": [
+            "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/06/dp_2026_06_17_n.42_prot.12805.pdf",
+            "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-stralcio-di-bacino-per-lassetto-idrogeologico-pai/variante-pai-frane-per-i-sub-bacini-1-2-4-5-6-7/",
+            "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/09/avp_2026_09_28_det.162_prot.11367_barrali.pdf",
+            "https://autoritadibacino.regione.sardegna.it/ap/determinazione-n-162-prot-n-11367-del-28-09-2026/"
+          ]
+        },
+        {
+          "sector": "regolamenti_attuativi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "norme_locali",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        }
+      ]
+    },
+    {
+      "territory": "Sicilia",
+      "sectors": [
+        {
+          "sector": "invarianza",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "prima_pioggia",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "scarichi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "riuso",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "demanio",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "pai_pgra",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "regolamenti_attuativi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "norme_locali",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        }
+      ]
+    },
+    {
+      "territory": "Toscana",
+      "sectors": [
+        {
+          "sector": "invarianza",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "prima_pioggia",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "scarichi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "riuso",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "demanio",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "pai_pgra",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "regolamenti_attuativi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "norme_locali",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        }
+      ]
+    },
+    {
+      "territory": "Trentino-Alto Adige",
+      "sectors": [
+        {
+          "sector": "invarianza",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "prima_pioggia",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "scarichi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "riuso",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "demanio",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "pai_pgra",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "regolamenti_attuativi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "norme_locali",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        }
+      ]
+    },
+    {
+      "territory": "Umbria",
+      "sectors": [
+        {
+          "sector": "invarianza",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "prima_pioggia",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "scarichi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "riuso",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "demanio",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "pai_pgra",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "regolamenti_attuativi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "norme_locali",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        }
+      ]
+    },
+    {
+      "territory": "Valle d’Aosta",
+      "sectors": [
+        {
+          "sector": "invarianza",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "prima_pioggia",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "scarichi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "riuso",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "demanio",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "pai_pgra",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "regolamenti_attuativi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "norme_locali",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        }
+      ]
+    },
+    {
+      "territory": "Veneto",
+      "sectors": [
+        {
+          "sector": "invarianza",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "prima_pioggia",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "scarichi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "riuso",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "demanio",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "pai_pgra",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "regolamenti_attuativi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "norme_locali",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        }
+      ]
+    },
+    {
+      "territory": "Provincia autonoma di Bolzano",
+      "sectors": [
+        {
+          "sector": "invarianza",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "prima_pioggia",
+          "state": "atto_verificato_e_censito_perimetro_parziale",
+          "record_ids": [
+            "bz6"
+          ],
+          "scope": "Solo i riscontri delle schede indicate; nessuna attestazione di completezza della disciplina territoriale.",
+          "source_urls": [
+            "https://www.gazzettaufficiale.it/eli/id/2009/01/24/008R0294/s3",
+            "https://www.gazzettaufficiale.it/eli/gu/2009/01/24/4/s3/pdf",
+            "https://www.gazzettaufficiale.it/atto/regioni/caricaArticoloDefault/originario?atto.codiceRedazionale=25R00323&atto.dataPubblicazioneGazzetta=2026-06-13&atto.tipoProvvedimento=DECRETO+DEL+PRESIDENTE+DELLA+PROVINCIA",
+            "https://www.gazzettaufficiale.it/atto/regioni/caricaArticolo?art.codiceRedazionale=25R00132&art.dataPubblicazioneGazzetta=2025-06-21&art.idArticolo=3&art.idGruppo=0&art.idSottoArticolo=1&art.progressivo=0&art.versione=1"
+          ]
+        },
+        {
+          "sector": "scarichi",
+          "state": "atto_verificato_e_censito_perimetro_parziale",
+          "record_ids": [
+            "bz6"
+          ],
+          "scope": "Solo i riscontri delle schede indicate; nessuna attestazione di completezza della disciplina territoriale.",
+          "source_urls": [
+            "https://www.gazzettaufficiale.it/eli/id/2009/01/24/008R0294/s3",
+            "https://www.gazzettaufficiale.it/eli/gu/2009/01/24/4/s3/pdf",
+            "https://www.gazzettaufficiale.it/atto/regioni/caricaArticoloDefault/originario?atto.codiceRedazionale=25R00323&atto.dataPubblicazioneGazzetta=2026-06-13&atto.tipoProvvedimento=DECRETO+DEL+PRESIDENTE+DELLA+PROVINCIA",
+            "https://www.gazzettaufficiale.it/atto/regioni/caricaArticolo?art.codiceRedazionale=25R00132&art.dataPubblicazioneGazzetta=2025-06-21&art.idArticolo=3&art.idGruppo=0&art.idSottoArticolo=1&art.progressivo=0&art.versione=1"
+          ]
+        },
+        {
+          "sector": "riuso",
+          "state": "atto_verificato_e_censito_perimetro_parziale",
+          "record_ids": [
+            "bz6"
+          ],
+          "scope": "Solo i riscontri delle schede indicate; nessuna attestazione di completezza della disciplina territoriale.",
+          "source_urls": [
+            "https://www.gazzettaufficiale.it/eli/id/2009/01/24/008R0294/s3",
+            "https://www.gazzettaufficiale.it/eli/gu/2009/01/24/4/s3/pdf",
+            "https://www.gazzettaufficiale.it/atto/regioni/caricaArticoloDefault/originario?atto.codiceRedazionale=25R00323&atto.dataPubblicazioneGazzetta=2026-06-13&atto.tipoProvvedimento=DECRETO+DEL+PRESIDENTE+DELLA+PROVINCIA",
+            "https://www.gazzettaufficiale.it/atto/regioni/caricaArticolo?art.codiceRedazionale=25R00132&art.dataPubblicazioneGazzetta=2025-06-21&art.idArticolo=3&art.idGruppo=0&art.idSottoArticolo=1&art.progressivo=0&art.versione=1"
+          ]
+        },
+        {
+          "sector": "demanio",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "pai_pgra",
+          "state": "atto_verificato_e_censito_perimetro_parziale",
+          "record_ids": [
+            "bz-badia-pzp-782-2026",
+            "bz-campo-tures-pzp-799-2026",
+            "bz-nova-ponente-pzp-776-2026",
+            "bz-fortezza-pzp-742-2026",
+            "bz-nova-ponente-pzp-741-2026",
+            "bz-sarentino-pzp-740-2026",
+            "bz-la-valle-pzp-739-2026",
+            "bz-rasun-anterselva-pzp-738-2026"
+          ],
+          "scope": "Solo i riscontri delle schede indicate; nessuna attestazione di completezza della disciplina territoriale.",
+          "source_urls": [
+            "https://api.integrations.services.siag.it/delibere/v1/delibere/esiuL8RBQoDk1lstoAKo%2BQ%3D%3D/document?tstmp=1790196547437",
+            "https://api.integrations.services.siag.it/delibere/v1/delibere/ZzOArA8ANeWZFuTKiVQGSA%3D%3D/document?tstmp=1790598720328",
+            "https://api.integrations.services.siag.it/delibere/v1/delibere/03qj3RHzult3pGstFd%2BQsQ%3D%3D/document?tstmp=1790750000000",
+            "https://api.integrations.services.siag.it/delibere/v1/delibere/f5awpYMYyI7-Nv91yjrfaw%3D%3D/document?tstmp=1790750000000",
+            "https://api.integrations.services.siag.it/delibere/v1/delibere/XB%2BxsmykMNX4WRP4cDf9Eg%3D%3D/document?tstmp=1790750000000",
+            "https://api.integrations.services.siag.it/delibere/v1/delibere/QDiyUDJvk7Ajnb95m6fsng%3D%3D/document?tstmp=1790750000000",
+            "https://api.integrations.services.siag.it/delibere/v1/delibere/sSWjeY6wMsUs%2BRZX0J8S0Q%3D%3D/document?tstmp=1790750000000",
+            "https://api.integrations.services.siag.it/delibere/v1/delibere/EG2E4ptZZnKQGIZaBUV5Qg%3D%3D/document?tstmp=1790750000000"
+          ]
+        },
+        {
+          "sector": "regolamenti_attuativi",
+          "state": "atto_verificato_e_censito_perimetro_parziale",
+          "record_ids": [
+            "bz6"
+          ],
+          "scope": "Solo i riscontri delle schede indicate; nessuna attestazione di completezza della disciplina territoriale.",
+          "source_urls": [
+            "https://www.gazzettaufficiale.it/eli/id/2009/01/24/008R0294/s3",
+            "https://www.gazzettaufficiale.it/eli/gu/2009/01/24/4/s3/pdf",
+            "https://www.gazzettaufficiale.it/atto/regioni/caricaArticoloDefault/originario?atto.codiceRedazionale=25R00323&atto.dataPubblicazioneGazzetta=2026-06-13&atto.tipoProvvedimento=DECRETO+DEL+PRESIDENTE+DELLA+PROVINCIA",
+            "https://www.gazzettaufficiale.it/atto/regioni/caricaArticolo?art.codiceRedazionale=25R00132&art.dataPubblicazioneGazzetta=2025-06-21&art.idArticolo=3&art.idGruppo=0&art.idSottoArticolo=1&art.progressivo=0&art.versione=1"
+          ]
+        },
+        {
+          "sector": "norme_locali",
+          "state": "atto_verificato_e_censito_perimetro_parziale",
+          "record_ids": [
+            "bz-badia-pzp-782-2026",
+            "bz-campo-tures-pzp-799-2026",
+            "bz-nova-ponente-pzp-776-2026",
+            "bz-fortezza-pzp-742-2026",
+            "bz-nova-ponente-pzp-741-2026",
+            "bz-sarentino-pzp-740-2026",
+            "bz-la-valle-pzp-739-2026",
+            "bz-rasun-anterselva-pzp-738-2026"
+          ],
+          "scope": "Solo i riscontri delle schede indicate; nessuna attestazione di completezza della disciplina territoriale.",
+          "source_urls": [
+            "https://api.integrations.services.siag.it/delibere/v1/delibere/esiuL8RBQoDk1lstoAKo%2BQ%3D%3D/document?tstmp=1790196547437",
+            "https://api.integrations.services.siag.it/delibere/v1/delibere/ZzOArA8ANeWZFuTKiVQGSA%3D%3D/document?tstmp=1790598720328",
+            "https://api.integrations.services.siag.it/delibere/v1/delibere/03qj3RHzult3pGstFd%2BQsQ%3D%3D/document?tstmp=1790750000000",
+            "https://api.integrations.services.siag.it/delibere/v1/delibere/f5awpYMYyI7-Nv91yjrfaw%3D%3D/document?tstmp=1790750000000",
+            "https://api.integrations.services.siag.it/delibere/v1/delibere/XB%2BxsmykMNX4WRP4cDf9Eg%3D%3D/document?tstmp=1790750000000",
+            "https://api.integrations.services.siag.it/delibere/v1/delibere/QDiyUDJvk7Ajnb95m6fsng%3D%3D/document?tstmp=1790750000000",
+            "https://api.integrations.services.siag.it/delibere/v1/delibere/sSWjeY6wMsUs%2BRZX0J8S0Q%3D%3D/document?tstmp=1790750000000",
+            "https://api.integrations.services.siag.it/delibere/v1/delibere/EG2E4ptZZnKQGIZaBUV5Qg%3D%3D/document?tstmp=1790750000000"
+          ]
+        }
+      ]
+    },
+    {
+      "territory": "Provincia autonoma di Trento",
+      "sectors": [
+        {
+          "sector": "invarianza",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "prima_pioggia",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "scarichi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "riuso",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "demanio",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "pai_pgra",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "regolamenti_attuativi",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        },
+        {
+          "sector": "norme_locali",
+          "state": "ricognizione_non_ancora_effettuata",
+          "record_ids": [],
+          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+          "source_urls": []
+        }
+      ]
+    }
+  ],
+  "states": {
+    "atto_verificato_e_censito_perimetro_parziale": "Atto verificato e censito nel solo perimetro documentale dichiarato; materia territoriale non esaustiva",
+    "atto_verificato_non_censito": "Atto identificato ufficialmente ma non ancora pubblicato in catalogo",
+    "disciplina_da_approfondire": "Ricognizione sostanziale avviata e da completare",
+    "fonte_non_accessibile": "Fonte non acquisita; nessuna deduzione di assenza di disciplina",
+    "ricognizione_non_ancora_effettuata": "Ricerca sistematica non avviata",
+    "nessun_atto_individuato_nel_perimetro": "Solo dopo una ricerca documentata: nessun atto specifico trovato nel perimetro esaminato, non assenza di normativa"
+  }
+}

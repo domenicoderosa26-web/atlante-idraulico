@@ -1,0 +1,209 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-08",
+  "priorities": [
+    {
+      "priority": "alta",
+      "ids": [
+        "bz6"
+      ],
+      "task": "Testo coordinato, allegati omessi e catena modificativa completa; mantenere le evidenze già acquisite."
+    },
+    {
+      "priority": "alta",
+      "ids": [
+        "bas9",
+        "bas471"
+      ],
+      "task": "Coordinamento legislativo e atti attuativi; download regionale in errore/timeout, mai dedurre abrogazione o assenza di modifiche."
+    },
+    {
+      "priority": "alta",
+      "ids": [
+        "bz-badia-pzp-782-2026",
+        "bz-campo-tures-pzp-799-2026",
+        "bz-nova-ponente-pzp-776-2026",
+        "bz-fortezza-pzp-742-2026",
+        "bz-nova-ponente-pzp-741-2026",
+        "bz-sarentino-pzp-740-2026",
+        "bz-la-valle-pzp-739-2026",
+        "bz-rasun-anterselva-pzp-738-2026"
+      ],
+      "task": "Pubblicazione BUR, efficacia e cartografie delle otto varianti PZP."
+    },
+    {
+      "priority": "alta",
+      "ids": [
+        "pai-calabria2001",
+        "pai-calabria-lao",
+        "pai-basilicata",
+        "pai-puglia",
+        "pai-lgv",
+        "pai-biferno-e-minori",
+        "pai-trigno",
+        "pai-fortore"
+      ],
+      "task": "Coordinare vecchi strumenti con piani distrettuali e individuare ambiti idrografici effettivi e atti vigenti."
+    },
+    {
+      "priority": "alta",
+      "ids": [
+        "dist-po",
+        "po-pai-estensione-13-2025",
+        "dist-centr",
+        "sett-pgra-variante-62-2026"
+      ],
+      "task": "Atti di adozione/approvazione, salvaguardie, varianti e cartografie; distinguere progetti e piani definitivi."
+    },
+    {
+      "priority": "alta",
+      "ids": [
+        "rd523",
+        "rd1775",
+        "rd368",
+        "rd215",
+        "dl152",
+        "dl49",
+        "ntc18",
+        "dmattr2014",
+        "camed2025",
+        "camstrade2024",
+        "camverde2020",
+        "appalti36",
+        "camstrade2025",
+        "dpr753",
+        "codstrada285",
+        "dpr495",
+        "dm185",
+        "dpr59"
+      ],
+      "task": "Verifica documentale delle disposizioni e vigenza parziale, separata dai metadati automatici Normattiva; non modificare national.json né checkpoint."
+    },
+    {
+      "priority": "media",
+      "ids": [
+        "milano",
+        "venezia",
+        "aprilia",
+        "medicina"
+      ],
+      "task": "Identità dei regolamenti/moduli e territorio; il PDF richiamato può essere un atto regionale/statale di base e non il regolamento locale."
+    },
+    {
+      "priority": "media",
+      "ids": [
+        "rd523",
+        "rd1775",
+        "rd368",
+        "rd215",
+        "dl152",
+        "dl49",
+        "ntc18",
+        "ue60",
+        "ueall",
+        "lom7",
+        "sic102",
+        "ven2948",
+        "fvg83",
+        "pug26",
+        "pie1",
+        "lig4",
+        "er1860",
+        "tos41",
+        "mar53",
+        "laz18",
+        "abr17",
+        "cal10",
+        "umb627",
+        "mol25",
+        "vda2030",
+        "ligpta",
+        "bz23",
+        "tnpta",
+        "bzpta",
+        "bari",
+        "milano",
+        "venezia",
+        "aprilia",
+        "medicina",
+        "dist-alpi",
+        "dist-sett",
+        "bas471",
+        "dist-merid",
+        "dist-sard",
+        "dist-sici",
+        "sic-pgra3-02-2026",
+        "dmattr2014",
+        "camed2025",
+        "camstrade2024",
+        "camverde2020",
+        "appalti36",
+        "camstrade2025",
+        "pai-calabria2001",
+        "pai-basilicata",
+        "pai-lgv",
+        "pai-puglia",
+        "pai-campania",
+        "pai-biferno-e-minori",
+        "pai-trigno",
+        "pai-fortore",
+        "laz117",
+        "sar-inv-2017",
+        "lom4pp",
+        "sar6925",
+        "tos20",
+        "tos46",
+        "venpta39",
+        "dpr753",
+        "codstrada285",
+        "dpr495",
+        "dm185",
+        "dpr59",
+        "ue741reuse",
+        "ue1765reuse",
+        "centr-pai-idraulico-67-2026",
+        "centr-pai-frane-68-2026",
+        "centr-pai-nestore-139-2026",
+        "sett-pgra-variante-62-2026",
+        "centr-pai-lettomanoppello-142-2026",
+        "centr-pai-notaresco-143-2026",
+        "centr-pai-notaresco-144-2026",
+        "centr-pai-notaresco-145-2026",
+        "centr-pai-pescara-146-2026",
+        "centr-pai-spoltore-147-2026",
+        "centr-pai-penne-148-2026",
+        "centr-pai-tronto-140-2026",
+        "centr-pai-offida-39-2026",
+        "centr-pai-fosso-secco-20-2026",
+        "centr-pai-vigna-corte-123-2026",
+        "po-pai-pgra-terdoppio-5-2026",
+        "po-pai-pgra-mera-27-2026"
+      ],
+      "task": "Completare il confronto semantico e giuridico delle 86 schede non concluse; usare ricevute URL come esiti tecnici, non prove di correttezza."
+    }
+  ],
+  "candidates": [
+    {
+      "reference": "D.P.P. Bolzano 22 maggio 2025 n. 9",
+      "source_urls": [
+        "https://www.gazzettaufficiale.it/eli/id/2026/06/13/25R00323/s3",
+        "https://www.gazzettaufficiale.it/atto/regioni/caricaArticoloDefault/originario?atto.codiceRedazionale=25R00323&atto.dataPubblicazioneGazzetta=2026-06-13&atto.tipoProvvedimento=DECRETO+DEL+PRESIDENTE+DELLA+PROVINCIA",
+        "https://www.gazzettaufficiale.it/atto/regioni/caricaArticolo?art.codiceRedazionale=25R00323&art.dataPubblicazioneGazzetta=2026-06-13&art.idArticolo=2&art.idGruppo=0&art.idSottoArticolo=1&art.progressivo=0&art.versione=1"
+      ],
+      "finding": "Art. 1 modifica art. 53 del D.P.P. 6/2008; art. 2 lega efficacia al giorno successivo alla pubblicazione BUR 29 maggio 2025.",
+      "state": "identificato_nell_audit_del_parent",
+      "pending": "Valutare eventuale scheda autonoma e classificazione sostanziale dopo il completamento dell’audit; già registrata relazione testuale sulla scheda parent."
+    },
+    {
+      "reference": "Atto GU 25R00132, art. 3",
+      "source_urls": [
+        "https://www.gazzettaufficiale.it/atto/regioni/caricaArticolo?art.codiceRedazionale=25R00132&art.dataPubblicazioneGazzetta=2025-06-21&art.idArticolo=3&art.idGruppo=0&art.idSottoArticolo=1&art.progressivo=0&art.versione=1"
+      ],
+      "finding": "Modifiche artt. 14 e 16 del D.P.P. 6/2008.",
+      "state": "da_approfondire",
+      "pending": "Acquisire intestazione, tutti gli estremi e regime di efficacia; non pubblicare una nuova scheda incompleta."
+    }
+  ],
+  "new_records_published": 0,
+  "regional_census": "Non ancora avviato: richiede completamento delle verifiche giuridiche prioritarie, nel rispetto dell’ordine audit/correzioni/censimento."
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-08",
+  "consultations": [
+    {
+      "url": "https://www.regione.basilicata.it/wp-content/uploads/giunta/docs/DOCUMENT_FILE_3068771.pdf",
+      "method": "Consultazione testuale del PDF istituzionale",
+      "scope": "Intestazione e testo artt. 1–8, quattro pagine",
+      "outcome": "content_identified",
+      "limits": "Download diretti successivi in errore/timeout; firma binaria e hash non acquisiti. Nessuna attestazione di coordinamento vigente."
+    },
+    {
+      "url": "https://www.gazzettaufficiale.it/atto/regioni/caricaArticolo?art.codiceRedazionale=25R00132&art.dataPubblicazioneGazzetta=2025-06-21&art.idArticolo=3&art.idGruppo=0&art.idSottoArticolo=1&art.progressivo=0&art.versione=1",
+      "method": "Lettura della pagina articolo ufficiale GU",
+      "scope": "Art. 3, modifiche artt. 14 e 16 del D.P.P. 6/2008",
+      "outcome": "amendment_identified",
+      "limits": "Intestazione completa del modificativo e catena normativa da approfondire."
+    },
+    {
+      "url": "https://www.gazzettaufficiale.it/atto/regioni/caricaArticolo?art.codiceRedazionale=25R00323&art.dataPubblicazioneGazzetta=2026-06-13&art.idArticolo=2&art.idGruppo=0&art.idSottoArticolo=1&art.progressivo=0&art.versione=1",
+      "method": "Lettura della pagina articolo ufficiale GU",
+      "scope": "Art. 2, D.P.P. 22 maggio 2025 n. 9",
+      "outcome": "effectiveness_clause_identified",
+      "limits": "Clausola di entrata in vigore il giorno successivo alla pubblicazione BUR; non attestazione di assenza di successive modifiche."
+    }
+  ]
+}

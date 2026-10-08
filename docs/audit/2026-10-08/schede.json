@@ -1,0 +1,3093 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-08",
+  "counts": {
+    "inventory": 106,
+    "url_attempts_cover_records": 106,
+    "limited_semantic_reviews": 20,
+    "catalogue_reviews_verified": 3,
+    "legal_reviews_complete": 0,
+    "remaining_without_semantic_review": 86
+  },
+  "records": [
+    {
+      "id": "rd523",
+      "ref": "R.D. 523/1904",
+      "base_object_version": "900b276bdb30b496cbc42e2279455abe55445e1d938a18234f286544d1069bd8",
+      "catalogue_checked": "2026-09-19",
+      "catalogue_status": "Vigenza da ricostruire",
+      "source_urls_attempted": [
+        "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=004U0523&atto.dataPubblicazioneGazzetta=1904-10-07&tipoSerie=serie_generale&tipoVigenza=originario",
+        "https://www.gazzettaufficiale.it/eli/gu/1904/10/07/234/sg/pdf",
+        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1904-07-25;523"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "900b276bdb30b496cbc42e2279455abe55445e1d938a18234f286544d1069bd8"
+    },
+    {
+      "id": "rd1775",
+      "ref": "R.D. 1775/1933",
+      "base_object_version": "39c71b6ea57e0c97ef663b00573e90d9a583088aa4e25453765176fb4668b055",
+      "catalogue_checked": "2026-09-19",
+      "catalogue_status": "Vigenza da ricostruire",
+      "source_urls_attempted": [
+        "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=033U1775&atto.dataPubblicazioneGazzetta=1934-01-08&tipoSerie=serie_generale&tipoVigenza=originario",
+        "https://www.gazzettaufficiale.it/eli/gu/1934/01/08/5/sg/pdf",
+        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1933-12-11;1775"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "39c71b6ea57e0c97ef663b00573e90d9a583088aa4e25453765176fb4668b055"
+    },
+    {
+      "id": "rd368",
+      "ref": "R.D. 368/1904",
+      "base_object_version": "ed0e24159ca9590963fdf363e4c1dfbcdb6439e4dc7ca64444523c8e8a7e6d89",
+      "catalogue_checked": "2026-09-19",
+      "catalogue_status": "Testo vigente disponibile",
+      "source_urls_attempted": [
+        "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=004U0368&atto.dataPubblicazioneGazzetta=1904-07-28&tipoSerie=serie_generale&tipoVigenza=originario",
+        "https://www.gazzettaufficiale.it/eli/gu/1904/07/28/176/sg/pdf",
+        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1904-05-08;368"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "ed0e24159ca9590963fdf363e4c1dfbcdb6439e4dc7ca64444523c8e8a7e6d89"
+    },
+    {
+      "id": "rd215",
+      "ref": "R.D. 215/1933",
+      "base_object_version": "94260221645d42a597bb25c00072b5ceda437a41750d45658b57c9844d7c9c8a",
+      "catalogue_checked": "2026-09-19",
+      "catalogue_status": "Vigenza da ricostruire",
+      "source_urls_attempted": [
+        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1933-02-13;215",
+        "https://www.provincia.tn.it/Amministrazione/Documenti/Regio-Decreto-13-febbraio-1933-n.-215",
+        "https://www.provinz.bz.it/agricoltura/download/RD_215-1933.pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "94260221645d42a597bb25c00072b5ceda437a41750d45658b57c9844d7c9c8a"
+    },
+    {
+      "id": "dl152",
+      "ref": "D.Lgs. 152/2006",
+      "base_object_version": "0cf58e6eeca6d1febd0188020d21e7da4d8b6f00b5dead28ddfd2a7d381d23ac",
+      "catalogue_checked": "2026-09-21",
+      "catalogue_status": "Vigente al 20/09/2026 su Normattiva",
+      "source_urls_attempted": [
+        "https://www.gazzettaufficiale.it/eli/gu/2006/04/14/88/so/96/sg/pdf",
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2006-04-14&atto.codiceRedazionale=006G0171",
+        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-04-03;152"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "0cf58e6eeca6d1febd0188020d21e7da4d8b6f00b5dead28ddfd2a7d381d23ac"
+    },
+    {
+      "id": "dl49",
+      "ref": "D.Lgs. 49/2010",
+      "base_object_version": "e594406a5dbdaf4b42f324944b7e177d3cbdd405830f02333cd1267b6aac112e",
+      "catalogue_checked": "2026-09-19",
+      "catalogue_status": "Vigenza da ricostruire",
+      "source_urls_attempted": [
+        "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=010G0071&atto.dataPubblicazioneGazzetta=2010-04-02&tipoSerie=serie_generale&tipoVigenza=originario",
+        "https://www.gazzettaufficiale.it/eli/gu/2010/04/02/77/sg/pdf",
+        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-02-23;49"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "e594406a5dbdaf4b42f324944b7e177d3cbdd405830f02333cd1267b6aac112e"
+    },
+    {
+      "id": "ntc18",
+      "ref": "D.M. 17/01/2018",
+      "base_object_version": "0a1d1aad150880da09d53d8dd36d3d2e0c774aa5822c76cd4b00326a21c941b0",
+      "catalogue_checked": "2026-09-18",
+      "catalogue_status": "Vigenza da ricostruire",
+      "source_urls_attempted": [
+        "https://www.gazzettaufficiale.it/eli/gu/2018/02/20/42/so/8/sg/pdf",
+        "https://www.gazzettaufficiale.it/eli/id/2018/2/20/18A00716/sg"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "0a1d1aad150880da09d53d8dd36d3d2e0c774aa5822c76cd4b00326a21c941b0"
+    },
+    {
+      "id": "ue60",
+      "ref": "Direttiva 2000/60/CE",
+      "base_object_version": "e938f7b86c23382c955f0c23724191fa808bba069f43e3767110404ff07219b3",
+      "catalogue_checked": "2026-09-18",
+      "catalogue_status": "Modificata · consolidato disponibile",
+      "source_urls_attempted": [
+        "https://eur-lex.europa.eu/eli/dir/2000/60/oj?locale=it",
+        "https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:32000L0060"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Una o più richieste non riuscite: indisponibilità osservata, non prova di link definitivamente rotto o assenza di modifiche."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Una o più richieste non riuscite: indisponibilità osservata, non prova di link definitivamente rotto o assenza di modifiche."
+      ],
+      "post_object_version": "e938f7b86c23382c955f0c23724191fa808bba069f43e3767110404ff07219b3"
+    },
+    {
+      "id": "ueall",
+      "ref": "Direttiva 2007/60/CE",
+      "base_object_version": "c02e3dd3c86817bff9ad42ab54eaea12929da8ce8d833e10875d2b24778b0e97",
+      "catalogue_checked": "2026-09-18",
+      "catalogue_status": "Vigenza da ricostruire",
+      "source_urls_attempted": [
+        "https://eur-lex.europa.eu/eli/dir/2007/60/oj?locale=it",
+        "https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:32007L0060"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Una o più richieste non riuscite: indisponibilità osservata, non prova di link definitivamente rotto o assenza di modifiche."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Una o più richieste non riuscite: indisponibilità osservata, non prova di link definitivamente rotto o assenza di modifiche."
+      ],
+      "post_object_version": "c02e3dd3c86817bff9ad42ab54eaea12929da8ce8d833e10875d2b24778b0e97"
+    },
+    {
+      "id": "lom7",
+      "ref": "R.R. 7/2017",
+      "base_object_version": "963d23866343797cb0b4493f46622930cb4fe7908c4412549c5b9f73c5bcab04",
+      "catalogue_checked": "2026-09-18",
+      "catalogue_status": "Testo coordinato verificato",
+      "source_urls_attempted": [
+        "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf",
+        "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/Accessibile/main.aspx?iddoc=rr002017112300007&view=showdoc",
+        "https://www.regione.lombardia.it/ambiente-e-territorio/difesa-del-suolo/invarianza-idraulica-idrologica"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "963d23866343797cb0b4493f46622930cb4fe7908c4412549c5b9f73c5bcab04"
+    },
+    {
+      "id": "sic102",
+      "ref": "D.D.G. 102/2021",
+      "base_object_version": "ba30e13ecc3400ffebb63b4278adcc7229b581ecac9748483994aae53777880b",
+      "catalogue_checked": "2026-09-18",
+      "catalogue_status": "Vigenza da ricostruire",
+      "source_urls_attempted": [
+        "https://www.gurs.regione.sicilia.it/Gazzette/g21-30/g21-30.pdf",
+        "https://www.regione.sicilia.it/la-regione-informa/ddg-n-102-23062021",
+        "https://www.regione.sicilia.it/system/files/2021-07/ddg%20102%202021.pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Una o più richieste non riuscite: indisponibilità osservata, non prova di link definitivamente rotto o assenza di modifiche."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Una o più richieste non riuscite: indisponibilità osservata, non prova di link definitivamente rotto o assenza di modifiche."
+      ],
+      "post_object_version": "ba30e13ecc3400ffebb63b4278adcc7229b581ecac9748483994aae53777880b"
+    },
+    {
+      "id": "ven2948",
+      "ref": "D.G.R. 2948/2009",
+      "base_object_version": "ac088ffe8f0424b5c3e34b092a31dca334398feda53f1c71e39d969012ea6455",
+      "catalogue_checked": "2026-09-18",
+      "catalogue_status": "Vigenza da ricostruire",
+      "source_urls_attempted": [
+        "https://bur.regione.veneto.it/BurvServices/pubblica/DettaglioDgr.aspx?id=219024",
+        "https://bur.regione.veneto.it/BurvServices/pubblica/Download.aspx?name=2948_AllegatoA_219024.pdf&storico=False&type=9"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "ac088ffe8f0424b5c3e34b092a31dca334398feda53f1c71e39d969012ea6455"
+    },
+    {
+      "id": "fvg83",
+      "ref": "D.P.Reg. 083/Pres/2018",
+      "base_object_version": "cab1d0f567f00bf2a6071fc4c55b44496cd3edd4e835e0f46949eafadb5daf75",
+      "catalogue_checked": "2026-09-18",
+      "catalogue_status": "Testo tecnico verificato",
+      "source_urls_attempted": [
+        "https://decreti.regione.fvg.it/Storage/2018_83/ALLEGATO1%20AL%20DPREG%20083-2018.PDF"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "cab1d0f567f00bf2a6071fc4c55b44496cd3edd4e835e0f46949eafadb5daf75"
+    },
+    {
+      "id": "pug26",
+      "ref": "R.R. 26/2013",
+      "base_object_version": "6bdfde4aba13ef253e14b45bb2b52914f88b9b55dcb0ac7667b326e3269068ac",
+      "catalogue_checked": "2026-09-18",
+      "catalogue_status": "Vigenza da ricostruire",
+      "source_urls_attempted": [
+        "https://burp.regione.puglia.it/documents/20135/784664/REGOLAMENTO%2BREGIONALE%2B9%2Bdicembre%2B2013%2C%2Bn.%2B26%2B%28id%2B4906507%29.pdf/82bcb1fd-8b6d-ec17-ae21-235fdca40c45?t=1622786288358&version=1.0"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "6bdfde4aba13ef253e14b45bb2b52914f88b9b55dcb0ac7667b326e3269068ac"
+    },
+    {
+      "id": "pie1",
+      "ref": "R.R. 1/R/2006",
+      "base_object_version": "de98f5d14c09141c2797ddcd04c0a8ba5037d89ae183120b60c7438e879710eb",
+      "catalogue_checked": "2026-09-18",
+      "catalogue_status": "Vigenza da ricostruire",
+      "source_urls_attempted": [
+        "https://arianna.cr.piemonte.it/regolafo/dettaglioRegolamento.do?tornaIndietro=true&urnRegolamento=urn%3Anir%3Aregione.piemonte%3Aregolamento%3A2006-02-20%3B1%402018-12-11",
+        "https://serviziweb.csi.it/solverweb/IndexDocumentServlet?id=49953"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Una o più richieste non riuscite: indisponibilità osservata, non prova di link definitivamente rotto o assenza di modifiche."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Una o più richieste non riuscite: indisponibilità osservata, non prova di link definitivamente rotto o assenza di modifiche."
+      ],
+      "post_object_version": "de98f5d14c09141c2797ddcd04c0a8ba5037d89ae183120b60c7438e879710eb"
+    },
+    {
+      "id": "lig4",
+      "ref": "R.R. 4/2009",
+      "base_object_version": "8fb2fecd95a3b313621702b994a95dba1cd73ef67a5ead65ef6a5ac9284a9f55",
+      "catalogue_checked": "2026-09-18",
+      "catalogue_status": "Testo vigente disponibile",
+      "source_urls_attempted": [
+        "https://lrv.regione.liguria.it/liguriass_prod/articolo?urndoc=urn%3Anir%3Aregione.liguria%3Aregolamento.consiglio%3A2009-07-10%3B4",
+        "https://lrv.regione.liguria.it/liguriass_prod/class/download_doc.php?id=b63a3d33-74aa-0f7b-634b-512e1285dff3&ext=pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "8fb2fecd95a3b313621702b994a95dba1cd73ef67a5ead65ef6a5ac9284a9f55"
+    },
+    {
+      "id": "er286",
+      "ref": "D.G.R. 286/2005",
+      "base_object_version": "7863525321f1b19b6938a2fa22eef015c76d09f665ef434e24ba8f3bbffd58c8",
+      "catalogue_checked": "2026-09-18",
+      "catalogue_status": "Vigenza da ricostruire",
+      "source_urls_attempted": [
+        "https://ambiente.regione.emilia-romagna.it/it/acque/consultazione/norme/normativa-regionale",
+        "https://bur.regione.emilia-romagna.it/archivio/inserzione?anno=2005&num_boll=49&prog_documento=1",
+        "https://servizissiir.regione.emilia-romagna.it/deliberegiunta/servlet/AdapterHTTP?ENTE=1&action_name=ACTIONRICERCADELIBERE&codProtocollo=SSR%2F06%2F1069410&operation=downloadTestoPdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Una o più richieste non riuscite: indisponibilità osservata, non prova di link definitivamente rotto o assenza di modifiche."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "partial",
+      "review_scope": "Identità e oggetto della D.G.R. 286/2005 nel BUR",
+      "verified_aspects": [
+        "identity"
+      ],
+      "legal_review_complete": false,
+      "pending": [
+        "Ricostruire modifiche, atti attuativi e reperire il documento diretto della D.G.R. 286/2005."
+      ],
+      "limitations": [
+        "La pagina primaria Normativa regionale acquisita direttamente non espone l’atto nel testo ottenuto.",
+        "Il PDF etichettato in scheda è correttamente dichiarato attuativo (D.G.R. 1860/2006), non è il testo della 286/2005; download in timeout."
+      ],
+      "post_object_version": "7863525321f1b19b6938a2fa22eef015c76d09f665ef434e24ba8f3bbffd58c8"
+    },
+    {
+      "id": "er1860",
+      "ref": "D.G.R. 1860/2006",
+      "base_object_version": "f8d406cc1ae882f4d57e1ce00211a91e68c42112d25d7fbe19bf52f24488da83",
+      "catalogue_checked": "2026-09-18",
+      "catalogue_status": "Vigenza da ricostruire",
+      "source_urls_attempted": [
+        "https://servizissiir.regione.emilia-romagna.it/deliberegiunta/servlet/AdapterHTTP?ENTE=1&action_name=ACTIONRICERCADELIBERE&codProtocollo=SSR%2F06%2F1069410&operation=downloadTestoPdf",
+        "https://www.arpae.it/it/autorizzazioni-e-concessioni/autorizzazioni-ambientali/autorizzazione-scarichi-idrici"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Una o più richieste non riuscite: indisponibilità osservata, non prova di link definitivamente rotto o assenza di modifiche."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Una o più richieste non riuscite: indisponibilità osservata, non prova di link definitivamente rotto o assenza di modifiche."
+      ],
+      "post_object_version": "f8d406cc1ae882f4d57e1ce00211a91e68c42112d25d7fbe19bf52f24488da83"
+    },
+    {
+      "id": "tos41",
+      "ref": "L.R. 41/2018",
+      "base_object_version": "51dae6a802125f9a3160c1175d03767a0e6bbe651e447401711cb34f43a56119",
+      "catalogue_checked": "2026-09-18",
+      "catalogue_status": "Vigenza da ricostruire",
+      "source_urls_attempted": [
+        "https://raccoltanormativa.consiglio.regione.toscana.it/articolo?urndoc=urn:nir:regione.toscana:legge:2018-07-24;41",
+        "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?id=4ab37acb-9af9-11ed-b5b1-005056959b60&ext=pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "51dae6a802125f9a3160c1175d03767a0e6bbe651e447401711cb34f43a56119"
+    },
+    {
+      "id": "mar53",
+      "ref": "L.R. 19/2023, art. 31 · D.G.R. 53/2014",
+      "base_object_version": "b70d3f628db265910161ac11a6f8e44378a480b0f6228ea2751ec35566333f2e",
+      "catalogue_checked": "2026-09-18",
+      "catalogue_status": "Quadro vigente verificato",
+      "source_urls_attempted": [
+        "https://www.autoritabacino.marche.it/invidr/allegati/DGR0053_14.pdf",
+        "https://www.regione.marche.it/Regione-Utile/Paesaggio-Territorio-Urbanistica-Genio-Civile/Compatibilit%C3%A0-e-invarianza-idraulica"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "b70d3f628db265910161ac11a6f8e44378a480b0f6228ea2751ec35566333f2e"
+    },
+    {
+      "id": "laz18",
+      "ref": "D.C.R. 18/2018",
+      "base_object_version": "c0ad90b3b020cdc420a079197856d215d34b0d95bbe5cfa550ef64d81f913dce",
+      "catalogue_checked": "2026-09-18",
+      "catalogue_status": "Vigenza da ricostruire",
+      "source_urls_attempted": [
+        "https://www.regione.lazio.it/sites/default/files/amministrazione-trasparente/tbl_contenuti/Norme_Tecniche_di_Attuazione.pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "c0ad90b3b020cdc420a079197856d215d34b0d95bbe5cfa550ef64d81f913dce"
+    },
+    {
+      "id": "abr17",
+      "ref": "L.R. 17/2008",
+      "base_object_version": "45a41a4ae07db0815eff28d537401e8a011f89b1b45ae4d969bd4a30cf4ff85f",
+      "catalogue_checked": "2026-09-18",
+      "catalogue_status": "Vigenza da ricostruire",
+      "source_urls_attempted": [
+        "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/lr-abruzzo-17-2008.pdf",
+        "https://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2008/lr08017.htm"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Una o più richieste non riuscite: indisponibilità osservata, non prova di link definitivamente rotto o assenza di modifiche."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Una o più richieste non riuscite: indisponibilità osservata, non prova di link definitivamente rotto o assenza di modifiche."
+      ],
+      "post_object_version": "45a41a4ae07db0815eff28d537401e8a011f89b1b45ae4d969bd4a30cf4ff85f"
+    },
+    {
+      "id": "cal10",
+      "ref": "L.R. 10/1997",
+      "base_object_version": "1725d188581aa03a3a90980a2f97df31b3e08bb0e423954b5fb915bb9c873fc4",
+      "catalogue_checked": "2026-09-18",
+      "catalogue_status": "Vigenza da ricostruire",
+      "source_urls_attempted": [
+        "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=1997&numero=10"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "1725d188581aa03a3a90980a2f97df31b3e08bb0e423954b5fb915bb9c873fc4"
+    },
+    {
+      "id": "umb627",
+      "ref": "D.G.R. 627/2019",
+      "base_object_version": "e3cce70c5cca28a6a4764c37c6e6d736e0b0d4127b045fc9746c29fdf9ac7f98",
+      "catalogue_checked": "2026-09-18",
+      "catalogue_status": "Vigenza da ricostruire",
+      "source_urls_attempted": [
+        "https://www.auriumbria.it/documento_pubblico/normativa-e-regolamenti-di-riferimento/",
+        "https://www.auriumbria.it/wp-content/uploads/2023/12/DGR-627-2019.pdf?x95031="
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "e3cce70c5cca28a6a4764c37c6e6d736e0b0d4127b045fc9746c29fdf9ac7f98"
+    },
+    {
+      "id": "mol25",
+      "ref": "D.C.R. 25/2018",
+      "base_object_version": "a8b2ed5a1e847ea71dd7fb146cfeba72f233db95011df9eb2a280dd578f8600a",
+      "catalogue_checked": "2026-09-18",
+      "catalogue_status": "Vigenza da ricostruire",
+      "source_urls_attempted": [
+        "https://www.arpamolise.it/WP/acque-reflue-urbane/",
+        "https://www1.regione.molise.it/tutela-acqua/doc_r14-morifiche.pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Una o più richieste non riuscite: indisponibilità osservata, non prova di link definitivamente rotto o assenza di modifiche."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Una o più richieste non riuscite: indisponibilità osservata, non prova di link definitivamente rotto o assenza di modifiche."
+      ],
+      "post_object_version": "a8b2ed5a1e847ea71dd7fb146cfeba72f233db95011df9eb2a280dd578f8600a"
+    },
+    {
+      "id": "vda2030",
+      "ref": "PTA 2030",
+      "base_object_version": "f9a1d23ba455d8ede60be79ea7aab57a0be10aaa3e99d6be52b0cdfc08544bb5",
+      "catalogue_checked": "2026-09-18",
+      "catalogue_status": "Approvazione riscontrata",
+      "source_urls_attempted": [
+        "https://pta.regione.vda.it/",
+        "https://pta.regione.vda.it/wp-content/uploads/doc/PTA_2030_Norme_di_Attuazione_Definitivo_DGR334.pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "f9a1d23ba455d8ede60be79ea7aab57a0be10aaa3e99d6be52b0cdfc08544bb5"
+    },
+    {
+      "id": "ligpta",
+      "ref": "PTA Liguria",
+      "base_object_version": "3791eb02836af7deb1fc09cd9631225ad13fa6e36e7b513aef500d5982ed207a",
+      "catalogue_checked": "2026-09-18",
+      "catalogue_status": "Vigenza da ricostruire",
+      "source_urls_attempted": [
+        "https://www.regione.liguria.it/components/com_publiccompetitions/includes/download.php?id=41731%3Anorme-di-attuazione.pdf",
+        "https://www.regione.liguria.it/homepage-ambiente/cosa-cerchi/acqua/direttiva-acque/piano-regionale-acque.html"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "3791eb02836af7deb1fc09cd9631225ad13fa6e36e7b513aef500d5982ed207a"
+    },
+    {
+      "id": "bz6",
+      "ref": "D.P.P. Bolzano 6/2008",
+      "base_object_version": "85eb76c313bb4dda28d5ab9b1acf0ddcd0b66ba10fe6542cc380458394b2f7cf",
+      "catalogue_checked": "2026-09-24",
+      "catalogue_status": "Disciplina applicabile confermata dal portale provinciale · testo coordinato da verificare",
+      "source_urls_attempted": [
+        "https://ambiente.provincia.bz.it/it/acqua/acque-meteoriche",
+        "https://lexbrowser.provincia.bz.it/doc/it/dpgp-2008-6/decreto_del_presidente_della_provincia_21_gennaio_2008_n_6.aspx",
+        "https://www.gazzettaufficiale.it/atto/regioni/caricaArticoloDefault/originario?atto.codiceRedazionale=25R00323&atto.dataPubblicazioneGazzetta=2026-06-13&atto.tipoProvvedimento=DECRETO+DEL+PRESIDENTE+DELLA+PROVINCIA",
+        "https://www.gazzettaufficiale.it/eli/gu/2009/01/24/4/s3/pdf",
+        "https://www.gazzettaufficiale.it/eli/id/2009/01/24/008R0294/s3",
+        "https://www.gazzettaufficiale.it/eli/id/2026/06/13/25R00323/s3"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "PDF ufficiale assente nei documenti della scheda iniziale; candidato ufficiale reperito durante l’audit."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "partial",
+      "review_scope": "Identità e capo IV del testo originario; riscontro di modifiche successive",
+      "verified_aspects": [
+        "identity",
+        "content",
+        "amendment"
+      ],
+      "legal_review_complete": false,
+      "pending": [
+        "Reperire allegati e testo coordinato ufficiale; ricostruire l’intera catena modificativa e l’efficacia delle disposizioni."
+      ],
+      "limitations": [
+        "PDF della GU originario: allegati omessi e modifiche successive non consolidate.",
+        "Lexbrowser restituisce pagina di attesa per troppe richieste; acquisizione diretta della pagina tematica restituisce solo Loading, mentre la consultazione indicizzata espone il richiamo al capo IV."
+      ],
+      "post_object_version": "48194c5c2ac28e83eb9246698c38b4b611baaf87eb44ac986cf6896b77ff397c"
+    },
+    {
+      "id": "bz23",
+      "ref": "D.P.P. 23/2019",
+      "base_object_version": "7a5f3bac1f3f34d82dae72b87f305ad0751b97469b2a59c8dedd7b0a5ce699a7",
+      "catalogue_checked": "2026-09-18",
+      "catalogue_status": "Vigenza da ricostruire",
+      "source_urls_attempted": [
+        "https://lexbrowser.provinz.bz.it/doc/it/217759/decreto_del_presidente_della_provincia_10_ottobre_2019_n_23.aspx",
+        "https://www.gazzettaufficiale.it/eli/gu/2020/01/11/2/s3/pdf#page=22"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "7a5f3bac1f3f34d82dae72b87f305ad0751b97469b2a59c8dedd7b0a5ce699a7"
+    },
+    {
+      "id": "tnpta",
+      "ref": "PTA 2022–2027",
+      "base_object_version": "d42a8965bbfc5c245a231a9e418fc4c2c86f2aeb2edafc028e6cb765620c81e3",
+      "catalogue_checked": "2026-09-28",
+      "catalogue_status": "Vigenza da ricostruire",
+      "source_urls_attempted": [
+        "https://www.appa.provincia.tn.it/Documenti-e-dati/Documenti-tecnici-di-supporto/Piano-di-Tutela-delle-acque-2022-2027",
+        "https://www.appa.provincia.tn.it/ocmultibinary/download/27681/309570/71/a344c71f7b9ed3ffacdcb176e84addbc.pdf/file/Allegato+O+Norme+di+attuazione.pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "d42a8965bbfc5c245a231a9e418fc4c2c86f2aeb2edafc028e6cb765620c81e3"
+    },
+    {
+      "id": "bzpta",
+      "ref": "L.P. Bolzano 8/2002",
+      "base_object_version": "965bf99d8f4c8559145cbf2d051e9b1a833b7b1b92c0de01dc177dbcbfe4a81e",
+      "catalogue_checked": "2026-09-24",
+      "catalogue_status": "Testo originario ufficiale disponibile · vigenza da coordinare",
+      "source_urls_attempted": [
+        "https://ambiente.provincia.bz.it/it/acqua",
+        "https://www.seab.bz.it/sites/default/files/2024-04/landesgesetz_vom_18._juni_2002_nr._8_bestimmungen_ueber_die_gewaesser_1.pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "965bf99d8f4c8559145cbf2d051e9b1a833b7b1b92c0de01dc177dbcbfe4a81e"
+    },
+    {
+      "id": "bari",
+      "ref": "Città metropolitana di Bari",
+      "base_object_version": "636cfa0af21f642e7bbff2940121fef87384695ab3507c5c726400e9e2e4a527",
+      "catalogue_checked": "2026-09-18",
+      "catalogue_status": "Pagina ufficiale riscontrata",
+      "source_urls_attempted": [
+        "https://burp.regione.puglia.it/documents/20135/784664/REGOLAMENTO%2BREGIONALE%2B9%2Bdicembre%2B2013%2C%2Bn.%2B26%2B%28id%2B4906507%29.pdf/82bcb1fd-8b6d-ec17-ae21-235fdca40c45?t=1622786288358&version=1.0",
+        "https://www.cittametropolitana.ba.it/amministrazione/documenti_e_dati/modulistica/documento_268.html"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "636cfa0af21f642e7bbff2940121fef87384695ab3507c5c726400e9e2e4a527"
+    },
+    {
+      "id": "milano",
+      "ref": "PGT Milano",
+      "base_object_version": "6eeb3f2f38fb2da64dd0b078b84d9d1c5794794595c098de6326f65f01da273a",
+      "catalogue_checked": "2026-09-18",
+      "catalogue_status": "Vigenza da ricostruire",
+      "source_urls_attempted": [
+        "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf",
+        "https://pgt.comune.milano.it/"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Una o più richieste non riuscite: indisponibilità osservata, non prova di link definitivamente rotto o assenza di modifiche."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Una o più richieste non riuscite: indisponibilità osservata, non prova di link definitivamente rotto o assenza di modifiche."
+      ],
+      "post_object_version": "6eeb3f2f38fb2da64dd0b078b84d9d1c5794794595c098de6326f65f01da273a"
+    },
+    {
+      "id": "venezia",
+      "ref": "Regolamento edilizio · Venezia",
+      "base_object_version": "cb361ac57650ece0edf30ef670816a4f48e750bb8654df72a9044653cb927e47",
+      "catalogue_checked": "2026-09-18",
+      "catalogue_status": "Pagina ufficiale riscontrata",
+      "source_urls_attempted": [
+        "https://www.comune.venezia.it/it/content/scarichi-reflui-0",
+        "https://www.comune.venezia.it/sites/comune.venezia.it/files/documenti/Ambiente/Testo%20Legge%20Speciale%20206_1995.pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "cb361ac57650ece0edf30ef670816a4f48e750bb8654df72a9044653cb927e47"
+    },
+    {
+      "id": "aprilia",
+      "ref": "Comune di Aprilia",
+      "base_object_version": "fe63e06c74087abbcb246827cd478d3ab3238f4cac92e5792d29dcd75f2471fd",
+      "catalogue_checked": "2026-09-18",
+      "catalogue_status": "Pagina ufficiale riscontrata",
+      "source_urls_attempted": [
+        "https://www.comune.aprilia.lt.it/servizi/autorizzazione-allo-scarico-di-acque-reflue",
+        "https://www.regione.lazio.it/sites/default/files/amministrazione-trasparente/tbl_contenuti/Norme_Tecniche_di_Attuazione.pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "fe63e06c74087abbcb246827cd478d3ab3238f4cac92e5792d29dcd75f2471fd"
+    },
+    {
+      "id": "medicina",
+      "ref": "Comune di Medicina",
+      "base_object_version": "9c37e8ef3f68ead8981eba080d781da9d1259d290018a10c12c55519d6c35ddd",
+      "catalogue_checked": "2026-09-18",
+      "catalogue_status": "Pagina ufficiale riscontrata",
+      "source_urls_attempted": [
+        "https://servizissiir.regione.emilia-romagna.it/deliberegiunta/servlet/AdapterHTTP?ENTE=1&action_name=ACTIONRICERCADELIBERE&codProtocollo=SSR%2F06%2F1069410&operation=downloadTestoPdf",
+        "https://www.comune.medicina.bo.it/documento/modulo-richiesta-autorizzazione-per-lo-scarico-di-acque-domestiche-non-incanalate-in-fognatura"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Una o più richieste non riuscite: indisponibilità osservata, non prova di link definitivamente rotto o assenza di modifiche."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Una o più richieste non riuscite: indisponibilità osservata, non prova di link definitivamente rotto o assenza di modifiche."
+      ],
+      "post_object_version": "9c37e8ef3f68ead8981eba080d781da9d1259d290018a10c12c55519d6c35ddd"
+    },
+    {
+      "id": "uni752",
+      "ref": "UNI EN 752:2017",
+      "base_object_version": "9f605d9c92d9f394e93c01321409f0892719e27977205e63f7d9261745e5f945",
+      "catalogue_checked": "2026-09-17",
+      "catalogue_status": "In vigore nel catalogo UNI",
+      "source_urls_attempted": [
+        "https://store.uni.com/uni-en-752-2017"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Testo UNI protetto da licenza: verifica ammessa sul catalogo ufficiale, non sul testo integrale."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "verified",
+      "review_scope": "Titolo, edizione, data e stato nel catalogo ufficiale UNI",
+      "verified_aspects": [
+        "identity",
+        "status"
+      ],
+      "legal_review_complete": false,
+      "pending": [],
+      "limitations": [
+        "Testo tecnico integrale protetto da licenza, non acquisito né ripubblicato."
+      ],
+      "post_object_version": "9f605d9c92d9f394e93c01321409f0892719e27977205e63f7d9261745e5f945"
+    },
+    {
+      "id": "uni12056",
+      "ref": "UNI EN 12056-3:2001",
+      "base_object_version": "8ab0fa8edd2c12a025ec41106a8a07ed1d48a319e797e9521a6dddef2032ff85",
+      "catalogue_checked": "2026-09-17",
+      "catalogue_status": "In vigore nel catalogo UNI",
+      "source_urls_attempted": [
+        "https://store.uni.com/uni-en-12056-3-2001"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Testo UNI protetto da licenza: verifica ammessa sul catalogo ufficiale, non sul testo integrale."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "verified",
+      "review_scope": "Titolo, edizione, data e stato nel catalogo ufficiale UNI",
+      "verified_aspects": [
+        "identity",
+        "status"
+      ],
+      "legal_review_complete": false,
+      "pending": [],
+      "limitations": [
+        "Testo tecnico integrale protetto da licenza, non acquisito né ripubblicato."
+      ],
+      "post_object_version": "8ab0fa8edd2c12a025ec41106a8a07ed1d48a319e797e9521a6dddef2032ff85"
+    },
+    {
+      "id": "uni858",
+      "ref": "UNI EN 858-2:2004",
+      "base_object_version": "7b619691f419c47f2f12a093db0ca225ce3d1879e32584b12647b6283caf69f7",
+      "catalogue_checked": "2026-09-17",
+      "catalogue_status": "In vigore nel catalogo UNI",
+      "source_urls_attempted": [
+        "https://store.uni.com/uni-en-858-2-2004"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Testo UNI protetto da licenza: verifica ammessa sul catalogo ufficiale, non sul testo integrale."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "verified",
+      "review_scope": "Titolo, edizione, data e stato nel catalogo ufficiale UNI",
+      "verified_aspects": [
+        "identity",
+        "status"
+      ],
+      "legal_review_complete": false,
+      "pending": [],
+      "limitations": [
+        "Testo tecnico integrale protetto da licenza, non acquisito né ripubblicato."
+      ],
+      "post_object_version": "7b619691f419c47f2f12a093db0ca225ce3d1879e32584b12647b6283caf69f7"
+    },
+    {
+      "id": "dist-po",
+      "ref": "PAI / PGRA · Fiume Po",
+      "base_object_version": "e786e72e29318ff842a12b4652f2dc19fe1d072d336dd080a092bf1ca330aa41",
+      "catalogue_checked": "2026-10-08",
+      "catalogue_status": "Variante di estensione adottata · aggiornamento PGRA 2027 in corso",
+      "source_urls_attempted": [
+        "https://pai.adbpo.it/wp-content/uploads/2025/05/NA_PAI-PO.pdf",
+        "https://pianoalluvioni.adbpo.it/piano-di-gestione-del-rischio-alluvioni-2021-2027/"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "partial",
+      "review_scope": "Identità e versione dichiarata delle NTA PAI Po, distinta dal PGRA",
+      "verified_aspects": [
+        "version"
+      ],
+      "legal_review_complete": false,
+      "pending": [
+        "Ricostruire successivi atti e cartografie; verificare separatamente PGRA e bacini oggetto di estensione."
+      ],
+      "limitations": [
+        "L’indicazione di versione nel PDF non attesta l’assenza di ulteriori varianti nel 2026 né la vigenza del distinto PGRA."
+      ],
+      "post_object_version": "e786e72e29318ff842a12b4652f2dc19fe1d072d336dd080a092bf1ca330aa41"
+    },
+    {
+      "id": "po-pai-estensione-13-2025",
+      "ref": "Del. CIP 13/2025 · progetto di variante PAI Po",
+      "base_object_version": "a3ed0e229a7c1c267bb9367d691728ecaa7c84f751f8e55fb6a52f45e249e8d1",
+      "catalogue_checked": "2026-10-03",
+      "catalogue_status": "Progetto adottato · misure temporanee di salvaguardia vigenti",
+      "source_urls_attempted": [
+        "https://pai.adbpo.it/progetto-variante-pai-po-estensione-ai-bacini-del-reno-romagnoli-conca-marecchia-e-fissero-tartaro-canalbianco/",
+        "https://pianoalluvioni.adbpo.it/mappe-della-pericolosita-e-del-rischio-di-alluvione-2027/",
+        "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/Relazione_generale.pdf",
+        "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/delibera_CIP_13_2025_variante_PAI_Po_signed_signed.pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "partial",
+      "review_scope": "Estremi e natura di progetto della variante di estensione PAI Po",
+      "verified_aspects": [
+        "identity",
+        "approval"
+      ],
+      "legal_review_complete": false,
+      "pending": [
+        "Acquisire atti successivi e confrontare cartografie e regime transitorio alla data corrente."
+      ],
+      "limitations": [
+        "Non verificati in modo esaustivo i successivi provvedimenti, le decorrenze delle salvaguardie e tutti i comuni delle appendici."
+      ],
+      "post_object_version": "a3ed0e229a7c1c267bb9367d691728ecaa7c84f751f8e55fb6a52f45e249e8d1"
+    },
+    {
+      "id": "dist-alpi",
+      "ref": "PAI / PGRA · Alpi Orientali",
+      "base_object_version": "b48532083aa74a1e1f9b301a23798e70c99ed5467bbcecee3946686c3aefaf09",
+      "catalogue_checked": "2026-10-01",
+      "catalogue_status": "Coordinamento PAI/PGRA verificato",
+      "source_urls_attempted": [
+        "https://distrettoalpiorientali.it/piano-gestione-rischio-alluvioni/",
+        "https://sigma.distrettoalpiorientali.it/portal/index.php/direttiva-alluvioni/pgra-2021-2027/piano_approvato_2021/",
+        "https://sigma.distrettoalpiorientali.it/sigma/documentDownload/downloadDocumentById?documentId=359",
+        "https://sigma.distrettoalpiorientali.it/sigma/documentDownload/downloadDocumentById?documentId=380"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale.",
+        "Una o più richieste non riuscite: indisponibilità osservata, non prova di link definitivamente rotto o assenza di modifiche."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale.",
+        "Una o più richieste non riuscite: indisponibilità osservata, non prova di link definitivamente rotto o assenza di modifiche."
+      ],
+      "post_object_version": "b48532083aa74a1e1f9b301a23798e70c99ed5467bbcecee3946686c3aefaf09"
+    },
+    {
+      "id": "dist-sett",
+      "ref": "PAI / PGRA · Appennino Settentrionale",
+      "base_object_version": "6854970ae9b110527d67af135af89e4f2795a59ccf8205583f2c76e4b26eba6a",
+      "catalogue_checked": "2026-10-04",
+      "catalogue_status": "Raccolta da approfondire",
+      "source_urls_attempted": [
+        "https://www.appenninosettentrionale.it/itc/?page_id=2910",
+        "https://www.appenninosettentrionale.it/rep/distretto/pgra/Disciplina%20di%20Piano.pdf",
+        "https://www.appenninosettentrionale.it/rep/distretto/pgra/G_UFF_07022023%20N.%2032_DPCM_PGRA.pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "post_object_version": "6854970ae9b110527d67af135af89e4f2795a59ccf8205583f2c76e4b26eba6a"
+    },
+    {
+      "id": "dist-centr",
+      "ref": "PAI / PGRA · Appennino Centrale",
+      "base_object_version": "014fb9f378c674e10daa7a6b2833a7c7dfe01d176e38cd2bfc3ee4e0ebf9b2cd",
+      "catalogue_checked": "2026-10-08",
+      "catalogue_status": "Pianificazione distrettuale verificata",
+      "source_urls_attempted": [
+        "https://aubac.it/pai-distrettuale-frane",
+        "https://aubac.it/pai-distrettuale-idraulico",
+        "https://aubac.it/piani-di-bacino/piano-di-gestione-del-rischio-alluvioni-pgra",
+        "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO.pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "partial",
+      "review_scope": "Identità e versione delle NTA del PAI distrettuale idraulico",
+      "verified_aspects": [
+        "version"
+      ],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare atti CIP 67/2026 e successivi, salvaguardie e cartografie; mantenere distinti i diversi strumenti."
+      ],
+      "limitations": [
+        "Il solo PDF NTA non ricostruisce tutte le decorrenze, salvaguardie, varianti e cartografie; PGRA e PAI frane non sono verificati da questo documento."
+      ],
+      "post_object_version": "014fb9f378c674e10daa7a6b2833a7c7dfe01d176e38cd2bfc3ee4e0ebf9b2cd"
+    },
+    {
+      "id": "bas9",
+      "ref": "L.R. Basilicata 9/2017",
+      "base_object_version": "afaaebdc9f1c343a92d01fbd47960460c87c44b177216af3f9d188d3b2388b7b",
+      "catalogue_checked": "2026-09-19",
+      "catalogue_status": "Vigenza riscontrata · PDF ufficiale puntuale da reperire",
+      "source_urls_attempted": [
+        "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+        "https://www.gazzettaufficiale.it/eli/id/2017/12/16/17R00266/s3",
+        "https://www.regione.basilicata.it/wp-content/uploads/giunta/docs/DOCUMENT_FILE_3068771.pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "PDF ufficiale assente nei documenti della scheda iniziale; candidato ufficiale reperito durante l’audit.",
+        "Una o più richieste non riuscite: indisponibilità osservata, non prova di link definitivamente rotto o assenza di modifiche."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "partial",
+      "review_scope": "Identità, articoli 1–8 del testo originario e art. 5; verifica della vigenza coordinata non conclusa",
+      "verified_aspects": [
+        "identity",
+        "content"
+      ],
+      "legal_review_complete": false,
+      "pending": [
+        "Ricostruire eventuali modifiche legislative e confrontare gli atti attuativi, inclusa D.G.R. 471/2026; ritentare il PDF regionale."
+      ],
+      "limitations": [
+        "Testo originario, non attestazione di coordinamento all’8 ottobre 2026.",
+        "PDF leggibile nella consultazione testuale istituzionale iniziale; successivi download diretti hanno restituito HTTP 502/timeout."
+      ],
+      "post_object_version": "9c88277794625bea0d7637f2e26097ccfab37987296fd486ec878d35f875f68c"
+    },
+    {
+      "id": "bas471",
+      "ref": "D.G.R. Basilicata 471/2026",
+      "base_object_version": "9386d728b1bf64d7c5c01cd690f2e00aa4b7a81b652e65a725a57fab7c43f3a1",
+      "catalogue_checked": "2026-09-18",
+      "catalogue_status": "Vigente dal 1° agosto 2026",
+      "source_urls_attempted": [
+        "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A35795B0B&idDocumento=795801377B580A307C5C",
+        "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A397A5C07&idDocumento=795801377B580A307C5C"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Una o più richieste non riuscite: indisponibilità osservata, non prova di link definitivamente rotto o assenza di modifiche."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Una o più richieste non riuscite: indisponibilità osservata, non prova di link definitivamente rotto o assenza di modifiche."
+      ],
+      "post_object_version": "9386d728b1bf64d7c5c01cd690f2e00aa4b7a81b652e65a725a57fab7c43f3a1"
+    },
+    {
+      "id": "dist-merid",
+      "ref": "PAI / PGRA · Appennino Meridionale",
+      "base_object_version": "58543f6dbe4c3d2535e6a9d7bdac46c177588c82c4fefc6f0f5f3bc1c7398091",
+      "catalogue_checked": "2026-09-23",
+      "catalogue_status": "Raccolta da approfondire",
+      "source_urls_attempted": [
+        "https://www.distrettoappenninomeridionale.it/images/_PGRA/II%20ciclo%202019/PIANO%20VIGENTE/AGGIORNAMENTO%20MAPPE%20II%20CICLO/RELAZIONE%20METODOLOGICA.pdf",
+        "https://www.distrettoappenninomeridionale.it/images/_PGRA/II%20ciclo%202019/PIANO%20VIGENTE/DPCM%201%C2%B0%20DICEMBRE%202022%20-%20approvazione%20I%20aggiornamento%20PGRA%20-%20II%20ciclo.pdf",
+        "https://www.distrettoappenninomeridionale.it/piano-gestione-alluvioni/",
+        "https://www.distrettoappenninomeridionale.it/piano-gestione-alluvioni/ii-ciclo-2016-2021/"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "post_object_version": "58543f6dbe4c3d2535e6a9d7bdac46c177588c82c4fefc6f0f5f3bc1c7398091"
+    },
+    {
+      "id": "dist-sard",
+      "ref": "PAI / PGRA · Sardegna",
+      "base_object_version": "fd0ab25afae05ea120419e6f17779bce24eee28668cfe30b78fc19c70da6c095",
+      "catalogue_checked": "2026-10-07",
+      "catalogue_status": "NTA vigenti verificate al 04/06/2026",
+      "source_urls_attempted": [
+        "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-di-gestione-del-rischio-alluvioni-p-g-r-a/",
+        "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-stralcio-di-bacino-per-lassetto-idrogeologico-pai/norme-pai/",
+        "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/06/Testo-coordinato-N.A.-PAI-modifiche-CI-n.-8-del-25.05.2026.pdf",
+        "https://pianogestionerischioalluvioni.regione.sardegna.it/documenti/1_617_20211222110339.pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "post_object_version": "fd0ab25afae05ea120419e6f17779bce24eee28668cfe30b78fc19c70da6c095"
+    },
+    {
+      "id": "sar-pai-frane-42-2026",
+      "ref": "D.P.Reg. Sardegna 42/2026 · variante PAI–frane",
+      "base_object_version": "05cfd0364cf8b9ffff69a07f0001a04ba30f1ebc0f35606b3b30a3d9e6c5eddc",
+      "catalogue_checked": "2026-10-02",
+      "catalogue_status": "In vigore dal 25/06/2026",
+      "source_urls_attempted": [
+        "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-stralcio-di-bacino-per-lassetto-idrogeologico-pai/variante-pai-frane-per-i-sub-bacini-1-2-4-5-6-7/",
+        "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/06/dp_2026_06_17_n.42_prot.12805.pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "partial",
+      "review_scope": "Estremi, approvazione e pubblicazione/efficacia originaria della variante PAI",
+      "verified_aspects": [
+        "approval",
+        "effectiveness"
+      ],
+      "legal_review_complete": false,
+      "pending": [
+        "Confrontare mappe ufficiali e successivi provvedimenti senza estendere la variante oltre il suo perimetro."
+      ],
+      "limitations": [
+        "Non esaminati tutti gli elaborati cartografici né effettuata una ricerca esaustiva di successive varianti."
+      ],
+      "post_object_version": "05cfd0364cf8b9ffff69a07f0001a04ba30f1ebc0f35606b3b30a3d9e6c5eddc"
+    },
+    {
+      "id": "sar-pai-barrali-162-2026",
+      "ref": "Det. SG Sardegna 162/2026 · variante PAI Barrali",
+      "base_object_version": "28dcf4599d65092cb9ace4a2406109be378e9a5189d0a89cd2d0dbd858289f2a",
+      "catalogue_checked": "2026-10-07",
+      "catalogue_status": "In vigore dal 01/10/2026",
+      "source_urls_attempted": [
+        "https://autoritadibacino.regione.sardegna.it/ap/determinazione-n-162-prot-n-11367-del-28-09-2026/",
+        "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/09/avp_2026_09_28_det.162_prot.11367_barrali.pdf",
+        "https://buras.regione.sardegna.it/bollettino/59386/parte/59550/inserzione/63054?summary=AVVISI_E_COMUNICATIv"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "partial",
+      "review_scope": "Estremi, approvazione e pubblicazione/efficacia originaria della variante PAI",
+      "verified_aspects": [
+        "approval",
+        "effectiveness"
+      ],
+      "legal_review_complete": false,
+      "pending": [
+        "Confrontare mappe ufficiali e successivi provvedimenti senza estendere la variante oltre il suo perimetro."
+      ],
+      "limitations": [
+        "Non esaminati tutti gli elaborati cartografici né effettuata una ricerca esaustiva di successive varianti."
+      ],
+      "post_object_version": "28dcf4599d65092cb9ace4a2406109be378e9a5189d0a89cd2d0dbd858289f2a"
+    },
+    {
+      "id": "dist-sici",
+      "ref": "PAI / PGRA · Sicilia",
+      "base_object_version": "dd7a64c5f2fea8492e7f0426ee12532264eac759743794bf32b7f11e4799ab50",
+      "catalogue_checked": "2026-10-03",
+      "catalogue_status": "PGRA II ciclo vigente · III ciclo in consultazione",
+      "source_urls_attempted": [
+        "https://www.gazzettaufficiale.it/eli/gu/2023/02/08/32/sg/pdf#page=12",
+        "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa",
+        "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/siti-tematici/pianificazione/stralcio",
+        "https://www.regione.sicilia.it/system/files/2021-05/DP_n.09_2021_approvazione_NdA.pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "post_object_version": "dd7a64c5f2fea8492e7f0426ee12532264eac759743794bf32b7f11e4799ab50"
+    },
+    {
+      "id": "sic-pgra3-02-2026",
+      "ref": "Del. CIP Sicilia 2/2026 · PGRA III ciclo",
+      "base_object_version": "8478d979181210cfd0c42635bd6012ad7af5907a4d2a83ab57e5d0a75221a9dc",
+      "catalogue_checked": "2026-10-03",
+      "catalogue_status": "Consultazione del III ciclo avviata · PGRA vigente non sostituito",
+      "source_urls_attempted": [
+        "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/partecipazione-pubblica",
+        "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/piano-gestione-rischio-alluvione-iideg-ciclo-2021-2027",
+        "https://www.regione.sicilia.it/la-regione-informa/pubblicate-valutazione-globale-provvisoria-mappe-pericolosita-alluvioni-piano-gestione-rischio-alluvioni-pgra",
+        "https://www.sitr.regione.sicilia.it/geoportale/it/metadata/details/1042"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "post_object_version": "8478d979181210cfd0c42635bd6012ad7af5907a4d2a83ab57e5d0a75221a9dc"
+    },
+    {
+      "id": "dmattr2014",
+      "ref": "D.M. 04/04/2014",
+      "base_object_version": "b915d3733170050f5c2148932396a3564aa20c08da902b36125d36600767d736",
+      "catalogue_checked": "2026-09-20",
+      "catalogue_status": "Verifica parziale",
+      "source_urls_attempted": [
+        "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=14A03304&atto.dataPubblicazioneGazzetta=2014-04-28&tipoSerie=serie_generale&tipoVigenza=originario",
+        "https://www.gazzettaufficiale.it/eli/gu/2014/04/28/97/sg/pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "b915d3733170050f5c2148932396a3564aa20c08da902b36125d36600767d736"
+    },
+    {
+      "id": "camed2025",
+      "ref": "D.M. 24/11/2025",
+      "base_object_version": "bd205f8ff1145abe138d67e4772791928bfde6cf031a46882ebb549f3dd2534c",
+      "catalogue_checked": "2026-09-19",
+      "catalogue_status": "Vigente dal 1 febbraio 2026",
+      "source_urls_attempted": [
+        "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=25A06516&atto.dataPubblicazioneGazzetta=2025-12-03&tipoSerie=serie_generale&tipoVigenza=originario",
+        "https://www.gazzettaufficiale.it/eli/gu/2025/12/03/281/sg/pdf",
+        "https://www.mase.gov.it/portale/cam-vigenti",
+        "https://www.mase.gov.it/portale/documents/d/guest/allegato_1_cam_edilizia_30_10_25-def-pdf",
+        "https://www.mase.gov.it/portale/documents/d/guest/modello-di-relazione-cam-di-progetto-vers-_02-02-2026-pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Una o più richieste non riuscite: indisponibilità osservata, non prova di link definitivamente rotto o assenza di modifiche."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Una o più richieste non riuscite: indisponibilità osservata, non prova di link definitivamente rotto o assenza di modifiche."
+      ],
+      "post_object_version": "bd205f8ff1145abe138d67e4772791928bfde6cf031a46882ebb549f3dd2534c"
+    },
+    {
+      "id": "camstrade2024",
+      "ref": "D.M. 05/08/2024 · CAM Strade",
+      "base_object_version": "0514492136bc42e695c97c11a72ab3371cda6d7265c7be3dd96374ae8588716b",
+      "catalogue_checked": "2026-09-18",
+      "catalogue_status": "Vigente come modificato dal D.M. 11 settembre 2025",
+      "source_urls_attempted": [
+        "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=24A04332&atto.dataPubblicazioneGazzetta=2024-08-23&tipoSerie=serie_generale&tipoVigenza=originario",
+        "https://www.gazzettaufficiale.it/eli/gu/2024/08/23/197/sg/pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "0514492136bc42e695c97c11a72ab3371cda6d7265c7be3dd96374ae8588716b"
+    },
+    {
+      "id": "camverde2020",
+      "ref": "D.M. 10/03/2020 · CAM Verde",
+      "base_object_version": "18ec6e4999cab18901d1951aff81502c8c729fb4cd518717227214508f08280e",
+      "catalogue_checked": "2026-09-18",
+      "catalogue_status": "Vigente · presente nell’elenco MASE dei CAM vigenti",
+      "source_urls_attempted": [
+        "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=20A01904&atto.dataPubblicazioneGazzetta=2020-04-04&tipoSerie=serie_generale&tipoVigenza=originario",
+        "https://www.gazzettaufficiale.it/eli/gu/2020/04/04/90/sg/pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "18ec6e4999cab18901d1951aff81502c8c729fb4cd518717227214508f08280e"
+    },
+    {
+      "id": "appalti36",
+      "ref": "D.Lgs. 36/2023 · art. 57",
+      "base_object_version": "697cd08219c6ff8bb18d9dbccb9851aefa688b0624320b194ccf8d01e6760b0e",
+      "catalogue_checked": "2026-09-18",
+      "catalogue_status": "Vigente · consultare il testo coordinato",
+      "source_urls_attempted": [
+        "https://www.gazzettaufficiale.it/eli/gu/2023/03/31/77/so/12/sg/pdf",
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2023-03-31&atto.codiceRedazionale=23G00044",
+        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "697cd08219c6ff8bb18d9dbccb9851aefa688b0624320b194ccf8d01e6760b0e"
+    },
+    {
+      "id": "camstrade2025",
+      "ref": "D.M. 11/09/2025 · correttivo CAM Strade",
+      "base_object_version": "bd6b1c9691ef8308583e520247022dc4b751557f832799d1d99d611815c14699",
+      "catalogue_checked": "2026-09-18",
+      "catalogue_status": "Vigente dal 24 settembre 2025 · correttivo CAM Strade",
+      "source_urls_attempted": [
+        "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=25A05133&atto.dataPubblicazioneGazzetta=2025-09-23&tipoSerie=serie_generale&tipoVigenza=originario",
+        "https://www.gazzettaufficiale.it/eli/gu/2025/09/23/221/sg/pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "bd6b1c9691ef8308583e520247022dc4b751557f832799d1d99d611815c14699"
+    },
+    {
+      "id": "pai-calabria2001",
+      "ref": "PAI Calabria · NAMS aggiornate 2011",
+      "base_object_version": "0eae4aef16c87a0a6a1146d85e2ac4f26fadd6c5c5284f062bfdb2b3c5769791",
+      "catalogue_checked": "2026-09-23",
+      "catalogue_status": "Testo storico verificato · vigenza da coordinare",
+      "source_urls_attempted": [
+        "https://www.distrettoappenninomeridionale.it/progetto-di-piano-stralcio-di-bacino-del-distretto-idrografico-dellappennino-meridionale-per-lassetto-la-mitigazione-e-la-gestione-del-rischio-da-alluvioni/psdgdam-risal-cal-l/",
+        "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2024/11/NAMS_PAI_2001.pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "0eae4aef16c87a0a6a1146d85e2ac4f26fadd6c5c5284f062bfdb2b3c5769791"
+    },
+    {
+      "id": "pai-calabria-lao",
+      "ref": "PSdGDAM-RisAl-Cal/L",
+      "base_object_version": "397c916a7a8748515f8892156f80aecf1da8d8384bfea14ccf2e043229f715ef",
+      "catalogue_checked": "2026-09-23",
+      "catalogue_status": "Progetto adottato · osservazioni prorogate e misure transitorie da coordinare",
+      "source_urls_attempted": [
+        "https://www.distrettoappenninomeridionale.it/progetto-di-piano-stralcio-di-bacino-del-distretto-idrografico-dellappennino-meridionale-per-lassetto-la-mitigazione-e-la-gestione-del-rischio-da-alluvioni/psdgdam-risal-cal-l/",
+        "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2024/11/Norme_di_Attuazione.pdf",
+        "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2025/03/Delibera_n_1_Conferenza_Istituzionale_19_febbraio_2025_signed_signed.pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "partial",
+      "review_scope": "Identità del progetto Calabria/Lao e proroga/disposizioni transitorie",
+      "verified_aspects": [
+        "version",
+        "identity"
+      ],
+      "legal_review_complete": false,
+      "pending": [
+        "Acquisire CIP 2/2024, successivi esiti e mappe; coordinare il regime transitorio con i precedenti strumenti."
+      ],
+      "limitations": [
+        "Non conclusa la verifica degli atti successivi né delle interazioni con il PAI Calabria 2001; ambito idrografico Lao da verificare sulle mappe, non desumibile dal solo confine della Calabria."
+      ],
+      "post_object_version": "397c916a7a8748515f8892156f80aecf1da8d8384bfea14ccf2e043229f715ef"
+    },
+    {
+      "id": "pai-basilicata",
+      "ref": "PAI ex AdB Basilicata",
+      "base_object_version": "95be0ded9aa81a4a0b9609bb5be132b9daec0fac22c72052020076c482a60964",
+      "catalogue_checked": "2026-09-23",
+      "catalogue_status": "Documentazione censita",
+      "source_urls_attempted": [
+        "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/UOM%20BASILICATA/PAI-RF/Norme_PAI_Basilicata_2024.pdf",
+        "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-basilicata-menu/piano-stralcio-per-la-difesa-dal-rischio-idrogeologico-pai-vigente-enu"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "post_object_version": "95be0ded9aa81a4a0b9609bb5be132b9daec0fac22c72052020076c482a60964"
+    },
+    {
+      "id": "pai-lgv",
+      "ref": "PSAI Liri–Garigliano · rischio idraulico",
+      "base_object_version": "3c1b9be9d894562bc38ca37840c55386c0f637f40672d03c33e2f67ddeacb7f8",
+      "catalogue_checked": "2026-09-23",
+      "catalogue_status": "Documentazione censita",
+      "source_urls_attempted": [
+        "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/PAI-RI%20LGV%20norme%20luglio_2006.pdf",
+        "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-liri-garigliano-e-volturno-menuo/pai-rischio-idraulico-menu"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "post_object_version": "3c1b9be9d894562bc38ca37840c55386c0f637f40672d03c33e2f67ddeacb7f8"
+    },
+    {
+      "id": "pai-puglia",
+      "ref": "PAI Puglia e Ofanto",
+      "base_object_version": "6ee5b2efd4347ba52c3c1a9cd78c70ba507512b30ad3b9bbcd169c5fa45f8700",
+      "catalogue_checked": "2026-09-23",
+      "catalogue_status": "Documentazione censita",
+      "source_urls_attempted": [
+        "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/UoM%20Puglia/3_NTA_CI_30-11-05.pdf",
+        "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-puglia-menu/piano-assetto-idrogeologico-pericolosita-idraulica-menu"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "post_object_version": "6ee5b2efd4347ba52c3c1a9cd78c70ba507512b30ad3b9bbcd169c5fa45f8700"
+    },
+    {
+      "id": "pai-campania",
+      "ref": "PAI Campania Centrale",
+      "base_object_version": "2ec5f98ee655856677a77e4bb11514c743299ac57a74cd2beb5bbb9f72c7bf0b",
+      "catalogue_checked": "2026-09-23",
+      "catalogue_status": "Documentazione censita",
+      "source_urls_attempted": [
+        "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/pai-campania-centrale-norme-attuazione-2015.pdf",
+        "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/bacini-reg-nord-occidentali-bacino-reg-sarno-ex-adb-reg-campania-centrale-menu/piano-assetto-idrogeologico-rischio-idraulico-menu"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "post_object_version": "2ec5f98ee655856677a77e4bb11514c743299ac57a74cd2beb5bbb9f72c7bf0b"
+    },
+    {
+      "id": "pai-biferno-e-minori",
+      "ref": "PAI Biferno e minori",
+      "base_object_version": "7bad9ccc41c65b96f5db94affc3d85ceae6f7eff1acfec4fb05aaa010d425803",
+      "catalogue_checked": "2026-09-23",
+      "catalogue_status": "Documentazione censita",
+      "source_urls_attempted": [
+        "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/molise/biferno/NORME%20PAI%20BIFERNO%20AGGIORNATE%20APRILE%202017.pdf",
+        "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-trigno-biferno-e-minori-saccione-e-fortore-menu/biferno-e-minori-menu/piano-stralcio-assetto-idrogeologico-rischio-idraulico-menu"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "post_object_version": "7bad9ccc41c65b96f5db94affc3d85ceae6f7eff1acfec4fb05aaa010d425803"
+    },
+    {
+      "id": "pai-trigno",
+      "ref": "PAI Trigno",
+      "base_object_version": "bb2dac96e600ed2baf39ee361dc57513da6b06b8f893cd19c7975bafb49b49ff",
+      "catalogue_checked": "2026-09-23",
+      "catalogue_status": "Documentazione censita",
+      "source_urls_attempted": [
+        "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/trigno/NORME%20PAI%20TRIGNO%20AGGIORNATE%20APRILE%202017.pdf",
+        "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-trigno-biferno-e-minori-saccione-e-fortore-menu/trigno-menu/piano-stralcio-assetto-idrogeologico-rischio-idraulico-menu"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "post_object_version": "bb2dac96e600ed2baf39ee361dc57513da6b06b8f893cd19c7975bafb49b49ff"
+    },
+    {
+      "id": "pai-fortore",
+      "ref": "PAI Fortore",
+      "base_object_version": "564d0a82bcde0945404e99548fbf147a164f556f7c69664261052c4d432da2cd",
+      "catalogue_checked": "2026-09-23",
+      "catalogue_status": "Documentazione censita",
+      "source_urls_attempted": [
+        "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/molise/FORTORE/A-01_Normativa_di_attuazione.pdf",
+        "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-trigno-biferno-e-minori-saccione-e-fortore-menu/fortore-menu/piano-stralcio-assetto-idrogeologico-rischio-idraulico-menu"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "post_object_version": "564d0a82bcde0945404e99548fbf147a164f556f7c69664261052c4d432da2cd"
+    },
+    {
+      "id": "laz117",
+      "ref": "D.G.R. Lazio 117/2020",
+      "base_object_version": "0115d44c026a6fa9a5b71181c70b80e2ebdeaf3d29b8e8f02ff35f611f69d791",
+      "catalogue_checked": "2026-09-18",
+      "catalogue_status": "Atto e documenti verificati",
+      "source_urls_attempted": [
+        "https://www.provincia.latina.it/flex/cm/pages/ServeAttachment.php/L/IT/D/1%252F1%252F3%252FD.cefc0d46463bb1e57756/P/BLOB%3AID%3D1320/E/pdf?mode=download",
+        "https://www.regione.lazio.it/documenti/69240",
+        "https://www.regione.lazio.it/sites/default/files/documentazione/AMB_Slides_Linee_guida_sulla_invarianza_idraulica_trasformazioni_territoriali.pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "0115d44c026a6fa9a5b71181c70b80e2ebdeaf3d29b8e8f02ff35f611f69d791"
+    },
+    {
+      "id": "sar-inv-2017",
+      "ref": "Del. C.I. 2/2017 · art. 47 NTA PAI",
+      "base_object_version": "00f8f7ab9baf08f5fff058149a5f7d391b35c7c64f2fe34e6674579b92766235",
+      "catalogue_checked": "2026-09-18",
+      "catalogue_status": "In vigore secondo la fonte ufficiale",
+      "source_urls_attempted": [
+        "https://autoritadibacino.regione.sardegna.it/ap/delibera-del-comitato-istituzionale-n-2-del-17-05-2017/",
+        "https://www.regione.sardegna.it/documenti/1_470_20170529141753.pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "post_object_version": "00f8f7ab9baf08f5fff058149a5f7d391b35c7c64f2fe34e6674579b92766235"
+    },
+    {
+      "id": "lom4pp",
+      "ref": "R.R. Lombardia 4/2006",
+      "base_object_version": "c0aececd83730fbb3e3ee744d66aca5d88ea36c2c6e5810e2132a36ddee8874b",
+      "catalogue_checked": "2026-09-18",
+      "catalogue_status": "Vigente · testo coordinato",
+      "source_urls_attempted": [
+        "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002006032400004&type=pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "c0aececd83730fbb3e3ee744d66aca5d88ea36c2c6e5810e2132a36ddee8874b"
+    },
+    {
+      "id": "sar6925",
+      "ref": "D.G.R. Sardegna 69/25 del 10/12/2008",
+      "base_object_version": "d167c05b2a4423a503a10c8f10d597103e00ac6cf422cdd2ac7e43ee7ea1e775",
+      "catalogue_checked": "2026-09-18",
+      "catalogue_status": "Atto specifico verificato",
+      "source_urls_attempted": [
+        "https://www.regione.sardegna.it/documenti/1_73_20090127105834.pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "d167c05b2a4423a503a10c8f10d597103e00ac6cf422cdd2ac7e43ee7ea1e775"
+    },
+    {
+      "id": "tos20",
+      "ref": "L.R. Toscana 20/2006",
+      "base_object_version": "064c709470366ae36a5fac9c5456e8a199ffab23266eab5995f0b4d8cffdd40c",
+      "catalogue_checked": "2026-09-19",
+      "catalogue_status": "Testo vigente nella raccolta normativa regionale",
+      "source_urls_attempted": [
+        "https://raccoltanormativa.consiglio.regione.toscana.it/articolo?urndoc=urn:nir:regione.toscana:legge:2006-05-31;20",
+        "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?id=28068949-268d-11ec-9830-0050568e1a48&ext=pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "064c709470366ae36a5fac9c5456e8a199ffab23266eab5995f0b4d8cffdd40c"
+    },
+    {
+      "id": "tos46",
+      "ref": "D.P.G.R. Toscana 46/R/2008",
+      "base_object_version": "7712a0e280ca12b04266ea624dd4569162a6a42948c0d3597330810ab3c49156",
+      "catalogue_checked": "2026-09-19",
+      "catalogue_status": "Vigente con modifiche · consultare il testo coordinato",
+      "source_urls_attempted": [
+        "https://raccoltanormativa.consiglio.regione.toscana.it/articolo?urndoc=urn:nir:regione.toscana:regolamento.giunta:2008-09-08;46/R",
+        "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?id=9345c577-24d8-11ef-bf7a-005056959b60&ext=pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "7712a0e280ca12b04266ea624dd4569162a6a42948c0d3597330810ab3c49156"
+    },
+    {
+      "id": "venpta39",
+      "ref": "PTA Veneto · art. 39 NTA",
+      "base_object_version": "7323b6e47d6bfcf87a688cc263672b14e639a35cf79b246d7d6ac1a0abffa178",
+      "catalogue_checked": "2026-09-19",
+      "catalogue_status": "Disciplina nel PTA · verificare il testo coordinato vigente",
+      "source_urls_attempted": [
+        "https://repository.regione.veneto.it/public/6396bf686a0ce689ab40783272aec920.php?dl=true"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "7323b6e47d6bfcf87a688cc263672b14e639a35cf79b246d7d6ac1a0abffa178"
+    },
+    {
+      "id": "dpr753",
+      "ref": "D.P.R. 753/1980",
+      "base_object_version": "2603861ca335801f3f944d19eb17d9aaea1af0317e0adcc76bfef370ff3ccb4f",
+      "catalogue_checked": "2026-09-20",
+      "catalogue_status": "Testo originario ufficiale · vigenza da ricostruire",
+      "source_urls_attempted": [
+        "https://www.gazzettaufficiale.it/eli/gu/1980/11/15/314/so/0/sg/pdf",
+        "https://www.gazzettaufficiale.it/eli/id/1980/11/15/080U0753/sg",
+        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1980-07-11;753"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "2603861ca335801f3f944d19eb17d9aaea1af0317e0adcc76bfef370ff3ccb4f"
+    },
+    {
+      "id": "codstrada285",
+      "ref": "D.Lgs. 285/1992 · art. 25",
+      "base_object_version": "f87ff3f7a8259ebb107d99d9e2691b3bdc4631737444b42e3a7360ee15b1a957",
+      "catalogue_checked": "2026-09-20",
+      "catalogue_status": "Testo vigente consultato su Normattiva il 20/09/2026",
+      "source_urls_attempted": [
+        "https://www.gazzettaufficiale.it/eli/gu/1992/05/18/114/so/74/sg/pdf",
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0306&atto.dataPubblicazioneGazzetta=1992-05-18",
+        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "f87ff3f7a8259ebb107d99d9e2691b3bdc4631737444b42e3a7360ee15b1a957"
+    },
+    {
+      "id": "dpr495",
+      "ref": "D.P.R. 495/1992 · artt. 65–69",
+      "base_object_version": "56e2356a29a87dfb16992ff8ef3951262265537dfc1465fea7c1134edbaa994c",
+      "catalogue_checked": "2026-09-20",
+      "catalogue_status": "Testo vigente consultato su Normattiva il 20/09/2026",
+      "source_urls_attempted": [
+        "https://www.gazzettaufficiale.it/eli/gu/1992/12/28/303/so/134/sg/pdf",
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0531&atto.dataPubblicazioneGazzetta=1992-12-28",
+        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1992-12-16;495"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "56e2356a29a87dfb16992ff8ef3951262265537dfc1465fea7c1134edbaa994c"
+    },
+    {
+      "id": "dm185",
+      "ref": "D.M. 185/2003",
+      "base_object_version": "15a2dd036f6e2b426c2ac5559082e9b777b1aafdd0b66e4fc30ba351ec790689",
+      "catalogue_checked": "2026-09-21",
+      "catalogue_status": "Vigente al 21/09/2026 · abrogazione futura condizionata",
+      "source_urls_attempted": [
+        "https://www.gazzettaufficiale.it/eli/gu/2003/07/23/169/sg/pdf",
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2003-07-23&atto.codiceRedazionale=003G0210",
+        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:ministero.ambiente.e.tutela.territorio:decreto:2003-06-12;185"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "15a2dd036f6e2b426c2ac5559082e9b777b1aafdd0b66e4fc30ba351ec790689"
+    },
+    {
+      "id": "dpr59",
+      "ref": "D.P.R. 59/2013",
+      "base_object_version": "fa383d6af8a0f135c66901f67fe1192caf6e0cf8dbabace77c984de85ae2590b",
+      "catalogue_checked": "2026-09-21",
+      "catalogue_status": "Vigente · testo coordinato consultato il 21/09/2026",
+      "source_urls_attempted": [
+        "https://www.gazzettaufficiale.it/eli/gu/2013/05/29/124/so/42/sg/pdf",
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2013-05-29&atto.codiceRedazionale=13G00101",
+        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:2013-03-13;59"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "post_object_version": "fa383d6af8a0f135c66901f67fe1192caf6e0cf8dbabace77c984de85ae2590b"
+    },
+    {
+      "id": "ue741reuse",
+      "ref": "Reg. (UE) 2020/741",
+      "base_object_version": "2f24dc0cd9603ce0823310587d147739f1e80051f8ee703df41ae6a7621a4e50",
+      "catalogue_checked": "2026-09-21",
+      "catalogue_status": "In vigore · applicabile dal 26/06/2023",
+      "source_urls_attempted": [
+        "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32020R0741",
+        "https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:32020R0741"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Una o più richieste non riuscite: indisponibilità osservata, non prova di link definitivamente rotto o assenza di modifiche."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Una o più richieste non riuscite: indisponibilità osservata, non prova di link definitivamente rotto o assenza di modifiche."
+      ],
+      "post_object_version": "2f24dc0cd9603ce0823310587d147739f1e80051f8ee703df41ae6a7621a4e50"
+    },
+    {
+      "id": "ue1765reuse",
+      "ref": "Reg. delegato (UE) 2024/1765",
+      "base_object_version": "649fa9449a9df4ebf19324da8ec82c943ff411e2e9b1cbd6b123e5900278e160",
+      "catalogue_checked": "2026-09-21",
+      "catalogue_status": "In vigore · direttamente applicabile",
+      "source_urls_attempted": [
+        "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32024R1765",
+        "https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:32024R1765"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Una o più richieste non riuscite: indisponibilità osservata, non prova di link definitivamente rotto o assenza di modifiche."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Una o più richieste non riuscite: indisponibilità osservata, non prova di link definitivamente rotto o assenza di modifiche."
+      ],
+      "post_object_version": "649fa9449a9df4ebf19324da8ec82c943ff411e2e9b1cbd6b123e5900278e160"
+    },
+    {
+      "id": "bz-badia-pzp-782-2026",
+      "ref": "D.G.P. Bolzano 782/2026",
+      "base_object_version": "2cb45abd244fef84ed900558f2364642f09d975586f8dbccdfde9322570b68be",
+      "catalogue_checked": "2026-09-28",
+      "catalogue_status": "Approvazione verificata · efficacia da accertare",
+      "source_urls_attempted": [
+        "https://api.integrations.services.siag.it/delibere/v1/delibere/esiuL8RBQoDk1lstoAKo%2BQ%3D%3D/document?tstmp=1790196547437",
+        "https://giunta-provinciale.provincia.bz.it/it/delibere"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "partial",
+      "review_scope": "Estremi, comune, componente di pericolosità e approvazione della variante PZP",
+      "verified_aspects": [
+        "identity",
+        "approval",
+        "topics"
+      ],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
+      ],
+      "limitations": [
+        "Il PDF lega l’entrata in vigore alla pubblicazione nel Bollettino; tale pubblicazione non è stata acquisita nel lotto.",
+        "Non acquisiti tutti gli elaborati cartografici né verificate le modifiche successive."
+      ],
+      "post_object_version": "2cb45abd244fef84ed900558f2364642f09d975586f8dbccdfde9322570b68be"
+    },
+    {
+      "id": "bz-campo-tures-pzp-799-2026",
+      "ref": "D.G.P. Bolzano 799/2026",
+      "base_object_version": "5130ea75b2b27b6fbb416d51d9978da5c3270b532f90465635e8772c6764ffaf",
+      "catalogue_checked": "2026-09-29",
+      "catalogue_status": "Approvazione provinciale verificata · efficacia da accertare",
+      "source_urls_attempted": [
+        "https://api.integrations.services.siag.it/delibere/v1/delibere/ZzOArA8ANeWZFuTKiVQGSA%3D%3D/document?tstmp=1790598720328",
+        "https://giunta-provinciale.provincia.bz.it/it/delibere"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "partial",
+      "review_scope": "Estremi, comune, componente di pericolosità e approvazione della variante PZP",
+      "verified_aspects": [
+        "identity",
+        "approval",
+        "topics"
+      ],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
+      ],
+      "limitations": [
+        "Il PDF lega l’entrata in vigore alla pubblicazione nel Bollettino; tale pubblicazione non è stata acquisita nel lotto.",
+        "Non acquisiti tutti gli elaborati cartografici né verificate le modifiche successive."
+      ],
+      "post_object_version": "5130ea75b2b27b6fbb416d51d9978da5c3270b532f90465635e8772c6764ffaf"
+    },
+    {
+      "id": "bz-nova-ponente-pzp-776-2026",
+      "ref": "D.G.P. Bolzano 776/2026",
+      "base_object_version": "118084c35000edc0b47860f661e2c1f602f1adaa53b28c18eec2bd5790d838d0",
+      "catalogue_checked": "2026-09-30",
+      "catalogue_status": "Approvazione provinciale verificata · efficacia da accertare",
+      "source_urls_attempted": [
+        "https://api.integrations.services.siag.it/delibere/v1/delibere/03qj3RHzult3pGstFd%2BQsQ%3D%3D/document?tstmp=1790750000000",
+        "https://giunta-provinciale.provincia.bz.it/it/delibere"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "partial",
+      "review_scope": "Estremi, comune, componente di pericolosità e approvazione della variante PZP",
+      "verified_aspects": [
+        "identity",
+        "approval",
+        "topics"
+      ],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
+      ],
+      "limitations": [
+        "Il PDF lega l’entrata in vigore alla pubblicazione nel Bollettino; tale pubblicazione non è stata acquisita nel lotto.",
+        "Non acquisiti tutti gli elaborati cartografici né verificate le modifiche successive."
+      ],
+      "post_object_version": "118084c35000edc0b47860f661e2c1f602f1adaa53b28c18eec2bd5790d838d0"
+    },
+    {
+      "id": "bz-fortezza-pzp-742-2026",
+      "ref": "D.G.P. Bolzano 742/2026",
+      "base_object_version": "95d19b4915f5f0ea859fbe41d4143dda2607dc2501cf1a66bc576863db8af12d",
+      "catalogue_checked": "2026-09-30",
+      "catalogue_status": "Approvazione provinciale verificata · efficacia da accertare",
+      "source_urls_attempted": [
+        "https://api.integrations.services.siag.it/delibere/v1/delibere/f5awpYMYyI7-Nv91yjrfaw%3D%3D/document?tstmp=1790750000000",
+        "https://giunta-provinciale.provincia.bz.it/it/delibere"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "partial",
+      "review_scope": "Estremi, comune, componente di pericolosità e approvazione della variante PZP",
+      "verified_aspects": [
+        "identity",
+        "approval",
+        "topics"
+      ],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
+      ],
+      "limitations": [
+        "Il PDF lega l’entrata in vigore alla pubblicazione nel Bollettino; tale pubblicazione non è stata acquisita nel lotto.",
+        "Non acquisiti tutti gli elaborati cartografici né verificate le modifiche successive."
+      ],
+      "post_object_version": "95d19b4915f5f0ea859fbe41d4143dda2607dc2501cf1a66bc576863db8af12d"
+    },
+    {
+      "id": "bz-nova-ponente-pzp-741-2026",
+      "ref": "D.G.P. Bolzano 741/2026",
+      "base_object_version": "04b2f52dcbd3c02946c8221c72a325659c75dc05644e57fcdddc32895547dd86",
+      "catalogue_checked": "2026-09-30",
+      "catalogue_status": "Approvazione provinciale verificata · efficacia da accertare",
+      "source_urls_attempted": [
+        "https://api.integrations.services.siag.it/delibere/v1/delibere/XB%2BxsmykMNX4WRP4cDf9Eg%3D%3D/document?tstmp=1790750000000",
+        "https://giunta-provinciale.provincia.bz.it/it/delibere"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "partial",
+      "review_scope": "Estremi, comune, componente di pericolosità e approvazione della variante PZP",
+      "verified_aspects": [
+        "identity",
+        "approval",
+        "topics"
+      ],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
+      ],
+      "limitations": [
+        "Il PDF lega l’entrata in vigore alla pubblicazione nel Bollettino; tale pubblicazione non è stata acquisita nel lotto.",
+        "Non acquisiti tutti gli elaborati cartografici né verificate le modifiche successive."
+      ],
+      "post_object_version": "04b2f52dcbd3c02946c8221c72a325659c75dc05644e57fcdddc32895547dd86"
+    },
+    {
+      "id": "bz-sarentino-pzp-740-2026",
+      "ref": "D.G.P. Bolzano 740/2026",
+      "base_object_version": "ad736ef7fa60252079a48486ba51e1b2beed544d79078257ff2dd9ff571a0dc3",
+      "catalogue_checked": "2026-09-30",
+      "catalogue_status": "Approvazione provinciale verificata · efficacia da accertare",
+      "source_urls_attempted": [
+        "https://api.integrations.services.siag.it/delibere/v1/delibere/QDiyUDJvk7Ajnb95m6fsng%3D%3D/document?tstmp=1790750000000",
+        "https://giunta-provinciale.provincia.bz.it/it/delibere"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "partial",
+      "review_scope": "Estremi, comune, componente di pericolosità e approvazione della variante PZP",
+      "verified_aspects": [
+        "identity",
+        "approval",
+        "topics"
+      ],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
+      ],
+      "limitations": [
+        "Il PDF lega l’entrata in vigore alla pubblicazione nel Bollettino; tale pubblicazione non è stata acquisita nel lotto.",
+        "Non acquisiti tutti gli elaborati cartografici né verificate le modifiche successive."
+      ],
+      "post_object_version": "ad736ef7fa60252079a48486ba51e1b2beed544d79078257ff2dd9ff571a0dc3"
+    },
+    {
+      "id": "bz-la-valle-pzp-739-2026",
+      "ref": "D.G.P. Bolzano 739/2026",
+      "base_object_version": "79f57f90220a846f8ac02f224e281a5ba72dd436b041fe47072a3570755b681b",
+      "catalogue_checked": "2026-09-30",
+      "catalogue_status": "Approvazione provinciale verificata · efficacia da accertare",
+      "source_urls_attempted": [
+        "https://api.integrations.services.siag.it/delibere/v1/delibere/sSWjeY6wMsUs%2BRZX0J8S0Q%3D%3D/document?tstmp=1790750000000",
+        "https://giunta-provinciale.provincia.bz.it/it/delibere"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "partial",
+      "review_scope": "Estremi, comune, componente di pericolosità e approvazione della variante PZP",
+      "verified_aspects": [
+        "identity",
+        "approval",
+        "topics"
+      ],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
+      ],
+      "limitations": [
+        "Il PDF lega l’entrata in vigore alla pubblicazione nel Bollettino; tale pubblicazione non è stata acquisita nel lotto.",
+        "Non acquisiti tutti gli elaborati cartografici né verificate le modifiche successive."
+      ],
+      "post_object_version": "79f57f90220a846f8ac02f224e281a5ba72dd436b041fe47072a3570755b681b"
+    },
+    {
+      "id": "bz-rasun-anterselva-pzp-738-2026",
+      "ref": "D.G.P. Bolzano 738/2026",
+      "base_object_version": "7a22f34921e4ac5f945fa003751c810cd65786eb8a554ebe61a31e9973c324e9",
+      "catalogue_checked": "2026-09-30",
+      "catalogue_status": "Approvazione provinciale verificata · efficacia da accertare",
+      "source_urls_attempted": [
+        "https://api.integrations.services.siag.it/delibere/v1/delibere/EG2E4ptZZnKQGIZaBUV5Qg%3D%3D/document?tstmp=1790750000000",
+        "https://giunta-provinciale.provincia.bz.it/it/delibere"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "partial",
+      "review_scope": "Estremi, comune, componente di pericolosità e approvazione della variante PZP",
+      "verified_aspects": [
+        "identity",
+        "approval",
+        "topics"
+      ],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
+      ],
+      "limitations": [
+        "Il PDF lega l’entrata in vigore alla pubblicazione nel Bollettino; tale pubblicazione non è stata acquisita nel lotto.",
+        "Non acquisiti tutti gli elaborati cartografici né verificate le modifiche successive."
+      ],
+      "post_object_version": "7a22f34921e4ac5f945fa003751c810cd65786eb8a554ebe61a31e9973c324e9"
+    },
+    {
+      "id": "centr-pai-idraulico-67-2026",
+      "ref": "Del. CIP AUBAC 67/2026",
+      "base_object_version": "5e51e8d67ca63926849b6a4843b04626585195ffdab2670caf975a736db03061",
+      "catalogue_checked": "2026-10-04",
+      "catalogue_status": "Adottato definitivamente · misure di salvaguardia operative",
+      "source_urls_attempted": [
+        "https://aubac.it/pai-distrettuale-idraulico",
+        "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2067%20-%20PAI%20IDRAULICO_signed_signed_0.pdf",
+        "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO_0.pdf",
+        "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20RELAZIONE%20GENERALE_def_0.pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "post_object_version": "5e51e8d67ca63926849b6a4843b04626585195ffdab2670caf975a736db03061"
+    },
+    {
+      "id": "centr-pai-frane-68-2026",
+      "ref": "Del. CIP AUBAC 68/2026",
+      "base_object_version": "7919ae1d95f81ae98dbb6399eb7624b79dd26c01130ea41278b87898bc741afc",
+      "catalogue_checked": "2026-10-04",
+      "catalogue_status": "Adottato definitivamente · misure di salvaguardia operative",
+      "source_urls_attempted": [
+        "https://aubac.it/pai-distrettuale-frane",
+        "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2068%20-%20PAI%20FRANE_signed_signed_0.pdf",
+        "https://cms.aubac.it/sites/default/files/2026-06/PAI%20FRANE%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO_0.pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "post_object_version": "7919ae1d95f81ae98dbb6399eb7624b79dd26c01130ea41278b87898bc741afc"
+    },
+    {
+      "id": "centr-pai-nestore-139-2026",
+      "ref": "D.S. AUBAC 139/2026",
+      "base_object_version": "1d9d221ccf2adf037816eb7d003792ef5badd4a54d78664f95e8904301436e28",
+      "catalogue_checked": "2026-10-04",
+      "catalogue_status": "Aggiornamento definitivo · efficace",
+      "source_urls_attempted": [
+        "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+        "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3268&StwEvent=101",
+        "https://www.aubac.it/news/notizie/rischio-idraulico-approvato-laggiornamento-delle-fasce-fluviali-e-delle-aree-rischio-di-esondazione"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "post_object_version": "1d9d221ccf2adf037816eb7d003792ef5badd4a54d78664f95e8904301436e28"
+    },
+    {
+      "id": "sett-pgra-variante-62-2026",
+      "ref": "Del. CIP 62/2026 · Appennino Settentrionale",
+      "base_object_version": "08b1312ee8b17a9d18909d1e9142677a964929072c171ee1b53ab0d93ddb0c28",
+      "catalogue_checked": "2026-10-04",
+      "catalogue_status": "Progetto adottato · consultazione",
+      "source_urls_attempted": [
+        "https://geodataserver.appenninosettentrionale.it/arcgis/rest/services/Pericolosita_Alluvione/mappa_variante_pericolosita2026/MapServer/0"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "post_object_version": "08b1312ee8b17a9d18909d1e9142677a964929072c171ee1b53ab0d93ddb0c28"
+    },
+    {
+      "id": "centr-pai-lettomanoppello-142-2026",
+      "ref": "D.S. AUBAC 142/2026",
+      "base_object_version": "177300898ca66c84a77b120c3a1a3a6a673bdb3c044c5ad040902319c9cd3922",
+      "catalogue_checked": "2026-10-06",
+      "catalogue_status": "Aggiornamento definitivo · efficace dal 29/07/2026",
+      "source_urls_attempted": [
+        "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+        "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3273&StwEvent=101",
+        "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "post_object_version": "177300898ca66c84a77b120c3a1a3a6a673bdb3c044c5ad040902319c9cd3922"
+    },
+    {
+      "id": "centr-pai-notaresco-143-2026",
+      "ref": "D.S. AUBAC 143/2026",
+      "base_object_version": "922cc205c1b361ed78cf35cd73daab96437e8a6febe969ab3e6cce322095900f",
+      "catalogue_checked": "2026-10-06",
+      "catalogue_status": "Aggiornamento definitivo · efficace dal 29/07/2026",
+      "source_urls_attempted": [
+        "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+        "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3274&StwEvent=101",
+        "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "post_object_version": "922cc205c1b361ed78cf35cd73daab96437e8a6febe969ab3e6cce322095900f"
+    },
+    {
+      "id": "centr-pai-notaresco-144-2026",
+      "ref": "D.S. AUBAC 144/2026",
+      "base_object_version": "a959b9389508f29713e7c1c5d713481480d2199a9e1a1564149b75bacbfbd36e",
+      "catalogue_checked": "2026-10-06",
+      "catalogue_status": "Aggiornamento definitivo · efficace dal 29/07/2026",
+      "source_urls_attempted": [
+        "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+        "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3275&StwEvent=101",
+        "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "post_object_version": "a959b9389508f29713e7c1c5d713481480d2199a9e1a1564149b75bacbfbd36e"
+    },
+    {
+      "id": "centr-pai-notaresco-145-2026",
+      "ref": "D.S. AUBAC 145/2026",
+      "base_object_version": "34ee515a473c8591c87abd326df7e12ebda23b0596597db45a59ff57a5390d9c",
+      "catalogue_checked": "2026-10-06",
+      "catalogue_status": "Aggiornamento definitivo · efficace dal 29/07/2026",
+      "source_urls_attempted": [
+        "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+        "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3276&StwEvent=101",
+        "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "post_object_version": "34ee515a473c8591c87abd326df7e12ebda23b0596597db45a59ff57a5390d9c"
+    },
+    {
+      "id": "centr-pai-pescara-146-2026",
+      "ref": "D.S. AUBAC 146/2026",
+      "base_object_version": "ac12890520ec28037099cbac69e3716f65f50d9f4176713955969b0bfd5df692",
+      "catalogue_checked": "2026-10-06",
+      "catalogue_status": "Aggiornamento definitivo · efficace dal 29/07/2026",
+      "source_urls_attempted": [
+        "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+        "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3277&StwEvent=101",
+        "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "post_object_version": "ac12890520ec28037099cbac69e3716f65f50d9f4176713955969b0bfd5df692"
+    },
+    {
+      "id": "centr-pai-spoltore-147-2026",
+      "ref": "D.S. AUBAC 147/2026",
+      "base_object_version": "30ace0392bf948573650bcb2494757b2cf8e20f8301e4632554eb40958f2f3ce",
+      "catalogue_checked": "2026-10-06",
+      "catalogue_status": "Aggiornamento definitivo · efficace dal 29/07/2026",
+      "source_urls_attempted": [
+        "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+        "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3278&StwEvent=101",
+        "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "post_object_version": "30ace0392bf948573650bcb2494757b2cf8e20f8301e4632554eb40958f2f3ce"
+    },
+    {
+      "id": "centr-pai-penne-148-2026",
+      "ref": "D.S. AUBAC 148/2026",
+      "base_object_version": "6951600c5d45c844010bd04186939a03877fad4ce6ccc3eefae01e55734b7619",
+      "catalogue_checked": "2026-10-06",
+      "catalogue_status": "Aggiornamento definitivo · efficace dal 29/07/2026",
+      "source_urls_attempted": [
+        "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+        "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3279&StwEvent=101",
+        "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "post_object_version": "6951600c5d45c844010bd04186939a03877fad4ce6ccc3eefae01e55734b7619"
+    },
+    {
+      "id": "centr-pai-tronto-140-2026",
+      "ref": "D.S. AUBAC 140/2026",
+      "base_object_version": "a7650de477d65f731e757e6497d8a4bad50acf55589a8b392b14ec11166df160",
+      "catalogue_checked": "2026-10-05",
+      "catalogue_status": "Aggiornamento definitivo · efficace dal 23/07/2026",
+      "source_urls_attempted": [
+        "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3267&StwEvent=101",
+        "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+        "https://cms.aubac.it/sites/default/files/2026-07/BURM%20n.%2068%20del%2023%20luglio%202026.pdf",
+        "https://www.aubac.it/news/notizie/rischio-idraulico-approvato-laggiornamento-delle-aree-rischio-di-esondazione-del-fiume-tronto-e-dei"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "post_object_version": "a7650de477d65f731e757e6497d8a4bad50acf55589a8b392b14ec11166df160"
+    },
+    {
+      "id": "centr-pai-offida-39-2026",
+      "ref": "D.S. AUBAC 39/2026",
+      "base_object_version": "7dcdf731c52518990b034527f8ade29f7c95f94375c36f3fb619a167da179ddc",
+      "catalogue_checked": "2026-10-05",
+      "catalogue_status": "Aggiornamento definitivo · efficace",
+      "source_urls_attempted": [
+        "https://aubac.it/decreti-segretariali-di-pianificazione-2025",
+        "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=2943&StwEvent=101",
+        "https://cms.aubac.it/sites/default/files/2026-03/N20%20del%2026%20febbraio%202026_0.pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "post_object_version": "7dcdf731c52518990b034527f8ade29f7c95f94375c36f3fb619a167da179ddc"
+    },
+    {
+      "id": "centr-pai-fosso-secco-20-2026",
+      "ref": "D.S. AUBAC 20/2026",
+      "base_object_version": "091ad171f7d9b5dcfdb420aacb9b16adc8afb5a1b65ffcb8a0af5df0f18cc428",
+      "catalogue_checked": "2026-10-08",
+      "catalogue_status": "Aggiornamento definitivo · efficace",
+      "source_urls_attempted": [
+        "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+        "https://aubac.it/news/notizie/rischio-idraulico-pubblicato-laggiornamento-definitivo-della-perimetrazione-del-bacino-del-fosso",
+        "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=2873&StwEvent=101"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "post_object_version": "091ad171f7d9b5dcfdb420aacb9b16adc8afb5a1b65ffcb8a0af5df0f18cc428"
+    },
+    {
+      "id": "centr-pai-vigna-corte-123-2026",
+      "ref": "D.S. AUBAC 123/2026",
+      "base_object_version": "186d526e9ad5bc12cbe9a9a08ea0528e075965c9d64e2c45984246aac24a4d08",
+      "catalogue_checked": "2026-10-08",
+      "catalogue_status": "Aggiornamento definitivo · efficace",
+      "source_urls_attempted": [
+        "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+        "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3210&StwEvent=101",
+        "https://www.aubac.it/news/notizie/rischio-idrogeologico-proposta-di-aggiornamento-pai-nel-comune-di-san-felice-circeo"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "post_object_version": "186d526e9ad5bc12cbe9a9a08ea0528e075965c9d64e2c45984246aac24a4d08"
+    },
+    {
+      "id": "po-pai-pgra-terdoppio-5-2026",
+      "ref": "D.S. AdB Po 5/2026 · progetto Terdoppio",
+      "base_object_version": "896557658a4254af649b38520b27d5b1edfe2a8fab3a32c2952d8a278b83e938",
+      "catalogue_checked": "2026-10-08",
+      "catalogue_status": "Progetto adottato · approvazione definitiva successiva",
+      "source_urls_attempted": [
+        "https://pai.adbpo.it/varianti-in-corso-2/",
+        "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_TERDOPPIO_2026/",
+        "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_TERDOPPIO_2026/DSG_5_2026.pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "post_object_version": "896557658a4254af649b38520b27d5b1edfe2a8fab3a32c2952d8a278b83e938"
+    },
+    {
+      "id": "po-pai-pgra-mera-27-2026",
+      "ref": "D.S. AdB Po 27/2026 · progetto Mera",
+      "base_object_version": "030effdaf7f5793023f56fe45f1eb2e5c78e1ee499d03cdfde49b432b72651c9",
+      "catalogue_checked": "2026-10-08",
+      "catalogue_status": "Progetto adottato · approvazione definitiva successiva",
+      "source_urls_attempted": [
+        "https://pai.adbpo.it/varianti-in-corso-2/",
+        "https://www.adbpo.it/PAI/PAI_PROG_Mera_Chiavenna_2026/",
+        "https://www.adbpo.it/PAI/PAI_PROG_Mera_Chiavenna_2026/DSG27_2026.pdf"
+      ],
+      "initial_outcome": "documentary_audit_in_progress",
+      "issues_or_pending": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "source_access": "attempted",
+      "documentary_outcome": "not_completed",
+      "review_scope": "Solo inventario e controllo delle URL; confronto giuridico/semantico completo non eseguito.",
+      "verified_aspects": [],
+      "legal_review_complete": false,
+      "pending": [
+        "Verificare identità, versione, contenuto, vigenza, modifiche e territorio sulle fonti ufficiali; consultare le ricevute senza dedurre risultati negativi dagli errori."
+      ],
+      "limitations": [
+        "Vigenza e catena completa delle modifiche non concluse nel presente inventario.",
+        "Verificare adozione, approvazione, efficacia, NTA, varianti e cartografie per il bacino effettivo; non dedurre il territorio dal confine regionale."
+      ],
+      "post_object_version": "030effdaf7f5793023f56fe45f1eb2e5c78e1ee499d03cdfde49b432b72651c9"
+    }
+  ]
+}

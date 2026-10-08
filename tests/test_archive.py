@@ -45,5 +45,12 @@ class ArchiveTests(unittest.TestCase):
             root = Path(temp); (root / 'dist').mkdir()
             with self.assertRaisesRegex(ValueError, 'dist/'): validate_repository(root)
 
+    def test_normative_history_cannot_be_lost(self):
+        data = copy.deepcopy(self.data)
+        record = next(r for r in data['records'] if r['history'])
+        record['history'] = []
+        with self.assertRaisesRegex(ValueError, 'cronologia precedente rimossa'):
+            validate_catalog(data, self.data)
+
 
 if __name__ == '__main__': unittest.main()

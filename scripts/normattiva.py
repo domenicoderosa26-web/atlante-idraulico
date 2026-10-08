@@ -46,6 +46,7 @@ class APIError(Exception):
 class Client:
     def __init__(self, transport=None):
         self.transport = transport or self._request
+        self.calls = []
 
     @staticmethod
     def _request(path, payload):
@@ -59,12 +60,18 @@ class Client:
 
     def post(self, path, payload):
         for attempt in range(3):
+            if len(self.calls) >= 120:
+                raise APIError('Limite di 120 richieste raggiunto: controllo incompleto, checkpoint conservato')
+            evidence = {'endpoint': path, 'attempt': attempt + 1, 'requested_at': stamp(utcnow()), 'request': copy.deepcopy(payload)}
+            self.calls.append(evidence)
             try:
                 result = self.transport(path, payload)
                 if not isinstance(result, dict) or result.get('code') not in (None, '0', 0):
                     raise APIError('Risposta API anomala: ' + str(result.get('message') if isinstance(result, dict) else result)[:140])
+                evidence.update(outcome='success', pages=result.get('numeroPagine'), total=result.get('numeroAttiTrovati'))
                 return result
             except (urllib.error.URLError, TimeoutError, APIError, ValueError) as exc:
+                evidence.update(outcome='error', error=str(exc)[:500])
                 if attempt == 2:
                     raise APIError(f'{path}: {exc}') from exc
                 time.sleep(2 ** attempt)
@@ -74,8 +81,14 @@ class Client:
             'dataInizioAggiornamento': start.isoformat(timespec='milliseconds').replace('+00:00', 'Z'),
             'dataFineAggiornamento': end.isoformat(timespec='milliseconds').replace('+00:00', 'Z')})
         acts = result.get('listaAtti')
-        if not isinstance(acts, list) or result.get('numeroPagine') not in (1, '1'):
-            raise APIError('Elenco incompleto o paginato: finestra da suddividere manualmente')
+        if not isinstance(acts, list):
+            raise APIError('Elenco aggiornamenti incompleto')
+        pages = result.get('numeroPagine')
+        if pages not in (1, '1'):
+            if isinstance(pages, (int, str)) and str(pages).isdigit() and int(pages) > 1 and end - start > dt.timedelta(hours=1):
+                middle = start + (end - start) / 2
+                return self.updated(start, middle) + self.updated(middle, end)
+            raise APIError('Elenco incompleto o paginato anche nella finestra minima')
         total = result.get('numeroAttiTrovati')
         if total is not None and int(total) != len(acts):
             raise APIError('Numero di atti discordante')
@@ -91,11 +104,15 @@ class Client:
         for category, status in (('3', 'ABROGATA'), ('2', 'MODIFICATA'), ('1', 'VIGENTE')):
             result = self.post('/ricerca/avanzata', dict(base, classeProvvedimento=category))
             acts = result.get('listaAtti')
-            if not isinstance(acts, list) or int(result.get('numeroPagine', 0)) > 1:
+            if not isinstance(acts, list) or any(not isinstance(a, dict) for a in acts) or int(result.get('numeroPagine', 0)) > 1:
                 raise APIError('Classificazione incompleta per ' + row['urn'])
+            if result.get('numeroAttiTrovati') is not None and int(result['numeroAttiTrovati']) != len(acts):
+                raise APIError('Conteggio classificazione discordante per ' + row['urn'])
             exact = [a for a in acts if matches(row, a) and
                      (not row.get('editorial_code') or a.get('codiceRedazionale') == row['editorial_code'])]
             if exact:
+                if len(exact) != 1:
+                    raise APIError('Identità multipla nella classificazione per ' + row['urn'])
                 found.append(status)
         if len(found) != 1:
             raise APIError('Classificazione ambigua per ' + row['urn'] + ': ' + repr(found))
@@ -121,6 +138,8 @@ def identity(act):
 
 
 def matches(row, act):
+    if not isinstance(act, dict):
+        return False
     if row.get('editorial_code') and act.get('codiceRedazionale') == row['editorial_code']:
         return True
     if not row.get('urn') or not isinstance(act, dict):
@@ -133,7 +152,8 @@ def matches(row, act):
 def verify_detail(row, detail):
     expected = row['date'].split('-')
     got = identity(detail)
-    return got == (expected[0], expected[1], expected[2], str(row['number']).lstrip('0'))
+    same_type = not detail.get('denominazioneAtto') or row['act_type'].upper() in detail['denominazioneAtto'].upper()
+    return same_type and got == (expected[0], expected[1], expected[2], str(row['number']).lstrip('0'))
 
 
 def validate(registry, records):
@@ -197,6 +217,11 @@ def monitor(registry, state, client, now):
                     'api_error': None, 'manual_review': True, 'last_update': updated,
                     'amending_code': row['amending_act']})
     checkpoint['last_successful_end'] = stamp(now)
+    checkpoint['interval_start'] = stamp(start)
+    checkpoint['phase'] = 'verificato'
+    checkpoint.pop('publication_verified_at', None)
+    checkpoint.pop('national_sha256', None)
+    checkpoint.pop('status_sha256', None)
     return out, checkpoint, events
 
 
@@ -208,11 +233,30 @@ def write_atomic(path, obj):
     os.replace(tmp, dest)
 
 
-def public_status(now, changes):
-    return {'last_completed_at': now.astimezone(ZoneInfo('Europe/Rome')).isoformat(timespec='seconds'),
-            'timezone': 'Europe/Rome', 'outcome': 'completato',
+def public_status(now, changes, previous=None):
+    # A completed API check is a candidate until both public files are verified.
+    previous = previous or {}
+    if previous.get('outcome') != 'completato':
+        previous = previous.get('last_successful_result') or {}
+    return {'last_completed_at': previous.get('last_completed_at'),
+            'verification_completed_at': now.astimezone(ZoneInfo('Europe/Rome')).isoformat(timespec='seconds'),
+            'timezone': 'Europe/Rome', 'outcome': 'verificato', 'publication_status': 'in_attesa',
             'sources': ['Normattiva Open Data: normativa nazionale'],
-            'changes_detected': changes, 'changes_published': changes, 'warnings': []}
+            'changes_detected': changes, 'changes_published': 0, 'warnings': [],
+            'last_successful_result': previous}
+
+
+def recover_events(previous, registry, events, checkpoint_start=None):
+    recovered = []
+    uncommitted_receipt = (checkpoint_start and previous.get('verification_completed_at')
+                          and parse(previous['verification_completed_at']) > parse(checkpoint_start))
+    if (previous.get('outcome') == 'verificato' or uncommitted_receipt) and previous.get('verification_completed_at'):
+        end = parse(previous['verification_completed_at'])
+        keys = {tuple(key) for key in previous.get('event_keys', [])}
+        recovered = [event for event in registry.get('news', []) if (event.get('id'), event.get('last_update')) in keys
+                     or (not keys and event.get('checked_at') and parse(event['checked_at']) == end)]
+    unique = {(e['id'], e.get('last_update')): e for e in recovered + events}
+    return list(unique.values())
 
 
 def main():
@@ -236,22 +280,44 @@ def main():
         raise ValueError('Log tecnico non valido')
     if not isinstance(state, dict) or 'last_successful_end' not in state:
         raise ValueError('Checkpoint non valido')
+    previous = json.loads(Path(args.public_status).read_text()) if Path(args.public_status).exists() else {}
+    client = Client()
+    attempt = {'started_at': stamp(now), 'interval_start': state['last_successful_end'],
+               'event': os.environ.get('GITHUB_EVENT_NAME'), 'outcome': 'in_corso'}
+    attempt_path = state_file.parent / 'attempt.json'
     try:
-        new_registry, new_state, events = monitor(registry, state, Client(), now)
+        new_registry, new_state, events = monitor(registry, state, client, now)
+        events = recover_events(previous, registry, events, state['last_successful_end'])
         validate(new_registry, json.loads(Path(args.data).read_text())['records'])
     except (APIError, ValueError) as exc:
+        write_atomic(attempt_path, dict(attempt, outcome='fallito', error=str(exc), calls=client.calls))
         log.append({'checked_at': stamp(now), 'id': None, 'urn': None, 'change': 'Controllo incompleto',
                     'previous_status': None, 'new_status': None, 'source': BASE,
                     'api_error': str(exc), 'manual_review': True})
-        write_atomic(log_file, log)
+        write_atomic(log_file, log[-500:])
         print(str(exc), file=sys.stderr)
         return 1
     if events:
-        new_registry['news'] = (events + registry.get('news', []))[:30]
+        unique_news = {}
+        for event in events + registry.get('news', []):
+            unique_news.setdefault((event['id'], event.get('last_update')), event)
+        new_registry['news'] = list(unique_news.values())[:30]
         write_atomic(args.registry, new_registry)
     write_atomic(args.state, new_state)
     write_atomic(args.log, (log + events)[-500:])
-    write_atomic(args.public_status, public_status(now, len(events)))
+    status = public_status(now, len(events), previous)
+    eligible = [r['id'] for r in registry['acts'] if r.get('urn') and r.get('api_supported', True)]
+    excluded = [r['id'] for r in registry['acts'] if r['id'] not in eligible]
+    status['scope'] = {'monitored_ids': eligible, 'excluded_ids': excluded, 'total_records': len(registry['acts'])}
+    if excluded:
+        status['warnings'] = ['Controllo API limitato agli atti con URN supportato; esclusi: ' + ', '.join(excluded)]
+    status['interval_start'] = state['last_successful_end']
+    status['event_keys'] = [[event['id'], event.get('last_update')] for event in events]
+    status['run_url'] = (os.environ.get('GITHUB_SERVER_URL', 'https://github.com') + '/' + os.environ['GITHUB_REPOSITORY']
+                         + '/actions/runs/' + os.environ['GITHUB_RUN_ID']) if os.environ.get('GITHUB_RUN_ID') else None
+    write_atomic(args.public_status, status)
+    write_atomic(attempt_path, dict(attempt, outcome='verificato', verification_completed_at=stamp(now), calls=client.calls,
+                                   monitored_ids=eligible, excluded_ids=excluded, changes_detected=len(events)))
     print(f'{len(events)} modifiche; checkpoint {new_state["last_successful_end"]}')
     return 0
 

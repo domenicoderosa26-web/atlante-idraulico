@@ -758,6 +758,10 @@
         {
           "date": "2026-09-18",
           "text": "Confermati applicazione regionale e aggiornamenti R.R. 8/2019 e R.R. 3/2025 sulla pagina istituzionale."
+        },
+        {
+          "date": "2026-10-08",
+          "text": "Audit incrementale, lotto 04: approfondimento documentale nel perimetro dichiarato e integrazione delle fonti pertinenti; revisione complessiva parziale."
         }
       ],
       "documents": [
@@ -769,10 +773,10 @@
       ],
       "document_url": "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/Accessibile/main.aspx?iddoc=rr002017112300007&view=showdoc",
       "document_label": "R.R. 7/2017 · testo coordinato",
-      "document_note": "Il collegamento apre direttamente il PDF del documento.",
+      "document_note": "Approfonditi art. 10 e art. 11, commi 1 e 2 lettera a, del testo coordinato ufficiale. Distinti Tr 50 per dimensionamento e Tr 100 per verifica qualitativa; conservata nella cronologia la precedente revisione documentale. Restano da completare metodi, allegati e catena degli aggiornamenti.",
       "documentary_review": {
         "checked_at": "2026-10-08",
-        "scope": "Lettura sostanziale circoscritta: Artt. 1 e 7; art. 14, comma 8; note di modifica al R.R. 3/2025",
+        "scope": "Approfondimento del testo coordinato: art. 10 completo e art. 11, commi 1 e 2 lettera a; conservati i precedenti riscontri artt. 1, 7 e 14.",
         "outcome": "partial",
         "legal_state": "partial",
         "source_urls": [
@@ -784,16 +788,54 @@
             "source_url": "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf",
             "locator": "Artt. 1 e 7; art. 14, comma 8; note di modifica al R.R. 3/2025",
             "finding": "Il testo esaminato distingue criticità territoriali A/B/C e documento semplificato comunale; questo considera criticità locali, misure strutturali/non strutturali, volumi riservati e infiltrazione. Le note riportano modifiche del R.R. 28 marzo 2025 n. 3; non è ricostruita la catena completa degli aggiornamenti."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf",
+            "locator": "Art. 10, commi 1-4",
+            "finding": "Il contenuto del progetto dipende da impermeabilizzazione e ambito A/B/C; distingue casi con requisiti minimi e piccoli interventi fino a 300 m². Include relazione, elaborati, manutenzione e asseverazione secondo i casi."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf",
+            "locator": "Art. 11, commi 1 e 2 lettera a",
+            "finding": "Il dimensionamento delle opere di laminazione/infiltrazione adotta Tr 50 anni; Tr 100 serve alla valutazione qualitativa dei danni e delle ulteriori protezioni per il rischio residuo. Non si scambiano dimensionamento e verifica."
           }
         ],
         "limitations": [
-          "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+          "La lettura non certifica tutti gli allegati, le cartografie o l’intera catena degli atti successivi."
         ],
         "pending": [
-          "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati."
+          "Completare art. 11, requisiti minimi e allegati di calcolo e ricostruire gli aggiornamenti ulteriori al testo coordinato esaminato."
         ],
-        "record_version": "c0ae778d4d2dd16a033413bf1695820226d58aeda46c3bfea39e3761ed92b604"
-      }
+        "record_version": "04928464548a9cf8ca67ed00abe39def0e7d216a06e672eeb60c7b1feee760e3"
+      },
+      "documentary_history": [
+        {
+          "checked_at": "2026-10-08",
+          "scope": "Lettura sostanziale circoscritta: Artt. 1 e 7; art. 14, comma 8; note di modifica al R.R. 3/2025",
+          "outcome": "partial",
+          "legal_state": "partial",
+          "source_urls": [
+            "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf"
+          ],
+          "claims": [
+            {
+              "aspect": "content",
+              "source_url": "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf",
+              "locator": "Artt. 1 e 7; art. 14, comma 8; note di modifica al R.R. 3/2025",
+              "finding": "Il testo esaminato distingue criticità territoriali A/B/C e documento semplificato comunale; questo considera criticità locali, misure strutturali/non strutturali, volumi riservati e infiltrazione. Le note riportano modifiche del R.R. 28 marzo 2025 n. 3; non è ricostruita la catena completa degli aggiornamenti."
+            }
+          ],
+          "limitations": [
+            "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+          ],
+          "pending": [
+            "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati."
+          ],
+          "record_version": "c0ae778d4d2dd16a033413bf1695820226d58aeda46c3bfea39e3761ed92b604"
+        }
+      ]
     },
     {
       "id": "sic102",
@@ -5587,7 +5629,7 @@
       "status": "Documentazione censita",
       "source_kind": "Autorità di bacino distrettuale",
       "note": "Bacini regionali nord-occidentali e Sarno. Per gli altri bacini campani consultare i rispettivi piani nell’indice distrettuale.",
-      "document_note": "Il PDF è estratto senza modifiche dall’archivio ZIP ufficiale “NORME PAI” pubblicato dall’Autorità di bacino distrettuale.",
+      "document_note": "Confermata la provenienza ufficiale: il PDF presente nel portale coincide byte per byte con il membro NORME PAI/CC_NORME-ATTUAZIONE_2015.pdf dello ZIP distrettuale. Aggiunto il contenitore ufficiale; letti i passaggi dichiarati, senza certificare tutte le varianti successive.",
       "checked": "2026-09-23",
       "relations": [
         {
@@ -5599,6 +5641,10 @@
         {
           "date": "2026-09-18",
           "text": "Inseriti rimandi specifici al piano e ai suoi elaborati."
+        },
+        {
+          "date": "2026-10-08",
+          "text": "Audit incrementale, lotto 04: approfondimento documentale nel perimetro dichiarato e integrazione delle fonti pertinenti; revisione complessiva parziale."
         }
       ],
       "documents": [
@@ -5607,8 +5653,52 @@
           "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/pai-campania-centrale-norme-attuazione-2015.pdf",
           "label": "PDF ufficiale · norme di attuazione PAI Campania Centrale",
           "group": "PAI"
+        },
+        {
+          "url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/Campania%20centrale/NORME%20PAI.zip",
+          "label": "ZIP istituzionale · NORME PAI · documenti 2015",
+          "format": "zip",
+          "group": "Fonte documentale",
+          "link_status": "checked",
+          "link_checked": "2026-10-08"
         }
-      ]
+      ],
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Provenienza ZIP istituzionale e corrispondenza binaria del PDF conservato; NTA 2015, passaggi art. 1 e artt. 14-15 e 18; Allegato A sez. A1, punti 1-2.",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/Campania%20centrale/NORME%20PAI.zip"
+        ],
+        "claims": [
+          {
+            "aspect": "version",
+            "source_url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/Campania%20centrale/NORME%20PAI.zip",
+            "locator": "Membro NORME PAI/CC_NORME-ATTUAZIONE_2015.pdf",
+            "finding": "Il PDF estratto dallo ZIP ufficiale è byte-identico al documento conservato nel sito: SHA-256 c8c63df6369f7685b4c1dc4d1d95768104962cd5ffe25d9497941e086f914574. Identità documentale provata, non attualità di tutte le perimetrazioni."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/Campania%20centrale/NORME%20PAI.zip",
+            "locator": "NTA 2015, artt. 14-15 e 18",
+            "finding": "Il testo distingue rischio idraulico elevato, medio/moderato e frane; art. 15 rinvia all’Allegato A per vulnerabilità topografica e condizioni degli interrati; art. 18 richiede valutazione del rischio residuo per mitigazione frane."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/Campania%20centrale/NORME%20PAI.zip",
+            "locator": "Allegato A, sez. A1, punti 1-2, pp. 3-4",
+            "finding": "Distinte verifiche di ammissibilità dell’ente e studi complessi su cui si esprime l’Autorità; previste esclusioni specifiche. Lo studio non sostituisce VIA o altri atti istruttori."
+          }
+        ],
+        "limitations": [
+          "La lettura non certifica tutti gli allegati, le cartografie o l’intera catena degli atti successivi."
+        ],
+        "pending": [
+          "Completare tutti gli allegati e riscontrare le varianti territoriali successive alla versione 2015, senza estendere questo PAI agli altri bacini campani."
+        ],
+        "record_version": "167290f8e0a31f2d7fc46c988cb20734a52d9c901dbbc9bf8a8fb69d3497d3f4"
+      }
     },
     {
       "id": "pai-biferno-e-minori",
@@ -5854,6 +5944,10 @@
         {
           "date": "2026-09-18",
           "text": "Scheda inserita dopo controllo mirato della disciplina regionale e distrettuale sull’invarianza idraulica."
+        },
+        {
+          "date": "2026-10-08",
+          "text": "Audit incrementale, lotto 04: approfondimento documentale nel perimetro dichiarato e integrazione delle fonti pertinenti; revisione complessiva parziale."
         }
       ],
       "documents": [
@@ -5866,7 +5960,44 @@
       ],
       "document_url": "https://autoritadibacino.regione.sardegna.it/ap/delibera-del-comitato-istituzionale-n-2-del-17-05-2017/",
       "document_label": "Delibera 2/2017 · pagina ufficiale con tutti gli allegati",
-      "document_note": "La pagina ufficiale raccoglie la deliberazione, la relazione, le tabelle, gli esempi di calcolo e le schede tecniche."
+      "document_note": "Letti la pagina dell’atto e i criteri 2017 per comparto, classi e tempi di ritorno. Distinti verifica complessiva Tr 50 e rete interna Tr minimo 20; esempi e applicabilità del testo attuale restano da completare.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Pagina ufficiale dell’atto; Relazione linee guida 2017, cap. 2 e inizio cap. 3, pp. 7-10; non tutti gli esempi e le schede.",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://autoritadibacino.regione.sardegna.it/ap/delibera-del-comitato-istituzionale-n-2-del-17-05-2017/",
+          "https://www.regione.sardegna.it/documenti/1_470_20170529141753.pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "identity",
+            "source_url": "https://autoritadibacino.regione.sardegna.it/ap/delibera-del-comitato-istituzionale-n-2-del-17-05-2017/",
+            "locator": "Stato, data e pubblicazione",
+            "finding": "Delibera C.I. n. 2 del 17 maggio 2017, BURAS n. 27 dell’8 giugno 2017; la pagina istituzionale indica «In vigore», senza sostituire la ricostruzione completa della catena normativa."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.regione.sardegna.it/documenti/1_470_20170529141753.pdf",
+            "locator": "Cap. 2, tabella 1 e criteri per classi a-d",
+            "finding": "Le classi dipendono dalla superficie territoriale dell’intero comparto, non dal singolo lotto; gli approfondimenti crescono con la superficie e richiedono ricognizione del recapito e misure compensative secondo la classe."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.regione.sardegna.it/documenti/1_470_20170529141753.pdf",
+            "locator": "Cap. 3, incipit, p. 10",
+            "finding": "Verifica complessiva dell’invarianza con Tr 50 anni; rete di dreno interna con Tr minimo 20 anni, incrementabile secondo l’urbanizzazione. I due valori hanno funzioni diverse."
+          }
+        ],
+        "limitations": [
+          "La lettura non certifica tutti gli allegati, le cartografie o l’intera catena degli atti successivi."
+        ],
+        "pending": [
+          "Completare esempi, schede e verificare l’art. 47 NTA PAI nel testo attuale e le eventuali modifiche delle linee guida."
+        ],
+        "record_version": "6b7b7854f9f19344e8c8737748f1b3685f60341b9ed8c4be39079174630057a4"
+      }
     },
     {
       "id": "lom4pp",
@@ -8084,6 +8215,22 @@
           "label": "Relazione generale",
           "format": "pdf",
           "group": "Relazione"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-06/AVVISO%20-%20PAI%20idraulico%20adozione%20definitiva_signed.pdf",
+          "label": "Avviso AUBAC · adozione definitiva e salvaguardie",
+          "format": "pdf",
+          "group": "Pubblicazione",
+          "link_status": "checked",
+          "link_checked": "2026-10-08"
+        },
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2026/06/04/127/sg/pdf",
+          "label": "G.U. n. 127 del 04/06/2026 · avvisi PAI AUBAC",
+          "format": "pdf",
+          "group": "Pubblicazione",
+          "link_status": "checked",
+          "link_checked": "2026-10-08"
         }
       ],
       "summary": "La CIP AUBAC ha adottato definitivamente il PAI idraulico distrettuale. Le misure di salvaguardia su disposizioni, allegati e mappe individuati dalla Deliberazione 67/2026 sono vincolanti dal 4 giugno 2026, data di pubblicazione dell’avviso in G.U. n. 127, fino all’approvazione con D.P.C.M. e comunque per non oltre tre anni.",
@@ -8107,11 +8254,59 @@
         {
           "date": "2026-10-04",
           "text": "Scheda creata da pagina ufficiale, Deliberazione CIP 67/2026, NTA e relazione generale; verificata l’operatività delle misure di salvaguardia dal 04/06/2026."
+        },
+        {
+          "date": "2026-10-08",
+          "text": "Audit incrementale, lotto 04: approfondimento documentale nel perimetro dichiarato e integrazione delle fonti pertinenti; revisione complessiva parziale."
         }
       ],
       "document_url": "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2067%20-%20PAI%20IDRAULICO_signed_signed_0.pdf",
       "document_label": "Deliberazione CIP 67/2026",
-      "document_note": "Atto di adozione definitiva con elenco puntuale delle disposizioni e mappe poste in salvaguardia."
+      "document_note": "Letti dispositivo completo e avvisi ufficiali; aggiunti avviso AUBAC e fascicolo G.U. n. 127/2026. La salvaguardia si applica al perimetro elencato nell’art. 3, distinto dall’approvazione del Piano con D.P.C.M.; la revisione complessiva resta parziale.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Dispositivo completo della CIP, artt. 1-6; avviso AUBAC completo e passaggi degli avvisi G.U. n. 127/2026. NTA, allegati e cartografie non integralmente riesaminati.",
+        "outcome": "partial",
+        "legal_state": "adopted",
+        "source_urls": [
+          "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2067%20-%20PAI%20IDRAULICO_signed_signed_0.pdf",
+          "https://www.gazzettaufficiale.it/eli/gu/2026/06/04/127/sg/pdf",
+          "https://cms.aubac.it/sites/default/files/2026-06/AVVISO%20-%20PAI%20idraulico%20adozione%20definitiva_signed.pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "approval",
+            "source_url": "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2067%20-%20PAI%20IDRAULICO_signed_signed_0.pdf",
+            "locator": "CIP 67/2026, artt. 1-3",
+            "finding": "Adozione definitiva del 26 maggio 2026, distinta dall’approvazione con D.P.C.M. Art. 3 elenca puntualmente disposizioni, Allegati 2-3 e mappe poste in salvaguardia, con definizioni necessarie all’applicazione; non tutte le NTA diventano automaticamente vincolanti."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2067%20-%20PAI%20IDRAULICO_signed_signed_0.pdf",
+            "locator": "Art. 4, disciplina transitoria",
+            "finding": "Gli aggiornamenti cartografici già avviati proseguono secondo i PAI previgenti, con rispetto delle salvaguardie e integrazione metodologica; gli esiti allineano il quadro distrettuale. Non si presume sostituita tutta la disciplina preesistente."
+          },
+          {
+            "aspect": "effectiveness",
+            "source_url": "https://www.gazzettaufficiale.it/eli/gu/2026/06/04/127/sg/pdf",
+            "locator": "G.U. n. 127 del 4 giugno 2026, pp. 24-25, comunicati 26A02758/26A02762",
+            "finding": "Gli avvisi pubblicati rendono le misure individuate immediatamente vincolanti dalla pubblicazione, fino al D.P.C.M. e comunque entro tre anni. Non è verificata in questo lotto l’intera catena degli atti successivi."
+          },
+          {
+            "aspect": "version",
+            "source_url": "https://cms.aubac.it/sites/default/files/2026-06/AVVISO%20-%20PAI%20idraulico%20adozione%20definitiva_signed.pdf",
+            "locator": "Avviso AUBAC, due pagine",
+            "finding": "L’avviso riporta la stessa adozione e il perimetro delle salvaguardie; è distinto dal fascicolo G.U. che prova la data di pubblicazione."
+          }
+        ],
+        "limitations": [
+          "La lettura non certifica tutti gli allegati, le cartografie o l’intera catena degli atti successivi."
+        ],
+        "pending": [
+          "Completare le NTA e gli allegati, verificare mappe applicabili alle singole aree e gli atti successivi di approvazione o modifica."
+        ],
+        "record_version": "81f2bfa423bd78912a1bcab33306dc888713e5425336d43e7baefcb66d6a31d9"
+      }
     },
     {
       "id": "centr-pai-frane-68-2026",
@@ -8144,6 +8339,22 @@
           "label": "NTA con allegati · testo definitivo adottato",
           "format": "pdf",
           "group": "Norme"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-06/AVVISO%20-%20PAI%20frane%20adozione%20definitiva_signed.pdf",
+          "label": "Avviso AUBAC · adozione definitiva e salvaguardie",
+          "format": "pdf",
+          "group": "Pubblicazione",
+          "link_status": "checked",
+          "link_checked": "2026-10-08"
+        },
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2026/06/04/127/sg/pdf",
+          "label": "G.U. n. 127 del 04/06/2026 · avvisi PAI AUBAC",
+          "format": "pdf",
+          "group": "Pubblicazione",
+          "link_status": "checked",
+          "link_checked": "2026-10-08"
         }
       ],
       "summary": "La CIP AUBAC ha adottato definitivamente il PAI frane distrettuale. Le misure di salvaguardia sulle disposizioni, sugli allegati e sulla cartografia individuati dalla Deliberazione 68/2026 sono vincolanti dal 4 giugno 2026, data di pubblicazione dell’avviso in G.U. n. 127, fino all’approvazione con D.P.C.M. e comunque per non oltre tre anni.",
@@ -8167,11 +8378,59 @@
         {
           "date": "2026-10-04",
           "text": "Scheda creata da pagina ufficiale, Deliberazione CIP 68/2026 e NTA; verificata l’operatività delle misure di salvaguardia dal 04/06/2026."
+        },
+        {
+          "date": "2026-10-08",
+          "text": "Audit incrementale, lotto 04: approfondimento documentale nel perimetro dichiarato e integrazione delle fonti pertinenti; revisione complessiva parziale."
         }
       ],
       "document_url": "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2068%20-%20PAI%20FRANE_signed_signed_0.pdf",
       "document_label": "Deliberazione CIP 68/2026",
-      "document_note": "Atto di adozione definitiva con elenco puntuale delle disposizioni, degli allegati e della cartografia posti in salvaguardia."
+      "document_note": "Letti dispositivo completo e avvisi ufficiali; aggiunti avviso AUBAC e fascicolo G.U. n. 127/2026. La salvaguardia si applica al perimetro elencato nell’art. 3, distinto dall’approvazione del Piano con D.P.C.M.; la revisione complessiva resta parziale.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Dispositivo completo della CIP, artt. 1-6; avviso AUBAC completo e passaggi degli avvisi G.U. n. 127/2026. NTA, allegati e cartografie non integralmente riesaminati.",
+        "outcome": "partial",
+        "legal_state": "adopted",
+        "source_urls": [
+          "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2068%20-%20PAI%20FRANE_signed_signed_0.pdf",
+          "https://www.gazzettaufficiale.it/eli/gu/2026/06/04/127/sg/pdf",
+          "https://cms.aubac.it/sites/default/files/2026-06/AVVISO%20-%20PAI%20frane%20adozione%20definitiva_signed.pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "approval",
+            "source_url": "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2068%20-%20PAI%20FRANE_signed_signed_0.pdf",
+            "locator": "CIP 68/2026, artt. 1-3",
+            "finding": "Adozione definitiva del 26 maggio 2026, distinta dall’approvazione con D.P.C.M. Art. 3 elenca artt. 7-8, sezioni A degli artt. 9-10, art. 21 commi 1-5, art. 24 commi 12-13, Allegati 1 e 5 e cartografia. La salvaguardia riguarda questi elementi individuati."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2068%20-%20PAI%20FRANE_signed_signed_0.pdf",
+            "locator": "Art. 4, disciplina transitoria",
+            "finding": "Gli aggiornamenti cartografici già avviati proseguono secondo i PAI previgenti, con rispetto delle salvaguardie e integrazione metodologica; gli esiti allineano il quadro distrettuale. Non si presume sostituita tutta la disciplina preesistente."
+          },
+          {
+            "aspect": "effectiveness",
+            "source_url": "https://www.gazzettaufficiale.it/eli/gu/2026/06/04/127/sg/pdf",
+            "locator": "G.U. n. 127 del 4 giugno 2026, pp. 24-25, comunicati 26A02758/26A02762",
+            "finding": "Gli avvisi pubblicati rendono le misure individuate immediatamente vincolanti dalla pubblicazione, fino al D.P.C.M. e comunque entro tre anni. Non è verificata in questo lotto l’intera catena degli atti successivi."
+          },
+          {
+            "aspect": "version",
+            "source_url": "https://cms.aubac.it/sites/default/files/2026-06/AVVISO%20-%20PAI%20frane%20adozione%20definitiva_signed.pdf",
+            "locator": "Avviso AUBAC, due pagine",
+            "finding": "L’avviso riporta la stessa adozione e il perimetro delle salvaguardie; è distinto dal fascicolo G.U. che prova la data di pubblicazione."
+          }
+        ],
+        "limitations": [
+          "La lettura non certifica tutti gli allegati, le cartografie o l’intera catena degli atti successivi."
+        ],
+        "pending": [
+          "Completare le NTA e gli allegati, verificare mappe applicabili alle singole aree e gli atti successivi di approvazione o modifica."
+        ],
+        "record_version": "538cafbcd78fe246ccf2fab0585fa7171f70cdf2e4c22cb2113cb75e246c0417"
+      }
     },
     {
       "id": "centr-pai-nestore-139-2026",
@@ -10138,6 +10397,41 @@
     }
   ],
   "runs": [
+    {
+      "date": "2026-10-08",
+      "type": "Audit incrementale · lotto 04 · PAI e invarianza",
+      "summary": "Cinque verifiche circoscritte: PAI AUBAC idraulico e frane, invarianza Sardegna, PAI Campania Centrale, approfondimento Lombardia. Confermata provenienza binaria Campania; aggiunti avvisi e pubblicazioni ufficiali; revisioni parziali.",
+      "checked": [
+        "centr-pai-idraulico-67-2026",
+        "centr-pai-frane-68-2026",
+        "sar-inv-2017",
+        "pai-campania",
+        "lom7"
+      ],
+      "read_urls": [
+        "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2067%20-%20PAI%20IDRAULICO_signed_signed_0.pdf",
+        "https://www.gazzettaufficiale.it/eli/gu/2026/06/04/127/sg/pdf",
+        "https://cms.aubac.it/sites/default/files/2026-06/AVVISO%20-%20PAI%20idraulico%20adozione%20definitiva_signed.pdf",
+        "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2068%20-%20PAI%20FRANE_signed_signed_0.pdf",
+        "https://cms.aubac.it/sites/default/files/2026-06/AVVISO%20-%20PAI%20frane%20adozione%20definitiva_signed.pdf",
+        "https://autoritadibacino.regione.sardegna.it/ap/delibera-del-comitato-istituzionale-n-2-del-17-05-2017/",
+        "https://www.regione.sardegna.it/documenti/1_470_20170529141753.pdf",
+        "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/Campania%20centrale/NORME%20PAI.zip",
+        "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf"
+      ],
+      "errors": [
+        "Allegati, cartografie e catene successive da completare; nuovo accesso alla pagina Sardegna in timeout, lettura sulla fonte acquisita oggi e conservata con hash."
+      ],
+      "updated_records": [
+        "centr-pai-idraulico-67-2026",
+        "centr-pai-frane-68-2026",
+        "sar-inv-2017",
+        "pai-campania",
+        "lom7"
+      ],
+      "new_records": [],
+      "publication": "data_json_update"
+    },
     {
       "date": "2026-10-08",
       "type": "Audit incrementale · lotto 03 · fonti regionali e comunali",

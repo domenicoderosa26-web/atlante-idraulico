@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "catalog_path": "data.json",
-  "updated_at": "2026-10-08T19:50:58.156798+00:00",
+  "updated_at": "2026-10-08T20:02:43.096713+00:00",
   "basis": [
     "docs/audit/2026-10-08/schede.json",
     "docs/audit/2026-10-08/coda.json",
@@ -11,7 +11,7 @@
   "note": "Registro derivato di attività: non è un secondo catalogo. Le revisioni anteriori sono conservate negli audit citati e in data.json. I conteggi sono una fotografia alla data indicata.",
   "catalog_snapshot": {
     "records": 106,
-    "documentary_reviews": 76,
+    "documentary_reviews": 80,
     "without_documentary_review": [
       "er1860",
       "abr17",
@@ -29,15 +29,11 @@
       "pai-basilicata",
       "pai-lgv",
       "pai-puglia",
-      "pai-campania",
       "pai-biferno-e-minori",
       "pai-trigno",
       "pai-fortore",
-      "sar-inv-2017",
       "codstrada285",
       "dpr495",
-      "centr-pai-idraulico-67-2026",
-      "centr-pai-frane-68-2026",
       "sett-pgra-variante-62-2026",
       "centr-pai-fosso-secco-20-2026",
       "centr-pai-vigna-corte-123-2026",
@@ -362,7 +358,11 @@
       "record_version": "d895104854e1031d124651dc86038286468a328dcb62d616f6b05238cd213d0c",
       "evidence": "docs/audit/2026-10-08/incrementale/lotto-03.json",
       "publication": {
-        "state": "validated_pending_deployment"
+        "state": "published_verified",
+        "pr": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/10",
+        "merge_commit": "b43141018aaae2c6502b82607a61544c0866c274",
+        "receipt": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-03.json",
+        "checked_at": "2026-10-08T19:54:30.784200+00:00"
       },
       "history": []
     },
@@ -387,7 +387,11 @@
       "record_version": "ffec7a36734e1fa3b82aef6e194cb0fa755c5fa62253cfac2e39a74c918814e6",
       "evidence": "docs/audit/2026-10-08/incrementale/lotto-03.json",
       "publication": {
-        "state": "validated_pending_deployment"
+        "state": "published_verified",
+        "pr": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/10",
+        "merge_commit": "b43141018aaae2c6502b82607a61544c0866c274",
+        "receipt": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-03.json",
+        "checked_at": "2026-10-08T19:54:30.784200+00:00"
       },
       "history": []
     },
@@ -414,7 +418,11 @@
       "record_version": "7ec4c95f8b20e6661de4e4e77dda3d59a4a54e363d5fdbaf75aa793f5bc4f389",
       "evidence": "docs/audit/2026-10-08/incrementale/lotto-03.json",
       "publication": {
-        "state": "validated_pending_deployment"
+        "state": "published_verified",
+        "pr": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/10",
+        "merge_commit": "b43141018aaae2c6502b82607a61544c0866c274",
+        "receipt": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-03.json",
+        "checked_at": "2026-10-08T19:54:30.784200+00:00"
       },
       "history": []
     },
@@ -439,7 +447,11 @@
       "record_version": "113bf2ceac0ccfbecafdbbe7097054934967c0dd0e8a80390e8db6a69d52dbdb",
       "evidence": "docs/audit/2026-10-08/incrementale/lotto-03.json",
       "publication": {
-        "state": "validated_pending_deployment"
+        "state": "published_verified",
+        "pr": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/10",
+        "merge_commit": "b43141018aaae2c6502b82607a61544c0866c274",
+        "receipt": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-03.json",
+        "checked_at": "2026-10-08T19:54:30.784200+00:00"
       },
       "history": []
     },
@@ -467,6 +479,137 @@
       ],
       "record_version": "0af1e0a77331af43aabfbb76707db56b4d5d1676b36274057c0cd1aea03402e0",
       "evidence": "docs/audit/2026-10-08/incrementale/lotto-03.json",
+      "publication": {
+        "state": "published_verified",
+        "pr": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/10",
+        "merge_commit": "b43141018aaae2c6502b82607a61544c0866c274",
+        "receipt": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-03.json",
+        "checked_at": "2026-10-08T19:54:30.784200+00:00"
+      },
+      "history": []
+    },
+    "centr-pai-idraulico-67-2026": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-08T20:02:43.096713+00:00",
+      "source_urls": [
+        "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2067%20-%20PAI%20IDRAULICO_signed_signed_0.pdf",
+        "https://www.gazzettaufficiale.it/eli/gu/2026/06/04/127/sg/pdf",
+        "https://cms.aubac.it/sites/default/files/2026-06/AVVISO%20-%20PAI%20idraulico%20adozione%20definitiva_signed.pdf"
+      ],
+      "verified_results": [
+        "Adozione definitiva del 26 maggio 2026, distinta dall’approvazione con D.P.C.M. Art. 3 elenca puntualmente disposizioni, Allegati 2-3 e mappe poste in salvaguardia, con definizioni necessarie all’applicazione; non tutte le NTA diventano automaticamente vincolanti.",
+        "Gli aggiornamenti cartografici già avviati proseguono secondo i PAI previgenti, con rispetto delle salvaguardie e integrazione metodologica; gli esiti allineano il quadro distrettuale. Non si presume sostituita tutta la disciplina preesistente.",
+        "Gli avvisi pubblicati rendono le misure individuate immediatamente vincolanti dalla pubblicazione, fino al D.P.C.M. e comunque entro tre anni. Non è verificata in questo lotto l’intera catena degli atti successivi.",
+        "L’avviso riporta la stessa adozione e il perimetro delle salvaguardie; è distinto dal fascicolo G.U. che prova la data di pubblicazione."
+      ],
+      "limitations": [
+        "La lettura non certifica tutti gli allegati, le cartografie o l’intera catena degli atti successivi."
+      ],
+      "next_operation": [
+        "Completare le NTA e gli allegati, verificare mappe applicabili alle singole aree e gli atti successivi di approvazione o modifica."
+      ],
+      "record_version": "81f2bfa423bd78912a1bcab33306dc888713e5425336d43e7baefcb66d6a31d9",
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-04.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
+    },
+    "centr-pai-frane-68-2026": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-08T20:02:43.096713+00:00",
+      "source_urls": [
+        "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2068%20-%20PAI%20FRANE_signed_signed_0.pdf",
+        "https://www.gazzettaufficiale.it/eli/gu/2026/06/04/127/sg/pdf",
+        "https://cms.aubac.it/sites/default/files/2026-06/AVVISO%20-%20PAI%20frane%20adozione%20definitiva_signed.pdf"
+      ],
+      "verified_results": [
+        "Adozione definitiva del 26 maggio 2026, distinta dall’approvazione con D.P.C.M. Art. 3 elenca artt. 7-8, sezioni A degli artt. 9-10, art. 21 commi 1-5, art. 24 commi 12-13, Allegati 1 e 5 e cartografia. La salvaguardia riguarda questi elementi individuati.",
+        "Gli aggiornamenti cartografici già avviati proseguono secondo i PAI previgenti, con rispetto delle salvaguardie e integrazione metodologica; gli esiti allineano il quadro distrettuale. Non si presume sostituita tutta la disciplina preesistente.",
+        "Gli avvisi pubblicati rendono le misure individuate immediatamente vincolanti dalla pubblicazione, fino al D.P.C.M. e comunque entro tre anni. Non è verificata in questo lotto l’intera catena degli atti successivi.",
+        "L’avviso riporta la stessa adozione e il perimetro delle salvaguardie; è distinto dal fascicolo G.U. che prova la data di pubblicazione."
+      ],
+      "limitations": [
+        "La lettura non certifica tutti gli allegati, le cartografie o l’intera catena degli atti successivi."
+      ],
+      "next_operation": [
+        "Completare le NTA e gli allegati, verificare mappe applicabili alle singole aree e gli atti successivi di approvazione o modifica."
+      ],
+      "record_version": "538cafbcd78fe246ccf2fab0585fa7171f70cdf2e4c22cb2113cb75e246c0417",
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-04.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
+    },
+    "sar-inv-2017": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-08T20:02:43.096713+00:00",
+      "source_urls": [
+        "https://autoritadibacino.regione.sardegna.it/ap/delibera-del-comitato-istituzionale-n-2-del-17-05-2017/",
+        "https://www.regione.sardegna.it/documenti/1_470_20170529141753.pdf"
+      ],
+      "verified_results": [
+        "Delibera C.I. n. 2 del 17 maggio 2017, BURAS n. 27 dell’8 giugno 2017; la pagina istituzionale indica «In vigore», senza sostituire la ricostruzione completa della catena normativa.",
+        "Le classi dipendono dalla superficie territoriale dell’intero comparto, non dal singolo lotto; gli approfondimenti crescono con la superficie e richiedono ricognizione del recapito e misure compensative secondo la classe.",
+        "Verifica complessiva dell’invarianza con Tr 50 anni; rete di dreno interna con Tr minimo 20 anni, incrementabile secondo l’urbanizzazione. I due valori hanno funzioni diverse."
+      ],
+      "limitations": [
+        "La lettura non certifica tutti gli allegati, le cartografie o l’intera catena degli atti successivi."
+      ],
+      "next_operation": [
+        "Completare esempi, schede e verificare l’art. 47 NTA PAI nel testo attuale e le eventuali modifiche delle linee guida."
+      ],
+      "record_version": "6b7b7854f9f19344e8c8737748f1b3685f60341b9ed8c4be39079174630057a4",
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-04.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
+    },
+    "pai-campania": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-08T20:02:43.096713+00:00",
+      "source_urls": [
+        "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/Campania%20centrale/NORME%20PAI.zip"
+      ],
+      "verified_results": [
+        "Il PDF estratto dallo ZIP ufficiale è byte-identico al documento conservato nel sito: SHA-256 c8c63df6369f7685b4c1dc4d1d95768104962cd5ffe25d9497941e086f914574. Identità documentale provata, non attualità di tutte le perimetrazioni.",
+        "Il testo distingue rischio idraulico elevato, medio/moderato e frane; art. 15 rinvia all’Allegato A per vulnerabilità topografica e condizioni degli interrati; art. 18 richiede valutazione del rischio residuo per mitigazione frane.",
+        "Distinte verifiche di ammissibilità dell’ente e studi complessi su cui si esprime l’Autorità; previste esclusioni specifiche. Lo studio non sostituisce VIA o altri atti istruttori."
+      ],
+      "limitations": [
+        "La lettura non certifica tutti gli allegati, le cartografie o l’intera catena degli atti successivi."
+      ],
+      "next_operation": [
+        "Completare tutti gli allegati e riscontrare le varianti territoriali successive alla versione 2015, senza estendere questo PAI agli altri bacini campani."
+      ],
+      "record_version": "167290f8e0a31f2d7fc46c988cb20734a52d9c901dbbc9bf8a8fb69d3497d3f4",
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-04.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
+    },
+    "lom7": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-08T20:02:43.096713+00:00",
+      "source_urls": [
+        "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf"
+      ],
+      "verified_results": [
+        "Il testo esaminato distingue criticità territoriali A/B/C e documento semplificato comunale; questo considera criticità locali, misure strutturali/non strutturali, volumi riservati e infiltrazione. Le note riportano modifiche del R.R. 28 marzo 2025 n. 3; non è ricostruita la catena completa degli aggiornamenti.",
+        "Il contenuto del progetto dipende da impermeabilizzazione e ambito A/B/C; distingue casi con requisiti minimi e piccoli interventi fino a 300 m². Include relazione, elaborati, manutenzione e asseverazione secondo i casi.",
+        "Il dimensionamento delle opere di laminazione/infiltrazione adotta Tr 50 anni; Tr 100 serve alla valutazione qualitativa dei danni e delle ulteriori protezioni per il rischio residuo. Non si scambiano dimensionamento e verifica."
+      ],
+      "limitations": [
+        "La lettura non certifica tutti gli allegati, le cartografie o l’intera catena degli atti successivi."
+      ],
+      "next_operation": [
+        "Completare art. 11, requisiti minimi e allegati di calcolo e ricostruire gli aggiornamenti ulteriori al testo coordinato esaminato."
+      ],
+      "record_version": "04928464548a9cf8ca67ed00abe39def0e7d216a06e672eeb60c7b1feee760e3",
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-04.json",
       "publication": {
         "state": "validated_pending_deployment"
       },
@@ -524,15 +667,34 @@
       ],
       "evidence": "docs/audit/2026-10-08/incrementale/lotto-03.json",
       "publication": {
+        "state": "published_verified",
+        "pr": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/10",
+        "merge_commit": "b43141018aaae2c6502b82607a61544c0866c274",
+        "receipt": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-03.json",
+        "checked_at": "2026-10-08T19:54:30.784200+00:00"
+      }
+    },
+    {
+      "id": "incrementale-04",
+      "date": "2026-10-08",
+      "record_ids": [
+        "centr-pai-idraulico-67-2026",
+        "centr-pai-frane-68-2026",
+        "sar-inv-2017",
+        "pai-campania",
+        "lom7"
+      ],
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-04.json",
+      "publication": {
         "state": "validated_pending_deployment"
       }
     }
   ],
   "next_batch": [
-    "centr-pai-idraulico-67-2026",
-    "centr-pai-frane-68-2026",
-    "sar-inv-2017",
-    "pai-campania",
-    "lom7"
+    "centr-pai-fosso-secco-20-2026",
+    "centr-pai-vigna-corte-123-2026",
+    "sett-pgra-variante-62-2026",
+    "po-pai-pgra-terdoppio-5-2026",
+    "po-pai-pgra-mera-27-2026"
   ]
 }

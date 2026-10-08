@@ -1,0 +1,69 @@
+{
+  "checked_at": "2026-10-08T20:03:23.057381+00:00",
+  "base_commit": "6b06034e5ce4d5915c8483cc98b6d0fb19ddfa89",
+  "records_before": 106,
+  "records_after": 106,
+  "document_links_before": 158,
+  "document_links_after": 163,
+  "ids_preserved": true,
+  "existing_documents_preserved": true,
+  "existing_reviews_and_histories_preserved": true,
+  "canonical_topics_and_relations_unchanged": true,
+  "protected_files_unchanged": true,
+  "modified_records": [
+    {
+      "id": "lom7",
+      "fields": [
+        "document_note",
+        "documentary_history",
+        "documentary_review",
+        "history"
+      ]
+    },
+    {
+      "id": "pai-campania",
+      "fields": [
+        "document_note",
+        "documentary_review",
+        "documents",
+        "history"
+      ]
+    },
+    {
+      "id": "sar-inv-2017",
+      "fields": [
+        "document_note",
+        "documentary_review",
+        "history"
+      ]
+    },
+    {
+      "id": "centr-pai-idraulico-67-2026",
+      "fields": [
+        "document_note",
+        "documentary_review",
+        "documents",
+        "history"
+      ]
+    },
+    {
+      "id": "centr-pai-frane-68-2026",
+      "fields": [
+        "document_note",
+        "documentary_review",
+        "documents",
+        "history"
+      ]
+    }
+  ],
+  "checks": {
+    "topics_normalize": "passed; zero unresolved",
+    "topics_validate": "passed",
+    "archive_with_base": "passed",
+    "python_unittest": "60 passed",
+    "node_syntax": "passed",
+    "node_topic_filters": "passed; 14 categories, 168 combinations, loading/search",
+    "git_diff_check": "passed"
+  },
+  "publication": "CI and Pages still to verify after publication"
+}

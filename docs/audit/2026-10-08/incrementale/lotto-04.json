@@ -1,0 +1,631 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-08",
+  "base_commit": "6b06034e5ce4d5915c8483cc98b6d0fb19ddfa89",
+  "records": [
+    {
+      "id": "centr-pai-idraulico-67-2026",
+      "consulted_at": "2026-10-08T20:02:43.096713+00:00",
+      "content_examined": true,
+      "legal_review_complete": false,
+      "source_documents": [
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2067%20-%20PAI%20IDRAULICO_signed_signed_0.pdf",
+          "references": [
+            {
+              "id": "centr-pai-idraulico-67-2026",
+              "field": "documents.0.url"
+            },
+            {
+              "id": "centr-pai-idraulico-67-2026",
+              "field": "document_url"
+            }
+          ],
+          "checked_at": "2026-10-08T12:27:19.898070+00:00",
+          "attempts": [
+            {
+              "at": "2026-10-08T12:27:34.452444+00:00",
+              "http_status": 200,
+              "seconds": 14.55
+            }
+          ],
+          "body_key": "6e54a1c31f1e1817514cb3b52105415c8efbc519626e7f1612783f13951ac442",
+          "http_status": 200,
+          "final_url": "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2067%20-%20PAI%20IDRAULICO_signed_signed_0.pdf",
+          "content_type": "application/pdf",
+          "redirects": [],
+          "bytes": 309119,
+          "sha256": "8dff9b617f73776bda6551dbdfd8080bacf3bbb1e334baca1b5c3393cb0d04e7",
+          "truncated": false,
+          "pdf_signature": true,
+          "text_extraction": "ok",
+          "text_characters": 29294,
+          "transport_result": "retrieved_pdf"
+        },
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2026/06/04/127/sg/pdf",
+          "checked_at": "2026-10-08T19:55:10.086325+00:00",
+          "http_status": 200,
+          "final_url": "https://www.gazzettaufficiale.it/eli/gu/2026/06/04/127/sg/pdf",
+          "content_type": "application/pdf",
+          "sha256": "319fb0422ad46ac1ebe7bc2b2cd99a0a4f9cf39f1e53710e07d9dd5b1b968b20",
+          "bytes": 2194592,
+          "body_key": "7e3f55c810063a9851aea6ee213bd292d4565793225e49ee76865ea387e57cf0",
+          "pdf_signature": true
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-06/AVVISO%20-%20PAI%20idraulico%20adozione%20definitiva_signed.pdf",
+          "checked_at": "2026-10-08T19:55:10.085189+00:00",
+          "http_status": 200,
+          "final_url": "https://cms.aubac.it/sites/default/files/2026-06/AVVISO%20-%20PAI%20idraulico%20adozione%20definitiva_signed.pdf",
+          "content_type": "application/pdf",
+          "sha256": "158eae56d938fbdb36d5efbcd4d15ac153e51733b04bf0ec96e10786054b5401",
+          "bytes": 164127,
+          "body_key": "08e0174152449a34e9637475235d022544c4c086b34a5592f7ab32540529b0e9",
+          "pdf_signature": true
+        }
+      ],
+      "observations": [
+        {
+          "aspect": "approval",
+          "source_url": "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2067%20-%20PAI%20IDRAULICO_signed_signed_0.pdf",
+          "locator": "CIP 67/2026, artt. 1-3",
+          "finding": "Adozione definitiva del 26 maggio 2026, distinta dall’approvazione con D.P.C.M. Art. 3 elenca puntualmente disposizioni, Allegati 2-3 e mappe poste in salvaguardia, con definizioni necessarie all’applicazione; non tutte le NTA diventano automaticamente vincolanti."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2067%20-%20PAI%20IDRAULICO_signed_signed_0.pdf",
+          "locator": "Art. 4, disciplina transitoria",
+          "finding": "Gli aggiornamenti cartografici già avviati proseguono secondo i PAI previgenti, con rispetto delle salvaguardie e integrazione metodologica; gli esiti allineano il quadro distrettuale. Non si presume sostituita tutta la disciplina preesistente."
+        },
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://www.gazzettaufficiale.it/eli/gu/2026/06/04/127/sg/pdf",
+          "locator": "G.U. n. 127 del 4 giugno 2026, pp. 24-25, comunicati 26A02758/26A02762",
+          "finding": "Gli avvisi pubblicati rendono le misure individuate immediatamente vincolanti dalla pubblicazione, fino al D.P.C.M. e comunque entro tre anni. Non è verificata in questo lotto l’intera catena degli atti successivi."
+        },
+        {
+          "aspect": "version",
+          "source_url": "https://cms.aubac.it/sites/default/files/2026-06/AVVISO%20-%20PAI%20idraulico%20adozione%20definitiva_signed.pdf",
+          "locator": "Avviso AUBAC, due pagine",
+          "finding": "L’avviso riporta la stessa adozione e il perimetro delle salvaguardie; è distinto dal fascicolo G.U. che prova la data di pubblicazione."
+        }
+      ],
+      "limitations": [
+        "La lettura non certifica tutti gli allegati, le cartografie o l’intera catena degli atti successivi."
+      ],
+      "pending": [
+        "Completare le NTA e gli allegati, verificare mappe applicabili alle singole aree e gli atti successivi di approvazione o modifica."
+      ],
+      "previous_review_preserved": false
+    },
+    {
+      "id": "centr-pai-frane-68-2026",
+      "consulted_at": "2026-10-08T20:02:43.096713+00:00",
+      "content_examined": true,
+      "legal_review_complete": false,
+      "source_documents": [
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2068%20-%20PAI%20FRANE_signed_signed_0.pdf",
+          "references": [
+            {
+              "id": "centr-pai-frane-68-2026",
+              "field": "documents.0.url"
+            },
+            {
+              "id": "centr-pai-frane-68-2026",
+              "field": "document_url"
+            }
+          ],
+          "checked_at": "2026-10-08T12:28:12.413018+00:00",
+          "attempts": [
+            {
+              "at": "2026-10-08T12:28:26.549334+00:00",
+              "http_status": 200,
+              "seconds": 14.1
+            }
+          ],
+          "body_key": "83ae4e423dc3cf38ead681f71ad6eedff6431d9a21ace3eaf8f5377d06e28087",
+          "http_status": 200,
+          "final_url": "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2068%20-%20PAI%20FRANE_signed_signed_0.pdf",
+          "content_type": "application/pdf",
+          "redirects": [],
+          "bytes": 308020,
+          "sha256": "fb98c98fec37be54415fab3798120a6c45d318e0c6d62ef534f302456d63dd20",
+          "truncated": false,
+          "pdf_signature": true,
+          "text_extraction": "ok",
+          "text_characters": 29570,
+          "transport_result": "retrieved_pdf"
+        },
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2026/06/04/127/sg/pdf",
+          "checked_at": "2026-10-08T19:55:10.086325+00:00",
+          "http_status": 200,
+          "final_url": "https://www.gazzettaufficiale.it/eli/gu/2026/06/04/127/sg/pdf",
+          "content_type": "application/pdf",
+          "sha256": "319fb0422ad46ac1ebe7bc2b2cd99a0a4f9cf39f1e53710e07d9dd5b1b968b20",
+          "bytes": 2194592,
+          "body_key": "7e3f55c810063a9851aea6ee213bd292d4565793225e49ee76865ea387e57cf0",
+          "pdf_signature": true
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-06/AVVISO%20-%20PAI%20frane%20adozione%20definitiva_signed.pdf",
+          "checked_at": "2026-10-08T19:55:10.085892+00:00",
+          "http_status": 200,
+          "final_url": "https://cms.aubac.it/sites/default/files/2026-06/AVVISO%20-%20PAI%20frane%20adozione%20definitiva_signed.pdf",
+          "content_type": "application/pdf",
+          "sha256": "4b00e5e4f3855da1a7db52ef94cccf797d17eefe1fed5802741e8d30ef680c13",
+          "bytes": 203943,
+          "body_key": "6eb19e106a1618ff1599bfe85ef75812c9427eb78904e502775eb6e2d4abc9bf",
+          "pdf_signature": true
+        }
+      ],
+      "observations": [
+        {
+          "aspect": "approval",
+          "source_url": "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2068%20-%20PAI%20FRANE_signed_signed_0.pdf",
+          "locator": "CIP 68/2026, artt. 1-3",
+          "finding": "Adozione definitiva del 26 maggio 2026, distinta dall’approvazione con D.P.C.M. Art. 3 elenca artt. 7-8, sezioni A degli artt. 9-10, art. 21 commi 1-5, art. 24 commi 12-13, Allegati 1 e 5 e cartografia. La salvaguardia riguarda questi elementi individuati."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2068%20-%20PAI%20FRANE_signed_signed_0.pdf",
+          "locator": "Art. 4, disciplina transitoria",
+          "finding": "Gli aggiornamenti cartografici già avviati proseguono secondo i PAI previgenti, con rispetto delle salvaguardie e integrazione metodologica; gli esiti allineano il quadro distrettuale. Non si presume sostituita tutta la disciplina preesistente."
+        },
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://www.gazzettaufficiale.it/eli/gu/2026/06/04/127/sg/pdf",
+          "locator": "G.U. n. 127 del 4 giugno 2026, pp. 24-25, comunicati 26A02758/26A02762",
+          "finding": "Gli avvisi pubblicati rendono le misure individuate immediatamente vincolanti dalla pubblicazione, fino al D.P.C.M. e comunque entro tre anni. Non è verificata in questo lotto l’intera catena degli atti successivi."
+        },
+        {
+          "aspect": "version",
+          "source_url": "https://cms.aubac.it/sites/default/files/2026-06/AVVISO%20-%20PAI%20frane%20adozione%20definitiva_signed.pdf",
+          "locator": "Avviso AUBAC, due pagine",
+          "finding": "L’avviso riporta la stessa adozione e il perimetro delle salvaguardie; è distinto dal fascicolo G.U. che prova la data di pubblicazione."
+        }
+      ],
+      "limitations": [
+        "La lettura non certifica tutti gli allegati, le cartografie o l’intera catena degli atti successivi."
+      ],
+      "pending": [
+        "Completare le NTA e gli allegati, verificare mappe applicabili alle singole aree e gli atti successivi di approvazione o modifica."
+      ],
+      "previous_review_preserved": false
+    },
+    {
+      "id": "sar-inv-2017",
+      "consulted_at": "2026-10-08T20:02:43.096713+00:00",
+      "content_examined": true,
+      "legal_review_complete": false,
+      "source_documents": [
+        {
+          "url": "https://autoritadibacino.regione.sardegna.it/ap/delibera-del-comitato-istituzionale-n-2-del-17-05-2017/",
+          "references": [
+            {
+              "id": "sar-inv-2017",
+              "field": "url"
+            },
+            {
+              "id": "sar-inv-2017",
+              "field": "document_url"
+            }
+          ],
+          "checked_at": "2026-10-08T12:28:51.079082+00:00",
+          "attempts": [
+            {
+              "at": "2026-10-08T12:29:02.810232+00:00",
+              "http_status": 200,
+              "seconds": 10.73
+            }
+          ],
+          "body_key": "a5965516e32320d8fac50ed9359078f6519bde2952c23f3e20f5917044ce0ac5",
+          "http_status": 200,
+          "final_url": "https://autoritadibacino.regione.sardegna.it/ap/delibera-del-comitato-istituzionale-n-2-del-17-05-2017/",
+          "content_type": "text/html; charset=UTF-8",
+          "redirects": [],
+          "bytes": 145719,
+          "sha256": "7534386696ad2a4e52e47cc2614f3dfeab10a6367d4197946809101cf6dd1cca",
+          "truncated": false,
+          "pdf_signature": false,
+          "title": "Delibera del Comitato Istituzionale n.2 del 17.05.2017 - Autorità di Bacino della Sardegna",
+          "links": [
+            {
+              "url": "#",
+              "text": "Stampa"
+            },
+            {
+              "url": "/wp-content/uploads/delibere_old/1_470_20170525102530.pdf",
+              "text": "Delibera del Comitato Istituzionale n.2 del 17.05.2017"
+            },
+            {
+              "url": "/wp-content/uploads/delibere_old/1_470_20170530123415.pdf",
+              "text": "Relazione - Linee guida per l’attuazione del principio della invarianza idraulica [file.pdf]"
+            },
+            {
+              "url": "/wp-content/uploads/delibere_old/1_470_20170530123429.pdf",
+              "text": "Allegato 1 - Tabella dei coefficienti di afflusso per le diverse superfici [file.pdf]"
+            },
+            {
+              "url": "/wp-content/uploads/delibere_old/1_470_20170530123441.pdf",
+              "text": "Allegato 2.0 - Esempio di calcolo idraulico – Classe di intervento b [file.pdf]"
+            },
+            {
+              "url": "/wp-content/uploads/delibere_old/1_470_20170530123508.pdf",
+              "text": "Allegato 2.1 - Annesso - Foglio di calcolo - classe intervento b [file.pdf]"
+            },
+            {
+              "url": "/wp-content/uploads/delibere_old/1_470_20170530123531.pdf",
+              "text": "Allegato 3.0 - Esempio di calcolo idraulico – Classe di intervento c [file.pdf]"
+            },
+            {
+              "url": "/wp-content/uploads/delibere_old/1_470_20170829172837.ods",
+              "text": "Allegato 3.1 - Annesso - Foglio di calcolo – classe intervento c [file.pdf]"
+            },
+            {
+              "url": "/wp-content/uploads/delibere_old/1_470_20170530130932.pdf",
+              "text": "Allegato 4 - Schede tecniche per la progettazione delle principali misure compensative [file.pdf]"
+            }
+          ],
+          "text_characters": 4478,
+          "transport_result": "retrieved_non_pdf"
+        },
+        {
+          "url": "https://www.regione.sardegna.it/documenti/1_470_20170529141753.pdf",
+          "references": [
+            {
+              "id": "sar-inv-2017",
+              "field": "documents.0.url"
+            }
+          ],
+          "checked_at": "2026-10-08T12:26:36.413380+00:00",
+          "attempts": [
+            {
+              "at": "2026-10-08T12:26:51.037090+00:00",
+              "http_status": 200,
+              "seconds": 14.62
+            }
+          ],
+          "body_key": "a61012ef3f1161c74b44823f0b15a102d5eebfc351cd8758aa4771152c39a04a",
+          "http_status": 200,
+          "final_url": "https://www.regione.sardegna.it/documenti/1_470_20170529141753.pdf",
+          "content_type": "application/pdf",
+          "redirects": [],
+          "bytes": 218849,
+          "sha256": "cdeb88bb517b19dc97ebf4f2cfbe11bb3bddc4018f3a87708ef626eee4ac79c7",
+          "truncated": false,
+          "pdf_signature": true,
+          "text_extraction": "ok",
+          "text_characters": 59800,
+          "transport_result": "retrieved_pdf"
+        }
+      ],
+      "observations": [
+        {
+          "aspect": "identity",
+          "source_url": "https://autoritadibacino.regione.sardegna.it/ap/delibera-del-comitato-istituzionale-n-2-del-17-05-2017/",
+          "locator": "Stato, data e pubblicazione",
+          "finding": "Delibera C.I. n. 2 del 17 maggio 2017, BURAS n. 27 dell’8 giugno 2017; la pagina istituzionale indica «In vigore», senza sostituire la ricostruzione completa della catena normativa."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.regione.sardegna.it/documenti/1_470_20170529141753.pdf",
+          "locator": "Cap. 2, tabella 1 e criteri per classi a-d",
+          "finding": "Le classi dipendono dalla superficie territoriale dell’intero comparto, non dal singolo lotto; gli approfondimenti crescono con la superficie e richiedono ricognizione del recapito e misure compensative secondo la classe."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.regione.sardegna.it/documenti/1_470_20170529141753.pdf",
+          "locator": "Cap. 3, incipit, p. 10",
+          "finding": "Verifica complessiva dell’invarianza con Tr 50 anni; rete di dreno interna con Tr minimo 20 anni, incrementabile secondo l’urbanizzazione. I due valori hanno funzioni diverse."
+        }
+      ],
+      "limitations": [
+        "La lettura non certifica tutti gli allegati, le cartografie o l’intera catena degli atti successivi."
+      ],
+      "pending": [
+        "Completare esempi, schede e verificare l’art. 47 NTA PAI nel testo attuale e le eventuali modifiche delle linee guida."
+      ],
+      "previous_review_preserved": false
+    },
+    {
+      "id": "pai-campania",
+      "consulted_at": "2026-10-08T20:02:43.096713+00:00",
+      "content_examined": true,
+      "legal_review_complete": false,
+      "source_documents": [
+        {
+          "url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/Campania%20centrale/NORME%20PAI.zip",
+          "checked_at": "2026-10-08T15:18:12.472378+00:00",
+          "http_status": 200,
+          "final_url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/Campania%20centrale/NORME%20PAI.zip",
+          "content_type": "application/zip",
+          "sha256": "853d557002a1d5bd1cda7f5b378dd29d97e1473620f732c015ea8a6c879d6d69",
+          "bytes": 10638229,
+          "body_key": "33e9df12dc952f3c3069edaa0b332185958d355ceca603c036c5779eeeab1c0f",
+          "pdf_signature": false
+        },
+        {
+          "url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/Campania%20centrale/NORME%20PAI.zip",
+          "container_sha256": "853d557002a1d5bd1cda7f5b378dd29d97e1473620f732c015ea8a6c879d6d69",
+          "member": "NORME PAI/CC_NORME-ATTUAZIONE_2015.pdf",
+          "sha256": "c8c63df6369f7685b4c1dc4d1d95768104962cd5ffe25d9497941e086f914574",
+          "body_key": "c8c63df6369f7685b4c1dc4d1d95768104962cd5ffe25d9497941e086f914574",
+          "pdf_signature": true,
+          "checked_at": "2026-10-08T15:18:12.472378+00:00"
+        },
+        {
+          "url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/Campania%20centrale/NORME%20PAI.zip",
+          "container_sha256": "853d557002a1d5bd1cda7f5b378dd29d97e1473620f732c015ea8a6c879d6d69",
+          "member": "NORME PAI/ALL_ A _COMP_IDR_2015.pdf",
+          "sha256": "158986437a5b1b19d9d191538056302b75115621ca94c4b7a5abc12e035d8b87",
+          "body_key": "158986437a5b1b19d9d191538056302b75115621ca94c4b7a5abc12e035d8b87",
+          "pdf_signature": true,
+          "checked_at": "2026-10-08T15:18:12.472378+00:00"
+        }
+      ],
+      "observations": [
+        {
+          "aspect": "version",
+          "source_url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/Campania%20centrale/NORME%20PAI.zip",
+          "locator": "Membro NORME PAI/CC_NORME-ATTUAZIONE_2015.pdf",
+          "finding": "Il PDF estratto dallo ZIP ufficiale è byte-identico al documento conservato nel sito: SHA-256 c8c63df6369f7685b4c1dc4d1d95768104962cd5ffe25d9497941e086f914574. Identità documentale provata, non attualità di tutte le perimetrazioni."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/Campania%20centrale/NORME%20PAI.zip",
+          "locator": "NTA 2015, artt. 14-15 e 18",
+          "finding": "Il testo distingue rischio idraulico elevato, medio/moderato e frane; art. 15 rinvia all’Allegato A per vulnerabilità topografica e condizioni degli interrati; art. 18 richiede valutazione del rischio residuo per mitigazione frane."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/Campania%20centrale/NORME%20PAI.zip",
+          "locator": "Allegato A, sez. A1, punti 1-2, pp. 3-4",
+          "finding": "Distinte verifiche di ammissibilità dell’ente e studi complessi su cui si esprime l’Autorità; previste esclusioni specifiche. Lo studio non sostituisce VIA o altri atti istruttori."
+        }
+      ],
+      "limitations": [
+        "La lettura non certifica tutti gli allegati, le cartografie o l’intera catena degli atti successivi."
+      ],
+      "pending": [
+        "Completare tutti gli allegati e riscontrare le varianti territoriali successive alla versione 2015, senza estendere questo PAI agli altri bacini campani."
+      ],
+      "previous_review_preserved": false
+    },
+    {
+      "id": "lom7",
+      "consulted_at": "2026-10-08T20:02:43.096713+00:00",
+      "content_examined": true,
+      "legal_review_complete": false,
+      "source_documents": [
+        {
+          "url": "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf",
+          "references": [
+            {
+              "id": "lom7",
+              "field": "documents.0.url"
+            },
+            {
+              "id": "milano",
+              "field": "documents.0.url"
+            }
+          ],
+          "checked_at": "2026-10-08T12:25:04.940183+00:00",
+          "attempts": [
+            {
+              "at": "2026-10-08T12:25:23.457289+00:00",
+              "http_status": 200,
+              "seconds": 18.52
+            }
+          ],
+          "body_key": "62ee02bc6a6021cc007c46d54f63e729295937ba543f450c42723f033886ba98",
+          "http_status": 200,
+          "final_url": "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf",
+          "content_type": "application/octet-stream",
+          "redirects": [],
+          "bytes": 96556,
+          "sha256": "c5aed0bf4504387af5812789e9451be520533fc8580410adb7322715838c1ec6",
+          "truncated": false,
+          "pdf_signature": true,
+          "text_extraction": "ok",
+          "text_characters": 108261,
+          "transport_result": "retrieved_pdf"
+        }
+      ],
+      "observations": [
+        {
+          "aspect": "content",
+          "source_url": "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf",
+          "locator": "Art. 10, commi 1-4",
+          "finding": "Il contenuto del progetto dipende da impermeabilizzazione e ambito A/B/C; distingue casi con requisiti minimi e piccoli interventi fino a 300 m². Include relazione, elaborati, manutenzione e asseverazione secondo i casi."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf",
+          "locator": "Art. 11, commi 1 e 2 lettera a",
+          "finding": "Il dimensionamento delle opere di laminazione/infiltrazione adotta Tr 50 anni; Tr 100 serve alla valutazione qualitativa dei danni e delle ulteriori protezioni per il rischio residuo. Non si scambiano dimensionamento e verifica."
+        }
+      ],
+      "limitations": [
+        "La lettura non certifica tutti gli allegati, le cartografie o l’intera catena degli atti successivi."
+      ],
+      "pending": [
+        "Completare art. 11, requisiti minimi e allegati di calcolo e ricostruire gli aggiornamenti ulteriori al testo coordinato esaminato."
+      ],
+      "previous_review_preserved": true
+    }
+  ],
+  "corrections": [
+    {
+      "id": "centr-pai-idraulico-67-2026",
+      "field": "documents",
+      "before": [
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2067%20-%20PAI%20IDRAULICO_signed_signed_0.pdf",
+          "label": "Deliberazione CIP 67/2026 · adozione definitiva e salvaguardia",
+          "format": "pdf",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO_0.pdf",
+          "label": "NTA con allegati · testo definitivo adottato",
+          "format": "pdf",
+          "group": "Norme"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20RELAZIONE%20GENERALE_def_0.pdf",
+          "label": "Relazione generale",
+          "format": "pdf",
+          "group": "Relazione"
+        }
+      ],
+      "after": [
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2067%20-%20PAI%20IDRAULICO_signed_signed_0.pdf",
+          "label": "Deliberazione CIP 67/2026 · adozione definitiva e salvaguardia",
+          "format": "pdf",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO_0.pdf",
+          "label": "NTA con allegati · testo definitivo adottato",
+          "format": "pdf",
+          "group": "Norme"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20RELAZIONE%20GENERALE_def_0.pdf",
+          "label": "Relazione generale",
+          "format": "pdf",
+          "group": "Relazione"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-06/AVVISO%20-%20PAI%20idraulico%20adozione%20definitiva_signed.pdf",
+          "label": "Avviso AUBAC · adozione definitiva e salvaguardie",
+          "format": "pdf",
+          "group": "Pubblicazione",
+          "link_status": "checked",
+          "link_checked": "2026-10-08"
+        },
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2026/06/04/127/sg/pdf",
+          "label": "G.U. n. 127 del 04/06/2026 · avvisi PAI AUBAC",
+          "format": "pdf",
+          "group": "Pubblicazione",
+          "link_status": "checked",
+          "link_checked": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "id": "centr-pai-idraulico-67-2026",
+      "field": "document_note",
+      "before": "Atto di adozione definitiva con elenco puntuale delle disposizioni e mappe poste in salvaguardia.",
+      "after": "Letti dispositivo completo e avvisi ufficiali; aggiunti avviso AUBAC e fascicolo G.U. n. 127/2026. La salvaguardia si applica al perimetro elencato nell’art. 3, distinto dall’approvazione del Piano con D.P.C.M.; la revisione complessiva resta parziale."
+    },
+    {
+      "id": "centr-pai-frane-68-2026",
+      "field": "documents",
+      "before": [
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2068%20-%20PAI%20FRANE_signed_signed_0.pdf",
+          "label": "Deliberazione CIP 68/2026 · adozione definitiva e salvaguardia",
+          "format": "pdf",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-06/PAI%20FRANE%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO_0.pdf",
+          "label": "NTA con allegati · testo definitivo adottato",
+          "format": "pdf",
+          "group": "Norme"
+        }
+      ],
+      "after": [
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2068%20-%20PAI%20FRANE_signed_signed_0.pdf",
+          "label": "Deliberazione CIP 68/2026 · adozione definitiva e salvaguardia",
+          "format": "pdf",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-06/PAI%20FRANE%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO_0.pdf",
+          "label": "NTA con allegati · testo definitivo adottato",
+          "format": "pdf",
+          "group": "Norme"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-06/AVVISO%20-%20PAI%20frane%20adozione%20definitiva_signed.pdf",
+          "label": "Avviso AUBAC · adozione definitiva e salvaguardie",
+          "format": "pdf",
+          "group": "Pubblicazione",
+          "link_status": "checked",
+          "link_checked": "2026-10-08"
+        },
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2026/06/04/127/sg/pdf",
+          "label": "G.U. n. 127 del 04/06/2026 · avvisi PAI AUBAC",
+          "format": "pdf",
+          "group": "Pubblicazione",
+          "link_status": "checked",
+          "link_checked": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "id": "centr-pai-frane-68-2026",
+      "field": "document_note",
+      "before": "Atto di adozione definitiva con elenco puntuale delle disposizioni, degli allegati e della cartografia posti in salvaguardia.",
+      "after": "Letti dispositivo completo e avvisi ufficiali; aggiunti avviso AUBAC e fascicolo G.U. n. 127/2026. La salvaguardia si applica al perimetro elencato nell’art. 3, distinto dall’approvazione del Piano con D.P.C.M.; la revisione complessiva resta parziale."
+    },
+    {
+      "id": "sar-inv-2017",
+      "field": "document_note",
+      "before": "La pagina ufficiale raccoglie la deliberazione, la relazione, le tabelle, gli esempi di calcolo e le schede tecniche.",
+      "after": "Letti la pagina dell’atto e i criteri 2017 per comparto, classi e tempi di ritorno. Distinti verifica complessiva Tr 50 e rete interna Tr minimo 20; esempi e applicabilità del testo attuale restano da completare."
+    },
+    {
+      "id": "pai-campania",
+      "field": "documents",
+      "before": [
+        {
+          "format": "pdf",
+          "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/pai-campania-centrale-norme-attuazione-2015.pdf",
+          "label": "PDF ufficiale · norme di attuazione PAI Campania Centrale",
+          "group": "PAI"
+        }
+      ],
+      "after": [
+        {
+          "format": "pdf",
+          "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/pai-campania-centrale-norme-attuazione-2015.pdf",
+          "label": "PDF ufficiale · norme di attuazione PAI Campania Centrale",
+          "group": "PAI"
+        },
+        {
+          "url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/Campania%20centrale/NORME%20PAI.zip",
+          "label": "ZIP istituzionale · NORME PAI · documenti 2015",
+          "format": "zip",
+          "group": "Fonte documentale",
+          "link_status": "checked",
+          "link_checked": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "id": "pai-campania",
+      "field": "document_note",
+      "before": "Il PDF è estratto senza modifiche dall’archivio ZIP ufficiale “NORME PAI” pubblicato dall’Autorità di bacino distrettuale.",
+      "after": "Confermata la provenienza ufficiale: il PDF presente nel portale coincide byte per byte con il membro NORME PAI/CC_NORME-ATTUAZIONE_2015.pdf dello ZIP distrettuale. Aggiunto il contenitore ufficiale; letti i passaggi dichiarati, senza certificare tutte le varianti successive."
+    },
+    {
+      "id": "lom7",
+      "field": "document_note",
+      "before": "Il collegamento apre direttamente il PDF del documento.",
+      "after": "Approfonditi art. 10 e art. 11, commi 1 e 2 lettera a, del testo coordinato ufficiale. Distinti Tr 50 per dimensionamento e Tr 100 per verifica qualitativa; conservata nella cronologia la precedente revisione documentale. Restano da completare metodi, allegati e catena degli aggiornamenti."
+    }
+  ],
+  "publication": {
+    "state": "validated_pending_deployment"
+  }
+}

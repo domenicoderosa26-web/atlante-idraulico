@@ -1,0 +1,71 @@
+{
+  "checked_at": "2026-10-08T20:19:50.714488+00:00",
+  "base_commit": "5673b00c03b6ece52eb2c9150f2327cb20003b41",
+  "records_before": 106,
+  "records_after": 106,
+  "document_links_before": 167,
+  "document_links_after": 167,
+  "ids_preserved": true,
+  "existing_documents_preserved": true,
+  "transport_metadata_updated_only": [
+    "bas471"
+  ],
+  "blocked_without_normative_review": [
+    "abr17",
+    "bas471"
+  ],
+  "existing_reviews_and_histories_preserved": true,
+  "canonical_topics_and_relations_unchanged": true,
+  "protected_files_unchanged": true,
+  "modified_records": [
+    {
+      "id": "abr17",
+      "fields": [
+        "document_note",
+        "history"
+      ]
+    },
+    {
+      "id": "dist-alpi",
+      "fields": [
+        "document_note",
+        "documentary_review",
+        "history"
+      ]
+    },
+    {
+      "id": "bas471",
+      "fields": [
+        "document_note",
+        "documents",
+        "history"
+      ]
+    },
+    {
+      "id": "dist-sard",
+      "fields": [
+        "document_note",
+        "documentary_review",
+        "history"
+      ]
+    },
+    {
+      "id": "pai-fortore",
+      "fields": [
+        "document_note",
+        "documentary_review",
+        "history"
+      ]
+    }
+  ],
+  "checks": {
+    "topics_normalize": "passed; zero unresolved",
+    "topics_validate": "passed",
+    "archive_with_base": "passed",
+    "python_unittest": "60 passed",
+    "node_syntax": "passed",
+    "node_topic_filters": "passed; 14 categories, 168 combinations, loading/search",
+    "git_diff_check": "passed"
+  },
+  "publication": "CI and Pages still to verify after publication"
+}

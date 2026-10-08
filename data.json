@@ -1685,6 +1685,10 @@
         {
           "date": "2026-09-17",
           "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        },
+        {
+          "date": "2026-10-08",
+          "text": "Audit incrementale lotto 07: impedimento di accesso registrato; nessuna revisione normativa attribuita."
         }
       ],
       "documents": [
@@ -1694,7 +1698,7 @@
           "label": "PDF · L.R. Abruzzo 17/2008"
         }
       ],
-      "document_note": "Copia PDF prodotta senza modifiche sostanziali dal testo pubblicato nella banca dati istituzionale del Consiglio regionale, che non espone un proprio download PDF stabile."
+      "document_note": "Verifica documentale bloccata: la fonte del Consiglio regionale è in timeout; ricerca ufficiale alternativa non ha fornito il testo. La copia conservata non dimostra da sola provenienza o aggiornamento; stato giuridico precedente non riconfermato."
     },
     {
       "id": "cal10",
@@ -3666,11 +3670,51 @@
         {
           "date": "2026-10-01",
           "text": "Lette integralmente la relazione generale e le NTA ufficiali del PGRA 2021–2027; chiarito il coordinamento con i PAI ai sensi dell’articolo 16 e verificati i relativi collegamenti diretti."
+        },
+        {
+          "date": "2026-10-08",
+          "text": "Audit incrementale, lotto 07: fonti e perimetro documentati; limiti, incongruenze e operazioni successive espliciti."
         }
       ],
       "document_url": "https://sigma.distrettoalpiorientali.it/portal/index.php/direttiva-alluvioni/pgra-2021-2027/piano_approvato_2021/",
       "document_label": "PGRA Alpi Orientali · piano approvato, NTA e mappe",
-      "document_note": "I collegamenti aprono direttamente i PDF ufficiali degli elaborati principali."
+      "document_note": "Letti artt. 8, 9 e 16 delle NTA PGRA: pericolosità senza mappatura, zone di attenzione e cessazione degli effetti idraulici dei PAI. La pagina principale oggi restituisce 502; il PDF istituzionale acquisito oggi consente i riscontri dichiarati, senza attestare l’assenza di aggiornamenti.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "NTA PGRA, Allegato V: artt. 8-9 e 16 completi; non tutta la relazione, gli allegati tecnici o gli aggiornamenti cartografici.",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://sigma.distrettoalpiorientali.it/sigma/documentDownload/downloadDocumentById?documentId=380"
+        ],
+        "claims": [
+          {
+            "aspect": "content",
+            "source_url": "https://sigma.distrettoalpiorientali.it/sigma/documentDownload/downloadDocumentById?documentId=380",
+            "locator": "Art. 8",
+            "finding": "Pericolosità in assenza di mappatura: verifiche per aree con studi/dissesto documentato e trasmissione all’Autorità. L’aggiornamento con decreto acquista efficacia con la pubblicazione in GU; assenza sulla carta non equivale ad assenza di pericolo."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://sigma.distrettoalpiorientali.it/sigma/documentDownload/downloadDocumentById?documentId=380",
+            "locator": "Art. 9",
+            "finding": "Zone di attenzione non ancora associate a una classe: disciplina e aggiornamento specifici, con verifica secondo Allegato A nei casi previsti e limite del rischio specifico medio R2."
+          },
+          {
+            "aspect": "effectiveness",
+            "source_url": "https://sigma.distrettoalpiorientali.it/sigma/documentDownload/downloadDocumentById?documentId=380",
+            "locator": "Art. 16, commi 1-6",
+            "finding": "Dall’entrata in vigore delle norme PGRA cessano gli effetti dei PAI per la parte idraulica; restano conoscenze, disposizioni e mappe gravitativo/valanghive. Preservate le competenze statutarie delle Province autonome. La data concreta del relativo avviso GU non è stata ricostruita in questo lotto."
+          }
+        ],
+        "limitations": [
+          "La revisione resta parziale: cartografie, fascicoli regionali o catena degli atti successivi non completati nel perimetro dichiarato."
+        ],
+        "pending": [
+          "Acquisire avviso GU e atti successivi; completare Allegato A, NTA e cartografie applicabili al luogo e il III ciclo."
+        ],
+        "record_version": "bd9860bca15989ce19a9e59f053b7d456f4a93af8304c4d3f0cb7c21d40305a0"
+      }
     },
     {
       "id": "dist-sett",
@@ -4133,23 +4177,27 @@
         {
           "date": "2026-09-18",
           "text": "Sostituito l’errato rinvio alla D.G.R. 772/2019 con l’aggiornamento vigente 2026 e con i PDF ufficiali."
+        },
+        {
+          "date": "2026-10-08",
+          "text": "Audit incrementale lotto 07: impedimento di accesso registrato; nessuna revisione normativa attribuita."
         }
       ],
-      "document_note": "Entrambi i collegamenti aprono direttamente file PDF del repertorio ufficiale della Regione Basilicata.",
+      "document_note": "Verifica documentale bloccata: DGR e allegato Basilicata restituiscono errore 502; ricerca ufficiale alternativa non ha fornito il testo. Nessuna lettura normativa nel riesame. Contenuti e stato giuridico precedenti conservati, senza riconferma; download indicato ma non confermato.",
       "documents": [
         {
           "url": "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A397A5C07&idDocumento=795801377B580A307C5C",
           "label": "D.G.R. Basilicata 471/2026 · PDF",
           "format": "pdf",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
+          "link_status": "source_link",
+          "link_checked": "2026-10-08"
         },
         {
           "url": "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A35795B0B&idDocumento=795801377B580A307C5C",
           "label": "Linee guida 2026 · allegato PDF",
           "format": "pdf",
-          "link_status": "checked",
-          "link_checked": "2026-09-18"
+          "link_status": "source_link",
+          "link_checked": "2026-10-08"
         }
       ]
     },
@@ -4286,11 +4334,52 @@
         {
           "date": "2026-10-07",
           "text": "Censita la variante PAI idraulica del Comune di Barrali, approvata con Determinazione n. 162/2026 e in vigore dalla pubblicazione nel BURAS del 01/10/2026."
+        },
+        {
+          "date": "2026-10-08",
+          "text": "Audit incrementale, lotto 07: fonti e perimetro documentati; limiti, incongruenze e operazioni successive espliciti."
         }
       ],
       "document_url": "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-stralcio-di-bacino-per-lassetto-idrogeologico-pai/norme-pai/",
       "document_label": "PAI Sardegna · norme",
-      "document_note": "I collegamenti aprono direttamente i PDF ufficiali degli elaborati principali."
+      "document_note": "Esaminati il testo coordinato PAI 2026, art. 47, e la pagina istituzionale dei cicli PGRA. Distinti coordinamento divulgativo, atti di approvazione e preparazione del III ciclo; la revisione complessiva resta parziale.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "PAI: frontespizio del testo coordinato CI 8/2026 e art. 47 completo; PGRA: pagina ufficiale dei cicli. Nessuna lettura integrale delle due raccolte o delle mappe.",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/06/Testo-coordinato-N.A.-PAI-modifiche-CI-n.-8-del-25.05.2026.pdf",
+          "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-di-gestione-del-rischio-alluvioni-p-g-r-a/"
+        ],
+        "claims": [
+          {
+            "aspect": "version",
+            "source_url": "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/06/Testo-coordinato-N.A.-PAI-modifiche-CI-n.-8-del-25.05.2026.pdf",
+            "locator": "Frontespizio",
+            "finding": "Testo coordinato con modifiche CI 8 del 25 maggio 2026, pubblicato a fini divulgativi: distinto dagli atti che stabiliscono vigenza e modifiche."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/06/Testo-coordinato-N.A.-PAI-modifiche-CI-n.-8-del-25.05.2026.pdf",
+            "locator": "Art. 47, commi 1-7 e note 161-162",
+            "finding": "Invarianza: portate scaricate non maggiori delle preesistenti; strumenti e studi comunali con infrastrutture compensative. Gli studi sono approvati e vigilati dal Comune; il comma 7 esclude specifici piani e riporta modifiche CI 1/2019, non un’esenzione generale per tutti gli interventi."
+          },
+          {
+            "aspect": "approval",
+            "source_url": "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-di-gestione-del-rischio-alluvioni-p-g-r-a/",
+            "locator": "Sezioni secondo e terzo ciclo, pagina aggiornata 18 maggio 2026",
+            "finding": "Il secondo ciclo è indicato approvato con CI 14/2021 e DPCM 1 dicembre 2022, GU 43 del 20 febbraio 2023; il III ciclo è in preparazione con revisione prevista entro 22 dicembre 2027. L’avvio del III ciclo non sostituisce automaticamente il secondo."
+          }
+        ],
+        "limitations": [
+          "La revisione resta parziale: cartografie, fascicoli regionali o catena degli atti successivi non completati nel perimetro dichiarato."
+        ],
+        "pending": [
+          "Completare gli atti CI/DPCM e le NTA, verificare la catena successiva, relazione PGRA e cartografie puntuali e il procedimento III ciclo."
+        ],
+        "record_version": "1a623d346d09bbf882816c973604f3a6b3755b5d8667aa2f1f6700623f196861"
+      }
     },
     {
       "id": "sar-pai-frane-42-2026",
@@ -6116,7 +6205,7 @@
       "status": "Documentazione censita",
       "source_kind": "Autorità di bacino distrettuale",
       "note": "Documentazione specifica del bacino Fortore. Verificare norme, cartografie e successive varianti.",
-      "document_note": "Il collegamento apre direttamente il PDF del documento.",
+      "document_note": "Esaminati artt. 11-12 del PDF istituzionale che reca il titolo di progetto. Verificati i criteri idraulici dichiarati; lo stato attuale e l’atto di approvazione restano da ricostruire, senza estendere gli atti di altri bacini.",
       "checked": "2026-09-23",
       "relations": [
         {
@@ -6128,6 +6217,10 @@
         {
           "date": "2026-09-18",
           "text": "Inseriti rimandi specifici al piano e ai suoi elaborati."
+        },
+        {
+          "date": "2026-10-08",
+          "text": "Audit incrementale, lotto 07: fonti e perimetro documentati; limiti, incongruenze e operazioni successive espliciti."
         }
       ],
       "documents": [
@@ -6139,7 +6232,43 @@
           "link_status": "checked",
           "link_checked": "2026-09-23"
         }
-      ]
+      ],
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Frontespizio e artt. 11-12 completi delle norme del progetto di Piano Fortore; pagina specifica distrettuale. Stato procedurale attuale e cartografie non completati.",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/molise/FORTORE/A-01_Normativa_di_attuazione.pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "identity",
+            "source_url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/molise/FORTORE/A-01_Normativa_di_attuazione.pdf",
+            "locator": "Frontespizio",
+            "finding": "Il PDF reca «Progetto di Piano stralcio» del bacino interregionale del Fortore. Questa denominazione non è prova dello stato procedurale attuale, né consente di trasferire al Fortore l’approvazione verificata per Biferno e Trigno."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/molise/FORTORE/A-01_Normativa_di_attuazione.pdf",
+            "locator": "Art. 11",
+            "finding": "Per gli studi idraulici: PI3 fino a 30 anni, PI2 oltre 30 fino a 200, PI1 oltre 200 fino a 500; sono distinti i criteri geomorfologici e prevista la trasmissione dei rilievi degli eventi alluvionali dai Comuni."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/molise/FORTORE/A-01_Normativa_di_attuazione.pdf",
+            "locator": "Art. 12",
+            "finding": "Fascia di riassetto con disciplina prevalente in sovrapposizione e assimilazione a PI2 nei tratti non esplicitamente definiti; interventi soltanto nell’elenco e alle condizioni del testo."
+          }
+        ],
+        "limitations": [
+          "La revisione resta parziale: cartografie, fascicoli regionali o catena degli atti successivi non completati nel perimetro dichiarato."
+        ],
+        "pending": [
+          "Acquisire l’atto e la versione approvata, ricostruire eventuali varianti, completare NTA e cartografie del bacino Fortore."
+        ],
+        "record_version": "1dce0cfc5ab07f0133dfa4f186e1794a862d665e45cce51266df454ac85f393b"
+      }
     },
     {
       "id": "laz117",
@@ -10930,6 +11059,39 @@
     }
   ],
   "runs": [
+    {
+      "date": "2026-10-08",
+      "type": "Audit incrementale · lotto 07 · piani e accessi",
+      "summary": "Tre revisioni circoscritte Fortore, Alpi Orientali e Sardegna. Due schede bloccate, Abruzzo 17/2008 e Basilicata 471/2026, senza revisione normativa attribuita; rimosso lo stato di download confermato dai due documenti Basilicata indisponibili.",
+      "checked": [
+        "pai-fortore",
+        "dist-alpi",
+        "dist-sard",
+        "bas471",
+        "abr17"
+      ],
+      "read_urls": [
+        "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/molise/FORTORE/A-01_Normativa_di_attuazione.pdf",
+        "https://sigma.distrettoalpiorientali.it/sigma/documentDownload/downloadDocumentById?documentId=380",
+        "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/06/Testo-coordinato-N.A.-PAI-modifiche-CI-n.-8-del-25.05.2026.pdf",
+        "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-di-gestione-del-rischio-alluvioni-p-g-r-a/",
+        "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A35795B0B&idDocumento=795801377B580A307C5C",
+        "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A397A5C07&idDocumento=795801377B580A307C5C",
+        "https://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2008/lr08017.htm"
+      ],
+      "errors": [
+        "Abruzzo: timeout fonte istituzionale; Basilicata: due URL in 502, fonti alternative non ottenute; pagina principale Alpi in 502 ma PDF ufficiale letto nel perimetro dichiarato."
+      ],
+      "updated_records": [
+        "pai-fortore",
+        "dist-alpi",
+        "dist-sard",
+        "bas471",
+        "abr17"
+      ],
+      "new_records": [],
+      "publication": "data_json_update"
+    },
     {
       "date": "2026-10-08",
       "type": "Audit incrementale · lotto 06 · PAI meridionali",

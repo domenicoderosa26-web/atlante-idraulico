@@ -14,12 +14,13 @@ class DocumentaryTests(unittest.TestCase):
                        'status': 'Testo originario identificato', 'documents': [],
                        'url': 'https://www.regione.test.it/atto'}
         self.record['documentary_review'] = {
-            'checked_at': '2026-10-08', 'record_version': record_version(self.record),
+            'checked_at': '2026-10-08',
             'scope': 'Identità del testo originario', 'outcome': 'partial',
             'legal_state': 'partial', 'limitations': ['Coordinamento non verificato'],
             'pending': [], 'source_urls': [self.record['url']],
             'claims': [{'aspect': 'identity', 'source_url': self.record['url'],
                         'locator': 'Intestazione', 'finding': 'Numero e data riscontrati'}]}
+        self.record['documentary_review']['record_version'] = record_version(self.record)
         self.today = dt.date(2026, 10, 8)
 
     def check(self, record, baseline=None):
@@ -46,6 +47,25 @@ class DocumentaryTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'riscontro specifico'): self.check(record, self.record)
         record = copy.deepcopy(self.record); record['documentary_review']['legal_state'] = 'in_force'
         with self.assertRaisesRegex(ValueError, 'stato giuridico'): self.check(record)
+
+    def test_changed_review_sources_require_new_version_and_preserve_evidence(self):
+        record = copy.deepcopy(self.record)
+        review = record['documentary_review']
+        new_source = 'https://www.regione.test.it/nuova-fonte'
+        review['source_urls'] = [new_source]
+        review['claims'][0]['source_url'] = new_source
+        record['documentary_history'] = [copy.deepcopy(self.record['documentary_review'])]
+        with self.assertRaisesRegex(ValueError, 'contenuto cambiato'):
+            self.check(record, self.record)
+        review['record_version'] = record_version(record)
+        self.assertNotEqual(review['record_version'], self.record['documentary_review']['record_version'])
+        self.check(record, self.record)
+        review['source_urls'].append(self.record['url'])
+        review['record_version'] = record_version(record)
+        version = record_version(record)
+        review['source_urls'].reverse()
+        self.assertEqual(record_version(record), version)
+        self.check(record, self.record)
 
     def test_incomplete_future_or_unlinked_evidence_rejected(self):
         for field, value in [('checked_at', '2026-10-09'), ('source_urls', []),

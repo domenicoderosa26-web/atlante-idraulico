@@ -20,6 +20,10 @@ def record_version(record):
               'focus', 'topics', 'status', 'url', 'document_url']
     value = {key: record.get(key) for key in fields}
     value['document_urls'] = sorted(d['url'] for d in record.get('documents', []))
+    review = record.get('documentary_review', {})
+    sources = review.get('source_urls', []) if isinstance(review, dict) else []
+    value['review_source_urls'] = sorted(sources) if isinstance(sources, list) and all(
+        isinstance(source, str) for source in sources) else sources
     raw = json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(',', ':'))
     return hashlib.sha256(raw.encode()).hexdigest()
 

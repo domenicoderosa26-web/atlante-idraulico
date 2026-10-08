@@ -60,11 +60,11 @@ async function main(){
  const status=JSON.parse(fs.readFileSync('update-status.json','utf8'));
  context.fetch=async(url,options)=>{
   requests.push(url);assert.equal(options.cache,'no-store');
-  assert.ok(['data.json','topic-taxonomy.json','national.json','update-status.json'].includes(url));
-  return {ok:true,json:async()=>({'data.json':archive,'topic-taxonomy.json':taxonomy,'national.json':national,'update-status.json':status}[url])};
+  assert.ok(['data.json','topic-taxonomy.json','national.json','update-status.json','monitoring-status.json'].includes(url));
+  return {ok:url!=='monitoring-status.json',json:async()=>({'data.json':archive,'topic-taxonomy.json':taxonomy,'national.json':national,'update-status.json':status}[url])};
  };
  await vm.runInContext('load()',context);
- assert.deepEqual(requests,['data.json','topic-taxonomy.json','national.json','update-status.json']);
+ assert.deepEqual(requests,['data.json','topic-taxonomy.json','national.json','update-status.json','monitoring-status.json']);
  assert.equal(vm.runInContext('data.records.length',context),archive.records.length);
  assert.equal(vm.runInContext('national.acts.length',context),national.acts.length);
  assert.equal(element('load-error').hidden,true);
@@ -76,6 +76,19 @@ async function main(){
  await vm.runInContext('load()',context);
  assert.equal(element('load-error').hidden,false);
  assert.equal(vm.runInContext('data.records.length',context),archive.records.length);
+ context.monitorStatus=status;
+ const undocumented=vm.runInContext('monitoringLabels(null,null,archive)',context);
+ assert.equal(undocumented.nationalDate,'Non ancora documentato');
+ assert.ok(undocumented.territorialDate.includes('08/10/2026'));
+ assert.ok(undocumented.territorialText.includes('parziale'));
+ context.pendingStatus={outcome:'verificato',verification_completed_at:'2026-10-08T10:00:00Z',changes_detected:2,changes_published:0,last_successful_result:status};
+ assert.ok(vm.runInContext('monitoringLabels(pendingStatus,null,archive).nationalText',context).includes('pubblicazione non confermata'));
+ context.health={checked_at:'2026-10-08T11:00:00Z',national:{state:'fallito',checkpoint_consistent:true}};
+ assert.ok(vm.runInContext('monitoringLabels(monitorStatus,health,archive).nationalText',context).includes('tentativo fallito'));
+ context.health.national={state:'non_allineato',checkpoint_consistent:false,checkpoint_end:'2026-10-06T10:00:00Z'};
+ const mismatch=vm.runInContext('monitoringLabels(monitorStatus,health,archive)',context);
+ assert.ok(mismatch.nationalDate.includes('6/10/2026'));assert.ok(mismatch.nationalText.includes('non certifica'));
+ console.log('Stati di monitoraggio nazionale/territoriale, parzialità e pubblicazione non confermata OK');
  console.log('Caricamento dalla radice, registro nazionale facoltativo e conservazione dopo errore OK');
  console.log(prefix+'frontend: 14 filtri A–Z, 168 combinazioni territorio/livello, ricerca, ordinamento e multitag OK');
 }

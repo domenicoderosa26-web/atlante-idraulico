@@ -1,0 +1,83 @@
+name: Supervisione monitoraggi
+on:
+  schedule:
+    - cron: '17 16 * * *'
+      timezone: Europe/Rome
+  workflow_dispatch:
+  workflow_run:
+    workflows: ['Controllo Normattiva nazionale']
+    types: [completed]
+  push:
+    branches: [main]
+    paths:
+      - 'data.json'
+      - 'scripts/monitoring.py'
+      - '.github/workflows/monitoring.yml'
+permissions:
+  contents: write
+  actions: read
+  pages: write
+concurrency:
+  group: atlante-supervision
+  cancel-in-progress: false
+jobs:
+  supervise:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.head_branch == 'main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Leggi evidenze senza interrogare le fonti normative
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python scripts/monitoring.py
+      - name: Conserva rapporto strutturato
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: monitoring-audit-${{ github.run_id }}
+          path: monitor-state/monitoring-status.json
+          if-no-files-found: warn
+          retention-days: 30
+      - name: Pubblica soltanto il rapporto di supervisione
+        run: |
+          set -euo pipefail
+          cp monitor-state/monitoring-status.json /tmp/atlante-monitoring-result.json
+          mkdir -p /tmp/atlante-monitoring-base
+          cp data.json national.json update-status.json /tmp/atlante-monitoring-base/
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for attempt in 1 2 3; do
+            git fetch origin main
+            for file in data.json national.json update-status.json; do
+              git show "origin/main:$file" > "/tmp/atlante-monitoring-remote-$file"
+              cmp "/tmp/atlante-monitoring-base/$file" "/tmp/atlante-monitoring-remote-$file"
+            done
+            git reset --hard origin/main
+            cp /tmp/atlante-monitoring-result.json monitoring-status.json
+            python -m json.tool monitoring-status.json > /dev/null
+            python scripts/archive.py --base-ref origin/main
+            git add monitoring-status.json
+            if git diff --cached --quiet; then break; fi
+            git commit -m 'Registra supervisione monitoraggi'
+            if git push origin HEAD:main; then break; fi
+            if [ "$attempt" -eq 3 ]; then exit 1; fi
+            sleep $((attempt * 3))
+          done
+      - name: Verifica rapporto pubblico e segnala anomalie sostanziali
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          SITE_URL: https://domenicoderosa26-web.github.io/atlante-idraulico/
+        run: |
+          python scripts/workflow_state.py verify-report monitoring-status.json
+          python - <<'PYCODE'
+          import json
+          report = json.load(open('monitoring-status.json'))
+          if report['has_errors']: raise SystemExit('Anomalie di monitoraggio: consultare summary e artifact strutturato')
+          print('Rapporto pubblico verificato; eventuali ricognizioni parziali sono esplicitamente indicate')
+          PYCODE

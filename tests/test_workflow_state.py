@@ -24,7 +24,10 @@ class WorkflowTests(unittest.TestCase):
         now = dt.datetime(2026, 9, 27, 5, 18, tzinfo=UTC)
         s = public_status(now, 0)
         self.assertEqual(s['changes_detected'], 0)
-        self.assertEqual(s['last_completed_at'], '2026-09-27T07:18:00+02:00')
+        self.assertIsNone(s['last_completed_at'])
+        self.assertEqual(s['verification_completed_at'], '2026-09-27T07:18:00+02:00')
+        self.assertEqual(s['outcome'], 'verificato')
+        self.assertEqual(s['changes_published'], 0)
         self.assertEqual(s['sources'], ['Normattiva Open Data: normativa nazionale'])
 
     def test_retry_transient_then_failure_preserves_inputs(self):

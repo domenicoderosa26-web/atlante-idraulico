@@ -702,7 +702,7 @@
           ]
         }
       ],
-      "evidence": "Compensazione dei deflussi e volumi/portate per trasformazioni territoriali: unica voce invarianza, senza compatibilità o drenaggio generici."
+      "evidence": "Compensazione dei deflussi e volumi/portate per trasformazioni territoriali: unica voce invarianza, senza compatibilità o drenaggio generici. Riesame 8 ottobre 2026, lotto 04: Il dimensionamento delle opere di laminazione/infiltrazione adotta Tr 50 anni; Tr 100 serve alla valutazione qualitativa dei danni e delle ulteriori protezioni per il rischio residuo. Non si scambiano dimensionamento e verifica. Argomenti canonici invariati."
     },
     "sic102": {
       "topics": [
@@ -2029,7 +2029,8 @@
       ],
       "source_urls": [
         "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/pai-campania-centrale-norme-attuazione-2015.pdf",
-        "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/bacini-reg-nord-occidentali-bacino-reg-sarno-ex-adb-reg-campania-centrale-menu/piano-assetto-idrogeologico-rischio-idraulico-menu"
+        "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/bacini-reg-nord-occidentali-bacino-reg-sarno-ex-adb-reg-campania-centrale-menu/piano-assetto-idrogeologico-rischio-idraulico-menu",
+        "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/Campania%20centrale/NORME%20PAI.zip"
       ],
       "object_versions": [
         {
@@ -2042,7 +2043,7 @@
           ]
         }
       ],
-      "evidence": "Scheda e fonte riferite alla componente idraulica del PAI / piano stralcio di rischio alluvioni; nessuna equiparazione al PGRA."
+      "evidence": "Scheda e fonte riferite alla componente idraulica del PAI / piano stralcio di rischio alluvioni; nessuna equiparazione al PGRA. Riesame 8 ottobre 2026, lotto 04: Il testo distingue rischio idraulico elevato, medio/moderato e frane; art. 15 rinvia all’Allegato A per vulnerabilità topografica e condizioni degli interrati; art. 18 richiede valutazione del rischio residuo per mitigazione frane. Argomenti canonici invariati."
     },
     "pai-biferno-e-minori": {
       "topics": [
@@ -2150,7 +2151,7 @@
           ]
         }
       ],
-      "evidence": "Art. 47 NTA PAI: l’oggetto specifico è l’invarianza; il raccordo col PAI non giustifica duplicare la voce idraulica."
+      "evidence": "Art. 47 NTA PAI: l’oggetto specifico è l’invarianza; il raccordo col PAI non giustifica duplicare la voce idraulica. Riesame 8 ottobre 2026, lotto 04: Le classi dipendono dalla superficie territoriale dell’intero comparto, non dal singolo lotto; gli approfondimenti crescono con la superficie e richiedono ricognizione del recapito e misure compensative secondo la classe. Argomenti canonici invariati."
     },
     "lom4pp": {
       "topics": [
@@ -2610,7 +2611,9 @@
         "https://aubac.it/pai-distrettuale-idraulico",
         "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2067%20-%20PAI%20IDRAULICO_signed_signed_0.pdf",
         "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO_0.pdf",
-        "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20RELAZIONE%20GENERALE_def_0.pdf"
+        "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20RELAZIONE%20GENERALE_def_0.pdf",
+        "https://www.gazzettaufficiale.it/eli/gu/2026/06/04/127/sg/pdf",
+        "https://cms.aubac.it/sites/default/files/2026-06/AVVISO%20-%20PAI%20idraulico%20adozione%20definitiva_signed.pdf"
       ],
       "object_versions": [
         {
@@ -2624,7 +2627,7 @@
           ]
         }
       ],
-      "evidence": "Oggetto e ambito sostanziale della scheda: La CIP AUBAC ha adottato definitivamente il PAI idraulico distrettuale. Le misure di salvaguardia su disposizioni, allegati e mappe individuati dalla Deliberazione 67/2026 sono vincolanti dal 4 giugno 2026, data di pubblicazione dell’avviso in G.U. n. 127, fino all’approvazione con D.P.C.M. e comunque per non oltre tre anni. Focus: Verificare fasce, ambiti e perimetrazioni nelle mappe adottate; Applicare le disposizioni poste in salvaguardia e il reticolo principale dell’Allegato 3; Distinguere adozione definitiva da approvazione con D.P.C.M."
+      "evidence": "Oggetto e ambito sostanziale della scheda: La CIP AUBAC ha adottato definitivamente il PAI idraulico distrettuale. Le misure di salvaguardia su disposizioni, allegati e mappe individuati dalla Deliberazione 67/2026 sono vincolanti dal 4 giugno 2026, data di pubblicazione dell’avviso in G.U. n. 127, fino all’approvazione con D.P.C.M. e comunque per non oltre tre anni. Focus: Verificare fasce, ambiti e perimetrazioni nelle mappe adottate; Applicare le disposizioni poste in salvaguardia e il reticolo principale dell’Allegato 3; Distinguere adozione definitiva da approvazione con D.P.C.M. Riesame 8 ottobre 2026, lotto 04: Gli aggiornamenti cartografici già avviati proseguono secondo i PAI previgenti, con rispetto delle salvaguardie e integrazione metodologica; gli esiti allineano il quadro distrettuale. Non si presume sostituita tutta la disciplina preesistente. Argomenti canonici invariati."
     },
     "centr-pai-frane-68-2026": {
       "topics": [
@@ -2633,7 +2636,9 @@
       "source_urls": [
         "https://aubac.it/pai-distrettuale-frane",
         "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2068%20-%20PAI%20FRANE_signed_signed_0.pdf",
-        "https://cms.aubac.it/sites/default/files/2026-06/PAI%20FRANE%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO_0.pdf"
+        "https://cms.aubac.it/sites/default/files/2026-06/PAI%20FRANE%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO_0.pdf",
+        "https://www.gazzettaufficiale.it/eli/gu/2026/06/04/127/sg/pdf",
+        "https://cms.aubac.it/sites/default/files/2026-06/AVVISO%20-%20PAI%20frane%20adozione%20definitiva_signed.pdf"
       ],
       "object_versions": [
         {
@@ -2647,7 +2652,7 @@
           ]
         }
       ],
-      "evidence": "Oggetto e ambito sostanziale della scheda: La CIP AUBAC ha adottato definitivamente il PAI frane distrettuale. Le misure di salvaguardia sulle disposizioni, sugli allegati e sulla cartografia individuati dalla Deliberazione 68/2026 sono vincolanti dal 4 giugno 2026, data di pubblicazione dell’avviso in G.U. n. 127, fino all’approvazione con D.P.C.M. e comunque per non oltre tre anni. Focus: Verificare classi di pericolosità, livelli di rischio e perimetrazioni; Applicare le disposizioni poste in salvaguardia e gli Allegati 1 e 5; Distinguere adozione definitiva da approvazione con D.P.C.M."
+      "evidence": "Oggetto e ambito sostanziale della scheda: La CIP AUBAC ha adottato definitivamente il PAI frane distrettuale. Le misure di salvaguardia sulle disposizioni, sugli allegati e sulla cartografia individuati dalla Deliberazione 68/2026 sono vincolanti dal 4 giugno 2026, data di pubblicazione dell’avviso in G.U. n. 127, fino all’approvazione con D.P.C.M. e comunque per non oltre tre anni. Focus: Verificare classi di pericolosità, livelli di rischio e perimetrazioni; Applicare le disposizioni poste in salvaguardia e gli Allegati 1 e 5; Distinguere adozione definitiva da approvazione con D.P.C.M. Riesame 8 ottobre 2026, lotto 04: Gli aggiornamenti cartografici già avviati proseguono secondo i PAI previgenti, con rispetto delle salvaguardie e integrazione metodologica; gli esiti allineano il quadro distrettuale. Non si presume sostituita tutta la disciplina preesistente. Argomenti canonici invariati."
     },
     "centr-pai-nestore-139-2026": {
       "topics": [

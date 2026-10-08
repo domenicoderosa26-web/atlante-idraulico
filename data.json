@@ -5544,7 +5544,7 @@
       "status": "Documentazione censita",
       "source_kind": "Autorità di bacino distrettuale",
       "note": "Piano dei bacini dell’ex AdB Basilicata, con porzioni di Puglia e Calabria. NTA aggiornamento 2024; verificare le successive varianti.",
-      "document_note": "Piano dei bacini dell’ex AdB Basilicata, con porzioni di Puglia e Calabria. NTA aggiornamento 2024; verificare le successive varianti.",
+      "document_note": "Letti artt. 5, 6 e 10 della versione 2024: perimetro di bacino, tutela degli alvei e condizioni per opere pubbliche/reti. La verifica non certifica tutte le varianti successive né sostituisce i pareri sul progetto.",
       "checked": "2026-09-23",
       "relations": [
         {
@@ -5556,6 +5556,10 @@
         {
           "date": "2026-09-18",
           "text": "Inseriti rimandi specifici al piano e ai suoi elaborati."
+        },
+        {
+          "date": "2026-10-08",
+          "text": "Audit incrementale, lotto 06: fonti e perimetro documentati; limiti, incongruenze e operazioni successive espliciti."
         }
       ],
       "documents": [
@@ -5566,7 +5570,49 @@
           "link_status": "checked",
           "link_checked": "2026-09-23"
         }
-      ]
+      ],
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "NTA aggiornamento 2024: frontespizio e artt. 5, 6 e 10 completi; indice degli elaborati del PAI. Varianti e cartografie non completate.",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/UOM%20BASILICATA/PAI-RF/Norme_PAI_Basilicata_2024.pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "version",
+            "source_url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/UOM%20BASILICATA/PAI-RF/Norme_PAI_Basilicata_2024.pdf",
+            "locator": "Frontespizio",
+            "finding": "Versione aggiornamento 2024, che riporta approvazione con DPCM 15 febbraio 2024 e GU n. 71 del 25 marzo 2024. La menzione sul frontespizio non equivale alla lettura autonoma del DPCM o di tutte le varianti."
+          },
+          {
+            "aspect": "territory",
+            "source_url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/UOM%20BASILICATA/PAI-RF/Norme_PAI_Basilicata_2024.pdf",
+            "locator": "Art. 5",
+            "finding": "Reticolo dell’ex AdB Basilicata: Bradano, Basento, Cavone, Agri, Sinni e Noce; il perimetro è di bacino e può comprendere porzioni esterne alla regione."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/UOM%20BASILICATA/PAI-RF/Norme_PAI_Basilicata_2024.pdf",
+            "locator": "Art. 6",
+            "finding": "Gli alvei sono destinati al libero deflusso e alle dinamiche evolutive; manutenzione e infrastrutture richiedono le verifiche e i pareri previsti. Non sono compatibili tombamenti o manufatti non idraulici con le condizioni indicate."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/UOM%20BASILICATA/PAI-RF/Norme_PAI_Basilicata_2024.pdf",
+            "locator": "Art. 10, commi 1-6 e 2.1",
+            "finding": "Opere pubbliche essenziali non altrimenti localizzabili e senza aggravamento. Reti nel sedime stradale: studio asseverato e adempimenti specifici; per sole fognature limitati scostamenti motivati. Gli altri casi richiedono pareri preliminare e definitivo, non una deroga generale."
+          }
+        ],
+        "limitations": [
+          "La revisione resta parziale: cartografie, fascicoli regionali o catena degli atti successivi non completati nel perimetro dichiarato."
+        ],
+        "pending": [
+          "Ricostruire modifiche NTA e varianti successive al 2024, acquisire DPCM e allegati, riscontrare la cartografia e le procedure applicabili al caso."
+        ],
+        "record_version": "af66fc4aba7d9d7b408bcea5962cfa4cc116788e6e26278952b3abc10398afc8"
+      }
     },
     {
       "id": "pai-lgv",
@@ -5592,7 +5638,7 @@
       "status": "Documentazione censita",
       "source_kind": "Autorità di bacino distrettuale",
       "note": "Documenti del PSAI-RI del bacino Liri–Garigliano. Non estendere automaticamente al Volturno; consultare le varianti.",
-      "document_note": "Documenti del PSAI-RI del bacino Liri–Garigliano. Non estendere automaticamente al Volturno; consultare le varianti.",
+      "document_note": "Letti artt. 4 e 27: classi delle fasce del Liri–Garigliano e verifiche sugli attraversamenti esistenti. Conservato l’ambito distinto dal Volturno; nessuna verifica integrale delle cartografie e degli aggiornamenti.",
       "checked": "2026-09-23",
       "relations": [
         {
@@ -5604,6 +5650,10 @@
         {
           "date": "2026-09-18",
           "text": "Inseriti rimandi specifici al piano e ai suoi elaborati."
+        },
+        {
+          "date": "2026-10-08",
+          "text": "Audit incrementale, lotto 06: fonti e perimetro documentati; limiti, incongruenze e operazioni successive espliciti."
         }
       ],
       "documents": [
@@ -5614,7 +5664,43 @@
           "link_status": "checked",
           "link_checked": "2026-09-23"
         }
-      ]
+      ],
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "PSAI-RI Liri–Garigliano, frontespizio e artt. 4 e 27 completi; non tutto il Piano e gli allegati.",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/PAI-RI%20LGV%20norme%20luglio_2006.pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "identity",
+            "source_url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/PAI-RI%20LGV%20norme%20luglio_2006.pdf",
+            "locator": "Frontespizio",
+            "finding": "Il documento riguarda il bacino del Liri–Garigliano, non autorizza l’estensione automatica delle sue norme al Volturno."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/PAI-RI%20LGV%20norme%20luglio_2006.pdf",
+            "locator": "Art. 4",
+            "finding": "Distinte piena ordinaria T 2–5 anni, fascia A con piena standard T 100, fascia B e sottofasce con criteri di tirante, fascia C T 300 o piena storica superiore. Non si sostituiscono queste classi con soglie di altri PAI."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/PAI-RI%20LGV%20norme%20luglio_2006.pdf",
+            "locator": "Art. 27",
+            "finding": "Attraversamenti e rilevati esistenti: verifica a cura dei gestori e individuazione degli interventi in caso di incompatibilità/rischio; dati di franco e corrente concorrono alle priorità. Il termine di 12 mesi è riferito all’adozione storica, non riaperto dalla lettura odierna."
+          }
+        ],
+        "limitations": [
+          "La revisione resta parziale: cartografie, fascicoli regionali o catena degli atti successivi non completati nel perimetro dichiarato."
+        ],
+        "pending": [
+          "Completare disposizioni per nuovi attraversamenti, allegati tecnici e catena delle varianti cartografiche/normative e competenze attuali."
+        ],
+        "record_version": "3c07251b2238ce66d5e4f0f6f433bc693e42a1cc29878841453dc18ff4a99939"
+      }
     },
     {
       "id": "pai-puglia",
@@ -5641,7 +5727,7 @@
       "status": "Documentazione censita",
       "source_kind": "Autorità di bacino distrettuale",
       "note": "Elaborati dell’ex AdB Puglia e del bacino interregionale Ofanto. Applicabilità secondo il bacino; archivio delle perimetrazioni e aggiornamenti.",
-      "document_note": "Il collegamento apre direttamente il PDF del documento.",
+      "document_note": "Esaminati artt. 6 e 10 delle NTA novembre 2005: distinti alveo/golena e fasce di pertinenza, condizioni degli studi e delle fasce suppletive. Nessuna generalizzazione delle distanze o attestazione di assenza di varianti.",
       "checked": "2026-09-23",
       "relations": [
         {
@@ -5653,6 +5739,10 @@
         {
           "date": "2026-09-18",
           "text": "Inseriti rimandi specifici al piano e ai suoi elaborati."
+        },
+        {
+          "date": "2026-10-08",
+          "text": "Audit incrementale, lotto 06: fonti e perimetro documentati; limiti, incongruenze e operazioni successive espliciti."
         }
       ],
       "documents": [
@@ -5664,7 +5754,43 @@
           "link_status": "checked",
           "link_checked": "2026-09-23"
         }
-      ]
+      ],
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "NTA novembre 2005: frontespizio, art. 6 e art. 10 completi. Non tutte le NTA, cartografie o varianti successive.",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/UoM%20Puglia/3_NTA_CI_30-11-05.pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "identity",
+            "source_url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/UoM%20Puglia/3_NTA_CI_30-11-05.pdf",
+            "locator": "Frontespizio",
+            "finding": "Piano di bacino stralcio Assetto Idrogeologico dell’ex Autorità di bacino della Puglia, NTA novembre 2005; applicabilità secondo il territorio di bacino, non come regola generale per tutta la normativa regionale."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/UoM%20Puglia/3_NTA_CI_30-11-05.pdf",
+            "locator": "Art. 6, commi 1-8",
+            "finding": "Alvei in modellamento attivo e golene: divieto di edificabilità con interventi e condizioni specifici. Studio idrologico-idraulico sempre richiesto per i commi 2, 4 e 6. La fascia di almeno 75 m dall’asse opera solo nelle condizioni di assenza di individuazione cartografica e morfologica del comma 8."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/UoM%20Puglia/3_NTA_CI_30-11-05.pdf",
+            "locator": "Art. 10, commi 1-3",
+            "finding": "Fasce di pertinenza: sicurezza e studio preventivo con parere favorevole. Quando non cartografate, ampiezza almeno 75 m contermine alla golena individuata secondo art. 6 comma 8; non si confonde questa fascia con una distanza universale dall’asse."
+          }
+        ],
+        "limitations": [
+          "La revisione resta parziale: cartografie, fascicoli regionali o catena degli atti successivi non completati nel perimetro dichiarato."
+        ],
+        "pending": [
+          "Completare le altre NTA, carte del bacino interessato e varianti successive; riscontrare gli aggiornamenti della disciplina e le competenze attuali."
+        ],
+        "record_version": "c27c3d263bde3d3edbcfb61a16157f5b6af00224f4e2c38d2f781d8dd5b020f9"
+      }
     },
     {
       "id": "pai-campania",
@@ -5781,7 +5907,7 @@
       "status": "Documentazione censita",
       "source_kind": "Autorità di bacino distrettuale",
       "note": "Documentazione specifica del bacino Biferno e minori. Verificare norme, cartografie e successive varianti.",
-      "document_note": "Documentazione specifica del bacino Biferno e minori. Verificare norme, cartografie e successive varianti.",
+      "document_note": "Letti artt. 11, 12 e 17 della versione aprile 2017: distinti criteri di pericolosità, fascia di riassetto e opere pubbliche ammissibili. Approvazione indicata dalla pagina istituzionale; varianti e cartografie successive restano da verificare.",
       "checked": "2026-09-23",
       "relations": [
         {
@@ -5793,6 +5919,10 @@
         {
           "date": "2026-09-18",
           "text": "Inseriti rimandi specifici al piano e ai suoi elaborati."
+        },
+        {
+          "date": "2026-10-08",
+          "text": "Audit incrementale, lotto 06: fonti e perimetro documentati; limiti, incongruenze e operazioni successive espliciti."
         }
       ],
       "documents": [
@@ -5802,8 +5932,65 @@
           "group": "PAI",
           "link_status": "checked",
           "link_checked": "2026-09-23"
+        },
+        {
+          "url": "https://www.distrettoappenninomeridionale.it/piano-stralcio-assetto-idrogeologico-rischio-idraulico/uom-regionale-molise-biferno-e-minori-uom-fortore-uom-saccione-uom-trigno/uom-regionale-molise-biferno-e-minori/",
+          "label": "Pagina distrettuale attuale · Biferno e minori",
+          "format": "html",
+          "group": "Fonte documentale",
+          "link_status": "source_link",
+          "link_checked": "2026-10-08"
         }
-      ]
+      ],
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "NTA aprile 2017: frontespizio e artt. 11, 12 e 17 completi; pagina istituzionale specifica del bacino. Cartografie e ulteriori NTA/varianti non integralmente lette.",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/molise/biferno/NORME%20PAI%20BIFERNO%20AGGIORNATE%20APRILE%202017.pdf",
+          "https://www.distrettoappenninomeridionale.it/piano-stralcio-assetto-idrogeologico-rischio-idraulico/uom-regionale-molise-biferno-e-minori-uom-fortore-uom-saccione-uom-trigno/uom-regionale-molise-biferno-e-minori/"
+        ],
+        "claims": [
+          {
+            "aspect": "version",
+            "source_url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/molise/biferno/NORME%20PAI%20BIFERNO%20AGGIORNATE%20APRILE%202017.pdf",
+            "locator": "Frontespizio",
+            "finding": "Norme di attuazione aprile 2017, con assetto idraulico e di versante; verificati soltanto gli articoli idraulici dichiarati."
+          },
+          {
+            "aspect": "approval",
+            "source_url": "https://www.distrettoappenninomeridionale.it/piano-stralcio-assetto-idrogeologico-rischio-idraulico/uom-regionale-molise-biferno-e-minori-uom-fortore-uom-saccione-uom-trigno/uom-regionale-molise-biferno-e-minori/",
+            "locator": "Presentazione PSAI-RI del bacino",
+            "finding": "La pagina specifica del bacino riporta CIP 3 del 23 maggio 2017 e DPCM 19 giugno 2019, GU n. 194 del 20 agosto 2019. Non è ricostruita la catena successiva né esaminato autonomamente il fascicolo GU."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/molise/biferno/NORME%20PAI%20BIFERNO%20AGGIORNATE%20APRILE%202017.pdf",
+            "locator": "Art. 11",
+            "finding": "Per studi idraulici: PI3 fino a 30 anni, PI2 oltre 30 fino a 200, PI1 oltre 200 fino a 500; distinti i criteri geomorfologici. Comuni: perimetrazione degli eventi alluvionali e trasmissione entro 30 giorni, nel testo esaminato."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/molise/biferno/NORME%20PAI%20BIFERNO%20AGGIORNATE%20APRILE%202017.pdf",
+            "locator": "Art. 12",
+            "finding": "Fascia di riassetto fluviale con disciplina prevalente in sovrapposizione; nei tratti non esplicitamente definiti assimilata a PI2. Interventi ammessi secondo elenco e condizioni, non un’autorizzazione generale."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/molise/biferno/NORME%20PAI%20BIFERNO%20AGGIORNATE%20APRILE%202017.pdf",
+            "locator": "Art. 17",
+            "finding": "Opere pubbliche non delocalizzabili: deroga condizionata al parere favorevole, senza compromettere interventi PAI o aumentare carico insediativo e con accorgimenti/protezione civile."
+          }
+        ],
+        "limitations": [
+          "La revisione resta parziale: cartografie, fascicoli regionali o catena degli atti successivi non completati nel perimetro dichiarato."
+        ],
+        "pending": [
+          "Completare artt. 13-16 e altre NTA, verificare cartografie correnti e varianti, acquisire gli atti di approvazione e riscontrare le competenze procedurali attuali."
+        ],
+        "record_version": "86ca15c0702f2b4959871bd2e366f4c4f90203962a4db78e397f05b03b29753a"
+      }
     },
     {
       "id": "pai-trigno",
@@ -5828,7 +6015,7 @@
       "status": "Documentazione censita",
       "source_kind": "Autorità di bacino distrettuale",
       "note": "Documentazione specifica del bacino Trigno. Verificare norme, cartografie e successive varianti.",
-      "document_note": "Documentazione specifica del bacino Trigno. Verificare norme, cartografie e successive varianti.",
+      "document_note": "Letti artt. 11, 12 e 17 della versione aprile 2017: distinti criteri di pericolosità, fascia di riassetto e opere pubbliche ammissibili. Approvazione indicata dalla pagina istituzionale; varianti e cartografie successive restano da verificare.",
       "checked": "2026-09-23",
       "relations": [
         {
@@ -5840,6 +6027,10 @@
         {
           "date": "2026-09-18",
           "text": "Inseriti rimandi specifici al piano e ai suoi elaborati."
+        },
+        {
+          "date": "2026-10-08",
+          "text": "Audit incrementale, lotto 06: fonti e perimetro documentati; limiti, incongruenze e operazioni successive espliciti."
         }
       ],
       "documents": [
@@ -5850,7 +6041,56 @@
           "link_status": "checked",
           "link_checked": "2026-09-23"
         }
-      ]
+      ],
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "NTA aprile 2017: frontespizio e artt. 11, 12 e 17 completi; pagina istituzionale specifica del bacino. Cartografie e ulteriori NTA/varianti non integralmente lette.",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/trigno/NORME%20PAI%20TRIGNO%20AGGIORNATE%20APRILE%202017.pdf",
+          "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-trigno-biferno-e-minori-saccione-e-fortore-menu/trigno-menu/piano-stralcio-assetto-idrogeologico-rischio-idraulico-menu"
+        ],
+        "claims": [
+          {
+            "aspect": "version",
+            "source_url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/trigno/NORME%20PAI%20TRIGNO%20AGGIORNATE%20APRILE%202017.pdf",
+            "locator": "Frontespizio",
+            "finding": "Norme di attuazione aprile 2017, con assetto idraulico e di versante; verificati soltanto gli articoli idraulici dichiarati."
+          },
+          {
+            "aspect": "approval",
+            "source_url": "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-trigno-biferno-e-minori-saccione-e-fortore-menu/trigno-menu/piano-stralcio-assetto-idrogeologico-rischio-idraulico-menu",
+            "locator": "Presentazione PSAI-RI del bacino",
+            "finding": "La pagina specifica del bacino riporta CIP 3 del 23 maggio 2017 e DPCM 19 giugno 2019, GU n. 194 del 20 agosto 2019. Non è ricostruita la catena successiva né esaminato autonomamente il fascicolo GU."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/trigno/NORME%20PAI%20TRIGNO%20AGGIORNATE%20APRILE%202017.pdf",
+            "locator": "Art. 11",
+            "finding": "Per studi idraulici: PI3 fino a 30 anni, PI2 oltre 30 fino a 200, PI1 oltre 200 fino a 500; distinti i criteri geomorfologici. Comuni: perimetrazione degli eventi alluvionali e trasmissione entro 30 giorni, nel testo esaminato."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/trigno/NORME%20PAI%20TRIGNO%20AGGIORNATE%20APRILE%202017.pdf",
+            "locator": "Art. 12",
+            "finding": "Fascia di riassetto fluviale con disciplina prevalente in sovrapposizione; nei tratti non esplicitamente definiti assimilata a PI2. Interventi ammessi secondo elenco e condizioni, non un’autorizzazione generale."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/trigno/NORME%20PAI%20TRIGNO%20AGGIORNATE%20APRILE%202017.pdf",
+            "locator": "Art. 17",
+            "finding": "Opere pubbliche non delocalizzabili: deroga condizionata al parere favorevole, senza compromettere interventi PAI o aumentare carico insediativo e con accorgimenti/protezione civile."
+          }
+        ],
+        "limitations": [
+          "La revisione resta parziale: cartografie, fascicoli regionali o catena degli atti successivi non completati nel perimetro dichiarato."
+        ],
+        "pending": [
+          "Completare artt. 13-16 e altre NTA, verificare cartografie correnti e varianti, acquisire gli atti di approvazione e riscontrare le competenze procedurali attuali."
+        ],
+        "record_version": "7e2898d7b20e858611b5926adb7ae59f2bf08ffe4d41b2d1bfad98ad229dfad8"
+      }
     },
     {
       "id": "pai-fortore",
@@ -10690,6 +10930,39 @@
     }
   ],
   "runs": [
+    {
+      "date": "2026-10-08",
+      "type": "Audit incrementale · lotto 06 · PAI meridionali",
+      "summary": "Cinque prime revisioni circoscritte delle NTA Puglia, Basilicata, Liri–Garigliano, Biferno e Trigno: prescrizioni idrauliche lette e limiti cartografici/temporali espliciti.",
+      "checked": [
+        "pai-puglia",
+        "pai-basilicata",
+        "pai-lgv",
+        "pai-biferno-e-minori",
+        "pai-trigno"
+      ],
+      "read_urls": [
+        "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/UoM%20Puglia/3_NTA_CI_30-11-05.pdf",
+        "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/UOM%20BASILICATA/PAI-RF/Norme_PAI_Basilicata_2024.pdf",
+        "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/PAI-RI%20LGV%20norme%20luglio_2006.pdf",
+        "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/molise/biferno/NORME%20PAI%20BIFERNO%20AGGIORNATE%20APRILE%202017.pdf",
+        "https://www.distrettoappenninomeridionale.it/piano-stralcio-assetto-idrogeologico-rischio-idraulico/uom-regionale-molise-biferno-e-minori-uom-fortore-uom-saccione-uom-trigno/uom-regionale-molise-biferno-e-minori/",
+        "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/trigno/NORME%20PAI%20TRIGNO%20AGGIORNATE%20APRILE%202017.pdf",
+        "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-trigno-biferno-e-minori-saccione-e-fortore-menu/trigno-menu/piano-stralcio-assetto-idrogeologico-rischio-idraulico-menu"
+      ],
+      "errors": [
+        "Lettura limitata agli articoli dichiarati; catene delle varianti e cartografie da completare."
+      ],
+      "updated_records": [
+        "pai-puglia",
+        "pai-basilicata",
+        "pai-lgv",
+        "pai-biferno-e-minori",
+        "pai-trigno"
+      ],
+      "new_records": [],
+      "publication": "data_json_update"
+    },
     {
       "date": "2026-10-08",
       "type": "Audit incrementale · lotto 05 · varianti e documenti",

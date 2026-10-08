@@ -1,0 +1,66 @@
+{
+  "checked_at": "2026-10-08T20:14:28.971050+00:00",
+  "base_commit": "172d73ada962c6385cced93626ffb635d70bda83",
+  "records_before": 106,
+  "records_after": 106,
+  "document_links_before": 166,
+  "document_links_after": 167,
+  "ids_preserved": true,
+  "existing_documents_preserved": true,
+  "existing_reviews_and_histories_preserved": true,
+  "canonical_topics_and_relations_unchanged": true,
+  "protected_files_unchanged": true,
+  "modified_records": [
+    {
+      "id": "pai-basilicata",
+      "fields": [
+        "document_note",
+        "documentary_review",
+        "history"
+      ]
+    },
+    {
+      "id": "pai-lgv",
+      "fields": [
+        "document_note",
+        "documentary_review",
+        "history"
+      ]
+    },
+    {
+      "id": "pai-puglia",
+      "fields": [
+        "document_note",
+        "documentary_review",
+        "history"
+      ]
+    },
+    {
+      "id": "pai-biferno-e-minori",
+      "fields": [
+        "document_note",
+        "documentary_review",
+        "documents",
+        "history"
+      ]
+    },
+    {
+      "id": "pai-trigno",
+      "fields": [
+        "document_note",
+        "documentary_review",
+        "history"
+      ]
+    }
+  ],
+  "checks": {
+    "topics_normalize": "passed; zero unresolved",
+    "topics_validate": "passed",
+    "archive_with_base": "passed",
+    "python_unittest": "60 passed",
+    "node_syntax": "passed",
+    "node_topic_filters": "passed; 14 categories, 168 combinations, loading/search",
+    "git_diff_check": "passed"
+  },
+  "publication": "CI and Pages still to verify after publication"
+}

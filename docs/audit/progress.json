@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "catalog_path": "data.json",
-  "updated_at": "2026-10-08T20:08:33.050022+00:00",
+  "updated_at": "2026-10-08T20:14:10.952998+00:00",
   "basis": [
     "docs/audit/2026-10-08/schede.json",
     "docs/audit/2026-10-08/coda.json",
@@ -11,7 +11,7 @@
   "note": "Registro derivato di attività: non è un secondo catalogo. Le revisioni anteriori sono conservate negli audit citati e in data.json. I conteggi sono una fotografia alla data indicata.",
   "catalog_snapshot": {
     "records": 106,
-    "documentary_reviews": 84,
+    "documentary_reviews": 89,
     "without_documentary_review": [
       "er1860",
       "abr17",
@@ -26,11 +26,6 @@
       "dist-sici",
       "sic-pgra3-02-2026",
       "pai-calabria2001",
-      "pai-basilicata",
-      "pai-lgv",
-      "pai-puglia",
-      "pai-biferno-e-minori",
-      "pai-trigno",
       "pai-fortore",
       "codstrada285",
       "dpr495",
@@ -386,7 +381,11 @@
       "record_version": "72a9889f04043aeb31c0ab25219ee343a92d4640566ed15f96de53255f42ed0c",
       "evidence": "docs/audit/2026-10-08/incrementale/lotto-05.json",
       "publication": {
-        "state": "validated_pending_deployment"
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/12",
+        "merge_commit": "74d4bc90a9bb50ba19438c853cfa349734d80a0d",
+        "verified_at": "2026-10-08T20:11:52.916824+00:00",
+        "evidence": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-05.json"
       },
       "history": [
         {
@@ -683,7 +682,11 @@
       "record_version": "efdc98708ef1697ec315a456e1a7ba766ed37a928f099e2f247bad1628f356cf",
       "evidence": "docs/audit/2026-10-08/incrementale/lotto-05.json",
       "publication": {
-        "state": "validated_pending_deployment"
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/12",
+        "merge_commit": "74d4bc90a9bb50ba19438c853cfa349734d80a0d",
+        "verified_at": "2026-10-08T20:11:52.916824+00:00",
+        "evidence": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-05.json"
       },
       "history": []
     },
@@ -711,7 +714,11 @@
       "record_version": "fd6f5ba081d6764d026ec84e0862f5071801bf07f2bb1c7f77c0cffa60bf938b",
       "evidence": "docs/audit/2026-10-08/incrementale/lotto-05.json",
       "publication": {
-        "state": "validated_pending_deployment"
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/12",
+        "merge_commit": "74d4bc90a9bb50ba19438c853cfa349734d80a0d",
+        "verified_at": "2026-10-08T20:11:52.916824+00:00",
+        "evidence": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-05.json"
       },
       "history": []
     },
@@ -738,7 +745,11 @@
       "record_version": "c0d7a6aafead8ff4dc75e40a2d4debf4d443b3a65c674b360cb81ae04a400e83",
       "evidence": "docs/audit/2026-10-08/incrementale/lotto-05.json",
       "publication": {
-        "state": "validated_pending_deployment"
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/12",
+        "merge_commit": "74d4bc90a9bb50ba19438c853cfa349734d80a0d",
+        "verified_at": "2026-10-08T20:11:52.916824+00:00",
+        "evidence": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-05.json"
       },
       "history": []
     },
@@ -764,6 +775,137 @@
       ],
       "record_version": "45fe89ae61732673fe755fe7ac34ca2f9f54193e556cb10f8fb1f8e82267159c",
       "evidence": "docs/audit/2026-10-08/incrementale/lotto-05.json",
+      "publication": {
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/12",
+        "merge_commit": "74d4bc90a9bb50ba19438c853cfa349734d80a0d",
+        "verified_at": "2026-10-08T20:11:52.916824+00:00",
+        "evidence": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-05.json"
+      },
+      "history": []
+    },
+    "pai-puglia": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-08T20:14:10.952998+00:00",
+      "source_urls": [
+        "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/UoM%20Puglia/3_NTA_CI_30-11-05.pdf"
+      ],
+      "verified_results": [
+        "Piano di bacino stralcio Assetto Idrogeologico dell’ex Autorità di bacino della Puglia, NTA novembre 2005; applicabilità secondo il territorio di bacino, non come regola generale per tutta la normativa regionale.",
+        "Alvei in modellamento attivo e golene: divieto di edificabilità con interventi e condizioni specifici. Studio idrologico-idraulico sempre richiesto per i commi 2, 4 e 6. La fascia di almeno 75 m dall’asse opera solo nelle condizioni di assenza di individuazione cartografica e morfologica del comma 8.",
+        "Fasce di pertinenza: sicurezza e studio preventivo con parere favorevole. Quando non cartografate, ampiezza almeno 75 m contermine alla golena individuata secondo art. 6 comma 8; non si confonde questa fascia con una distanza universale dall’asse."
+      ],
+      "limitations": [
+        "La revisione resta parziale: cartografie, fascicoli regionali o catena degli atti successivi non completati nel perimetro dichiarato."
+      ],
+      "next_operation": [
+        "Completare le altre NTA, carte del bacino interessato e varianti successive; riscontrare gli aggiornamenti della disciplina e le competenze attuali."
+      ],
+      "record_version": "c27c3d263bde3d3edbcfb61a16157f5b6af00224f4e2c38d2f781d8dd5b020f9",
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-06.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
+    },
+    "pai-basilicata": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-08T20:14:10.952998+00:00",
+      "source_urls": [
+        "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/UOM%20BASILICATA/PAI-RF/Norme_PAI_Basilicata_2024.pdf"
+      ],
+      "verified_results": [
+        "Versione aggiornamento 2024, che riporta approvazione con DPCM 15 febbraio 2024 e GU n. 71 del 25 marzo 2024. La menzione sul frontespizio non equivale alla lettura autonoma del DPCM o di tutte le varianti.",
+        "Reticolo dell’ex AdB Basilicata: Bradano, Basento, Cavone, Agri, Sinni e Noce; il perimetro è di bacino e può comprendere porzioni esterne alla regione.",
+        "Gli alvei sono destinati al libero deflusso e alle dinamiche evolutive; manutenzione e infrastrutture richiedono le verifiche e i pareri previsti. Non sono compatibili tombamenti o manufatti non idraulici con le condizioni indicate.",
+        "Opere pubbliche essenziali non altrimenti localizzabili e senza aggravamento. Reti nel sedime stradale: studio asseverato e adempimenti specifici; per sole fognature limitati scostamenti motivati. Gli altri casi richiedono pareri preliminare e definitivo, non una deroga generale."
+      ],
+      "limitations": [
+        "La revisione resta parziale: cartografie, fascicoli regionali o catena degli atti successivi non completati nel perimetro dichiarato."
+      ],
+      "next_operation": [
+        "Ricostruire modifiche NTA e varianti successive al 2024, acquisire DPCM e allegati, riscontrare la cartografia e le procedure applicabili al caso."
+      ],
+      "record_version": "af66fc4aba7d9d7b408bcea5962cfa4cc116788e6e26278952b3abc10398afc8",
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-06.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
+    },
+    "pai-lgv": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-08T20:14:10.952998+00:00",
+      "source_urls": [
+        "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/PAI-RI%20LGV%20norme%20luglio_2006.pdf"
+      ],
+      "verified_results": [
+        "Il documento riguarda il bacino del Liri–Garigliano, non autorizza l’estensione automatica delle sue norme al Volturno.",
+        "Distinte piena ordinaria T 2–5 anni, fascia A con piena standard T 100, fascia B e sottofasce con criteri di tirante, fascia C T 300 o piena storica superiore. Non si sostituiscono queste classi con soglie di altri PAI.",
+        "Attraversamenti e rilevati esistenti: verifica a cura dei gestori e individuazione degli interventi in caso di incompatibilità/rischio; dati di franco e corrente concorrono alle priorità. Il termine di 12 mesi è riferito all’adozione storica, non riaperto dalla lettura odierna."
+      ],
+      "limitations": [
+        "La revisione resta parziale: cartografie, fascicoli regionali o catena degli atti successivi non completati nel perimetro dichiarato."
+      ],
+      "next_operation": [
+        "Completare disposizioni per nuovi attraversamenti, allegati tecnici e catena delle varianti cartografiche/normative e competenze attuali."
+      ],
+      "record_version": "3c07251b2238ce66d5e4f0f6f433bc693e42a1cc29878841453dc18ff4a99939",
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-06.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
+    },
+    "pai-biferno-e-minori": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-08T20:14:10.952998+00:00",
+      "source_urls": [
+        "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/molise/biferno/NORME%20PAI%20BIFERNO%20AGGIORNATE%20APRILE%202017.pdf",
+        "https://www.distrettoappenninomeridionale.it/piano-stralcio-assetto-idrogeologico-rischio-idraulico/uom-regionale-molise-biferno-e-minori-uom-fortore-uom-saccione-uom-trigno/uom-regionale-molise-biferno-e-minori/"
+      ],
+      "verified_results": [
+        "Norme di attuazione aprile 2017, con assetto idraulico e di versante; verificati soltanto gli articoli idraulici dichiarati.",
+        "La pagina specifica del bacino riporta CIP 3 del 23 maggio 2017 e DPCM 19 giugno 2019, GU n. 194 del 20 agosto 2019. Non è ricostruita la catena successiva né esaminato autonomamente il fascicolo GU.",
+        "Per studi idraulici: PI3 fino a 30 anni, PI2 oltre 30 fino a 200, PI1 oltre 200 fino a 500; distinti i criteri geomorfologici. Comuni: perimetrazione degli eventi alluvionali e trasmissione entro 30 giorni, nel testo esaminato.",
+        "Fascia di riassetto fluviale con disciplina prevalente in sovrapposizione; nei tratti non esplicitamente definiti assimilata a PI2. Interventi ammessi secondo elenco e condizioni, non un’autorizzazione generale.",
+        "Opere pubbliche non delocalizzabili: deroga condizionata al parere favorevole, senza compromettere interventi PAI o aumentare carico insediativo e con accorgimenti/protezione civile."
+      ],
+      "limitations": [
+        "La revisione resta parziale: cartografie, fascicoli regionali o catena degli atti successivi non completati nel perimetro dichiarato."
+      ],
+      "next_operation": [
+        "Completare artt. 13-16 e altre NTA, verificare cartografie correnti e varianti, acquisire gli atti di approvazione e riscontrare le competenze procedurali attuali."
+      ],
+      "record_version": "86ca15c0702f2b4959871bd2e366f4c4f90203962a4db78e397f05b03b29753a",
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-06.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
+    },
+    "pai-trigno": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-08T20:14:10.952998+00:00",
+      "source_urls": [
+        "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/trigno/NORME%20PAI%20TRIGNO%20AGGIORNATE%20APRILE%202017.pdf",
+        "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-trigno-biferno-e-minori-saccione-e-fortore-menu/trigno-menu/piano-stralcio-assetto-idrogeologico-rischio-idraulico-menu"
+      ],
+      "verified_results": [
+        "Norme di attuazione aprile 2017, con assetto idraulico e di versante; verificati soltanto gli articoli idraulici dichiarati.",
+        "La pagina specifica del bacino riporta CIP 3 del 23 maggio 2017 e DPCM 19 giugno 2019, GU n. 194 del 20 agosto 2019. Non è ricostruita la catena successiva né esaminato autonomamente il fascicolo GU.",
+        "Per studi idraulici: PI3 fino a 30 anni, PI2 oltre 30 fino a 200, PI1 oltre 200 fino a 500; distinti i criteri geomorfologici. Comuni: perimetrazione degli eventi alluvionali e trasmissione entro 30 giorni, nel testo esaminato.",
+        "Fascia di riassetto fluviale con disciplina prevalente in sovrapposizione; nei tratti non esplicitamente definiti assimilata a PI2. Interventi ammessi secondo elenco e condizioni, non un’autorizzazione generale.",
+        "Opere pubbliche non delocalizzabili: deroga condizionata al parere favorevole, senza compromettere interventi PAI o aumentare carico insediativo e con accorgimenti/protezione civile."
+      ],
+      "limitations": [
+        "La revisione resta parziale: cartografie, fascicoli regionali o catena degli atti successivi non completati nel perimetro dichiarato."
+      ],
+      "next_operation": [
+        "Completare artt. 13-16 e altre NTA, verificare cartografie correnti e varianti, acquisire gli atti di approvazione e riscontrare le competenze procedurali attuali."
+      ],
+      "record_version": "7e2898d7b20e858611b5926adb7ae59f2bf08ffe4d41b2d1bfad98ad229dfad8",
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-06.json",
       "publication": {
         "state": "validated_pending_deployment"
       },
@@ -859,16 +1001,35 @@
       ],
       "evidence": "docs/audit/2026-10-08/incrementale/lotto-05.json",
       "publication": {
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/12",
+        "merge_commit": "74d4bc90a9bb50ba19438c853cfa349734d80a0d",
+        "verified_at": "2026-10-08T20:11:52.916824+00:00",
+        "evidence": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-05.json"
+      }
+    },
+    {
+      "id": "incrementale-06",
+      "date": "2026-10-08",
+      "record_ids": [
+        "pai-puglia",
+        "pai-basilicata",
+        "pai-lgv",
+        "pai-biferno-e-minori",
+        "pai-trigno"
+      ],
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-06.json",
+      "publication": {
         "state": "validated_pending_deployment"
       }
     }
   ],
   "next_batch": [
-    "pai-puglia",
-    "pai-basilicata",
-    "pai-lgv",
-    "pai-biferno-e-minori",
-    "pai-trigno"
+    "pai-fortore",
+    "dist-alpi",
+    "dist-sard",
+    "bas471",
+    "abr17"
   ],
   "queue_history": [
     {

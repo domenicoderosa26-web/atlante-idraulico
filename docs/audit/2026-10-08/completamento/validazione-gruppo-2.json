@@ -1,0 +1,75 @@
+{
+  "checked_at": "2026-10-08T14:53:59.017900+00:00",
+  "base_commit": "15935de9034afaad00f802ac5ddeb4a79dafa9cc",
+  "records_before": 106,
+  "records_after": 106,
+  "same_ids": true,
+  "documents_before": 140,
+  "documents_after": 140,
+  "new_reviews": 21,
+  "total_reviews": 61,
+  "legal_reviews_complete": 0,
+  "verified_UNI_catalogs_only": 3,
+  "normative_or_documentary_changes": [
+    {
+      "id": "mar53",
+      "field": "documents"
+    },
+    {
+      "id": "mar53",
+      "field": "document_note"
+    },
+    {
+      "id": "cal10",
+      "field": "note"
+    },
+    {
+      "id": "cal10",
+      "field": "status"
+    },
+    {
+      "id": "tos20",
+      "field": "document_note"
+    },
+    {
+      "id": "tos46",
+      "field": "document_note"
+    }
+  ],
+  "protected_files_unchanged": true,
+  "tests": {
+    "python_unittest": {
+      "executed": true,
+      "passed": 60
+    },
+    "topics_normalize": {
+      "executed": true,
+      "unclassified": 0
+    },
+    "topics_validate": {
+      "executed": true,
+      "valid": 106
+    },
+    "archive_base_retention": {
+      "executed": true,
+      "passed": true
+    },
+    "node_syntax": {
+      "executed": true,
+      "passed": true
+    },
+    "node_filters": {
+      "executed": true,
+      "passed": true,
+      "canonical_topics": 14,
+      "territory_level_combinations": 168
+    }
+  },
+  "publication": "pending_for_this_group",
+  "concurrent_commit_handled": {
+    "sha": "15935de9034afaad00f802ac5ddeb4a79dafa9cc",
+    "only_changed_file": "monitoring-status.json",
+    "archives_and_taxonomy_reread": true,
+    "monitoring_status_preserved_by_latest_base_tree": true
+  }
+}

@@ -769,7 +769,31 @@
       ],
       "document_url": "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/Accessibile/main.aspx?iddoc=rr002017112300007&view=showdoc",
       "document_label": "R.R. 7/2017 · testo coordinato",
-      "document_note": "Il collegamento apre direttamente il PDF del documento."
+      "document_note": "Il collegamento apre direttamente il PDF del documento.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: Artt. 1 e 7; art. 14, comma 8; note di modifica al R.R. 3/2025",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "content",
+            "source_url": "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf",
+            "locator": "Artt. 1 e 7; art. 14, comma 8; note di modifica al R.R. 3/2025",
+            "finding": "Il testo esaminato distingue criticità territoriali A/B/C e documento semplificato comunale; questo considera criticità locali, misure strutturali/non strutturali, volumi riservati e infiltrazione. Le note riportano modifiche del R.R. 28 marzo 2025 n. 3; non è ricostruita la catena completa degli aggiornamenti."
+          }
+        ],
+        "limitations": [
+          "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+        ],
+        "pending": [
+          "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati."
+        ],
+        "record_version": "c0ae778d4d2dd16a033413bf1695820226d58aeda46c3bfea39e3761ed92b604"
+      }
     },
     {
       "id": "sic102",
@@ -816,7 +840,31 @@
           "link_checked": "2026-09-18"
         }
       ],
-      "document_url": "https://www.regione.sicilia.it/la-regione-informa/ddg-n-102-23062021"
+      "document_url": "https://www.regione.sicilia.it/la-regione-informa/ddg-n-102-23062021",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: Allegato 2, metodologia di calcolo; PDF pp. 13 e 20",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://www.regione.sicilia.it/system/files/2021-07/ddg%20102%202021.pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "content",
+            "source_url": "https://www.regione.sicilia.it/system/files/2021-07/ddg%20102%202021.pdf",
+            "locator": "Allegato 2, metodologia di calcolo; PDF pp. 13 e 20",
+            "finding": "La metodologia confronta coefficienti e portate ante/post, considera riuso meteorico compatibile e compensazione tramite laminazione/infiltrazione. L’esempio toscano dei 5 mm riportato in nota non costituisce una soglia generale siciliana."
+          }
+        ],
+        "limitations": [
+          "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+        ],
+        "pending": [
+          "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati."
+        ],
+        "record_version": "5c79e0afd4d488bf89856b267dc47a7b5cd0aeff282e6d8f76555a35d6379e1d"
+      }
     },
     {
       "id": "ven2948",
@@ -863,7 +911,31 @@
       ],
       "document_url": "https://bur.regione.veneto.it/BurvServices/pubblica/DettaglioDgr.aspx?id=219024",
       "document_label": "DGR 2948/2009 · testo e allegato A",
-      "document_note": "Collegamenti alla documentazione specifica. Consultare anche gli aggiornamenti e le varianti indicati dalla fonte."
+      "document_note": "Collegamenti alla documentazione specifica. Consultare anche gli aggiornamenti e le varianti indicati dalla fonte.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: Allegato A, premessa, ambito e impostazione dello studio; PDF pp. 1-4",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://bur.regione.veneto.it/BurvServices/pubblica/Download.aspx?name=2948_AllegatoA_219024.pdf&storico=False&type=9"
+        ],
+        "claims": [
+          {
+            "aspect": "content",
+            "source_url": "https://bur.regione.veneto.it/BurvServices/pubblica/Download.aspx?name=2948_AllegatoA_219024.pdf&storico=False&type=9",
+            "locator": "Allegato A, premessa, ambito e impostazione dello studio; PDF pp. 1-4",
+            "finding": "La verifica per PAT/PATI/PI combina ammissibilità rispetto al rischio e compensazione dell’impermeabilizzazione; per varianti non significative è prevista asseverazione. Lo studio non sostituisce gli altri atti autorizzativi; l’infiltrazione richiede valutazione del rischio di inquinamento."
+          }
+        ],
+        "limitations": [
+          "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+        ],
+        "pending": [
+          "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati."
+        ],
+        "record_version": "08c94742e89daf1b71701e0d63a95607e933a37c0bd2344553f7637112b8e71a"
+      }
     },
     {
       "id": "fvg83",
@@ -910,7 +982,31 @@
       ],
       "document_url": "https://decreti.regione.fvg.it/Storage/2018_83/ALLEGATO1%20AL%20DPREG%20083-2018.PDF",
       "document_label": "D.P.Reg. 083/Pres/2018 · Allegato 1 ufficiale",
-      "document_note": "È disponibile il PDF ufficiale del regolamento; la banca normativa regionale ha restituito un errore applicativo durante il controllo."
+      "document_note": "È disponibile il PDF ufficiale del regolamento; la banca normativa regionale ha restituito un errore applicativo durante il controllo.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: Art. 1; art. 11; allegato 1, capitolo 6",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://decreti.regione.fvg.it/Storage/2018_83/ALLEGATO1%20AL%20DPREG%20083-2018.PDF"
+        ],
+        "claims": [
+          {
+            "aspect": "content",
+            "source_url": "https://decreti.regione.fvg.it/Storage/2018_83/ALLEGATO1%20AL%20DPREG%20083-2018.PDF",
+            "locator": "Art. 1; art. 11; allegato 1, capitolo 6",
+            "finding": "Il regolamento contiene la crescita dei deflussi conseguente alle trasformazioni; lo studio di compatibilità è commisurato al livello della pianificazione. L’art. 11 richiede un piano di manutenzione per mantenere l’efficienza dei dispositivi. Le tabelle sulle trasformazioni fondiarie non sono generalizzate ad ogni intervento edilizio."
+          }
+        ],
+        "limitations": [
+          "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+        ],
+        "pending": [
+          "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati."
+        ],
+        "record_version": "e1853b1ab07756a683f38d3fba3cf28f8aff93c474ec1e539e607b2c5dc8e605"
+      }
     },
     {
       "id": "pug26",
@@ -951,7 +1047,31 @@
           "format": "pdf"
         }
       ],
-      "document_note": "Il collegamento apre direttamente il PDF del documento."
+      "document_note": "Il collegamento apre direttamente il PDF del documento.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: Artt. 1-3 e art. 4, commi 2-7",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://burp.regione.puglia.it/documents/20135/784664/REGOLAMENTO%2BREGIONALE%2B9%2Bdicembre%2B2013%2C%2Bn.%2B26%2B%28id%2B4906507%29.pdf/82bcb1fd-8b6d-ec17-ae21-235fdca40c45?t=1622786288358&version=1.0"
+        ],
+        "claims": [
+          {
+            "aspect": "content",
+            "source_url": "https://burp.regione.puglia.it/documents/20135/784664/REGOLAMENTO%2BREGIONALE%2B9%2Bdicembre%2B2013%2C%2Bn.%2B26%2B%28id%2B4906507%29.pdf/82bcb1fd-8b6d-ec17-ae21-235fdca40c45?t=1622786288358&version=1.0",
+            "locator": "Artt. 1-3 e art. 4, commi 2-7",
+            "finding": "Il testo distingue riuso delle meteoriche, prima pioggia e trattamento. La definizione della prima pioggia varia con l’estensione della superficie e contempla una disciplina distinta per reti urbane separate; non si deduce una soglia universale di 5 mm. Il riuso è subordinato a verifiche di qualità e condizioni del regolamento."
+          }
+        ],
+        "limitations": [
+          "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+        ],
+        "pending": [
+          "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati."
+        ],
+        "record_version": "3c0791814a757af81ddeb7dfc18b02d8bbe2ca4abdb95dcbd1ddf810244834d1"
+      }
     },
     {
       "id": "pie1",
@@ -1033,7 +1153,32 @@
           "format": "pdf"
         }
       ],
-      "document_note": "Il collegamento apre direttamente il PDF del documento."
+      "document_note": "Il collegamento apre direttamente il PDF del documento.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: Artt. 1, 6-9 e 12; PDF completo di due pagine, allegato A assente",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://lrv.regione.liguria.it/liguriass_prod/class/download_doc.php?id=b63a3d33-74aa-0f7b-634b-512e1285dff3&ext=pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "content",
+            "source_url": "https://lrv.regione.liguria.it/liguriass_prod/class/download_doc.php?id=b63a3d33-74aa-0f7b-634b-512e1285dff3&ext=pdf",
+            "locator": "Artt. 1, 6-9 e 12; PDF completo di due pagine, allegato A assente",
+            "finding": "Il regolamento distingue categorie di meteoriche e prima pioggia/lavaggio nelle attività indicate; vieta lo scarico diretto in acque sotterranee e richiede piano di prevenzione e gestione nei casi dell’art. 7. Il PDF non contiene l’allegato A richiamato per i contenuti del piano."
+          }
+        ],
+        "limitations": [
+          "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+        ],
+        "pending": [
+          "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati.",
+          "Acquisire allegato A sul piano di prevenzione e gestione."
+        ],
+        "record_version": "7ac4d16d984b91d6fbc35f7634e7934482e1e305b48c7e9ae47db9608aa10c8a"
+      }
     },
     {
       "id": "er286",
@@ -1258,7 +1403,31 @@
           "format": "pdf"
         }
       ],
-      "document_note": "Il collegamento apre direttamente il PDF del documento."
+      "document_note": "Il collegamento apre direttamente il PDF del documento.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: Art. 3, commi 1-3",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?id=4ab37acb-9af9-11ed-b5b1-005056959b60&ext=pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "content",
+            "source_url": "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?id=4ab37acb-9af9-11ed-b5b1-005056959b60&ext=pdf",
+            "locator": "Art. 3, commi 1-3",
+            "finding": "La tutela riguarda corsi d’acqua del reticolo regionale, alveo, golene, argini e fascia di dieci metri. I commi successivi prevedono interventi ammessi e condizioni: la distanza non è presentata come divieto privo di eccezioni."
+          }
+        ],
+        "limitations": [
+          "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+        ],
+        "pending": [
+          "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati."
+        ],
+        "record_version": "698e755ab95d6473ef4a43a55a6ca30c6d7786b492b37fa5723706dbb567a8f3"
+      }
     },
     {
       "id": "mar53",
@@ -1293,19 +1462,49 @@
         {
           "date": "2026-09-18",
           "text": "Aggiornata la scheda alla L.R. 19/2023, art. 31, e verificata la permanenza applicativa dei criteri D.G.R. 53/2014."
+        },
+        {
+          "date": "2026-10-08",
+          "text": "Audit sostanziale: documents; document_note corretti con evidenze puntuali; revisione giuridica complessiva ancora parziale."
         }
       ],
       "documents": [
         {
-          "url": "https://www.autoritabacino.marche.it/invidr/allegati/DGR0053_14.pdf",
-          "label": "D.G.R. 53/2014 · criteri applicativi",
+          "url": "https://www.regione.marche.it/Portals/0/Paesaggio_Territorio_Urbanistica/Compat_Inv_Idraulica/DGR0053_14.pdf?ver=2016-03-10-115821-660",
+          "label": "D.G.R. 53/2014 · rimando PDF regionale (accesso da riverificare)",
+          "format": "pdf",
           "link_status": "source_link",
-          "link_checked": "2026-09-18"
+          "link_checked": "2026-10-08"
         }
       ],
       "document_url": "https://www.regione.marche.it/Regione-Utile/Paesaggio-Territorio-Urbanistica-Genio-Civile/Compatibilit%C3%A0-e-invarianza-idraulica",
       "document_label": "Regione Marche · quadro vigente e documenti applicativi",
-      "document_note": "La pagina regionale ricostruisce la successione normativa e pubblica criteri, linee guida, foglio di calcolo e schema di asseverazione."
+      "document_note": "La pagina regionale pubblica criteri, linee guida, foglio di calcolo e asseverazione. Il precedente URL autoritabacino.marche.it restituisce contenuti estranei al documento ed è stato sostituito con il rimando PDF pubblicato dalla Regione; il download diretto ha restituito HTTP 502 durante il controllo. La provenienza del rimando è riscontrata, la disponibilità e il contenuto del PDF restano da verificare.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: Pagina regionale: L.R. 19/2023, artt. 31, 33 comma 10 e 35 comma 1 lett. m)",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://www.regione.marche.it/Regione-Utile/Paesaggio-Territorio-Urbanistica-Genio-Civile/Compatibilit%C3%A0-e-invarianza-idraulica"
+        ],
+        "claims": [
+          {
+            "aspect": "content",
+            "source_url": "https://www.regione.marche.it/Regione-Utile/Paesaggio-Territorio-Urbanistica-Genio-Civile/Compatibilit%C3%A0-e-invarianza-idraulica",
+            "locator": "Pagina regionale: L.R. 19/2023, artt. 31, 33 comma 10 e 35 comma 1 lett. m)",
+            "finding": "La pagina istituzionale distingue compatibilità degli strumenti urbanistici e invarianza delle trasformazioni della permeabilità; descrive l’abrogazione della L.R. 22/2011 e la permanenza degli atti attuativi compatibili fino ai nuovi. Distingue criteri applicativi e linee guida non vincolanti."
+          }
+        ],
+        "limitations": [
+          "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+        ],
+        "pending": [
+          "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati.",
+          "Acquisire DGR 53/2014 e allegati dal dominio Regione Marche: download diretto HTTP 502. Non usare il vecchio dominio con contenuti estranei."
+        ],
+        "record_version": "ab040da8e6f02e772eaca1eeb54ae610631d7f43084c30b9db67b21c936ad448"
+      }
     },
     {
       "id": "laz18",
@@ -1346,7 +1545,31 @@
           "format": "pdf"
         }
       ],
-      "document_note": "Il collegamento apre direttamente il PDF del documento."
+      "document_note": "Il collegamento apre direttamente il PDF del documento.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: Art. 24 e art. 30, commi 1-5; NTA nel BURL 20 dicembre 2018, suppl. 3",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://www.regione.lazio.it/sites/default/files/amministrazione-trasparente/tbl_contenuti/Norme_Tecniche_di_Attuazione.pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "content",
+            "source_url": "https://www.regione.lazio.it/sites/default/files/amministrazione-trasparente/tbl_contenuti/Norme_Tecniche_di_Attuazione.pdf",
+            "locator": "Art. 24 e art. 30, commi 1-5; NTA nel BURL 20 dicembre 2018, suppl. 3",
+            "finding": "Il testo distingue riuso refluo nei nuovi depuratori ove sostenibile e con utilizzatori disponibili, definizione di prima pioggia e trattamento delle aree industriali indicate. Gli apporti successivi non sono esentati se il dilavamento degli inquinanti non si esaurisce con la prima pioggia."
+          }
+        ],
+        "limitations": [
+          "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+        ],
+        "pending": [
+          "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati."
+        ],
+        "record_version": "8d4ef98576f1a76dd849a5a1f11456c8129be9511ed789e81dc4721f1d17b3e2"
+      }
     },
     {
       "id": "abr17",
@@ -1411,15 +1634,19 @@
         "Coordinamento con D.Lgs. 152/2006 e PTA"
       ],
       "kind": "Atto normativo",
-      "status": "Vigenza da ricostruire",
+      "status": "Parzialmente abrogata · coordinamento residuo da verificare",
       "source_kind": "Portale istituzionale",
-      "note": "Disciplina regionale storica sugli scarichi. Nel controllo mirato non è stata riscontrata come normativa autonoma e specifica sulle acque di prima pioggia; coordinare con D.Lgs. 152/2006, PTA e prescrizioni dell’ente competente.",
+      "note": "Disciplina regionale storica sugli scarichi. Nel controllo mirato non è stata riscontrata come normativa autonoma e specifica sulle acque di prima pioggia; coordinare con D.Lgs. 152/2006, PTA e prescrizioni dell’ente competente. Il Consiglio regionale segnala l’abrogazione del 2017 salvo gli artt. 6-29 e 57-60; è stata esaminata anche la successiva L.R. 10/2022. La disciplina residua va coordinata con il quadro statale e regionale attuale; gli allegati sono omessi nel PDF.",
       "checked": "2026-09-18",
       "relations": [],
       "history": [
         {
           "date": "2026-09-17",
           "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        },
+        {
+          "date": "2026-10-08",
+          "text": "Audit sostanziale: status; note corretti con evidenze puntuali; revisione giuridica complessiva ancora parziale."
         }
       ],
       "documents": [
@@ -1429,7 +1656,46 @@
           "format": "pdf"
         }
       ],
-      "document_note": "Il collegamento apre direttamente il PDF del documento."
+      "document_note": "Il collegamento apre direttamente il PDF del documento.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: Intestazione coordinata della L.R. 10/1997; artt. 6-8; L.R. 18/2017, art. 24 e nota 25; L.R. 10/2022, artt. 19 e 21; intestazione BURC 53 del 20 aprile 2022",
+        "outcome": "partial",
+        "legal_state": "partially_repealed",
+        "source_urls": [
+          "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=1997&numero=10",
+          "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=2017&numero=18",
+          "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=2022&numero=10"
+        ],
+        "claims": [
+          {
+            "aspect": "status",
+            "source_url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=1997&numero=10",
+            "locator": "Intestazione coordinata della L.R. 10/1997; artt. 6-8",
+            "finding": "La fonte del Consiglio regionale segnala l’abrogazione disposta nel 2017, con esclusione degli articoli 6-29 e 57-60. Gli artt. 6-8 conservano riferimenti alla disciplina statale storica; non è attestato che le competenze amministrative originarie siano oggi applicabili. Il PDF omette gli allegati."
+          },
+          {
+            "aspect": "amendment",
+            "source_url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=2017&numero=18",
+            "locator": "L.R. 18/2017, art. 24 e nota 25",
+            "finding": "L’art. 24 dispone l’abrogazione della L.R. 10/1997 salvo gli artt. 6-29 e 57-60. La nota documenta a sua volta l’abrogazione dell’art. 24 mediante la L.R. 10/2022; la ricostruzione non si arresta all’atto del 2017."
+          },
+          {
+            "aspect": "amendment",
+            "source_url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=2022&numero=10",
+            "locator": "L.R. 10/2022, artt. 19 e 21; intestazione BURC 53 del 20 aprile 2022",
+            "finding": "Il testo coordinato al 1 aprile 2026 abroga gli articoli elencati della L.R. 18/2017, incluso il 24, e sostituisce riferimenti all’AIC; entra in vigore il giorno dopo la pubblicazione. Il passo letto non dispone espressamente ripristino della L.R. 10/1997: non viene dedotta una reviviscenza."
+          }
+        ],
+        "limitations": [
+          "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+        ],
+        "pending": [
+          "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati.",
+          "Coordinare disciplina residua e competenze con TUA/PTA; acquisire gli allegati omessi e verificare ulteriori atti modificativi."
+        ],
+        "record_version": "b8e7aa3608998e22804d6688ef9cb01610120b4a2aadfc2e845cc3f003533269"
+      }
     },
     {
       "id": "umb627",
@@ -1477,7 +1743,31 @@
           "link_checked": "2026-09-18"
         }
       ],
-      "document_url": "https://www.auriumbria.it/wp-content/uploads/2023/12/DGR-627-2019.pdf?x95031="
+      "document_url": "https://www.auriumbria.it/wp-content/uploads/2023/12/DGR-627-2019.pdf?x95031=",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: Art. 19, commi 1-3; BUR Umbria 22 maggio 2019, suppl. 7, pp. 23-24",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://www.auriumbria.it/wp-content/uploads/2023/12/DGR-627-2019.pdf?x95031="
+        ],
+        "claims": [
+          {
+            "aspect": "content",
+            "source_url": "https://www.auriumbria.it/wp-content/uploads/2023/12/DGR-627-2019.pdf?x95031=",
+            "locator": "Art. 19, commi 1-3; BUR Umbria 22 maggio 2019, suppl. 7, pp. 23-24",
+            "finding": "La disciplina delle reti separate distingue censimento degli scarichi, parere del gestore quando la prima pioggia è inviata in rete nera e dispositivi di gestione per agglomerati oltre 10.000 AE. L’attuazione prevista dal comma 3 avviene previo accordo fra Regione, AURI e gestori; il PDF del 2019 non prova l’assenza di modifiche successive."
+          }
+        ],
+        "limitations": [
+          "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+        ],
+        "pending": [
+          "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati."
+        ],
+        "record_version": "24f89db8aa00b1004d2a1415ae5aa0647ed73c8183a47bb61f003a8cc2435cbd"
+      }
     },
     {
       "id": "mol25",
@@ -1565,7 +1855,31 @@
       ],
       "document_url": "https://pta.regione.vda.it/wp-content/uploads/doc/PTA_2030_Norme_di_Attuazione_Definitivo_DGR334.pdf",
       "document_label": "PTA 2030 · norme di attuazione",
-      "document_note": "Collegamenti alla documentazione specifica. Consultare anche gli aggiornamenti e le varianti indicati dalla fonte."
+      "document_note": "Collegamenti alla documentazione specifica. Consultare anche gli aggiornamenti e le varianti indicati dalla fonte.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: NTA, artt. 1, 2, 4 e 26",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://pta.regione.vda.it/wp-content/uploads/doc/PTA_2030_Norme_di_Attuazione_Definitivo_DGR334.pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "content",
+            "source_url": "https://pta.regione.vda.it/wp-content/uploads/doc/PTA_2030_Norme_di_Attuazione_Definitivo_DGR334.pdf",
+            "locator": "NTA, artt. 1, 2, 4 e 26",
+            "finding": "Il piano si applica ai corpi idrici superficiali/sotterranei regionali e al reticolo specificato; sostituisce il PTA del 2006 e distingue varianti rilevanti da aggiornamenti non sostanziali. L’art. 26 richiede verifica ecologica e autorizzazione per interventi in alveo/sponde, con disciplina specifica per opere regionali. Pubblicazione ed efficacia dell’approvazione restano da verificare."
+          }
+        ],
+        "limitations": [
+          "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+        ],
+        "pending": [
+          "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati."
+        ],
+        "record_version": "e0d9625920280a0783b79d2f3476c18de5e066509ba8e8ed548bfd546355559e"
+      }
     },
     {
       "id": "ligpta",
@@ -1605,7 +1919,31 @@
           "format": "pdf"
         }
       ],
-      "document_note": "Il collegamento apre direttamente il PDF del documento."
+      "document_note": "Il collegamento apre direttamente il PDF del documento.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: NTA, artt. 21-23; pp. 14-15",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://www.regione.liguria.it/components/com_publiccompetitions/includes/download.php?id=41731%3Anorme-di-attuazione.pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "content",
+            "source_url": "https://www.regione.liguria.it/components/com_publiccompetitions/includes/download.php?id=41731%3Anorme-di-attuazione.pdf",
+            "locator": "NTA, artt. 21-23; pp. 14-15",
+            "finding": "Il piano distingue aree di salvaguardia e protezione delle captazioni, tutela quantitativa degli acquiferi e scarichi al suolo. L’art. 22 collega nuove impermeabilizzazioni alle zone di protezione dell’art. 21; non si estende il divieto indiscriminatamente a tutta la regione."
+          }
+        ],
+        "limitations": [
+          "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+        ],
+        "pending": [
+          "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati."
+        ],
+        "record_version": "2080b1233a058f52a7c55275e6244584729c4c1f993661231936d6ef394a7e92"
+      }
     },
     {
       "id": "bz6",
@@ -1894,7 +2232,37 @@
           "format": "pdf"
         }
       ],
-      "document_note": "Il collegamento apre direttamente il PDF del documento."
+      "document_note": "Il collegamento apre direttamente il PDF del documento.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: Allegato O, artt. 10 e 12; Allegato O, art. 18, commi 1-8; pp. 31-32",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://www.appa.provincia.tn.it/ocmultibinary/download/27681/309570/71/a344c71f7b9ed3ffacdcb176e84addbc.pdf/file/Allegato+O+Norme+di+attuazione.pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "content",
+            "source_url": "https://www.appa.provincia.tn.it/ocmultibinary/download/27681/309570/71/a344c71f7b9ed3ffacdcb176e84addbc.pdf/file/Allegato+O+Norme+di+attuazione.pdf",
+            "locator": "Allegato O, artt. 10 e 12",
+            "finding": "Le nuove autorizzazioni e i rinnovi sono condizionati allo stato del corpo idrico, con distinzioni per nuovi/vecchi insediamenti e deroghe; l’art. 12 disciplina programmazione di fognatura/depurazione e ricognizione degli allacciamenti. Non si formula un divieto generale privo delle deroghe dell’art. 10."
+          },
+          {
+            "aspect": "effectiveness",
+            "source_url": "https://www.appa.provincia.tn.it/ocmultibinary/download/27681/309570/71/a344c71f7b9ed3ffacdcb176e84addbc.pdf/file/Allegato+O+Norme+di+attuazione.pdf",
+            "locator": "Allegato O, art. 18, commi 1-8; pp. 31-32",
+            "finding": "Il piano sostituisce quello del 2015, conserva specifiche disposizioni transitorie e gli effetti degli atti pregressi, e dispone efficacia al quindicesimo giorno dopo pubblicazione dell’atto approvativo. La data effettiva di pubblicazione e i successivi adeguamenti non sono ricostruiti in questa lettura."
+          }
+        ],
+        "limitations": [
+          "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+        ],
+        "pending": [
+          "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati."
+        ],
+        "record_version": "37fcad64258f17740f31a9e3a1aee48768a67f697326d1badbd3ae2a3a23e58c"
+      }
     },
     {
       "id": "bzpta",
@@ -1939,7 +2307,31 @@
           "label": "PDF del Bollettino ufficiale · L.P. Bolzano 8/2002",
           "format": "pdf"
         }
-      ]
+      ],
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: L.P. 8/2002, art. 46, commi 1-4; PDF bilingue SEAB",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://www.seab.bz.it/sites/default/files/2024-04/landesgesetz_vom_18._juni_2002_nr._8_bestimmungen_ueber_die_gewaesser_1.pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "content",
+            "source_url": "https://www.seab.bz.it/sites/default/files/2024-04/landesgesetz_vom_18._juni_2002_nr._8_bestimmungen_ueber_die_gewaesser_1.pdf",
+            "locator": "L.P. 8/2002, art. 46, commi 1-4; PDF bilingue SEAB",
+            "finding": "Il testo istituzionale del gestore privilegia riuso e, in subordine, dispersione nel sottosuolo delle meteoriche non inquinate; rinvia al regolamento per prescrizioni su reti separate/prima pioggia e vieta immissione diretta nelle acque sotterranee. Il documento è la legge provinciale, non le NTA del PTA; coordinamento corrente provinciale da acquisire."
+          }
+        ],
+        "limitations": [
+          "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+        ],
+        "pending": [
+          "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati."
+        ],
+        "record_version": "db3a3acee3acc319318a56edf459e0f73f86fbf89e687baa7a3e8bfb6461c0af"
+      }
     },
     {
       "id": "bari",
@@ -5123,7 +5515,31 @@
       ],
       "document_url": "https://www.provincia.latina.it/flex/cm/pages/ServeAttachment.php/L/IT/D/1%252F1%252F3%252FD.cefc0d46463bb1e57756/P/BLOB%3AID%3D1320/E/pdf?mode=download",
       "document_label": "D.G.R. 117/2020 e Allegato A · BURL Lazio",
-      "document_note": "Il primo collegamento apre il testo della D.G.R. e l’Allegato A; gli altri rimandano alla documentazione illustrativa pubblicata dalla Regione Lazio."
+      "document_note": "Il primo collegamento apre il testo della D.G.R. e l’Allegato A; gli altri rimandano alla documentazione illustrativa pubblicata dalla Regione Lazio.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: Allegato, §§ 1-4; BURL 2 aprile 2020 n. 37, pp. 98-100",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://www.provincia.latina.it/flex/cm/pages/ServeAttachment.php/L/IT/D/1%252F1%252F3%252FD.cefc0d46463bb1e57756/P/BLOB%3AID%3D1320/E/pdf?mode=download"
+        ],
+        "claims": [
+          {
+            "aspect": "content",
+            "source_url": "https://www.provincia.latina.it/flex/cm/pages/ServeAttachment.php/L/IT/D/1%252F1%252F3%252FD.cefc0d46463bb1e57756/P/BLOB%3AID%3D1320/E/pdf?mode=download",
+            "locator": "Allegato, §§ 1-4; BURL 2 aprile 2020 n. 37, pp. 98-100",
+            "finding": "Le linee guida applicano l’invarianza al territorio non coperto da specifiche norme delle Autorità distrettuali, prima degli strumenti/interventi indicati e per riduzioni non trascurabili della permeabilità. Sono escluse trasformazioni trascurabili e quelle che aumentano permeabilità; lo studio e le compensazioni riguardano le classi pertinenti."
+          }
+        ],
+        "limitations": [
+          "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+        ],
+        "pending": [
+          "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati."
+        ],
+        "record_version": "cb02ede46b6092d29e30a0f51b6f69915e121d9ff4244d08b58364fa8eaedc5e"
+      }
     },
     {
       "id": "sar-inv-2017",
@@ -5213,7 +5629,31 @@
           "link_checked": "2026-09-18"
         }
       ],
-      "document_note": "Collegamento diretto al PDF del testo coordinato vigente."
+      "document_note": "Collegamento diretto al PDF del testo coordinato vigente.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: Artt. 3 e 5",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002006032400004&type=pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "content",
+            "source_url": "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002006032400004&type=pdf",
+            "locator": "Artt. 3 e 5",
+            "finding": "Il campo di applicazione distingue superfici e attività industriali tipizzate, distribuzione carburanti e gestione rifiuti; la soglia superficiale non è universale per ogni piazzale. L’art. 5 disciplina raccolta e separazione della prima pioggia e contempla, nei casi indicati, trattamento continuo alternativo."
+          }
+        ],
+        "limitations": [
+          "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+        ],
+        "pending": [
+          "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati."
+        ],
+        "record_version": "110b29e83d8b1cd254830fd1b38674b82bb6f51f3d6bb935a7fbcb91c7dcd9a2"
+      }
     },
     {
       "id": "sar6925",
@@ -5254,7 +5694,32 @@
           "link_status": "checked",
           "link_checked": "2026-09-18"
         }
-      ]
+      ],
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: Parte dispositiva; PDF p. 2/2",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://www.regione.sardegna.it/documenti/1_73_20090127105834.pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "approval",
+            "source_url": "https://www.regione.sardegna.it/documenti/1_73_20090127105834.pdf",
+            "locator": "Parte dispositiva; PDF p. 2/2",
+            "finding": "La deliberazione approva la direttiva allegata e prevede entrata in vigore dopo sessanta giorni dalla pubblicazione nel BURAS. Il PDF contiene soltanto la deliberazione: non sono state lette in questo documento le prescrizioni tecniche della direttiva allegata."
+          }
+        ],
+        "limitations": [
+          "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+        ],
+        "pending": [
+          "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati.",
+          "Acquisire e leggere la direttiva tecnica allegata; il PDF esaminato contiene solo la deliberazione."
+        ],
+        "record_version": "ec66fc90f71ab13833b6e82792ce5bc04964e340176aa9fa62def0f532d46d24"
+      }
     },
     {
       "id": "tos20",
@@ -5295,6 +5760,10 @@
         {
           "date": "2026-09-18",
           "text": "Inserita dopo controllo mirato sul testo regionale vigente."
+        },
+        {
+          "date": "2026-10-08",
+          "text": "Audit sostanziale: document_note corretti con evidenze puntuali; revisione giuridica complessiva ancora parziale."
         }
       ],
       "documents": [
@@ -5304,7 +5773,31 @@
           "format": "pdf"
         }
       ],
-      "document_note": "Il collegamento apre direttamente il PDF del documento."
+      "document_note": "Il PDF consultato reca «Testo aggiornato al 06/10/2021». Per modifiche successive consultare il testo corrente della Raccolta normativa regionale; questo file non è attestato come coordinato alla data dell’audit.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: Art. 8 e piè di pagina: testo aggiornato al 6 ottobre 2021",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?id=28068949-268d-11ec-9830-0050568e1a48&ext=pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "version",
+            "source_url": "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?id=28068949-268d-11ec-9830-0050568e1a48&ext=pdf",
+            "locator": "Art. 8 e piè di pagina: testo aggiornato al 6 ottobre 2021",
+            "finding": "Il testo distingue AMPP in rete fognaria, scarichi pubblici fuori rete e altri casi industriali con condizioni differenti; non si generalizza l’esenzione autorizzativa. Il PDF disponibile reca aggiornamento al 6 ottobre 2021, che non certifica il coordinamento alla data di questa lettura."
+          }
+        ],
+        "limitations": [
+          "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+        ],
+        "pending": [
+          "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati."
+        ],
+        "record_version": "c058eb49061a085089ddd6bfa547c62a6425593a9decc6019d67d33b33f9847f"
+      }
     },
     {
       "id": "tos46",
@@ -5345,6 +5838,10 @@
         {
           "date": "2026-09-18",
           "text": "Inserito dopo controllo mirato; segnalata la necessità del testo coordinato."
+        },
+        {
+          "date": "2026-10-08",
+          "text": "Audit sostanziale: document_note corretti con evidenze puntuali; revisione giuridica complessiva ancora parziale."
         }
       ],
       "documents": [
@@ -5354,7 +5851,31 @@
           "format": "pdf"
         }
       ],
-      "document_note": "Il collegamento apre direttamente il PDF del documento."
+      "document_note": "Il PDF consultato reca «Testo aggiornato al 19/04/2018». Per modifiche successive consultare il testo corrente della Raccolta normativa regionale; il codice del download non identifica la data di coordinamento normativo.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: Artt. 38, 39 e 41; piè di pagina: testo aggiornato al 19 aprile 2018",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?id=9345c577-24d8-11ef-bf7a-005056959b60&ext=pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "version",
+            "source_url": "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?id=9345c577-24d8-11ef-bf7a-005056959b60&ext=pdf",
+            "locator": "Artt. 38, 39 e 41; piè di pagina: testo aggiornato al 19 aprile 2018",
+            "finding": "Il PDF distingue prevenzione del trascinamento di inquinanti, riuso ove praticabile, separazione delle coperture pulite e recapiti preferenziali/condizionati delle AMC. Il file reca aggiornamento al 19 aprile 2018; il codice del download non dimostra una versione normativa più recente."
+          }
+        ],
+        "limitations": [
+          "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+        ],
+        "pending": [
+          "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati."
+        ],
+        "record_version": "a2eef38cf4ae7f388630f28268c8c343c0b16a17493de41a4c838caa47ed1bae"
+      }
     },
     {
       "id": "venpta39",
@@ -5399,7 +5920,31 @@
           "format": "pdf"
         }
       ],
-      "document_note": "Il collegamento apre direttamente il PDF del documento."
+      "document_note": "Il collegamento apre direttamente il PDF del documento.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: NTA, art. 39, comma 1 e nota 107; pp. 34-35/70",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://repository.regione.veneto.it/public/6396bf686a0ce689ab40783272aec920.php?dl=true"
+        ],
+        "claims": [
+          {
+            "aspect": "content",
+            "source_url": "https://repository.regione.veneto.it/public/6396bf686a0ce689ab40783272aec920.php?dl=true",
+            "locator": "NTA, art. 39, comma 1 e nota 107; pp. 34-35/70",
+            "finding": "La disciplina distingue dilavamento non occasionale che non si esaurisce con la prima pioggia, trattamento e autorizzazione, in rapporto alle attività dell’allegato F. La nota elenca modifiche del 2012 e 2015: il PDF non viene attestato come consolidato fino al 2026."
+          }
+        ],
+        "limitations": [
+          "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+        ],
+        "pending": [
+          "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati."
+        ],
+        "record_version": "e5a16ebc995995b11aba9c3e883fc9c58b61236ddd48546c841aed09131db2a5"
+      }
     },
     {
       "id": "dpr753",
@@ -8802,6 +9347,88 @@
     }
   ],
   "runs": [
+    {
+      "date": "2026-10-08",
+      "type": "Audit documentale · fonti regionali e provinciali · perimetro parziale",
+      "summary": "Letture circoscritte di 21 schede; corrette abrogazione parziale Calabria, date di coordinamento dei PDF Toscana e rimando documentale Marche. Nessuna revisione giuridica esaustiva.",
+      "checked": [
+        "lom7: Lettura sostanziale circoscritta: Artt. 1 e 7; art. 14, comma 8; note di modifica al R.R. 3/2025",
+        "sic102: Lettura sostanziale circoscritta: Allegato 2, metodologia di calcolo; PDF pp. 13 e 20",
+        "ven2948: Lettura sostanziale circoscritta: Allegato A, premessa, ambito e impostazione dello studio; PDF pp. 1-4",
+        "fvg83: Lettura sostanziale circoscritta: Art. 1; art. 11; allegato 1, capitolo 6",
+        "pug26: Lettura sostanziale circoscritta: Artt. 1-3 e art. 4, commi 2-7",
+        "lig4: Lettura sostanziale circoscritta: Artt. 1, 6-9 e 12; PDF completo di due pagine, allegato A assente",
+        "tos41: Lettura sostanziale circoscritta: Art. 3, commi 1-3",
+        "mar53: Lettura sostanziale circoscritta: Pagina regionale: L.R. 19/2023, artt. 31, 33 comma 10 e 35 comma 1 lett. m)",
+        "laz18: Lettura sostanziale circoscritta: Art. 24 e art. 30, commi 1-5; NTA nel BURL 20 dicembre 2018, suppl. 3",
+        "cal10: Lettura sostanziale circoscritta: Intestazione coordinata della L.R. 10/1997; artt. 6-8; L.R. 18/2017, art. 24 e nota 25; L.R. 10/2022, artt. 19 e 21; intestazione BURC 53 del 20 aprile 2022",
+        "umb627: Lettura sostanziale circoscritta: Art. 19, commi 1-3; BUR Umbria 22 maggio 2019, suppl. 7, pp. 23-24",
+        "vda2030: Lettura sostanziale circoscritta: NTA, artt. 1, 2, 4 e 26",
+        "ligpta: Lettura sostanziale circoscritta: NTA, artt. 21-23; pp. 14-15",
+        "laz117: Lettura sostanziale circoscritta: Allegato, §§ 1-4; BURL 2 aprile 2020 n. 37, pp. 98-100",
+        "lom4pp: Lettura sostanziale circoscritta: Artt. 3 e 5",
+        "sar6925: Lettura sostanziale circoscritta: Parte dispositiva; PDF p. 2/2",
+        "tos20: Lettura sostanziale circoscritta: Art. 8 e piè di pagina: testo aggiornato al 6 ottobre 2021",
+        "tos46: Lettura sostanziale circoscritta: Artt. 38, 39 e 41; piè di pagina: testo aggiornato al 19 aprile 2018",
+        "venpta39: Lettura sostanziale circoscritta: NTA, art. 39, comma 1 e nota 107; pp. 34-35/70",
+        "tnpta: Lettura sostanziale circoscritta: Allegato O, artt. 10 e 12; Allegato O, art. 18, commi 1-8; pp. 31-32",
+        "bzpta: Lettura sostanziale circoscritta: L.P. 8/2002, art. 46, commi 1-4; PDF bilingue SEAB"
+      ],
+      "read_urls": [
+        "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf",
+        "https://www.regione.sicilia.it/system/files/2021-07/ddg%20102%202021.pdf",
+        "https://bur.regione.veneto.it/BurvServices/pubblica/Download.aspx?name=2948_AllegatoA_219024.pdf&storico=False&type=9",
+        "https://decreti.regione.fvg.it/Storage/2018_83/ALLEGATO1%20AL%20DPREG%20083-2018.PDF",
+        "https://burp.regione.puglia.it/documents/20135/784664/REGOLAMENTO%2BREGIONALE%2B9%2Bdicembre%2B2013%2C%2Bn.%2B26%2B%28id%2B4906507%29.pdf/82bcb1fd-8b6d-ec17-ae21-235fdca40c45?t=1622786288358&version=1.0",
+        "https://lrv.regione.liguria.it/liguriass_prod/class/download_doc.php?id=b63a3d33-74aa-0f7b-634b-512e1285dff3&ext=pdf",
+        "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?id=4ab37acb-9af9-11ed-b5b1-005056959b60&ext=pdf",
+        "https://www.regione.marche.it/Regione-Utile/Paesaggio-Territorio-Urbanistica-Genio-Civile/Compatibilit%C3%A0-e-invarianza-idraulica",
+        "https://www.regione.lazio.it/sites/default/files/amministrazione-trasparente/tbl_contenuti/Norme_Tecniche_di_Attuazione.pdf",
+        "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=1997&numero=10",
+        "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=2017&numero=18",
+        "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=2022&numero=10",
+        "https://www.auriumbria.it/wp-content/uploads/2023/12/DGR-627-2019.pdf?x95031=",
+        "https://pta.regione.vda.it/wp-content/uploads/doc/PTA_2030_Norme_di_Attuazione_Definitivo_DGR334.pdf",
+        "https://www.regione.liguria.it/components/com_publiccompetitions/includes/download.php?id=41731%3Anorme-di-attuazione.pdf",
+        "https://www.provincia.latina.it/flex/cm/pages/ServeAttachment.php/L/IT/D/1%252F1%252F3%252FD.cefc0d46463bb1e57756/P/BLOB%3AID%3D1320/E/pdf?mode=download",
+        "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002006032400004&type=pdf",
+        "https://www.regione.sardegna.it/documenti/1_73_20090127105834.pdf",
+        "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?id=28068949-268d-11ec-9830-0050568e1a48&ext=pdf",
+        "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?id=9345c577-24d8-11ef-bf7a-005056959b60&ext=pdf",
+        "https://repository.regione.veneto.it/public/6396bf686a0ce689ab40783272aec920.php?dl=true",
+        "https://www.appa.provincia.tn.it/ocmultibinary/download/27681/309570/71/a344c71f7b9ed3ffacdcb176e84addbc.pdf/file/Allegato+O+Norme+di+attuazione.pdf",
+        "https://www.seab.bz.it/sites/default/files/2024-04/landesgesetz_vom_18._juni_2002_nr._8_bestimmungen_ueber_die_gewaesser_1.pdf"
+      ],
+      "errors": [
+        "Download DGR 53/2014 Regione Marche: HTTP 502; il vecchio dominio restituisce contenuti estranei.",
+        "Allegati e catene complete di vigenza restano da ricostruire: limiti riportati per ciascuna scheda."
+      ],
+      "updated_records": [
+        "lom7",
+        "sic102",
+        "ven2948",
+        "fvg83",
+        "pug26",
+        "lig4",
+        "tos41",
+        "mar53",
+        "laz18",
+        "cal10",
+        "umb627",
+        "vda2030",
+        "ligpta",
+        "laz117",
+        "lom4pp",
+        "sar6925",
+        "tos20",
+        "tos46",
+        "venpta39",
+        "tnpta",
+        "bzpta"
+      ],
+      "new_records": [],
+      "publication": "data_json_update"
+    },
     {
       "date": "2026-10-08",
       "type": "Audit documentale · testi nazionali ed europei · perimetro parziale",

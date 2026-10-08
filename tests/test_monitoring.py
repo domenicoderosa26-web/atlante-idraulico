@@ -10,7 +10,7 @@ from unittest import mock
 sys.path.insert(0, str(Path(__file__).parents[1] / 'scripts'))
 from normattiva import APIError, Client, monitor, public_status, recover_events, UTC, main as national_main
 from workflow_state import already_complete, complete_status, merge_state, public_matches, verify_public
-from monitoring import assess, territorial_result
+from monitoring import assess, territorial_result, read_public_files
 from test_normattiva import ROW, STATE, NOW
 
 ROOT = Path(__file__).parents[1]
@@ -108,6 +108,23 @@ class SupervisionTests(unittest.TestCase):
 
     def result(self,**kwargs):
         args=dict(data=self.data,status=self.status,checkpoint=self.checkpoint,runs=[self.run],public_matches=self.matches,now=self.now);args.update(kwargs);return assess(**args)
+
+    def test_pages_deployment_window_recovers_temporary_divergence(self):
+        calls=[]
+        def reader(url):
+            calls.append(url);name=url.split('/')[-1].split('?')[0]
+            return b'old' if len(calls)<=3 else (ROOT/name).read_bytes()
+        wait=mock.Mock();matches,errors=read_public_files(ROOT,'https://example.gov/',reader,wait,2)
+        self.assertTrue(all(matches.values()));self.assertEqual(errors,[]);wait.assert_called_once_with(10)
+
+    def test_pages_persistent_divergence_is_not_hidden(self):
+        wait=mock.Mock();matches,errors=read_public_files(ROOT,'https://example.gov/',lambda url:b'old',wait,3)
+        self.assertFalse(any(matches.values()));self.assertEqual(errors,[]);self.assertEqual(wait.call_count,2)
+
+    def test_pages_read_error_remains_unknown(self):
+        def reader(url): raise OSError('timeout controllato')
+        wait=mock.Mock();matches,errors=read_public_files(ROOT,'https://example.gov/',reader,wait,3)
+        self.assertTrue(all(value is None for value in matches.values()));self.assertEqual(len(errors),3);wait.assert_not_called()
 
     def test_distinct_success_and_partial_territorial_evidence(self):
         report=self.result();self.assertEqual(report['national']['state'],'completato');self.assertEqual(report['territorial']['state'],'parziale');self.assertFalse(report['has_errors']);self.assertFalse(report['territorial']['external_execution_verified'])

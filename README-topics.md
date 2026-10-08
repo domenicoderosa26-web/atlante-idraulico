@@ -93,7 +93,7 @@ La Action nazionale mantiene la validazione prima dell’acquisizione e prima de
 
 ## Verifiche riproducibili
 
-46 test Python, compresi i 9 test originali e i controlli di affidabilità del monitoraggio. Il test JavaScript esegue il codice reale del frontend principale e verifica tutte le 14 voci, ordine A–Z con tassonomia deliberatamente invertita, 168 combinazioni argomento/territorio/livello sul catalogo autorevole, ricerca combinata, ordinamento per titolo/data, conteggi e unicità delle schede multiargomento. Verificata anche una simulazione di import giornaliero e un controllo nazionale senza modifiche.
+49 test Python, compresi i 9 test originali e i controlli di affidabilità del monitoraggio. Il test JavaScript esegue il codice reale del frontend principale e verifica tutte le 14 voci, ordine A–Z con tassonomia deliberatamente invertita, 168 combinazioni argomento/territorio/livello sul catalogo autorevole, ricerca combinata, ordinamento per titolo/data, conteggi e unicità delle schede multiargomento. Verificata anche una simulazione di import giornaliero e un controllo nazionale senza modifiche.
 
 ## Archivio autorevole e pubblicazione
 

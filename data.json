@@ -1470,15 +1470,16 @@
       ],
       "documents": [
         {
-          "url": "https://www.regione.marche.it/Regione-Utile/Paesaggio-Territorio-Urbanistica-Genio-Civile/Compatibilit%C3%A0-e-invarianza-idraulica",
-          "label": "Regione Marche · criteri e linee guida (pagina documentale)",
-          "link_status": "checked",
+          "url": "https://www.regione.marche.it/Portals/0/Paesaggio_Territorio_Urbanistica/Compat_Inv_Idraulica/DGR0053_14.pdf?ver=2016-03-10-115821-660",
+          "label": "D.G.R. 53/2014 · rimando PDF regionale (accesso da riverificare)",
+          "format": "pdf",
+          "link_status": "source_link",
           "link_checked": "2026-10-08"
         }
       ],
       "document_url": "https://www.regione.marche.it/Regione-Utile/Paesaggio-Territorio-Urbanistica-Genio-Civile/Compatibilit%C3%A0-e-invarianza-idraulica",
       "document_label": "Regione Marche · quadro vigente e documenti applicativi",
-      "document_note": "La pagina regionale pubblica criteri, linee guida, foglio di calcolo e asseverazione. Il precedente URL autoritabacino.marche.it restituisce contenuti estranei al documento ed è stato sostituito dalla pagina istituzionale; il download diretto del PDF regionale ha restituito HTTP 502 durante il controllo e resta da verificare.",
+      "document_note": "La pagina regionale pubblica criteri, linee guida, foglio di calcolo e asseverazione. Il precedente URL autoritabacino.marche.it restituisce contenuti estranei al documento ed è stato sostituito con il rimando PDF pubblicato dalla Regione; il download diretto ha restituito HTTP 502 durante il controllo. La provenienza del rimando è riscontrata, la disponibilità e il contenuto del PDF restano da verificare.",
       "documentary_review": {
         "checked_at": "2026-10-08",
         "scope": "Lettura sostanziale circoscritta: Pagina regionale: L.R. 19/2023, artt. 31, 33 comma 10 e 35 comma 1 lett. m)",
@@ -1502,7 +1503,7 @@
           "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati.",
           "Acquisire DGR 53/2014 e allegati dal dominio Regione Marche: download diretto HTTP 502. Non usare il vecchio dominio con contenuti estranei."
         ],
-        "record_version": "f0b01167454df77bdd8fbee1b0e4935034a6c0661cc4950afdab1924f84f3fa4"
+        "record_version": "ab040da8e6f02e772eaca1eeb54ae610631d7f43084c30b9db67b21c936ad448"
       }
     },
     {

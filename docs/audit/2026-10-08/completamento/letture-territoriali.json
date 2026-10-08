@@ -493,9 +493,10 @@
       ],
       "after": [
         {
-          "url": "https://www.regione.marche.it/Regione-Utile/Paesaggio-Territorio-Urbanistica-Genio-Civile/Compatibilit%C3%A0-e-invarianza-idraulica",
-          "label": "Regione Marche · criteri e linee guida (pagina documentale)",
-          "link_status": "checked",
+          "url": "https://www.regione.marche.it/Portals/0/Paesaggio_Territorio_Urbanistica/Compat_Inv_Idraulica/DGR0053_14.pdf?ver=2016-03-10-115821-660",
+          "label": "D.G.R. 53/2014 · rimando PDF regionale (accesso da riverificare)",
+          "format": "pdf",
+          "link_status": "source_link",
           "link_checked": "2026-10-08"
         }
       ]
@@ -504,7 +505,7 @@
       "id": "mar53",
       "field": "document_note",
       "before": "La pagina regionale ricostruisce la successione normativa e pubblica criteri, linee guida, foglio di calcolo e schema di asseverazione.",
-      "after": "La pagina regionale pubblica criteri, linee guida, foglio di calcolo e asseverazione. Il precedente URL autoritabacino.marche.it restituisce contenuti estranei al documento ed è stato sostituito dalla pagina istituzionale; il download diretto del PDF regionale ha restituito HTTP 502 durante il controllo e resta da verificare."
+      "after": "La pagina regionale pubblica criteri, linee guida, foglio di calcolo e asseverazione. Il precedente URL autoritabacino.marche.it restituisce contenuti estranei al documento ed è stato sostituito con il rimando PDF pubblicato dalla Regione; il download diretto ha restituito HTTP 502 durante il controllo. La provenienza del rimando è riscontrata, la disponibilità e il contenuto del PDF restano da verificare."
     }
   ]
 }

@@ -16,6 +16,8 @@ ASSERTION = re.compile(r'\b(vigente|in vigore|abrogat\w*|sostituit\w*|'
 
 def record_version(record):
     """Bind a review to its object and sources, excluding execution timestamps."""
+    require('review_source_urls' not in record,
+            'review_source_urls: chiave riservata alle fonti della revisione')
     # Protect all normative metadata, including relations, document labels,
     # publication/effectiveness dates and fields introduced in future records.
     # Execution logs and the evidence itself are excluded to avoid circularity.
@@ -36,6 +38,8 @@ def require(condition, message):
 
 def validate_review(record, baseline=None, today=None):
     label = record['id'] + ': revisione documentale: '
+    require('review_source_urls' not in record,
+            label + 'review_source_urls: chiave riservata')
     review = record.get('documentary_review')
     # Legacy records remain usable. Evidence is required when a new/changed
     # status makes a positive legal assertion, not for unrelated daily logs.

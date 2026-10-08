@@ -17,3 +17,9 @@ L’impronta documentale ora comprende relazioni, note, metadati completi dei do
 ## Prosecuzione
 
 Il gruppo successivo comprende i due testi stradali con estrazione PDF non leggibile, le schede regionali, provinciali e locali, e successivamente i piani distrettuali. Seguiranno approfondimento delle revisioni parziali e ricognizione delle lacune territoriali. La matrice storica di 176 combinazioni resta conservata: non è dichiarata completata da questo gruppo.
+
+## Prosecuzione: letture territoriali
+
+Il secondo gruppo aggiunge 21 letture sostanziali circoscritte: 61 revisioni totali (58 parziali e 3 verifiche del solo catalogo UNI), 45 schede ancora senza revisione sostanziale, nessuna revisione giuridica esaustiva. `letture-territoriali.json` distingue i riscontri dalle attività residue e registra sei correzioni di campo su quattro schede. I 106 ID e i 140 rimandi documentali sono conservati; per Marche il vecchio URL estraneo al documento è sostituito dalla pagina istituzionale, senza attestare l’acquisizione del PDF diretto che ha restituito HTTP 502.
+
+`pubblicazione-gruppo-1.json` documenta la verifica successiva al merge della PR 6: nove file pubblici identici, 106 schede e 40 revisioni, ricerca CAM con 17 risultati e 14 argomenti nel menu. `validazione-gruppo-2.json` riporta i 60 test Python e i controlli effettivamente eseguiti sul secondo gruppo. `coda-aggiornata.json` è il checkpoint operativo; non rappresenta chiusura dell’incarico né verifica completa della matrice territoriale.

@@ -75,6 +75,18 @@ class DocumentaryTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'contenuto cambiato'):
             self.check(changed, record)
 
+    def test_reserved_review_source_key_cannot_hide_record_metadata(self):
+        for value in [[], ['https://www.regione.test.it/metadata']]:
+            changed = copy.deepcopy(self.record)
+            changed['review_source_urls'] = value
+            with self.assertRaisesRegex(ValueError, 'chiave riservata'):
+                record_version(changed)
+            with self.assertRaisesRegex(ValueError, 'chiave riservata'):
+                self.check(changed, self.record)
+            del changed['documentary_review']
+            with self.assertRaisesRegex(ValueError, 'chiave riservata'):
+                self.check(changed)
+
     def test_execution_and_evidence_history_do_not_change_object_version(self):
         record = copy.deepcopy(self.record)
         record['history'] = [{'date': '2026-10-08', 'text': 'Controllo tecnico'}]

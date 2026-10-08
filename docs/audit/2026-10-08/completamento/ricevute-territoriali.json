@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-08",
+  "sources": [
+    {
+      "url": "https://www.autoritabacino.marche.it/invidr/allegati/DGR0053_14.pdf",
+      "references": [
+        {
+          "id": "mar53",
+          "field": "documents.0.url"
+        }
+      ],
+      "checked_at": "2026-10-08T12:25:24.189895+00:00",
+      "attempts": [
+        {
+          "at": "2026-10-08T12:26:03.043342+00:00",
+          "http_status": 200,
+          "seconds": 38.85
+        }
+      ],
+      "body_key": "f6d6090522274f381c2fee4670dd09680863c7442cf7e4a4d8f4fd217f91ab72",
+      "http_status": 200,
+      "final_url": "https://www.autoritabacino.marche.it/",
+      "content_type": "text/html; charset=UTF-8",
+      "redirects": [],
+      "bytes": 82620,
+      "sha256": "69d70547c99621b1d6cba90ead895e782d4ef0dcd8c8bfb4125d6266f30e6950",
+      "truncated": false,
+      "pdf_signature": false,
+      "title": "Analisi dei casinò con deposito minimo e sicurezza IT",
+      "links": [
+        {
+          "url": "https://www.autoritabacino.marche.it/il-brand-admiralbet-casino-e-la-gestione-delle-reti-protette/",
+          "text": ""
+        },
+        {
+          "url": "https://www.autoritabacino.marche.it/il-brand-admiralbet-casino-e-la-gestione-delle-reti-protette/",
+          "text": ""
+        }
+      ],
+      "text_characters": 15028,
+      "transport_result": "retrieved_non_pdf"
+    },
+    {
+      "url": "https://www.regione.marche.it/Portals/0/Paesaggio_Territorio_Urbanistica/Compat_Inv_Idraulica/DGR0053_14.pdf?ver=2016-03-10-115821-660",
+      "checked_at": "2026-10-08T14:47:40.526186+00:00",
+      "error": "HTTPError: HTTP Error 502: Bad Gateway"
+    },
+    {
+      "url": "https://static.regione.marche.it/Portals/0/Paesaggio_Territorio_Urbanistica/Compat_Inv_Idraulica/DGR0053_14.pdf?ver=2016-03-10-115821-660",
+      "checked_at": "2026-10-08T14:50:27.124477+00:00",
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=2017&numero=18",
+      "checked_at": "2026-10-08T14:47:40.527376+00:00",
+      "http_status": 200,
+      "final_url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=2017&numero=18",
+      "content_type": "application/pdf",
+      "sha256": "a0f9eb0b83506ea64d91eb2b341302914d719858c2bee1d964f59efb39a5de6c",
+      "bytes": 298522,
+      "body_key": "b1e2eee8c790f54a6c99cbeb4dadc04146be93dc99130c333289a9185c76fd46",
+      "pdf_signature": true
+    },
+    {
+      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=2022&numero=10",
+      "checked_at": "2026-10-08T14:47:40.526879+00:00",
+      "http_status": 200,
+      "final_url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=2022&numero=10",
+      "content_type": "application/pdf",
+      "sha256": "0d18f0916c12ac6610370234f6ea0e0779c627433e2993a143a7122ec1b0c1ee",
+      "bytes": 228681,
+      "body_key": "4dfc856918504199d8a4746ae491f80456574160af9273f4feaf5fe136ad2f98",
+      "pdf_signature": true
+    }
+  ],
+  "notes": [
+    "HTTP 200 sul vecchio URL Marche non è prova di disponibilità del PDF: corpo HTML con contenuti estranei, non fonte normativa.",
+    "Errori HTTP 502 sui PDF Regione Marche non sono prova di abrogazione o assenza di aggiornamenti."
+  ]
+}

@@ -1,0 +1,1278 @@
+{
+  "date": "2026-10-08",
+  "archive_records": 106,
+  "reviews": {
+    "partial": 58,
+    "UNI_catalog_only": 3,
+    "full_legal": 0,
+    "not_substantively_reviewed": 45
+  },
+  "priority_1": [
+    {
+      "id": "pie1",
+      "source_url": "https://arianna.cr.piemonte.it/regolafo/dettaglioRegolamento.do?tornaIndietro=true&urnRegolamento=urn%3Anir%3Aregione.piemonte%3Aregolamento%3A2006-02-20%3B1%402018-12-11",
+      "documents": [
+        {
+          "url": "https://serviziweb.csi.it/solverweb/IndexDocumentServlet?id=49953",
+          "label": "PDF ufficiale · testo coordinato R.R. Piemonte 1/R/2006",
+          "format": "pdf"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "er1860",
+      "source_url": "https://www.arpae.it/it/autorizzazioni-e-concessioni/autorizzazioni-ambientali/autorizzazione-scarichi-idrici",
+      "documents": [
+        {
+          "url": "https://servizissiir.regione.emilia-romagna.it/deliberegiunta/servlet/AdapterHTTP?ENTE=1&action_name=ACTIONRICERCADELIBERE&codProtocollo=SSR%2F06%2F1069410&operation=downloadTestoPdf",
+          "label": "DGR 1860/2006 · deliberazione PDF",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "abr17",
+      "source_url": "https://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2008/lr08017.htm",
+      "documents": [
+        {
+          "format": "pdf",
+          "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/lr-abruzzo-17-2008.pdf",
+          "label": "PDF · L.R. Abruzzo 17/2008"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "mol25",
+      "source_url": "https://www.arpamolise.it/WP/acque-reflue-urbane/",
+      "documents": [
+        {
+          "url": "https://www1.regione.molise.it/tutela-acqua/doc_r14-morifiche.pdf",
+          "label": "PDF ufficiale · disciplina degli scarichi del PTA Molise",
+          "format": "pdf"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "bz23",
+      "source_url": "https://lexbrowser.provinz.bz.it/doc/it/217759/decreto_del_presidente_della_provincia_10_ottobre_2019_n_23.aspx",
+      "documents": [
+        {
+          "format": "pdf",
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2020/01/11/2/s3/pdf#page=22",
+          "label": "PDF ufficiale · D.P.P. Bolzano 23/2019 (G.U. 3ª Serie speciale)"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "bari",
+      "source_url": "https://www.cittametropolitana.ba.it/amministrazione/documenti_e_dati/modulistica/documento_268.html",
+      "documents": [
+        {
+          "url": "https://burp.regione.puglia.it/documents/20135/784664/REGOLAMENTO%2BREGIONALE%2B9%2Bdicembre%2B2013%2C%2Bn.%2B26%2B%28id%2B4906507%29.pdf/82bcb1fd-8b6d-ec17-ae21-235fdca40c45?t=1622786288358&version=1.0",
+          "label": "PDF normativo · R.R. Puglia 26/2013",
+          "format": "pdf"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "milano",
+      "source_url": "https://pgt.comune.milano.it/",
+      "documents": [
+        {
+          "url": "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf",
+          "label": "PDF normativo · R.R. Lombardia 7/2017",
+          "format": "pdf"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "venezia",
+      "source_url": "https://www.comune.venezia.it/it/content/scarichi-reflui-0",
+      "documents": [
+        {
+          "url": "https://www.comune.venezia.it/sites/comune.venezia.it/files/documenti/Ambiente/Testo%20Legge%20Speciale%20206_1995.pdf",
+          "label": "PDF ufficiale · Legge speciale 206/1995",
+          "format": "pdf"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "aprilia",
+      "source_url": "https://www.comune.aprilia.lt.it/servizi/autorizzazione-allo-scarico-di-acque-reflue",
+      "documents": [
+        {
+          "url": "https://www.regione.lazio.it/sites/default/files/amministrazione-trasparente/tbl_contenuti/Norme_Tecniche_di_Attuazione.pdf",
+          "label": "PDF normativo · norme tecniche PTAR Lazio",
+          "format": "pdf"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "medicina",
+      "source_url": "https://www.comune.medicina.bo.it/documento/modulo-richiesta-autorizzazione-per-lo-scarico-di-acque-domestiche-non-incanalate-in-fognatura",
+      "documents": [
+        {
+          "url": "https://servizissiir.regione.emilia-romagna.it/deliberegiunta/servlet/AdapterHTTP?ENTE=1&action_name=ACTIONRICERCADELIBERE&codProtocollo=SSR%2F06%2F1069410&operation=downloadTestoPdf",
+          "label": "PDF normativo · D.G.R. Emilia-Romagna 1860/2006",
+          "format": "pdf"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "dist-alpi",
+      "source_url": "https://distrettoalpiorientali.it/piano-gestione-rischio-alluvioni/",
+      "documents": [
+        {
+          "url": "https://sigma.distrettoalpiorientali.it/sigma/documentDownload/downloadDocumentById?documentId=359",
+          "label": "PDF ufficiale · relazione generale PGRA",
+          "format": "pdf",
+          "group": "PGRA"
+        },
+        {
+          "url": "https://sigma.distrettoalpiorientali.it/sigma/documentDownload/downloadDocumentById?documentId=380",
+          "label": "PDF ufficiale · norme tecniche PGRA",
+          "format": "pdf",
+          "group": "PGRA"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "dist-sett",
+      "source_url": "https://www.appenninosettentrionale.it/itc/?page_id=2910",
+      "documents": [
+        {
+          "url": "https://www.appenninosettentrionale.it/rep/distretto/pgra/G_UFF_07022023%20N.%2032_DPCM_PGRA.pdf",
+          "label": "PDF ufficiale · DPCM di approvazione PGRA",
+          "format": "pdf",
+          "group": "PGRA"
+        },
+        {
+          "url": "https://www.appenninosettentrionale.it/rep/distretto/pgra/Disciplina%20di%20Piano.pdf",
+          "label": "PDF ufficiale · disciplina PGRA",
+          "format": "pdf",
+          "group": "PGRA"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "bas471",
+      "source_url": "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A35795B0B&idDocumento=795801377B580A307C5C",
+      "documents": [
+        {
+          "url": "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A397A5C07&idDocumento=795801377B580A307C5C",
+          "label": "D.G.R. Basilicata 471/2026 · PDF",
+          "format": "pdf",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        },
+        {
+          "url": "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A35795B0B&idDocumento=795801377B580A307C5C",
+          "label": "Linee guida 2026 · allegato PDF",
+          "format": "pdf",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "dist-merid",
+      "source_url": "https://www.distrettoappenninomeridionale.it/piano-gestione-alluvioni/",
+      "documents": [
+        {
+          "url": "https://www.distrettoappenninomeridionale.it/images/_PGRA/II%20ciclo%202019/PIANO%20VIGENTE/DPCM%201%C2%B0%20DICEMBRE%202022%20-%20approvazione%20I%20aggiornamento%20PGRA%20-%20II%20ciclo.pdf",
+          "label": "PDF ufficiale · DPCM di approvazione PGRA",
+          "format": "pdf",
+          "group": "PGRA",
+          "link_status": "checked",
+          "link_checked": "2026-09-23"
+        },
+        {
+          "url": "https://www.distrettoappenninomeridionale.it/images/_PGRA/II%20ciclo%202019/PIANO%20VIGENTE/AGGIORNAMENTO%20MAPPE%20II%20CICLO/RELAZIONE%20METODOLOGICA.pdf",
+          "label": "PDF ufficiale · relazione metodologica PGRA",
+          "format": "pdf",
+          "group": "PGRA",
+          "link_status": "checked",
+          "link_checked": "2026-09-23"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "dist-sard",
+      "source_url": "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-di-gestione-del-rischio-alluvioni-p-g-r-a/",
+      "documents": [
+        {
+          "url": "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/06/Testo-coordinato-N.A.-PAI-modifiche-CI-n.-8-del-25.05.2026.pdf",
+          "label": "PDF ufficiale · norme PAI coordinate vigenti",
+          "format": "pdf",
+          "group": "PAI"
+        },
+        {
+          "url": "https://pianogestionerischioalluvioni.regione.sardegna.it/documenti/1_617_20211222110339.pdf",
+          "label": "PDF ufficiale · relazione generale PGRA",
+          "format": "pdf",
+          "group": "PGRA"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "dist-sici",
+      "source_url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/siti-tematici/pianificazione/stralcio",
+      "documents": [
+        {
+          "url": "https://www.regione.sicilia.it/system/files/2021-05/DP_n.09_2021_approvazione_NdA.pdf",
+          "label": "PDF ufficiale · approvazione norme PAI",
+          "format": "pdf",
+          "group": "PAI"
+        },
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2023/02/08/32/sg/pdf#page=12",
+          "label": "PDF ufficiale · GU n. 32/2023, DPCM PGRA Sicilia a p. 8",
+          "format": "pdf",
+          "group": "PGRA",
+          "link_status": "checked",
+          "link_checked": "2026-09-20"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "sic-pgra3-02-2026",
+      "source_url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/partecipazione-pubblica",
+      "documents": [
+        {
+          "url": "https://www.regione.sicilia.it/la-regione-informa/pubblicate-valutazione-globale-provvisoria-mappe-pericolosita-alluvioni-piano-gestione-rischio-alluvioni-pgra",
+          "label": "Notizia ufficiale · pubblicazione VGP e mappe",
+          "format": "html"
+        },
+        {
+          "url": "https://www.sitr.regione.sicilia.it/geoportale/it/metadata/details/1042",
+          "label": "Metadati ufficiali S.I.T.R. · mappe PGRA III ciclo",
+          "format": "html"
+        },
+        {
+          "url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/piano-gestione-rischio-alluvione-iideg-ciclo-2021-2027",
+          "label": "PGRA Sicilia vigente · II ciclo 2021–2027",
+          "format": "html"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "pai-calabria2001",
+      "source_url": "https://www.distrettoappenninomeridionale.it/progetto-di-piano-stralcio-di-bacino-del-distretto-idrografico-dellappennino-meridionale-per-lassetto-la-mitigazione-e-la-gestione-del-rischio-da-alluvioni/psdgdam-risal-cal-l/",
+      "documents": [
+        {
+          "url": "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2024/11/NAMS_PAI_2001.pdf",
+          "label": "Apri le NAMS del PAI Calabria (PDF)",
+          "group": "PAI",
+          "link_status": "checked",
+          "link_checked": "2026-09-23"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "pai-basilicata",
+      "source_url": "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-basilicata-menu/piano-stralcio-per-la-difesa-dal-rischio-idrogeologico-pai-vigente-enu",
+      "documents": [
+        {
+          "url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/UOM%20BASILICATA/PAI-RF/Norme_PAI_Basilicata_2024.pdf",
+          "label": "PAI Basilicata · NTA aggiornamento 2024",
+          "group": "PAI",
+          "link_status": "checked",
+          "link_checked": "2026-09-23"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "pai-lgv",
+      "source_url": "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-liri-garigliano-e-volturno-menuo/pai-rischio-idraulico-menu",
+      "documents": [
+        {
+          "url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/PAI-RI%20LGV%20norme%20luglio_2006.pdf",
+          "label": "Liri–Garigliano · norme PSAI-RI",
+          "group": "PAI",
+          "link_status": "checked",
+          "link_checked": "2026-09-23"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "pai-puglia",
+      "source_url": "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-puglia-menu/piano-assetto-idrogeologico-pericolosita-idraulica-menu",
+      "documents": [
+        {
+          "url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/UoM%20Puglia/3_NTA_CI_30-11-05.pdf",
+          "label": "PDF ufficiale · norme tecniche PAI Puglia",
+          "format": "pdf",
+          "group": "PAI",
+          "link_status": "checked",
+          "link_checked": "2026-09-23"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "pai-campania",
+      "source_url": "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/bacini-reg-nord-occidentali-bacino-reg-sarno-ex-adb-reg-campania-centrale-menu/piano-assetto-idrogeologico-rischio-idraulico-menu",
+      "documents": [
+        {
+          "format": "pdf",
+          "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/pai-campania-centrale-norme-attuazione-2015.pdf",
+          "label": "PDF ufficiale · norme di attuazione PAI Campania Centrale",
+          "group": "PAI"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "pai-biferno-e-minori",
+      "source_url": "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-trigno-biferno-e-minori-saccione-e-fortore-menu/biferno-e-minori-menu/piano-stralcio-assetto-idrogeologico-rischio-idraulico-menu",
+      "documents": [
+        {
+          "url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/molise/biferno/NORME%20PAI%20BIFERNO%20AGGIORNATE%20APRILE%202017.pdf",
+          "label": "PAI Biferno e minori · norme di attuazione",
+          "group": "PAI",
+          "link_status": "checked",
+          "link_checked": "2026-09-23"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "pai-trigno",
+      "source_url": "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-trigno-biferno-e-minori-saccione-e-fortore-menu/trigno-menu/piano-stralcio-assetto-idrogeologico-rischio-idraulico-menu",
+      "documents": [
+        {
+          "url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/trigno/NORME%20PAI%20TRIGNO%20AGGIORNATE%20APRILE%202017.pdf",
+          "label": "PAI Trigno · norme di attuazione",
+          "group": "PAI",
+          "link_status": "checked",
+          "link_checked": "2026-09-23"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "pai-fortore",
+      "source_url": "https://www.distrettoappenninomeridionale.it/oldsite/index.php/elaborati-di-piano-menu/ex-adb-trigno-biferno-e-minori-saccione-e-fortore-menu/fortore-menu/piano-stralcio-assetto-idrogeologico-rischio-idraulico-menu",
+      "documents": [
+        {
+          "url": "https://www.distrettoappenninomeridionale.it/oldsite/images/_PAI/molise/FORTORE/A-01_Normativa_di_attuazione.pdf",
+          "label": "PDF ufficiale · norme di attuazione PAI Fortore",
+          "format": "pdf",
+          "group": "PAI",
+          "link_status": "checked",
+          "link_checked": "2026-09-23"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "sar-inv-2017",
+      "source_url": "https://autoritadibacino.regione.sardegna.it/ap/delibera-del-comitato-istituzionale-n-2-del-17-05-2017/",
+      "documents": [
+        {
+          "url": "https://www.regione.sardegna.it/documenti/1_470_20170529141753.pdf",
+          "label": "Relazione · linee guida per l’invarianza idraulica",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "codstrada285",
+      "source_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0306&atto.dataPubblicazioneGazzetta=1992-05-18",
+      "documents": [
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/1992/05/18/114/so/74/sg/pdf",
+          "label": "PDF ufficiale · D.Lgs. 285/1992",
+          "format": "pdf"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "dpr495",
+      "source_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0531&atto.dataPubblicazioneGazzetta=1992-12-28",
+      "documents": [
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/1992/12/28/303/so/134/sg/pdf",
+          "label": "PDF ufficiale · D.P.R. 495/1992",
+          "format": "pdf"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "centr-pai-idraulico-67-2026",
+      "source_url": "https://aubac.it/pai-distrettuale-idraulico",
+      "documents": [
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2067%20-%20PAI%20IDRAULICO_signed_signed_0.pdf",
+          "label": "Deliberazione CIP 67/2026 · adozione definitiva e salvaguardia",
+          "format": "pdf",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO_0.pdf",
+          "label": "NTA con allegati · testo definitivo adottato",
+          "format": "pdf",
+          "group": "Norme"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20RELAZIONE%20GENERALE_def_0.pdf",
+          "label": "Relazione generale",
+          "format": "pdf",
+          "group": "Relazione"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "centr-pai-frane-68-2026",
+      "source_url": "https://aubac.it/pai-distrettuale-frane",
+      "documents": [
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2068%20-%20PAI%20FRANE_signed_signed_0.pdf",
+          "label": "Deliberazione CIP 68/2026 · adozione definitiva e salvaguardia",
+          "format": "pdf",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-06/PAI%20FRANE%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO_0.pdf",
+          "label": "NTA con allegati · testo definitivo adottato",
+          "format": "pdf",
+          "group": "Norme"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "centr-pai-nestore-139-2026",
+      "source_url": "https://www.aubac.it/news/notizie/rischio-idraulico-approvato-laggiornamento-delle-fasce-fluviali-e-delle-aree-rischio-di-esondazione",
+      "documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3268&StwEvent=101",
+          "label": "Decreto segretariale 139/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+          "label": "Raccolta ufficiale dei decreti di pianificazione 2026",
+          "group": "Raccolta"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "sett-pgra-variante-62-2026",
+      "source_url": "https://geodataserver.appenninosettentrionale.it/arcgis/rest/services/Pericolosita_Alluvione/mappa_variante_pericolosita2026/MapServer/0",
+      "documents": [
+        {
+          "url": "https://geodataserver.appenninosettentrionale.it/arcgis/rest/services/Pericolosita_Alluvione/mappa_variante_pericolosita2026/MapServer/0",
+          "label": "Layer ufficiale · mappa della variante 2026",
+          "group": "Cartografia"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "centr-pai-lettomanoppello-142-2026",
+      "source_url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+      "documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3273&StwEvent=101",
+          "label": "Decreto segretariale 142/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "label": "BUR Abruzzo n. 30 del 29/07/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "centr-pai-notaresco-143-2026",
+      "source_url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+      "documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3274&StwEvent=101",
+          "label": "Decreto segretariale 143/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "label": "BUR Abruzzo n. 30 del 29/07/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "centr-pai-notaresco-144-2026",
+      "source_url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+      "documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3275&StwEvent=101",
+          "label": "Decreto segretariale 144/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "label": "BUR Abruzzo n. 30 del 29/07/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "centr-pai-notaresco-145-2026",
+      "source_url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+      "documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3276&StwEvent=101",
+          "label": "Decreto segretariale 145/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "label": "BUR Abruzzo n. 30 del 29/07/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "centr-pai-pescara-146-2026",
+      "source_url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+      "documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3277&StwEvent=101",
+          "label": "Decreto segretariale 146/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "label": "BUR Abruzzo n. 30 del 29/07/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "centr-pai-spoltore-147-2026",
+      "source_url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+      "documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3278&StwEvent=101",
+          "label": "Decreto segretariale 147/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "label": "BUR Abruzzo n. 30 del 29/07/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "centr-pai-penne-148-2026",
+      "source_url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+      "documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3279&StwEvent=101",
+          "label": "Decreto segretariale 148/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "label": "BUR Abruzzo n. 30 del 29/07/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "centr-pai-tronto-140-2026",
+      "source_url": "https://www.aubac.it/news/notizie/rischio-idraulico-approvato-laggiornamento-delle-aree-rischio-di-esondazione-del-fiume-tronto-e-dei",
+      "documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3267&StwEvent=101",
+          "label": "Decreto segretariale 140/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURM%20n.%2068%20del%2023%20luglio%202026.pdf",
+          "label": "BUR Marche n. 68 del 23/07/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "label": "BUR Abruzzo n. 30 del 29/07/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "centr-pai-offida-39-2026",
+      "source_url": "https://aubac.it/decreti-segretariali-di-pianificazione-2025",
+      "documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=2943&StwEvent=101",
+          "label": "Decreto segretariale 39/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-03/N20%20del%2026%20febbraio%202026_0.pdf",
+          "label": "BUR Marche n. 20 del 26/02/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "centr-pai-fosso-secco-20-2026",
+      "source_url": "https://aubac.it/news/notizie/rischio-idraulico-pubblicato-laggiornamento-definitivo-della-perimetrazione-del-bacino-del-fosso",
+      "documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=2873&StwEvent=101",
+          "label": "Decreto segretariale 20/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+          "label": "Raccolta ufficiale dei decreti di pianificazione 2026",
+          "group": "Raccolta"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "centr-pai-vigna-corte-123-2026",
+      "source_url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+      "documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3210&StwEvent=101",
+          "label": "Decreto segretariale 123/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://www.aubac.it/news/notizie/rischio-idrogeologico-proposta-di-aggiornamento-pai-nel-comune-di-san-felice-circeo",
+          "label": "Notizia AUBAC · oggetto e componente frane",
+          "group": "Istruttoria"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "po-pai-pgra-terdoppio-5-2026",
+      "source_url": "https://pai.adbpo.it/varianti-in-corso-2/",
+      "documents": [
+        {
+          "url": "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_TERDOPPIO_2026/DSG_5_2026.pdf",
+          "label": "Decreto del Segretario generale n. 5/2026",
+          "format": "pdf",
+          "group": "Atto"
+        },
+        {
+          "url": "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_TERDOPPIO_2026/",
+          "label": "Elaborati ufficiali del progetto Terdoppio",
+          "group": "Elaborati"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    },
+    {
+      "id": "po-pai-pgra-mera-27-2026",
+      "source_url": "https://pai.adbpo.it/varianti-in-corso-2/",
+      "documents": [
+        {
+          "url": "https://www.adbpo.it/PAI/PAI_PROG_Mera_Chiavenna_2026/DSG27_2026.pdf",
+          "label": "Decreto del Segretario generale n. 27/2026",
+          "format": "pdf",
+          "group": "Atto"
+        },
+        {
+          "url": "https://www.adbpo.it/PAI/PAI_PROG_Mera_Chiavenna_2026/",
+          "label": "Elaborati ufficiali del progetto Mera",
+          "group": "Elaborati"
+        }
+      ],
+      "next_action": "Leggere il testo istituzionale, localizzare disposizioni pertinenti e ricostruire versione/modifiche/pubblicazione/efficacia; nessuna chiusura dedotta dalle sole ricevute HTTP."
+    }
+  ],
+  "priority_2": [
+    {
+      "id": "rd523",
+      "pending": [
+        "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+      ],
+      "limitations": [
+        "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+      ]
+    },
+    {
+      "id": "rd1775",
+      "pending": [
+        "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+      ],
+      "limitations": [
+        "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+      ]
+    },
+    {
+      "id": "rd368",
+      "pending": [
+        "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+      ],
+      "limitations": [
+        "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+      ]
+    },
+    {
+      "id": "rd215",
+      "pending": [
+        "Acquisire testo coordinato e leggere disciplina consortile e modifiche successive."
+      ],
+      "limitations": [
+        "L’estrazione testuale è corrotta; è stata verificata visivamente soltanto pagina 1."
+      ]
+    },
+    {
+      "id": "dl152",
+      "pending": [
+        "Ricostruire la versione corrente degli articoli pertinenti e gli allegati della Parte III."
+      ],
+      "limitations": [
+        "La lettura sostanziale riguarda la riproduzione parlamentare originaria; gli endpoint degli articoli Normattiva hanno restituito errori."
+      ]
+    },
+    {
+      "id": "dl49",
+      "pending": [
+        "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+      ],
+      "limitations": [
+        "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+      ]
+    },
+    {
+      "id": "ntc18",
+      "pending": [
+        "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+      ],
+      "limitations": [
+        "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+      ]
+    },
+    {
+      "id": "ue60",
+      "pending": [
+        "Leggere integralmente direttiva 2026/805 e consolidato del 10 maggio 2026."
+      ],
+      "limitations": [
+        "Testo acquisito solo tramite estratti ufficiali indicizzati; PDF non disponibile durante il controllo."
+      ]
+    },
+    {
+      "id": "ueall",
+      "pending": [
+        "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+      ],
+      "limitations": [
+        "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+      ]
+    },
+    {
+      "id": "lom7",
+      "pending": [
+        "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati."
+      ],
+      "limitations": [
+        "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+      ]
+    },
+    {
+      "id": "sic102",
+      "pending": [
+        "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati."
+      ],
+      "limitations": [
+        "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+      ]
+    },
+    {
+      "id": "ven2948",
+      "pending": [
+        "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati."
+      ],
+      "limitations": [
+        "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+      ]
+    },
+    {
+      "id": "fvg83",
+      "pending": [
+        "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati."
+      ],
+      "limitations": [
+        "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+      ]
+    },
+    {
+      "id": "pug26",
+      "pending": [
+        "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati."
+      ],
+      "limitations": [
+        "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+      ]
+    },
+    {
+      "id": "lig4",
+      "pending": [
+        "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati.",
+        "Acquisire allegato A sul piano di prevenzione e gestione."
+      ],
+      "limitations": [
+        "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+      ]
+    },
+    {
+      "id": "er286",
+      "pending": [
+        "Ricostruire modifiche, atti attuativi e reperire il documento diretto della D.G.R. 286/2005."
+      ],
+      "limitations": [
+        "La pagina primaria Normativa regionale acquisita direttamente non espone l’atto nel testo ottenuto.",
+        "Il PDF etichettato in scheda è correttamente dichiarato attuativo (D.G.R. 1860/2006), non è il testo della 286/2005; download in timeout."
+      ]
+    },
+    {
+      "id": "tos41",
+      "pending": [
+        "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati."
+      ],
+      "limitations": [
+        "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+      ]
+    },
+    {
+      "id": "mar53",
+      "pending": [
+        "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati.",
+        "Acquisire DGR 53/2014 e allegati dal dominio Regione Marche: download diretto HTTP 502. Non usare il vecchio dominio con contenuti estranei."
+      ],
+      "limitations": [
+        "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+      ]
+    },
+    {
+      "id": "laz18",
+      "pending": [
+        "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati."
+      ],
+      "limitations": [
+        "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+      ]
+    },
+    {
+      "id": "cal10",
+      "pending": [
+        "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati.",
+        "Coordinare disciplina residua e competenze con TUA/PTA; acquisire gli allegati omessi e verificare ulteriori atti modificativi."
+      ],
+      "limitations": [
+        "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+      ]
+    },
+    {
+      "id": "umb627",
+      "pending": [
+        "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati."
+      ],
+      "limitations": [
+        "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+      ]
+    },
+    {
+      "id": "vda2030",
+      "pending": [
+        "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati."
+      ],
+      "limitations": [
+        "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+      ]
+    },
+    {
+      "id": "ligpta",
+      "pending": [
+        "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati."
+      ],
+      "limitations": [
+        "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+      ]
+    },
+    {
+      "id": "bz6",
+      "pending": [
+        "Reperire allegati e testo coordinato ufficiale; ricostruire l’intera catena modificativa e l’efficacia delle disposizioni."
+      ],
+      "limitations": [
+        "PDF della GU originario: allegati omessi e modifiche successive non consolidate.",
+        "Lexbrowser restituisce pagina di attesa per troppe richieste; acquisizione diretta della pagina tematica restituisce solo Loading, mentre la consultazione indicizzata espone il richiamo al capo IV."
+      ]
+    },
+    {
+      "id": "tnpta",
+      "pending": [
+        "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati."
+      ],
+      "limitations": [
+        "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+      ]
+    },
+    {
+      "id": "bzpta",
+      "pending": [
+        "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati."
+      ],
+      "limitations": [
+        "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+      ]
+    },
+    {
+      "id": "dist-po",
+      "pending": [
+        "Ricostruire successivi atti e cartografie; verificare separatamente PGRA e bacini oggetto di estensione."
+      ],
+      "limitations": [
+        "L’indicazione di versione nel PDF non attesta l’assenza di ulteriori varianti nel 2026 né la vigenza del distinto PGRA."
+      ]
+    },
+    {
+      "id": "po-pai-estensione-13-2025",
+      "pending": [
+        "Acquisire atti successivi e confrontare cartografie e regime transitorio alla data corrente."
+      ],
+      "limitations": [
+        "Non verificati in modo esaustivo i successivi provvedimenti, le decorrenze delle salvaguardie e tutti i comuni delle appendici."
+      ]
+    },
+    {
+      "id": "dist-centr",
+      "pending": [
+        "Verificare atti CIP 67/2026 e successivi, salvaguardie e cartografie; mantenere distinti i diversi strumenti."
+      ],
+      "limitations": [
+        "Il solo PDF NTA non ricostruisce tutte le decorrenze, salvaguardie, varianti e cartografie; PGRA e PAI frane non sono verificati da questo documento."
+      ]
+    },
+    {
+      "id": "bas9",
+      "pending": [
+        "Ricostruire eventuali modifiche legislative e confrontare gli atti attuativi, inclusa D.G.R. 471/2026; ritentare il PDF regionale."
+      ],
+      "limitations": [
+        "Testo originario, non attestazione di coordinamento all’8 ottobre 2026.",
+        "PDF leggibile nella consultazione testuale istituzionale iniziale; successivi download diretti hanno restituito HTTP 502/timeout."
+      ]
+    },
+    {
+      "id": "sar-pai-frane-42-2026",
+      "pending": [
+        "Confrontare mappe ufficiali e successivi provvedimenti senza estendere la variante oltre il suo perimetro."
+      ],
+      "limitations": [
+        "Non esaminati tutti gli elaborati cartografici né effettuata una ricerca esaustiva di successive varianti."
+      ]
+    },
+    {
+      "id": "sar-pai-barrali-162-2026",
+      "pending": [
+        "Confrontare mappe ufficiali e successivi provvedimenti senza estendere la variante oltre il suo perimetro."
+      ],
+      "limitations": [
+        "Non esaminati tutti gli elaborati cartografici né effettuata una ricerca esaustiva di successive varianti."
+      ]
+    },
+    {
+      "id": "dmattr2014",
+      "pending": [
+        "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+      ],
+      "limitations": [
+        "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+      ]
+    },
+    {
+      "id": "camed2025",
+      "pending": [
+        "Acquisire l’Allegato 1 MASE e verificare ogni criterio idraulico e successivi atti."
+      ],
+      "limitations": [
+        "L’Allegato 1 tecnico non è riprodotto nel fascicolo GU esaminato."
+      ]
+    },
+    {
+      "id": "camstrade2024",
+      "pending": [
+        "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+      ],
+      "limitations": [
+        "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+      ]
+    },
+    {
+      "id": "camverde2020",
+      "pending": [
+        "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+      ],
+      "limitations": [
+        "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+      ]
+    },
+    {
+      "id": "appalti36",
+      "pending": [
+        "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+      ],
+      "limitations": [
+        "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+      ]
+    },
+    {
+      "id": "camstrade2025",
+      "pending": [
+        "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+      ],
+      "limitations": [
+        "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+      ]
+    },
+    {
+      "id": "pai-calabria-lao",
+      "pending": [
+        "Acquisire CIP 2/2024, successivi esiti e mappe; coordinare il regime transitorio con i precedenti strumenti."
+      ],
+      "limitations": [
+        "Non conclusa la verifica degli atti successivi né delle interazioni con il PAI Calabria 2001; ambito idrografico Lao da verificare sulle mappe, non desumibile dal solo confine della Calabria."
+      ]
+    },
+    {
+      "id": "laz117",
+      "pending": [
+        "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati."
+      ],
+      "limitations": [
+        "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+      ]
+    },
+    {
+      "id": "lom4pp",
+      "pending": [
+        "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati."
+      ],
+      "limitations": [
+        "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+      ]
+    },
+    {
+      "id": "sar6925",
+      "pending": [
+        "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati.",
+        "Acquisire e leggere la direttiva tecnica allegata; il PDF esaminato contiene solo la deliberazione."
+      ],
+      "limitations": [
+        "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+      ]
+    },
+    {
+      "id": "tos20",
+      "pending": [
+        "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati."
+      ],
+      "limitations": [
+        "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+      ]
+    },
+    {
+      "id": "tos46",
+      "pending": [
+        "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati."
+      ],
+      "limitations": [
+        "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+      ]
+    },
+    {
+      "id": "venpta39",
+      "pending": [
+        "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati."
+      ],
+      "limitations": [
+        "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+      ]
+    },
+    {
+      "id": "dpr753",
+      "pending": [
+        "Acquisire testo ufficiale coordinato e verificare competenze, deroghe e modifiche."
+      ],
+      "limitations": [
+        "Riproduzione istituzionale universitaria; PDF storico GU non acquisito in forma leggibile."
+      ]
+    },
+    {
+      "id": "dm185",
+      "pending": [
+        "Verificare pubblicazione ed efficacia del nuovo regolamento, allegato qualità e coordinamento europeo."
+      ],
+      "limitations": [
+        "Non verificata integralmente l’eventuale entrata in vigore del nuovo regolamento ex art. 99."
+      ]
+    },
+    {
+      "id": "dpr59",
+      "pending": [
+        "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+      ],
+      "limitations": [
+        "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+      ]
+    },
+    {
+      "id": "ue741reuse",
+      "pending": [
+        "Leggere integralmente artt. 5-6, allegati I-II e coordinamento nazionale."
+      ],
+      "limitations": [
+        "Consultati estratti ufficiali indicizzati, non il PDF completo."
+      ]
+    },
+    {
+      "id": "ue1765reuse",
+      "pending": [
+        "Acquisire PDF completo, leggere specifiche tecniche e verificare status del precedente atto 2024/1261."
+      ],
+      "limitations": [
+        "Consultato solo un estratto dell’allegato indicizzato dalla fonte ufficiale; accesso diretto bloccato da verifica automatica."
+      ]
+    },
+    {
+      "id": "bz-badia-pzp-782-2026",
+      "pending": [
+        "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
+      ],
+      "limitations": [
+        "Il PDF lega l’entrata in vigore alla pubblicazione nel Bollettino; tale pubblicazione non è stata acquisita nel lotto.",
+        "Non acquisiti tutti gli elaborati cartografici né verificate le modifiche successive."
+      ]
+    },
+    {
+      "id": "bz-campo-tures-pzp-799-2026",
+      "pending": [
+        "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
+      ],
+      "limitations": [
+        "Il PDF lega l’entrata in vigore alla pubblicazione nel Bollettino; tale pubblicazione non è stata acquisita nel lotto.",
+        "Non acquisiti tutti gli elaborati cartografici né verificate le modifiche successive."
+      ]
+    },
+    {
+      "id": "bz-nova-ponente-pzp-776-2026",
+      "pending": [
+        "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
+      ],
+      "limitations": [
+        "Il PDF lega l’entrata in vigore alla pubblicazione nel Bollettino; tale pubblicazione non è stata acquisita nel lotto.",
+        "Non acquisiti tutti gli elaborati cartografici né verificate le modifiche successive."
+      ]
+    },
+    {
+      "id": "bz-fortezza-pzp-742-2026",
+      "pending": [
+        "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
+      ],
+      "limitations": [
+        "Il PDF lega l’entrata in vigore alla pubblicazione nel Bollettino; tale pubblicazione non è stata acquisita nel lotto.",
+        "Non acquisiti tutti gli elaborati cartografici né verificate le modifiche successive."
+      ]
+    },
+    {
+      "id": "bz-nova-ponente-pzp-741-2026",
+      "pending": [
+        "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
+      ],
+      "limitations": [
+        "Il PDF lega l’entrata in vigore alla pubblicazione nel Bollettino; tale pubblicazione non è stata acquisita nel lotto.",
+        "Non acquisiti tutti gli elaborati cartografici né verificate le modifiche successive."
+      ]
+    },
+    {
+      "id": "bz-sarentino-pzp-740-2026",
+      "pending": [
+        "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
+      ],
+      "limitations": [
+        "Il PDF lega l’entrata in vigore alla pubblicazione nel Bollettino; tale pubblicazione non è stata acquisita nel lotto.",
+        "Non acquisiti tutti gli elaborati cartografici né verificate le modifiche successive."
+      ]
+    },
+    {
+      "id": "bz-la-valle-pzp-739-2026",
+      "pending": [
+        "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
+      ],
+      "limitations": [
+        "Il PDF lega l’entrata in vigore alla pubblicazione nel Bollettino; tale pubblicazione non è stata acquisita nel lotto.",
+        "Non acquisiti tutti gli elaborati cartografici né verificate le modifiche successive."
+      ]
+    },
+    {
+      "id": "bz-rasun-anterselva-pzp-738-2026",
+      "pending": [
+        "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
+      ],
+      "limitations": [
+        "Il PDF lega l’entrata in vigore alla pubblicazione nel Bollettino; tale pubblicazione non è stata acquisita nel lotto.",
+        "Non acquisiti tutti gli elaborati cartografici né verificate le modifiche successive."
+      ]
+    }
+  ],
+  "priority_3": "Censimento sistematico: completare matrice territoriale di 176 combinazioni conservata in copertura.json; nessuna nuova copertura dichiarata da queste letture circoscritte."
+}

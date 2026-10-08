@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-08T19:47:06Z",
+  "checked_at": "2026-10-08T19:54:07Z",
   "national": {
     "state": "completato",
     "last_completed_at": "2026-10-08T13:12:48+02:00",
@@ -72,7 +72,7 @@
   "territorial": {
     "state": "parziale",
     "date": "2026-10-08",
-    "evidence": "data.json:runs[4]",
+    "evidence": "data.json:runs[5]",
     "summary": "Colmate quattro lacune documentali: due aggiornamenti definitivi PAI Lazio e due progetti congiunti PAI/PGRA del distretto del Po. Nessuna conclusione generale sull'assenza di ulteriori modifiche territoriali.",
     "sources_checked": [
       "AUBAC: raccolta dei decreti segretariali di pianificazione 2026, notizie istituzionali e dettagli dei D.S. 20/2026 e 123/2026; verificati oggetto, materia, stato definitivo e pubblicazioni nel BURL.",
@@ -119,8 +119,8 @@
       "code": "TERRITORIAL_PARZIALE",
       "severity": "warning",
       "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
-      "evidence": "data.json:runs[4]",
-      "event_id": "4f91080363c18ae512d07390"
+      "evidence": "data.json:runs[5]",
+      "event_id": "d14a23ea0afb6766c9bccfbf"
     }
   ],
   "events": [
@@ -175,8 +175,16 @@
       "evidence": "data.json:runs[4]",
       "event_id": "4f91080363c18ae512d07390",
       "recorded_at": "2026-10-08T19:47:06Z"
+    },
+    {
+      "code": "TERRITORIAL_PARZIALE",
+      "severity": "warning",
+      "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
+      "evidence": "data.json:runs[5]",
+      "event_id": "d14a23ea0afb6766c9bccfbf",
+      "recorded_at": "2026-10-08T19:54:07Z"
     }
   ],
   "has_errors": false,
-  "repository_sha": "28c037f69ad5000abf87d138788fe79b8429581f"
+  "repository_sha": "b43141018aaae2c6502b82607a61544c0866c274"
 }

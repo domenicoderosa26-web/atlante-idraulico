@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "catalog_path": "data.json",
-  "updated_at": "2026-10-08T19:44:26.127445+00:00",
+  "updated_at": "2026-10-08T19:50:58.156798+00:00",
   "basis": [
     "docs/audit/2026-10-08/schede.json",
     "docs/audit/2026-10-08/coda.json",
@@ -11,18 +11,13 @@
   "note": "Registro derivato di attività: non è un secondo catalogo. Le revisioni anteriori sono conservate negli audit citati e in data.json. I conteggi sono una fotografia alla data indicata.",
   "catalog_snapshot": {
     "records": 106,
-    "documentary_reviews": 71,
+    "documentary_reviews": 76,
     "without_documentary_review": [
-      "pie1",
       "er1860",
       "abr17",
       "mol25",
-      "bz23",
       "bari",
       "milano",
-      "venezia",
-      "aprilia",
-      "medicina",
       "dist-alpi",
       "dist-sett",
       "bas471",
@@ -222,7 +217,11 @@
       "record_version": "3a6c7d0fdce59c28b7fd63863c4c83e0f35bac2055afe03427bdcbc226040253",
       "evidence": "docs/audit/2026-10-08/incrementale/lotto-02.json",
       "publication": {
-        "state": "validated_pending_deployment"
+        "state": "published_verified",
+        "pr": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/9",
+        "merge_commit": "28c037f69ad5000abf87d138788fe79b8429581f",
+        "receipt": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-02.json",
+        "checked_at": "2026-10-08T19:47:51.504457+00:00"
       },
       "history": []
     },
@@ -247,7 +246,11 @@
       "record_version": "8945972a56157590a5d83b0acf2d5c35765cd5443e7286a6f37ec30e8cc68a15",
       "evidence": "docs/audit/2026-10-08/incrementale/lotto-02.json",
       "publication": {
-        "state": "validated_pending_deployment"
+        "state": "published_verified",
+        "pr": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/9",
+        "merge_commit": "28c037f69ad5000abf87d138788fe79b8429581f",
+        "receipt": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-02.json",
+        "checked_at": "2026-10-08T19:47:51.504457+00:00"
       },
       "history": []
     },
@@ -272,7 +275,11 @@
       "record_version": "e815f017309ebae4301cec4ca76bea78eccb92d52fd93aa39185930f1cdb2b58",
       "evidence": "docs/audit/2026-10-08/incrementale/lotto-02.json",
       "publication": {
-        "state": "validated_pending_deployment"
+        "state": "published_verified",
+        "pr": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/9",
+        "merge_commit": "28c037f69ad5000abf87d138788fe79b8429581f",
+        "receipt": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-02.json",
+        "checked_at": "2026-10-08T19:47:51.504457+00:00"
       },
       "history": []
     },
@@ -297,7 +304,11 @@
       "record_version": "f433b4f22b80a793c79b80960f634bc214ca1b5eb5841115f97ae3d4ae2f594a",
       "evidence": "docs/audit/2026-10-08/incrementale/lotto-02.json",
       "publication": {
-        "state": "validated_pending_deployment"
+        "state": "published_verified",
+        "pr": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/9",
+        "merge_commit": "28c037f69ad5000abf87d138788fe79b8429581f",
+        "receipt": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-02.json",
+        "checked_at": "2026-10-08T19:47:51.504457+00:00"
       },
       "history": []
     },
@@ -321,6 +332,141 @@
       ],
       "record_version": "65f498a90e83360d3e01715262a4690c70060f58aa57a2fe003bc36248bd9038",
       "evidence": "docs/audit/2026-10-08/incrementale/lotto-02.json",
+      "publication": {
+        "state": "published_verified",
+        "pr": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/9",
+        "merge_commit": "28c037f69ad5000abf87d138788fe79b8429581f",
+        "receipt": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-02.json",
+        "checked_at": "2026-10-08T19:47:51.504457+00:00"
+      },
+      "history": []
+    },
+    "pie1": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-08T19:50:58.156798+00:00",
+      "source_urls": [
+        "https://arianna.cr.piemonte.it/regolafo/dettaglioRegolamento.do?tornaIndietro=true&urnRegolamento=urn%3Anir%3Aregione.piemonte%3Aregolamento%3A2006-02-20%3B1%402018-12-11"
+      ],
+      "verified_results": [
+        "R.R. Piemonte 20 febbraio 2006 n. 1, pubblicato nel BUR n. 8 del 23 febbraio 2006; disciplina dilavamento e lavaggio aree esterne.",
+        "Vietata l’immissione diretta in acque sotterranee; prima pioggia definita in 5 mm, evento distinto dopo 48 ore asciutte. Applicazione alle attività elencate nell’art. 7; il piano di prevenzione e gestione contiene grafici, relazione e disciplinare. Allegato A indica di norma 50 m³/ha e avvio al trattamento in 48-60 ore.",
+        "Il testo reca modifiche del R.R. 7/2006, fra cui sostituzione dell’art. 7 e dell’Allegato A, e del R.R. 13/2006 sui termini. Il marcatore di versione 2018 e l’indicazione «Vigente» della pagina non dimostrano da soli la catena completa al 2026."
+      ],
+      "limitations": [
+        "Verifica limitata al perimetro indicato; nessuna attestazione di assenza di atti successivi o di vigenza integrale.",
+        "Versione HTML datata dall’URN; nuovo tentativo di consultazione ha restituito timeout. Lettura effettuata sulla copia ufficiale acquisita oggi con hash conservato."
+      ],
+      "next_operation": [
+        "Ricostruire gli atti successivi alla versione 2018 e riconfermare il PDF coordinato ufficiale."
+      ],
+      "record_version": "d895104854e1031d124651dc86038286468a328dcb62d616f6b05238cd213d0c",
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-03.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
+    },
+    "bz23": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-08T19:50:58.156798+00:00",
+      "source_urls": [
+        "https://www.gazzettaufficiale.it/eli/gu/2020/01/11/2/s3/pdf#page=22"
+      ],
+      "verified_results": [
+        "D.P.P. 10 ottobre 2019 n. 23, «Piani delle zone di pericolo», pubblicato nel BUR Trentino-Alto Adige n. 42 del 17 ottobre 2019.",
+        "Il regolamento attua l’art. 55 della L.P. 9/2018; distingue frane, pericoli idraulici e valanghe e livelli H4/H3/H2. L’art. 11 disciplina la verifica di compatibilità, vincolante per gli interventi e distinta dalla VIA.",
+        "Il PDF contiene il testo originario del 2019. Lexbrowser restituisce la pagina di attesa TooManyRequests: il testo coordinato attuale non è stato ottenuto, senza dedurre assenza di modifiche."
+      ],
+      "limitations": [
+        "Verifica limitata al perimetro indicato; nessuna attestazione di assenza di atti successivi o di vigenza integrale.",
+        "Lexbrowser restituisce TooManyRequests; letto soltanto il testo originario ufficiale alternativo."
+      ],
+      "next_operation": [
+        "Acquisire il testo coordinato da Lexbrowser e ricostruire modifiche e applicabilità attuale."
+      ],
+      "record_version": "ffec7a36734e1fa3b82aef6e194cb0fa755c5fa62253cfac2e39a74c918814e6",
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-03.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
+    },
+    "aprilia": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-08T19:50:58.156798+00:00",
+      "source_urls": [
+        "https://www.comune.aprilia.lt.it/sites/comune.aprilia.lt.it/files/2024-01/2016-REGOLAMENTO-AUTORIZZAZIONE-AGLI-SCARICHI-DELIBERA-C.C.-34-DEL-2016.pdf",
+        "https://www.comune.aprilia.lt.it/sites/comune.aprilia.lt.it/files/2024-02/ALLEGATO-h_DOCUMENTAZIONE-TECNICA_definitiva.pdf",
+        "https://www.comune.aprilia.lt.it/servizi/autorizzazione-allo-scarico-di-acque-reflue"
+      ],
+      "verified_results": [
+        "Regolamento comunale di autorizzazione agli scarichi domestici e assimilati in aree non servite da pubblica fognatura, approvato con C.C. n. 34 del 28 luglio 2016.",
+        "Ambito inferiore a 50 abitanti equivalenti; scarichi su suolo con limiti e pozzetto di campionamento; validità quadriennale. Le disposizioni del documento del 2016 vanno confrontate con le procedure aggiornate.",
+        "Richiesti schemi separati dei reflui e pluviali, dati di dimensionamento e recapiti. Gli intorni dei pozzi e i requisiti geologici dipendono dal sistema e dal contesto; il richiamo al riuso riguarda il refluo depurato, non il riuso meteorico.",
+        "La pagina del servizio richiede lo sportello telematico, indica il rinnovo entro sei mesi o al massimo trenta giorni lavorativi e sostituzione della modulistica con dati dello sportello, mantenendo determinati allegati, incluso H. Non si applica automaticamente tutta la modulistica del PDF 2016."
+      ],
+      "limitations": [
+        "Verifica limitata al perimetro indicato; nessuna attestazione di assenza di atti successivi o di vigenza integrale."
+      ],
+      "next_operation": [
+        "Completare gli articoli e gli allegati restanti e verificare gli atti comunali di modifica delle procedure."
+      ],
+      "record_version": "7ec4c95f8b20e6661de4e4e77dda3d59a4a54e363d5fdbaf75aa793f5bc4f389",
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-03.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
+    },
+    "medicina": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-08T19:50:58.156798+00:00",
+      "source_urls": [
+        "https://www.comune.medicina.bo.it/documento/modulo-richiesta-autorizzazione-per-lo-scarico-di-acque-domestiche-non-incanalate-in-fognatura",
+        "https://www.comune.medicina.bo.it/files/allegati/Richiesta%20autorizzazione%20scarico.pdf"
+      ],
+      "verified_results": [
+        "La pagina pubblica il modulo per domanda e rinnovo allo scarico in acque superficiali e/o suolo.",
+        "Richiede identificazione dell’insediamento, tipo e recapito dello scarico, per nuove autorizzazioni planimetria, relazione tecnica e geologica e schede dei manufatti. Le opzioni del modulo comprendono anche tipologie diverse dall’uso residenziale dichiarato nell’intestazione.",
+        "Il modulo richiama D.Lgs. 152/1999 e C.C. 71/2003: la disponibilità sul sito non dimostra l’attualità di tali riferimenti. Occorre riscontro comunale prima di usarli come disciplina vigente."
+      ],
+      "limitations": [
+        "Verifica limitata al perimetro indicato; nessuna attestazione di assenza di atti successivi o di vigenza integrale."
+      ],
+      "next_operation": [
+        "Riscontrare il regolamento comunale aggiornato e la validità procedurale della modulistica con i riferimenti normativi attuali."
+      ],
+      "record_version": "113bf2ceac0ccfbecafdbbe7097054934967c0dd0e8a80390e8db6a69d52dbdb",
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-03.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
+    },
+    "venezia": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-08T19:50:58.156798+00:00",
+      "source_urls": [
+        "https://www.comune.venezia.it/it/node/2100",
+        "https://www.comune.venezia.it/sites/comune.venezia.it/files/immagini/Ambiente/signed_Disposizione_semplificazione_maggio_2026.pdf",
+        "https://www.comune.venezia.it/sites/comune.venezia.it/files/immagini/Ambiente/disposizione.pdf",
+        "https://www.comune.venezia.it/sites/comune.venezia.it/files/immagini/Ambiente/PG123125_2020_Linee%20Guida_completo.pdf"
+      ],
+      "verified_results": [
+        "La pagina distingue laguna, depuratori comunali e scarichi esterni alla conterminazione; prescrive presentazione telematica e distingue competenze comunali e autorizzazione finale in laguna.",
+        "Disciplina varianti dei progetti di allaccio ai depuratori comunali e di trattamento fuori conterminazione: procedure semplificate con condizioni, casi senza variante e obbligo negli altri casi; abroga espressamente PG 103350 del 27 febbraio 2019.",
+        "Disciplina varianti degli adeguamenti ai sensi della L. 206/1995; abroga PG 236183/2018. L’entrata in vigore è legata alla nuova modulistica sul SUAP, mentre la pagina comunale la indica in vigore; questo lotto non verifica la data della modulistica.",
+        "Attua art. 63 del regolamento edilizio DCC 70/2019; la dichiarazione riguarda l’invarianza del carico inquinante e condizioni specifiche, non l’invarianza idraulica. Gli allegati tecnici non sono integralmente riesaminati."
+      ],
+      "limitations": [
+        "Verifica limitata al perimetro indicato; nessuna attestazione di assenza di atti successivi o di vigenza integrale.",
+        "Consultazione testuale PDF riuscita; richieste binarie hanno restituito HTML di 212 byte, senza firma PDF. Hash di trasporto HTML separato dal documento consultato."
+      ],
+      "next_operation": [
+        "Acquisire copie binarie dei PDF, completare allegati tecnici 2020, riscontrare la modulistica SUAP e la catena degli atti successivi."
+      ],
+      "record_version": "0af1e0a77331af43aabfbb76707db56b4d5d1676b36274057c0cd1aea03402e0",
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-03.json",
       "publication": {
         "state": "validated_pending_deployment"
       },
@@ -359,15 +505,34 @@
       ],
       "evidence": "docs/audit/2026-10-08/incrementale/lotto-02.json",
       "publication": {
+        "state": "published_verified",
+        "pr": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/9",
+        "merge_commit": "28c037f69ad5000abf87d138788fe79b8429581f",
+        "receipt": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-02.json",
+        "checked_at": "2026-10-08T19:47:51.504457+00:00"
+      }
+    },
+    {
+      "id": "incrementale-03",
+      "date": "2026-10-08",
+      "record_ids": [
+        "pie1",
+        "bz23",
+        "aprilia",
+        "medicina",
+        "venezia"
+      ],
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-03.json",
+      "publication": {
         "state": "validated_pending_deployment"
       }
     }
   ],
   "next_batch": [
-    "pie1",
-    "bz23",
-    "aprilia",
-    "medicina",
-    "venezia"
+    "centr-pai-idraulico-67-2026",
+    "centr-pai-frane-68-2026",
+    "sar-inv-2017",
+    "pai-campania",
+    "lom7"
   ]
 }

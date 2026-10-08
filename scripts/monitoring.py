@@ -131,6 +131,21 @@ def read_url(url, authenticated=False):
             time.sleep(2 ** attempt)
 
 
+def read_public_files(root, base, reader=read_url, wait=time.sleep, attempts=13):
+    # A push may precede Pages. Allow a bounded deployment window before
+    # recording a persistent divergence; an acquisition error remains unknown.
+    for attempt in range(attempts):
+        matches, errors = {}, []
+        for name in ['data.json', 'national.json', 'update-status.json']:
+            try:
+                matches[name] = reader(base + name + '?v=' + str(time.time_ns())) == (root / name).read_bytes()
+            except OSError as exc:
+                matches[name] = None; errors.append('File pubblico ' + name + ': ' + str(exc))
+        if errors or all(matches.values()) or attempt == attempts - 1:
+            return matches, errors
+        wait(10)
+
+
 def collect():
     repo = os.environ['GITHUB_REPOSITORY']
     api = 'https://api.github.com/repos/' + repo
@@ -156,12 +171,8 @@ def collect():
         payload = json.loads(read_url(api + '/contents/checkpoint.json?ref=normattiva-state', True))
         checkpoint = json.loads(base64.b64decode(payload['content']))
     except (OSError, ValueError, KeyError) as exc: errors.append('Checkpoint: ' + str(exc))
-    matches = {}
-    for name in ['data.json', 'national.json', 'update-status.json']:
-        try:
-            matches[name] = read_url(base + name + '?v=' + str(time.time_ns())) == (ROOT / name).read_bytes()
-        except OSError as exc:
-            matches[name] = None; errors.append('File pubblico ' + name + ': ' + str(exc))
+    matches, public_errors = read_public_files(ROOT, base)
+    errors += public_errors
     receipt_errors = []
     if checkpoint.get('national_sha256') and checkpoint['national_sha256'] != sha((ROOT / 'national.json').read_bytes()):
         receipt_errors.append('Hash del registro diverso dalla ricevuta tecnica')

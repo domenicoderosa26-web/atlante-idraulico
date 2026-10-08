@@ -1103,6 +1103,10 @@
         {
           "date": "2026-09-17",
           "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        },
+        {
+          "date": "2026-10-08",
+          "text": "Audit incrementale, lotto 03: letti i passaggi documentali dichiarati e aggiornati i rimandi pertinenti; conservate le fonti precedenti. Revisione complessiva parziale, con limiti e prossime verifiche registrati."
         }
       ],
       "documents": [
@@ -1112,7 +1116,44 @@
           "format": "pdf"
         }
       ],
-      "document_note": "Il collegamento apre direttamente il PDF del documento."
+      "document_note": "Letto il testo coordinato HTML ufficiale Arianna alla versione indicata nell’URN (11/12/2018), inclusi Allegato A e note. Il precedente download PDF non è riconfermato; la vigenza attuale resta da ricostruire.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Testo HTML Arianna con URN alla versione 11 dicembre 2018: artt. 1-13, Allegato A e note di modifica; non certificazione del testo attuale.",
+        "outcome": "partial",
+        "legal_state": "amended",
+        "source_urls": [
+          "https://arianna.cr.piemonte.it/regolafo/dettaglioRegolamento.do?tornaIndietro=true&urnRegolamento=urn%3Anir%3Aregione.piemonte%3Aregolamento%3A2006-02-20%3B1%402018-12-11"
+        ],
+        "claims": [
+          {
+            "aspect": "identity",
+            "source_url": "https://arianna.cr.piemonte.it/regolafo/dettaglioRegolamento.do?tornaIndietro=true&urnRegolamento=urn%3Anir%3Aregione.piemonte%3Aregolamento%3A2006-02-20%3B1%402018-12-11",
+            "locator": "Intestazione e BUR",
+            "finding": "R.R. Piemonte 20 febbraio 2006 n. 1, pubblicato nel BUR n. 8 del 23 febbraio 2006; disciplina dilavamento e lavaggio aree esterne."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://arianna.cr.piemonte.it/regolafo/dettaglioRegolamento.do?tornaIndietro=true&urnRegolamento=urn%3Anir%3Aregione.piemonte%3Aregolamento%3A2006-02-20%3B1%402018-12-11",
+            "locator": "Artt. 5-9 e Allegato A",
+            "finding": "Vietata l’immissione diretta in acque sotterranee; prima pioggia definita in 5 mm, evento distinto dopo 48 ore asciutte. Applicazione alle attività elencate nell’art. 7; il piano di prevenzione e gestione contiene grafici, relazione e disciplinare. Allegato A indica di norma 50 m³/ha e avvio al trattamento in 48-60 ore."
+          },
+          {
+            "aspect": "amendment",
+            "source_url": "https://arianna.cr.piemonte.it/regolafo/dettaglioRegolamento.do?tornaIndietro=true&urnRegolamento=urn%3Anir%3Aregione.piemonte%3Aregolamento%3A2006-02-20%3B1%402018-12-11",
+            "locator": "Note [1]-[12] e URN della versione",
+            "finding": "Il testo reca modifiche del R.R. 7/2006, fra cui sostituzione dell’art. 7 e dell’Allegato A, e del R.R. 13/2006 sui termini. Il marcatore di versione 2018 e l’indicazione «Vigente» della pagina non dimostrano da soli la catena completa al 2026."
+          }
+        ],
+        "limitations": [
+          "Verifica limitata al perimetro indicato; nessuna attestazione di assenza di atti successivi o di vigenza integrale.",
+          "Versione HTML datata dall’URN; nuovo tentativo di consultazione ha restituito timeout. Lettura effettuata sulla copia ufficiale acquisita oggi con hash conservato."
+        ],
+        "pending": [
+          "Ricostruire gli atti successivi alla versione 2018 e riconfermare il PDF coordinato ufficiale."
+        ],
+        "record_version": "d895104854e1031d124651dc86038286468a328dcb62d616f6b05238cd213d0c"
+      }
     },
     {
       "id": "lig4",
@@ -2162,8 +2203,8 @@
       ],
       "date": "2019-10-10",
       "url": "https://lexbrowser.provinz.bz.it/doc/it/217759/decreto_del_presidente_della_provincia_10_ottobre_2019_n_23.aspx",
-      "document_label": "Consulta il testo su Lexbrowser",
-      "document_note": "Il collegamento apre il fascicolo ufficiale in PDF; il D.P.P. 23/2019 inizia a pagina 18 della numerazione editoriale.",
+      "document_label": "D.P.P. 23/2019 · testo originario ufficiale · p. 18",
+      "document_note": "Verificato il testo originario ufficiale: il decreto inizia a p. editoriale 18, corrispondente alla pagina PDF 20. Il nuovo rimando diretto punta all’inizio; la fonte provinciale coordinata è in attesa e la vigenza attuale resta da ricostruire.",
       "summary": "Regolamento della Provincia autonoma di Bolzano per gli interventi e le previsioni urbanistiche nelle zone di pericolo.",
       "focus": [
         "Ammissibilità degli interventi",
@@ -2180,6 +2221,10 @@
         {
           "date": "2026-09-17",
           "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        },
+        {
+          "date": "2026-10-08",
+          "text": "Audit incrementale, lotto 03: letti i passaggi documentali dichiarati e aggiornati i rimandi pertinenti; conservate le fonti precedenti. Revisione complessiva parziale, con limiti e prossime verifiche registrati."
         }
       ],
       "documents": [
@@ -2188,7 +2233,45 @@
           "url": "https://www.gazzettaufficiale.it/eli/gu/2020/01/11/2/s3/pdf#page=22",
           "label": "PDF ufficiale · D.P.P. Bolzano 23/2019 (G.U. 3ª Serie speciale)"
         }
-      ]
+      ],
+      "document_url": "https://www.gazzettaufficiale.it/eli/gu/2020/01/11/2/s3/pdf#page=20",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Testo originario nella G.U. 3ª Serie speciale n. 2/2020: intestazione, artt. 1-2 e art. 11; non testo coordinato attuale.",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://www.gazzettaufficiale.it/eli/gu/2020/01/11/2/s3/pdf#page=22"
+        ],
+        "claims": [
+          {
+            "aspect": "identity",
+            "source_url": "https://www.gazzettaufficiale.it/eli/gu/2020/01/11/2/s3/pdf#page=22",
+            "locator": "G.U. 11 gennaio 2020 n. 2, p. editoriale 18 (pagina PDF 20)",
+            "finding": "D.P.P. 10 ottobre 2019 n. 23, «Piani delle zone di pericolo», pubblicato nel BUR Trentino-Alto Adige n. 42 del 17 ottobre 2019."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.gazzettaufficiale.it/eli/gu/2020/01/11/2/s3/pdf#page=22",
+            "locator": "Artt. 1-2 e 11, pp. editoriali 18 e 21",
+            "finding": "Il regolamento attua l’art. 55 della L.P. 9/2018; distingue frane, pericoli idraulici e valanghe e livelli H4/H3/H2. L’art. 11 disciplina la verifica di compatibilità, vincolante per gli interventi e distinta dalla VIA."
+          },
+          {
+            "aspect": "version",
+            "source_url": "https://www.gazzettaufficiale.it/eli/gu/2020/01/11/2/s3/pdf#page=22",
+            "locator": "Fascicolo originale e fonte provinciale",
+            "finding": "Il PDF contiene il testo originario del 2019. Lexbrowser restituisce la pagina di attesa TooManyRequests: il testo coordinato attuale non è stato ottenuto, senza dedurre assenza di modifiche."
+          }
+        ],
+        "limitations": [
+          "Verifica limitata al perimetro indicato; nessuna attestazione di assenza di atti successivi o di vigenza integrale.",
+          "Lexbrowser restituisce TooManyRequests; letto soltanto il testo originario ufficiale alternativo."
+        ],
+        "pending": [
+          "Acquisire il testo coordinato da Lexbrowser e ricostruire modifiche e applicabilità attuale."
+        ],
+        "record_version": "ffec7a36734e1fa3b82aef6e194cb0fa755c5fa62253cfac2e39a74c918814e6"
+      }
     },
     {
       "id": "tnpta",
@@ -2433,7 +2516,7 @@
       ],
       "date": "2019",
       "url": "https://www.comune.venezia.it/it/content/scarichi-reflui-0",
-      "summary": "Pagina comunale sulle procedure di adeguamento fognario e i riferimenti al regolamento edilizio.",
+      "summary": "Procedure comunali per gli scarichi reflui: adeguamento in laguna, allacciamenti ai depuratori comunali e scarichi fuori conterminazione. La pagina richiama l’art. 63 del regolamento edilizio e le disposizioni 2020, 2024 e PG 271320 del 14 maggio 2026 sulle varianti, che abroga PG 103350/2019.",
       "focus": [
         "Art. 63 del regolamento richiamato",
         "Condizioni di adeguamento",
@@ -2449,16 +2532,100 @@
         {
           "date": "2026-09-17",
           "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        },
+        {
+          "date": "2026-10-08",
+          "text": "Audit incrementale, lotto 03: letti i passaggi documentali dichiarati e aggiornati i rimandi pertinenti; conservate le fonti precedenti. Revisione complessiva parziale, con limiti e prossime verifiche registrati."
         }
       ],
-      "document_note": "Il collegamento apre direttamente il PDF del documento.",
+      "document_note": "Aggiunti i PDF ufficiali delle disposizioni 2020, 2024 e 14/05/2026 e la pagina delle procedure. Letti i dispositivi 2024/2026 tramite consultazione testuale dei documenti istituzionali; il download diretto ha restituito HTML di 212 byte e non è confermato come PDF. Conservati i vecchi collegamenti; verifica complessiva parziale.",
       "documents": [
         {
           "url": "https://www.comune.venezia.it/sites/comune.venezia.it/files/documenti/Ambiente/Testo%20Legge%20Speciale%20206_1995.pdf",
           "label": "PDF ufficiale · Legge speciale 206/1995",
           "format": "pdf"
+        },
+        {
+          "url": "https://www.comune.venezia.it/sites/comune.venezia.it/files/immagini/Ambiente/signed_Disposizione_semplificazione_maggio_2026.pdf",
+          "label": "Disposizione PG 271320/2026 · varianti depuratori e fuori laguna",
+          "format": "pdf",
+          "group": "Atto",
+          "link_status": "source_link",
+          "link_checked": "2026-10-08"
+        },
+        {
+          "url": "https://www.comune.venezia.it/sites/comune.venezia.it/files/immagini/Ambiente/disposizione.pdf",
+          "label": "Disposizione PG 268575/2024 · varianti L. 206/1995",
+          "format": "pdf",
+          "group": "Atto",
+          "link_status": "source_link",
+          "link_checked": "2026-10-08"
+        },
+        {
+          "url": "https://www.comune.venezia.it/sites/comune.venezia.it/files/immagini/Ambiente/PG123125_2020_Linee%20Guida_completo.pdf",
+          "label": "Disposizione PG 123125/2020 · linee guida e allegati",
+          "format": "pdf",
+          "group": "Atto",
+          "link_status": "source_link",
+          "link_checked": "2026-10-08"
+        },
+        {
+          "url": "https://www.comune.venezia.it/it/node/2100",
+          "label": "Procedure comunali · pagina aggiornata al 18/05/2026",
+          "format": "html",
+          "group": "Procedura",
+          "link_status": "source_link",
+          "link_checked": "2026-10-08"
         }
-      ]
+      ],
+      "document_url": "https://www.comune.venezia.it/sites/comune.venezia.it/files/immagini/Ambiente/signed_Disposizione_semplificazione_maggio_2026.pdf",
+      "document_label": "Disposizione PG 271320/2026 · varianti depuratori e fuori laguna",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Pagina delle quattro procedure; disposizioni PG 268575/2024 (5 pagine) e PG 271320/2026 (4 pagine), dispositivi completi; PG 123125/2020, passaggi iniziali pp. 1-5. PDF letti in consultazione testuale istituzionale, download binario non confermato.",
+        "outcome": "partial",
+        "legal_state": "amended",
+        "source_urls": [
+          "https://www.comune.venezia.it/it/node/2100",
+          "https://www.comune.venezia.it/sites/comune.venezia.it/files/immagini/Ambiente/signed_Disposizione_semplificazione_maggio_2026.pdf",
+          "https://www.comune.venezia.it/sites/comune.venezia.it/files/immagini/Ambiente/disposizione.pdf",
+          "https://www.comune.venezia.it/sites/comune.venezia.it/files/immagini/Ambiente/PG123125_2020_Linee%20Guida_completo.pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "territory",
+            "source_url": "https://www.comune.venezia.it/it/node/2100",
+            "locator": "Quattro procedure e sezione SUAP",
+            "finding": "La pagina distingue laguna, depuratori comunali e scarichi esterni alla conterminazione; prescrive presentazione telematica e distingue competenze comunali e autorizzazione finale in laguna."
+          },
+          {
+            "aspect": "amendment",
+            "source_url": "https://www.comune.venezia.it/sites/comune.venezia.it/files/immagini/Ambiente/signed_Disposizione_semplificazione_maggio_2026.pdf",
+            "locator": "PG 271320 del 14 maggio 2026, dispositivo pp. 2-4",
+            "finding": "Disciplina varianti dei progetti di allaccio ai depuratori comunali e di trattamento fuori conterminazione: procedure semplificate con condizioni, casi senza variante e obbligo negli altri casi; abroga espressamente PG 103350 del 27 febbraio 2019."
+          },
+          {
+            "aspect": "amendment",
+            "source_url": "https://www.comune.venezia.it/sites/comune.venezia.it/files/immagini/Ambiente/disposizione.pdf",
+            "locator": "PG 268575 del 3 giugno 2024, dispositivo e chiusura pp. 2-5",
+            "finding": "Disciplina varianti degli adeguamenti ai sensi della L. 206/1995; abroga PG 236183/2018. L’entrata in vigore è legata alla nuova modulistica sul SUAP, mentre la pagina comunale la indica in vigore; questo lotto non verifica la data della modulistica."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.comune.venezia.it/sites/comune.venezia.it/files/immagini/Ambiente/PG123125_2020_Linee%20Guida_completo.pdf",
+            "locator": "Intestazione e Titoli I-II, passaggi pp. 1-5",
+            "finding": "Attua art. 63 del regolamento edilizio DCC 70/2019; la dichiarazione riguarda l’invarianza del carico inquinante e condizioni specifiche, non l’invarianza idraulica. Gli allegati tecnici non sono integralmente riesaminati."
+          }
+        ],
+        "limitations": [
+          "Verifica limitata al perimetro indicato; nessuna attestazione di assenza di atti successivi o di vigenza integrale.",
+          "Consultazione testuale PDF riuscita; richieste binarie hanno restituito HTML di 212 byte, senza firma PDF. Hash di trasporto HTML separato dal documento consultato."
+        ],
+        "pending": [
+          "Acquisire copie binarie dei PDF, completare allegati tecnici 2020, riscontrare la modulistica SUAP e la catena degli atti successivi."
+        ],
+        "record_version": "0af1e0a77331af43aabfbb76707db56b4d5d1676b36274057c0cd1aea03402e0"
+      }
     },
     {
       "id": "aprilia",
@@ -2489,6 +2656,10 @@
         {
           "date": "2026-09-17",
           "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        },
+        {
+          "date": "2026-10-08",
+          "text": "Audit incrementale, lotto 03: letti i passaggi documentali dichiarati e aggiornati i rimandi pertinenti; conservate le fonti precedenti. Revisione complessiva parziale, con limiti e prossime verifiche registrati."
         }
       ],
       "documents": [
@@ -2496,9 +2667,71 @@
           "url": "https://www.regione.lazio.it/sites/default/files/amministrazione-trasparente/tbl_contenuti/Norme_Tecniche_di_Attuazione.pdf",
           "label": "PDF normativo · norme tecniche PTAR Lazio",
           "format": "pdf"
+        },
+        {
+          "url": "https://www.comune.aprilia.lt.it/sites/comune.aprilia.lt.it/files/2024-01/2016-REGOLAMENTO-AUTORIZZAZIONE-AGLI-SCARICHI-DELIBERA-C.C.-34-DEL-2016.pdf",
+          "label": "Regolamento comunale C.C. 34/2016",
+          "format": "pdf",
+          "group": "Atto",
+          "link_status": "checked",
+          "link_checked": "2026-10-08"
+        },
+        {
+          "url": "https://www.comune.aprilia.lt.it/sites/comune.aprilia.lt.it/files/2024-02/ALLEGATO-h_DOCUMENTAZIONE-TECNICA_definitiva.pdf",
+          "label": "Allegato H · documentazione tecnica",
+          "format": "pdf",
+          "group": "Allegati",
+          "link_status": "checked",
+          "link_checked": "2026-10-08"
         }
       ],
-      "document_note": "Il collegamento apre direttamente il PDF del documento."
+      "document_note": "Aggiunti regolamento comunale C.C. 34/2016 e Allegato H ufficiali. Letti i passaggi indicati; la pagina del servizio aggiorna modalità e modulistica. Il documento regionale già presente resta conservato.",
+      "document_url": "https://www.comune.aprilia.lt.it/sites/comune.aprilia.lt.it/files/2024-01/2016-REGOLAMENTO-AUTORIZZAZIONE-AGLI-SCARICHI-DELIBERA-C.C.-34-DEL-2016.pdf",
+      "document_label": "Regolamento comunale C.C. 34/2016",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Regolamento C.C. 34/2016: identità, artt. 1, 5 e 13; Allegato H, pp. 1-2 selezionate; pagina del servizio sulle modalità attuali.",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://www.comune.aprilia.lt.it/sites/comune.aprilia.lt.it/files/2024-01/2016-REGOLAMENTO-AUTORIZZAZIONE-AGLI-SCARICHI-DELIBERA-C.C.-34-DEL-2016.pdf",
+          "https://www.comune.aprilia.lt.it/sites/comune.aprilia.lt.it/files/2024-02/ALLEGATO-h_DOCUMENTAZIONE-TECNICA_definitiva.pdf",
+          "https://www.comune.aprilia.lt.it/servizi/autorizzazione-allo-scarico-di-acque-reflue"
+        ],
+        "claims": [
+          {
+            "aspect": "identity",
+            "source_url": "https://www.comune.aprilia.lt.it/sites/comune.aprilia.lt.it/files/2024-01/2016-REGOLAMENTO-AUTORIZZAZIONE-AGLI-SCARICHI-DELIBERA-C.C.-34-DEL-2016.pdf",
+            "locator": "Frontespizio",
+            "finding": "Regolamento comunale di autorizzazione agli scarichi domestici e assimilati in aree non servite da pubblica fognatura, approvato con C.C. n. 34 del 28 luglio 2016."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.comune.aprilia.lt.it/sites/comune.aprilia.lt.it/files/2024-01/2016-REGOLAMENTO-AUTORIZZAZIONE-AGLI-SCARICHI-DELIBERA-C.C.-34-DEL-2016.pdf",
+            "locator": "Artt. 1, 5 e 13",
+            "finding": "Ambito inferiore a 50 abitanti equivalenti; scarichi su suolo con limiti e pozzetto di campionamento; validità quadriennale. Le disposizioni del documento del 2016 vanno confrontate con le procedure aggiornate."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.comune.aprilia.lt.it/sites/comune.aprilia.lt.it/files/2024-02/ALLEGATO-h_DOCUMENTAZIONE-TECNICA_definitiva.pdf",
+            "locator": "Allegato H, pp. 1-2: elaborato grafico e relazione tecnica",
+            "finding": "Richiesti schemi separati dei reflui e pluviali, dati di dimensionamento e recapiti. Gli intorni dei pozzi e i requisiti geologici dipendono dal sistema e dal contesto; il richiamo al riuso riguarda il refluo depurato, non il riuso meteorico."
+          },
+          {
+            "aspect": "version",
+            "source_url": "https://www.comune.aprilia.lt.it/servizi/autorizzazione-allo-scarico-di-acque-reflue",
+            "locator": "Come fare e Cosa serve",
+            "finding": "La pagina del servizio richiede lo sportello telematico, indica il rinnovo entro sei mesi o al massimo trenta giorni lavorativi e sostituzione della modulistica con dati dello sportello, mantenendo determinati allegati, incluso H. Non si applica automaticamente tutta la modulistica del PDF 2016."
+          }
+        ],
+        "limitations": [
+          "Verifica limitata al perimetro indicato; nessuna attestazione di assenza di atti successivi o di vigenza integrale."
+        ],
+        "pending": [
+          "Completare gli articoli e gli allegati restanti e verificare gli atti comunali di modifica delle procedure."
+        ],
+        "record_version": "7ec4c95f8b20e6661de4e4e77dda3d59a4a54e363d5fdbaf75aa793f5bc4f389"
+      }
     },
     {
       "id": "medicina",
@@ -2529,6 +2762,10 @@
         {
           "date": "2026-09-17",
           "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        },
+        {
+          "date": "2026-10-08",
+          "text": "Audit incrementale, lotto 03: letti i passaggi documentali dichiarati e aggiornati i rimandi pertinenti; conservate le fonti precedenti. Revisione complessiva parziale, con limiti e prossime verifiche registrati."
         }
       ],
       "documents": [
@@ -2536,9 +2773,56 @@
           "url": "https://servizissiir.regione.emilia-romagna.it/deliberegiunta/servlet/AdapterHTTP?ENTE=1&action_name=ACTIONRICERCADELIBERE&codProtocollo=SSR%2F06%2F1069410&operation=downloadTestoPdf",
           "label": "PDF normativo · D.G.R. Emilia-Romagna 1860/2006",
           "format": "pdf"
+        },
+        {
+          "url": "https://www.comune.medicina.bo.it/files/allegati/Richiesta%20autorizzazione%20scarico.pdf",
+          "label": "Modulo comunale · domanda/rinnovo scarico",
+          "format": "pdf",
+          "group": "Atto",
+          "link_status": "checked",
+          "link_checked": "2026-10-08"
         }
       ],
-      "document_note": "Il collegamento apre direttamente il PDF del documento."
+      "document_note": "Aggiunto il modulo comunale effettivo. Contiene riferimenti al D.Lgs. 152/1999 e al regolamento C.C. 71/2003: non è una conferma della disciplina vigente; il PDF regionale precedente resta conservato.",
+      "document_url": "https://www.comune.medicina.bo.it/files/allegati/Richiesta%20autorizzazione%20scarico.pdf",
+      "document_label": "Modulo comunale · domanda/rinnovo scarico",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Pagina comunale e modulo ufficiale: intestazione, domanda, allegati e prime due pagine; non ricostruzione del regolamento comunale.",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://www.comune.medicina.bo.it/documento/modulo-richiesta-autorizzazione-per-lo-scarico-di-acque-domestiche-non-incanalate-in-fognatura",
+          "https://www.comune.medicina.bo.it/files/allegati/Richiesta%20autorizzazione%20scarico.pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "identity",
+            "source_url": "https://www.comune.medicina.bo.it/documento/modulo-richiesta-autorizzazione-per-lo-scarico-di-acque-domestiche-non-incanalate-in-fognatura",
+            "locator": "Titolo e collegamento al modulo",
+            "finding": "La pagina pubblica il modulo per domanda e rinnovo allo scarico in acque superficiali e/o suolo."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.comune.medicina.bo.it/files/allegati/Richiesta%20autorizzazione%20scarico.pdf",
+            "locator": "Modulo, pp. 1-2",
+            "finding": "Richiede identificazione dell’insediamento, tipo e recapito dello scarico, per nuove autorizzazioni planimetria, relazione tecnica e geologica e schede dei manufatti. Le opzioni del modulo comprendono anche tipologie diverse dall’uso residenziale dichiarato nell’intestazione."
+          },
+          {
+            "aspect": "version",
+            "source_url": "https://www.comune.medicina.bo.it/files/allegati/Richiesta%20autorizzazione%20scarico.pdf",
+            "locator": "Intestazione e richiami all’art. 45",
+            "finding": "Il modulo richiama D.Lgs. 152/1999 e C.C. 71/2003: la disponibilità sul sito non dimostra l’attualità di tali riferimenti. Occorre riscontro comunale prima di usarli come disciplina vigente."
+          }
+        ],
+        "limitations": [
+          "Verifica limitata al perimetro indicato; nessuna attestazione di assenza di atti successivi o di vigenza integrale."
+        ],
+        "pending": [
+          "Riscontrare il regolamento comunale aggiornato e la validità procedurale della modulistica con i riferimenti normativi attuali."
+        ],
+        "record_version": "113bf2ceac0ccfbecafdbbe7097054934967c0dd0e8a80390e8db6a69d52dbdb"
+      }
     },
     {
       "id": "uni752",
@@ -9854,6 +10138,43 @@
     }
   ],
   "runs": [
+    {
+      "date": "2026-10-08",
+      "type": "Audit incrementale · lotto 03 · fonti regionali e comunali",
+      "summary": "Cinque letture circoscritte: Piemonte, Bolzano, Aprilia, Medicina e Venezia. Integrate le disposizioni comunali Venezia 2024/2026 e i documenti propri di Aprilia/Medicina; nessuna verifica integrale dichiarata.",
+      "checked": [
+        "pie1",
+        "bz23",
+        "aprilia",
+        "medicina",
+        "venezia"
+      ],
+      "read_urls": [
+        "https://arianna.cr.piemonte.it/regolafo/dettaglioRegolamento.do?tornaIndietro=true&urnRegolamento=urn%3Anir%3Aregione.piemonte%3Aregolamento%3A2006-02-20%3B1%402018-12-11",
+        "https://www.gazzettaufficiale.it/eli/gu/2020/01/11/2/s3/pdf#page=22",
+        "https://www.comune.aprilia.lt.it/sites/comune.aprilia.lt.it/files/2024-01/2016-REGOLAMENTO-AUTORIZZAZIONE-AGLI-SCARICHI-DELIBERA-C.C.-34-DEL-2016.pdf",
+        "https://www.comune.aprilia.lt.it/sites/comune.aprilia.lt.it/files/2024-02/ALLEGATO-h_DOCUMENTAZIONE-TECNICA_definitiva.pdf",
+        "https://www.comune.aprilia.lt.it/servizi/autorizzazione-allo-scarico-di-acque-reflue",
+        "https://www.comune.medicina.bo.it/documento/modulo-richiesta-autorizzazione-per-lo-scarico-di-acque-domestiche-non-incanalate-in-fognatura",
+        "https://www.comune.medicina.bo.it/files/allegati/Richiesta%20autorizzazione%20scarico.pdf",
+        "https://www.comune.venezia.it/it/node/2100",
+        "https://www.comune.venezia.it/sites/comune.venezia.it/files/immagini/Ambiente/signed_Disposizione_semplificazione_maggio_2026.pdf",
+        "https://www.comune.venezia.it/sites/comune.venezia.it/files/immagini/Ambiente/disposizione.pdf",
+        "https://www.comune.venezia.it/sites/comune.venezia.it/files/immagini/Ambiente/PG123125_2020_Linee%20Guida_completo.pdf"
+      ],
+      "errors": [
+        "Limiti espliciti: testo coordinato Lexbrowser non ottenuto; Piemonte versione 2018 con nuova richiesta in timeout; PDF Venezia consultati testualmente ma download binario non confermato."
+      ],
+      "updated_records": [
+        "pie1",
+        "bz23",
+        "aprilia",
+        "medicina",
+        "venezia"
+      ],
+      "new_records": [],
+      "publication": "data_json_update"
+    },
     {
       "date": "2026-10-08",
       "type": "Audit incrementale · lotto 02 · cinque decreti AUBAC",

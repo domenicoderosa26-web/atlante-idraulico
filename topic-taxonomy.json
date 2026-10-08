@@ -813,7 +813,7 @@
           ]
         }
       ],
-      "evidence": "Oggetto e ambito sostanziale della scheda: Disciplina delle acque meteoriche e delle acque di lavaggio delle aree esterne. Focus: Superfici e attività interessate; Piano di prevenzione e gestione; Raccolta, trattamento e scarico"
+      "evidence": "Oggetto e ambito sostanziale della scheda: Disciplina delle acque meteoriche e delle acque di lavaggio delle aree esterne. Focus: Superfici e attività interessate; Piano di prevenzione e gestione; Raccolta, trattamento e scarico Riesame 8 ottobre 2026, lotto 03: Vietata l’immissione diretta in acque sotterranee; prima pioggia definita in 5 mm, evento distinto dopo 48 ore asciutte. Applicazione alle attività elencate nell’art. 7; il piano di prevenzione e gestione contiene grafici, relazione e disciplinare. Allegato A indica di norma 50 m³/ha e avvio al trattamento in 48-60 ore. Argomenti canonici invariati; i rinvii e il carico inquinante non introducono nuovi temi."
     },
     "lig4": {
       "topics": [
@@ -1128,7 +1128,7 @@
           ]
         }
       ],
-      "evidence": "Regole generali interventi nelle zone di pericolo applicabili anche alla componente idraulica PZP."
+      "evidence": "Regole generali interventi nelle zone di pericolo applicabili anche alla componente idraulica PZP. Riesame 8 ottobre 2026, lotto 03: Il regolamento attua l’art. 55 della L.P. 9/2018; distingue frane, pericoli idraulici e valanghe e livelli H4/H3/H2. L’art. 11 disciplina la verifica di compatibilità, vincolante per gli interventi e distinta dalla VIA. Argomenti canonici invariati; i rinvii e il carico inquinante non introducono nuovi temi."
     },
     "tnpta": {
       "topics": [
@@ -1228,7 +1228,11 @@
       ],
       "source_urls": [
         "https://www.comune.venezia.it/it/content/scarichi-reflui-0",
-        "https://www.comune.venezia.it/sites/comune.venezia.it/files/documenti/Ambiente/Testo%20Legge%20Speciale%20206_1995.pdf"
+        "https://www.comune.venezia.it/sites/comune.venezia.it/files/documenti/Ambiente/Testo%20Legge%20Speciale%20206_1995.pdf",
+        "https://www.comune.venezia.it/it/node/2100",
+        "https://www.comune.venezia.it/sites/comune.venezia.it/files/immagini/Ambiente/signed_Disposizione_semplificazione_maggio_2026.pdf",
+        "https://www.comune.venezia.it/sites/comune.venezia.it/files/immagini/Ambiente/disposizione.pdf",
+        "https://www.comune.venezia.it/sites/comune.venezia.it/files/immagini/Ambiente/PG123125_2020_Linee%20Guida_completo.pdf"
       ],
       "object_versions": [
         {
@@ -1240,9 +1244,19 @@
             "Condizioni di adeguamento",
             "Procedura comunale"
           ]
+        },
+        {
+          "title": "Scarichi reflui e adeguamento fognario",
+          "ref": "Regolamento edilizio · Venezia",
+          "summary": "Procedure comunali per gli scarichi reflui: adeguamento in laguna, allacciamenti ai depuratori comunali e scarichi fuori conterminazione. La pagina richiama l’art. 63 del regolamento edilizio e le disposizioni 2020, 2024 e PG 271320 del 14 maggio 2026 sulle varianti, che abroga PG 103350/2019.",
+          "focus": [
+            "Art. 63 del regolamento richiamato",
+            "Condizioni di adeguamento",
+            "Procedura comunale"
+          ]
         }
       ],
-      "evidence": "Oggetto e ambito sostanziale della scheda: Pagina comunale sulle procedure di adeguamento fognario e i riferimenti al regolamento edilizio. Focus: Art. 63 del regolamento richiamato; Condizioni di adeguamento; Procedura comunale"
+      "evidence": "Oggetto e ambito sostanziale della scheda: Pagina comunale sulle procedure di adeguamento fognario e i riferimenti al regolamento edilizio. Focus: Art. 63 del regolamento richiamato; Condizioni di adeguamento; Procedura comunale Riesame 8 ottobre 2026, lotto 03: Disciplina varianti dei progetti di allaccio ai depuratori comunali e di trattamento fuori conterminazione: procedure semplificate con condizioni, casi senza variante e obbligo negli altri casi; abroga espressamente PG 103350 del 27 febbraio 2019. Argomenti canonici invariati; i rinvii e il carico inquinante non introducono nuovi temi."
     },
     "aprilia": {
       "topics": [
@@ -1250,7 +1264,9 @@
       ],
       "source_urls": [
         "https://www.comune.aprilia.lt.it/servizi/autorizzazione-allo-scarico-di-acque-reflue",
-        "https://www.regione.lazio.it/sites/default/files/amministrazione-trasparente/tbl_contenuti/Norme_Tecniche_di_Attuazione.pdf"
+        "https://www.regione.lazio.it/sites/default/files/amministrazione-trasparente/tbl_contenuti/Norme_Tecniche_di_Attuazione.pdf",
+        "https://www.comune.aprilia.lt.it/sites/comune.aprilia.lt.it/files/2024-01/2016-REGOLAMENTO-AUTORIZZAZIONE-AGLI-SCARICHI-DELIBERA-C.C.-34-DEL-2016.pdf",
+        "https://www.comune.aprilia.lt.it/sites/comune.aprilia.lt.it/files/2024-02/ALLEGATO-h_DOCUMENTAZIONE-TECNICA_definitiva.pdf"
       ],
       "object_versions": [
         {
@@ -1264,7 +1280,7 @@
           ]
         }
       ],
-      "evidence": "Oggetto e ambito sostanziale della scheda: Servizio comunale per le autorizzazioni allo scarico e i relativi adempimenti. Focus: Procedura e documenti; Classificazione del refluo; Coordinamento con il PTAR"
+      "evidence": "Oggetto e ambito sostanziale della scheda: Servizio comunale per le autorizzazioni allo scarico e i relativi adempimenti. Focus: Procedura e documenti; Classificazione del refluo; Coordinamento con il PTAR Riesame 8 ottobre 2026, lotto 03: Ambito inferiore a 50 abitanti equivalenti; scarichi su suolo con limiti e pozzetto di campionamento; validità quadriennale. Le disposizioni del documento del 2016 vanno confrontate con le procedure aggiornate. Argomenti canonici invariati; i rinvii e il carico inquinante non introducono nuovi temi."
     },
     "medicina": {
       "topics": [
@@ -1272,7 +1288,8 @@
       ],
       "source_urls": [
         "https://servizissiir.regione.emilia-romagna.it/deliberegiunta/servlet/AdapterHTTP?ENTE=1&action_name=ACTIONRICERCADELIBERE&codProtocollo=SSR%2F06%2F1069410&operation=downloadTestoPdf",
-        "https://www.comune.medicina.bo.it/documento/modulo-richiesta-autorizzazione-per-lo-scarico-di-acque-domestiche-non-incanalate-in-fognatura"
+        "https://www.comune.medicina.bo.it/documento/modulo-richiesta-autorizzazione-per-lo-scarico-di-acque-domestiche-non-incanalate-in-fognatura",
+        "https://www.comune.medicina.bo.it/files/allegati/Richiesta%20autorizzazione%20scarico.pdf"
       ],
       "object_versions": [
         {
@@ -1286,7 +1303,7 @@
           ]
         }
       ],
-      "evidence": "Oggetto e ambito sostanziale della scheda: Modulistica comunale per domanda e rinnovo di autorizzazione allo scarico. Focus: Acque domestiche; Recapito in acque superficiali o suolo; Richiesta e rinnovo"
+      "evidence": "Oggetto e ambito sostanziale della scheda: Modulistica comunale per domanda e rinnovo di autorizzazione allo scarico. Focus: Acque domestiche; Recapito in acque superficiali o suolo; Richiesta e rinnovo Riesame 8 ottobre 2026, lotto 03: Richiede identificazione dell’insediamento, tipo e recapito dello scarico, per nuove autorizzazioni planimetria, relazione tecnica e geologica e schede dei manufatti. Le opzioni del modulo comprendono anche tipologie diverse dall’uso residenziale dichiarato nell’intestazione. Argomenti canonici invariati; i rinvii e il carico inquinante non introducono nuovi temi."
     },
     "uni752": {
       "topics": [

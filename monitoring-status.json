@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-08T13:29:25Z",
+  "checked_at": "2026-10-08T13:34:46Z",
   "national": {
-    "state": "pubblicazione_non_confermata",
+    "state": "completato",
     "last_completed_at": "2026-10-08T13:12:48+02:00",
     "expected_date": "2026-10-08",
     "deadline_local": "16:00 Europe/Rome",
@@ -46,7 +46,7 @@
       "Controllo API limitato agli atti con URN supportato; esclusi: ntc18, dmattr2014, camed2025, camstrade2024, camverde2020, camstrade2025, dm185"
     ],
     "public_files_match": {
-      "data.json": false,
+      "data.json": true,
       "national.json": true,
       "update-status.json": true
     },
@@ -116,17 +116,6 @@
   },
   "anomalies": [
     {
-      "code": "PUBLIC_DIVERGENCE",
-      "severity": "error",
-      "message": "I file pubblici non corrispondono alla base del repository verificata.",
-      "evidence": {
-        "data.json": false,
-        "national.json": true,
-        "update-status.json": true
-      },
-      "event_id": "2381ff04f0d67f44797f41d9"
-    },
-    {
       "code": "TERRITORIAL_PARZIALE",
       "severity": "warning",
       "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
@@ -156,6 +145,6 @@
       "recorded_at": "2026-10-08T11:10:49Z"
     }
   ],
-  "has_errors": true,
+  "has_errors": false,
   "repository_sha": "499e9d6bd0fa900539acdb24c95617bae7eb0c02"
 }

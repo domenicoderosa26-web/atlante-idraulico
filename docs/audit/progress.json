@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "catalog_path": "data.json",
-  "updated_at": "2026-10-08T20:02:43.096713+00:00",
+  "updated_at": "2026-10-08T20:08:33.050022+00:00",
   "basis": [
     "docs/audit/2026-10-08/schede.json",
     "docs/audit/2026-10-08/coda.json",
@@ -11,7 +11,7 @@
   "note": "Registro derivato di attività: non è un secondo catalogo. Le revisioni anteriori sono conservate negli audit citati e in data.json. I conteggi sono una fotografia alla data indicata.",
   "catalog_snapshot": {
     "records": 106,
-    "documentary_reviews": 80,
+    "documentary_reviews": 84,
     "without_documentary_review": [
       "er1860",
       "abr17",
@@ -34,11 +34,7 @@
       "pai-fortore",
       "codstrada285",
       "dpr495",
-      "sett-pgra-variante-62-2026",
-      "centr-pai-fosso-secco-20-2026",
-      "centr-pai-vigna-corte-123-2026",
-      "po-pai-pgra-terdoppio-5-2026",
-      "po-pai-pgra-mera-27-2026"
+      "sett-pgra-variante-62-2026"
     ],
     "full_legal_reviews": 0
   },
@@ -368,32 +364,61 @@
     },
     "bz23": {
       "state": "revisione parziale",
-      "last_activity": "2026-10-08T19:50:58.156798+00:00",
+      "last_activity": "2026-10-08T20:08:33.050022+00:00",
       "source_urls": [
-        "https://www.gazzettaufficiale.it/eli/gu/2020/01/11/2/s3/pdf#page=22"
+        "https://www.gazzettaufficiale.it/eli/gu/2020/01/11/2/s3/pdf#page=22",
+        "https://www.gazzettaufficiale.it/eli/gu/2020/01/11/2/s3/pdf#page=20"
       ],
       "verified_results": [
         "D.P.P. 10 ottobre 2019 n. 23, «Piani delle zone di pericolo», pubblicato nel BUR Trentino-Alto Adige n. 42 del 17 ottobre 2019.",
         "Il regolamento attua l’art. 55 della L.P. 9/2018; distingue frane, pericoli idraulici e valanghe e livelli H4/H3/H2. L’art. 11 disciplina la verifica di compatibilità, vincolante per gli interventi e distinta dalla VIA.",
-        "Il PDF contiene il testo originario del 2019. Lexbrowser restituisce la pagina di attesa TooManyRequests: il testo coordinato attuale non è stato ottenuto, senza dedurre assenza di modifiche."
+        "Il PDF contiene il testo originario del 2019. Lexbrowser restituisce la pagina di attesa TooManyRequests: il testo coordinato attuale non è stato ottenuto, senza dedurre assenza di modifiche.",
+        "Il D.P.P. 23/2019 inizia alla pagina PDF 20. Inserito come primo documento visibile il rimando corretto; conservato anche il precedente collegamento #page=22 e la sua revisione nella cronologia."
       ],
       "limitations": [
+        "La revisione resta parziale: cartografie, fascicoli regionali o catena degli atti successivi non completati nel perimetro dichiarato.",
         "Verifica limitata al perimetro indicato; nessuna attestazione di assenza di atti successivi o di vigenza integrale.",
         "Lexbrowser restituisce TooManyRequests; letto soltanto il testo originario ufficiale alternativo."
       ],
       "next_operation": [
         "Acquisire il testo coordinato da Lexbrowser e ricostruire modifiche e applicabilità attuale."
       ],
-      "record_version": "ffec7a36734e1fa3b82aef6e194cb0fa755c5fa62253cfac2e39a74c918814e6",
-      "evidence": "docs/audit/2026-10-08/incrementale/lotto-03.json",
+      "record_version": "72a9889f04043aeb31c0ab25219ee343a92d4640566ed15f96de53255f42ed0c",
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-05.json",
       "publication": {
-        "state": "published_verified",
-        "pr": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/10",
-        "merge_commit": "b43141018aaae2c6502b82607a61544c0866c274",
-        "receipt": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-03.json",
-        "checked_at": "2026-10-08T19:54:30.784200+00:00"
+        "state": "validated_pending_deployment"
       },
-      "history": []
+      "history": [
+        {
+          "state": "revisione parziale",
+          "last_activity": "2026-10-08T19:50:58.156798+00:00",
+          "source_urls": [
+            "https://www.gazzettaufficiale.it/eli/gu/2020/01/11/2/s3/pdf#page=22"
+          ],
+          "verified_results": [
+            "D.P.P. 10 ottobre 2019 n. 23, «Piani delle zone di pericolo», pubblicato nel BUR Trentino-Alto Adige n. 42 del 17 ottobre 2019.",
+            "Il regolamento attua l’art. 55 della L.P. 9/2018; distingue frane, pericoli idraulici e valanghe e livelli H4/H3/H2. L’art. 11 disciplina la verifica di compatibilità, vincolante per gli interventi e distinta dalla VIA.",
+            "Il PDF contiene il testo originario del 2019. Lexbrowser restituisce la pagina di attesa TooManyRequests: il testo coordinato attuale non è stato ottenuto, senza dedurre assenza di modifiche."
+          ],
+          "limitations": [
+            "Verifica limitata al perimetro indicato; nessuna attestazione di assenza di atti successivi o di vigenza integrale.",
+            "Lexbrowser restituisce TooManyRequests; letto soltanto il testo originario ufficiale alternativo."
+          ],
+          "next_operation": [
+            "Acquisire il testo coordinato da Lexbrowser e ricostruire modifiche e applicabilità attuale."
+          ],
+          "record_version": "ffec7a36734e1fa3b82aef6e194cb0fa755c5fa62253cfac2e39a74c918814e6",
+          "evidence": "docs/audit/2026-10-08/incrementale/lotto-03.json",
+          "publication": {
+            "state": "published_verified",
+            "pr": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/10",
+            "merge_commit": "b43141018aaae2c6502b82607a61544c0866c274",
+            "receipt": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-03.json",
+            "checked_at": "2026-10-08T19:54:30.784200+00:00"
+          },
+          "history": []
+        }
+      ]
     },
     "aprilia": {
       "state": "revisione parziale",
@@ -511,7 +536,11 @@
       "record_version": "81f2bfa423bd78912a1bcab33306dc888713e5425336d43e7baefcb66d6a31d9",
       "evidence": "docs/audit/2026-10-08/incrementale/lotto-04.json",
       "publication": {
-        "state": "validated_pending_deployment"
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/11",
+        "merge_commit": "c6bd0b520514c89f5e5aff05c6f5c8b4bf239cd5",
+        "verified_at": "2026-10-08T20:06:05.065616+00:00",
+        "evidence": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-04.json"
       },
       "history": []
     },
@@ -538,7 +567,11 @@
       "record_version": "538cafbcd78fe246ccf2fab0585fa7171f70cdf2e4c22cb2113cb75e246c0417",
       "evidence": "docs/audit/2026-10-08/incrementale/lotto-04.json",
       "publication": {
-        "state": "validated_pending_deployment"
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/11",
+        "merge_commit": "c6bd0b520514c89f5e5aff05c6f5c8b4bf239cd5",
+        "verified_at": "2026-10-08T20:06:05.065616+00:00",
+        "evidence": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-04.json"
       },
       "history": []
     },
@@ -563,7 +596,11 @@
       "record_version": "6b7b7854f9f19344e8c8737748f1b3685f60341b9ed8c4be39079174630057a4",
       "evidence": "docs/audit/2026-10-08/incrementale/lotto-04.json",
       "publication": {
-        "state": "validated_pending_deployment"
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/11",
+        "merge_commit": "c6bd0b520514c89f5e5aff05c6f5c8b4bf239cd5",
+        "verified_at": "2026-10-08T20:06:05.065616+00:00",
+        "evidence": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-04.json"
       },
       "history": []
     },
@@ -587,7 +624,11 @@
       "record_version": "167290f8e0a31f2d7fc46c988cb20734a52d9c901dbbc9bf8a8fb69d3497d3f4",
       "evidence": "docs/audit/2026-10-08/incrementale/lotto-04.json",
       "publication": {
-        "state": "validated_pending_deployment"
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/11",
+        "merge_commit": "c6bd0b520514c89f5e5aff05c6f5c8b4bf239cd5",
+        "verified_at": "2026-10-08T20:06:05.065616+00:00",
+        "evidence": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-04.json"
       },
       "history": []
     },
@@ -610,6 +651,119 @@
       ],
       "record_version": "04928464548a9cf8ca67ed00abe39def0e7d216a06e672eeb60c7b1feee760e3",
       "evidence": "docs/audit/2026-10-08/incrementale/lotto-04.json",
+      "publication": {
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/11",
+        "merge_commit": "c6bd0b520514c89f5e5aff05c6f5c8b4bf239cd5",
+        "verified_at": "2026-10-08T20:06:05.065616+00:00",
+        "evidence": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-04.json"
+      },
+      "history": []
+    },
+    "centr-pai-fosso-secco-20-2026": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-08T20:08:33.050022+00:00",
+      "source_urls": [
+        "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1146564&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_170734403182658867151742648249991.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+        "https://aubac.it/decreti-segretariali-di-pianificazione-2026"
+      ],
+      "verified_results": [
+        "D.S. 20/2026, Roma 29 gennaio 2026: tratto da 100 m a monte della via Appia bis alla confluenza con il fosso della Cancelliera, nei comuni di Albano Laziale, Ariccia, Roma e Pomezia.",
+        "Aggiornamento definitivo del PAI Lazio secondo la cartografia allegata; allineamento del quadro conoscitivo del PAI distrettuale idraulico ai sensi della CIP 57/2025, citata nel dispositivo, non della successiva CIP 67/2026.",
+        "Immediata variante del PAI; l’effetto decorre dalla pubblicazione dell’avviso per estratto nel BURL, non dalla sola data della firma.",
+        "La raccolta AUBAC indica BURL n. 10 del 3 febbraio 2026. Il fascicolo regionale e la pagina dell’avviso non sono stati acquisiti in questo lotto.",
+        "Il testo indica la Conferenza Operativa del 28 gennaio 2025 dopo una seduta tecnica del 22 gennaio 2026: incongruenza interna da riscontrare su verbale/errata, senza correggere il documento dell’ente."
+      ],
+      "limitations": [
+        "La revisione resta parziale: cartografie, fascicoli regionali o catena degli atti successivi non completati nel perimetro dichiarato."
+      ],
+      "next_operation": [
+        "Acquisire BURL 10/2026 e cartografia; riscontrare l’incongruenza 2025/2026 nel preambolo e gli atti successivi."
+      ],
+      "record_version": "efdc98708ef1697ec315a456e1a7ba766ed37a928f099e2f247bad1628f356cf",
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-05.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
+    },
+    "centr-pai-vigna-corte-123-2026": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-08T20:08:33.050022+00:00",
+      "source_urls": [
+        "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1247209&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_516680749377781367150821753836836.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+        "https://aubac.it/decreti-segretariali-di-pianificazione-2026"
+      ],
+      "verified_results": [
+        "D.S. 123/2026, Roma 18 giugno 2026: riclassificazione dell’area Vigna La Corte a San Felice Circeo dopo interventi di mitigazione.",
+        "La riclassificazione comporta monitoraggio topografico almeno annuale, integrazione nella Protezione Civile con soglie di attenzione/allarme e relazione annuale ad AUBAC. L’aggravamento può riaprire la riperimetrazione.",
+        "Il dispositivo allinea il quadro conoscitivo del PAI distrettuale frane; il richiamo alla CIP 68 è sostanziale e direttamente espresso, mantenendo la disciplina transitoria dei PAI previgenti.",
+        "Variante immediata del PAI Lazio; l’aggiornamento produce effetto dalla pubblicazione dell’avviso per estratto nel BURL.",
+        "AUBAC indica BURL n. 52 del 30 giugno 2026; il collegamento proposto conduce a un endpoint di modifica CMS e non prova l’acquisizione del fascicolo.",
+        "Il decreto richiama una proposta D.S. 60 datata 11 settembre 2026, mentre il successivo avviso è indicato nel BURL 21 del 12 marzo 2026 e la firma del decreto è del 18 giugno 2026: cronologia incongruente da verificare, senza inventare una data sostitutiva."
+      ],
+      "limitations": [
+        "La revisione resta parziale: cartografie, fascicoli regionali o catena degli atti successivi non completati nel perimetro dichiarato."
+      ],
+      "next_operation": [
+        "Acquisire avviso BURL 52/2026, cartografia e verbali; chiarire la data incongruente del D.S. 60 e verificare le prescrizioni e gli atti successivi."
+      ],
+      "record_version": "fd6f5ba081d6764d026ec84e0862f5071801bf07f2bb1c7f77c0cffa60bf938b",
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-05.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
+    },
+    "po-pai-pgra-terdoppio-5-2026": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-08T20:08:33.050022+00:00",
+      "source_urls": [
+        "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_TERDOPPIO_2026/DSG_5_2026.pdf",
+        "https://pai.adbpo.it/varianti-in-corso-2/"
+      ],
+      "verified_results": [
+        "D.S. 5/2026 del 21 gennaio 2026: adozione del progetto, distinta dall’approvazione definitiva.",
+        "Art. 2: elaborati 2, 3, 8 e mappe PGRA RP/RSP; art. 5: salvaguardia PAI e Titolo V, mantenendo le disposizioni territoriali più restrittive.",
+        "Osservazioni entro 90 giorni dalla pubblicazione sul sito; approvazione successiva con decreto, previo parere e intesa regionale, entro sei mesi. Il termine previsto non dimostra che l’approvazione sia intervenuta.",
+        "Misure temporanee dalla pubblicazione sul sito fino all’approvazione per le aree individuate dal dispositivo; preservate disposizioni più restrittive e casi specifici di interventi già avviati.",
+        "L’indice ufficiale presenta ancora il progetto. Questa sola pagina non prova l’assenza di decreti successivi né che il periodo di osservazioni sia ancora aperto."
+      ],
+      "limitations": [
+        "La revisione resta parziale: cartografie, fascicoli regionali o catena degli atti successivi non completati nel perimetro dichiarato."
+      ],
+      "next_operation": [
+        "Acquisire la data effettiva di pubblicazione, elaborati e cartografie, e cercare il decreto di approvazione/varianti successive; per Mera distinguere RP e RSCM."
+      ],
+      "record_version": "c0d7a6aafead8ff4dc75e40a2d4debf4d443b3a65c674b360cb81ae04a400e83",
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-05.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
+    },
+    "po-pai-pgra-mera-27-2026": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-08T20:08:33.050022+00:00",
+      "source_urls": [
+        "https://www.adbpo.it/PAI/PAI_PROG_Mera_Chiavenna_2026/DSG27_2026.pdf",
+        "https://pai.adbpo.it/varianti-in-corso-2/"
+      ],
+      "verified_results": [
+        "D.S. 27/2026 del 24 aprile 2026: adozione del progetto, distinta dall’approvazione definitiva.",
+        "Art. 2: elaborati 2, 3, 8 e PGRA RSCM. Il preambolo distingue il RP, già confluito nel III ciclo tramite CIP 10/2025 e D.S. 4/2026; la modifica non riguarda indistintamente tutte le mappe allo stesso titolo.",
+        "Osservazioni entro 90 giorni dalla pubblicazione sul sito; approvazione successiva con decreto, previo parere e intesa regionale, entro sei mesi. Il termine previsto non dimostra che l’approvazione sia intervenuta.",
+        "Misure temporanee dalla pubblicazione sul sito fino all’approvazione per le aree individuate dal dispositivo; preservate disposizioni più restrittive e casi specifici di interventi già avviati.",
+        "L’indice ufficiale presenta ancora il progetto. Questa sola pagina non prova l’assenza di decreti successivi né che il periodo di osservazioni sia ancora aperto."
+      ],
+      "limitations": [
+        "La revisione resta parziale: cartografie, fascicoli regionali o catena degli atti successivi non completati nel perimetro dichiarato."
+      ],
+      "next_operation": [
+        "Acquisire la data effettiva di pubblicazione, elaborati e cartografie, e cercare il decreto di approvazione/varianti successive; per Mera distinguere RP e RSCM."
+      ],
+      "record_version": "45fe89ae61732673fe755fe7ac34ca2f9f54193e556cb10f8fb1f8e82267159c",
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-05.json",
       "publication": {
         "state": "validated_pending_deployment"
       },
@@ -686,15 +840,54 @@
       ],
       "evidence": "docs/audit/2026-10-08/incrementale/lotto-04.json",
       "publication": {
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/11",
+        "merge_commit": "c6bd0b520514c89f5e5aff05c6f5c8b4bf239cd5",
+        "verified_at": "2026-10-08T20:06:05.065616+00:00",
+        "evidence": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-04.json"
+      }
+    },
+    {
+      "id": "incrementale-05",
+      "date": "2026-10-08",
+      "record_ids": [
+        "centr-pai-fosso-secco-20-2026",
+        "centr-pai-vigna-corte-123-2026",
+        "po-pai-pgra-terdoppio-5-2026",
+        "po-pai-pgra-mera-27-2026",
+        "bz23"
+      ],
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-05.json",
+      "publication": {
         "state": "validated_pending_deployment"
       }
     }
   ],
   "next_batch": [
-    "centr-pai-fosso-secco-20-2026",
-    "centr-pai-vigna-corte-123-2026",
-    "sett-pgra-variante-62-2026",
-    "po-pai-pgra-terdoppio-5-2026",
-    "po-pai-pgra-mera-27-2026"
+    "pai-puglia",
+    "pai-basilicata",
+    "pai-lgv",
+    "pai-biferno-e-minori",
+    "pai-trigno"
+  ],
+  "queue_history": [
+    {
+      "date": "2026-10-08",
+      "before": [
+        "centr-pai-fosso-secco-20-2026",
+        "centr-pai-vigna-corte-123-2026",
+        "sett-pgra-variante-62-2026",
+        "po-pai-pgra-terdoppio-5-2026",
+        "po-pai-pgra-mera-27-2026"
+      ],
+      "after": [
+        "centr-pai-fosso-secco-20-2026",
+        "centr-pai-vigna-corte-123-2026",
+        "po-pai-pgra-terdoppio-5-2026",
+        "po-pai-pgra-mera-27-2026",
+        "bz23"
+      ],
+      "reason": "Priorità a correzione del collegamento visibile BZ23: il campo document_url non è usato dal frontend. La variante 62 resta in coda; metadati istituzionali letti, dispositivo non acquisito dopo ricerca mirata e errore 502 del portale."
+    }
   ]
 }

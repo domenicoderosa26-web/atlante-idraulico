@@ -1,0 +1,864 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-08",
+  "base_commit": "786b543bf8957d7a3547e2e840ba81001efe4208",
+  "records": [
+    {
+      "id": "centr-pai-fosso-secco-20-2026",
+      "consulted_at": "2026-10-08T20:08:33.050022+00:00",
+      "content_examined": true,
+      "legal_review_complete": false,
+      "source_documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1146564&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_170734403182658867151742648249991.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "checked_at": "2026-10-08T15:02:49.663544+00:00",
+          "http_status": 200,
+          "final_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1146564&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_170734403182658867151742648249991.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "content_type": "application/pdf",
+          "sha256": "6a6173665177a7b2e233d2391ac8051d46a8c4307e8361cbe3cb2279d19351b3",
+          "bytes": 1642159,
+          "body_key": "9f00c81942a92b846ac12de1645cbb0164913df32106eb9ad6cb5b965193369f",
+          "pdf_signature": true
+        },
+        {
+          "url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+          "references": [
+            {
+              "id": "centr-pai-nestore-139-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-lettomanoppello-142-2026",
+              "field": "url"
+            },
+            {
+              "id": "centr-pai-notaresco-143-2026",
+              "field": "url"
+            },
+            {
+              "id": "centr-pai-notaresco-144-2026",
+              "field": "url"
+            },
+            {
+              "id": "centr-pai-notaresco-145-2026",
+              "field": "url"
+            },
+            {
+              "id": "centr-pai-pescara-146-2026",
+              "field": "url"
+            },
+            {
+              "id": "centr-pai-spoltore-147-2026",
+              "field": "url"
+            },
+            {
+              "id": "centr-pai-penne-148-2026",
+              "field": "url"
+            },
+            {
+              "id": "centr-pai-fosso-secco-20-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-vigna-corte-123-2026",
+              "field": "url"
+            }
+          ],
+          "checked_at": "2026-10-08T12:27:58.718986+00:00",
+          "attempts": [
+            {
+              "at": "2026-10-08T12:28:12.109650+00:00",
+              "http_status": 200,
+              "seconds": 13.39
+            }
+          ],
+          "body_key": "1f724b87d9c24e9cf45048a4fc90c671dccee1fb550a24c2597c214046622c6d",
+          "http_status": 200,
+          "final_url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+          "content_type": "text/html; charset=utf-8",
+          "redirects": [],
+          "bytes": 222400,
+          "sha256": "fc290753ec55eec9233ddc15435a4f9d6986f2c6994d846c84d00b4a475115e8",
+          "truncated": false,
+          "pdf_signature": false,
+          "title": "Decreti segretariali di Pianificazione 2026 | AUBAC",
+          "links": [
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-03/260317B11.pdf",
+              "text": "BURU n. 11 del 17.03.2026"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-03/2026-1954.pdf",
+              "text": "BURL n. 21 del 12.03.2026"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+              "text": "BURA n. 30 del 29.07.2026"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+              "text": "BURA n. 30 del 29.07.2026"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+              "text": "BURA n. 30 del 29.07.2026)"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-07/BURM%20n.%2061%20del%2002%20luglio%202026.pdf",
+              "text": "BURM n. 61 del 02.07.2026"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-07/BUR%20Umbria%20n.%2032%20del%20%2007%20luglio%202026.pdf",
+              "text": "BURU n. 32 el 07.07.2026"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-07/BURM%20n.%2061%20del%2002%20luglio%202026.pdf",
+              "text": "BURM n. 61 del 02.07.2026"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-07/BURM%20n.%2061%20del%2002%20luglio%202026.pdf",
+              "text": "BURM n. 61 del 02.07.2026"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-08/BUR%20Abruzzo%20n.%2029%20del%2022.07.2026.pdf",
+              "text": "BURA n. 29 del 22.07.2026"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-07/BURM%20n.%2068%20del%2023%20luglio%202026.pdf",
+              "text": "BURM n. 68 del 23.07.2026"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+              "text": "BURA n. 30 del 29.07.2026"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+              "text": "BURA n. 30 del 29.07.2026"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-08/BUR%20Abruzzo%20n.%2032%20del%2012.08.2026.pdf",
+              "text": "BURA n. 32 del 12.08.2026"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-08/BUR%20Abruzzo%20n.%2032%20del%2012.08.2026.pdf",
+              "text": "BURA n. 32 del 12.08.2026"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-08/BUR%20Abruzzo%20n.%2071%20del%2030.07.2026.pdf",
+              "text": "BURM n. 71 del 30.07.2026"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-07/BUR%20Lazio%20n.%2060%20del%2028.07.2026.pdf",
+              "text": "BURL n. 60 del 28.07.2026"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-08/BUR%20Toscana%20PARTE%20II%20n.%2032%20del%2012.08.2026.pdf",
+              "text": "BURT n. 32 parte II del 12.08.2026"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-08/BUR%20Umbria%20n.%2040%20del%2018.08.2026.pdf",
+              "text": "BURU n. 40 del 18.08.2026)"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-08/BUR%20Lazio%20n.%2064%20del%2011.08.2026.pdf",
+              "text": "BURL n. 64 del 11.08.2026"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-08/BUR%20Abruzzo%20n.%2034%20del%2026.08.2026.pdf",
+              "text": "BURA n. 34 del 26.08.2026"
+            }
+          ],
+          "text_characters": 9240,
+          "transport_result": "retrieved_non_pdf"
+        }
+      ],
+      "observations": [
+        {
+          "aspect": "identity",
+          "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1146564&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_170734403182658867151742648249991.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "locator": "Intestazione e sottoscrizione, pp. 1 e 4",
+          "finding": "D.S. 20/2026, Roma 29 gennaio 2026: tratto da 100 m a monte della via Appia bis alla confluenza con il fosso della Cancelliera, nei comuni di Albano Laziale, Ariccia, Roma e Pomezia."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1146564&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_170734403182658867151742648249991.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "locator": "Art. 1, commi 1-2",
+          "finding": "Aggiornamento definitivo del PAI Lazio secondo la cartografia allegata; allineamento del quadro conoscitivo del PAI distrettuale idraulico ai sensi della CIP 57/2025, citata nel dispositivo, non della successiva CIP 67/2026."
+        },
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1146564&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_170734403182658867151742648249991.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "locator": "Art. 2, commi 1-3",
+          "finding": "Immediata variante del PAI; l’effetto decorre dalla pubblicazione dell’avviso per estratto nel BURL, non dalla sola data della firma."
+        },
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+          "locator": "Voce D.S. 20/2026",
+          "finding": "La raccolta AUBAC indica BURL n. 10 del 3 febbraio 2026. Il fascicolo regionale e la pagina dell’avviso non sono stati acquisiti in questo lotto."
+        },
+        {
+          "aspect": "version",
+          "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1146564&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_170734403182658867151742648249991.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "locator": "Preambolo, p. 3",
+          "finding": "Il testo indica la Conferenza Operativa del 28 gennaio 2025 dopo una seduta tecnica del 22 gennaio 2026: incongruenza interna da riscontrare su verbale/errata, senza correggere il documento dell’ente."
+        }
+      ],
+      "limitations": [
+        "La revisione resta parziale: cartografie, fascicoli regionali o catena degli atti successivi non completati nel perimetro dichiarato."
+      ],
+      "pending": [
+        "Acquisire BURL 10/2026 e cartografia; riscontrare l’incongruenza 2025/2026 nel preambolo e gli atti successivi."
+      ],
+      "previous_review_preserved": false
+    },
+    {
+      "id": "centr-pai-vigna-corte-123-2026",
+      "consulted_at": "2026-10-08T20:08:33.050022+00:00",
+      "content_examined": true,
+      "legal_review_complete": false,
+      "source_documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1247209&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_516680749377781367150821753836836.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "checked_at": "2026-10-08T15:02:51.062629+00:00",
+          "http_status": 200,
+          "final_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1247209&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_516680749377781367150821753836836.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "content_type": "application/pdf",
+          "sha256": "49ffe8c7f232bb6e428ece13122022d6ae19160fcd5b2e9559df9a3b890d002a",
+          "bytes": 1643396,
+          "body_key": "aa6cc12923d03d9badc462f158a31d89a4022eeb5864a4c4792e30e4326fff9a",
+          "pdf_signature": true
+        },
+        {
+          "url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+          "references": [
+            {
+              "id": "centr-pai-nestore-139-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-lettomanoppello-142-2026",
+              "field": "url"
+            },
+            {
+              "id": "centr-pai-notaresco-143-2026",
+              "field": "url"
+            },
+            {
+              "id": "centr-pai-notaresco-144-2026",
+              "field": "url"
+            },
+            {
+              "id": "centr-pai-notaresco-145-2026",
+              "field": "url"
+            },
+            {
+              "id": "centr-pai-pescara-146-2026",
+              "field": "url"
+            },
+            {
+              "id": "centr-pai-spoltore-147-2026",
+              "field": "url"
+            },
+            {
+              "id": "centr-pai-penne-148-2026",
+              "field": "url"
+            },
+            {
+              "id": "centr-pai-fosso-secco-20-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-vigna-corte-123-2026",
+              "field": "url"
+            }
+          ],
+          "checked_at": "2026-10-08T12:27:58.718986+00:00",
+          "attempts": [
+            {
+              "at": "2026-10-08T12:28:12.109650+00:00",
+              "http_status": 200,
+              "seconds": 13.39
+            }
+          ],
+          "body_key": "1f724b87d9c24e9cf45048a4fc90c671dccee1fb550a24c2597c214046622c6d",
+          "http_status": 200,
+          "final_url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+          "content_type": "text/html; charset=utf-8",
+          "redirects": [],
+          "bytes": 222400,
+          "sha256": "fc290753ec55eec9233ddc15435a4f9d6986f2c6994d846c84d00b4a475115e8",
+          "truncated": false,
+          "pdf_signature": false,
+          "title": "Decreti segretariali di Pianificazione 2026 | AUBAC",
+          "links": [
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-03/260317B11.pdf",
+              "text": "BURU n. 11 del 17.03.2026"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-03/2026-1954.pdf",
+              "text": "BURL n. 21 del 12.03.2026"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+              "text": "BURA n. 30 del 29.07.2026"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+              "text": "BURA n. 30 del 29.07.2026"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+              "text": "BURA n. 30 del 29.07.2026)"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-07/BURM%20n.%2061%20del%2002%20luglio%202026.pdf",
+              "text": "BURM n. 61 del 02.07.2026"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-07/BUR%20Umbria%20n.%2032%20del%20%2007%20luglio%202026.pdf",
+              "text": "BURU n. 32 el 07.07.2026"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-07/BURM%20n.%2061%20del%2002%20luglio%202026.pdf",
+              "text": "BURM n. 61 del 02.07.2026"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-07/BURM%20n.%2061%20del%2002%20luglio%202026.pdf",
+              "text": "BURM n. 61 del 02.07.2026"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-08/BUR%20Abruzzo%20n.%2029%20del%2022.07.2026.pdf",
+              "text": "BURA n. 29 del 22.07.2026"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-07/BURM%20n.%2068%20del%2023%20luglio%202026.pdf",
+              "text": "BURM n. 68 del 23.07.2026"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+              "text": "BURA n. 30 del 29.07.2026"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+              "text": "BURA n. 30 del 29.07.2026"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-08/BUR%20Abruzzo%20n.%2032%20del%2012.08.2026.pdf",
+              "text": "BURA n. 32 del 12.08.2026"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-08/BUR%20Abruzzo%20n.%2032%20del%2012.08.2026.pdf",
+              "text": "BURA n. 32 del 12.08.2026"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-08/BUR%20Abruzzo%20n.%2071%20del%2030.07.2026.pdf",
+              "text": "BURM n. 71 del 30.07.2026"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-07/BUR%20Lazio%20n.%2060%20del%2028.07.2026.pdf",
+              "text": "BURL n. 60 del 28.07.2026"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-08/BUR%20Toscana%20PARTE%20II%20n.%2032%20del%2012.08.2026.pdf",
+              "text": "BURT n. 32 parte II del 12.08.2026"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-08/BUR%20Umbria%20n.%2040%20del%2018.08.2026.pdf",
+              "text": "BURU n. 40 del 18.08.2026)"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-08/BUR%20Lazio%20n.%2064%20del%2011.08.2026.pdf",
+              "text": "BURL n. 64 del 11.08.2026"
+            },
+            {
+              "url": "https://cms.aubac.it/sites/default/files/2026-08/BUR%20Abruzzo%20n.%2034%20del%2026.08.2026.pdf",
+              "text": "BURA n. 34 del 26.08.2026"
+            }
+          ],
+          "text_characters": 9240,
+          "transport_result": "retrieved_non_pdf"
+        }
+      ],
+      "observations": [
+        {
+          "aspect": "identity",
+          "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1247209&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_516680749377781367150821753836836.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "locator": "Intestazione e sottoscrizione, pp. 1 e 4",
+          "finding": "D.S. 123/2026, Roma 18 giugno 2026: riclassificazione dell’area Vigna La Corte a San Felice Circeo dopo interventi di mitigazione."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1247209&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_516680749377781367150821753836836.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "locator": "Art. 1, comma 1",
+          "finding": "La riclassificazione comporta monitoraggio topografico almeno annuale, integrazione nella Protezione Civile con soglie di attenzione/allarme e relazione annuale ad AUBAC. L’aggravamento può riaprire la riperimetrazione."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1247209&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_516680749377781367150821753836836.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "locator": "Art. 1, comma 2, e richiamo art. 4 CIP 68/2026 nel preambolo",
+          "finding": "Il dispositivo allinea il quadro conoscitivo del PAI distrettuale frane; il richiamo alla CIP 68 è sostanziale e direttamente espresso, mantenendo la disciplina transitoria dei PAI previgenti."
+        },
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1247209&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_516680749377781367150821753836836.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "locator": "Art. 2, commi 1-3",
+          "finding": "Variante immediata del PAI Lazio; l’aggiornamento produce effetto dalla pubblicazione dell’avviso per estratto nel BURL."
+        },
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+          "locator": "Voce D.S. 123/2026",
+          "finding": "AUBAC indica BURL n. 52 del 30 giugno 2026; il collegamento proposto conduce a un endpoint di modifica CMS e non prova l’acquisizione del fascicolo."
+        },
+        {
+          "aspect": "version",
+          "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1247209&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_516680749377781367150821753836836.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "locator": "Preambolo, p. 2",
+          "finding": "Il decreto richiama una proposta D.S. 60 datata 11 settembre 2026, mentre il successivo avviso è indicato nel BURL 21 del 12 marzo 2026 e la firma del decreto è del 18 giugno 2026: cronologia incongruente da verificare, senza inventare una data sostitutiva."
+        }
+      ],
+      "limitations": [
+        "La revisione resta parziale: cartografie, fascicoli regionali o catena degli atti successivi non completati nel perimetro dichiarato."
+      ],
+      "pending": [
+        "Acquisire avviso BURL 52/2026, cartografia e verbali; chiarire la data incongruente del D.S. 60 e verificare le prescrizioni e gli atti successivi."
+      ],
+      "previous_review_preserved": false
+    },
+    {
+      "id": "po-pai-pgra-terdoppio-5-2026",
+      "consulted_at": "2026-10-08T20:08:33.050022+00:00",
+      "content_examined": true,
+      "legal_review_complete": false,
+      "source_documents": [
+        {
+          "url": "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_TERDOPPIO_2026/DSG_5_2026.pdf",
+          "references": [
+            {
+              "id": "po-pai-pgra-terdoppio-5-2026",
+              "field": "documents.0.url"
+            },
+            {
+              "id": "po-pai-pgra-terdoppio-5-2026",
+              "field": "document_url"
+            }
+          ],
+          "checked_at": "2026-10-08T12:27:39.963412+00:00",
+          "attempts": [
+            {
+              "at": "2026-10-08T12:27:50.761035+00:00",
+              "http_status": 200,
+              "seconds": 10.8
+            }
+          ],
+          "body_key": "00f1bc8b9ad1110b28bb572db922b656a8e1d1dd5e3d21c82f4f7cba281aea0c",
+          "http_status": 200,
+          "final_url": "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_TERDOPPIO_2026/DSG_5_2026.pdf",
+          "content_type": "application/pdf",
+          "redirects": [],
+          "bytes": 2173044,
+          "sha256": "b7c5e5ed9acf1d49bbec8cf66f07b7c3927778abc6c001c6f4e3974a6b3deedf",
+          "truncated": false,
+          "pdf_signature": true,
+          "text_extraction": "ok",
+          "text_characters": 36647,
+          "transport_result": "retrieved_pdf"
+        },
+        {
+          "url": "https://pai.adbpo.it/varianti-in-corso-2/",
+          "references": [
+            {
+              "id": "po-pai-pgra-terdoppio-5-2026",
+              "field": "url"
+            },
+            {
+              "id": "po-pai-pgra-mera-27-2026",
+              "field": "url"
+            }
+          ],
+          "checked_at": "2026-10-08T12:27:38.616502+00:00",
+          "attempts": [
+            {
+              "at": "2026-10-08T12:27:50.153100+00:00",
+              "http_status": 200,
+              "seconds": 11.54
+            }
+          ],
+          "body_key": "52be862d229ef298a131c3ad23cd4ce3899b356efa4b640051e54b617dbc88db",
+          "http_status": 200,
+          "final_url": "https://pai.adbpo.it/varianti-in-corso-2/",
+          "content_type": "text/html; charset=UTF-8",
+          "redirects": [],
+          "bytes": 66747,
+          "sha256": "a0df1ba6653f40ece849bdb0933da662e7797749f6f4e199af0f3d39c5a20fcc",
+          "truncated": false,
+          "pdf_signature": false,
+          "title": "Varianti in corso - PAI",
+          "links": [],
+          "text_characters": 2496,
+          "transport_result": "retrieved_non_pdf"
+        }
+      ],
+      "observations": [
+        {
+          "aspect": "identity",
+          "source_url": "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_TERDOPPIO_2026/DSG_5_2026.pdf",
+          "locator": "Intestazione e art. 1",
+          "finding": "D.S. 5/2026 del 21 gennaio 2026: adozione del progetto, distinta dall’approvazione definitiva."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_TERDOPPIO_2026/DSG_5_2026.pdf",
+          "locator": "Art. 2 e dispositivo",
+          "finding": "Art. 2: elaborati 2, 3, 8 e mappe PGRA RP/RSP; art. 5: salvaguardia PAI e Titolo V, mantenendo le disposizioni territoriali più restrittive."
+        },
+        {
+          "aspect": "approval",
+          "source_url": "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_TERDOPPIO_2026/DSG_5_2026.pdf",
+          "locator": "Art. 4, partecipazione attiva",
+          "finding": "Osservazioni entro 90 giorni dalla pubblicazione sul sito; approvazione successiva con decreto, previo parere e intesa regionale, entro sei mesi. Il termine previsto non dimostra che l’approvazione sia intervenuta."
+        },
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_TERDOPPIO_2026/DSG_5_2026.pdf",
+          "locator": "Art. 5, salvaguardie",
+          "finding": "Misure temporanee dalla pubblicazione sul sito fino all’approvazione per le aree individuate dal dispositivo; preservate disposizioni più restrittive e casi specifici di interventi già avviati."
+        },
+        {
+          "aspect": "version",
+          "source_url": "https://pai.adbpo.it/varianti-in-corso-2/",
+          "locator": "Indice varianti in corso consultato 8 ottobre 2026",
+          "finding": "L’indice ufficiale presenta ancora il progetto. Questa sola pagina non prova l’assenza di decreti successivi né che il periodo di osservazioni sia ancora aperto."
+        }
+      ],
+      "limitations": [
+        "La revisione resta parziale: cartografie, fascicoli regionali o catena degli atti successivi non completati nel perimetro dichiarato."
+      ],
+      "pending": [
+        "Acquisire la data effettiva di pubblicazione, elaborati e cartografie, e cercare il decreto di approvazione/varianti successive; per Mera distinguere RP e RSCM."
+      ],
+      "previous_review_preserved": false
+    },
+    {
+      "id": "po-pai-pgra-mera-27-2026",
+      "consulted_at": "2026-10-08T20:08:33.050022+00:00",
+      "content_examined": true,
+      "legal_review_complete": false,
+      "source_documents": [
+        {
+          "url": "https://www.adbpo.it/PAI/PAI_PROG_Mera_Chiavenna_2026/DSG27_2026.pdf",
+          "references": [
+            {
+              "id": "po-pai-pgra-mera-27-2026",
+              "field": "documents.0.url"
+            },
+            {
+              "id": "po-pai-pgra-mera-27-2026",
+              "field": "document_url"
+            }
+          ],
+          "checked_at": "2026-10-08T12:28:12.318634+00:00",
+          "attempts": [
+            {
+              "at": "2026-10-08T12:28:24.428172+00:00",
+              "http_status": 200,
+              "seconds": 12.11
+            }
+          ],
+          "body_key": "a5c052769520c5a4e8db726c618b9cf2203a719dafb042c8013e347dc2219774",
+          "http_status": 200,
+          "final_url": "https://www.adbpo.it/PAI/PAI_PROG_Mera_Chiavenna_2026/DSG27_2026.pdf",
+          "content_type": "application/pdf",
+          "redirects": [],
+          "bytes": 2117157,
+          "sha256": "15fe5e21ac7dc94980a144f978107d5f1312d268509cf9131a0e328c8b2fff05",
+          "truncated": false,
+          "pdf_signature": true,
+          "text_extraction": "ok",
+          "text_characters": 39501,
+          "transport_result": "retrieved_pdf"
+        },
+        {
+          "url": "https://pai.adbpo.it/varianti-in-corso-2/",
+          "references": [
+            {
+              "id": "po-pai-pgra-terdoppio-5-2026",
+              "field": "url"
+            },
+            {
+              "id": "po-pai-pgra-mera-27-2026",
+              "field": "url"
+            }
+          ],
+          "checked_at": "2026-10-08T12:27:38.616502+00:00",
+          "attempts": [
+            {
+              "at": "2026-10-08T12:27:50.153100+00:00",
+              "http_status": 200,
+              "seconds": 11.54
+            }
+          ],
+          "body_key": "52be862d229ef298a131c3ad23cd4ce3899b356efa4b640051e54b617dbc88db",
+          "http_status": 200,
+          "final_url": "https://pai.adbpo.it/varianti-in-corso-2/",
+          "content_type": "text/html; charset=UTF-8",
+          "redirects": [],
+          "bytes": 66747,
+          "sha256": "a0df1ba6653f40ece849bdb0933da662e7797749f6f4e199af0f3d39c5a20fcc",
+          "truncated": false,
+          "pdf_signature": false,
+          "title": "Varianti in corso - PAI",
+          "links": [],
+          "text_characters": 2496,
+          "transport_result": "retrieved_non_pdf"
+        }
+      ],
+      "observations": [
+        {
+          "aspect": "identity",
+          "source_url": "https://www.adbpo.it/PAI/PAI_PROG_Mera_Chiavenna_2026/DSG27_2026.pdf",
+          "locator": "Intestazione e art. 1",
+          "finding": "D.S. 27/2026 del 24 aprile 2026: adozione del progetto, distinta dall’approvazione definitiva."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.adbpo.it/PAI/PAI_PROG_Mera_Chiavenna_2026/DSG27_2026.pdf",
+          "locator": "Art. 2 e dispositivo",
+          "finding": "Art. 2: elaborati 2, 3, 8 e PGRA RSCM. Il preambolo distingue il RP, già confluito nel III ciclo tramite CIP 10/2025 e D.S. 4/2026; la modifica non riguarda indistintamente tutte le mappe allo stesso titolo."
+        },
+        {
+          "aspect": "approval",
+          "source_url": "https://www.adbpo.it/PAI/PAI_PROG_Mera_Chiavenna_2026/DSG27_2026.pdf",
+          "locator": "Art. 3, partecipazione attiva",
+          "finding": "Osservazioni entro 90 giorni dalla pubblicazione sul sito; approvazione successiva con decreto, previo parere e intesa regionale, entro sei mesi. Il termine previsto non dimostra che l’approvazione sia intervenuta."
+        },
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://www.adbpo.it/PAI/PAI_PROG_Mera_Chiavenna_2026/DSG27_2026.pdf",
+          "locator": "Art. 4, salvaguardie",
+          "finding": "Misure temporanee dalla pubblicazione sul sito fino all’approvazione per le aree individuate dal dispositivo; preservate disposizioni più restrittive e casi specifici di interventi già avviati."
+        },
+        {
+          "aspect": "version",
+          "source_url": "https://pai.adbpo.it/varianti-in-corso-2/",
+          "locator": "Indice varianti in corso consultato 8 ottobre 2026",
+          "finding": "L’indice ufficiale presenta ancora il progetto. Questa sola pagina non prova l’assenza di decreti successivi né che il periodo di osservazioni sia ancora aperto."
+        }
+      ],
+      "limitations": [
+        "La revisione resta parziale: cartografie, fascicoli regionali o catena degli atti successivi non completati nel perimetro dichiarato."
+      ],
+      "pending": [
+        "Acquisire la data effettiva di pubblicazione, elaborati e cartografie, e cercare il decreto di approvazione/varianti successive; per Mera distinguere RP e RSCM."
+      ],
+      "previous_review_preserved": false
+    },
+    {
+      "id": "bz23",
+      "consulted_at": "2026-10-08T20:08:33.050022+00:00",
+      "content_examined": true,
+      "legal_review_complete": false,
+      "source_documents": [
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2020/01/11/2/s3/pdf#page=22",
+          "references": [
+            {
+              "id": "bz23",
+              "field": "documents.0.url"
+            }
+          ],
+          "checked_at": "2026-10-08T13:06:17.509306+00:00",
+          "attempts": [
+            {
+              "at": "2026-10-08T13:06:58.231380+00:00",
+              "http_status": 200,
+              "seconds": 13.82
+            }
+          ],
+          "body_key": "0f1ba1e4e9790f587455631595b99041b99b950f328caa34bf382abb5e7c128e",
+          "http_status": 200,
+          "final_url": "https://www.gazzettaufficiale.it/eli/gu/2020/01/11/2/s3/pdf#page=22",
+          "content_type": "application/pdf",
+          "redirects": [],
+          "bytes": 2510944,
+          "sha256": "c8c994d273ce2b452472b52b00fd016da7bd1af17581719789e30077d2ee4515",
+          "truncated": false,
+          "pdf_signature": true,
+          "text_extraction": "ok",
+          "text_characters": 476018,
+          "transport_result": "retrieved_pdf"
+        },
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2020/01/11/2/s3/pdf#page=20",
+          "checked_at": "2026-10-08T20:08:33.050022+00:00",
+          "method": "consultazione testuale della fonte istituzionale",
+          "binary_confirmed": false
+        }
+      ],
+      "observations": [
+        {
+          "aspect": "version",
+          "source_url": "https://www.gazzettaufficiale.it/eli/gu/2020/01/11/2/s3/pdf#page=20",
+          "locator": "Pagina PDF 20, pagina editoriale 18",
+          "finding": "Il D.P.P. 23/2019 inizia alla pagina PDF 20. Inserito come primo documento visibile il rimando corretto; conservato anche il precedente collegamento #page=22 e la sua revisione nella cronologia."
+        }
+      ],
+      "limitations": [
+        "La revisione resta parziale: cartografie, fascicoli regionali o catena degli atti successivi non completati nel perimetro dichiarato.",
+        "Verifica limitata al perimetro indicato; nessuna attestazione di assenza di atti successivi o di vigenza integrale.",
+        "Lexbrowser restituisce TooManyRequests; letto soltanto il testo originario ufficiale alternativo."
+      ],
+      "pending": [
+        "Acquisire il testo coordinato da Lexbrowser e ricostruire modifiche e applicabilità attuale."
+      ],
+      "previous_review_preserved": true
+    }
+  ],
+  "corrections": [
+    {
+      "id": "centr-pai-fosso-secco-20-2026",
+      "field": "documents",
+      "before": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=2873&StwEvent=101",
+          "label": "Decreto segretariale 20/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+          "label": "Raccolta ufficiale dei decreti di pianificazione 2026",
+          "group": "Raccolta"
+        }
+      ],
+      "after": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=2873&StwEvent=101",
+          "label": "Decreto segretariale 20/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+          "label": "Raccolta ufficiale dei decreti di pianificazione 2026",
+          "group": "Raccolta"
+        },
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1146564&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_170734403182658867151742648249991.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "label": "D.S. 20/2026 · testo ufficiale completo",
+          "format": "pdf",
+          "group": "Atto",
+          "link_status": "checked",
+          "link_checked": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "id": "centr-pai-fosso-secco-20-2026",
+      "field": "status",
+      "before": "Aggiornamento definitivo · efficace",
+      "after": "Aggiornamento definitivo · pubblicazione indicata da AUBAC"
+    },
+    {
+      "id": "centr-pai-fosso-secco-20-2026",
+      "field": "document_note",
+      "before": "Il dettaglio URBI ha restituito timeout durante l'apertura odierna; numero, data, oggetto e pubblicazione sono verificati sulle pagine istituzionali AUBAC.",
+      "after": "Letti dispositivo e passaggi dichiarati del decreto del 29 gennaio 2026. Efficacia subordinata alla pubblicazione BURL; la raccolta AUBAC indica 3 febbraio 2026, ma il fascicolo regionale resta da esaminare. Incongruenza interna della data della Conferenza Operativa registrata senza emendare la fonte."
+    },
+    {
+      "id": "centr-pai-vigna-corte-123-2026",
+      "field": "documents",
+      "before": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3210&StwEvent=101",
+          "label": "Decreto segretariale 123/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://www.aubac.it/news/notizie/rischio-idrogeologico-proposta-di-aggiornamento-pai-nel-comune-di-san-felice-circeo",
+          "label": "Notizia AUBAC · oggetto e componente frane",
+          "group": "Istruttoria"
+        }
+      ],
+      "after": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3210&StwEvent=101",
+          "label": "Decreto segretariale 123/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://www.aubac.it/news/notizie/rischio-idrogeologico-proposta-di-aggiornamento-pai-nel-comune-di-san-felice-circeo",
+          "label": "Notizia AUBAC · oggetto e componente frane",
+          "group": "Istruttoria"
+        },
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1247209&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_516680749377781367150821753836836.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "label": "D.S. 123/2026 · testo ufficiale e prescrizioni",
+          "format": "pdf",
+          "group": "Atto",
+          "link_status": "checked",
+          "link_checked": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "id": "centr-pai-vigna-corte-123-2026",
+      "field": "status",
+      "before": "Aggiornamento definitivo · efficace",
+      "after": "Aggiornamento definitivo · pubblicazione indicata da AUBAC"
+    },
+    {
+      "id": "centr-pai-vigna-corte-123-2026",
+      "field": "document_note",
+      "before": "Il dettaglio URBI ha restituito timeout durante l'apertura odierna; stato definitivo, oggetto e pubblicazione sono verificati nella raccolta AUBAC, mentre la componente frana è documentata dalla notizia istituzionale.",
+      "after": "Letti dispositivo e passaggi del decreto del 18 giugno 2026, comprese le prescrizioni di monitoraggio annuale. Efficacia legata all’avviso BURL; il fascicolo e la data incoerente del D.S. 60 nel preambolo restano da riscontrare. Nessuna classe cartografica ricostruita per deduzione."
+    },
+    {
+      "id": "po-pai-pgra-terdoppio-5-2026",
+      "field": "document_note",
+      "before": "Atto di adozione del progetto, con fase partecipativa, successiva approvazione e misure temporanee di salvaguardia.",
+      "after": "Letti il dispositivo e i passaggi dichiarati del progetto adottato; verificate partecipazione, salvaguardie e necessità del decreto successivo. L’indice in corso non è una prova negativa di approvazioni successive; la catena resta da completare."
+    },
+    {
+      "id": "po-pai-pgra-mera-27-2026",
+      "field": "document_note",
+      "before": "Atto di adozione del progetto, con fase partecipativa, successiva approvazione e misure temporanee di salvaguardia.",
+      "after": "Letti il dispositivo e i passaggi dichiarati del progetto adottato; verificate partecipazione, salvaguardie e necessità del decreto successivo. L’indice in corso non è una prova negativa di approvazioni successive; la catena resta da completare."
+    },
+    {
+      "id": "bz23",
+      "field": "documents",
+      "before": [
+        {
+          "format": "pdf",
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2020/01/11/2/s3/pdf#page=22",
+          "label": "PDF ufficiale · D.P.P. Bolzano 23/2019 (G.U. 3ª Serie speciale)"
+        }
+      ],
+      "after": [
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2020/01/11/2/s3/pdf#page=20",
+          "label": "D.P.P. 23/2019 · inizio testo originario · pagina PDF 20",
+          "format": "pdf",
+          "group": "Atto",
+          "link_status": "checked",
+          "link_checked": "2026-10-08"
+        },
+        {
+          "format": "pdf",
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2020/01/11/2/s3/pdf#page=22",
+          "label": "PDF ufficiale · D.P.P. Bolzano 23/2019 (G.U. 3ª Serie speciale)"
+        }
+      ]
+    },
+    {
+      "id": "bz23",
+      "field": "document_note",
+      "before": "Verificato il testo originario ufficiale: il decreto inizia a p. editoriale 18, corrispondente alla pagina PDF 20. Il nuovo rimando diretto punta all’inizio; la fonte provinciale coordinata è in attesa e la vigenza attuale resta da ricostruire.",
+      "after": "Il primo documento mostrato dal sito ora apre l’inizio del D.P.P. 23/2019 alla pagina PDF 20 (editoriale 18). Conservato il collegamento precedente e la revisione storica; il testo provinciale coordinato resta da acquisire."
+    }
+  ],
+  "publication": {
+    "state": "validated_pending_deployment"
+  }
+}

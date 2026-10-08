@@ -1114,7 +1114,8 @@
       ],
       "source_urls": [
         "https://lexbrowser.provinz.bz.it/doc/it/217759/decreto_del_presidente_della_provincia_10_ottobre_2019_n_23.aspx",
-        "https://www.gazzettaufficiale.it/eli/gu/2020/01/11/2/s3/pdf#page=22"
+        "https://www.gazzettaufficiale.it/eli/gu/2020/01/11/2/s3/pdf#page=22",
+        "https://www.gazzettaufficiale.it/eli/gu/2020/01/11/2/s3/pdf#page=20"
       ],
       "object_versions": [
         {
@@ -1128,7 +1129,7 @@
           ]
         }
       ],
-      "evidence": "Regole generali interventi nelle zone di pericolo applicabili anche alla componente idraulica PZP. Riesame 8 ottobre 2026, lotto 03: Il regolamento attua l’art. 55 della L.P. 9/2018; distingue frane, pericoli idraulici e valanghe e livelli H4/H3/H2. L’art. 11 disciplina la verifica di compatibilità, vincolante per gli interventi e distinta dalla VIA. Argomenti canonici invariati; i rinvii e il carico inquinante non introducono nuovi temi."
+      "evidence": "Regole generali interventi nelle zone di pericolo applicabili anche alla componente idraulica PZP. Riesame 8 ottobre 2026, lotto 03: Il regolamento attua l’art. 55 della L.P. 9/2018; distingue frane, pericoli idraulici e valanghe e livelli H4/H3/H2. L’art. 11 disciplina la verifica di compatibilità, vincolante per gli interventi e distinta dalla VIA. Argomenti canonici invariati; i rinvii e il carico inquinante non introducono nuovi temi. Riesame 8 ottobre 2026, lotto 05: Il D.P.P. 23/2019 inizia alla pagina PDF 20. Inserito come primo documento visibile il rimando corretto; conservato anche il precedente collegamento #page=22 e la sua revisione nella cronologia. Argomenti canonici invariati."
     },
     "tnpta": {
       "topics": [
@@ -2984,7 +2985,8 @@
       "source_urls": [
         "https://aubac.it/news/notizie/rischio-idraulico-pubblicato-laggiornamento-definitivo-della-perimetrazione-del-bacino-del-fosso",
         "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=2873&StwEvent=101",
-        "https://aubac.it/decreti-segretariali-di-pianificazione-2026"
+        "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+        "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1146564&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_170734403182658867151742648249991.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S"
       ],
       "object_versions": [
         {
@@ -2998,7 +3000,7 @@
           ]
         }
       ],
-      "evidence": "Oggetto e ambito sostanziale della scheda: Aggiornamento definitivo del PAI dei bacini regionali del Lazio per le aree a pericolo e rischio di inondazione del Fosso Secco fino alla confluenza con il Fosso della Cancelliera, nei comuni di Albano Laziale, Ariccia, Roma e Pomezia. Focus: Consultare la nuova perimetrazione del bacino del Fosso Secco; Verificare l'incidenza nei comuni di Albano Laziale, Ariccia, Roma e Pomezia; Applicare l'aggiornamento definitivo pubblicato nel BURL n. 10 del 3 febbraio 2026"
+      "evidence": "Oggetto e ambito sostanziale della scheda: Aggiornamento definitivo del PAI dei bacini regionali del Lazio per le aree a pericolo e rischio di inondazione del Fosso Secco fino alla confluenza con il Fosso della Cancelliera, nei comuni di Albano Laziale, Ariccia, Roma e Pomezia. Focus: Consultare la nuova perimetrazione del bacino del Fosso Secco; Verificare l'incidenza nei comuni di Albano Laziale, Ariccia, Roma e Pomezia; Applicare l'aggiornamento definitivo pubblicato nel BURL n. 10 del 3 febbraio 2026 Riesame 8 ottobre 2026, lotto 05: D.S. 20/2026, Roma 29 gennaio 2026: tratto da 100 m a monte della via Appia bis alla confluenza con il fosso della Cancelliera, nei comuni di Albano Laziale, Ariccia, Roma e Pomezia. Argomenti canonici invariati."
     },
     "centr-pai-vigna-corte-123-2026": {
       "topics": [
@@ -3007,7 +3009,8 @@
       "source_urls": [
         "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
         "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3210&StwEvent=101",
-        "https://www.aubac.it/news/notizie/rischio-idrogeologico-proposta-di-aggiornamento-pai-nel-comune-di-san-felice-circeo"
+        "https://www.aubac.it/news/notizie/rischio-idrogeologico-proposta-di-aggiornamento-pai-nel-comune-di-san-felice-circeo",
+        "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1247209&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_516680749377781367150821753836836.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S"
       ],
       "object_versions": [
         {
@@ -3021,7 +3024,7 @@
           ]
         }
       ],
-      "evidence": "Oggetto e ambito sostanziale della scheda: Aggiornamento definitivo del PAI dei bacini regionali del Lazio per la riclassificazione dell'area di Vigna La Corte, nel Comune di San Felice Circeo, dopo interventi di mitigazione del rischio da frana. Focus: Consultare la riclassificazione definitiva dell'area Vigna La Corte; Verificare le prescrizioni di monitoraggio del versante; Coordinare l'aggiornamento con la cartografia del PAI frane"
+      "evidence": "Oggetto e ambito sostanziale della scheda: Aggiornamento definitivo del PAI dei bacini regionali del Lazio per la riclassificazione dell'area di Vigna La Corte, nel Comune di San Felice Circeo, dopo interventi di mitigazione del rischio da frana. Focus: Consultare la riclassificazione definitiva dell'area Vigna La Corte; Verificare le prescrizioni di monitoraggio del versante; Coordinare l'aggiornamento con la cartografia del PAI frane Riesame 8 ottobre 2026, lotto 05: D.S. 123/2026, Roma 18 giugno 2026: riclassificazione dell’area Vigna La Corte a San Felice Circeo dopo interventi di mitigazione. Argomenti canonici invariati."
     },
     "po-pai-pgra-terdoppio-5-2026": {
       "topics": [
@@ -3045,7 +3048,7 @@
           ]
         }
       ],
-      "evidence": "Oggetto e ambito sostanziale della scheda: Adozione del progetto di aggiornamento degli elaborati 2, 3 e 8 del PAI Po e delle mappe di pericolosità del PGRA per il Torrente Terdoppio, da Agrate Conturbia alla confluenza nel Ticino. Focus: Consultare la nuova delimitazione delle fasce fluviali PAI; Verificare l'aggiornamento delle aree allagabili PGRA; Applicare le misure temporanee di salvaguardia nelle aree interessate"
+      "evidence": "Oggetto e ambito sostanziale della scheda: Adozione del progetto di aggiornamento degli elaborati 2, 3 e 8 del PAI Po e delle mappe di pericolosità del PGRA per il Torrente Terdoppio, da Agrate Conturbia alla confluenza nel Ticino. Focus: Consultare la nuova delimitazione delle fasce fluviali PAI; Verificare l'aggiornamento delle aree allagabili PGRA; Applicare le misure temporanee di salvaguardia nelle aree interessate Riesame 8 ottobre 2026, lotto 05: D.S. 5/2026 del 21 gennaio 2026: adozione del progetto, distinta dall’approvazione definitiva. Argomenti canonici invariati."
     },
     "po-pai-pgra-mera-27-2026": {
       "topics": [
@@ -3069,7 +3072,7 @@
           ]
         }
       ],
-      "evidence": "Oggetto e ambito sostanziale della scheda: Adozione del progetto di aggiornamento delle fasce fluviali del PAI Po e delle aree allagabili del PGRA per il Fiume Mera da Chiavenna al Lago di Como e per i torrenti Liro e Schiesone. Focus: Consultare la proposta di nuove fasce fluviali PAI; Verificare le aree allagabili e i dissesti torrentizi aggiornati; Applicare le misure temporanee di salvaguardia nelle aree interessate"
+      "evidence": "Oggetto e ambito sostanziale della scheda: Adozione del progetto di aggiornamento delle fasce fluviali del PAI Po e delle aree allagabili del PGRA per il Fiume Mera da Chiavenna al Lago di Como e per i torrenti Liro e Schiesone. Focus: Consultare la proposta di nuove fasce fluviali PAI; Verificare le aree allagabili e i dissesti torrentizi aggiornati; Applicare le misure temporanee di salvaguardia nelle aree interessate Riesame 8 ottobre 2026, lotto 05: D.S. 27/2026 del 24 aprile 2026: adozione del progetto, distinta dall’approvazione definitiva. Argomenti canonici invariati."
     }
   }
 }

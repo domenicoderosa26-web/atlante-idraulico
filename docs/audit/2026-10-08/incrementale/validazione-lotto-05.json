@@ -1,0 +1,71 @@
+{
+  "checked_at": "2026-10-08T20:09:11.932155+00:00",
+  "base_commit": "786b543bf8957d7a3547e2e840ba81001efe4208",
+  "records_before": 106,
+  "records_after": 106,
+  "document_links_before": 163,
+  "document_links_after": 166,
+  "ids_preserved": true,
+  "existing_documents_preserved": true,
+  "existing_reviews_and_histories_preserved": true,
+  "canonical_topics_and_relations_unchanged": true,
+  "protected_files_unchanged": true,
+  "modified_records": [
+    {
+      "id": "bz23",
+      "fields": [
+        "document_note",
+        "documentary_history",
+        "documentary_review",
+        "documents",
+        "history"
+      ]
+    },
+    {
+      "id": "centr-pai-fosso-secco-20-2026",
+      "fields": [
+        "document_note",
+        "documentary_review",
+        "documents",
+        "history",
+        "status"
+      ]
+    },
+    {
+      "id": "centr-pai-vigna-corte-123-2026",
+      "fields": [
+        "document_note",
+        "documentary_review",
+        "documents",
+        "history",
+        "status"
+      ]
+    },
+    {
+      "id": "po-pai-pgra-terdoppio-5-2026",
+      "fields": [
+        "document_note",
+        "documentary_review",
+        "history"
+      ]
+    },
+    {
+      "id": "po-pai-pgra-mera-27-2026",
+      "fields": [
+        "document_note",
+        "documentary_review",
+        "history"
+      ]
+    }
+  ],
+  "checks": {
+    "topics_normalize": "passed; zero unresolved",
+    "topics_validate": "passed",
+    "archive_with_base": "passed",
+    "python_unittest": "60 passed",
+    "node_syntax": "passed",
+    "node_topic_filters": "passed; 14 categories, 168 combinations, loading/search",
+    "git_diff_check": "passed"
+  },
+  "publication": "CI and Pages still to verify after publication"
+}

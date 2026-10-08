@@ -1,0 +1,838 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-08",
+  "base_commit": "ca558a62ead8fd534aa5006ba1560329bba9b3a1",
+  "records": [
+    {
+      "id": "centr-pai-pescara-146-2026",
+      "consulted_at": "2026-10-08T19:44:26.127445+00:00",
+      "content_examined": true,
+      "legal_review_complete": false,
+      "source_documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267721&DOCORE_versione=1&FNSTR=GZBYYD_BVOCWKF_23264438671243021997059961.NRJ.D7D&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "checked_at": "2026-10-08T15:02:00.698462+00:00",
+          "http_status": 200,
+          "final_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267721&DOCORE_versione=1&FNSTR=GZBYYD_BVOCWKF_23264438671243021997059961.NRJ.D7D&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "content_type": "application/pdf",
+          "sha256": "d6f1c8f597d9ad06a539f43ea24a903856528512ccc327927d87fb43ee662c50",
+          "bytes": 1641553,
+          "body_key": "2744d0c36753e791b6d86d2750fb128fc3a88e47a3bee3b52aaabc89b5ae5eda",
+          "pdf_signature": true
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "references": [
+            {
+              "id": "centr-pai-lettomanoppello-142-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-notaresco-143-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-notaresco-144-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-notaresco-145-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-pescara-146-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-spoltore-147-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-penne-148-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-tronto-140-2026",
+              "field": "documents.2.url"
+            }
+          ],
+          "checked_at": "2026-10-08T12:28:37.579331+00:00",
+          "attempts": [
+            {
+              "at": "2026-10-08T12:28:49.050950+00:00",
+              "http_status": 200,
+              "seconds": 11.47
+            }
+          ],
+          "body_key": "ffa601a02bb89c07a81656248b23fe02ea34637219a4dc1e272c4d2b72f75e8c",
+          "http_status": 200,
+          "final_url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "content_type": "application/pdf",
+          "redirects": [],
+          "bytes": 6392592,
+          "sha256": "f60be0b529e101915d72dd121fda1e31a8c1d7ffc7e599e898818f6974bf800e",
+          "truncated": false,
+          "pdf_signature": true,
+          "text_extraction": "ok",
+          "text_characters": 220254,
+          "transport_result": "retrieved_pdf"
+        }
+      ],
+      "observations": [
+        {
+          "aspect": "identity",
+          "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267721&DOCORE_versione=1&FNSTR=GZBYYD_BVOCWKF_23264438671243021997059961.NRJ.D7D&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "locator": "Intestazione e data in calce",
+          "finding": "D.S. AUBAC 146/2026, datato 15 luglio 2026. Identità riscontrata sul documento ufficiale."
+        },
+        {
+          "aspect": "amendment",
+          "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267721&DOCORE_versione=1&FNSTR=GZBYYD_BVOCWKF_23264438671243021997059961.NRJ.D7D&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "locator": "Dispositivo completo, artt. 1-2",
+          "finding": "Art. 1 elimina un corpo di frana di colamento P2 e un orlo di scarpata Ps in Strada del Palazzo; allinea il quadro del PAI distrettuale frane alla CIP 68/2026."
+        },
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "locator": "BUR Abruzzo n. 30 del 29 luglio 2026, pp. 52-53",
+          "finding": "Avviso e clausola di efficacia letti: gli effetti decorrono dalla pubblicazione dell’avviso, rispettivamente il 29 luglio 2026. Questo riscontro non certifica l’assenza di modifiche successive."
+        }
+      ],
+      "limitations": [
+        "La revisione non attesta tutti gli allegati né la vigenza integrale attuale delle perimetrazioni."
+      ],
+      "pending": [
+        "Esaminare integralmente cartografie e relazioni allegate; riscontrare gli eventuali atti successivi e l’applicabilità attuale alle singole aree."
+      ]
+    },
+    {
+      "id": "centr-pai-spoltore-147-2026",
+      "consulted_at": "2026-10-08T19:44:26.127445+00:00",
+      "content_examined": true,
+      "legal_review_complete": false,
+      "source_documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267780&DOCORE_versione=1&FNSTR=GZBYYD_BVOCWKF_37065169667125904232763601.NRJ.D7D&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "checked_at": "2026-10-08T15:02:15.786379+00:00",
+          "http_status": 200,
+          "final_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267780&DOCORE_versione=1&FNSTR=GZBYYD_BVOCWKF_37065169667125904232763601.NRJ.D7D&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "content_type": "application/pdf",
+          "sha256": "9f8be71d3d91e4f4f6c25297ff7ee1741484e1ccffdf384e42f4b2d5eacea2d2",
+          "bytes": 1641304,
+          "body_key": "0c2240e0882e84547eaa2ac3505930218989832af1e8bf0ea6196a0708a93778",
+          "pdf_signature": true
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "references": [
+            {
+              "id": "centr-pai-lettomanoppello-142-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-notaresco-143-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-notaresco-144-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-notaresco-145-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-pescara-146-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-spoltore-147-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-penne-148-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-tronto-140-2026",
+              "field": "documents.2.url"
+            }
+          ],
+          "checked_at": "2026-10-08T12:28:37.579331+00:00",
+          "attempts": [
+            {
+              "at": "2026-10-08T12:28:49.050950+00:00",
+              "http_status": 200,
+              "seconds": 11.47
+            }
+          ],
+          "body_key": "ffa601a02bb89c07a81656248b23fe02ea34637219a4dc1e272c4d2b72f75e8c",
+          "http_status": 200,
+          "final_url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "content_type": "application/pdf",
+          "redirects": [],
+          "bytes": 6392592,
+          "sha256": "f60be0b529e101915d72dd121fda1e31a8c1d7ffc7e599e898818f6974bf800e",
+          "truncated": false,
+          "pdf_signature": true,
+          "text_extraction": "ok",
+          "text_characters": 220254,
+          "transport_result": "retrieved_pdf"
+        }
+      ],
+      "observations": [
+        {
+          "aspect": "identity",
+          "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267780&DOCORE_versione=1&FNSTR=GZBYYD_BVOCWKF_37065169667125904232763601.NRJ.D7D&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "locator": "Intestazione e data in calce",
+          "finding": "D.S. AUBAC 147/2026, datato 15 luglio 2026. Identità riscontrata sul documento ufficiale."
+        },
+        {
+          "aspect": "amendment",
+          "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267780&DOCORE_versione=1&FNSTR=GZBYYD_BVOCWKF_37065169667125904232763601.NRJ.D7D&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "locator": "Dispositivo completo, artt. 1-2",
+          "finding": "Art. 1 inserisce una nuova area a pericolosità molto elevata P3 a Villa Santa Maria; allinea il quadro del PAI distrettuale frane alla CIP 68/2026."
+        },
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "locator": "BUR Abruzzo n. 30 del 29 luglio 2026, pp. 52-53",
+          "finding": "Avviso e clausola di efficacia letti: gli effetti decorrono dalla pubblicazione dell’avviso, rispettivamente il 29 luglio 2026. Questo riscontro non certifica l’assenza di modifiche successive."
+        }
+      ],
+      "limitations": [
+        "La revisione non attesta tutti gli allegati né la vigenza integrale attuale delle perimetrazioni."
+      ],
+      "pending": [
+        "Esaminare integralmente cartografie e relazioni allegate; riscontrare gli eventuali atti successivi e l’applicabilità attuale alle singole aree."
+      ]
+    },
+    {
+      "id": "centr-pai-penne-148-2026",
+      "consulted_at": "2026-10-08T19:44:26.127445+00:00",
+      "content_examined": true,
+      "legal_review_complete": false,
+      "source_documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267806&DOCORE_versione=1&FNSTR=GZBYYD_BVOCWKF_51704336667130452272963305.NRJ.D7D&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "checked_at": "2026-10-08T15:02:17.079432+00:00",
+          "http_status": 200,
+          "final_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267806&DOCORE_versione=1&FNSTR=GZBYYD_BVOCWKF_51704336667130452272963305.NRJ.D7D&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "content_type": "application/pdf",
+          "sha256": "ed48cc6f45ff2d8c52cee8554ad02116a2b77fb5ddbed839d892f36ff6e35541",
+          "bytes": 1641207,
+          "body_key": "68c24ff2c9ca49942224d90b58ce91fa427b90f2bbec53814748e15eb3ca0fb9",
+          "pdf_signature": true
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "references": [
+            {
+              "id": "centr-pai-lettomanoppello-142-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-notaresco-143-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-notaresco-144-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-notaresco-145-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-pescara-146-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-spoltore-147-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-penne-148-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-tronto-140-2026",
+              "field": "documents.2.url"
+            }
+          ],
+          "checked_at": "2026-10-08T12:28:37.579331+00:00",
+          "attempts": [
+            {
+              "at": "2026-10-08T12:28:49.050950+00:00",
+              "http_status": 200,
+              "seconds": 11.47
+            }
+          ],
+          "body_key": "ffa601a02bb89c07a81656248b23fe02ea34637219a4dc1e272c4d2b72f75e8c",
+          "http_status": 200,
+          "final_url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "content_type": "application/pdf",
+          "redirects": [],
+          "bytes": 6392592,
+          "sha256": "f60be0b529e101915d72dd121fda1e31a8c1d7ffc7e599e898818f6974bf800e",
+          "truncated": false,
+          "pdf_signature": true,
+          "text_extraction": "ok",
+          "text_characters": 220254,
+          "transport_result": "retrieved_pdf"
+        }
+      ],
+      "observations": [
+        {
+          "aspect": "identity",
+          "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267806&DOCORE_versione=1&FNSTR=GZBYYD_BVOCWKF_51704336667130452272963305.NRJ.D7D&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "locator": "Intestazione e data in calce",
+          "finding": "D.S. AUBAC 148/2026, datato 15 luglio 2026. Identità riscontrata sul documento ufficiale."
+        },
+        {
+          "aspect": "amendment",
+          "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267806&DOCORE_versione=1&FNSTR=GZBYYD_BVOCWKF_51704336667130452272963305.NRJ.D7D&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "locator": "Dispositivo completo, artt. 1-2",
+          "finding": "Art. 1 dispone inserimento e modifiche di dissesti in località varie di Penne; allinea il quadro del PAI distrettuale frane alla CIP 68/2026. Le singole geometrie richiedono gli allegati."
+        },
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "locator": "BUR Abruzzo n. 30 del 29 luglio 2026, pp. 52-53",
+          "finding": "Avviso e clausola di efficacia letti: gli effetti decorrono dalla pubblicazione dell’avviso, rispettivamente il 29 luglio 2026. Questo riscontro non certifica l’assenza di modifiche successive."
+        }
+      ],
+      "limitations": [
+        "La revisione non attesta tutti gli allegati né la vigenza integrale attuale delle perimetrazioni."
+      ],
+      "pending": [
+        "Esaminare integralmente cartografie e relazioni allegate; riscontrare gli eventuali atti successivi e l’applicabilità attuale alle singole aree."
+      ]
+    },
+    {
+      "id": "centr-pai-nestore-139-2026",
+      "consulted_at": "2026-10-08T19:44:26.127445+00:00",
+      "content_examined": true,
+      "legal_review_complete": false,
+      "source_documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1263470&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_375174756671706391603047517.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "checked_at": "2026-10-08T15:01:29.233962+00:00",
+          "http_status": 200,
+          "final_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1263470&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_375174756671706391603047517.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "content_type": "application/pdf",
+          "sha256": "105801c64948387d6203732c7b6251194e0eb06eddc7df63f254a5e7a38da1bc",
+          "bytes": 1746871,
+          "body_key": "9b60874b66af6db842dd0d51ef23322202732ae2703bf7ec5d6d69b54026aa30",
+          "pdf_signature": true
+        },
+        {
+          "url": "https://bur.regione.umbria.it/web/guest/bur?p_p_id=home_INSTANCE_pLi8X7iNviFL&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_resource_id=downloadCaricamento&p_p_cacheability=cacheLevelPage&id=http%3A%2F%2Fknowledge.progettosemplice.it%2Fresources%2FburUmbriaCaricamento%2Fno_g%2F2026%2F2%2F35%2F260721B35.pdf&nome=260721B35.pdf",
+          "source_page": "https://bur.regione.umbria.it/",
+          "checked_at": "2026-10-08T19:43:03.098698+00:00",
+          "http_status": 200,
+          "final_url": "https://bur.regione.umbria.it/web/guest/bur?p_p_id=home_INSTANCE_pLi8X7iNviFL&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_resource_id=downloadCaricamento&p_p_cacheability=cacheLevelPage&id=http%3A%2F%2Fknowledge.progettosemplice.it%2Fresources%2FburUmbriaCaricamento%2Fno_g%2F2026%2F2%2F35%2F260721B35.pdf&nome=260721B35.pdf",
+          "sha256": "cc9e9504bfc19d709af585bffec44da1c283fc26708990dd45cd0eef79f01361",
+          "bytes": 376271,
+          "pdf_signature": true
+        }
+      ],
+      "observations": [
+        {
+          "aspect": "identity",
+          "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1263470&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_375174756671706391603047517.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "locator": "Intestazione e data in calce",
+          "finding": "D.S. AUBAC 139/2026, datato 9 luglio 2026. Identità riscontrata sul documento ufficiale."
+        },
+        {
+          "aspect": "amendment",
+          "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1263470&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_375174756671706391603047517.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "locator": "Dispositivo completo, artt. 1-2",
+          "finding": "Art. 1 riguarda le fasce fluviali e le zone a rischio di esondazione dal centro abitato di Piegaro alla confluenza nel Tevere, nei sei comuni indicati; allinea il PAI idraulico distrettuale alla CIP 67/2026. Art. 2 distingue variante immediata ed effetti dalla pubblicazione dell’avviso."
+        },
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://bur.regione.umbria.it/web/guest/bur?p_p_id=home_INSTANCE_pLi8X7iNviFL&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_resource_id=downloadCaricamento&p_p_cacheability=cacheLevelPage&id=http%3A%2F%2Fknowledge.progettosemplice.it%2Fresources%2FburUmbriaCaricamento%2Fno_g%2F2026%2F2%2F35%2F260721B35.pdf&nome=260721B35.pdf",
+          "locator": "BUR Umbria, SAC n. 35 del 21 luglio 2026, p. 38",
+          "finding": "Avviso e clausola di efficacia letti: gli effetti decorrono dalla pubblicazione dell’avviso, rispettivamente il 21 luglio 2026. Questo riscontro non certifica l’assenza di modifiche successive."
+        }
+      ],
+      "limitations": [
+        "La revisione non attesta tutti gli allegati né la vigenza integrale attuale delle perimetrazioni."
+      ],
+      "pending": [
+        "Esaminare integralmente cartografie e relazioni allegate; riscontrare gli eventuali atti successivi e l’applicabilità attuale alle singole aree."
+      ]
+    },
+    {
+      "id": "centr-pai-offida-39-2026",
+      "consulted_at": "2026-10-08T19:44:26.127445+00:00",
+      "content_examined": true,
+      "legal_review_complete": false,
+      "source_documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1159980&DOCORE_versione=1&FNSTR=RSBYFQ_CLHAPKF_1990380983176116467115442640211870.WRN.W7J&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "checked_at": "2026-10-08T15:02:34.884534+00:00",
+          "http_status": 200,
+          "final_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1159980&DOCORE_versione=1&FNSTR=RSBYFQ_CLHAPKF_1990380983176116467115442640211870.WRN.W7J&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "content_type": "application/pdf",
+          "sha256": "e7f1dedc368ea5fa7b677ef3de7f9fe1957641746f4596c159fa4b952a1af780",
+          "bytes": 1664121,
+          "body_key": "d8aadd88cb963b674d4b5cf4aa587cd21177c73ba214a63f60f8736e23b67e85",
+          "pdf_signature": true
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-03/N20%20del%2026%20febbraio%202026_0.pdf",
+          "references": [
+            {
+              "id": "centr-pai-offida-39-2026",
+              "field": "documents.1.url"
+            }
+          ],
+          "checked_at": "2026-10-08T12:29:02.007568+00:00",
+          "attempts": [
+            {
+              "at": "2026-10-08T12:29:16.193371+00:00",
+              "http_status": 200,
+              "seconds": 11.2
+            }
+          ],
+          "body_key": "f5d9ef35a8884708a0cd0ad98f49eedfbbeb2cded42033926072b481c853a703",
+          "http_status": 200,
+          "final_url": "https://cms.aubac.it/sites/default/files/2026-03/N20%20del%2026%20febbraio%202026_0.pdf",
+          "content_type": "application/pdf",
+          "redirects": [],
+          "bytes": 9780118,
+          "sha256": "6e8b4fc97c9943b074d14a1ad80754ea80a00d142e2c17e7eaebd93b3fa7f338",
+          "truncated": false,
+          "pdf_signature": true,
+          "text_extraction": "ok",
+          "text_characters": 775851,
+          "transport_result": "retrieved_pdf"
+        }
+      ],
+      "observations": [
+        {
+          "aspect": "identity",
+          "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1159980&DOCORE_versione=1&FNSTR=RSBYFQ_CLHAPKF_1990380983176116467115442640211870.WRN.W7J&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "locator": "Intestazione e data in calce",
+          "finding": "D.S. AUBAC 39/2026, datato 19 febbraio 2026. Identità riscontrata sul documento ufficiale."
+        },
+        {
+          "aspect": "amendment",
+          "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1159980&DOCORE_versione=1&FNSTR=RSBYFQ_CLHAPKF_1990380983176116467115442640211870.WRN.W7J&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "locator": "Dispositivo completo, artt. 1-2",
+          "finding": "Art. 1 elimina i perimetri 293 (H3-R4) e 277 (H2-R1) e inserisce 7011, 7012, 7013 (H3-R3), 7014 e 7015 (H2-R3) a Offida; richiama il quadro distrettuale frane della CIP 58/2025."
+        },
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://cms.aubac.it/sites/default/files/2026-03/N20%20del%2026%20febbraio%202026_0.pdf",
+          "locator": "BUR Marche n. 20 del 26 febbraio 2026, p. 2525",
+          "finding": "Avviso e clausola di efficacia letti: gli effetti decorrono dalla pubblicazione dell’avviso, rispettivamente il 26 febbraio 2026. Questo riscontro non certifica l’assenza di modifiche successive."
+        }
+      ],
+      "limitations": [
+        "La revisione non attesta tutti gli allegati né la vigenza integrale attuale delle perimetrazioni."
+      ],
+      "pending": [
+        "Esaminare integralmente cartografie e relazioni allegate; riscontrare gli eventuali atti successivi e l’applicabilità attuale alle singole aree."
+      ]
+    }
+  ],
+  "corrections": [
+    {
+      "id": "centr-pai-pescara-146-2026",
+      "field": "documents",
+      "before": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3277&StwEvent=101",
+          "label": "Decreto segretariale 146/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "label": "BUR Abruzzo n. 30 del 29/07/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        }
+      ],
+      "after": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3277&StwEvent=101",
+          "label": "Decreto segretariale 146/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "label": "BUR Abruzzo n. 30 del 29/07/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        },
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267721&DOCORE_versione=1&FNSTR=GZBYYD_BVOCWKF_23264438671243021997059961.NRJ.D7D&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "label": "Decreto segretariale 146/2026 · PDF ufficiale",
+          "format": "pdf",
+          "group": "Atto",
+          "link_status": "checked",
+          "link_checked": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "id": "centr-pai-pescara-146-2026",
+      "field": "document_url",
+      "before": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3277&StwEvent=101",
+      "after": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267721&DOCORE_versione=1&FNSTR=GZBYYD_BVOCWKF_23264438671243021997059961.NRJ.D7D&DB_NAME=n1202633&ContestoChk=DE&P7M=S"
+    },
+    {
+      "id": "centr-pai-pescara-146-2026",
+      "field": "document_label",
+      "before": "Decreto segretariale 146/2026",
+      "after": "Decreto segretariale 146/2026 · PDF ufficiale"
+    },
+    {
+      "id": "centr-pai-pescara-146-2026",
+      "field": "document_note",
+      "before": "Collegamento ufficiale pubblicato nell’avviso del BUR Abruzzo; il portale URBI non è risultato acquisibile dal servizio di verifica.",
+      "after": "Letti identità e dispositivo completo del decreto PDF ufficiale, oltre all’avviso regionale pertinente. I precedenti riferimenti e le cronologie sono conservati. Allegati cartografici, relazioni tecniche e catena degli atti successivi restano da completare."
+    },
+    {
+      "id": "centr-pai-spoltore-147-2026",
+      "field": "documents",
+      "before": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3278&StwEvent=101",
+          "label": "Decreto segretariale 147/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "label": "BUR Abruzzo n. 30 del 29/07/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        }
+      ],
+      "after": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3278&StwEvent=101",
+          "label": "Decreto segretariale 147/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "label": "BUR Abruzzo n. 30 del 29/07/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        },
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267780&DOCORE_versione=1&FNSTR=GZBYYD_BVOCWKF_37065169667125904232763601.NRJ.D7D&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "label": "Decreto segretariale 147/2026 · PDF ufficiale",
+          "format": "pdf",
+          "group": "Atto",
+          "link_status": "checked",
+          "link_checked": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "id": "centr-pai-spoltore-147-2026",
+      "field": "document_url",
+      "before": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3278&StwEvent=101",
+      "after": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267780&DOCORE_versione=1&FNSTR=GZBYYD_BVOCWKF_37065169667125904232763601.NRJ.D7D&DB_NAME=n1202633&ContestoChk=DE&P7M=S"
+    },
+    {
+      "id": "centr-pai-spoltore-147-2026",
+      "field": "document_label",
+      "before": "Decreto segretariale 147/2026",
+      "after": "Decreto segretariale 147/2026 · PDF ufficiale"
+    },
+    {
+      "id": "centr-pai-spoltore-147-2026",
+      "field": "document_note",
+      "before": "Collegamento ufficiale pubblicato nell’avviso del BUR Abruzzo; il portale URBI non è risultato acquisibile dal servizio di verifica.",
+      "after": "Letti identità e dispositivo completo del decreto PDF ufficiale, oltre all’avviso regionale pertinente. I precedenti riferimenti e le cronologie sono conservati. Allegati cartografici, relazioni tecniche e catena degli atti successivi restano da completare."
+    },
+    {
+      "id": "centr-pai-penne-148-2026",
+      "field": "documents",
+      "before": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3279&StwEvent=101",
+          "label": "Decreto segretariale 148/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "label": "BUR Abruzzo n. 30 del 29/07/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        }
+      ],
+      "after": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3279&StwEvent=101",
+          "label": "Decreto segretariale 148/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "label": "BUR Abruzzo n. 30 del 29/07/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        },
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267806&DOCORE_versione=1&FNSTR=GZBYYD_BVOCWKF_51704336667130452272963305.NRJ.D7D&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "label": "Decreto segretariale 148/2026 · PDF ufficiale",
+          "format": "pdf",
+          "group": "Atto",
+          "link_status": "checked",
+          "link_checked": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "id": "centr-pai-penne-148-2026",
+      "field": "document_url",
+      "before": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3279&StwEvent=101",
+      "after": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267806&DOCORE_versione=1&FNSTR=GZBYYD_BVOCWKF_51704336667130452272963305.NRJ.D7D&DB_NAME=n1202633&ContestoChk=DE&P7M=S"
+    },
+    {
+      "id": "centr-pai-penne-148-2026",
+      "field": "document_label",
+      "before": "Decreto segretariale 148/2026",
+      "after": "Decreto segretariale 148/2026 · PDF ufficiale"
+    },
+    {
+      "id": "centr-pai-penne-148-2026",
+      "field": "document_note",
+      "before": "Collegamento ufficiale pubblicato nell’avviso del BUR Abruzzo; il portale URBI non è risultato acquisibile dal servizio di verifica.",
+      "after": "Letti identità e dispositivo completo del decreto PDF ufficiale, oltre all’avviso regionale pertinente. I precedenti riferimenti e le cronologie sono conservati. Allegati cartografici, relazioni tecniche e catena degli atti successivi restano da completare."
+    },
+    {
+      "id": "centr-pai-nestore-139-2026",
+      "field": "summary",
+      "before": "Aggiornamento definitivo delle fasce fluviali e delle aree a rischio di esondazione del Fiume Nestore, da Piegaro alla confluenza con il Tevere, nei comuni di Piegaro, Panicale, Perugia, Marsciano, San Venanzo e Collazzone. La variante è immediatamente efficace e allinea il quadro conoscitivo del nuovo PAI idraulico distrettuale.",
+      "after": "Aggiornamento definitivo delle fasce fluviali e delle aree a rischio di esondazione del Fiume Nestore, da Piegaro alla confluenza con il Tevere, nei comuni di Piegaro, Panicale, Perugia, Marsciano, San Venanzo e Collazzone. La variante allinea il quadro conoscitivo del PAI idraulico distrettuale; gli effetti decorrono dalla pubblicazione dell’avviso nel BUR Umbria, Serie Avvisi e Concorsi n. 35 del 21 luglio 2026, p. 38."
+    },
+    {
+      "id": "centr-pai-nestore-139-2026",
+      "field": "status",
+      "before": "Aggiornamento definitivo · efficace",
+      "after": "Aggiornamento definitivo · efficace dal 21/07/2026"
+    },
+    {
+      "id": "centr-pai-nestore-139-2026",
+      "field": "documents",
+      "before": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3268&StwEvent=101",
+          "label": "Decreto segretariale 139/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+          "label": "Raccolta ufficiale dei decreti di pianificazione 2026",
+          "group": "Raccolta"
+        }
+      ],
+      "after": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3268&StwEvent=101",
+          "label": "Decreto segretariale 139/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+          "label": "Raccolta ufficiale dei decreti di pianificazione 2026",
+          "group": "Raccolta"
+        },
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1263470&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_375174756671706391603047517.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "label": "Decreto segretariale 139/2026 · PDF ufficiale",
+          "format": "pdf",
+          "group": "Atto",
+          "link_status": "checked",
+          "link_checked": "2026-10-08"
+        },
+        {
+          "url": "https://bur.regione.umbria.it/web/guest/bur?p_p_id=home_INSTANCE_pLi8X7iNviFL&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_resource_id=downloadCaricamento&p_p_cacheability=cacheLevelPage&id=http%3A%2F%2Fknowledge.progettosemplice.it%2Fresources%2FburUmbriaCaricamento%2Fno_g%2F2026%2F2%2F35%2F260721B35.pdf&nome=260721B35.pdf",
+          "label": "BUR Umbria · Avvisi e Concorsi n. 35 del 21/07/2026 · p. 38",
+          "format": "pdf",
+          "group": "Pubblicazione",
+          "link_status": "checked",
+          "link_checked": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "id": "centr-pai-nestore-139-2026",
+      "field": "document_url",
+      "before": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3268&StwEvent=101",
+      "after": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1263470&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_375174756671706391603047517.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S"
+    },
+    {
+      "id": "centr-pai-nestore-139-2026",
+      "field": "document_label",
+      "before": "Decreto segretariale 139/2026",
+      "after": "Decreto segretariale 139/2026 · PDF ufficiale"
+    },
+    {
+      "id": "centr-pai-nestore-139-2026",
+      "field": "document_note",
+      "before": "Il portale URBI ha restituito timeout durante l’apertura odierna; estremi, oggetto ed efficacia sono stati verificati sulle pagine istituzionali AUBAC e sul riferimento al BUR Umbria.",
+      "after": "Letti identità e dispositivo completo del decreto PDF ufficiale, oltre all’avviso regionale pertinente. I precedenti riferimenti e le cronologie sono conservati. Allegati cartografici, relazioni tecniche e catena degli atti successivi restano da completare."
+    },
+    {
+      "id": "centr-pai-offida-39-2026",
+      "field": "documents",
+      "before": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=2943&StwEvent=101",
+          "label": "Decreto segretariale 39/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-03/N20%20del%2026%20febbraio%202026_0.pdf",
+          "label": "BUR Marche n. 20 del 26/02/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        }
+      ],
+      "after": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=2943&StwEvent=101",
+          "label": "Decreto segretariale 39/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-03/N20%20del%2026%20febbraio%202026_0.pdf",
+          "label": "BUR Marche n. 20 del 26/02/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        },
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1159980&DOCORE_versione=1&FNSTR=RSBYFQ_CLHAPKF_1990380983176116467115442640211870.WRN.W7J&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "label": "Decreto segretariale 39/2026 · PDF ufficiale",
+          "format": "pdf",
+          "group": "Atto",
+          "link_status": "checked",
+          "link_checked": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "id": "centr-pai-offida-39-2026",
+      "field": "document_url",
+      "before": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=2943&StwEvent=101",
+      "after": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1159980&DOCORE_versione=1&FNSTR=RSBYFQ_CLHAPKF_1990380983176116467115442640211870.WRN.W7J&DB_NAME=n1202633&ContestoChk=DE&P7M=S"
+    },
+    {
+      "id": "centr-pai-offida-39-2026",
+      "field": "document_label",
+      "before": "Decreto segretariale 39/2026",
+      "after": "Decreto segretariale 39/2026 · PDF ufficiale"
+    },
+    {
+      "id": "centr-pai-offida-39-2026",
+      "field": "document_note",
+      "before": "Atto definitivo richiamato dalla raccolta ufficiale AUBAC e dalla pubblicazione nel BUR Marche.",
+      "after": "Letti identità e dispositivo completo del decreto PDF ufficiale, oltre all’avviso regionale pertinente. I precedenti riferimenti e le cronologie sono conservati. Allegati cartografici, relazioni tecniche e catena degli atti successivi restano da completare."
+    }
+  ],
+  "source_access": {
+    "umbria_search": {
+      "url": "https://bur.regione.umbria.it/web/guest/bur?p_p_id=home_INSTANCE_pLi8X7iNviFL&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_resource_id=doSearch&p_p_cacheability=cacheLevelPage",
+      "search_parameters": {
+        "term": "Nestore",
+        "start": "0",
+        "end": "10",
+        "avanzata": "true",
+        "datadalpub": "21/07/2026",
+        "dataalpub": "21/07/2026"
+      },
+      "checked_at": "2026-10-08T19:41:23.784307+00:00",
+      "http_status": 200,
+      "sha256": "1ec6da89e32977b7fcf4b98a34b199db1e6844d4fec9ce5ed5511cc798945c13",
+      "response": {
+        "result": "OK",
+        "messaggio": null,
+        "data": {
+          "facets": {},
+          "pivots": {},
+          "trends": {},
+          "numFound": 3,
+          "token": "Qiq5fs8qTk",
+          "docs": [
+            {
+              "documentiSimili": null,
+              "fields": {
+                "id": "260721B35"
+              }
+            },
+            {
+              "documentiSimili": null,
+              "fields": {
+                "id": "260721B35MM"
+              }
+            },
+            {
+              "documentiSimili": null,
+              "fields": {
+                "id": "260721B35SO"
+              }
+            }
+          ],
+          "searchParam": {
+            "terms": [],
+            "termsInAND": [
+              {
+                "tipo": "AND",
+                "value": "[2026-07-21T00:00:00Z TO 2026-07-21T00:00:00Z]",
+                "label": "meta_pub_date_i",
+                "synonyms": null
+              }
+            ],
+            "operatore": "AND"
+          },
+          "suggestions": null
+        }
+      }
+    },
+    "umbria_document_metadata": {
+      "url": "https://bur.regione.umbria.it/web/guest/bur?p_p_id=home_INSTANCE_pLi8X7iNviFL&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_resource_id=getDocument&p_p_cacheability=cacheLevelPage&idDocument=260721B35&token=Qiq5fs8qTk",
+      "checked_at": "2026-10-08T19:42:05.845254+00:00",
+      "http_status": 200,
+      "sha256": "3effa8174b340108bfee358fc97fd82bea38b64de3cf680ba073751785497802",
+      "response": {
+        "result": "OK",
+        "messaggio": null,
+        "data": {
+          "documentiSimili": null,
+          "fields": {
+            "bur_date": "21/07/2026",
+            "bur_tipo_documento": "completo_bur",
+            "bur_file_completo": "/comuni-data/PDF-Umbria-Digitale/BUR-estratti/repositoryBurCaricati/Parte_III/Bollettini/260721B35.pdf",
+            "meta_date": "21/07/2026",
+            "bur_caricamento_id": "1253",
+            "id": "260721B35",
+            "title": [
+              "Domanda ammissione corso di formazione manageriale per direttore ...."
+            ],
+            "bur_numero": "35",
+            "bur_serie": "SAC",
+            "url": "http://knowledge.progettosemplice.it/resources/burUmbriaCaricamento/no_g/2026/2/35/260721B35.pdf"
+          }
+        }
+      }
+    },
+    "external_download_failure": {
+      "url": "http://knowledge.progettosemplice.it/resources/burUmbriaCaricamento/no_g/2026/2/35/260721B35.pdf",
+      "source_page": "https://bur.regione.umbria.it/",
+      "checked_at": "2026-10-08T19:42:35.363370+00:00",
+      "error": "timed out"
+    }
+  },
+  "publication": {
+    "state": "validated_pending_deployment"
+  }
+}

@@ -1,9 +1,9 @@
 {
-  "last_completed_at": "2026-10-07T13:48:56+02:00",
+  "last_completed_at": "2026-10-08T13:12:48+02:00",
   "verification_completed_at": "2026-10-08T13:12:48+02:00",
   "timezone": "Europe/Rome",
-  "outcome": "verificato",
-  "publication_status": "in_attesa",
+  "outcome": "completato",
+  "publication_status": "pubblicato",
   "sources": [
     "Normattiva Open Data: normativa nazionale"
   ],
@@ -12,17 +12,6 @@
   "warnings": [
     "Controllo API limitato agli atti con URN supportato; esclusi: ntc18, dmattr2014, camed2025, camstrade2024, camverde2020, camstrade2025, dm185"
   ],
-  "last_successful_result": {
-    "last_completed_at": "2026-10-07T13:48:56+02:00",
-    "timezone": "Europe/Rome",
-    "outcome": "completato",
-    "sources": [
-      "Normattiva Open Data: normativa nazionale"
-    ],
-    "changes_detected": 0,
-    "changes_published": 0,
-    "warnings": []
-  },
   "scope": {
     "monitored_ids": [
       "rd523",

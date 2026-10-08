@@ -1,14 +1,14 @@
 # Argomenti: tassonomia definitiva e verifica completa
 
-Revisione del 7 ottobre 2026. La sorgente unica è `topic-taxonomy.json`, versione 2: contiene **esattamente 14 argomenti autorizzati**, le regole di ingresso e le evidenze delle riclassificazioni. Non contiene altre categorie attive o sottocategorie. Gli alias precedenti servono soltanto a riconoscere un ingresso legacy; non vengono pubblicati come valori di `topics`.
+Revisione aggiornata all’8 ottobre 2026. La sorgente unica è `topic-taxonomy.json`, versione 2: contiene **esattamente 14 argomenti autorizzati**, le regole di ingresso e le evidenze delle riclassificazioni. Non contiene altre categorie attive o sottocategorie. Gli alias precedenti servono soltanto a riconoscere un ingresso legacy; non vengono pubblicati come valori di `topics`.
 
 ## Esito della riclassificazione
 
-- **102 schede uniche controllate** nel catalogo pubblico, comprese 18 nazionali; nessuna cancellata o duplicata.
-- **72 schede con associazioni/denominazioni cambiate**; altre 5 hanno soltanto ricevuto l’ordine A–Z dei tag. Tutte le 102 sono riesaminate; le 30 associazioni già pertinenti restano valide.
-- **31 schede multiargomento** dopo la revisione. Le associazioni multiple seguono materie sostanziali, non rinvii marginali.
+- **106 schede uniche controllate** nel catalogo pubblico, comprese 18 nazionali; nessuna cancellata o duplicata. Le quattro aggiunte dell’8 ottobre sono revisionate con fonte, evidenza e versione dell’oggetto.
+- **72 schede con associazioni/denominazioni cambiate**; altre 5 hanno soltanto ricevuto l’ordine A–Z dei tag. Tutte le 102 schede originarie sono riesaminate; le 30 associazioni già pertinenti restano valide.
+- **33 schede multiargomento** dopo la revisione. Le associazioni multiple seguono materie sostanziali, non rinvii marginali.
 - **0 schede prive di argomenti**, **0 schede da classificare**, **0 valori attivi fuori tassonomia**.
-- Controllata anche la copia storica `dist/data.json`: **68 schede**, tutte già comprese nelle 102 identità principali, 53 con associazioni/denominazioni cambiate, 4 con solo riordino, 26 multiargomento. Non sincronizzata con il catalogo principale: contenuti storici preservati.
+- Controllata anche la copia storica `dist/data.json`: **68 schede**, tutte già comprese nelle 106 identità principali, 53 con associazioni/denominazioni cambiate, 4 con solo riordino, 26 multiargomento. Non sincronizzata con il catalogo principale: contenuti storici preservati.
 - `national.json` conserva 18 metadati di atti già presenti nel catalogo e non contiene argomenti; non aggiunge altre norme al conteggio.
 
 Titoli, descrizioni, focus, fonti, URL, PDF, date, territori, livelli e tutti gli altri valori e byte degli archivi sono invariati. I file HTML cambiano soltanto nel parametro di versione dello script per rendere subito effettiva la nuova logica; nessuna modifica alla grafica.
@@ -24,10 +24,10 @@ Il menu mostra **tutte e sole le 14 categorie**, anche se una copia dell’archi
 | Bonifica e consorzi | 2 |
 | Demanio e polizia idraulica | 5 |
 | Invarianza idraulica e idrologica | 8 |
-| PAI - Pericolosità e rischio frane | 20 |
+| PAI - Pericolosità e rischio frane | 21 |
 | PAI - Pericolosità e rischio geomorfologico | 2 |
-| PAI - Pericolosità e rischio idraulico | 18 |
-| PGRA - Pericolosità alluvioni | 12 |
+| PAI - Pericolosità e rischio idraulico | 21 |
+| PGRA - Pericolosità alluvioni | 14 |
 | PZP - Pericolosità e rischio idraulico | 5 |
 | Riuso delle acque meteoriche | 3 |
 | Scarichi e tutela delle acque | 30 |
@@ -94,7 +94,7 @@ La Action nazionale mantiene la validazione prima dell’acquisizione e prima de
 
 23 test Python, compresi i 9 test originali. Il test JavaScript esegue il codice reale di entrambe le copie e verifica tutte le 14 voci, ordine A–Z con tassonomia deliberatamente invertita, 168 combinazioni argomento/territorio/livello per ciascuna copia, ricerca combinata, ordinamento per titolo/data, conteggi e unicità delle schede multiargomento. Verificata anche una simulazione di import giornaliero e un controllo nazionale senza modifiche.
 
-## Registro completo delle 102 schede riesaminate
+## Registro completo delle 106 schede riesaminate
 
 Le evidenze puntuali e le fonti sono in `reviewed_records` della tassonomia; questa tabella permette di controllare le associazioni finali senza ricostruire la migrazione.
 
@@ -202,3 +202,7 @@ Le evidenze puntuali e le fonti sono in `reviewed_records` della tassonomia; que
 | centr-pai-penne-148-2026 | D.S. AUBAC 148/2026 | PAI - Pericolosità e rischio frane |
 | centr-pai-tronto-140-2026 | D.S. AUBAC 140/2026 | PAI - Pericolosità e rischio idraulico |
 | centr-pai-offida-39-2026 | D.S. AUBAC 39/2026 | PAI - Pericolosità e rischio frane |
+| centr-pai-fosso-secco-20-2026 | D.S. AUBAC 20/2026 | PAI - Pericolosità e rischio idraulico |
+| centr-pai-vigna-corte-123-2026 | D.S. AUBAC 123/2026 | PAI - Pericolosità e rischio frane |
+| po-pai-pgra-terdoppio-5-2026 | D.S. AdB Po 5/2026 · progetto Terdoppio | PAI - Pericolosità e rischio idraulico; PGRA - Pericolosità alluvioni |
+| po-pai-pgra-mera-27-2026 | D.S. AdB Po 27/2026 · progetto Mera | PAI - Pericolosità e rischio idraulico; PGRA - Pericolosità alluvioni |

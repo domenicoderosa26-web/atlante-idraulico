@@ -2849,6 +2849,100 @@
         }
       ],
       "evidence": "Oggetto e ambito sostanziale della scheda: Aggiornamento definitivo del PAI Tronto nel Comune di Offida: eliminati i perimetri 293 (H3–R4) e 277 (H2–R1) e inseriti i nuovi perimetri 7011, 7012 e 7013 (H3–R3) e 7014 e 7015 (H2–R3). La pubblicazione è avvenuta nel BUR Marche n. 20 del 26 febbraio 2026. Focus: Consultare i nuovi perimetri 7011–7015; Verificare la sostituzione dei perimetri 293 e 277; Applicare le nuove classi di pericolosità e rischio"
+    },
+    "centr-pai-fosso-secco-20-2026": {
+      "topics": [
+        "pai-idraulico"
+      ],
+      "source_urls": [
+        "https://aubac.it/news/notizie/rischio-idraulico-pubblicato-laggiornamento-definitivo-della-perimetrazione-del-bacino-del-fosso",
+        "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=2873&StwEvent=101",
+        "https://aubac.it/decreti-segretariali-di-pianificazione-2026"
+      ],
+      "object_versions": [
+        {
+          "title": "Aggiornamento PAI Lazio · pericolosità idraulica del Fosso Secco",
+          "ref": "D.S. AUBAC 20/2026",
+          "summary": "Aggiornamento definitivo del PAI dei bacini regionali del Lazio per le aree a pericolo e rischio di inondazione del Fosso Secco fino alla confluenza con il Fosso della Cancelliera, nei comuni di Albano Laziale, Ariccia, Roma e Pomezia.",
+          "focus": [
+            "Consultare la nuova perimetrazione del bacino del Fosso Secco",
+            "Verificare l'incidenza nei comuni di Albano Laziale, Ariccia, Roma e Pomezia",
+            "Applicare l'aggiornamento definitivo pubblicato nel BURL n. 10 del 3 febbraio 2026"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Aggiornamento definitivo del PAI dei bacini regionali del Lazio per le aree a pericolo e rischio di inondazione del Fosso Secco fino alla confluenza con il Fosso della Cancelliera, nei comuni di Albano Laziale, Ariccia, Roma e Pomezia. Focus: Consultare la nuova perimetrazione del bacino del Fosso Secco; Verificare l'incidenza nei comuni di Albano Laziale, Ariccia, Roma e Pomezia; Applicare l'aggiornamento definitivo pubblicato nel BURL n. 10 del 3 febbraio 2026"
+    },
+    "centr-pai-vigna-corte-123-2026": {
+      "topics": [
+        "pai-frane"
+      ],
+      "source_urls": [
+        "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+        "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3210&StwEvent=101",
+        "https://www.aubac.it/news/notizie/rischio-idrogeologico-proposta-di-aggiornamento-pai-nel-comune-di-san-felice-circeo"
+      ],
+      "object_versions": [
+        {
+          "title": "Aggiornamento PAI Lazio · rischio da frana a Vigna La Corte",
+          "ref": "D.S. AUBAC 123/2026",
+          "summary": "Aggiornamento definitivo del PAI dei bacini regionali del Lazio per la riclassificazione dell'area di Vigna La Corte, nel Comune di San Felice Circeo, dopo interventi di mitigazione del rischio da frana.",
+          "focus": [
+            "Consultare la riclassificazione definitiva dell'area Vigna La Corte",
+            "Verificare le prescrizioni di monitoraggio del versante",
+            "Coordinare l'aggiornamento con la cartografia del PAI frane"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Aggiornamento definitivo del PAI dei bacini regionali del Lazio per la riclassificazione dell'area di Vigna La Corte, nel Comune di San Felice Circeo, dopo interventi di mitigazione del rischio da frana. Focus: Consultare la riclassificazione definitiva dell'area Vigna La Corte; Verificare le prescrizioni di monitoraggio del versante; Coordinare l'aggiornamento con la cartografia del PAI frane"
+    },
+    "po-pai-pgra-terdoppio-5-2026": {
+      "topics": [
+        "pai-idraulico",
+        "pgra"
+      ],
+      "source_urls": [
+        "https://pai.adbpo.it/varianti-in-corso-2/",
+        "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_TERDOPPIO_2026/DSG_5_2026.pdf",
+        "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_TERDOPPIO_2026/"
+      ],
+      "object_versions": [
+        {
+          "title": "Progetto di aggiornamento PAI e PGRA · Torrente Terdoppio",
+          "ref": "D.S. AdB Po 5/2026 · progetto Terdoppio",
+          "summary": "Adozione del progetto di aggiornamento degli elaborati 2, 3 e 8 del PAI Po e delle mappe di pericolosità del PGRA per il Torrente Terdoppio, da Agrate Conturbia alla confluenza nel Ticino.",
+          "focus": [
+            "Consultare la nuova delimitazione delle fasce fluviali PAI",
+            "Verificare l'aggiornamento delle aree allagabili PGRA",
+            "Applicare le misure temporanee di salvaguardia nelle aree interessate"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Adozione del progetto di aggiornamento degli elaborati 2, 3 e 8 del PAI Po e delle mappe di pericolosità del PGRA per il Torrente Terdoppio, da Agrate Conturbia alla confluenza nel Ticino. Focus: Consultare la nuova delimitazione delle fasce fluviali PAI; Verificare l'aggiornamento delle aree allagabili PGRA; Applicare le misure temporanee di salvaguardia nelle aree interessate"
+    },
+    "po-pai-pgra-mera-27-2026": {
+      "topics": [
+        "pai-idraulico",
+        "pgra"
+      ],
+      "source_urls": [
+        "https://pai.adbpo.it/varianti-in-corso-2/",
+        "https://www.adbpo.it/PAI/PAI_PROG_Mera_Chiavenna_2026/DSG27_2026.pdf",
+        "https://www.adbpo.it/PAI/PAI_PROG_Mera_Chiavenna_2026/"
+      ],
+      "object_versions": [
+        {
+          "title": "Progetto di aggiornamento PAI e PGRA · Fiume Mera, Liro e Schiesone",
+          "ref": "D.S. AdB Po 27/2026 · progetto Mera",
+          "summary": "Adozione del progetto di aggiornamento delle fasce fluviali del PAI Po e delle aree allagabili del PGRA per il Fiume Mera da Chiavenna al Lago di Como e per i torrenti Liro e Schiesone.",
+          "focus": [
+            "Consultare la proposta di nuove fasce fluviali PAI",
+            "Verificare le aree allagabili e i dissesti torrentizi aggiornati",
+            "Applicare le misure temporanee di salvaguardia nelle aree interessate"
+          ]
+        }
+      ],
+      "evidence": "Oggetto e ambito sostanziale della scheda: Adozione del progetto di aggiornamento delle fasce fluviali del PAI Po e delle aree allagabili del PGRA per il Fiume Mera da Chiavenna al Lago di Como e per i torrenti Liro e Schiesone. Focus: Consultare la proposta di nuove fasce fluviali PAI; Verificare le aree allagabili e i dissesti torrentizi aggiornati; Applicare le misure temporanee di salvaguardia nelle aree interessate"
     }
   }
 }

@@ -7,6 +7,7 @@ import unittest
 
 sys.path.insert(0, str(Path(__file__).parents[1] / 'scripts'))
 from archive import ROOT, validate_catalog, validate_repository
+from documentary import record_version
 
 
 class ArchiveTests(unittest.TestCase):
@@ -31,6 +32,12 @@ class ArchiveTests(unittest.TestCase):
     def test_retention_allows_updates_and_additions_but_not_losses(self):
         data = copy.deepcopy(self.data)
         data['records'][0]['summary'] += ' Aggiornamento verificato.'
+        record = data['records'][0]
+        if record.get('documentary_review'):
+            # An updated reviewed object must preserve its former evidence.
+            record.setdefault('documentary_history', []).append(
+                copy.deepcopy(self.data['records'][0]['documentary_review']))
+            record['documentary_review']['record_version'] = record_version(record)
         extra = copy.deepcopy(data['records'][0]); extra['id'] = 'new-record'
         data['records'].append(extra)
         self.assertEqual(validate_catalog(data, self.data), len(self.data['records']) + 1)

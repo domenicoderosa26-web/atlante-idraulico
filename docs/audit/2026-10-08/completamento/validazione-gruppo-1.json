@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-08",
+  "records_before": 106,
+  "records_after": 106,
+  "documents_before": 140,
+  "documents_after": 140,
+  "ids_preserved": true,
+  "normative_fields_unchanged": true,
+  "checks": {
+    "topics_normalize": "pass",
+    "topics_validate": "pass",
+    "archive_base_origin_main": "pass",
+    "unittest": {
+      "result": "pass",
+      "tests": 59,
+      "initial_failure": "Il test di conservazione mutava la prima scheda senza conservare e ricalcolare una revisione; la fixture è stata adeguata al protocollo documentale."
+    },
+    "node_check_app": "pass",
+    "topic_filters": "pass"
+  },
+  "publication": "not_yet_verified"
+}

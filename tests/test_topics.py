@@ -24,7 +24,7 @@ class TopicTests(unittest.TestCase):
     def test_all_archives_and_no_forbidden_aliases(self):
         forbidden = {'PAI','PAI e PGRA','PGRA','Pericolosità idraulica','Pericolosità e rischio idraulico',
                      'Pericolosità da alluvione','Pericolosità da frana','Pericolosità e rischio da frana','Attraversamenti'}
-        for name in ['data.json','dist/data.json']:
+        for name in ['data.json']:
             archive = json.loads((ROOT / name).read_text())
             validate_archive(archive, self.taxonomy)
             self.assertEqual(normalize_archive(archive, self.taxonomy), archive)

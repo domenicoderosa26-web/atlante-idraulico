@@ -8,7 +8,7 @@ Revisione aggiornata all’8 ottobre 2026. La sorgente unica è `topic-taxonomy.
 - **72 schede con associazioni/denominazioni cambiate**; altre 5 hanno soltanto ricevuto l’ordine A–Z dei tag. Tutte le 102 schede originarie sono riesaminate; le 30 associazioni già pertinenti restano valide.
 - **33 schede multiargomento** dopo la revisione. Le associazioni multiple seguono materie sostanziali, non rinvii marginali.
 - **0 schede prive di argomenti**, **0 schede da classificare**, **0 valori attivi fuori tassonomia**.
-- Controllata anche la copia storica `dist/data.json`: **68 schede**, tutte già comprese nelle 106 identità principali, 53 con associazioni/denominazioni cambiate, 4 con solo riordino, 26 multiargomento. Non sincronizzata con il catalogo principale: contenuti storici preservati.
+- La copia storica `dist/data.json` (68 schede, tutte già comprese nelle 106 identità principali) è stata rimossa nel consolidamento dell’8 ottobre: il catalogo autorevole è soltanto `data.json`. La copia precedente resta nella cronologia Git.
 - `national.json` conserva 18 metadati di atti già presenti nel catalogo e non contiene argomenti; non aggiunge altre norme al conteggio.
 
 Titoli, descrizioni, focus, fonti, URL, PDF, date, territori, livelli e tutti gli altri valori e byte degli archivi sono invariati. I file HTML cambiano soltanto nel parametro di versione dello script per rendere subito effettiva la nuova logica; nessuna modifica alla grafica.
@@ -78,8 +78,9 @@ Fonti di approfondimento per questa revisione: testo coordinato [L.R. Toscana 41
 Prima di ogni pubblicazione:
 
 ```sh
-python scripts/topics.py normalize data.json dist/data.json
-python scripts/topics.py validate data.json dist/data.json
+python scripts/topics.py normalize data.json
+python scripts/topics.py validate data.json
+python scripts/archive.py --base-ref origin/main
 python -m unittest discover -s tests -v
 node tests/test_topic_filters.js
 ```
@@ -92,7 +93,17 @@ La Action nazionale mantiene la validazione prima dell’acquisizione e prima de
 
 ## Verifiche riproducibili
 
-23 test Python, compresi i 9 test originali. Il test JavaScript esegue il codice reale di entrambe le copie e verifica tutte le 14 voci, ordine A–Z con tassonomia deliberatamente invertita, 168 combinazioni argomento/territorio/livello per ciascuna copia, ricerca combinata, ordinamento per titolo/data, conteggi e unicità delle schede multiargomento. Verificata anche una simulazione di import giornaliero e un controllo nazionale senza modifiche.
+27 test Python, compresi i 9 test originali. Il test JavaScript esegue il codice reale del frontend principale e verifica tutte le 14 voci, ordine A–Z con tassonomia deliberatamente invertita, 168 combinazioni argomento/territorio/livello sul catalogo autorevole, ricerca combinata, ordinamento per titolo/data, conteggi e unicità delle schede multiargomento. Verificata anche una simulazione di import giornaliero e un controllo nazionale senza modifiche.
+
+## Archivio autorevole e pubblicazione
+
+GitHub Pages pubblica `main/(root)`: il job di build esegue il checkout di `main` e carica l’intera radice come artifact. `app.js` legge `data.json` dalla stessa directory, insieme alla tassonomia e ai registri nazionali facoltativi. Non esiste un processo di compilazione verso `dist/`.
+
+La cartella `dist/` proveniva dal caricamento del 18 settembre e conservava 68 schede, contro le 106 nella radice all’8 ottobre. Gli aggiornamenti territoriali scrivono soltanto l’archivio principale; quelli nazionali scrivono `national.json` e `update-status.json`. La cartella storica, inclusa anch’essa nell’artifact Pages, rendeva accessibile una seconda distribuzione obsoleta. È rimossa con i suoi duplicati frontend e PDF; i PDF identici nella radice restano intatti. Il vecchio percorso `/dist/` non è più una destinazione pubblicata; la cronologia Git conserva i file precedenti.
+
+`scripts/archive.py` verifica struttura, ID unici, relazioni, rimandi territoriali, sintassi degli URL HTTPS, tassonomia e registro nazionale. Rifiuta la ricomparsa di `dist/`. Con `--base-ref` impedisce la perdita di ID e il ritorno a un’edizione precedente, senza bloccare aggiunte o aggiornamenti documentati delle schede. La CI confronta con la base della PR o con il commit precedente del push. Il workflow nazionale verifica anche la base appena riletta prima del push, mantenendo il meccanismo di concorrenza esistente. Il controllo territoriale deve rileggere `main` e ripetere questi controlli prima del commit. Non sono cambiati orari, fonti, checkpoint o logiche di monitoraggio.
+
+Il test JavaScript verifica anche il percorso reale di caricamento: file nella radice, registro nazionale facoltativo e conservazione del catalogo già caricato se il successivo caricamento fallisce. La validazione degli URL è strutturale: non sostituisce le verifiche di raggiungibilità e vigenza delle fonti. La CI su push segnala gli errori, ma non introduce una nuova protezione del branch o un diverso processo Pages.
 
 ## Registro completo delle 106 schede riesaminate
 

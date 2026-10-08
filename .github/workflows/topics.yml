@@ -4,23 +4,27 @@ on:
     branches: [main]
     paths:
       - 'data.json'
-      - 'dist/data.json'
+      - 'national.json'
+      - 'update-status.json'
+      - 'dist/**'
       - 'topic-taxonomy.json'
       - 'app.js'
-      - 'dist/app.js'
       - 'scripts/**'
       - 'tests/**'
-      - '.github/workflows/topics.yml'
+      - '.github/workflows/**'
+      - 'index.html'
   pull_request:
     paths:
       - 'data.json'
-      - 'dist/data.json'
+      - 'national.json'
+      - 'update-status.json'
+      - 'dist/**'
       - 'topic-taxonomy.json'
       - 'app.js'
-      - 'dist/app.js'
       - 'scripts/**'
       - 'tests/**'
-      - '.github/workflows/topics.yml'
+      - '.github/workflows/**'
+      - 'index.html'
   workflow_dispatch:
 permissions:
   contents: read
@@ -29,7 +33,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: python scripts/topics.py validate data.json dist/data.json
+        with:
+          fetch-depth: 0
+      - name: Valida archivio unico e conservazione degli ID
+        env:
+          BASE_REF: ${{ github.event.pull_request.base.sha || github.event.before }}
+        run: |
+          if [ -n "$BASE_REF" ] && [ "$BASE_REF" != '0000000000000000000000000000000000000000' ]; then
+            python scripts/archive.py --base-ref "$BASE_REF"
+          else
+            python scripts/archive.py
+          fi
+      - run: python scripts/topics.py validate data.json
       - run: python -m unittest discover -s tests -v
-      - run: node --check app.js && node --check dist/app.js
+      - run: node --check app.js
       - run: node tests/test_topic_filters.js

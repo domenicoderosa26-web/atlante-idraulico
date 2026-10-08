@@ -58,3 +58,7 @@ Restano invariati grafica, frontend, filtri, categorie, orari e workflow di moni
 ## Attività residue
 
 La Fase 3 **non è completata**. Restano: confronto semantico/giuridico delle 86 schede senza revisione circoscritta; completamento dei 17 riesami parziali; testo coordinato e allegati Bolzano; coordinamento Basilicata; efficacia/cartografie PZP; rapporti tra vecchi PAI e piani distrettuali; ricerca sistematica degli atti mancanti nelle 20 regioni e Province autonome. Quest’ultima non è ancora avviata nel lotto: si conserva l’ordine audit, criticità, correzioni, censimento. I modificativi emersi durante l’audit sono candidati documentati, non nuove schede incomplete. La matrice non trasforma una richiesta HTTP o la presenza di una scheda in una copertura della materia, e nessuno stato implica assenza di disciplina.
+
+## Prosecuzione incrementale
+
+Il registro [progress.json](../progress.json) raccoglie l'avanzamento dei lotti successivi, con perimetri, limiti e prossime operazioni. Le evidenze storiche di questo audit restano conservate. Il [lotto incrementale 01](incrementale/lotto-01.json) documenta cinque decreti AUBAC: identità, dispositivi e pubblicazioni regionali; gli allegati e la catena successiva restano aperti. Il registro non è un secondo catalogo e i suoi conteggi sono fotografie datate.

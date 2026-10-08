@@ -1,0 +1,86 @@
+{
+  "checked_at": "2026-10-08T19:32:54.146936+00:00",
+  "base_commit": "6f1f126d4943465d1a4d562d8741c28574fd4632",
+  "records_before": 106,
+  "records_after": 106,
+  "document_links_before": 140,
+  "document_links_after": 145,
+  "ids_preserved": true,
+  "existing_documents_preserved": true,
+  "existing_reviews_and_histories_preserved": true,
+  "canonical_topics_and_relations_unchanged": true,
+  "protected_files_unchanged": true,
+  "modified_records": [
+    {
+      "id": "centr-pai-lettomanoppello-142-2026",
+      "fields": [
+        "document_label",
+        "document_note",
+        "document_url",
+        "documentary_review",
+        "documents",
+        "history",
+        "summary"
+      ]
+    },
+    {
+      "id": "centr-pai-notaresco-143-2026",
+      "fields": [
+        "document_label",
+        "document_note",
+        "document_url",
+        "documentary_review",
+        "documents",
+        "history",
+        "summary"
+      ]
+    },
+    {
+      "id": "centr-pai-notaresco-144-2026",
+      "fields": [
+        "document_label",
+        "document_note",
+        "document_url",
+        "documentary_review",
+        "documents",
+        "history",
+        "summary"
+      ]
+    },
+    {
+      "id": "centr-pai-notaresco-145-2026",
+      "fields": [
+        "document_label",
+        "document_note",
+        "document_url",
+        "documentary_review",
+        "documents",
+        "history",
+        "summary"
+      ]
+    },
+    {
+      "id": "centr-pai-tronto-140-2026",
+      "fields": [
+        "document_label",
+        "document_note",
+        "document_url",
+        "documentary_review",
+        "documents",
+        "history",
+        "status",
+        "summary"
+      ]
+    }
+  ],
+  "checks": {
+    "topics_normalize": "passed; zero unresolved",
+    "topics_validate": "passed",
+    "archive_with_base": "passed",
+    "python_unittest": "60 passed",
+    "node_syntax": "passed",
+    "node_topic_filters": "passed; 14 categories, 168 combinations, loading/search",
+    "git_diff_check": "passed"
+  },
+  "publication": "CI and Pages still to verify after publication"
+}

@@ -1,0 +1,887 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-08",
+  "base_commit": "6f1f126d4943465d1a4d562d8741c28574fd4632",
+  "records": [
+    {
+      "id": "centr-pai-tronto-140-2026",
+      "consulted_at": "2026-10-08T19:31:03.865369+00:00",
+      "content_examined": true,
+      "legal_review_complete": false,
+      "source_documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1263502&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_153475338167172906294542067.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "checked_at": "2026-10-08T15:02:34.245843+00:00",
+          "http_status": 200,
+          "final_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1263502&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_153475338167172906294542067.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "content_type": "application/pdf",
+          "sha256": "e0db1495a202ded6649602b0eb4eff6f74dbac7ad7316de2af783115de7338b1",
+          "bytes": 1645328,
+          "body_key": "f8d3d03e6a47115a40eca8addda5ed7f92f88d70e0907379e92e37273fae6e2e",
+          "pdf_signature": true
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURM%20n.%2068%20del%2023%20luglio%202026.pdf",
+          "references": [
+            {
+              "id": "centr-pai-tronto-140-2026",
+              "field": "documents.1.url"
+            }
+          ],
+          "checked_at": "2026-10-08T12:28:49.246950+00:00",
+          "attempts": [
+            {
+              "at": "2026-10-08T12:29:03.045223+00:00",
+              "http_status": 200,
+              "seconds": 13.52
+            }
+          ],
+          "body_key": "532d6f89df1928b61cb7ff67c14fc76100b85e09a32cbedc92f129c54f139d86",
+          "http_status": 200,
+          "final_url": "https://cms.aubac.it/sites/default/files/2026-07/BURM%20n.%2068%20del%2023%20luglio%202026.pdf",
+          "content_type": "application/pdf",
+          "redirects": [],
+          "bytes": 21673272,
+          "sha256": "9ba446ced899153238fc7f75e9516d5a54060fe0e6339fc8622c8aa059da1220",
+          "truncated": false,
+          "pdf_signature": true,
+          "text_extraction": "ok",
+          "text_characters": 1047324,
+          "transport_result": "retrieved_pdf"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "references": [
+            {
+              "id": "centr-pai-lettomanoppello-142-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-notaresco-143-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-notaresco-144-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-notaresco-145-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-pescara-146-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-spoltore-147-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-penne-148-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-tronto-140-2026",
+              "field": "documents.2.url"
+            }
+          ],
+          "checked_at": "2026-10-08T12:28:37.579331+00:00",
+          "attempts": [
+            {
+              "at": "2026-10-08T12:28:49.050950+00:00",
+              "http_status": 200,
+              "seconds": 11.47
+            }
+          ],
+          "body_key": "ffa601a02bb89c07a81656248b23fe02ea34637219a4dc1e272c4d2b72f75e8c",
+          "http_status": 200,
+          "final_url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "content_type": "application/pdf",
+          "redirects": [],
+          "bytes": 6392592,
+          "sha256": "f60be0b529e101915d72dd121fda1e31a8c1d7ffc7e599e898818f6974bf800e",
+          "truncated": false,
+          "pdf_signature": true,
+          "text_extraction": "ok",
+          "text_characters": 220254,
+          "transport_result": "retrieved_pdf"
+        }
+      ],
+      "observations": [
+        {
+          "aspect": "identity",
+          "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1263502&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_153475338167172906294542067.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "locator": "Intestazione, numero e data in calce",
+          "finding": "Decreto segretariale AUBAC 140/2026, datato 9 luglio 2026; territorio specificato nel dispositivo."
+        },
+        {
+          "aspect": "amendment",
+          "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1263502&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_153475338167172906294542067.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "locator": "Dispositivo completo, artt. 1-2",
+          "finding": "Il dispositivo delimita il tratto Viale Rozzi-foce e i quattordici comuni; allinea le mappe al PAI distrettuale idraulico CIP 67/2026. L’art. 2, comma 3, collega gli effetti agli avvisi nei bollettini delle regioni interessate, non alla prima pubblicazione estesa automaticamente a ogni comune."
+        },
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://cms.aubac.it/sites/default/files/2026-07/BURM%20n.%2068%20del%2023%20luglio%202026.pdf",
+          "locator": "BUR Marche n. 68 del 23 luglio 2026: avviso D.S. 140/2026",
+          "finding": "L’avviso dispone gli effetti dalla pubblicazione nei bollettini delle Regioni Marche e Abruzzo; non si certifica una decorrenza unica dal 23 luglio per entrambi i territori."
+        },
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "locator": "BUR Abruzzo n. 30 del 29 luglio 2026, p. 51",
+          "finding": "L’avviso del medesimo decreto è pubblicato in Abruzzo il 29 luglio e richiama entrambe le regioni interessate. Le due date di pubblicazione sono distinte dall’interpretazione giuridica della decorrenza per ciascun ambito."
+        }
+      ],
+      "limitations": [
+        "La revisione riguarda il perimetro dichiarato e non attesta tutte le cartografie, la catena successiva degli atti o la vigenza integrale."
+      ],
+      "pending": [
+        "Esaminare integralmente cartografie e relazioni allegate e verificare eventuali aggiornamenti successivi; la lettura non certifica vigenza esaustiva al 2026.",
+        "Chiarire l’applicazione temporale per ciascuna regione senza estendere automaticamente la prima pubblicazione a tutto il bacino."
+      ]
+    },
+    {
+      "id": "centr-pai-lettomanoppello-142-2026",
+      "consulted_at": "2026-10-08T19:31:03.865369+00:00",
+      "content_examined": true,
+      "legal_review_complete": false,
+      "source_documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267634&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_109917858867121659555146232.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "checked_at": "2026-10-08T15:01:29.235172+00:00",
+          "http_status": 200,
+          "final_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267634&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_109917858867121659555146232.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "content_type": "application/pdf",
+          "sha256": "9ea34f65d391be6651de44318871ffc023d6e259d382a53324fc4de8f1eff24b",
+          "bytes": 1642502,
+          "body_key": "0fe0321199c685a9285fc071a743eae51158126d6b9df900ea5c1e1aab7004ed",
+          "pdf_signature": true
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "references": [
+            {
+              "id": "centr-pai-lettomanoppello-142-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-notaresco-143-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-notaresco-144-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-notaresco-145-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-pescara-146-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-spoltore-147-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-penne-148-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-tronto-140-2026",
+              "field": "documents.2.url"
+            }
+          ],
+          "checked_at": "2026-10-08T12:28:37.579331+00:00",
+          "attempts": [
+            {
+              "at": "2026-10-08T12:28:49.050950+00:00",
+              "http_status": 200,
+              "seconds": 11.47
+            }
+          ],
+          "body_key": "ffa601a02bb89c07a81656248b23fe02ea34637219a4dc1e272c4d2b72f75e8c",
+          "http_status": 200,
+          "final_url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "content_type": "application/pdf",
+          "redirects": [],
+          "bytes": 6392592,
+          "sha256": "f60be0b529e101915d72dd121fda1e31a8c1d7ffc7e599e898818f6974bf800e",
+          "truncated": false,
+          "pdf_signature": true,
+          "text_extraction": "ok",
+          "text_characters": 220254,
+          "transport_result": "retrieved_pdf"
+        }
+      ],
+      "observations": [
+        {
+          "aspect": "identity",
+          "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267634&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_109917858867121659555146232.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "locator": "Intestazione, numero e data in calce",
+          "finding": "Decreto segretariale AUBAC 142/2026, datato 15 luglio 2026; territorio specificato nel dispositivo."
+        },
+        {
+          "aspect": "amendment",
+          "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267634&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_109917858867121659555146232.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "locator": "Dispositivo completo, artt. 1-2",
+          "finding": "Il dispositivo art. 1 dispone due inserimenti P3 e allineamento al PAI frane CIP 68/2026. L’intestazione menziona anche un ampliamento che non è ripetuto espressamente nel dispositivo: il disallineamento richiede riscontro cartografico, senza dedurre che l’ampliamento sia inesistente."
+        },
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "locator": "BUR Abruzzo n. 30 del 29 luglio 2026, pp. 52-53; decreto art. 2, comma 3",
+          "finding": "L’avviso collettivo elenca il decreto e collega l’effetto della variante alla pubblicazione dell’avviso. Il dispositivo identifica in dettaglio gli interventi adottati."
+        }
+      ],
+      "limitations": [
+        "La revisione riguarda il perimetro dichiarato e non attesta tutte le cartografie, la catena successiva degli atti o la vigenza integrale."
+      ],
+      "pending": [
+        "Esaminare integralmente cartografie e relazioni allegate e verificare eventuali aggiornamenti successivi; la lettura non certifica vigenza esaustiva al 2026.",
+        "Riconciliare il richiamo all’ampliamento in intestazione con dispositivo e allegati cartografici."
+      ]
+    },
+    {
+      "id": "centr-pai-notaresco-143-2026",
+      "consulted_at": "2026-10-08T19:31:03.865369+00:00",
+      "content_examined": true,
+      "legal_review_complete": false,
+      "source_documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267653&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_202664497767122929821541099.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "checked_at": "2026-10-08T15:01:45.066161+00:00",
+          "http_status": 200,
+          "final_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267653&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_202664497767122929821541099.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "content_type": "application/pdf",
+          "sha256": "4beab2978427aec4a259d5494755bcb6f852df2639e5d89d1da8dd27c7661376",
+          "bytes": 1641849,
+          "body_key": "45954f65b5b7fb1157bb31f4d63b0bb8966d6d13f9d7d7d8f7f85ecc1ddd648e",
+          "pdf_signature": true
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "references": [
+            {
+              "id": "centr-pai-lettomanoppello-142-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-notaresco-143-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-notaresco-144-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-notaresco-145-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-pescara-146-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-spoltore-147-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-penne-148-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-tronto-140-2026",
+              "field": "documents.2.url"
+            }
+          ],
+          "checked_at": "2026-10-08T12:28:37.579331+00:00",
+          "attempts": [
+            {
+              "at": "2026-10-08T12:28:49.050950+00:00",
+              "http_status": 200,
+              "seconds": 11.47
+            }
+          ],
+          "body_key": "ffa601a02bb89c07a81656248b23fe02ea34637219a4dc1e272c4d2b72f75e8c",
+          "http_status": 200,
+          "final_url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "content_type": "application/pdf",
+          "redirects": [],
+          "bytes": 6392592,
+          "sha256": "f60be0b529e101915d72dd121fda1e31a8c1d7ffc7e599e898818f6974bf800e",
+          "truncated": false,
+          "pdf_signature": true,
+          "text_extraction": "ok",
+          "text_characters": 220254,
+          "transport_result": "retrieved_pdf"
+        }
+      ],
+      "observations": [
+        {
+          "aspect": "identity",
+          "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267653&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_202664497767122929821541099.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "locator": "Intestazione, numero e data in calce",
+          "finding": "Decreto segretariale AUBAC 143/2026, datato 15 luglio 2026; territorio specificato nel dispositivo."
+        },
+        {
+          "aspect": "amendment",
+          "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267653&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_202664497767122929821541099.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "locator": "Dispositivo completo, artt. 1-2",
+          "finding": "L’art. 1 distingue inserimento P3 nel centro storico e riduzione di una frana P2 in via Berlinguer; la precedente descrizione di due inserimenti P3 era inesatta. L’intestazione e l’avviso hanno una formulazione sintetica differente: si distingue il dispositivo."
+        },
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "locator": "BUR Abruzzo n. 30 del 29 luglio 2026, pp. 52-53; decreto art. 2, comma 3",
+          "finding": "L’avviso collettivo elenca il decreto e collega l’effetto della variante alla pubblicazione dell’avviso. Il dispositivo identifica in dettaglio gli interventi adottati."
+        }
+      ],
+      "limitations": [
+        "La revisione riguarda il perimetro dichiarato e non attesta tutte le cartografie, la catena successiva degli atti o la vigenza integrale."
+      ],
+      "pending": [
+        "Esaminare integralmente cartografie e relazioni allegate e verificare eventuali aggiornamenti successivi; la lettura non certifica vigenza esaustiva al 2026."
+      ]
+    },
+    {
+      "id": "centr-pai-notaresco-144-2026",
+      "consulted_at": "2026-10-08T19:31:03.865369+00:00",
+      "content_examined": true,
+      "legal_review_complete": false,
+      "source_documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267684&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_192166046567123425881295260.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "checked_at": "2026-10-08T15:01:46.453203+00:00",
+          "http_status": 200,
+          "final_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267684&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_192166046567123425881295260.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "content_type": "application/pdf",
+          "sha256": "b2d7c5a5af466f0112fd0e7386c045e380bd5dc8a22e9b9917fe44f11cc7f67a",
+          "bytes": 1641271,
+          "body_key": "5d693af4c87abdb98f42f2726689df23610be3daabc915c74ebd6ef403aadee2",
+          "pdf_signature": true
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "references": [
+            {
+              "id": "centr-pai-lettomanoppello-142-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-notaresco-143-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-notaresco-144-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-notaresco-145-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-pescara-146-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-spoltore-147-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-penne-148-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-tronto-140-2026",
+              "field": "documents.2.url"
+            }
+          ],
+          "checked_at": "2026-10-08T12:28:37.579331+00:00",
+          "attempts": [
+            {
+              "at": "2026-10-08T12:28:49.050950+00:00",
+              "http_status": 200,
+              "seconds": 11.47
+            }
+          ],
+          "body_key": "ffa601a02bb89c07a81656248b23fe02ea34637219a4dc1e272c4d2b72f75e8c",
+          "http_status": 200,
+          "final_url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "content_type": "application/pdf",
+          "redirects": [],
+          "bytes": 6392592,
+          "sha256": "f60be0b529e101915d72dd121fda1e31a8c1d7ffc7e599e898818f6974bf800e",
+          "truncated": false,
+          "pdf_signature": true,
+          "text_extraction": "ok",
+          "text_characters": 220254,
+          "transport_result": "retrieved_pdf"
+        }
+      ],
+      "observations": [
+        {
+          "aspect": "identity",
+          "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267684&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_192166046567123425881295260.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "locator": "Intestazione, numero e data in calce",
+          "finding": "Decreto segretariale AUBAC 144/2026, datato 15 luglio 2026; territorio specificato nel dispositivo."
+        },
+        {
+          "aspect": "amendment",
+          "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267684&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_192166046567123425881295260.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "locator": "Dispositivo completo, artt. 1-2",
+          "finding": "L’art. 1 elimina una frana P3 a Casette Grasciano e allinea il quadro conoscitivo al PAI distrettuale frane; non è una generica variante priva di contenuto individuato."
+        },
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "locator": "BUR Abruzzo n. 30 del 29 luglio 2026, pp. 52-53; decreto art. 2, comma 3",
+          "finding": "L’avviso collettivo elenca il decreto e collega l’effetto della variante alla pubblicazione dell’avviso. Il dispositivo identifica in dettaglio gli interventi adottati."
+        }
+      ],
+      "limitations": [
+        "La revisione riguarda il perimetro dichiarato e non attesta tutte le cartografie, la catena successiva degli atti o la vigenza integrale."
+      ],
+      "pending": [
+        "Esaminare integralmente cartografie e relazioni allegate e verificare eventuali aggiornamenti successivi; la lettura non certifica vigenza esaustiva al 2026."
+      ]
+    },
+    {
+      "id": "centr-pai-notaresco-145-2026",
+      "consulted_at": "2026-10-08T19:31:03.865369+00:00",
+      "content_examined": true,
+      "legal_review_complete": false,
+      "source_documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267702&DOCORE_versione=1&FNSTR=NYJMGR_VCGXFFF_1283506217671238211642869001.KYW.O7R&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "checked_at": "2026-10-08T15:01:59.738130+00:00",
+          "http_status": 200,
+          "final_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267702&DOCORE_versione=1&FNSTR=NYJMGR_VCGXFFF_1283506217671238211642869001.KYW.O7R&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "content_type": "application/pdf",
+          "sha256": "b9152fee9bde0d9d47354bbaf413bbe6791e3250f766ae6c1c4e151d0aff70e6",
+          "bytes": 1641759,
+          "body_key": "d45b9ccff9a0dbd0fd0da2d1077092a56fd436e04817bd90b3a4357f3e985c9e",
+          "pdf_signature": true
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "references": [
+            {
+              "id": "centr-pai-lettomanoppello-142-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-notaresco-143-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-notaresco-144-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-notaresco-145-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-pescara-146-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-spoltore-147-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-penne-148-2026",
+              "field": "documents.1.url"
+            },
+            {
+              "id": "centr-pai-tronto-140-2026",
+              "field": "documents.2.url"
+            }
+          ],
+          "checked_at": "2026-10-08T12:28:37.579331+00:00",
+          "attempts": [
+            {
+              "at": "2026-10-08T12:28:49.050950+00:00",
+              "http_status": 200,
+              "seconds": 11.47
+            }
+          ],
+          "body_key": "ffa601a02bb89c07a81656248b23fe02ea34637219a4dc1e272c4d2b72f75e8c",
+          "http_status": 200,
+          "final_url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "content_type": "application/pdf",
+          "redirects": [],
+          "bytes": 6392592,
+          "sha256": "f60be0b529e101915d72dd121fda1e31a8c1d7ffc7e599e898818f6974bf800e",
+          "truncated": false,
+          "pdf_signature": true,
+          "text_extraction": "ok",
+          "text_characters": 220254,
+          "transport_result": "retrieved_pdf"
+        }
+      ],
+      "observations": [
+        {
+          "aspect": "identity",
+          "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267702&DOCORE_versione=1&FNSTR=NYJMGR_VCGXFFF_1283506217671238211642869001.KYW.O7R&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "locator": "Intestazione, numero e data in calce",
+          "finding": "Decreto segretariale AUBAC 145/2026, datato 15 luglio 2026; territorio specificato nel dispositivo."
+        },
+        {
+          "aspect": "amendment",
+          "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267702&DOCORE_versione=1&FNSTR=NYJMGR_VCGXFFF_1283506217671238211642869001.KYW.O7R&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "locator": "Dispositivo completo, artt. 1-2",
+          "finding": "L’art. 1 inserisce una frana P3 e due orli attivi Ps, e riperimetra due corpi preesistenti; l’allineamento concerne il PAI distrettuale frane."
+        },
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "locator": "BUR Abruzzo n. 30 del 29 luglio 2026, pp. 52-53; decreto art. 2, comma 3",
+          "finding": "L’avviso collettivo elenca il decreto e collega l’effetto della variante alla pubblicazione dell’avviso. Il dispositivo identifica in dettaglio gli interventi adottati."
+        }
+      ],
+      "limitations": [
+        "La revisione riguarda il perimetro dichiarato e non attesta tutte le cartografie, la catena successiva degli atti o la vigenza integrale."
+      ],
+      "pending": [
+        "Esaminare integralmente cartografie e relazioni allegate e verificare eventuali aggiornamenti successivi; la lettura non certifica vigenza esaustiva al 2026."
+      ]
+    }
+  ],
+  "corrections": [
+    {
+      "id": "centr-pai-tronto-140-2026",
+      "field": "summary",
+      "before": "Aggiornamento definitivo delle aree a rischio di esondazione del Fiume Tronto e degli affluenti, dal ponte di Viale Rozzi ad Ascoli Piceno alla foce. Interessa nove comuni marchigiani e cinque comuni abruzzesi; le nuove perimetrazioni sono efficaci dalla prima pubblicazione nel BUR Marche del 23 luglio 2026.",
+      "after": "Aggiornamento definitivo delle aree a rischio di esondazione del Fiume Tronto e degli affluenti, dal ponte di Viale Rozzi ad Ascoli Piceno alla foce, nei nove comuni marchigiani e cinque abruzzesi indicati dal decreto. Gli avvisi sono pubblicati nel BUR Marche del 23 luglio e nel BUR Abruzzo del 29 luglio 2026; l’art. 2 collega l’efficacia alla pubblicazione nei bollettini delle regioni territorialmente interessate."
+    },
+    {
+      "id": "centr-pai-tronto-140-2026",
+      "field": "documents",
+      "before": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3267&StwEvent=101",
+          "label": "Decreto segretariale 140/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURM%20n.%2068%20del%2023%20luglio%202026.pdf",
+          "label": "BUR Marche n. 68 del 23/07/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "label": "BUR Abruzzo n. 30 del 29/07/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        }
+      ],
+      "after": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3267&StwEvent=101",
+          "label": "Decreto segretariale 140/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURM%20n.%2068%20del%2023%20luglio%202026.pdf",
+          "label": "BUR Marche n. 68 del 23/07/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "label": "BUR Abruzzo n. 30 del 29/07/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        },
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1263502&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_153475338167172906294542067.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "label": "Decreto segretariale 140/2026 · PDF ufficiale",
+          "format": "pdf",
+          "group": "Atto",
+          "link_status": "checked",
+          "link_checked": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "id": "centr-pai-tronto-140-2026",
+      "field": "document_url",
+      "before": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3267&StwEvent=101",
+      "after": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1263502&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_153475338167172906294542067.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S"
+    },
+    {
+      "id": "centr-pai-tronto-140-2026",
+      "field": "document_label",
+      "before": "Decreto segretariale 140/2026",
+      "after": "Decreto segretariale 140/2026 · PDF ufficiale"
+    },
+    {
+      "id": "centr-pai-tronto-140-2026",
+      "field": "document_note",
+      "before": "Il dettaglio URBI ha restituito timeout; numero, data, oggetto, ambito ed efficacia sono verificati sulle pagine AUBAC e sui due bollettini regionali.",
+      "after": "Il decreto PDF è stato acquisito dall’archivio ufficiale AUBAC e ne sono stati letti identità e dispositivo. Le cronologie conservano i precedenti problemi di accesso; gli allegati cartografici non sono interamente riesaminati."
+    },
+    {
+      "id": "centr-pai-tronto-140-2026",
+      "field": "status",
+      "before": "Aggiornamento definitivo · efficace dal 23/07/2026",
+      "after": "Aggiornamento definitivo · pubblicazioni regionali verificate"
+    },
+    {
+      "id": "centr-pai-lettomanoppello-142-2026",
+      "field": "summary",
+      "before": "Aggiornamento definitivo del PAI frane nel capoluogo di Lettomanoppello: ampliamento di un corpo di frana a pericolosità molto elevata P3 e inserimento di ulteriori corpi di frana P3 nel centro storico e nella zona a sud-est del centro storico.",
+      "after": "Aggiornamento definitivo del PAI frane nel capoluogo di Lettomanoppello: il dispositivo dispone l’inserimento di due corpi di frana a pericolosità molto elevata P3, nel centro storico e a sud-est del centro storico. L’intestazione richiama anche un ampliamento, da riscontrare negli allegati cartografici."
+    },
+    {
+      "id": "centr-pai-lettomanoppello-142-2026",
+      "field": "documents",
+      "before": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3273&StwEvent=101",
+          "label": "Decreto segretariale 142/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "label": "BUR Abruzzo n. 30 del 29/07/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        }
+      ],
+      "after": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3273&StwEvent=101",
+          "label": "Decreto segretariale 142/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "label": "BUR Abruzzo n. 30 del 29/07/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        },
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267634&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_109917858867121659555146232.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "label": "Decreto segretariale 142/2026 · PDF ufficiale",
+          "format": "pdf",
+          "group": "Atto",
+          "link_status": "checked",
+          "link_checked": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "id": "centr-pai-lettomanoppello-142-2026",
+      "field": "document_url",
+      "before": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3273&StwEvent=101",
+      "after": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267634&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_109917858867121659555146232.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S"
+    },
+    {
+      "id": "centr-pai-lettomanoppello-142-2026",
+      "field": "document_label",
+      "before": "Decreto segretariale 142/2026",
+      "after": "Decreto segretariale 142/2026 · PDF ufficiale"
+    },
+    {
+      "id": "centr-pai-lettomanoppello-142-2026",
+      "field": "document_note",
+      "before": "Collegamento ufficiale pubblicato nell’avviso del BUR Abruzzo; il portale URBI non è risultato acquisibile dal servizio di verifica.",
+      "after": "Il decreto PDF è stato acquisito dall’archivio ufficiale AUBAC e ne sono stati letti identità e dispositivo. Le cronologie conservano i precedenti problemi di accesso; gli allegati cartografici non sono interamente riesaminati. L’intestazione menziona un ampliamento non ripetuto espressamente nel dispositivo: occorre riscontro degli allegati."
+    },
+    {
+      "id": "centr-pai-notaresco-143-2026",
+      "field": "summary",
+      "before": "Aggiornamento definitivo del PAI frane nel Comune di Notaresco: inserimento di corpi di frana a pericolosità elevata P3 sul versante orientale del centro storico e nella zona di via Berlinguer.",
+      "after": "Aggiornamento definitivo del PAI frane nel Comune di Notaresco: inserimento di un corpo di frana a pericolosità molto elevata P3 sul versante orientale del centro storico e riduzione del perimetro di un corpo di frana a pericolosità elevata P2 sul versante sud-orientale, in via Berlinguer."
+    },
+    {
+      "id": "centr-pai-notaresco-143-2026",
+      "field": "documents",
+      "before": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3274&StwEvent=101",
+          "label": "Decreto segretariale 143/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "label": "BUR Abruzzo n. 30 del 29/07/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        }
+      ],
+      "after": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3274&StwEvent=101",
+          "label": "Decreto segretariale 143/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "label": "BUR Abruzzo n. 30 del 29/07/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        },
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267653&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_202664497767122929821541099.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "label": "Decreto segretariale 143/2026 · PDF ufficiale",
+          "format": "pdf",
+          "group": "Atto",
+          "link_status": "checked",
+          "link_checked": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "id": "centr-pai-notaresco-143-2026",
+      "field": "document_url",
+      "before": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3274&StwEvent=101",
+      "after": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267653&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_202664497767122929821541099.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S"
+    },
+    {
+      "id": "centr-pai-notaresco-143-2026",
+      "field": "document_label",
+      "before": "Decreto segretariale 143/2026",
+      "after": "Decreto segretariale 143/2026 · PDF ufficiale"
+    },
+    {
+      "id": "centr-pai-notaresco-143-2026",
+      "field": "document_note",
+      "before": "Collegamento ufficiale pubblicato nell’avviso del BUR Abruzzo; il portale URBI non è risultato acquisibile dal servizio di verifica.",
+      "after": "Il decreto PDF è stato acquisito dall’archivio ufficiale AUBAC e ne sono stati letti identità e dispositivo. Le cronologie conservano i precedenti problemi di accesso; gli allegati cartografici non sono interamente riesaminati."
+    },
+    {
+      "id": "centr-pai-notaresco-144-2026",
+      "field": "summary",
+      "before": "Aggiornamento definitivo del PAI frane relativo alla località Casette Grasciano nel Comune di Notaresco, compreso nel gruppo di varianti pubblicato nel BUR Abruzzo n. 30 del 29 luglio 2026.",
+      "after": "Aggiornamento definitivo del PAI frane mediante eliminazione di un corpo di frana a pericolosità molto elevata P3 in località Casette Grasciano nel Comune di Notaresco. L’avviso è pubblicato nel BUR Abruzzo n. 30 del 29 luglio 2026."
+    },
+    {
+      "id": "centr-pai-notaresco-144-2026",
+      "field": "documents",
+      "before": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3275&StwEvent=101",
+          "label": "Decreto segretariale 144/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "label": "BUR Abruzzo n. 30 del 29/07/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        }
+      ],
+      "after": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3275&StwEvent=101",
+          "label": "Decreto segretariale 144/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "label": "BUR Abruzzo n. 30 del 29/07/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        },
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267684&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_192166046567123425881295260.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "label": "Decreto segretariale 144/2026 · PDF ufficiale",
+          "format": "pdf",
+          "group": "Atto",
+          "link_status": "checked",
+          "link_checked": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "id": "centr-pai-notaresco-144-2026",
+      "field": "document_url",
+      "before": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3275&StwEvent=101",
+      "after": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267684&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_192166046567123425881295260.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S"
+    },
+    {
+      "id": "centr-pai-notaresco-144-2026",
+      "field": "document_label",
+      "before": "Decreto segretariale 144/2026",
+      "after": "Decreto segretariale 144/2026 · PDF ufficiale"
+    },
+    {
+      "id": "centr-pai-notaresco-144-2026",
+      "field": "document_note",
+      "before": "Collegamento ufficiale pubblicato nell’avviso del BUR Abruzzo; il portale URBI non è risultato acquisibile dal servizio di verifica.",
+      "after": "Il decreto PDF è stato acquisito dall’archivio ufficiale AUBAC e ne sono stati letti identità e dispositivo. Le cronologie conservano i precedenti problemi di accesso; gli allegati cartografici non sono interamente riesaminati."
+    },
+    {
+      "id": "centr-pai-notaresco-145-2026",
+      "field": "summary",
+      "before": "Aggiornamento definitivo del PAI frane relativo alla Contrada Santa Croce nel Comune di Notaresco, compreso nel gruppo di varianti pubblicato nel BUR Abruzzo n. 30 del 29 luglio 2026.",
+      "after": "Aggiornamento definitivo del PAI frane in Contrada Santa Croce a Notaresco: inserimento di un corpo di frana P3, inserimento di due orli di scarpata attivi Ps e riperimetrazione di due corpi di frana esistenti. L’avviso è pubblicato nel BUR Abruzzo n. 30 del 29 luglio 2026."
+    },
+    {
+      "id": "centr-pai-notaresco-145-2026",
+      "field": "documents",
+      "before": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3276&StwEvent=101",
+          "label": "Decreto segretariale 145/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "label": "BUR Abruzzo n. 30 del 29/07/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        }
+      ],
+      "after": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3276&StwEvent=101",
+          "label": "Decreto segretariale 145/2026 · dettaglio atto",
+          "group": "Atto"
+        },
+        {
+          "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+          "label": "BUR Abruzzo n. 30 del 29/07/2026",
+          "format": "pdf",
+          "group": "Pubblicazione"
+        },
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267702&DOCORE_versione=1&FNSTR=NYJMGR_VCGXFFF_1283506217671238211642869001.KYW.O7R&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "label": "Decreto segretariale 145/2026 · PDF ufficiale",
+          "format": "pdf",
+          "group": "Atto",
+          "link_status": "checked",
+          "link_checked": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "id": "centr-pai-notaresco-145-2026",
+      "field": "document_url",
+      "before": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3276&StwEvent=101",
+      "after": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267702&DOCORE_versione=1&FNSTR=NYJMGR_VCGXFFF_1283506217671238211642869001.KYW.O7R&DB_NAME=n1202633&ContestoChk=DE&P7M=S"
+    },
+    {
+      "id": "centr-pai-notaresco-145-2026",
+      "field": "document_label",
+      "before": "Decreto segretariale 145/2026",
+      "after": "Decreto segretariale 145/2026 · PDF ufficiale"
+    },
+    {
+      "id": "centr-pai-notaresco-145-2026",
+      "field": "document_note",
+      "before": "Collegamento ufficiale pubblicato nell’avviso del BUR Abruzzo; il portale URBI non è risultato acquisibile dal servizio di verifica.",
+      "after": "Il decreto PDF è stato acquisito dall’archivio ufficiale AUBAC e ne sono stati letti identità e dispositivo. Le cronologie conservano i precedenti problemi di accesso; gli allegati cartografici non sono interamente riesaminati."
+    }
+  ],
+  "publication": {
+    "state": "validated_pending_deployment"
+  }
+}

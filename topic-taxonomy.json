@@ -2683,7 +2683,8 @@
       "source_urls": [
         "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
         "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3273&StwEvent=101",
-        "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf"
+        "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+        "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267634&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_109917858867121659555146232.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S"
       ],
       "object_versions": [
         {
@@ -2695,9 +2696,19 @@
             "Verificare l’ampliamento del dissesto esistente",
             "Coordinare l’aggiornamento con il PAI frane distrettuale"
           ]
+        },
+        {
+          "title": "Aggiornamento PAI Abruzzo · dissesti nel capoluogo di Lettomanoppello",
+          "ref": "D.S. AUBAC 142/2026",
+          "summary": "Aggiornamento definitivo del PAI frane nel capoluogo di Lettomanoppello: il dispositivo dispone l’inserimento di due corpi di frana a pericolosità molto elevata P3, nel centro storico e a sud-est del centro storico. L’intestazione richiama anche un ampliamento, da riscontrare negli allegati cartografici.",
+          "focus": [
+            "Consultare le nuove perimetrazioni P3",
+            "Verificare l’ampliamento del dissesto esistente",
+            "Coordinare l’aggiornamento con il PAI frane distrettuale"
+          ]
         }
       ],
-      "evidence": "Oggetto e ambito sostanziale della scheda: Aggiornamento definitivo del PAI frane nel capoluogo di Lettomanoppello: ampliamento di un corpo di frana a pericolosità molto elevata P3 e inserimento di ulteriori corpi di frana P3 nel centro storico e nella zona a sud-est del centro storico. Focus: Consultare le nuove perimetrazioni P3; Verificare l’ampliamento del dissesto esistente; Coordinare l’aggiornamento con il PAI frane distrettuale"
+      "evidence": "Oggetto e ambito sostanziale della scheda: Aggiornamento definitivo del PAI frane nel capoluogo di Lettomanoppello: ampliamento di un corpo di frana a pericolosità molto elevata P3 e inserimento di ulteriori corpi di frana P3 nel centro storico e nella zona a sud-est del centro storico. Focus: Consultare le nuove perimetrazioni P3; Verificare l’ampliamento del dissesto esistente; Coordinare l’aggiornamento con il PAI frane distrettuale Riesame 8 ottobre 2026, lotto 01: Il dispositivo art. 1 dispone due inserimenti P3 e allineamento al PAI frane CIP 68/2026. L’intestazione menziona anche un ampliamento che non è ripetuto espressamente nel dispositivo: il disallineamento richiede riscontro cartografico, senza dedurre che l’ampliamento sia inesistente. Argomenti canonici invariati, verificati sulla materia del dispositivo."
     },
     "centr-pai-notaresco-143-2026": {
       "topics": [
@@ -2706,7 +2717,8 @@
       "source_urls": [
         "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
         "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3274&StwEvent=101",
-        "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf"
+        "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+        "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267653&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_202664497767122929821541099.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S"
       ],
       "object_versions": [
         {
@@ -2718,9 +2730,19 @@
             "Verificare il versante orientale del capoluogo",
             "Verificare la zona di via Berlinguer"
           ]
+        },
+        {
+          "title": "Aggiornamento PAI Abruzzo · dissesti nel capoluogo di Notaresco",
+          "ref": "D.S. AUBAC 143/2026",
+          "summary": "Aggiornamento definitivo del PAI frane nel Comune di Notaresco: inserimento di un corpo di frana a pericolosità molto elevata P3 sul versante orientale del centro storico e riduzione del perimetro di un corpo di frana a pericolosità elevata P2 sul versante sud-orientale, in via Berlinguer.",
+          "focus": [
+            "Consultare le nuove perimetrazioni P3",
+            "Verificare il versante orientale del capoluogo",
+            "Verificare la zona di via Berlinguer"
+          ]
         }
       ],
-      "evidence": "Oggetto e ambito sostanziale della scheda: Aggiornamento definitivo del PAI frane nel Comune di Notaresco: inserimento di corpi di frana a pericolosità elevata P3 sul versante orientale del centro storico e nella zona di via Berlinguer. Focus: Consultare le nuove perimetrazioni P3; Verificare il versante orientale del capoluogo; Verificare la zona di via Berlinguer"
+      "evidence": "Oggetto e ambito sostanziale della scheda: Aggiornamento definitivo del PAI frane nel Comune di Notaresco: inserimento di corpi di frana a pericolosità elevata P3 sul versante orientale del centro storico e nella zona di via Berlinguer. Focus: Consultare le nuove perimetrazioni P3; Verificare il versante orientale del capoluogo; Verificare la zona di via Berlinguer Riesame 8 ottobre 2026, lotto 01: L’art. 1 distingue inserimento P3 nel centro storico e riduzione di una frana P2 in via Berlinguer; la precedente descrizione di due inserimenti P3 era inesatta. L’intestazione e l’avviso hanno una formulazione sintetica differente: si distingue il dispositivo. Argomenti canonici invariati, verificati sulla materia del dispositivo."
     },
     "centr-pai-notaresco-144-2026": {
       "topics": [
@@ -2729,7 +2751,8 @@
       "source_urls": [
         "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
         "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3275&StwEvent=101",
-        "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf"
+        "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+        "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267684&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_192166046567123425881295260.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S"
       ],
       "object_versions": [
         {
@@ -2741,9 +2764,19 @@
             "Verificare l’area di Casette Grasciano",
             "Coordinare l’aggiornamento con il PAI frane distrettuale"
           ]
+        },
+        {
+          "title": "Aggiornamento PAI Abruzzo · località Casette Grasciano a Notaresco",
+          "ref": "D.S. AUBAC 144/2026",
+          "summary": "Aggiornamento definitivo del PAI frane mediante eliminazione di un corpo di frana a pericolosità molto elevata P3 in località Casette Grasciano nel Comune di Notaresco. L’avviso è pubblicato nel BUR Abruzzo n. 30 del 29 luglio 2026.",
+          "focus": [
+            "Consultare la cartografia aggiornata",
+            "Verificare l’area di Casette Grasciano",
+            "Coordinare l’aggiornamento con il PAI frane distrettuale"
+          ]
         }
       ],
-      "evidence": "Oggetto e ambito sostanziale della scheda: Aggiornamento definitivo del PAI frane relativo alla località Casette Grasciano nel Comune di Notaresco, compreso nel gruppo di varianti pubblicato nel BUR Abruzzo n. 30 del 29 luglio 2026. Focus: Consultare la cartografia aggiornata; Verificare l’area di Casette Grasciano; Coordinare l’aggiornamento con il PAI frane distrettuale"
+      "evidence": "Oggetto e ambito sostanziale della scheda: Aggiornamento definitivo del PAI frane relativo alla località Casette Grasciano nel Comune di Notaresco, compreso nel gruppo di varianti pubblicato nel BUR Abruzzo n. 30 del 29 luglio 2026. Focus: Consultare la cartografia aggiornata; Verificare l’area di Casette Grasciano; Coordinare l’aggiornamento con il PAI frane distrettuale Riesame 8 ottobre 2026, lotto 01: L’art. 1 elimina una frana P3 a Casette Grasciano e allinea il quadro conoscitivo al PAI distrettuale frane; non è una generica variante priva di contenuto individuato. Argomenti canonici invariati, verificati sulla materia del dispositivo."
     },
     "centr-pai-notaresco-145-2026": {
       "topics": [
@@ -2752,7 +2785,8 @@
       "source_urls": [
         "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
         "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3276&StwEvent=101",
-        "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf"
+        "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+        "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267702&DOCORE_versione=1&FNSTR=NYJMGR_VCGXFFF_1283506217671238211642869001.KYW.O7R&DB_NAME=n1202633&ContestoChk=DE&P7M=S"
       ],
       "object_versions": [
         {
@@ -2764,9 +2798,19 @@
             "Verificare l’area di Contrada Santa Croce",
             "Coordinare l’aggiornamento con il PAI frane distrettuale"
           ]
+        },
+        {
+          "title": "Aggiornamento PAI Abruzzo · Contrada Santa Croce a Notaresco",
+          "ref": "D.S. AUBAC 145/2026",
+          "summary": "Aggiornamento definitivo del PAI frane in Contrada Santa Croce a Notaresco: inserimento di un corpo di frana P3, inserimento di due orli di scarpata attivi Ps e riperimetrazione di due corpi di frana esistenti. L’avviso è pubblicato nel BUR Abruzzo n. 30 del 29 luglio 2026.",
+          "focus": [
+            "Consultare la cartografia aggiornata",
+            "Verificare l’area di Contrada Santa Croce",
+            "Coordinare l’aggiornamento con il PAI frane distrettuale"
+          ]
         }
       ],
-      "evidence": "Oggetto e ambito sostanziale della scheda: Aggiornamento definitivo del PAI frane relativo alla Contrada Santa Croce nel Comune di Notaresco, compreso nel gruppo di varianti pubblicato nel BUR Abruzzo n. 30 del 29 luglio 2026. Focus: Consultare la cartografia aggiornata; Verificare l’area di Contrada Santa Croce; Coordinare l’aggiornamento con il PAI frane distrettuale"
+      "evidence": "Oggetto e ambito sostanziale della scheda: Aggiornamento definitivo del PAI frane relativo alla Contrada Santa Croce nel Comune di Notaresco, compreso nel gruppo di varianti pubblicato nel BUR Abruzzo n. 30 del 29 luglio 2026. Focus: Consultare la cartografia aggiornata; Verificare l’area di Contrada Santa Croce; Coordinare l’aggiornamento con il PAI frane distrettuale Riesame 8 ottobre 2026, lotto 01: L’art. 1 inserisce una frana P3 e due orli attivi Ps, e riperimetra due corpi preesistenti; l’allineamento concerne il PAI distrettuale frane. Argomenti canonici invariati, verificati sulla materia del dispositivo."
     },
     "centr-pai-pescara-146-2026": {
       "topics": [
@@ -2845,7 +2889,8 @@
         "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3267&StwEvent=101",
         "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
         "https://cms.aubac.it/sites/default/files/2026-07/BURM%20n.%2068%20del%2023%20luglio%202026.pdf",
-        "https://www.aubac.it/news/notizie/rischio-idraulico-approvato-laggiornamento-delle-aree-rischio-di-esondazione-del-fiume-tronto-e-dei"
+        "https://www.aubac.it/news/notizie/rischio-idraulico-approvato-laggiornamento-delle-aree-rischio-di-esondazione-del-fiume-tronto-e-dei",
+        "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1263502&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_153475338167172906294542067.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S"
       ],
       "object_versions": [
         {
@@ -2857,9 +2902,19 @@
             "Verificare l’incidenza nei quattordici comuni interessati",
             "Coordinare la variante con il PAI idraulico distrettuale adottato"
           ]
+        },
+        {
+          "title": "Aggiornamento PAI Tronto · aree a rischio di esondazione del Fiume Tronto e affluenti",
+          "ref": "D.S. AUBAC 140/2026",
+          "summary": "Aggiornamento definitivo delle aree a rischio di esondazione del Fiume Tronto e degli affluenti, dal ponte di Viale Rozzi ad Ascoli Piceno alla foce, nei nove comuni marchigiani e cinque abruzzesi indicati dal decreto. Gli avvisi sono pubblicati nel BUR Marche del 23 luglio e nel BUR Abruzzo del 29 luglio 2026; l’art. 2 collega l’efficacia alla pubblicazione nei bollettini delle regioni territorialmente interessate.",
+          "focus": [
+            "Consultare le nuove perimetrazioni idrauliche",
+            "Verificare l’incidenza nei quattordici comuni interessati",
+            "Coordinare la variante con il PAI idraulico distrettuale adottato"
+          ]
         }
       ],
-      "evidence": "Oggetto e ambito sostanziale della scheda: Aggiornamento definitivo delle aree a rischio di esondazione del Fiume Tronto e degli affluenti, dal ponte di Viale Rozzi ad Ascoli Piceno alla foce. Interessa nove comuni marchigiani e cinque comuni abruzzesi; le nuove perimetrazioni sono efficaci dalla prima pubblicazione nel BUR Marche del 23 luglio 2026. Focus: Consultare le nuove perimetrazioni idrauliche; Verificare l’incidenza nei quattordici comuni interessati; Coordinare la variante con il PAI idraulico distrettuale adottato"
+      "evidence": "Oggetto e ambito sostanziale della scheda: Aggiornamento definitivo delle aree a rischio di esondazione del Fiume Tronto e degli affluenti, dal ponte di Viale Rozzi ad Ascoli Piceno alla foce. Interessa nove comuni marchigiani e cinque comuni abruzzesi; le nuove perimetrazioni sono efficaci dalla prima pubblicazione nel BUR Marche del 23 luglio 2026. Focus: Consultare le nuove perimetrazioni idrauliche; Verificare l’incidenza nei quattordici comuni interessati; Coordinare la variante con il PAI idraulico distrettuale adottato Riesame 8 ottobre 2026, lotto 01: Il dispositivo delimita il tratto Viale Rozzi-foce e i quattordici comuni; allinea le mappe al PAI distrettuale idraulico CIP 67/2026. L’art. 2, comma 3, collega gli effetti agli avvisi nei bollettini delle regioni interessate, non alla prima pubblicazione estesa automaticamente a ogni comune. Argomenti canonici invariati, verificati sulla materia del dispositivo."
     },
     "centr-pai-offida-39-2026": {
       "topics": [

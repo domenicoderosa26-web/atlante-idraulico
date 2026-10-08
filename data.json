@@ -8018,9 +8018,17 @@
           "label": "BUR Abruzzo n. 30 del 29/07/2026",
           "format": "pdf",
           "group": "Pubblicazione"
+        },
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267634&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_109917858867121659555146232.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "label": "Decreto segretariale 142/2026 · PDF ufficiale",
+          "format": "pdf",
+          "group": "Atto",
+          "link_status": "checked",
+          "link_checked": "2026-10-08"
         }
       ],
-      "summary": "Aggiornamento definitivo del PAI frane nel capoluogo di Lettomanoppello: ampliamento di un corpo di frana a pericolosità molto elevata P3 e inserimento di ulteriori corpi di frana P3 nel centro storico e nella zona a sud-est del centro storico.",
+      "summary": "Aggiornamento definitivo del PAI frane nel capoluogo di Lettomanoppello: il dispositivo dispone l’inserimento di due corpi di frana a pericolosità molto elevata P3, nel centro storico e a sud-est del centro storico. L’intestazione richiama anche un ampliamento, da riscontrare negli allegati cartografici.",
       "focus": [
         "Consultare le nuove perimetrazioni P3",
         "Verificare l’ampliamento del dissesto esistente",
@@ -8045,11 +8053,53 @@
         {
           "date": "2026-10-06",
           "text": "Scheda creata dalla raccolta AUBAC e dall’avviso ufficiale nel BUR Abruzzo n. 30 del 29/07/2026; il dettaglio URBI del D.S. 142/2026 non è stato acquisito dal servizio di verifica."
+        },
+        {
+          "date": "2026-10-08",
+          "text": "Audit incrementale, lotto 01: letti dispositivo e avvisi regionali; descrizione e rimando PDF aggiornati con evidenze puntuali. Revisione complessiva ancora parziale."
         }
       ],
-      "document_url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3273&StwEvent=101",
-      "document_label": "Decreto segretariale 142/2026",
-      "document_note": "Collegamento ufficiale pubblicato nell’avviso del BUR Abruzzo; il portale URBI non è risultato acquisibile dal servizio di verifica."
+      "document_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267634&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_109917858867121659555146232.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+      "document_label": "Decreto segretariale 142/2026 · PDF ufficiale",
+      "document_note": "Il decreto PDF è stato acquisito dall’archivio ufficiale AUBAC e ne sono stati letti identità e dispositivo. Le cronologie conservano i precedenti problemi di accesso; gli allegati cartografici non sono interamente riesaminati. L’intestazione menziona un ampliamento non ripetuto espressamente nel dispositivo: occorre riscontro degli allegati.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Identità, dispositivo completo artt. 1-2, relazioni con PAI distrettuale e avvisi regionali; allegati non integralmente riesaminati.",
+        "outcome": "partial",
+        "legal_state": "amended",
+        "source_urls": [
+          "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267634&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_109917858867121659555146232.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "identity",
+            "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267634&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_109917858867121659555146232.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+            "locator": "Intestazione, numero e data in calce",
+            "finding": "Decreto segretariale AUBAC 142/2026, datato 15 luglio 2026; territorio specificato nel dispositivo."
+          },
+          {
+            "aspect": "amendment",
+            "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267634&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_109917858867121659555146232.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+            "locator": "Dispositivo completo, artt. 1-2",
+            "finding": "Il dispositivo art. 1 dispone due inserimenti P3 e allineamento al PAI frane CIP 68/2026. L’intestazione menziona anche un ampliamento che non è ripetuto espressamente nel dispositivo: il disallineamento richiede riscontro cartografico, senza dedurre che l’ampliamento sia inesistente."
+          },
+          {
+            "aspect": "effectiveness",
+            "source_url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+            "locator": "BUR Abruzzo n. 30 del 29 luglio 2026, pp. 52-53; decreto art. 2, comma 3",
+            "finding": "L’avviso collettivo elenca il decreto e collega l’effetto della variante alla pubblicazione dell’avviso. Il dispositivo identifica in dettaglio gli interventi adottati."
+          }
+        ],
+        "limitations": [
+          "La revisione riguarda il perimetro dichiarato e non attesta tutte le cartografie, la catena successiva degli atti o la vigenza integrale."
+        ],
+        "pending": [
+          "Esaminare integralmente cartografie e relazioni allegate e verificare eventuali aggiornamenti successivi; la lettura non certifica vigenza esaustiva al 2026.",
+          "Riconciliare il richiamo all’ampliamento in intestazione con dispositivo e allegati cartografici."
+        ],
+        "record_version": "ed8f8a99e2a2a52263522aab6ea0df31036df7684752c21fc0ae26bf9543c383"
+      }
     },
     {
       "id": "centr-pai-notaresco-143-2026",
@@ -8075,9 +8125,17 @@
           "label": "BUR Abruzzo n. 30 del 29/07/2026",
           "format": "pdf",
           "group": "Pubblicazione"
+        },
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267653&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_202664497767122929821541099.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "label": "Decreto segretariale 143/2026 · PDF ufficiale",
+          "format": "pdf",
+          "group": "Atto",
+          "link_status": "checked",
+          "link_checked": "2026-10-08"
         }
       ],
-      "summary": "Aggiornamento definitivo del PAI frane nel Comune di Notaresco: inserimento di corpi di frana a pericolosità elevata P3 sul versante orientale del centro storico e nella zona di via Berlinguer.",
+      "summary": "Aggiornamento definitivo del PAI frane nel Comune di Notaresco: inserimento di un corpo di frana a pericolosità molto elevata P3 sul versante orientale del centro storico e riduzione del perimetro di un corpo di frana a pericolosità elevata P2 sul versante sud-orientale, in via Berlinguer.",
       "focus": [
         "Consultare le nuove perimetrazioni P3",
         "Verificare il versante orientale del capoluogo",
@@ -8102,11 +8160,52 @@
         {
           "date": "2026-10-06",
           "text": "Scheda creata dalla raccolta AUBAC e dall’avviso ufficiale nel BUR Abruzzo n. 30 del 29/07/2026; il dettaglio URBI del D.S. 143/2026 non è stato acquisito dal servizio di verifica."
+        },
+        {
+          "date": "2026-10-08",
+          "text": "Audit incrementale, lotto 01: letti dispositivo e avvisi regionali; descrizione e rimando PDF aggiornati con evidenze puntuali. Revisione complessiva ancora parziale."
         }
       ],
-      "document_url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3274&StwEvent=101",
-      "document_label": "Decreto segretariale 143/2026",
-      "document_note": "Collegamento ufficiale pubblicato nell’avviso del BUR Abruzzo; il portale URBI non è risultato acquisibile dal servizio di verifica."
+      "document_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267653&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_202664497767122929821541099.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+      "document_label": "Decreto segretariale 143/2026 · PDF ufficiale",
+      "document_note": "Il decreto PDF è stato acquisito dall’archivio ufficiale AUBAC e ne sono stati letti identità e dispositivo. Le cronologie conservano i precedenti problemi di accesso; gli allegati cartografici non sono interamente riesaminati.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Identità, dispositivo completo artt. 1-2, relazioni con PAI distrettuale e avvisi regionali; allegati non integralmente riesaminati.",
+        "outcome": "partial",
+        "legal_state": "amended",
+        "source_urls": [
+          "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267653&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_202664497767122929821541099.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "identity",
+            "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267653&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_202664497767122929821541099.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+            "locator": "Intestazione, numero e data in calce",
+            "finding": "Decreto segretariale AUBAC 143/2026, datato 15 luglio 2026; territorio specificato nel dispositivo."
+          },
+          {
+            "aspect": "amendment",
+            "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267653&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_202664497767122929821541099.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+            "locator": "Dispositivo completo, artt. 1-2",
+            "finding": "L’art. 1 distingue inserimento P3 nel centro storico e riduzione di una frana P2 in via Berlinguer; la precedente descrizione di due inserimenti P3 era inesatta. L’intestazione e l’avviso hanno una formulazione sintetica differente: si distingue il dispositivo."
+          },
+          {
+            "aspect": "effectiveness",
+            "source_url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+            "locator": "BUR Abruzzo n. 30 del 29 luglio 2026, pp. 52-53; decreto art. 2, comma 3",
+            "finding": "L’avviso collettivo elenca il decreto e collega l’effetto della variante alla pubblicazione dell’avviso. Il dispositivo identifica in dettaglio gli interventi adottati."
+          }
+        ],
+        "limitations": [
+          "La revisione riguarda il perimetro dichiarato e non attesta tutte le cartografie, la catena successiva degli atti o la vigenza integrale."
+        ],
+        "pending": [
+          "Esaminare integralmente cartografie e relazioni allegate e verificare eventuali aggiornamenti successivi; la lettura non certifica vigenza esaustiva al 2026."
+        ],
+        "record_version": "1cdd42b13ca0b21eb6e06c1c7780369293134696b5bb4d4bca0c2fef2bb84ca8"
+      }
     },
     {
       "id": "centr-pai-notaresco-144-2026",
@@ -8132,9 +8231,17 @@
           "label": "BUR Abruzzo n. 30 del 29/07/2026",
           "format": "pdf",
           "group": "Pubblicazione"
+        },
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267684&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_192166046567123425881295260.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "label": "Decreto segretariale 144/2026 · PDF ufficiale",
+          "format": "pdf",
+          "group": "Atto",
+          "link_status": "checked",
+          "link_checked": "2026-10-08"
         }
       ],
-      "summary": "Aggiornamento definitivo del PAI frane relativo alla località Casette Grasciano nel Comune di Notaresco, compreso nel gruppo di varianti pubblicato nel BUR Abruzzo n. 30 del 29 luglio 2026.",
+      "summary": "Aggiornamento definitivo del PAI frane mediante eliminazione di un corpo di frana a pericolosità molto elevata P3 in località Casette Grasciano nel Comune di Notaresco. L’avviso è pubblicato nel BUR Abruzzo n. 30 del 29 luglio 2026.",
       "focus": [
         "Consultare la cartografia aggiornata",
         "Verificare l’area di Casette Grasciano",
@@ -8159,11 +8266,52 @@
         {
           "date": "2026-10-06",
           "text": "Scheda creata dalla raccolta AUBAC e dall’avviso ufficiale nel BUR Abruzzo n. 30 del 29/07/2026; il dettaglio URBI del D.S. 144/2026 non è stato acquisito dal servizio di verifica."
+        },
+        {
+          "date": "2026-10-08",
+          "text": "Audit incrementale, lotto 01: letti dispositivo e avvisi regionali; descrizione e rimando PDF aggiornati con evidenze puntuali. Revisione complessiva ancora parziale."
         }
       ],
-      "document_url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3275&StwEvent=101",
-      "document_label": "Decreto segretariale 144/2026",
-      "document_note": "Collegamento ufficiale pubblicato nell’avviso del BUR Abruzzo; il portale URBI non è risultato acquisibile dal servizio di verifica."
+      "document_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267684&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_192166046567123425881295260.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+      "document_label": "Decreto segretariale 144/2026 · PDF ufficiale",
+      "document_note": "Il decreto PDF è stato acquisito dall’archivio ufficiale AUBAC e ne sono stati letti identità e dispositivo. Le cronologie conservano i precedenti problemi di accesso; gli allegati cartografici non sono interamente riesaminati.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Identità, dispositivo completo artt. 1-2, relazioni con PAI distrettuale e avvisi regionali; allegati non integralmente riesaminati.",
+        "outcome": "partial",
+        "legal_state": "amended",
+        "source_urls": [
+          "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267684&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_192166046567123425881295260.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "identity",
+            "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267684&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_192166046567123425881295260.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+            "locator": "Intestazione, numero e data in calce",
+            "finding": "Decreto segretariale AUBAC 144/2026, datato 15 luglio 2026; territorio specificato nel dispositivo."
+          },
+          {
+            "aspect": "amendment",
+            "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267684&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_192166046567123425881295260.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+            "locator": "Dispositivo completo, artt. 1-2",
+            "finding": "L’art. 1 elimina una frana P3 a Casette Grasciano e allinea il quadro conoscitivo al PAI distrettuale frane; non è una generica variante priva di contenuto individuato."
+          },
+          {
+            "aspect": "effectiveness",
+            "source_url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+            "locator": "BUR Abruzzo n. 30 del 29 luglio 2026, pp. 52-53; decreto art. 2, comma 3",
+            "finding": "L’avviso collettivo elenca il decreto e collega l’effetto della variante alla pubblicazione dell’avviso. Il dispositivo identifica in dettaglio gli interventi adottati."
+          }
+        ],
+        "limitations": [
+          "La revisione riguarda il perimetro dichiarato e non attesta tutte le cartografie, la catena successiva degli atti o la vigenza integrale."
+        ],
+        "pending": [
+          "Esaminare integralmente cartografie e relazioni allegate e verificare eventuali aggiornamenti successivi; la lettura non certifica vigenza esaustiva al 2026."
+        ],
+        "record_version": "03faa300185c03158329163c2df66b992aad05d68777048d3732c0c33706aa23"
+      }
     },
     {
       "id": "centr-pai-notaresco-145-2026",
@@ -8189,9 +8337,17 @@
           "label": "BUR Abruzzo n. 30 del 29/07/2026",
           "format": "pdf",
           "group": "Pubblicazione"
+        },
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267702&DOCORE_versione=1&FNSTR=NYJMGR_VCGXFFF_1283506217671238211642869001.KYW.O7R&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "label": "Decreto segretariale 145/2026 · PDF ufficiale",
+          "format": "pdf",
+          "group": "Atto",
+          "link_status": "checked",
+          "link_checked": "2026-10-08"
         }
       ],
-      "summary": "Aggiornamento definitivo del PAI frane relativo alla Contrada Santa Croce nel Comune di Notaresco, compreso nel gruppo di varianti pubblicato nel BUR Abruzzo n. 30 del 29 luglio 2026.",
+      "summary": "Aggiornamento definitivo del PAI frane in Contrada Santa Croce a Notaresco: inserimento di un corpo di frana P3, inserimento di due orli di scarpata attivi Ps e riperimetrazione di due corpi di frana esistenti. L’avviso è pubblicato nel BUR Abruzzo n. 30 del 29 luglio 2026.",
       "focus": [
         "Consultare la cartografia aggiornata",
         "Verificare l’area di Contrada Santa Croce",
@@ -8216,11 +8372,52 @@
         {
           "date": "2026-10-06",
           "text": "Scheda creata dalla raccolta AUBAC e dall’avviso ufficiale nel BUR Abruzzo n. 30 del 29/07/2026; il dettaglio URBI del D.S. 145/2026 non è stato acquisito dal servizio di verifica."
+        },
+        {
+          "date": "2026-10-08",
+          "text": "Audit incrementale, lotto 01: letti dispositivo e avvisi regionali; descrizione e rimando PDF aggiornati con evidenze puntuali. Revisione complessiva ancora parziale."
         }
       ],
-      "document_url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3276&StwEvent=101",
-      "document_label": "Decreto segretariale 145/2026",
-      "document_note": "Collegamento ufficiale pubblicato nell’avviso del BUR Abruzzo; il portale URBI non è risultato acquisibile dal servizio di verifica."
+      "document_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267702&DOCORE_versione=1&FNSTR=NYJMGR_VCGXFFF_1283506217671238211642869001.KYW.O7R&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+      "document_label": "Decreto segretariale 145/2026 · PDF ufficiale",
+      "document_note": "Il decreto PDF è stato acquisito dall’archivio ufficiale AUBAC e ne sono stati letti identità e dispositivo. Le cronologie conservano i precedenti problemi di accesso; gli allegati cartografici non sono interamente riesaminati.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Identità, dispositivo completo artt. 1-2, relazioni con PAI distrettuale e avvisi regionali; allegati non integralmente riesaminati.",
+        "outcome": "partial",
+        "legal_state": "amended",
+        "source_urls": [
+          "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267702&DOCORE_versione=1&FNSTR=NYJMGR_VCGXFFF_1283506217671238211642869001.KYW.O7R&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "identity",
+            "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267702&DOCORE_versione=1&FNSTR=NYJMGR_VCGXFFF_1283506217671238211642869001.KYW.O7R&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+            "locator": "Intestazione, numero e data in calce",
+            "finding": "Decreto segretariale AUBAC 145/2026, datato 15 luglio 2026; territorio specificato nel dispositivo."
+          },
+          {
+            "aspect": "amendment",
+            "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267702&DOCORE_versione=1&FNSTR=NYJMGR_VCGXFFF_1283506217671238211642869001.KYW.O7R&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+            "locator": "Dispositivo completo, artt. 1-2",
+            "finding": "L’art. 1 inserisce una frana P3 e due orli attivi Ps, e riperimetra due corpi preesistenti; l’allineamento concerne il PAI distrettuale frane."
+          },
+          {
+            "aspect": "effectiveness",
+            "source_url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+            "locator": "BUR Abruzzo n. 30 del 29 luglio 2026, pp. 52-53; decreto art. 2, comma 3",
+            "finding": "L’avviso collettivo elenca il decreto e collega l’effetto della variante alla pubblicazione dell’avviso. Il dispositivo identifica in dettaglio gli interventi adottati."
+          }
+        ],
+        "limitations": [
+          "La revisione riguarda il perimetro dichiarato e non attesta tutte le cartografie, la catena successiva degli atti o la vigenza integrale."
+        ],
+        "pending": [
+          "Esaminare integralmente cartografie e relazioni allegate e verificare eventuali aggiornamenti successivi; la lettura non certifica vigenza esaustiva al 2026."
+        ],
+        "record_version": "2938f18b8b9ebb283dd5ee39503c9f7b6caf3b8cc12a5b66589aeb611b89fef2"
+      }
     },
     {
       "id": "centr-pai-pescara-146-2026",
@@ -8424,16 +8621,24 @@
           "label": "BUR Abruzzo n. 30 del 29/07/2026",
           "format": "pdf",
           "group": "Pubblicazione"
+        },
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1263502&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_153475338167172906294542067.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "label": "Decreto segretariale 140/2026 · PDF ufficiale",
+          "format": "pdf",
+          "group": "Atto",
+          "link_status": "checked",
+          "link_checked": "2026-10-08"
         }
       ],
-      "summary": "Aggiornamento definitivo delle aree a rischio di esondazione del Fiume Tronto e degli affluenti, dal ponte di Viale Rozzi ad Ascoli Piceno alla foce. Interessa nove comuni marchigiani e cinque comuni abruzzesi; le nuove perimetrazioni sono efficaci dalla prima pubblicazione nel BUR Marche del 23 luglio 2026.",
+      "summary": "Aggiornamento definitivo delle aree a rischio di esondazione del Fiume Tronto e degli affluenti, dal ponte di Viale Rozzi ad Ascoli Piceno alla foce, nei nove comuni marchigiani e cinque abruzzesi indicati dal decreto. Gli avvisi sono pubblicati nel BUR Marche del 23 luglio e nel BUR Abruzzo del 29 luglio 2026; l’art. 2 collega l’efficacia alla pubblicazione nei bollettini delle regioni territorialmente interessate.",
       "focus": [
         "Consultare le nuove perimetrazioni idrauliche",
         "Verificare l’incidenza nei quattordici comuni interessati",
         "Coordinare la variante con il PAI idraulico distrettuale adottato"
       ],
       "kind": "Variante PAI",
-      "status": "Aggiornamento definitivo · efficace dal 23/07/2026",
+      "status": "Aggiornamento definitivo · pubblicazioni regionali verificate",
       "source_kind": "Autorità di bacino distrettuale",
       "note": "La notizia AUBAC documenta 21 osservazioni e l’allineamento contestuale del quadro conoscitivo del nuovo PAI idraulico distrettuale.",
       "checked": "2026-10-05",
@@ -8451,11 +8656,60 @@
         {
           "date": "2026-10-05",
           "text": "Scheda creata dalla notizia istituzionale, dalla raccolta ufficiale dei decreti e dagli avvisi pubblicati nei BUR Marche e Abruzzo."
+        },
+        {
+          "date": "2026-10-08",
+          "text": "Audit incrementale, lotto 01: letti dispositivo e avvisi regionali; descrizione e rimando PDF aggiornati con evidenze puntuali. Revisione complessiva ancora parziale."
         }
       ],
-      "document_url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3267&StwEvent=101",
-      "document_label": "Decreto segretariale 140/2026",
-      "document_note": "Il dettaglio URBI ha restituito timeout; numero, data, oggetto, ambito ed efficacia sono verificati sulle pagine AUBAC e sui due bollettini regionali."
+      "document_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1263502&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_153475338167172906294542067.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+      "document_label": "Decreto segretariale 140/2026 · PDF ufficiale",
+      "document_note": "Il decreto PDF è stato acquisito dall’archivio ufficiale AUBAC e ne sono stati letti identità e dispositivo. Le cronologie conservano i precedenti problemi di accesso; gli allegati cartografici non sono interamente riesaminati.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Identità, dispositivo completo artt. 1-2, relazioni con PAI distrettuale e avvisi regionali; allegati non integralmente riesaminati.",
+        "outcome": "partial",
+        "legal_state": "amended",
+        "source_urls": [
+          "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1263502&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_153475338167172906294542067.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "https://cms.aubac.it/sites/default/files/2026-07/BURM%20n.%2068%20del%2023%20luglio%202026.pdf",
+          "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "identity",
+            "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1263502&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_153475338167172906294542067.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+            "locator": "Intestazione, numero e data in calce",
+            "finding": "Decreto segretariale AUBAC 140/2026, datato 9 luglio 2026; territorio specificato nel dispositivo."
+          },
+          {
+            "aspect": "amendment",
+            "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1263502&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_153475338167172906294542067.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+            "locator": "Dispositivo completo, artt. 1-2",
+            "finding": "Il dispositivo delimita il tratto Viale Rozzi-foce e i quattordici comuni; allinea le mappe al PAI distrettuale idraulico CIP 67/2026. L’art. 2, comma 3, collega gli effetti agli avvisi nei bollettini delle regioni interessate, non alla prima pubblicazione estesa automaticamente a ogni comune."
+          },
+          {
+            "aspect": "effectiveness",
+            "source_url": "https://cms.aubac.it/sites/default/files/2026-07/BURM%20n.%2068%20del%2023%20luglio%202026.pdf",
+            "locator": "BUR Marche n. 68 del 23 luglio 2026: avviso D.S. 140/2026",
+            "finding": "L’avviso dispone gli effetti dalla pubblicazione nei bollettini delle Regioni Marche e Abruzzo; non si certifica una decorrenza unica dal 23 luglio per entrambi i territori."
+          },
+          {
+            "aspect": "effectiveness",
+            "source_url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+            "locator": "BUR Abruzzo n. 30 del 29 luglio 2026, p. 51",
+            "finding": "L’avviso del medesimo decreto è pubblicato in Abruzzo il 29 luglio e richiama entrambe le regioni interessate. Le due date di pubblicazione sono distinte dall’interpretazione giuridica della decorrenza per ciascun ambito."
+          }
+        ],
+        "limitations": [
+          "La revisione riguarda il perimetro dichiarato e non attesta tutte le cartografie, la catena successiva degli atti o la vigenza integrale."
+        ],
+        "pending": [
+          "Esaminare integralmente cartografie e relazioni allegate e verificare eventuali aggiornamenti successivi; la lettura non certifica vigenza esaustiva al 2026.",
+          "Chiarire l’applicazione temporale per ciascuna regione senza estendere automaticamente la prima pubblicazione a tutto il bacino."
+        ],
+        "record_version": "887c249c33fbe4a5f7aa309fdec41b08830add84140380faa5ceaaf8435d73c1"
+      }
     },
     {
       "id": "centr-pai-offida-39-2026",
@@ -9347,6 +9601,39 @@
     }
   ],
   "runs": [
+    {
+      "date": "2026-10-08",
+      "type": "Audit incrementale · lotto 01 · cinque decreti AUBAC",
+      "summary": "Cinque letture di dispositivi e avvisi; corrette descrizioni e rimandi diretti. Allegati e vigenza complessiva restano parziali.",
+      "checked": [
+        "centr-pai-tronto-140-2026",
+        "centr-pai-lettomanoppello-142-2026",
+        "centr-pai-notaresco-143-2026",
+        "centr-pai-notaresco-144-2026",
+        "centr-pai-notaresco-145-2026"
+      ],
+      "read_urls": [
+        "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1263502&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_153475338167172906294542067.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+        "https://cms.aubac.it/sites/default/files/2026-07/BURM%20n.%2068%20del%2023%20luglio%202026.pdf",
+        "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+        "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267634&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_109917858867121659555146232.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+        "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267653&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_202664497767122929821541099.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+        "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267684&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_192166046567123425881295260.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+        "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267702&DOCORE_versione=1&FNSTR=NYJMGR_VCGXFFF_1283506217671238211642869001.KYW.O7R&DB_NAME=n1202633&ContestoChk=DE&P7M=S"
+      ],
+      "errors": [
+        "Limiti per scheda: allegati e atti successivi non interamente riesaminati; incongruenza intestazione/dispositivo Lettomanoppello e decorrenza territoriale Tronto da approfondire."
+      ],
+      "updated_records": [
+        "centr-pai-tronto-140-2026",
+        "centr-pai-lettomanoppello-142-2026",
+        "centr-pai-notaresco-143-2026",
+        "centr-pai-notaresco-144-2026",
+        "centr-pai-notaresco-145-2026"
+      ],
+      "new_records": [],
+      "publication": "data_json_update"
+    },
     {
       "date": "2026-10-08",
       "type": "Audit documentale · fonti regionali e provinciali · perimetro parziale",

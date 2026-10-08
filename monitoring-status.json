@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-08T11:10:49Z",
+  "national": {
+    "state": "pubblicazione_non_confermata",
+    "last_completed_at": "2026-10-07T13:48:56+02:00",
+    "expected_date": "2026-10-08",
+    "deadline_local": "16:00 Europe/Rome",
+    "checkpoint_end": "2026-10-07T11:48:56Z",
+    "checkpoint_consistent": true,
+    "latest_run": {
+      "id": 37616626556,
+      "html_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/37616626556",
+      "event": "schedule",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-10-07T11:48:46Z",
+      "updated_at": "2026-10-07T11:49:50Z"
+    },
+    "scope": null,
+    "warnings": [],
+    "public_files_match": {
+      "data.json": false,
+      "national.json": true,
+      "update-status.json": true
+    },
+    "jobs": [
+      {
+        "name": "check",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "deploy",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "finalize",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ],
+    "api_step_executed": true
+  },
+  "territorial": {
+    "state": "parziale",
+    "date": "2026-10-08",
+    "evidence": "data.json:runs[0]",
+    "summary": "Colmate quattro lacune documentali: due aggiornamenti definitivi PAI Lazio e due progetti congiunti PAI/PGRA del distretto del Po. Nessuna conclusione generale sull'assenza di ulteriori modifiche territoriali.",
+    "sources_checked": [
+      "AUBAC: raccolta dei decreti segretariali di pianificazione 2026, notizie istituzionali e dettagli dei D.S. 20/2026 e 123/2026; verificati oggetto, materia, stato definitivo e pubblicazioni nel BURL.",
+      "Autorità di bacino distrettuale del Po: pagina ufficiale delle varianti in corso, lettura integrale dei D.S. 5/2026 e 27/2026 e indici degli elaborati diretti PAI/PGRA.",
+      "Autorità di Bacino della Sardegna: raccolta delle varianti puntuali PAI, con Determinazione 162/2026 ancora in testa e nessun atto successivo tra i contenuti mostrati.",
+      "Provincia autonoma di Bolzano: pagina ufficiale delle delibere, ultima seduta visibile del 02/10/2026 senza atti PZP tra i contenuti mostrati.",
+      "Autorità di Bacino della Sicilia: pagina istituzionale con notizie visibili fino al 29/09/2026, senza nuovi atti PAI/PGRA tra i contenuti mostrati."
+    ],
+    "source_urls": [
+      "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+      "https://aubac.it/news/notizie/rischio-idraulico-pubblicato-laggiornamento-definitivo-della-perimetrazione-del-bacino-del-fosso",
+      "https://www.aubac.it/news/notizie/rischio-idrogeologico-proposta-di-aggiornamento-pai-nel-comune-di-san-felice-circeo",
+      "https://pai.adbpo.it/varianti-in-corso-2/",
+      "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_TERDOPPIO_2026/DSG_5_2026.pdf",
+      "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_TERDOPPIO_2026/",
+      "https://www.adbpo.it/PAI/PAI_PROG_Mera_Chiavenna_2026/DSG27_2026.pdf",
+      "https://www.adbpo.it/PAI/PAI_PROG_Mera_Chiavenna_2026/",
+      "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/approvazione-varianti-pai/",
+      "https://giunta-provinciale.provincia.bz.it/it/delibere",
+      "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia"
+    ],
+    "territories": [
+      "Distretto dell'Appennino Centrale",
+      "Lazio",
+      "Distretto del Fiume Po",
+      "Piemonte",
+      "Lombardia",
+      "Sardegna",
+      "Provincia autonoma di Bolzano",
+      "Sicilia"
+    ],
+    "errors": [
+      "I dettagli URBI dei D.S. AUBAC 20/2026 e 123/2026 hanno restituito timeout; gli atti non sono stati considerati integralmente acquisiti, mentre estremi, oggetto, stato e pubblicazioni sono stati verificati sulle altre pagine istituzionali AUBAC.",
+      "I controlli Sardegna, Bolzano e Sicilia sono limitati ai contenuti mostrati dalle pagine istituzionali e non equivalgono a una ricerca integrale negli archivi.",
+      "Il controllo è mirato e non equivale alla verifica integrale dei sette distretti, delle 20 regioni, dei comuni, dei gestori o di tutte le varianti puntuali."
+    ],
+    "publication": "data_json_update",
+    "external_execution_verified": false,
+    "legacy_completion_marker": "2026-09-25",
+    "repeated_unavailability": []
+  },
+  "anomalies": [
+    {
+      "code": "PUBLIC_DIVERGENCE",
+      "severity": "error",
+      "message": "I file pubblici non corrispondono alla base del repository verificata.",
+      "evidence": {
+        "data.json": false,
+        "national.json": true,
+        "update-status.json": true
+      },
+      "event_id": "2381ff04f0d67f44797f41d9"
+    },
+    {
+      "code": "TERRITORIAL_PARZIALE",
+      "severity": "warning",
+      "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
+      "evidence": "data.json:runs[0]",
+      "event_id": "75460a471114c0e359398bbf"
+    }
+  ],
+  "events": [
+    {
+      "code": "PUBLIC_DIVERGENCE",
+      "severity": "error",
+      "message": "I file pubblici non corrispondono alla base del repository verificata.",
+      "evidence": {
+        "data.json": false,
+        "national.json": true,
+        "update-status.json": true
+      },
+      "event_id": "2381ff04f0d67f44797f41d9",
+      "recorded_at": "2026-10-08T11:10:49Z"
+    },
+    {
+      "code": "TERRITORIAL_PARZIALE",
+      "severity": "warning",
+      "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
+      "evidence": "data.json:runs[0]",
+      "event_id": "75460a471114c0e359398bbf",
+      "recorded_at": "2026-10-08T11:10:49Z"
+    }
+  ],
+  "has_errors": true,
+  "repository_sha": "6b6d6bd6ecbde26bd54d92cb694c9bab53a7ac4e"
+}

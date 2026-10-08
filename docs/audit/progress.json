@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "catalog_path": "data.json",
-  "updated_at": "2026-10-08T19:31:03.865369+00:00",
+  "updated_at": "2026-10-08T19:44:26.127445+00:00",
   "basis": [
     "docs/audit/2026-10-08/schede.json",
     "docs/audit/2026-10-08/coda.json",
@@ -11,7 +11,7 @@
   "note": "Registro derivato di attività: non è un secondo catalogo. Le revisioni anteriori sono conservate negli audit citati e in data.json. I conteggi sono una fotografia alla data indicata.",
   "catalog_snapshot": {
     "records": 106,
-    "documentary_reviews": 66,
+    "documentary_reviews": 71,
     "without_documentary_review": [
       "pie1",
       "er1860",
@@ -43,12 +43,7 @@
       "dpr495",
       "centr-pai-idraulico-67-2026",
       "centr-pai-frane-68-2026",
-      "centr-pai-nestore-139-2026",
       "sett-pgra-variante-62-2026",
-      "centr-pai-pescara-146-2026",
-      "centr-pai-spoltore-147-2026",
-      "centr-pai-penne-148-2026",
-      "centr-pai-offida-39-2026",
       "centr-pai-fosso-secco-20-2026",
       "centr-pai-vigna-corte-123-2026",
       "po-pai-pgra-terdoppio-5-2026",
@@ -81,7 +76,11 @@
       "record_version": "887c249c33fbe4a5f7aa309fdec41b08830add84140380faa5ceaaf8435d73c1",
       "evidence": "docs/audit/2026-10-08/incrementale/lotto-01.json",
       "publication": {
-        "state": "validated_pending_deployment"
+        "state": "published_verified",
+        "pr": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/8",
+        "merge_commit": "4a67a31141b9e977ec2e46568c80110eeaa46d52",
+        "receipt": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-01.json",
+        "checked_at": "2026-10-08T19:39:57.287511+00:00"
       },
       "history": []
     },
@@ -107,7 +106,11 @@
       "record_version": "ed8f8a99e2a2a52263522aab6ea0df31036df7684752c21fc0ae26bf9543c383",
       "evidence": "docs/audit/2026-10-08/incrementale/lotto-01.json",
       "publication": {
-        "state": "validated_pending_deployment"
+        "state": "published_verified",
+        "pr": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/8",
+        "merge_commit": "4a67a31141b9e977ec2e46568c80110eeaa46d52",
+        "receipt": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-01.json",
+        "checked_at": "2026-10-08T19:39:57.287511+00:00"
       },
       "history": []
     },
@@ -132,7 +135,11 @@
       "record_version": "1cdd42b13ca0b21eb6e06c1c7780369293134696b5bb4d4bca0c2fef2bb84ca8",
       "evidence": "docs/audit/2026-10-08/incrementale/lotto-01.json",
       "publication": {
-        "state": "validated_pending_deployment"
+        "state": "published_verified",
+        "pr": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/8",
+        "merge_commit": "4a67a31141b9e977ec2e46568c80110eeaa46d52",
+        "receipt": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-01.json",
+        "checked_at": "2026-10-08T19:39:57.287511+00:00"
       },
       "history": []
     },
@@ -157,7 +164,11 @@
       "record_version": "03faa300185c03158329163c2df66b992aad05d68777048d3732c0c33706aa23",
       "evidence": "docs/audit/2026-10-08/incrementale/lotto-01.json",
       "publication": {
-        "state": "validated_pending_deployment"
+        "state": "published_verified",
+        "pr": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/8",
+        "merge_commit": "4a67a31141b9e977ec2e46568c80110eeaa46d52",
+        "receipt": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-01.json",
+        "checked_at": "2026-10-08T19:39:57.287511+00:00"
       },
       "history": []
     },
@@ -182,6 +193,135 @@
       "record_version": "2938f18b8b9ebb283dd5ee39503c9f7b6caf3b8cc12a5b66589aeb611b89fef2",
       "evidence": "docs/audit/2026-10-08/incrementale/lotto-01.json",
       "publication": {
+        "state": "published_verified",
+        "pr": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/8",
+        "merge_commit": "4a67a31141b9e977ec2e46568c80110eeaa46d52",
+        "receipt": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-01.json",
+        "checked_at": "2026-10-08T19:39:57.287511+00:00"
+      },
+      "history": []
+    },
+    "centr-pai-pescara-146-2026": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-08T19:44:26.127445+00:00",
+      "source_urls": [
+        "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267721&DOCORE_versione=1&FNSTR=GZBYYD_BVOCWKF_23264438671243021997059961.NRJ.D7D&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+        "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf"
+      ],
+      "verified_results": [
+        "D.S. AUBAC 146/2026, datato 15 luglio 2026. Identità riscontrata sul documento ufficiale.",
+        "Art. 1 elimina un corpo di frana di colamento P2 e un orlo di scarpata Ps in Strada del Palazzo; allinea il quadro del PAI distrettuale frane alla CIP 68/2026.",
+        "Avviso e clausola di efficacia letti: gli effetti decorrono dalla pubblicazione dell’avviso, rispettivamente il 29 luglio 2026. Questo riscontro non certifica l’assenza di modifiche successive."
+      ],
+      "limitations": [
+        "La revisione non attesta tutti gli allegati né la vigenza integrale attuale delle perimetrazioni."
+      ],
+      "next_operation": [
+        "Esaminare integralmente cartografie e relazioni allegate; riscontrare gli eventuali atti successivi e l’applicabilità attuale alle singole aree."
+      ],
+      "record_version": "3a6c7d0fdce59c28b7fd63863c4c83e0f35bac2055afe03427bdcbc226040253",
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-02.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
+    },
+    "centr-pai-spoltore-147-2026": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-08T19:44:26.127445+00:00",
+      "source_urls": [
+        "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267780&DOCORE_versione=1&FNSTR=GZBYYD_BVOCWKF_37065169667125904232763601.NRJ.D7D&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+        "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf"
+      ],
+      "verified_results": [
+        "D.S. AUBAC 147/2026, datato 15 luglio 2026. Identità riscontrata sul documento ufficiale.",
+        "Art. 1 inserisce una nuova area a pericolosità molto elevata P3 a Villa Santa Maria; allinea il quadro del PAI distrettuale frane alla CIP 68/2026.",
+        "Avviso e clausola di efficacia letti: gli effetti decorrono dalla pubblicazione dell’avviso, rispettivamente il 29 luglio 2026. Questo riscontro non certifica l’assenza di modifiche successive."
+      ],
+      "limitations": [
+        "La revisione non attesta tutti gli allegati né la vigenza integrale attuale delle perimetrazioni."
+      ],
+      "next_operation": [
+        "Esaminare integralmente cartografie e relazioni allegate; riscontrare gli eventuali atti successivi e l’applicabilità attuale alle singole aree."
+      ],
+      "record_version": "8945972a56157590a5d83b0acf2d5c35765cd5443e7286a6f37ec30e8cc68a15",
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-02.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
+    },
+    "centr-pai-penne-148-2026": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-08T19:44:26.127445+00:00",
+      "source_urls": [
+        "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267806&DOCORE_versione=1&FNSTR=GZBYYD_BVOCWKF_51704336667130452272963305.NRJ.D7D&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+        "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf"
+      ],
+      "verified_results": [
+        "D.S. AUBAC 148/2026, datato 15 luglio 2026. Identità riscontrata sul documento ufficiale.",
+        "Art. 1 dispone inserimento e modifiche di dissesti in località varie di Penne; allinea il quadro del PAI distrettuale frane alla CIP 68/2026. Le singole geometrie richiedono gli allegati.",
+        "Avviso e clausola di efficacia letti: gli effetti decorrono dalla pubblicazione dell’avviso, rispettivamente il 29 luglio 2026. Questo riscontro non certifica l’assenza di modifiche successive."
+      ],
+      "limitations": [
+        "La revisione non attesta tutti gli allegati né la vigenza integrale attuale delle perimetrazioni."
+      ],
+      "next_operation": [
+        "Esaminare integralmente cartografie e relazioni allegate; riscontrare gli eventuali atti successivi e l’applicabilità attuale alle singole aree."
+      ],
+      "record_version": "e815f017309ebae4301cec4ca76bea78eccb92d52fd93aa39185930f1cdb2b58",
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-02.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
+    },
+    "centr-pai-nestore-139-2026": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-08T19:44:26.127445+00:00",
+      "source_urls": [
+        "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1263470&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_375174756671706391603047517.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+        "https://bur.regione.umbria.it/web/guest/bur?p_p_id=home_INSTANCE_pLi8X7iNviFL&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_resource_id=downloadCaricamento&p_p_cacheability=cacheLevelPage&id=http%3A%2F%2Fknowledge.progettosemplice.it%2Fresources%2FburUmbriaCaricamento%2Fno_g%2F2026%2F2%2F35%2F260721B35.pdf&nome=260721B35.pdf"
+      ],
+      "verified_results": [
+        "D.S. AUBAC 139/2026, datato 9 luglio 2026. Identità riscontrata sul documento ufficiale.",
+        "Art. 1 riguarda le fasce fluviali e le zone a rischio di esondazione dal centro abitato di Piegaro alla confluenza nel Tevere, nei sei comuni indicati; allinea il PAI idraulico distrettuale alla CIP 67/2026. Art. 2 distingue variante immediata ed effetti dalla pubblicazione dell’avviso.",
+        "Avviso e clausola di efficacia letti: gli effetti decorrono dalla pubblicazione dell’avviso, rispettivamente il 21 luglio 2026. Questo riscontro non certifica l’assenza di modifiche successive."
+      ],
+      "limitations": [
+        "La revisione non attesta tutti gli allegati né la vigenza integrale attuale delle perimetrazioni."
+      ],
+      "next_operation": [
+        "Esaminare integralmente cartografie e relazioni allegate; riscontrare gli eventuali atti successivi e l’applicabilità attuale alle singole aree."
+      ],
+      "record_version": "f433b4f22b80a793c79b80960f634bc214ca1b5eb5841115f97ae3d4ae2f594a",
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-02.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
+    },
+    "centr-pai-offida-39-2026": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-08T19:44:26.127445+00:00",
+      "source_urls": [
+        "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1159980&DOCORE_versione=1&FNSTR=RSBYFQ_CLHAPKF_1990380983176116467115442640211870.WRN.W7J&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+        "https://cms.aubac.it/sites/default/files/2026-03/N20%20del%2026%20febbraio%202026_0.pdf"
+      ],
+      "verified_results": [
+        "D.S. AUBAC 39/2026, datato 19 febbraio 2026. Identità riscontrata sul documento ufficiale.",
+        "Art. 1 elimina i perimetri 293 (H3-R4) e 277 (H2-R1) e inserisce 7011, 7012, 7013 (H3-R3), 7014 e 7015 (H2-R3) a Offida; richiama il quadro distrettuale frane della CIP 58/2025.",
+        "Avviso e clausola di efficacia letti: gli effetti decorrono dalla pubblicazione dell’avviso, rispettivamente il 26 febbraio 2026. Questo riscontro non certifica l’assenza di modifiche successive."
+      ],
+      "limitations": [
+        "La revisione non attesta tutti gli allegati né la vigenza integrale attuale delle perimetrazioni."
+      ],
+      "next_operation": [
+        "Esaminare integralmente cartografie e relazioni allegate; riscontrare gli eventuali atti successivi e l’applicabilità attuale alle singole aree."
+      ],
+      "record_version": "65f498a90e83360d3e01715262a4690c70060f58aa57a2fe003bc36248bd9038",
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-02.json",
+      "publication": {
         "state": "validated_pending_deployment"
       },
       "history": []
@@ -200,15 +340,34 @@
       ],
       "evidence": "docs/audit/2026-10-08/incrementale/lotto-01.json",
       "publication": {
+        "state": "published_verified",
+        "pr": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/8",
+        "merge_commit": "4a67a31141b9e977ec2e46568c80110eeaa46d52",
+        "receipt": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-01.json",
+        "checked_at": "2026-10-08T19:39:57.287511+00:00"
+      }
+    },
+    {
+      "id": "incrementale-02",
+      "date": "2026-10-08",
+      "record_ids": [
+        "centr-pai-pescara-146-2026",
+        "centr-pai-spoltore-147-2026",
+        "centr-pai-penne-148-2026",
+        "centr-pai-nestore-139-2026",
+        "centr-pai-offida-39-2026"
+      ],
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-02.json",
+      "publication": {
         "state": "validated_pending_deployment"
       }
     }
   ],
   "next_batch": [
-    "centr-pai-pescara-146-2026",
-    "centr-pai-spoltore-147-2026",
-    "centr-pai-penne-148-2026",
-    "centr-pai-nestore-139-2026",
-    "centr-pai-offida-39-2026"
+    "pie1",
+    "bz23",
+    "aprilia",
+    "medicina",
+    "venezia"
   ]
 }

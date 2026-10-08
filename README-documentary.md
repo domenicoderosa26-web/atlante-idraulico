@@ -11,7 +11,7 @@ Una scheda riesaminata può contenere `documentary_review`:
 - `source_urls`: fonti istituzionali ufficiali effettivamente consultate.
 - `claims`: oggetti con `aspect`, `source_url`, `locator`, `finding`. Gli aspetti ammessi sono `identity`, `content`, `version`, `status`, `territory`, `topics`, `approval`, `effectiveness`, `amendment`.
 - `limitations`, `pending`: limiti e verifiche ancora necessarie.
-- `record_version`: hash dell’oggetto e delle fonti, calcolato con `documentary.record_version(record)` **dopo** le correzioni e la normalizzazione dei topics.
+- `record_version`: hash dell’oggetto e delle fonti della scheda e di `documentary_review.source_urls`, calcolato con `documentary.record_version(record)` **dopo** le correzioni, la normalizzazione dei topics e l’assegnazione della revisione con tutte le sue fonti. L’ordine delle fonti non modifica l’impronta.
 
 Un esempio operativo di calcolo, usando il modulo esistente:
 

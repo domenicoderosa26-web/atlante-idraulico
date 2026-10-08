@@ -9,6 +9,7 @@ from urllib.parse import urlsplit
 
 from topics import validate_archive
 from normattiva import validate as validate_national
+from documentary import validate_review
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -33,6 +34,7 @@ def validate_catalog(data, baseline=None):
     require(all(isinstance(i, str) and i.strip() for i in ids), 'ID vuoto o non valido')
     require(len(set(ids)) == len(ids), 'ID duplicati')
     ids = set(ids)
+    previous = {r['id']: r for r in baseline['records']} if baseline is not None else None
     names = [r['name'] for r in data['regions']]
     require(len(names) == len(set(names)), 'Regioni duplicate')
     for r in data['records']:
@@ -50,6 +52,7 @@ def validate_catalog(data, baseline=None):
         require(isinstance(r.get('documents', []), list), r['id'] + ': documenti non validi')
         for doc in r.get('documents', []):
             require(isinstance(doc, dict) and isinstance(doc.get('url'), str), r['id'] + ': documento senza URL')
+        validate_review(r, previous.get(r['id'], {}) if previous is not None else None)
     # Check every regional ID list, including plan_ids and record_ids in thematic boxes.
     def references(value):
         if isinstance(value, dict):
@@ -76,6 +79,11 @@ def validate_catalog(data, baseline=None):
     urls(data)
     validate_archive(data)
     if baseline is not None:
+        for record in data['records']:
+            old = previous.get(record['id'])
+            if old:
+                require(all(h in record['history'] for h in old['history']),
+                        record['id'] + ': cronologia precedente rimossa')
         missing = {r['id'] for r in baseline['records']} - ids
         require(not missing, 'Schede perse rispetto alla base: ' + ', '.join(sorted(missing)))
         require(dt.date.fromisoformat(data['updatedAt']) >= dt.date.fromisoformat(baseline['updatedAt']),

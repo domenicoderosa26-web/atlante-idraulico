@@ -1,0 +1,544 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-08",
+  "records": [
+    {
+      "id": "er286",
+      "changes": {},
+      "review_added": true,
+      "history_preserved": true,
+      "evidence": [
+        {
+          "aspect": "identity",
+          "source_url": "https://bur.regione.emilia-romagna.it/archivio/inserzione?anno=2005&num_boll=49&prog_documento=1",
+          "locator": "Intestazione del BUR: deliberazione 14 febbraio 2005 n. 286",
+          "finding": "Direttiva regionale per la gestione delle acque di prima pioggia e di lavaggio da aree esterne; corrispondono data, numero e materia della scheda."
+        }
+      ]
+    },
+    {
+      "id": "bz6",
+      "changes": {
+        "document_note": {
+          "before": "Scheda mantenuta per la rilevanza normativa; il collegamento sarà riattivato soltanto dopo il reperimento del PDF ufficiale diretto.",
+          "after": "GU Regioni n. 4 del 24/01/2009, pp. 17–35: articoli del testo originario, allegati omessi. Il PDF non incorpora le modifiche successive; testo coordinato e allegati da reperire."
+        },
+        "relations": {
+          "before": [
+            {
+              "id": "bzpta",
+              "type": "Attua"
+            }
+          ],
+          "after": [
+            {
+              "id": "bzpta",
+              "type": "Attua"
+            },
+            {
+              "type": "Modificato da",
+              "text": "D.P.P. Bolzano 22 maggio 2025 n. 9, art. 1: art. 53 commi 3, 5 e 6; GU Regioni 23 del 13 giugno 2026. Catena modificativa non esaustiva."
+            }
+          ]
+        },
+        "documents": {
+          "before": [],
+          "after": [
+            {
+              "url": "https://www.gazzettaufficiale.it/eli/gu/2009/01/24/4/s3/pdf",
+              "label": "PDF GU · D.P.P. 6/2008 originario, pp. 17–35 (allegati omessi)",
+              "format": "pdf",
+              "link_status": "checked",
+              "link_checked": "2026-10-08"
+            }
+          ]
+        },
+        "status": {
+          "before": "Disciplina applicabile confermata dal portale provinciale · testo coordinato da verificare",
+          "after": "Testo originario identificato · modifiche accertate; coordinamento da verificare"
+        },
+        "note": {
+          "before": "La Provincia richiama espressamente il capo IV del D.P.P. 6/2008 e pubblica criteri e soglie per acque meteoriche e prima pioggia. Il testo coordinato deve essere verificato rispetto alle modifiche successive; la scheda non dichiara invariato l'intero testo originario.",
+          "after": "Il capo IV disciplina le acque meteoriche; gli artt. 37–47 sono identificati nel testo originario ufficiale. Sono riscontrate modifiche successive, fra cui quelle dell’art. 53 introdotte dal D.P.P. 22 maggio 2025 n. 9 e quelle degli artt. 14 e 16 nell’atto GU 25R00132. Il PDF della GU reca Omissis per gli allegati. Non è attestata la completezza della catena modificativa né la vigenza dell’intero testo coordinato."
+        },
+        "source_status": {
+          "before": "unconfirmed",
+          "after": "checked"
+        },
+        "checked": {
+          "before": "2026-09-24",
+          "after": "2026-10-08"
+        }
+      },
+      "review_added": true,
+      "history_preserved": true,
+      "evidence": [
+        {
+          "aspect": "identity",
+          "source_url": "https://www.gazzettaufficiale.it/eli/id/2009/01/24/008R0294/s3",
+          "locator": "Atto 008R0294, intestazione",
+          "finding": "Decreto del Presidente della Provincia autonoma di Bolzano 21 gennaio 2008 n. 6, attuativo della L.P. 8/2002."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.gazzettaufficiale.it/eli/gu/2009/01/24/4/s3/pdf",
+          "locator": "GU Regioni n. 4 del 24 gennaio 2009, pp. 17–35; capo IV, artt. 37–47, pp. 27–29",
+          "finding": "Gestione delle acque meteoriche e di lavaggio; art. 37 raccolta/riutilizzo e dispersione; artt. 38–39 definizioni e classificazione. Il fascicolo termina l’atto con Omissis."
+        },
+        {
+          "aspect": "amendment",
+          "source_url": "https://www.gazzettaufficiale.it/atto/regioni/caricaArticoloDefault/originario?atto.codiceRedazionale=25R00323&atto.dataPubblicazioneGazzetta=2026-06-13&atto.tipoProvvedimento=DECRETO+DEL+PRESIDENTE+DELLA+PROVINCIA",
+          "locator": "D.P.P. 22 maggio 2025 n. 9, art. 1",
+          "finding": "Soppressione del secondo periodo dell’art. 53 comma 3 e sostituzione dei commi 5 e 6; BUR del 29 maggio 2025 n. 22, richiamato dalla GU."
+        },
+        {
+          "aspect": "amendment",
+          "source_url": "https://www.gazzettaufficiale.it/atto/regioni/caricaArticolo?art.codiceRedazionale=25R00132&art.dataPubblicazioneGazzetta=2025-06-21&art.idArticolo=3&art.idGruppo=0&art.idSottoArticolo=1&art.progressivo=0&art.versione=1",
+          "locator": "Atto GU 25R00132, art. 3",
+          "finding": "Sono modificati gli artt. 14 e 16 del D.P.P. 6/2008; questo riscontro non ricostruisce l’intera successione normativa."
+        }
+      ]
+    },
+    {
+      "id": "uni752",
+      "changes": {},
+      "review_added": true,
+      "history_preserved": true,
+      "evidence": [
+        {
+          "aspect": "identity",
+          "source_url": "https://store.uni.com/uni-en-752-2017",
+          "locator": "Catalogo UNI: titolo e sezione Dettagli",
+          "finding": "UNI EN 752:2017 identificata nel catalogo ufficiale."
+        },
+        {
+          "aspect": "status",
+          "source_url": "https://store.uni.com/uni-en-752-2017",
+          "locator": "Dettagli: Stato e Data entrata in vigore",
+          "finding": "Stato IN VIGORE; data 2017-06-08 corrispondente alla scheda."
+        }
+      ]
+    },
+    {
+      "id": "uni12056",
+      "changes": {},
+      "review_added": true,
+      "history_preserved": true,
+      "evidence": [
+        {
+          "aspect": "identity",
+          "source_url": "https://store.uni.com/uni-en-12056-3-2001",
+          "locator": "Catalogo UNI: titolo e sezione Dettagli",
+          "finding": "UNI EN 12056-3:2001 identificata nel catalogo ufficiale."
+        },
+        {
+          "aspect": "status",
+          "source_url": "https://store.uni.com/uni-en-12056-3-2001",
+          "locator": "Dettagli: Stato e Data entrata in vigore",
+          "finding": "Stato IN VIGORE; data 2001-09-30 corrispondente alla scheda."
+        }
+      ]
+    },
+    {
+      "id": "uni858",
+      "changes": {},
+      "review_added": true,
+      "history_preserved": true,
+      "evidence": [
+        {
+          "aspect": "identity",
+          "source_url": "https://store.uni.com/uni-en-858-2-2004",
+          "locator": "Catalogo UNI: titolo e sezione Dettagli",
+          "finding": "UNI EN 858-2:2004 identificata nel catalogo ufficiale."
+        },
+        {
+          "aspect": "status",
+          "source_url": "https://store.uni.com/uni-en-858-2-2004",
+          "locator": "Dettagli: Stato e Data entrata in vigore",
+          "finding": "Stato IN VIGORE; data 2004-06-01 corrispondente alla scheda."
+        }
+      ]
+    },
+    {
+      "id": "dist-po",
+      "changes": {},
+      "review_added": true,
+      "history_preserved": true,
+      "evidence": [
+        {
+          "aspect": "version",
+          "source_url": "https://pai.adbpo.it/wp-content/uploads/2025/05/NA_PAI-PO.pdf",
+          "locator": "Prima pagina delle NTA",
+          "finding": "Documento PAI del bacino del Po ad esclusione del Delta; intestazione indica testo vigente dal 17 aprile 2025, comprensivo delle modifiche precedenti."
+        }
+      ]
+    },
+    {
+      "id": "po-pai-estensione-13-2025",
+      "changes": {},
+      "review_added": true,
+      "history_preserved": true,
+      "evidence": [
+        {
+          "aspect": "identity",
+          "source_url": "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/delibera_CIP_13_2025_variante_PAI_Po_signed_signed.pdf",
+          "locator": "Prima pagina, Oggetto e seduta",
+          "finding": "CIP 13/2025, seduta 18 dicembre 2025; progetto di variante per bacini Reno, Romagnoli, Conca Marecchia, Fissero–Tartaro–Canalbianco."
+        },
+        {
+          "aspect": "approval",
+          "source_url": "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/delibera_CIP_13_2025_variante_PAI_Po_signed_signed.pdf",
+          "locator": "Oggetto e dispositivo; appendici territoriali",
+          "finding": "L’atto adotta un progetto di variante, distinto dall’approvazione definitiva; appendici riferite ai bacini effettivi. Nessuna associazione regionale è modificata nel lotto."
+        }
+      ]
+    },
+    {
+      "id": "dist-centr",
+      "changes": {},
+      "review_added": true,
+      "history_preserved": true,
+      "evidence": [
+        {
+          "aspect": "version",
+          "source_url": "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO.pdf",
+          "locator": "Copertina, CIP 26.05.2026",
+          "finding": "NTA del PAI distrettuale per la gestione del rischio idraulico; copertina qualifica il documento Testo definitivo adottato, distinto dall’approvazione definitiva del piano."
+        }
+      ]
+    },
+    {
+      "id": "bas9",
+      "changes": {
+        "url": {
+          "before": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+          "after": "https://www.gazzettaufficiale.it/eli/id/2017/12/16/17R00266/s3"
+        },
+        "document_note": {
+          "before": null,
+          "after": "PDF del testo originario sul sito regionale: contenuto identificato nella consultazione testuale, ma download diretto successivo in errore/timeout. Vigenza coordinata ancora da verificare."
+        },
+        "documents": {
+          "before": [],
+          "after": [
+            {
+              "url": "https://www.regione.basilicata.it/wp-content/uploads/giunta/docs/DOCUMENT_FILE_3068771.pdf",
+              "label": "PDF regionale · L.R. 9/2017, testo originario (4 pagine)",
+              "format": "pdf",
+              "link_status": "source_link",
+              "link_checked": "2026-10-08"
+            }
+          ]
+        },
+        "status": {
+          "before": "Vigenza riscontrata · PDF ufficiale puntuale da reperire",
+          "after": "Testo originario identificato · vigenza coordinata da verificare"
+        },
+        "summary": {
+          "before": "Legge-quadro regionale tuttora vigente. L’articolo 5 demanda alla Giunta l’approvazione delle linee guida, comprese le disposizioni tecniche sugli scarichi e sulle acque meteoriche.",
+          "after": "Legge-quadro regionale sulle modalità di approvazione dei progetti degli impianti di trattamento delle acque reflue urbane e sulle autorizzazioni provvisorie agli scarichi. L’articolo 5 demanda alla Giunta linee guida e ulteriori disposizioni, comprese quelle sulle acque meteoriche e di prima pioggia. Il testo originario è identificato; il coordinamento vigente resta da verificare."
+        },
+        "note": {
+          "before": "La banca dati ufficiale del Consiglio regionale espone le leggi coordinate, ma nel controllo del 19/09/2026 non è stato reperito un permalink o PDF ufficiale puntuale della L.R. 9/2017. Il precedente PDF su fonte non istituzionale è stato rimosso. La verifica della vigenza resta collegata agli atti regionali successivi già censiti.",
+          "after": "Identificati numero, data, titolo e articoli 1–8 nelle fonti istituzionali. Il PDF regionale è il testo originario, non un testo coordinato. Non si deduce la vigenza attuale dal solo rinvio in successivi atti attuativi. La banca dati del Consiglio e i successivi download diretti del PDF non sono risultati accessibili nel lotto."
+        },
+        "source_status": {
+          "before": "missing",
+          "after": "source_link"
+        },
+        "source_kind": {
+          "before": "Banca dati ufficiale · Consiglio regionale della Basilicata",
+          "after": "Testo originario ufficiale · Regione Basilicata e Gazzetta Ufficiale"
+        },
+        "checked": {
+          "before": "2026-09-19",
+          "after": "2026-10-08"
+        }
+      },
+      "review_added": true,
+      "history_preserved": true,
+      "evidence": [
+        {
+          "aspect": "identity",
+          "source_url": "https://www.gazzettaufficiale.it/eli/id/2017/12/16/17R00266/s3",
+          "locator": "Intestazione dell’atto 17R00266",
+          "finding": "Regione Basilicata; legge regionale 29 maggio 2017 n. 9; pubblicazione GU Regioni n. 50 del 16 dicembre 2017."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.regione.basilicata.it/wp-content/uploads/giunta/docs/DOCUMENT_FILE_3068771.pdf",
+          "locator": "PDF regionale, 4 pagine, artt. 1, 4, 5 e 8",
+          "finding": "Disciplina progetti e autorizzazioni provvisorie dei depuratori; l’art. 5 demanda linee guida e ulteriori disposizioni alla Giunta. L’art. 8 prevede efficacia il giorno successivo al BUR n. 15 del 1 giugno 2017."
+        }
+      ]
+    },
+    {
+      "id": "sar-pai-frane-42-2026",
+      "changes": {},
+      "review_added": true,
+      "history_preserved": true,
+      "evidence": [
+        {
+          "aspect": "approval",
+          "source_url": "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/06/dp_2026_06_17_n.42_prot.12805.pdf",
+          "locator": "Oggetto e dispositivo",
+          "finding": "Decreto n. 42 del 17 giugno 2026, art. 1: approvazione variante PAI parte frana nei sub-bacini 1, 2, 4, 5, 6 e 7; art. 2 lega efficacia alla pubblicazione."
+        },
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-stralcio-di-bacino-per-lassetto-idrogeologico-pai/variante-pai-frane-per-i-sub-bacini-1-2-4-5-6-7/",
+          "locator": "Pagina ufficiale dell’Autorità, pubblicazione e stato",
+          "finding": "Pagina dell’Autorità: decreto pubblicato nel BURAS n. 33 del 25 giugno 2026; riscontro della decorrenza originaria già indicata in scheda."
+        }
+      ]
+    },
+    {
+      "id": "sar-pai-barrali-162-2026",
+      "changes": {},
+      "review_added": true,
+      "history_preserved": true,
+      "evidence": [
+        {
+          "aspect": "approval",
+          "source_url": "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/09/avp_2026_09_28_det.162_prot.11367_barrali.pdf",
+          "locator": "Oggetto e dispositivo",
+          "finding": "Determinazione n. 162 del 28 settembre 2026: approvazione variante puntuale PAI, pericolosità idraulica del Comune di Barrali; dispositivo ed elenco elaborati."
+        },
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://autoritadibacino.regione.sardegna.it/ap/determinazione-n-162-prot-n-11367-del-28-09-2026/",
+          "locator": "Pagina ufficiale dell’Autorità, pubblicazione e stato",
+          "finding": "Albo ufficiale: Stato In vigore; pubblicazione BURAS n. 50 del 1 ottobre 2026; corrisponde alla decorrenza indicata in scheda."
+        }
+      ]
+    },
+    {
+      "id": "pai-calabria-lao",
+      "changes": {},
+      "review_added": true,
+      "history_preserved": true,
+      "evidence": [
+        {
+          "aspect": "version",
+          "source_url": "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2024/11/Norme_di_Attuazione.pdf",
+          "locator": "Copertina, ottobre 2024",
+          "finding": "NTA/misure di salvaguardia del progetto PSdGDAM-RisAl-Cal/L; il documento si qualifica progetto di piano, non piano definitivamente approvato."
+        },
+        {
+          "aspect": "identity",
+          "source_url": "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2025/03/Delibera_n_1_Conferenza_Istituzionale_19_febbraio_2025_signed_signed.pdf",
+          "locator": "Oggetto della CIP n. 1 del 19 febbraio 2025",
+          "finding": "Proroga delle osservazioni e disposizioni transitorie, con rinvio alla CIP n. 2 del 24 ottobre 2024."
+        }
+      ]
+    },
+    {
+      "id": "bz-badia-pzp-782-2026",
+      "changes": {},
+      "review_added": true,
+      "history_preserved": true,
+      "evidence": [
+        {
+          "aspect": "identity",
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/esiuL8RBQoDk1lstoAKo%2BQ%3D%3D/document?tstmp=1790196547437",
+          "locator": "Prima pagina: numero, seduta e Oggetto",
+          "finding": "D.G.P. Bolzano 782/2026, seduta 2026-09-18; Badia, Pedraces–Ustaria Posta; pericoli idraulici."
+        },
+        {
+          "aspect": "approval",
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/esiuL8RBQoDk1lstoAKo%2BQ%3D%3D/document?tstmp=1790196547437",
+          "locator": "Dispositivo finale della deliberazione",
+          "finding": "La Giunta provinciale approva la modifica del piano delle zone di pericolo del Comune indicato."
+        },
+        {
+          "aspect": "topics",
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/esiuL8RBQoDk1lstoAKo%2BQ%3D%3D/document?tstmp=1790196547437",
+          "locator": "Oggetto e elenco delle cartografie modificate",
+          "finding": "Componente verificata: Badia, Pedraces–Ustaria Posta; pericoli idraulici. Le varianti solo frane/valanghe mantengono il tema frane; il tag PZP resta riservato ai pericoli idraulici."
+        }
+      ]
+    },
+    {
+      "id": "bz-campo-tures-pzp-799-2026",
+      "changes": {},
+      "review_added": true,
+      "history_preserved": true,
+      "evidence": [
+        {
+          "aspect": "identity",
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/ZzOArA8ANeWZFuTKiVQGSA%3D%3D/document?tstmp=1790598720328",
+          "locator": "Prima pagina: numero, seduta e Oggetto",
+          "finding": "D.G.P. Bolzano 799/2026, seduta 2026-09-25; Campo Tures; frane."
+        },
+        {
+          "aspect": "approval",
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/ZzOArA8ANeWZFuTKiVQGSA%3D%3D/document?tstmp=1790598720328",
+          "locator": "Dispositivo finale della deliberazione",
+          "finding": "La Giunta provinciale approva la modifica del piano delle zone di pericolo del Comune indicato."
+        },
+        {
+          "aspect": "topics",
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/ZzOArA8ANeWZFuTKiVQGSA%3D%3D/document?tstmp=1790598720328",
+          "locator": "Oggetto e elenco delle cartografie modificate",
+          "finding": "Componente verificata: Campo Tures; frane. Le varianti solo frane/valanghe mantengono il tema frane; il tag PZP resta riservato ai pericoli idraulici."
+        }
+      ]
+    },
+    {
+      "id": "bz-nova-ponente-pzp-776-2026",
+      "changes": {},
+      "review_added": true,
+      "history_preserved": true,
+      "evidence": [
+        {
+          "aspect": "identity",
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/03qj3RHzult3pGstFd%2BQsQ%3D%3D/document?tstmp=1790750000000",
+          "locator": "Prima pagina: numero, seduta e Oggetto",
+          "finding": "D.G.P. Bolzano 776/2026, seduta 2026-09-18; Nova Ponente, SS 241 km 11+000–900; frane."
+        },
+        {
+          "aspect": "approval",
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/03qj3RHzult3pGstFd%2BQsQ%3D%3D/document?tstmp=1790750000000",
+          "locator": "Dispositivo finale della deliberazione",
+          "finding": "La Giunta provinciale approva la modifica del piano delle zone di pericolo del Comune indicato."
+        },
+        {
+          "aspect": "topics",
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/03qj3RHzult3pGstFd%2BQsQ%3D%3D/document?tstmp=1790750000000",
+          "locator": "Oggetto e elenco delle cartografie modificate",
+          "finding": "Componente verificata: Nova Ponente, SS 241 km 11+000–900; frane. Le varianti solo frane/valanghe mantengono il tema frane; il tag PZP resta riservato ai pericoli idraulici."
+        }
+      ]
+    },
+    {
+      "id": "bz-fortezza-pzp-742-2026",
+      "changes": {},
+      "review_added": true,
+      "history_preserved": true,
+      "evidence": [
+        {
+          "aspect": "identity",
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/f5awpYMYyI7-Nv91yjrfaw%3D%3D/document?tstmp=1790750000000",
+          "locator": "Prima pagina: numero, seduta e Oggetto",
+          "finding": "D.G.P. Bolzano 742/2026, seduta 2026-09-11; Fortezza, Greithwald; pericoli idraulici."
+        },
+        {
+          "aspect": "approval",
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/f5awpYMYyI7-Nv91yjrfaw%3D%3D/document?tstmp=1790750000000",
+          "locator": "Dispositivo finale della deliberazione",
+          "finding": "La Giunta provinciale approva la modifica del piano delle zone di pericolo del Comune indicato."
+        },
+        {
+          "aspect": "topics",
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/f5awpYMYyI7-Nv91yjrfaw%3D%3D/document?tstmp=1790750000000",
+          "locator": "Oggetto e elenco delle cartografie modificate",
+          "finding": "Componente verificata: Fortezza, Greithwald; pericoli idraulici. Le varianti solo frane/valanghe mantengono il tema frane; il tag PZP resta riservato ai pericoli idraulici."
+        }
+      ]
+    },
+    {
+      "id": "bz-nova-ponente-pzp-741-2026",
+      "changes": {},
+      "review_added": true,
+      "history_preserved": true,
+      "evidence": [
+        {
+          "aspect": "identity",
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/XB%2BxsmykMNX4WRP4cDf9Eg%3D%3D/document?tstmp=1790750000000",
+          "locator": "Prima pagina: numero, seduta e Oggetto",
+          "finding": "D.G.P. Bolzano 741/2026, seduta 2026-09-11; Nova Ponente; frane."
+        },
+        {
+          "aspect": "approval",
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/XB%2BxsmykMNX4WRP4cDf9Eg%3D%3D/document?tstmp=1790750000000",
+          "locator": "Dispositivo finale della deliberazione",
+          "finding": "La Giunta provinciale approva la modifica del piano delle zone di pericolo del Comune indicato."
+        },
+        {
+          "aspect": "topics",
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/XB%2BxsmykMNX4WRP4cDf9Eg%3D%3D/document?tstmp=1790750000000",
+          "locator": "Oggetto e elenco delle cartografie modificate",
+          "finding": "Componente verificata: Nova Ponente; frane. Le varianti solo frane/valanghe mantengono il tema frane; il tag PZP resta riservato ai pericoli idraulici."
+        }
+      ]
+    },
+    {
+      "id": "bz-sarentino-pzp-740-2026",
+      "changes": {},
+      "review_added": true,
+      "history_preserved": true,
+      "evidence": [
+        {
+          "aspect": "identity",
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/QDiyUDJvk7Ajnb95m6fsng%3D%3D/document?tstmp=1790750000000",
+          "locator": "Prima pagina: numero, seduta e Oggetto",
+          "finding": "D.G.P. Bolzano 740/2026, seduta 2026-09-11; Sarentino, Pichlereschbaum; pericoli idraulici e valanghivi."
+        },
+        {
+          "aspect": "approval",
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/QDiyUDJvk7Ajnb95m6fsng%3D%3D/document?tstmp=1790750000000",
+          "locator": "Dispositivo finale della deliberazione",
+          "finding": "La Giunta provinciale approva la modifica del piano delle zone di pericolo del Comune indicato."
+        },
+        {
+          "aspect": "topics",
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/QDiyUDJvk7Ajnb95m6fsng%3D%3D/document?tstmp=1790750000000",
+          "locator": "Oggetto e elenco delle cartografie modificate",
+          "finding": "Componente verificata: Sarentino, Pichlereschbaum; pericoli idraulici e valanghivi. Le varianti solo frane/valanghe mantengono il tema frane; il tag PZP resta riservato ai pericoli idraulici."
+        }
+      ]
+    },
+    {
+      "id": "bz-la-valle-pzp-739-2026",
+      "changes": {},
+      "review_added": true,
+      "history_preserved": true,
+      "evidence": [
+        {
+          "aspect": "identity",
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/sSWjeY6wMsUs%2BRZX0J8S0Q%3D%3D/document?tstmp=1790750000000",
+          "locator": "Prima pagina: numero, seduta e Oggetto",
+          "finding": "D.G.P. Bolzano 739/2026, seduta 2026-09-11; La Valle, Armentarabach; pericoli idraulici."
+        },
+        {
+          "aspect": "approval",
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/sSWjeY6wMsUs%2BRZX0J8S0Q%3D%3D/document?tstmp=1790750000000",
+          "locator": "Dispositivo finale della deliberazione",
+          "finding": "La Giunta provinciale approva la modifica del piano delle zone di pericolo del Comune indicato."
+        },
+        {
+          "aspect": "topics",
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/sSWjeY6wMsUs%2BRZX0J8S0Q%3D%3D/document?tstmp=1790750000000",
+          "locator": "Oggetto e elenco delle cartografie modificate",
+          "finding": "Componente verificata: La Valle, Armentarabach; pericoli idraulici. Le varianti solo frane/valanghe mantengono il tema frane; il tag PZP resta riservato ai pericoli idraulici."
+        }
+      ]
+    },
+    {
+      "id": "bz-rasun-anterselva-pzp-738-2026",
+      "changes": {},
+      "review_added": true,
+      "history_preserved": true,
+      "evidence": [
+        {
+          "aspect": "identity",
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/EG2E4ptZZnKQGIZaBUV5Qg%3D%3D/document?tstmp=1790750000000",
+          "locator": "Prima pagina: numero, seduta e Oggetto",
+          "finding": "D.G.P. Bolzano 738/2026, seduta 2026-09-11; Rasun-Anterselva, Biathlon Anterselva; frane e valanghe."
+        },
+        {
+          "aspect": "approval",
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/EG2E4ptZZnKQGIZaBUV5Qg%3D%3D/document?tstmp=1790750000000",
+          "locator": "Dispositivo finale della deliberazione",
+          "finding": "La Giunta provinciale approva la modifica del piano delle zone di pericolo del Comune indicato."
+        },
+        {
+          "aspect": "topics",
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/EG2E4ptZZnKQGIZaBUV5Qg%3D%3D/document?tstmp=1790750000000",
+          "locator": "Oggetto e elenco delle cartografie modificate",
+          "finding": "Componente verificata: Rasun-Anterselva, Biathlon Anterselva; frane e valanghe. Le varianti solo frane/valanghe mantengono il tema frane; il tag PZP resta riservato ai pericoli idraulici."
+        }
+      ]
+    }
+  ]
+}

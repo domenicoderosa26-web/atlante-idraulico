@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "validated_at": "2026-10-08T13:22:05.867702+00:00",
+  "base_commit": "11d0f76597bbced47106e6580e39a629140e31cd",
+  "records_before": 106,
+  "records_after": 106,
+  "id_sets_equal": true,
+  "normative_refs_titles_dates_regions_topics_unchanged": true,
+  "existing_history_entries_preserved": true,
+  "unchanged_root_metadata": true,
+  "new_records": 0,
+  "changed_record_fields": {
+    "er286": [
+      "documentary_review",
+      "history"
+    ],
+    "bz6": [
+      "checked",
+      "document_note",
+      "documentary_review",
+      "documents",
+      "history",
+      "note",
+      "relations",
+      "source_status",
+      "status"
+    ],
+    "uni752": [
+      "documentary_review",
+      "history"
+    ],
+    "uni12056": [
+      "documentary_review",
+      "history"
+    ],
+    "uni858": [
+      "documentary_review",
+      "history"
+    ],
+    "dist-po": [
+      "documentary_review",
+      "history"
+    ],
+    "po-pai-estensione-13-2025": [
+      "documentary_review",
+      "history"
+    ],
+    "dist-centr": [
+      "documentary_review",
+      "history"
+    ],
+    "bas9": [
+      "checked",
+      "document_note",
+      "documentary_review",
+      "documents",
+      "history",
+      "note",
+      "source_kind",
+      "source_status",
+      "status",
+      "summary",
+      "url"
+    ],
+    "sar-pai-frane-42-2026": [
+      "documentary_review",
+      "history"
+    ],
+    "sar-pai-barrali-162-2026": [
+      "documentary_review",
+      "history"
+    ],
+    "pai-calabria-lao": [
+      "documentary_review",
+      "history"
+    ],
+    "bz-badia-pzp-782-2026": [
+      "documentary_review",
+      "history"
+    ],
+    "bz-campo-tures-pzp-799-2026": [
+      "documentary_review",
+      "history"
+    ],
+    "bz-nova-ponente-pzp-776-2026": [
+      "documentary_review",
+      "history"
+    ],
+    "bz-fortezza-pzp-742-2026": [
+      "documentary_review",
+      "history"
+    ],
+    "bz-nova-ponente-pzp-741-2026": [
+      "documentary_review",
+      "history"
+    ],
+    "bz-sarentino-pzp-740-2026": [
+      "documentary_review",
+      "history"
+    ],
+    "bz-la-valle-pzp-739-2026": [
+      "documentary_review",
+      "history"
+    ],
+    "bz-rasun-anterselva-pzp-738-2026": [
+      "documentary_review",
+      "history"
+    ]
+  },
+  "byte_identical_files": {
+    "national.json": "4b75596f7ec3d042c51da34d9aeca17977f5965a58ec337a4ff2bda3fe415e55",
+    "update-status.json": "046136891ce08538018b4d097c62f8dba2807133b5a12817a8b7e13059202637",
+    "monitoring-status.json": "956836708e1b7c62d8f70e0d7ab3b369928d2340a5b5a0c6ff6f935cb88cedde",
+    "app.js": "42d97d7f3b2084a839425947287fb8aa6926d1ee8e6211d5f0d312fb4f991393",
+    "index.html": "c74e7773ac85b937f635838dbcbddb6ec0ed830f10cf83cca0331d41d9b5d8fe",
+    "style.css": "03a6718e0bfde6759f0fa93f2e38d9016f5a77fbe4fff9c058f9d10b16bdb3cc",
+    "source-links.css": "cb2a2c6269aac0d6c4bc1c74cab60ca96c712a44e1d151bbcf5d6e6cebd803df",
+    ".github/workflows/normattiva.yml": "b64b56347c7862676e86e8cecd3ac6d55f908de82f35f95375939ba8a8e51a80",
+    ".github/workflows/monitoring.yml": "28fad61989503f17fa99fc03c32bcbd65669246e6d8551d6358b5f967d27ee54",
+    ".github/workflows/topics.yml": "d6c4d0dab2ceb158c8133b5b7548ef40814da9ce707c7ec5ab00505915649139",
+    "docs/lr-abruzzo-17-2008.pdf": "e0ed4bf43a262cf779d01de6f9777bcc453f1c5cfe42f6c339342c3e9eeb6835",
+    "docs/pai-campania-centrale-norme-attuazione-2015.pdf": "c8c63df6369f7685b4c1dc4d1d95768104962cd5ffe25d9497941e086f914574"
+  },
+  "local_checks": {
+    "topics_normalize": "passed",
+    "topics_validate": "passed",
+    "archive_against_origin_main": "passed",
+    "python_unittest": {
+      "passed": 55,
+      "failed": 0
+    },
+    "node_syntax": "passed",
+    "frontend_filters": {
+      "passed": true,
+      "canonical_topics": 14,
+      "combinations": 168
+    }
+  },
+  "not_completed": [
+    "Revisione giuridica esaustiva delle 106 schede",
+    "Censimento regionale esteso degli atti mancanti",
+    "Acquisizione di tutti gli allegati e cartografie",
+    "Sequenza completa dei redirect"
+  ],
+  "publication_evidence": "Esiti effettivi CI/merge/Pages e verifica del sito da consultare nella PR del lotto."
+}

@@ -1508,8 +1508,8 @@
         "scarichi"
       ],
       "source_urls": [
-        "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
-        "https://www.astrid-online.it/static/upload/regi/regione-basilicata_legge-regionale-29-maggio-2017--n9.pdf"
+        "https://www.gazzettaufficiale.it/eli/id/2017/12/16/17R00266/s3",
+        "https://www.regione.basilicata.it/wp-content/uploads/giunta/docs/DOCUMENT_FILE_3068771.pdf"
       ],
       "object_versions": [
         {
@@ -1521,9 +1521,43 @@
             "Approvazione dei progetti",
             "Base legislativa delle linee guida regionali"
           ]
+        },
+        {
+          "title": "Disciplina degli impianti di trattamento delle acque reflue urbane e delle autorizzazioni provvisorie agli scarichi",
+          "ref": "L.R. Basilicata 9/2017",
+          "summary": "Legge-quadro regionale sulle modalità di approvazione dei progetti degli impianti di trattamento delle acque reflue urbane e sulle autorizzazioni provvisorie agli scarichi. L’articolo 5 demanda alla Giunta linee guida e ulteriori disposizioni, comprese quelle sulle acque meteoriche e di prima pioggia. Il testo originario è identificato; il coordinamento vigente resta da verificare.",
+          "focus": [
+            "Legge-quadro regionale",
+            "Approvazione dei progetti",
+            "Base legislativa delle linee guida regionali"
+          ]
         }
       ],
-      "evidence": "Norma quadro per trattamento reflui/autorizzazioni scarichi; rinvia a linee guida che disciplinano prima pioggia. Rimosso tag prima pioggia dal solo atto quadro."
+      "evidence": "Norma quadro per trattamento reflui/autorizzazioni scarichi; rinvia a linee guida che disciplinano prima pioggia. Rimosso tag prima pioggia dal solo atto quadro. Riesame documentale 08/10/2026: testo originario regionale, artt. 1, 4 e 5; eliminata dalla sintesi l’affermazione generale di vigenza non ricostruita. Confermato il tema scarichi, senza estendere i tag per il solo rinvio ad atti attuativi.",
+      "review_history": [
+        {
+          "topics": [
+            "scarichi"
+          ],
+          "source_urls": [
+            "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+            "https://www.astrid-online.it/static/upload/regi/regione-basilicata_legge-regionale-29-maggio-2017--n9.pdf"
+          ],
+          "object_versions": [
+            {
+              "title": "Disciplina degli impianti di trattamento delle acque reflue urbane e delle autorizzazioni provvisorie agli scarichi",
+              "ref": "L.R. Basilicata 9/2017",
+              "summary": "Legge-quadro regionale tuttora vigente. L’articolo 5 demanda alla Giunta l’approvazione delle linee guida, comprese le disposizioni tecniche sugli scarichi e sulle acque meteoriche.",
+              "focus": [
+                "Legge-quadro regionale",
+                "Approvazione dei progetti",
+                "Base legislativa delle linee guida regionali"
+              ]
+            }
+          ],
+          "evidence": "Norma quadro per trattamento reflui/autorizzazioni scarichi; rinvia a linee guida che disciplinano prima pioggia. Rimosso tag prima pioggia dal solo atto quadro."
+        }
+      ]
     },
     "bas471": {
       "topics": [

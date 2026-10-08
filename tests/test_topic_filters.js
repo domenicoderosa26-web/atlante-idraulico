@@ -1,14 +1,15 @@
 'use strict';
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
 const taxonomy=JSON.parse(fs.readFileSync('topic-taxonomy.json','utf8'));
-for(const prefix of ['', 'dist/']){
+async function main(){
+ const prefix='';
  const archive=JSON.parse(fs.readFileSync(prefix+'data.json','utf8'));
  const elements=new Map();
- const element=id=>{if(!elements.has(id))elements.set(id,{value:'',options:[{outerHTML:'<option value="">Tutti gli argomenti</option>'}],innerHTML:'',textContent:'',hidden:true,disabled:false,addEventListener(){},classList:{toggle(){}},setAttribute(){}});return elements.get(id);};
+ const element=id=>{if(!elements.has(id))elements.set(id,{value:'',options:[{outerHTML:'<option value="">Tutti gli argomenti</option>'}],innerHTML:'',textContent:'',hidden:true,disabled:false,addEventListener(){},classList:{toggle(){}},setAttribute(){},insertAdjacentHTML(position,html){this.innerHTML+=html;}});return elements.get(id);};
  const context=vm.createContext({document:{head:{insertAdjacentHTML(){}},getElementById:element,querySelectorAll:()=>[],addEventListener(){}},window:{addEventListener(){}},location:{hash:''},history:{},fetch:()=>new Promise(()=>{}),setInterval(){},URL,console,Date});
  vm.runInContext(fs.readFileSync(prefix+'app.js','utf8'),context);
- // Reverse the stored order: the UI must sort dynamically, even for a sparse
- // archive such as dist. It must always expose exactly the authorized 14 labels.
+ // Reverse the stored order: the UI must sort dynamically and always expose
+ // exactly the authorized 14 labels.
  context.archive=archive;context.taxonomy={...taxonomy,categories:[...taxonomy.categories].reverse()};
  vm.runInContext('data=archive;topicTaxonomy=taxonomy;validateTopics(data,topicTaxonomy);render()',context);
  const labels=taxonomy.categories.map(c=>c.label).sort((a,b)=>a.localeCompare(b,'it',{sensitivity:'base'}));
@@ -53,5 +54,30 @@ for(const prefix of ['', 'dist/']){
  // Search and topic together must intersect, not add results.
  element('topic').value=rd.topics[0];element('search').value='523';
  assert.deepEqual(Array.from(vm.runInContext('selected().map(r=>r.id)',context)),['rd523']);
+ // Exercise the real loading path, including optional national metadata.
+ const requests=[];
+ const national=JSON.parse(fs.readFileSync('national.json','utf8'));
+ const status=JSON.parse(fs.readFileSync('update-status.json','utf8'));
+ context.fetch=async(url,options)=>{
+  requests.push(url);assert.equal(options.cache,'no-store');
+  assert.ok(['data.json','topic-taxonomy.json','national.json','update-status.json'].includes(url));
+  return {ok:true,json:async()=>({'data.json':archive,'topic-taxonomy.json':taxonomy,'national.json':national,'update-status.json':status}[url])};
+ };
+ await vm.runInContext('load()',context);
+ assert.deepEqual(requests,['data.json','topic-taxonomy.json','national.json','update-status.json']);
+ assert.equal(vm.runInContext('data.records.length',context),archive.records.length);
+ assert.equal(vm.runInContext('national.acts.length',context),national.acts.length);
+ assert.equal(element('load-error').hidden,true);
+ context.fetch=async url=>{if(url==='national.json')throw Error('unavailable');return {ok:true,json:async()=>({'data.json':archive,'topic-taxonomy.json':taxonomy,'update-status.json':status}[url])};};
+ context.console={...console,warn(){}};
+ await vm.runInContext('load()',context);
+ assert.equal(element('load-error').hidden,true);
+ context.fetch=async()=>({ok:true,json:async()=>({records:[]})});
+ await vm.runInContext('load()',context);
+ assert.equal(element('load-error').hidden,false);
+ assert.equal(vm.runInContext('data.records.length',context),archive.records.length);
+ console.log('Caricamento dalla radice, registro nazionale facoltativo e conservazione dopo errore OK');
  console.log(prefix+'frontend: 14 filtri A–Z, 168 combinazioni territorio/livello, ricerca, ordinamento e multitag OK');
 }
+
+main().catch(error=>{console.error(error);process.exitCode=1;});

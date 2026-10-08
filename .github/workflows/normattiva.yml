@@ -20,7 +20,9 @@ jobs:
         with:
           fetch-depth: 0
       - name: Valida tassonomia e archivi
-        run: python scripts/topics.py validate data.json dist/data.json
+        run: |
+          python scripts/topics.py validate data.json
+          python scripts/archive.py
       - name: Test
         run: python -m unittest discover -s tests -v
       - name: Recupera stato tecnico e verifica idempotenza
@@ -79,6 +81,7 @@ jobs:
             fi
             cp /tmp/atlante-status.json update-status.json
             python scripts/workflow_state.py validate national.json data.json update-status.json monitor-state/checkpoint.json
+            python scripts/archive.py --base-ref origin/main
             git add national.json update-status.json
             if git diff --cached --quiet; then
               echo 'changed=false' >> "$GITHUB_OUTPUT"

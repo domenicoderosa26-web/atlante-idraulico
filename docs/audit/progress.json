@@ -1,0 +1,214 @@
+{
+  "schema_version": 1,
+  "catalog_path": "data.json",
+  "updated_at": "2026-10-08T19:31:03.865369+00:00",
+  "basis": [
+    "docs/audit/2026-10-08/schede.json",
+    "docs/audit/2026-10-08/coda.json",
+    "docs/audit/2026-10-08/copertura.json",
+    "docs/audit/2026-10-08/completamento/coda-aggiornata.json"
+  ],
+  "note": "Registro derivato di attività: non è un secondo catalogo. Le revisioni anteriori sono conservate negli audit citati e in data.json. I conteggi sono una fotografia alla data indicata.",
+  "catalog_snapshot": {
+    "records": 106,
+    "documentary_reviews": 66,
+    "without_documentary_review": [
+      "pie1",
+      "er1860",
+      "abr17",
+      "mol25",
+      "bz23",
+      "bari",
+      "milano",
+      "venezia",
+      "aprilia",
+      "medicina",
+      "dist-alpi",
+      "dist-sett",
+      "bas471",
+      "dist-merid",
+      "dist-sard",
+      "dist-sici",
+      "sic-pgra3-02-2026",
+      "pai-calabria2001",
+      "pai-basilicata",
+      "pai-lgv",
+      "pai-puglia",
+      "pai-campania",
+      "pai-biferno-e-minori",
+      "pai-trigno",
+      "pai-fortore",
+      "sar-inv-2017",
+      "codstrada285",
+      "dpr495",
+      "centr-pai-idraulico-67-2026",
+      "centr-pai-frane-68-2026",
+      "centr-pai-nestore-139-2026",
+      "sett-pgra-variante-62-2026",
+      "centr-pai-pescara-146-2026",
+      "centr-pai-spoltore-147-2026",
+      "centr-pai-penne-148-2026",
+      "centr-pai-offida-39-2026",
+      "centr-pai-fosso-secco-20-2026",
+      "centr-pai-vigna-corte-123-2026",
+      "po-pai-pgra-terdoppio-5-2026",
+      "po-pai-pgra-mera-27-2026"
+    ],
+    "full_legal_reviews": 0
+  },
+  "records": {
+    "centr-pai-tronto-140-2026": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-08T19:31:03.865369+00:00",
+      "source_urls": [
+        "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1263502&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_153475338167172906294542067.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+        "https://cms.aubac.it/sites/default/files/2026-07/BURM%20n.%2068%20del%2023%20luglio%202026.pdf",
+        "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf"
+      ],
+      "verified_results": [
+        "Decreto segretariale AUBAC 140/2026, datato 9 luglio 2026; territorio specificato nel dispositivo.",
+        "Il dispositivo delimita il tratto Viale Rozzi-foce e i quattordici comuni; allinea le mappe al PAI distrettuale idraulico CIP 67/2026. L’art. 2, comma 3, collega gli effetti agli avvisi nei bollettini delle regioni interessate, non alla prima pubblicazione estesa automaticamente a ogni comune.",
+        "L’avviso dispone gli effetti dalla pubblicazione nei bollettini delle Regioni Marche e Abruzzo; non si certifica una decorrenza unica dal 23 luglio per entrambi i territori.",
+        "L’avviso del medesimo decreto è pubblicato in Abruzzo il 29 luglio e richiama entrambe le regioni interessate. Le due date di pubblicazione sono distinte dall’interpretazione giuridica della decorrenza per ciascun ambito."
+      ],
+      "limitations": [
+        "La revisione riguarda il perimetro dichiarato e non attesta tutte le cartografie, la catena successiva degli atti o la vigenza integrale."
+      ],
+      "next_operation": [
+        "Esaminare integralmente cartografie e relazioni allegate e verificare eventuali aggiornamenti successivi; la lettura non certifica vigenza esaustiva al 2026.",
+        "Chiarire l’applicazione temporale per ciascuna regione senza estendere automaticamente la prima pubblicazione a tutto il bacino."
+      ],
+      "record_version": "887c249c33fbe4a5f7aa309fdec41b08830add84140380faa5ceaaf8435d73c1",
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-01.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
+    },
+    "centr-pai-lettomanoppello-142-2026": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-08T19:31:03.865369+00:00",
+      "source_urls": [
+        "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267634&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_109917858867121659555146232.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+        "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf"
+      ],
+      "verified_results": [
+        "Decreto segretariale AUBAC 142/2026, datato 15 luglio 2026; territorio specificato nel dispositivo.",
+        "Il dispositivo art. 1 dispone due inserimenti P3 e allineamento al PAI frane CIP 68/2026. L’intestazione menziona anche un ampliamento che non è ripetuto espressamente nel dispositivo: il disallineamento richiede riscontro cartografico, senza dedurre che l’ampliamento sia inesistente.",
+        "L’avviso collettivo elenca il decreto e collega l’effetto della variante alla pubblicazione dell’avviso. Il dispositivo identifica in dettaglio gli interventi adottati."
+      ],
+      "limitations": [
+        "La revisione riguarda il perimetro dichiarato e non attesta tutte le cartografie, la catena successiva degli atti o la vigenza integrale."
+      ],
+      "next_operation": [
+        "Esaminare integralmente cartografie e relazioni allegate e verificare eventuali aggiornamenti successivi; la lettura non certifica vigenza esaustiva al 2026.",
+        "Riconciliare il richiamo all’ampliamento in intestazione con dispositivo e allegati cartografici."
+      ],
+      "record_version": "ed8f8a99e2a2a52263522aab6ea0df31036df7684752c21fc0ae26bf9543c383",
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-01.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
+    },
+    "centr-pai-notaresco-143-2026": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-08T19:31:03.865369+00:00",
+      "source_urls": [
+        "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267653&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_202664497767122929821541099.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+        "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf"
+      ],
+      "verified_results": [
+        "Decreto segretariale AUBAC 143/2026, datato 15 luglio 2026; territorio specificato nel dispositivo.",
+        "L’art. 1 distingue inserimento P3 nel centro storico e riduzione di una frana P2 in via Berlinguer; la precedente descrizione di due inserimenti P3 era inesatta. L’intestazione e l’avviso hanno una formulazione sintetica differente: si distingue il dispositivo.",
+        "L’avviso collettivo elenca il decreto e collega l’effetto della variante alla pubblicazione dell’avviso. Il dispositivo identifica in dettaglio gli interventi adottati."
+      ],
+      "limitations": [
+        "La revisione riguarda il perimetro dichiarato e non attesta tutte le cartografie, la catena successiva degli atti o la vigenza integrale."
+      ],
+      "next_operation": [
+        "Esaminare integralmente cartografie e relazioni allegate e verificare eventuali aggiornamenti successivi; la lettura non certifica vigenza esaustiva al 2026."
+      ],
+      "record_version": "1cdd42b13ca0b21eb6e06c1c7780369293134696b5bb4d4bca0c2fef2bb84ca8",
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-01.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
+    },
+    "centr-pai-notaresco-144-2026": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-08T19:31:03.865369+00:00",
+      "source_urls": [
+        "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267684&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_192166046567123425881295260.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+        "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf"
+      ],
+      "verified_results": [
+        "Decreto segretariale AUBAC 144/2026, datato 15 luglio 2026; territorio specificato nel dispositivo.",
+        "L’art. 1 elimina una frana P3 a Casette Grasciano e allinea il quadro conoscitivo al PAI distrettuale frane; non è una generica variante priva di contenuto individuato.",
+        "L’avviso collettivo elenca il decreto e collega l’effetto della variante alla pubblicazione dell’avviso. Il dispositivo identifica in dettaglio gli interventi adottati."
+      ],
+      "limitations": [
+        "La revisione riguarda il perimetro dichiarato e non attesta tutte le cartografie, la catena successiva degli atti o la vigenza integrale."
+      ],
+      "next_operation": [
+        "Esaminare integralmente cartografie e relazioni allegate e verificare eventuali aggiornamenti successivi; la lettura non certifica vigenza esaustiva al 2026."
+      ],
+      "record_version": "03faa300185c03158329163c2df66b992aad05d68777048d3732c0c33706aa23",
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-01.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
+    },
+    "centr-pai-notaresco-145-2026": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-08T19:31:03.865369+00:00",
+      "source_urls": [
+        "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267702&DOCORE_versione=1&FNSTR=NYJMGR_VCGXFFF_1283506217671238211642869001.KYW.O7R&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+        "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf"
+      ],
+      "verified_results": [
+        "Decreto segretariale AUBAC 145/2026, datato 15 luglio 2026; territorio specificato nel dispositivo.",
+        "L’art. 1 inserisce una frana P3 e due orli attivi Ps, e riperimetra due corpi preesistenti; l’allineamento concerne il PAI distrettuale frane.",
+        "L’avviso collettivo elenca il decreto e collega l’effetto della variante alla pubblicazione dell’avviso. Il dispositivo identifica in dettaglio gli interventi adottati."
+      ],
+      "limitations": [
+        "La revisione riguarda il perimetro dichiarato e non attesta tutte le cartografie, la catena successiva degli atti o la vigenza integrale."
+      ],
+      "next_operation": [
+        "Esaminare integralmente cartografie e relazioni allegate e verificare eventuali aggiornamenti successivi; la lettura non certifica vigenza esaustiva al 2026."
+      ],
+      "record_version": "2938f18b8b9ebb283dd5ee39503c9f7b6caf3b8cc12a5b66589aeb611b89fef2",
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-01.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
+    }
+  },
+  "batches": [
+    {
+      "id": "incrementale-01",
+      "date": "2026-10-08",
+      "record_ids": [
+        "centr-pai-tronto-140-2026",
+        "centr-pai-lettomanoppello-142-2026",
+        "centr-pai-notaresco-143-2026",
+        "centr-pai-notaresco-144-2026",
+        "centr-pai-notaresco-145-2026"
+      ],
+      "evidence": "docs/audit/2026-10-08/incrementale/lotto-01.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      }
+    }
+  ],
+  "next_batch": [
+    "centr-pai-pescara-146-2026",
+    "centr-pai-spoltore-147-2026",
+    "centr-pai-penne-148-2026",
+    "centr-pai-nestore-139-2026",
+    "centr-pai-offida-39-2026"
+  ]
+}

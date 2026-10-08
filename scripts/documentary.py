@@ -16,10 +16,11 @@ ASSERTION = re.compile(r'\b(vigente|in vigore|abrogat\w*|sostituit\w*|'
 
 def record_version(record):
     """Bind a review to its object and sources, excluding execution timestamps."""
-    fields = ['ref', 'title', 'date', 'kind', 'level', 'regions', 'summary',
-              'focus', 'topics', 'status', 'url', 'document_url']
-    value = {key: record.get(key) for key in fields}
-    value['document_urls'] = sorted(d['url'] for d in record.get('documents', []))
+    # Protect all normative metadata, including relations, document labels,
+    # publication/effectiveness dates and fields introduced in future records.
+    # Execution logs and the evidence itself are excluded to avoid circularity.
+    excluded = {'id', 'checked', 'history', 'documentary_review', 'documentary_history'}
+    value = {key: item for key, item in record.items() if key not in excluded}
     review = record.get('documentary_review', {})
     sources = review.get('source_urls', []) if isinstance(review, dict) else []
     value['review_source_urls'] = sorted(sources) if isinstance(sources, list) and all(

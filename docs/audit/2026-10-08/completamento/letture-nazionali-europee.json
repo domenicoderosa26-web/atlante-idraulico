@@ -1,0 +1,578 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-08",
+  "base_commit": "f3eac9a84fd54493a2a222fdf3652fe3d24acebf",
+  "scope": "Passaggi effettivamente letti; nessuna attestazione generale di vigenza.",
+  "records": [
+    {
+      "id": "rd523",
+      "legal_review_complete": false,
+      "content_examined": true,
+      "observations": [
+        {
+          "aspect": "content",
+          "source_url": "https://www.gazzettaufficiale.it/eli/gu/1904/10/07/234/sg/pdf",
+          "locator": "Capo VII, artt. 93 e 96, lett. f); PDF p. 11, GU p. 4843",
+          "finding": "Il testo originario subordina le opere in alveo al permesso amministrativo; per le distanze dell’art. 96, lett. f), richiama prima la disciplina locale e, in sua assenza, distingue piantagioni/smovimenti da fabbriche/scavi. Non è attestata l’applicabilità attuale delle competenze originarie.",
+          "reading_method": "testo_documento",
+          "consulted_at": "2026-10-08T14:34:40.796265+00:00",
+          "acquired_at": "2026-10-08T12:25:04.929572+00:00",
+          "document_sha256": "774047b4a9f27fcc1cc321d9e6719e8c225e14fbc53e9142c38d98d250229eaa"
+        }
+      ],
+      "limitations": [
+        "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+      ],
+      "pending": [
+        "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+      ]
+    },
+    {
+      "id": "rd1775",
+      "legal_review_complete": false,
+      "content_examined": true,
+      "observations": [
+        {
+          "aspect": "content",
+          "source_url": "https://www.gazzettaufficiale.it/eli/gu/1934/01/08/5/sg/pdf",
+          "locator": "Art. 7; PDF p. 3",
+          "finding": "Le domande di nuova concessione sono accompagnate dal progetto delle opere di raccolta, regolazione, derivazione e restituzione. Il testo originario nomina organi amministrativi storici; il riparto di competenze attuale resta da coordinare.",
+          "reading_method": "testo_documento",
+          "consulted_at": "2026-10-08T14:34:40.796300+00:00",
+          "acquired_at": "2026-10-08T12:27:25.714754+00:00",
+          "document_sha256": "12fc8f7024334550f6969ceda6412cf2c0dfc06b30502c3013826427cdb8d731"
+        }
+      ],
+      "limitations": [
+        "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+      ],
+      "pending": [
+        "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+      ]
+    },
+    {
+      "id": "rd368",
+      "legal_review_complete": false,
+      "content_examined": true,
+      "observations": [
+        {
+          "aspect": "content",
+          "source_url": "https://www.gazzettaufficiale.it/eli/gu/1904/07/28/176/sg/pdf",
+          "locator": "Art. 133, lett. a); PDF p. 13",
+          "finding": "Il regolamento originario vieta determinate opere e piantagioni presso opere e canali di bonifica e distingue distanze in relazione al tipo di opera e alla sua importanza. Il fascicolo storico non è prova di testo coordinato vigente.",
+          "reading_method": "testo_documento",
+          "consulted_at": "2026-10-08T14:34:40.796322+00:00",
+          "acquired_at": "2026-10-08T12:28:00.756556+00:00",
+          "document_sha256": "02203358714cacccaffad8c8e44987b0a8127ed5a8abf21ef8c10555bd10baf4"
+        }
+      ],
+      "limitations": [
+        "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+      ],
+      "pending": [
+        "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+      ]
+    },
+    {
+      "id": "rd215",
+      "legal_review_complete": false,
+      "content_examined": true,
+      "observations": [
+        {
+          "aspect": "content",
+          "source_url": "https://www.provinz.bz.it/agricoltura/download/RD_215-1933.pdf",
+          "locator": "Pagina 1: articolo unico e testo allegato, titolo I, art. 1; titolo II, art. 2",
+          "finding": "Il decreto approva il testo allegato; la bonifica integrale comprende opere di bonifica e miglioramento fondiario e distingue comprensori di prima e seconda categoria. Lettura visiva della pagina: l’estrazione testuale contiene caratteri corrotti.",
+          "reading_method": "pagina_pdf_renderizzata",
+          "consulted_at": "2026-10-08T14:34:40.796343+00:00",
+          "acquired_at": "2026-10-08T12:25:04.933430+00:00",
+          "document_sha256": "7d1aa9976f5c2c37310bea88b2ccb1262654bfc557c41ee481d2a43228d930ad"
+        }
+      ],
+      "limitations": [
+        "L’estrazione testuale è corrotta; è stata verificata visivamente soltanto pagina 1."
+      ],
+      "pending": [
+        "Acquisire testo coordinato e leggere disciplina consortile e modifiche successive."
+      ]
+    },
+    {
+      "id": "dl152",
+      "legal_review_complete": false,
+      "content_examined": true,
+      "observations": [
+        {
+          "aspect": "content",
+          "source_url": "https://www.parlamento.it/parlam/leggi/deleghe/06152dl2.htm",
+          "locator": "Parte III, art. 113, commi 1-4",
+          "finding": "La riproduzione parlamentare del testo originario demanda alle regioni il controllo delle meteoriche e i casi di trattamento della prima pioggia; distingue le meteoriche non disciplinate e vieta l’immissione diretta nelle acque sotterranee.",
+          "reading_method": "testo_documento",
+          "consulted_at": "2026-10-08T14:34:40.796375+00:00",
+          "acquired_at": null,
+          "document_sha256": null
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.parlamento.it/parlam/leggi/deleghe/06152dl2.htm",
+          "locator": "Parte III, art. 124, commi 1, 3 e 4",
+          "finding": "Nel testo originario l’autorizzazione preventiva agli scarichi si coordina con la disciplina regionale dei domestici e con l’ammissione degli scarichi domestici in fognatura secondo i regolamenti del gestore. Non sono estesi al testo attuale i termini procedurali originari.",
+          "reading_method": "testo_documento",
+          "consulted_at": "2026-10-08T14:34:40.796377+00:00",
+          "acquired_at": null,
+          "document_sha256": null
+        }
+      ],
+      "limitations": [
+        "La lettura sostanziale riguarda la riproduzione parlamentare originaria; gli endpoint degli articoli Normattiva hanno restituito errori."
+      ],
+      "pending": [
+        "Ricostruire la versione corrente degli articoli pertinenti e gli allegati della Parte III."
+      ]
+    },
+    {
+      "id": "dl49",
+      "legal_review_complete": false,
+      "content_examined": true,
+      "observations": [
+        {
+          "aspect": "content",
+          "source_url": "https://www.gazzettaufficiale.it/eli/gu/2010/04/02/77/sg/pdf",
+          "locator": "Artt. 6 e 7; PDF pp. 6-7",
+          "finding": "Il testo originario disciplina mappe di pericolosità/rischio e piani distrettuali con prevenzione, protezione e preparazione, inclusi previsione e allertamento.",
+          "reading_method": "testo_documento",
+          "consulted_at": "2026-10-08T14:34:40.796397+00:00",
+          "acquired_at": "2026-10-08T13:06:17.506636+00:00",
+          "document_sha256": "2c0ccd954214af2a8727017a6789c40871936ec9cded9f19c9ebb53445720693"
+        },
+        {
+          "aspect": "amendment",
+          "source_url": "https://www.isprambiente.gov.it/pre_meteo/file/DLGS_49_2010_agg2014.pdf",
+          "locator": "Art. 7, comma 8 e nota 6; art. 12; pp. 7 e 10 del PDF",
+          "finding": "La versione ISPRA coordinata al 2014 riporta la modifica del termine del primo PGRA al 22 dicembre 2015, operata dal D.L. 91/2014 convertito dalla L. 116/2014, e riesami ogni sei anni. È una versione al 2014, non una certificazione di assenza di modifiche successive.",
+          "reading_method": "testo_documento",
+          "consulted_at": "2026-10-08T14:34:40.796399+00:00",
+          "acquired_at": null,
+          "document_sha256": null
+        }
+      ],
+      "limitations": [
+        "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+      ],
+      "pending": [
+        "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+      ]
+    },
+    {
+      "id": "ntc18",
+      "legal_review_complete": false,
+      "content_examined": true,
+      "observations": [
+        {
+          "aspect": "content",
+          "source_url": "https://www.gazzettaufficiale.it/eli/gu/2018/02/20/42/so/8/sg/pdf",
+          "locator": "Allegato, § 5.1.2.3; PDF pp. 154-155, GU pp. 150-151",
+          "finding": "Per ponti su corsi d’acqua naturali o artificiali il testo del 2018 richiede studio di compatibilità con relazioni idrologica e idraulica, piena di progetto con Tr=200 anni, verifiche di rigurgito, detriti e scalzamento. Il franco minimo è 1,50 m, con condizioni geometriche ed eccezioni da leggere integralmente nel paragrafo.",
+          "reading_method": "testo_documento",
+          "consulted_at": "2026-10-08T14:34:40.796416+00:00",
+          "acquired_at": "2026-10-08T13:06:17.508842+00:00",
+          "document_sha256": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46"
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.gazzettaufficiale.it/eli/gu/2018/02/20/42/so/8/sg/pdf",
+          "locator": "Allegato, § 5.2.1.2; PDF p. 168, GU p. 164",
+          "finding": "Il paragrafo sui ponti ferroviari rinvia integralmente al § 5.1.2.3 per la compatibilità idraulica.",
+          "reading_method": "testo_documento",
+          "consulted_at": "2026-10-08T14:34:40.796419+00:00",
+          "acquired_at": "2026-10-08T13:06:17.508842+00:00",
+          "document_sha256": "dda1e397d56d71aa0f5bc457c3ba9b77064a468699dfc37bd056ac6c47105a46"
+        }
+      ],
+      "limitations": [
+        "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+      ],
+      "pending": [
+        "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+      ]
+    },
+    {
+      "id": "dmattr2014",
+      "legal_review_complete": false,
+      "content_examined": true,
+      "observations": [
+        {
+          "aspect": "content",
+          "source_url": "https://www.gazzettaufficiale.it/eli/gu/2014/04/28/97/sg/pdf",
+          "locator": "Artt. 1-3; PDF p. 28, GU p. 20",
+          "finding": "L’art. 1 approva l’Allegato A per progettazione, realizzazione e gestione delle interferenze. L’art. 2 ammette richiesta di deroga per impossibilità tecnica con sicurezza equivalente e parere vincolante del tavolo tecnico previsto dall’art. 3.",
+          "reading_method": "testo_documento",
+          "consulted_at": "2026-10-08T14:34:40.796440+00:00",
+          "acquired_at": "2026-10-08T13:06:17.511792+00:00",
+          "document_sha256": "77971af9d404b4080ed164b9bdc938b28b32bf7ed3feb5dbde7466dd1980437c"
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.gazzettaufficiale.it/eli/gu/2014/04/28/97/sg/pdf",
+          "locator": "Allegato A, cap. 4 e § 4.1.1.1; PDF p. 34",
+          "finding": "Il capitolo 4 riguarda condotte convoglianti acque sotto pressione e distingue attraversamenti interrati, superiori e inferiori; il paragrafo disciplina tracciato e angolo dell’interferenza. Non si estendono queste prescrizioni indistintamente ai canali a pelo libero.",
+          "reading_method": "testo_documento",
+          "consulted_at": "2026-10-08T14:34:40.796442+00:00",
+          "acquired_at": "2026-10-08T13:06:17.511792+00:00",
+          "document_sha256": "77971af9d404b4080ed164b9bdc938b28b32bf7ed3feb5dbde7466dd1980437c"
+        }
+      ],
+      "limitations": [
+        "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+      ],
+      "pending": [
+        "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+      ]
+    },
+    {
+      "id": "camed2025",
+      "legal_review_complete": false,
+      "content_examined": true,
+      "observations": [
+        {
+          "aspect": "content",
+          "source_url": "https://www.gazzettaufficiale.it/eli/gu/2025/12/03/281/sg/pdf",
+          "locator": "Artt. 1 e 2; PDF pp. 89-90, GU pp. 85-86",
+          "finding": "Il decreto adotta l’Allegato 1 e distingue nuove procedure, progetti interni non ancora validati e casi transitori che continuano ad applicare i CAM 2022/2024. Il fascicolo GU rinvia all’Allegato 1 sul sito MASE senza riprodurne il contenuto tecnico completo.",
+          "reading_method": "testo_documento",
+          "consulted_at": "2026-10-08T14:34:40.796471+00:00",
+          "acquired_at": "2026-10-08T13:06:36.934756+00:00",
+          "document_sha256": "d7372a1e2e6e06c5418fcbfc5251dbd64f0b63e82216b15fbbb9366434aeecad"
+        },
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://www.gazzettaufficiale.it/eli/gu/2025/12/03/281/sg/pdf",
+          "locator": "Art. 4 e intestazione GU 3 dicembre 2025",
+          "finding": "L’entrata in vigore è fissata dopo sessanta giorni dalla pubblicazione, corrispondenti al 1 febbraio 2026; l’abrogazione dei decreti 2022/2024 si coordina con le disposizioni transitorie, senza sostituzione indistinta di tutte le gare.",
+          "reading_method": "testo_documento",
+          "consulted_at": "2026-10-08T14:34:40.796473+00:00",
+          "acquired_at": "2026-10-08T13:06:36.934756+00:00",
+          "document_sha256": "d7372a1e2e6e06c5418fcbfc5251dbd64f0b63e82216b15fbbb9366434aeecad"
+        }
+      ],
+      "limitations": [
+        "L’Allegato 1 tecnico non è riprodotto nel fascicolo GU esaminato."
+      ],
+      "pending": [
+        "Acquisire l’Allegato 1 MASE e verificare ogni criterio idraulico e successivi atti."
+      ]
+    },
+    {
+      "id": "camstrade2024",
+      "legal_review_complete": false,
+      "content_examined": true,
+      "observations": [
+        {
+          "aspect": "content",
+          "source_url": "https://www.gazzettaufficiale.it/eli/gu/2024/08/23/197/sg/pdf",
+          "locator": "Allegato 1, §§ 2.3.7-2.3.9; PDF p. 44, GU p. 42",
+          "finding": "Il testo del 2024 distingue canalette conformi a UNI EN 1433, tubazioni in gres e tubazioni plastiche, con requisiti separati di materiale riciclato. Sono letti i criteri originari; il testo va coordinato con il correttivo del 2025.",
+          "reading_method": "testo_documento",
+          "consulted_at": "2026-10-08T14:34:40.796493+00:00",
+          "acquired_at": "2026-10-08T13:07:00.993293+00:00",
+          "document_sha256": "c6fc9075aa13fbef4a9e6fcdb2426f297b404bc191f6e20c6aaa914570223ad0"
+        }
+      ],
+      "limitations": [
+        "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+      ],
+      "pending": [
+        "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+      ]
+    },
+    {
+      "id": "camstrade2025",
+      "legal_review_complete": false,
+      "content_examined": true,
+      "observations": [
+        {
+          "aspect": "amendment",
+          "source_url": "https://www.gazzettaufficiale.it/eli/gu/2025/09/23/221/sg/pdf",
+          "locator": "Art. 1, modifiche ai §§ 2.3.1-2.3.5 e 2.4.1-2.4.4; PDF pp. 5-6",
+          "finding": "Il correttivo modifica criteri sui prodotti e sul cantiere, comprese certificazioni e rinterri. Non si presenta il documento del 2024 come testo coordinato autonomo.",
+          "reading_method": "testo_documento",
+          "consulted_at": "2026-10-08T14:34:40.796538+00:00",
+          "acquired_at": "2026-10-08T13:07:45.965550+00:00",
+          "document_sha256": "edf1196631d5fc8af786ce7a84a3ec643968cbd3283f515363e84478ded9b348"
+        },
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://www.gazzettaufficiale.it/eli/gu/2025/09/23/221/sg/pdf",
+          "locator": "Artt. 3-5; PDF p. 7, GU p. 5",
+          "finding": "Il correttivo si applica anche a procedimenti in corso, salvo deroghe dell’art. 4 legate a progetti pregressi e inviti/bandi entro 180 giorni. L’art. 5 dispone entrata in vigore il giorno dopo la pubblicazione del 23 settembre 2025: 24 settembre 2025.",
+          "reading_method": "testo_documento",
+          "consulted_at": "2026-10-08T14:34:40.796540+00:00",
+          "acquired_at": "2026-10-08T13:07:45.965550+00:00",
+          "document_sha256": "edf1196631d5fc8af786ce7a84a3ec643968cbd3283f515363e84478ded9b348"
+        }
+      ],
+      "limitations": [
+        "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+      ],
+      "pending": [
+        "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+      ]
+    },
+    {
+      "id": "camverde2020",
+      "legal_review_complete": false,
+      "content_examined": true,
+      "observations": [
+        {
+          "aspect": "content",
+          "source_url": "https://www.gazzettaufficiale.it/eli/gu/2020/04/04/90/sg/pdf",
+          "locator": "Allegato 1, H.a.1 e H.a.2; PDF p. 17, GU p. 13",
+          "finding": "Gli impianti di irrigazione prevedono regolazione dei volumi, temporizzatori e sensori; il criterio di riuso integra raccolta delle meteoriche e, ove possibile, trattamento delle acque grigie, con relazione tecnica e schede del sistema.",
+          "reading_method": "testo_documento",
+          "consulted_at": "2026-10-08T14:34:40.796561+00:00",
+          "acquired_at": "2026-10-08T13:07:24.821459+00:00",
+          "document_sha256": "f32206f772b23494770f8b0baa8172fb6abfae01489a01111541d0fa00ca3a0e"
+        },
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://www.gazzettaufficiale.it/eli/gu/2020/04/04/90/sg/pdf",
+          "locator": "Art. 3; PDF p. 7, GU p. 3",
+          "finding": "Il decreto originario dispone entrata in vigore dopo 120 giorni dalla pubblicazione e abrogazione del precedente decreto del 13 dicembre 2013 dalla stessa data. La permanenza attuale nell’elenco CAM MASE resta da verificare.",
+          "reading_method": "testo_documento",
+          "consulted_at": "2026-10-08T14:34:40.796563+00:00",
+          "acquired_at": "2026-10-08T13:07:24.821459+00:00",
+          "document_sha256": "f32206f772b23494770f8b0baa8172fb6abfae01489a01111541d0fa00ca3a0e"
+        }
+      ],
+      "limitations": [
+        "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+      ],
+      "pending": [
+        "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+      ]
+    },
+    {
+      "id": "appalti36",
+      "legal_review_complete": false,
+      "content_examined": true,
+      "observations": [
+        {
+          "aspect": "content",
+          "source_url": "https://www.gazzettaufficiale.it/eli/gu/2023/03/31/77/so/12/sg/pdf",
+          "locator": "Art. 57, comma 2; PDF p. 52, GU p. 48",
+          "finding": "Il testo del 2023 prescrive l’inserimento di specifiche tecniche e clausole CAM nella documentazione progettuale e di gara e considera i criteri premianti. La lettura non certifica il coordinamento completo con i correttivi successivi.",
+          "reading_method": "testo_documento",
+          "consulted_at": "2026-10-08T14:34:40.796581+00:00",
+          "acquired_at": "2026-10-08T13:07:26.710792+00:00",
+          "document_sha256": "1604cafa9bbd258ada08978b9ca0376d929017a0ce18c78ee89ea68cd8f07702"
+        }
+      ],
+      "limitations": [
+        "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+      ],
+      "pending": [
+        "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+      ]
+    },
+    {
+      "id": "dpr753",
+      "legal_review_complete": false,
+      "content_examined": true,
+      "observations": [
+        {
+          "aspect": "content",
+          "source_url": "https://olympus.uniurb.it/index.php?Itemid=59&catid=5%3Anormativa-italiana&id=12158%3A1980dpr753&option=com_content&view=article",
+          "locator": "Titolo III, artt. 49, 58 e 60",
+          "finding": "La riproduzione istituzionale universitaria distingue fascia di rispetto ferroviaria, autorizzazione preventiva delle opere interferenti (inclusi canali e condotte) e riduzioni delle distanze subordinatamente alle condizioni di sicurezza. Non prova l’assetto amministrativo attuale degli uffici storici.",
+          "reading_method": "testo_documento",
+          "consulted_at": "2026-10-08T14:34:40.796600+00:00",
+          "acquired_at": null,
+          "document_sha256": null
+        }
+      ],
+      "limitations": [
+        "Riproduzione istituzionale universitaria; PDF storico GU non acquisito in forma leggibile."
+      ],
+      "pending": [
+        "Acquisire testo ufficiale coordinato e verificare competenze, deroghe e modifiche."
+      ]
+    },
+    {
+      "id": "dm185",
+      "legal_review_complete": false,
+      "content_examined": true,
+      "observations": [
+        {
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=003G0210&atto.dataPubblicazioneGazzetta=2003-07-23",
+          "locator": "Art. 1, commi 1-4, testo visualizzato vigente all’8 ottobre 2026",
+          "finding": "Il regolamento riguarda riuso di reflui domestici, urbani e industriali, sicurezza ambientale e igienico-sanitaria; esclude il riuso presso il medesimo stabilimento o consorzio che li ha prodotti. È materia di reflui, non di riuso meteorico.",
+          "reading_method": "testo_documento",
+          "consulted_at": "2026-10-08T14:34:40.796622+00:00",
+          "acquired_at": null,
+          "document_sha256": null
+        },
+        {
+          "aspect": "amendment",
+          "source_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=003G0210&atto.dataPubblicazioneGazzetta=2003-07-23",
+          "locator": "Aggiornamento (1) all’art. 1: D.L. 200/2025, art. 13, comma 1-ter, convertito dalla L. 26/2026",
+          "finding": "L’abrogazione è condizionata all’entrata in vigore del nuovo regolamento ex art. 99, comma 1, D.Lgs. 152/2006. Non si deduce dalla clausola che il nuovo regolamento sia già efficace.",
+          "reading_method": "testo_documento",
+          "consulted_at": "2026-10-08T14:34:40.796624+00:00",
+          "acquired_at": null,
+          "document_sha256": null
+        }
+      ],
+      "limitations": [
+        "Non verificata integralmente l’eventuale entrata in vigore del nuovo regolamento ex art. 99."
+      ],
+      "pending": [
+        "Verificare pubblicazione ed efficacia del nuovo regolamento, allegato qualità e coordinamento europeo."
+      ]
+    },
+    {
+      "id": "dpr59",
+      "legal_review_complete": false,
+      "content_examined": true,
+      "observations": [
+        {
+          "aspect": "content",
+          "source_url": "https://www.gazzettaufficiale.it/eli/gu/2013/05/29/124/so/42/sg/pdf",
+          "locator": "Artt. 1 e 3, comma 1, lett. a); PDF p. 6",
+          "finding": "Il testo originario definisce ambito AUA per le imprese indicate e impianti non soggetti ad AIA, con esclusioni per VIA sostitutiva; include tra i titoli sostituiti l’autorizzazione agli scarichi della Parte III del D.Lgs. 152/2006.",
+          "reading_method": "testo_documento",
+          "consulted_at": "2026-10-08T14:34:40.796644+00:00",
+          "acquired_at": "2026-10-08T13:08:57.644271+00:00",
+          "document_sha256": "0cca1928aaab2bdc37455fcdf0fc0320bca7da16e2a81fbe4ac96f0ea1431b3f"
+        }
+      ],
+      "limitations": [
+        "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+      ],
+      "pending": [
+        "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+      ]
+    },
+    {
+      "id": "ue60",
+      "legal_review_complete": false,
+      "content_examined": true,
+      "observations": [
+        {
+          "aspect": "content",
+          "source_url": "https://eur-lex.europa.eu/legal-content/en/ALL/?uri=CELEX%3A32000L0060",
+          "locator": "Artt. 3, par. 4 e 4; estratti ufficiali indicizzati",
+          "finding": "Gli estratti ufficiali consultati prevedono coordinamento dei programmi di misure nel distretto e obiettivi di non deterioramento/buono stato con deroghe condizionate. La fonte consultata tramite indicizzazione non equivale all’acquisizione del PDF completo.",
+          "reading_method": "estratto_ufficiale_indicizzato",
+          "consulted_at": "2026-10-08T14:34:40.796660+00:00",
+          "acquired_at": null,
+          "document_sha256": null
+        },
+        {
+          "aspect": "version",
+          "source_url": "https://eur-lex.europa.eu/eli/dir/2000/60",
+          "locator": "Intestazione del consolidato 02000L0060-20260510 e tabella degli atti modificativi M8",
+          "finding": "L’indice ufficiale segnala il consolidato del 10 maggio 2026 e la direttiva (UE) 2026/805 del 30 marzo 2026 tra gli atti modificativi. È un candidato da acquisire e coordinare, non una nuova scheda già verificata integralmente.",
+          "reading_method": "estratto_ufficiale_indicizzato",
+          "consulted_at": "2026-10-08T14:34:40.796662+00:00",
+          "acquired_at": null,
+          "document_sha256": null
+        }
+      ],
+      "limitations": [
+        "Testo acquisito solo tramite estratti ufficiali indicizzati; PDF non disponibile durante il controllo."
+      ],
+      "pending": [
+        "Leggere integralmente direttiva 2026/805 e consolidato del 10 maggio 2026."
+      ]
+    },
+    {
+      "id": "ueall",
+      "legal_review_complete": false,
+      "content_examined": true,
+      "observations": [
+        {
+          "aspect": "content",
+          "source_url": "https://www.consiglioregionale.calabria.it/upload/istruttoria/Direttiva%2023%20ottobre%202007%2C%20n.%202007-60-CE.pdf",
+          "locator": "Artt. 6 e 7; PDF pp. 5-6",
+          "finding": "La riproduzione istituzionale distingue mappe di pericolosità per scenari e mappe di rischio per conseguenze, e prevede PGRA coordinati con prevenzione, protezione e preparazione. I contenuti dei singoli PGRA territoriali restano una verifica distinta.",
+          "reading_method": "testo_documento",
+          "consulted_at": "2026-10-08T14:34:40.796677+00:00",
+          "acquired_at": null,
+          "document_sha256": null
+        },
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://www.consiglioregionale.calabria.it/upload/istruttoria/Direttiva%2023%20ottobre%202007%2C%20n.%202007-60-CE.pdf",
+          "locator": "Artt. 14 e 18; PDF pp. 8-9",
+          "finding": "Il testo prevede riesami ogni sei anni, scadenze iniziali al 22 dicembre e valutazione del cambiamento climatico; l’entrata in vigore è il ventesimo giorno dopo la pubblicazione. Non si confondono le scadenze europee con quelle del testo italiano originario.",
+          "reading_method": "testo_documento",
+          "consulted_at": "2026-10-08T14:34:40.796678+00:00",
+          "acquired_at": null,
+          "document_sha256": null
+        }
+      ],
+      "limitations": [
+        "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+      ],
+      "pending": [
+        "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+      ]
+    },
+    {
+      "id": "ue741reuse",
+      "legal_review_complete": false,
+      "content_examined": true,
+      "observations": [
+        {
+          "aspect": "content",
+          "source_url": "https://eur-lex.europa.eu/eli/reg/2020/741/oj/eng",
+          "locator": "Art. 3 e allegato I; estratti ufficiali indicizzati",
+          "finding": "Il regolamento riguarda acque reflue urbane ulteriormente trattate per irrigazione agricola, con classi di qualità correlate agli usi e alle tecniche irrigue. La classificazione nel tema scarichi/reflui è pertinente, senza attribuire il tema riuso meteorico.",
+          "reading_method": "estratto_ufficiale_indicizzato",
+          "consulted_at": "2026-10-08T14:34:40.796698+00:00",
+          "acquired_at": null,
+          "document_sha256": null
+        },
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://eur-lex.europa.eu/eli/reg/2020/741/oj/eng",
+          "locator": "Art. 16; estratto ufficiale indicizzato",
+          "finding": "L’art. 16 distingue entrata in vigore e applicazione dal 26 giugno 2023. La lettura degli estratti non certifica la ricostruzione completa di modifiche e permessi nazionali.",
+          "reading_method": "estratto_ufficiale_indicizzato",
+          "consulted_at": "2026-10-08T14:34:40.796700+00:00",
+          "acquired_at": null,
+          "document_sha256": null
+        }
+      ],
+      "limitations": [
+        "Consultati estratti ufficiali indicizzati, non il PDF completo."
+      ],
+      "pending": [
+        "Leggere integralmente artt. 5-6, allegati I-II e coordinamento nazionale."
+      ]
+    },
+    {
+      "id": "ue1765reuse",
+      "legal_review_complete": false,
+      "content_examined": true,
+      "observations": [
+        {
+          "aspect": "content",
+          "source_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=OJ%3AL_202401765",
+          "locator": "Allegato, descrizione del sistema di riutilizzo dell’acqua; p. 3/17, estratto ufficiale indicizzato",
+          "finding": "Se un piano comprende più sistemi, la descrizione può contenere elementi di base comuni e una panoramica dei rischi pertinenti a tutti i sistemi. È letto solo questo passaggio dell’allegato; il PDF integrale non è stato acquisito per la pagina di verifica automatica del portale.",
+          "reading_method": "estratto_ufficiale_indicizzato",
+          "consulted_at": "2026-10-08T14:34:40.796718+00:00",
+          "acquired_at": null,
+          "document_sha256": null
+        }
+      ],
+      "limitations": [
+        "Consultato solo un estratto dell’allegato indicizzato dalla fonte ufficiale; accesso diretto bloccato da verifica automatica."
+      ],
+      "pending": [
+        "Acquisire PDF completo, leggere specifiche tecniche e verificare status del precedente atto 2024/1261."
+      ]
+    }
+  ]
+}

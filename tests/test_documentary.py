@@ -48,6 +48,39 @@ class DocumentaryTests(unittest.TestCase):
         record = copy.deepcopy(self.record); record['documentary_review']['legal_state'] = 'in_force'
         with self.assertRaisesRegex(ValueError, 'stato giuridico'): self.check(record)
 
+    def test_normative_metadata_and_future_fields_require_reexamination(self):
+        for field, value in [
+            ('relations', [{'id': 'other', 'type': 'Modifica'}]),
+            ('documents', [{'url': self.record['url'], 'label': 'Testo coordinato'}]),
+            ('document_note', 'Allegato sostitutivo'),
+            ('note', 'Applicazione limitata'),
+            ('source_kind', 'Riproduzione istituzionale'),
+            ('publication_date', '2020-02-01'),
+            ('effective_date', '2020-02-16'),
+            ('future_normative_field', {'scope': 'new'}),
+        ]:
+            with self.subTest(field=field):
+                changed = copy.deepcopy(self.record)
+                changed[field] = value
+                self.assertNotEqual(record_version(changed), record_version(self.record))
+                with self.assertRaisesRegex(ValueError, 'contenuto cambiato'):
+                    self.check(changed, self.record)
+
+    def test_changed_document_label_is_not_hidden_by_unchanged_url(self):
+        record = copy.deepcopy(self.record)
+        record['documents'] = [{'url': self.record['url'], 'label': 'Originario'}]
+        record['documentary_review']['record_version'] = record_version(record)
+        changed = copy.deepcopy(record)
+        changed['documents'][0]['label'] = 'Coordinato'
+        with self.assertRaisesRegex(ValueError, 'contenuto cambiato'):
+            self.check(changed, record)
+
+    def test_execution_and_evidence_history_do_not_change_object_version(self):
+        record = copy.deepcopy(self.record)
+        record['history'] = [{'date': '2026-10-08', 'text': 'Controllo tecnico'}]
+        record['documentary_history'] = [copy.deepcopy(record['documentary_review'])]
+        self.assertEqual(record_version(record), record_version(self.record))
+
     def test_changed_review_sources_require_new_version_and_preserve_evidence(self):
         record = copy.deepcopy(self.record)
         review = record['documentary_review']

@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-08",
+  "technical_migration_only": true,
+  "records": [
+    {
+      "id": "er286",
+      "previous_version": "1e1ed7bc5532d73ef2a213ed2d0c876a1502a8ffb10b67209cd11db2db013d24",
+      "new_version": "ce1f30662bb98d6788fa5547df9fc71ef458f2dc218c1c77c490a2ff57d62a2d",
+      "consulted_at_preserved": "2026-10-08"
+    },
+    {
+      "id": "bz6",
+      "previous_version": "cee2c782223dea657190721133a2c4aa2ed0f7a00fd95365bb04d57dc8a992fa",
+      "new_version": "a8d78a1f8145cba3d100fb21fb026702f1db6bcb55190863bf0032528e7d340a",
+      "consulted_at_preserved": "2026-10-08"
+    },
+    {
+      "id": "uni752",
+      "previous_version": "b8679eeccb2c2898dbe6ada75eb11d53a9be514563797b7ab91657f87f9384ec",
+      "new_version": "ef2fd7cda32dd3ea52eb01cf474fa690d76c08bb7a9778a8d59bd1d1fe16c8ff",
+      "consulted_at_preserved": "2026-10-08"
+    },
+    {
+      "id": "uni12056",
+      "previous_version": "a05d72aa691fff7856735f1b7ec9e701a861e5101521175fe0694c85e11b7da4",
+      "new_version": "f97e6a9dd6e9e3462339f18f38e0e50ef96eb33c0591b5b10b530b140721f645",
+      "consulted_at_preserved": "2026-10-08"
+    },
+    {
+      "id": "uni858",
+      "previous_version": "dc9012f6e0fff5c59a45dadb5f5933ae3ee5a887e367e0d834924cca40a0ba3f",
+      "new_version": "dafda6e4a6ce081f18597682a60d3dfc5fa7cf8f0c40e24f3d565f10024f79ec",
+      "consulted_at_preserved": "2026-10-08"
+    },
+    {
+      "id": "dist-po",
+      "previous_version": "dcbe20b9cf0906f33f39e91fb9e38a13a4afc9536486d11169f35046bc1aed58",
+      "new_version": "d86866e8d5ab31f43edcba2caa5444185c7edc6d8ce0d4f5a0a6fc6b97d55402",
+      "consulted_at_preserved": "2026-10-08"
+    },
+    {
+      "id": "po-pai-estensione-13-2025",
+      "previous_version": "55d08a811f868a4711cfb1d1001797d8b6a144a31de7f651d5306e93e3a88d26",
+      "new_version": "17a0505d41e3faec66da32643d0deedc2e64feb0d72f5f87eb5dc4448d8abe52",
+      "consulted_at_preserved": "2026-10-08"
+    },
+    {
+      "id": "dist-centr",
+      "previous_version": "ec08e98997816e7bad6d4acea1ed8b4be140b5f4d54cd211d56a7a080961e969",
+      "new_version": "c0847165612df9527c9a581ac6b50911b080bd4e1ebbb22d00edb77f364d3e59",
+      "consulted_at_preserved": "2026-10-08"
+    },
+    {
+      "id": "bas9",
+      "previous_version": "2d0c159d6160eaf7f672e48a915e10f709fb6d9604039aa01684e7e463743f55",
+      "new_version": "116341cb6e2cd3cf6314da1ed222b0bd2929fbe64189156c6a39f3497cbf8d25",
+      "consulted_at_preserved": "2026-10-08"
+    },
+    {
+      "id": "sar-pai-frane-42-2026",
+      "previous_version": "f997976bf0861ed9e3f1108dcd7a546b2f90baf85b504160ce50c70d6838020c",
+      "new_version": "8cb5fd90a921ac7959a213489b38e0e55136f28bff67aa75411990efb0619c09",
+      "consulted_at_preserved": "2026-10-08"
+    },
+    {
+      "id": "sar-pai-barrali-162-2026",
+      "previous_version": "aa9b4624fa76186890e96a1a984bc1b76da705926de013ae29e046ddb298f3db",
+      "new_version": "e29b5a50ad2369d1227eac026de6f7ee15078bda2199e8705c7199bd5571afce",
+      "consulted_at_preserved": "2026-10-08"
+    },
+    {
+      "id": "pai-calabria-lao",
+      "previous_version": "120c318feacd554335b51d46f6bb2332593db6e5079856925b9567c337ae473b",
+      "new_version": "5e4db722d35f90875e6fc6ddca981bc3276de78c460946bde7171ad68d63e924",
+      "consulted_at_preserved": "2026-10-08"
+    },
+    {
+      "id": "bz-badia-pzp-782-2026",
+      "previous_version": "1fc74dc0cdd7d4abfce500dc55be102d1abc4de0893b5199de61ff0a8930c2ba",
+      "new_version": "c1282170710ff8bd4c9955ebd195d19b23479d85ebb7b1579caf684fbd576096",
+      "consulted_at_preserved": "2026-10-08"
+    },
+    {
+      "id": "bz-campo-tures-pzp-799-2026",
+      "previous_version": "8afe58d31a65b0f0dd68916d69a876731d565c76dc3127943635055b3c08f777",
+      "new_version": "d9e700a7c0b43788a4349d090b9a65e24ba483313644fbad85da821696759dc6",
+      "consulted_at_preserved": "2026-10-08"
+    },
+    {
+      "id": "bz-nova-ponente-pzp-776-2026",
+      "previous_version": "e02f0f91c40ee593e65d4fc248951084d60d7da6688c95cc1dd3054ed2419e41",
+      "new_version": "3315c22644813835bed7cc760b9e96d1248bed2133ef4216f697724a09ae281b",
+      "consulted_at_preserved": "2026-10-08"
+    },
+    {
+      "id": "bz-fortezza-pzp-742-2026",
+      "previous_version": "3219cc00f98f7f3608d8babc1cc7dbb5a58cda47f2eab839b68491bb07ba614d",
+      "new_version": "b8d9c7b2b4744ea97e7f3b94e6360cd808a2bdb66ece428aecaa16a40529db9b",
+      "consulted_at_preserved": "2026-10-08"
+    },
+    {
+      "id": "bz-nova-ponente-pzp-741-2026",
+      "previous_version": "2af4ffd94929ab695957a5f319f8f24c3bbdf11481a08878fd2fe209faeed03c",
+      "new_version": "760679b244312a6e4c3d2174d92fb74f1d8e07101d9edf79c1b14caad40cd9d5",
+      "consulted_at_preserved": "2026-10-08"
+    },
+    {
+      "id": "bz-sarentino-pzp-740-2026",
+      "previous_version": "7415ea514148de7b0df0ff6bcbbe1248f23ed06d78385862a3f99c6176a126a1",
+      "new_version": "5713f5add00721fd0d15019b3ea37004045ff8914fba8a99f280cc06601098ab",
+      "consulted_at_preserved": "2026-10-08"
+    },
+    {
+      "id": "bz-la-valle-pzp-739-2026",
+      "previous_version": "4884f333e4d5a7fb619842f8563fec27b4e30569e6cd333adfc39c3c3d302ca1",
+      "new_version": "b1b47df94827f897c1e857fb9542d7e89f73f3eeed47a38994ba027b9c114c8d",
+      "consulted_at_preserved": "2026-10-08"
+    },
+    {
+      "id": "bz-rasun-anterselva-pzp-738-2026",
+      "previous_version": "e30c0974ed0b8d58214e9def235f2453ecc9361815950d4c892984c2fa3bfa02",
+      "new_version": "583c0d27439ea98c7e414ec39f25cf3efd09f53780b3a21a39ad95fe6eddf59f",
+      "consulted_at_preserved": "2026-10-08"
+    }
+  ]
+}

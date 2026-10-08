@@ -13,6 +13,8 @@ Una scheda riesaminata può contenere `documentary_review`:
 - `limitations`, `pending`: limiti e verifiche ancora necessarie.
 - `record_version`: hash dell’oggetto e delle fonti della scheda e di `documentary_review.source_urls`, calcolato con `documentary.record_version(record)` **dopo** le correzioni, la normalizzazione dei topics e l’assegnazione della revisione con tutte le sue fonti. L’ordine delle fonti non modifica l’impronta.
 
+L’impronta comprende tutti i campi della scheda, comprese relazioni, note, metadati completi dei documenti e future date di pubblicazione/efficacia. Esclude soltanto `id`, `checked`, `history`, `documentary_review` e `documentary_history`. La migrazione dell’algoritmo conserva integralmente le revisioni precedenti nella cronologia e non modifica la data di consultazione: non costituisce una nuova lettura né una conferma della vigenza.
+
 Un esempio operativo di calcolo, usando il modulo esistente:
 
 ```python

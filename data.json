@@ -60,7 +60,31 @@
       ],
       "document_url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=004U0523&atto.dataPubblicazioneGazzetta=1904-10-07&tipoSerie=serie_generale&tipoVigenza=originario",
       "document_label": "Testo originario · Gazzetta Ufficiale",
-      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto."
+      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: Capo VII, artt. 93 e 96, lett. f); PDF p. 11, GU p. 4843",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://www.gazzettaufficiale.it/eli/gu/1904/10/07/234/sg/pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "content",
+            "source_url": "https://www.gazzettaufficiale.it/eli/gu/1904/10/07/234/sg/pdf",
+            "locator": "Capo VII, artt. 93 e 96, lett. f); PDF p. 11, GU p. 4843",
+            "finding": "Il testo originario subordina le opere in alveo al permesso amministrativo; per le distanze dell’art. 96, lett. f), richiama prima la disciplina locale e, in sua assenza, distingue piantagioni/smovimenti da fabbriche/scavi. Non è attestata l’applicabilità attuale delle competenze originarie."
+          }
+        ],
+        "limitations": [
+          "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+        ],
+        "pending": [
+          "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+        ],
+        "record_version": "9f892c5843631a0c07e5c2c501064b03cd985e1fdc119efd4c046ef6213fb084"
+      }
     },
     {
       "id": "rd1775",
@@ -110,7 +134,31 @@
       ],
       "document_url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=033U1775&atto.dataPubblicazioneGazzetta=1934-01-08&tipoSerie=serie_generale&tipoVigenza=originario",
       "document_label": "Testo originario · Gazzetta Ufficiale",
-      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto."
+      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: Art. 7; PDF p. 3",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://www.gazzettaufficiale.it/eli/gu/1934/01/08/5/sg/pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "content",
+            "source_url": "https://www.gazzettaufficiale.it/eli/gu/1934/01/08/5/sg/pdf",
+            "locator": "Art. 7; PDF p. 3",
+            "finding": "Le domande di nuova concessione sono accompagnate dal progetto delle opere di raccolta, regolazione, derivazione e restituzione. Il testo originario nomina organi amministrativi storici; il riparto di competenze attuale resta da coordinare."
+          }
+        ],
+        "limitations": [
+          "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+        ],
+        "pending": [
+          "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+        ],
+        "record_version": "1dd5cce771bb0f03c5d9f046379980ea4e58c0b5000cf53e2592c7ac0fbd6474"
+      }
     },
     {
       "id": "rd368",
@@ -161,7 +209,31 @@
       ],
       "document_url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=004U0368&atto.dataPubblicazioneGazzetta=1904-07-28&tipoSerie=serie_generale&tipoVigenza=originario",
       "document_label": "Testo originario · Gazzetta Ufficiale",
-      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto."
+      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: Art. 133, lett. a); PDF p. 13",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://www.gazzettaufficiale.it/eli/gu/1904/07/28/176/sg/pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "content",
+            "source_url": "https://www.gazzettaufficiale.it/eli/gu/1904/07/28/176/sg/pdf",
+            "locator": "Art. 133, lett. a); PDF p. 13",
+            "finding": "Il regolamento originario vieta determinate opere e piantagioni presso opere e canali di bonifica e distingue distanze in relazione al tipo di opera e alla sua importanza. Il fascicolo storico non è prova di testo coordinato vigente."
+          }
+        ],
+        "limitations": [
+          "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+        ],
+        "pending": [
+          "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+        ],
+        "record_version": "0817f204f2c4841afed8f1c7739a15ee1162eafbe8c2f1e6bb52295f6f35d2b2"
+      }
     },
     {
       "id": "rd215",
@@ -207,7 +279,31 @@
           "format": "pdf"
         }
       ],
-      "document_note": "Riproduzione in PDF del R.D. 215/1933 pubblicata dalla Provincia autonoma di Bolzano; per il testo vigente consulta Normattiva."
+      "document_note": "Riproduzione in PDF del R.D. 215/1933 pubblicata dalla Provincia autonoma di Bolzano; per il testo vigente consulta Normattiva.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: Pagina 1: articolo unico e testo allegato, titolo I, art. 1; titolo II, art. 2",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://www.provinz.bz.it/agricoltura/download/RD_215-1933.pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "content",
+            "source_url": "https://www.provinz.bz.it/agricoltura/download/RD_215-1933.pdf",
+            "locator": "Pagina 1: articolo unico e testo allegato, titolo I, art. 1; titolo II, art. 2",
+            "finding": "Il decreto approva il testo allegato; la bonifica integrale comprende opere di bonifica e miglioramento fondiario e distingue comprensori di prima e seconda categoria. Lettura visiva della pagina: l’estrazione testuale contiene caratteri corrotti."
+          }
+        ],
+        "limitations": [
+          "L’estrazione testuale è corrotta; è stata verificata visivamente soltanto pagina 1."
+        ],
+        "pending": [
+          "Acquisire testo coordinato e leggere disciplina consortile e modifiche successive."
+        ],
+        "record_version": "507eab0fa04134c79b9e888257b693534cafabd932d9f43f6dfe061e526c6d8a"
+      }
     },
     {
       "id": "dl152",
@@ -301,7 +397,37 @@
           "format": "pdf"
         }
       ],
-      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto."
+      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: Parte III, art. 113, commi 1-4; Parte III, art. 124, commi 1, 3 e 4",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://www.parlamento.it/parlam/leggi/deleghe/06152dl2.htm"
+        ],
+        "claims": [
+          {
+            "aspect": "content",
+            "source_url": "https://www.parlamento.it/parlam/leggi/deleghe/06152dl2.htm",
+            "locator": "Parte III, art. 113, commi 1-4",
+            "finding": "La riproduzione parlamentare del testo originario demanda alle regioni il controllo delle meteoriche e i casi di trattamento della prima pioggia; distingue le meteoriche non disciplinate e vieta l’immissione diretta nelle acque sotterranee."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.parlamento.it/parlam/leggi/deleghe/06152dl2.htm",
+            "locator": "Parte III, art. 124, commi 1, 3 e 4",
+            "finding": "Nel testo originario l’autorizzazione preventiva agli scarichi si coordina con la disciplina regionale dei domestici e con l’ammissione degli scarichi domestici in fognatura secondo i regolamenti del gestore. Non sono estesi al testo attuale i termini procedurali originari."
+          }
+        ],
+        "limitations": [
+          "La lettura sostanziale riguarda la riproduzione parlamentare originaria; gli endpoint degli articoli Normattiva hanno restituito errori."
+        ],
+        "pending": [
+          "Ricostruire la versione corrente degli articoli pertinenti e gli allegati della Parte III."
+        ],
+        "record_version": "725fbb1c69e7007f50dd4f544d18dfa2104c33d3edce083efbf7920b73d92cf4"
+      }
     },
     {
       "id": "dl49",
@@ -351,7 +477,38 @@
       ],
       "document_url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=010G0071&atto.dataPubblicazioneGazzetta=2010-04-02&tipoSerie=serie_generale&tipoVigenza=originario",
       "document_label": "Testo originario · Gazzetta Ufficiale",
-      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto."
+      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: Artt. 6 e 7; PDF pp. 6-7; Art. 7, comma 8 e nota 6; art. 12; pp. 7 e 10 del PDF",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://www.gazzettaufficiale.it/eli/gu/2010/04/02/77/sg/pdf",
+          "https://www.isprambiente.gov.it/pre_meteo/file/DLGS_49_2010_agg2014.pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "content",
+            "source_url": "https://www.gazzettaufficiale.it/eli/gu/2010/04/02/77/sg/pdf",
+            "locator": "Artt. 6 e 7; PDF pp. 6-7",
+            "finding": "Il testo originario disciplina mappe di pericolosità/rischio e piani distrettuali con prevenzione, protezione e preparazione, inclusi previsione e allertamento."
+          },
+          {
+            "aspect": "amendment",
+            "source_url": "https://www.isprambiente.gov.it/pre_meteo/file/DLGS_49_2010_agg2014.pdf",
+            "locator": "Art. 7, comma 8 e nota 6; art. 12; pp. 7 e 10 del PDF",
+            "finding": "La versione ISPRA coordinata al 2014 riporta la modifica del termine del primo PGRA al 22 dicembre 2015, operata dal D.L. 91/2014 convertito dalla L. 116/2014, e riesami ogni sei anni. È una versione al 2014, non una certificazione di assenza di modifiche successive."
+          }
+        ],
+        "limitations": [
+          "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+        ],
+        "pending": [
+          "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+        ],
+        "record_version": "c1cddeead2bf2b887183905b7a957b5f7b81e1aa8ccf934d8b1dcdccedf20d72"
+      }
     },
     {
       "id": "ntc18",
@@ -391,7 +548,37 @@
           "format": "pdf"
         }
       ],
-      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto."
+      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: Allegato, § 5.1.2.3; PDF pp. 154-155, GU pp. 150-151; Allegato, § 5.2.1.2; PDF p. 168, GU p. 164",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://www.gazzettaufficiale.it/eli/gu/2018/02/20/42/so/8/sg/pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "content",
+            "source_url": "https://www.gazzettaufficiale.it/eli/gu/2018/02/20/42/so/8/sg/pdf",
+            "locator": "Allegato, § 5.1.2.3; PDF pp. 154-155, GU pp. 150-151",
+            "finding": "Per ponti su corsi d’acqua naturali o artificiali il testo del 2018 richiede studio di compatibilità con relazioni idrologica e idraulica, piena di progetto con Tr=200 anni, verifiche di rigurgito, detriti e scalzamento. Il franco minimo è 1,50 m, con condizioni geometriche ed eccezioni da leggere integralmente nel paragrafo."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.gazzettaufficiale.it/eli/gu/2018/02/20/42/so/8/sg/pdf",
+            "locator": "Allegato, § 5.2.1.2; PDF p. 168, GU p. 164",
+            "finding": "Il paragrafo sui ponti ferroviari rinvia integralmente al § 5.1.2.3 per la compatibilità idraulica."
+          }
+        ],
+        "limitations": [
+          "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+        ],
+        "pending": [
+          "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+        ],
+        "record_version": "46bba98e57bc7f217a9e4ebeea6fe02e19c0b44b3cb5b8f627c3b893e411aa83"
+      }
     },
     {
       "id": "ue60",
@@ -431,7 +618,38 @@
           "format": "pdf"
         }
       ],
-      "document_note": "Il collegamento apre direttamente il PDF del documento."
+      "document_note": "Il collegamento apre direttamente il PDF del documento.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: Artt. 3, par. 4 e 4; estratti ufficiali indicizzati; Intestazione del consolidato 02000L0060-20260510 e tabella degli atti modificativi M8",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://eur-lex.europa.eu/legal-content/en/ALL/?uri=CELEX%3A32000L0060",
+          "https://eur-lex.europa.eu/eli/dir/2000/60"
+        ],
+        "claims": [
+          {
+            "aspect": "content",
+            "source_url": "https://eur-lex.europa.eu/legal-content/en/ALL/?uri=CELEX%3A32000L0060",
+            "locator": "Artt. 3, par. 4 e 4; estratti ufficiali indicizzati",
+            "finding": "Gli estratti ufficiali consultati prevedono coordinamento dei programmi di misure nel distretto e obiettivi di non deterioramento/buono stato con deroghe condizionate. La fonte consultata tramite indicizzazione non equivale all’acquisizione del PDF completo."
+          },
+          {
+            "aspect": "version",
+            "source_url": "https://eur-lex.europa.eu/eli/dir/2000/60",
+            "locator": "Intestazione del consolidato 02000L0060-20260510 e tabella degli atti modificativi M8",
+            "finding": "L’indice ufficiale segnala il consolidato del 10 maggio 2026 e la direttiva (UE) 2026/805 del 30 marzo 2026 tra gli atti modificativi. È un candidato da acquisire e coordinare, non una nuova scheda già verificata integralmente."
+          }
+        ],
+        "limitations": [
+          "Testo acquisito solo tramite estratti ufficiali indicizzati; PDF non disponibile durante il controllo."
+        ],
+        "pending": [
+          "Leggere integralmente direttiva 2026/805 e consolidato del 10 maggio 2026."
+        ],
+        "record_version": "eac9e33e02eeff1c05e2da165a5543b72bdcd383517f2885ab803f7235dd14d8"
+      }
     },
     {
       "id": "ueall",
@@ -471,7 +689,37 @@
           "format": "pdf"
         }
       ],
-      "document_note": "Il collegamento apre direttamente il PDF del documento."
+      "document_note": "Il collegamento apre direttamente il PDF del documento.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: Artt. 6 e 7; PDF pp. 5-6; Artt. 14 e 18; PDF pp. 8-9",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://www.consiglioregionale.calabria.it/upload/istruttoria/Direttiva%2023%20ottobre%202007%2C%20n.%202007-60-CE.pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "content",
+            "source_url": "https://www.consiglioregionale.calabria.it/upload/istruttoria/Direttiva%2023%20ottobre%202007%2C%20n.%202007-60-CE.pdf",
+            "locator": "Artt. 6 e 7; PDF pp. 5-6",
+            "finding": "La riproduzione istituzionale distingue mappe di pericolosità per scenari e mappe di rischio per conseguenze, e prevede PGRA coordinati con prevenzione, protezione e preparazione. I contenuti dei singoli PGRA territoriali restano una verifica distinta."
+          },
+          {
+            "aspect": "effectiveness",
+            "source_url": "https://www.consiglioregionale.calabria.it/upload/istruttoria/Direttiva%2023%20ottobre%202007%2C%20n.%202007-60-CE.pdf",
+            "locator": "Artt. 14 e 18; PDF pp. 8-9",
+            "finding": "Il testo prevede riesami ogni sei anni, scadenze iniziali al 22 dicembre e valutazione del cambiamento climatico; l’entrata in vigore è il ventesimo giorno dopo la pubblicazione. Non si confondono le scadenze europee con quelle del testo italiano originario."
+          }
+        ],
+        "limitations": [
+          "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+        ],
+        "pending": [
+          "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+        ],
+        "record_version": "1070036eaaf37d25e834e8d6018cf33eb966bff2a382f108330495ea295cc72f"
+      }
     },
     {
       "id": "lom7",
@@ -860,7 +1108,7 @@
         "pending": [
           "Ricostruire modifiche, atti attuativi e reperire il documento diretto della D.G.R. 286/2005."
         ],
-        "record_version": "1e1ed7bc5532d73ef2a213ed2d0c876a1502a8ffb10b67209cd11db2db013d24"
+        "record_version": "ce1f30662bb98d6788fa5547df9fc71ef458f2dc218c1c77c490a2ff57d62a2d"
       },
       "documentary_history": [
         {
@@ -887,6 +1135,31 @@
             "Ricostruire modifiche, atti attuativi e reperire il documento diretto della D.G.R. 286/2005."
           ],
           "record_version": "7863525321f1b19b6938a2fa22eef015c76d09f665ef434e24ba8f3bbffd58c8"
+        },
+        {
+          "checked_at": "2026-10-08",
+          "scope": "Identità e oggetto della D.G.R. 286/2005 nel BUR",
+          "outcome": "partial",
+          "legal_state": "partial",
+          "source_urls": [
+            "https://bur.regione.emilia-romagna.it/archivio/inserzione?anno=2005&num_boll=49&prog_documento=1"
+          ],
+          "claims": [
+            {
+              "aspect": "identity",
+              "source_url": "https://bur.regione.emilia-romagna.it/archivio/inserzione?anno=2005&num_boll=49&prog_documento=1",
+              "locator": "Intestazione del BUR: deliberazione 14 febbraio 2005 n. 286",
+              "finding": "Direttiva regionale per la gestione delle acque di prima pioggia e di lavaggio da aree esterne; corrispondono data, numero e materia della scheda."
+            }
+          ],
+          "limitations": [
+            "La pagina primaria Normativa regionale acquisita direttamente non espone l’atto nel testo ottenuto.",
+            "Il PDF etichettato in scheda è correttamente dichiarato attuativo (D.G.R. 1860/2006), non è il testo della 286/2005; download in timeout."
+          ],
+          "pending": [
+            "Ricostruire modifiche, atti attuativi e reperire il documento diretto della D.G.R. 286/2005."
+          ],
+          "record_version": "1e1ed7bc5532d73ef2a213ed2d0c876a1502a8ffb10b67209cd11db2db013d24"
         }
       ]
     },
@@ -1441,7 +1714,7 @@
         "pending": [
           "Reperire allegati e testo coordinato ufficiale; ricostruire l’intera catena modificativa e l’efficacia delle disposizioni."
         ],
-        "record_version": "cee2c782223dea657190721133a2c4aa2ed0f7a00fd95365bb04d57dc8a992fa"
+        "record_version": "a8d78a1f8145cba3d100fb21fb026702f1db6bcb55190863bf0032528e7d340a"
       },
       "documentary_history": [
         {
@@ -1489,6 +1762,52 @@
             "Reperire allegati e testo coordinato ufficiale; ricostruire l’intera catena modificativa e l’efficacia delle disposizioni."
           ],
           "record_version": "48194c5c2ac28e83eb9246698c38b4b611baaf87eb44ac986cf6896b77ff397c"
+        },
+        {
+          "checked_at": "2026-10-08",
+          "scope": "Identità e capo IV del testo originario; riscontro di modifiche successive",
+          "outcome": "partial",
+          "legal_state": "amended",
+          "source_urls": [
+            "https://www.gazzettaufficiale.it/eli/id/2009/01/24/008R0294/s3",
+            "https://www.gazzettaufficiale.it/eli/gu/2009/01/24/4/s3/pdf",
+            "https://www.gazzettaufficiale.it/atto/regioni/caricaArticoloDefault/originario?atto.codiceRedazionale=25R00323&atto.dataPubblicazioneGazzetta=2026-06-13&atto.tipoProvvedimento=DECRETO+DEL+PRESIDENTE+DELLA+PROVINCIA",
+            "https://www.gazzettaufficiale.it/atto/regioni/caricaArticolo?art.codiceRedazionale=25R00132&art.dataPubblicazioneGazzetta=2025-06-21&art.idArticolo=3&art.idGruppo=0&art.idSottoArticolo=1&art.progressivo=0&art.versione=1"
+          ],
+          "claims": [
+            {
+              "aspect": "identity",
+              "source_url": "https://www.gazzettaufficiale.it/eli/id/2009/01/24/008R0294/s3",
+              "locator": "Atto 008R0294, intestazione",
+              "finding": "Decreto del Presidente della Provincia autonoma di Bolzano 21 gennaio 2008 n. 6, attuativo della L.P. 8/2002."
+            },
+            {
+              "aspect": "content",
+              "source_url": "https://www.gazzettaufficiale.it/eli/gu/2009/01/24/4/s3/pdf",
+              "locator": "GU Regioni n. 4 del 24 gennaio 2009, pp. 17–35; capo IV, artt. 37–47, pp. 27–29",
+              "finding": "Gestione delle acque meteoriche e di lavaggio; art. 37 raccolta/riutilizzo e dispersione; artt. 38–39 definizioni e classificazione. Il fascicolo termina l’atto con Omissis."
+            },
+            {
+              "aspect": "amendment",
+              "source_url": "https://www.gazzettaufficiale.it/atto/regioni/caricaArticoloDefault/originario?atto.codiceRedazionale=25R00323&atto.dataPubblicazioneGazzetta=2026-06-13&atto.tipoProvvedimento=DECRETO+DEL+PRESIDENTE+DELLA+PROVINCIA",
+              "locator": "D.P.P. 22 maggio 2025 n. 9, art. 1",
+              "finding": "Soppressione del secondo periodo dell’art. 53 comma 3 e sostituzione dei commi 5 e 6; BUR del 29 maggio 2025 n. 22, richiamato dalla GU."
+            },
+            {
+              "aspect": "amendment",
+              "source_url": "https://www.gazzettaufficiale.it/atto/regioni/caricaArticolo?art.codiceRedazionale=25R00132&art.dataPubblicazioneGazzetta=2025-06-21&art.idArticolo=3&art.idGruppo=0&art.idSottoArticolo=1&art.progressivo=0&art.versione=1",
+              "locator": "Atto GU 25R00132, art. 3",
+              "finding": "Sono modificati gli artt. 14 e 16 del D.P.P. 6/2008; questo riscontro non ricostruisce l’intera successione normativa."
+            }
+          ],
+          "limitations": [
+            "PDF della GU originario: allegati omessi e modifiche successive non consolidate.",
+            "Lexbrowser restituisce pagina di attesa per troppe richieste; acquisizione diretta della pagina tematica restituisce solo Loading, mentre la consultazione indicizzata espone il richiamo al capo IV."
+          ],
+          "pending": [
+            "Reperire allegati e testo coordinato ufficiale; ricostruire l’intera catena modificativa e l’efficacia delle disposizioni."
+          ],
+          "record_version": "cee2c782223dea657190721133a2c4aa2ed0f7a00fd95365bb04d57dc8a992fa"
         }
       ]
     },
@@ -1892,7 +2211,7 @@
           "Testo tecnico integrale protetto da licenza, non acquisito né ripubblicato."
         ],
         "pending": [],
-        "record_version": "b8679eeccb2c2898dbe6ada75eb11d53a9be514563797b7ab91657f87f9384ec"
+        "record_version": "ef2fd7cda32dd3ea52eb01cf474fa690d76c08bb7a9778a8d59bd1d1fe16c8ff"
       },
       "documentary_history": [
         {
@@ -1922,6 +2241,34 @@
           ],
           "pending": [],
           "record_version": "9f605d9c92d9f394e93c01321409f0892719e27977205e63f7d9261745e5f945"
+        },
+        {
+          "checked_at": "2026-10-08",
+          "scope": "Titolo, edizione, data e stato nel catalogo ufficiale UNI",
+          "outcome": "verified",
+          "legal_state": "in_force",
+          "source_urls": [
+            "https://store.uni.com/uni-en-752-2017"
+          ],
+          "claims": [
+            {
+              "aspect": "identity",
+              "source_url": "https://store.uni.com/uni-en-752-2017",
+              "locator": "Catalogo UNI: titolo e sezione Dettagli",
+              "finding": "UNI EN 752:2017 identificata nel catalogo ufficiale."
+            },
+            {
+              "aspect": "status",
+              "source_url": "https://store.uni.com/uni-en-752-2017",
+              "locator": "Dettagli: Stato e Data entrata in vigore",
+              "finding": "Stato IN VIGORE; data 2017-06-08 corrispondente alla scheda."
+            }
+          ],
+          "limitations": [
+            "Testo tecnico integrale protetto da licenza, non acquisito né ripubblicato."
+          ],
+          "pending": [],
+          "record_version": "b8679eeccb2c2898dbe6ada75eb11d53a9be514563797b7ab91657f87f9384ec"
         }
       ]
     },
@@ -1988,7 +2335,7 @@
           "Testo tecnico integrale protetto da licenza, non acquisito né ripubblicato."
         ],
         "pending": [],
-        "record_version": "a05d72aa691fff7856735f1b7ec9e701a861e5101521175fe0694c85e11b7da4"
+        "record_version": "f97e6a9dd6e9e3462339f18f38e0e50ef96eb33c0591b5b10b530b140721f645"
       },
       "documentary_history": [
         {
@@ -2018,6 +2365,34 @@
           ],
           "pending": [],
           "record_version": "8ab0fa8edd2c12a025ec41106a8a07ed1d48a319e797e9521a6dddef2032ff85"
+        },
+        {
+          "checked_at": "2026-10-08",
+          "scope": "Titolo, edizione, data e stato nel catalogo ufficiale UNI",
+          "outcome": "verified",
+          "legal_state": "in_force",
+          "source_urls": [
+            "https://store.uni.com/uni-en-12056-3-2001"
+          ],
+          "claims": [
+            {
+              "aspect": "identity",
+              "source_url": "https://store.uni.com/uni-en-12056-3-2001",
+              "locator": "Catalogo UNI: titolo e sezione Dettagli",
+              "finding": "UNI EN 12056-3:2001 identificata nel catalogo ufficiale."
+            },
+            {
+              "aspect": "status",
+              "source_url": "https://store.uni.com/uni-en-12056-3-2001",
+              "locator": "Dettagli: Stato e Data entrata in vigore",
+              "finding": "Stato IN VIGORE; data 2001-09-30 corrispondente alla scheda."
+            }
+          ],
+          "limitations": [
+            "Testo tecnico integrale protetto da licenza, non acquisito né ripubblicato."
+          ],
+          "pending": [],
+          "record_version": "a05d72aa691fff7856735f1b7ec9e701a861e5101521175fe0694c85e11b7da4"
         }
       ]
     },
@@ -2084,7 +2459,7 @@
           "Testo tecnico integrale protetto da licenza, non acquisito né ripubblicato."
         ],
         "pending": [],
-        "record_version": "dc9012f6e0fff5c59a45dadb5f5933ae3ee5a887e367e0d834924cca40a0ba3f"
+        "record_version": "dafda6e4a6ce081f18597682a60d3dfc5fa7cf8f0c40e24f3d565f10024f79ec"
       },
       "documentary_history": [
         {
@@ -2114,6 +2489,34 @@
           ],
           "pending": [],
           "record_version": "7b619691f419c47f2f12a093db0ca225ce3d1879e32584b12647b6283caf69f7"
+        },
+        {
+          "checked_at": "2026-10-08",
+          "scope": "Titolo, edizione, data e stato nel catalogo ufficiale UNI",
+          "outcome": "verified",
+          "legal_state": "in_force",
+          "source_urls": [
+            "https://store.uni.com/uni-en-858-2-2004"
+          ],
+          "claims": [
+            {
+              "aspect": "identity",
+              "source_url": "https://store.uni.com/uni-en-858-2-2004",
+              "locator": "Catalogo UNI: titolo e sezione Dettagli",
+              "finding": "UNI EN 858-2:2004 identificata nel catalogo ufficiale."
+            },
+            {
+              "aspect": "status",
+              "source_url": "https://store.uni.com/uni-en-858-2-2004",
+              "locator": "Dettagli: Stato e Data entrata in vigore",
+              "finding": "Stato IN VIGORE; data 2004-06-01 corrispondente alla scheda."
+            }
+          ],
+          "limitations": [
+            "Testo tecnico integrale protetto da licenza, non acquisito né ripubblicato."
+          ],
+          "pending": [],
+          "record_version": "dc9012f6e0fff5c59a45dadb5f5933ae3ee5a887e367e0d834924cca40a0ba3f"
         }
       ]
     },
@@ -2217,7 +2620,7 @@
         "pending": [
           "Ricostruire successivi atti e cartografie; verificare separatamente PGRA e bacini oggetto di estensione."
         ],
-        "record_version": "dcbe20b9cf0906f33f39e91fb9e38a13a4afc9536486d11169f35046bc1aed58"
+        "record_version": "d86866e8d5ab31f43edcba2caa5444185c7edc6d8ce0d4f5a0a6fc6b97d55402"
       },
       "documentary_history": [
         {
@@ -2243,6 +2646,30 @@
             "Ricostruire successivi atti e cartografie; verificare separatamente PGRA e bacini oggetto di estensione."
           ],
           "record_version": "e786e72e29318ff842a12b4652f2dc19fe1d072d336dd080a092bf1ca330aa41"
+        },
+        {
+          "checked_at": "2026-10-08",
+          "scope": "Identità e versione dichiarata delle NTA PAI Po, distinta dal PGRA",
+          "outcome": "partial",
+          "legal_state": "partial",
+          "source_urls": [
+            "https://pai.adbpo.it/wp-content/uploads/2025/05/NA_PAI-PO.pdf"
+          ],
+          "claims": [
+            {
+              "aspect": "version",
+              "source_url": "https://pai.adbpo.it/wp-content/uploads/2025/05/NA_PAI-PO.pdf",
+              "locator": "Prima pagina delle NTA",
+              "finding": "Documento PAI del bacino del Po ad esclusione del Delta; intestazione indica testo vigente dal 17 aprile 2025, comprensivo delle modifiche precedenti."
+            }
+          ],
+          "limitations": [
+            "L’indicazione di versione nel PDF non attesta l’assenza di ulteriori varianti nel 2026 né la vigenza del distinto PGRA."
+          ],
+          "pending": [
+            "Ricostruire successivi atti e cartografie; verificare separatamente PGRA e bacini oggetto di estensione."
+          ],
+          "record_version": "dcbe20b9cf0906f33f39e91fb9e38a13a4afc9536486d11169f35046bc1aed58"
         }
       ]
     },
@@ -2344,7 +2771,7 @@
         "pending": [
           "Acquisire atti successivi e confrontare cartografie e regime transitorio alla data corrente."
         ],
-        "record_version": "55d08a811f868a4711cfb1d1001797d8b6a144a31de7f651d5306e93e3a88d26"
+        "record_version": "17a0505d41e3faec66da32643d0deedc2e64feb0d72f5f87eb5dc4448d8abe52"
       },
       "documentary_history": [
         {
@@ -2376,6 +2803,36 @@
             "Acquisire atti successivi e confrontare cartografie e regime transitorio alla data corrente."
           ],
           "record_version": "a3ed0e229a7c1c267bb9367d691728ecaa7c84f751f8e55fb6a52f45e249e8d1"
+        },
+        {
+          "checked_at": "2026-10-08",
+          "scope": "Estremi e natura di progetto della variante di estensione PAI Po",
+          "outcome": "partial",
+          "legal_state": "partial",
+          "source_urls": [
+            "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/delibera_CIP_13_2025_variante_PAI_Po_signed_signed.pdf"
+          ],
+          "claims": [
+            {
+              "aspect": "identity",
+              "source_url": "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/delibera_CIP_13_2025_variante_PAI_Po_signed_signed.pdf",
+              "locator": "Prima pagina, Oggetto e seduta",
+              "finding": "CIP 13/2025, seduta 18 dicembre 2025; progetto di variante per bacini Reno, Romagnoli, Conca Marecchia, Fissero–Tartaro–Canalbianco."
+            },
+            {
+              "aspect": "approval",
+              "source_url": "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/delibera_CIP_13_2025_variante_PAI_Po_signed_signed.pdf",
+              "locator": "Oggetto e dispositivo; appendici territoriali",
+              "finding": "L’atto adotta un progetto di variante, distinto dall’approvazione definitiva; appendici riferite ai bacini effettivi. Nessuna associazione regionale è modificata nel lotto."
+            }
+          ],
+          "limitations": [
+            "Non verificati in modo esaustivo i successivi provvedimenti, le decorrenze delle salvaguardie e tutti i comuni delle appendici."
+          ],
+          "pending": [
+            "Acquisire atti successivi e confrontare cartografie e regime transitorio alla data corrente."
+          ],
+          "record_version": "55d08a811f868a4711cfb1d1001797d8b6a144a31de7f651d5306e93e3a88d26"
         }
       ]
     },
@@ -2652,7 +3109,7 @@
         "pending": [
           "Verificare atti CIP 67/2026 e successivi, salvaguardie e cartografie; mantenere distinti i diversi strumenti."
         ],
-        "record_version": "ec08e98997816e7bad6d4acea1ed8b4be140b5f4d54cd211d56a7a080961e969"
+        "record_version": "c0847165612df9527c9a581ac6b50911b080bd4e1ebbb22d00edb77f364d3e59"
       },
       "documentary_history": [
         {
@@ -2678,6 +3135,30 @@
             "Verificare atti CIP 67/2026 e successivi, salvaguardie e cartografie; mantenere distinti i diversi strumenti."
           ],
           "record_version": "014fb9f378c674e10daa7a6b2833a7c7dfe01d176e38cd2bfc3ee4e0ebf9b2cd"
+        },
+        {
+          "checked_at": "2026-10-08",
+          "scope": "Identità e versione delle NTA del PAI distrettuale idraulico",
+          "outcome": "partial",
+          "legal_state": "partial",
+          "source_urls": [
+            "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO.pdf"
+          ],
+          "claims": [
+            {
+              "aspect": "version",
+              "source_url": "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO.pdf",
+              "locator": "Copertina, CIP 26.05.2026",
+              "finding": "NTA del PAI distrettuale per la gestione del rischio idraulico; copertina qualifica il documento Testo definitivo adottato, distinto dall’approvazione definitiva del piano."
+            }
+          ],
+          "limitations": [
+            "Il solo PDF NTA non ricostruisce tutte le decorrenze, salvaguardie, varianti e cartografie; PGRA e PAI frane non sono verificati da questo documento."
+          ],
+          "pending": [
+            "Verificare atti CIP 67/2026 e successivi, salvaguardie e cartografie; mantenere distinti i diversi strumenti."
+          ],
+          "record_version": "ec08e98997816e7bad6d4acea1ed8b4be140b5f4d54cd211d56a7a080961e969"
         }
       ]
     },
@@ -2767,7 +3248,7 @@
         "pending": [
           "Ricostruire eventuali modifiche legislative e confrontare gli atti attuativi, inclusa D.G.R. 471/2026; ritentare il PDF regionale."
         ],
-        "record_version": "2d0c159d6160eaf7f672e48a915e10f709fb6d9604039aa01684e7e463743f55"
+        "record_version": "116341cb6e2cd3cf6314da1ed222b0bd2929fbe64189156c6a39f3497cbf8d25"
       },
       "documentary_history": [
         {
@@ -2801,6 +3282,38 @@
             "Ricostruire eventuali modifiche legislative e confrontare gli atti attuativi, inclusa D.G.R. 471/2026; ritentare il PDF regionale."
           ],
           "record_version": "9c88277794625bea0d7637f2e26097ccfab37987296fd486ec878d35f875f68c"
+        },
+        {
+          "checked_at": "2026-10-08",
+          "scope": "Identità, articoli 1–8 del testo originario e art. 5; verifica della vigenza coordinata non conclusa",
+          "outcome": "partial",
+          "legal_state": "partial",
+          "source_urls": [
+            "https://www.gazzettaufficiale.it/eli/id/2017/12/16/17R00266/s3",
+            "https://www.regione.basilicata.it/wp-content/uploads/giunta/docs/DOCUMENT_FILE_3068771.pdf"
+          ],
+          "claims": [
+            {
+              "aspect": "identity",
+              "source_url": "https://www.gazzettaufficiale.it/eli/id/2017/12/16/17R00266/s3",
+              "locator": "Intestazione dell’atto 17R00266",
+              "finding": "Regione Basilicata; legge regionale 29 maggio 2017 n. 9; pubblicazione GU Regioni n. 50 del 16 dicembre 2017."
+            },
+            {
+              "aspect": "content",
+              "source_url": "https://www.regione.basilicata.it/wp-content/uploads/giunta/docs/DOCUMENT_FILE_3068771.pdf",
+              "locator": "PDF regionale, 4 pagine, artt. 1, 4, 5 e 8",
+              "finding": "Disciplina progetti e autorizzazioni provvisorie dei depuratori; l’art. 5 demanda linee guida e ulteriori disposizioni alla Giunta. L’art. 8 prevede efficacia il giorno successivo al BUR n. 15 del 1 giugno 2017."
+            }
+          ],
+          "limitations": [
+            "Testo originario, non attestazione di coordinamento all’8 ottobre 2026.",
+            "PDF leggibile nella consultazione testuale istituzionale iniziale; successivi download diretti hanno restituito HTTP 502/timeout."
+          ],
+          "pending": [
+            "Ricostruire eventuali modifiche legislative e confrontare gli atti attuativi, inclusa D.G.R. 471/2026; ritentare il PDF regionale."
+          ],
+          "record_version": "2d0c159d6160eaf7f672e48a915e10f709fb6d9604039aa01684e7e463743f55"
         }
       ]
     },
@@ -3092,7 +3605,7 @@
         "pending": [
           "Confrontare mappe ufficiali e successivi provvedimenti senza estendere la variante oltre il suo perimetro."
         ],
-        "record_version": "f997976bf0861ed9e3f1108dcd7a546b2f90baf85b504160ce50c70d6838020c"
+        "record_version": "8cb5fd90a921ac7959a213489b38e0e55136f28bff67aa75411990efb0619c09"
       },
       "documentary_history": [
         {
@@ -3125,6 +3638,37 @@
             "Confrontare mappe ufficiali e successivi provvedimenti senza estendere la variante oltre il suo perimetro."
           ],
           "record_version": "05cfd0364cf8b9ffff69a07f0001a04ba30f1ebc0f35606b3b30a3d9e6c5eddc"
+        },
+        {
+          "checked_at": "2026-10-08",
+          "scope": "Estremi, approvazione e pubblicazione/efficacia originaria della variante PAI",
+          "outcome": "partial",
+          "legal_state": "partial",
+          "source_urls": [
+            "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/06/dp_2026_06_17_n.42_prot.12805.pdf",
+            "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-stralcio-di-bacino-per-lassetto-idrogeologico-pai/variante-pai-frane-per-i-sub-bacini-1-2-4-5-6-7/"
+          ],
+          "claims": [
+            {
+              "aspect": "approval",
+              "source_url": "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/06/dp_2026_06_17_n.42_prot.12805.pdf",
+              "locator": "Oggetto e dispositivo",
+              "finding": "Decreto n. 42 del 17 giugno 2026, art. 1: approvazione variante PAI parte frana nei sub-bacini 1, 2, 4, 5, 6 e 7; art. 2 lega efficacia alla pubblicazione."
+            },
+            {
+              "aspect": "effectiveness",
+              "source_url": "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-stralcio-di-bacino-per-lassetto-idrogeologico-pai/variante-pai-frane-per-i-sub-bacini-1-2-4-5-6-7/",
+              "locator": "Pagina ufficiale dell’Autorità, pubblicazione e stato",
+              "finding": "Pagina dell’Autorità: decreto pubblicato nel BURAS n. 33 del 25 giugno 2026; riscontro della decorrenza originaria già indicata in scheda."
+            }
+          ],
+          "limitations": [
+            "Non esaminati tutti gli elaborati cartografici né effettuata una ricerca esaustiva di successive varianti."
+          ],
+          "pending": [
+            "Confrontare mappe ufficiali e successivi provvedimenti senza estendere la variante oltre il suo perimetro."
+          ],
+          "record_version": "f997976bf0861ed9e3f1108dcd7a546b2f90baf85b504160ce50c70d6838020c"
         }
       ]
     },
@@ -3226,7 +3770,7 @@
         "pending": [
           "Confrontare mappe ufficiali e successivi provvedimenti senza estendere la variante oltre il suo perimetro."
         ],
-        "record_version": "aa9b4624fa76186890e96a1a984bc1b76da705926de013ae29e046ddb298f3db"
+        "record_version": "e29b5a50ad2369d1227eac026de6f7ee15078bda2199e8705c7199bd5571afce"
       },
       "documentary_history": [
         {
@@ -3259,6 +3803,37 @@
             "Confrontare mappe ufficiali e successivi provvedimenti senza estendere la variante oltre il suo perimetro."
           ],
           "record_version": "28dcf4599d65092cb9ace4a2406109be378e9a5189d0a89cd2d0dbd858289f2a"
+        },
+        {
+          "checked_at": "2026-10-08",
+          "scope": "Estremi, approvazione e pubblicazione/efficacia originaria della variante PAI",
+          "outcome": "partial",
+          "legal_state": "partial",
+          "source_urls": [
+            "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/09/avp_2026_09_28_det.162_prot.11367_barrali.pdf",
+            "https://autoritadibacino.regione.sardegna.it/ap/determinazione-n-162-prot-n-11367-del-28-09-2026/"
+          ],
+          "claims": [
+            {
+              "aspect": "approval",
+              "source_url": "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/09/avp_2026_09_28_det.162_prot.11367_barrali.pdf",
+              "locator": "Oggetto e dispositivo",
+              "finding": "Determinazione n. 162 del 28 settembre 2026: approvazione variante puntuale PAI, pericolosità idraulica del Comune di Barrali; dispositivo ed elenco elaborati."
+            },
+            {
+              "aspect": "effectiveness",
+              "source_url": "https://autoritadibacino.regione.sardegna.it/ap/determinazione-n-162-prot-n-11367-del-28-09-2026/",
+              "locator": "Pagina ufficiale dell’Autorità, pubblicazione e stato",
+              "finding": "Albo ufficiale: Stato In vigore; pubblicazione BURAS n. 50 del 1 ottobre 2026; corrisponde alla decorrenza indicata in scheda."
+            }
+          ],
+          "limitations": [
+            "Non esaminati tutti gli elaborati cartografici né effettuata una ricerca esaustiva di successive varianti."
+          ],
+          "pending": [
+            "Confrontare mappe ufficiali e successivi provvedimenti senza estendere la variante oltre il suo perimetro."
+          ],
+          "record_version": "aa9b4624fa76186890e96a1a984bc1b76da705926de013ae29e046ddb298f3db"
         }
       ]
     },
@@ -3454,7 +4029,37 @@
           "format": "pdf"
         }
       ],
-      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto."
+      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: Artt. 1-3; PDF p. 28, GU p. 20; Allegato A, cap. 4 e § 4.1.1.1; PDF p. 34",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://www.gazzettaufficiale.it/eli/gu/2014/04/28/97/sg/pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "content",
+            "source_url": "https://www.gazzettaufficiale.it/eli/gu/2014/04/28/97/sg/pdf",
+            "locator": "Artt. 1-3; PDF p. 28, GU p. 20",
+            "finding": "L’art. 1 approva l’Allegato A per progettazione, realizzazione e gestione delle interferenze. L’art. 2 ammette richiesta di deroga per impossibilità tecnica con sicurezza equivalente e parere vincolante del tavolo tecnico previsto dall’art. 3."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.gazzettaufficiale.it/eli/gu/2014/04/28/97/sg/pdf",
+            "locator": "Allegato A, cap. 4 e § 4.1.1.1; PDF p. 34",
+            "finding": "Il capitolo 4 riguarda condotte convoglianti acque sotto pressione e distingue attraversamenti interrati, superiori e inferiori; il paragrafo disciplina tracciato e angolo dell’interferenza. Non si estendono queste prescrizioni indistintamente ai canali a pelo libero."
+          }
+        ],
+        "limitations": [
+          "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+        ],
+        "pending": [
+          "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+        ],
+        "record_version": "add37bb1436dbcc3a9103f4a264501c3098c50ada81d3030a2bc71ab8b119ffb"
+      }
     },
     {
       "id": "camed2025",
@@ -3541,7 +4146,37 @@
           "link_status": "checked",
           "link_checked": "2026-09-19"
         }
-      ]
+      ],
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: Artt. 1 e 2; PDF pp. 89-90, GU pp. 85-86; Art. 4 e intestazione GU 3 dicembre 2025",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://www.gazzettaufficiale.it/eli/gu/2025/12/03/281/sg/pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "content",
+            "source_url": "https://www.gazzettaufficiale.it/eli/gu/2025/12/03/281/sg/pdf",
+            "locator": "Artt. 1 e 2; PDF pp. 89-90, GU pp. 85-86",
+            "finding": "Il decreto adotta l’Allegato 1 e distingue nuove procedure, progetti interni non ancora validati e casi transitori che continuano ad applicare i CAM 2022/2024. Il fascicolo GU rinvia all’Allegato 1 sul sito MASE senza riprodurne il contenuto tecnico completo."
+          },
+          {
+            "aspect": "effectiveness",
+            "source_url": "https://www.gazzettaufficiale.it/eli/gu/2025/12/03/281/sg/pdf",
+            "locator": "Art. 4 e intestazione GU 3 dicembre 2025",
+            "finding": "L’entrata in vigore è fissata dopo sessanta giorni dalla pubblicazione, corrispondenti al 1 febbraio 2026; l’abrogazione dei decreti 2022/2024 si coordina con le disposizioni transitorie, senza sostituzione indistinta di tutte le gare."
+          }
+        ],
+        "limitations": [
+          "L’Allegato 1 tecnico non è riprodotto nel fascicolo GU esaminato."
+        ],
+        "pending": [
+          "Acquisire l’Allegato 1 MASE e verificare ogni criterio idraulico e successivi atti."
+        ],
+        "record_version": "2fb0717558d80afb9af123c3e5f418c84959431129c4128ce630aaa0d9877796"
+      }
     },
     {
       "id": "camstrade2024",
@@ -3605,7 +4240,31 @@
           "format": "pdf"
         }
       ],
-      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto."
+      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: Allegato 1, §§ 2.3.7-2.3.9; PDF p. 44, GU p. 42",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://www.gazzettaufficiale.it/eli/gu/2024/08/23/197/sg/pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "content",
+            "source_url": "https://www.gazzettaufficiale.it/eli/gu/2024/08/23/197/sg/pdf",
+            "locator": "Allegato 1, §§ 2.3.7-2.3.9; PDF p. 44, GU p. 42",
+            "finding": "Il testo del 2024 distingue canalette conformi a UNI EN 1433, tubazioni in gres e tubazioni plastiche, con requisiti separati di materiale riciclato. Sono letti i criteri originari; il testo va coordinato con il correttivo del 2025."
+          }
+        ],
+        "limitations": [
+          "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+        ],
+        "pending": [
+          "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+        ],
+        "record_version": "15d0ed5e731284dbd385f4dee2bbd5c032f27d98abde96b24f894833b4997f8f"
+      }
     },
     {
       "id": "camverde2020",
@@ -3662,7 +4321,37 @@
           "format": "pdf"
         }
       ],
-      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto."
+      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: Allegato 1, H.a.1 e H.a.2; PDF p. 17, GU p. 13; Art. 3; PDF p. 7, GU p. 3",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://www.gazzettaufficiale.it/eli/gu/2020/04/04/90/sg/pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "content",
+            "source_url": "https://www.gazzettaufficiale.it/eli/gu/2020/04/04/90/sg/pdf",
+            "locator": "Allegato 1, H.a.1 e H.a.2; PDF p. 17, GU p. 13",
+            "finding": "Gli impianti di irrigazione prevedono regolazione dei volumi, temporizzatori e sensori; il criterio di riuso integra raccolta delle meteoriche e, ove possibile, trattamento delle acque grigie, con relazione tecnica e schede del sistema."
+          },
+          {
+            "aspect": "effectiveness",
+            "source_url": "https://www.gazzettaufficiale.it/eli/gu/2020/04/04/90/sg/pdf",
+            "locator": "Art. 3; PDF p. 7, GU p. 3",
+            "finding": "Il decreto originario dispone entrata in vigore dopo 120 giorni dalla pubblicazione e abrogazione del precedente decreto del 13 dicembre 2013 dalla stessa data. La permanenza attuale nell’elenco CAM MASE resta da verificare."
+          }
+        ],
+        "limitations": [
+          "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+        ],
+        "pending": [
+          "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+        ],
+        "record_version": "2f8828244cb04933f8c0dccbfcf505014c793b80533bac265e41f03b40a0871f"
+      }
     },
     {
       "id": "appalti36",
@@ -3710,7 +4399,31 @@
           "format": "pdf"
         }
       ],
-      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto."
+      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: Art. 57, comma 2; PDF p. 52, GU p. 48",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://www.gazzettaufficiale.it/eli/gu/2023/03/31/77/so/12/sg/pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "content",
+            "source_url": "https://www.gazzettaufficiale.it/eli/gu/2023/03/31/77/so/12/sg/pdf",
+            "locator": "Art. 57, comma 2; PDF p. 52, GU p. 48",
+            "finding": "Il testo del 2023 prescrive l’inserimento di specifiche tecniche e clausole CAM nella documentazione progettuale e di gara e considera i criteri premianti. La lettura non certifica il coordinamento completo con i correttivi successivi."
+          }
+        ],
+        "limitations": [
+          "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+        ],
+        "pending": [
+          "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+        ],
+        "record_version": "a9f7401040d96fd66f0e73979dbdc3c924ee45c26a1a2534eea58b55953be305"
+      }
     },
     {
       "id": "camstrade2025",
@@ -3766,7 +4479,37 @@
           "format": "pdf"
         }
       ],
-      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto."
+      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: Art. 1, modifiche ai §§ 2.3.1-2.3.5 e 2.4.1-2.4.4; PDF pp. 5-6; Artt. 3-5; PDF p. 7, GU p. 5",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://www.gazzettaufficiale.it/eli/gu/2025/09/23/221/sg/pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "amendment",
+            "source_url": "https://www.gazzettaufficiale.it/eli/gu/2025/09/23/221/sg/pdf",
+            "locator": "Art. 1, modifiche ai §§ 2.3.1-2.3.5 e 2.4.1-2.4.4; PDF pp. 5-6",
+            "finding": "Il correttivo modifica criteri sui prodotti e sul cantiere, comprese certificazioni e rinterri. Non si presenta il documento del 2024 come testo coordinato autonomo."
+          },
+          {
+            "aspect": "effectiveness",
+            "source_url": "https://www.gazzettaufficiale.it/eli/gu/2025/09/23/221/sg/pdf",
+            "locator": "Artt. 3-5; PDF p. 7, GU p. 5",
+            "finding": "Il correttivo si applica anche a procedimenti in corso, salvo deroghe dell’art. 4 legate a progetti pregressi e inviti/bandi entro 180 giorni. L’art. 5 dispone entrata in vigore il giorno dopo la pubblicazione del 23 settembre 2025: 24 settembre 2025."
+          }
+        ],
+        "limitations": [
+          "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+        ],
+        "pending": [
+          "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+        ],
+        "record_version": "ca5d3f99f3d6b4a28529a204aae36a3f5a22704604c986132e34741bedef9a95"
+      }
     },
     {
       "id": "pai-calabria2001",
@@ -3932,7 +4675,7 @@
         "pending": [
           "Acquisire CIP 2/2024, successivi esiti e mappe; coordinare il regime transitorio con i precedenti strumenti."
         ],
-        "record_version": "120c318feacd554335b51d46f6bb2332593db6e5079856925b9567c337ae473b"
+        "record_version": "5e4db722d35f90875e6fc6ddca981bc3276de78c460946bde7171ad68d63e924"
       },
       "documentary_history": [
         {
@@ -3965,6 +4708,37 @@
             "Acquisire CIP 2/2024, successivi esiti e mappe; coordinare il regime transitorio con i precedenti strumenti."
           ],
           "record_version": "397c916a7a8748515f8892156f80aecf1da8d8384bfea14ccf2e043229f715ef"
+        },
+        {
+          "checked_at": "2026-10-08",
+          "scope": "Identità del progetto Calabria/Lao e proroga/disposizioni transitorie",
+          "outcome": "partial",
+          "legal_state": "partial",
+          "source_urls": [
+            "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2024/11/Norme_di_Attuazione.pdf",
+            "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2025/03/Delibera_n_1_Conferenza_Istituzionale_19_febbraio_2025_signed_signed.pdf"
+          ],
+          "claims": [
+            {
+              "aspect": "version",
+              "source_url": "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2024/11/Norme_di_Attuazione.pdf",
+              "locator": "Copertina, ottobre 2024",
+              "finding": "NTA/misure di salvaguardia del progetto PSdGDAM-RisAl-Cal/L; il documento si qualifica progetto di piano, non piano definitivamente approvato."
+            },
+            {
+              "aspect": "identity",
+              "source_url": "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2025/03/Delibera_n_1_Conferenza_Istituzionale_19_febbraio_2025_signed_signed.pdf",
+              "locator": "Oggetto della CIP n. 1 del 19 febbraio 2025",
+              "finding": "Proroga delle osservazioni e disposizioni transitorie, con rinvio alla CIP n. 2 del 24 ottobre 2024."
+            }
+          ],
+          "limitations": [
+            "Non conclusa la verifica degli atti successivi né delle interazioni con il PAI Calabria 2001; ambito idrografico Lao da verificare sulle mappe, non desumibile dal solo confine della Calabria."
+          ],
+          "pending": [
+            "Acquisire CIP 2/2024, successivi esiti e mappe; coordinare il regime transitorio con i precedenti strumenti."
+          ],
+          "record_version": "120c318feacd554335b51d46f6bb2332593db6e5079856925b9567c337ae473b"
         }
       ]
     },
@@ -4675,7 +5449,31 @@
           "format": "pdf"
         }
       ],
-      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale contenente l’atto."
+      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale contenente l’atto.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: Titolo III, artt. 49, 58 e 60",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://olympus.uniurb.it/index.php?Itemid=59&catid=5%3Anormativa-italiana&id=12158%3A1980dpr753&option=com_content&view=article"
+        ],
+        "claims": [
+          {
+            "aspect": "content",
+            "source_url": "https://olympus.uniurb.it/index.php?Itemid=59&catid=5%3Anormativa-italiana&id=12158%3A1980dpr753&option=com_content&view=article",
+            "locator": "Titolo III, artt. 49, 58 e 60",
+            "finding": "La riproduzione istituzionale universitaria distingue fascia di rispetto ferroviaria, autorizzazione preventiva delle opere interferenti (inclusi canali e condotte) e riduzioni delle distanze subordinatamente alle condizioni di sicurezza. Non prova l’assetto amministrativo attuale degli uffici storici."
+          }
+        ],
+        "limitations": [
+          "Riproduzione istituzionale universitaria; PDF storico GU non acquisito in forma leggibile."
+        ],
+        "pending": [
+          "Acquisire testo ufficiale coordinato e verificare competenze, deroghe e modifiche."
+        ],
+        "record_version": "0e32e9d410794b7b8e3ece10b7386ab16aee4141bce257bae61d8b1f853024c3"
+      }
     },
     {
       "id": "codstrada285",
@@ -4835,7 +5633,37 @@
           "format": "pdf"
         }
       ],
-      "document_note": "Il PDF apre il fascicolo ufficiale della Gazzetta Ufficiale contenente il D.M. 185/2003."
+      "document_note": "Il PDF apre il fascicolo ufficiale della Gazzetta Ufficiale contenente il D.M. 185/2003.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: Art. 1, commi 1-4, testo visualizzato vigente all’8 ottobre 2026; Aggiornamento (1) all’art. 1: D.L. 200/2025, art. 13, comma 1-ter, convertito dalla L. 26/2026",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=003G0210&atto.dataPubblicazioneGazzetta=2003-07-23"
+        ],
+        "claims": [
+          {
+            "aspect": "content",
+            "source_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=003G0210&atto.dataPubblicazioneGazzetta=2003-07-23",
+            "locator": "Art. 1, commi 1-4, testo visualizzato vigente all’8 ottobre 2026",
+            "finding": "Il regolamento riguarda riuso di reflui domestici, urbani e industriali, sicurezza ambientale e igienico-sanitaria; esclude il riuso presso il medesimo stabilimento o consorzio che li ha prodotti. È materia di reflui, non di riuso meteorico."
+          },
+          {
+            "aspect": "amendment",
+            "source_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=003G0210&atto.dataPubblicazioneGazzetta=2003-07-23",
+            "locator": "Aggiornamento (1) all’art. 1: D.L. 200/2025, art. 13, comma 1-ter, convertito dalla L. 26/2026",
+            "finding": "L’abrogazione è condizionata all’entrata in vigore del nuovo regolamento ex art. 99, comma 1, D.Lgs. 152/2006. Non si deduce dalla clausola che il nuovo regolamento sia già efficace."
+          }
+        ],
+        "limitations": [
+          "Non verificata integralmente l’eventuale entrata in vigore del nuovo regolamento ex art. 99."
+        ],
+        "pending": [
+          "Verificare pubblicazione ed efficacia del nuovo regolamento, allegato qualità e coordinamento europeo."
+        ],
+        "record_version": "96bc551873c95cb273e7c9b9b7ae21210fe6b728d43030e0e3ac444ac6784fca"
+      }
     },
     {
       "id": "dpr59",
@@ -4886,7 +5714,31 @@
           "format": "pdf"
         }
       ],
-      "document_note": "Il PDF apre il supplemento ordinario della Gazzetta Ufficiale contenente l’atto originario; per le modifiche usare il testo coordinato Normattiva."
+      "document_note": "Il PDF apre il supplemento ordinario della Gazzetta Ufficiale contenente l’atto originario; per le modifiche usare il testo coordinato Normattiva.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: Artt. 1 e 3, comma 1, lett. a); PDF p. 6",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://www.gazzettaufficiale.it/eli/gu/2013/05/29/124/so/42/sg/pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "content",
+            "source_url": "https://www.gazzettaufficiale.it/eli/gu/2013/05/29/124/so/42/sg/pdf",
+            "locator": "Artt. 1 e 3, comma 1, lett. a); PDF p. 6",
+            "finding": "Il testo originario definisce ambito AUA per le imprese indicate e impianti non soggetti ad AIA, con esclusioni per VIA sostitutiva; include tra i titoli sostituiti l’autorizzazione agli scarichi della Parte III del D.Lgs. 152/2006."
+          }
+        ],
+        "limitations": [
+          "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+        ],
+        "pending": [
+          "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+        ],
+        "record_version": "13d81cbe77a7cab1ddece2df05ac338fd3bd073c17607137eddd36b5423cf139"
+      }
     },
     {
       "id": "ue741reuse",
@@ -4946,7 +5798,37 @@
           "format": "pdf"
         }
       ],
-      "document_note": "Testo ufficiale in lingua italiana pubblicato su EUR-Lex."
+      "document_note": "Testo ufficiale in lingua italiana pubblicato su EUR-Lex.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: Art. 3 e allegato I; estratti ufficiali indicizzati; Art. 16; estratto ufficiale indicizzato",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://eur-lex.europa.eu/eli/reg/2020/741/oj/eng"
+        ],
+        "claims": [
+          {
+            "aspect": "content",
+            "source_url": "https://eur-lex.europa.eu/eli/reg/2020/741/oj/eng",
+            "locator": "Art. 3 e allegato I; estratti ufficiali indicizzati",
+            "finding": "Il regolamento riguarda acque reflue urbane ulteriormente trattate per irrigazione agricola, con classi di qualità correlate agli usi e alle tecniche irrigue. La classificazione nel tema scarichi/reflui è pertinente, senza attribuire il tema riuso meteorico."
+          },
+          {
+            "aspect": "effectiveness",
+            "source_url": "https://eur-lex.europa.eu/eli/reg/2020/741/oj/eng",
+            "locator": "Art. 16; estratto ufficiale indicizzato",
+            "finding": "L’art. 16 distingue entrata in vigore e applicazione dal 26 giugno 2023. La lettura degli estratti non certifica la ricostruzione completa di modifiche e permessi nazionali."
+          }
+        ],
+        "limitations": [
+          "Consultati estratti ufficiali indicizzati, non il PDF completo."
+        ],
+        "pending": [
+          "Leggere integralmente artt. 5-6, allegati I-II e coordinamento nazionale."
+        ],
+        "record_version": "9eab7f9f76adf65ee95690d00890ad771c91e4b1337053b0a13266c579dba049"
+      }
     },
     {
       "id": "ue1765reuse",
@@ -4998,7 +5880,31 @@
           "format": "pdf"
         }
       ],
-      "document_note": "Testo ufficiale in lingua italiana pubblicato su EUR-Lex."
+      "document_note": "Testo ufficiale in lingua italiana pubblicato su EUR-Lex.",
+      "documentary_review": {
+        "checked_at": "2026-10-08",
+        "scope": "Lettura sostanziale circoscritta: Allegato, descrizione del sistema di riutilizzo dell’acqua; p. 3/17, estratto ufficiale indicizzato",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=OJ%3AL_202401765"
+        ],
+        "claims": [
+          {
+            "aspect": "content",
+            "source_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=OJ%3AL_202401765",
+            "locator": "Allegato, descrizione del sistema di riutilizzo dell’acqua; p. 3/17, estratto ufficiale indicizzato",
+            "finding": "Se un piano comprende più sistemi, la descrizione può contenere elementi di base comuni e una panoramica dei rischi pertinenti a tutti i sistemi. È letto solo questo passaggio dell’allegato; il PDF integrale non è stato acquisito per la pagina di verifica automatica del portale."
+          }
+        ],
+        "limitations": [
+          "Consultato solo un estratto dell’allegato indicizzato dalla fonte ufficiale; accesso diretto bloccato da verifica automatica."
+        ],
+        "pending": [
+          "Acquisire PDF completo, leggere specifiche tecniche e verificare status del precedente atto 2024/1261."
+        ],
+        "record_version": "ccf83062dd6ff1a28c9b68368fb0aa03f56c062036d8dd00fae78138f547efa7"
+      }
     },
     {
       "id": "bz-badia-pzp-782-2026",
@@ -5084,7 +5990,7 @@
         "pending": [
           "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
         ],
-        "record_version": "1fc74dc0cdd7d4abfce500dc55be102d1abc4de0893b5199de61ff0a8930c2ba"
+        "record_version": "c1282170710ff8bd4c9955ebd195d19b23479d85ebb7b1579caf684fbd576096"
       },
       "documentary_history": [
         {
@@ -5123,6 +6029,43 @@
             "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
           ],
           "record_version": "2cb45abd244fef84ed900558f2364642f09d975586f8dbccdfde9322570b68be"
+        },
+        {
+          "checked_at": "2026-10-08",
+          "scope": "Estremi, comune, componente di pericolosità e approvazione della variante PZP",
+          "outcome": "partial",
+          "legal_state": "partial",
+          "source_urls": [
+            "https://api.integrations.services.siag.it/delibere/v1/delibere/esiuL8RBQoDk1lstoAKo%2BQ%3D%3D/document?tstmp=1790196547437"
+          ],
+          "claims": [
+            {
+              "aspect": "identity",
+              "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/esiuL8RBQoDk1lstoAKo%2BQ%3D%3D/document?tstmp=1790196547437",
+              "locator": "Prima pagina: numero, seduta e Oggetto",
+              "finding": "D.G.P. Bolzano 782/2026, seduta 2026-09-18; Badia, Pedraces–Ustaria Posta; pericoli idraulici."
+            },
+            {
+              "aspect": "approval",
+              "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/esiuL8RBQoDk1lstoAKo%2BQ%3D%3D/document?tstmp=1790196547437",
+              "locator": "Dispositivo finale della deliberazione",
+              "finding": "La Giunta provinciale approva la modifica del piano delle zone di pericolo del Comune indicato."
+            },
+            {
+              "aspect": "topics",
+              "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/esiuL8RBQoDk1lstoAKo%2BQ%3D%3D/document?tstmp=1790196547437",
+              "locator": "Oggetto e elenco delle cartografie modificate",
+              "finding": "Componente verificata: Badia, Pedraces–Ustaria Posta; pericoli idraulici. Le varianti solo frane/valanghe mantengono il tema frane; il tag PZP resta riservato ai pericoli idraulici."
+            }
+          ],
+          "limitations": [
+            "Il PDF lega l’entrata in vigore alla pubblicazione nel Bollettino; tale pubblicazione non è stata acquisita nel lotto.",
+            "Non acquisiti tutti gli elaborati cartografici né verificate le modifiche successive."
+          ],
+          "pending": [
+            "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
+          ],
+          "record_version": "1fc74dc0cdd7d4abfce500dc55be102d1abc4de0893b5199de61ff0a8930c2ba"
         }
       ]
     },
@@ -5211,7 +6154,7 @@
         "pending": [
           "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
         ],
-        "record_version": "8afe58d31a65b0f0dd68916d69a876731d565c76dc3127943635055b3c08f777"
+        "record_version": "d9e700a7c0b43788a4349d090b9a65e24ba483313644fbad85da821696759dc6"
       },
       "documentary_history": [
         {
@@ -5250,6 +6193,43 @@
             "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
           ],
           "record_version": "5130ea75b2b27b6fbb416d51d9978da5c3270b532f90465635e8772c6764ffaf"
+        },
+        {
+          "checked_at": "2026-10-08",
+          "scope": "Estremi, comune, componente di pericolosità e approvazione della variante PZP",
+          "outcome": "partial",
+          "legal_state": "partial",
+          "source_urls": [
+            "https://api.integrations.services.siag.it/delibere/v1/delibere/ZzOArA8ANeWZFuTKiVQGSA%3D%3D/document?tstmp=1790598720328"
+          ],
+          "claims": [
+            {
+              "aspect": "identity",
+              "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/ZzOArA8ANeWZFuTKiVQGSA%3D%3D/document?tstmp=1790598720328",
+              "locator": "Prima pagina: numero, seduta e Oggetto",
+              "finding": "D.G.P. Bolzano 799/2026, seduta 2026-09-25; Campo Tures; frane."
+            },
+            {
+              "aspect": "approval",
+              "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/ZzOArA8ANeWZFuTKiVQGSA%3D%3D/document?tstmp=1790598720328",
+              "locator": "Dispositivo finale della deliberazione",
+              "finding": "La Giunta provinciale approva la modifica del piano delle zone di pericolo del Comune indicato."
+            },
+            {
+              "aspect": "topics",
+              "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/ZzOArA8ANeWZFuTKiVQGSA%3D%3D/document?tstmp=1790598720328",
+              "locator": "Oggetto e elenco delle cartografie modificate",
+              "finding": "Componente verificata: Campo Tures; frane. Le varianti solo frane/valanghe mantengono il tema frane; il tag PZP resta riservato ai pericoli idraulici."
+            }
+          ],
+          "limitations": [
+            "Il PDF lega l’entrata in vigore alla pubblicazione nel Bollettino; tale pubblicazione non è stata acquisita nel lotto.",
+            "Non acquisiti tutti gli elaborati cartografici né verificate le modifiche successive."
+          ],
+          "pending": [
+            "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
+          ],
+          "record_version": "8afe58d31a65b0f0dd68916d69a876731d565c76dc3127943635055b3c08f777"
         }
       ]
     },
@@ -5338,7 +6318,7 @@
         "pending": [
           "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
         ],
-        "record_version": "e02f0f91c40ee593e65d4fc248951084d60d7da6688c95cc1dd3054ed2419e41"
+        "record_version": "3315c22644813835bed7cc760b9e96d1248bed2133ef4216f697724a09ae281b"
       },
       "documentary_history": [
         {
@@ -5377,6 +6357,43 @@
             "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
           ],
           "record_version": "118084c35000edc0b47860f661e2c1f602f1adaa53b28c18eec2bd5790d838d0"
+        },
+        {
+          "checked_at": "2026-10-08",
+          "scope": "Estremi, comune, componente di pericolosità e approvazione della variante PZP",
+          "outcome": "partial",
+          "legal_state": "partial",
+          "source_urls": [
+            "https://api.integrations.services.siag.it/delibere/v1/delibere/03qj3RHzult3pGstFd%2BQsQ%3D%3D/document?tstmp=1790750000000"
+          ],
+          "claims": [
+            {
+              "aspect": "identity",
+              "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/03qj3RHzult3pGstFd%2BQsQ%3D%3D/document?tstmp=1790750000000",
+              "locator": "Prima pagina: numero, seduta e Oggetto",
+              "finding": "D.G.P. Bolzano 776/2026, seduta 2026-09-18; Nova Ponente, SS 241 km 11+000–900; frane."
+            },
+            {
+              "aspect": "approval",
+              "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/03qj3RHzult3pGstFd%2BQsQ%3D%3D/document?tstmp=1790750000000",
+              "locator": "Dispositivo finale della deliberazione",
+              "finding": "La Giunta provinciale approva la modifica del piano delle zone di pericolo del Comune indicato."
+            },
+            {
+              "aspect": "topics",
+              "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/03qj3RHzult3pGstFd%2BQsQ%3D%3D/document?tstmp=1790750000000",
+              "locator": "Oggetto e elenco delle cartografie modificate",
+              "finding": "Componente verificata: Nova Ponente, SS 241 km 11+000–900; frane. Le varianti solo frane/valanghe mantengono il tema frane; il tag PZP resta riservato ai pericoli idraulici."
+            }
+          ],
+          "limitations": [
+            "Il PDF lega l’entrata in vigore alla pubblicazione nel Bollettino; tale pubblicazione non è stata acquisita nel lotto.",
+            "Non acquisiti tutti gli elaborati cartografici né verificate le modifiche successive."
+          ],
+          "pending": [
+            "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
+          ],
+          "record_version": "e02f0f91c40ee593e65d4fc248951084d60d7da6688c95cc1dd3054ed2419e41"
         }
       ]
     },
@@ -5465,7 +6482,7 @@
         "pending": [
           "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
         ],
-        "record_version": "3219cc00f98f7f3608d8babc1cc7dbb5a58cda47f2eab839b68491bb07ba614d"
+        "record_version": "b8d9c7b2b4744ea97e7f3b94e6360cd808a2bdb66ece428aecaa16a40529db9b"
       },
       "documentary_history": [
         {
@@ -5504,6 +6521,43 @@
             "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
           ],
           "record_version": "95d19b4915f5f0ea859fbe41d4143dda2607dc2501cf1a66bc576863db8af12d"
+        },
+        {
+          "checked_at": "2026-10-08",
+          "scope": "Estremi, comune, componente di pericolosità e approvazione della variante PZP",
+          "outcome": "partial",
+          "legal_state": "partial",
+          "source_urls": [
+            "https://api.integrations.services.siag.it/delibere/v1/delibere/f5awpYMYyI7-Nv91yjrfaw%3D%3D/document?tstmp=1790750000000"
+          ],
+          "claims": [
+            {
+              "aspect": "identity",
+              "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/f5awpYMYyI7-Nv91yjrfaw%3D%3D/document?tstmp=1790750000000",
+              "locator": "Prima pagina: numero, seduta e Oggetto",
+              "finding": "D.G.P. Bolzano 742/2026, seduta 2026-09-11; Fortezza, Greithwald; pericoli idraulici."
+            },
+            {
+              "aspect": "approval",
+              "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/f5awpYMYyI7-Nv91yjrfaw%3D%3D/document?tstmp=1790750000000",
+              "locator": "Dispositivo finale della deliberazione",
+              "finding": "La Giunta provinciale approva la modifica del piano delle zone di pericolo del Comune indicato."
+            },
+            {
+              "aspect": "topics",
+              "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/f5awpYMYyI7-Nv91yjrfaw%3D%3D/document?tstmp=1790750000000",
+              "locator": "Oggetto e elenco delle cartografie modificate",
+              "finding": "Componente verificata: Fortezza, Greithwald; pericoli idraulici. Le varianti solo frane/valanghe mantengono il tema frane; il tag PZP resta riservato ai pericoli idraulici."
+            }
+          ],
+          "limitations": [
+            "Il PDF lega l’entrata in vigore alla pubblicazione nel Bollettino; tale pubblicazione non è stata acquisita nel lotto.",
+            "Non acquisiti tutti gli elaborati cartografici né verificate le modifiche successive."
+          ],
+          "pending": [
+            "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
+          ],
+          "record_version": "3219cc00f98f7f3608d8babc1cc7dbb5a58cda47f2eab839b68491bb07ba614d"
         }
       ]
     },
@@ -5592,7 +6646,7 @@
         "pending": [
           "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
         ],
-        "record_version": "2af4ffd94929ab695957a5f319f8f24c3bbdf11481a08878fd2fe209faeed03c"
+        "record_version": "760679b244312a6e4c3d2174d92fb74f1d8e07101d9edf79c1b14caad40cd9d5"
       },
       "documentary_history": [
         {
@@ -5631,6 +6685,43 @@
             "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
           ],
           "record_version": "04b2f52dcbd3c02946c8221c72a325659c75dc05644e57fcdddc32895547dd86"
+        },
+        {
+          "checked_at": "2026-10-08",
+          "scope": "Estremi, comune, componente di pericolosità e approvazione della variante PZP",
+          "outcome": "partial",
+          "legal_state": "partial",
+          "source_urls": [
+            "https://api.integrations.services.siag.it/delibere/v1/delibere/XB%2BxsmykMNX4WRP4cDf9Eg%3D%3D/document?tstmp=1790750000000"
+          ],
+          "claims": [
+            {
+              "aspect": "identity",
+              "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/XB%2BxsmykMNX4WRP4cDf9Eg%3D%3D/document?tstmp=1790750000000",
+              "locator": "Prima pagina: numero, seduta e Oggetto",
+              "finding": "D.G.P. Bolzano 741/2026, seduta 2026-09-11; Nova Ponente; frane."
+            },
+            {
+              "aspect": "approval",
+              "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/XB%2BxsmykMNX4WRP4cDf9Eg%3D%3D/document?tstmp=1790750000000",
+              "locator": "Dispositivo finale della deliberazione",
+              "finding": "La Giunta provinciale approva la modifica del piano delle zone di pericolo del Comune indicato."
+            },
+            {
+              "aspect": "topics",
+              "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/XB%2BxsmykMNX4WRP4cDf9Eg%3D%3D/document?tstmp=1790750000000",
+              "locator": "Oggetto e elenco delle cartografie modificate",
+              "finding": "Componente verificata: Nova Ponente; frane. Le varianti solo frane/valanghe mantengono il tema frane; il tag PZP resta riservato ai pericoli idraulici."
+            }
+          ],
+          "limitations": [
+            "Il PDF lega l’entrata in vigore alla pubblicazione nel Bollettino; tale pubblicazione non è stata acquisita nel lotto.",
+            "Non acquisiti tutti gli elaborati cartografici né verificate le modifiche successive."
+          ],
+          "pending": [
+            "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
+          ],
+          "record_version": "2af4ffd94929ab695957a5f319f8f24c3bbdf11481a08878fd2fe209faeed03c"
         }
       ]
     },
@@ -5720,7 +6811,7 @@
         "pending": [
           "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
         ],
-        "record_version": "7415ea514148de7b0df0ff6bcbbe1248f23ed06d78385862a3f99c6176a126a1"
+        "record_version": "5713f5add00721fd0d15019b3ea37004045ff8914fba8a99f280cc06601098ab"
       },
       "documentary_history": [
         {
@@ -5759,6 +6850,43 @@
             "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
           ],
           "record_version": "ad736ef7fa60252079a48486ba51e1b2beed544d79078257ff2dd9ff571a0dc3"
+        },
+        {
+          "checked_at": "2026-10-08",
+          "scope": "Estremi, comune, componente di pericolosità e approvazione della variante PZP",
+          "outcome": "partial",
+          "legal_state": "partial",
+          "source_urls": [
+            "https://api.integrations.services.siag.it/delibere/v1/delibere/QDiyUDJvk7Ajnb95m6fsng%3D%3D/document?tstmp=1790750000000"
+          ],
+          "claims": [
+            {
+              "aspect": "identity",
+              "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/QDiyUDJvk7Ajnb95m6fsng%3D%3D/document?tstmp=1790750000000",
+              "locator": "Prima pagina: numero, seduta e Oggetto",
+              "finding": "D.G.P. Bolzano 740/2026, seduta 2026-09-11; Sarentino, Pichlereschbaum; pericoli idraulici e valanghivi."
+            },
+            {
+              "aspect": "approval",
+              "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/QDiyUDJvk7Ajnb95m6fsng%3D%3D/document?tstmp=1790750000000",
+              "locator": "Dispositivo finale della deliberazione",
+              "finding": "La Giunta provinciale approva la modifica del piano delle zone di pericolo del Comune indicato."
+            },
+            {
+              "aspect": "topics",
+              "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/QDiyUDJvk7Ajnb95m6fsng%3D%3D/document?tstmp=1790750000000",
+              "locator": "Oggetto e elenco delle cartografie modificate",
+              "finding": "Componente verificata: Sarentino, Pichlereschbaum; pericoli idraulici e valanghivi. Le varianti solo frane/valanghe mantengono il tema frane; il tag PZP resta riservato ai pericoli idraulici."
+            }
+          ],
+          "limitations": [
+            "Il PDF lega l’entrata in vigore alla pubblicazione nel Bollettino; tale pubblicazione non è stata acquisita nel lotto.",
+            "Non acquisiti tutti gli elaborati cartografici né verificate le modifiche successive."
+          ],
+          "pending": [
+            "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
+          ],
+          "record_version": "7415ea514148de7b0df0ff6bcbbe1248f23ed06d78385862a3f99c6176a126a1"
         }
       ]
     },
@@ -5847,7 +6975,7 @@
         "pending": [
           "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
         ],
-        "record_version": "4884f333e4d5a7fb619842f8563fec27b4e30569e6cd333adfc39c3c3d302ca1"
+        "record_version": "b1b47df94827f897c1e857fb9542d7e89f73f3eeed47a38994ba027b9c114c8d"
       },
       "documentary_history": [
         {
@@ -5886,6 +7014,43 @@
             "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
           ],
           "record_version": "79f57f90220a846f8ac02f224e281a5ba72dd436b041fe47072a3570755b681b"
+        },
+        {
+          "checked_at": "2026-10-08",
+          "scope": "Estremi, comune, componente di pericolosità e approvazione della variante PZP",
+          "outcome": "partial",
+          "legal_state": "partial",
+          "source_urls": [
+            "https://api.integrations.services.siag.it/delibere/v1/delibere/sSWjeY6wMsUs%2BRZX0J8S0Q%3D%3D/document?tstmp=1790750000000"
+          ],
+          "claims": [
+            {
+              "aspect": "identity",
+              "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/sSWjeY6wMsUs%2BRZX0J8S0Q%3D%3D/document?tstmp=1790750000000",
+              "locator": "Prima pagina: numero, seduta e Oggetto",
+              "finding": "D.G.P. Bolzano 739/2026, seduta 2026-09-11; La Valle, Armentarabach; pericoli idraulici."
+            },
+            {
+              "aspect": "approval",
+              "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/sSWjeY6wMsUs%2BRZX0J8S0Q%3D%3D/document?tstmp=1790750000000",
+              "locator": "Dispositivo finale della deliberazione",
+              "finding": "La Giunta provinciale approva la modifica del piano delle zone di pericolo del Comune indicato."
+            },
+            {
+              "aspect": "topics",
+              "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/sSWjeY6wMsUs%2BRZX0J8S0Q%3D%3D/document?tstmp=1790750000000",
+              "locator": "Oggetto e elenco delle cartografie modificate",
+              "finding": "Componente verificata: La Valle, Armentarabach; pericoli idraulici. Le varianti solo frane/valanghe mantengono il tema frane; il tag PZP resta riservato ai pericoli idraulici."
+            }
+          ],
+          "limitations": [
+            "Il PDF lega l’entrata in vigore alla pubblicazione nel Bollettino; tale pubblicazione non è stata acquisita nel lotto.",
+            "Non acquisiti tutti gli elaborati cartografici né verificate le modifiche successive."
+          ],
+          "pending": [
+            "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
+          ],
+          "record_version": "4884f333e4d5a7fb619842f8563fec27b4e30569e6cd333adfc39c3c3d302ca1"
         }
       ]
     },
@@ -5974,7 +7139,7 @@
         "pending": [
           "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
         ],
-        "record_version": "e30c0974ed0b8d58214e9def235f2453ecc9361815950d4c892984c2fa3bfa02"
+        "record_version": "583c0d27439ea98c7e414ec39f25cf3efd09f53780b3a21a39ad95fe6eddf59f"
       },
       "documentary_history": [
         {
@@ -6013,6 +7178,43 @@
             "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
           ],
           "record_version": "7a22f34921e4ac5f945fa003751c810cd65786eb8a554ebe61a31e9973c324e9"
+        },
+        {
+          "checked_at": "2026-10-08",
+          "scope": "Estremi, comune, componente di pericolosità e approvazione della variante PZP",
+          "outcome": "partial",
+          "legal_state": "partial",
+          "source_urls": [
+            "https://api.integrations.services.siag.it/delibere/v1/delibere/EG2E4ptZZnKQGIZaBUV5Qg%3D%3D/document?tstmp=1790750000000"
+          ],
+          "claims": [
+            {
+              "aspect": "identity",
+              "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/EG2E4ptZZnKQGIZaBUV5Qg%3D%3D/document?tstmp=1790750000000",
+              "locator": "Prima pagina: numero, seduta e Oggetto",
+              "finding": "D.G.P. Bolzano 738/2026, seduta 2026-09-11; Rasun-Anterselva, Biathlon Anterselva; frane e valanghe."
+            },
+            {
+              "aspect": "approval",
+              "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/EG2E4ptZZnKQGIZaBUV5Qg%3D%3D/document?tstmp=1790750000000",
+              "locator": "Dispositivo finale della deliberazione",
+              "finding": "La Giunta provinciale approva la modifica del piano delle zone di pericolo del Comune indicato."
+            },
+            {
+              "aspect": "topics",
+              "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/EG2E4ptZZnKQGIZaBUV5Qg%3D%3D/document?tstmp=1790750000000",
+              "locator": "Oggetto e elenco delle cartografie modificate",
+              "finding": "Componente verificata: Rasun-Anterselva, Biathlon Anterselva; frane e valanghe. Le varianti solo frane/valanghe mantengono il tema frane; il tag PZP resta riservato ai pericoli idraulici."
+            }
+          ],
+          "limitations": [
+            "Il PDF lega l’entrata in vigore alla pubblicazione nel Bollettino; tale pubblicazione non è stata acquisita nel lotto.",
+            "Non acquisiti tutti gli elaborati cartografici né verificate le modifiche successive."
+          ],
+          "pending": [
+            "Verificare numero/data del Bollettino ed efficacia; acquisire cartografie e delimitazioni della variante."
+          ],
+          "record_version": "e30c0974ed0b8d58214e9def235f2453ecc9361815950d4c892984c2fa3bfa02"
         }
       ]
     },
@@ -7600,6 +8802,85 @@
     }
   ],
   "runs": [
+    {
+      "date": "2026-10-08",
+      "type": "Audit documentale · testi nazionali ed europei · perimetro parziale",
+      "summary": "Lettura sostanziale circoscritta di 20 schede; nessuna revisione giuridica esaustiva. Migrazione conservativa delle impronte precedenti senza nuove date di lettura.",
+      "checked": [
+        "rd523: Lettura sostanziale circoscritta: Capo VII, artt. 93 e 96, lett. f); PDF p. 11, GU p. 4843",
+        "rd1775: Lettura sostanziale circoscritta: Art. 7; PDF p. 3",
+        "rd368: Lettura sostanziale circoscritta: Art. 133, lett. a); PDF p. 13",
+        "rd215: Lettura sostanziale circoscritta: Pagina 1: articolo unico e testo allegato, titolo I, art. 1; titolo II, art. 2",
+        "dl152: Lettura sostanziale circoscritta: Parte III, art. 113, commi 1-4; Parte III, art. 124, commi 1, 3 e 4",
+        "dl49: Lettura sostanziale circoscritta: Artt. 6 e 7; PDF pp. 6-7; Art. 7, comma 8 e nota 6; art. 12; pp. 7 e 10 del PDF",
+        "ntc18: Lettura sostanziale circoscritta: Allegato, § 5.1.2.3; PDF pp. 154-155, GU pp. 150-151; Allegato, § 5.2.1.2; PDF p. 168, GU p. 164",
+        "dmattr2014: Lettura sostanziale circoscritta: Artt. 1-3; PDF p. 28, GU p. 20; Allegato A, cap. 4 e § 4.1.1.1; PDF p. 34",
+        "camed2025: Lettura sostanziale circoscritta: Artt. 1 e 2; PDF pp. 89-90, GU pp. 85-86; Art. 4 e intestazione GU 3 dicembre 2025",
+        "camstrade2024: Lettura sostanziale circoscritta: Allegato 1, §§ 2.3.7-2.3.9; PDF p. 44, GU p. 42",
+        "camstrade2025: Lettura sostanziale circoscritta: Art. 1, modifiche ai §§ 2.3.1-2.3.5 e 2.4.1-2.4.4; PDF pp. 5-6; Artt. 3-5; PDF p. 7, GU p. 5",
+        "camverde2020: Lettura sostanziale circoscritta: Allegato 1, H.a.1 e H.a.2; PDF p. 17, GU p. 13; Art. 3; PDF p. 7, GU p. 3",
+        "appalti36: Lettura sostanziale circoscritta: Art. 57, comma 2; PDF p. 52, GU p. 48",
+        "dpr753: Lettura sostanziale circoscritta: Titolo III, artt. 49, 58 e 60",
+        "dm185: Lettura sostanziale circoscritta: Art. 1, commi 1-4, testo visualizzato vigente all’8 ottobre 2026; Aggiornamento (1) all’art. 1: D.L. 200/2025, art. 13, comma 1-ter, convertito dalla L. 26/2026",
+        "dpr59: Lettura sostanziale circoscritta: Artt. 1 e 3, comma 1, lett. a); PDF p. 6",
+        "ue60: Lettura sostanziale circoscritta: Artt. 3, par. 4 e 4; estratti ufficiali indicizzati; Intestazione del consolidato 02000L0060-20260510 e tabella degli atti modificativi M8",
+        "ueall: Lettura sostanziale circoscritta: Artt. 6 e 7; PDF pp. 5-6; Artt. 14 e 18; PDF pp. 8-9",
+        "ue741reuse: Lettura sostanziale circoscritta: Art. 3 e allegato I; estratti ufficiali indicizzati; Art. 16; estratto ufficiale indicizzato",
+        "ue1765reuse: Lettura sostanziale circoscritta: Allegato, descrizione del sistema di riutilizzo dell’acqua; p. 3/17, estratto ufficiale indicizzato"
+      ],
+      "read_urls": [
+        "https://www.gazzettaufficiale.it/eli/gu/1904/10/07/234/sg/pdf",
+        "https://www.gazzettaufficiale.it/eli/gu/1934/01/08/5/sg/pdf",
+        "https://www.gazzettaufficiale.it/eli/gu/1904/07/28/176/sg/pdf",
+        "https://www.provinz.bz.it/agricoltura/download/RD_215-1933.pdf",
+        "https://www.parlamento.it/parlam/leggi/deleghe/06152dl2.htm",
+        "https://www.gazzettaufficiale.it/eli/gu/2010/04/02/77/sg/pdf",
+        "https://www.isprambiente.gov.it/pre_meteo/file/DLGS_49_2010_agg2014.pdf",
+        "https://www.gazzettaufficiale.it/eli/gu/2018/02/20/42/so/8/sg/pdf",
+        "https://www.gazzettaufficiale.it/eli/gu/2014/04/28/97/sg/pdf",
+        "https://www.gazzettaufficiale.it/eli/gu/2025/12/03/281/sg/pdf",
+        "https://www.gazzettaufficiale.it/eli/gu/2024/08/23/197/sg/pdf",
+        "https://www.gazzettaufficiale.it/eli/gu/2025/09/23/221/sg/pdf",
+        "https://www.gazzettaufficiale.it/eli/gu/2020/04/04/90/sg/pdf",
+        "https://www.gazzettaufficiale.it/eli/gu/2023/03/31/77/so/12/sg/pdf",
+        "https://olympus.uniurb.it/index.php?Itemid=59&catid=5%3Anormativa-italiana&id=12158%3A1980dpr753&option=com_content&view=article",
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=003G0210&atto.dataPubblicazioneGazzetta=2003-07-23",
+        "https://www.gazzettaufficiale.it/eli/gu/2013/05/29/124/so/42/sg/pdf",
+        "https://eur-lex.europa.eu/legal-content/en/ALL/?uri=CELEX%3A32000L0060",
+        "https://eur-lex.europa.eu/eli/dir/2000/60",
+        "https://www.consiglioregionale.calabria.it/upload/istruttoria/Direttiva%2023%20ottobre%202007%2C%20n.%202007-60-CE.pdf",
+        "https://eur-lex.europa.eu/eli/reg/2020/741/oj/eng",
+        "https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=OJ%3AL_202401765"
+      ],
+      "errors": [
+        "Versioni coordinate, modifiche, allegati e applicabilità rimangono da verificare nei limiti delle singole schede.",
+        "Endpoint degli articoli Normattiva: errori HTTP 500; PDF EUR-Lex: accesso bloccato da pagina di verifica. Nessuna deduzione di assenza di modifiche."
+      ],
+      "updated_records": [
+        "rd523",
+        "rd1775",
+        "rd368",
+        "rd215",
+        "dl152",
+        "dl49",
+        "ntc18",
+        "dmattr2014",
+        "camed2025",
+        "camstrade2024",
+        "camstrade2025",
+        "camverde2020",
+        "appalti36",
+        "dpr753",
+        "dm185",
+        "dpr59",
+        "ue60",
+        "ueall",
+        "ue741reuse",
+        "ue1765reuse"
+      ],
+      "new_records": [],
+      "publication": "data_json_update"
+    },
     {
       "date": "2026-10-08",
       "type": "Ciclo automatico · verifica territoriale mirata · copertura parziale",

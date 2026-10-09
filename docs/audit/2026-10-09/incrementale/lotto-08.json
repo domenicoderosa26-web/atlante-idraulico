@@ -1,0 +1,1223 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-09",
+  "base_commit": "6e8c9762753fb00fe2a24c33886c465e2369ca7d",
+  "records": [
+    {
+      "id": "dist-sett",
+      "consulted_at": "2026-10-09T08:44:04.255108+00:00",
+      "content_examined": true,
+      "legal_review_complete": false,
+      "source_documents": [
+        {
+          "url": "https://www.appenninosettentrionale.it/rep/distretto/pgra/G_UFF_07022023%20N.%2032_DPCM_PGRA.pdf",
+          "checked_at": "2026-10-09T08:26:40.092144+00:00",
+          "name": "dist-sett-1",
+          "attempt_count": 1,
+          "http_status": 200,
+          "final_url": "https://www.appenninosettentrionale.it/rep/distretto/pgra/G_UFF_07022023%20N.%2032_DPCM_PGRA.pdf",
+          "bytes": 4155023,
+          "sha256": "1323be18cbc5f2502452627bea8e17ac8ae58f2bb45fe2e0f883a2997592e596",
+          "content_type": "application/pdf",
+          "truncated": false,
+          "pdf_signature": true,
+          "pdf_pages": 88,
+          "text_characters": 473515,
+          "transport_result": "retrieved_pdf"
+        },
+        {
+          "url": "https://www.appenninosettentrionale.it/rep/distretto/pgra/Disciplina%20di%20Piano.pdf",
+          "checked_at": "2026-10-09T08:26:40.093172+00:00",
+          "name": "dist-sett-2",
+          "attempt_count": 1,
+          "http_status": 200,
+          "final_url": "https://www.appenninosettentrionale.it/rep/distretto/pgra/Disciplina%20di%20Piano.pdf",
+          "bytes": 335970,
+          "sha256": "1b820942264a4e7d5808d39263e0d8ec84cb274bcdeaabb0172d1570e257a0eb",
+          "content_type": "application/pdf",
+          "truncated": false,
+          "pdf_signature": true,
+          "pdf_pages": 27,
+          "text_characters": 79371,
+          "transport_result": "retrieved_pdf"
+        },
+        {
+          "url": "https://www.appenninosettentrionale.it/itc/?page_id=1512",
+          "checked_at": "2026-10-09T08:27:01.590197+00:00",
+          "name": "sett-disciplina-page",
+          "attempt_count": 1,
+          "http_status": 200,
+          "final_url": "https://www.appenninosettentrionale.it/itc/?page_id=1512",
+          "bytes": 109405,
+          "sha256": "bf636539b14cd3aad12cfad5d611f14f215b798ffea9b6f6a266e73d6efc943d",
+          "content_type": "text/html; charset=UTF-8",
+          "truncated": false,
+          "pdf_signature": false,
+          "text_characters": 5476,
+          "transport_result": "retrieved_non_pdf"
+        },
+        {
+          "url": "https://www.appenninosettentrionale.it/itc/?page_id=15866",
+          "checked_at": "2026-10-09T08:27:01.860856+00:00",
+          "name": "sett-iii-page",
+          "attempt_count": 1,
+          "http_status": 200,
+          "final_url": "https://www.appenninosettentrionale.it/itc/?page_id=15866",
+          "bytes": 117920,
+          "sha256": "02c455c91b82400349b765a91b908f098fabb060a7918e45cd2a2a7c968caffb",
+          "content_type": "text/html; charset=UTF-8",
+          "truncated": false,
+          "pdf_signature": false,
+          "text_characters": 6568,
+          "transport_result": "retrieved_non_pdf"
+        }
+      ],
+      "observations": [
+        {
+          "aspect": "approval",
+          "source_url": "https://www.appenninosettentrionale.it/rep/distretto/pgra/G_UFF_07022023%20N.%2032_DPCM_PGRA.pdf",
+          "locator": "GU 31 del 7 febbraio 2023, pp. 5-6, artt. 1-3",
+          "finding": "Approvato il PGRA 2021-2027. Il DPCM distingue superamento dei PAI idraulici nel settore toscano e subentro nel settore ligure; non consente di eliminare indiscriminatamente le discipline territoriali residue."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.appenninosettentrionale.it/rep/distretto/pgra/Disciplina%20di%20Piano.pdf",
+          "locator": "Art. 6, comma 1, lett. a",
+          "finding": "P3 fluviale: TR fino a 30 anni, fino a 50 nella UoM Regionale Liguria; P2: oltre 30 fino a 200, oltre 50 fino a 200 in tale UoM; P1 oltre 200 e fondovalle alluvionale. Scenari costieri distinti, fino a 50 e tra 50 e 100 anni."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.appenninosettentrionale.it/rep/distretto/pgra/Disciplina%20di%20Piano.pdf",
+          "locator": "Artt. 7-13 e 24",
+          "finding": "Norme e indirizzi distinguono P3, P2 e P1, prevedono condizioni regionali di gestione del rischio e specifici pareri sulle opere idrauliche. Nelle aree presidiate da argini i Comuni individuano misure per il collasso: la presenza dell’argine non annulla il rischio."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.appenninosettentrionale.it/rep/distretto/pgra/Disciplina%20di%20Piano.pdf",
+          "locator": "Artt. 25-26",
+          "finding": "Restano specifici vincoli del Piano stralcio Rischio Idraulico Arno e, per Magra e Regionale Liguria, le fasce di riassetto e relativa normativa. La disciplina dichiara efficacia vincolante dall’approvazione dell’aggiornamento."
+        },
+        {
+          "aspect": "version",
+          "source_url": "https://www.appenninosettentrionale.it/itc/?page_id=1512",
+          "locator": "Disciplina di Piano (PGRA 2021-2027)",
+          "finding": "La pagina collega la disciplina e separatamente la modifica dell’allegato 4 DCI 44/2024. Il PDF dicembre 2021 non va qualificato come coordinamento esaustivo delle modifiche successive."
+        },
+        {
+          "aspect": "status",
+          "source_url": "https://www.appenninosettentrionale.it/itc/?page_id=15866",
+          "locator": "Sezioni variante disciplina e mappe III ciclo",
+          "finding": "Sono distinti i procedimenti III ciclo, progetto di disciplina e riesame delle mappe. Il portale non autorizza a dichiarare automaticamente sostituito il secondo ciclo."
+        }
+      ],
+      "limitations": [
+        "Revisione parziale nel solo perimetro dichiarato; cartografie e catena completa degli atti non verificate."
+      ],
+      "pending": [
+        "Esaminare integralmente disciplina e allegati, modifica allegato 4 DCI 44/2024 e atti 54/2025 e 56/2025, con decorrenze e salvaguardie.",
+        "Completare cartografie e disposizioni regionali per il bacino interessato, senza estendere il superamento PAI oltre l’ambito documentato."
+      ],
+      "previous_review_preserved": false
+    },
+    {
+      "id": "dist-merid",
+      "consulted_at": "2026-10-09T08:44:04.255108+00:00",
+      "content_examined": true,
+      "legal_review_complete": false,
+      "source_documents": [
+        {
+          "url": "https://www.distrettoappenninomeridionale.it/images/_PGRA/II%20ciclo%202019/PIANO%20VIGENTE/DPCM%201%C2%B0%20DICEMBRE%202022%20-%20approvazione%20I%20aggiornamento%20PGRA%20-%20II%20ciclo.pdf",
+          "checked_at": "2026-10-09T08:26:40.097484+00:00",
+          "name": "dist-merid-1",
+          "attempt_count": 1,
+          "http_status": 200,
+          "final_url": "https://www.distrettoappenninomeridionale.it/images/_PGRA/II%20ciclo%202019/PIANO%20VIGENTE/DPCM%201%C2%B0%20DICEMBRE%202022%20-%20approvazione%20I%20aggiornamento%20PGRA%20-%20II%20ciclo.pdf",
+          "bytes": 163346,
+          "sha256": "f07b23cd172435e217e01931835ae90ffdfb34b03204e070e8b6f73db8415b4d",
+          "content_type": "application/pdf",
+          "truncated": false,
+          "pdf_signature": true,
+          "pdf_pages": 3,
+          "text_characters": 22368,
+          "transport_result": "retrieved_pdf"
+        },
+        {
+          "url": "https://www.distrettoappenninomeridionale.it/images/_PGRA/II%20ciclo%202019/PIANO%20VIGENTE/AGGIORNAMENTO%20MAPPE%20II%20CICLO/RELAZIONE%20METODOLOGICA.pdf",
+          "checked_at": "2026-10-09T08:26:40.098152+00:00",
+          "name": "dist-merid-2",
+          "attempt_count": 1,
+          "http_status": 200,
+          "final_url": "https://www.distrettoappenninomeridionale.it/images/_PGRA/II%20ciclo%202019/PIANO%20VIGENTE/AGGIORNAMENTO%20MAPPE%20II%20CICLO/RELAZIONE%20METODOLOGICA.pdf",
+          "bytes": 767361,
+          "sha256": "f4182b116638210ac8e2580ae7a6cfdae13e8ac4a29697de70b4571d88e8f777",
+          "content_type": "application/pdf",
+          "truncated": false,
+          "pdf_signature": true,
+          "pdf_pages": 41,
+          "text_characters": 93303,
+          "transport_result": "retrieved_pdf"
+        },
+        {
+          "url": "https://www.distrettoappenninomeridionale.it/piano-gestione-alluvioni/iii-ciclo-2022-2027/",
+          "checked_at": "2026-10-09T08:27:02.559185+00:00",
+          "name": "merid-iii-page",
+          "attempt_count": 1,
+          "http_status": 200,
+          "final_url": "https://www.distrettoappenninomeridionale.it/piano-gestione-alluvioni/iii-ciclo-2022-2027/",
+          "bytes": 207029,
+          "sha256": "a4f071d12dadd7fc9318240b88948efd89fa1a7bb853c2906a1b8a3294ad67a3",
+          "content_type": "text/html; charset=UTF-8",
+          "truncated": false,
+          "pdf_signature": false,
+          "text_characters": 3600,
+          "transport_result": "retrieved_non_pdf"
+        }
+      ],
+      "observations": [
+        {
+          "aspect": "approval",
+          "source_url": "https://www.distrettoappenninomeridionale.it/images/_PGRA/II%20ciclo%202019/PIANO%20VIGENTE/DPCM%201%C2%B0%20DICEMBRE%202022%20-%20approvazione%20I%20aggiornamento%20PGRA%20-%20II%20ciclo.pdf",
+          "locator": "GU 32 dell’8 febbraio 2023, artt. 1-4",
+          "finding": "Il DPCM approva il primo aggiornamento PGRA II ciclo e identifica distintamente valutazione preliminare, mappe di pericolosità/rischio e revisione del piano con misure. Non equivale alla lettura di tutti gli elaborati."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.distrettoappenninomeridionale.it/images/_PGRA/II%20ciclo%202019/PIANO%20VIGENTE/AGGIORNAMENTO%20MAPPE%20II%20CICLO/RELAZIONE%20METODOLOGICA.pdf",
+          "locator": "§2.3, pp.11-12 (PDF pp.12-13)",
+          "finding": "Il testo dichiara, per alluvioni fluviali, TR 20-50 anni per P3, 100-200 per P2 e 300-500 per P1, con variazioni per UoM. Le intestazioni P1/P3 nella tabella successiva sono incongruenti con tali valori: verificato anche il rendering, nessuna correzione normativa o corrispondenza universale inventata."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.distrettoappenninomeridionale.it/images/_PGRA/II%20ciclo%202019/PIANO%20VIGENTE/AGGIORNAMENTO%20MAPPE%20II%20CICLO/RELAZIONE%20METODOLOGICA.pdf",
+          "locator": "§6.2.1, pp.32-34",
+          "finding": "Gli shapefile di estensione distinguono LPH/P1, MPH/P2 e HPH/P3. Category identifica probabilità; frequency contiene TR e -9999 per TR non noto; detMetod distingue modellazione e determinazione indiretta. Il TR va verificato per feature e bacino."
+        },
+        {
+          "aspect": "version",
+          "source_url": "https://www.distrettoappenninomeridionale.it/piano-gestione-alluvioni/iii-ciclo-2022-2027/",
+          "locator": "Pagina III ciclo, aggiornata 22 luglio 2026",
+          "finding": "La pagina elenca atti VGP e mappe del 18 dicembre 2025 e una sezione Piano in costruzione. La denominazione del periodo nel titolo del portale non prova approvazione del nuovo PGRA."
+        }
+      ],
+      "limitations": [
+        "Revisione parziale nel solo perimetro dichiarato; cartografie e catena completa degli atti non verificate.",
+        "Incongruenza tra intestazioni della tabella scenari e testo, visibile nel PDF; nessuna rettifica dedotta."
+      ],
+      "pending": [
+        "Chiarire con fonte istituzionale l’incongruenza delle intestazioni della tabella scenari; verificare Category/frequency nelle geometrie del bacino.",
+        "Completare relazione, misure, salvaguardie, delibere III ciclo e atti territoriali successivi."
+      ],
+      "previous_review_preserved": false
+    },
+    {
+      "id": "dist-sici",
+      "consulted_at": "2026-10-09T08:44:04.255108+00:00",
+      "content_examined": true,
+      "legal_review_complete": false,
+      "source_documents": [
+        {
+          "url": "https://www.regione.sicilia.it/system/files/2021-05/DP_n.09_2021_approvazione_NdA.pdf",
+          "checked_at": "2026-10-09T08:26:47.941662+00:00",
+          "name": "dist-sici-1",
+          "attempt_count": 1,
+          "http_status": 200,
+          "final_url": "https://www.regione.sicilia.it/system/files/2021-05/DP_n.09_2021_approvazione_NdA.pdf",
+          "bytes": 94813,
+          "sha256": "7b95de13b1d477508a4c9e6173ba784aa3fbe11d0912af7c9780fa242c094046",
+          "content_type": "application/pdf",
+          "truncated": false,
+          "pdf_signature": true,
+          "pdf_pages": 4,
+          "text_characters": 13205,
+          "transport_result": "retrieved_pdf"
+        },
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2023/02/08/32/sg/pdf#page=12",
+          "checked_at": "2026-10-09T08:26:48.036655+00:00",
+          "name": "dist-sici-2",
+          "attempt_count": 1,
+          "http_status": 200,
+          "final_url": "https://www.gazzettaufficiale.it/eli/gu/2023/02/08/32/sg/pdf#page=12",
+          "bytes": 2745432,
+          "sha256": "18bd1da8bf91e70a174dbb018cd576149bb4d3e62ad3d65253cc9f689e203d4e",
+          "content_type": "application/pdf",
+          "truncated": false,
+          "pdf_signature": true,
+          "pdf_pages": 56,
+          "text_characters": 328393,
+          "transport_result": "retrieved_pdf"
+        },
+        {
+          "name": "sici-pai-page",
+          "url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa",
+          "checked_at": "2026-10-09T08:29:46.558432+00:00",
+          "attempt_count": 1,
+          "http_status": 200,
+          "final_url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa",
+          "bytes": 232868,
+          "sha256": "eae028af9419b24bd68db1668d26a3a87c8259a946e4b5a0fc83afbf899a1932",
+          "pdf_signature": false
+        }
+      ],
+      "observations": [
+        {
+          "aspect": "amendment",
+          "source_url": "https://www.regione.sicilia.it/system/files/2021-05/DP_n.09_2021_approvazione_NdA.pdf",
+          "locator": "Artt.1-2, pp.3-4",
+          "finding": "Il D.P. sostituisce capitolo 11 e appendici A/B con NTA e appendici A-D, modifica tabella elementi a rischio e sopprime tabella 6.5; salva le parti non modificate. L’art.2 collega entrata in vigore al giorno dopo la GURS ed esclude le pratiche avviate prima della pubblicazione. Il fascicolo GURS 2021 non acquisito impedisce di certificare qui la decorrenza concreta."
+        },
+        {
+          "aspect": "approval",
+          "source_url": "https://www.gazzettaufficiale.it/eli/gu/2023/02/08/32/sg/pdf#page=12",
+          "locator": "GU 32/2023 pp.9-10, artt.1-4",
+          "finding": "Approvato il primo aggiornamento PGRA Sicilia. Il decreto distingue mappe di pericolosità TR50/100/300, tiranti/velocità, mappe di rischio, misure e relazioni di protezione civile/clima: la sola mappa di estensione non esaurisce il piano."
+        },
+        {
+          "aspect": "version",
+          "source_url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa",
+          "locator": "Sezione linee guida, circolari e direttive, aggiornata 9 luglio 2026",
+          "finding": "La pagina presenta la modifica del 23 giugno 2026 alla circolare applicativa del 22 febbraio 2023, da leggere prima di certificare un quadro procedurale aggiornato. La lettura del D.P.2021 non prova assenza di modifiche o istruzioni successive."
+        }
+      ],
+      "limitations": [
+        "Revisione parziale nel solo perimetro dichiarato; cartografie e catena completa degli atti non verificate."
+      ],
+      "pending": [
+        "Acquisire GURS 22/2021, NTA e appendici complete; verificare circolari e modifica applicativa 23 giugno 2026.",
+        "Completare relazioni e cartografie PGRA e catena successiva; tenere distinto il III ciclo."
+      ],
+      "previous_review_preserved": false
+    },
+    {
+      "id": "sic-pgra3-02-2026",
+      "consulted_at": "2026-10-09T08:44:04.255108+00:00",
+      "content_examined": true,
+      "legal_review_complete": false,
+      "source_documents": [
+        {
+          "url": "https://www.regione.sicilia.it/system/files/2026-04/delibera_02_2026_adozione_valutazione_pgra_signed.pdf",
+          "checked_at": "2026-10-09T08:37:08.032323+00:00",
+          "attempt_count": 1,
+          "discovered_from": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/seduta-08042026",
+          "http_status": 200,
+          "final_url": "https://www.regione.sicilia.it/system/files/2026-04/delibera_02_2026_adozione_valutazione_pgra_signed.pdf",
+          "bytes": 676926,
+          "sha256": "3e51979943172dc4ba78639779bf2bd1fcc97df339788b6b967609a580d6f960",
+          "pdf_signature": true,
+          "pdf_pages": 5
+        },
+        {
+          "name": "sici-gurs-2026",
+          "url": "https://www.gursonline.regione.sicilia.it/wp-content/uploads/2026/04/corretta-firm-PI_18_2026-6.pdf",
+          "checked_at": "2026-10-09T08:29:46.552075+00:00",
+          "attempt_count": 1,
+          "http_status": 200,
+          "final_url": "https://www.gursonline.regione.sicilia.it/wp-content/uploads/2026/04/corretta-firm-PI_18_2026-6.pdf",
+          "bytes": 1481455,
+          "sha256": "c5ca9f5a540410e7702969efe1cecc761f5cf99ff752a314b0d2b67cb73433c5",
+          "pdf_signature": true
+        },
+        {
+          "url": "https://www.regione.sicilia.it/la-regione-informa/pubblicate-valutazione-globale-provvisoria-mappe-pericolosita-alluvioni-piano-gestione-rischio-alluvioni-pgra",
+          "checked_at": "2026-10-09T08:26:48.445086+00:00",
+          "name": "sic-pgra3-02-2026-1",
+          "attempt_count": 1,
+          "http_status": 200,
+          "final_url": "https://www.regione.sicilia.it/la-regione-informa/pubblicate-valutazione-globale-provvisoria-mappe-pericolosita-alluvioni-piano-gestione-rischio-alluvioni-pgra",
+          "bytes": 231037,
+          "sha256": "dbcaf0918ca4502c5718d3041c1433e4e3e92023e8fe8153adeb1a2bee3d861c",
+          "content_type": "text/html; charset=UTF-8",
+          "truncated": false,
+          "pdf_signature": false,
+          "text_characters": 3405,
+          "transport_result": "retrieved_non_pdf"
+        },
+        {
+          "url": "https://www.sitr.regione.sicilia.it/geoportale/it/metadata/details/1042",
+          "checked_at": "2026-10-09T08:26:52.334701+00:00",
+          "name": "sic-pgra3-02-2026-2",
+          "attempt_count": 1,
+          "http_status": 200,
+          "final_url": "https://www.sitr.regione.sicilia.it/geoportale/it/metadata/details/1042",
+          "bytes": 40733,
+          "sha256": "1521933bffb7f05092545fa38187331bc50035d49828fb7515cddcf2e30444b1",
+          "content_type": "text/html; charset=utf-8",
+          "truncated": false,
+          "pdf_signature": false,
+          "text_characters": 7253,
+          "transport_result": "retrieved_non_pdf"
+        }
+      ],
+      "observations": [
+        {
+          "aspect": "approval",
+          "source_url": "https://www.regione.sicilia.it/system/files/2026-04/delibera_02_2026_adozione_valutazione_pgra_signed.pdf",
+          "locator": "Frontespizio e artt.1-2, pp.4-5",
+          "finding": "Il dispositivo prende atto di VGP e relazione metodologica di febbraio 2026 e 30 mappe del III ciclo2027-2033, dispone trasmissione al MASE e pubblicazione per estratto GURS / per esteso sul sito. Non è l’approvazione finale del PGRA 2027-2033."
+        },
+        {
+          "aspect": "status",
+          "source_url": "https://www.gursonline.regione.sicilia.it/wp-content/uploads/2026/04/corretta-firm-PI_18_2026-6.pdf",
+          "locator": "GURS 18 del 17 aprile 2026, pp.106-107, avviso (2026.14.876)02.f",
+          "finding": "L’avviso identifica delibera 2 dell’8 aprile 2026 e presa d’atto di VGP e revisione delle mappe del III ciclo2027-2033. È una fonte di pubblicazione puntuale; non è il dispositivo completo né approvazione del PGRA III ciclo."
+        },
+        {
+          "aspect": "status",
+          "source_url": "https://www.regione.sicilia.it/la-regione-informa/pubblicate-valutazione-globale-provvisoria-mappe-pericolosita-alluvioni-piano-gestione-rischio-alluvioni-pgra",
+          "locator": "Notizia ufficiale del 10 aprile 2026",
+          "finding": "Pubblicati VGP, mappe e relazione metodologica per consultazione di sei mesi. Non ricostruito l’eventuale provvedimento successivo né una decorrenza finale della consultazione."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.sitr.regione.sicilia.it/geoportale/it/metadata/details/1042",
+          "locator": "Identificazione e Riferimento temporale dataset 1042",
+          "finding": "Il metadato indica scenari HP/TR50, MP/TR100 e LP/TR300, EPSG 3035, revisione8 aprile 2026. Non è stata verificata la geometria dello shapefile o l’assenza di revisioni successive."
+        }
+      ],
+      "limitations": [
+        "Revisione parziale nel solo perimetro dichiarato; cartografie e catena completa degli atti non verificate.",
+        "Vecchio link del portale in HTTP 404; dispositivo recuperato dal link ufficiale della seduta. Allegati non esaminati."
+      ],
+      "pending": [
+        "Leggere integralmente VGP, relazione metodologica e 30 mappe, verificare geometrie e metadati dello shapefile.",
+        "Ricostruire stato temporale della consultazione e atti successivi senza qualificare la presa d’atto come approvazione del PGRA 2027-2033."
+      ],
+      "previous_review_preserved": false
+    },
+    {
+      "id": "sett-pgra-variante-62-2026",
+      "consulted_at": "2026-10-09T08:44:04.255108+00:00",
+      "content_examined": true,
+      "legal_review_complete": false,
+      "source_documents": [
+        {
+          "url": "https://www.appenninosettentrionale.it/rep/distretto/pgra/delibera_62_adozione%20variante%20mappe%20e%20stralcio.pdf",
+          "checked_at": "2026-10-09T08:26:59.951446+00:00",
+          "name": "sett-62",
+          "attempt_count": 1,
+          "http_status": 200,
+          "final_url": "https://www.appenninosettentrionale.it/rep/distretto/pgra/delibera_62_adozione%20variante%20mappe%20e%20stralcio.pdf",
+          "bytes": 1038627,
+          "sha256": "88b346baa4030f9e0dad6b9f0bcbcfd6a7c0de52dd5c59e61e48faca15f5171b",
+          "content_type": "application/pdf",
+          "truncated": false,
+          "pdf_signature": true,
+          "pdf_pages": 6,
+          "text_characters": 13653,
+          "transport_result": "retrieved_pdf"
+        },
+        {
+          "url": "https://www.appenninosettentrionale.it/itc/?page_id=18906",
+          "checked_at": "2026-10-09T08:26:57.806061+00:00",
+          "name": "sett-variante-page",
+          "attempt_count": 1,
+          "http_status": 200,
+          "final_url": "https://www.appenninosettentrionale.it/itc/?page_id=18906",
+          "bytes": 127265,
+          "sha256": "ecf24ee7e0430a577ef8550441fb7dec1ca287205300338e22afab67cdc492aa",
+          "content_type": "text/html; charset=UTF-8",
+          "truncated": false,
+          "pdf_signature": false,
+          "text_characters": 13510,
+          "transport_result": "retrieved_non_pdf"
+        },
+        {
+          "name": "sett-gu-avviso",
+          "url": "https://www.gazzettaufficiale.it/eli/id/2026/05/12/26A02259/sg",
+          "checked_at": "2026-10-09T08:29:46.549618+00:00",
+          "attempt_count": 1,
+          "http_status": 200,
+          "final_url": "https://www.gazzettaufficiale.it/eli/id/2026/05/12/26A02259/sg",
+          "bytes": 17214,
+          "sha256": "b771e8dd3850705fef6439f0853ae256343e4a65f92954aa1e7ce69c0cd8b338",
+          "pdf_signature": false
+        }
+      ],
+      "observations": [
+        {
+          "aspect": "approval",
+          "source_url": "https://www.appenninosettentrionale.it/rep/distretto/pgra/delibera_62_adozione%20variante%20mappe%20e%20stralcio.pdf",
+          "locator": "P.6, art.1, seduta28 aprile 2026",
+          "finding": "Adottato il progetto di variante delle mappe sul reticolo principale del PGRA 2021-2027. Stralciata la zona tra Bettigna e Parmignola. L’adozione del progetto non è approvazione definitiva della variante."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.appenninosettentrionale.it/rep/distretto/pgra/delibera_62_adozione%20variante%20mappe%20e%20stralcio.pdf",
+          "locator": "P.6, art.3, ultimo paragrafo; verifica visiva",
+          "finding": "Nelle more dell’adozione della variante, nei procedimenti di pianificazione, programmazione, valutazione e autorizzazione urbanistico-edilizia, l’Autorità deve fornire contestualmente quadro conoscitivo e mappe vigenti e del progetto. Tenere distinto il progetto non significa ignorarlo nell’istruttoria."
+        },
+        {
+          "aspect": "status",
+          "source_url": "https://www.appenninosettentrionale.it/itc/?page_id=18906",
+          "locator": "Sezione consultazione e pubblicazione GU 108 del 12 maggio 2026",
+          "finding": "Il portale collega la consultazione di sei mesi alla notizia GU 108 del 12 maggio 2026. Osservazioni limitate alle aree del reticolo principale oggetto di studio; reticolo secondario rappresentato ma escluso dalle osservazioni."
+        },
+        {
+          "aspect": "identity",
+          "source_url": "https://www.gazzettaufficiale.it/eli/id/2026/05/12/26A02259/sg",
+          "locator": "Intestazione scheda ufficiale, codice26A02259",
+          "finding": "Riscontrati oggetto e pubblicazione della notizia GU 108 del 12 maggio 2026. Corpo integrale del comunicato non acquisito, nessuna attestazione estesa oltre i metadati letti."
+        }
+      ],
+      "limitations": [
+        "Revisione parziale nel solo perimetro dichiarato; cartografie e catena completa degli atti non verificate."
+      ],
+      "pending": [
+        "Verificare geometrie, strati dei modelli e documentazione tecnica; recuperare corpo integrale del comunicato e bollettini regionali.",
+        "Ricostruire esito della consultazione e atti successivi senza anticipare approvazione definitiva."
+      ],
+      "previous_review_preserved": false
+    }
+  ],
+  "corrections": [
+    {
+      "id": "dist-sett",
+      "field": "documents",
+      "before": [
+        {
+          "url": "https://www.appenninosettentrionale.it/rep/distretto/pgra/G_UFF_07022023%20N.%2032_DPCM_PGRA.pdf",
+          "label": "PDF ufficiale · DPCM di approvazione PGRA",
+          "format": "pdf",
+          "group": "PGRA"
+        },
+        {
+          "url": "https://www.appenninosettentrionale.it/rep/distretto/pgra/Disciplina%20di%20Piano.pdf",
+          "label": "PDF ufficiale · disciplina PGRA",
+          "format": "pdf",
+          "group": "PGRA"
+        }
+      ],
+      "after": [
+        {
+          "url": "https://www.appenninosettentrionale.it/rep/distretto/pgra/G_UFF_07022023%20N.%2032_DPCM_PGRA.pdf",
+          "label": "PDF ufficiale · DPCM di approvazione PGRA",
+          "format": "pdf",
+          "group": "PGRA"
+        },
+        {
+          "url": "https://www.appenninosettentrionale.it/rep/distretto/pgra/Disciplina%20di%20Piano.pdf",
+          "label": "PDF ufficiale · disciplina PGRA",
+          "format": "pdf",
+          "group": "PGRA"
+        },
+        {
+          "url": "https://www.appenninosettentrionale.it/itc/?page_id=1512",
+          "label": "Disciplina PGRA · pagina e modifica allegato 4",
+          "format": "html",
+          "link_status": "checked",
+          "link_checked": "2026-10-09",
+          "group": "PGRA"
+        },
+        {
+          "url": "https://www.appenninosettentrionale.it/itc/?page_id=15866",
+          "label": "PGRA III ciclo · procedimento ufficiale",
+          "format": "html",
+          "link_status": "checked",
+          "link_checked": "2026-10-09",
+          "group": "PGRA"
+        }
+      ]
+    },
+    {
+      "id": "dist-sett",
+      "field": "document_note",
+      "before": "I collegamenti aprono direttamente i PDF ufficiali degli elaborati principali.",
+      "after": "Letti gli articoli dichiarati di DPCM e disciplina PGRA. Il DPCM è nella GU n. 31 del 7 febbraio 2023, non n. 32 come suggerisce il nome del file. Residui territoriali, modifica allegato 4/2024 e procedimenti III ciclo richiedono verifiche distinte."
+    },
+    {
+      "id": "dist-merid",
+      "field": "documents",
+      "before": [
+        {
+          "url": "https://www.distrettoappenninomeridionale.it/images/_PGRA/II%20ciclo%202019/PIANO%20VIGENTE/DPCM%201%C2%B0%20DICEMBRE%202022%20-%20approvazione%20I%20aggiornamento%20PGRA%20-%20II%20ciclo.pdf",
+          "label": "PDF ufficiale · DPCM di approvazione PGRA",
+          "format": "pdf",
+          "group": "PGRA",
+          "link_status": "checked",
+          "link_checked": "2026-09-23"
+        },
+        {
+          "url": "https://www.distrettoappenninomeridionale.it/images/_PGRA/II%20ciclo%202019/PIANO%20VIGENTE/AGGIORNAMENTO%20MAPPE%20II%20CICLO/RELAZIONE%20METODOLOGICA.pdf",
+          "label": "PDF ufficiale · relazione metodologica PGRA",
+          "format": "pdf",
+          "group": "PGRA",
+          "link_status": "checked",
+          "link_checked": "2026-09-23"
+        }
+      ],
+      "after": [
+        {
+          "url": "https://www.distrettoappenninomeridionale.it/images/_PGRA/II%20ciclo%202019/PIANO%20VIGENTE/DPCM%201%C2%B0%20DICEMBRE%202022%20-%20approvazione%20I%20aggiornamento%20PGRA%20-%20II%20ciclo.pdf",
+          "label": "PDF ufficiale · DPCM di approvazione PGRA",
+          "format": "pdf",
+          "group": "PGRA",
+          "link_status": "checked",
+          "link_checked": "2026-09-23"
+        },
+        {
+          "url": "https://www.distrettoappenninomeridionale.it/images/_PGRA/II%20ciclo%202019/PIANO%20VIGENTE/AGGIORNAMENTO%20MAPPE%20II%20CICLO/RELAZIONE%20METODOLOGICA.pdf",
+          "label": "PDF ufficiale · relazione metodologica PGRA",
+          "format": "pdf",
+          "group": "PGRA",
+          "link_status": "checked",
+          "link_checked": "2026-09-23"
+        },
+        {
+          "url": "https://www.distrettoappenninomeridionale.it/piano-gestione-alluvioni/ii-ciclo-2016-2021/",
+          "label": "PGRA II ciclo · indice ufficiale degli elaborati",
+          "format": "html",
+          "link_status": "checked",
+          "link_checked": "2026-10-09",
+          "group": "PGRA"
+        },
+        {
+          "url": "https://www.distrettoappenninomeridionale.it/piano-gestione-alluvioni/iii-ciclo-2022-2027/",
+          "label": "PGRA III ciclo · procedimento ufficiale",
+          "format": "html",
+          "link_status": "checked",
+          "link_checked": "2026-10-09",
+          "group": "PGRA"
+        }
+      ]
+    },
+    {
+      "id": "dist-merid",
+      "field": "document_note",
+      "before": "I collegamenti aprono direttamente i PDF ufficiali degli elaborati principali.",
+      "after": "Letti DPCM e parti dichiarate della relazione II ciclo. Nella tabella a p.12 le intestazioni P1/P3 non concordano con il testo dei tempi di ritorno: serve riscontro su UoM e attributi cartografici; non usare la tabella isolata. Elaborati III ciclo distinti dal piano approvato."
+    },
+    {
+      "id": "dist-sici",
+      "field": "documents",
+      "before": [
+        {
+          "url": "https://www.regione.sicilia.it/system/files/2021-05/DP_n.09_2021_approvazione_NdA.pdf",
+          "label": "PDF ufficiale · approvazione norme PAI",
+          "format": "pdf",
+          "group": "PAI"
+        },
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2023/02/08/32/sg/pdf#page=12",
+          "label": "PDF ufficiale · GU n. 32/2023, DPCM PGRA Sicilia a p. 8",
+          "format": "pdf",
+          "group": "PGRA",
+          "link_status": "checked",
+          "link_checked": "2026-09-20"
+        }
+      ],
+      "after": [
+        {
+          "url": "https://www.regione.sicilia.it/system/files/2021-05/DP_n.09_2021_approvazione_NdA.pdf",
+          "label": "PDF ufficiale · approvazione norme PAI",
+          "format": "pdf",
+          "group": "PAI"
+        },
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2023/02/08/32/sg/pdf#page=12",
+          "label": "PDF ufficiale · GU n. 32/2023, DPCM PGRA Sicilia a p. 8",
+          "format": "pdf",
+          "group": "PGRA",
+          "link_status": "checked",
+          "link_checked": "2026-09-20"
+        },
+        {
+          "url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa",
+          "label": "PAI Sicilia · norme, allegati e circolari",
+          "format": "html",
+          "link_status": "checked",
+          "link_checked": "2026-10-09",
+          "group": "PAI"
+        }
+      ]
+    },
+    {
+      "id": "dist-sici",
+      "field": "document_note",
+      "before": "I collegamenti aprono fonti ufficiali puntuali; il PDF della Gazzetta Ufficiale contiene il DPCM di approvazione del PGRA Sicilia a pagina 8.",
+      "after": "Letti i dispositivi PAI2021 e PGRA II ciclo. NTA e appendici PAI sono allegati distinti dal decreto di approvazione; decorrenza e regime delle pratiche pregresse sono condizionati alla GURS. Individuata una modifica procedurale del 23 giugno 2026, ancora da esaminare."
+    },
+    {
+      "id": "sic-pgra3-02-2026",
+      "field": "documents",
+      "before": [
+        {
+          "url": "https://www.regione.sicilia.it/la-regione-informa/pubblicate-valutazione-globale-provvisoria-mappe-pericolosita-alluvioni-piano-gestione-rischio-alluvioni-pgra",
+          "label": "Notizia ufficiale · pubblicazione VGP e mappe",
+          "format": "html"
+        },
+        {
+          "url": "https://www.sitr.regione.sicilia.it/geoportale/it/metadata/details/1042",
+          "label": "Metadati ufficiali S.I.T.R. · mappe PGRA III ciclo",
+          "format": "html"
+        },
+        {
+          "url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/piano-gestione-rischio-alluvione-iideg-ciclo-2021-2027",
+          "label": "PGRA Sicilia vigente · II ciclo 2021–2027",
+          "format": "html"
+        }
+      ],
+      "after": [
+        {
+          "url": "https://www.regione.sicilia.it/system/files/2026-04/delibera_02_2026_adozione_valutazione_pgra_signed.pdf",
+          "label": "PDF ufficiale · Delibera CIP 2 dell’8/04/2026",
+          "format": "pdf",
+          "link_status": "checked",
+          "link_checked": "2026-10-09",
+          "group": "PGRA"
+        },
+        {
+          "url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/seduta-08042026",
+          "label": "Seduta CIP 8/04/2026 · delibera e allegati",
+          "format": "html",
+          "link_status": "checked",
+          "link_checked": "2026-10-09",
+          "group": "PGRA"
+        },
+        {
+          "url": "https://www.gursonline.regione.sicilia.it/wp-content/uploads/2026/04/corretta-firm-PI_18_2026-6.pdf",
+          "label": "GURS 18 del 17/04/2026 · avviso delibera 2/2026, pp.106-107",
+          "format": "pdf",
+          "link_status": "checked",
+          "link_checked": "2026-10-09",
+          "group": "PGRA"
+        },
+        {
+          "url": "https://www.regione.sicilia.it/la-regione-informa/pubblicate-valutazione-globale-provvisoria-mappe-pericolosita-alluvioni-piano-gestione-rischio-alluvioni-pgra",
+          "label": "Notizia ufficiale · pubblicazione VGP e mappe",
+          "format": "html"
+        },
+        {
+          "url": "https://www.sitr.regione.sicilia.it/geoportale/it/metadata/details/1042",
+          "label": "Metadati ufficiali S.I.T.R. · mappe PGRA III ciclo",
+          "format": "html"
+        },
+        {
+          "url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/piano-gestione-rischio-alluvione-iideg-ciclo-2021-2027",
+          "label": "PGRA Sicilia vigente · II ciclo 2021–2027",
+          "format": "html"
+        }
+      ]
+    },
+    {
+      "id": "sic-pgra3-02-2026",
+      "field": "document_note",
+      "before": "La pagina ufficiale raccoglie la deliberazione, la Valutazione Globale Provvisoria, la relazione metodologica, le mappe e gli shapefile.",
+      "after": "Recuperato e letto il dispositivo ufficiale della delibera 2/2026 dalla pagina della seduta8 aprile. L’art.1 prende atto di VGP, relazione metodologica e 30 mappe; l’art.2 ne dispone la pubblicazione. Riscontrato l’avviso GURS 18 del 17 aprile 2026. La verifica di allegati, cartografie e atti successivi resta aperta."
+    },
+    {
+      "id": "sic-pgra3-02-2026",
+      "field": "note",
+      "before": "La Deliberazione CIP 2/2026 costituisce presa d’atto di documenti del processo di aggiornamento e non approvazione del PGRA 2027–2033. Il portale ufficiale espone Valutazione Globale Provvisoria, relazione metodologica e mappe; i collegamenti PDF puntuali restituiti dalla pagina hanno dato HTTP 404 nel controllo odierno e non sono stati inseriti come documenti diretti. Il dataset S.I.T.R. conferma scenari TR 50, 100 e 300 anni e revisione dell’8 aprile 2026.",
+      "after": "Letti il dispositivo ufficiale 2/2026 recuperato nella pagina della seduta e l’avviso GURS 18/2026. Sono documenti del processo di aggiornamento 2027-2033, distinti dall’approvazione del PGRA. Il vecchio collegamento del portale partecipazione resta in 404; il PDF esposto nel repertorio della seduta è funzionante. Allegati e catena successiva non verificati integralmente."
+    },
+    {
+      "id": "sett-pgra-variante-62-2026",
+      "field": "documents",
+      "before": [
+        {
+          "url": "https://geodataserver.appenninosettentrionale.it/arcgis/rest/services/Pericolosita_Alluvione/mappa_variante_pericolosita2026/MapServer/0",
+          "label": "Layer ufficiale · mappa della variante 2026",
+          "group": "Cartografia"
+        }
+      ],
+      "after": [
+        {
+          "url": "https://geodataserver.appenninosettentrionale.it/arcgis/rest/services/Pericolosita_Alluvione/mappa_variante_pericolosita2026/MapServer/0",
+          "label": "Layer ufficiale · mappa della variante 2026",
+          "group": "Cartografia"
+        },
+        {
+          "url": "https://www.appenninosettentrionale.it/rep/distretto/pgra/delibera_62_adozione%20variante%20mappe%20e%20stralcio.pdf",
+          "label": "PDF ufficiale · Delibera CIP 62 del 28/04/2026",
+          "format": "pdf",
+          "link_status": "checked",
+          "link_checked": "2026-10-09",
+          "group": "PGRA"
+        },
+        {
+          "url": "https://www.appenninosettentrionale.it/itc/?page_id=18906",
+          "label": "Progetto di variante mappe · consultazione ufficiale",
+          "format": "html",
+          "link_status": "checked",
+          "link_checked": "2026-10-09",
+          "group": "PGRA"
+        },
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/id/2026/05/12/26A02259/sg",
+          "label": "GU 108 del 12/05/2026 · scheda avviso26A02259",
+          "format": "html",
+          "link_status": "checked",
+          "link_checked": "2026-10-09",
+          "group": "PGRA"
+        }
+      ]
+    },
+    {
+      "id": "sett-pgra-variante-62-2026",
+      "field": "document_note",
+      "before": "Servizio ArcGIS istituzionale; il layer espone classi PI1, PI2 e PI3 e lo stato di consultazione.",
+      "after": "Letto il PDF ufficiale62/2026, incluso art.3: nelle istruttorie l’Autorità deve fornire insieme mappe vigenti e del progetto. Stralcio Bettigna–Parmignola e consultazione riscontrati; verifica delle cartografie e catena successiva ancora aperte."
+    },
+    {
+      "id": "sett-pgra-variante-62-2026",
+      "field": "focus",
+      "before": [
+        "Consultare la cartografia della variante",
+        "Verificare l’esito della consultazione e l’adozione definitiva",
+        "Tenere distinto il progetto dalle mappe vigenti"
+      ],
+      "after": [
+        "Consultare la cartografia della variante",
+        "Verificare l’esito della consultazione e l’adozione definitiva",
+        "Tenere distinto il progetto dalle mappe vigenti",
+        "Nelle istruttorie fornire insieme mappe vigenti e mappe del progetto ai sensi dell’art.3 della delibera62/2026"
+      ]
+    }
+  ],
+  "access_receipts": [
+    {
+      "url": "https://www.distrettoappenninomeridionale.it/images/_PGRA/II%20ciclo%202019/PIANO%20VIGENTE/DPCM%201%C2%B0%20DICEMBRE%202022%20-%20approvazione%20I%20aggiornamento%20PGRA%20-%20II%20ciclo.pdf",
+      "checked_at": "2026-10-09T08:26:40.097484+00:00",
+      "name": "dist-merid-1",
+      "attempt_count": 1,
+      "http_status": 200,
+      "final_url": "https://www.distrettoappenninomeridionale.it/images/_PGRA/II%20ciclo%202019/PIANO%20VIGENTE/DPCM%201%C2%B0%20DICEMBRE%202022%20-%20approvazione%20I%20aggiornamento%20PGRA%20-%20II%20ciclo.pdf",
+      "bytes": 163346,
+      "sha256": "f07b23cd172435e217e01931835ae90ffdfb34b03204e070e8b6f73db8415b4d",
+      "content_type": "application/pdf",
+      "truncated": false,
+      "pdf_signature": true,
+      "pdf_pages": 3,
+      "text_characters": 22368,
+      "transport_result": "retrieved_pdf"
+    },
+    {
+      "name": "sici-gurs-2026",
+      "url": "https://www.gursonline.regione.sicilia.it/wp-content/uploads/2026/04/corretta-firm-PI_18_2026-6.pdf",
+      "checked_at": "2026-10-09T08:29:46.552075+00:00",
+      "attempt_count": 1,
+      "http_status": 200,
+      "final_url": "https://www.gursonline.regione.sicilia.it/wp-content/uploads/2026/04/corretta-firm-PI_18_2026-6.pdf",
+      "bytes": 1481455,
+      "sha256": "c5ca9f5a540410e7702969efe1cecc761f5cf99ff752a314b0d2b67cb73433c5",
+      "pdf_signature": true
+    },
+    {
+      "url": "https://www.appenninosettentrionale.it/itc/?page_id=2910",
+      "checked_at": "2026-10-09T08:26:40.091226+00:00",
+      "name": "dist-sett-0",
+      "attempt_count": 1,
+      "http_status": 200,
+      "final_url": "https://www.appenninosettentrionale.it/itc/?page_id=2910",
+      "bytes": 129364,
+      "sha256": "fd74fc71a581dc0c3faa42637e545343a3830b86c29797148a14ec1bdfaf3d32",
+      "content_type": "text/html; charset=UTF-8",
+      "truncated": false,
+      "pdf_signature": false,
+      "text_characters": 11265,
+      "transport_result": "retrieved_non_pdf"
+    },
+    {
+      "url": "https://geodataserver.appenninosettentrionale.it/arcgis/rest/services/Pericolosita_Alluvione/mappa_variante_pericolosita2026/MapServer/0",
+      "checked_at": "2026-10-09T08:26:56.184923+00:00",
+      "name": "sett-pgra-variante-62-2026-0",
+      "attempt_count": 1,
+      "http_status": 200,
+      "final_url": "https://geodataserver.appenninosettentrionale.it/arcgis/rest/services/Pericolosita_Alluvione/mappa_variante_pericolosita2026/MapServer/0",
+      "bytes": 7735,
+      "sha256": "d7d36d10772a07b34f6bce8efc616c67836e3f80a4615e87bcb178e9c95686fb",
+      "content_type": "text/html;charset=utf-8",
+      "truncated": false,
+      "pdf_signature": false,
+      "text_characters": 3459,
+      "transport_result": "retrieved_non_pdf"
+    },
+    {
+      "url": "https://www.appenninosettentrionale.it/rep/distretto/pgra/delibera_62_adozione%20variante%20mappe%20e%20stralcio.pdf",
+      "checked_at": "2026-10-09T08:26:59.951446+00:00",
+      "name": "sett-62",
+      "attempt_count": 1,
+      "http_status": 200,
+      "final_url": "https://www.appenninosettentrionale.it/rep/distretto/pgra/delibera_62_adozione%20variante%20mappe%20e%20stralcio.pdf",
+      "bytes": 1038627,
+      "sha256": "88b346baa4030f9e0dad6b9f0bcbcfd6a7c0de52dd5c59e61e48faca15f5171b",
+      "content_type": "application/pdf",
+      "truncated": false,
+      "pdf_signature": true,
+      "pdf_pages": 6,
+      "text_characters": 13653,
+      "transport_result": "retrieved_pdf"
+    },
+    {
+      "url": "https://www.appenninosettentrionale.it/rep/distretto/pgra/G_UFF_07022023%20N.%2032_DPCM_PGRA.pdf",
+      "checked_at": "2026-10-09T08:26:40.092144+00:00",
+      "name": "dist-sett-1",
+      "attempt_count": 1,
+      "http_status": 200,
+      "final_url": "https://www.appenninosettentrionale.it/rep/distretto/pgra/G_UFF_07022023%20N.%2032_DPCM_PGRA.pdf",
+      "bytes": 4155023,
+      "sha256": "1323be18cbc5f2502452627bea8e17ac8ae58f2bb45fe2e0f883a2997592e596",
+      "content_type": "application/pdf",
+      "truncated": false,
+      "pdf_signature": true,
+      "pdf_pages": 88,
+      "text_characters": 473515,
+      "transport_result": "retrieved_pdf"
+    },
+    {
+      "url": "https://www.appenninosettentrionale.it/rep/distretto/pgra/Disciplina%20di%20Piano.pdf",
+      "checked_at": "2026-10-09T08:26:40.093172+00:00",
+      "name": "dist-sett-2",
+      "attempt_count": 1,
+      "http_status": 200,
+      "final_url": "https://www.appenninosettentrionale.it/rep/distretto/pgra/Disciplina%20di%20Piano.pdf",
+      "bytes": 335970,
+      "sha256": "1b820942264a4e7d5808d39263e0d8ec84cb274bcdeaabb0172d1570e257a0eb",
+      "content_type": "application/pdf",
+      "truncated": false,
+      "pdf_signature": true,
+      "pdf_pages": 27,
+      "text_characters": 79371,
+      "transport_result": "retrieved_pdf"
+    },
+    {
+      "url": "https://www.regione.sicilia.it/sites/default/files/2026-04/delibera_02_2026_adozione_valutazione_pgra_signed.pdf",
+      "checked_at": "2026-10-09T08:27:05.180509+00:00",
+      "name": "sici-02",
+      "attempt_count": 1,
+      "error": "HTTP Error 404: Not Found",
+      "transport_result": "inaccessible"
+    },
+    {
+      "url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/siti-tematici/pianificazione/stralcio",
+      "checked_at": "2026-10-09T08:26:46.979297+00:00",
+      "name": "dist-sici-0",
+      "attempt_count": 1,
+      "http_status": 200,
+      "final_url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/siti-tematici/pianificazione/stralcio",
+      "bytes": 232849,
+      "sha256": "926d1d6fa397b46ae9f0f956bb1e0f075427c7354b184163f1259b6f5fa9ec35",
+      "content_type": "text/html; charset=UTF-8",
+      "truncated": false,
+      "pdf_signature": false,
+      "text_characters": 3328,
+      "transport_result": "retrieved_non_pdf"
+    },
+    {
+      "url": "https://www.regione.sicilia.it/system/files/2026-04/delibera_02_2026_adozione_valutazione_pgra_signed.pdf",
+      "checked_at": "2026-10-09T08:37:08.032323+00:00",
+      "attempt_count": 1,
+      "discovered_from": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/seduta-08042026",
+      "http_status": 200,
+      "final_url": "https://www.regione.sicilia.it/system/files/2026-04/delibera_02_2026_adozione_valutazione_pgra_signed.pdf",
+      "bytes": 676926,
+      "sha256": "3e51979943172dc4ba78639779bf2bd1fcc97df339788b6b967609a580d6f960",
+      "pdf_signature": true,
+      "pdf_pages": 5
+    },
+    {
+      "url": "https://www.distrettoappenninomeridionale.it/piano-gestione-alluvioni/",
+      "checked_at": "2026-10-09T08:26:40.094467+00:00",
+      "name": "dist-merid-0",
+      "attempt_count": 1,
+      "http_status": 200,
+      "final_url": "https://www.distrettoappenninomeridionale.it/piano-gestione-alluvioni/",
+      "bytes": 184202,
+      "sha256": "e4e5e45fa041a7bd60ae4de3e499877141b8a27f7883300349c3e1191931c649",
+      "content_type": "text/html; charset=UTF-8",
+      "truncated": false,
+      "pdf_signature": false,
+      "text_characters": 3071,
+      "transport_result": "retrieved_non_pdf"
+    },
+    {
+      "url": "https://www.appenninosettentrionale.it/itc/?page_id=15866",
+      "checked_at": "2026-10-09T08:27:01.860856+00:00",
+      "name": "sett-iii-page",
+      "attempt_count": 1,
+      "http_status": 200,
+      "final_url": "https://www.appenninosettentrionale.it/itc/?page_id=15866",
+      "bytes": 117920,
+      "sha256": "02c455c91b82400349b765a91b908f098fabb060a7918e45cd2a2a7c968caffb",
+      "content_type": "text/html; charset=UTF-8",
+      "truncated": false,
+      "pdf_signature": false,
+      "text_characters": 6568,
+      "transport_result": "retrieved_non_pdf"
+    },
+    {
+      "url": "https://www.appenninosettentrionale.it/itc/?page_id=18906",
+      "checked_at": "2026-10-09T08:26:57.806061+00:00",
+      "name": "sett-variante-page",
+      "attempt_count": 1,
+      "http_status": 200,
+      "final_url": "https://www.appenninosettentrionale.it/itc/?page_id=18906",
+      "bytes": 127265,
+      "sha256": "ecf24ee7e0430a577ef8550441fb7dec1ca287205300338e22afab67cdc492aa",
+      "content_type": "text/html; charset=UTF-8",
+      "truncated": false,
+      "pdf_signature": false,
+      "text_characters": 13510,
+      "transport_result": "retrieved_non_pdf"
+    },
+    {
+      "name": "sici-pai-page",
+      "url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa",
+      "checked_at": "2026-10-09T08:29:46.558432+00:00",
+      "attempt_count": 1,
+      "http_status": 200,
+      "final_url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa",
+      "bytes": 232868,
+      "sha256": "eae028af9419b24bd68db1668d26a3a87c8259a946e4b5a0fc83afbf899a1932",
+      "pdf_signature": false
+    },
+    {
+      "url": "https://www.distrettoappenninomeridionale.it/piano-gestione-alluvioni/ii-ciclo-2016-2021/",
+      "checked_at": "2026-10-09T08:27:02.015500+00:00",
+      "name": "merid-ii-page",
+      "attempt_count": 1,
+      "http_status": 200,
+      "final_url": "https://www.distrettoappenninomeridionale.it/piano-gestione-alluvioni/ii-ciclo-2016-2021/",
+      "bytes": 291589,
+      "sha256": "28fde5450de2eca74e43ae0f6b6ef061c4cdf412ec3f28ace7cc36bcefa11476",
+      "content_type": "text/html; charset=UTF-8",
+      "truncated": false,
+      "pdf_signature": false,
+      "text_characters": 9378,
+      "transport_result": "retrieved_non_pdf"
+    },
+    {
+      "url": "https://www.distrettoappenninomeridionale.it/images/_PGRA/II%20ciclo%202019/PIANO%20VIGENTE/AGGIORNAMENTO%20MAPPE%20II%20CICLO/RELAZIONE%20METODOLOGICA.pdf",
+      "checked_at": "2026-10-09T08:26:40.098152+00:00",
+      "name": "dist-merid-2",
+      "attempt_count": 1,
+      "http_status": 200,
+      "final_url": "https://www.distrettoappenninomeridionale.it/images/_PGRA/II%20ciclo%202019/PIANO%20VIGENTE/AGGIORNAMENTO%20MAPPE%20II%20CICLO/RELAZIONE%20METODOLOGICA.pdf",
+      "bytes": 767361,
+      "sha256": "f4182b116638210ac8e2580ae7a6cfdae13e8ac4a29697de70b4571d88e8f777",
+      "content_type": "application/pdf",
+      "truncated": false,
+      "pdf_signature": true,
+      "pdf_pages": 41,
+      "text_characters": 93303,
+      "transport_result": "retrieved_pdf"
+    },
+    {
+      "url": "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2024/03/RELAZIONE-METODOLOGICA.pdf",
+      "checked_at": "2026-10-09T08:27:05.178125+00:00",
+      "name": "merid-map-rel",
+      "attempt_count": 1,
+      "http_status": 200,
+      "final_url": "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2024/03/RELAZIONE-METODOLOGICA.pdf",
+      "bytes": 767361,
+      "sha256": "f4182b116638210ac8e2580ae7a6cfdae13e8ac4a29697de70b4571d88e8f777",
+      "content_type": "application/pdf",
+      "truncated": false,
+      "pdf_signature": true,
+      "pdf_pages": 41,
+      "text_characters": 93303,
+      "transport_result": "retrieved_pdf"
+    },
+    {
+      "url": "https://www.appenninosettentrionale.it/itc/?page_id=1512",
+      "checked_at": "2026-10-09T08:27:01.590197+00:00",
+      "name": "sett-disciplina-page",
+      "attempt_count": 1,
+      "http_status": 200,
+      "final_url": "https://www.appenninosettentrionale.it/itc/?page_id=1512",
+      "bytes": 109405,
+      "sha256": "bf636539b14cd3aad12cfad5d611f14f215b798ffea9b6f6a266e73d6efc943d",
+      "content_type": "text/html; charset=UTF-8",
+      "truncated": false,
+      "pdf_signature": false,
+      "text_characters": 5476,
+      "transport_result": "retrieved_non_pdf"
+    },
+    {
+      "name": "sett-gu-avviso",
+      "url": "https://www.gazzettaufficiale.it/eli/id/2026/05/12/26A02259/sg",
+      "checked_at": "2026-10-09T08:29:46.549618+00:00",
+      "attempt_count": 1,
+      "http_status": 200,
+      "final_url": "https://www.gazzettaufficiale.it/eli/id/2026/05/12/26A02259/sg",
+      "bytes": 17214,
+      "sha256": "b771e8dd3850705fef6439f0853ae256343e4a65f92954aa1e7ce69c0cd8b338",
+      "pdf_signature": false
+    },
+    {
+      "url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/partecipazione-pubblica",
+      "checked_at": "2026-10-09T08:26:48.037372+00:00",
+      "name": "sic-pgra3-02-2026-0",
+      "attempt_count": 1,
+      "http_status": 200,
+      "final_url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/partecipazione-pubblica",
+      "bytes": 238879,
+      "sha256": "5c6c4ae0575bee068b0afcc1b54b4fab326a4122731db90e467768610f1d62ca",
+      "content_type": "text/html; charset=UTF-8",
+      "truncated": false,
+      "pdf_signature": false,
+      "text_characters": 8274,
+      "transport_result": "retrieved_non_pdf"
+    },
+    {
+      "url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/seduta-08042026",
+      "checked_at": "2026-10-09T08:33:14.294219+00:00",
+      "attempt_count": 1,
+      "http_status": 200,
+      "final_url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/seduta-08042026",
+      "bytes": 244544,
+      "sha256": "fba19d7e916c68d51883fecab07818abdb1d80498e681bcb4ce89c0e0c8eee6c",
+      "text_characters": 11136
+    },
+    {
+      "url": "https://www.distrettoappenninomeridionale.it/piano-gestione-alluvioni/iii-ciclo-2022-2027/",
+      "checked_at": "2026-10-09T08:27:02.559185+00:00",
+      "name": "merid-iii-page",
+      "attempt_count": 1,
+      "http_status": 200,
+      "final_url": "https://www.distrettoappenninomeridionale.it/piano-gestione-alluvioni/iii-ciclo-2022-2027/",
+      "bytes": 207029,
+      "sha256": "a4f071d12dadd7fc9318240b88948efd89fa1a7bb853c2906a1b8a3294ad67a3",
+      "content_type": "text/html; charset=UTF-8",
+      "truncated": false,
+      "pdf_signature": false,
+      "text_characters": 3600,
+      "transport_result": "retrieved_non_pdf"
+    },
+    {
+      "url": "https://www.regione.sicilia.it/la-regione-informa/pubblicate-valutazione-globale-provvisoria-mappe-pericolosita-alluvioni-piano-gestione-rischio-alluvioni-pgra",
+      "checked_at": "2026-10-09T08:26:48.445086+00:00",
+      "name": "sic-pgra3-02-2026-1",
+      "attempt_count": 1,
+      "http_status": 200,
+      "final_url": "https://www.regione.sicilia.it/la-regione-informa/pubblicate-valutazione-globale-provvisoria-mappe-pericolosita-alluvioni-piano-gestione-rischio-alluvioni-pgra",
+      "bytes": 231037,
+      "sha256": "dbcaf0918ca4502c5718d3041c1433e4e3e92023e8fe8153adeb1a2bee3d861c",
+      "content_type": "text/html; charset=UTF-8",
+      "truncated": false,
+      "pdf_signature": false,
+      "text_characters": 3405,
+      "transport_result": "retrieved_non_pdf"
+    },
+    {
+      "url": "https://www.sitr.regione.sicilia.it/geoportale/it/metadata/details/1042",
+      "checked_at": "2026-10-09T08:26:52.334701+00:00",
+      "name": "sic-pgra3-02-2026-2",
+      "attempt_count": 1,
+      "http_status": 200,
+      "final_url": "https://www.sitr.regione.sicilia.it/geoportale/it/metadata/details/1042",
+      "bytes": 40733,
+      "sha256": "1521933bffb7f05092545fa38187331bc50035d49828fb7515cddcf2e30444b1",
+      "content_type": "text/html; charset=utf-8",
+      "truncated": false,
+      "pdf_signature": false,
+      "text_characters": 7253,
+      "transport_result": "retrieved_non_pdf"
+    },
+    {
+      "url": "https://www.regione.sicilia.it/system/files/2021-05/DP_n.09_2021_approvazione_NdA.pdf",
+      "checked_at": "2026-10-09T08:26:47.941662+00:00",
+      "name": "dist-sici-1",
+      "attempt_count": 1,
+      "http_status": 200,
+      "final_url": "https://www.regione.sicilia.it/system/files/2021-05/DP_n.09_2021_approvazione_NdA.pdf",
+      "bytes": 94813,
+      "sha256": "7b95de13b1d477508a4c9e6173ba784aa3fbe11d0912af7c9780fa242c094046",
+      "content_type": "application/pdf",
+      "truncated": false,
+      "pdf_signature": true,
+      "pdf_pages": 4,
+      "text_characters": 13205,
+      "transport_result": "retrieved_pdf"
+    },
+    {
+      "url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/delibere-conferenza-istituzionale-permanente-anno-2026",
+      "checked_at": "2026-10-09T08:31:43.984595+00:00",
+      "attempt_count": 1,
+      "http_status": 200,
+      "final_url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/delibere-conferenza-istituzionale-permanente-anno-2026",
+      "bytes": 226463,
+      "sha256": "83239da73dbf6010dda1d2dd0af4fea7c4a8ea0947926aa6a20c108390d56997",
+      "text_characters": 6979
+    },
+    {
+      "url": "https://www.gazzettaufficiale.it/eli/gu/2023/02/08/32/sg/pdf#page=12",
+      "checked_at": "2026-10-09T08:26:48.036655+00:00",
+      "name": "dist-sici-2",
+      "attempt_count": 1,
+      "http_status": 200,
+      "final_url": "https://www.gazzettaufficiale.it/eli/gu/2023/02/08/32/sg/pdf#page=12",
+      "bytes": 2745432,
+      "sha256": "18bd1da8bf91e70a174dbb018cd576149bb4d3e62ad3d65253cc9f689e203d4e",
+      "content_type": "application/pdf",
+      "truncated": false,
+      "pdf_signature": true,
+      "pdf_pages": 56,
+      "text_characters": 328393,
+      "transport_result": "retrieved_pdf"
+    },
+    {
+      "url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/piano-gestione-rischio-alluvione-iideg-ciclo-2021-2027",
+      "checked_at": "2026-10-09T08:26:55.576564+00:00",
+      "name": "sic-pgra3-02-2026-3",
+      "attempt_count": 1,
+      "http_status": 200,
+      "final_url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/piano-gestione-rischio-alluvione-iideg-ciclo-2021-2027",
+      "bytes": 264203,
+      "sha256": "2d8ae85e551bde49c96df8e8e623983501a98a617cb10b51c1bbbdd1ef891185",
+      "content_type": "text/html; charset=UTF-8",
+      "truncated": false,
+      "pdf_signature": false,
+      "text_characters": 4742,
+      "transport_result": "retrieved_non_pdf"
+    },
+    {
+      "name": "sici-gurs-2021",
+      "url": "https://www.gurs.regione.sicilia.it/Gazzette/g21-22o2/g21-22o2.pdf",
+      "checked_at": "2026-10-09T08:29:46.555143+00:00",
+      "attempt_count": 1,
+      "error": "HTTP Error 502: Bad Gateway"
+    }
+  ],
+  "execution": {
+    "id": "local-fase3-08-20261009-082640",
+    "id_origin": "Identificativo locale; ID del servizio non disponibile.",
+    "started_at": "2026-10-09T08:26:40.089886+00:00",
+    "finished_at": "2026-10-09T08:44:04.255108+00:00",
+    "outcome": "parziale",
+    "publication": {
+      "outcome": "in_attesa",
+      "last_valid_result": {
+        "outcome": "pubblicato",
+        "commit_sha": "b8df1cd957ec73c770bd8dbeb45a9e63fb6daaca",
+        "commit_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/commit/b8df1cd957ec73c770bd8dbeb45a9e63fb6daaca",
+        "verified_at": "2026-10-09T08:17:15.951797+00:00",
+        "site_url": "https://domenicoderosa26-web.github.io/atlante-idraulico/",
+        "deployment_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/37903520739",
+        "verification": {
+          "outcome": "success",
+          "files": [
+            {
+              "path": "data.json",
+              "matches": true,
+              "sha256": "d5ae90d2e4e1156bf441808f26490900b75823711ca73494704a1a03cd69ecb8",
+              "expected_sha256": "d5ae90d2e4e1156bf441808f26490900b75823711ca73494704a1a03cd69ecb8"
+            },
+            {
+              "path": "topic-taxonomy.json",
+              "matches": true,
+              "sha256": "543b23aefef3c92ca0f7ebf8f408d56bd9aa73ba6de9a8d6d9780ba1930e9c36",
+              "expected_sha256": "543b23aefef3c92ca0f7ebf8f408d56bd9aa73ba6de9a8d6d9780ba1930e9c36"
+            }
+          ],
+          "site_loading": "107 schede; ricerca Villanovafranca e apertura scheda verificate nel sito pubblico; menu con 14 argomenti canonici."
+        },
+        "last_valid_result": "published_github_pages"
+      }
+    }
+  },
+  "publication": {
+    "state": "validated_pending_deployment",
+    "validation": "docs/audit/2026-10-09/incrementale/validazione-lotto-08.json"
+  }
+}

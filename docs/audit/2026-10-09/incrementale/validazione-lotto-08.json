@@ -1,0 +1,32 @@
+{
+  "checked_at": "2026-10-09T08:45:24.371571+00:00",
+  "base_commit": "6e8c9762753fb00fe2a24c33886c465e2369ca7d",
+  "records_before": 107,
+  "records_after": 107,
+  "document_links_before": 170,
+  "document_links_after": 181,
+  "ids_preserved": true,
+  "existing_documents_preserved": true,
+  "existing_reviews_and_histories_preserved": true,
+  "canonical_topics_and_relations_unchanged": true,
+  "protected_files_unchanged": true,
+  "reviewed_records": [
+    "dist-sett",
+    "dist-merid",
+    "dist-sici",
+    "sic-pgra3-02-2026",
+    "sett-pgra-variante-62-2026"
+  ],
+  "documentary_reviews": 98,
+  "full_legal_reviews": 0,
+  "checks": {
+    "topics_normalize": "passed; zero unresolved",
+    "topics_validate": "passed",
+    "archive_with_base": "passed",
+    "python_unittest": "60 passed",
+    "node_syntax": "passed",
+    "node_topic_filters": "passed; 14 categories, 168 combinations, loading/search",
+    "git_diff_check": "passed"
+  },
+  "publication": "CI and Pages still to verify after publication"
+}

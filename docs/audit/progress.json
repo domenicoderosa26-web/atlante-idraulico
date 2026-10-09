@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "catalog_path": "data.json",
-  "updated_at": "2026-10-08T20:19:14.603752+00:00",
+  "updated_at": "2026-10-09T08:44:04.255108+00:00",
   "basis": [
     "docs/audit/2026-10-08/schede.json",
     "docs/audit/2026-10-08/coda.json",
@@ -10,23 +10,18 @@
   ],
   "note": "Registro derivato di attività: non è un secondo catalogo. Le revisioni anteriori sono conservate negli audit citati e in data.json. I conteggi sono una fotografia alla data indicata.",
   "catalog_snapshot": {
-    "records": 106,
-    "documentary_reviews": 92,
+    "records": 107,
+    "documentary_reviews": 98,
     "without_documentary_review": [
       "er1860",
       "abr17",
       "mol25",
       "bari",
       "milano",
-      "dist-sett",
       "bas471",
-      "dist-merid",
-      "dist-sici",
-      "sic-pgra3-02-2026",
       "pai-calabria2001",
       "codstrada285",
-      "dpr495",
-      "sett-pgra-variante-62-2026"
+      "dpr495"
     ],
     "full_legal_reviews": 0
   },
@@ -1041,6 +1036,156 @@
         "state": "validated_pending_deployment"
       },
       "history": []
+    },
+    "dist-sett": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-09T08:44:04.255108+00:00",
+      "source_urls": [
+        "https://www.appenninosettentrionale.it/rep/distretto/pgra/G_UFF_07022023%20N.%2032_DPCM_PGRA.pdf",
+        "https://www.appenninosettentrionale.it/rep/distretto/pgra/Disciplina%20di%20Piano.pdf",
+        "https://www.appenninosettentrionale.it/itc/?page_id=1512",
+        "https://www.appenninosettentrionale.it/itc/?page_id=15866"
+      ],
+      "verified_results": [
+        "Approvato il PGRA 2021-2027. Il DPCM distingue superamento dei PAI idraulici nel settore toscano e subentro nel settore ligure; non consente di eliminare indiscriminatamente le discipline territoriali residue.",
+        "P3 fluviale: TR fino a 30 anni, fino a 50 nella UoM Regionale Liguria; P2: oltre 30 fino a 200, oltre 50 fino a 200 in tale UoM; P1 oltre 200 e fondovalle alluvionale. Scenari costieri distinti, fino a 50 e tra 50 e 100 anni.",
+        "Norme e indirizzi distinguono P3, P2 e P1, prevedono condizioni regionali di gestione del rischio e specifici pareri sulle opere idrauliche. Nelle aree presidiate da argini i Comuni individuano misure per il collasso: la presenza dell’argine non annulla il rischio.",
+        "Restano specifici vincoli del Piano stralcio Rischio Idraulico Arno e, per Magra e Regionale Liguria, le fasce di riassetto e relativa normativa. La disciplina dichiara efficacia vincolante dall’approvazione dell’aggiornamento.",
+        "La pagina collega la disciplina e separatamente la modifica dell’allegato 4 DCI 44/2024. Il PDF dicembre 2021 non va qualificato come coordinamento esaustivo delle modifiche successive.",
+        "Sono distinti i procedimenti III ciclo, progetto di disciplina e riesame delle mappe. Il portale non autorizza a dichiarare automaticamente sostituito il secondo ciclo."
+      ],
+      "limitations": [
+        "Revisione parziale nel solo perimetro dichiarato; cartografie e catena completa degli atti non verificate."
+      ],
+      "next_operation": [
+        "Esaminare integralmente disciplina e allegati, modifica allegato 4 DCI 44/2024 e atti 54/2025 e 56/2025, con decorrenze e salvaguardie.",
+        "Completare cartografie e disposizioni regionali per il bacino interessato, senza estendere il superamento PAI oltre l’ambito documentato."
+      ],
+      "record_version": "5c564a7bf8d339835ce7575a137717274b5f456b13a67b9af9ab0ce35838f86a",
+      "evidence": "docs/audit/2026-10-09/incrementale/lotto-08.json",
+      "publication": {
+        "state": "validated_pending_deployment",
+        "validation": "docs/audit/2026-10-09/incrementale/validazione-lotto-08.json"
+      },
+      "history": []
+    },
+    "dist-merid": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-09T08:44:04.255108+00:00",
+      "source_urls": [
+        "https://www.distrettoappenninomeridionale.it/images/_PGRA/II%20ciclo%202019/PIANO%20VIGENTE/DPCM%201%C2%B0%20DICEMBRE%202022%20-%20approvazione%20I%20aggiornamento%20PGRA%20-%20II%20ciclo.pdf",
+        "https://www.distrettoappenninomeridionale.it/images/_PGRA/II%20ciclo%202019/PIANO%20VIGENTE/AGGIORNAMENTO%20MAPPE%20II%20CICLO/RELAZIONE%20METODOLOGICA.pdf",
+        "https://www.distrettoappenninomeridionale.it/piano-gestione-alluvioni/iii-ciclo-2022-2027/"
+      ],
+      "verified_results": [
+        "Il DPCM approva il primo aggiornamento PGRA II ciclo e identifica distintamente valutazione preliminare, mappe di pericolosità/rischio e revisione del piano con misure. Non equivale alla lettura di tutti gli elaborati.",
+        "Il testo dichiara, per alluvioni fluviali, TR 20-50 anni per P3, 100-200 per P2 e 300-500 per P1, con variazioni per UoM. Le intestazioni P1/P3 nella tabella successiva sono incongruenti con tali valori: verificato anche il rendering, nessuna correzione normativa o corrispondenza universale inventata.",
+        "Gli shapefile di estensione distinguono LPH/P1, MPH/P2 e HPH/P3. Category identifica probabilità; frequency contiene TR e -9999 per TR non noto; detMetod distingue modellazione e determinazione indiretta. Il TR va verificato per feature e bacino.",
+        "La pagina elenca atti VGP e mappe del 18 dicembre 2025 e una sezione Piano in costruzione. La denominazione del periodo nel titolo del portale non prova approvazione del nuovo PGRA."
+      ],
+      "limitations": [
+        "Revisione parziale nel solo perimetro dichiarato; cartografie e catena completa degli atti non verificate.",
+        "Incongruenza tra intestazioni della tabella scenari e testo, visibile nel PDF; nessuna rettifica dedotta."
+      ],
+      "next_operation": [
+        "Chiarire con fonte istituzionale l’incongruenza delle intestazioni della tabella scenari; verificare Category/frequency nelle geometrie del bacino.",
+        "Completare relazione, misure, salvaguardie, delibere III ciclo e atti territoriali successivi."
+      ],
+      "record_version": "865457ded9ab7d2ef0ed3e23c065887d7fc171b1bf2fd92c4a3ba1e110ed3a77",
+      "evidence": "docs/audit/2026-10-09/incrementale/lotto-08.json",
+      "publication": {
+        "state": "validated_pending_deployment",
+        "validation": "docs/audit/2026-10-09/incrementale/validazione-lotto-08.json"
+      },
+      "history": []
+    },
+    "dist-sici": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-09T08:44:04.255108+00:00",
+      "source_urls": [
+        "https://www.regione.sicilia.it/system/files/2021-05/DP_n.09_2021_approvazione_NdA.pdf",
+        "https://www.gazzettaufficiale.it/eli/gu/2023/02/08/32/sg/pdf#page=12",
+        "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa"
+      ],
+      "verified_results": [
+        "Il D.P. sostituisce capitolo 11 e appendici A/B con NTA e appendici A-D, modifica tabella elementi a rischio e sopprime tabella 6.5; salva le parti non modificate. L’art.2 collega entrata in vigore al giorno dopo la GURS ed esclude le pratiche avviate prima della pubblicazione. Il fascicolo GURS 2021 non acquisito impedisce di certificare qui la decorrenza concreta.",
+        "Approvato il primo aggiornamento PGRA Sicilia. Il decreto distingue mappe di pericolosità TR50/100/300, tiranti/velocità, mappe di rischio, misure e relazioni di protezione civile/clima: la sola mappa di estensione non esaurisce il piano.",
+        "La pagina presenta la modifica del 23 giugno 2026 alla circolare applicativa del 22 febbraio 2023, da leggere prima di certificare un quadro procedurale aggiornato. La lettura del D.P.2021 non prova assenza di modifiche o istruzioni successive."
+      ],
+      "limitations": [
+        "Revisione parziale nel solo perimetro dichiarato; cartografie e catena completa degli atti non verificate."
+      ],
+      "next_operation": [
+        "Acquisire GURS 22/2021, NTA e appendici complete; verificare circolari e modifica applicativa 23 giugno 2026.",
+        "Completare relazioni e cartografie PGRA e catena successiva; tenere distinto il III ciclo."
+      ],
+      "record_version": "3dd3400b0ef7771f624c7e20586c1910cb866d8c34f25b1179d4dcc3a30e3311",
+      "evidence": "docs/audit/2026-10-09/incrementale/lotto-08.json",
+      "publication": {
+        "state": "validated_pending_deployment",
+        "validation": "docs/audit/2026-10-09/incrementale/validazione-lotto-08.json"
+      },
+      "history": []
+    },
+    "sic-pgra3-02-2026": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-09T08:44:04.255108+00:00",
+      "source_urls": [
+        "https://www.regione.sicilia.it/system/files/2026-04/delibera_02_2026_adozione_valutazione_pgra_signed.pdf",
+        "https://www.gursonline.regione.sicilia.it/wp-content/uploads/2026/04/corretta-firm-PI_18_2026-6.pdf",
+        "https://www.regione.sicilia.it/la-regione-informa/pubblicate-valutazione-globale-provvisoria-mappe-pericolosita-alluvioni-piano-gestione-rischio-alluvioni-pgra",
+        "https://www.sitr.regione.sicilia.it/geoportale/it/metadata/details/1042"
+      ],
+      "verified_results": [
+        "Il dispositivo prende atto di VGP e relazione metodologica di febbraio 2026 e 30 mappe del III ciclo2027-2033, dispone trasmissione al MASE e pubblicazione per estratto GURS / per esteso sul sito. Non è l’approvazione finale del PGRA 2027-2033.",
+        "L’avviso identifica delibera 2 dell’8 aprile 2026 e presa d’atto di VGP e revisione delle mappe del III ciclo2027-2033. È una fonte di pubblicazione puntuale; non è il dispositivo completo né approvazione del PGRA III ciclo.",
+        "Pubblicati VGP, mappe e relazione metodologica per consultazione di sei mesi. Non ricostruito l’eventuale provvedimento successivo né una decorrenza finale della consultazione.",
+        "Il metadato indica scenari HP/TR50, MP/TR100 e LP/TR300, EPSG 3035, revisione8 aprile 2026. Non è stata verificata la geometria dello shapefile o l’assenza di revisioni successive."
+      ],
+      "limitations": [
+        "Revisione parziale nel solo perimetro dichiarato; cartografie e catena completa degli atti non verificate.",
+        "Vecchio link del portale in HTTP 404; dispositivo recuperato dal link ufficiale della seduta. Allegati non esaminati."
+      ],
+      "next_operation": [
+        "Leggere integralmente VGP, relazione metodologica e 30 mappe, verificare geometrie e metadati dello shapefile.",
+        "Ricostruire stato temporale della consultazione e atti successivi senza qualificare la presa d’atto come approvazione del PGRA 2027-2033."
+      ],
+      "record_version": "96765d7075f2e96e75942ff2d936e5b858f1cb828a7737b165787c1891cb8893",
+      "evidence": "docs/audit/2026-10-09/incrementale/lotto-08.json",
+      "publication": {
+        "state": "validated_pending_deployment",
+        "validation": "docs/audit/2026-10-09/incrementale/validazione-lotto-08.json"
+      },
+      "history": []
+    },
+    "sett-pgra-variante-62-2026": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-09T08:44:04.255108+00:00",
+      "source_urls": [
+        "https://www.appenninosettentrionale.it/rep/distretto/pgra/delibera_62_adozione%20variante%20mappe%20e%20stralcio.pdf",
+        "https://www.appenninosettentrionale.it/itc/?page_id=18906",
+        "https://www.gazzettaufficiale.it/eli/id/2026/05/12/26A02259/sg"
+      ],
+      "verified_results": [
+        "Adottato il progetto di variante delle mappe sul reticolo principale del PGRA 2021-2027. Stralciata la zona tra Bettigna e Parmignola. L’adozione del progetto non è approvazione definitiva della variante.",
+        "Nelle more dell’adozione della variante, nei procedimenti di pianificazione, programmazione, valutazione e autorizzazione urbanistico-edilizia, l’Autorità deve fornire contestualmente quadro conoscitivo e mappe vigenti e del progetto. Tenere distinto il progetto non significa ignorarlo nell’istruttoria.",
+        "Il portale collega la consultazione di sei mesi alla notizia GU 108 del 12 maggio 2026. Osservazioni limitate alle aree del reticolo principale oggetto di studio; reticolo secondario rappresentato ma escluso dalle osservazioni.",
+        "Riscontrati oggetto e pubblicazione della notizia GU 108 del 12 maggio 2026. Corpo integrale del comunicato non acquisito, nessuna attestazione estesa oltre i metadati letti."
+      ],
+      "limitations": [
+        "Revisione parziale nel solo perimetro dichiarato; cartografie e catena completa degli atti non verificate."
+      ],
+      "next_operation": [
+        "Verificare geometrie, strati dei modelli e documentazione tecnica; recuperare corpo integrale del comunicato e bollettini regionali.",
+        "Ricostruire esito della consultazione e atti successivi senza anticipare approvazione definitiva."
+      ],
+      "record_version": "a888ff2ed39940c0154adc5c6b062118cf3a8f7001915faf0bcdf7f1f45541b7",
+      "evidence": "docs/audit/2026-10-09/incrementale/lotto-08.json",
+      "publication": {
+        "state": "validated_pending_deployment",
+        "validation": "docs/audit/2026-10-09/incrementale/validazione-lotto-08.json"
+      },
+      "history": []
     }
   },
   "batches": [
@@ -1172,14 +1317,30 @@
       "publication": {
         "state": "validated_pending_deployment"
       }
+    },
+    {
+      "id": "incrementale-08",
+      "date": "2026-10-09",
+      "record_ids": [
+        "dist-sett",
+        "dist-merid",
+        "dist-sici",
+        "sic-pgra3-02-2026",
+        "sett-pgra-variante-62-2026"
+      ],
+      "evidence": "docs/audit/2026-10-09/incrementale/lotto-08.json",
+      "publication": {
+        "state": "validated_pending_deployment",
+        "validation": "docs/audit/2026-10-09/incrementale/validazione-lotto-08.json"
+      }
     }
   ],
   "next_batch": [
-    "dist-sett",
-    "dist-merid",
-    "dist-sici",
-    "sic-pgra3-02-2026",
-    "sett-pgra-variante-62-2026"
+    "er1860",
+    "mol25",
+    "bari",
+    "milano",
+    "pai-calabria2001"
   ],
   "queue_history": [
     {

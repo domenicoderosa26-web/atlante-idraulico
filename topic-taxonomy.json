@@ -1469,7 +1469,9 @@
       "source_urls": [
         "https://www.appenninosettentrionale.it/itc/?page_id=2910",
         "https://www.appenninosettentrionale.it/rep/distretto/pgra/Disciplina%20di%20Piano.pdf",
-        "https://www.appenninosettentrionale.it/rep/distretto/pgra/G_UFF_07022023%20N.%2032_DPCM_PGRA.pdf"
+        "https://www.appenninosettentrionale.it/rep/distretto/pgra/G_UFF_07022023%20N.%2032_DPCM_PGRA.pdf",
+        "https://www.appenninosettentrionale.it/itc/?page_id=1512",
+        "https://www.appenninosettentrionale.it/itc/?page_id=15866"
       ],
       "object_versions": [
         {
@@ -1483,7 +1485,7 @@
           ]
         }
       ],
-      "evidence": "Gli elaborati collegati sono PGRA. La menzione di PAI nel riferimento della raccolta non basta ad attribuire una componente PAI."
+      "evidence": "Gli elaborati collegati sono PGRA. La menzione di PAI nel riferimento della raccolta non basta ad attribuire una componente PAI. Riesame 9 ottobre 2026, lotto 08: Approvato il PGRA 2021-2027. Il DPCM distingue superamento dei PAI idraulici nel settore toscano e subentro nel settore ligure; non consente di eliminare indiscriminatamente le discipline territoriali residue. Argomenti canonici invariati nel perimetro documentato."
     },
     "dist-centr": {
       "topics": [
@@ -1610,7 +1612,8 @@
         "https://www.distrettoappenninomeridionale.it/images/_PGRA/II%20ciclo%202019/PIANO%20VIGENTE/AGGIORNAMENTO%20MAPPE%20II%20CICLO/RELAZIONE%20METODOLOGICA.pdf",
         "https://www.distrettoappenninomeridionale.it/images/_PGRA/II%20ciclo%202019/PIANO%20VIGENTE/DPCM%201%C2%B0%20DICEMBRE%202022%20-%20approvazione%20I%20aggiornamento%20PGRA%20-%20II%20ciclo.pdf",
         "https://www.distrettoappenninomeridionale.it/piano-gestione-alluvioni/",
-        "https://www.distrettoappenninomeridionale.it/piano-gestione-alluvioni/ii-ciclo-2016-2021/"
+        "https://www.distrettoappenninomeridionale.it/piano-gestione-alluvioni/ii-ciclo-2016-2021/",
+        "https://www.distrettoappenninomeridionale.it/piano-gestione-alluvioni/iii-ciclo-2022-2027/"
       ],
       "object_versions": [
         {
@@ -1624,7 +1627,7 @@
           ]
         }
       ],
-      "evidence": "Gli elaborati collegati sono PGRA. La menzione di PAI nel riferimento della raccolta non basta ad attribuire una componente PAI."
+      "evidence": "Gli elaborati collegati sono PGRA. La menzione di PAI nel riferimento della raccolta non basta ad attribuire una componente PAI. Riesame 9 ottobre 2026, lotto 08: Il DPCM approva il primo aggiornamento PGRA II ciclo e identifica distintamente valutazione preliminare, mappe di pericolosità/rischio e revisione del piano con misure. Non equivale alla lettura di tutti gli elaborati. Argomenti canonici invariati nel perimetro documentato."
     },
     "dist-sard": {
       "topics": [
@@ -1742,7 +1745,7 @@
           ]
         }
       ],
-      "evidence": "NTA PAI: componenti idraulica e geomorfologica; DPCM PGRA distinto nella raccolta."
+      "evidence": "NTA PAI: componenti idraulica e geomorfologica; DPCM PGRA distinto nella raccolta. Riesame 9 ottobre 2026, lotto 08: Il D.P. sostituisce capitolo 11 e appendici A/B con NTA e appendici A-D, modifica tabella elementi a rischio e sopprime tabella 6.5; salva le parti non modificate. L’art.2 collega entrata in vigore al giorno dopo la GURS ed esclude le pratiche avviate prima della pubblicazione. Il fascicolo GURS 2021 non acquisito impedisce di certificare qui la decorrenza concreta. Argomenti canonici invariati nel perimetro documentato."
     },
     "sic-pgra3-02-2026": {
       "topics": [
@@ -1752,7 +1755,9 @@
         "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/partecipazione-pubblica",
         "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/piano-gestione-rischio-alluvione-iideg-ciclo-2021-2027",
         "https://www.regione.sicilia.it/la-regione-informa/pubblicate-valutazione-globale-provvisoria-mappe-pericolosita-alluvioni-piano-gestione-rischio-alluvioni-pgra",
-        "https://www.sitr.regione.sicilia.it/geoportale/it/metadata/details/1042"
+        "https://www.sitr.regione.sicilia.it/geoportale/it/metadata/details/1042",
+        "https://www.regione.sicilia.it/system/files/2026-04/delibera_02_2026_adozione_valutazione_pgra_signed.pdf",
+        "https://www.gursonline.regione.sicilia.it/wp-content/uploads/2026/04/corretta-firm-PI_18_2026-6.pdf"
       ],
       "object_versions": [
         {
@@ -1766,7 +1771,7 @@
           ]
         }
       ],
-      "evidence": "Oggetto e ambito sostanziale della scheda: La Conferenza Istituzionale Permanente ha preso atto della Valutazione Globale Provvisoria e delle mappe di pericolosità del PGRA Sicilia per il III ciclo 2027–2033, pubblicate per la consultazione. Focus: Mappe di pericolosità per scenari TR 50, 100 e 300 anni; Consultazione pubblica degli elaborati del III ciclo; Distinzione tra documenti preparatori 2027–2033 e PGRA II ciclo 2021–2027 vigente"
+      "evidence": "Oggetto e ambito sostanziale della scheda: La Conferenza Istituzionale Permanente ha preso atto della Valutazione Globale Provvisoria e delle mappe di pericolosità del PGRA Sicilia per il III ciclo 2027–2033, pubblicate per la consultazione. Focus: Mappe di pericolosità per scenari TR 50, 100 e 300 anni; Consultazione pubblica degli elaborati del III ciclo; Distinzione tra documenti preparatori 2027–2033 e PGRA II ciclo 2021–2027 vigente Riesame 9 ottobre 2026, lotto 08: Il dispositivo prende atto di VGP e relazione metodologica di febbraio 2026 e 30 mappe del III ciclo2027-2033, dispone trasmissione al MASE e pubblicazione per estratto GURS / per esteso sul sito. Non è l’approvazione finale del PGRA 2027-2033. Argomenti canonici invariati nel perimetro documentato."
     },
     "dmattr2014": {
       "topics": [
@@ -2698,7 +2703,10 @@
         "pgra"
       ],
       "source_urls": [
-        "https://geodataserver.appenninosettentrionale.it/arcgis/rest/services/Pericolosita_Alluvione/mappa_variante_pericolosita2026/MapServer/0"
+        "https://geodataserver.appenninosettentrionale.it/arcgis/rest/services/Pericolosita_Alluvione/mappa_variante_pericolosita2026/MapServer/0",
+        "https://www.appenninosettentrionale.it/rep/distretto/pgra/delibera_62_adozione%20variante%20mappe%20e%20stralcio.pdf",
+        "https://www.appenninosettentrionale.it/itc/?page_id=18906",
+        "https://www.gazzettaufficiale.it/eli/id/2026/05/12/26A02259/sg"
       ],
       "object_versions": [
         {
@@ -2710,9 +2718,20 @@
             "Verificare l’esito della consultazione e l’adozione definitiva",
             "Tenere distinto il progetto dalle mappe vigenti"
           ]
+        },
+        {
+          "title": "Progetto di variante alle mappe di pericolosità da alluvione del PGRA",
+          "ref": "Del. CIP 62/2026 · Appennino Settentrionale",
+          "summary": "La Deliberazione CIP 62/2026 ha adottato il progetto di variante alle mappe di pericolosità da alluvione sul reticolo principale del PGRA, in fase di consultazione. È stralciata la porzione ligure tra il torrente Bettigna e il torrente Parmignola.",
+          "focus": [
+            "Consultare la cartografia della variante",
+            "Verificare l’esito della consultazione e l’adozione definitiva",
+            "Tenere distinto il progetto dalle mappe vigenti",
+            "Nelle istruttorie fornire insieme mappe vigenti e mappe del progetto ai sensi dell’art.3 della delibera62/2026"
+          ]
         }
       ],
-      "evidence": "Oggetto e ambito sostanziale della scheda: La Deliberazione CIP 62/2026 ha adottato il progetto di variante alle mappe di pericolosità da alluvione sul reticolo principale del PGRA, in fase di consultazione. È stralciata la porzione ligure tra il torrente Bettigna e il torrente Parmignola. Focus: Consultare la cartografia della variante; Verificare l’esito della consultazione e l’adozione definitiva; Tenere distinto il progetto dalle mappe vigenti"
+      "evidence": "Oggetto e ambito sostanziale della scheda: La Deliberazione CIP 62/2026 ha adottato il progetto di variante alle mappe di pericolosità da alluvione sul reticolo principale del PGRA, in fase di consultazione. È stralciata la porzione ligure tra il torrente Bettigna e il torrente Parmignola. Focus: Consultare la cartografia della variante; Verificare l’esito della consultazione e l’adozione definitiva; Tenere distinto il progetto dalle mappe vigenti Riesame 9 ottobre 2026, lotto 08: Adottato il progetto di variante delle mappe sul reticolo principale del PGRA 2021-2027. Stralciata la zona tra Bettigna e Parmignola. L’adozione del progetto non è approvazione definitiva della variante. Argomenti canonici invariati nel perimetro documentato."
     },
     "centr-pai-lettomanoppello-142-2026": {
       "topics": [

@@ -1,0 +1,1057 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-09",
+  "lot": 10,
+  "record_ids": [
+    "codstrada285",
+    "dpr495",
+    "abr17",
+    "bas471",
+    "milano",
+    "bari"
+  ],
+  "records": [
+    {
+      "id": "codstrada285",
+      "checked_at": "2026-10-09",
+      "scope": "Lettura integrale su Normattiva degli artt. 25-28 e 32-33 nel testo coordinato mostrato vigente al 09/10/2026; identità, concessioni, titolarità e manutenzione delle interferenze idrauliche stradali.",
+      "outcome": "verified",
+      "legal_state": "amended",
+      "sources": [
+        {
+          "name": "Codice della strada — testo coordinato",
+          "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0306&atto.dataPubblicazioneGazzetta=1992-05-18&tipoDettaglio=vigente",
+          "fetched_at": "2026-10-09",
+          "sha256": "f9fce0fe60244e442a7db1423bbc8cf428420aa8086a7498a9748080c89ed0ea",
+          "bytes": 193443,
+          "pages": null,
+          "read_scope": "Metadati di atto e indice della versione vigente al 09/10/2026; testo integrale degli articoli indicati conservato separatamente."
+        },
+        {
+          "name": "codstrada-art25",
+          "url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=20&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=25&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+          "sha256": "c38e7686c957962e096e26f039a5eb0dd9fb4d201b741285bc9abad26207b2f7",
+          "bytes": 17504,
+          "fetched_at": "2026-10-09"
+        },
+        {
+          "name": "codstrada-art26",
+          "url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=5&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=26&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+          "sha256": "26f2acf6f9debd97e3234910216093f19b4f2a8e53ce1cbda1ca02dff32b80d3",
+          "bytes": 6744,
+          "fetched_at": "2026-10-09"
+        },
+        {
+          "name": "codstrada-art32",
+          "url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=16&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=32&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+          "sha256": "b35c5e41ae8d26156784f1d46641b4887f304de47a7e8ac54edcdd17df477dc9",
+          "bytes": 12175,
+          "fetched_at": "2026-10-09"
+        },
+        {
+          "name": "codstrada-art33",
+          "url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=16&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=33&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+          "sha256": "aad9c2e54962c3fb417ef4181daedbcd0512359121881f40dbfa2ade35c420bd",
+          "bytes": 12868,
+          "fetched_at": "2026-10-09"
+        },
+        {
+          "name": "codstrada-art27",
+          "url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=14&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=27&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+          "sha256": "535105d3e360b1cf9c0cf01c5a2f3690b1409ef263967b650cd77f25c5ffa0a2",
+          "bytes": 14536,
+          "fetched_at": "2026-10-09"
+        },
+        {
+          "name": "codstrada-art28",
+          "url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=28&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+          "sha256": "6e3a5181e5407359700eaddb62b5d4ccbc4dc7ff16c44add49cd8fde7132c29a",
+          "bytes": 6603,
+          "fetched_at": "2026-10-09"
+        }
+      ],
+      "claims": [
+        {
+          "aspect": "identity",
+          "source_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0306&atto.dataPubblicazioneGazzetta=1992-05-18&tipoDettaglio=vigente",
+          "locator": "Intestazione, metadati e selettore di vigenza",
+          "finding": "D.Lgs. 30 aprile 1992, n. 285, Nuovo codice della strada; GU n.114 del 18 maggio 1992, S.O. n.74; entrata in vigore 1 gennaio 1993. Pagina mostrata vigente al 09/10/2026; ultimo aggiornamento dell'atto pubblicato il 24/04/2026."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=20&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=25&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+          "locator": "art.25, commi 1,2 e4",
+          "finding": "Corsi e condutture d'acqua che attraversano o usano sede stradale e pertinenze richiedono preventiva concessione dell'ente proprietario. La concessione presuppone assoluta necessità e accertamento tecnico dell'autorità competente; accessibilità e manutenzione devono ridurre l'intralcio alla circolazione."
+        },
+        {
+          "aspect": "version",
+          "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=20&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=25&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+          "locator": "Intestazione articolo; commi 1-bis–1-sexies",
+          "finding": "Normattiva mostra per l'art.25 il testo in vigore dal 14 dicembre 2024. I commi 1-bis–1-quinquies riguardano titolarità e manutenzione delle strutture degli attraversamenti a livelli sfalsati tra strade; non vanno applicati indistintamente agli attraversamenti di condotte d'acqua."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=5&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=26&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+          "locator": "art.26, commi1-4",
+          "finding": "L'art.26 distingue competenza dell'ente proprietario e convenzioni per strade in concessione; nei tratti di statali/regionali/provinciali in centri abitati sotto 10.000 abitanti il Comune rilascia previo nulla osta del proprietario. Il comma4 contiene una disciplina specifica per impianti destinati a servizio pubblico."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=14&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=27&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+          "locator": "art.27, commi1-5",
+          "finding": "Domanda corredata da documentazione tecnica e oneri istruttori; titolo con prescrizioni, durata e obbligo di riparare danni. La concessione stradale è rilasciata senza pregiudizio dei diritti dei terzi."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=28&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+          "locator": "art.28, commi1-2",
+          "finding": "Anche distribuzione di acqua potabile e fognature rientrano nei servizi i cui concessionari devono rispettare condizioni per conservazione stradale e sicurezza; in caso di spostamento per comprovate esigenze di viabilità l'onere grava sul gestore con modalità concordate."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=16&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=32&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+          "locator": "art.32, commi1-5",
+          "finding": "Chi ha diritto di condurre acque nei fossi deve conservarli; chi attraversa con corsi o condotte deve costruire e mantenere ponti e opere, anche a monte e valle, secondo disciplinare e sorveglianza dell'ente, salvo art.33. L'irrigazione laterale non deve recare acque sulla sede né danno o pericolo."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=16&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=33&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+          "locator": "art.33, commi1-6",
+          "finding": "Proprietari/utenti di canali artificiali devono impedire l'afflusso dannoso sulla sede; manutenzione e rifacimento dei manufatti esistenti sono a loro carico salvo preesistenza della strada o titolo/possesso contrario. Per ampliamenti di manufatti non in legname l'ente stradale sostiene il costo di allargamento; manutenzione intera resta agli utenti delle acque."
+        },
+        {
+          "aspect": "status",
+          "source_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0306&atto.dataPubblicazioneGazzetta=1992-05-18&tipoDettaglio=vigente",
+          "locator": "Metadati e selettore di vigenza al 09/10/2026",
+          "finding": "D.Lgs. 30 aprile 1992, n. 285, Nuovo codice della strada; GU n.114 del 18 maggio 1992, S.O. n.74; entrata in vigore 1 gennaio 1993. Pagina mostrata vigente al 09/10/2026; ultimo aggiornamento dell'atto pubblicato il 24/04/2026."
+        }
+      ],
+      "limitations": [
+        "La verifica copre le disposizioni espressamente indicate, non ogni articolo del Codice né la conformità di un progetto concreto.",
+        "La data dell'ultimo aggiornamento dell'atto non è la data di modifica di ogni articolo."
+      ],
+      "pending": [
+        "Per ogni progetto individuare ente proprietario/concessionario, convenzione, disciplina speciale applicabile e ulteriori titoli idraulici/ambientali."
+      ],
+      "proposed_changes": {
+        "ref": "D.Lgs. 285/1992 — artt. 25-28, 32-33",
+        "title": "Codice della strada: attraversamenti e condotta delle acque",
+        "summary": "Concessioni per attraversamenti e uso della sede stradale, obblighi dei gestori di servizi idrici e fognari, conservazione dei fossi e manutenzione dei manufatti su canali artificiali.",
+        "status": "Testo coordinato consultato — disposizioni pertinenti modificate",
+        "topics": [
+          "Attraversamenti e parallelismi",
+          "Smaltimento acque meteoriche e reflue"
+        ],
+        "note": "Testo coordinato Normattiva mostrato vigente al 09/10/2026. Ultimo aggiornamento dell'atto pubblicato il 24/04/2026; l'art.25 è mostrato in vigore dal 14/12/2024. Consultati artt.25-28 e32-33; i titoli idraulici e ambientali richiesti dal progetto restano da individuare.",
+        "focus": [
+          "Art.25: preventiva concessione per corsi/condotte e uso delle pertinenze; necessità, accertamento tecnico e manutenzione senza intralcio.",
+          "Artt.26-28: competenza, documentazione tecnica, convenzioni e obblighi dei gestori di acqua potabile e fognature.",
+          "Art.32: conservazione dei fossi e opere a monte/valle degli attraversamenti secondo disciplinare.",
+          "Art.33: canali artificiali, preesistenza/titoli e riparto degli oneri dei manufatti."
+        ]
+      }
+    },
+    {
+      "id": "dpr495",
+      "checked_at": "2026-10-09",
+      "scope": "Lettura integrale su Normattiva degli artt.65-71 nel testo coordinato mostrato vigente al09/10/2026; attraversamenti, occupazioni, concessioni e attuazione della disciplina sulle acque.",
+      "outcome": "verified",
+      "legal_state": "amended",
+      "sources": [
+        {
+          "name": "Regolamento CdS — testo coordinato",
+          "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0531&atto.dataPubblicazioneGazzetta=1992-12-28&tipoDettaglio=vigente",
+          "fetched_at": "2026-10-09",
+          "sha256": "2331cc4c3ce5b09ff87a2b269d1ab877ffb42d47e35251a64094031d17fcbdfc",
+          "bytes": 274126,
+          "pages": null,
+          "read_scope": "Metadati di atto e indice della versione vigente al 09/10/2026; testo integrale degli articoli indicati conservato separatamente."
+        },
+        {
+          "name": "dpr495-art65",
+          "url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=65&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+          "sha256": "fc45f45fc75f3ffbbedeef2a129dae89d69c6a83201c0111829cb609d17961bc",
+          "bytes": 6074,
+          "fetched_at": "2026-10-09"
+        },
+        {
+          "name": "dpr495-art66",
+          "url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=3&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=66&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+          "sha256": "f0bf4f84d153f9fe992a99712069acd7960e970f16078f064f444f4f8c30c2d5",
+          "bytes": 9643,
+          "fetched_at": "2026-10-09"
+        },
+        {
+          "name": "dpr495-art67",
+          "url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=67&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+          "sha256": "b5bc2ed690337f418a32536bcd2489e75b2aa28b90342646949f5ad8ba8f079d",
+          "bytes": 8335,
+          "fetched_at": "2026-10-09"
+        },
+        {
+          "name": "dpr495-art68",
+          "url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=68&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+          "sha256": "784a083834a635fb6cddd93dbd70d7dbb13f4a42adcea0685ab8ccb28cf0da33",
+          "bytes": 5702,
+          "fetched_at": "2026-10-09"
+        },
+        {
+          "name": "dpr495-art69",
+          "url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=69&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+          "sha256": "5ccf3a33e3a7f4dcbf70c9b5ad9755ffd4932e04235409c12380bc2e4cd640c4",
+          "bytes": 5979,
+          "fetched_at": "2026-10-09"
+        },
+        {
+          "name": "dpr495-art70",
+          "url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=70&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+          "sha256": "dd4ad4f7088d8ad9e4896c3bfae1fb768b02c9fe36cc7dce82b2f381671a337a",
+          "bytes": 4838,
+          "fetched_at": "2026-10-09"
+        },
+        {
+          "name": "dpr495-art71",
+          "url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=71&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+          "sha256": "07c0edfca10f446efedacc74d82f3bb91d5c0af4be1df549bf2e6cc0f911e306",
+          "bytes": 4120,
+          "fetched_at": "2026-10-09"
+        }
+      ],
+      "claims": [
+        {
+          "aspect": "identity",
+          "source_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0531&atto.dataPubblicazioneGazzetta=1992-12-28&tipoDettaglio=vigente",
+          "locator": "Intestazione e metadati; selettore di vigenza",
+          "finding": "DPR16 dicembre1992,n.495, regolamento di esecuzione e attuazione del nuovo Codice della strada; GU303 del28 dicembre1992,SO134; efficacia1 gennaio1993. Normattiva mostra testo vigente al09/10/2026 e ultimo aggiornamento dell'atto pubblicato il24/02/2025."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=65&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+          "locator": "art.65, commi1,3-4",
+          "finding": "Distinzione tra attraversamenti trasversali, occupazioni longitudinali e misti; soluzione tecnica deve considerare sicurezza/fluidità della circolazione durante lavori e uso e possibile ampliamento. A raso solo senza alternative o per particolari difficoltà tecniche."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=3&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=66&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+          "locator": "art.66, commi1-2,6-8",
+          "finding": "Manufatti/cunicoli proteggono gli impianti e assorbono sollecitazioni del traffico; dimensionamento e accessi devono consentire manutenzione evitando manomissione/intralcio. Tipologia e modalità richiedono approvazione dell'ente in concessione."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=3&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=66&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+          "locator": "art.66, commi3 e7",
+          "finding": "Profondità dell'estradosso approvata dall'ente in relazione a terreni e traffico; minimo ordinario1m dal piano viabile. Per tecniche di scavo a limitato impatto è ammessa riduzione condizionata a sicurezza e integrità stradale sulla vita utile; non è una deroga automatica generale. Le occupazioni longitudinali sulla sede rinviano al comma3."
+        },
+        {
+          "aspect": "version",
+          "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=3&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=66&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+          "locator": "Intestazioni degli artt.65-67; art.66, commi9-10",
+          "finding": "Art.66 mostrato in vigore dal19 dicembre2012; commi9 e10 espressamente soppressi dal DPR610/1996. Artt.65 e67 mostrati in vigore dal19 dicembre1996."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=67&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+          "locator": "art.67, commi1-6",
+          "finding": "L'ente determina documentazione e prescrizioni aggiuntive; convenzione regola esecuzione, traffico, controlli/collaudo, durata e cauzione. Opere utilizzabili dopo collaudo positivo limitato a corrispondenza con concessione; controllo entro30 giorni dalla comunicazione di fine lavori."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=68&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+          "locator": "Rubrica e commi1-5; confronto rubriche70-71",
+          "finding": "L'art.68 disciplina collocazione e segnalazione dei cassonetti dei rifiuti, non la condotta delle acque. Il riferimento pertinente alle acque è negli artt.70-71."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=69&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+          "locator": "art.69, commi1-2",
+          "finding": "Il regolamento attua gli obblighi dei concessionari di servizi dell'art.28 CdS con prescrizioni, tempi, eventuali penali ed esecuzione sostitutiva."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=70&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+          "locator": "art.70, commi1-2",
+          "finding": "Attua art.32 CdS: ingiunzione con modalità, condizioni e tempi; inadempimento consente esecuzione diretta e recupero spese con procedura indicata nel testo."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=71&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+          "locator": "art.71, comma1 e intestazioni70-71",
+          "finding": "Per inadempimento degli obblighi su canali artificiali e manufatti previsti dall'art.33 CdS rinvia alla procedura dell'art.70. Artt.70-71 mostrati in vigore dal1 gennaio1993."
+        },
+        {
+          "aspect": "status",
+          "source_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0531&atto.dataPubblicazioneGazzetta=1992-12-28&tipoDettaglio=vigente",
+          "locator": "Metadati e selettore di vigenza al 09/10/2026",
+          "finding": "DPR16 dicembre1992,n.495, regolamento di esecuzione e attuazione del nuovo Codice della strada; GU303 del28 dicembre1992,SO134; efficacia1 gennaio1993. Normattiva mostra testo vigente al09/10/2026 e ultimo aggiornamento dell'atto pubblicato il24/02/2025."
+        }
+      ],
+      "limitations": [
+        "Lettura completa del perimetro65-71, non dell'intero regolamento e degli allegati segnaletici.",
+        "Le prescrizioni del disciplinare stradale e la disciplina tecnica specifica del servizio richiedono verifica sul progetto."
+      ],
+      "pending": [
+        "Individuare per il progetto norme specifiche dell'impianto, prescrizioni del concedente e titoli idraulici/ambientali ulteriori."
+      ],
+      "proposed_changes": {
+        "ref": "D.P.R. 495/1992 — artt. 65-67, 69-71",
+        "summary": "Gli artt.65-67 regolano attraversamenti, occupazioni e concessioni; l'art.69 gli obblighi dei concessionari di servizi; gli artt.70-71 attuano la condotta delle acque e gli obblighi su canali artificiali. L'art.68 riguarda i cassonetti.",
+        "status": "Testo coordinato consultato — disposizioni pertinenti modificate",
+        "note": "Normattiva mostra testo vigente al09/10/2026 e ultimo aggiornamento dell'atto pubblicato il24/02/2025. Letti integralmente artt.65-71. Per profondità art.66 comma3 considerare approvazione dell'ente e condizioni della riduzione prevista per tecniche di scavo a limitato impatto.",
+        "focus": [
+          "Artt.65-67: geometria delle interferenze, protezione degli impianti, manutenzione e concessione/collaudo.",
+          "Art.66 comma3: profondità minima ordinaria1m, con riduzione condizionata per tecniche a limitato impatto e approvazione dell'ente.",
+          "Art.69: prescrizioni e obblighi dei gestori dei servizi dell'art.28 CdS.",
+          "Artt.70-71: procedura per inadempienze su condotta delle acque, canali artificiali e manufatti; art.68 riguarda cassonetti."
+        ],
+        "aliases": [
+          "Regolamento Codice della strada",
+          "DPR495/1992",
+          "articoli65 67 69 70 71"
+        ]
+      }
+    },
+    {
+      "id": "abr17",
+      "checked_at": "2026-10-09",
+      "scope": "Sentenza 68/2010: lettura della motivazione sul regime di prorogatio e del dispositivo; identificazione della legge colpita. Non ricostruita la disciplina successiva.",
+      "outcome": "verified",
+      "legal_state": "constitutionally_invalid",
+      "claims": [
+        {
+          "aspect": "status",
+          "source_url": "https://www.cortecostituzionale.it/scheda-pronuncia/2010/68",
+          "locator": "Motivazione §4.6 e dispositivo",
+          "finding": "La Corte dichiara costituzionalmente illegittima l’intera L.R. Abruzzo 24 novembre 2008, n.17. La scheda è conservata come riferimento storico, non come disciplina vigente degli scarichi."
+        },
+        {
+          "aspect": "identity",
+          "source_url": "https://www.cortecostituzionale.it/scheda-pronuncia/2010/68",
+          "locator": "Intestazione della pronuncia e dispositivo",
+          "finding": "L.R.17/2008: Norme regionali contenenti l’attuazione della parte terza del d.lgs. n.152/06 e s.m.i. e disposizioni in materia di personale; sentenza depositata il26/02/2010, pubblicata in GU il03/03/2010."
+        }
+      ],
+      "limitations": [
+        "Non ricostruita la catena degli atti successivi sugli scarichi; il riscontro costituzionale è distinto dalla loro vigenza."
+      ],
+      "pending": [
+        "Acquisire testo coordinato L.R.31/2010 e successivi modificativi presso Consiglio/BURA."
+      ],
+      "proposed_changes": {
+        "title": "Norme di attuazione della parte terza del D.Lgs.152/2006 e disposizioni sul personale",
+        "status": "Dichiarata costituzionalmente illegittima integralmente · Corte costituzionale 68/2010",
+        "summary": "Riferimento storico: l’intera legge è stata dichiarata costituzionalmente illegittima dalla sentenza68/2010; non utilizzarla come disciplina regionale vigente degli scarichi.",
+        "focus": [
+          "Dichiarazione di illegittimità costituzionale dell’intera legge",
+          "Distinzione dalla disciplina successiva degli scarichi"
+        ],
+        "note": "Riscontro della sentenza68/2010, motivazione§4.6 e dispositivo. La disciplina successiva va ricostruita separatamente, a partire dalla L.R.31/2010, senza confondere annullamento costituzionale e abrogazione.",
+        "add_document": {
+          "url": "https://www.cortecostituzionale.it/scheda-pronuncia/2010/68",
+          "label": "Fonte ufficiale · sentenza Corte costituzionale68/2010",
+          "format": "html"
+        },
+        "document_note": "La copia PDF del2008 resta documento storico; la sentenza ufficiale accerta l’illegittimità dell’intera legge."
+      },
+      "sources": [
+        {
+          "key": "abruzzo-corte68",
+          "url": "https://www.cortecostituzionale.it/scheda-pronuncia/2010/68",
+          "consulted_at": "2026-10-09T10:37:45.976265+00:00",
+          "http_status": 200,
+          "final_url": "https://www.cortecostituzionale.it/scheda-pronuncia/2010/68",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "ad6a7e0e4edcb8617d269b4389937211e195e9c097a877d7d76a018473adc70e",
+          "bytes": 147281
+        }
+      ]
+    },
+    {
+      "id": "bas471",
+      "checked_at": "2026-10-09",
+      "scope": "Lettura integrale della deliberazione ufficiale (5pagine): identificazione, premesse e dispositivo, natura della proposta e rinvio al parere consiliare. Allegato acquisito, contenuto tecnico ancora da completare.",
+      "outcome": "partial",
+      "legal_state": "consultation",
+      "claims": [
+        {
+          "aspect": "identity",
+          "source_url": "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A397A5C07&idDocumento=795801377B580A307C5C",
+          "locator": "PDFp.1, numero23BB202600471 e seduta",
+          "finding": "D.G.R.471 del28/07/2026, Ufficio Risorse Idriche, aggiornamento delle linee guida regionali in materia di scarichi."
+        },
+        {
+          "aspect": "approval",
+          "source_url": "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A397A5C07&idDocumento=795801377B580A307C5C",
+          "locator": "PDFpp.3-4, premesse e dispositivo1-3",
+          "finding": "La DGR305/2023 era una proposta mai approvata definitivamente. Il dispositivo la revoca, approva la proposta2026 e la trasmette alla Commissione per il parere preliminare exart.5LR9/2017. Non contiene una decorrenza al1agosto2026 e non dimostra approvazione definitiva."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A397A5C07&idDocumento=795801377B580A307C5C",
+          "locator": "PDFp.4, premessa sul testo sostitutivo",
+          "finding": "La proposta mira a sostituire il testo approvato con DGR380/2020. Questa intenzione non prova l’avvenuta sostituzione efficace."
+        }
+      ],
+      "limitations": [
+        "Non reperito in questa ricerca un successivo atto di approvazione definitiva previo parere.",
+        "Allegato acquisito ma non ancora riesaminato integralmente."
+      ],
+      "pending": [
+        "Ricercare parere consiliare e successiva deliberazione conclusiva nel BUR e repertorio regionale.",
+        "Completare confronto allegato2026 con DGR380/2020."
+      ],
+      "proposed_changes": {
+        "title": "Proposta di aggiornamento2026 delle linee guida regionali sugli scarichi",
+        "kind": "Proposta di linee guida regionali",
+        "status": "Proposta approvata e trasmessa per parere preliminare · efficacia definitiva non accertata",
+        "summary": "Revoca la proposta DGR305/2023 e approva una nuova proposta di aggiornamento da sottoporre al parere preliminare consiliare; il dispositivo non prova la decorrenza di una nuova disciplina vigente.",
+        "note": "DGR471/2026, dispositivo1-3: revoca305/2023, approvazione proposta e trasmissione per parere. La sostituzione del testo380/2020 è obiettivo della proposta; occorre l’atto conclusivo successivo per accertarne efficacia.",
+        "relations": [
+          {
+            "type": "Procedimento previsto da",
+            "id": "bas9"
+          },
+          {
+            "type": "Revoca la proposta",
+            "text": "D.G.R.Basilicata305/2023"
+          },
+          {
+            "type": "Propone aggiornamento del testo",
+            "text": "D.G.R.Basilicata380/2020"
+          }
+        ],
+        "document_note": "Delibera e allegato ufficiali recuperati e distinti. Letto il dispositivo; l’allegato contiene la proposta e non prova da solo una nuova disciplina efficace."
+      },
+      "sources": [
+        {
+          "key": "bas471-delibera",
+          "url": "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A397A5C07&idDocumento=795801377B580A307C5C",
+          "consulted_at": "2026-10-09T10:37:45.977262+00:00",
+          "http_status": 200,
+          "final_url": "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A397A5C07&idDocumento=795801377B580A307C5C",
+          "content_type": "application/pdf;charset=UTF-8",
+          "sha256": "a33de8812df55b56142f7918abe9ab71bdd362d803625f2473aca53c51bffec0",
+          "bytes": 2424896
+        }
+      ]
+    },
+    {
+      "id": "milano",
+      "checked_at": "2026-10-09",
+      "scope": "PGT: riesame circoscritto mediante guida comunale SuDS e DD10576/2020; letta premessa guida PDFp.6 e dispositivo della determina PDFp.4 mediante lettura visiva. Tavole e norme PGT non acquisite.",
+      "outcome": "partial",
+      "legal_state": "unverified",
+      "claims": [
+        {
+          "aspect": "content",
+          "source_url": "https://www.comune.milano.it/documents/20118/1529015/Linee%2BGuida%2Bper%2Bla%2Bprogettazione%2Bdei%2Bsistemi%2Burbani%2Bdi%2Bdrenaggio%2Bsostenibile%2Bnel%2Bterritorio%2Bcomunale%2B%281%29.pdf/08b32748-b9fd-88bf-01b9-1008147fa3ec?download=true&t=1761735461824&version=1.0",
+          "locator": "Guida dicembre2020, PDFp.6, Premessa",
+          "finding": "La guida illustra sistemi di drenaggio sostenibile, manutenzione e scelta nel contesto urbano, con rinvio al RR7/2017 e alle tavole costruttive del gestore. Descrive un Mapping Tool del PGT2030; non sostituisce le norme e tavole di piano."
+        },
+        {
+          "aspect": "approval",
+          "source_url": "https://www.comune.milano.it/documents/20118/39748/Determinazione%2BDirigenziale%2Bn.%2B10576%2Bdel%2B22.12.2020.pdf/4f6fd763-282a-b418-1fdb-26c489bf2bad?download=true&t=1747057791151&version=1.0",
+          "locator": "PDFp.4, dispositivo1-2, lettura visiva",
+          "finding": "La DD10576 del22/12/2020 approva le linee guida SuDS come allegato e ne dispone la diffusione. Questo provvedimento non è approvazione di una variante del PGT."
+        }
+      ],
+      "limitations": [
+        "PortalePGT e art.48 restituiscono403; norme e tavole PGT non lette.",
+        "PDFcompatibilità Farini/Valtellina riguarda un singolo piano attuativo: escluso come sostituto della componente geologica comunale.",
+        "DD948/2026 riguarda impianto sportivo: esclusa come non pertinente."
+      ],
+      "pending": [
+        "Acquisire norme art.48, DSRI, tavole ufficialiPGT e relativi aggiornamenti/atti di efficacia."
+      ],
+      "proposed_changes": {
+        "note": "Acquisite guidaSuDS dicembre2020 e DD10576/2020: documenti comunali connessi, distinti dal PGT. Accesso alle norme/tavole PGT ancora403; non riconfermata la vigenza della specifica tavola.",
+        "document_note": "Il PDF regionale RR7/2017 è una fonte sovraordinata, non la componente geologica del PGT. Aggiunti documenti comunali SuDS; variante, norme e cartografie PGT restano da acquisire.",
+        "add_documents": [
+          {
+            "url": "https://www.comune.milano.it/documents/20118/1529015/Linee%2BGuida%2Bper%2Bla%2Bprogettazione%2Bdei%2Bsistemi%2Burbani%2Bdi%2Bdrenaggio%2Bsostenibile%2Bnel%2Bterritorio%2Bcomunale%2B%281%29.pdf/08b32748-b9fd-88bf-01b9-1008147fa3ec?download=true&t=1761735461824&version=1.0",
+            "label": "PDF comunale · guidaSuDS dicembre2020, documento connesso al PGT",
+            "format": "pdf"
+          },
+          {
+            "url": "https://www.comune.milano.it/documents/20118/39748/Determinazione%2BDirigenziale%2Bn.%2B10576%2Bdel%2B22.12.2020.pdf/4f6fd763-282a-b418-1fdb-26c489bf2bad?download=true&t=1747057791151&version=1.0",
+            "label": "PDF comunale · DD10576/2020 e allegatoSuDS",
+            "format": "pdf"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "key": "milano-suds",
+          "url": "https://www.comune.milano.it/documents/20118/1529015/Linee%2BGuida%2Bper%2Bla%2Bprogettazione%2Bdei%2Bsistemi%2Burbani%2Bdi%2Bdrenaggio%2Bsostenibile%2Bnel%2Bterritorio%2Bcomunale%2B%281%29.pdf/08b32748-b9fd-88bf-01b9-1008147fa3ec?download=true&t=1761735461824&version=1.0",
+          "consulted_at": "2026-10-09T10:41:23.947016+00:00",
+          "http_status": 200,
+          "final_url": "https://www.comune.milano.it/documents/20118/1529015/Linee%2BGuida%2Bper%2Bla%2Bprogettazione%2Bdei%2Bsistemi%2Burbani%2Bdi%2Bdrenaggio%2Bsostenibile%2Bnel%2Bterritorio%2Bcomunale%2B%281%29.pdf/08b32748-b9fd-88bf-01b9-1008147fa3ec?download=true&t=1761735461824&version=1.0",
+          "content_type": "application/pdf",
+          "sha256": "1f61b04b73a0291a34addbb1458bca9b05d6b7ff2122aa05cc54a418074b9c5a",
+          "bytes": 24676775
+        },
+        {
+          "key": "milano-dd10576",
+          "url": "https://www.comune.milano.it/documents/20118/39748/Determinazione%2BDirigenziale%2Bn.%2B10576%2Bdel%2B22.12.2020.pdf/4f6fd763-282a-b418-1fdb-26c489bf2bad?download=true&t=1747057791151&version=1.0",
+          "consulted_at": "2026-10-09T10:41:23.947016+00:00",
+          "http_status": 200,
+          "final_url": "https://www.comune.milano.it/documents/20118/39748/Determinazione%2BDirigenziale%2Bn.%2B10576%2Bdel%2B22.12.2020.pdf/4f6fd763-282a-b418-1fdb-26c489bf2bad?download=true&t=1747057791151&version=1.0",
+          "content_type": "application/pdf",
+          "sha256": "94ca497fbd91000d5c61c5b6b44de4086716de1e0557fbf0b9ec473a66a8c32e",
+          "bytes": 41085093
+        }
+      ]
+    },
+    {
+      "id": "bari",
+      "checked_at": "2026-10-09",
+      "scope": "Lettura sostanziale del modulo istanza e asseverazione nel pacchetto ufficialeZIP (tre moduli); distinzione fra procedura locale e RR26/2013.",
+      "outcome": "partial",
+      "legal_state": "unverified",
+      "claims": [
+        {
+          "aspect": "content",
+          "source_url": "https://www.cittametropolitana.ba.it/halley//ht/eg527/acque_meteoriche.zip",
+          "locator": "IstanzaRR26-2013.odt, fattispecieA/B/C e documentazione allegata",
+          "finding": "Il modulo distingue rete separata, superfici fuori fognatura senza rischio e scarichi con rischio di dilavamento di sostanze pericolose; richiede relazione tecnica, dimensionamento, elaborati di reti/trattamento/recapiti e attestazioni sul servizio fognario. La soglia5000mq è presentata nel modulo per le fattispecieB; non viene estesa indistintamente a ogni scarico."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.cittametropolitana.ba.it/halley//ht/eg527/acque_meteoriche.zip",
+          "locator": "DichiarazioneRR26-2013.doc, asseverazione progettista",
+          "finding": "L’asseverazione richiede controllo dei vincoliPTA/PAI/PPTR/aree protette, recapito, disponibilità terreni, riutilizzo o motivazione di impossibilità e compatibilità del ricettore. È un modulo procedurale, non una nuova norma autonoma."
+        }
+      ],
+      "limitations": [
+        "Non verificata la conformità di ogni campo alla versione regionale vigente.",
+        "Modulo di rinnovo acquisito, lettura completa non conclusa."
+      ],
+      "pending": [
+        "Confrontare istruzioni attuali e tre moduli con RR26/2013 coordinato e competenza amministrativa."
+      ],
+      "proposed_changes": {
+        "add_document": {
+          "url": "https://www.cittametropolitana.ba.it/halley//ht/eg527/acque_meteoriche.zip",
+          "label": "ZIP istituzionale · istanza e dichiarazioniRR26/2013",
+          "format": "zip"
+        },
+        "document_note": "PacchettoZIP acquisito dalla pagina ufficiale; contiene istanzaODT, dichiarazioneDOC e dichiarazione di rinnovoDOC. Il PDF delRR26/2013 resta fonte normativa distinta.",
+        "note": "Letti istanza e dichiarazione del pacchetto istituzionale. Il modulo di rinnovo è acquisito; vanno ancora riscontrate istruzioni correnti, competenza e coordinamento con modifiche regionali."
+      },
+      "sources": [
+        {
+          "key": "bari-moduli",
+          "url": "https://www.cittametropolitana.ba.it/halley//ht/eg527/acque_meteoriche.zip",
+          "consulted_at": "2026-10-09T10:38:09.187064+00:00",
+          "http_status": 200,
+          "final_url": "https://www.cittametropolitana.ba.it/halley//ht/eg527/acque_meteoriche.zip",
+          "content_type": "application/zip",
+          "sha256": "bfea380dae29e327c6964dd8136920f968d53a7431241f2439ffca5c0ba48c2d",
+          "bytes": 34616
+        }
+      ]
+    }
+  ],
+  "corrections": [
+    {
+      "id": "codstrada285",
+      "field": "summary",
+      "before": "L’art. 25 del Nuovo codice della strada disciplina attraversamenti e occupazioni della sede stradale, rilevanti per condotte, canali e altre interferenze idrauliche.",
+      "after": "Concessioni per attraversamenti e uso della sede stradale, obblighi dei gestori di servizi idrici e fognari, conservazione dei fossi e manutenzione dei manufatti su canali artificiali.",
+      "source_urls": [
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0306&atto.dataPubblicazioneGazzetta=1992-05-18&tipoDettaglio=vigente",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=20&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=25&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=5&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=26&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=14&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=27&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=28&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=16&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=32&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=16&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=33&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&"
+      ]
+    },
+    {
+      "id": "codstrada285",
+      "field": "status",
+      "before": "Testo vigente consultato su Normattiva il 20/09/2026",
+      "after": "Testo coordinato consultato — disposizioni pertinenti modificate",
+      "source_urls": [
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0306&atto.dataPubblicazioneGazzetta=1992-05-18&tipoDettaglio=vigente",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=20&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=25&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=5&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=26&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=14&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=27&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=28&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=16&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=32&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=16&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=33&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&"
+      ]
+    },
+    {
+      "id": "codstrada285",
+      "field": "title",
+      "before": "Attraversamenti e uso della sede stradale",
+      "after": "Codice della strada: attraversamenti e condotta delle acque",
+      "source_urls": [
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0306&atto.dataPubblicazioneGazzetta=1992-05-18&tipoDettaglio=vigente",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=20&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=25&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=5&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=26&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=14&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=27&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=28&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=16&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=32&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=16&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=33&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&"
+      ]
+    },
+    {
+      "id": "codstrada285",
+      "field": "focus",
+      "before": [
+        "Articolo 25 del Codice della strada",
+        "Titolo abilitativo dell’ente proprietario della strada",
+        "Coordinamento con il regolamento di esecuzione e con le prescrizioni del gestore"
+      ],
+      "after": [
+        "Art.25: preventiva concessione per corsi/condotte e uso delle pertinenze; necessità, accertamento tecnico e manutenzione senza intralcio.",
+        "Artt.26-28: competenza, documentazione tecnica, convenzioni e obblighi dei gestori di acqua potabile e fognature.",
+        "Art.32: conservazione dei fossi e opere a monte/valle degli attraversamenti secondo disciplinare.",
+        "Art.33: canali artificiali, preesistenza/titoli e riparto degli oneri dei manufatti."
+      ],
+      "source_urls": [
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0306&atto.dataPubblicazioneGazzetta=1992-05-18&tipoDettaglio=vigente",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=20&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=25&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=5&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=26&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=14&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=27&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=28&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=16&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=32&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=16&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=33&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&"
+      ]
+    },
+    {
+      "id": "codstrada285",
+      "field": "topics",
+      "before": [
+        "Attraversamenti e parallelismi"
+      ],
+      "after": [
+        "Attraversamenti e parallelismi",
+        "Smaltimento acque meteoriche e reflue"
+      ],
+      "source_urls": [
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0306&atto.dataPubblicazioneGazzetta=1992-05-18&tipoDettaglio=vigente",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=20&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=25&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=5&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=26&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=14&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=27&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=28&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=16&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=32&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=16&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=33&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&"
+      ]
+    },
+    {
+      "id": "codstrada285",
+      "field": "ref",
+      "before": "D.Lgs. 285/1992 · art. 25",
+      "after": "D.Lgs. 285/1992 — artt. 25-28, 32-33",
+      "source_urls": [
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0306&atto.dataPubblicazioneGazzetta=1992-05-18&tipoDettaglio=vigente",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=20&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=25&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=5&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=26&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=14&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=27&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=28&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=16&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=32&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=16&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=33&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&"
+      ]
+    },
+    {
+      "id": "codstrada285",
+      "field": "note",
+      "before": "Entrata in vigore 01/01/1993. Normattiva indica ultimo aggiornamento all’atto pubblicato il 24/04/2026; verificare sempre la versione vigente alla data del progetto.",
+      "after": "Testo coordinato Normattiva mostrato vigente al 09/10/2026. Ultimo aggiornamento dell'atto pubblicato il 24/04/2026; l'art.25 è mostrato in vigore dal 14/12/2024. Consultati artt.25-28 e32-33; i titoli idraulici e ambientali richiesti dal progetto restano da individuare.",
+      "source_urls": [
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0306&atto.dataPubblicazioneGazzetta=1992-05-18&tipoDettaglio=vigente",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=20&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=25&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=5&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=26&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=14&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=27&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=28&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=16&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=32&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=16&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=33&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&"
+      ]
+    },
+    {
+      "id": "dpr495",
+      "field": "summary",
+      "before": "Gli articoli 65–69 del regolamento di esecuzione del Codice della strada dettagliano attraversamenti, occupazioni e condotta delle acque nella sede stradale.",
+      "after": "Gli artt.65-67 regolano attraversamenti, occupazioni e concessioni; l'art.69 gli obblighi dei concessionari di servizi; gli artt.70-71 attuano la condotta delle acque e gli obblighi su canali artificiali. L'art.68 riguarda i cassonetti.",
+      "source_urls": [
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0531&atto.dataPubblicazioneGazzetta=1992-12-28&tipoDettaglio=vigente",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=65&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=3&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=66&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=67&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=68&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=69&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=70&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=71&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&"
+      ]
+    },
+    {
+      "id": "dpr495",
+      "field": "status",
+      "before": "Testo vigente consultato su Normattiva il 20/09/2026",
+      "after": "Testo coordinato consultato — disposizioni pertinenti modificate",
+      "source_urls": [
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0531&atto.dataPubblicazioneGazzetta=1992-12-28&tipoDettaglio=vigente",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=65&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=3&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=66&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=67&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=68&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=69&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=70&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=71&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&"
+      ]
+    },
+    {
+      "id": "dpr495",
+      "field": "focus",
+      "before": [
+        "Articoli 65–69",
+        "Modalità tecniche e condizioni dell’ente proprietario",
+        "Coordinamento con concessioni, autorizzazioni idrauliche e prescrizioni del gestore"
+      ],
+      "after": [
+        "Artt.65-67: geometria delle interferenze, protezione degli impianti, manutenzione e concessione/collaudo.",
+        "Art.66 comma3: profondità minima ordinaria1m, con riduzione condizionata per tecniche a limitato impatto e approvazione dell'ente.",
+        "Art.69: prescrizioni e obblighi dei gestori dei servizi dell'art.28 CdS.",
+        "Artt.70-71: procedura per inadempienze su condotta delle acque, canali artificiali e manufatti; art.68 riguarda cassonetti."
+      ],
+      "source_urls": [
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0531&atto.dataPubblicazioneGazzetta=1992-12-28&tipoDettaglio=vigente",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=65&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=3&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=66&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=67&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=68&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=69&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=70&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=71&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&"
+      ]
+    },
+    {
+      "id": "dpr495",
+      "field": "aliases",
+      "before": [
+        "Regolamento Codice della strada",
+        "DPR 495/1992",
+        "articoli 65 69"
+      ],
+      "after": [
+        "Regolamento Codice della strada",
+        "DPR495/1992",
+        "articoli65 67 69 70 71"
+      ],
+      "source_urls": [
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0531&atto.dataPubblicazioneGazzetta=1992-12-28&tipoDettaglio=vigente",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=65&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=3&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=66&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=67&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=68&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=69&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=70&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=71&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&"
+      ]
+    },
+    {
+      "id": "dpr495",
+      "field": "ref",
+      "before": "D.P.R. 495/1992 · artt. 65–69",
+      "after": "D.P.R. 495/1992 — artt. 65-67, 69-71",
+      "source_urls": [
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0531&atto.dataPubblicazioneGazzetta=1992-12-28&tipoDettaglio=vigente",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=65&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=3&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=66&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=67&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=68&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=69&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=70&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=71&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&"
+      ]
+    },
+    {
+      "id": "dpr495",
+      "field": "note",
+      "before": "Entrata in vigore 01/01/1993. Normattiva indica ultimo aggiornamento all’atto pubblicato il 24/02/2025; verificare sempre la versione vigente alla data del progetto.",
+      "after": "Normattiva mostra testo vigente al09/10/2026 e ultimo aggiornamento dell'atto pubblicato il24/02/2025. Letti integralmente artt.65-71. Per profondità art.66 comma3 considerare approvazione dell'ente e condizioni della riduzione prevista per tecniche di scavo a limitato impatto.",
+      "source_urls": [
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0531&atto.dataPubblicazioneGazzetta=1992-12-28&tipoDettaglio=vigente",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=65&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=3&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=66&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=67&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=68&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=69&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=70&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=71&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&"
+      ]
+    },
+    {
+      "id": "abr17",
+      "field": "document_note",
+      "before": "Verifica documentale bloccata: la fonte del Consiglio regionale è in timeout; ricerca ufficiale alternativa non ha fornito il testo. La copia conservata non dimostra da sola provenienza o aggiornamento; stato giuridico precedente non riconfermato.",
+      "after": "La copia PDF del2008 resta documento storico; la sentenza ufficiale accerta l’illegittimità dell’intera legge.",
+      "source_urls": [
+        "https://www.cortecostituzionale.it/scheda-pronuncia/2010/68"
+      ]
+    },
+    {
+      "id": "abr17",
+      "field": "summary",
+      "before": "Riferimento regionale comprendente disposizioni sulle acque di prima pioggia.",
+      "after": "Riferimento storico: l’intera legge è stata dichiarata costituzionalmente illegittima dalla sentenza68/2010; non utilizzarla come disciplina regionale vigente degli scarichi.",
+      "source_urls": [
+        "https://www.cortecostituzionale.it/scheda-pronuncia/2010/68"
+      ]
+    },
+    {
+      "id": "abr17",
+      "field": "status",
+      "before": "Vigenza da ricostruire",
+      "after": "Dichiarata costituzionalmente illegittima integralmente · Corte costituzionale 68/2010",
+      "source_urls": [
+        "https://www.cortecostituzionale.it/scheda-pronuncia/2010/68"
+      ]
+    },
+    {
+      "id": "abr17",
+      "field": "title",
+      "before": "Disciplina regionale degli scarichi",
+      "after": "Norme di attuazione della parte terza del D.Lgs.152/2006 e disposizioni sul personale",
+      "source_urls": [
+        "https://www.cortecostituzionale.it/scheda-pronuncia/2010/68"
+      ]
+    },
+    {
+      "id": "abr17",
+      "field": "focus",
+      "before": [
+        "Definizioni regionali",
+        "Ambiti soggetti a disciplina",
+        "Coordinamento con gli aggiornamenti"
+      ],
+      "after": [
+        "Dichiarazione di illegittimità costituzionale dell’intera legge",
+        "Distinzione dalla disciplina successiva degli scarichi"
+      ],
+      "source_urls": [
+        "https://www.cortecostituzionale.it/scheda-pronuncia/2010/68"
+      ]
+    },
+    {
+      "id": "abr17",
+      "field": "documents",
+      "before": [
+        {
+          "format": "pdf",
+          "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/lr-abruzzo-17-2008.pdf",
+          "label": "PDF · L.R. Abruzzo 17/2008"
+        }
+      ],
+      "after": [
+        {
+          "format": "pdf",
+          "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/lr-abruzzo-17-2008.pdf",
+          "label": "PDF · L.R. Abruzzo 17/2008"
+        },
+        {
+          "url": "https://www.cortecostituzionale.it/scheda-pronuncia/2010/68",
+          "label": "Fonte ufficiale · sentenza Corte costituzionale68/2010",
+          "format": "html"
+        }
+      ],
+      "source_urls": [
+        "https://www.cortecostituzionale.it/scheda-pronuncia/2010/68"
+      ]
+    },
+    {
+      "id": "abr17",
+      "field": "note",
+      "before": "Identificata nella banca dati del Consiglio regionale. Non sono stati verificati tutti gli aggiornamenti, inclusi quelli successivi al 2008.",
+      "after": "Riscontro della sentenza68/2010, motivazione§4.6 e dispositivo. La disciplina successiva va ricostruita separatamente, a partire dalla L.R.31/2010, senza confondere annullamento costituzionale e abrogazione.",
+      "source_urls": [
+        "https://www.cortecostituzionale.it/scheda-pronuncia/2010/68"
+      ]
+    },
+    {
+      "id": "bas471",
+      "field": "document_note",
+      "before": "Verifica documentale bloccata: DGR e allegato Basilicata restituiscono errore 502; ricerca ufficiale alternativa non ha fornito il testo. Nessuna lettura normativa nel riesame. Contenuti e stato giuridico precedenti conservati, senza riconferma; download indicato ma non confermato.",
+      "after": "Delibera e allegato ufficiali recuperati e distinti. Letto il dispositivo; l’allegato contiene la proposta e non prova da solo una nuova disciplina efficace.",
+      "source_urls": [
+        "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A397A5C07&idDocumento=795801377B580A307C5C"
+      ]
+    },
+    {
+      "id": "bas471",
+      "field": "summary",
+      "before": "Aggiornamento 2026 delle linee guida adottate in attuazione dell’articolo 5 della L.R. 9/2017; sostituisce la D.G.R. 305/2023 dal 1° agosto 2026.",
+      "after": "Revoca la proposta DGR305/2023 e approva una nuova proposta di aggiornamento da sottoporre al parere preliminare consiliare; il dispositivo non prova la decorrenza di una nuova disciplina vigente.",
+      "source_urls": [
+        "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A397A5C07&idDocumento=795801377B580A307C5C"
+      ]
+    },
+    {
+      "id": "bas471",
+      "field": "status",
+      "before": "Vigente dal 1° agosto 2026",
+      "after": "Proposta approvata e trasmessa per parere preliminare · efficacia definitiva non accertata",
+      "source_urls": [
+        "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A397A5C07&idDocumento=795801377B580A307C5C"
+      ]
+    },
+    {
+      "id": "bas471",
+      "field": "relations",
+      "before": [
+        {
+          "type": "Attua",
+          "id": "bas9"
+        },
+        {
+          "type": "Sostituisce",
+          "text": "D.G.R. Basilicata 305/2023 (abrogata dal 01/08/2026)"
+        }
+      ],
+      "after": [
+        {
+          "type": "Procedimento previsto da",
+          "id": "bas9"
+        },
+        {
+          "type": "Revoca la proposta",
+          "text": "D.G.R.Basilicata305/2023"
+        },
+        {
+          "type": "Propone aggiornamento del testo",
+          "text": "D.G.R.Basilicata380/2020"
+        }
+      ],
+      "source_urls": [
+        "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A397A5C07&idDocumento=795801377B580A307C5C"
+      ]
+    },
+    {
+      "id": "bas471",
+      "field": "title",
+      "before": "Linee guida regionali sugli scarichi, sulle acque di prima pioggia e di lavaggio · aggiornamento 2026",
+      "after": "Proposta di aggiornamento2026 delle linee guida regionali sugli scarichi",
+      "source_urls": [
+        "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A397A5C07&idDocumento=795801377B580A307C5C"
+      ]
+    },
+    {
+      "id": "bas471",
+      "field": "kind",
+      "before": "Linee guida regionali",
+      "after": "Proposta di linee guida regionali",
+      "source_urls": [
+        "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A397A5C07&idDocumento=795801377B580A307C5C"
+      ]
+    },
+    {
+      "id": "bas471",
+      "field": "note",
+      "before": "La D.G.R. 772/2019 era una proposta sottoposta al parere consiliare, poi confermata dalla D.G.R. 380/2020. La D.G.R. 305/2023 è stata abrogata e sostituita dalla D.G.R. 471/2026.",
+      "after": "DGR471/2026, dispositivo1-3: revoca305/2023, approvazione proposta e trasmissione per parere. La sostituzione del testo380/2020 è obiettivo della proposta; occorre l’atto conclusivo successivo per accertarne efficacia.",
+      "source_urls": [
+        "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A397A5C07&idDocumento=795801377B580A307C5C"
+      ]
+    },
+    {
+      "id": "milano",
+      "field": "document_note",
+      "before": "Il collegamento apre direttamente il PDF del documento.",
+      "after": "Il PDF regionale RR7/2017 è una fonte sovraordinata, non la componente geologica del PGT. Aggiunti documenti comunali SuDS; variante, norme e cartografie PGT restano da acquisire.",
+      "source_urls": [
+        "https://www.comune.milano.it/documents/20118/1529015/Linee%2BGuida%2Bper%2Bla%2Bprogettazione%2Bdei%2Bsistemi%2Burbani%2Bdi%2Bdrenaggio%2Bsostenibile%2Bnel%2Bterritorio%2Bcomunale%2B%281%29.pdf/08b32748-b9fd-88bf-01b9-1008147fa3ec?download=true&t=1761735461824&version=1.0",
+        "https://www.comune.milano.it/documents/20118/39748/Determinazione%2BDirigenziale%2Bn.%2B10576%2Bdel%2B22.12.2020.pdf/4f6fd763-282a-b418-1fdb-26c489bf2bad?download=true&t=1747057791151&version=1.0"
+      ]
+    },
+    {
+      "id": "milano",
+      "field": "documents",
+      "before": [
+        {
+          "url": "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf",
+          "label": "PDF normativo · R.R. Lombardia 7/2017",
+          "format": "pdf"
+        }
+      ],
+      "after": [
+        {
+          "url": "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf",
+          "label": "PDF normativo · R.R. Lombardia 7/2017",
+          "format": "pdf"
+        },
+        {
+          "url": "https://www.comune.milano.it/documents/20118/1529015/Linee%2BGuida%2Bper%2Bla%2Bprogettazione%2Bdei%2Bsistemi%2Burbani%2Bdi%2Bdrenaggio%2Bsostenibile%2Bnel%2Bterritorio%2Bcomunale%2B%281%29.pdf/08b32748-b9fd-88bf-01b9-1008147fa3ec?download=true&t=1761735461824&version=1.0",
+          "label": "PDF comunale · guidaSuDS dicembre2020, documento connesso al PGT",
+          "format": "pdf"
+        },
+        {
+          "url": "https://www.comune.milano.it/documents/20118/39748/Determinazione%2BDirigenziale%2Bn.%2B10576%2Bdel%2B22.12.2020.pdf/4f6fd763-282a-b418-1fdb-26c489bf2bad?download=true&t=1747057791151&version=1.0",
+          "label": "PDF comunale · DD10576/2020 e allegatoSuDS",
+          "format": "pdf"
+        }
+      ],
+      "source_urls": [
+        "https://www.comune.milano.it/documents/20118/1529015/Linee%2BGuida%2Bper%2Bla%2Bprogettazione%2Bdei%2Bsistemi%2Burbani%2Bdi%2Bdrenaggio%2Bsostenibile%2Bnel%2Bterritorio%2Bcomunale%2B%281%29.pdf/08b32748-b9fd-88bf-01b9-1008147fa3ec?download=true&t=1761735461824&version=1.0",
+        "https://www.comune.milano.it/documents/20118/39748/Determinazione%2BDirigenziale%2Bn.%2B10576%2Bdel%2B22.12.2020.pdf/4f6fd763-282a-b418-1fdb-26c489bf2bad?download=true&t=1747057791151&version=1.0"
+      ]
+    },
+    {
+      "id": "milano",
+      "field": "note",
+      "before": "Documentazione comunale individuata nel portale PGT; verifica delle varianti e dell’efficacia della specifica tavola da completare.",
+      "after": "Acquisite guidaSuDS dicembre2020 e DD10576/2020: documenti comunali connessi, distinti dal PGT. Accesso alle norme/tavole PGT ancora403; non riconfermata la vigenza della specifica tavola.",
+      "source_urls": [
+        "https://www.comune.milano.it/documents/20118/1529015/Linee%2BGuida%2Bper%2Bla%2Bprogettazione%2Bdei%2Bsistemi%2Burbani%2Bdi%2Bdrenaggio%2Bsostenibile%2Bnel%2Bterritorio%2Bcomunale%2B%281%29.pdf/08b32748-b9fd-88bf-01b9-1008147fa3ec?download=true&t=1761735461824&version=1.0",
+        "https://www.comune.milano.it/documents/20118/39748/Determinazione%2BDirigenziale%2Bn.%2B10576%2Bdel%2B22.12.2020.pdf/4f6fd763-282a-b418-1fdb-26c489bf2bad?download=true&t=1747057791151&version=1.0"
+      ]
+    },
+    {
+      "id": "bari",
+      "field": "document_note",
+      "before": "Il PDF collegato è il RR Puglia 26/2013. La modulistica della Città metropolitana è un pacchetto ZIP distinto, disponibile nella pagina ufficiale e non acquisito in questa revisione.",
+      "after": "PacchettoZIP acquisito dalla pagina ufficiale; contiene istanzaODT, dichiarazioneDOC e dichiarazione di rinnovoDOC. Il PDF delRR26/2013 resta fonte normativa distinta.",
+      "source_urls": [
+        "https://www.cittametropolitana.ba.it/halley//ht/eg527/acque_meteoriche.zip"
+      ]
+    },
+    {
+      "id": "bari",
+      "field": "documents",
+      "before": [
+        {
+          "url": "https://burp.regione.puglia.it/documents/20135/784664/REGOLAMENTO%2BREGIONALE%2B9%2Bdicembre%2B2013%2C%2Bn.%2B26%2B%28id%2B4906507%29.pdf/82bcb1fd-8b6d-ec17-ae21-235fdca40c45?t=1622786288358&version=1.0",
+          "label": "PDF normativo · R.R. Puglia 26/2013",
+          "format": "pdf"
+        }
+      ],
+      "after": [
+        {
+          "url": "https://burp.regione.puglia.it/documents/20135/784664/REGOLAMENTO%2BREGIONALE%2B9%2Bdicembre%2B2013%2C%2Bn.%2B26%2B%28id%2B4906507%29.pdf/82bcb1fd-8b6d-ec17-ae21-235fdca40c45?t=1622786288358&version=1.0",
+          "label": "PDF normativo · R.R. Puglia 26/2013",
+          "format": "pdf"
+        },
+        {
+          "url": "https://www.cittametropolitana.ba.it/halley//ht/eg527/acque_meteoriche.zip",
+          "label": "ZIP istituzionale · istanza e dichiarazioniRR26/2013",
+          "format": "zip"
+        }
+      ],
+      "source_urls": [
+        "https://www.cittametropolitana.ba.it/halley//ht/eg527/acque_meteoriche.zip"
+      ]
+    },
+    {
+      "id": "bari",
+      "field": "note",
+      "before": "Pagina aggiornata il 13/01/2026. La modulistica non costituisce una norma autonoma.",
+      "after": "Letti istanza e dichiarazione del pacchetto istituzionale. Il modulo di rinnovo è acquisito; vanno ancora riscontrate istruzioni correnti, competenza e coordinamento con modifiche regionali.",
+      "source_urls": [
+        "https://www.cittametropolitana.ba.it/halley//ht/eg527/acque_meteoriche.zip"
+      ]
+    }
+  ],
+  "note": "Verifica circoscritta alle fonti e disposizioni indicate; non certificazione generale di vigenza."
+}

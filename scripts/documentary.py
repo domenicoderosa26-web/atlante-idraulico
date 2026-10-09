@@ -9,9 +9,9 @@ ASPECTS = {'identity', 'content', 'version', 'status', 'territory', 'topics',
            'approval', 'effectiveness', 'amendment'}
 STATES = {'unverified', 'partial', 'in_force', 'amended', 'repealed',
           'partially_repealed', 'replaced', 'adopted', 'consultation',
-          'uncertain_effectiveness'}
+          'uncertain_effectiveness', 'constitutionally_invalid'}
 ASSERTION = re.compile(r'\b(vigente|in vigore|abrogat\w*|sostituit\w*|'
-                       r'approvat\w*|adottat\w*|efficace)\b', re.I)
+                       r'approvat\w*|adottat\w*|efficace|incostituzional\w*|illegittim\w*)\b', re.I)
 
 
 def record_version(record):
@@ -91,6 +91,9 @@ def validate_review(record, baseline=None, today=None):
     if state in {'in_force', 'amended', 'repealed', 'partially_repealed', 'replaced'}:
         require(any(c['aspect'] in {'status', 'effectiveness', 'amendment'} for c in claims),
                 label + 'stato giuridico senza riscontro specifico')
+    if state == 'constitutionally_invalid':
+        require(any(c['aspect'] == 'status' for c in claims),
+                label + 'illegittimita costituzionale senza riscontro specifico')
     if state == 'adopted':
         require(any(c['aspect'] == 'approval' for c in claims), label + 'adozione senza atto')
     # Earlier evidence is content-bound and must survive a new review.

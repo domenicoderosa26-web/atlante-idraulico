@@ -42,3 +42,5 @@ node tests/test_topic_filters.js
 In caso di commit concorrente rileggere `main`, tassonomia e archivio, riapplicare solo i riscontri ancora validi e ripetere i controlli. Non ricreare `dist/`, non modificare i file nazionali o i checkpoint per un controllo territoriale/documentale. La validazione strutturale non sostituisce l’interpretazione dei documenti; le lacune delle schede legacy non modificate restano nella coda senza impedire aggiornamenti indipendenti dei registri automatici.
 
 La chiave `review_source_urls` è riservata alla costruzione dell’impronta: la sua presenza nella scheda è rifiutata anche senza revisione, per impedire collisioni che nascondano metadati normativi. Le impronte esistenti restano invariate.
+
+Lo stato `constitutionally_invalid` distingue una dichiarazione di illegittimità costituzionale dall’abrogazione legislativa. Richiede un riscontro di stato su una fonte ufficiale della pronuncia; non determina da solo la disciplina successiva o gli effetti sul singolo rapporto. Le evidenze precedenti restano nella cronologia.

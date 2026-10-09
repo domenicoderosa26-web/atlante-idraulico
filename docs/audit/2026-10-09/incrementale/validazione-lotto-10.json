@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-09",
+  "base_sha": "b05286d5049ff30f943793272d6d19ad30433377",
+  "python_tests": 61,
+  "python_result": "passed",
+  "topics": 14,
+  "frontend_combinations": 168,
+  "archive": "passed",
+  "json": "passed",
+  "javascript": "passed",
+  "diff_check": "passed",
+  "resolved_test_failure": "Primo controllo di schema respinto per stato costituzionale non ancora aggiunto; introdotto stato distinto con test specifico e rieseguita intera suite.",
+  "publication": "pending"
+}

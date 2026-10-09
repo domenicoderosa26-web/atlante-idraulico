@@ -1,0 +1,73 @@
+{
+  "checked_at": "2026-10-09T13:27:51.360622+00:00",
+  "base_sha": "62bfbbd6d1c20c6ad3c657d66e0529d54e190248",
+  "commands": [
+    {
+      "command": [
+        "python",
+        "scripts/topics.py",
+        "normalize",
+        "data.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "scripts/topics.py",
+        "validate",
+        "data.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "scripts/archive.py",
+        "--base-ref",
+        "origin/main"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "app.js"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "node",
+        "tests/test_topic_filters.js"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "python_tests": 61,
+  "topics": 14,
+  "frontend_combinations": 168,
+  "publication": "pending"
+}
+

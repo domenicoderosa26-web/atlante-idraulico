@@ -1,0 +1,1342 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-09",
+  "lot": 11,
+  "record_ids": [
+    "bz-badia-pzp-782-2026",
+    "bz-campo-tures-pzp-799-2026",
+    "bz-fortezza-pzp-742-2026",
+    "bz-la-valle-pzp-739-2026",
+    "bz-nova-ponente-pzp-741-2026",
+    "bz-nova-ponente-pzp-776-2026",
+    "bz-rasun-anterselva-pzp-738-2026",
+    "bz-sarentino-pzp-740-2026"
+  ],
+  "records": [
+    {
+      "id": "bz-badia-pzp-782-2026",
+      "checked_at": "2026-10-09",
+      "scope": "Nuova verifica sostanziale di pubblicazione ufficiale, decorrenza di efficacia, componente di pericolosita e sostituzione cartografica della singola variante. Identita e approvazione gia verificate non ripetute come avanzamento.",
+      "outcome": "partial",
+      "legal_state": "partial",
+      "source_documents": [
+        {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200059.pdf",
+          "final_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200059.pdf",
+          "http_status": 200,
+          "checked_at": "2026-10-09",
+          "sha256": "4e4d80b50eca9085112349bc5882b2fed53b38c168da986eaf940a20bdd931b6",
+          "bytes": 615746,
+          "pages": 6,
+          "content_type": "application/pdf",
+          "role": "BUR pubblicazione ufficiale integrale",
+          "publication_date": "2026-10-01"
+        },
+        {
+          "url": "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo",
+          "checked_at": "2026-10-09",
+          "http_status": null,
+          "sha256": null,
+          "pages": null,
+          "role": "Pagina ufficiale provinciale consultata nella resa testuale pubblica; descrive disponibilita generale di carte PZP, non attesta versione della singola variante"
+        }
+      ],
+      "claims": [
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200059.pdf",
+          "locator": "pagina PDF 1, intestazione e footer BUR 40; pagina PDF 4, ultimo paragrafo del dispositivo",
+          "finding": "Pubblicata nel BUR 40 del 2026-10-01. Il dispositivo prescrive l'entrata in vigore il giorno successivo alla pubblicazione: decorrenza 2026-10-02. Questo riscontro non dimostra l'assenza di varianti successive."
+        },
+        {
+          "aspect": "topics",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200059.pdf",
+          "locator": "pagine PDF 3-4, elenco degli elaborati e dispositivo",
+          "finding": "Componente della variante: pericoli idraulici; ambito Pedraces - Ustaria Posta. La componente frane/valanghe non e assimilata ai pericoli idraulici."
+        },
+        {
+          "aspect": "territory",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200059.pdf",
+          "locator": "pagina PDF 4, clausola sulla carta delle zone di pericolo",
+          "finding": "La carta delle zone di pericolo e sostituita esclusivamente nell'ambito interessato dalla modifica, non per l'intero territorio comunale."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo",
+          "locator": "paragrafo sulla Carta delle zone di pericolo e tre tipi principali",
+          "finding": "La Provincia indica deposito della carta presso il Comune e consultazione generale in Hazard Browser e Newplan; distingue frane, pericoli idraulici e valanghe. La disponibilita della singola tavola 2026 non e accertata."
+        }
+      ],
+      "limitations": [
+        "I PDF BUR contengono deliberazione e conformita, senza le tavole cartografiche menzionate nel procedimento.",
+        "Gli accessi pubblici Newplan e Hazard Browser restituiscono applicazioni dinamiche; non acquisita cartografia puntuale associata alla variante.",
+        "Non verificata l'assenza di modifiche successive; l'efficacia iniziale e accertata, la vigenza complessiva del piano comunale resta da ricostruire."
+      ],
+      "pending": [
+        "Acquisire dal deposito comunale o dal portale cartografico gli elaborati della singola variante con data/versione e confrontare le delimitazioni.",
+        "Confrontare eventuali varianti successive e recepimento nei livelli cartografici vigenti."
+      ],
+      "proposed_changes": {
+        "status": "Approvazione e decorrenza di efficacia verificate (2026-10-02); cartografia e modifiche successive da verificare",
+        "publication_date": "2026-10-01",
+        "effective_date": "2026-10-02",
+        "add_document": {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200059.pdf",
+          "label": "PDF BUR 40/2026 - D.G.P. 782/2026, pubblicazione ufficiale",
+          "format": "pdf"
+        },
+        "note": "BUR 40 del 2026-10-01: entrata in vigore 2026-10-02, ai sensi della clausola del dispositivo. Cartografia menzionata ma non allegata al PDF; non attestata la vigenza complessiva del PZP comunale."
+      },
+      "preserve_previous_evidence": true,
+      "sources": [
+        {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200059.pdf",
+          "final_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200059.pdf",
+          "http_status": 200,
+          "checked_at": "2026-10-09",
+          "sha256": "4e4d80b50eca9085112349bc5882b2fed53b38c168da986eaf940a20bdd931b6",
+          "bytes": 615746,
+          "pages": 6,
+          "content_type": "application/pdf",
+          "role": "BUR pubblicazione ufficiale integrale",
+          "publication_date": "2026-10-01"
+        },
+        {
+          "url": "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo",
+          "checked_at": "2026-10-09",
+          "http_status": null,
+          "sha256": null,
+          "pages": null,
+          "role": "Pagina ufficiale provinciale consultata nella resa testuale pubblica; descrive disponibilita generale di carte PZP, non attesta versione della singola variante"
+        }
+      ]
+    },
+    {
+      "id": "bz-campo-tures-pzp-799-2026",
+      "checked_at": "2026-10-09",
+      "scope": "Nuova verifica sostanziale di pubblicazione ufficiale, decorrenza di efficacia, componente di pericolosita e sostituzione cartografica della singola variante. Identita e approvazione gia verificate non ripetute come avanzamento.",
+      "outcome": "partial",
+      "legal_state": "partial",
+      "source_documents": [
+        {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/41/BO/BO412601200095.pdf",
+          "final_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/41/BO/BO412601200095.pdf",
+          "http_status": 200,
+          "checked_at": "2026-10-09",
+          "sha256": "1ff41f7ddf3df87ae6bc7993d535c9685e3a7f8c86084dea197efda44c7ef9db",
+          "bytes": 451646,
+          "pages": 6,
+          "content_type": "application/pdf",
+          "role": "BUR pubblicazione ufficiale integrale",
+          "publication_date": "2026-10-08"
+        },
+        {
+          "url": "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo",
+          "checked_at": "2026-10-09",
+          "http_status": null,
+          "sha256": null,
+          "pages": null,
+          "role": "Pagina ufficiale provinciale consultata nella resa testuale pubblica; descrive disponibilita generale di carte PZP, non attesta versione della singola variante"
+        }
+      ],
+      "claims": [
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/41/BO/BO412601200095.pdf",
+          "locator": "pagina PDF 1, intestazione e footer BUR 41; pagina PDF 4, ultimo paragrafo del dispositivo",
+          "finding": "Pubblicata nel BUR 41 del 2026-10-08. Il dispositivo prescrive l'entrata in vigore il giorno successivo alla pubblicazione: decorrenza 2026-10-09. Questo riscontro non dimostra l'assenza di varianti successive."
+        },
+        {
+          "aspect": "topics",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/41/BO/BO412601200095.pdf",
+          "locator": "pagine PDF 3-4, elenco degli elaborati e dispositivo",
+          "finding": "Componente della variante: frane; ambito zona produttiva Griesberg, lotti 2 e 3. La componente frane/valanghe non e assimilata ai pericoli idraulici."
+        },
+        {
+          "aspect": "territory",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/41/BO/BO412601200095.pdf",
+          "locator": "pagina PDF 4, clausola sulla carta delle zone di pericolo",
+          "finding": "La carta delle zone di pericolo e sostituita esclusivamente nell'ambito interessato dalla modifica, non per l'intero territorio comunale."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo",
+          "locator": "paragrafo sulla Carta delle zone di pericolo e tre tipi principali",
+          "finding": "La Provincia indica deposito della carta presso il Comune e consultazione generale in Hazard Browser e Newplan; distingue frane, pericoli idraulici e valanghe. La disponibilita della singola tavola 2026 non e accertata."
+        }
+      ],
+      "limitations": [
+        "I PDF BUR contengono deliberazione e conformita, senza le tavole cartografiche menzionate nel procedimento.",
+        "Gli accessi pubblici Newplan e Hazard Browser restituiscono applicazioni dinamiche; non acquisita cartografia puntuale associata alla variante.",
+        "Non verificata l'assenza di modifiche successive; l'efficacia iniziale e accertata, la vigenza complessiva del piano comunale resta da ricostruire."
+      ],
+      "pending": [
+        "Acquisire dal deposito comunale o dal portale cartografico gli elaborati della singola variante con data/versione e confrontare le delimitazioni.",
+        "Confrontare eventuali varianti successive e recepimento nei livelli cartografici vigenti."
+      ],
+      "proposed_changes": {
+        "status": "Approvazione e decorrenza di efficacia verificate (2026-10-09); cartografia e modifiche successive da verificare",
+        "publication_date": "2026-10-08",
+        "effective_date": "2026-10-09",
+        "add_document": {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/41/BO/BO412601200095.pdf",
+          "label": "PDF BUR 41/2026 - D.G.P. 799/2026, pubblicazione ufficiale",
+          "format": "pdf"
+        },
+        "note": "BUR 41 del 2026-10-08: entrata in vigore 2026-10-09, ai sensi della clausola del dispositivo. Cartografia menzionata ma non allegata al PDF; non attestata la vigenza complessiva del PZP comunale."
+      },
+      "preserve_previous_evidence": true,
+      "sources": [
+        {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/41/BO/BO412601200095.pdf",
+          "final_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/41/BO/BO412601200095.pdf",
+          "http_status": 200,
+          "checked_at": "2026-10-09",
+          "sha256": "1ff41f7ddf3df87ae6bc7993d535c9685e3a7f8c86084dea197efda44c7ef9db",
+          "bytes": 451646,
+          "pages": 6,
+          "content_type": "application/pdf",
+          "role": "BUR pubblicazione ufficiale integrale",
+          "publication_date": "2026-10-08"
+        },
+        {
+          "url": "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo",
+          "checked_at": "2026-10-09",
+          "http_status": null,
+          "sha256": null,
+          "pages": null,
+          "role": "Pagina ufficiale provinciale consultata nella resa testuale pubblica; descrive disponibilita generale di carte PZP, non attesta versione della singola variante"
+        }
+      ]
+    },
+    {
+      "id": "bz-fortezza-pzp-742-2026",
+      "checked_at": "2026-10-09",
+      "scope": "Nuova verifica sostanziale di pubblicazione ufficiale, decorrenza di efficacia, componente di pericolosita e sostituzione cartografica della singola variante. Identita e approvazione gia verificate non ripetute come avanzamento.",
+      "outcome": "partial",
+      "legal_state": "partial",
+      "source_documents": [
+        {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200072.pdf",
+          "final_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200072.pdf",
+          "http_status": 200,
+          "checked_at": "2026-10-09",
+          "sha256": "a310043aa6357e78df399a2cc93de9f8e4843d1f915225b04d71945e8c947660",
+          "bytes": 453513,
+          "pages": 6,
+          "content_type": "application/pdf",
+          "role": "BUR pubblicazione ufficiale integrale",
+          "publication_date": "2026-10-01"
+        },
+        {
+          "url": "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo",
+          "checked_at": "2026-10-09",
+          "http_status": null,
+          "sha256": null,
+          "pages": null,
+          "role": "Pagina ufficiale provinciale consultata nella resa testuale pubblica; descrive disponibilita generale di carte PZP, non attesta versione della singola variante"
+        }
+      ],
+      "claims": [
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200072.pdf",
+          "locator": "pagina PDF 1, intestazione e footer BUR 40; pagina PDF 4, ultimo paragrafo del dispositivo",
+          "finding": "Pubblicata nel BUR 40 del 2026-10-01. Il dispositivo prescrive l'entrata in vigore il giorno successivo alla pubblicazione: decorrenza 2026-10-02. Questo riscontro non dimostra l'assenza di varianti successive."
+        },
+        {
+          "aspect": "topics",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200072.pdf",
+          "locator": "pagine PDF 3-4, elenco degli elaborati e dispositivo",
+          "finding": "Componente della variante: pericoli idraulici; ambito zona Greithwald. La componente frane/valanghe non e assimilata ai pericoli idraulici."
+        },
+        {
+          "aspect": "territory",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200072.pdf",
+          "locator": "pagina PDF 4, clausola sulla carta delle zone di pericolo",
+          "finding": "La carta delle zone di pericolo e sostituita esclusivamente nell'ambito interessato dalla modifica, non per l'intero territorio comunale."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo",
+          "locator": "paragrafo sulla Carta delle zone di pericolo e tre tipi principali",
+          "finding": "La Provincia indica deposito della carta presso il Comune e consultazione generale in Hazard Browser e Newplan; distingue frane, pericoli idraulici e valanghe. La disponibilita della singola tavola 2026 non e accertata."
+        }
+      ],
+      "limitations": [
+        "I PDF BUR contengono deliberazione e conformita, senza le tavole cartografiche menzionate nel procedimento.",
+        "Gli accessi pubblici Newplan e Hazard Browser restituiscono applicazioni dinamiche; non acquisita cartografia puntuale associata alla variante.",
+        "Non verificata l'assenza di modifiche successive; l'efficacia iniziale e accertata, la vigenza complessiva del piano comunale resta da ricostruire."
+      ],
+      "pending": [
+        "Acquisire dal deposito comunale o dal portale cartografico gli elaborati della singola variante con data/versione e confrontare le delimitazioni.",
+        "Confrontare eventuali varianti successive e recepimento nei livelli cartografici vigenti."
+      ],
+      "proposed_changes": {
+        "status": "Approvazione e decorrenza di efficacia verificate (2026-10-02); cartografia e modifiche successive da verificare",
+        "publication_date": "2026-10-01",
+        "effective_date": "2026-10-02",
+        "add_document": {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200072.pdf",
+          "label": "PDF BUR 40/2026 - D.G.P. 742/2026, pubblicazione ufficiale",
+          "format": "pdf"
+        },
+        "note": "BUR 40 del 2026-10-01: entrata in vigore 2026-10-02, ai sensi della clausola del dispositivo. Cartografia menzionata ma non allegata al PDF; non attestata la vigenza complessiva del PZP comunale."
+      },
+      "preserve_previous_evidence": true,
+      "sources": [
+        {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200072.pdf",
+          "final_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200072.pdf",
+          "http_status": 200,
+          "checked_at": "2026-10-09",
+          "sha256": "a310043aa6357e78df399a2cc93de9f8e4843d1f915225b04d71945e8c947660",
+          "bytes": 453513,
+          "pages": 6,
+          "content_type": "application/pdf",
+          "role": "BUR pubblicazione ufficiale integrale",
+          "publication_date": "2026-10-01"
+        },
+        {
+          "url": "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo",
+          "checked_at": "2026-10-09",
+          "http_status": null,
+          "sha256": null,
+          "pages": null,
+          "role": "Pagina ufficiale provinciale consultata nella resa testuale pubblica; descrive disponibilita generale di carte PZP, non attesta versione della singola variante"
+        }
+      ]
+    },
+    {
+      "id": "bz-la-valle-pzp-739-2026",
+      "checked_at": "2026-10-09",
+      "scope": "Nuova verifica sostanziale di pubblicazione ufficiale, decorrenza di efficacia, componente di pericolosita e sostituzione cartografica della singola variante. Identita e approvazione gia verificate non ripetute come avanzamento.",
+      "outcome": "partial",
+      "legal_state": "partial",
+      "source_documents": [
+        {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200025.pdf",
+          "final_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200025.pdf",
+          "http_status": 200,
+          "checked_at": "2026-10-09",
+          "sha256": "943c32f704fade15b9af5ebad9e8ee1c14431a860d7b341d4e0cf538e940c879",
+          "bytes": 460927,
+          "pages": 6,
+          "content_type": "application/pdf",
+          "role": "BUR pubblicazione ufficiale integrale",
+          "publication_date": "2026-09-24"
+        },
+        {
+          "url": "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo",
+          "checked_at": "2026-10-09",
+          "http_status": null,
+          "sha256": null,
+          "pages": null,
+          "role": "Pagina ufficiale provinciale consultata nella resa testuale pubblica; descrive disponibilita generale di carte PZP, non attesta versione della singola variante"
+        }
+      ],
+      "claims": [
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200025.pdf",
+          "locator": "pagina PDF 1, intestazione e footer BUR 39; pagina PDF 4, ultimo paragrafo del dispositivo",
+          "finding": "Pubblicata nel BUR 39 del 2026-09-24. Il dispositivo prescrive l'entrata in vigore il giorno successivo alla pubblicazione: decorrenza 2026-09-25. Questo riscontro non dimostra l'assenza di varianti successive."
+        },
+        {
+          "aspect": "topics",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200025.pdf",
+          "locator": "pagine PDF 3-4, elenco degli elaborati e dispositivo",
+          "finding": "Componente della variante: pericoli idraulici; ambito Rio di Armentara E.155. La componente frane/valanghe non e assimilata ai pericoli idraulici."
+        },
+        {
+          "aspect": "territory",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200025.pdf",
+          "locator": "pagina PDF 4, clausola sulla carta delle zone di pericolo",
+          "finding": "La carta delle zone di pericolo e sostituita esclusivamente nell'ambito interessato dalla modifica, non per l'intero territorio comunale."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo",
+          "locator": "paragrafo sulla Carta delle zone di pericolo e tre tipi principali",
+          "finding": "La Provincia indica deposito della carta presso il Comune e consultazione generale in Hazard Browser e Newplan; distingue frane, pericoli idraulici e valanghe. La disponibilita della singola tavola 2026 non e accertata."
+        }
+      ],
+      "limitations": [
+        "I PDF BUR contengono deliberazione e conformita, senza le tavole cartografiche menzionate nel procedimento.",
+        "Gli accessi pubblici Newplan e Hazard Browser restituiscono applicazioni dinamiche; non acquisita cartografia puntuale associata alla variante.",
+        "Non verificata l'assenza di modifiche successive; l'efficacia iniziale e accertata, la vigenza complessiva del piano comunale resta da ricostruire."
+      ],
+      "pending": [
+        "Acquisire dal deposito comunale o dal portale cartografico gli elaborati della singola variante con data/versione e confrontare le delimitazioni.",
+        "Confrontare eventuali varianti successive e recepimento nei livelli cartografici vigenti."
+      ],
+      "proposed_changes": {
+        "status": "Approvazione e decorrenza di efficacia verificate (2026-09-25); cartografia e modifiche successive da verificare",
+        "publication_date": "2026-09-24",
+        "effective_date": "2026-09-25",
+        "add_document": {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200025.pdf",
+          "label": "PDF BUR 39/2026 - D.G.P. 739/2026, pubblicazione ufficiale",
+          "format": "pdf"
+        },
+        "note": "BUR 39 del 2026-09-24: entrata in vigore 2026-09-25, ai sensi della clausola del dispositivo. Cartografia menzionata ma non allegata al PDF; non attestata la vigenza complessiva del PZP comunale."
+      },
+      "preserve_previous_evidence": true,
+      "sources": [
+        {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200025.pdf",
+          "final_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200025.pdf",
+          "http_status": 200,
+          "checked_at": "2026-10-09",
+          "sha256": "943c32f704fade15b9af5ebad9e8ee1c14431a860d7b341d4e0cf538e940c879",
+          "bytes": 460927,
+          "pages": 6,
+          "content_type": "application/pdf",
+          "role": "BUR pubblicazione ufficiale integrale",
+          "publication_date": "2026-09-24"
+        },
+        {
+          "url": "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo",
+          "checked_at": "2026-10-09",
+          "http_status": null,
+          "sha256": null,
+          "pages": null,
+          "role": "Pagina ufficiale provinciale consultata nella resa testuale pubblica; descrive disponibilita generale di carte PZP, non attesta versione della singola variante"
+        }
+      ]
+    },
+    {
+      "id": "bz-nova-ponente-pzp-741-2026",
+      "checked_at": "2026-10-09",
+      "scope": "Nuova verifica sostanziale di pubblicazione ufficiale, decorrenza di efficacia, componente di pericolosita e sostituzione cartografica della singola variante. Identita e approvazione gia verificate non ripetute come avanzamento.",
+      "outcome": "partial",
+      "legal_state": "partial",
+      "source_documents": [
+        {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200070.pdf",
+          "final_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200070.pdf",
+          "http_status": 200,
+          "checked_at": "2026-10-09",
+          "sha256": "744c3beac51583031c2404d397914ff4bdda0c6920e75c99666a907da8e5b284",
+          "bytes": 450723,
+          "pages": 6,
+          "content_type": "application/pdf",
+          "role": "BUR pubblicazione ufficiale integrale",
+          "publication_date": "2026-10-01"
+        },
+        {
+          "url": "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo",
+          "checked_at": "2026-10-09",
+          "http_status": null,
+          "sha256": null,
+          "pages": null,
+          "role": "Pagina ufficiale provinciale consultata nella resa testuale pubblica; descrive disponibilita generale di carte PZP, non attesta versione della singola variante"
+        }
+      ],
+      "claims": [
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200070.pdf",
+          "locator": "pagina PDF 1, intestazione e footer BUR 40; pagina PDF 4, ultimo paragrafo del dispositivo",
+          "finding": "Pubblicata nel BUR 40 del 2026-10-01. Il dispositivo prescrive l'entrata in vigore il giorno successivo alla pubblicazione: decorrenza 2026-10-02. Questo riscontro non dimostra l'assenza di varianti successive."
+        },
+        {
+          "aspect": "topics",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200070.pdf",
+          "locator": "pagine PDF 3-4, elenco degli elaborati e dispositivo",
+          "finding": "Componente della variante: frane; ambito SS 241 km 10+640. La componente frane/valanghe non e assimilata ai pericoli idraulici."
+        },
+        {
+          "aspect": "territory",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200070.pdf",
+          "locator": "pagina PDF 4, clausola sulla carta delle zone di pericolo",
+          "finding": "La carta delle zone di pericolo e sostituita esclusivamente nell'ambito interessato dalla modifica, non per l'intero territorio comunale."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo",
+          "locator": "paragrafo sulla Carta delle zone di pericolo e tre tipi principali",
+          "finding": "La Provincia indica deposito della carta presso il Comune e consultazione generale in Hazard Browser e Newplan; distingue frane, pericoli idraulici e valanghe. La disponibilita della singola tavola 2026 non e accertata."
+        }
+      ],
+      "limitations": [
+        "I PDF BUR contengono deliberazione e conformita, senza le tavole cartografiche menzionate nel procedimento.",
+        "Gli accessi pubblici Newplan e Hazard Browser restituiscono applicazioni dinamiche; non acquisita cartografia puntuale associata alla variante.",
+        "Non verificata l'assenza di modifiche successive; l'efficacia iniziale e accertata, la vigenza complessiva del piano comunale resta da ricostruire."
+      ],
+      "pending": [
+        "Acquisire dal deposito comunale o dal portale cartografico gli elaborati della singola variante con data/versione e confrontare le delimitazioni.",
+        "Confrontare eventuali varianti successive e recepimento nei livelli cartografici vigenti."
+      ],
+      "proposed_changes": {
+        "status": "Approvazione e decorrenza di efficacia verificate (2026-10-02); cartografia e modifiche successive da verificare",
+        "publication_date": "2026-10-01",
+        "effective_date": "2026-10-02",
+        "add_document": {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200070.pdf",
+          "label": "PDF BUR 40/2026 - D.G.P. 741/2026, pubblicazione ufficiale",
+          "format": "pdf"
+        },
+        "note": "BUR 40 del 2026-10-01: entrata in vigore 2026-10-02, ai sensi della clausola del dispositivo. Cartografia menzionata ma non allegata al PDF; non attestata la vigenza complessiva del PZP comunale."
+      },
+      "preserve_previous_evidence": true,
+      "sources": [
+        {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200070.pdf",
+          "final_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200070.pdf",
+          "http_status": 200,
+          "checked_at": "2026-10-09",
+          "sha256": "744c3beac51583031c2404d397914ff4bdda0c6920e75c99666a907da8e5b284",
+          "bytes": 450723,
+          "pages": 6,
+          "content_type": "application/pdf",
+          "role": "BUR pubblicazione ufficiale integrale",
+          "publication_date": "2026-10-01"
+        },
+        {
+          "url": "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo",
+          "checked_at": "2026-10-09",
+          "http_status": null,
+          "sha256": null,
+          "pages": null,
+          "role": "Pagina ufficiale provinciale consultata nella resa testuale pubblica; descrive disponibilita generale di carte PZP, non attesta versione della singola variante"
+        }
+      ]
+    },
+    {
+      "id": "bz-nova-ponente-pzp-776-2026",
+      "checked_at": "2026-10-09",
+      "scope": "Nuova verifica sostanziale di pubblicazione ufficiale, decorrenza di efficacia, componente di pericolosita e sostituzione cartografica della singola variante. Identita e approvazione gia verificate non ripetute come avanzamento.",
+      "outcome": "partial",
+      "legal_state": "partial",
+      "source_documents": [
+        {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200075.pdf",
+          "final_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200075.pdf",
+          "http_status": 200,
+          "checked_at": "2026-10-09",
+          "sha256": "f215831c5a5b20d673f1fff88eb2881922181822b5eea88a5050de1f3a1457ee",
+          "bytes": 626230,
+          "pages": 6,
+          "content_type": "application/pdf",
+          "role": "BUR pubblicazione ufficiale integrale",
+          "publication_date": "2026-10-01"
+        },
+        {
+          "url": "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo",
+          "checked_at": "2026-10-09",
+          "http_status": null,
+          "sha256": null,
+          "pages": null,
+          "role": "Pagina ufficiale provinciale consultata nella resa testuale pubblica; descrive disponibilita generale di carte PZP, non attesta versione della singola variante"
+        }
+      ],
+      "claims": [
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200075.pdf",
+          "locator": "pagina PDF 1, intestazione e footer BUR 40; pagina PDF 4, ultimo paragrafo del dispositivo",
+          "finding": "Pubblicata nel BUR 40 del 2026-10-01. Il dispositivo prescrive l'entrata in vigore il giorno successivo alla pubblicazione: decorrenza 2026-10-02. Questo riscontro non dimostra l'assenza di varianti successive."
+        },
+        {
+          "aspect": "topics",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200075.pdf",
+          "locator": "pagine PDF 3-4, elenco degli elaborati e dispositivo",
+          "finding": "Componente della variante: frane; ambito SS 241 km 11+000-11+900. La componente frane/valanghe non e assimilata ai pericoli idraulici."
+        },
+        {
+          "aspect": "territory",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200075.pdf",
+          "locator": "pagina PDF 4, clausola sulla carta delle zone di pericolo",
+          "finding": "La carta delle zone di pericolo e sostituita esclusivamente nell'ambito interessato dalla modifica, non per l'intero territorio comunale."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo",
+          "locator": "paragrafo sulla Carta delle zone di pericolo e tre tipi principali",
+          "finding": "La Provincia indica deposito della carta presso il Comune e consultazione generale in Hazard Browser e Newplan; distingue frane, pericoli idraulici e valanghe. La disponibilita della singola tavola 2026 non e accertata."
+        }
+      ],
+      "limitations": [
+        "I PDF BUR contengono deliberazione e conformita, senza le tavole cartografiche menzionate nel procedimento.",
+        "Gli accessi pubblici Newplan e Hazard Browser restituiscono applicazioni dinamiche; non acquisita cartografia puntuale associata alla variante.",
+        "Non verificata l'assenza di modifiche successive; l'efficacia iniziale e accertata, la vigenza complessiva del piano comunale resta da ricostruire.",
+        "Nel testo p.3 il decreto12228 reca04/04/2026, data anteriore alla richiesta04/06 e ai pareri successivi: mantenere il dato citato senza correggerlo per inferenza, da confrontare con decreto originale."
+      ],
+      "pending": [
+        "Acquisire dal deposito comunale o dal portale cartografico gli elaborati della singola variante con data/versione e confrontare le delimitazioni.",
+        "Confrontare eventuali varianti successive e recepimento nei livelli cartografici vigenti."
+      ],
+      "proposed_changes": {
+        "status": "Approvazione e decorrenza di efficacia verificate (2026-10-02); cartografia e modifiche successive da verificare",
+        "publication_date": "2026-10-01",
+        "effective_date": "2026-10-02",
+        "add_document": {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200075.pdf",
+          "label": "PDF BUR 40/2026 - D.G.P. 776/2026, pubblicazione ufficiale",
+          "format": "pdf"
+        },
+        "note": "BUR 40 del 2026-10-01: entrata in vigore 2026-10-02, ai sensi della clausola del dispositivo. Cartografia menzionata ma non allegata al PDF; non attestata la vigenza complessiva del PZP comunale."
+      },
+      "preserve_previous_evidence": true,
+      "sources": [
+        {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200075.pdf",
+          "final_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200075.pdf",
+          "http_status": 200,
+          "checked_at": "2026-10-09",
+          "sha256": "f215831c5a5b20d673f1fff88eb2881922181822b5eea88a5050de1f3a1457ee",
+          "bytes": 626230,
+          "pages": 6,
+          "content_type": "application/pdf",
+          "role": "BUR pubblicazione ufficiale integrale",
+          "publication_date": "2026-10-01"
+        },
+        {
+          "url": "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo",
+          "checked_at": "2026-10-09",
+          "http_status": null,
+          "sha256": null,
+          "pages": null,
+          "role": "Pagina ufficiale provinciale consultata nella resa testuale pubblica; descrive disponibilita generale di carte PZP, non attesta versione della singola variante"
+        }
+      ]
+    },
+    {
+      "id": "bz-rasun-anterselva-pzp-738-2026",
+      "checked_at": "2026-10-09",
+      "scope": "Nuova verifica sostanziale di pubblicazione ufficiale, decorrenza di efficacia, componente di pericolosita e sostituzione cartografica della singola variante. Identita e approvazione gia verificate non ripetute come avanzamento.",
+      "outcome": "partial",
+      "legal_state": "partial",
+      "source_documents": [
+        {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200026.pdf",
+          "final_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200026.pdf",
+          "http_status": 200,
+          "checked_at": "2026-10-09",
+          "sha256": "5837bb36c407bcf1247a359630e0471304887754eee8d4f889aa18271d0840aa",
+          "bytes": 448254,
+          "pages": 6,
+          "content_type": "application/pdf",
+          "role": "BUR pubblicazione ufficiale integrale",
+          "publication_date": "2026-09-24"
+        },
+        {
+          "url": "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo",
+          "checked_at": "2026-10-09",
+          "http_status": null,
+          "sha256": null,
+          "pages": null,
+          "role": "Pagina ufficiale provinciale consultata nella resa testuale pubblica; descrive disponibilita generale di carte PZP, non attesta versione della singola variante"
+        }
+      ],
+      "claims": [
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200026.pdf",
+          "locator": "pagina PDF 1, intestazione e footer BUR 39; pagina PDF 4, ultimo paragrafo del dispositivo",
+          "finding": "Pubblicata nel BUR 39 del 2026-09-24. Il dispositivo prescrive l'entrata in vigore il giorno successivo alla pubblicazione: decorrenza 2026-09-25. Questo riscontro non dimostra l'assenza di varianti successive."
+        },
+        {
+          "aspect": "topics",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200026.pdf",
+          "locator": "pagine PDF 3-4, elenco degli elaborati e dispositivo",
+          "finding": "Componente della variante: frane e valanghe; ambito centro Biathlon Anterselva. La componente frane/valanghe non e assimilata ai pericoli idraulici."
+        },
+        {
+          "aspect": "territory",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200026.pdf",
+          "locator": "pagina PDF 4, clausola sulla carta delle zone di pericolo",
+          "finding": "La carta delle zone di pericolo e sostituita esclusivamente nell'ambito interessato dalla modifica, non per l'intero territorio comunale."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo",
+          "locator": "paragrafo sulla Carta delle zone di pericolo e tre tipi principali",
+          "finding": "La Provincia indica deposito della carta presso il Comune e consultazione generale in Hazard Browser e Newplan; distingue frane, pericoli idraulici e valanghe. La disponibilita della singola tavola 2026 non e accertata."
+        }
+      ],
+      "limitations": [
+        "I PDF BUR contengono deliberazione e conformita, senza le tavole cartografiche menzionate nel procedimento.",
+        "Gli accessi pubblici Newplan e Hazard Browser restituiscono applicazioni dinamiche; non acquisita cartografia puntuale associata alla variante.",
+        "Non verificata l'assenza di modifiche successive; l'efficacia iniziale e accertata, la vigenza complessiva del piano comunale resta da ricostruire."
+      ],
+      "pending": [
+        "Acquisire dal deposito comunale o dal portale cartografico gli elaborati della singola variante con data/versione e confrontare le delimitazioni.",
+        "Confrontare eventuali varianti successive e recepimento nei livelli cartografici vigenti."
+      ],
+      "proposed_changes": {
+        "status": "Approvazione e decorrenza di efficacia verificate (2026-09-25); cartografia e modifiche successive da verificare",
+        "publication_date": "2026-09-24",
+        "effective_date": "2026-09-25",
+        "add_document": {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200026.pdf",
+          "label": "PDF BUR 39/2026 - D.G.P. 738/2026, pubblicazione ufficiale",
+          "format": "pdf"
+        },
+        "note": "BUR 39 del 2026-09-24: entrata in vigore 2026-09-25, ai sensi della clausola del dispositivo. Cartografia menzionata ma non allegata al PDF; non attestata la vigenza complessiva del PZP comunale."
+      },
+      "preserve_previous_evidence": true,
+      "sources": [
+        {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200026.pdf",
+          "final_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200026.pdf",
+          "http_status": 200,
+          "checked_at": "2026-10-09",
+          "sha256": "5837bb36c407bcf1247a359630e0471304887754eee8d4f889aa18271d0840aa",
+          "bytes": 448254,
+          "pages": 6,
+          "content_type": "application/pdf",
+          "role": "BUR pubblicazione ufficiale integrale",
+          "publication_date": "2026-09-24"
+        },
+        {
+          "url": "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo",
+          "checked_at": "2026-10-09",
+          "http_status": null,
+          "sha256": null,
+          "pages": null,
+          "role": "Pagina ufficiale provinciale consultata nella resa testuale pubblica; descrive disponibilita generale di carte PZP, non attesta versione della singola variante"
+        }
+      ]
+    },
+    {
+      "id": "bz-sarentino-pzp-740-2026",
+      "checked_at": "2026-10-09",
+      "scope": "Nuova verifica sostanziale di pubblicazione ufficiale, decorrenza di efficacia, componente di pericolosita e sostituzione cartografica della singola variante. Identita e approvazione gia verificate non ripetute come avanzamento.",
+      "outcome": "partial",
+      "legal_state": "partial",
+      "source_documents": [
+        {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200071.pdf",
+          "final_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200071.pdf",
+          "http_status": 200,
+          "checked_at": "2026-10-09",
+          "sha256": "b3c19bab5f736e11396118498415c359efa78232910b75e5e037cbff420905a0",
+          "bytes": 636075,
+          "pages": 6,
+          "content_type": "application/pdf",
+          "role": "BUR pubblicazione ufficiale integrale",
+          "publication_date": "2026-10-01"
+        },
+        {
+          "url": "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo",
+          "checked_at": "2026-10-09",
+          "http_status": null,
+          "sha256": null,
+          "pages": null,
+          "role": "Pagina ufficiale provinciale consultata nella resa testuale pubblica; descrive disponibilita generale di carte PZP, non attesta versione della singola variante"
+        }
+      ],
+      "claims": [
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200071.pdf",
+          "locator": "pagina PDF 1, intestazione e footer BUR 40; pagina PDF 4, ultimo paragrafo del dispositivo",
+          "finding": "Pubblicata nel BUR 40 del 2026-10-01. Il dispositivo prescrive l'entrata in vigore il giorno successivo alla pubblicazione: decorrenza 2026-10-02. Questo riscontro non dimostra l'assenza di varianti successive."
+        },
+        {
+          "aspect": "topics",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200071.pdf",
+          "locator": "pagine PDF 3-4, elenco degli elaborati e dispositivo",
+          "finding": "Componente della variante: pericoli idraulici e valanghivi; ambito Rio di Monterosso F.310 e area di accumulo Pichlereschbaum. La componente frane/valanghe non e assimilata ai pericoli idraulici."
+        },
+        {
+          "aspect": "territory",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200071.pdf",
+          "locator": "pagina PDF 4, clausola sulla carta delle zone di pericolo",
+          "finding": "La carta delle zone di pericolo e sostituita esclusivamente nell'ambito interessato dalla modifica, non per l'intero territorio comunale."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo",
+          "locator": "paragrafo sulla Carta delle zone di pericolo e tre tipi principali",
+          "finding": "La Provincia indica deposito della carta presso il Comune e consultazione generale in Hazard Browser e Newplan; distingue frane, pericoli idraulici e valanghe. La disponibilita della singola tavola 2026 non e accertata."
+        }
+      ],
+      "limitations": [
+        "I PDF BUR contengono deliberazione e conformita, senza le tavole cartografiche menzionate nel procedimento.",
+        "Gli accessi pubblici Newplan e Hazard Browser restituiscono applicazioni dinamiche; non acquisita cartografia puntuale associata alla variante.",
+        "Non verificata l'assenza di modifiche successive; l'efficacia iniziale e accertata, la vigenza complessiva del piano comunale resta da ricostruire."
+      ],
+      "pending": [
+        "Acquisire dal deposito comunale o dal portale cartografico gli elaborati della singola variante con data/versione e confrontare le delimitazioni.",
+        "Confrontare eventuali varianti successive e recepimento nei livelli cartografici vigenti."
+      ],
+      "proposed_changes": {
+        "status": "Approvazione e decorrenza di efficacia verificate (2026-10-02); cartografia e modifiche successive da verificare",
+        "publication_date": "2026-10-01",
+        "effective_date": "2026-10-02",
+        "add_document": {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200071.pdf",
+          "label": "PDF BUR 40/2026 - D.G.P. 740/2026, pubblicazione ufficiale",
+          "format": "pdf"
+        },
+        "note": "BUR 40 del 2026-10-01: entrata in vigore 2026-10-02, ai sensi della clausola del dispositivo. Cartografia menzionata ma non allegata al PDF; non attestata la vigenza complessiva del PZP comunale."
+      },
+      "preserve_previous_evidence": true,
+      "sources": [
+        {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200071.pdf",
+          "final_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200071.pdf",
+          "http_status": 200,
+          "checked_at": "2026-10-09",
+          "sha256": "b3c19bab5f736e11396118498415c359efa78232910b75e5e037cbff420905a0",
+          "bytes": 636075,
+          "pages": 6,
+          "content_type": "application/pdf",
+          "role": "BUR pubblicazione ufficiale integrale",
+          "publication_date": "2026-10-01"
+        },
+        {
+          "url": "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo",
+          "checked_at": "2026-10-09",
+          "http_status": null,
+          "sha256": null,
+          "pages": null,
+          "role": "Pagina ufficiale provinciale consultata nella resa testuale pubblica; descrive disponibilita generale di carte PZP, non attesta versione della singola variante"
+        }
+      ]
+    }
+  ],
+  "corrections": [
+    {
+      "id": "bz-badia-pzp-782-2026",
+      "field": "note",
+      "before": "D.G.P. 782 del 18/09/2026; la delibera dispone l’entrata in vigore il giorno dopo la pubblicazione nel Bollettino Ufficiale regionale. Pubblicazione e cartografia non acquisite al 28/09/2026.",
+      "after": "BUR 40 del 2026-10-01: entrata in vigore 2026-10-02, ai sensi della clausola del dispositivo. Cartografia menzionata ma non allegata al PDF; non attestata la vigenza complessiva del PZP comunale.",
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200059.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    },
+    {
+      "id": "bz-badia-pzp-782-2026",
+      "field": "status",
+      "before": "Approvazione verificata · efficacia da accertare",
+      "after": "Approvazione e decorrenza di efficacia verificate (2026-10-02); cartografia e modifiche successive da verificare",
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200059.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    },
+    {
+      "id": "bz-badia-pzp-782-2026",
+      "field": "documents",
+      "before": [
+        {
+          "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/esiuL8RBQoDk1lstoAKo%2BQ%3D%3D/document?tstmp=1790196547437",
+          "label": "PDF ufficiale · D.G.P. Bolzano 782/2026",
+          "format": "pdf"
+        }
+      ],
+      "after": [
+        {
+          "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/esiuL8RBQoDk1lstoAKo%2BQ%3D%3D/document?tstmp=1790196547437",
+          "label": "PDF ufficiale · D.G.P. Bolzano 782/2026",
+          "format": "pdf"
+        },
+        {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200059.pdf",
+          "label": "PDF BUR 40/2026 - D.G.P. 782/2026, pubblicazione ufficiale",
+          "format": "pdf"
+        }
+      ],
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200059.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    },
+    {
+      "id": "bz-badia-pzp-782-2026",
+      "field": "publication_date",
+      "before": null,
+      "after": "2026-10-01",
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200059.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    },
+    {
+      "id": "bz-badia-pzp-782-2026",
+      "field": "effective_date",
+      "before": null,
+      "after": "2026-10-02",
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200059.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    },
+    {
+      "id": "bz-campo-tures-pzp-799-2026",
+      "field": "note",
+      "before": "D.G.P. n. 799 del 25/09/2026, adottata ai sensi dell’art. 56, comma 1/ter, della L.P. 9/2018 dopo opere comunali di protezione. La delibera dispone l’entrata in vigore il giorno successivo alla pubblicazione nel Bollettino Ufficiale regionale; pubblicazione e cartografia modificata non sono state acquisite nel controllo del 29/09/2026.",
+      "after": "BUR 41 del 2026-10-08: entrata in vigore 2026-10-09, ai sensi della clausola del dispositivo. Cartografia menzionata ma non allegata al PDF; non attestata la vigenza complessiva del PZP comunale.",
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/41/BO/BO412601200095.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    },
+    {
+      "id": "bz-campo-tures-pzp-799-2026",
+      "field": "status",
+      "before": "Approvazione provinciale verificata · efficacia da accertare",
+      "after": "Approvazione e decorrenza di efficacia verificate (2026-10-09); cartografia e modifiche successive da verificare",
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/41/BO/BO412601200095.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    },
+    {
+      "id": "bz-campo-tures-pzp-799-2026",
+      "field": "documents",
+      "before": [
+        {
+          "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/ZzOArA8ANeWZFuTKiVQGSA%3D%3D/document?tstmp=1790598720328",
+          "label": "PDF ufficiale · D.G.P. Bolzano 799/2026",
+          "format": "pdf"
+        }
+      ],
+      "after": [
+        {
+          "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/ZzOArA8ANeWZFuTKiVQGSA%3D%3D/document?tstmp=1790598720328",
+          "label": "PDF ufficiale · D.G.P. Bolzano 799/2026",
+          "format": "pdf"
+        },
+        {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/41/BO/BO412601200095.pdf",
+          "label": "PDF BUR 41/2026 - D.G.P. 799/2026, pubblicazione ufficiale",
+          "format": "pdf"
+        }
+      ],
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/41/BO/BO412601200095.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    },
+    {
+      "id": "bz-campo-tures-pzp-799-2026",
+      "field": "publication_date",
+      "before": null,
+      "after": "2026-10-08",
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/41/BO/BO412601200095.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    },
+    {
+      "id": "bz-campo-tures-pzp-799-2026",
+      "field": "effective_date",
+      "before": null,
+      "after": "2026-10-09",
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/41/BO/BO412601200095.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    },
+    {
+      "id": "bz-fortezza-pzp-742-2026",
+      "field": "note",
+      "before": "D.G.P. n. 742 dell’11/09/2026, adottata ai sensi dell’art. 56, comma 1/ter, della L.P. 9/2018. PDF integrale letto; pubblicazione nel Bollettino Ufficiale e cartografia modificata non acquisite al 30/09/2026.",
+      "after": "BUR 40 del 2026-10-01: entrata in vigore 2026-10-02, ai sensi della clausola del dispositivo. Cartografia menzionata ma non allegata al PDF; non attestata la vigenza complessiva del PZP comunale.",
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200072.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    },
+    {
+      "id": "bz-fortezza-pzp-742-2026",
+      "field": "status",
+      "before": "Approvazione provinciale verificata · efficacia da accertare",
+      "after": "Approvazione e decorrenza di efficacia verificate (2026-10-02); cartografia e modifiche successive da verificare",
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200072.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    },
+    {
+      "id": "bz-fortezza-pzp-742-2026",
+      "field": "documents",
+      "before": [
+        {
+          "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/f5awpYMYyI7-Nv91yjrfaw%3D%3D/document?tstmp=1790750000000",
+          "label": "PDF ufficiale · D.G.P. Bolzano 742/2026",
+          "format": "pdf"
+        }
+      ],
+      "after": [
+        {
+          "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/f5awpYMYyI7-Nv91yjrfaw%3D%3D/document?tstmp=1790750000000",
+          "label": "PDF ufficiale · D.G.P. Bolzano 742/2026",
+          "format": "pdf"
+        },
+        {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200072.pdf",
+          "label": "PDF BUR 40/2026 - D.G.P. 742/2026, pubblicazione ufficiale",
+          "format": "pdf"
+        }
+      ],
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200072.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    },
+    {
+      "id": "bz-fortezza-pzp-742-2026",
+      "field": "publication_date",
+      "before": null,
+      "after": "2026-10-01",
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200072.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    },
+    {
+      "id": "bz-fortezza-pzp-742-2026",
+      "field": "effective_date",
+      "before": null,
+      "after": "2026-10-02",
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200072.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    },
+    {
+      "id": "bz-la-valle-pzp-739-2026",
+      "field": "note",
+      "before": "D.G.P. n. 739 dell’11/09/2026, adottata ai sensi dell’art. 56, comma 1/ter, della L.P. 9/2018. PDF integrale letto; pubblicazione nel Bollettino Ufficiale e cartografia modificata non acquisite al 30/09/2026.",
+      "after": "BUR 39 del 2026-09-24: entrata in vigore 2026-09-25, ai sensi della clausola del dispositivo. Cartografia menzionata ma non allegata al PDF; non attestata la vigenza complessiva del PZP comunale.",
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200025.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    },
+    {
+      "id": "bz-la-valle-pzp-739-2026",
+      "field": "status",
+      "before": "Approvazione provinciale verificata · efficacia da accertare",
+      "after": "Approvazione e decorrenza di efficacia verificate (2026-09-25); cartografia e modifiche successive da verificare",
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200025.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    },
+    {
+      "id": "bz-la-valle-pzp-739-2026",
+      "field": "documents",
+      "before": [
+        {
+          "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/sSWjeY6wMsUs%2BRZX0J8S0Q%3D%3D/document?tstmp=1790750000000",
+          "label": "PDF ufficiale · D.G.P. Bolzano 739/2026",
+          "format": "pdf"
+        }
+      ],
+      "after": [
+        {
+          "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/sSWjeY6wMsUs%2BRZX0J8S0Q%3D%3D/document?tstmp=1790750000000",
+          "label": "PDF ufficiale · D.G.P. Bolzano 739/2026",
+          "format": "pdf"
+        },
+        {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200025.pdf",
+          "label": "PDF BUR 39/2026 - D.G.P. 739/2026, pubblicazione ufficiale",
+          "format": "pdf"
+        }
+      ],
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200025.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    },
+    {
+      "id": "bz-la-valle-pzp-739-2026",
+      "field": "publication_date",
+      "before": null,
+      "after": "2026-09-24",
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200025.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    },
+    {
+      "id": "bz-la-valle-pzp-739-2026",
+      "field": "effective_date",
+      "before": null,
+      "after": "2026-09-25",
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200025.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    },
+    {
+      "id": "bz-nova-ponente-pzp-741-2026",
+      "field": "note",
+      "before": "D.G.P. n. 741 dell’11/09/2026, adottata ai sensi dell’art. 56, comma 1/ter, della L.P. 9/2018. PDF integrale letto; pubblicazione nel Bollettino Ufficiale e cartografia modificata non acquisite al 30/09/2026.",
+      "after": "BUR 40 del 2026-10-01: entrata in vigore 2026-10-02, ai sensi della clausola del dispositivo. Cartografia menzionata ma non allegata al PDF; non attestata la vigenza complessiva del PZP comunale.",
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200070.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    },
+    {
+      "id": "bz-nova-ponente-pzp-741-2026",
+      "field": "status",
+      "before": "Approvazione provinciale verificata · efficacia da accertare",
+      "after": "Approvazione e decorrenza di efficacia verificate (2026-10-02); cartografia e modifiche successive da verificare",
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200070.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    },
+    {
+      "id": "bz-nova-ponente-pzp-741-2026",
+      "field": "documents",
+      "before": [
+        {
+          "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/XB%2BxsmykMNX4WRP4cDf9Eg%3D%3D/document?tstmp=1790750000000",
+          "label": "PDF ufficiale · D.G.P. Bolzano 741/2026",
+          "format": "pdf"
+        }
+      ],
+      "after": [
+        {
+          "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/XB%2BxsmykMNX4WRP4cDf9Eg%3D%3D/document?tstmp=1790750000000",
+          "label": "PDF ufficiale · D.G.P. Bolzano 741/2026",
+          "format": "pdf"
+        },
+        {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200070.pdf",
+          "label": "PDF BUR 40/2026 - D.G.P. 741/2026, pubblicazione ufficiale",
+          "format": "pdf"
+        }
+      ],
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200070.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    },
+    {
+      "id": "bz-nova-ponente-pzp-741-2026",
+      "field": "publication_date",
+      "before": null,
+      "after": "2026-10-01",
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200070.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    },
+    {
+      "id": "bz-nova-ponente-pzp-741-2026",
+      "field": "effective_date",
+      "before": null,
+      "after": "2026-10-02",
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200070.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    },
+    {
+      "id": "bz-nova-ponente-pzp-776-2026",
+      "field": "note",
+      "before": "D.G.P. n. 776 del 18/09/2026, adottata ai sensi dell’art. 56, comma 1/ter, della L.P. 9/2018. PDF integrale letto; pubblicazione nel Bollettino Ufficiale e cartografia modificata non acquisite al 30/09/2026.",
+      "after": "BUR 40 del 2026-10-01: entrata in vigore 2026-10-02, ai sensi della clausola del dispositivo. Cartografia menzionata ma non allegata al PDF; non attestata la vigenza complessiva del PZP comunale.",
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200075.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    },
+    {
+      "id": "bz-nova-ponente-pzp-776-2026",
+      "field": "status",
+      "before": "Approvazione provinciale verificata · efficacia da accertare",
+      "after": "Approvazione e decorrenza di efficacia verificate (2026-10-02); cartografia e modifiche successive da verificare",
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200075.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    },
+    {
+      "id": "bz-nova-ponente-pzp-776-2026",
+      "field": "documents",
+      "before": [
+        {
+          "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/03qj3RHzult3pGstFd%2BQsQ%3D%3D/document?tstmp=1790750000000",
+          "label": "PDF ufficiale · D.G.P. Bolzano 776/2026",
+          "format": "pdf"
+        }
+      ],
+      "after": [
+        {
+          "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/03qj3RHzult3pGstFd%2BQsQ%3D%3D/document?tstmp=1790750000000",
+          "label": "PDF ufficiale · D.G.P. Bolzano 776/2026",
+          "format": "pdf"
+        },
+        {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200075.pdf",
+          "label": "PDF BUR 40/2026 - D.G.P. 776/2026, pubblicazione ufficiale",
+          "format": "pdf"
+        }
+      ],
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200075.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    },
+    {
+      "id": "bz-nova-ponente-pzp-776-2026",
+      "field": "publication_date",
+      "before": null,
+      "after": "2026-10-01",
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200075.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    },
+    {
+      "id": "bz-nova-ponente-pzp-776-2026",
+      "field": "effective_date",
+      "before": null,
+      "after": "2026-10-02",
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200075.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    },
+    {
+      "id": "bz-rasun-anterselva-pzp-738-2026",
+      "field": "note",
+      "before": "D.G.P. n. 738 dell’11/09/2026, approvata a seguito del procedimento comunale previsto dalla L.P. 9/2018. PDF integrale letto; pubblicazione nel Bollettino Ufficiale e cartografia modificata non acquisite al 30/09/2026.",
+      "after": "BUR 39 del 2026-09-24: entrata in vigore 2026-09-25, ai sensi della clausola del dispositivo. Cartografia menzionata ma non allegata al PDF; non attestata la vigenza complessiva del PZP comunale.",
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200026.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    },
+    {
+      "id": "bz-rasun-anterselva-pzp-738-2026",
+      "field": "status",
+      "before": "Approvazione provinciale verificata · efficacia da accertare",
+      "after": "Approvazione e decorrenza di efficacia verificate (2026-09-25); cartografia e modifiche successive da verificare",
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200026.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    },
+    {
+      "id": "bz-rasun-anterselva-pzp-738-2026",
+      "field": "documents",
+      "before": [
+        {
+          "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/EG2E4ptZZnKQGIZaBUV5Qg%3D%3D/document?tstmp=1790750000000",
+          "label": "PDF ufficiale · D.G.P. Bolzano 738/2026",
+          "format": "pdf"
+        }
+      ],
+      "after": [
+        {
+          "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/EG2E4ptZZnKQGIZaBUV5Qg%3D%3D/document?tstmp=1790750000000",
+          "label": "PDF ufficiale · D.G.P. Bolzano 738/2026",
+          "format": "pdf"
+        },
+        {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200026.pdf",
+          "label": "PDF BUR 39/2026 - D.G.P. 738/2026, pubblicazione ufficiale",
+          "format": "pdf"
+        }
+      ],
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200026.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    },
+    {
+      "id": "bz-rasun-anterselva-pzp-738-2026",
+      "field": "publication_date",
+      "before": null,
+      "after": "2026-09-24",
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200026.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    },
+    {
+      "id": "bz-rasun-anterselva-pzp-738-2026",
+      "field": "effective_date",
+      "before": null,
+      "after": "2026-09-25",
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200026.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    },
+    {
+      "id": "bz-sarentino-pzp-740-2026",
+      "field": "note",
+      "before": "D.G.P. n. 740 dell’11/09/2026, adottata ai sensi dell’art. 56, comma 1/ter, della L.P. 9/2018. PDF integrale letto; pubblicazione nel Bollettino Ufficiale e cartografia modificata non acquisite al 30/09/2026.",
+      "after": "BUR 40 del 2026-10-01: entrata in vigore 2026-10-02, ai sensi della clausola del dispositivo. Cartografia menzionata ma non allegata al PDF; non attestata la vigenza complessiva del PZP comunale.",
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200071.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    },
+    {
+      "id": "bz-sarentino-pzp-740-2026",
+      "field": "status",
+      "before": "Approvazione provinciale verificata · efficacia da accertare",
+      "after": "Approvazione e decorrenza di efficacia verificate (2026-10-02); cartografia e modifiche successive da verificare",
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200071.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    },
+    {
+      "id": "bz-sarentino-pzp-740-2026",
+      "field": "documents",
+      "before": [
+        {
+          "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/QDiyUDJvk7Ajnb95m6fsng%3D%3D/document?tstmp=1790750000000",
+          "label": "PDF ufficiale · D.G.P. Bolzano 740/2026",
+          "format": "pdf"
+        }
+      ],
+      "after": [
+        {
+          "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/QDiyUDJvk7Ajnb95m6fsng%3D%3D/document?tstmp=1790750000000",
+          "label": "PDF ufficiale · D.G.P. Bolzano 740/2026",
+          "format": "pdf"
+        },
+        {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200071.pdf",
+          "label": "PDF BUR 40/2026 - D.G.P. 740/2026, pubblicazione ufficiale",
+          "format": "pdf"
+        }
+      ],
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200071.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    },
+    {
+      "id": "bz-sarentino-pzp-740-2026",
+      "field": "publication_date",
+      "before": null,
+      "after": "2026-10-01",
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200071.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    },
+    {
+      "id": "bz-sarentino-pzp-740-2026",
+      "field": "effective_date",
+      "before": null,
+      "after": "2026-10-02",
+      "source_urls": [
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200071.pdf",
+        "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo"
+      ]
+    }
+  ],
+  "note": "Verifica circoscritta alle fonti e disposizioni indicate; non certificazione generale di vigenza."
+}
+

@@ -1,0 +1,91 @@
+{
+  "expected_commit": "db94959f797c00909abc875690c6359e087575b9",
+  "verified_at": "2026-10-09T09:06:06.630182+00:00",
+  "files": [
+    {
+      "path": "data.json",
+      "http_status": 200,
+      "matches": true,
+      "sha256": "e768f73177d01d72232cf7b679d1bc394db3c6da0cf27425d5a3e09f2a035742",
+      "expected_sha256": "e768f73177d01d72232cf7b679d1bc394db3c6da0cf27425d5a3e09f2a035742"
+    },
+    {
+      "path": "topic-taxonomy.json",
+      "http_status": 200,
+      "matches": true,
+      "sha256": "4eea6dd1b57172dd079ee804bdaf3882327e39b77b6e288a1fc0422dcee0c2ff",
+      "expected_sha256": "4eea6dd1b57172dd079ee804bdaf3882327e39b77b6e288a1fc0422dcee0c2ff"
+    },
+    {
+      "path": "national.json",
+      "http_status": 200,
+      "matches": true,
+      "sha256": "4b75596f7ec3d042c51da34d9aeca17977f5965a58ec337a4ff2bda3fe415e55",
+      "expected_sha256": "4b75596f7ec3d042c51da34d9aeca17977f5965a58ec337a4ff2bda3fe415e55"
+    },
+    {
+      "path": "update-status.json",
+      "http_status": 200,
+      "matches": true,
+      "sha256": "046136891ce08538018b4d097c62f8dba2807133b5a12817a8b7e13059202637",
+      "expected_sha256": "046136891ce08538018b4d097c62f8dba2807133b5a12817a8b7e13059202637"
+    },
+    {
+      "path": "app.js",
+      "http_status": 200,
+      "matches": true,
+      "sha256": "42d97d7f3b2084a839425947287fb8aa6926d1ee8e6211d5f0d312fb4f991393",
+      "expected_sha256": "42d97d7f3b2084a839425947287fb8aa6926d1ee8e6211d5f0d312fb4f991393"
+    },
+    {
+      "path": "index.html",
+      "http_status": 200,
+      "matches": true,
+      "sha256": "c74e7773ac85b937f635838dbcbddb6ec0ed830f10cf83cca0331d41d9b5d8fe",
+      "expected_sha256": "c74e7773ac85b937f635838dbcbddb6ec0ed830f10cf83cca0331d41d9b5d8fe"
+    },
+    {
+      "path": "docs/audit/progress.json",
+      "http_status": 200,
+      "matches": true,
+      "sha256": "70928f40548b3280f8af3079a3943366b0ff04e66f2e9a6a9fae7e27cbd3b58b",
+      "expected_sha256": "70928f40548b3280f8af3079a3943366b0ff04e66f2e9a6a9fae7e27cbd3b58b"
+    },
+    {
+      "path": "docs/audit/2026-10-09/incrementale/lotto-08.json",
+      "http_status": 200,
+      "matches": true,
+      "sha256": "1eea1269a320f048a4faf84bde1dcb50fc5e9a427beac596a86ff0f4d6be0f35",
+      "expected_sha256": "1eea1269a320f048a4faf84bde1dcb50fc5e9a427beac596a86ff0f4d6be0f35"
+    },
+    {
+      "path": "docs/audit/2026-10-09/incrementale/lotto-09.json",
+      "http_status": 200,
+      "matches": true,
+      "sha256": "c18908a3bef09fb5fa9ce06c5324fb36a12600a2e3ea82ff59129e8167c1fef7",
+      "expected_sha256": "c18908a3bef09fb5fa9ce06c5324fb36a12600a2e3ea82ff59129e8167c1fef7"
+    }
+  ],
+  "all_match": true,
+  "batches": [
+    {
+      "id": "incrementale-08",
+      "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/15",
+      "merge_commit": "4de328e4b8ba6c5b841c57616dfef9381e1035a1",
+      "ci_run": 37908618788,
+      "pages_run": 37908618775,
+      "ci_conclusion": "success",
+      "pages_conclusion": "success"
+    },
+    {
+      "id": "incrementale-09",
+      "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/16",
+      "merge_commit": "db94959f797c00909abc875690c6359e087575b9",
+      "ci_run": 37909048749,
+      "pages_run": 37909048167,
+      "ci_conclusion": "success",
+      "pages_conclusion": "success"
+    }
+  ],
+  "note": "Ricevuta di pubblicazione dei risultati parziali; non amplia il perimetro documentale né attesta vigenza integrale."
+}

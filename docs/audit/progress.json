@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "catalog_path": "data.json",
-  "updated_at": "2026-10-09T08:57:39.302492+00:00",
+  "updated_at": "2026-10-09T09:07:03.401641+00:00",
   "basis": [
     "docs/audit/2026-10-08/schede.json",
     "docs/audit/2026-10-08/coda.json",
@@ -1060,10 +1060,19 @@
       "record_version": "5c564a7bf8d339835ce7575a137717274b5f456b13a67b9af9ab0ce35838f86a",
       "evidence": "docs/audit/2026-10-09/incrementale/lotto-08.json",
       "publication": {
-        "state": "validated_pending_deployment",
-        "validation": "docs/audit/2026-10-09/incrementale/validazione-lotto-08.json"
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/15",
+        "merge_commit": "4de328e4b8ba6c5b841c57616dfef9381e1035a1",
+        "verified_at": "2026-10-09T09:06:06.630182+00:00",
+        "evidence": "docs/audit/2026-10-09/incrementale/pubblicazione-lotti-08-09.json"
       },
-      "history": []
+      "history": [],
+      "publication_history": [
+        {
+          "state": "validated_pending_deployment",
+          "validation": "docs/audit/2026-10-09/incrementale/validazione-lotto-08.json"
+        }
+      ]
     },
     "dist-merid": {
       "state": "revisione parziale",
@@ -1090,10 +1099,19 @@
       "record_version": "865457ded9ab7d2ef0ed3e23c065887d7fc171b1bf2fd92c4a3ba1e110ed3a77",
       "evidence": "docs/audit/2026-10-09/incrementale/lotto-08.json",
       "publication": {
-        "state": "validated_pending_deployment",
-        "validation": "docs/audit/2026-10-09/incrementale/validazione-lotto-08.json"
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/15",
+        "merge_commit": "4de328e4b8ba6c5b841c57616dfef9381e1035a1",
+        "verified_at": "2026-10-09T09:06:06.630182+00:00",
+        "evidence": "docs/audit/2026-10-09/incrementale/pubblicazione-lotti-08-09.json"
       },
-      "history": []
+      "history": [],
+      "publication_history": [
+        {
+          "state": "validated_pending_deployment",
+          "validation": "docs/audit/2026-10-09/incrementale/validazione-lotto-08.json"
+        }
+      ]
     },
     "dist-sici": {
       "state": "revisione parziale",
@@ -1118,10 +1136,19 @@
       "record_version": "3dd3400b0ef7771f624c7e20586c1910cb866d8c34f25b1179d4dcc3a30e3311",
       "evidence": "docs/audit/2026-10-09/incrementale/lotto-08.json",
       "publication": {
-        "state": "validated_pending_deployment",
-        "validation": "docs/audit/2026-10-09/incrementale/validazione-lotto-08.json"
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/15",
+        "merge_commit": "4de328e4b8ba6c5b841c57616dfef9381e1035a1",
+        "verified_at": "2026-10-09T09:06:06.630182+00:00",
+        "evidence": "docs/audit/2026-10-09/incrementale/pubblicazione-lotti-08-09.json"
       },
-      "history": []
+      "history": [],
+      "publication_history": [
+        {
+          "state": "validated_pending_deployment",
+          "validation": "docs/audit/2026-10-09/incrementale/validazione-lotto-08.json"
+        }
+      ]
     },
     "sic-pgra3-02-2026": {
       "state": "revisione parziale",
@@ -1149,10 +1176,19 @@
       "record_version": "96765d7075f2e96e75942ff2d936e5b858f1cb828a7737b165787c1891cb8893",
       "evidence": "docs/audit/2026-10-09/incrementale/lotto-08.json",
       "publication": {
-        "state": "validated_pending_deployment",
-        "validation": "docs/audit/2026-10-09/incrementale/validazione-lotto-08.json"
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/15",
+        "merge_commit": "4de328e4b8ba6c5b841c57616dfef9381e1035a1",
+        "verified_at": "2026-10-09T09:06:06.630182+00:00",
+        "evidence": "docs/audit/2026-10-09/incrementale/pubblicazione-lotti-08-09.json"
       },
-      "history": []
+      "history": [],
+      "publication_history": [
+        {
+          "state": "validated_pending_deployment",
+          "validation": "docs/audit/2026-10-09/incrementale/validazione-lotto-08.json"
+        }
+      ]
     },
     "sett-pgra-variante-62-2026": {
       "state": "revisione parziale",
@@ -1178,10 +1214,19 @@
       "record_version": "a888ff2ed39940c0154adc5c6b062118cf3a8f7001915faf0bcdf7f1f45541b7",
       "evidence": "docs/audit/2026-10-09/incrementale/lotto-08.json",
       "publication": {
-        "state": "validated_pending_deployment",
-        "validation": "docs/audit/2026-10-09/incrementale/validazione-lotto-08.json"
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/15",
+        "merge_commit": "4de328e4b8ba6c5b841c57616dfef9381e1035a1",
+        "verified_at": "2026-10-09T09:06:06.630182+00:00",
+        "evidence": "docs/audit/2026-10-09/incrementale/pubblicazione-lotti-08-09.json"
       },
-      "history": []
+      "history": [],
+      "publication_history": [
+        {
+          "state": "validated_pending_deployment",
+          "validation": "docs/audit/2026-10-09/incrementale/validazione-lotto-08.json"
+        }
+      ]
     },
     "er1860": {
       "state": "revisione parziale",
@@ -1206,9 +1251,18 @@
       "record_version": "24edc977b2f2fcaa6e16dd7edad4a3c5ce93ae0fbe6a58b0bad6f68d22be5f3a",
       "evidence": "docs/audit/2026-10-09/incrementale/lotto-09.json",
       "publication": {
-        "state": "validated_pending_deployment"
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/16",
+        "merge_commit": "db94959f797c00909abc875690c6359e087575b9",
+        "verified_at": "2026-10-09T09:06:06.630182+00:00",
+        "evidence": "docs/audit/2026-10-09/incrementale/pubblicazione-lotti-08-09.json"
       },
-      "history": []
+      "history": [],
+      "publication_history": [
+        {
+          "state": "validated_pending_deployment"
+        }
+      ]
     },
     "mol25": {
       "state": "revisione parziale",
@@ -1233,9 +1287,18 @@
       "record_version": "fe40569bbd36e851549b2978b66e294ad99437a881d0a393b55b8ead30d13a0e",
       "evidence": "docs/audit/2026-10-09/incrementale/lotto-09.json",
       "publication": {
-        "state": "validated_pending_deployment"
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/16",
+        "merge_commit": "db94959f797c00909abc875690c6359e087575b9",
+        "verified_at": "2026-10-09T09:06:06.630182+00:00",
+        "evidence": "docs/audit/2026-10-09/incrementale/pubblicazione-lotti-08-09.json"
       },
-      "history": []
+      "history": [],
+      "publication_history": [
+        {
+          "state": "validated_pending_deployment"
+        }
+      ]
     },
     "bari": {
       "state": "revisione parziale",
@@ -1257,9 +1320,18 @@
       "record_version": "afd4ef5fa7fe8a07d73621e06a76b83e4e1716233230a44b68d5e39e5ee93d81",
       "evidence": "docs/audit/2026-10-09/incrementale/lotto-09.json",
       "publication": {
-        "state": "validated_pending_deployment"
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/16",
+        "merge_commit": "db94959f797c00909abc875690c6359e087575b9",
+        "verified_at": "2026-10-09T09:06:06.630182+00:00",
+        "evidence": "docs/audit/2026-10-09/incrementale/pubblicazione-lotti-08-09.json"
       },
-      "history": []
+      "history": [],
+      "publication_history": [
+        {
+          "state": "validated_pending_deployment"
+        }
+      ]
     },
     "pai-calabria2001": {
       "state": "revisione parziale",
@@ -1284,9 +1356,18 @@
       "record_version": "25609117bd0e860309e135ce93224c9889552e9a9b3911e5301ea7a86bc5d63a",
       "evidence": "docs/audit/2026-10-09/incrementale/lotto-09.json",
       "publication": {
-        "state": "validated_pending_deployment"
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/16",
+        "merge_commit": "db94959f797c00909abc875690c6359e087575b9",
+        "verified_at": "2026-10-09T09:06:06.630182+00:00",
+        "evidence": "docs/audit/2026-10-09/incrementale/pubblicazione-lotti-08-09.json"
       },
-      "history": []
+      "history": [],
+      "publication_history": [
+        {
+          "state": "validated_pending_deployment"
+        }
+      ]
     },
     "milano": {
       "state": "bloccata",
@@ -1305,9 +1386,18 @@
       "record_version": "4ab181ed447b596a4755aca4fc539f8b1ad34bdd3a7f3787fe5fe88def736066",
       "evidence": "docs/audit/2026-10-09/incrementale/lotto-09.json",
       "publication": {
-        "state": "validated_pending_deployment"
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/16",
+        "merge_commit": "db94959f797c00909abc875690c6359e087575b9",
+        "verified_at": "2026-10-09T09:06:06.630182+00:00",
+        "evidence": "docs/audit/2026-10-09/incrementale/pubblicazione-lotti-08-09.json"
       },
-      "history": []
+      "history": [],
+      "publication_history": [
+        {
+          "state": "validated_pending_deployment"
+        }
+      ]
     }
   },
   "batches": [
@@ -1452,9 +1542,18 @@
       ],
       "evidence": "docs/audit/2026-10-09/incrementale/lotto-08.json",
       "publication": {
-        "state": "validated_pending_deployment",
-        "validation": "docs/audit/2026-10-09/incrementale/validazione-lotto-08.json"
-      }
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/15",
+        "merge_commit": "4de328e4b8ba6c5b841c57616dfef9381e1035a1",
+        "verified_at": "2026-10-09T09:06:06.630182+00:00",
+        "evidence": "docs/audit/2026-10-09/incrementale/pubblicazione-lotti-08-09.json"
+      },
+      "publication_history": [
+        {
+          "state": "validated_pending_deployment",
+          "validation": "docs/audit/2026-10-09/incrementale/validazione-lotto-08.json"
+        }
+      ]
     },
     {
       "id": "incrementale-09",
@@ -1468,8 +1567,17 @@
       ],
       "evidence": "docs/audit/2026-10-09/incrementale/lotto-09.json",
       "publication": {
-        "state": "validated_pending_deployment"
-      }
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/16",
+        "merge_commit": "db94959f797c00909abc875690c6359e087575b9",
+        "verified_at": "2026-10-09T09:06:06.630182+00:00",
+        "evidence": "docs/audit/2026-10-09/incrementale/pubblicazione-lotti-08-09.json"
+      },
+      "publication_history": [
+        {
+          "state": "validated_pending_deployment"
+        }
+      ]
     }
   ],
   "next_batch": [

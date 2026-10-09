@@ -1415,8 +1415,8 @@
       "kind": "Linee guida",
       "status": "Vigenza da ricostruire",
       "source_kind": "Portale istituzionale",
-      "note": "ARPAE pubblica nella pagina collegata i riferimenti applicativi della D.G.R. 286/2005 e della D.G.R. 1860/2006.",
-      "checked": "2026-09-18",
+      "note": "Letto il dispositivo ufficiale DGR 1860/2006: approva le linee guida allegate e proroga un termine storico al 31/12/2007. Il PDF collegato contiene solo il provvedimento, non le linee guida tecniche. Vigenza e modifiche successive da coordinare.",
+      "checked": "2026-10-09",
       "relations": [
         {
           "type": "Attua",
@@ -1435,6 +1435,10 @@
         {
           "date": "2026-09-18",
           "text": "Revisione manuale dei rimandi ai documenti e della relativa descrizione."
+        },
+        {
+          "date": "2026-10-09",
+          "text": "Fase 3, lotto 9: revisione parziale entro il perimetro dichiarato; fonti e limiti in docs/audit/2026-10-09/incrementale/lotto-09.json"
         }
       ],
       "document_url": "https://servizissiir.regione.emilia-romagna.it/deliberegiunta/servlet/AdapterHTTP?ENTE=1&action_name=ACTIONRICERCADELIBERE&codProtocollo=SSR%2F06%2F1069410&operation=downloadTestoPdf",
@@ -1445,7 +1449,46 @@
           "link_status": "checked",
           "link_checked": "2026-09-18"
         }
-      ]
+      ],
+      "documentary_review": {
+        "checked_at": "2026-10-09",
+        "scope": "DGR 1860/2006: dispositivo e premesse, PDF pp. 1-4; dettaglio regionale e rinvio ARPAE. Allegato tecnico non acquisito.",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://servizissiir.regione.emilia-romagna.it/deliberegiunta/servlet/AdapterHTTP?ENTE=1&action_name=ACTIONRICERCADELIBERE&codProtocollo=SSR%2F06%2F1069410&operation=downloadTestoPdf",
+          "https://servizissiir.regione.emilia-romagna.it/deliberegiunta/servlet/AdapterHTTP?action_name=ACTIONRICERCADELIBERE&cod_protocollo=SSR%2F06%2F1069410&operation=leggi",
+          "https://www.arpae.it/it/autorizzazioni-e-concessioni/autorizzazioni-ambientali/autorizzazione-scarichi-idrici"
+        ],
+        "claims": [
+          {
+            "aspect": "identity",
+            "source_url": "https://servizissiir.regione.emilia-romagna.it/deliberegiunta/servlet/AdapterHTTP?action_name=ACTIONRICERCADELIBERE&cod_protocollo=SSR%2F06%2F1069410&operation=leggi",
+            "locator": "Dettaglio atto: numero, data, oggetto e pubblicazione",
+            "finding": "La banca dati regionale identifica DGR 1860 del 18 dicembre 2006 e BUR n. 9 del 19 gennaio 2007."
+          },
+          {
+            "aspect": "approval",
+            "source_url": "https://servizissiir.regione.emilia-romagna.it/deliberegiunta/servlet/AdapterHTTP?ENTE=1&action_name=ACTIONRICERCADELIBERE&codProtocollo=SSR%2F06%2F1069410&operation=downloadTestoPdf",
+            "locator": "PDF p. 4, dispositivo punto 2",
+            "finding": "Approvate le linee guida attuative della DGR 286/2005 con allegato integrante; il PDF di quattro pagine contiene il solo provvedimento e non il testo tecnico allegato."
+          },
+          {
+            "aspect": "amendment",
+            "source_url": "https://servizissiir.regione.emilia-romagna.it/deliberegiunta/servlet/AdapterHTTP?ENTE=1&action_name=ACTIONRICERCADELIBERE&codProtocollo=SSR%2F06%2F1069410&operation=downloadTestoPdf",
+            "locator": "PDF p. 4, dispositivo punto 1",
+            "finding": "Prorogato al 31 dicembre 2007 il termine storico per chiedere autorizzazione alla prima pioggia degli insediamenti esistenti previsto dalla DGR 286/2005, cap. 8.2 punto II. Non costituisce una nuova scadenza nel 2026."
+          }
+        ],
+        "limitations": [
+          "Non acquisito il documento tecnico allegato: nessuna verifica delle formule o dei criteri di dimensionamento.",
+          "Non ricostruita la catena delle modifiche e delle competenze successive. Il rinvio ARPAE non prova la vigenza integrale."
+        ],
+        "pending": [
+          "Acquisire allegato tecnico ufficiale e coordinare DGR 1083/2010 e atti successivi."
+        ],
+        "record_version": "24edc977b2f2fcaa6e16dd7edad4a3c5ce93ae0fbe6a58b0bad6f68d22be5f3a"
+      }
     },
     {
       "id": "tos41",
@@ -1870,7 +1913,7 @@
       "date": "2018",
       "url": "https://www.arpamolise.it/WP/acque-reflue-urbane/",
       "document_label": "Consulta la fonte ARPA Molise",
-      "document_note": "Il collegamento apre direttamente il PDF del documento.",
+      "document_note": "La pagina ARPA Molise è una fonte HTML, non il PDF del PTA. Il PDF della disciplina scarichi resta collegato ma non è stato acquisito per timeout nel controllo del 09/10/2026.",
       "summary": "Piano regionale per la tutela qualitativa e quantitativa delle acque.",
       "focus": [
         "Norme di attuazione",
@@ -1880,13 +1923,17 @@
       "kind": "Piano",
       "status": "Vigenza da ricostruire",
       "source_kind": "Portale istituzionale",
-      "note": "Il portale regionale identifica l’approvazione con D.C.R. 25/2018. ARPA Molise richiama aggiornamenti successivi: catena da ricostruire.",
-      "checked": "2026-09-18",
+      "note": "ARPA e Regione identificano il PTA approvato con DCR 25/2018 e aggiornamenti successivi. Letta DD 441/2026: differisce la convenzione per attività di aggiornamento, senza approvare un nuovo PTA. Catena degli atti e disciplina scarichi da completare.",
+      "checked": "2026-10-09",
       "relations": [],
       "history": [
         {
           "date": "2026-09-17",
           "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        },
+        {
+          "date": "2026-10-09",
+          "text": "Fase 3, lotto 9: revisione parziale entro il perimetro dichiarato; fonti e limiti in docs/audit/2026-10-09/incrementale/lotto-09.json"
         }
       ],
       "documents": [
@@ -1894,8 +1941,52 @@
           "url": "https://www1.regione.molise.it/tutela-acqua/doc_r14-morifiche.pdf",
           "label": "PDF ufficiale · disciplina degli scarichi del PTA Molise",
           "format": "pdf"
+        },
+        {
+          "url": "https://www.regione.molise.it/flex/cm/pages/ServeAttachment.php/L/IT/D/1%252F3%252Fc%252FD.2e9f7d1931dbfbae71c8/P/BLOB%3AID%3D13780/E/pdf?mode=download",
+          "label": "DD Molise 441/2026 - convenzione aggiornamento PTA",
+          "format": "pdf"
         }
-      ]
+      ],
+      "documentary_review": {
+        "checked_at": "2026-10-09",
+        "scope": "Pagina PTA regionale e ARPA Molise; lettura integrale DD 441/2026, pp. 1-3. Disciplina scarichi non acquisita per timeout.",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://www.arpamolise.it/WP/acque-reflue-urbane/",
+          "https://www.regione.molise.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/13780",
+          "https://www.regione.molise.it/flex/cm/pages/ServeAttachment.php/L/IT/D/1%252F3%252Fc%252FD.2e9f7d1931dbfbae71c8/P/BLOB%3AID%3D13780/E/pdf?mode=download"
+        ],
+        "claims": [
+          {
+            "aspect": "approval",
+            "source_url": "https://www.arpamolise.it/WP/acque-reflue-urbane/",
+            "locator": "Introduzione alla Disciplina Scarichi",
+            "finding": "ARPA Molise riferisce adozione DGR 599/2016 e approvazione DCR 25/2018; richiama DCR 386/2019, DGR 196/2020 e DGR 337/2021. Questi atti non sono stati letti autonomamente in questo lotto."
+          },
+          {
+            "aspect": "version",
+            "source_url": "https://www.regione.molise.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/13780",
+            "locator": "Indice degli atti e tavole aggiornate",
+            "finding": "Il portale distingue atti 2018-2021, tavole aggiornate e DGR 506 del 29 dicembre 2025. Il solo elenco non permette di attribuire alle singole norme un testo coordinato al 2026."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.regione.molise.it/flex/cm/pages/ServeAttachment.php/L/IT/D/1%252F3%252Fc%252FD.2e9f7d1931dbfbae71c8/P/BLOB%3AID%3D13780/E/pdf?mode=download",
+            "locator": "DD 441 del 31 gennaio 2026, premesse p. 2 e dispositivo p. 3, punto 2",
+            "finding": "Differita al 31 marzo 2026 la scadenza della convenzione con ARPA Molise per le attività tecniche di aggiornamento del PTA e controllo rifiuti. Il provvedimento non approva un nuovo PTA né proroga la vigenza del piano."
+          }
+        ],
+        "limitations": [
+          "PDF disciplina scarichi doc_r14-morifiche.pdf non acquisito: timeout locale e del servizio web.",
+          "DCR 25/2018 e modifiche 2019-2021 e DGR 506/2025 soltanto individuate nelle pagine istituzionali, non lette integralmente."
+        ],
+        "pending": [
+          "Acquisire disciplina scarichi e dispositivi delle modifiche; verificare contenuto di DGR 506/2025 ed esito del procedimento di aggiornamento."
+        ],
+        "record_version": "fe40569bbd36e851549b2978b66e294ad99437a881d0a393b55b8ead30d13a0e"
+      }
     },
     {
       "id": "vda2030",
@@ -2545,7 +2636,7 @@
       "status": "Pagina ufficiale riscontrata",
       "source_kind": "Procedura ufficiale",
       "note": "Pagina aggiornata il 13/01/2026. La modulistica non costituisce una norma autonoma.",
-      "checked": "2026-09-18",
+      "checked": "2026-10-09",
       "relations": [
         {
           "type": "Riferimento",
@@ -2556,6 +2647,10 @@
         {
           "date": "2026-09-17",
           "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        },
+        {
+          "date": "2026-10-09",
+          "text": "Fase 3, lotto 9: revisione parziale entro il perimetro dichiarato; fonti e limiti in docs/audit/2026-10-09/incrementale/lotto-09.json"
         }
       ],
       "documents": [
@@ -2565,7 +2660,38 @@
           "format": "pdf"
         }
       ],
-      "document_note": "Il collegamento apre direttamente il PDF del documento."
+      "document_note": "Il PDF collegato è il RR Puglia 26/2013. La modulistica della Città metropolitana è un pacchetto ZIP distinto, disponibile nella pagina ufficiale e non acquisito in questa revisione.",
+      "documentary_review": {
+        "checked_at": "2026-10-09",
+        "scope": "Solo pagina ufficiale della modulistica: titolo, formato ZIP e date. Nessuna lettura degli allegati o verifica delle prescrizioni.",
+        "outcome": "partial",
+        "legal_state": "unverified",
+        "source_urls": [
+          "https://www.cittametropolitana.ba.it/amministrazione/documenti_e_dati/modulistica/documento_268.html"
+        ],
+        "claims": [
+          {
+            "aspect": "identity",
+            "source_url": "https://www.cittametropolitana.ba.it/amministrazione/documenti_e_dati/modulistica/documento_268.html",
+            "locator": "Titolo e sezione Documento",
+            "finding": "La pagina presenta la modulistica per autorizzazione scarico acque meteoriche RR 26/2013 in formato ZIP, non un nuovo atto normativo."
+          },
+          {
+            "aspect": "version",
+            "source_url": "https://www.cittametropolitana.ba.it/amministrazione/documenti_e_dati/modulistica/documento_268.html",
+            "locator": "Tempi di pubblicazione e ultimo aggiornamento",
+            "finding": "La pagina indica inizio pubblicazione 4 giugno 2024 e aggiornamento 13 gennaio 2026; la data della pagina non prova la versione dei singoli moduli."
+          }
+        ],
+        "limitations": [
+          "Pacchetto acque_meteoriche.zip non acquisito: collegamento gestito dalla funzione JavaScript SCHIOCCIOLA; manca nel documento HTML un URL diretto al pacchetto.",
+          "Non verificati contenuti, requisiti, competenza attuale o conformità dei moduli al RR 26/2013."
+        ],
+        "pending": [
+          "Acquisire il pacchetto ZIP mediante il collegamento della pagina e verificare i moduli e le istruzioni."
+        ],
+        "record_version": "afd4ef5fa7fe8a07d73621e06a76b83e4e1716233230a44b68d5e39e5ee93d81"
+      }
     },
     {
       "id": "milano",
@@ -5716,8 +5842,8 @@
       "kind": "Piano",
       "status": "Testo storico verificato · vigenza da coordinare",
       "source_kind": "Documento ufficiale dell’Autorità di bacino",
-      "note": "Letti frontespizio, indice e disposizioni generali del PDF. La pagina Calabria/Lao lo pubblica tra le misure di salvaguardia. Non dedotta abrogazione o sostituzione integrale dalla presenza del nuovo progetto.",
-      "checked": "2026-09-23",
+      "note": "Letti gli artt. 21-26 del testo aggiornato 2011: vincoli R4/R3, divieto di locali abitativi/commerciali sotterranei in R1/R2, disciplina preventiva delle aree di attenzione e limiti alla tombatura. Restano aperti coordinamento Calabria/Lao e PGRA, specifiche tecniche, varianti e competenze attuali.",
+      "checked": "2026-10-09",
       "relations": [
         {
           "type": "Da coordinare con il procedimento",
@@ -5737,6 +5863,10 @@
         {
           "date": "2026-09-18",
           "text": "Recuperato documento storico ufficiale precedentemente assente."
+        },
+        {
+          "date": "2026-10-09",
+          "text": "Fase 3, lotto 9: revisione parziale entro il perimetro dichiarato; fonti e limiti in docs/audit/2026-10-09/incrementale/lotto-09.json"
         }
       ],
       "documents": [
@@ -5747,7 +5877,51 @@
           "link_status": "checked",
           "link_checked": "2026-09-23"
         }
-      ]
+      ],
+      "documentary_review": {
+        "checked_at": "2026-10-09",
+        "scope": "NAMS PAI Calabria aggiornate con CI 27 del 02/08/2011: letti artt. 21-26, PDF pp. 15-17. Nessuna attestazione di coordinamento normativo al 2026.",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2024/11/NAMS_PAI_2001.pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "version",
+            "source_url": "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2024/11/NAMS_PAI_2001.pdf",
+            "locator": "Intestazione pp. 15-17",
+            "finding": "Il documento dichiara aggiornamento approvato dal Comitato Istituzionale il 2 agosto 2011; la collocazione web nel 2024 non costituisce una nuova versione normativa."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2024/11/NAMS_PAI_2001.pdf",
+            "locator": "Art. 21, pp. 15-16; art. 22, p. 16",
+            "finding": "R4: divieto generale con eccezioni tassative; studio idrologico-idraulico per specifiche categorie, con distinta disciplina del parere ABR. R3: obiettivo di invaso della piena con TR 200 anni e ulteriori interventi condizionati; nessuna autorizzazione generalizzata."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2024/11/NAMS_PAI_2001.pdf",
+            "locator": "Artt. 23-24, p. 16",
+            "finding": "R1/R2: vietati locali sotterranei e seminterrati a uso abitativo e commerciale. Nelle aree di attenzione prive di studi di dettaglio valgono in via preventiva le prescrizioni R4."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2024/11/NAMS_PAI_2001.pdf",
+            "locator": "Artt. 25-26, p. 17",
+            "finding": "Previste proposte di rettifica e rilevazione comunale di pericoli non mappati. Vietata la tombatura anche dei fossi minori; eccezioni limitate a comprovata necessità, verifiche tecniche e parere vincolante ABR. Competenze e procedure sono quelle del testo 2011."
+          }
+        ],
+        "limitations": [
+          "Non lette specifiche tecniche e linee guida richiamate né cartografie puntuali.",
+          "Non ricostruito coordinamento con PGRA e progetto Calabria/Lao né sopravvenienze normative o competenze attuali.",
+          "La disposizione transitoria di Crotone art. 25 c. 5 richiede accertamento del completamento delle opere; non assunta come attuale."
+        ],
+        "pending": [
+          "Coordinare NAMS con salvaguardie Calabria/Lao e PGRA, acquisire specifiche tecniche e varianti e verificare competenze e condizioni territoriali attuali."
+        ],
+        "record_version": "25609117bd0e860309e135ce93224c9889552e9a9b3911e5301ea7a86bc5d63a"
+      }
     },
     {
       "id": "pai-calabria-lao",

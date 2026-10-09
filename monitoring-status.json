@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-08T20:22:04Z",
+  "checked_at": "2026-10-09T08:13:03Z",
   "national": {
-    "state": "completato",
+    "state": "in_attesa",
     "last_completed_at": "2026-10-08T13:12:48+02:00",
-    "expected_date": "2026-10-08",
+    "expected_date": "2026-10-09",
     "deadline_local": "16:00 Europe/Rome",
     "checkpoint_end": "2026-10-08T11:12:48Z",
     "checkpoint_consistent": true,
@@ -71,45 +71,65 @@
   },
   "territorial": {
     "state": "parziale",
-    "date": "2026-10-08",
-    "evidence": "data.json:runs[9]",
-    "summary": "Colmate quattro lacune documentali: due aggiornamenti definitivi PAI Lazio e due progetti congiunti PAI/PGRA del distretto del Po. Nessuna conclusione generale sull'assenza di ulteriori modifiche territoriali.",
+    "date": "2026-10-09",
+    "evidence": "data.json:runs[0]",
+    "summary": "Censita determina 159/2026 di Villanovafranca sull’aggiornamento del reticolo PAI, con efficacia immediata dichiarata e avviso BURAS da riscontrare. Aggiunto accesso ufficiale P.S.5 Tevere. Fonti e limiti della ricognizione dichiarati; nessuna conferma di copertura integrale.",
     "sources_checked": [
-      "AUBAC: raccolta dei decreti segretariali di pianificazione 2026, notizie istituzionali e dettagli dei D.S. 20/2026 e 123/2026; verificati oggetto, materia, stato definitivo e pubblicazioni nel BURL.",
-      "Autorità di bacino distrettuale del Po: pagina ufficiale delle varianti in corso, lettura integrale dei D.S. 5/2026 e 27/2026 e indici degli elaborati diretti PAI/PGRA.",
-      "Autorità di Bacino della Sardegna: raccolta delle varianti puntuali PAI, con Determinazione 162/2026 ancora in testa e nessun atto successivo tra i contenuti mostrati.",
-      "Provincia autonoma di Bolzano: pagina ufficiale delle delibere, ultima seduta visibile del 02/10/2026 senza atti PZP tra i contenuti mostrati.",
-      "Autorità di Bacino della Sicilia: pagina istituzionale con notizie visibili fino al 29/09/2026, senza nuovi atti PAI/PGRA tra i contenuti mostrati."
+      "dist-centr",
+      "dist-sard",
+      "sard-villanovafranca-reticolo-159-2026",
+      "dist-sett",
+      "sett-pgra-variante-62-2026",
+      "dist-merid",
+      "dist-sici",
+      "sic-pgra3-02-2026",
+      "bari",
+      "bz23",
+      "dist-po"
     ],
     "source_urls": [
-      "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
-      "https://aubac.it/news/notizie/rischio-idraulico-pubblicato-laggiornamento-definitivo-della-perimetrazione-del-bacino-del-fosso",
-      "https://www.aubac.it/news/notizie/rischio-idrogeologico-proposta-di-aggiornamento-pai-nel-comune-di-san-felice-circeo",
-      "https://pai.adbpo.it/varianti-in-corso-2/",
-      "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_TERDOPPIO_2026/DSG_5_2026.pdf",
-      "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_TERDOPPIO_2026/",
-      "https://www.adbpo.it/PAI/PAI_PROG_Mera_Chiavenna_2026/DSG27_2026.pdf",
-      "https://www.adbpo.it/PAI/PAI_PROG_Mera_Chiavenna_2026/",
-      "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/approvazione-varianti-pai/",
+      "https://aubac.it/news/notizie/ps5-la-cartografia-del-piano-il-tratto-metropolitano-del-tevere-e-online-sul-webgis-aubac",
+      "https://webgis.abdac.it/portal/apps/experiencebuilder/experience/?id=c59f7b386ca24729852cf2dcf8e2f936",
+      "https://autoritadibacino.regione.sardegna.it/ap/determinazione-n-159-prot-n-11256-del-25-09-2026/",
+      "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/10/avp_2026_09_25_det.159_prot.11256_villanovafranca.pdf",
+      "https://aubac.it/",
+      "https://aubac.it/piani-di-bacino/piano-di-gestione-del-rischio-alluvioni-pgra",
+      "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/",
+      "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-stralcio-di-bacino-per-lassetto-idrogeologico-pai/",
+      "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-stralcio-di-bacino-per-lassetto-idrogeologico-pai/norme-pai/",
       "https://giunta-provinciale.provincia.bz.it/it/delibere",
-      "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia"
+      "https://www.appenninosettentrionale.it/itc/?page_id=15866",
+      "https://www.appenninosettentrionale.it/itc/?page_id=18906",
+      "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia",
+      "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/partecipazione-pubblica",
+      "https://www.distrettoappenninomeridionale.it/piano-gestione-alluvioni/ii-ciclo-2016-2021/",
+      "https://www.distrettoappenninomeridionale.it/",
+      "https://www.adbpo.it/",
+      "https://www.cittametropolitana.ba.it/amministrazione/documenti_e_dati/modulistica/documento_268.html"
     ],
     "territories": [
-      "Distretto dell'Appennino Centrale",
-      "Lazio",
-      "Distretto del Fiume Po",
-      "Piemonte",
-      "Lombardia",
-      "Sardegna",
-      "Provincia autonoma di Bolzano",
-      "Sicilia"
+      "Provincia autonoma di Bolzano: dieci oggetti ultima seduta",
+      "Sardegna: prima pagina determinazioni e Villanovafranca",
+      "Sicilia: pagine AdB e partecipazione PGRA",
+      "Bari: pagina modulistica meteoriche",
+      "Appennino Centrale: pagina PGRA e avviso P.S.5 Tevere",
+      "Appennino Settentrionale: pagine PGRA e variante mappe",
+      "Appennino Meridionale: portale e pagina PGRA II ciclo",
+      "Po: homepage notizie"
     ],
     "errors": [
-      "I dettagli URBI dei D.S. AUBAC 20/2026 e 123/2026 hanno restituito timeout; gli atti non sono stati considerati integralmente acquisiti, mentre estremi, oggetto, stato e pubblicazioni sono stati verificati sulle altre pagine istituzionali AUBAC.",
-      "I controlli Sardegna, Bolzano e Sicilia sono limitati ai contenuti mostrati dalle pagine istituzionali e non equivalgono a una ricerca integrale negli archivi.",
-      "Il controllo è mirato e non equivale alla verifica integrale dei sette distretti, delle 20 regioni, dei comuni, dei gestori o di tutte le varianti puntuali."
+      "Po: pagina PGRA 2021–2027 in HTTP 403; letta la sola homepage ufficiale, senza completare il controllo degli atti PAI/PGRA.",
+      "Sicilia: PDF della deliberazione CIP 2/2026 nel collegamento della pagina ufficiale in HTTP 404; letta la pagina di partecipazione, non il PDF.",
+      "Bolzano: letti i dieci oggetti esposti dalla pagina dell’ultima seduta 02/10/2026; pagina 2 restituisce la stessa tabella nel lettore web e solo Loading nel download diretto, quindi seduta e ricerca PZP non esaurite.",
+      "Appennino Settentrionale: lettore web in 502, recuperati e letti via download diretto HTML i contenuti delle pagine 15866 e 18906; i nuovi PDF collegati non esaminati.",
+      "Sardegna: homepage in timeout nel lettore web; pagina delle determinazioni inizialmente in 502 e poi acquisita con HTML 200 e contenuto letto.",
+      "Ulteriori tentativi non conclusivi: URL di raccolta varianti Sardegna non acquisibile; URL informativo invarianza Lombardia non acquisibile. Non sono fonti considerate controllate."
     ],
-    "publication": "data_json_update",
+    "publication": {
+      "outcome": "in_attesa",
+      "last_valid_result": "published_github_pages",
+      "note": "Ricevuta di pubblicazione aggiornata solo dopo riscontro Pages e confronto del contenuto atteso."
+    },
     "external_execution_verified": false,
     "legacy_completion_marker": "2026-09-25",
     "repeated_unavailability": []
@@ -119,8 +139,8 @@
       "code": "TERRITORIAL_PARZIALE",
       "severity": "warning",
       "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
-      "evidence": "data.json:runs[9]",
-      "event_id": "022d6f0349b7de39fb3a9727"
+      "evidence": "data.json:runs[0]",
+      "event_id": "e3980c1f3a53615223329f21"
     }
   ],
   "events": [
@@ -215,8 +235,16 @@
       "evidence": "data.json:runs[9]",
       "event_id": "022d6f0349b7de39fb3a9727",
       "recorded_at": "2026-10-08T20:22:04Z"
+    },
+    {
+      "code": "TERRITORIAL_PARZIALE",
+      "severity": "warning",
+      "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
+      "evidence": "data.json:runs[0]",
+      "event_id": "e3980c1f3a53615223329f21",
+      "recorded_at": "2026-10-09T08:13:03Z"
     }
   ],
   "has_errors": false,
-  "repository_sha": "6550be64d36873dde1d951c59c124aa020fcbfa6"
+  "repository_sha": "b8df1cd957ec73c770bd8dbeb45a9e63fb6daaca"
 }

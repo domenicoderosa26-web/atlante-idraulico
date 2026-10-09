@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-09T09:06:06Z",
+  "checked_at": "2026-10-09T11:57:16Z",
   "national": {
-    "state": "in_attesa",
-    "last_completed_at": "2026-10-08T13:12:48+02:00",
+    "state": "completato",
+    "last_completed_at": "2026-10-09T13:55:43+02:00",
     "expected_date": "2026-10-09",
     "deadline_local": "16:00 Europe/Rome",
-    "checkpoint_end": "2026-10-08T11:12:48Z",
+    "checkpoint_end": "2026-10-09T11:55:43Z",
     "checkpoint_consistent": true,
     "latest_run": {
-      "id": 37774218766,
-      "html_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/37774218766",
+      "id": 37926742819,
+      "html_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/37926742819",
       "event": "schedule",
       "status": "completed",
       "conclusion": "success",
-      "created_at": "2026-10-08T12:03:36Z",
-      "updated_at": "2026-10-08T12:03:49Z"
+      "created_at": "2026-10-09T11:55:34Z",
+      "updated_at": "2026-10-09T11:57:04Z"
     },
     "scope": {
       "monitored_ids": [
@@ -59,15 +59,15 @@
       {
         "name": "deploy",
         "status": "completed",
-        "conclusion": "skipped"
+        "conclusion": "success"
       },
       {
         "name": "finalize",
         "status": "completed",
-        "conclusion": "skipped"
+        "conclusion": "success"
       }
     ],
-    "api_step_executed": false
+    "api_step_executed": true
   },
   "territorial": {
     "state": "parziale",
@@ -276,5 +276,5 @@
     }
   ],
   "has_errors": false,
-  "repository_sha": "db94959f797c00909abc875690c6359e087575b9"
+  "repository_sha": "971ecca574979a95148e179f5007feaf90f70f55"
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-09T08:13:03Z",
+  "checked_at": "2026-10-09T08:19:46Z",
   "national": {
     "state": "in_attesa",
     "last_completed_at": "2026-10-08T13:12:48+02:00",
@@ -126,9 +126,31 @@
       "Ulteriori tentativi non conclusivi: URL di raccolta varianti Sardegna non acquisibile; URL informativo invarianza Lombardia non acquisibile. Non sono fonti considerate controllate."
     ],
     "publication": {
-      "outcome": "in_attesa",
-      "last_valid_result": "published_github_pages",
-      "note": "Ricevuta di pubblicazione aggiornata solo dopo riscontro Pages e confronto del contenuto atteso."
+      "outcome": "pubblicato",
+      "commit_sha": "b8df1cd957ec73c770bd8dbeb45a9e63fb6daaca",
+      "commit_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/commit/b8df1cd957ec73c770bd8dbeb45a9e63fb6daaca",
+      "verified_at": "2026-10-09T08:17:15.951797+00:00",
+      "site_url": "https://domenicoderosa26-web.github.io/atlante-idraulico/",
+      "deployment_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/37903520739",
+      "verification": {
+        "outcome": "success",
+        "files": [
+          {
+            "path": "data.json",
+            "matches": true,
+            "sha256": "d5ae90d2e4e1156bf441808f26490900b75823711ca73494704a1a03cd69ecb8",
+            "expected_sha256": "d5ae90d2e4e1156bf441808f26490900b75823711ca73494704a1a03cd69ecb8"
+          },
+          {
+            "path": "topic-taxonomy.json",
+            "matches": true,
+            "sha256": "543b23aefef3c92ca0f7ebf8f408d56bd9aa73ba6de9a8d6d9780ba1930e9c36",
+            "expected_sha256": "543b23aefef3c92ca0f7ebf8f408d56bd9aa73ba6de9a8d6d9780ba1930e9c36"
+          }
+        ],
+        "site_loading": "107 schede; ricerca Villanovafranca e apertura scheda verificate nel sito pubblico; menu con 14 argomenti canonici."
+      },
+      "last_valid_result": "published_github_pages"
     },
     "external_execution_verified": false,
     "legacy_completion_marker": "2026-09-25",
@@ -246,5 +268,5 @@
     }
   ],
   "has_errors": false,
-  "repository_sha": "b8df1cd957ec73c770bd8dbeb45a9e63fb6daaca"
+  "repository_sha": "11222d136857edeee616a3d839621df496409751"
 }

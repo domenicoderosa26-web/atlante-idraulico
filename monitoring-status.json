@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-09T08:19:46Z",
+  "checked_at": "2026-10-09T09:02:35Z",
   "national": {
     "state": "in_attesa",
     "last_completed_at": "2026-10-08T13:12:48+02:00",
@@ -72,7 +72,7 @@
   "territorial": {
     "state": "parziale",
     "date": "2026-10-09",
-    "evidence": "data.json:runs[0]",
+    "evidence": "data.json:runs[1]",
     "summary": "Censita determina 159/2026 di Villanovafranca sull’aggiornamento del reticolo PAI, con efficacia immediata dichiarata e avviso BURAS da riscontrare. Aggiunto accesso ufficiale P.S.5 Tevere. Fonti e limiti della ricognizione dichiarati; nessuna conferma di copertura integrale.",
     "sources_checked": [
       "dist-centr",
@@ -161,8 +161,8 @@
       "code": "TERRITORIAL_PARZIALE",
       "severity": "warning",
       "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
-      "evidence": "data.json:runs[0]",
-      "event_id": "e3980c1f3a53615223329f21"
+      "evidence": "data.json:runs[1]",
+      "event_id": "ac8ccb2d2d9960ff9b411787"
     }
   ],
   "events": [
@@ -265,8 +265,16 @@
       "evidence": "data.json:runs[0]",
       "event_id": "e3980c1f3a53615223329f21",
       "recorded_at": "2026-10-09T08:13:03Z"
+    },
+    {
+      "code": "TERRITORIAL_PARZIALE",
+      "severity": "warning",
+      "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
+      "evidence": "data.json:runs[1]",
+      "event_id": "ac8ccb2d2d9960ff9b411787",
+      "recorded_at": "2026-10-09T09:02:35Z"
     }
   ],
   "has_errors": false,
-  "repository_sha": "11222d136857edeee616a3d839621df496409751"
+  "repository_sha": "4de328e4b8ba6c5b841c57616dfef9381e1035a1"
 }

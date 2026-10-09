@@ -475,7 +475,16 @@
       "source_urls": [
         "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=004U0523&atto.dataPubblicazioneGazzetta=1904-10-07&tipoSerie=serie_generale&tipoVigenza=originario",
         "https://www.gazzettaufficiale.it/eli/gu/1904/10/07/234/sg/pdf",
-        "https://www.mase.gov.it/portale/documents/d/guest/rd_25-7-1904_n-523-pdf-1"
+        "https://www.mase.gov.it/portale/documents/d/guest/rd_25-7-1904_n-523-pdf-1",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=93&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=3&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=96&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=5&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=97&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=004U0523&atto.dataPubblicazioneGazzetta=1904-10-07&tipoDettaglio=vigente",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=1&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=1&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=3&art.idGruppo=1&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=2&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=94&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=3&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=95&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=5&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=98&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&"
       ],
       "object_versions": [
         {
@@ -486,6 +495,16 @@
             "Divieti e distanze di rispetto",
             "Autorizzazioni per opere in alveo",
             "Interferenze con ponti, strade e ferrovie"
+          ]
+        },
+        {
+          "title": "Opere idrauliche e polizia delle acque",
+          "ref": "R.D. 523/1904",
+          "summary": "Polizia delle acque e opere idrauliche: disposizioni pertinenti da leggere nel testo coordinato, distinguendo divieti, autorizzazioni e abrogazioni puntuali.",
+          "focus": [
+            "Artt.93-95: opere in alveo e difese senza alterazione del regime",
+            "Art.96f: disciplina locale e distanze sussidiarie, con riferimenti geometrici",
+            "Artt.97-98: parti abrogate/soppresse; competenze storiche da coordinare"
           ]
         }
       ],
@@ -1101,7 +1120,14 @@
         "prima-pioggia"
       ],
       "source_urls": [
-        "https://ambiente.provincia.bz.it/it/acqua/acque-meteoriche"
+        "https://ambiente.provincia.bz.it/it/acqua/acque-meteoriche",
+        "https://bollettino.regione.taa.it/pdf/I-II/2008/11/S1/S111080151963.pdf",
+        "https://bollettino.regione.taa.it/pdf/I-II/2022/24/BO/BO242201193179.pdf",
+        "https://bollettino.regione.taa.it/pdf/I-II/2025/22/BO/BO222501197979.pdf",
+        "https://bollettino.regione.taa.it/pdf/I-II/2016/5/BO/BO051601104672.pdf",
+        "https://bollettino.regione.taa.it/pdf/I-II/2020/49/BO/BO492001190266.pdf",
+        "https://bollettino.regione.taa.it/pdf/I-II/2024/10/BO/BO102401196101.pdf",
+        "https://bollettino.regione.taa.it/pdf/I-II/2024/38/BO/BO382401196906.pdf"
       ],
       "object_versions": [
         {
@@ -1828,7 +1854,8 @@
         "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=25A06516&atto.dataPubblicazioneGazzetta=2025-12-03&tipoSerie=serie_generale&tipoVigenza=originario",
         "https://www.gazzettaufficiale.it/eli/gu/2025/12/03/281/sg/pdf",
         "https://www.mase.gov.it/portale/documents/d/guest/allegato_1_cam_edilizia_30_10_25-def-pdf",
-        "https://www.mase.gov.it/portale/documents/d/guest/modello-di-relazione-cam-di-progetto-vers-_02-02-2026-pdf"
+        "https://www.mase.gov.it/portale/documents/d/guest/modello-di-relazione-cam-di-progetto-vers-_02-02-2026-pdf",
+        "https://www.mase.gov.it/portale/cam-vigenti"
       ],
       "object_versions": [
         {
@@ -1841,6 +1868,17 @@
             "Approfondimenti idraulici nell’allegato MASE: gestione delle acque, permeabilità, risparmio idrico e impianti. Numerazione e requisiti quantitativi da acquisire dal nuovo allegato, senza trasferirli automaticamente dai CAM 2022.",
             "Identificare prima la categoria dell’appalto e il regime temporale applicabile."
           ]
+        },
+        {
+          "title": "CAM edilizia · Progettazione e lavori per interventi edilizi",
+          "ref": "D.M. 24/11/2025",
+          "summary": "CAMedilizia: gestione meteoriche, superfici permeabili, reti separate/duali e raccolta per usi non potabili, con campi di applicazione specifici per ciascun criterio.",
+          "focus": [
+            "§2.2.2: nuova costruzione, almeno60% permeabile e30% verde; condizioni diverse per altri interventi",
+            "§2.2.3: raccolta di deflussi puliti e trattamento di quelli contaminati",
+            "§2.3.14: separazione delle reti e contabilizzazione delle fonti",
+            "§2.3.15: raccolta meteoriche con esclusione delle manutenzioni ordinarie/straordinarie"
+          ]
         }
       ],
       "evidence": "Allegato 1 CAM edilizia: §§ 2.3.14–2.3.15 reti separate e raccolta/trattamento/stoccaggio/riuso meteorico. Testo MASE riprodotto dall’ANCE letto per la classificazione; nessun trasferimento automatico dei CAM 2022."
@@ -1851,7 +1889,9 @@
       ],
       "source_urls": [
         "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=24A04332&atto.dataPubblicazioneGazzetta=2024-08-23&tipoSerie=serie_generale&tipoVigenza=originario",
-        "https://www.gazzettaufficiale.it/eli/gu/2024/08/23/197/sg/pdf"
+        "https://www.gazzettaufficiale.it/eli/gu/2024/08/23/197/sg/pdf",
+        "https://www.gazzettaufficiale.it/eli/gu/2025/09/23/221/sg/pdf",
+        "https://www.mase.gov.it/portale/cam-vigenti"
       ],
       "object_versions": [
         {
@@ -1863,6 +1903,16 @@
             "§§ 2.3.8–2.3.9: tubazioni in gres ceramico e materiale plastico.",
             "§ 2.4.1: prestazioni ambientali del cantiere; verificare la protezione delle acque nel testo applicabile.",
             "Integrare i criteri di prodotto con la normativa sugli scarichi e le prescrizioni idrauliche del territorio."
+          ]
+        },
+        {
+          "title": "Criteri ambientali minimi per infrastrutture stradali",
+          "ref": "D.M. 05/08/2024 · CAM Strade",
+          "summary": "CAMStrade da applicare coordinando il decreto2024 con il correttivo2025 e il regime temporale della procedura; distinti criteri idraulici dei prodotti e regole generali.",
+          "focus": [
+            "§§2.3.7-2.3.9: canalette e tubazioni, testo2024 non modificato dall’art.1delcorrettivo2025",
+            "Correttivoart.1: campo1.1,PFTE1.3.1 e prove dei materiali",
+            "Correttivoartt.3-5: procedimenti in corso, deroghe180giorni ed efficacia24/09/2025"
           ]
         }
       ],
@@ -1919,7 +1969,9 @@
       ],
       "source_urls": [
         "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=25A05133&atto.dataPubblicazioneGazzetta=2025-09-23&tipoSerie=serie_generale&tipoVigenza=originario",
-        "https://www.gazzettaufficiale.it/eli/gu/2025/09/23/221/sg/pdf"
+        "https://www.gazzettaufficiale.it/eli/gu/2025/09/23/221/sg/pdf",
+        "https://www.gazzettaufficiale.it/eli/gu/2024/08/23/197/sg/pdf",
+        "https://www.mase.gov.it/portale/cam-vigenti"
       ],
       "object_versions": [
         {
@@ -1930,6 +1982,16 @@
             "Art. 1: modifiche all’allegato tecnico, comprese prescrizioni progettuali e prove dei materiali; il coordinamento integrale dei criteri idraulici resta da completare.",
             "Art. 3: applicazione anche ai procedimenti in corso, salvo art. 4; distinguere progettazione, lavori, affidamenti congiunti e progettazione interna.",
             "Art. 4: deroghe nei casi indicati per progetti non soggetti al DM 2024, con bando/avviso o invito entro 180 giorni dall’entrata in vigore."
+          ]
+        },
+        {
+          "title": "Modifiche all’allegato 1 del D.M. 05/08/2024",
+          "ref": "D.M. 11/09/2025 · correttivo CAM Strade",
+          "summary": "CAMStrade da applicare coordinando il decreto2024 con il correttivo2025 e il regime temporale della procedura; distinti criteri idraulici dei prodotti e regole generali.",
+          "focus": [
+            "§§2.3.7-2.3.9: canalette e tubazioni, testo2024 non modificato dall’art.1delcorrettivo2025",
+            "Correttivoart.1: campo1.1,PFTE1.3.1 e prove dei materiali",
+            "Correttivoartt.3-5: procedimenti in corso, deroghe180giorni ed efficacia24/09/2025"
           ]
         }
       ],
@@ -2302,11 +2364,39 @@
     },
     "dpr753": {
       "topics": [
-        "attraversamenti"
+        "attraversamenti",
+        "drenaggio"
       ],
       "source_urls": [
         "https://www.gazzettaufficiale.it/eli/gu/1980/11/15/314/so/0/sg/pdf",
-        "https://www.gazzettaufficiale.it/eli/id/1980/11/15/080U0753/sg"
+        "https://www.gazzettaufficiale.it/eli/id/1980/11/15/080U0753/sg",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=44&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=53&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=58&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=080U0753&atto.dataPubblicazioneGazzetta=1980-11-15&tipoDettaglio=vigente",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=1&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=1&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=49&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=50&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=51&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=52&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=54&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=55&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=56&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=57&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=59&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=60&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=36&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=37&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=46&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=47&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=48&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=38&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=39&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=40&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=41&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=42&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=43&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=45&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&"
       ],
       "object_versions": [
         {
@@ -2317,6 +2407,16 @@
             "Individuare il servizio di trasporto e l’autorità o il gestore competente",
             "Coordinare distanze, sicurezza e autorizzazioni con le norme tecniche speciali",
             "Non estendere automaticamente al testo originario una vigenza non verificata articolo per articolo"
+          ]
+        },
+        {
+          "title": "Polizia, sicurezza e regolarità dell’esercizio ferroviario",
+          "ref": "D.P.R. 753/1980",
+          "summary": "Scolo e immissioni nei fossi ferroviari, canali laterali, distanze specifiche di scavi/canali e autorizzazione delle interferenze; disciplina distinta per tipo di rete e servizio.",
+          "focus": [
+            "Artt.44-45: scolo, immissioni e canali laterali",
+            "Artt.36,49,53: campo di applicazione e distanze distinte",
+            "Artt.58,60: interferenze e deroghe condizionate"
           ]
         }
       ],

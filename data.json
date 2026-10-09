@@ -24,18 +24,18 @@
         "Demanio e polizia idraulica"
       ],
       "date": "1904-07-25",
-      "url": "https://www.gazzettaufficiale.it/eli/gu/1904/10/07/234/sg/pdf",
-      "summary": "Testo unico di riferimento per le opere idrauliche e gli interventi sui corsi d’acqua pubblici.",
+      "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=004U0523&atto.dataPubblicazioneGazzetta=1904-10-07&tipoDettaglio=vigente",
+      "summary": "Polizia delle acque e opere idrauliche: disposizioni pertinenti da leggere nel testo coordinato, distinguendo divieti, autorizzazioni e abrogazioni puntuali.",
       "focus": [
-        "Divieti e distanze di rispetto",
-        "Autorizzazioni per opere in alveo",
-        "Interferenze con ponti, strade e ferrovie"
+        "Artt.93-95: opere in alveo e difese senza alterazione del regime",
+        "Art.96f: disciplina locale e distanze sussidiarie, con riferimenti geometrici",
+        "Artt.97-98: parti abrogate/soppresse; competenze storiche da coordinare"
       ],
       "kind": "Atto normativo",
-      "status": "Vigenza da ricostruire",
-      "source_kind": "PDF ufficiale · Gazzetta Ufficiale",
+      "status": "Parzialmente abrogato · competenze e applicabilità territoriale da coordinare",
+      "source_kind": "Testo coordinato · Normattiva",
       "note": "Il collegamento principale apre il fascicolo ufficiale della Gazzetta Ufficiale contenente il testo originario. La ricostruzione della vigenza e delle modifiche successive resta da completare.",
-      "checked": "2026-09-19",
+      "checked": "2026-10-09",
       "relations": [],
       "history": [
         {
@@ -49,6 +49,10 @@
         {
           "date": "2026-09-18",
           "text": "Revisione manuale dei rimandi ai documenti e della relativa descrizione."
+        },
+        {
+          "date": "2026-10-09",
+          "text": "Fase3, lotto12: riesame documentale nel perimetro dichiarato; fonti e limiti nel registro del lotto."
         }
       ],
       "documents": [
@@ -60,31 +64,77 @@
       ],
       "document_url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=004U0523&atto.dataPubblicazioneGazzetta=1904-10-07&tipoSerie=serie_generale&tipoVigenza=originario",
       "document_label": "Testo originario · Gazzetta Ufficiale",
-      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto.",
+      "document_note": "GU e PDF storici conservati come versioni originarie. Il testo Normattiva evidenzia abrogazioni puntuali; autorità competente attuale da individuare per territorio.",
       "documentary_review": {
-        "checked_at": "2026-10-08",
-        "scope": "Lettura sostanziale circoscritta: Capo VII, artt. 93 e 96, lett. f); PDF p. 11, GU p. 4843",
+        "checked_at": "2026-10-09",
+        "scope": "Lettura Normattiva artt.1,2,93-98 e note: divieti, permessi e abrogazioni puntuali; coordinamento competenze attuali non concluso.",
         "outcome": "partial",
-        "legal_state": "partial",
-        "source_urls": [
-          "https://www.gazzettaufficiale.it/eli/gu/1904/10/07/234/sg/pdf"
-        ],
+        "legal_state": "partially_repealed",
         "claims": [
           {
             "aspect": "content",
-            "source_url": "https://www.gazzettaufficiale.it/eli/gu/1904/10/07/234/sg/pdf",
-            "locator": "Capo VII, artt. 93 e 96, lett. f); PDF p. 11, GU p. 4843",
-            "finding": "Il testo originario subordina le opere in alveo al permesso amministrativo; per le distanze dell’art. 96, lett. f), richiama prima la disciplina locale e, in sua assenza, distingue piantagioni/smovimenti da fabbriche/scavi. Non è attestata l’applicabilità attuale delle competenze originarie."
+            "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=93&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+            "locator": "Artt.93-95, testo coordinato",
+            "finding": "Opere in alveo richiedono permesso; il riferimento comprende rami/diversivi asciutti in parte dell’anno. Difese frontiste non devono alterare il regime né danneggiare diritti altrui."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=3&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=96&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+            "locator": "Art.96, lettere b,e,f,g,h",
+            "finding": "La lettera f richiama prima le discipline locali; sussidiariamente prevede4m per piantagioni/smovimenti e10m per fabbriche/scavi dal piede degli argini/accessori. Non è una distanza universale applicabile ignorando disciplina locale e riferimenti geometrici."
+          },
+          {
+            "aspect": "amendment",
+            "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=5&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=97&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+            "locator": "Art.97 e note; art.98 e note",
+            "finding": "Art.97 lettere f,g,h,i e art.98 lettere a,b,c risultano abrogati dal RD1775/1933; art.98 f soppresso dalla L774/1911. Art.97 k e98 d: abrogazione limitata alla parte compresa nell’art.217RD1775, come indicato dalle note. Il TU non è integralmente invariato."
           }
         ],
         "limitations": [
-          "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+          "Non letto integralmente il TU né ricostruiti riassetto delle competenze e regole regionali/locali."
         ],
         "pending": [
-          "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+          "Leggere direttamente artt.217/234RD1775 e verificare trasferimenti di competenza e disciplina del reticolo interessato."
         ],
-        "record_version": "9f892c5843631a0c07e5c2c501064b03cd985e1fdc119efd4c046ef6213fb084"
-      }
+        "source_urls": [
+          "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=93&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+          "https://www.normattiva.it/atto/caricaArticolo?art.versione=3&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=96&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+          "https://www.normattiva.it/atto/caricaArticolo?art.versione=5&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=97&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+          "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=004U0523&atto.dataPubblicazioneGazzetta=1904-10-07&tipoDettaglio=vigente",
+          "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=1&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=1&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+          "https://www.normattiva.it/atto/caricaArticolo?art.versione=3&art.idGruppo=1&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=2&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+          "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=94&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+          "https://www.normattiva.it/atto/caricaArticolo?art.versione=3&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=95&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+          "https://www.normattiva.it/atto/caricaArticolo?art.versione=5&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=98&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&"
+        ],
+        "record_version": "d8331b7739212dc053e1794011aebfbf2e878107dd8fab83cfd4d1f3d16bd441"
+      },
+      "documentary_history": [
+        {
+          "checked_at": "2026-10-08",
+          "scope": "Lettura sostanziale circoscritta: Capo VII, artt. 93 e 96, lett. f); PDF p. 11, GU p. 4843",
+          "outcome": "partial",
+          "legal_state": "partial",
+          "source_urls": [
+            "https://www.gazzettaufficiale.it/eli/gu/1904/10/07/234/sg/pdf"
+          ],
+          "claims": [
+            {
+              "aspect": "content",
+              "source_url": "https://www.gazzettaufficiale.it/eli/gu/1904/10/07/234/sg/pdf",
+              "locator": "Capo VII, artt. 93 e 96, lett. f); PDF p. 11, GU p. 4843",
+              "finding": "Il testo originario subordina le opere in alveo al permesso amministrativo; per le distanze dell’art. 96, lett. f), richiama prima la disciplina locale e, in sua assenza, distingue piantagioni/smovimenti da fabbriche/scavi. Non è attestata l’applicabilità attuale delle competenze originarie."
+            }
+          ],
+          "limitations": [
+            "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+          ],
+          "pending": [
+            "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+          ],
+          "record_version": "9f892c5843631a0c07e5c2c501064b03cd985e1fdc119efd4c046ef6213fb084"
+        }
+      ]
     },
     {
       "id": "rd1775",
@@ -2176,7 +2226,7 @@
         "Trattamento acque di prima pioggia"
       ],
       "date": "2008-01-21",
-      "url": "https://ambiente.provincia.bz.it/it/acqua/acque-meteoriche",
+      "url": "https://bollettino.regione.taa.it/pdf/I-II/2008/11/S1/S111080151963.pdf",
       "summary": "Regolamento attuativo della L.P. 8/2002: il capo IV disciplina classificazione, raccolta, trattamento, infiltrazione e smaltimento sostenibile delle acque meteoriche, comprese le acque di prima pioggia.",
       "focus": [
         "Classificazione delle acque meteoriche in non inquinate, moderatamente inquinate, inquinate e sistematicamente inquinate",
@@ -2185,10 +2235,10 @@
         "Regolamenti comunali di fognatura e depurazione previsti dall'art. 2"
       ],
       "kind": "Atto normativo",
-      "status": "Testo originario identificato · modifiche accertate; coordinamento da verificare",
-      "source_kind": "Pagina tematica ufficiale · Provincia autonoma di Bolzano",
-      "note": "Il capo IV disciplina le acque meteoriche; gli artt. 37–47 sono identificati nel testo originario ufficiale. Sono riscontrate modifiche successive, fra cui quelle dell’art. 53 introdotte dal D.P.P. 22 maggio 2025 n. 9 e quelle degli artt. 14 e 16 nell’atto GU 25R00132. Il PDF della GU reca Omissis per gli allegati. Non è attestata la completezza della catena modificativa né la vigenza dell’intero testo coordinato.",
-      "checked": "2026-10-08",
+      "status": "Modificato · testo coordinato e catena completa da verificare",
+      "source_kind": "BUR · originario e atti modificativi distinti",
+      "note": "Recuperati capoIV eAllegatoA nel BUR2008. Modificativi riscontrati:2/2016,44/2020,13/2022,1/2024,19/2024,9/2025. Verifica circoscritta, senza attestare assenza di ulteriori atti plurimateria.",
+      "checked": "2026-10-09",
       "relations": [
         {
           "id": "bzpta",
@@ -2211,6 +2261,10 @@
         {
           "date": "2026-09-24",
           "text": "Scheda aggiunta dopo verifica delle pagine provinciali Acque meteoriche e Regolamento di fognatura."
+        },
+        {
+          "date": "2026-10-09",
+          "text": "Fase3, lotto12: riesame documentale nel perimetro dichiarato; fonti e limiti nel registro del lotto."
         }
       ],
       "documents": [
@@ -2220,55 +2274,93 @@
           "format": "pdf",
           "link_status": "checked",
           "link_checked": "2026-10-08"
+        },
+        {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2008/11/S1/S111080151963.pdf",
+          "label": "PDFBUR · DPP6/2008 originario completo",
+          "format": "pdf"
+        },
+        {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2016/5/BO/BO051601104672.pdf",
+          "label": "PDFBUR · atto modificativo del DPP6/2008",
+          "format": "pdf"
+        },
+        {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2020/49/BO/BO492001190266.pdf",
+          "label": "PDFBUR · atto modificativo del DPP6/2008",
+          "format": "pdf"
+        },
+        {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2022/24/BO/BO242201193179.pdf",
+          "label": "PDFBUR · atto modificativo del DPP6/2008",
+          "format": "pdf"
+        },
+        {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2024/10/BO/BO102401196101.pdf",
+          "label": "PDFBUR · atto modificativo del DPP6/2008",
+          "format": "pdf"
+        },
+        {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2024/38/BO/BO382401196906.pdf",
+          "label": "PDFBUR · atto modificativo del DPP6/2008",
+          "format": "pdf"
+        },
+        {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2025/22/BO/BO222501197979.pdf",
+          "label": "PDFBUR · atto modificativo del DPP6/2008",
+          "format": "pdf"
         }
       ],
       "source_status": "checked",
-      "document_note": "GU Regioni n. 4 del 24/01/2009, pp. 17–35: articoli del testo originario, allegati omessi. Il PDF non incorpora le modifiche successive; testo coordinato e allegati da reperire.",
+      "document_note": "Aggiunto BURoriginario completo50p conAllegatoA e fonti modificative. Il PDFGU storico conserva il suo ruolo; nessun documento è etichettato falsamente come coordinato.",
       "documentary_review": {
-        "checked_at": "2026-10-08",
-        "scope": "Identità e capo IV del testo originario; riscontro di modifiche successive",
+        "checked_at": "2026-10-09",
+        "scope": "Riesame del BUR originario completo, capoIVpp.29-36 eAllegatoAp.50; catena di sei modificativi reperiti, letture circoscritte indicate. Testo coordinato Lexbrowser non acquisito.",
         "outcome": "partial",
         "legal_state": "amended",
-        "source_urls": [
-          "https://www.gazzettaufficiale.it/eli/id/2009/01/24/008R0294/s3",
-          "https://www.gazzettaufficiale.it/eli/gu/2009/01/24/4/s3/pdf",
-          "https://www.gazzettaufficiale.it/atto/regioni/caricaArticoloDefault/originario?atto.codiceRedazionale=25R00323&atto.dataPubblicazioneGazzetta=2026-06-13&atto.tipoProvvedimento=DECRETO+DEL+PRESIDENTE+DELLA+PROVINCIA",
-          "https://www.gazzettaufficiale.it/atto/regioni/caricaArticolo?art.codiceRedazionale=25R00132&art.dataPubblicazioneGazzetta=2025-06-21&art.idArticolo=3&art.idGruppo=0&art.idSottoArticolo=1&art.progressivo=0&art.versione=1"
-        ],
         "claims": [
           {
-            "aspect": "identity",
-            "source_url": "https://www.gazzettaufficiale.it/eli/id/2009/01/24/008R0294/s3",
-            "locator": "Atto 008R0294, intestazione",
-            "finding": "Decreto del Presidente della Provincia autonoma di Bolzano 21 gennaio 2008 n. 6, attuativo della L.P. 8/2002."
+            "aspect": "content",
+            "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2008/11/S1/S111080151963.pdf",
+            "locator": "CapoIV artt.37-47, PDFpp.29-36",
+            "finding": "Testo originario: quattro categorie di meteoriche; prima pioggia5mm/15min; riclassificazione delle frazioni prima/seconda pioggia; regolamenti comunali per riutilizzo e disciplina di infiltrazione/ritenzione. Art.44 rinvia agli allegatiD/G della LP8/2002, non ad allegati del solo decreto."
           },
           {
             "aspect": "content",
-            "source_url": "https://www.gazzettaufficiale.it/eli/gu/2009/01/24/4/s3/pdf",
-            "locator": "GU Regioni n. 4 del 24 gennaio 2009, pp. 17–35; capo IV, artt. 37–47, pp. 27–29",
-            "finding": "Gestione delle acque meteoriche e di lavaggio; art. 37 raccolta/riutilizzo e dispersione; artt. 38–39 definizioni e classificazione. Il fascicolo termina l’atto con Omissis."
+            "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2008/11/S1/S111080151963.pdf",
+            "locator": "AllegatoA, PDFp.50",
+            "finding": "AllegatoA presente nel BUR integrale: criteri per abitanti equivalenti biologici/idraulici; non un allegato di dimensionamento della prima pioggia."
           },
           {
             "aspect": "amendment",
-            "source_url": "https://www.gazzettaufficiale.it/atto/regioni/caricaArticoloDefault/originario?atto.codiceRedazionale=25R00323&atto.dataPubblicazioneGazzetta=2026-06-13&atto.tipoProvvedimento=DECRETO+DEL+PRESIDENTE+DELLA+PROVINCIA",
-            "locator": "D.P.P. 22 maggio 2025 n. 9, art. 1",
-            "finding": "Soppressione del secondo periodo dell’art. 53 comma 3 e sostituzione dei commi 5 e 6; BUR del 29 maggio 2025 n. 22, richiamato dalla GU."
+            "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2022/24/BO/BO242201193179.pdf",
+            "locator": "DPP13/2022 artt.1,4,5, PDFp.3; note46p.5 e65p.12",
+            "finding": "Dal17/06/2022 art.46c3 richiede parere per meteoriche inquinate art.39c1c numeri1/3 e sistematicamente inquinate; art.65c1f allineato. BUR16/06 eclausola giorno successivo. Il comma originario non va trattato come attuale."
           },
           {
             "aspect": "amendment",
-            "source_url": "https://www.gazzettaufficiale.it/atto/regioni/caricaArticolo?art.codiceRedazionale=25R00132&art.dataPubblicazioneGazzetta=2025-06-21&art.idArticolo=3&art.idGruppo=0&art.idSottoArticolo=1&art.progressivo=0&art.versione=1",
-            "locator": "Atto GU 25R00132, art. 3",
-            "finding": "Sono modificati gli artt. 14 e 16 del D.P.P. 6/2008; questo riscontro non ricostruisce l’intera successione normativa."
+            "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2025/22/BO/BO222501197979.pdf",
+            "locator": "DPP9/2025 artt.1-2, PDFp.3, BUR29/05/2025",
+            "finding": "Modifica art.53c3/5/6; efficacia30/05/2025. Non si attende la pubblicazioneGU13/06/2026 per attribuire efficacia provinciale."
           }
         ],
         "limitations": [
-          "PDF della GU originario: allegati omessi e modifiche successive non consolidate.",
-          "Lexbrowser restituisce pagina di attesa per troppe richieste; acquisizione diretta della pagina tematica restituisce solo Loading, mentre la consultazione indicizzata espone il richiamo al capo IV."
+          "Lexbrowser restituisce TooManyRequests anche conHTTP200: nessun testo coordinato acquisito.",
+          "Modificativi2016/2020/2024 letti nei passaggi indicati dal dossier, non in ogni disposizione; possibili atti plurimateria ancora da censire."
         ],
         "pending": [
-          "Reperire allegati e testo coordinato ufficiale; ricostruire l’intera catena modificativa e l’efficacia delle disposizioni."
+          "Acquisire coordinato ufficiale e completare catena, LP8/2002 allegatiD/G e regolamenti comunali del progetto."
         ],
-        "record_version": "a8d78a1f8145cba3d100fb21fb026702f1db6bcb55190863bf0032528e7d340a"
+        "source_urls": [
+          "https://bollettino.regione.taa.it/pdf/I-II/2008/11/S1/S111080151963.pdf",
+          "https://bollettino.regione.taa.it/pdf/I-II/2022/24/BO/BO242201193179.pdf",
+          "https://bollettino.regione.taa.it/pdf/I-II/2025/22/BO/BO222501197979.pdf",
+          "https://bollettino.regione.taa.it/pdf/I-II/2016/5/BO/BO051601104672.pdf",
+          "https://bollettino.regione.taa.it/pdf/I-II/2020/49/BO/BO492001190266.pdf",
+          "https://bollettino.regione.taa.it/pdf/I-II/2024/10/BO/BO102401196101.pdf",
+          "https://bollettino.regione.taa.it/pdf/I-II/2024/38/BO/BO382401196906.pdf"
+        ],
+        "record_version": "9e6e911fa731162d94de16d23a5aa4f96bcfffa9ebb2993936af294f7cc7fba2"
       },
       "documentary_history": [
         {
@@ -2362,8 +2454,55 @@
             "Reperire allegati e testo coordinato ufficiale; ricostruire l’intera catena modificativa e l’efficacia delle disposizioni."
           ],
           "record_version": "cee2c782223dea657190721133a2c4aa2ed0f7a00fd95365bb04d57dc8a992fa"
+        },
+        {
+          "checked_at": "2026-10-08",
+          "scope": "Identità e capo IV del testo originario; riscontro di modifiche successive",
+          "outcome": "partial",
+          "legal_state": "amended",
+          "source_urls": [
+            "https://www.gazzettaufficiale.it/eli/id/2009/01/24/008R0294/s3",
+            "https://www.gazzettaufficiale.it/eli/gu/2009/01/24/4/s3/pdf",
+            "https://www.gazzettaufficiale.it/atto/regioni/caricaArticoloDefault/originario?atto.codiceRedazionale=25R00323&atto.dataPubblicazioneGazzetta=2026-06-13&atto.tipoProvvedimento=DECRETO+DEL+PRESIDENTE+DELLA+PROVINCIA",
+            "https://www.gazzettaufficiale.it/atto/regioni/caricaArticolo?art.codiceRedazionale=25R00132&art.dataPubblicazioneGazzetta=2025-06-21&art.idArticolo=3&art.idGruppo=0&art.idSottoArticolo=1&art.progressivo=0&art.versione=1"
+          ],
+          "claims": [
+            {
+              "aspect": "identity",
+              "source_url": "https://www.gazzettaufficiale.it/eli/id/2009/01/24/008R0294/s3",
+              "locator": "Atto 008R0294, intestazione",
+              "finding": "Decreto del Presidente della Provincia autonoma di Bolzano 21 gennaio 2008 n. 6, attuativo della L.P. 8/2002."
+            },
+            {
+              "aspect": "content",
+              "source_url": "https://www.gazzettaufficiale.it/eli/gu/2009/01/24/4/s3/pdf",
+              "locator": "GU Regioni n. 4 del 24 gennaio 2009, pp. 17–35; capo IV, artt. 37–47, pp. 27–29",
+              "finding": "Gestione delle acque meteoriche e di lavaggio; art. 37 raccolta/riutilizzo e dispersione; artt. 38–39 definizioni e classificazione. Il fascicolo termina l’atto con Omissis."
+            },
+            {
+              "aspect": "amendment",
+              "source_url": "https://www.gazzettaufficiale.it/atto/regioni/caricaArticoloDefault/originario?atto.codiceRedazionale=25R00323&atto.dataPubblicazioneGazzetta=2026-06-13&atto.tipoProvvedimento=DECRETO+DEL+PRESIDENTE+DELLA+PROVINCIA",
+              "locator": "D.P.P. 22 maggio 2025 n. 9, art. 1",
+              "finding": "Soppressione del secondo periodo dell’art. 53 comma 3 e sostituzione dei commi 5 e 6; BUR del 29 maggio 2025 n. 22, richiamato dalla GU."
+            },
+            {
+              "aspect": "amendment",
+              "source_url": "https://www.gazzettaufficiale.it/atto/regioni/caricaArticolo?art.codiceRedazionale=25R00132&art.dataPubblicazioneGazzetta=2025-06-21&art.idArticolo=3&art.idGruppo=0&art.idSottoArticolo=1&art.progressivo=0&art.versione=1",
+              "locator": "Atto GU 25R00132, art. 3",
+              "finding": "Sono modificati gli artt. 14 e 16 del D.P.P. 6/2008; questo riscontro non ricostruisce l’intera successione normativa."
+            }
+          ],
+          "limitations": [
+            "PDF della GU originario: allegati omessi e modifiche successive non consolidate.",
+            "Lexbrowser restituisce pagina di attesa per troppe richieste; acquisizione diretta della pagina tematica restituisce solo Loading, mentre la consultazione indicizzata espone il richiamo al capo IV."
+          ],
+          "pending": [
+            "Reperire allegati e testo coordinato ufficiale; ricostruire l’intera catena modificativa e l’efficacia delle disposizioni."
+          ],
+          "record_version": "a8d78a1f8145cba3d100fb21fb026702f1db6bcb55190863bf0032528e7d340a"
         }
-      ]
+      ],
+      "document_label": "Apri il testo originario completo nel BUR"
     },
     {
       "id": "bz23",
@@ -5555,18 +5694,18 @@
       ],
       "date": "2025-11-24",
       "url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=25A06516&atto.dataPubblicazioneGazzetta=2025-12-03&tipoSerie=serie_generale&tipoVigenza=originario",
-      "summary": "Nuovo riferimento CAM edilizia; sostituzione del decreto del 2022 con disposizioni transitorie da verificare per la singola procedura.",
+      "summary": "CAMedilizia: gestione meteoriche, superfici permeabili, reti separate/duali e raccolta per usi non potabili, con campi di applicazione specifici per ciascun criterio.",
       "focus": [
-        "Art. 4: abroga il D.M. 23/06/2022 n. 256 e il relativo modificativo del 05/08/2024; efficacia dopo 60 giorni dalla pubblicazione.",
-        "Art. 2: disciplina transitoria legata a progetti validati sotto il precedente quadro e alla pubblicazione del bando o all’invito entro tre mesi dalla validazione, nei casi indicati.",
-        "Approfondimenti idraulici nell’allegato MASE: gestione delle acque, permeabilità, risparmio idrico e impianti. Numerazione e requisiti quantitativi da acquisire dal nuovo allegato, senza trasferirli automaticamente dai CAM 2022.",
-        "Identificare prima la categoria dell’appalto e il regime temporale applicabile."
+        "§2.2.2: nuova costruzione, almeno60% permeabile e30% verde; condizioni diverse per altri interventi",
+        "§2.2.3: raccolta di deflussi puliti e trattamento di quelli contaminati",
+        "§2.3.14: separazione delle reti e contabilizzazione delle fonti",
+        "§2.3.15: raccolta meteoriche con esclusione delle manutenzioni ordinarie/straordinarie"
       ],
       "kind": "Atto normativo",
       "status": "Vigente dal 1 febbraio 2026",
       "source_kind": "Gazzetta Ufficiale",
-      "note": "Pubblicato nella G.U. n. 281 del 3 dicembre 2025 ed entrato in vigore sessanta giorni dopo. Il previgente D.M. 256/2022 è rimosso dal catalogo attivo; i casi transitori devono essere verificati puntualmente ai sensi dell’art. 2.",
-      "checked": "2026-09-19",
+      "note": "AcquisitoAllegato1MASE e letti cinque criteri idraulici con relativa applicazione. Le quote60/30non sono estese a ogni ristrutturazione; la definizioneCAM5mm non sostituisce la disciplina territoriale.",
+      "checked": "2026-10-09",
       "relations": [
         {
           "type": "Sostituisce, salvo disciplina transitoria",
@@ -5602,10 +5741,14 @@
         {
           "date": "2026-09-18",
           "text": "Verificata l’entrata in vigore; rimosso dal catalogo attivo il D.M. 256/2022, espressamente abrogato, mantenendo l’avvertenza sul regime transitorio."
+        },
+        {
+          "date": "2026-10-09",
+          "text": "Fase3, lotto12: riesame documentale nel perimetro dichiarato; fonti e limiti nel registro del lotto."
         }
       ],
       "document_label": "D.M. 24 novembre 2025 · Gazzetta Ufficiale",
-      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto.",
+      "document_note": "Allegato1MASE123p acquisito. Lettura sostanziale dei criteri idraulici e dei loro campi di applicazione; decretoGU e modello di relazione restano documenti distinti.",
       "documents": [
         {
           "url": "https://www.gazzettaufficiale.it/eli/gu/2025/12/03/281/sg/pdf",
@@ -5628,35 +5771,74 @@
         }
       ],
       "documentary_review": {
-        "checked_at": "2026-10-08",
-        "scope": "Lettura sostanziale circoscritta: Artt. 1 e 2; PDF pp. 89-90, GU pp. 85-86; Art. 4 e intestazione GU 3 dicembre 2025",
+        "checked_at": "2026-10-09",
+        "scope": "Allegato1MASE: lettura criteri idraulici2.2.2-2.2.3pp.39-43,2.3.14-2.3.15pp.63-64 e relativi campi di applicazione; controllo pagina ministerialeCAMvigenti.",
         "outcome": "partial",
         "legal_state": "partial",
-        "source_urls": [
-          "https://www.gazzettaufficiale.it/eli/gu/2025/12/03/281/sg/pdf"
-        ],
         "claims": [
           {
             "aspect": "content",
-            "source_url": "https://www.gazzettaufficiale.it/eli/gu/2025/12/03/281/sg/pdf",
-            "locator": "Artt. 1 e 2; PDF pp. 89-90, GU pp. 85-86",
-            "finding": "Il decreto adotta l’Allegato 1 e distingue nuove procedure, progetti interni non ancora validati e casi transitori che continuano ad applicare i CAM 2022/2024. Il fascicolo GU rinvia all’Allegato 1 sul sito MASE senza riprodurne il contenuto tecnico completo."
+            "source_url": "https://www.mase.gov.it/portale/documents/d/guest/allegato_1_cam_edilizia_30_10_25-def-pdf",
+            "locator": "§2.2.2, indicazioni ecomma2a, PDFpp.39-41",
+            "finding": "Per nuova costruzione: superficie permeabile almeno60% della superficie territoriale di progetto, verde almeno30%. Superficie permeabile con coefficiente di deflusso inferiore0,50; non conteggiata se confinata su tutti i lati da impermeabili che impediscono deflusso verso falda. Altre tipologie hanno condizioni proprie."
           },
           {
-            "aspect": "effectiveness",
-            "source_url": "https://www.gazzettaufficiale.it/eli/gu/2025/12/03/281/sg/pdf",
-            "locator": "Art. 4 e intestazione GU 3 dicembre 2025",
-            "finding": "L’entrata in vigore è fissata dopo sessanta giorni dalla pubblicazione, corrispondenti al 1 febbraio 2026; l’abrogazione dei decreti 2022/2024 si coordina con le disposizioni transitorie, senza sostituzione indistinta di tutte le gare."
+            "aspect": "content",
+            "source_url": "https://www.mase.gov.it/portale/documents/d/guest/allegato_1_cam_edilizia_30_10_25-def-pdf",
+            "locator": "§2.2.3, PDFpp.42-43",
+            "finding": "Gestione sostenibile: reti separate; acque pulite a raccolta per irrigazione/WC, dimensionamentoUNI/TS11445 eUNI805 o equivalenti; dilavamento contaminato da trattare. DefinizioneCAM prima pioggia primi5mm dell’evento indipendente: non soglia regionale universale."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.mase.gov.it/portale/documents/d/guest/allegato_1_cam_edilizia_30_10_25-def-pdf",
+            "locator": "§§2.3.14-2.3.15, PDFpp.63-64",
+            "finding": "Reti separate meteoriche/grigie/nere e duali con contatori secondo campo di applicazione. Criterio raccolta meteoriche2.3.15 per nuove costruzioni comprese demolizione/ricostruzione e altre opere con captazione: non applicabile a manutenzione ordinaria o straordinaria; preservate norme locali più restrittive."
           }
         ],
         "limitations": [
-          "L’Allegato 1 tecnico non è riprodotto nel fascicolo GU esaminato."
+          "Non riesaminati tutti123p, ogni criterio ambientale o eventuali atti ulteriori."
         ],
         "pending": [
-          "Acquisire l’Allegato 1 MASE e verificare ogni criterio idraulico e successivi atti."
+          "Confrontare campo del singolo appalto, disciplina locale più restrittiva e criteri non idraulici pertinenti."
         ],
-        "record_version": "2fb0717558d80afb9af123c3e5f418c84959431129c4128ce630aaa0d9877796"
-      }
+        "source_urls": [
+          "https://www.mase.gov.it/portale/documents/d/guest/allegato_1_cam_edilizia_30_10_25-def-pdf",
+          "https://www.mase.gov.it/portale/cam-vigenti"
+        ],
+        "record_version": "5033225cbde3e3e09bf21597850b6143db2d7c5cd78eba292f1f0299bb14ac6c"
+      },
+      "documentary_history": [
+        {
+          "checked_at": "2026-10-08",
+          "scope": "Lettura sostanziale circoscritta: Artt. 1 e 2; PDF pp. 89-90, GU pp. 85-86; Art. 4 e intestazione GU 3 dicembre 2025",
+          "outcome": "partial",
+          "legal_state": "partial",
+          "source_urls": [
+            "https://www.gazzettaufficiale.it/eli/gu/2025/12/03/281/sg/pdf"
+          ],
+          "claims": [
+            {
+              "aspect": "content",
+              "source_url": "https://www.gazzettaufficiale.it/eli/gu/2025/12/03/281/sg/pdf",
+              "locator": "Artt. 1 e 2; PDF pp. 89-90, GU pp. 85-86",
+              "finding": "Il decreto adotta l’Allegato 1 e distingue nuove procedure, progetti interni non ancora validati e casi transitori che continuano ad applicare i CAM 2022/2024. Il fascicolo GU rinvia all’Allegato 1 sul sito MASE senza riprodurne il contenuto tecnico completo."
+            },
+            {
+              "aspect": "effectiveness",
+              "source_url": "https://www.gazzettaufficiale.it/eli/gu/2025/12/03/281/sg/pdf",
+              "locator": "Art. 4 e intestazione GU 3 dicembre 2025",
+              "finding": "L’entrata in vigore è fissata dopo sessanta giorni dalla pubblicazione, corrispondenti al 1 febbraio 2026; l’abrogazione dei decreti 2022/2024 si coordina con le disposizioni transitorie, senza sostituzione indistinta di tutte le gare."
+            }
+          ],
+          "limitations": [
+            "L’Allegato 1 tecnico non è riprodotto nel fascicolo GU esaminato."
+          ],
+          "pending": [
+            "Acquisire l’Allegato 1 MASE e verificare ogni criterio idraulico e successivi atti."
+          ],
+          "record_version": "2fb0717558d80afb9af123c3e5f418c84959431129c4128ce630aaa0d9877796"
+        }
+      ]
     },
     {
       "id": "camstrade2024",
@@ -5671,18 +5853,17 @@
       ],
       "date": "2024-08-05",
       "url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=24A04332&atto.dataPubblicazioneGazzetta=2024-08-23&tipoSerie=serie_generale&tipoVigenza=originario",
-      "summary": "CAM per progettazione, costruzione, manutenzione e adeguamento stradale, con criteri specifici per drenaggi e tubazioni.",
+      "summary": "CAMStrade da applicare coordinando il decreto2024 con il correttivo2025 e il regime temporale della procedura; distinti criteri idraulici dei prodotti e regole generali.",
       "focus": [
-        "Allegato 1, § 2.3.7: sistemi di drenaggio lineare.",
-        "§§ 2.3.8–2.3.9: tubazioni in gres ceramico e materiale plastico.",
-        "§ 2.4.1: prestazioni ambientali del cantiere; verificare la protezione delle acque nel testo applicabile.",
-        "Integrare i criteri di prodotto con la normativa sugli scarichi e le prescrizioni idrauliche del territorio."
+        "§§2.3.7-2.3.9: canalette e tubazioni, testo2024 non modificato dall’art.1delcorrettivo2025",
+        "Correttivoart.1: campo1.1,PFTE1.3.1 e prove dei materiali",
+        "Correttivoartt.3-5: procedimenti in corso, deroghe180giorni ed efficacia24/09/2025"
       ],
       "kind": "Atto normativo",
       "status": "Vigente come modificato dal D.M. 11 settembre 2025",
       "source_kind": "Gazzetta Ufficiale",
-      "note": "Il D.M. 5 agosto 2024 resta il testo-base dei CAM Strade e deve essere applicato con le modifiche del D.M. 11 settembre 2025. Verificare anche le disposizioni transitorie del correttivo.",
-      "checked": "2026-09-18",
+      "note": "Riesaminato il correttivo e confrontati i criteri idraulici. Il regime del contratto va ricostruito con date dei progetti e inviti/bandi. PDF2024 e2025restano versioni distinte.",
+      "checked": "2026-10-09",
       "relations": [
         {
           "type": "Quadro degli appalti",
@@ -5711,6 +5892,10 @@
         {
           "date": "2026-09-18",
           "text": "Reperito il correttivo ufficiale 2025; conservata la versione precedente."
+        },
+        {
+          "date": "2026-10-09",
+          "text": "Fase3, lotto12: riesame documentale nel perimetro dichiarato; fonti e limiti nel registro del lotto."
         }
       ],
       "documents": [
@@ -5720,31 +5905,71 @@
           "format": "pdf"
         }
       ],
-      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto.",
+      "document_note": "FascicoliGU2024 e2025distinti; il testo2024non è etichettato come coordinato autonomo.",
       "documentary_review": {
-        "checked_at": "2026-10-08",
-        "scope": "Lettura sostanziale circoscritta: Allegato 1, §§ 2.3.7-2.3.9; PDF p. 44, GU p. 42",
+        "checked_at": "2026-10-09",
+        "scope": "Confronto Allegato1del2024 §§2.3.7-2.3.9 (PDFp.44) con tutti41commi art.1delcorrettivo2025 e artt.3-5 (PDFpp.4-7); controllo paginaMASECAMvigenti.",
         "outcome": "partial",
-        "legal_state": "partial",
-        "source_urls": [
-          "https://www.gazzettaufficiale.it/eli/gu/2024/08/23/197/sg/pdf"
-        ],
+        "legal_state": "amended",
         "claims": [
+          {
+            "aspect": "amendment",
+            "source_url": "https://www.gazzettaufficiale.it/eli/gu/2025/09/23/221/sg/pdf",
+            "locator": "Art.1, commi1-41, PDFpp.4-6",
+            "finding": "Il correttivo cambia campo di applicazione1.1 e anticipa approfondimento dei requisiti alPFTE(1.3.1). Nessun comma di questo art.1 modifica i criteri2.3.7-2.3.9 su canalette/gres/plastiche: questi restano nel testo2024, da leggere insieme alle modifiche generali."
+          },
+          {
+            "aspect": "effectiveness",
+            "source_url": "https://www.gazzettaufficiale.it/eli/gu/2025/09/23/221/sg/pdf",
+            "locator": "Artt.3-5, PDFp.7",
+            "finding": "Entrata in vigore24/09/2025; applicazione ai procedimenti in corso salvo derogheart.4 per progetti pregressi e bandi/avvisi/inviti entro180giorni. L’applicazione al singolo contratto richiede ricostruzione della sua procedura."
+          },
           {
             "aspect": "content",
             "source_url": "https://www.gazzettaufficiale.it/eli/gu/2024/08/23/197/sg/pdf",
-            "locator": "Allegato 1, §§ 2.3.7-2.3.9; PDF p. 44, GU p. 42",
-            "finding": "Il testo del 2024 distingue canalette conformi a UNI EN 1433, tubazioni in gres e tubazioni plastiche, con requisiti separati di materiale riciclato. Sono letti i criteri originari; il testo va coordinato con il correttivo del 2025."
+            "locator": "Allegato1 §§2.3.7-2.3.9, PDFp.44",
+            "finding": "Criteri distinti per canalette conformiUNI1433, tubazioni in gres e plastiche; il correttivo generale non consente di presentare il soloPDF2024 come testo integralmente coordinato."
           }
         ],
         "limitations": [
-          "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+          "Non riesaminati tutti i criteri del decreto2024 né certificata la conformità della singola gara."
         ],
         "pending": [
-          "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+          "Verificare date/stadio della procedura e criteri progettuali/cantiere specifici dell’intervento."
         ],
-        "record_version": "15d0ed5e731284dbd385f4dee2bbd5c032f27d98abde96b24f894833b4997f8f"
-      }
+        "source_urls": [
+          "https://www.gazzettaufficiale.it/eli/gu/2025/09/23/221/sg/pdf",
+          "https://www.gazzettaufficiale.it/eli/gu/2024/08/23/197/sg/pdf",
+          "https://www.mase.gov.it/portale/cam-vigenti"
+        ],
+        "record_version": "1a3858c3f6ba45abd77df0f86fe6d8811948cd1f5b48e2e0397071ed83a27880"
+      },
+      "documentary_history": [
+        {
+          "checked_at": "2026-10-08",
+          "scope": "Lettura sostanziale circoscritta: Allegato 1, §§ 2.3.7-2.3.9; PDF p. 44, GU p. 42",
+          "outcome": "partial",
+          "legal_state": "partial",
+          "source_urls": [
+            "https://www.gazzettaufficiale.it/eli/gu/2024/08/23/197/sg/pdf"
+          ],
+          "claims": [
+            {
+              "aspect": "content",
+              "source_url": "https://www.gazzettaufficiale.it/eli/gu/2024/08/23/197/sg/pdf",
+              "locator": "Allegato 1, §§ 2.3.7-2.3.9; PDF p. 44, GU p. 42",
+              "finding": "Il testo del 2024 distingue canalette conformi a UNI EN 1433, tubazioni in gres e tubazioni plastiche, con requisiti separati di materiale riciclato. Sono letti i criteri originari; il testo va coordinato con il correttivo del 2025."
+            }
+          ],
+          "limitations": [
+            "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+          ],
+          "pending": [
+            "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+          ],
+          "record_version": "15d0ed5e731284dbd385f4dee2bbd5c032f27d98abde96b24f894833b4997f8f"
+        }
+      ]
     },
     {
       "id": "camverde2020",
@@ -5919,17 +6144,17 @@
       "date": "2025-09-11",
       "url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=25A05133&atto.dataPubblicazioneGazzetta=2025-09-23&tipoSerie=serie_generale&tipoVigenza=originario",
       "document_label": "Consulta il correttivo in Gazzetta Ufficiale",
-      "summary": "Correttivo verificato sulla GU: da applicare insieme ai CAM Strade 2024, ricostruendo il regime della singola procedura.",
+      "summary": "CAMStrade da applicare coordinando il decreto2024 con il correttivo2025 e il regime temporale della procedura; distinti criteri idraulici dei prodotti e regole generali.",
       "focus": [
-        "Art. 1: modifiche all’allegato tecnico, comprese prescrizioni progettuali e prove dei materiali; il coordinamento integrale dei criteri idraulici resta da completare.",
-        "Art. 3: applicazione anche ai procedimenti in corso, salvo art. 4; distinguere progettazione, lavori, affidamenti congiunti e progettazione interna.",
-        "Art. 4: deroghe nei casi indicati per progetti non soggetti al DM 2024, con bando/avviso o invito entro 180 giorni dall’entrata in vigore."
+        "§§2.3.7-2.3.9: canalette e tubazioni, testo2024 non modificato dall’art.1delcorrettivo2025",
+        "Correttivoart.1: campo1.1,PFTE1.3.1 e prove dei materiali",
+        "Correttivoartt.3-5: procedimenti in corso, deroghe180giorni ed efficacia24/09/2025"
       ],
       "kind": "Atto normativo",
       "status": "Vigente dal 24 settembre 2025 · correttivo CAM Strade",
       "source_kind": "Gazzetta Ufficiale",
-      "note": "Il decreto modifica l’allegato 1 del D.M. 5 agosto 2024; l’art. 5 ne dispone l’entrata in vigore il giorno successivo alla pubblicazione. Gli artt. 3 e 4 regolano applicazione e deroghe transitorie.",
-      "checked": "2026-09-18",
+      "note": "Riesaminato il correttivo e confrontati i criteri idraulici. Il regime del contratto va ricostruito con date dei progetti e inviti/bandi. PDF2024 e2025restano versioni distinte.",
+      "checked": "2026-10-09",
       "relations": [
         {
           "type": "Quadro degli appalti",
@@ -5948,6 +6173,10 @@
         {
           "date": "2026-09-18",
           "text": "Inserimento retrospettivo su testo ufficiale GU; pubblicazione del Site sospesa fino alla validazione documentale."
+        },
+        {
+          "date": "2026-10-09",
+          "text": "Fase3, lotto12: riesame documentale nel perimetro dichiarato; fonti e limiti nel registro del lotto."
         }
       ],
       "publication_date": "2025-09-23",
@@ -5959,37 +6188,77 @@
           "format": "pdf"
         }
       ],
-      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto.",
+      "document_note": "FascicoliGU2024 e2025distinti; il testo2024non è etichettato come coordinato autonomo.",
       "documentary_review": {
-        "checked_at": "2026-10-08",
-        "scope": "Lettura sostanziale circoscritta: Art. 1, modifiche ai §§ 2.3.1-2.3.5 e 2.4.1-2.4.4; PDF pp. 5-6; Artt. 3-5; PDF p. 7, GU p. 5",
+        "checked_at": "2026-10-09",
+        "scope": "Confronto Allegato1del2024 §§2.3.7-2.3.9 (PDFp.44) con tutti41commi art.1delcorrettivo2025 e artt.3-5 (PDFpp.4-7); controllo paginaMASECAMvigenti.",
         "outcome": "partial",
         "legal_state": "partial",
-        "source_urls": [
-          "https://www.gazzettaufficiale.it/eli/gu/2025/09/23/221/sg/pdf"
-        ],
         "claims": [
           {
             "aspect": "amendment",
             "source_url": "https://www.gazzettaufficiale.it/eli/gu/2025/09/23/221/sg/pdf",
-            "locator": "Art. 1, modifiche ai §§ 2.3.1-2.3.5 e 2.4.1-2.4.4; PDF pp. 5-6",
-            "finding": "Il correttivo modifica criteri sui prodotti e sul cantiere, comprese certificazioni e rinterri. Non si presenta il documento del 2024 come testo coordinato autonomo."
+            "locator": "Art.1, commi1-41, PDFpp.4-6",
+            "finding": "Il correttivo cambia campo di applicazione1.1 e anticipa approfondimento dei requisiti alPFTE(1.3.1). Nessun comma di questo art.1 modifica i criteri2.3.7-2.3.9 su canalette/gres/plastiche: questi restano nel testo2024, da leggere insieme alle modifiche generali."
           },
           {
             "aspect": "effectiveness",
             "source_url": "https://www.gazzettaufficiale.it/eli/gu/2025/09/23/221/sg/pdf",
-            "locator": "Artt. 3-5; PDF p. 7, GU p. 5",
-            "finding": "Il correttivo si applica anche a procedimenti in corso, salvo deroghe dell’art. 4 legate a progetti pregressi e inviti/bandi entro 180 giorni. L’art. 5 dispone entrata in vigore il giorno dopo la pubblicazione del 23 settembre 2025: 24 settembre 2025."
+            "locator": "Artt.3-5, PDFp.7",
+            "finding": "Entrata in vigore24/09/2025; applicazione ai procedimenti in corso salvo derogheart.4 per progetti pregressi e bandi/avvisi/inviti entro180giorni. L’applicazione al singolo contratto richiede ricostruzione della sua procedura."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.gazzettaufficiale.it/eli/gu/2024/08/23/197/sg/pdf",
+            "locator": "Allegato1 §§2.3.7-2.3.9, PDFp.44",
+            "finding": "Criteri distinti per canalette conformiUNI1433, tubazioni in gres e plastiche; il correttivo generale non consente di presentare il soloPDF2024 come testo integralmente coordinato."
           }
         ],
         "limitations": [
-          "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+          "Non riesaminati tutti i criteri del decreto2024 né certificata la conformità della singola gara."
         ],
         "pending": [
-          "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+          "Verificare date/stadio della procedura e criteri progettuali/cantiere specifici dell’intervento."
         ],
-        "record_version": "ca5d3f99f3d6b4a28529a204aae36a3f5a22704604c986132e34741bedef9a95"
-      }
+        "source_urls": [
+          "https://www.gazzettaufficiale.it/eli/gu/2025/09/23/221/sg/pdf",
+          "https://www.gazzettaufficiale.it/eli/gu/2024/08/23/197/sg/pdf",
+          "https://www.mase.gov.it/portale/cam-vigenti"
+        ],
+        "record_version": "90b074ad785f76c692eb7f917669f99bd64219be8809fb43f9b28cfd62a67282"
+      },
+      "documentary_history": [
+        {
+          "checked_at": "2026-10-08",
+          "scope": "Lettura sostanziale circoscritta: Art. 1, modifiche ai §§ 2.3.1-2.3.5 e 2.4.1-2.4.4; PDF pp. 5-6; Artt. 3-5; PDF p. 7, GU p. 5",
+          "outcome": "partial",
+          "legal_state": "partial",
+          "source_urls": [
+            "https://www.gazzettaufficiale.it/eli/gu/2025/09/23/221/sg/pdf"
+          ],
+          "claims": [
+            {
+              "aspect": "amendment",
+              "source_url": "https://www.gazzettaufficiale.it/eli/gu/2025/09/23/221/sg/pdf",
+              "locator": "Art. 1, modifiche ai §§ 2.3.1-2.3.5 e 2.4.1-2.4.4; PDF pp. 5-6",
+              "finding": "Il correttivo modifica criteri sui prodotti e sul cantiere, comprese certificazioni e rinterri. Non si presenta il documento del 2024 come testo coordinato autonomo."
+            },
+            {
+              "aspect": "effectiveness",
+              "source_url": "https://www.gazzettaufficiale.it/eli/gu/2025/09/23/221/sg/pdf",
+              "locator": "Artt. 3-5; PDF p. 7, GU p. 5",
+              "finding": "Il correttivo si applica anche a procedimenti in corso, salvo deroghe dell’art. 4 legate a progetti pregressi e inviti/bandi entro 180 giorni. L’art. 5 dispone entrata in vigore il giorno dopo la pubblicazione del 23 settembre 2025: 24 settembre 2025."
+            }
+          ],
+          "limitations": [
+            "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+          ],
+          "pending": [
+            "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+          ],
+          "record_version": "ca5d3f99f3d6b4a28529a204aae36a3f5a22704604c986132e34741bedef9a95"
+        }
+      ]
     },
     {
       "id": "pai-calabria2001",
@@ -7460,21 +7729,22 @@
         "Italia"
       ],
       "topics": [
-        "Attraversamenti e parallelismi"
+        "Attraversamenti e parallelismi",
+        "Smaltimento acque meteoriche e reflue"
       ],
       "date": "1980-07-11",
-      "url": "https://www.gazzettaufficiale.it/eli/id/1980/11/15/080U0753/sg",
-      "summary": "Quadro nazionale di polizia e sicurezza per ferrovie e altri servizi di trasporto, pertinente alla verifica delle interferenze e delle opere in prossimità delle linee.",
+      "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=080U0753&atto.dataPubblicazioneGazzetta=1980-11-15&tipoDettaglio=vigente",
+      "summary": "Scolo e immissioni nei fossi ferroviari, canali laterali, distanze specifiche di scavi/canali e autorizzazione delle interferenze; disciplina distinta per tipo di rete e servizio.",
       "focus": [
-        "Individuare il servizio di trasporto e l’autorità o il gestore competente",
-        "Coordinare distanze, sicurezza e autorizzazioni con le norme tecniche speciali",
-        "Non estendere automaticamente al testo originario una vigenza non verificata articolo per articolo"
+        "Artt.44-45: scolo, immissioni e canali laterali",
+        "Artt.36,49,53: campo di applicazione e distanze distinte",
+        "Artt.58,60: interferenze e deroghe condizionate"
       ],
       "kind": "Atto normativo",
-      "status": "Testo originario ufficiale · vigenza da ricostruire",
-      "source_kind": "Gazzetta Ufficiale",
+      "status": "Testo coordinato consultato · competenze delle diverse reti da coordinare",
+      "source_kind": "Testo coordinato · Normattiva",
       "note": "GU n. 314 del 15/11/1980, supplemento ordinario. La scheda documenta l’atto originario; modifiche, abrogazioni parziali e procedure del gestore restano da verificare.",
-      "checked": "2026-09-20",
+      "checked": "2026-10-09",
       "relations": [
         {
           "id": "dmattr2014",
@@ -7490,6 +7760,10 @@
         {
           "date": "2026-09-20",
           "text": "Scheda inserita durante la ricognizione retrospettiva su fonte ufficiale; non è una nuova pubblicazione normativa."
+        },
+        {
+          "date": "2026-10-09",
+          "text": "Fase3, lotto12: riesame documentale nel perimetro dichiarato; fonti e limiti nel registro del lotto."
         }
       ],
       "documents": [
@@ -7499,31 +7773,96 @@
           "format": "pdf"
         }
       ],
-      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale contenente l’atto.",
+      "document_note": "Il PDFGU originario è distinto dal testo coordinato Normattiva consultato; non si presentano importi storici in lire come sanzioni attuali.",
       "documentary_review": {
-        "checked_at": "2026-10-08",
-        "scope": "Lettura sostanziale circoscritta: Titolo III, artt. 49, 58 e 60",
+        "checked_at": "2026-10-09",
+        "scope": "Lettura Normattiva art.1 e artt.36-60, approfondimento idraulico44-45,49,53,58,60; paginaRFI sulle deroghe. Non certificazione di competenza per tutte le reti.",
         "outcome": "partial",
         "legal_state": "partial",
-        "source_urls": [
-          "https://olympus.uniurb.it/index.php?Itemid=59&catid=5%3Anormativa-italiana&id=12158%3A1980dpr753&option=com_content&view=article"
-        ],
         "claims": [
           {
             "aspect": "content",
-            "source_url": "https://olympus.uniurb.it/index.php?Itemid=59&catid=5%3Anormativa-italiana&id=12158%3A1980dpr753&option=com_content&view=article",
-            "locator": "Titolo III, artt. 49, 58 e 60",
-            "finding": "La riproduzione istituzionale universitaria distingue fascia di rispetto ferroviaria, autorizzazione preventiva delle opere interferenti (inclusi canali e condotte) e riduzioni delle distanze subordinatamente alle condizioni di sicurezza. Non prova l’assetto amministrativo attuale degli uffici storici."
+            "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=44&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+            "locator": "Artt.44-45",
+            "finding": "Vietati impedimenti allo scolo dei fossi e al deflusso dalla ferrovia; immissione di acque nei fossi richiede concessione dell’esercente. Canali laterali e irrigazione devono evitare espansione e danni alla sede."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=53&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+            "locator": "Artt.36,49,53",
+            "finding": "Art.49 disciplina fascia30m per edifici/manufatti presso ferrovie, con esclusione degli altri servizi assimilati; art.53 ha distinta regola per scavi/canali: distanza del ciglio almeno pari alla profondità e minimo3m, dai riferimenti prescritti. Art.36 esclude salvo38 servizi in sede comune con strade/aree pubbliche."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=58&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+            "locator": "Artt.58 e60",
+            "finding": "Interferenze di condotte/canali richiedono autorizzazione dell’esercente. Riduzioni delle distanze49-56 exart.60 dipendono da sicurezza, conservazione, natura del terreno e circostanze locali; non sono automatiche."
           }
         ],
         "limitations": [
-          "Riproduzione istituzionale universitaria; PDF storico GU non acquisito in forma leggibile."
+          "Non concluso coordinamento delle competenze per reti differenti e norme successive.",
+          "Ultimo aggiornamento dell’atto19/07/2025 non dimostra modifica di tutte le norme idrauliche."
         ],
         "pending": [
-          "Acquisire testo ufficiale coordinato e verificare competenze, deroghe e modifiche."
+          "Individuare rete, gestore, autorità attuale e coordinamento DMattraversamenti2014; la deroga non dispensa da ulteriori titoli."
         ],
-        "record_version": "0e32e9d410794b7b8e3ece10b7386ab16aee4141bce257bae61d8b1f853024c3"
-      }
+        "source_urls": [
+          "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=44&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+          "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=53&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+          "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=58&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+          "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=080U0753&atto.dataPubblicazioneGazzetta=1980-11-15&tipoDettaglio=vigente",
+          "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=1&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=1&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+          "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=49&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+          "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=50&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+          "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=51&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+          "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=52&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+          "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=54&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+          "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=55&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+          "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=56&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+          "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=57&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+          "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=59&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+          "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=60&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+          "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=36&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+          "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=37&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+          "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=46&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+          "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=47&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+          "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=48&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+          "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=38&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+          "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=39&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+          "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=40&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+          "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=41&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+          "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=42&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+          "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=43&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+          "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=45&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&"
+        ],
+        "record_version": "34dee4b2df373d0e07dd22a8264ef24c10b4ab51f465c921ee200923e1de6741"
+      },
+      "documentary_history": [
+        {
+          "checked_at": "2026-10-08",
+          "scope": "Lettura sostanziale circoscritta: Titolo III, artt. 49, 58 e 60",
+          "outcome": "partial",
+          "legal_state": "partial",
+          "source_urls": [
+            "https://olympus.uniurb.it/index.php?Itemid=59&catid=5%3Anormativa-italiana&id=12158%3A1980dpr753&option=com_content&view=article"
+          ],
+          "claims": [
+            {
+              "aspect": "content",
+              "source_url": "https://olympus.uniurb.it/index.php?Itemid=59&catid=5%3Anormativa-italiana&id=12158%3A1980dpr753&option=com_content&view=article",
+              "locator": "Titolo III, artt. 49, 58 e 60",
+              "finding": "La riproduzione istituzionale universitaria distingue fascia di rispetto ferroviaria, autorizzazione preventiva delle opere interferenti (inclusi canali e condotte) e riduzioni delle distanze subordinatamente alle condizioni di sicurezza. Non prova l’assetto amministrativo attuale degli uffici storici."
+            }
+          ],
+          "limitations": [
+            "Riproduzione istituzionale universitaria; PDF storico GU non acquisito in forma leggibile."
+          ],
+          "pending": [
+            "Acquisire testo ufficiale coordinato e verificare competenze, deroghe e modifiche."
+          ],
+          "record_version": "0e32e9d410794b7b8e3ece10b7386ab16aee4141bce257bae61d8b1f853024c3"
+        }
+      ]
     },
     {
       "id": "codstrada285",

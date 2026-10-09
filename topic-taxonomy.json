@@ -1495,7 +1495,9 @@
         "https://aubac.it/pai-distrettuale-frane",
         "https://aubac.it/pai-distrettuale-idraulico",
         "https://aubac.it/piani-di-bacino/piano-di-gestione-del-rischio-alluvioni-pgra",
-        "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO.pdf"
+        "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO.pdf",
+        "https://aubac.it/news/notizie/ps5-la-cartografia-del-piano-il-tratto-metropolitano-del-tevere-e-online-sul-webgis-aubac",
+        "https://webgis.abdac.it/portal/apps/experiencebuilder/experience/?id=c59f7b386ca24729852cf2dcf8e2f936"
       ],
       "object_versions": [
         {
@@ -1519,7 +1521,7 @@
           ]
         }
       ],
-      "evidence": "Raccolta distrettuale: PAI idraulico e frane nei documenti, portale PGRA nel campo url."
+      "evidence": "Raccolta distrettuale: PAI idraulico e frane nei documenti, portale PGRA nel campo url. Monitoraggio 9 ottobre 2026: avviso AUBAC 6 ottobre e accesso P.S.5 verificati; argomenti della raccolta invariati e object_versions precedenti conservate."
     },
     "bas9": {
       "topics": [
@@ -3074,6 +3076,28 @@
         }
       ],
       "evidence": "Oggetto e ambito sostanziale della scheda: Adozione del progetto di aggiornamento delle fasce fluviali del PAI Po e delle aree allagabili del PGRA per il Fiume Mera da Chiavenna al Lago di Como e per i torrenti Liro e Schiesone. Focus: Consultare la proposta di nuove fasce fluviali PAI; Verificare le aree allagabili e i dissesti torrentizi aggiornati; Applicare le misure temporanee di salvaguardia nelle aree interessate Riesame 8 ottobre 2026, lotto 05: D.S. 27/2026 del 24 aprile 2026: adozione del progetto, distinta dall’approvazione definitiva. Argomenti canonici invariati."
+    },
+    "sard-villanovafranca-reticolo-159-2026": {
+      "topics": [
+        "pai-idraulico"
+      ],
+      "source_urls": [
+        "https://autoritadibacino.regione.sardegna.it/ap/determinazione-n-159-prot-n-11256-del-25-09-2026/",
+        "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/10/avp_2026_09_25_det.159_prot.11256_villanovafranca.pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Villanovafranca: aggiornamento del reticolo idrografico ai fini del PAI",
+          "ref": "Det. AdB Sardegna 159/2026 · reticolo idrografico",
+          "summary": "Approvata la revisione del reticolo idrografico comunale ai fini degli artt. 30-ter e 8 delle NTA PAI. La determina dichiara efficacia immediata; la pagina istituzionale aggiornata l’8 ottobre indica ancora attesa della pubblicazione sul BURAS.",
+          "focus": [
+            "Reticolo idrografico rilevante per le prescrizioni idrauliche del PAI, non nuova perimetrazione generale di pericolosità.",
+            "Elaborati definitivi REV_ADIS, riproiettati in EPSG 7791 e corretti in tre connessioni topologiche.",
+            "Verificare disponibilità degli shapefile e successivo avviso BURAS."
+          ]
+        }
+      ],
+      "evidence": "Art. 1 e premesse della determina: aggiornamento del reticolo comunale esclusivamente per l’applicazione delle prescrizioni idrauliche delle NTA PAI. Nessun tag PGRA da rinvii introduttivi, né componente frane."
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-08",
+  "updatedAt": "2026-10-09",
   "scope": "Catalogo selettivo con controllo mirato dei CAM e della disciplina delle acque di prima pioggia per tutte le regioni. La verifica locale e autorizzativa resta necessaria.",
   "automation": {
     "enabled": true,
@@ -3812,6 +3812,22 @@
           "group": "PAI",
           "link_status": "checked",
           "link_checked": "2026-09-18"
+        },
+        {
+          "url": "https://aubac.it/news/notizie/ps5-la-cartografia-del-piano-il-tratto-metropolitano-del-tevere-e-online-sul-webgis-aubac",
+          "label": "P.S.5 Tevere · avviso AUBAC del 06/10/2026",
+          "format": "html",
+          "group": "Cartografie",
+          "link_status": "source_link",
+          "link_checked": "2026-10-09"
+        },
+        {
+          "url": "https://webgis.abdac.it/portal/apps/experiencebuilder/experience/?id=c59f7b386ca24729852cf2dcf8e2f936",
+          "label": "P.S.5 Tevere · cartografia sul WebGIS ufficiale",
+          "format": "html",
+          "group": "Cartografie",
+          "link_status": "source_link",
+          "link_checked": "2026-10-09"
         }
       ],
       "summary": "Quadro distrettuale verificato: PAI idraulico e PAI frane adottati definitivamente il 26/05/2026; le relative misure di salvaguardia sono operative dal 04/06/2026. Restano da seguire l’approvazione con D.P.C.M. e le varianti locali.",
@@ -3903,34 +3919,39 @@
         {
           "date": "2026-10-06",
           "text": "Censite le sette varianti PAI-frane Abruzzo D.S. 142–148/2026, efficaci dalla pubblicazione nel BUR Abruzzo n. 30 del 29/07/2026."
+        },
+        {
+          "date": "2026-10-09",
+          "text": "Monitoraggio territoriale: letto l’avviso AUBAC del 06/10/2026 e aggiunti i collegamenti ufficiali alla cartografia P.S.5. Revisione precedente conservata; cartografia non interrogata puntualmente."
         }
       ],
       "document_url": "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO.pdf",
       "document_label": "PAI idraulico · NTA adottate il 26/05/2026",
-      "document_note": "NTA del nuovo PAI idraulico adottate il 26 maggio 2026. Adozione e approvazione sono distinte: consultare le misure di salvaguardia e il regime transitorio nella pagina PAI.",
+      "document_note": "NTA del nuovo PAI idraulico adottate il 26 maggio 2026. Adozione e approvazione sono distinte: consultare le misure di salvaguardia e il regime transitorio nella pagina PAI. AUBAC comunica il 06/10/2026 la disponibilità della cartografia P.S.5 sul WebGIS per il Tevere da Castel Giubileo alla foce; aggiunti avviso e accesso ufficiali. Questo aggiornamento documentale non certifica una nuova approvazione o una modifica del piano.",
       "documentary_review": {
-        "checked_at": "2026-10-08",
-        "scope": "Identità e versione delle NTA del PAI distrettuale idraulico",
+        "checked_at": "2026-10-09",
+        "scope": "Riesame circoscritto ai due nuovi collegamenti P.S.5 e al contenuto dell’avviso istituzionale del 6 ottobre 2026. La precedente lettura delle NTA conserva la propria data nella cronologia.",
         "outcome": "partial",
         "legal_state": "partial",
         "source_urls": [
-          "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO.pdf"
+          "https://aubac.it/news/notizie/ps5-la-cartografia-del-piano-il-tratto-metropolitano-del-tevere-e-online-sul-webgis-aubac",
+          "https://webgis.abdac.it/portal/apps/experiencebuilder/experience/?id=c59f7b386ca24729852cf2dcf8e2f936"
         ],
         "claims": [
           {
-            "aspect": "version",
-            "source_url": "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO.pdf",
-            "locator": "Copertina, CIP 26.05.2026",
-            "finding": "NTA del PAI distrettuale per la gestione del rischio idraulico; copertina qualifica il documento Testo definitivo adottato, distinto dall’approvazione definitiva del piano."
+            "aspect": "content",
+            "source_url": "https://aubac.it/news/notizie/ps5-la-cartografia-del-piano-il-tratto-metropolitano-del-tevere-e-online-sul-webgis-aubac",
+            "locator": "Avviso del 6 ottobre 2026, corpo e collegamento «Consulta la cartografia»",
+            "finding": "AUBAC annuncia l’integrazione nel WebGIS della cartografia del Piano stralcio per il tratto metropolitano del Tevere da Castel Giubileo alla foce; il link istituzionale porta all’applicazione Experience Builder indicata. La notizia riguarda l’accessibilità dei dati, non approva un nuovo piano."
           }
         ],
         "limitations": [
-          "Il solo PDF NTA non ricostruisce tutte le decorrenze, salvaguardie, varianti e cartografie; PGRA e PAI frane non sono verificati da questo documento."
+          "Applicazione WebGIS aperta ma livelli e geometrie non interrogati; non verificati aggiornamento dei singoli strati, allegati normativi o catena completa degli atti del P.S.5."
         ],
         "pending": [
-          "Verificare atti CIP 67/2026 e successivi, salvaguardie e cartografie; mantenere distinti i diversi strumenti."
+          "Verificare i metadati degli strati P.S.5 e gli elaborati normativi applicabili all’intervento; proseguire le verifiche PAI/PGRA rimaste nella revisione precedente."
         ],
-        "record_version": "c0847165612df9527c9a581ac6b50911b080bd4e1ebbb22d00edb77f364d3e59"
+        "record_version": "0166c7f280667b916570bb60c91a51d9c05fae53881aac06f25cb81a9b3085b3"
       },
       "documentary_history": [
         {
@@ -3980,6 +4001,30 @@
             "Verificare atti CIP 67/2026 e successivi, salvaguardie e cartografie; mantenere distinti i diversi strumenti."
           ],
           "record_version": "ec08e98997816e7bad6d4acea1ed8b4be140b5f4d54cd211d56a7a080961e969"
+        },
+        {
+          "checked_at": "2026-10-08",
+          "scope": "Identità e versione delle NTA del PAI distrettuale idraulico",
+          "outcome": "partial",
+          "legal_state": "partial",
+          "source_urls": [
+            "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO.pdf"
+          ],
+          "claims": [
+            {
+              "aspect": "version",
+              "source_url": "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO.pdf",
+              "locator": "Copertina, CIP 26.05.2026",
+              "finding": "NTA del PAI distrettuale per la gestione del rischio idraulico; copertina qualifica il documento Testo definitivo adottato, distinto dall’approvazione definitiva del piano."
+            }
+          ],
+          "limitations": [
+            "Il solo PDF NTA non ricostruisce tutte le decorrenze, salvaguardie, varianti e cartografie; PGRA e PAI frane non sono verificati da questo documento."
+          ],
+          "pending": [
+            "Verificare atti CIP 67/2026 e successivi, salvaguardie e cartografie; mantenere distinti i diversi strumenti."
+          ],
+          "record_version": "c0847165612df9527c9a581ac6b50911b080bd4e1ebbb22d00edb77f364d3e59"
         }
       ]
     },
@@ -10441,6 +10486,106 @@
         ],
         "record_version": "45fe89ae61732673fe755fe7ac34ca2f9f54193e556cb10f8fb1f8e82267159c"
       }
+    },
+    {
+      "id": "sard-villanovafranca-reticolo-159-2026",
+      "ref": "Det. AdB Sardegna 159/2026 · reticolo idrografico",
+      "title": "Villanovafranca: aggiornamento del reticolo idrografico ai fini del PAI",
+      "level": "Regionale",
+      "regions": [
+        "Sardegna"
+      ],
+      "topics": [
+        "PAI - Pericolosità e rischio idraulico"
+      ],
+      "date": "2026-09-25",
+      "url": "https://autoritadibacino.regione.sardegna.it/ap/determinazione-n-159-prot-n-11256-del-25-09-2026/",
+      "summary": "Approvata la revisione del reticolo idrografico comunale ai fini degli artt. 30-ter e 8 delle NTA PAI. La determina dichiara efficacia immediata; la pagina istituzionale aggiornata l’8 ottobre indica ancora attesa della pubblicazione sul BURAS.",
+      "focus": [
+        "Reticolo idrografico rilevante per le prescrizioni idrauliche del PAI, non nuova perimetrazione generale di pericolosità.",
+        "Elaborati definitivi REV_ADIS, riproiettati in EPSG 7791 e corretti in tre connessioni topologiche.",
+        "Verificare disponibilità degli shapefile e successivo avviso BURAS."
+      ],
+      "kind": "Provvedimento di pianificazione",
+      "status": "Aggiornamento approvato · efficacia immediata dichiarata nell’atto · avviso BURAS da riscontrare",
+      "source_kind": "Documento ufficiale dell’Autorità di bacino",
+      "note": "Letta integralmente la determina di cinque pagine; nessuna verifica geometrica degli shapefile o della catena degli atti successivi. Non è un’approvazione di nuove aree allagabili.",
+      "checked": "2026-10-09",
+      "relations": [
+        {
+          "type": "Pianificazione territoriale di riferimento",
+          "id": "dist-sard"
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/10/avp_2026_09_25_det.159_prot.11256_villanovafranca.pdf",
+          "label": "PDF ufficiale · Determinazione 159 del 25/09/2026",
+          "format": "pdf",
+          "group": "PAI",
+          "link_status": "checked",
+          "link_checked": "2026-10-09"
+        }
+      ],
+      "document_url": "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/10/avp_2026_09_25_det.159_prot.11256_villanovafranca.pdf",
+      "document_label": "Det. 159/2026 · aggiornamento reticolo Villanovafranca",
+      "document_note": "PDF ufficiale completo. L’art. 1 approva gli elaborati REV_ADIS; il dispositivo finale dichiara efficacia immediata ai sensi dell’art. 53, comma 5 NTA PAI. Gli elaborati cartografici elencati non sono stati acquisiti.",
+      "history": [
+        {
+          "date": "2026-10-09",
+          "text": "Censita determina ufficiale 159/2026. Distinti effetto immediato dichiarato nel dispositivo e pubblicazione sul BURAS ancora attesa nella pagina dell’ente."
+        }
+      ],
+      "documentary_review": {
+        "checked_at": "2026-10-09",
+        "scope": "Testo integrale della determina 159/2026, cinque pagine, intestazione, premesse e dispositivo; pagina ufficiale dello stato di pubblicazione. Esclusi gli elaborati cartografici elencati e gli atti successivi.",
+        "outcome": "partial",
+        "legal_state": "amended",
+        "source_urls": [
+          "https://autoritadibacino.regione.sardegna.it/ap/determinazione-n-159-prot-n-11256-del-25-09-2026/",
+          "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/10/avp_2026_09_25_det.159_prot.11256_villanovafranca.pdf"
+        ],
+        "claims": [
+          {
+            "aspect": "identity",
+            "source_url": "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/10/avp_2026_09_25_det.159_prot.11256_villanovafranca.pdf",
+            "locator": "Intestazione p. 1 e firma p. 5",
+            "finding": "Determinazione n. 159, protocollo interno 11256, del 25 settembre 2026, Comune di Villanovafranca; firma digitale visibile in calce datata 25/09/2026."
+          },
+          {
+            "aspect": "approval",
+            "source_url": "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/10/avp_2026_09_25_det.159_prot.11256_villanovafranca.pdf",
+            "locator": "Art. 1, pp. 4-5",
+            "finding": "Approvato l’aggiornamento del reticolo idrografico ai sensi degli artt. 30-ter comma 6 e 51 comma 1 lettera g) NTA PAI, mediante gli elaborati cartografici e digitali elencati nel provvedimento."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/10/avp_2026_09_25_det.159_prot.11256_villanovafranca.pdf",
+            "locator": "Premesse p. 3, precisazione p. 4 e elenco p. 5",
+            "finding": "Il Servizio ha riproiettato il grafo in EPSG 7791 e risolto tre connessioni di nodi non continui. Gli shapefile definitivi recano REV_ADIS. Il rilievo dell’aggiornamento è circoscritto agli artt. 30-ter e 8 commi 8, 8-bis, 9 e 10 delle NTA PAI."
+          },
+          {
+            "aspect": "effectiveness",
+            "source_url": "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/10/avp_2026_09_25_det.159_prot.11256_villanovafranca.pdf",
+            "locator": "Dispositivo finale, p. 5",
+            "finding": "La determina dichiara efficacia immediata ai sensi dell’art. 53 comma 5 NTA PAI, pubblicazione sul sito dell’Autorità e notizia sul BURAS. La verifica dell’avviso BURAS resta separata da questa clausola."
+          },
+          {
+            "aspect": "status",
+            "source_url": "https://autoritadibacino.regione.sardegna.it/ap/determinazione-n-159-prot-n-11256-del-25-09-2026/",
+            "locator": "Stato e ultimo aggiornamento 8 ottobre 2026",
+            "finding": "La pagina istituzionale reca ancora «In attesa di pubblicazione sul B.U.R.A.S»; non fornisce una data di pubblicazione sul Bollettino."
+          }
+        ],
+        "limitations": [
+          "Relazione, tavole e shapefile elencati non acquisiti o verificati geometricamente.",
+          "Avviso BURAS e atti successivi non ricostruiti; la clausola di efficacia immediata non è estesa ad altri provvedimenti."
+        ],
+        "pending": [
+          "Acquisire gli elaborati REV_ADIS dalla fonte ufficiale e verificare avviso BURAS ed eventuali atti successivi."
+        ],
+        "record_version": "56fec9f2bae68000ba6e0b381b5a8d529c0da8e11aa1853b1e9983f0a2da0e15"
+      }
     }
   ],
   "regions": [
@@ -11059,6 +11204,127 @@
     }
   ],
   "runs": [
+    {
+      "date": "2026-10-09",
+      "type": "Controllo territoriale · ricognizione parziale e aggiornamenti documentali",
+      "summary": "Censita determina 159/2026 di Villanovafranca sull’aggiornamento del reticolo PAI, con efficacia immediata dichiarata e avviso BURAS da riscontrare. Aggiunto accesso ufficiale P.S.5 Tevere. Fonti e limiti della ricognizione dichiarati; nessuna conferma di copertura integrale.",
+      "checked": [
+        "dist-centr",
+        "dist-sard",
+        "sard-villanovafranca-reticolo-159-2026",
+        "dist-sett",
+        "sett-pgra-variante-62-2026",
+        "dist-merid",
+        "dist-sici",
+        "sic-pgra3-02-2026",
+        "bari",
+        "bz23",
+        "dist-po"
+      ],
+      "territories": [
+        "Provincia autonoma di Bolzano: dieci oggetti ultima seduta",
+        "Sardegna: prima pagina determinazioni e Villanovafranca",
+        "Sicilia: pagine AdB e partecipazione PGRA",
+        "Bari: pagina modulistica meteoriche",
+        "Appennino Centrale: pagina PGRA e avviso P.S.5 Tevere",
+        "Appennino Settentrionale: pagine PGRA e variante mappe",
+        "Appennino Meridionale: portale e pagina PGRA II ciclo",
+        "Po: homepage notizie"
+      ],
+      "read_urls": [
+        "https://aubac.it/news/notizie/ps5-la-cartografia-del-piano-il-tratto-metropolitano-del-tevere-e-online-sul-webgis-aubac",
+        "https://webgis.abdac.it/portal/apps/experiencebuilder/experience/?id=c59f7b386ca24729852cf2dcf8e2f936",
+        "https://autoritadibacino.regione.sardegna.it/ap/determinazione-n-159-prot-n-11256-del-25-09-2026/",
+        "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/10/avp_2026_09_25_det.159_prot.11256_villanovafranca.pdf",
+        "https://aubac.it/",
+        "https://aubac.it/piani-di-bacino/piano-di-gestione-del-rischio-alluvioni-pgra",
+        "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/",
+        "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-stralcio-di-bacino-per-lassetto-idrogeologico-pai/",
+        "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-stralcio-di-bacino-per-lassetto-idrogeologico-pai/norme-pai/",
+        "https://giunta-provinciale.provincia.bz.it/it/delibere",
+        "https://www.appenninosettentrionale.it/itc/?page_id=15866",
+        "https://www.appenninosettentrionale.it/itc/?page_id=18906",
+        "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia",
+        "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/partecipazione-pubblica",
+        "https://www.distrettoappenninomeridionale.it/piano-gestione-alluvioni/ii-ciclo-2016-2021/",
+        "https://www.distrettoappenninomeridionale.it/",
+        "https://www.adbpo.it/",
+        "https://www.cittametropolitana.ba.it/amministrazione/documenti_e_dati/modulistica/documento_268.html"
+      ],
+      "source_findings": [
+        {
+          "source_url": "https://aubac.it/news/notizie/ps5-la-cartografia-del-piano-il-tratto-metropolitano-del-tevere-e-online-sul-webgis-aubac",
+          "result": "Novità documentale: accesso ufficiale alla cartografia P.S.5 comunicato il 6 ottobre, aggiunto alla raccolta dist-centr."
+        },
+        {
+          "source_url": "https://autoritadibacino.regione.sardegna.it/ap/determinazione-n-159-prot-n-11256-del-25-09-2026/",
+          "result": "Nuova scheda: Det. 159/2026 Villanovafranca; efficacia immediata nel dispositivo, avviso BURAS da riscontrare."
+        },
+        {
+          "source_url": "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/",
+          "result": "L’elenco indica per Sinnai la determina 161/2026 di archiviazione con pubblicazione BURAS 8 ottobre; nessuna variante approvata dedotta da tale archiviazione. Elenco consultato limitato alla prima pagina."
+        },
+        {
+          "source_url": "https://www.appenninosettentrionale.it/itc/?page_id=18906",
+          "result": "Pagina mantiene il progetto mappe CIP 62/2026 e la consultazione di sei mesi dal relativo avviso GU 108 del 12 maggio 2026; non letti nel run delibera e fascicolo GU."
+        },
+        {
+          "source_url": "https://www.appenninosettentrionale.it/itc/?page_id=15866",
+          "result": "Pagina distingue progetto di variante alla disciplina (CIP 54/2025), mappe (CIP 56/2025) e documenti III ciclo; nessuna sostituzione definitiva del PGRA dedotta dalla pubblicazione dei progetti."
+        },
+        {
+          "source_url": "https://www.cittametropolitana.ba.it/amministrazione/documenti_e_dati/modulistica/documento_268.html",
+          "result": "Pagina modulistica acque meteoriche RR 26/2013: data ultimo aggiornamento esposta 13 gennaio 2026; ZIP non letto in questo run."
+        },
+        {
+          "source_url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/partecipazione-pubblica",
+          "result": "Pagina pubblica VGP e mappe III ciclo in consultazione e scenari 50/100/300 anni; non prova di approvazione di un PGRA sostitutivo."
+        },
+        {
+          "source_url": "https://www.distrettoappenninomeridionale.it/piano-gestione-alluvioni/ii-ciclo-2016-2021/",
+          "result": "Pagina II ciclo elenca DPCM 1 dicembre 2022, GU 32 dell’8 febbraio 2023 e gli elaborati; nuova lettura circoscritta della pagina, non dei PDF."
+        },
+        {
+          "source_url": "https://giunta-provinciale.provincia.bz.it/it/delibere",
+          "result": "Esaminati gli oggetti 814–823 della seduta 2 ottobre 2026. Nessun PZP esplicito in questi dieci oggetti; restanti risultati e testi non controllati."
+        },
+        {
+          "source_url": "https://www.adbpo.it/",
+          "result": "Homepage letta: notizie idrologiche e ambientali dell’8 ottobre; verifica dei procedimenti PAI/PGRA non completata."
+        }
+      ],
+      "errors": [
+        "Po: pagina PGRA 2021–2027 in HTTP 403; letta la sola homepage ufficiale, senza completare il controllo degli atti PAI/PGRA.",
+        "Sicilia: PDF della deliberazione CIP 2/2026 nel collegamento della pagina ufficiale in HTTP 404; letta la pagina di partecipazione, non il PDF.",
+        "Bolzano: letti i dieci oggetti esposti dalla pagina dell’ultima seduta 02/10/2026; pagina 2 restituisce la stessa tabella nel lettore web e solo Loading nel download diretto, quindi seduta e ricerca PZP non esaurite.",
+        "Appennino Settentrionale: lettore web in 502, recuperati e letti via download diretto HTML i contenuti delle pagine 15866 e 18906; i nuovi PDF collegati non esaminati.",
+        "Sardegna: homepage in timeout nel lettore web; pagina delle determinazioni inizialmente in 502 e poi acquisita con HTML 200 e contenuto letto.",
+        "Ulteriori tentativi non conclusivi: URL di raccolta varianti Sardegna non acquisibile; URL informativo invarianza Lombardia non acquisibile. Non sono fonti considerate controllate."
+      ],
+      "limitations": [
+        "Ricognizione circoscritta ai contenuti pubblicati nelle URL elencate; non verifica integrale di tutte le regioni, province, comuni, gestori, distretti, allegati o versioni normative.",
+        "Cartografie P.S.5 e shapefile Villanovafranca non interrogati. Nessuna deduzione di assenza di atti nuovi per fonti omesse o non acquisite.",
+        "L’audit incrementale della Fase 3 resta separato: i registri storici e la coda non sono sovrascritti da questo run territoriale."
+      ],
+      "updated_records": [
+        "dist-centr"
+      ],
+      "new_records": [
+        "sard-villanovafranca-reticolo-159-2026"
+      ],
+      "execution": {
+        "id": "local-territorial-20261009-080328",
+        "id_origin": "Identificativo locale generato per questa esecuzione; identificativo del servizio non disponibile.",
+        "started_at": "2026-10-09T08:03:28.015549+00:00",
+        "finished_at": "2026-10-09T08:10:09.110860+00:00",
+        "outcome": "parziale",
+        "publication": {
+          "outcome": "in_attesa",
+          "last_valid_result": "published_github_pages",
+          "note": "Ricevuta di pubblicazione aggiornata solo dopo riscontro Pages e confronto del contenuto atteso."
+        }
+      }
+    },
     {
       "date": "2026-10-08",
       "type": "Audit incrementale · lotto 07 · piani e accessi",
@@ -12433,6 +12699,13 @@
     }
   ],
   "news": [
+    {
+      "date": "2026-10-09",
+      "status": "Atto territoriale verificato nel perimetro dichiarato",
+      "title": "Villanovafranca: aggiornamento del reticolo idrografico PAI",
+      "summary": "Determina AdB Sardegna 159 del 25/09/2026: efficacia immediata dichiarata nel dispositivo. Avviso BURAS ancora da riscontrare; allegati cartografici non acquisiti.",
+      "url": "https://autoritadibacino.regione.sardegna.it/ap/determinazione-n-159-prot-n-11256-del-25-09-2026/"
+    },
     {
       "date": "2026-10-08",
       "status": "Atti territoriali verificati",

@@ -48,6 +48,18 @@ class DocumentaryTests(unittest.TestCase):
         record = copy.deepcopy(self.record); record['documentary_review']['legal_state'] = 'in_force'
         with self.assertRaisesRegex(ValueError, 'stato giuridico'): self.check(record)
 
+    def test_constitutional_invalidity_is_distinct_and_requires_status_evidence(self):
+        record = copy.deepcopy(self.record)
+        record['documentary_review']['legal_state'] = 'constitutionally_invalid'
+        with self.assertRaisesRegex(ValueError, 'illegittimita costituzionale'):
+            self.check(record)
+        record['documentary_review']['claims'][0]['aspect'] = 'status'
+        self.check(record)
+        legacy = {'id': 'legacy', 'status': 'Da verificare'}
+        changed = {**legacy, 'status': 'Dichiarata costituzionalmente illegittima'}
+        with self.assertRaisesRegex(ValueError, 'senza evidenza'):
+            self.check(changed, legacy)
+
     def test_normative_metadata_and_future_fields_require_reexamination(self):
         for field, value in [
             ('relations', [{'id': 'other', 'type': 'Modifica'}]),

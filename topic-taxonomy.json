@@ -957,7 +957,8 @@
       ],
       "source_urls": [
         "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/lr-abruzzo-17-2008.pdf",
-        "https://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2008/lr08017.htm"
+        "https://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2008/lr08017.htm",
+        "https://www.cortecostituzionale.it/scheda-pronuncia/2010/68"
       ],
       "object_versions": [
         {
@@ -968,6 +969,15 @@
             "Definizioni regionali",
             "Ambiti soggetti a disciplina",
             "Coordinamento con gli aggiornamenti"
+          ]
+        },
+        {
+          "title": "Norme di attuazione della parte terza del D.Lgs.152/2006 e disposizioni sul personale",
+          "ref": "L.R. 17/2008",
+          "summary": "Riferimento storico: l’intera legge è stata dichiarata costituzionalmente illegittima dalla sentenza68/2010; non utilizzarla come disciplina regionale vigente degli scarichi.",
+          "focus": [
+            "Dichiarazione di illegittimità costituzionale dell’intera legge",
+            "Distinzione dalla disciplina successiva degli scarichi"
           ]
         }
       ],
@@ -1184,7 +1194,8 @@
       ],
       "source_urls": [
         "https://burp.regione.puglia.it/documents/20135/784664/REGOLAMENTO%2BREGIONALE%2B9%2Bdicembre%2B2013%2C%2Bn.%2B26%2B%28id%2B4906507%29.pdf/82bcb1fd-8b6d-ec17-ae21-235fdca40c45?t=1622786288358&version=1.0",
-        "https://www.cittametropolitana.ba.it/amministrazione/documenti_e_dati/modulistica/documento_268.html"
+        "https://www.cittametropolitana.ba.it/amministrazione/documenti_e_dati/modulistica/documento_268.html",
+        "https://www.cittametropolitana.ba.it/halley//ht/eg527/acque_meteoriche.zip"
       ],
       "object_versions": [
         {
@@ -1206,7 +1217,9 @@
       ],
       "source_urls": [
         "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf",
-        "https://pgt.comune.milano.it/"
+        "https://pgt.comune.milano.it/",
+        "https://www.comune.milano.it/documents/20118/1529015/Linee%2BGuida%2Bper%2Bla%2Bprogettazione%2Bdei%2Bsistemi%2Burbani%2Bdi%2Bdrenaggio%2Bsostenibile%2Bnel%2Bterritorio%2Bcomunale%2B%281%29.pdf/08b32748-b9fd-88bf-01b9-1008147fa3ec?download=true&t=1761735461824&version=1.0",
+        "https://www.comune.milano.it/documents/20118/39748/Determinazione%2BDirigenziale%2Bn.%2B10576%2Bdel%2B22.12.2020.pdf/4f6fd763-282a-b418-1fdb-26c489bf2bad?download=true&t=1747057791151&version=1.0"
       ],
       "object_versions": [
         {
@@ -1595,6 +1608,16 @@
           "title": "Linee guida regionali sugli scarichi, sulle acque di prima pioggia e di lavaggio · aggiornamento 2026",
           "ref": "D.G.R. Basilicata 471/2026",
           "summary": "Aggiornamento 2026 delle linee guida adottate in attuazione dell’articolo 5 della L.R. 9/2017; sostituisce la D.G.R. 305/2023 dal 1° agosto 2026.",
+          "focus": [
+            "Acque meteoriche di dilavamento",
+            "Acque di prima pioggia e di lavaggio",
+            "Regimi amministrativi e autorizzazioni"
+          ]
+        },
+        {
+          "title": "Proposta di aggiornamento2026 delle linee guida regionali sugli scarichi",
+          "ref": "D.G.R. Basilicata 471/2026",
+          "summary": "Revoca la proposta DGR305/2023 e approva una nuova proposta di aggiornamento da sottoporre al parere preliminare consiliare; il dispositivo non prova la decorrenza di una nuova disciplina vigente.",
           "focus": [
             "Acque meteoriche di dilavamento",
             "Acque di prima pioggia e di lavaggio",
@@ -2301,11 +2324,19 @@
     },
     "codstrada285": {
       "topics": [
-        "attraversamenti"
+        "attraversamenti",
+        "drenaggio"
       ],
       "source_urls": [
         "https://www.gazzettaufficiale.it/eli/gu/1992/05/18/114/so/74/sg/pdf",
-        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0306&atto.dataPubblicazioneGazzetta=1992-05-18"
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0306&atto.dataPubblicazioneGazzetta=1992-05-18",
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0306&atto.dataPubblicazioneGazzetta=1992-05-18&tipoDettaglio=vigente",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=20&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=25&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=5&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=26&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=14&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=27&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=28&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=16&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=32&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=16&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=33&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&"
       ],
       "object_versions": [
         {
@@ -2316,6 +2347,17 @@
             "Articolo 25 del Codice della strada",
             "Titolo abilitativo dell’ente proprietario della strada",
             "Coordinamento con il regolamento di esecuzione e con le prescrizioni del gestore"
+          ]
+        },
+        {
+          "title": "Codice della strada: attraversamenti e condotta delle acque",
+          "ref": "D.Lgs. 285/1992 — artt. 25-28, 32-33",
+          "summary": "Concessioni per attraversamenti e uso della sede stradale, obblighi dei gestori di servizi idrici e fognari, conservazione dei fossi e manutenzione dei manufatti su canali artificiali.",
+          "focus": [
+            "Art.25: preventiva concessione per corsi/condotte e uso delle pertinenze; necessità, accertamento tecnico e manutenzione senza intralcio.",
+            "Artt.26-28: competenza, documentazione tecnica, convenzioni e obblighi dei gestori di acqua potabile e fognature.",
+            "Art.32: conservazione dei fossi e opere a monte/valle degli attraversamenti secondo disciplinare.",
+            "Art.33: canali artificiali, preesistenza/titoli e riparto degli oneri dei manufatti."
           ]
         }
       ],
@@ -2328,7 +2370,15 @@
       ],
       "source_urls": [
         "https://www.gazzettaufficiale.it/eli/gu/1992/12/28/303/so/134/sg/pdf",
-        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0531&atto.dataPubblicazioneGazzetta=1992-12-28"
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0531&atto.dataPubblicazioneGazzetta=1992-12-28",
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0531&atto.dataPubblicazioneGazzetta=1992-12-28&tipoDettaglio=vigente",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=65&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=3&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=66&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=67&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=68&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=69&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=70&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=71&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&"
       ],
       "object_versions": [
         {
@@ -2339,6 +2389,17 @@
             "Articoli 65–69",
             "Modalità tecniche e condizioni dell’ente proprietario",
             "Coordinamento con concessioni, autorizzazioni idrauliche e prescrizioni del gestore"
+          ]
+        },
+        {
+          "title": "Regolamento del Codice della strada: attraversamenti e condotta delle acque",
+          "ref": "D.P.R. 495/1992 — artt. 65-67, 69-71",
+          "summary": "Gli artt.65-67 regolano attraversamenti, occupazioni e concessioni; l'art.69 gli obblighi dei concessionari di servizi; gli artt.70-71 attuano la condotta delle acque e gli obblighi su canali artificiali. L'art.68 riguarda i cassonetti.",
+          "focus": [
+            "Artt.65-67: geometria delle interferenze, protezione degli impianti, manutenzione e concessione/collaudo.",
+            "Art.66 comma3: profondità minima ordinaria1m, con riduzione condizionata per tecniche a limitato impatto e approvazione dell'ente.",
+            "Art.69: prescrizioni e obblighi dei gestori dei servizi dell'art.28 CdS.",
+            "Artt.70-71: procedura per inadempienze su condotta delle acque, canali artificiali e manufatti; art.68 riguarda cassonetti."
           ]
         }
       ],

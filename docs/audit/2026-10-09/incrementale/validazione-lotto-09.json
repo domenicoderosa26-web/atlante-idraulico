@@ -1,0 +1,34 @@
+{
+  "checked_at": "2026-10-09T09:04:00.058Z",
+  "base_commit": "0733d34e863bf7921566e7eda48917f73fa21ae3",
+  "records_before": 107,
+  "records_after": 107,
+  "ids_preserved": true,
+  "existing_documents_preserved": true,
+  "existing_reviews_and_histories_preserved": true,
+  "canonical_topics_and_relations_unchanged": true,
+  "protected_files_unchanged": true,
+  "addressed_records": [
+    "er1860",
+    "mol25",
+    "bari",
+    "milano",
+    "pai-calabria2001"
+  ],
+  "documentary_reviews": 102,
+  "substantive_partial": 3,
+  "metadata_only_partial": 1,
+  "blocked": 1,
+  "full_legal_reviews": 0,
+  "checks": {
+    "topics_normalize": "passed",
+    "topics_validate": "passed",
+    "archive_with_base": "passed",
+    "python_unittest": "60 passed in UTF-8 mode",
+    "node_syntax": "passed",
+    "node_topic_filters": "passed;14 categories,168 combinations",
+    "git_diff_check": "passed"
+  },
+  "publication": "Validated against current main; PR and Pages awaiting verification",
+  "publication_base_commit": "ebaf88032eab0d0d52305665176ea5858ad6cedc"
+}

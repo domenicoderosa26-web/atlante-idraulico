@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "catalog_path": "data.json",
-  "updated_at": "2026-10-09T08:44:04.255108+00:00",
+  "updated_at": "2026-10-09T08:57:39.302492+00:00",
   "basis": [
     "docs/audit/2026-10-08/schede.json",
     "docs/audit/2026-10-08/coda.json",
@@ -11,15 +11,11 @@
   "note": "Registro derivato di attività: non è un secondo catalogo. Le revisioni anteriori sono conservate negli audit citati e in data.json. I conteggi sono una fotografia alla data indicata.",
   "catalog_snapshot": {
     "records": 107,
-    "documentary_reviews": 98,
+    "documentary_reviews": 102,
     "without_documentary_review": [
-      "er1860",
       "abr17",
-      "mol25",
-      "bari",
       "milano",
       "bas471",
-      "pai-calabria2001",
       "codstrada285",
       "dpr495"
     ],
@@ -1186,6 +1182,132 @@
         "validation": "docs/audit/2026-10-09/incrementale/validazione-lotto-08.json"
       },
       "history": []
+    },
+    "er1860": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-09T08:57:39.302492+00:00",
+      "source_urls": [
+        "https://servizissiir.regione.emilia-romagna.it/deliberegiunta/servlet/AdapterHTTP?ENTE=1&action_name=ACTIONRICERCADELIBERE&codProtocollo=SSR%2F06%2F1069410&operation=downloadTestoPdf",
+        "https://servizissiir.regione.emilia-romagna.it/deliberegiunta/servlet/AdapterHTTP?action_name=ACTIONRICERCADELIBERE&cod_protocollo=SSR%2F06%2F1069410&operation=leggi",
+        "https://www.arpae.it/it/autorizzazioni-e-concessioni/autorizzazioni-ambientali/autorizzazione-scarichi-idrici"
+      ],
+      "verified_results": [
+        "La banca dati regionale identifica DGR 1860 del 18 dicembre 2006 e BUR n. 9 del 19 gennaio 2007.",
+        "Approvate le linee guida attuative della DGR 286/2005 con allegato integrante; il PDF di quattro pagine contiene il solo provvedimento e non il testo tecnico allegato.",
+        "Prorogato al 31 dicembre 2007 il termine storico per chiedere autorizzazione alla prima pioggia degli insediamenti esistenti previsto dalla DGR 286/2005, cap. 8.2 punto II. Non costituisce una nuova scadenza nel 2026."
+      ],
+      "limitations": [
+        "Non acquisito il documento tecnico allegato: nessuna verifica delle formule o dei criteri di dimensionamento.",
+        "Non ricostruita la catena delle modifiche e delle competenze successive. Il rinvio ARPAE non prova la vigenza integrale."
+      ],
+      "next_operation": [
+        "Acquisire allegato tecnico ufficiale e coordinare DGR 1083/2010 e atti successivi."
+      ],
+      "record_version": "24edc977b2f2fcaa6e16dd7edad4a3c5ce93ae0fbe6a58b0bad6f68d22be5f3a",
+      "evidence": "docs/audit/2026-10-09/incrementale/lotto-09.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
+    },
+    "mol25": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-09T08:57:39.302492+00:00",
+      "source_urls": [
+        "https://www.arpamolise.it/WP/acque-reflue-urbane/",
+        "https://www.regione.molise.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/13780",
+        "https://www.regione.molise.it/flex/cm/pages/ServeAttachment.php/L/IT/D/1%252F3%252Fc%252FD.2e9f7d1931dbfbae71c8/P/BLOB%3AID%3D13780/E/pdf?mode=download"
+      ],
+      "verified_results": [
+        "ARPA Molise riferisce adozione DGR 599/2016 e approvazione DCR 25/2018; richiama DCR 386/2019, DGR 196/2020 e DGR 337/2021. Questi atti non sono stati letti autonomamente in questo lotto.",
+        "Il portale distingue atti 2018-2021, tavole aggiornate e DGR 506 del 29 dicembre 2025. Il solo elenco non permette di attribuire alle singole norme un testo coordinato al 2026.",
+        "Differita al 31 marzo 2026 la scadenza della convenzione con ARPA Molise per le attività tecniche di aggiornamento del PTA e controllo rifiuti. Il provvedimento non approva un nuovo PTA né proroga la vigenza del piano."
+      ],
+      "limitations": [
+        "PDF disciplina scarichi doc_r14-morifiche.pdf non acquisito: timeout locale e del servizio web.",
+        "DCR 25/2018 e modifiche 2019-2021 e DGR 506/2025 soltanto individuate nelle pagine istituzionali, non lette integralmente."
+      ],
+      "next_operation": [
+        "Acquisire disciplina scarichi e dispositivi delle modifiche; verificare contenuto di DGR 506/2025 ed esito del procedimento di aggiornamento."
+      ],
+      "record_version": "fe40569bbd36e851549b2978b66e294ad99437a881d0a393b55b8ead30d13a0e",
+      "evidence": "docs/audit/2026-10-09/incrementale/lotto-09.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
+    },
+    "bari": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-09T08:57:39.302492+00:00",
+      "source_urls": [
+        "https://www.cittametropolitana.ba.it/amministrazione/documenti_e_dati/modulistica/documento_268.html"
+      ],
+      "verified_results": [
+        "La pagina presenta la modulistica per autorizzazione scarico acque meteoriche RR 26/2013 in formato ZIP, non un nuovo atto normativo.",
+        "La pagina indica inizio pubblicazione 4 giugno 2024 e aggiornamento 13 gennaio 2026; la data della pagina non prova la versione dei singoli moduli."
+      ],
+      "limitations": [
+        "Pacchetto acque_meteoriche.zip non acquisito: collegamento gestito dalla funzione JavaScript SCHIOCCIOLA; manca nel documento HTML un URL diretto al pacchetto.",
+        "Non verificati contenuti, requisiti, competenza attuale o conformità dei moduli al RR 26/2013."
+      ],
+      "next_operation": [
+        "Acquisire il pacchetto ZIP mediante il collegamento della pagina e verificare i moduli e le istruzioni."
+      ],
+      "record_version": "afd4ef5fa7fe8a07d73621e06a76b83e4e1716233230a44b68d5e39e5ee93d81",
+      "evidence": "docs/audit/2026-10-09/incrementale/lotto-09.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
+    },
+    "pai-calabria2001": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-09T08:57:39.302492+00:00",
+      "source_urls": [
+        "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2024/11/NAMS_PAI_2001.pdf"
+      ],
+      "verified_results": [
+        "Il documento dichiara aggiornamento approvato dal Comitato Istituzionale il 2 agosto 2011; la collocazione web nel 2024 non costituisce una nuova versione normativa.",
+        "R4: divieto generale con eccezioni tassative; studio idrologico-idraulico per specifiche categorie, con distinta disciplina del parere ABR. R3: obiettivo di invaso della piena con TR 200 anni e ulteriori interventi condizionati; nessuna autorizzazione generalizzata.",
+        "R1/R2: vietati locali sotterranei e seminterrati a uso abitativo e commerciale. Nelle aree di attenzione prive di studi di dettaglio valgono in via preventiva le prescrizioni R4.",
+        "Previste proposte di rettifica e rilevazione comunale di pericoli non mappati. Vietata la tombatura anche dei fossi minori; eccezioni limitate a comprovata necessità, verifiche tecniche e parere vincolante ABR. Competenze e procedure sono quelle del testo 2011."
+      ],
+      "limitations": [
+        "Non lette specifiche tecniche e linee guida richiamate né cartografie puntuali.",
+        "Non ricostruito coordinamento con PGRA e progetto Calabria/Lao né sopravvenienze normative o competenze attuali.",
+        "La disposizione transitoria di Crotone art. 25 c. 5 richiede accertamento del completamento delle opere; non assunta come attuale."
+      ],
+      "next_operation": [
+        "Coordinare NAMS con salvaguardie Calabria/Lao e PGRA, acquisire specifiche tecniche e varianti e verificare competenze e condizioni territoriali attuali."
+      ],
+      "record_version": "25609117bd0e860309e135ce93224c9889552e9a9b3911e5301ea7a86bc5d63a",
+      "evidence": "docs/audit/2026-10-09/incrementale/lotto-09.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
+    },
+    "milano": {
+      "state": "bloccata",
+      "last_activity": "2026-10-09T08:57:39.302492+00:00",
+      "source_urls": [
+        "https://pgt.comune.milano.it/pgt-previgente/componente-geologica-e-direttiva-alluvioni/componente-geologica-pgt-milano-2030",
+        "https://pgt.comune.milano.it/gall08-documento-semplificato-del-rischio-idraulico/1-premessa"
+      ],
+      "verified_results": [],
+      "limitations": [
+        "Portale PGT restituisce HTTP 403 sia per componente geologica previgente sia per premessa DSRI; nessuna lettura sostanziale. I risultati indicizzati del motore non sono assunti come verifica documentale."
+      ],
+      "next_operation": [
+        "Riprovare fonte comunale accessibile e distinguere PGT vigente, previgente e adottato; leggere DSRI e tavole aggiornate."
+      ],
+      "record_version": "4ab181ed447b596a4755aca4fc539f8b1ad34bdd3a7f3787fe5fe88def736066",
+      "evidence": "docs/audit/2026-10-09/incrementale/lotto-09.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
     }
   },
   "batches": [
@@ -1333,14 +1455,29 @@
         "state": "validated_pending_deployment",
         "validation": "docs/audit/2026-10-09/incrementale/validazione-lotto-08.json"
       }
+    },
+    {
+      "id": "incrementale-09",
+      "date": "2026-10-09",
+      "record_ids": [
+        "er1860",
+        "mol25",
+        "bari",
+        "pai-calabria2001",
+        "milano"
+      ],
+      "evidence": "docs/audit/2026-10-09/incrementale/lotto-09.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      }
     }
   ],
   "next_batch": [
-    "er1860",
-    "mol25",
-    "bari",
+    "codstrada285",
+    "dpr495",
     "milano",
-    "pai-calabria2001"
+    "abr17",
+    "bas471"
   ],
   "queue_history": [
     {
@@ -1360,6 +1497,24 @@
         "bz23"
       ],
       "reason": "Priorità a correzione del collegamento visibile BZ23: il campo document_url non è usato dal frontend. La variante 62 resta in coda; metadati istituzionali letti, dispositivo non acquisito dopo ricerca mirata e errore 502 del portale."
+    },
+    {
+      "date": "2026-10-09",
+      "before": [
+        "er1860",
+        "mol25",
+        "bari",
+        "milano",
+        "pai-calabria2001"
+      ],
+      "after": [
+        "codstrada285",
+        "dpr495",
+        "milano",
+        "abr17",
+        "bas471"
+      ],
+      "reason": "Tre letture sostanziali; Bari verificata soltanto nei metadati, Milano bloccata per 403. Non completata la Fase 3."
     }
   ]
 }

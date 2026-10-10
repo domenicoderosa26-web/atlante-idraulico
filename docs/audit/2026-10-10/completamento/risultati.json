@@ -2,8 +2,8 @@
   "date": "2026-10-10",
   "phase3_complete": false,
   "start_records": 107,
-  "end_records": 114,
-  "records_reexamined_this_completion": 43,
+  "end_records": 115,
+  "records_reexamined_this_completion": 45,
   "record_ids_reexamined": [
     "codstrada285",
     "dpr495",
@@ -47,7 +47,9 @@
     "ue805-2026",
     "ue60",
     "ueall",
-    "dl49"
+    "dl49",
+    "dm185",
+    "dl39-riuso-2023"
   ],
   "new_record_ids": [
     "abr31",
@@ -56,16 +58,17 @@
     "milano-suds-10576-2020",
     "fvg-lr5-2026",
     "vda-lr20-2023",
-    "ue805-2026"
+    "ue805-2026",
+    "dl39-riuso-2023"
   ],
   "catalog_review_outcomes": {
-    "partial": 106,
+    "partial": 107,
     "verified": 8
   },
   "legal_states_scoped": {
     "partially_repealed": 2,
-    "partial": 79,
-    "amended": 19,
+    "partial": 78,
+    "amended": 21,
     "in_force": 4,
     "constitutionally_invalid": 1,
     "unverified": 2,
@@ -73,16 +76,15 @@
     "adopted": 4
   },
   "full_legal_reviews": 0,
-  "technical_urls": 370,
+  "technical_urls": 374,
   "technical_errors": 57,
   "empty_or_challenge": 13,
-  "unique_sources_with_scoped_semantic_claims": 78,
-  "document_entries": 226,
+  "unique_sources_with_scoped_semantic_claims": 82,
+  "document_entries": 231,
   "coverage_cells": {
     "ricognizione_non_ancora_effettuata": 143,
     "ricognizione_puntuale_non_esaustiva": 29,
     "atto_verificato_e_censito_perimetro_parziale": 4
   },
-  "base_commit": "bf691b23927323295e22e24ab7c88a23aa7de516"
+  "base_commit": "371da952792cc1945f37d2db0a8970a2ec4e4498"
 }
-

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "catalog_path": "data.json",
-  "updated_at": "2026-10-10T12:06:33.205501+00:00",
+  "updated_at": "2026-10-10T12:20:59.313011+00:00",
   "basis": [
     "docs/audit/2026-10-08/schede.json",
     "docs/audit/2026-10-08/coda.json",
@@ -10,8 +10,8 @@
   ],
   "note": "Registro derivato di attività: non è un secondo catalogo. Le revisioni anteriori sono conservate negli audit citati e in data.json. I conteggi sono una fotografia alla data indicata.",
   "catalog_snapshot": {
-    "records": 114,
-    "documentary_reviews": 114,
+    "records": 115,
+    "documentary_reviews": 115,
     "without_documentary_review": [],
     "full_legal_reviews": 0
   },
@@ -7043,9 +7043,18 @@
       "record_version": "10c7da0a72fb869133743167c62665d92f6023b4dcdc69010e25b86eaf121b27",
       "evidence": "docs/audit/2026-10-09/incrementale/lotto-19.json",
       "publication": {
-        "state": "validated_pending_deployment"
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/26",
+        "merge_commit": "371da952792cc1945f37d2db0a8970a2ec4e4498",
+        "evidence": "docs/audit/2026-10-09/incrementale/pubblicazione-lotto-19.json",
+        "verified_at": "2026-10-10T12:17:15.112273+00:00"
       },
-      "history": []
+      "history": [],
+      "publication_history": [
+        {
+          "state": "validated_pending_deployment"
+        }
+      ]
     },
     "dl49": {
       "state": "verificata nel perimetro dichiarato",
@@ -7071,6 +7080,70 @@
       ],
       "record_version": "f455e93e3b923bc4990ac049c72efc029d349b9d075de94a3d56aca9ef09eb18",
       "evidence": "docs/audit/2026-10-09/incrementale/lotto-19.json",
+      "publication": {
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/26",
+        "merge_commit": "371da952792cc1945f37d2db0a8970a2ec4e4498",
+        "evidence": "docs/audit/2026-10-09/incrementale/pubblicazione-lotto-19.json",
+        "verified_at": "2026-10-10T12:17:15.112273+00:00"
+      },
+      "history": [],
+      "publication_history": [
+        {
+          "state": "validated_pending_deployment"
+        }
+      ]
+    },
+    "dm185": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-10T12:20:59.313011+00:00",
+      "source_urls": [
+        "https://www.normattiva.it/esporta/attoCompleto?atto.dataPubblicazioneGazzetta=2003-07-23&atto.codiceRedazionale=003G0210",
+        "https://www.normattiva.it/do/atto/caricaPdf?cdimg=v003G02100010001011000102&num=0001&dgu=2003-07-23",
+        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13"
+      ],
+      "verified_results": [
+        "Distingue riuso irriguo, civile e industriale; escluso il riuso interno allo stesso stabilimento o consorzio. Qualità al punto di uscita, autorizzazione, rete separata, controlli e responsabilità restano distinti; gratuità della fornitura non equivale a esenzione autorizzativa.",
+        "La tabella comprende parametri chimico-fisici e microbiologici con unità e condizioni. E. coli: 10 UFC/100 ml nell’80% dei campioni, massimo puntuale 100; nota 3 per lagunaggio/fitodepurazione: 50 e 200. Salmonella assente. Sono limiti del regime nazionale storico con eccezioni e condizioni, non valori universali per ogni riuso UE.",
+        "La deroga transitoria triennale dell’art. 14 non è un’autorizzazione generale vigente nel 2026. Allegato distingue deroghe regionali condizionate, valori guida, limiti per l’irrigazione, sospensione e tre controlli successivi per la riattivazione.",
+        "L’abrogazione del D.M. 185/2003 decorre dall’entrata in vigore del regolamento ex art. 99 comma 1 D.Lgs. 152/2006. La legge di conversione non basta da sola a dichiararlo già abrogato.",
+        "Il termine massimo del regime temporaneo ex art. 7 D.L. 39/2023 viene spostato al 31 dicembre 2026; va distinta la condizione relativa al DPR di esecuzione UE."
+      ],
+      "limitations": [
+        "Rinvii storici a D.Lgs. 152/1999 e D.Lgs. 31/2001 richiedono coordinamento con i successori; non completata ricostruzione degli atti regionali.",
+        "Non accertata l’eventuale entrata in vigore del regolamento sostitutivo ex art. 99 D.Lgs. 152/2006."
+      ],
+      "next_operation": [
+        "Accertare pubblicazione ed efficacia del regolamento sostitutivo e del DPR esecutivo UE, poi confrontare art. 99 corrente e discipline regionali."
+      ],
+      "record_version": "a74db0f8cb7bca1c7a9f79c819da4f290e3e035d791d9c380dfc8afcb33107de",
+      "evidence": "docs/audit/2026-10-09/incrementale/lotto-20.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
+    },
+    "dl39-riuso-2023": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-10T12:20:59.313011+00:00",
+      "source_urls": [
+        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2023-04-14;39~art7",
+        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13"
+      ],
+      "verified_results": [
+        "Riuso agricolo da impianti già in esercizio al 15 aprile 2023; competenza regione/Provincia autonoma, procedimento unico con ARPA e ASL, termine 45 giorni e potere sostitutivo 30 giorni. PGR predisposto dal gestore insieme ai responsabili di trasporto e stoccaggio.",
+        "Termine massimo prorogato al 31 dicembre 2026, con conversione L. 26/2026; resta la cessazione anticipata all’entrata in vigore del DPR previsto dall’art. 7.",
+        "Classi A–D correlate a colture e tecniche irrigue. PGR: sistema, ruoli, pericoli, esposizione e valutazione dei rischi; requisiti ulteriori, barriere, monitoraggio e incidenti, articolati negli 11 elementi KRM. Non estese queste procedure indistintamente ai riusi civili o industriali."
+      ],
+      "limitations": [
+        "Parti grafiche della parte A non lette; rinvii esterni e altri articoli del decreto non riesaminati.",
+        "Non accertata eventuale entrata in vigore del DPR che anticiperebbe la cessazione del regime temporaneo."
+      ],
+      "next_operation": [
+        "Acquisire parti grafiche dell’allegato A; verificare DPR attuativo, rinvii aggiornati e applicazione territoriale."
+      ],
+      "record_version": "d3facc513d0f6d4e6e75b14fe323c608ede6b9c8f45e330418b5fd7f9b9b5366",
+      "evidence": "docs/audit/2026-10-09/incrementale/lotto-20.json",
       "publication": {
         "state": "validated_pending_deployment"
       },
@@ -7565,6 +7638,27 @@
       ],
       "evidence": "docs/audit/2026-10-09/incrementale/lotto-19.json",
       "publication": {
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/26",
+        "merge_commit": "371da952792cc1945f37d2db0a8970a2ec4e4498",
+        "evidence": "docs/audit/2026-10-09/incrementale/pubblicazione-lotto-19.json",
+        "verified_at": "2026-10-10T12:17:15.112273+00:00"
+      },
+      "publication_history": [
+        {
+          "state": "validated_pending_deployment"
+        }
+      ]
+    },
+    {
+      "id": "incrementale-20",
+      "date": "2026-10-09",
+      "record_ids": [
+        "dm185",
+        "dl39-riuso-2023"
+      ],
+      "evidence": "docs/audit/2026-10-09/incrementale/lotto-20.json",
+      "publication": {
         "state": "validated_pending_deployment"
       }
     }
@@ -7572,8 +7666,9 @@
   "next_batch": [
     "sar-pai-frane-42-2026",
     "sar-pai-barrali-162-2026",
-    "er1860",
-    "dm185"
+    "ue1765reuse",
+    "ue741reuse",
+    "er1860"
   ],
   "queue_history": [
     {
@@ -7779,14 +7874,31 @@
         "er1860"
       ],
       "reason": "Proseguire sui perimetri ancora parziali; il catalogo corrente non contiene schede prive di revisione."
+    },
+    {
+      "date": "2026-10-09",
+      "before": [
+        "sar-pai-frane-42-2026",
+        "sar-pai-barrali-162-2026",
+        "er1860",
+        "dm185"
+      ],
+      "after": [
+        "sar-pai-frane-42-2026",
+        "sar-pai-barrali-162-2026",
+        "ue1765reuse",
+        "ue741reuse",
+        "er1860"
+      ],
+      "reason": "Proseguire sui perimetri ancora parziali; il catalogo corrente non contiene schede prive di revisione."
     }
   ],
   "phase3_completion": {
     "date": "2026-10-10",
     "phase3_complete": false,
     "start_records": 107,
-    "end_records": 114,
-    "records_reexamined_this_completion": 43,
+    "end_records": 115,
+    "records_reexamined_this_completion": 45,
     "record_ids_reexamined": [
       "codstrada285",
       "dpr495",
@@ -7830,7 +7942,9 @@
       "ue805-2026",
       "ue60",
       "ueall",
-      "dl49"
+      "dl49",
+      "dm185",
+      "dl39-riuso-2023"
     ],
     "new_record_ids": [
       "abr31",
@@ -7839,16 +7953,17 @@
       "milano-suds-10576-2020",
       "fvg-lr5-2026",
       "vda-lr20-2023",
-      "ue805-2026"
+      "ue805-2026",
+      "dl39-riuso-2023"
     ],
     "catalog_review_outcomes": {
-      "partial": 106,
+      "partial": 107,
       "verified": 8
     },
     "legal_states_scoped": {
       "partially_repealed": 2,
-      "partial": 79,
-      "amended": 19,
+      "partial": 78,
+      "amended": 21,
       "in_force": 4,
       "constitutionally_invalid": 1,
       "unverified": 2,
@@ -7856,19 +7971,18 @@
       "adopted": 4
     },
     "full_legal_reviews": 0,
-    "technical_urls": 370,
+    "technical_urls": 374,
     "technical_errors": 57,
     "empty_or_challenge": 13,
-    "unique_sources_with_scoped_semantic_claims": 78,
-    "document_entries": 226,
+    "unique_sources_with_scoped_semantic_claims": 82,
+    "document_entries": 231,
     "coverage_cells": {
       "ricognizione_non_ancora_effettuata": 143,
       "ricognizione_puntuale_non_esaustiva": 29,
       "atto_verificato_e_censito_perimetro_parziale": 4
     },
-    "base_commit": "bf691b23927323295e22e24ab7c88a23aa7de516"
+    "base_commit": "371da952792cc1945f37d2db0a8970a2ec4e4498"
   },
   "residual_queue": "docs/audit/2026-10-10/completamento/attivita-residue.json",
   "coverage_snapshot": "docs/audit/2026-10-10/completamento/copertura-aggiornata.json"
 }
-

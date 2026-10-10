@@ -2542,7 +2542,10 @@
       ],
       "source_urls": [
         "https://www.gazzettaufficiale.it/eli/gu/2003/07/23/169/sg/pdf",
-        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2003-07-23&atto.codiceRedazionale=003G0210"
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2003-07-23&atto.codiceRedazionale=003G0210",
+        "https://www.normattiva.it/esporta/attoCompleto?atto.dataPubblicazioneGazzetta=2003-07-23&atto.codiceRedazionale=003G0210",
+        "https://www.normattiva.it/do/atto/caricaPdf?cdimg=v003G02100010001011000102&num=0001&dgu=2003-07-23",
+        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13"
       ],
       "object_versions": [
         {
@@ -3530,6 +3533,28 @@
         }
       ],
       "evidence": "Lettura del testo ufficiale nei perimetri indicati dal lotto 18."
+    },
+    "dl39-riuso-2023": {
+      "topics": [
+        "scarichi"
+      ],
+      "source_urls": [
+        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2023-04-14;39~art7",
+        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13"
+      ],
+      "object_versions": [
+        {
+          "title": "Regime temporaneo di riutilizzo irriguo delle acque reflue depurate",
+          "ref": "D.L. 39/2023 · art. 7",
+          "summary": "Procedimento unico regionale o provinciale autonomo per il riuso irriguo agricolo delle acque depurate da impianti già in esercizio all’entrata in vigore del decreto; termine massimo prorogato al 31 dicembre 2026.",
+          "focus": [
+            "Autorizzazione unica e piano di gestione dei rischi",
+            "Impianti già in esercizio e usi agricoli",
+            "Termine prorogato e condizione di cessazione anticipata"
+          ]
+        }
+      ],
+      "evidence": "Fonti primarie lette nel perimetro del lotto 20."
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "note": "Riscontri per disposizione dei lotti 10–19, con perimetro; non sono letture integrali di ogni documento né attestazioni complete di vigenza.",
+  "note": "Riscontri per disposizione dei lotti 10–20, con perimetro; non sono letture integrali di ogni documento né attestazioni complete di vigenza.",
   "sources": [
     {
       "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0306&atto.dataPubblicazioneGazzetta=1992-05-18&tipoDettaglio=vigente",
@@ -2025,7 +2025,103 @@
           "finding": "Competenze distrettuali e parte di allertamento regionale distinte; vincoli urbanistici ed emergenza, coordinamento e riesami sessennali con scadenze di settembre. Statuti speciali e Province autonome conservano la clausola dell’art. 17."
         }
       ]
+    },
+    {
+      "url": "https://www.normattiva.it/esporta/attoCompleto?atto.dataPubblicazioneGazzetta=2003-07-23&atto.codiceRedazionale=003G0210",
+      "records": [
+        "dm185"
+      ],
+      "claims": [
+        {
+          "record_id": "dm185",
+          "checked_at": "2026-10-10",
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/esporta/attoCompleto?atto.dataPubblicazioneGazzetta=2003-07-23&atto.codiceRedazionale=003G0210",
+          "locator": "Artt. 1–4, 6–12",
+          "finding": "Distingue riuso irriguo, civile e industriale; escluso il riuso interno allo stesso stabilimento o consorzio. Qualità al punto di uscita, autorizzazione, rete separata, controlli e responsabilità restano distinti; gratuità della fornitura non equivale a esenzione autorizzativa."
+        },
+        {
+          "record_id": "dm185",
+          "checked_at": "2026-10-10",
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/esporta/attoCompleto?atto.dataPubblicazioneGazzetta=2003-07-23&atto.codiceRedazionale=003G0210",
+          "locator": "Art. 14; allegato paragrafi 2–8",
+          "finding": "La deroga transitoria triennale dell’art. 14 non è un’autorizzazione generale vigente nel 2026. Allegato distingue deroghe regionali condizionate, valori guida, limiti per l’irrigazione, sospensione e tre controlli successivi per la riattivazione."
+        }
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/do/atto/caricaPdf?cdimg=v003G02100010001011000102&num=0001&dgu=2003-07-23",
+      "records": [
+        "dm185"
+      ],
+      "claims": [
+        {
+          "record_id": "dm185",
+          "checked_at": "2026-10-10",
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/do/atto/caricaPdf?cdimg=v003G02100010001011000102&num=0001&dgu=2003-07-23",
+          "locator": "GU 23/07/2003, p. 14: tabella e note 1–3",
+          "finding": "La tabella comprende parametri chimico-fisici e microbiologici con unità e condizioni. E. coli: 10 UFC/100 ml nell’80% dei campioni, massimo puntuale 100; nota 3 per lagunaggio/fitodepurazione: 50 e 200. Salmonella assente. Sono limiti del regime nazionale storico con eccezioni e condizioni, non valori universali per ogni riuso UE."
+        }
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13",
+      "records": [
+        "dm185",
+        "dl39-riuso-2023"
+      ],
+      "claims": [
+        {
+          "record_id": "dm185",
+          "checked_at": "2026-10-10",
+          "aspect": "amendment",
+          "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13",
+          "locator": "Art. 13, comma 1-ter; conversione L. 27/02/2026 n. 26",
+          "finding": "L’abrogazione del D.M. 185/2003 decorre dall’entrata in vigore del regolamento ex art. 99 comma 1 D.Lgs. 152/2006. La legge di conversione non basta da sola a dichiararlo già abrogato."
+        },
+        {
+          "record_id": "dm185",
+          "checked_at": "2026-10-10",
+          "aspect": "amendment",
+          "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13",
+          "locator": "Art. 13, comma 1-bis",
+          "finding": "Il termine massimo del regime temporaneo ex art. 7 D.L. 39/2023 viene spostato al 31 dicembre 2026; va distinta la condizione relativa al DPR di esecuzione UE."
+        },
+        {
+          "record_id": "dl39-riuso-2023",
+          "checked_at": "2026-10-10",
+          "aspect": "amendment",
+          "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13",
+          "locator": "Art. 13 comma 1-bis",
+          "finding": "Termine massimo prorogato al 31 dicembre 2026, con conversione L. 26/2026; resta la cessazione anticipata all’entrata in vigore del DPR previsto dall’art. 7."
+        }
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2023-04-14;39~art7",
+      "records": [
+        "dl39-riuso-2023"
+      ],
+      "claims": [
+        {
+          "record_id": "dl39-riuso-2023",
+          "checked_at": "2026-10-10",
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2023-04-14;39~art7",
+          "locator": "Art. 7 commi 1–4",
+          "finding": "Riuso agricolo da impianti già in esercizio al 15 aprile 2023; competenza regione/Provincia autonoma, procedimento unico con ARPA e ASL, termine 45 giorni e potere sostitutivo 30 giorni. PGR predisposto dal gestore insieme ai responsabili di trasporto e stoccaggio."
+        },
+        {
+          "record_id": "dl39-riuso-2023",
+          "checked_at": "2026-10-10",
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2023-04-14;39~art7",
+          "locator": "Allegato A: tabella 1 e parte B sezioni 1–3",
+          "finding": "Classi A–D correlate a colture e tecniche irrigue. PGR: sistema, ruoli, pericoli, esposizione e valutazione dei rischi; requisiti ulteriori, barriere, monitoraggio e incidenti, articolati negli 11 elementi KRM. Non estese queste procedure indistintamente ai riusi civili o industriali."
+        }
+      ]
     }
   ]
 }
-

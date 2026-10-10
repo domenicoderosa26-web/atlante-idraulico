@@ -1,0 +1,272 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-10",
+  "lot": 20,
+  "record_ids": [
+    "dm185",
+    "dl39-riuso-2023"
+  ],
+  "records": [
+    {
+      "id": "dm185",
+      "checked_at": "2026-10-10",
+      "scope": "D.M. 185/2003: lettura completa artt. 1–15 e allegato testuale (8 paragrafi e note); tabella grafica GU acquisita e letta visivamente nelle due pagine del PDF Normattiva. Riscontro art. 13 commi 1-bis/1-ter del D.L. 200/2025 vigente.",
+      "outcome": "partial",
+      "legal_state": "amended",
+      "claims": [
+        {
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/esporta/attoCompleto?atto.dataPubblicazioneGazzetta=2003-07-23&atto.codiceRedazionale=003G0210",
+          "locator": "Artt. 1–4, 6–12",
+          "finding": "Distingue riuso irriguo, civile e industriale; escluso il riuso interno allo stesso stabilimento o consorzio. Qualità al punto di uscita, autorizzazione, rete separata, controlli e responsabilità restano distinti; gratuità della fornitura non equivale a esenzione autorizzativa."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/do/atto/caricaPdf?cdimg=v003G02100010001011000102&num=0001&dgu=2003-07-23",
+          "locator": "GU 23/07/2003, p. 14: tabella e note 1–3",
+          "finding": "La tabella comprende parametri chimico-fisici e microbiologici con unità e condizioni. E. coli: 10 UFC/100 ml nell’80% dei campioni, massimo puntuale 100; nota 3 per lagunaggio/fitodepurazione: 50 e 200. Salmonella assente. Sono limiti del regime nazionale storico con eccezioni e condizioni, non valori universali per ogni riuso UE."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/esporta/attoCompleto?atto.dataPubblicazioneGazzetta=2003-07-23&atto.codiceRedazionale=003G0210",
+          "locator": "Art. 14; allegato paragrafi 2–8",
+          "finding": "La deroga transitoria triennale dell’art. 14 non è un’autorizzazione generale vigente nel 2026. Allegato distingue deroghe regionali condizionate, valori guida, limiti per l’irrigazione, sospensione e tre controlli successivi per la riattivazione."
+        },
+        {
+          "aspect": "amendment",
+          "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13",
+          "locator": "Art. 13, comma 1-ter; conversione L. 27/02/2026 n. 26",
+          "finding": "L’abrogazione del D.M. 185/2003 decorre dall’entrata in vigore del regolamento ex art. 99 comma 1 D.Lgs. 152/2006. La legge di conversione non basta da sola a dichiararlo già abrogato."
+        },
+        {
+          "aspect": "amendment",
+          "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13",
+          "locator": "Art. 13, comma 1-bis",
+          "finding": "Il termine massimo del regime temporaneo ex art. 7 D.L. 39/2023 viene spostato al 31 dicembre 2026; va distinta la condizione relativa al DPR di esecuzione UE."
+        }
+      ],
+      "limitations": [
+        "Rinvii storici a D.Lgs. 152/1999 e D.Lgs. 31/2001 richiedono coordinamento con i successori; non completata ricostruzione degli atti regionali.",
+        "Non accertata l’eventuale entrata in vigore del regolamento sostitutivo ex art. 99 D.Lgs. 152/2006."
+      ],
+      "pending": [
+        "Accertare pubblicazione ed efficacia del regolamento sostitutivo e del DPR esecutivo UE, poi confrontare art. 99 corrente e discipline regionali."
+      ],
+      "proposed_changes": {
+        "status": "Abrogazione futura condizionata · riscontro Normattiva al 10/10/2026",
+        "note": "Letto intero corpo e allegato, inclusa tabella grafica originale. Riscontrata abrogazione condizionata ex D.L. 200/2025 art. 13 c. 1-ter; non accertata in questo lotto l’entrata in vigore del regolamento sostitutivo. Regime temporaneo irriguo distinto e prorogato al 31/12/2026.",
+        "document_note": "Aggiunti testo completo Normattiva e tabella grafica GU. Testo del 2003 e rinvii storici distinti dai requisiti UE e dalla disciplina transitoria aggiornata.",
+        "add_documents": [
+          {
+            "url": "https://www.normattiva.it/esporta/attoCompleto?atto.dataPubblicazioneGazzetta=2003-07-23&atto.codiceRedazionale=003G0210",
+            "label": "Normattiva · testo completo e allegato",
+            "format": "html"
+          },
+          {
+            "url": "https://www.normattiva.it/do/atto/caricaPdf?cdimg=v003G02100010001011000102&num=0001&dgu=2003-07-23",
+            "label": "Normattiva/GU · tabella grafica e note",
+            "format": "pdf"
+          },
+          {
+            "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13",
+            "label": "Normattiva · art. 13 D.L. 200/2025 vigente",
+            "format": "html"
+          }
+        ],
+        "relations": [
+          {
+            "type": "Regime temporaneo distinto",
+            "id": "dl39-riuso-2023"
+          },
+          {
+            "type": "Da coordinare con",
+            "id": "ue741reuse"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.normattiva.it/esporta/attoCompleto?atto.dataPubblicazioneGazzetta=2003-07-23&atto.codiceRedazionale=003G0210",
+          "consulted_at": "2026-10-10T12:19:36.774286+00:00",
+          "access_method": "browser_official_text",
+          "semantic_scope": "D.M. 185/2003: lettura completa artt. 1–15 e allegato testuale (8 paragrafi e note); tabella grafica GU acquisita e letta visivamente nelle due pagine del PDF Normattiva. Riscontro art. 13 commi 1-bis/1-ter del D.L. 200/2025 vigente."
+        },
+        {
+          "url": "https://www.normattiva.it/do/atto/caricaPdf?cdimg=v003G02100010001011000102&num=0001&dgu=2003-07-23",
+          "consulted_at": "2026-10-10T12:19:36.774286+00:00",
+          "access_method": "browser_official_text",
+          "semantic_scope": "D.M. 185/2003: lettura completa artt. 1–15 e allegato testuale (8 paragrafi e note); tabella grafica GU acquisita e letta visivamente nelle due pagine del PDF Normattiva. Riscontro art. 13 commi 1-bis/1-ter del D.L. 200/2025 vigente."
+        },
+        {
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13",
+          "consulted_at": "2026-10-10T12:19:36.774286+00:00",
+          "access_method": "browser_official_text",
+          "semantic_scope": "D.M. 185/2003: lettura completa artt. 1–15 e allegato testuale (8 paragrafi e note); tabella grafica GU acquisita e letta visivamente nelle due pagine del PDF Normattiva. Riscontro art. 13 commi 1-bis/1-ter del D.L. 200/2025 vigente."
+        },
+        {
+          "url": "https://www.normattiva.it/do/atto/caricaPdf?cdimg=v003G02100010001011000102&num=0001&dgu=2003-07-23",
+          "http_status": 200,
+          "bytes": 94887,
+          "sha256": "d7bfe77b5b1a3da46c1e1133c8277704660dab6062a5cc8f8d0fc6e56de3cef5",
+          "consulted_at": "2026-10-10T12:16:50.086162+00:00",
+          "body_complete": true
+        }
+      ]
+    },
+    {
+      "id": "dl39-riuso-2023",
+      "checked_at": "2026-10-10",
+      "scope": "Lettura completa art. 7 vigente dal 01/03/2026; allegato A: tabella 1 HTML, parte B sezioni 1–3 interamente lette, escluso segmento grafico della parte A. Riscontro proroga D.L. 200/2025 art. 13 c. 1-bis.",
+      "outcome": "partial",
+      "legal_state": "amended",
+      "claims": [
+        {
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2023-04-14;39~art7",
+          "locator": "Art. 7 commi 1–4",
+          "finding": "Riuso agricolo da impianti già in esercizio al 15 aprile 2023; competenza regione/Provincia autonoma, procedimento unico con ARPA e ASL, termine 45 giorni e potere sostitutivo 30 giorni. PGR predisposto dal gestore insieme ai responsabili di trasporto e stoccaggio."
+        },
+        {
+          "aspect": "amendment",
+          "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13",
+          "locator": "Art. 13 comma 1-bis",
+          "finding": "Termine massimo prorogato al 31 dicembre 2026, con conversione L. 26/2026; resta la cessazione anticipata all’entrata in vigore del DPR previsto dall’art. 7."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2023-04-14;39~art7",
+          "locator": "Allegato A: tabella 1 e parte B sezioni 1–3",
+          "finding": "Classi A–D correlate a colture e tecniche irrigue. PGR: sistema, ruoli, pericoli, esposizione e valutazione dei rischi; requisiti ulteriori, barriere, monitoraggio e incidenti, articolati negli 11 elementi KRM. Non estese queste procedure indistintamente ai riusi civili o industriali."
+        }
+      ],
+      "limitations": [
+        "Parti grafiche della parte A non lette; rinvii esterni e altri articoli del decreto non riesaminati.",
+        "Non accertata eventuale entrata in vigore del DPR che anticiperebbe la cessazione del regime temporaneo."
+      ],
+      "pending": [
+        "Acquisire parti grafiche dell’allegato A; verificare DPR attuativo, rinvii aggiornati e applicazione territoriale."
+      ],
+      "proposed_changes": {},
+      "sources": [
+        {
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2023-04-14;39~art7",
+          "consulted_at": "2026-10-10T12:19:36.774286+00:00",
+          "access_method": "browser_official_text",
+          "semantic_scope": "Lettura completa art. 7 vigente dal 01/03/2026; allegato A: tabella 1 HTML, parte B sezioni 1–3 interamente lette, escluso segmento grafico della parte A. Riscontro proroga D.L. 200/2025 art. 13 c. 1-bis."
+        },
+        {
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13",
+          "consulted_at": "2026-10-10T12:19:36.774286+00:00",
+          "access_method": "browser_official_text",
+          "semantic_scope": "Lettura completa art. 7 vigente dal 01/03/2026; allegato A: tabella 1 HTML, parte B sezioni 1–3 interamente lette, escluso segmento grafico della parte A. Riscontro proroga D.L. 200/2025 art. 13 c. 1-bis."
+        }
+      ]
+    }
+  ],
+  "corrections": [
+    {
+      "id": "dm185",
+      "field": "status",
+      "before": "Vigente al 21/09/2026 · abrogazione futura condizionata",
+      "after": "Abrogazione futura condizionata · riscontro Normattiva al 10/10/2026",
+      "source_urls": [
+        "https://www.normattiva.it/esporta/attoCompleto?atto.dataPubblicazioneGazzetta=2003-07-23&atto.codiceRedazionale=003G0210",
+        "https://www.normattiva.it/do/atto/caricaPdf?cdimg=v003G02100010001011000102&num=0001&dgu=2003-07-23",
+        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13"
+      ]
+    },
+    {
+      "id": "dm185",
+      "field": "relations",
+      "before": [
+        {
+          "type": "Attua e si coordina con",
+          "id": "dl152"
+        },
+        {
+          "type": "Si coordina con",
+          "id": "ue741reuse"
+        }
+      ],
+      "after": [
+        {
+          "type": "Regime temporaneo distinto",
+          "id": "dl39-riuso-2023"
+        },
+        {
+          "type": "Da coordinare con",
+          "id": "ue741reuse"
+        }
+      ],
+      "source_urls": [
+        "https://www.normattiva.it/esporta/attoCompleto?atto.dataPubblicazioneGazzetta=2003-07-23&atto.codiceRedazionale=003G0210",
+        "https://www.normattiva.it/do/atto/caricaPdf?cdimg=v003G02100010001011000102&num=0001&dgu=2003-07-23",
+        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13"
+      ]
+    },
+    {
+      "id": "dm185",
+      "field": "documents",
+      "before": [
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2003/07/23/169/sg/pdf",
+          "label": "PDF ufficiale · G.U. n. 169 del 23/07/2003",
+          "format": "pdf"
+        }
+      ],
+      "after": [
+        {
+          "url": "https://www.gazzettaufficiale.it/eli/gu/2003/07/23/169/sg/pdf",
+          "label": "PDF ufficiale · G.U. n. 169 del 23/07/2003",
+          "format": "pdf"
+        },
+        {
+          "url": "https://www.normattiva.it/esporta/attoCompleto?atto.dataPubblicazioneGazzetta=2003-07-23&atto.codiceRedazionale=003G0210",
+          "label": "Normattiva · testo completo e allegato",
+          "format": "html"
+        },
+        {
+          "url": "https://www.normattiva.it/do/atto/caricaPdf?cdimg=v003G02100010001011000102&num=0001&dgu=2003-07-23",
+          "label": "Normattiva/GU · tabella grafica e note",
+          "format": "pdf"
+        },
+        {
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13",
+          "label": "Normattiva · art. 13 D.L. 200/2025 vigente",
+          "format": "html"
+        }
+      ],
+      "source_urls": [
+        "https://www.normattiva.it/esporta/attoCompleto?atto.dataPubblicazioneGazzetta=2003-07-23&atto.codiceRedazionale=003G0210",
+        "https://www.normattiva.it/do/atto/caricaPdf?cdimg=v003G02100010001011000102&num=0001&dgu=2003-07-23",
+        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13"
+      ]
+    },
+    {
+      "id": "dm185",
+      "field": "note",
+      "before": "Normattiva indica ultimo aggiornamento pubblicato il 28/02/2026 e testo in vigore dal 01/03/2026. L’art. 13, comma 1-ter, del D.L. 200/2025, convertito dalla L. 26/2026, dispone l’abrogazione del D.M. 185/2003 solo dalla data di entrata in vigore del futuro regolamento ex art. 99, comma 1, D.Lgs. 152/2006. Nel controllo del 21/09/2026 non è stato reperito sulla fonte ufficiale un regolamento definitivo già entrato in vigore; le pagine MASE individuate descrivono attività preparatorie e consultazione.",
+      "after": "Letto intero corpo e allegato, inclusa tabella grafica originale. Riscontrata abrogazione condizionata ex D.L. 200/2025 art. 13 c. 1-ter; non accertata in questo lotto l’entrata in vigore del regolamento sostitutivo. Regime temporaneo irriguo distinto e prorogato al 31/12/2026.",
+      "source_urls": [
+        "https://www.normattiva.it/esporta/attoCompleto?atto.dataPubblicazioneGazzetta=2003-07-23&atto.codiceRedazionale=003G0210",
+        "https://www.normattiva.it/do/atto/caricaPdf?cdimg=v003G02100010001011000102&num=0001&dgu=2003-07-23",
+        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13"
+      ]
+    },
+    {
+      "id": "dm185",
+      "field": "document_note",
+      "before": "Il PDF apre il fascicolo ufficiale della Gazzetta Ufficiale contenente il D.M. 185/2003.",
+      "after": "Aggiunti testo completo Normattiva e tabella grafica GU. Testo del 2003 e rinvii storici distinti dai requisiti UE e dalla disciplina transitoria aggiornata.",
+      "source_urls": [
+        "https://www.normattiva.it/esporta/attoCompleto?atto.dataPubblicazioneGazzetta=2003-07-23&atto.codiceRedazionale=003G0210",
+        "https://www.normattiva.it/do/atto/caricaPdf?cdimg=v003G02100010001011000102&num=0001&dgu=2003-07-23",
+        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13"
+      ]
+    }
+  ],
+  "note": "Verifica circoscritta alle fonti e disposizioni indicate; non certificazione generale di vigenza.",
+  "new_record_ids": [
+    "dl39-riuso-2023"
+  ]
+}

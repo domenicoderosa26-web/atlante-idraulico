@@ -1,0 +1,72 @@
+{
+  "checked_at": "2026-10-10T12:20:59.313011+00:00",
+  "base_sha": "4cf2ef586bb2df5c6cebcdcbf7c05f8b951f67c3",
+  "commands": [
+    {
+      "command": [
+        "python",
+        "scripts/topics.py",
+        "normalize",
+        "data.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "scripts/topics.py",
+        "validate",
+        "data.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "scripts/archive.py",
+        "--base-ref",
+        "origin/main"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "app.js"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "node",
+        "tests/test_topic_filters.js"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "python_tests": 61,
+  "topics": 14,
+  "frontend_combinations": 168,
+  "publication": "pending"
+}

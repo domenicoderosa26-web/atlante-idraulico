@@ -17,6 +17,18 @@ def digest(path):
     return hashlib.sha256(Path(path).read_bytes()).hexdigest()
 
 
+def receipt_matches(checkpoint_path, status_path, national_path):
+    """A timestamp alone cannot justify skipping a check after an audit update."""
+    state = json.loads(Path(checkpoint_path).read_text(encoding='utf-8'))
+    status = json.loads(Path(status_path).read_text(encoding='utf-8'))
+    return (state.get('phase') == 'pubblicato' and bool(state.get('publication_verified_at'))
+            and status.get('outcome') == 'completato'
+            and status.get('publication_status') == 'pubblicato'
+            and bool(state.get('run_url')) and state.get('run_url') == status.get('run_url')
+            and state.get('national_sha256') == digest(national_path)
+            and state.get('status_sha256') == digest(status_path))
+
+
 def already_complete(path, now=None, status=None):
     file = Path(path)
     if not file.exists():
@@ -48,6 +60,8 @@ def check(paths):
     end = status.get('verification_completed_at') or status.get('last_completed_at')
     if not end or parse(checkpoint['last_successful_end']) != parse(end):
         raise ValueError('Checkpoint e stato pubblico discordanti')
+    if status.get('interval_start') and checkpoint.get('interval_start') and parse(status['interval_start']) != parse(checkpoint['interval_start']):
+        raise ValueError('Intervallo controllato e stato pubblico discordanti')
 
 
 def validate_state(path, now=None):
@@ -135,7 +149,7 @@ def main():
         status = json.loads(Path(paths[1]).read_text()) if len(paths) > 1 else None
         complete = already_complete(paths[0], status=status)
         if complete and len(paths) > 2:
-            complete = public_matches(os.environ['SITE_URL'], paths[1], paths[2])
+            complete = receipt_matches(paths[0], paths[1], paths[2]) and public_matches(os.environ['SITE_URL'], paths[1], paths[2])
         return 0 if complete else 1
     elif args.command == 'validate': check(paths)
     elif args.command == 'verify-public':

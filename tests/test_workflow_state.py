@@ -5,10 +5,32 @@ import sys
 import tempfile
 import unittest
 sys.path.insert(0, str(Path(__file__).parents[1] / 'scripts'))
-from workflow_state import already_complete, validate_state, check
+from workflow_state import already_complete, validate_state, check, receipt_matches, digest
 from normattiva import Client, APIError, monitor, public_status, UTC
 
 class WorkflowTests(unittest.TestCase):
+    def test_same_day_receipt_invalidated_by_national_or_status_changes(self):
+        with tempfile.TemporaryDirectory() as temp:
+            cp, status, national = [Path(temp) / name for name in ['checkpoint.json', 'status.json', 'national.json']]
+            national.write_text('{"acts": []}', encoding='utf-8')
+            public = {'outcome': 'completato', 'publication_status': 'pubblicato',
+                      'run_url': 'https://github.com/example/repo/actions/runs/1'}
+            status.write_text(json.dumps(public), encoding='utf-8')
+            receipt = {'phase': 'pubblicato', 'publication_verified_at': '2026-10-10T11:13:10Z',
+                       'run_url': public['run_url'], 'national_sha256': digest(national), 'status_sha256': digest(status)}
+            cp.write_text(json.dumps(receipt), encoding='utf-8')
+            self.assertTrue(receipt_matches(cp, status, national))
+            national.write_text('{"acts": ["new"]}', encoding='utf-8')
+            self.assertFalse(receipt_matches(cp, status, national))
+            receipt['national_sha256'] = digest(national)
+            cp.write_text(json.dumps(receipt), encoding='utf-8')
+            public['run_url'] = None
+            status.write_text(json.dumps(public), encoding='utf-8')
+            self.assertFalse(receipt_matches(cp, status, national))
+            receipt['status_sha256'] = digest(status)
+            cp.write_text(json.dumps(receipt), encoding='utf-8')
+            self.assertFalse(receipt_matches(cp, status, national))
+
     def test_first_run_and_fallback(self):
         with tempfile.TemporaryDirectory() as temp:
             path = Path(temp) / 'checkpoint.json'

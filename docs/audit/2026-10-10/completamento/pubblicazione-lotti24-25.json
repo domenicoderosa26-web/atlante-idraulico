@@ -1,0 +1,61 @@
+{
+  "checked_at": "2026-10-10T18:08:20.548450+00:00",
+  "file_checks": [
+    {
+      "path": "data.json",
+      "sha256": "ddc306f76de8713b039afe334a2531375620184af63d34526f9081198bd076e6",
+      "match": true
+    },
+    {
+      "path": "topic-taxonomy.json",
+      "sha256": "2bf5ce9723747c1da9d3f6d6e4099e005ce82a145090331ebbebdd29e5144b43",
+      "match": true
+    },
+    {
+      "path": "docs/audit/progress.json",
+      "sha256": "b8bd362b13ff5661212e52a534022c96feed349e0d8e258bf1713df9fcfb72f9",
+      "match": true
+    },
+    {
+      "path": "docs/audit/2026-10-10/completamento/attivita-residue.json",
+      "sha256": "ebd275f65b077f463bc9bb9a026c8f7037902203ec1c31bf3e77aeff5a23e946",
+      "match": true
+    },
+    {
+      "path": "docs/audit/2026-10-10/completamento/copertura-aggiornata.json",
+      "sha256": "a2d78ed76b5c05aba8bad97c94e7fe4e213530c56857ee42d3f95bd90e0a8a63",
+      "match": true
+    },
+    {
+      "path": "docs/audit/2026-10-10/completamento/lotto-24.json",
+      "sha256": "b9aa073a515796e426c79f76cc61275fe3d491af7ed80cd24c743de8db71389a",
+      "match": true
+    },
+    {
+      "path": "docs/audit/2026-10-10/completamento/lotto-25.json",
+      "sha256": "e117ef527f5c2191cc165f59131eb648e5ba4da0de908e5d96a77396f4881796",
+      "match": true
+    },
+    {
+      "path": "docs/audit/2026-10-10/completamento/stato-stabilizzazione.md",
+      "sha256": "8e00ddc1472b18fcd95983547eb7ae2b83ea012107fb03b07812e57107610618",
+      "match": true
+    }
+  ],
+  "supervision": {
+    "has_errors": false,
+    "anomalies": [
+      "TERRITORIAL_PARZIALE"
+    ],
+    "checked_at": "2026-10-10T18:07:25Z"
+  },
+  "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/33",
+  "merge_commit": "d8933218c346c8012d9614941d2d56e4e98dc9fb",
+  "ci": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/38074442596",
+  "deployment": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/38074485426",
+  "subsequent_deployment": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/38074512675",
+  "deployed_head_sha": "351d382695c560ea8df8f8e75a4d4fcfb6260261",
+  "supervision_run": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/38074485763",
+  "outcome": "published_verified",
+  "phase3_complete": false
+}

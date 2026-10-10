@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "catalog_path": "data.json",
-  "updated_at": "2026-10-10T18:03:33.919783+00:00",
+  "updated_at": "2026-10-10T18:08:20.548450+00:00",
   "basis": [
     "docs/audit/2026-10-08/schede.json",
     "docs/audit/2026-10-08/coda.json",
@@ -7366,7 +7366,11 @@
       "record_version": "5591cf09cc72379d85b80a3b623e9c7194411fe6e1e6c6645ec0c162590d5c36",
       "evidence": "docs/audit/2026-10-10/completamento/lotto-24.json",
       "publication": {
-        "state": "validated_pending_deployment"
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/33",
+        "merge_commit": "d8933218c346c8012d9614941d2d56e4e98dc9fb",
+        "verified_at": "2026-10-10T18:08:20.548450+00:00",
+        "evidence": "docs/audit/2026-10-10/completamento/pubblicazione-lotti24-25.json"
       },
       "history": [
         {
@@ -7400,6 +7404,40 @@
             "merge_commit": "63ef7804c8105aeb33defc09836377f67681b675",
             "evidence": "docs/audit/2026-10-10/completamento/pubblicazione-lotti22-23.json",
             "verified_at": "2026-10-10T18:01:29.454802+00:00"
+          }
+        },
+        {
+          "state": "revisione parziale",
+          "last_activity": "2026-10-10T18:01:29.454802+00:00",
+          "source_urls": [
+            "https://www.gazzettaufficiale.it/eli/gu/1934/01/08/5/sg/pdf",
+            "https://www.consiglioregionale.calabria.it/upload/istruttoria/R.D.%2011%20dicembre%201933,%20n.%201775%20.pdf",
+            "https://www.protezionecivile.gov.it/static/ef607bf684989575e3d49def66060408/dlgs1121998.pdf",
+            "https://www.parlamento.it/parlam/leggi/deleghe/06152dl1.htm"
+          ],
+          "verified_results": [
+            "Le domande di nuova concessione sono accompagnate dal progetto delle opere di raccolta, regolazione, derivazione e restituzione. Il testo originario nomina organi amministrativi storici; il riparto di competenze attuale resta da coordinare.",
+            "La riproduzione distingue opere sulle derivazioni soggette ad autorizzazione: trasformazioni delle chiuse, incili, botti e opere in alveo, comprese opere spondali che alterano derivazione o restituzione; resta il rinvio all’art. 49.",
+            "Il testo dispone le abrogazioni puntuali del R.D. 523/1904: art. 97 f/g/h/i e art. 98 a/b/c; art. 97 k e art. 98 d soltanto nella parte ricompresa nell’art. 217.",
+            "Il documento istituzionale attribuisce gestione del demanio e funzioni di polizia idraulica a regioni ed enti locali, distinguendo i compiti nazionali dell’art. 88 e le condizioni dei casi interregionali dell’art. 89. Non identifica l’ufficio competente per ogni progetto.",
+            "La disposizione modificativa introduce nel R.D. 1775 il parere di bacino sulla compatibilità con il Piano di tutela e i presupposti concessori legati a qualità del corpo idrico, bilancio idrico, minimo deflusso e possibilità di riutilizzo. Non sono attestati termini e testo correnti.",
+            "Il testo distingue derivazione soggetta a titolo e raccolta di pioggia in invasi o cisterne al servizio di fondi agricoli o singoli edifici: questa non richiede concessione di derivazione, ma i manufatti restano soggetti alle discipline edilizie, sismiche, dighe e leggi speciali. Non è un’esenzione generale dalle autorizzazioni."
+          ],
+          "limitations": [
+            "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione.",
+            "Riproduzioni istituzionali senza attestazione di consolidamento al 10 ottobre 2026; accesso alle pagine degli articoli Normattiva non riuscito.",
+            "Restano da verificare modifiche successive, discipline regionali, reticolo e autorità competente per l’intervento concreto.",
+            "Fonte parlamentare originaria del 2006: non attestato il testo corrente né l’intero regime progettuale e concessorio."
+          ],
+          "next_operation": [
+            "Confrontare questi articoli con il testo corrente ufficiale e gli atti successivi; ricostruire disciplina territoriale del reticolo e ufficio competente.",
+            "Completare gli altri passaggi del TU e i procedimenti concessori non esaminati.",
+            "Verificare versione corrente artt. 7/12-bis/17 RD1775, modifiche successive e condizioni regionali/di bacino prima dell’applicazione progettuale."
+          ],
+          "record_version": "5591cf09cc72379d85b80a3b623e9c7194411fe6e1e6c6645ec0c162590d5c36",
+          "evidence": "docs/audit/2026-10-10/completamento/lotto-24.json",
+          "publication": {
+            "state": "validated_pending_deployment"
           }
         }
       ]
@@ -7478,9 +7516,41 @@
       "record_version": "fdcd19dbd00d358cf46b11e48c973fec981b9dcc7401d6feb86a132bbb5faad2",
       "evidence": "docs/audit/2026-10-10/completamento/lotto-24.json",
       "publication": {
-        "state": "validated_pending_deployment"
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/33",
+        "merge_commit": "d8933218c346c8012d9614941d2d56e4e98dc9fb",
+        "verified_at": "2026-10-10T18:08:20.548450+00:00",
+        "evidence": "docs/audit/2026-10-10/completamento/pubblicazione-lotti24-25.json"
       },
-      "history": []
+      "history": [
+        {
+          "state": "revisione parziale",
+          "last_activity": "2026-10-10T18:01:29.454802+00:00",
+          "source_urls": [
+            "https://www.parlamento.it/parlam/leggi/deleghe/06152dl2.htm",
+            "https://www.parlamento.it/parlam/leggi/deleghe/06152dl1.htm"
+          ],
+          "verified_results": [
+            "La riproduzione parlamentare del testo originario demanda alle regioni il controllo delle meteoriche e i casi di trattamento della prima pioggia; distingue le meteoriche non disciplinate e vieta l’immissione diretta nelle acque sotterranee.",
+            "Nel testo originario l’autorizzazione preventiva agli scarichi si coordina con la disciplina regionale dei domestici e con l’ammissione degli scarichi domestici in fognatura secondo i regolamenti del gestore. Non sono estesi al testo attuale i termini procedurali originari.",
+            "La disposizione modificativa introduce nel R.D. 1775 il parere di bacino sulla compatibilità con il Piano di tutela e i presupposti concessori legati a qualità del corpo idrico, bilancio idrico, minimo deflusso e possibilità di riutilizzo. Non sono attestati termini e testo correnti.",
+            "Il testo distingue derivazione soggetta a titolo e raccolta di pioggia in invasi o cisterne al servizio di fondi agricoli o singoli edifici: questa non richiede concessione di derivazione, ma i manufatti restano soggetti alle discipline edilizie, sismiche, dighe e leggi speciali. Non è un’esenzione generale dalle autorizzazioni."
+          ],
+          "limitations": [
+            "La lettura sostanziale riguarda la riproduzione parlamentare originaria; gli endpoint degli articoli Normattiva hanno restituito errori.",
+            "Fonte parlamentare originaria del 2006: non attestato il testo corrente né l’intero regime progettuale e concessorio."
+          ],
+          "next_operation": [
+            "Ricostruire la versione corrente degli articoli pertinenti e gli allegati della Parte III.",
+            "Verificare versione corrente artt. 7/12-bis/17 RD1775, modifiche successive e condizioni regionali/di bacino prima dell’applicazione progettuale."
+          ],
+          "record_version": "fdcd19dbd00d358cf46b11e48c973fec981b9dcc7401d6feb86a132bbb5faad2",
+          "evidence": "docs/audit/2026-10-10/completamento/lotto-24.json",
+          "publication": {
+            "state": "validated_pending_deployment"
+          }
+        }
+      ]
     },
     "tos-lr80-2015": {
       "state": "revisione parziale",
@@ -7502,8 +7572,37 @@
       "record_version": "37757365ebfefaacb5541017aa492d44d83147a22b5a7ea10f897d1c103cc639",
       "evidence": "docs/audit/2026-10-10/completamento/lotto-25.json",
       "publication": {
-        "state": "validated_pending_deployment"
-      }
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/33",
+        "merge_commit": "d8933218c346c8012d9614941d2d56e4e98dc9fb",
+        "verified_at": "2026-10-10T18:08:20.548450+00:00",
+        "evidence": "docs/audit/2026-10-10/completamento/pubblicazione-lotti24-25.json"
+      },
+      "history": [
+        {
+          "state": "revisione parziale",
+          "last_activity": "2026-10-10T18:03:33.919783+00:00",
+          "source_urls": [
+            "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?ext=pdf&id=0deb3a65-8cc8-11f0-b084-005056959b60"
+          ],
+          "verified_results": [
+            "L.R. Toscana 28 dicembre 2015 n. 80; BURT n. 57 parte I del 29 dicembre 2015. La copia dichiara aggiornamento al 10 gennaio 2025, non al giorno della verifica.",
+            "Attribuisce alla Regione polizia idraulica sul reticolo individuato, autorizzazioni RD523, gestione demanio e funzioni su derivazioni e polizia delle acque, con riserve normative. Prevede linee guida anche per compatibilità di ponti e tombamenti esistenti.",
+            "Rinvia a regolamenti per concessioni, garanzie e coordinamento procedurale; promuove risparmio e riuso. Questi rinvii non dimostrano da soli parametri progettuali, qualità delle acque riutilizzabili o disciplina attuativa completa."
+          ],
+          "limitations": [
+            "Copia aggiornata al 10 gennaio 2025; non ricostruite modifiche successive, regolamenti, cartografia del reticolo e competenze operative specifiche."
+          ],
+          "next_operation": [
+            "Verificare modifiche dal 10 gennaio 2025 e atti attuativi artt. 5/11; acquisire reticolo vigente e condizioni di autorizzazione per l’intervento."
+          ],
+          "record_version": "37757365ebfefaacb5541017aa492d44d83147a22b5a7ea10f897d1c103cc639",
+          "evidence": "docs/audit/2026-10-10/completamento/lotto-25.json",
+          "publication": {
+            "state": "validated_pending_deployment"
+          }
+        }
+      ]
     }
   },
   "batches": [
@@ -8098,8 +8197,17 @@
       ],
       "evidence": "docs/audit/2026-10-10/completamento/lotto-24.json",
       "publication": {
-        "state": "validated_pending_deployment"
-      }
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/33",
+        "merge_commit": "d8933218c346c8012d9614941d2d56e4e98dc9fb",
+        "verified_at": "2026-10-10T18:08:20.548450+00:00",
+        "evidence": "docs/audit/2026-10-10/completamento/pubblicazione-lotti24-25.json"
+      },
+      "publication_history": [
+        {
+          "state": "validated_pending_deployment"
+        }
+      ]
     },
     {
       "id": "incrementale-25",
@@ -8123,8 +8231,17 @@
       ],
       "evidence": "docs/audit/2026-10-10/completamento/lotto-25.json",
       "publication": {
-        "state": "validated_pending_deployment"
-      }
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/33",
+        "merge_commit": "d8933218c346c8012d9614941d2d56e4e98dc9fb",
+        "verified_at": "2026-10-10T18:08:20.548450+00:00",
+        "evidence": "docs/audit/2026-10-10/completamento/pubblicazione-lotti24-25.json"
+      },
+      "publication_history": [
+        {
+          "state": "validated_pending_deployment"
+        }
+      ]
     }
   ],
   "next_batch": [
@@ -8592,6 +8709,44 @@
         "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "variation": "same",
         "comparison_scope": "complete_bytes"
+      },
+      "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?ext=pdf&id=0deb3a65-8cc8-11f0-b084-005056959b60": {
+        "url": "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?ext=pdf&id=0deb3a65-8cc8-11f0-b084-005056959b60",
+        "http_status": 200,
+        "bytes": 167067,
+        "sha256": "58f263ea0bfc08c39d8e668c7658190e1118e9de51c2a590ff260ad9aaebb58a",
+        "checked_at": "2026-10-10T18:08:20.548450+00:00",
+        "final_url": "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?ext=pdf&id=0deb3a65-8cc8-11f0-b084-005056959b60",
+        "content_signature": "pdf",
+        "content_type": "application/pdf",
+        "body_complete": true,
+        "sample_bytes": 167067,
+        "technical_state": "available",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": null,
+        "identity_basis": "not_detected_by_technical_check",
+        "semantic_verification": "not_performed_by_access_check",
+        "evidence": "docs/audit/2026-10-10/completamento/lotto-25.json"
+      },
+      "https://www.protezionecivile.gov.it/static/ef607bf684989575e3d49def66060408/dlgs1121998.pdf": {
+        "url": "https://www.protezionecivile.gov.it/static/ef607bf684989575e3d49def66060408/dlgs1121998.pdf",
+        "http_status": 200,
+        "bytes": 488610,
+        "sha256": "95961a9b8e00a862ecef0f4e3f41bc513afd802359a68b1d0c20c1e09ee2d3ff",
+        "checked_at": "2026-10-10T18:08:20.548450+00:00",
+        "final_url": "https://www.protezionecivile.gov.it/static/ef607bf684989575e3d49def66060408/dlgs1121998.pdf",
+        "content_signature": "pdf",
+        "content_type": "application/pdf",
+        "body_complete": true,
+        "sample_bytes": 488610,
+        "technical_state": "available",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": null,
+        "identity_basis": "not_detected_by_technical_check",
+        "semantic_verification": "not_performed_by_access_check",
+        "evidence": "docs/audit/2026-10-10/completamento/lotto-22-23.json"
       }
     },
     "normative_queue": [

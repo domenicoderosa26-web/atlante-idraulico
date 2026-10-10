@@ -1,9 +1,9 @@
 {
-  "last_completed_at": "2026-10-09T13:55:43+02:00",
+  "last_completed_at": "2026-10-10T13:12:18+02:00",
   "verification_completed_at": "2026-10-10T13:12:18+02:00",
   "timezone": "Europe/Rome",
-  "outcome": "verificato",
-  "publication_status": "in_attesa",
+  "outcome": "completato",
+  "publication_status": "pubblicato",
   "sources": [
     "Normattiva Open Data: normativa nazionale"
   ],
@@ -12,49 +12,6 @@
   "warnings": [
     "Controllo API limitato agli atti con URN supportato; esclusi: ntc18, dmattr2014, camed2025, camstrade2024, camverde2020, camstrade2025, dm185"
   ],
-  "last_successful_result": {
-    "last_completed_at": "2026-10-09T13:55:43+02:00",
-    "verification_completed_at": "2026-10-09T13:55:43+02:00",
-    "timezone": "Europe/Rome",
-    "outcome": "completato",
-    "publication_status": "pubblicato",
-    "sources": [
-      "Normattiva Open Data: normativa nazionale"
-    ],
-    "changes_detected": 0,
-    "changes_published": 0,
-    "warnings": [
-      "Controllo API limitato agli atti con URN supportato; esclusi: ntc18, dmattr2014, camed2025, camstrade2024, camverde2020, camstrade2025, dm185"
-    ],
-    "scope": {
-      "monitored_ids": [
-        "rd523",
-        "rd1775",
-        "rd368",
-        "rd215",
-        "dl152",
-        "dl49",
-        "appalti36",
-        "dpr753",
-        "codstrada285",
-        "dpr495",
-        "dpr59"
-      ],
-      "excluded_ids": [
-        "ntc18",
-        "dmattr2014",
-        "camed2025",
-        "camstrade2024",
-        "camverde2020",
-        "camstrade2025",
-        "dm185"
-      ],
-      "total_records": 18
-    },
-    "interval_start": "2026-10-08T11:12:48Z",
-    "event_keys": [],
-    "run_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/37926742819"
-  },
   "scope": {
     "monitored_ids": [
       "rd523",

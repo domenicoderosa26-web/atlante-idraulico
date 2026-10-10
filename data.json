@@ -12944,9 +12944,32 @@
         "finished_at": "2026-10-10T10:03:24+02:00",
         "outcome": "parziale",
         "publication": {
-          "outcome": "in_attesa",
+          "outcome": "pubblicato",
+          "commit_sha": "a31852b2af08abdebf4276b4df002d956dc97e2d",
+          "commit_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/commit/a31852b2af08abdebf4276b4df002d956dc97e2d",
+          "verified_at": "2026-10-10T10:07:45+02:00",
+          "site_url": "https://domenicoderosa26-web.github.io/atlante-idraulico/",
+          "deployment_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/38036705427",
+          "verification": {
+            "outcome": "success",
+            "deployed_head_sha": "6c4147b271695fe83d96b9c4a0dd61861d74dd82",
+            "data": {
+              "updatedAt": "2026-10-10",
+              "records": 107,
+              "run_id": "local-territorial-20261010-100050",
+              "outcome": "parziale"
+            },
+            "site_loading": "Edizione 10/10/2026, 107 schede, 14 argomenti canonici e run territoriale del 10/10/2026 visibili nel sito pubblico."
+          },
           "last_valid_result": "published_github_pages"
-        }
+        },
+        "publication_history": [
+          {
+            "outcome": "in_attesa",
+            "last_valid_result": "published_github_pages",
+            "note": "Ricevuta aggiornata soltanto dopo il successo della validazione, del deployment Pages e del riscontro del run nel sito pubblico."
+          }
+        ]
       }
     },
     {

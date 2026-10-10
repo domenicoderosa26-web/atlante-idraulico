@@ -650,15 +650,24 @@
         "Pianificazione distrettuale"
       ],
       "kind": "Atto normativo",
-      "status": "Modificata · consolidato disponibile",
+      "status": "Modificata · consolidato EUR-Lex del 10/05/2026",
       "source_kind": "Scheda dell’atto",
-      "note": "EUR-Lex indica l’atto in vigore e modificato, con versione consolidata del 10/05/2026. La scheda non sostituisce l’analisi delle singole modifiche.",
-      "checked": "2026-09-18",
-      "relations": [],
+      "note": "Letti artt. 3–4 e 10–14 bis del consolidato; riscontrata M8 sul testo originale della direttiva 2026/805. Restano rinvii, rettifiche e recepimento nazionale da coordinare.",
+      "checked": "2026-10-10",
+      "relations": [
+        {
+          "type": "Modificata da",
+          "id": "ue805-2026"
+        }
+      ],
       "history": [
         {
           "date": "2026-09-17",
           "text": "Inserita scheda iniziale; ambito della verifica indicato nella nota fonte."
+        },
+        {
+          "date": "2026-10-10",
+          "text": "Fase3, lotto18: riesame documentale nel perimetro dichiarato; fonti e limiti nel registro del lotto."
         }
       ],
       "documents": [
@@ -666,40 +675,90 @@
           "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:32000L0060",
           "label": "PDF ufficiale · Direttiva 2000/60/CE",
           "format": "pdf"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:02000L0060-20260510",
+          "label": "EUR-Lex · consolidato informativo del 10/05/2026",
+          "format": "html"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026L0805",
+          "label": "EUR-Lex · direttiva modificativa 2026/805",
+          "format": "html"
         }
       ],
       "document_note": "Il collegamento apre direttamente il PDF del documento.",
       "documentary_review": {
-        "checked_at": "2026-10-08",
-        "scope": "Lettura sostanziale circoscritta: Artt. 3, par. 4 e 4; estratti ufficiali indicizzati; Intestazione del consolidato 02000L0060-20260510 e tabella degli atti modificativi M8",
+        "checked_at": "2026-10-10",
+        "scope": "Testo consolidato italiano del 10/05/2026: lettura artt. 3–4 e 10–14 bis; confronto dei passaggi M8 con art. 1 e allegati I–II della direttiva 2026/805 ufficiale.",
         "outcome": "partial",
-        "legal_state": "partial",
-        "source_urls": [
-          "https://eur-lex.europa.eu/legal-content/en/ALL/?uri=CELEX%3A32000L0060",
-          "https://eur-lex.europa.eu/eli/dir/2000/60"
-        ],
+        "legal_state": "amended",
         "claims": [
           {
-            "aspect": "content",
-            "source_url": "https://eur-lex.europa.eu/legal-content/en/ALL/?uri=CELEX%3A32000L0060",
-            "locator": "Artt. 3, par. 4 e 4; estratti ufficiali indicizzati",
-            "finding": "Gli estratti ufficiali consultati prevedono coordinamento dei programmi di misure nel distretto e obiettivi di non deterioramento/buono stato con deroghe condizionate. La fonte consultata tramite indicizzazione non equivale all’acquisizione del PDF completo."
+            "aspect": "version",
+            "source_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:02000L0060-20260510",
+            "locator": "Intestazione 008.001 e tabella M1–M8/C1–C2",
+            "finding": "Consolidato del 10 maggio 2026 incorpora la direttiva 2026/805 (M8) e segnala rettifiche 2001/2025. È documentazione informativa; fanno fede gli atti GU."
           },
           {
-            "aspect": "version",
-            "source_url": "https://eur-lex.europa.eu/eli/dir/2000/60",
-            "locator": "Intestazione del consolidato 02000L0060-20260510 e tabella degli atti modificativi M8",
-            "finding": "L’indice ufficiale segnala il consolidato del 10 maggio 2026 e la direttiva (UE) 2026/805 del 30 marzo 2026 tra gli atti modificativi. È un candidato da acquisire e coordinare, non una nuova scheda già verificata integralmente."
+            "aspect": "content",
+            "source_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:02000L0060-20260510",
+            "locator": "Artt. 3–4, 10–14 bis",
+            "finding": "Programmi coordinati nel distretto, obiettivi ambientali e deroghe condizionate, controlli più restrittivi quando richiesti dalla qualità, piani e misure con riesame sessennale. Eccezioni 7 bis/7 ter non dispensano indistintamente gli scarichi."
+          },
+          {
+            "aspect": "amendment",
+            "source_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026L0805",
+            "locator": "Art. 1; artt. 4–5",
+            "finding": "Riscontrata la modifica M8 nella GU: efficacia europea dal 10 maggio 2026 e termine di recepimento 21 dicembre 2027, distinti dall’applicazione ai procedimenti italiani."
           }
         ],
         "limitations": [
-          "Testo acquisito solo tramite estratti ufficiali indicizzati; PDF non disponibile durante il controllo."
+          "Non integralmente riletti altri articoli e allegati; catena completa M1–M7 e rettifiche non ricostruita in questo lotto.",
+          "Recepimento nazionale della modifica 2026 non accertato."
         ],
         "pending": [
-          "Leggere integralmente direttiva 2026/805 e consolidato del 10 maggio 2026."
+          "Completare altri articoli e allegati, verificare rettifiche e attuazione italiana della direttiva 2026/805."
         ],
-        "record_version": "eac9e33e02eeff1c05e2da165a5543b72bdcd383517f2885ab803f7235dd14d8"
-      }
+        "source_urls": [
+          "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:02000L0060-20260510",
+          "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026L0805"
+        ],
+        "record_version": "19e5b24c122628a6fce55caafcfc432dd35ba2aa43e6813198783a0b427aca61"
+      },
+      "documentary_history": [
+        {
+          "checked_at": "2026-10-08",
+          "scope": "Lettura sostanziale circoscritta: Artt. 3, par. 4 e 4; estratti ufficiali indicizzati; Intestazione del consolidato 02000L0060-20260510 e tabella degli atti modificativi M8",
+          "outcome": "partial",
+          "legal_state": "partial",
+          "source_urls": [
+            "https://eur-lex.europa.eu/legal-content/en/ALL/?uri=CELEX%3A32000L0060",
+            "https://eur-lex.europa.eu/eli/dir/2000/60"
+          ],
+          "claims": [
+            {
+              "aspect": "content",
+              "source_url": "https://eur-lex.europa.eu/legal-content/en/ALL/?uri=CELEX%3A32000L0060",
+              "locator": "Artt. 3, par. 4 e 4; estratti ufficiali indicizzati",
+              "finding": "Gli estratti ufficiali consultati prevedono coordinamento dei programmi di misure nel distretto e obiettivi di non deterioramento/buono stato con deroghe condizionate. La fonte consultata tramite indicizzazione non equivale all’acquisizione del PDF completo."
+            },
+            {
+              "aspect": "version",
+              "source_url": "https://eur-lex.europa.eu/eli/dir/2000/60",
+              "locator": "Intestazione del consolidato 02000L0060-20260510 e tabella degli atti modificativi M8",
+              "finding": "L’indice ufficiale segnala il consolidato del 10 maggio 2026 e la direttiva (UE) 2026/805 del 30 marzo 2026 tra gli atti modificativi. È un candidato da acquisire e coordinare, non una nuova scheda già verificata integralmente."
+            }
+          ],
+          "limitations": [
+            "Testo acquisito solo tramite estratti ufficiali indicizzati; PDF non disponibile durante il controllo."
+          ],
+          "pending": [
+            "Leggere integralmente direttiva 2026/805 e consolidato del 10 maggio 2026."
+          ],
+          "record_version": "eac9e33e02eeff1c05e2da165a5543b72bdcd383517f2885ab803f7235dd14d8"
+        }
+      ]
     },
     {
       "id": "ueall",
@@ -13522,6 +13581,88 @@
           "https://www.regione.vda.it/amministrazione/leggi/bollettino_ufficiale_new/archive/2023/52-2023_signed.pdf"
         ],
         "record_version": "698e4aeed9b7fbe9ccfb3f4f37e4290512d860f14b955de2b05d1c6d6ccde168"
+      }
+    },
+    {
+      "id": "ue805-2026",
+      "ref": "Direttiva (UE) 2026/805",
+      "title": "Aggiornamento della direttiva quadro, acque sotterranee e standard di qualità ambientale",
+      "level": "Europeo",
+      "regions": [
+        "Unione europea",
+        "Italia"
+      ],
+      "topics": [
+        "Scarichi e tutela delle acque"
+      ],
+      "date": "2026-03-30",
+      "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026L0805",
+      "summary": "Modifica le direttive 2000/60/CE, 2006/118/CE e 2008/105/CE; aggiorna obiettivi, monitoraggio e disciplina degli inquinanti. Entrata in vigore distinta dal recepimento nazionale.",
+      "kind": "Direttiva europea modificativa",
+      "status": "In vigore dal 10/05/2026 · recepimento entro il 21/12/2027",
+      "source_kind": "EUR-Lex · Gazzetta ufficiale UE",
+      "note": "Verificate le modifiche alla direttiva quadro e gli allegati I–II; altri standard e recepimento italiano richiedono coordinamento separato.",
+      "focus": [
+        "Modifiche degli obiettivi e deroghe condizionate",
+        "Monitoraggio e programmi di misure",
+        "Entrata in vigore e termine di recepimento"
+      ],
+      "relations": [
+        {
+          "type": "Modifica",
+          "id": "ue60"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-10",
+          "text": "Fase3, lotto18: riesame documentale nel perimetro dichiarato; fonti e limiti nel registro del lotto."
+        }
+      ],
+      "checked": "2026-10-10",
+      "documents": [
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026L0805",
+          "label": "EUR-Lex · testo ufficiale italiano",
+          "format": "html"
+        }
+      ],
+      "document_note": "Testo HTML ufficiale acquisito nel browser. Letti art. 1, artt. 4–6 e allegati I–II; non dichiarata lettura integrale di tutti gli allegati.",
+      "documentary_review": {
+        "checked_at": "2026-10-10",
+        "scope": "Testo HTML italiano ufficiale: lettura completa art. 1 (modifiche 2000/60/CE), artt. 4–6 e allegati I–II. Identità e pubblicazione riscontrate nell’intestazione GU.",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "claims": [
+          {
+            "aspect": "identity",
+            "source_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026L0805",
+            "locator": "Intestazione GU L 2026/805, 20 aprile 2026",
+            "finding": "Direttiva del 30 marzo 2026: modifica 2000/60/CE, 2006/118/CE e 2008/105/CE; destinatari gli Stati membri."
+          },
+          {
+            "aspect": "amendment",
+            "source_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026L0805",
+            "locator": "Art. 1, punti 2–3 e 6–9; allegati I–II",
+            "finding": "Introduce definizione di deterioramento e deroghe 7 bis/7 ter condizionate, con valutazioni e salvaguardie. Aggiorna controlli delle emissioni, misure alla fonte, cooperazione e accesso alla giustizia; modifica elementi e monitoraggio dell’allegato V."
+          },
+          {
+            "aspect": "effectiveness",
+            "source_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026L0805",
+            "locator": "Artt. 4–6; GU del 20 aprile 2026",
+            "finding": "Entrata in vigore il ventesimo giorno successivo: 10 maggio 2026. Recepimento entro 21 dicembre 2027; non certifica già avvenuta modifica delle autorizzazioni italiane."
+          }
+        ],
+        "limitations": [
+          "Artt. 2–3 e allegati III–VIII non integralmente riesaminati; recepimento italiano non accertato."
+        ],
+        "pending": [
+          "Completare modifiche alle direttive 2006/118/CE e 2008/105/CE e relativi allegati; acquisire gli atti italiani di recepimento."
+        ],
+        "source_urls": [
+          "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026L0805"
+        ],
+        "record_version": "4bb996074baed071a5450057b66f1d27be7c5bd1d064c90b7dbbe726220d74b5"
       }
     }
   ],

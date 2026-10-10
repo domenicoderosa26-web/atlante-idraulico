@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-10-10T11:52:22.213870+00:00",
-  "catalog_records": 113,
+  "checked_at": "2026-10-10T11:59:36.941413+00:00",
+  "catalog_records": 114,
   "note": "Accesso tecnico distinto dalla lettura normativa. Nessun controllo HTTP certifica contenuto o vigenza.",
   "receipts": [
     {
@@ -6784,6 +6784,47 @@
       "empty_response": false,
       "access_challenge": false,
       "sha256": "1a4d826c1dd70911cbd1e53d72e29596317fcf6cc1b1408e24a32f2711b27828"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:02000L0060-20260510",
+      "record_ids": [
+        "ue60"
+      ],
+      "checked_at": "2026-10-10T11:59:35.489991+00:00",
+      "owner_hostname": "eur-lex.europa.eu",
+      "semantic_verification": "not_performed_by_access_check",
+      "http_status": 200,
+      "final_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:02000L0060-20260510",
+      "redirects": [],
+      "content_type": "text/html; charset=UTF-8",
+      "declared_content_length": null,
+      "sample_bytes": 1759957,
+      "body_complete": true,
+      "content_signature": "html",
+      "empty_response": false,
+      "access_challenge": false,
+      "sha256": "fc2c44dbc53599f2f2b378d633b56fb4a40b748dc01075f498c2a3517b0c57e0"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026L0805",
+      "record_ids": [
+        "ue60",
+        "ue805-2026"
+      ],
+      "checked_at": "2026-10-10T11:59:35.490988+00:00",
+      "owner_hostname": "eur-lex.europa.eu",
+      "semantic_verification": "not_performed_by_access_check",
+      "http_status": 200,
+      "final_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026L0805",
+      "redirects": [],
+      "content_type": "text/html; charset=UTF-8",
+      "declared_content_length": null,
+      "sample_bytes": 1094302,
+      "body_complete": true,
+      "content_signature": "html",
+      "empty_response": false,
+      "access_challenge": false,
+      "sha256": "74c0339151e8bb7cd18a94df330778b46e1f5bba0bf8df4fdd28e749a8afd66f"
     }
   ]
 }

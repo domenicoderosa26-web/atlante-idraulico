@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-09T19:34:32Z",
+  "checked_at": "2026-10-10T08:05:54Z",
   "national": {
-    "state": "completato",
+    "state": "in_attesa",
     "last_completed_at": "2026-10-09T13:55:43+02:00",
-    "expected_date": "2026-10-09",
+    "expected_date": "2026-10-10",
     "deadline_local": "16:00 Europe/Rome",
     "checkpoint_end": "2026-10-09T11:55:43Z",
     "checkpoint_consistent": true,
@@ -71,85 +71,38 @@
   },
   "territorial": {
     "state": "parziale",
-    "date": "2026-10-09",
-    "evidence": "data.json:runs[1]",
-    "summary": "Censita determina 159/2026 di Villanovafranca sull’aggiornamento del reticolo PAI, con efficacia immediata dichiarata e avviso BURAS da riscontrare. Aggiunto accesso ufficiale P.S.5 Tevere. Fonti e limiti della ricognizione dichiarati; nessuna conferma di copertura integrale.",
+    "date": "2026-10-10",
+    "evidence": "data.json:runs[0]",
+    "summary": "Ricognizione senza nuove schede o modifiche normative pubblicabili. Villanovafranca resta in attesa di pubblicazione sul BURAS; le determinazioni Sardegna 160 e 161 sono atti di archiviazione. Le verifiche non completate sono dichiarate come limiti, senza dedurre assenza di nuovi atti.",
     "sources_checked": [
-      "dist-centr",
       "dist-sard",
       "sard-villanovafranca-reticolo-159-2026",
-      "dist-sett",
-      "sett-pgra-variante-62-2026",
-      "dist-merid",
-      "dist-sici",
-      "sic-pgra3-02-2026",
-      "bari",
-      "bz23",
-      "dist-po"
+      "dist-centr",
+      "dist-po",
+      "bz23"
     ],
     "source_urls": [
-      "https://aubac.it/news/notizie/ps5-la-cartografia-del-piano-il-tratto-metropolitano-del-tevere-e-online-sul-webgis-aubac",
-      "https://webgis.abdac.it/portal/apps/experiencebuilder/experience/?id=c59f7b386ca24729852cf2dcf8e2f936",
-      "https://autoritadibacino.regione.sardegna.it/ap/determinazione-n-159-prot-n-11256-del-25-09-2026/",
-      "https://autoritadibacino.regione.sardegna.it/wp-content/uploads/2026/10/avp_2026_09_25_det.159_prot.11256_villanovafranca.pdf",
-      "https://aubac.it/",
-      "https://aubac.it/piani-di-bacino/piano-di-gestione-del-rischio-alluvioni-pgra",
       "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/",
-      "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-stralcio-di-bacino-per-lassetto-idrogeologico-pai/",
-      "https://autoritadibacino.regione.sardegna.it/pianificazione/piano-stralcio-di-bacino-per-lassetto-idrogeologico-pai/norme-pai/",
+      "https://delibere.regione.sardegna.it/",
       "https://giunta-provinciale.provincia.bz.it/it/delibere",
-      "https://www.appenninosettentrionale.it/itc/?page_id=15866",
-      "https://www.appenninosettentrionale.it/itc/?page_id=18906",
-      "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia",
-      "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/partecipazione-pubblica",
-      "https://www.distrettoappenninomeridionale.it/piano-gestione-alluvioni/ii-ciclo-2016-2021/",
-      "https://www.distrettoappenninomeridionale.it/",
+      "https://aubac.it/",
       "https://www.adbpo.it/",
-      "https://www.cittametropolitana.ba.it/amministrazione/documenti_e_dati/modulistica/documento_268.html"
+      "https://pai.adbpo.it/"
     ],
     "territories": [
-      "Provincia autonoma di Bolzano: dieci oggetti ultima seduta",
-      "Sardegna: prima pagina determinazioni e Villanovafranca",
-      "Sicilia: pagine AdB e partecipazione PGRA",
-      "Bari: pagina modulistica meteoriche",
-      "Appennino Centrale: pagina PGRA e avviso P.S.5 Tevere",
-      "Appennino Settentrionale: pagine PGRA e variante mappe",
-      "Appennino Meridionale: portale e pagina PGRA II ciclo",
-      "Po: homepage notizie"
+      "Sardegna: prima pagina delle determinazioni e seduta della Giunta regionale dell'8 ottobre 2026",
+      "Provincia autonoma di Bolzano: prima pagina dell'ultima seduta del 2 ottobre 2026",
+      "Appennino Centrale: homepage e notizie recenti",
+      "Distretto del Po: homepage generale e portale PAI"
     ],
     "errors": [
-      "Po: pagina PGRA 2021–2027 in HTTP 403; letta la sola homepage ufficiale, senza completare il controllo degli atti PAI/PGRA.",
-      "Sicilia: PDF della deliberazione CIP 2/2026 nel collegamento della pagina ufficiale in HTTP 404; letta la pagina di partecipazione, non il PDF.",
-      "Bolzano: letti i dieci oggetti esposti dalla pagina dell’ultima seduta 02/10/2026; pagina 2 restituisce la stessa tabella nel lettore web e solo Loading nel download diretto, quindi seduta e ricerca PZP non esaurite.",
-      "Appennino Settentrionale: lettore web in 502, recuperati e letti via download diretto HTML i contenuti delle pagine 15866 e 18906; i nuovi PDF collegati non esaminati.",
-      "Sardegna: homepage in timeout nel lettore web; pagina delle determinazioni inizialmente in 502 e poi acquisita con HTML 200 e contenuto letto.",
-      "Ulteriori tentativi non conclusivi: URL di raccolta varianti Sardegna non acquisibile; URL informativo invarianza Lombardia non acquisibile. Non sono fonti considerate controllate."
+      "Bolzano: il collegamento alla seconda pagina restituisce nuovamente i primi dieci risultati e una sezione in caricamento; i venti atti dell'ultima seduta non sono stati verificati integralmente.",
+      "Sicilia: la pagina ufficiale di partecipazione pubblica ha restituito un errore del lettore; la fonte non è considerata controllata.",
+      "Appennino Settentrionale: la pagina ufficiale del III ciclo ha restituito un errore del lettore; la fonte non è considerata controllata.",
+      "Po: il portale PGRA ha restituito un errore del lettore; sono state controllate soltanto homepage generale e portale PAI."
     ],
     "publication": {
-      "outcome": "pubblicato",
-      "commit_sha": "b8df1cd957ec73c770bd8dbeb45a9e63fb6daaca",
-      "commit_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/commit/b8df1cd957ec73c770bd8dbeb45a9e63fb6daaca",
-      "verified_at": "2026-10-09T08:17:15.951797+00:00",
-      "site_url": "https://domenicoderosa26-web.github.io/atlante-idraulico/",
-      "deployment_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/37903520739",
-      "verification": {
-        "outcome": "success",
-        "files": [
-          {
-            "path": "data.json",
-            "matches": true,
-            "sha256": "d5ae90d2e4e1156bf441808f26490900b75823711ca73494704a1a03cd69ecb8",
-            "expected_sha256": "d5ae90d2e4e1156bf441808f26490900b75823711ca73494704a1a03cd69ecb8"
-          },
-          {
-            "path": "topic-taxonomy.json",
-            "matches": true,
-            "sha256": "543b23aefef3c92ca0f7ebf8f408d56bd9aa73ba6de9a8d6d9780ba1930e9c36",
-            "expected_sha256": "543b23aefef3c92ca0f7ebf8f408d56bd9aa73ba6de9a8d6d9780ba1930e9c36"
-          }
-        ],
-        "site_loading": "107 schede; ricerca Villanovafranca e apertura scheda verificate nel sito pubblico; menu con 14 argomenti canonici."
-      },
+      "outcome": "in_attesa",
       "last_valid_result": "published_github_pages"
     },
     "external_execution_verified": false,
@@ -161,8 +114,8 @@
       "code": "TERRITORIAL_PARZIALE",
       "severity": "warning",
       "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
-      "evidence": "data.json:runs[1]",
-      "event_id": "ac8ccb2d2d9960ff9b411787"
+      "evidence": "data.json:runs[0]",
+      "event_id": "ae6987e6b67ef285849d8eb8"
     }
   ],
   "events": [
@@ -273,8 +226,16 @@
       "evidence": "data.json:runs[1]",
       "event_id": "ac8ccb2d2d9960ff9b411787",
       "recorded_at": "2026-10-09T09:02:35Z"
+    },
+    {
+      "code": "TERRITORIAL_PARZIALE",
+      "severity": "warning",
+      "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
+      "evidence": "data.json:runs[0]",
+      "event_id": "ae6987e6b67ef285849d8eb8",
+      "recorded_at": "2026-10-10T08:05:54Z"
     }
   ],
   "has_errors": false,
-  "repository_sha": "e4a9bf5e72a0ed0546daf5965bb031ca8b59d205"
+  "repository_sha": "a31852b2af08abdebf4276b4df002d956dc97e2d"
 }

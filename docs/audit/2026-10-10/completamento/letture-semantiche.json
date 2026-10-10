@@ -1,0 +1,1677 @@
+{
+  "note": "Riscontri per disposizione dei lotti 10–15, con perimetro; non sono letture integrali di ogni documento né attestazioni complete di vigenza.",
+  "sources": [
+    {
+      "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0306&atto.dataPubblicazioneGazzetta=1992-05-18&tipoDettaglio=vigente",
+      "records": [
+        "codstrada285"
+      ],
+      "claims": [
+        {
+          "record_id": "codstrada285",
+          "checked_at": "2026-10-09",
+          "aspect": "identity",
+          "source_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0306&atto.dataPubblicazioneGazzetta=1992-05-18&tipoDettaglio=vigente",
+          "locator": "Intestazione, metadati e selettore di vigenza",
+          "finding": "D.Lgs. 30 aprile 1992, n. 285, Nuovo codice della strada; GU n.114 del 18 maggio 1992, S.O. n.74; entrata in vigore 1 gennaio 1993. Pagina mostrata vigente al 09/10/2026; ultimo aggiornamento dell'atto pubblicato il 24/04/2026."
+        },
+        {
+          "record_id": "codstrada285",
+          "checked_at": "2026-10-09",
+          "aspect": "status",
+          "source_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0306&atto.dataPubblicazioneGazzetta=1992-05-18&tipoDettaglio=vigente",
+          "locator": "Metadati e selettore di vigenza al 09/10/2026",
+          "finding": "D.Lgs. 30 aprile 1992, n. 285, Nuovo codice della strada; GU n.114 del 18 maggio 1992, S.O. n.74; entrata in vigore 1 gennaio 1993. Pagina mostrata vigente al 09/10/2026; ultimo aggiornamento dell'atto pubblicato il 24/04/2026."
+        }
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=20&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=25&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+      "records": [
+        "codstrada285"
+      ],
+      "claims": [
+        {
+          "record_id": "codstrada285",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=20&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=25&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+          "locator": "art.25, commi 1,2 e4",
+          "finding": "Corsi e condutture d'acqua che attraversano o usano sede stradale e pertinenze richiedono preventiva concessione dell'ente proprietario. La concessione presuppone assoluta necessità e accertamento tecnico dell'autorità competente; accessibilità e manutenzione devono ridurre l'intralcio alla circolazione."
+        },
+        {
+          "record_id": "codstrada285",
+          "checked_at": "2026-10-09",
+          "aspect": "version",
+          "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=20&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=25&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+          "locator": "Intestazione articolo; commi 1-bis–1-sexies",
+          "finding": "Normattiva mostra per l'art.25 il testo in vigore dal 14 dicembre 2024. I commi 1-bis–1-quinquies riguardano titolarità e manutenzione delle strutture degli attraversamenti a livelli sfalsati tra strade; non vanno applicati indistintamente agli attraversamenti di condotte d'acqua."
+        }
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=5&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=26&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+      "records": [
+        "codstrada285"
+      ],
+      "claims": [
+        {
+          "record_id": "codstrada285",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=5&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=26&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+          "locator": "art.26, commi1-4",
+          "finding": "L'art.26 distingue competenza dell'ente proprietario e convenzioni per strade in concessione; nei tratti di statali/regionali/provinciali in centri abitati sotto 10.000 abitanti il Comune rilascia previo nulla osta del proprietario. Il comma4 contiene una disciplina specifica per impianti destinati a servizio pubblico."
+        }
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=14&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=27&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+      "records": [
+        "codstrada285"
+      ],
+      "claims": [
+        {
+          "record_id": "codstrada285",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=14&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=27&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+          "locator": "art.27, commi1-5",
+          "finding": "Domanda corredata da documentazione tecnica e oneri istruttori; titolo con prescrizioni, durata e obbligo di riparare danni. La concessione stradale è rilasciata senza pregiudizio dei diritti dei terzi."
+        }
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=28&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+      "records": [
+        "codstrada285"
+      ],
+      "claims": [
+        {
+          "record_id": "codstrada285",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=28&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+          "locator": "art.28, commi1-2",
+          "finding": "Anche distribuzione di acqua potabile e fognature rientrano nei servizi i cui concessionari devono rispettare condizioni per conservazione stradale e sicurezza; in caso di spostamento per comprovate esigenze di viabilità l'onere grava sul gestore con modalità concordate."
+        }
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=16&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=32&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+      "records": [
+        "codstrada285"
+      ],
+      "claims": [
+        {
+          "record_id": "codstrada285",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=16&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=32&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+          "locator": "art.32, commi1-5",
+          "finding": "Chi ha diritto di condurre acque nei fossi deve conservarli; chi attraversa con corsi o condotte deve costruire e mantenere ponti e opere, anche a monte e valle, secondo disciplinare e sorveglianza dell'ente, salvo art.33. L'irrigazione laterale non deve recare acque sulla sede né danno o pericolo."
+        }
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=16&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=33&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+      "records": [
+        "codstrada285"
+      ],
+      "claims": [
+        {
+          "record_id": "codstrada285",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=16&art.idGruppo=2&art.flagTipoArticolo=0&art.codiceRedazionale=092G0306&art.idArticolo=33&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+          "locator": "art.33, commi1-6",
+          "finding": "Proprietari/utenti di canali artificiali devono impedire l'afflusso dannoso sulla sede; manutenzione e rifacimento dei manufatti esistenti sono a loro carico salvo preesistenza della strada o titolo/possesso contrario. Per ampliamenti di manufatti non in legname l'ente stradale sostiene il costo di allargamento; manutenzione intera resta agli utenti delle acque."
+        }
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0531&atto.dataPubblicazioneGazzetta=1992-12-28&tipoDettaglio=vigente",
+      "records": [
+        "dpr495"
+      ],
+      "claims": [
+        {
+          "record_id": "dpr495",
+          "checked_at": "2026-10-09",
+          "aspect": "identity",
+          "source_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0531&atto.dataPubblicazioneGazzetta=1992-12-28&tipoDettaglio=vigente",
+          "locator": "Intestazione e metadati; selettore di vigenza",
+          "finding": "DPR16 dicembre1992,n.495, regolamento di esecuzione e attuazione del nuovo Codice della strada; GU303 del28 dicembre1992,SO134; efficacia1 gennaio1993. Normattiva mostra testo vigente al09/10/2026 e ultimo aggiornamento dell'atto pubblicato il24/02/2025."
+        },
+        {
+          "record_id": "dpr495",
+          "checked_at": "2026-10-09",
+          "aspect": "status",
+          "source_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0531&atto.dataPubblicazioneGazzetta=1992-12-28&tipoDettaglio=vigente",
+          "locator": "Metadati e selettore di vigenza al 09/10/2026",
+          "finding": "DPR16 dicembre1992,n.495, regolamento di esecuzione e attuazione del nuovo Codice della strada; GU303 del28 dicembre1992,SO134; efficacia1 gennaio1993. Normattiva mostra testo vigente al09/10/2026 e ultimo aggiornamento dell'atto pubblicato il24/02/2025."
+        }
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=65&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+      "records": [
+        "dpr495"
+      ],
+      "claims": [
+        {
+          "record_id": "dpr495",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=65&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+          "locator": "art.65, commi1,3-4",
+          "finding": "Distinzione tra attraversamenti trasversali, occupazioni longitudinali e misti; soluzione tecnica deve considerare sicurezza/fluidità della circolazione durante lavori e uso e possibile ampliamento. A raso solo senza alternative o per particolari difficoltà tecniche."
+        }
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=3&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=66&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+      "records": [
+        "dpr495"
+      ],
+      "claims": [
+        {
+          "record_id": "dpr495",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=3&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=66&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+          "locator": "art.66, commi1-2,6-8",
+          "finding": "Manufatti/cunicoli proteggono gli impianti e assorbono sollecitazioni del traffico; dimensionamento e accessi devono consentire manutenzione evitando manomissione/intralcio. Tipologia e modalità richiedono approvazione dell'ente in concessione."
+        },
+        {
+          "record_id": "dpr495",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=3&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=66&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+          "locator": "art.66, commi3 e7",
+          "finding": "Profondità dell'estradosso approvata dall'ente in relazione a terreni e traffico; minimo ordinario1m dal piano viabile. Per tecniche di scavo a limitato impatto è ammessa riduzione condizionata a sicurezza e integrità stradale sulla vita utile; non è una deroga automatica generale. Le occupazioni longitudinali sulla sede rinviano al comma3."
+        },
+        {
+          "record_id": "dpr495",
+          "checked_at": "2026-10-09",
+          "aspect": "version",
+          "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=3&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=66&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+          "locator": "Intestazioni degli artt.65-67; art.66, commi9-10",
+          "finding": "Art.66 mostrato in vigore dal19 dicembre2012; commi9 e10 espressamente soppressi dal DPR610/1996. Artt.65 e67 mostrati in vigore dal19 dicembre1996."
+        }
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=67&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+      "records": [
+        "dpr495"
+      ],
+      "claims": [
+        {
+          "record_id": "dpr495",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=67&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+          "locator": "art.67, commi1-6",
+          "finding": "L'ente determina documentazione e prescrizioni aggiuntive; convenzione regola esecuzione, traffico, controlli/collaudo, durata e cauzione. Opere utilizzabili dopo collaudo positivo limitato a corrispondenza con concessione; controllo entro30 giorni dalla comunicazione di fine lavori."
+        }
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=68&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+      "records": [
+        "dpr495"
+      ],
+      "claims": [
+        {
+          "record_id": "dpr495",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=68&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+          "locator": "Rubrica e commi1-5; confronto rubriche70-71",
+          "finding": "L'art.68 disciplina collocazione e segnalazione dei cassonetti dei rifiuti, non la condotta delle acque. Il riferimento pertinente alle acque è negli artt.70-71."
+        }
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=69&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+      "records": [
+        "dpr495"
+      ],
+      "claims": [
+        {
+          "record_id": "dpr495",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=69&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+          "locator": "art.69, commi1-2",
+          "finding": "Il regolamento attua gli obblighi dei concessionari di servizi dell'art.28 CdS con prescrizioni, tempi, eventuali penali ed esecuzione sostitutiva."
+        }
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=70&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+      "records": [
+        "dpr495"
+      ],
+      "claims": [
+        {
+          "record_id": "dpr495",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=70&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+          "locator": "art.70, commi1-2",
+          "finding": "Attua art.32 CdS: ingiunzione con modalità, condizioni e tempi; inadempimento consente esecuzione diretta e recupero spese con procedura indicata nel testo."
+        }
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=71&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+      "records": [
+        "dpr495"
+      ],
+      "claims": [
+        {
+          "record_id": "dpr495",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=8&art.flagTipoArticolo=0&art.codiceRedazionale=092G0531&art.idArticolo=71&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-12-28&art.progressivo=0&",
+          "locator": "art.71, comma1 e intestazioni70-71",
+          "finding": "Per inadempimento degli obblighi su canali artificiali e manufatti previsti dall'art.33 CdS rinvia alla procedura dell'art.70. Artt.70-71 mostrati in vigore dal1 gennaio1993."
+        }
+      ]
+    },
+    {
+      "url": "https://www.cortecostituzionale.it/scheda-pronuncia/2010/68",
+      "records": [
+        "abr17"
+      ],
+      "claims": [
+        {
+          "record_id": "abr17",
+          "checked_at": "2026-10-09",
+          "aspect": "status",
+          "source_url": "https://www.cortecostituzionale.it/scheda-pronuncia/2010/68",
+          "locator": "Motivazione §4.6 e dispositivo",
+          "finding": "La Corte dichiara costituzionalmente illegittima l’intera L.R. Abruzzo 24 novembre 2008, n.17. La scheda è conservata come riferimento storico, non come disciplina vigente degli scarichi."
+        },
+        {
+          "record_id": "abr17",
+          "checked_at": "2026-10-09",
+          "aspect": "identity",
+          "source_url": "https://www.cortecostituzionale.it/scheda-pronuncia/2010/68",
+          "locator": "Intestazione della pronuncia e dispositivo",
+          "finding": "L.R.17/2008: Norme regionali contenenti l’attuazione della parte terza del d.lgs. n.152/06 e s.m.i. e disposizioni in materia di personale; sentenza depositata il26/02/2010, pubblicata in GU il03/03/2010."
+        }
+      ]
+    },
+    {
+      "url": "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A397A5C07&idDocumento=795801377B580A307C5C",
+      "records": [
+        "bas471",
+        "bas9"
+      ],
+      "claims": [
+        {
+          "record_id": "bas471",
+          "checked_at": "2026-10-09",
+          "aspect": "identity",
+          "source_url": "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A397A5C07&idDocumento=795801377B580A307C5C",
+          "locator": "PDFp.1, numero23BB202600471 e seduta",
+          "finding": "D.G.R.471 del28/07/2026, Ufficio Risorse Idriche, aggiornamento delle linee guida regionali in materia di scarichi."
+        },
+        {
+          "record_id": "bas471",
+          "checked_at": "2026-10-09",
+          "aspect": "approval",
+          "source_url": "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A397A5C07&idDocumento=795801377B580A307C5C",
+          "locator": "PDFpp.3-4, premesse e dispositivo1-3",
+          "finding": "La DGR305/2023 era una proposta mai approvata definitivamente. Il dispositivo la revoca, approva la proposta2026 e la trasmette alla Commissione per il parere preliminare exart.5LR9/2017. Non contiene una decorrenza al1agosto2026 e non dimostra approvazione definitiva."
+        },
+        {
+          "record_id": "bas471",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A397A5C07&idDocumento=795801377B580A307C5C",
+          "locator": "PDFp.4, premessa sul testo sostitutivo",
+          "finding": "La proposta mira a sostituire il testo approvato con DGR380/2020. Questa intenzione non prova l’avvenuta sostituzione efficace."
+        },
+        {
+          "record_id": "bas9",
+          "checked_at": "2026-10-09",
+          "aspect": "approval",
+          "source_url": "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A397A5C07&idDocumento=795801377B580A307C5C",
+          "locator": "Pag.4dispositivo2-3",
+          "finding": "Il nuovo atto2026richiama il requisito dell’art.5comma1e trasmette una proposta per parere preliminare; non prova da solo attuazione definitiva."
+        }
+      ]
+    },
+    {
+      "url": "https://www.comune.milano.it/documents/20118/1529015/Linee%2BGuida%2Bper%2Bla%2Bprogettazione%2Bdei%2Bsistemi%2Burbani%2Bdi%2Bdrenaggio%2Bsostenibile%2Bnel%2Bterritorio%2Bcomunale%2B%281%29.pdf/08b32748-b9fd-88bf-01b9-1008147fa3ec?download=true&t=1761735461824&version=1.0",
+      "records": [
+        "milano",
+        "milano-suds-10576-2020"
+      ],
+      "claims": [
+        {
+          "record_id": "milano",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://www.comune.milano.it/documents/20118/1529015/Linee%2BGuida%2Bper%2Bla%2Bprogettazione%2Bdei%2Bsistemi%2Burbani%2Bdi%2Bdrenaggio%2Bsostenibile%2Bnel%2Bterritorio%2Bcomunale%2B%281%29.pdf/08b32748-b9fd-88bf-01b9-1008147fa3ec?download=true&t=1761735461824&version=1.0",
+          "locator": "Guida dicembre2020, PDFp.6, Premessa",
+          "finding": "La guida illustra sistemi di drenaggio sostenibile, manutenzione e scelta nel contesto urbano, con rinvio al RR7/2017 e alle tavole costruttive del gestore. Descrive un Mapping Tool del PGT2030; non sostituisce le norme e tavole di piano."
+        },
+        {
+          "record_id": "milano-suds-10576-2020",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://www.comune.milano.it/documents/20118/1529015/Linee%2BGuida%2Bper%2Bla%2Bprogettazione%2Bdei%2Bsistemi%2Burbani%2Bdi%2Bdrenaggio%2Bsostenibile%2Bnel%2Bterritorio%2Bcomunale%2B%281%29.pdf/08b32748-b9fd-88bf-01b9-1008147fa3ec?download=true&t=1761735461824&version=1.0",
+          "locator": "Pagina PDF 24 (numerazione interna 23), sezione 3.3.3",
+          "finding": "Le Linee guida descrivono il DSRI come Allegato 8 del PGT e lo collegano all’art. 14 RR Lombardia 7/2017. Distinguono misure sui corsi principali, reticolo minore e fognatura."
+        },
+        {
+          "record_id": "milano-suds-10576-2020",
+          "checked_at": "2026-10-09",
+          "aspect": "effectiveness",
+          "source_url": "https://www.comune.milano.it/documents/20118/1529015/Linee%2BGuida%2Bper%2Bla%2Bprogettazione%2Bdei%2Bsistemi%2Burbani%2Bdi%2Bdrenaggio%2Bsostenibile%2Bnel%2Bterritorio%2Bcomunale%2B%281%29.pdf/08b32748-b9fd-88bf-01b9-1008147fa3ec?download=true&t=1761735461824&version=1.0",
+          "locator": "Sezione 3.3.3",
+          "finding": "La fonte di dicembre 2020 riporta approvazione PGT il 14 ottobre 2019 ed efficacia 5 febbraio 2020. Questi estremi sono storici e non costituiscono verifica del corpus PGT vigente coordinato a ottobre 2026."
+        }
+      ]
+    },
+    {
+      "url": "https://www.comune.milano.it/documents/20118/39748/Determinazione%2BDirigenziale%2Bn.%2B10576%2Bdel%2B22.12.2020.pdf/4f6fd763-282a-b418-1fdb-26c489bf2bad?download=true&t=1747057791151&version=1.0",
+      "records": [
+        "milano",
+        "milano-suds-10576-2020"
+      ],
+      "claims": [
+        {
+          "record_id": "milano",
+          "checked_at": "2026-10-09",
+          "aspect": "approval",
+          "source_url": "https://www.comune.milano.it/documents/20118/39748/Determinazione%2BDirigenziale%2Bn.%2B10576%2Bdel%2B22.12.2020.pdf/4f6fd763-282a-b418-1fdb-26c489bf2bad?download=true&t=1747057791151&version=1.0",
+          "locator": "PDFp.4, dispositivo1-2, lettura visiva",
+          "finding": "La DD10576 del22/12/2020 approva le linee guida SuDS come allegato e ne dispone la diffusione. Questo provvedimento non è approvazione di una variante del PGT."
+        },
+        {
+          "record_id": "milano-suds-10576-2020",
+          "checked_at": "2026-10-09",
+          "aspect": "approval",
+          "source_url": "https://www.comune.milano.it/documents/20118/39748/Determinazione%2BDirigenziale%2Bn.%2B10576%2Bdel%2B22.12.2020.pdf/4f6fd763-282a-b418-1fdb-26c489bf2bad?download=true&t=1747057791151&version=1.0",
+          "locator": "Pagina 4, dispositivo, lettura visiva",
+          "finding": "La DD 10576 del 22 dicembre 2020 approva le Linee guida SuDS come allegato parte integrante; non approva un nuovo PGT."
+        }
+      ]
+    },
+    {
+      "url": "https://www.cittametropolitana.ba.it/halley//ht/eg527/acque_meteoriche.zip",
+      "records": [
+        "bari"
+      ],
+      "claims": [
+        {
+          "record_id": "bari",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://www.cittametropolitana.ba.it/halley//ht/eg527/acque_meteoriche.zip",
+          "locator": "IstanzaRR26-2013.odt, fattispecieA/B/C e documentazione allegata",
+          "finding": "Il modulo distingue rete separata, superfici fuori fognatura senza rischio e scarichi con rischio di dilavamento di sostanze pericolose; richiede relazione tecnica, dimensionamento, elaborati di reti/trattamento/recapiti e attestazioni sul servizio fognario. La soglia5000mq è presentata nel modulo per le fattispecieB; non viene estesa indistintamente a ogni scarico."
+        },
+        {
+          "record_id": "bari",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://www.cittametropolitana.ba.it/halley//ht/eg527/acque_meteoriche.zip",
+          "locator": "DichiarazioneRR26-2013.doc, asseverazione progettista",
+          "finding": "L’asseverazione richiede controllo dei vincoliPTA/PAI/PPTR/aree protette, recapito, disponibilità terreni, riutilizzo o motivazione di impossibilità e compatibilità del ricettore. È un modulo procedurale, non una nuova norma autonoma."
+        }
+      ]
+    },
+    {
+      "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200059.pdf",
+      "records": [
+        "bz-badia-pzp-782-2026"
+      ],
+      "claims": [
+        {
+          "record_id": "bz-badia-pzp-782-2026",
+          "checked_at": "2026-10-09",
+          "aspect": "effectiveness",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200059.pdf",
+          "locator": "pagina PDF 1, intestazione e footer BUR 40; pagina PDF 4, ultimo paragrafo del dispositivo",
+          "finding": "Pubblicata nel BUR 40 del 2026-10-01. Il dispositivo prescrive l'entrata in vigore il giorno successivo alla pubblicazione: decorrenza 2026-10-02. Questo riscontro non dimostra l'assenza di varianti successive."
+        },
+        {
+          "record_id": "bz-badia-pzp-782-2026",
+          "checked_at": "2026-10-09",
+          "aspect": "topics",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200059.pdf",
+          "locator": "pagine PDF 3-4, elenco degli elaborati e dispositivo",
+          "finding": "Componente della variante: pericoli idraulici; ambito Pedraces - Ustaria Posta. La componente frane/valanghe non e assimilata ai pericoli idraulici."
+        },
+        {
+          "record_id": "bz-badia-pzp-782-2026",
+          "checked_at": "2026-10-09",
+          "aspect": "territory",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200059.pdf",
+          "locator": "pagina PDF 4, clausola sulla carta delle zone di pericolo",
+          "finding": "La carta delle zone di pericolo e sostituita esclusivamente nell'ambito interessato dalla modifica, non per l'intero territorio comunale."
+        }
+      ]
+    },
+    {
+      "url": "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo",
+      "records": [
+        "bz-badia-pzp-782-2026",
+        "bz-campo-tures-pzp-799-2026",
+        "bz-fortezza-pzp-742-2026",
+        "bz-la-valle-pzp-739-2026",
+        "bz-nova-ponente-pzp-741-2026",
+        "bz-nova-ponente-pzp-776-2026",
+        "bz-rasun-anterselva-pzp-738-2026",
+        "bz-sarentino-pzp-740-2026"
+      ],
+      "claims": [
+        {
+          "record_id": "bz-badia-pzp-782-2026",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo",
+          "locator": "paragrafo sulla Carta delle zone di pericolo e tre tipi principali",
+          "finding": "La Provincia indica deposito della carta presso il Comune e consultazione generale in Hazard Browser e Newplan; distingue frane, pericoli idraulici e valanghe. La disponibilita della singola tavola 2026 non e accertata."
+        },
+        {
+          "record_id": "bz-campo-tures-pzp-799-2026",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo",
+          "locator": "paragrafo sulla Carta delle zone di pericolo e tre tipi principali",
+          "finding": "La Provincia indica deposito della carta presso il Comune e consultazione generale in Hazard Browser e Newplan; distingue frane, pericoli idraulici e valanghe. La disponibilita della singola tavola 2026 non e accertata."
+        },
+        {
+          "record_id": "bz-fortezza-pzp-742-2026",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo",
+          "locator": "paragrafo sulla Carta delle zone di pericolo e tre tipi principali",
+          "finding": "La Provincia indica deposito della carta presso il Comune e consultazione generale in Hazard Browser e Newplan; distingue frane, pericoli idraulici e valanghe. La disponibilita della singola tavola 2026 non e accertata."
+        },
+        {
+          "record_id": "bz-la-valle-pzp-739-2026",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo",
+          "locator": "paragrafo sulla Carta delle zone di pericolo e tre tipi principali",
+          "finding": "La Provincia indica deposito della carta presso il Comune e consultazione generale in Hazard Browser e Newplan; distingue frane, pericoli idraulici e valanghe. La disponibilita della singola tavola 2026 non e accertata."
+        },
+        {
+          "record_id": "bz-nova-ponente-pzp-741-2026",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo",
+          "locator": "paragrafo sulla Carta delle zone di pericolo e tre tipi principali",
+          "finding": "La Provincia indica deposito della carta presso il Comune e consultazione generale in Hazard Browser e Newplan; distingue frane, pericoli idraulici e valanghe. La disponibilita della singola tavola 2026 non e accertata."
+        },
+        {
+          "record_id": "bz-nova-ponente-pzp-776-2026",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo",
+          "locator": "paragrafo sulla Carta delle zone di pericolo e tre tipi principali",
+          "finding": "La Provincia indica deposito della carta presso il Comune e consultazione generale in Hazard Browser e Newplan; distingue frane, pericoli idraulici e valanghe. La disponibilita della singola tavola 2026 non e accertata."
+        },
+        {
+          "record_id": "bz-rasun-anterselva-pzp-738-2026",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo",
+          "locator": "paragrafo sulla Carta delle zone di pericolo e tre tipi principali",
+          "finding": "La Provincia indica deposito della carta presso il Comune e consultazione generale in Hazard Browser e Newplan; distingue frane, pericoli idraulici e valanghe. La disponibilita della singola tavola 2026 non e accertata."
+        },
+        {
+          "record_id": "bz-sarentino-pzp-740-2026",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo",
+          "locator": "paragrafo sulla Carta delle zone di pericolo e tre tipi principali",
+          "finding": "La Provincia indica deposito della carta presso il Comune e consultazione generale in Hazard Browser e Newplan; distingue frane, pericoli idraulici e valanghe. La disponibilita della singola tavola 2026 non e accertata."
+        }
+      ]
+    },
+    {
+      "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/41/BO/BO412601200095.pdf",
+      "records": [
+        "bz-campo-tures-pzp-799-2026"
+      ],
+      "claims": [
+        {
+          "record_id": "bz-campo-tures-pzp-799-2026",
+          "checked_at": "2026-10-09",
+          "aspect": "effectiveness",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/41/BO/BO412601200095.pdf",
+          "locator": "pagina PDF 1, intestazione e footer BUR 41; pagina PDF 4, ultimo paragrafo del dispositivo",
+          "finding": "Pubblicata nel BUR 41 del 2026-10-08. Il dispositivo prescrive l'entrata in vigore il giorno successivo alla pubblicazione: decorrenza 2026-10-09. Questo riscontro non dimostra l'assenza di varianti successive."
+        },
+        {
+          "record_id": "bz-campo-tures-pzp-799-2026",
+          "checked_at": "2026-10-09",
+          "aspect": "topics",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/41/BO/BO412601200095.pdf",
+          "locator": "pagine PDF 3-4, elenco degli elaborati e dispositivo",
+          "finding": "Componente della variante: frane; ambito zona produttiva Griesberg, lotti 2 e 3. La componente frane/valanghe non e assimilata ai pericoli idraulici."
+        },
+        {
+          "record_id": "bz-campo-tures-pzp-799-2026",
+          "checked_at": "2026-10-09",
+          "aspect": "territory",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/41/BO/BO412601200095.pdf",
+          "locator": "pagina PDF 4, clausola sulla carta delle zone di pericolo",
+          "finding": "La carta delle zone di pericolo e sostituita esclusivamente nell'ambito interessato dalla modifica, non per l'intero territorio comunale."
+        }
+      ]
+    },
+    {
+      "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200072.pdf",
+      "records": [
+        "bz-fortezza-pzp-742-2026"
+      ],
+      "claims": [
+        {
+          "record_id": "bz-fortezza-pzp-742-2026",
+          "checked_at": "2026-10-09",
+          "aspect": "effectiveness",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200072.pdf",
+          "locator": "pagina PDF 1, intestazione e footer BUR 40; pagina PDF 4, ultimo paragrafo del dispositivo",
+          "finding": "Pubblicata nel BUR 40 del 2026-10-01. Il dispositivo prescrive l'entrata in vigore il giorno successivo alla pubblicazione: decorrenza 2026-10-02. Questo riscontro non dimostra l'assenza di varianti successive."
+        },
+        {
+          "record_id": "bz-fortezza-pzp-742-2026",
+          "checked_at": "2026-10-09",
+          "aspect": "topics",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200072.pdf",
+          "locator": "pagine PDF 3-4, elenco degli elaborati e dispositivo",
+          "finding": "Componente della variante: pericoli idraulici; ambito zona Greithwald. La componente frane/valanghe non e assimilata ai pericoli idraulici."
+        },
+        {
+          "record_id": "bz-fortezza-pzp-742-2026",
+          "checked_at": "2026-10-09",
+          "aspect": "territory",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200072.pdf",
+          "locator": "pagina PDF 4, clausola sulla carta delle zone di pericolo",
+          "finding": "La carta delle zone di pericolo e sostituita esclusivamente nell'ambito interessato dalla modifica, non per l'intero territorio comunale."
+        }
+      ]
+    },
+    {
+      "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200025.pdf",
+      "records": [
+        "bz-la-valle-pzp-739-2026"
+      ],
+      "claims": [
+        {
+          "record_id": "bz-la-valle-pzp-739-2026",
+          "checked_at": "2026-10-09",
+          "aspect": "effectiveness",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200025.pdf",
+          "locator": "pagina PDF 1, intestazione e footer BUR 39; pagina PDF 4, ultimo paragrafo del dispositivo",
+          "finding": "Pubblicata nel BUR 39 del 2026-09-24. Il dispositivo prescrive l'entrata in vigore il giorno successivo alla pubblicazione: decorrenza 2026-09-25. Questo riscontro non dimostra l'assenza di varianti successive."
+        },
+        {
+          "record_id": "bz-la-valle-pzp-739-2026",
+          "checked_at": "2026-10-09",
+          "aspect": "topics",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200025.pdf",
+          "locator": "pagine PDF 3-4, elenco degli elaborati e dispositivo",
+          "finding": "Componente della variante: pericoli idraulici; ambito Rio di Armentara E.155. La componente frane/valanghe non e assimilata ai pericoli idraulici."
+        },
+        {
+          "record_id": "bz-la-valle-pzp-739-2026",
+          "checked_at": "2026-10-09",
+          "aspect": "territory",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200025.pdf",
+          "locator": "pagina PDF 4, clausola sulla carta delle zone di pericolo",
+          "finding": "La carta delle zone di pericolo e sostituita esclusivamente nell'ambito interessato dalla modifica, non per l'intero territorio comunale."
+        }
+      ]
+    },
+    {
+      "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200070.pdf",
+      "records": [
+        "bz-nova-ponente-pzp-741-2026"
+      ],
+      "claims": [
+        {
+          "record_id": "bz-nova-ponente-pzp-741-2026",
+          "checked_at": "2026-10-09",
+          "aspect": "effectiveness",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200070.pdf",
+          "locator": "pagina PDF 1, intestazione e footer BUR 40; pagina PDF 4, ultimo paragrafo del dispositivo",
+          "finding": "Pubblicata nel BUR 40 del 2026-10-01. Il dispositivo prescrive l'entrata in vigore il giorno successivo alla pubblicazione: decorrenza 2026-10-02. Questo riscontro non dimostra l'assenza di varianti successive."
+        },
+        {
+          "record_id": "bz-nova-ponente-pzp-741-2026",
+          "checked_at": "2026-10-09",
+          "aspect": "topics",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200070.pdf",
+          "locator": "pagine PDF 3-4, elenco degli elaborati e dispositivo",
+          "finding": "Componente della variante: frane; ambito SS 241 km 10+640. La componente frane/valanghe non e assimilata ai pericoli idraulici."
+        },
+        {
+          "record_id": "bz-nova-ponente-pzp-741-2026",
+          "checked_at": "2026-10-09",
+          "aspect": "territory",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200070.pdf",
+          "locator": "pagina PDF 4, clausola sulla carta delle zone di pericolo",
+          "finding": "La carta delle zone di pericolo e sostituita esclusivamente nell'ambito interessato dalla modifica, non per l'intero territorio comunale."
+        }
+      ]
+    },
+    {
+      "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200075.pdf",
+      "records": [
+        "bz-nova-ponente-pzp-776-2026"
+      ],
+      "claims": [
+        {
+          "record_id": "bz-nova-ponente-pzp-776-2026",
+          "checked_at": "2026-10-09",
+          "aspect": "effectiveness",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200075.pdf",
+          "locator": "pagina PDF 1, intestazione e footer BUR 40; pagina PDF 4, ultimo paragrafo del dispositivo",
+          "finding": "Pubblicata nel BUR 40 del 2026-10-01. Il dispositivo prescrive l'entrata in vigore il giorno successivo alla pubblicazione: decorrenza 2026-10-02. Questo riscontro non dimostra l'assenza di varianti successive."
+        },
+        {
+          "record_id": "bz-nova-ponente-pzp-776-2026",
+          "checked_at": "2026-10-09",
+          "aspect": "topics",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200075.pdf",
+          "locator": "pagine PDF 3-4, elenco degli elaborati e dispositivo",
+          "finding": "Componente della variante: frane; ambito SS 241 km 11+000-11+900. La componente frane/valanghe non e assimilata ai pericoli idraulici."
+        },
+        {
+          "record_id": "bz-nova-ponente-pzp-776-2026",
+          "checked_at": "2026-10-09",
+          "aspect": "territory",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200075.pdf",
+          "locator": "pagina PDF 4, clausola sulla carta delle zone di pericolo",
+          "finding": "La carta delle zone di pericolo e sostituita esclusivamente nell'ambito interessato dalla modifica, non per l'intero territorio comunale."
+        }
+      ]
+    },
+    {
+      "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200026.pdf",
+      "records": [
+        "bz-rasun-anterselva-pzp-738-2026"
+      ],
+      "claims": [
+        {
+          "record_id": "bz-rasun-anterselva-pzp-738-2026",
+          "checked_at": "2026-10-09",
+          "aspect": "effectiveness",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200026.pdf",
+          "locator": "pagina PDF 1, intestazione e footer BUR 39; pagina PDF 4, ultimo paragrafo del dispositivo",
+          "finding": "Pubblicata nel BUR 39 del 2026-09-24. Il dispositivo prescrive l'entrata in vigore il giorno successivo alla pubblicazione: decorrenza 2026-09-25. Questo riscontro non dimostra l'assenza di varianti successive."
+        },
+        {
+          "record_id": "bz-rasun-anterselva-pzp-738-2026",
+          "checked_at": "2026-10-09",
+          "aspect": "topics",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200026.pdf",
+          "locator": "pagine PDF 3-4, elenco degli elaborati e dispositivo",
+          "finding": "Componente della variante: frane e valanghe; ambito centro Biathlon Anterselva. La componente frane/valanghe non e assimilata ai pericoli idraulici."
+        },
+        {
+          "record_id": "bz-rasun-anterselva-pzp-738-2026",
+          "checked_at": "2026-10-09",
+          "aspect": "territory",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200026.pdf",
+          "locator": "pagina PDF 4, clausola sulla carta delle zone di pericolo",
+          "finding": "La carta delle zone di pericolo e sostituita esclusivamente nell'ambito interessato dalla modifica, non per l'intero territorio comunale."
+        }
+      ]
+    },
+    {
+      "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200071.pdf",
+      "records": [
+        "bz-sarentino-pzp-740-2026"
+      ],
+      "claims": [
+        {
+          "record_id": "bz-sarentino-pzp-740-2026",
+          "checked_at": "2026-10-09",
+          "aspect": "effectiveness",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200071.pdf",
+          "locator": "pagina PDF 1, intestazione e footer BUR 40; pagina PDF 4, ultimo paragrafo del dispositivo",
+          "finding": "Pubblicata nel BUR 40 del 2026-10-01. Il dispositivo prescrive l'entrata in vigore il giorno successivo alla pubblicazione: decorrenza 2026-10-02. Questo riscontro non dimostra l'assenza di varianti successive."
+        },
+        {
+          "record_id": "bz-sarentino-pzp-740-2026",
+          "checked_at": "2026-10-09",
+          "aspect": "topics",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200071.pdf",
+          "locator": "pagine PDF 3-4, elenco degli elaborati e dispositivo",
+          "finding": "Componente della variante: pericoli idraulici e valanghivi; ambito Rio di Monterosso F.310 e area di accumulo Pichlereschbaum. La componente frane/valanghe non e assimilata ai pericoli idraulici."
+        },
+        {
+          "record_id": "bz-sarentino-pzp-740-2026",
+          "checked_at": "2026-10-09",
+          "aspect": "territory",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200071.pdf",
+          "locator": "pagina PDF 4, clausola sulla carta delle zone di pericolo",
+          "finding": "La carta delle zone di pericolo e sostituita esclusivamente nell'ambito interessato dalla modifica, non per l'intero territorio comunale."
+        }
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=93&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+      "records": [
+        "rd523"
+      ],
+      "claims": [
+        {
+          "record_id": "rd523",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=93&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+          "locator": "Artt.93-95, testo coordinato",
+          "finding": "Opere in alveo richiedono permesso; il riferimento comprende rami/diversivi asciutti in parte dell’anno. Difese frontiste non devono alterare il regime né danneggiare diritti altrui."
+        }
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=3&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=96&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+      "records": [
+        "rd523"
+      ],
+      "claims": [
+        {
+          "record_id": "rd523",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=3&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=96&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+          "locator": "Art.96, lettere b,e,f,g,h",
+          "finding": "La lettera f richiama prima le discipline locali; sussidiariamente prevede4m per piantagioni/smovimenti e10m per fabbriche/scavi dal piede degli argini/accessori. Non è una distanza universale applicabile ignorando disciplina locale e riferimenti geometrici."
+        }
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=5&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=97&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+      "records": [
+        "rd523"
+      ],
+      "claims": [
+        {
+          "record_id": "rd523",
+          "checked_at": "2026-10-09",
+          "aspect": "amendment",
+          "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=5&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=97&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+          "locator": "Art.97 e note; art.98 e note",
+          "finding": "Art.97 lettere f,g,h,i e art.98 lettere a,b,c risultano abrogati dal RD1775/1933; art.98 f soppresso dalla L774/1911. Art.97 k e98 d: abrogazione limitata alla parte compresa nell’art.217RD1775, come indicato dalle note. Il TU non è integralmente invariato."
+        }
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=44&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+      "records": [
+        "dpr753"
+      ],
+      "claims": [
+        {
+          "record_id": "dpr753",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=44&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+          "locator": "Artt.44-45",
+          "finding": "Vietati impedimenti allo scolo dei fossi e al deflusso dalla ferrovia; immissione di acque nei fossi richiede concessione dell’esercente. Canali laterali e irrigazione devono evitare espansione e danni alla sede."
+        }
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=53&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+      "records": [
+        "dpr753"
+      ],
+      "claims": [
+        {
+          "record_id": "dpr753",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=53&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+          "locator": "Artt.36,49,53",
+          "finding": "Art.49 disciplina fascia30m per edifici/manufatti presso ferrovie, con esclusione degli altri servizi assimilati; art.53 ha distinta regola per scavi/canali: distanza del ciglio almeno pari alla profondità e minimo3m, dai riferimenti prescritti. Art.36 esclude salvo38 servizi in sede comune con strade/aree pubbliche."
+        }
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=58&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+      "records": [
+        "dpr753"
+      ],
+      "claims": [
+        {
+          "record_id": "dpr753",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=3&art.flagTipoArticolo=0&art.codiceRedazionale=080U0753&art.idArticolo=58&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1980-11-15&art.progressivo=0&",
+          "locator": "Artt.58 e60",
+          "finding": "Interferenze di condotte/canali richiedono autorizzazione dell’esercente. Riduzioni delle distanze49-56 exart.60 dipendono da sicurezza, conservazione, natura del terreno e circostanze locali; non sono automatiche."
+        }
+      ]
+    },
+    {
+      "url": "https://bollettino.regione.taa.it/pdf/I-II/2008/11/S1/S111080151963.pdf",
+      "records": [
+        "bz6"
+      ],
+      "claims": [
+        {
+          "record_id": "bz6",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2008/11/S1/S111080151963.pdf",
+          "locator": "CapoIV artt.37-47, PDFpp.29-36",
+          "finding": "Testo originario: quattro categorie di meteoriche; prima pioggia5mm/15min; riclassificazione delle frazioni prima/seconda pioggia; regolamenti comunali per riutilizzo e disciplina di infiltrazione/ritenzione. Art.44 rinvia agli allegatiD/G della LP8/2002, non ad allegati del solo decreto."
+        },
+        {
+          "record_id": "bz6",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2008/11/S1/S111080151963.pdf",
+          "locator": "AllegatoA, PDFp.50",
+          "finding": "AllegatoA presente nel BUR integrale: criteri per abitanti equivalenti biologici/idraulici; non un allegato di dimensionamento della prima pioggia."
+        }
+      ]
+    },
+    {
+      "url": "https://bollettino.regione.taa.it/pdf/I-II/2022/24/BO/BO242201193179.pdf",
+      "records": [
+        "bz6"
+      ],
+      "claims": [
+        {
+          "record_id": "bz6",
+          "checked_at": "2026-10-09",
+          "aspect": "amendment",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2022/24/BO/BO242201193179.pdf",
+          "locator": "DPP13/2022 artt.1,4,5, PDFp.3; note46p.5 e65p.12",
+          "finding": "Dal17/06/2022 art.46c3 richiede parere per meteoriche inquinate art.39c1c numeri1/3 e sistematicamente inquinate; art.65c1f allineato. BUR16/06 eclausola giorno successivo. Il comma originario non va trattato come attuale."
+        }
+      ]
+    },
+    {
+      "url": "https://bollettino.regione.taa.it/pdf/I-II/2025/22/BO/BO222501197979.pdf",
+      "records": [
+        "bz6"
+      ],
+      "claims": [
+        {
+          "record_id": "bz6",
+          "checked_at": "2026-10-09",
+          "aspect": "amendment",
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2025/22/BO/BO222501197979.pdf",
+          "locator": "DPP9/2025 artt.1-2, PDFp.3, BUR29/05/2025",
+          "finding": "Modifica art.53c3/5/6; efficacia30/05/2025. Non si attende la pubblicazioneGU13/06/2026 per attribuire efficacia provinciale."
+        }
+      ]
+    },
+    {
+      "url": "https://www.mase.gov.it/portale/documents/d/guest/allegato_1_cam_edilizia_30_10_25-def-pdf",
+      "records": [
+        "camed2025"
+      ],
+      "claims": [
+        {
+          "record_id": "camed2025",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://www.mase.gov.it/portale/documents/d/guest/allegato_1_cam_edilizia_30_10_25-def-pdf",
+          "locator": "§2.2.2, indicazioni ecomma2a, PDFpp.39-41",
+          "finding": "Per nuova costruzione: superficie permeabile almeno60% della superficie territoriale di progetto, verde almeno30%. Superficie permeabile con coefficiente di deflusso inferiore0,50; non conteggiata se confinata su tutti i lati da impermeabili che impediscono deflusso verso falda. Altre tipologie hanno condizioni proprie."
+        },
+        {
+          "record_id": "camed2025",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://www.mase.gov.it/portale/documents/d/guest/allegato_1_cam_edilizia_30_10_25-def-pdf",
+          "locator": "§2.2.3, PDFpp.42-43",
+          "finding": "Gestione sostenibile: reti separate; acque pulite a raccolta per irrigazione/WC, dimensionamentoUNI/TS11445 eUNI805 o equivalenti; dilavamento contaminato da trattare. DefinizioneCAM prima pioggia primi5mm dell’evento indipendente: non soglia regionale universale."
+        },
+        {
+          "record_id": "camed2025",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://www.mase.gov.it/portale/documents/d/guest/allegato_1_cam_edilizia_30_10_25-def-pdf",
+          "locator": "§§2.3.14-2.3.15, PDFpp.63-64",
+          "finding": "Reti separate meteoriche/grigie/nere e duali con contatori secondo campo di applicazione. Criterio raccolta meteoriche2.3.15 per nuove costruzioni comprese demolizione/ricostruzione e altre opere con captazione: non applicabile a manutenzione ordinaria o straordinaria; preservate norme locali più restrittive."
+        }
+      ]
+    },
+    {
+      "url": "https://www.gazzettaufficiale.it/eli/gu/2025/09/23/221/sg/pdf",
+      "records": [
+        "camstrade2024",
+        "camstrade2025"
+      ],
+      "claims": [
+        {
+          "record_id": "camstrade2024",
+          "checked_at": "2026-10-09",
+          "aspect": "amendment",
+          "source_url": "https://www.gazzettaufficiale.it/eli/gu/2025/09/23/221/sg/pdf",
+          "locator": "Art.1, commi1-41, PDFpp.4-6",
+          "finding": "Il correttivo cambia campo di applicazione1.1 e anticipa approfondimento dei requisiti alPFTE(1.3.1). Nessun comma di questo art.1 modifica i criteri2.3.7-2.3.9 su canalette/gres/plastiche: questi restano nel testo2024, da leggere insieme alle modifiche generali."
+        },
+        {
+          "record_id": "camstrade2024",
+          "checked_at": "2026-10-09",
+          "aspect": "effectiveness",
+          "source_url": "https://www.gazzettaufficiale.it/eli/gu/2025/09/23/221/sg/pdf",
+          "locator": "Artt.3-5, PDFp.7",
+          "finding": "Entrata in vigore24/09/2025; applicazione ai procedimenti in corso salvo derogheart.4 per progetti pregressi e bandi/avvisi/inviti entro180giorni. L’applicazione al singolo contratto richiede ricostruzione della sua procedura."
+        },
+        {
+          "record_id": "camstrade2025",
+          "checked_at": "2026-10-09",
+          "aspect": "amendment",
+          "source_url": "https://www.gazzettaufficiale.it/eli/gu/2025/09/23/221/sg/pdf",
+          "locator": "Art.1, commi1-41, PDFpp.4-6",
+          "finding": "Il correttivo cambia campo di applicazione1.1 e anticipa approfondimento dei requisiti alPFTE(1.3.1). Nessun comma di questo art.1 modifica i criteri2.3.7-2.3.9 su canalette/gres/plastiche: questi restano nel testo2024, da leggere insieme alle modifiche generali."
+        },
+        {
+          "record_id": "camstrade2025",
+          "checked_at": "2026-10-09",
+          "aspect": "effectiveness",
+          "source_url": "https://www.gazzettaufficiale.it/eli/gu/2025/09/23/221/sg/pdf",
+          "locator": "Artt.3-5, PDFp.7",
+          "finding": "Entrata in vigore24/09/2025; applicazione ai procedimenti in corso salvo derogheart.4 per progetti pregressi e bandi/avvisi/inviti entro180giorni. L’applicazione al singolo contratto richiede ricostruzione della sua procedura."
+        }
+      ]
+    },
+    {
+      "url": "https://www.gazzettaufficiale.it/eli/gu/2024/08/23/197/sg/pdf",
+      "records": [
+        "camstrade2024",
+        "camstrade2025"
+      ],
+      "claims": [
+        {
+          "record_id": "camstrade2024",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://www.gazzettaufficiale.it/eli/gu/2024/08/23/197/sg/pdf",
+          "locator": "Allegato1 §§2.3.7-2.3.9, PDFp.44",
+          "finding": "Criteri distinti per canalette conformiUNI1433, tubazioni in gres e plastiche; il correttivo generale non consente di presentare il soloPDF2024 come testo integralmente coordinato."
+        },
+        {
+          "record_id": "camstrade2025",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://www.gazzettaufficiale.it/eli/gu/2024/08/23/197/sg/pdf",
+          "locator": "Allegato1 §§2.3.7-2.3.9, PDFp.44",
+          "finding": "Criteri distinti per canalette conformiUNI1433, tubazioni in gres e plastiche; il correttivo generale non consente di presentare il soloPDF2024 come testo integralmente coordinato."
+        }
+      ]
+    },
+    {
+      "url": "https://www.regione.basilicata.it/wp-content/uploads/giunta/docs/DOCUMENT_FILE_3068771.pdf",
+      "records": [
+        "bas9"
+      ],
+      "claims": [
+        {
+          "record_id": "bas9",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://www.regione.basilicata.it/wp-content/uploads/giunta/docs/DOCUMENT_FILE_3068771.pdf",
+          "locator": "Pagine1-4artt.1-8",
+          "finding": "Disciplina approvazione progetti e autorizzazioni provvisorie; art.4individuaProvince; art.5comma1richiede parere preliminare per linee guida; comma2c rinvia allaGiunta la disciplina meteorici e prima pioggia."
+        },
+        {
+          "record_id": "bas9",
+          "checked_at": "2026-10-09",
+          "aspect": "effectiveness",
+          "source_url": "https://www.regione.basilicata.it/wp-content/uploads/giunta/docs/DOCUMENT_FILE_3068771.pdf",
+          "locator": "Pag.1 estremiBUR e pag.4art.8",
+          "finding": "Originale reca BURn.15del1giugno2017 e art.8efficacia giorno successivo. È il testo originario, non una certificazione di coordinamento2026."
+        }
+      ]
+    },
+    {
+      "url": "https://bur.regione.emilia-romagna.it/archivio/inserzione?anno=2005&num_boll=49&prog_documento=1",
+      "records": [
+        "er286"
+      ],
+      "claims": [
+        {
+          "record_id": "er286",
+          "checked_at": "2026-10-09",
+          "aspect": "effectiveness",
+          "source_url": "https://bur.regione.emilia-romagna.it/archivio/inserzione?anno=2005&num_boll=49&prog_documento=1",
+          "locator": "Intestazione; dispositivo punti 1–3",
+          "finding": "DGR 14 febbraio 2005 n. 286 approva l’allegata direttiva su meteoriche e prima pioggia. Dispositivo prevede entrata in vigore quindici giorni dalla pubblicazione BUR; data esatta di efficacia originaria non calcolata senza riscontro della data di bollettino."
+        },
+        {
+          "record_id": "er286",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://bur.regione.emilia-romagna.it/archivio/inserzione?anno=2005&num_boll=49&prog_documento=1",
+          "locator": "Allegato, sezioni 2.V e 3.1",
+          "finding": "Testo originario: primi 2,5–5 mm distribuiti sulla superficie scolante, 15 minuti per le portate; coefficiente 1 per superfici lastricate/impermeabili ed escluse coltivate. Volumi ordinari 25–50 m³/ha e 50 m³/ha per aree produttive/commerciali; svuotamento ordinario 48–72 ore. Da coordinare con successive linee guida, senza presentare l’intervallo come obbligo identico per ogni intervento."
+        },
+        {
+          "record_id": "er286",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://bur.regione.emilia-romagna.it/archivio/inserzione?anno=2005&num_boll=49&prog_documento=1",
+          "locator": "Allegato, sezione 3.5",
+          "finding": "Favorisce gestione locale delle acque non contaminate e infiltrazione secondo condizioni del suolo; quando conferite in fognatura limita la portata secondo il gestore ed eventuali vasche volano. Per recapito superficiale rinvia a pianificazione di bacino e autorità competente. Comuni e gestori adeguano regolamenti; incoraggia recupero per usi non pregiati."
+        },
+        {
+          "record_id": "er286",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://bur.regione.emilia-romagna.it/archivio/inserzione?anno=2005&num_boll=49&prog_documento=1",
+          "locator": "Allegato, sezione 8 e 8.1.1.III, casi 1/2",
+          "finding": "Distingue rischio esaurito con prima pioggia e dilavamento persistente durante l’evento. Nel secondo caso l’intera acqua reflua di dilavamento è assoggettata alla disciplina industriale. Esenzioni per mero parcheggio/transito non eliminano gli obblighi idraulici o ulteriori rischi di carico/scarico."
+        },
+        {
+          "record_id": "er286",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://bur.regione.emilia-romagna.it/archivio/inserzione?anno=2005&num_boll=49&prog_documento=1",
+          "locator": "Allegato, sezioni 8.2, 8.3 e 9",
+          "finding": "Il testo originario regola nuove attività, adeguamenti delle esistenti, autorizzazioni e riparto Provincia/Comune; vieta immissione diretta in falda. Queste competenze e durate originali richiedono coordinamento con ordinamento successivo e AUA."
+        }
+      ]
+    },
+    {
+      "url": "https://ambiente.regione.emilia-romagna.it/it/acque/consultazione/norme/normativa-regionale/dgr-1083_2010.pdf/@@download/file",
+      "records": [
+        "er286",
+        "er1083"
+      ],
+      "claims": [
+        {
+          "record_id": "er286",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://ambiente.regione.emilia-romagna.it/it/acque/consultazione/norme/normativa-regionale/dgr-1083_2010.pdf/@@download/file",
+          "locator": "pp. 3–5, dispositivo; allegato pp. 6–10",
+          "finding": "DGR 1083 del 26 luglio 2010 approva linee guida per Piani di Indirizzo ex punto 3.6 DGR 286: localizzazione/dimensionamento vasche, livelli di prestazione dei nuovi drenaggi, ricondizionamento scolmatori e priorità secondo PTA; non abroga in blocco DGR 286."
+        },
+        {
+          "record_id": "er286",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://ambiente.regione.emilia-romagna.it/it/acque/consultazione/norme/normativa-regionale/dgr-1083_2010.pdf/@@download/file",
+          "locator": "pp. 14–17, sezioni 2.1 e 2.2",
+          "finding": "Definisce invarianza come mantenimento della portata al colmo prima/dopo trasformazione, con riduzione impermeabile e laminazione complementare. Favorisce riuso, parcheggi e canali drenanti, trincee, bacini e tetti verdi; richiede tutela della falda e recepimento nella pianificazione locale."
+        },
+        {
+          "record_id": "er1083",
+          "checked_at": "2026-10-09",
+          "aspect": "approval",
+          "source_url": "https://ambiente.regione.emilia-romagna.it/it/acque/consultazione/norme/normativa-regionale/dgr-1083_2010.pdf/@@download/file",
+          "locator": "pp. 1 e 4–5, dispositivo",
+          "finding": "DGR 1083 del 26 luglio 2010 approva linee guida per Piani di Indirizzo ex punto 3.6 DGR 286/2005."
+        },
+        {
+          "record_id": "er1083",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://ambiente.regione.emilia-romagna.it/it/acque/consultazione/norme/normativa-regionale/dgr-1083_2010.pdf/@@download/file",
+          "locator": "pp. 8–9, sezioni 1.1–1.3",
+          "finding": "I Piani di Indirizzo attuano PTA e pianificazione del servizio idrico, con vasche, scolmatori, livelli di prestazione e priorità per ridurre i carichi; l’allegato coordina DGR 286/2005 e 1860/2006. Obiettivi temporali 2016 riportati come storici, non scadenze nuove."
+        },
+        {
+          "record_id": "er1083",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://ambiente.regione.emilia-romagna.it/it/acque/consultazione/norme/normativa-regionale/dgr-1083_2010.pdf/@@download/file",
+          "locator": "pp. 14–17, sezioni 2.1 e 2.2",
+          "finding": "Definisce invarianza come mantenimento della portata al colmo prima/dopo trasformazione, con riduzione impermeabile e laminazione complementare. Favorisce riuso, parcheggi e canali drenanti, trincee, bacini e tetti verdi; richiede tutela della falda e recepimento nella pianificazione locale."
+        }
+      ]
+    },
+    {
+      "url": "https://ambiente.regione.emilia-romagna.it/it/acque/consultazione/norme/normativa-regionale/dgr_2153_2021.pdf/@@download/file",
+      "records": [
+        "er286"
+      ],
+      "claims": [
+        {
+          "record_id": "er286",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://ambiente.regione.emilia-romagna.it/it/acque/consultazione/norme/normativa-regionale/dgr_2153_2021.pdf/@@download/file",
+          "locator": "Allegato 2, pp. 171–173",
+          "finding": "Per nuove urbanizzazioni le valutazioni e pareri idraulici devono precedere i progetti definitivi/permessi; scarichi nuovi e indiretti richiedono valutazioni idrauliche/idrologiche e misure di invarianza in relazione alle casistiche. Questa disciplina riguarda agglomerati/reti e non è un volume unico regionale per ogni intervento."
+        }
+      ]
+    },
+    {
+      "url": "https://apps.arpae.it/documento/DAMB20261430",
+      "records": [
+        "er286"
+      ],
+      "claims": [
+        {
+          "record_id": "er286",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://apps.arpae.it/documento/DAMB20261430",
+          "locator": "DET-AMB-2026-1430 del 18 marzo 2026, pp. 1–6",
+          "finding": "Atto Arpae applica DGR 286/2005 e 1860/2006 insieme a norme AUA, DGR 569/2019, 2153/2021 e aggiornamenti degli agglomerati fino a 2203/2025. Conferma applicazione nel caso specifico e distinzione autorizzazione ambientale/parere idraulico, senza dimostrare catena esaustiva."
+        }
+      ]
+    },
+    {
+      "url": "https://www.gazzettaufficiale.it/atto/regioni/caricaDettaglioAtto/originario?atto.codiceRedazionale=010R1510&atto.dataPubblicazioneGazzetta=2011-04-23",
+      "records": [
+        "abr31"
+      ],
+      "claims": [
+        {
+          "record_id": "abr31",
+          "checked_at": "2026-10-09",
+          "aspect": "identity",
+          "source_url": "https://www.gazzettaufficiale.it/atto/regioni/caricaDettaglioAtto/originario?atto.codiceRedazionale=010R1510&atto.dataPubblicazioneGazzetta=2011-04-23",
+          "locator": "Intestazioneatto010R1510",
+          "finding": "LR Abruzzo29luglio2010n.31; Norme regionali contenenti la prima attuazione delDLgs3aprile2006n.152."
+        }
+      ]
+    },
+    {
+      "url": "https://provincia.laquila.it/files/modulistica/ambiente/rifiuti/LR_31_2010.pdf",
+      "records": [
+        "abr31"
+      ],
+      "claims": [
+        {
+          "record_id": "abr31",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://provincia.laquila.it/files/modulistica/ambiente/rifiuti/LR_31_2010.pdf",
+          "locator": "Pagine8-11,CapoVartt.12-20",
+          "finding": "Iltesto originario contiene una disciplina sostanziale per meteorici, prima pioggia, condotte separate, aree produttive arischio, trattamento e autorizzazioni; non è mero richiamo tematico."
+        },
+        {
+          "record_id": "abr31",
+          "checked_at": "2026-10-09",
+          "aspect": "effectiveness",
+          "source_url": "https://provincia.laquila.it/files/modulistica/ambiente/rifiuti/LR_31_2010.pdf",
+          "locator": "Pagina1BURn.50del30luglio2010;pag.15art.26",
+          "finding": "Testo originario reca pubblicazioneBUR30luglio2010ed efficacia giorno successivo. Non ricostruito tutto ilcoordinamento legislativo2026."
+        },
+        {
+          "record_id": "abr31",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://provincia.laquila.it/files/modulistica/ambiente/rifiuti/LR_31_2010.pdf",
+          "locator": "Art.25Norme transitorie",
+          "finding": "Gli atti dalnovembre2008allaentrata invigore conformi alleprevisioni della nuova legge siintendono validi edefficaci; non equivale arendere vigente LR17/2008annullata."
+        }
+      ]
+    },
+    {
+      "url": "https://bura.regione.abruzzo.it/sites/bura.regione.abruzzo.it/files/bollettini/2023-01-25/bollettino-ordinario-n-4-del-25-01-2023.pdf",
+      "records": [
+        "abr31",
+        "abruzzo-scarichi-906-2022"
+      ],
+      "claims": [
+        {
+          "record_id": "abr31",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://bura.regione.abruzzo.it/sites/bura.regione.abruzzo.it/files/bollettini/2023-01-25/bollettino-ordinario-n-4-del-25-01-2023.pdf",
+          "locator": "pp. PDF 90–91, premesse",
+          "finding": "Richiama trasferimento dalle Province alla Regione dal 1 aprile 2016 per autorizzazioni su suolo, sottosuolo superficiale e corpo idrico, ex LR 32/2015 e DGR 144/2016."
+        },
+        {
+          "record_id": "abruzzo-scarichi-906-2022",
+          "checked_at": "2026-10-09",
+          "aspect": "approval",
+          "source_url": "https://bura.regione.abruzzo.it/sites/bura.regione.abruzzo.it/files/bollettini/2023-01-25/bollettino-ordinario-n-4-del-25-01-2023.pdf",
+          "locator": "p. PDF 88, intestazione; p. PDF 93, dispositivo",
+          "finding": "DGR 906 del 29 dicembre 2022 approva le linee guida aggiornamento 2022 e allegati; pubblicazione nel BUR ordinario 4 del 25 gennaio 2023."
+        },
+        {
+          "record_id": "abruzzo-scarichi-906-2022",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://bura.regione.abruzzo.it/sites/bura.regione.abruzzo.it/files/bollettini/2023-01-25/bollettino-ordinario-n-4-del-25-01-2023.pdf",
+          "locator": "pp. PDF 90–91, premesse",
+          "finding": "Richiama trasferimento dalle Province alla Regione dal 1 aprile 2016 per autorizzazioni su suolo, sottosuolo superficiale e corpo idrico, ex LR 32/2015 e DGR 144/2016."
+        }
+      ]
+    },
+    {
+      "url": "https://bura.regione.abruzzo.it/sites/bura.regione.abruzzo.it/files/bollettini/2023-01-23/allegato-1-linee-guida-scarichi-aggiornamento-2022-pdf.pdf",
+      "records": [
+        "abr31",
+        "abruzzo-scarichi-906-2022"
+      ],
+      "claims": [
+        {
+          "record_id": "abr31",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://bura.regione.abruzzo.it/sites/bura.regione.abruzzo.it/files/bollettini/2023-01-23/allegato-1-linee-guida-scarichi-aggiornamento-2022-pdf.pdf",
+          "locator": "pp. 9–10, art. 10",
+          "finding": "Definisce prima pioggia 40 m³/ha (4 mm), eventi distanziati almeno 7 giorni e 15 minuti per il dimensionamento. Distingue acque a rischio e non a rischio, autorizzazione e comunicazione alla Regione o gestore per fognatura; le acque a rischio da aree inferiori a 1.000 m² sono ricondotte alla comunicazione nelle condizioni indicate dal testo."
+        },
+        {
+          "record_id": "abruzzo-scarichi-906-2022",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://bura.regione.abruzzo.it/sites/bura.regione.abruzzo.it/files/bollettini/2023-01-23/allegato-1-linee-guida-scarichi-aggiornamento-2022-pdf.pdf",
+          "locator": "pp. 9–10, art. 10",
+          "finding": "Definisce prima pioggia 40 m³/ha (4 mm), eventi distanziati almeno 7 giorni e 15 minuti per il dimensionamento. Distingue acque a rischio e non a rischio, autorizzazione e comunicazione alla Regione o gestore per fognatura; le acque a rischio da aree inferiori a 1.000 m² sono ricondotte alla comunicazione nelle condizioni indicate dal testo."
+        },
+        {
+          "record_id": "abruzzo-scarichi-906-2022",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://bura.regione.abruzzo.it/sites/bura.regione.abruzzo.it/files/bollettini/2023-01-23/allegato-1-linee-guida-scarichi-aggiornamento-2022-pdf.pdf",
+          "locator": "p. 10, art. 10.8; pp. 26–27, artt. 34–35",
+          "finding": "Comunicazione ex art. 15 LR 31/2010 non compresa nell’AUA; procedimenti già avviati seguono precedenti linee guida. Procedure e moduli possono essere successivamente modificati, rispettivamente con DGR e determinazioni pubblicate."
+        }
+      ]
+    },
+    {
+      "url": "https://pai.adbpo.it/wp-content/uploads/2025/05/NA_PAI-PO.pdf",
+      "records": [
+        "dist-po"
+      ],
+      "claims": [
+        {
+          "record_id": "dist-po",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://pai.adbpo.it/wp-content/uploads/2025/05/NA_PAI-PO.pdf",
+          "locator": "p. 1; artt. 1 e 3; art. 56, p. 49",
+          "finding": "Il PDF ufficiale dichiara testo vigente dal 17 aprile 2025; il PAI Po riguarda il bacino Po chiuso all’incile del Po di Goro, escluso il Delta. Non equiparare il solo ambito originario del PAI all’intero distretto."
+        },
+        {
+          "record_id": "dist-po",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://pai.adbpo.it/wp-content/uploads/2025/05/NA_PAI-PO.pdf",
+          "locator": "p. 17, art. 12",
+          "finding": "Per nuove urbanizzazioni e infrastrutture limita lo sviluppo impermeabile e prevede aree per infiltrazione e invaso temporaneo diffuso. Modalità e limiti delle portate sono rimessi a direttiva dell’Autorità; Consorzi di bonifica verificano compatibilità dei nuovi scarichi con i propri ricettori. Non contiene un valore universale di l/s/ha o m³/ha."
+        },
+        {
+          "record_id": "dist-po",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://pai.adbpo.it/wp-content/uploads/2025/05/NA_PAI-PO.pdf",
+          "locator": "art. 19, p. 24; art. 38, p. 37",
+          "finding": "Nuovi attraversamenti richiedono verifiche secondo direttiva tecnica. Nelle fasce A/B le opere pubbliche essenziali non altrimenti localizzabili sono subordinate a condizioni di non ostacolo al deflusso e non significativa riduzione dell’invaso e allo studio di compatibilità per parere competente."
+        },
+        {
+          "record_id": "dist-po",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://pai.adbpo.it/wp-content/uploads/2025/05/NA_PAI-PO.pdf",
+          "locator": "pp. 30–33, artt. 28–31",
+          "finding": "Distingue A di deflusso, B di esondazione e C di piena catastrofica: vincoli e verifiche dipendono dalla fascia e dalle tavole. Vietate trasformazioni in A salvo casi ammessi; gli interventi consentiti devono preservare drenaggio, falde e difese."
+        },
+        {
+          "record_id": "dist-po",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://pai.adbpo.it/wp-content/uploads/2025/05/NA_PAI-PO.pdf",
+          "locator": "pp. 49–51, artt. 55–58",
+          "finding": "Le mappe PGRA integrano il quadro conoscitivo PAI. Scenari P1/P2/P3 e rischio R1–R4 sono diversi; per reticolo principale P3/P2/P1 rinviano a Fascia A/B/art.31; per reticolo secondario montano i rinvii cambiano. Per reticolo secondario di pianura e aree costiere lacuali disciplina demandata alle Regioni ed enti locali."
+        }
+      ]
+    },
+    {
+      "url": "https://pianoalluvioni.adbpo.it/piano-gestione-rischio-alluvioni-2021/",
+      "records": [
+        "dist-po"
+      ],
+      "claims": [
+        {
+          "record_id": "dist-po",
+          "checked_at": "2026-10-09",
+          "aspect": "approval",
+          "source_url": "https://pianoalluvioni.adbpo.it/piano-gestione-rischio-alluvioni-2021/",
+          "locator": "Introduzione e elenco elaborati",
+          "finding": "Adottato CIP 5/20 dicembre 2021, definitivamente approvato DPCM 1 dicembre 2022; relazione e programma delle misure revisionati giugno 2022. PGRA non è il medesimo atto delle NTA PAI."
+        }
+      ]
+    },
+    {
+      "url": "https://www.adbpo.it/PDGA_Documenti_Piano/PGRA2021/Piano_2021/00_relazione_metodologica/RELAZIONE_PGRA_Rev.Giugno2022.pdf",
+      "records": [
+        "dist-po"
+      ],
+      "claims": [
+        {
+          "record_id": "dist-po",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://www.adbpo.it/PDGA_Documenti_Piano/PGRA2021/Piano_2021/00_relazione_metodologica/RELAZIONE_PGRA_Rev.Giugno2022.pdf",
+          "locator": "pp. PDF 83–85, cap. 6 e 7.1",
+          "finding": "Definisce riduzione dei rischi per salute, economia, beni culturali e ambiente, strategie di difesa urbana, spazio ai fiumi e rallentamento delle acque piovane urbane. Le misure sono programmate per unità di gestione e soggetti attuatori; tali strategie non determinano da sole un parametro cogente uniforme per le vasche."
+        }
+      ]
+    },
+    {
+      "url": "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/delibera_CIP_13_2025_variante_PAI_Po_signed_signed.pdf",
+      "records": [
+        "dist-po",
+        "po-pai-estensione-13-2025"
+      ],
+      "claims": [
+        {
+          "record_id": "dist-po",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/delibera_CIP_13_2025_variante_PAI_Po_signed_signed.pdf",
+          "locator": "artt. 2 e 4, pp. 14–15",
+          "finding": "CIP 13/2025 adotta progetto di estensione e salvaguardie vincolanti; conserva norme pregresse più restrittive. La definitiva sostituzione dei vecchi PAI è subordinata ad approvazione definitiva."
+        },
+        {
+          "record_id": "po-pai-estensione-13-2025",
+          "checked_at": "2026-10-09",
+          "aspect": "approval",
+          "source_url": "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/delibera_CIP_13_2025_variante_PAI_Po_signed_signed.pdf",
+          "locator": "p. 13, art. 1",
+          "finding": "Adotta il progetto di Variante PAI Po con elaborati relativi alle fasce fluviali e ai dissesti di versante."
+        },
+        {
+          "record_id": "po-pai-estensione-13-2025",
+          "checked_at": "2026-10-09",
+          "aspect": "amendment",
+          "source_url": "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/delibera_CIP_13_2025_variante_PAI_Po_signed_signed.pdf",
+          "locator": "p. 14, art. 2",
+          "finding": "La definitiva abrogazione dei precedenti PAI dei bacini interessati è subordinata alla definitiva approvazione della Variante."
+        },
+        {
+          "record_id": "po-pai-estensione-13-2025",
+          "checked_at": "2026-10-09",
+          "aspect": "approval",
+          "source_url": "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/delibera_CIP_13_2025_variante_PAI_Po_signed_signed.pdf",
+          "locator": "pp. 14–15, art. 3",
+          "finding": "Consultazione per 90 giorni, conferenze programmatiche regionali, successiva adozione e approvazione ex art. 66, comma 6, D.Lgs 152/2006: adozione del progetto e approvazione definitiva sono passaggi distinti."
+        },
+        {
+          "record_id": "po-pai-estensione-13-2025",
+          "checked_at": "2026-10-09",
+          "aspect": "effectiveness",
+          "source_url": "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/delibera_CIP_13_2025_variante_PAI_Po_signed_signed.pdf",
+          "locator": "p. 15, art. 4",
+          "finding": "Fino alla definitiva approvazione si applicano come salvaguardia le NTA Po, direttive tecniche e regolamenti; restano le disposizioni più restrittive dei PAI Reno, Romagnoli e Conca Marecchia. Le prescrizioni sono immediatamente vincolanti dal giorno successivo alla pubblicazione sul sito e per non oltre tre anni."
+        },
+        {
+          "record_id": "po-pai-estensione-13-2025",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/delibera_CIP_13_2025_variante_PAI_Po_signed_signed.pdf",
+          "locator": "p. 15, art. 4, comma 2",
+          "finding": "P3 rinvia ad art. 9, comma 3; P4 al comma 2; P1/P2 al comma 4. Nelle trasformazioni va valutata l’applicazione anche a fascia esterna non inferiore a 20 m, come possibile evoluzione della frana."
+        },
+        {
+          "record_id": "po-pai-estensione-13-2025",
+          "checked_at": "2026-10-09",
+          "aspect": "amendment",
+          "source_url": "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/delibera_CIP_13_2025_variante_PAI_Po_signed_signed.pdf",
+          "locator": "p. 16, art. 5",
+          "finding": "Le misure del DSG 13 del 7 marzo 2025 sono integralmente abrogate dall’entrata in vigore delle nuove salvaguardie."
+        }
+      ]
+    },
+    {
+      "url": "https://pai.adbpo.it/progetto-variante-pai-po-estensione-ai-bacini-del-reno-romagnoli-conca-marecchia-e-fissero-tartaro-canalbianco/",
+      "records": [
+        "po-pai-estensione-13-2025"
+      ],
+      "claims": [
+        {
+          "record_id": "po-pai-estensione-13-2025",
+          "checked_at": "2026-10-09",
+          "aspect": "effectiveness",
+          "source_url": "https://pai.adbpo.it/progetto-variante-pai-po-estensione-ai-bacini-del-reno-romagnoli-conca-marecchia-e-fissero-tartaro-canalbianco/",
+          "locator": "Indicazioni per osservazioni e contributi",
+          "finding": "Il portale attesta pubblicazione elaborati il 30 dicembre 2025 e proroga dal 30 marzo al 31 maggio 2026 con DSG 15 dell’11 marzo 2026. La combinazione data di pubblicazione e art. 4 porta al 31 dicembre 2025 per l’avvio delle salvaguardie; questa data è una deduzione esplicita, non una prova di approvazione definitiva."
+        }
+      ]
+    },
+    {
+      "url": "https://ambiente.regione.emilia-romagna.it/it/suolo-bacino/sezioni/piano-di-gestione-del-rischio-alluvioni/piano-gestione-rischio-alluvioni-2021/consultazione-pubblica/dpcm-1-12-2022_approvazpgra-ac.pdf/@@download/file",
+      "records": [
+        "dist-centr"
+      ],
+      "claims": [
+        {
+          "record_id": "dist-centr",
+          "checked_at": "2026-10-10",
+          "aspect": "approval",
+          "source_url": "https://ambiente.regione.emilia-romagna.it/it/suolo-bacino/sezioni/piano-di-gestione-del-rischio-alluvioni/piano-gestione-rischio-alluvioni-2021/consultazione-pubblica/dpcm-1-12-2022_approvazpgra-ac.pdf/@@download/file",
+          "locator": "Premesse e artt. 1–4, PDF pp. 1–3",
+          "finding": "Il PGRA è adottato con CIP 27 del 21 dicembre 2021 e approvato dal DPCM 1 dicembre 2022, GU 32 dell’8 febbraio 2023, codice 23A00689. Comprende mappe e misure; non dispone una generale abrogazione dei PAI."
+        }
+      ]
+    },
+    {
+      "url": "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO.pdf",
+      "records": [
+        "dist-centr"
+      ],
+      "claims": [
+        {
+          "record_id": "dist-centr",
+          "checked_at": "2026-10-10",
+          "aspect": "content",
+          "source_url": "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO.pdf",
+          "locator": "Art. 25, PDF pp. 64–65",
+          "finding": "Conserva PS2 Trasimeno, PS3 Piediluco e PS5 Roma nei limiti di compatibilità; per PS5 mantiene prescrizioni più restrittive."
+        },
+        {
+          "record_id": "dist-centr",
+          "checked_at": "2026-10-10",
+          "aspect": "effectiveness",
+          "source_url": "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO.pdf",
+          "locator": "Art. 26, comma 12, PDF p. 68",
+          "finding": "L’efficacia delle norme decorre dalla pubblicazione in GU del DPCM di approvazione; la copertina di adozione CIP del 26 maggio 2026 non prova tale pubblicazione."
+        }
+      ]
+    },
+    {
+      "url": "https://comune.cropani.cz.it/uploads/68dbb3acc00f4-Delibera_CIP_n_6_DEL_31_LUGLIO_2025_signed__1__signed.pdf",
+      "records": [
+        "pai-calabria-lao"
+      ],
+      "claims": [
+        {
+          "record_id": "pai-calabria-lao",
+          "checked_at": "2026-10-10",
+          "aspect": "amendment",
+          "source_url": "https://comune.cropani.cz.it/uploads/68dbb3acc00f4-Delibera_CIP_n_6_DEL_31_LUGLIO_2025_signed__1__signed.pdf",
+          "locator": "Art. 2, PDF p. 9",
+          "finding": "Adotta la proposta di NTA/misure di salvaguardia in sostituzione dell’art. 2 della CIP 2/2024, in esecuzione della CIP 1/2025."
+        },
+        {
+          "record_id": "pai-calabria-lao",
+          "checked_at": "2026-10-10",
+          "aspect": "effectiveness",
+          "source_url": "https://comune.cropani.cz.it/uploads/68dbb3acc00f4-Delibera_CIP_n_6_DEL_31_LUGLIO_2025_signed__1__signed.pdf",
+          "locator": "Art. 3, PDF p. 10",
+          "finding": "Nelle ulteriori aree perimetrate rispetto al PAI 2001, adotta salvaguardie immediatamente efficaci in sostituzione delle disposizioni transitorie CIP 1/2025; resta pendente il perfezionamento del piano."
+        },
+        {
+          "record_id": "pai-calabria-lao",
+          "checked_at": "2026-10-10",
+          "aspect": "approval",
+          "source_url": "https://comune.cropani.cz.it/uploads/68dbb3acc00f4-Delibera_CIP_n_6_DEL_31_LUGLIO_2025_signed__1__signed.pdf",
+          "locator": "Artt. 4–6, PDF p. 10",
+          "finding": "Prevede avviso in GU e BUR, consultazione di trenta giorni e osservazioni nei trenta successivi. Il dispositivo non equivale ad approvazione definitiva del piano."
+        }
+      ]
+    },
+    {
+      "url": "https://www.appa.provincia.tn.it/ocmultibinary/download/27681/309570/71/a344c71f7b9ed3ffacdcb176e84addbc.pdf/file/Allegato%2BO%2BNorme%2Bdi%2Battuazione.pdf",
+      "records": [
+        "tnpta"
+      ],
+      "claims": [
+        {
+          "record_id": "tnpta",
+          "checked_at": "2026-10-10",
+          "aspect": "content",
+          "source_url": "https://www.appa.provincia.tn.it/ocmultibinary/download/27681/309570/71/a344c71f7b9ed3ffacdcb176e84addbc.pdf/file/Allegato%2BO%2BNorme%2Bdi%2Battuazione.pdf",
+          "locator": "Art. 10, PDF pp. 19–20",
+          "finding": "Scarichi civili e industriali: condizioni differenziate secondo stato del corpo idrico e bacino; nuove autorizzazioni per nuovi insediamenti vietate nelle condizioni critiche indicate, con specifiche deroghe."
+        },
+        {
+          "record_id": "tnpta",
+          "checked_at": "2026-10-10",
+          "aspect": "amendment",
+          "source_url": "https://www.appa.provincia.tn.it/ocmultibinary/download/27681/309570/71/a344c71f7b9ed3ffacdcb176e84addbc.pdf/file/Allegato%2BO%2BNorme%2Bdi%2Battuazione.pdf",
+          "locator": "Art. 18, commi 1, 3 e 8, PDF pp. 31–32",
+          "finding": "Il piano sostituisce il PTA 233/2015 ma conserva specifiche discipline per concessioni e procedimenti pendenti."
+        },
+        {
+          "record_id": "tnpta",
+          "checked_at": "2026-10-10",
+          "aspect": "effectiveness",
+          "source_url": "https://www.appa.provincia.tn.it/ocmultibinary/download/27681/309570/71/a344c71f7b9ed3ffacdcb176e84addbc.pdf/file/Allegato%2BO%2BNorme%2Bdi%2Battuazione.pdf",
+          "locator": "Art. 18, comma 5, PDF p. 31",
+          "finding": "Decorrenza ordinaria dal quindicesimo giorno successivo alla pubblicazione della deliberazione di approvazione nel BUR; non va identificata automaticamente con la data di adozione."
+        }
+      ]
+    },
+    {
+      "url": "https://bur.regione.fvg.it/newbur/downloadPDF?doc=0&name=2026%2F06%2F10%2Fso+14_noLEGAL.pdf",
+      "records": [
+        "fvg-lr5-2026"
+      ],
+      "claims": [
+        {
+          "record_id": "fvg-lr5-2026",
+          "checked_at": "2026-10-10",
+          "aspect": "identity",
+          "source_url": "https://bur.regione.fvg.it/newbur/downloadPDF?doc=0&name=2026%2F06%2F10%2Fso+14_noLEGAL.pdf",
+          "locator": "PDF p. 4",
+          "finding": "L.R. 9 giugno 2026 n. 5, pubblicata nel supplemento 14 del 10 giugno 2026."
+        },
+        {
+          "record_id": "fvg-lr5-2026",
+          "checked_at": "2026-10-10",
+          "aspect": "amendment",
+          "source_url": "https://bur.regione.fvg.it/newbur/downloadPDF?doc=0&name=2026%2F06%2F10%2Fso+14_noLEGAL.pdf",
+          "locator": "Artt. 141–143, PDF pp. 57–58",
+          "finding": "PTA dinamico e aggiornamenti senza modificare gli obiettivi di tutela; estensione del certificato di collaudo alle derivazioni da sorgente a uso acquedottistico; abrogazione art. 53 comma 1 lettera e) della LR 11/2015."
+        },
+        {
+          "record_id": "fvg-lr5-2026",
+          "checked_at": "2026-10-10",
+          "aspect": "effectiveness",
+          "source_url": "https://bur.regione.fvg.it/newbur/downloadPDF?doc=0&name=2026%2F06%2F10%2Fso+14_noLEGAL.pdf",
+          "locator": "Art. 175, PDF p. 73",
+          "finding": "Entrata in vigore il giorno successivo alla pubblicazione: 11 giugno 2026, data ricavata dalla clausola e dall’intestazione del BUR."
+        }
+      ]
+    },
+    {
+      "url": "https://www.regione.vda.it/amministrazione/leggi/bollettino_ufficiale_new/archive/2023/52-2023_signed.pdf",
+      "records": [
+        "vda-lr20-2023"
+      ],
+      "claims": [
+        {
+          "record_id": "vda-lr20-2023",
+          "checked_at": "2026-10-10",
+          "aspect": "identity",
+          "source_url": "https://www.regione.vda.it/amministrazione/leggi/bollettino_ufficiale_new/archive/2023/52-2023_signed.pdf",
+          "locator": "PDF pp. 5–8",
+          "finding": "L.R. 31 ottobre 2023 n. 20, BUR 52 del 21 novembre 2023."
+        },
+        {
+          "record_id": "vda-lr20-2023",
+          "checked_at": "2026-10-10",
+          "aspect": "amendment",
+          "source_url": "https://www.regione.vda.it/amministrazione/leggi/bollettino_ufficiale_new/archive/2023/52-2023_signed.pdf",
+          "locator": "Art. 2, PDF pp. 5–7",
+          "finding": "Per impianti almeno 2000 a.e. rinvia all’Allegato 5 del D.Lgs. 152/2006; sotto tale soglia alle tabelle D/E regionali. Disciplina autorizzazioni provvisorie mediante rinvio alla Giunta e sostituisce le tabelle A/C."
+        },
+        {
+          "record_id": "vda-lr20-2023",
+          "checked_at": "2026-10-10",
+          "aspect": "effectiveness",
+          "source_url": "https://www.regione.vda.it/amministrazione/leggi/bollettino_ufficiale_new/archive/2023/52-2023_signed.pdf",
+          "locator": "Art. 5, PDF p. 8",
+          "finding": "Efficacia dal giorno successivo alla pubblicazione: 22 novembre 2023. Le scadenze transitorie del 2024 sono storiche."
+        }
+      ]
+    },
+    {
+      "url": "https://www.arpal.liguria.it/images/stories/testi_normative/REGOLAMENTO_REGIONALE_4_2009.pdf",
+      "records": [
+        "lig4"
+      ],
+      "claims": [
+        {
+          "record_id": "lig4",
+          "checked_at": "2026-10-10",
+          "aspect": "content",
+          "source_url": "https://www.arpal.liguria.it/images/stories/testi_normative/REGOLAMENTO_REGIONALE_4_2009.pdf",
+          "locator": "Allegato A, punti 1 e 2, PDF pp. 4–5",
+          "finding": "Piano con planimetrie, reti, stoccaggio, trattamento, relazione e procedure di gestione. Dimensionamento dell’ordine di 50 m³/ha; acque accumulate avviate ai trattamenti in 48–60 ore. Parametri riferiti al perimetro delle attività dell’art. 7."
+        },
+        {
+          "record_id": "lig4",
+          "checked_at": "2026-10-10",
+          "aspect": "content",
+          "source_url": "https://www.arpal.liguria.it/images/stories/testi_normative/REGOLAMENTO_REGIONALE_4_2009.pdf",
+          "locator": "Artt. 6–9, PDF pp. 2–3",
+          "finding": "Vieta immissione in acque sotterranee; individua attività soggette e recapiti della prima pioggia in fognatura o acque superficiali, con piano di prevenzione e gestione."
+        },
+        {
+          "record_id": "lig4",
+          "checked_at": "2026-10-10",
+          "aspect": "effectiveness",
+          "source_url": "https://www.arpal.liguria.it/images/stories/testi_normative/REGOLAMENTO_REGIONALE_4_2009.pdf",
+          "locator": "Clausola finale, PDF p. 3; BUR 13 del 15 luglio 2009",
+          "finding": "Efficacia originaria dal quindicesimo giorno successivo alla pubblicazione. Non attesta coordinamento delle competenze e dei rinvii statali successivi."
+        }
+      ]
+    },
+    {
+      "url": "https://arianna.cr.piemonte.it/regolafo/dettaglioRegolamento.do?tornaIndietro=true&urnRegolamento=urn%3Anir%3Aregione.piemonte%3Aregolamento%3A2006-02-20%3B1%402018-12-11",
+      "records": [
+        "pie1"
+      ],
+      "claims": [
+        {
+          "record_id": "pie1",
+          "checked_at": "2026-10-09",
+          "aspect": "version",
+          "source_url": "https://arianna.cr.piemonte.it/regolafo/dettaglioRegolamento.do?tornaIndietro=true&urnRegolamento=urn%3Anir%3Aregione.piemonte%3Aregolamento%3A2006-02-20%3B1%402018-12-11",
+          "locator": "Timeline V2 dal 8 dicembre 2006; note 1–12",
+          "finding": "Testo coordinato include RR 7/2006 e RR 13/2006. Il parametro 2018 nell’URL non identifica una modifica del 2018: la versione selezionata è V2 dal 2006."
+        },
+        {
+          "record_id": "pie1",
+          "checked_at": "2026-10-09",
+          "aspect": "amendment",
+          "source_url": "https://arianna.cr.piemonte.it/regolafo/dettaglioRegolamento.do?tornaIndietro=true&urnRegolamento=urn%3Anir%3Aregione.piemonte%3Aregolamento%3A2006-02-20%3B1%402018-12-11",
+          "locator": "Art. 7 e allegato A, note 4 e 12",
+          "finding": "RR 7/2006 sostituisce ambito e allegato A. Accumulo di norma dell’ordine di 50 m³/ha; trattamento normalmente nelle 48–60 ore successive al termine dell’ultimo evento."
+        },
+        {
+          "record_id": "pie1",
+          "checked_at": "2026-10-09",
+          "aspect": "content",
+          "source_url": "https://arianna.cr.piemonte.it/regolafo/dettaglioRegolamento.do?tornaIndietro=true&urnRegolamento=urn%3Anir%3Aregione.piemonte%3Aregolamento%3A2006-02-20%3B1%402018-12-11",
+          "locator": "Artt. 6, 8–11",
+          "finding": "Prima pioggia 5 mm ed eventi separati da almeno 48 ore asciutte. Recapito sul suolo subordinato all’assenza di alternative; scadenze 2007 dell’art. 10 sono storiche."
+        }
+      ]
+    }
+  ]
+}

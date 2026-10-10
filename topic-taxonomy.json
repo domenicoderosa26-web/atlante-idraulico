@@ -818,7 +818,13 @@
       ],
       "source_urls": [
         "https://arianna.cr.piemonte.it/regolafo/dettaglioRegolamento.do?tornaIndietro=true&urnRegolamento=urn%3Anir%3Aregione.piemonte%3Aregolamento%3A2006-02-20%3B1%402018-12-11",
-        "https://serviziweb.csi.it/solverweb/IndexDocumentServlet?id=49953"
+        "https://serviziweb.csi.it/solverweb/IndexDocumentServlet?id=49953",
+        "https://www.regione.piemonte.it/web/sites/default/files/media/documenti/2018-11/chiarimenti.pdf",
+        "https://www.cittametropolitana.torino.it/ambiente/autorizzazioni-ambientali/acque-di-prima-pioggia",
+        "https://www.regione.piemonte.it/governo/bollettino/abbonati/2006/49/siste/00000001.htm",
+        "https://arianna.cr.piemonte.it/regolafo/dettaglioRegolamento.do?urnRegolamento=urn:nir:regione.piemonte:regolamento:2006-08-02;7@2006-12-08",
+        "https://arianna.cr.piemonte.it/regolafo/riferimentiSubiti.do?numRegolamento=1&annoRegolamento=2006",
+        "https://www.regione.piemonte.it/governo/bollettino/abbonati/2007/18/siste/00000001.htm"
       ],
       "object_versions": [
         {
@@ -841,7 +847,8 @@
       ],
       "source_urls": [
         "https://lrv.regione.liguria.it/liguriass_prod/articolo?urndoc=urn%3Anir%3Aregione.liguria%3Aregolamento.consiglio%3A2009-07-10%3B4",
-        "https://lrv.regione.liguria.it/liguriass_prod/class/download_doc.php?id=b63a3d33-74aa-0f7b-634b-512e1285dff3&ext=pdf"
+        "https://lrv.regione.liguria.it/liguriass_prod/class/download_doc.php?id=b63a3d33-74aa-0f7b-634b-512e1285dff3&ext=pdf",
+        "https://www.arpal.liguria.it/images/stories/testi_normative/REGOLAMENTO_REGIONALE_4_2009.pdf"
       ],
       "object_versions": [
         {

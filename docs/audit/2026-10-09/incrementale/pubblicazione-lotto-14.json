@@ -1,0 +1,73 @@
+{
+  "pr": 21,
+  "merge_commit": "0af2b797466ea5b49fef611392b1c1d9b56ab7ad",
+  "expected_repository_sha": "9f279352805c4fc7f0b8c32921acbc060cf10091",
+  "deployed_repository_sha": "9f279352805c4fc7f0b8c32921acbc060cf10091",
+  "pages_run": 38045331887,
+  "verified_at": "2026-10-10T10:35:44.907591+00:00",
+  "files": [
+    {
+      "path": "data.json",
+      "exact_match": true,
+      "expected_sha256": "2dec90e26aef2eadd62414ec8c05ea4222ade11dbde3b3d908c7bd96bbfa15d0",
+      "sha256": "2dec90e26aef2eadd62414ec8c05ea4222ade11dbde3b3d908c7bd96bbfa15d0",
+      "http_status": 200
+    },
+    {
+      "path": "topic-taxonomy.json",
+      "exact_match": true,
+      "expected_sha256": "bbe1322b838994f93053fb8b45d59180a6280fff85433a42b62a72549e58dc4c",
+      "sha256": "bbe1322b838994f93053fb8b45d59180a6280fff85433a42b62a72549e58dc4c",
+      "http_status": 200
+    },
+    {
+      "path": "docs/audit/progress.json",
+      "exact_match": true,
+      "expected_sha256": "49e810703c0d09126f994221a93d7d0545167c2f1f2ad96446797360d53d36cb",
+      "sha256": "49e810703c0d09126f994221a93d7d0545167c2f1f2ad96446797360d53d36cb",
+      "http_status": 200
+    },
+    {
+      "path": "docs/audit/2026-10-09/incrementale/lotto-14.json",
+      "exact_match": true,
+      "expected_sha256": "1ec93d2ae78884836de8ab2ef8f56bcd50f86da35f873a14dee383a35d0254a7",
+      "sha256": "1ec93d2ae78884836de8ab2ef8f56bcd50f86da35f873a14dee383a35d0254a7",
+      "http_status": 200
+    },
+    {
+      "path": "docs/audit/2026-10-09/incrementale/validazione-lotto-14.json",
+      "exact_match": true,
+      "expected_sha256": "eabbbd4a44aaab416b9816f0924bcc084818c80397e01fa717851282a0d201c7",
+      "sha256": "eabbbd4a44aaab416b9816f0924bcc084818c80397e01fa717851282a0d201c7",
+      "http_status": 200
+    },
+    {
+      "path": "docs/audit/2026-10-09/incrementale/pubblicazione-lotto-10.json",
+      "exact_match": true,
+      "expected_sha256": "b942e68b3efdc75064051ee1adde115e231aff69740e272fa3c2047e3fb2f092",
+      "sha256": "b942e68b3efdc75064051ee1adde115e231aff69740e272fa3c2047e3fb2f092",
+      "http_status": 200
+    },
+    {
+      "path": "docs/audit/2026-10-09/incrementale/pubblicazione-lotto-11.json",
+      "exact_match": true,
+      "expected_sha256": "e14a6df48187a349936691e2a06c391683cff294928f0b15644546e2f23614de",
+      "sha256": "e14a6df48187a349936691e2a06c391683cff294928f0b15644546e2f23614de",
+      "http_status": 200
+    },
+    {
+      "path": "docs/audit/2026-10-09/incrementale/pubblicazione-lotto-12.json",
+      "exact_match": true,
+      "expected_sha256": "3d7664ee331668951178073c9671b7ff64cb233efcc5f7449d5b2008078d2781",
+      "sha256": "3d7664ee331668951178073c9671b7ff64cb233efcc5f7449d5b2008078d2781",
+      "http_status": 200
+    },
+    {
+      "path": "docs/audit/2026-10-09/incrementale/pubblicazione-lotto-13.json",
+      "exact_match": true,
+      "expected_sha256": "be967e37e1b87938f5a272bd94143fbe42a07f669587aae1251e20d9a820082f",
+      "sha256": "be967e37e1b87938f5a272bd94143fbe42a07f669587aae1251e20d9a820082f",
+      "http_status": 200
+    }
+  ]
+}

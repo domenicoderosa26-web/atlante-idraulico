@@ -1,0 +1,48 @@
+{
+  "checked_at": "2026-10-10T18:01:29.454802+00:00",
+  "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/32",
+  "merge_commit": "63ef7804c8105aeb33defc09836377f67681b675",
+  "deployment": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/38073874547",
+  "subsequent_deployment": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/38073900624",
+  "deployed_head_sha": "34706ee97aa5210371593ae718ac577df5c74b12",
+  "ci": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/38073839482",
+  "supervision": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/38073874597",
+  "result": "CI e deployment success; supervisione success, sola TERRITORIAL_PARZIALE; file pubblici identici ai byte Git dei lotti.",
+  "file_checks": [
+    {
+      "path": "data.json",
+      "sha256": "7212a40c08a380978f875c9a142638b11cb36e47216ed33f66ffab29a5c85a05",
+      "match": true
+    },
+    {
+      "path": "topic-taxonomy.json",
+      "sha256": "07749746f626775946d6269de2a98101ba920f2e5df0b2f5204bfcf2ff6804fe",
+      "match": true
+    },
+    {
+      "path": "docs/audit/progress.json",
+      "sha256": "b4a5f8a33bf22cc7be95bb9bd6ccf743554a00bce31f7a30a3f87b4df7c6d70c",
+      "match": true
+    },
+    {
+      "path": "docs/audit/2026-10-10/completamento/attivita-residue.json",
+      "sha256": "9bbc9fcecd07a494671be603e2477f1e16b5a091c2659a435e969816a45425e9",
+      "match": true
+    },
+    {
+      "path": "docs/audit/2026-10-10/completamento/copertura-aggiornata.json",
+      "sha256": "2d33f086102b65d372732435f1ffae6da1cafe36e6fb38829c1c64244d9fa70b",
+      "match": true
+    },
+    {
+      "path": "docs/audit/2026-10-10/completamento/lotto-22-23.json",
+      "sha256": "b1e2420b1fe483f8736270215ca11b8b1feda4247b8971ccfaf4a1b62f60a6c9",
+      "match": true
+    },
+    {
+      "path": "docs/audit/2026-10-10/completamento/ripristino-normattiva.json",
+      "sha256": "c3f31ff36c6410db031773c759ccfc8534c1bb9edb0e2ed02339cf7b36960e61",
+      "match": true
+    }
+  ]
+}

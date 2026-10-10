@@ -1,0 +1,34 @@
+{
+  "checked_at": "2026-10-10T18:01:29.454802+00:00",
+  "record_ids": [
+    "dl152",
+    "rd1775"
+  ],
+  "source_url": "https://www.parlamento.it/parlam/leggi/deleghe/06152dl1.htm",
+  "locators": [
+    "Art. 96 commi 1/3/4, fonte parlamentare originaria"
+  ],
+  "claims_location": "data.json:documentary_review delle due schede; precedenti revisioni conservate",
+  "additional_access_receipts": [
+    {
+      "id": "dgr2723",
+      "url": "https://www.regione.lombardia.it/wps/wcm/connect/c31fe835-93d5-48d7-98e1-84ec2681e610/dgr-2723-2019-approvazione-linee-guida-e-indirizzi.pdf?CACHEID=ROOTWORKSPACE-c31fe835-93d5-48d7-98e1-84ec2681e610-on0Qzri&MOD=AJPERES",
+      "http_status": 200,
+      "bytes": 190756,
+      "sha256": "b74a0e62e8c660f1ec20ec2e1f10b0eb981ca78916d24b868a7e13d0bdbae007",
+      "document_identity": "non corrispondente",
+      "finding": "Acquisizione HTTP200 di PDF 8 pagine, ma controllo visivo e testo mostrano il portale regionale/pagina404, non delibera né allegato A."
+    },
+    {
+      "id": "dgr2723-a",
+      "url": "https://www.regione.lombardia.it/wps/wcm/connect/8ac1ca65-58be-4314-91ec-097b124c5c2a/dgr-2723-2019-allegato-a-linee-guida-progettazione-realizzazione-sistemi-trattamento-acque-reflue-scarichi-sfioratori-reti-fognarie.pdf?MOD=AJPERES",
+      "http_status": 200,
+      "bytes": 190756,
+      "sha256": "b74a0e62e8c660f1ec20ec2e1f10b0eb981ca78916d24b868a7e13d0bdbae007",
+      "document_identity": "non corrispondente",
+      "finding": "Acquisizione HTTP200 di PDF 8 pagine, ma controllo visivo e testo mostrano il portale regionale/pagina404, non delibera né allegato A."
+    }
+  ],
+  "scope_limit": "Non attestato testo corrente; DGR2723 e RR6 non censiti per copie attuali mancanti/non corrispondenti.",
+  "phase3_complete": false
+}

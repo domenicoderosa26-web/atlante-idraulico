@@ -1,0 +1,34 @@
+{
+  "checked_at": "2026-10-10T18:03:33.919783+00:00",
+  "record_ids": [
+    "tos-lr80-2015"
+  ],
+  "cells": [
+    {
+      "territory": "Toscana",
+      "sector": "demanio"
+    },
+    {
+      "territory": "Toscana",
+      "sector": "riuso"
+    },
+    {
+      "territory": "Toscana",
+      "sector": "regolamenti_attuativi"
+    }
+  ],
+  "acquisition": {
+    "url": "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?ext=pdf&id=0deb3a65-8cc8-11f0-b084-005056959b60",
+    "final_url": "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?ext=pdf&id=0deb3a65-8cc8-11f0-b084-005056959b60",
+    "http_status": 200,
+    "bytes": 167067,
+    "sha256": "58f263ea0bfc08c39d8e668c7658190e1118e9de51c2a590ff260ad9aaebb58a",
+    "pages": 17
+  },
+  "identity_check": "Controllo visivo intestazione e data di aggiornamento; lettura sostanziale pp. 5–6 e 8–10.",
+  "claims_location": "data.json:tos-lr80-2015.documentary_review",
+  "limitations": [
+    "Copia aggiornata al 10 gennaio 2025; non ricostruite modifiche successive, regolamenti, cartografia del reticolo e competenze operative specifiche."
+  ],
+  "phase3_complete": false
+}

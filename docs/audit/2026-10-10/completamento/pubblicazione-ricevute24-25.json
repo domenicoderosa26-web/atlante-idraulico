@@ -1,0 +1,25 @@
+{
+  "commit": "5430272b98874b36f2f5386029c0e09a95e96b4f",
+  "deployment": 38074864928,
+  "checked_at": "2026-10-10T18:16:08.123951+00:00",
+  "file_checks": [
+    {
+      "path": "docs/audit/2026-10-10/completamento/pubblicazione-lotti24-25.json",
+      "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/audit/2026-10-10/completamento/pubblicazione-lotti24-25.json",
+      "match": true,
+      "sha256": "1767d3be18fde47ffa486abad038c1d807f51aab68e76b29c66791b7efda2274"
+    },
+    {
+      "path": "docs/audit/progress.json",
+      "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/audit/progress.json",
+      "match": true,
+      "sha256": "056dddd8cec3750c6e54fbb9a7c66a0f2fc42576f398e49491c252f55d4faf2e"
+    },
+    {
+      "path": "docs/audit/2026-10-10/completamento/stato-stabilizzazione.md",
+      "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/audit/2026-10-10/completamento/stato-stabilizzazione.md",
+      "match": true,
+      "sha256": "a832e45c88b11b7d61c5379e92eb6aedd92e9dd8aa680dc77db79c5779743519"
+    }
+  ]
+}

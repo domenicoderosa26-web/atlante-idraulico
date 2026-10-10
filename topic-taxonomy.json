@@ -3598,6 +3598,48 @@
         }
       ],
       "evidence": "docs/audit/2026-10-10/completamento/lotto-25.json; disposizioni su polizia e demanio, nessuna attribuzione generalizzata di categorie PAI/PGRA."
+    },
+    "tos-dpgr60-2016": {
+      "topics": [
+        "demanio"
+      ],
+      "source_urls": [
+        "https://www.regione.toscana.it/documents/10180/239087792/Parte%2BI%2Bn.%2B14%2Bdel%2B26.02.2025.pdf/924e47ab-ddef-feb6-7fcd-b9b6e7560954?t=1740549990843"
+      ],
+      "object_versions": [
+        {
+          "title": "Concessioni per utilizzo del demanio idrico",
+          "ref": "D.P.G.R. Toscana 60/R/2016",
+          "summary": "Disciplina concessoria toscana esaminata nel perimetro dichiarato, con riscontro ufficiale del febbraio 2025. Aggiornamenti successivi da verificare.",
+          "focus": [
+            "Titolo demaniale e compatibilità idraulica",
+            "Procedure telematiche e casi semplificati",
+            "Coordinamento e aggiornamenti successivi"
+          ]
+        }
+      ],
+      "evidence": "docs/audit/2026-10-10/completamento/lotto-26.json; norme concessorie, classificazione limitata alle disposizioni lette."
+    },
+    "tos-dpgr12-2025": {
+      "topics": [
+        "demanio"
+      ],
+      "source_urls": [
+        "https://www.regione.toscana.it/documents/10180/239087792/Parte%2BI%2Bn.%2B14%2Bdel%2B26.02.2025.pdf/924e47ab-ddef-feb6-7fcd-b9b6e7560954?t=1740549990843"
+      ],
+      "object_versions": [
+        {
+          "title": "Modifiche alle concessioni demaniali e derivazioni",
+          "ref": "D.P.G.R. Toscana 12/R/2025",
+          "summary": "Disciplina concessoria toscana esaminata nel perimetro dichiarato, con riscontro ufficiale del febbraio 2025. Aggiornamenti successivi da verificare.",
+          "focus": [
+            "Titolo demaniale e compatibilità idraulica",
+            "Procedure telematiche e casi semplificati",
+            "Coordinamento e aggiornamenti successivi"
+          ]
+        }
+      ],
+      "evidence": "docs/audit/2026-10-10/completamento/lotto-26.json; norme concessorie, classificazione limitata alle disposizioni lette."
     }
   }
 }

@@ -1,0 +1,84 @@
+name: Pre-verifica tecnica Fase 3
+on:
+  schedule:
+    - cron: '41 5 * * 1,4'
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'scripts/precheck*'
+      - 'tests/test_precheck.py'
+      - '.github/workflows/precheck.yml'
+permissions:
+  contents: read
+concurrency:
+  group: atlante-phase3-precheck-${{ github.event_name == 'pull_request' && github.ref || 'main' }}
+  cancel-in-progress: false
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s tests -v
+      - run: python scripts/precheck.py --plan > /tmp/precheck-plan.json
+      - run: python scripts/archive.py
+      - run: node --check app.js
+      - run: node tests/test_topic_filters.js
+  prepare:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: test
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      pages: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Prepara tre attività, massimo otto richieste
+        run: python scripts/precheck.py --batch-size 3 --max-requests 8
+      - name: Valida e pubblica solo l'estensione tecnica del registro
+        run: |
+          set -euo pipefail
+          python scripts/archive.py --base-ref HEAD
+          python - <<'PY'
+          import json, subprocess
+          from pathlib import Path
+          path = 'docs/audit/progress.json'
+          old = json.loads(subprocess.check_output(['git', 'show', 'HEAD:' + path]))
+          new = json.loads(Path(path).read_text())
+          old.pop('technical_precheck', None)
+          new.pop('technical_precheck', None)
+          assert old == new, 'Il registro sostanziale è cambiato'
+          changed = subprocess.check_output(['git', 'diff', '--name-only']).decode().splitlines()
+          assert changed == [path], changed
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add docs/audit/progress.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Prepara evidenze tecniche residue Fase 3'
+          # No force push or replay over a concurrent normative update.
+          # A rejected push fails safely; the next run reads the new main.
+          git push origin HEAD:main
+      - name: Verifica i byte del registro pubblicato su Pages
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          python - <<'PY'
+          import sys
+          sys.path.insert(0, 'scripts')
+          from workflow_state import verify_files
+          verify_files('https://domenicoderosa26-web.github.io/atlante-idraulico/',
+                       [('docs/audit/progress.json', 'docs/audit/progress.json')])
+          print('Registro tecnico pubblico: corrispondenza integrale verificata')
+          PY

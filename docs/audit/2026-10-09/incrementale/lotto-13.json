@@ -1,0 +1,948 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-09",
+  "lot": 13,
+  "record_ids": [
+    "bas9",
+    "er286",
+    "abr31",
+    "er1083",
+    "abruzzo-scarichi-906-2022",
+    "milano-suds-10576-2020",
+    "dist-po",
+    "po-pai-estensione-13-2025"
+  ],
+  "records": [
+    {
+      "id": "bas9",
+      "checked_at": "2026-10-09",
+      "scope": "Ri-acquisizione e lettura integrale originario4pagine; rapporto art.5 con proposta DGR471/2026; ricerca banca dati coordinata e modifiche.",
+      "outcome": "partial",
+      "legal_state": "partial",
+      "source_urls": [
+        "https://www.regione.basilicata.it/wp-content/uploads/giunta/docs/DOCUMENT_FILE_3068771.pdf",
+        "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A397A5C07&idDocumento=795801377B580A307C5C"
+      ],
+      "claims": [
+        {
+          "aspect": "content",
+          "source_url": "https://www.regione.basilicata.it/wp-content/uploads/giunta/docs/DOCUMENT_FILE_3068771.pdf",
+          "locator": "Pagine1-4artt.1-8",
+          "finding": "Disciplina approvazione progetti e autorizzazioni provvisorie; art.4individuaProvince; art.5comma1richiede parere preliminare per linee guida; comma2c rinvia allaGiunta la disciplina meteorici e prima pioggia."
+        },
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://www.regione.basilicata.it/wp-content/uploads/giunta/docs/DOCUMENT_FILE_3068771.pdf",
+          "locator": "Pag.1 estremiBUR e pag.4art.8",
+          "finding": "Originale reca BURn.15del1giugno2017 e art.8efficacia giorno successivo. È il testo originario, non una certificazione di coordinamento2026."
+        },
+        {
+          "aspect": "approval",
+          "source_url": "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A397A5C07&idDocumento=795801377B580A307C5C",
+          "locator": "Pag.4dispositivo2-3",
+          "finding": "Il nuovo atto2026richiama il requisito dell’art.5comma1e trasmette una proposta per parere preliminare; non prova da solo attuazione definitiva."
+        }
+      ],
+      "limitations": [
+        "Banca datiConsiglio non acquisita: errore verifica certificato. Ricerca modifiche senza testo coordinato completo; non attestata assenza di modifiche2017-2026."
+      ],
+      "pending": [
+        "Acquisire testo coordinato e note modificative delConsiglio; acquisire esito procedimento471/2026."
+      ],
+      "proposed_changes": {
+        "document_note": "PDF originario regionale recuperato integralmente il9ottobre2026(4pagine). Art.5confrontato con proposta471/2026. Coordinamento legislativo2026ancora aperto.",
+        "relations": [
+          {
+            "type": "Riferimento",
+            "id": "bas471"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "key": "bas9-originale",
+          "url": "https://www.regione.basilicata.it/wp-content/uploads/giunta/docs/DOCUMENT_FILE_3068771.pdf",
+          "consulted_at": "2026-10-09T10:37:46.081984+00:00",
+          "http_status": 200,
+          "final_url": "https://www.regione.basilicata.it/wp-content/uploads/giunta/docs/DOCUMENT_FILE_3068771.pdf",
+          "content_type": "application/pdf",
+          "sha256": "1dcbb3b64c6a781ab1cf9c8d71e2cea3e8e0556bf1693c16c99cfafd40773828",
+          "bytes": 222025,
+          "pages": 4
+        },
+        {
+          "key": "bas471-delibera",
+          "url": "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A397A5C07&idDocumento=795801377B580A307C5C",
+          "consulted_at": "2026-10-09T10:37:45.977262+00:00",
+          "http_status": 200,
+          "final_url": "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A397A5C07&idDocumento=795801377B580A307C5C",
+          "content_type": "application/pdf;charset=UTF-8",
+          "sha256": "a33de8812df55b56142f7918abe9ab71bdd362d803625f2473aca53c51bffec0",
+          "bytes": 2424896,
+          "pages": 5
+        },
+        {
+          "key": "bas9-consiglio",
+          "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+          "consulted_at": "2026-10-09T10:40:11.851838+00:00",
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+          "http_status": null
+        }
+      ]
+    },
+    {
+      "id": "er286",
+      "checked_at": "2026-10-09",
+      "scope": "Lettura del testo integrale del BUR con allegato; lettura sostanziale delle sezioni 2, 3.1, 3.5, 7, 8 e 9; coordinamento con DGR 1083/2010, allegato idraulico DGR 2153/2021 e atto Arpae 2026.",
+      "outcome": "partial",
+      "legal_state": "partial",
+      "claims": [
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://bur.regione.emilia-romagna.it/archivio/inserzione?anno=2005&num_boll=49&prog_documento=1",
+          "locator": "Intestazione; dispositivo punti 1–3",
+          "finding": "DGR 14 febbraio 2005 n. 286 approva l’allegata direttiva su meteoriche e prima pioggia. Dispositivo prevede entrata in vigore quindici giorni dalla pubblicazione BUR; data esatta di efficacia originaria non calcolata senza riscontro della data di bollettino."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://bur.regione.emilia-romagna.it/archivio/inserzione?anno=2005&num_boll=49&prog_documento=1",
+          "locator": "Allegato, sezioni 2.V e 3.1",
+          "finding": "Testo originario: primi 2,5–5 mm distribuiti sulla superficie scolante, 15 minuti per le portate; coefficiente 1 per superfici lastricate/impermeabili ed escluse coltivate. Volumi ordinari 25–50 m³/ha e 50 m³/ha per aree produttive/commerciali; svuotamento ordinario 48–72 ore. Da coordinare con successive linee guida, senza presentare l’intervallo come obbligo identico per ogni intervento."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://bur.regione.emilia-romagna.it/archivio/inserzione?anno=2005&num_boll=49&prog_documento=1",
+          "locator": "Allegato, sezione 3.5",
+          "finding": "Favorisce gestione locale delle acque non contaminate e infiltrazione secondo condizioni del suolo; quando conferite in fognatura limita la portata secondo il gestore ed eventuali vasche volano. Per recapito superficiale rinvia a pianificazione di bacino e autorità competente. Comuni e gestori adeguano regolamenti; incoraggia recupero per usi non pregiati."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://bur.regione.emilia-romagna.it/archivio/inserzione?anno=2005&num_boll=49&prog_documento=1",
+          "locator": "Allegato, sezione 8 e 8.1.1.III, casi 1/2",
+          "finding": "Distingue rischio esaurito con prima pioggia e dilavamento persistente durante l’evento. Nel secondo caso l’intera acqua reflua di dilavamento è assoggettata alla disciplina industriale. Esenzioni per mero parcheggio/transito non eliminano gli obblighi idraulici o ulteriori rischi di carico/scarico."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://bur.regione.emilia-romagna.it/archivio/inserzione?anno=2005&num_boll=49&prog_documento=1",
+          "locator": "Allegato, sezioni 8.2, 8.3 e 9",
+          "finding": "Il testo originario regola nuove attività, adeguamenti delle esistenti, autorizzazioni e riparto Provincia/Comune; vieta immissione diretta in falda. Queste competenze e durate originali richiedono coordinamento con ordinamento successivo e AUA."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://ambiente.regione.emilia-romagna.it/it/acque/consultazione/norme/normativa-regionale/dgr-1083_2010.pdf/@@download/file",
+          "locator": "pp. 3–5, dispositivo; allegato pp. 6–10",
+          "finding": "DGR 1083 del 26 luglio 2010 approva linee guida per Piani di Indirizzo ex punto 3.6 DGR 286: localizzazione/dimensionamento vasche, livelli di prestazione dei nuovi drenaggi, ricondizionamento scolmatori e priorità secondo PTA; non abroga in blocco DGR 286."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://ambiente.regione.emilia-romagna.it/it/acque/consultazione/norme/normativa-regionale/dgr_2153_2021.pdf/@@download/file",
+          "locator": "Allegato 2, pp. 171–173",
+          "finding": "Per nuove urbanizzazioni le valutazioni e pareri idraulici devono precedere i progetti definitivi/permessi; scarichi nuovi e indiretti richiedono valutazioni idrauliche/idrologiche e misure di invarianza in relazione alle casistiche. Questa disciplina riguarda agglomerati/reti e non è un volume unico regionale per ogni intervento."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://apps.arpae.it/documento/DAMB20261430",
+          "locator": "DET-AMB-2026-1430 del 18 marzo 2026, pp. 1–6",
+          "finding": "Atto Arpae applica DGR 286/2005 e 1860/2006 insieme a norme AUA, DGR 569/2019, 2153/2021 e aggiornamenti degli agglomerati fino a 2203/2025. Conferma applicazione nel caso specifico e distinzione autorizzazione ambientale/parere idraulico, senza dimostrare catena esaustiva."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://ambiente.regione.emilia-romagna.it/it/acque/consultazione/norme/normativa-regionale/dgr-1083_2010.pdf/@@download/file",
+          "locator": "pp. 14–17, sezioni 2.1 e 2.2",
+          "finding": "Definisce invarianza come mantenimento della portata al colmo prima/dopo trasformazione, con riduzione impermeabile e laminazione complementare. Favorisce riuso, parcheggi e canali drenanti, trincee, bacini e tetti verdi; richiede tutela della falda e recepimento nella pianificazione locale."
+        }
+      ],
+      "limitations": [
+        "La direttiva BUR è il testo originario, non un coordinato 2026.",
+        "DGR 1860/2006 non letta integralmente in questo approfondimento; rinvio comprovato da successivi provvedimenti ufficiali.",
+        "Non verificata la catena completa delle competenze e tutti gli aggiornamenti degli agglomerati."
+      ],
+      "pending": [
+        "Approfondire DGR 1860/2006 e aggiornamenti autorizzativi prima di descrivere soglie tecniche come universalmente vigenti.",
+        "Verificare data del BUR 49/2005 per un’eventuale data di efficacia originaria precisa."
+      ],
+      "proposed_changes": {
+        "document_note": "Testo originario della direttiva e allegato letti nel BUR. La DGR 1860/2006 è un atto attuativo distinto; coordinamento completo ancora aperto.",
+        "note": "Verificate le sezioni 2, 3.1, 3.5, 7, 8 e 9 del testo originario e disposizioni collegate della DGR 1083/2010 e DGR 2153/2021. Soglie, competenze e durate originarie richiedono coordinamento successivo.",
+        "relations": [
+          {
+            "type": "Da leggere con",
+            "id": "er1860"
+          },
+          {
+            "type": "Attuazione mediante Piani di Indirizzo",
+            "id": "er1083"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "key": "er286-bur",
+          "url": "https://bur.regione.emilia-romagna.it/archivio/inserzione?anno=2005&num_boll=49&prog_documento=1",
+          "consulted_at": "2026-10-09T13:27:47.453826+00:00",
+          "http_status": 200,
+          "final_url": "https://bur.regione.emilia-romagna.it/archivio/inserzione?anno=2005&num_boll=49&prog_documento=1",
+          "content_type": "text/html;charset=utf-8",
+          "sha256": "b6759b75d1675ff89e37354d404187aa23e3a00094f91f08db07e381e5b7e52c",
+          "bytes": 186562
+        },
+        {
+          "key": "er1083",
+          "url": "https://ambiente.regione.emilia-romagna.it/it/acque/consultazione/norme/normativa-regionale/dgr-1083_2010.pdf/@@download/file",
+          "consulted_at": "2026-10-09T13:35:14.348776+00:00",
+          "http_status": 200,
+          "final_url": "https://ambiente.regione.emilia-romagna.it/it/acque/consultazione/norme/normativa-regionale/dgr-1083_2010.pdf/@@download/file",
+          "content_type": "application/pdf",
+          "sha256": "1eb53e63e02eae7e74076b19fb9479b1532f6f5eef589283a8100ad9d8480e9a",
+          "bytes": 1482501,
+          "pages": 49
+        },
+        {
+          "key": "er2153",
+          "url": "https://ambiente.regione.emilia-romagna.it/it/acque/consultazione/norme/normativa-regionale/dgr_2153_2021.pdf/@@download/file",
+          "consulted_at": "2026-10-09T13:35:14.349773+00:00",
+          "http_status": 200,
+          "final_url": "https://ambiente.regione.emilia-romagna.it/it/acque/consultazione/norme/normativa-regionale/dgr_2153_2021.pdf/@@download/file",
+          "content_type": "application/pdf",
+          "sha256": "4518346b41d76077b1f40f822277ba336372a9866d2ee5259ffc649b61537334",
+          "bytes": 5716727,
+          "pages": 176
+        },
+        {
+          "key": "er-arpae-scarichi",
+          "url": "https://aggiornati.arpae.it/it/autorizzazioni-e-concessioni/autorizzazioni-ambientali/autorizzazione-scarichi-idrici",
+          "consulted_at": "2026-10-09T13:35:14.349773+00:00",
+          "http_status": 200,
+          "final_url": "https://aggiornati.arpae.it/it/autorizzazioni-e-concessioni/autorizzazioni-ambientali/autorizzazione-scarichi-idrici",
+          "content_type": "text/html;charset=utf-8",
+          "sha256": "6825c70dd9f5b571177ca2c7cf7b83f43b7a2912c35a14b21c4c4adbb5ce07e7",
+          "bytes": 34515
+        },
+        {
+          "key": "er-arpae-2026",
+          "url": "https://apps.arpae.it/documento/DAMB20261430",
+          "consulted_at": "2026-10-09T13:35:14.350771+00:00",
+          "http_status": 200,
+          "final_url": "https://apps.arpae.it/documento/DAMB20261430",
+          "content_type": "application/pdf",
+          "sha256": "f3a1a8b4f6b3a22d835cda7d0643bc35ac228161954ed18c373191a942924800",
+          "bytes": 265082,
+          "pages": 13
+        }
+      ]
+    },
+    {
+      "id": "abr31",
+      "checked_at": "2026-10-09",
+      "scope": "IdentitàGU e lettura sostanzialePDF19pagine del testo originario suportaleProvinciaL’Aquila; CapoVartt.12-20eartt.25-26.",
+      "outcome": "partial",
+      "legal_state": "partial",
+      "source_urls": [
+        "https://provincia.laquila.it/files/modulistica/ambiente/rifiuti/LR_31_2010.pdf",
+        "https://www.gazzettaufficiale.it/atto/regioni/caricaDettaglioAtto/originario?atto.codiceRedazionale=010R1510&atto.dataPubblicazioneGazzetta=2011-04-23"
+      ],
+      "claims": [
+        {
+          "aspect": "identity",
+          "source_url": "https://www.gazzettaufficiale.it/atto/regioni/caricaDettaglioAtto/originario?atto.codiceRedazionale=010R1510&atto.dataPubblicazioneGazzetta=2011-04-23",
+          "locator": "Intestazioneatto010R1510",
+          "finding": "LR Abruzzo29luglio2010n.31; Norme regionali contenenti la prima attuazione delDLgs3aprile2006n.152."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://provincia.laquila.it/files/modulistica/ambiente/rifiuti/LR_31_2010.pdf",
+          "locator": "Pagine8-11,CapoVartt.12-20",
+          "finding": "Iltesto originario contiene una disciplina sostanziale per meteorici, prima pioggia, condotte separate, aree produttive arischio, trattamento e autorizzazioni; non è mero richiamo tematico."
+        },
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://provincia.laquila.it/files/modulistica/ambiente/rifiuti/LR_31_2010.pdf",
+          "locator": "Pagina1BURn.50del30luglio2010;pag.15art.26",
+          "finding": "Testo originario reca pubblicazioneBUR30luglio2010ed efficacia giorno successivo. Non ricostruito tutto ilcoordinamento legislativo2026."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://provincia.laquila.it/files/modulistica/ambiente/rifiuti/LR_31_2010.pdf",
+          "locator": "Art.25Norme transitorie",
+          "finding": "Gli atti dalnovembre2008allaentrata invigore conformi alleprevisioni della nuova legge siintendono validi edefficaci; non equivale arendere vigente LR17/2008annullata."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://bura.regione.abruzzo.it/sites/bura.regione.abruzzo.it/files/bollettini/2023-01-25/bollettino-ordinario-n-4-del-25-01-2023.pdf",
+          "locator": "pp. PDF 90–91, premesse",
+          "finding": "Richiama trasferimento dalle Province alla Regione dal 1 aprile 2016 per autorizzazioni su suolo, sottosuolo superficiale e corpo idrico, ex LR 32/2015 e DGR 144/2016."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://bura.regione.abruzzo.it/sites/bura.regione.abruzzo.it/files/bollettini/2023-01-23/allegato-1-linee-guida-scarichi-aggiornamento-2022-pdf.pdf",
+          "locator": "pp. 9–10, art. 10",
+          "finding": "Definisce prima pioggia 40 m³/ha (4 mm), eventi distanziati almeno 7 giorni e 15 minuti per il dimensionamento. Distingue acque a rischio e non a rischio, autorizzazione e comunicazione alla Regione o gestore per fognatura; le acque a rischio da aree inferiori a 1.000 m² sono ricondotte alla comunicazione nelle condizioni indicate dal testo."
+        }
+      ],
+      "limitations": [
+        "FontePDFistituzionale originaria, non testo coordinato aggiornato. PortaleConsiglio percorso per coordinato inerroreSSL. Catena modifiche ePTAattuale non integralmente ricostruita.",
+        "Recuperata anche attuazione ufficiale DGR 906/2022; resta non esaustiva la catena delle modifiche legislative della LR31 dopo il testo originario."
+      ],
+      "pending": [
+        "Acquisire testocoordinatoConsiglio regionale, modifiche successive, PTAe attiattuativi delle disposizioni meteorici."
+      ],
+      "proposed_changes": {},
+      "sources": [
+        {
+          "key": "abruzzo31-originale",
+          "url": "https://provincia.laquila.it/files/modulistica/ambiente/rifiuti/LR_31_2010.pdf",
+          "consulted_at": "2026-10-09T10:40:11.761723+00:00",
+          "http_status": 200,
+          "final_url": "https://provincia.laquila.it/files/modulistica/ambiente/rifiuti/LR_31_2010.pdf",
+          "content_type": "application/pdf",
+          "sha256": "6e6ecca54ea6d95c64892b9e8df5898e362251a64a082625e2e79d76fad0eaa7",
+          "bytes": 241982,
+          "pages": 19
+        },
+        {
+          "key": "abruzzo31-gu",
+          "url": "https://www.gazzettaufficiale.it/atto/regioni/caricaDettaglioAtto/originario?atto.codiceRedazionale=010R1510&atto.dataPubblicazioneGazzetta=2011-04-23",
+          "consulted_at": "2026-10-09T10:40:11.762720+00:00",
+          "http_status": 200,
+          "final_url": "https://www.gazzettaufficiale.it/atto/regioni/caricaDettaglioAtto/originario?atto.codiceRedazionale=010R1510&atto.dataPubblicazioneGazzetta=2011-04-23",
+          "content_type": "text/html;charset=UTF-8",
+          "sha256": "402234e8ad4243d362cd8a5027aa7dae06b68ee84a821cb0ca8e1cb610d2373d",
+          "bytes": 14546
+        },
+        {
+          "key": "abruzzo31-coordinato",
+          "url": "https://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2010/lr10031.htm",
+          "consulted_at": "2026-10-09T10:41:23.948014+00:00",
+          "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>",
+          "http_status": null
+        },
+        {
+          "key": "abruzzo-bur4-2023",
+          "url": "https://bura.regione.abruzzo.it/sites/bura.regione.abruzzo.it/files/bollettini/2023-01-25/bollettino-ordinario-n-4-del-25-01-2023.pdf",
+          "consulted_at": "2026-10-09T13:40:09.029989+00:00",
+          "http_status": 200,
+          "final_url": "https://bura.regione.abruzzo.it/sites/bura.regione.abruzzo.it/files/bollettini/2023-01-25/bollettino-ordinario-n-4-del-25-01-2023.pdf",
+          "content_type": "application/pdf",
+          "sha256": "efcbea5cafe48d7bde10d98567838c5d620b9382175abbe75eb55dfa09aa677a",
+          "bytes": 9060544,
+          "pages": 152
+        },
+        {
+          "key": "abruzzo-lineeguida2022",
+          "url": "https://bura.regione.abruzzo.it/sites/bura.regione.abruzzo.it/files/bollettini/2023-01-23/allegato-1-linee-guida-scarichi-aggiornamento-2022-pdf.pdf",
+          "consulted_at": "2026-10-09T13:39:32.852053+00:00",
+          "http_status": 200,
+          "final_url": "https://bura.regione.abruzzo.it/sites/bura.regione.abruzzo.it/files/bollettini/2023-01-23/allegato-1-linee-guida-scarichi-aggiornamento-2022-pdf.pdf",
+          "content_type": "application/pdf",
+          "sha256": "307dcd9f07f4f9f02f90c3fc64f60871b4da356238212dc816a7b4712a2524bb",
+          "bytes": 1542131,
+          "pages": 39
+        }
+      ]
+    },
+    {
+      "id": "er1083",
+      "checked_at": "2026-10-09",
+      "scope": "Lettura dispositivo pp. 1–5 e allegato sezioni 1.1–1.4, 2.1–2.2. Ricognizione di fonte regionale con data di aggiornamento novembre 2025; non verifica esaustiva dei piani locali.",
+      "outcome": "partial",
+      "legal_state": "partial",
+      "claims": [
+        {
+          "aspect": "approval",
+          "source_url": "https://ambiente.regione.emilia-romagna.it/it/acque/consultazione/norme/normativa-regionale/dgr-1083_2010.pdf/@@download/file",
+          "locator": "pp. 1 e 4–5, dispositivo",
+          "finding": "DGR 1083 del 26 luglio 2010 approva linee guida per Piani di Indirizzo ex punto 3.6 DGR 286/2005."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://ambiente.regione.emilia-romagna.it/it/acque/consultazione/norme/normativa-regionale/dgr-1083_2010.pdf/@@download/file",
+          "locator": "pp. 8–9, sezioni 1.1–1.3",
+          "finding": "I Piani di Indirizzo attuano PTA e pianificazione del servizio idrico, con vasche, scolmatori, livelli di prestazione e priorità per ridurre i carichi; l’allegato coordina DGR 286/2005 e 1860/2006. Obiettivi temporali 2016 riportati come storici, non scadenze nuove."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://ambiente.regione.emilia-romagna.it/it/acque/consultazione/norme/normativa-regionale/dgr-1083_2010.pdf/@@download/file",
+          "locator": "pp. 14–17, sezioni 2.1 e 2.2",
+          "finding": "Definisce invarianza come mantenimento della portata al colmo prima/dopo trasformazione, con riduzione impermeabile e laminazione complementare. Favorisce riuso, parcheggi e canali drenanti, trincee, bacini e tetti verdi; richiede tutela della falda e recepimento nella pianificazione locale."
+        }
+      ],
+      "limitations": [
+        "Non verificati i recepimenti provinciali/comunali e gli aggiornamenti integrali successivi.",
+        "Allegato originale conserva nomi di enti e obiettivi storici da coordinare."
+      ],
+      "pending": [
+        "Controllare recepimenti nei Piani di Indirizzo e normativa/assetto ATERSIR successivi."
+      ],
+      "proposed_changes": {},
+      "sources": [
+        {
+          "key": "er1083",
+          "url": "https://ambiente.regione.emilia-romagna.it/it/acque/consultazione/norme/normativa-regionale/dgr-1083_2010.pdf/@@download/file",
+          "consulted_at": "2026-10-09T13:35:14.348776+00:00",
+          "http_status": 200,
+          "final_url": "https://ambiente.regione.emilia-romagna.it/it/acque/consultazione/norme/normativa-regionale/dgr-1083_2010.pdf/@@download/file",
+          "content_type": "application/pdf",
+          "sha256": "1eb53e63e02eae7e74076b19fb9479b1532f6f5eef589283a8100ad9d8480e9a",
+          "bytes": 1482501,
+          "pages": 49
+        }
+      ]
+    },
+    {
+      "id": "abruzzo-scarichi-906-2022",
+      "checked_at": "2026-10-09",
+      "scope": "Lettura DGR nel BUR, pp. PDF 88–94 e allegato artt. 1–2, 10, 11, 34–35. Controllo visivo art. 10.",
+      "outcome": "partial",
+      "legal_state": "partial",
+      "claims": [
+        {
+          "aspect": "approval",
+          "source_url": "https://bura.regione.abruzzo.it/sites/bura.regione.abruzzo.it/files/bollettini/2023-01-25/bollettino-ordinario-n-4-del-25-01-2023.pdf",
+          "locator": "p. PDF 88, intestazione; p. PDF 93, dispositivo",
+          "finding": "DGR 906 del 29 dicembre 2022 approva le linee guida aggiornamento 2022 e allegati; pubblicazione nel BUR ordinario 4 del 25 gennaio 2023."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://bura.regione.abruzzo.it/sites/bura.regione.abruzzo.it/files/bollettini/2023-01-25/bollettino-ordinario-n-4-del-25-01-2023.pdf",
+          "locator": "pp. PDF 90–91, premesse",
+          "finding": "Richiama trasferimento dalle Province alla Regione dal 1 aprile 2016 per autorizzazioni su suolo, sottosuolo superficiale e corpo idrico, ex LR 32/2015 e DGR 144/2016."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://bura.regione.abruzzo.it/sites/bura.regione.abruzzo.it/files/bollettini/2023-01-23/allegato-1-linee-guida-scarichi-aggiornamento-2022-pdf.pdf",
+          "locator": "pp. 9–10, art. 10",
+          "finding": "Definisce prima pioggia 40 m³/ha (4 mm), eventi distanziati almeno 7 giorni e 15 minuti per il dimensionamento. Distingue acque a rischio e non a rischio, autorizzazione e comunicazione alla Regione o gestore per fognatura; le acque a rischio da aree inferiori a 1.000 m² sono ricondotte alla comunicazione nelle condizioni indicate dal testo."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://bura.regione.abruzzo.it/sites/bura.regione.abruzzo.it/files/bollettini/2023-01-23/allegato-1-linee-guida-scarichi-aggiornamento-2022-pdf.pdf",
+          "locator": "p. 10, art. 10.8; pp. 26–27, artt. 34–35",
+          "finding": "Comunicazione ex art. 15 LR 31/2010 non compresa nell’AUA; procedimenti già avviati seguono precedenti linee guida. Procedure e moduli possono essere successivamente modificati, rispettivamente con DGR e determinazioni pubblicate."
+        }
+      ],
+      "limitations": [
+        "Non revisione esaustiva di tutti gli allegati/moduli o aggiornamenti intervenuti dopo il 2022.",
+        "La copertina dell’allegato lascia vuoti gli estremi della DGR: identità accertata nel BUR, non inventata dalla copertina.",
+        "Il riscontro operativo 2022 non sostituisce un testo coordinato LR31 al 2026."
+      ],
+      "pending": [
+        "Verificare aggiornamenti DGR e modulistica successivi al 2022."
+      ],
+      "proposed_changes": {},
+      "sources": [
+        {
+          "key": "abruzzo-bur4-2023",
+          "url": "https://bura.regione.abruzzo.it/sites/bura.regione.abruzzo.it/files/bollettini/2023-01-25/bollettino-ordinario-n-4-del-25-01-2023.pdf",
+          "consulted_at": "2026-10-09T13:40:09.029989+00:00",
+          "http_status": 200,
+          "final_url": "https://bura.regione.abruzzo.it/sites/bura.regione.abruzzo.it/files/bollettini/2023-01-25/bollettino-ordinario-n-4-del-25-01-2023.pdf",
+          "content_type": "application/pdf",
+          "sha256": "efcbea5cafe48d7bde10d98567838c5d620b9382175abbe75eb55dfa09aa677a",
+          "bytes": 9060544,
+          "pages": 152
+        },
+        {
+          "key": "abruzzo-lineeguida2022",
+          "url": "https://bura.regione.abruzzo.it/sites/bura.regione.abruzzo.it/files/bollettini/2023-01-23/allegato-1-linee-guida-scarichi-aggiornamento-2022-pdf.pdf",
+          "consulted_at": "2026-10-09T13:39:32.852053+00:00",
+          "http_status": 200,
+          "final_url": "https://bura.regione.abruzzo.it/sites/bura.regione.abruzzo.it/files/bollettini/2023-01-23/allegato-1-linee-guida-scarichi-aggiornamento-2022-pdf.pdf",
+          "content_type": "application/pdf",
+          "sha256": "307dcd9f07f4f9f02f90c3fc64f60871b4da356238212dc816a7b4712a2524bb",
+          "bytes": 1542131,
+          "pages": 39
+        }
+      ]
+    },
+    {
+      "id": "milano-suds-10576-2020",
+      "checked_at": "2026-10-09",
+      "scope": "Identità DD 10576/2020, dispositivo e funzione operativa delle linee guida; lettura sezione 1, 3.3.3 e quadro progettuale.",
+      "outcome": "partial",
+      "legal_state": "partial",
+      "source_urls": [
+        "https://www.comune.milano.it/documents/20118/39748/Determinazione%2BDirigenziale%2Bn.%2B10576%2Bdel%2B22.12.2020.pdf/4f6fd763-282a-b418-1fdb-26c489bf2bad?download=true&t=1747057791151&version=1.0",
+        "https://www.comune.milano.it/documents/20118/1529015/Linee%2BGuida%2Bper%2Bla%2Bprogettazione%2Bdei%2Bsistemi%2Burbani%2Bdi%2Bdrenaggio%2Bsostenibile%2Bnel%2Bterritorio%2Bcomunale%2B%281%29.pdf/08b32748-b9fd-88bf-01b9-1008147fa3ec?download=true&t=1761735461824&version=1.0"
+      ],
+      "claims": [
+        {
+          "aspect": "content",
+          "source_url": "https://www.comune.milano.it/documents/20118/1529015/Linee%2BGuida%2Bper%2Bla%2Bprogettazione%2Bdei%2Bsistemi%2Burbani%2Bdi%2Bdrenaggio%2Bsostenibile%2Bnel%2Bterritorio%2Bcomunale%2B%281%29.pdf/08b32748-b9fd-88bf-01b9-1008147fa3ec?download=true&t=1761735461824&version=1.0",
+          "locator": "Pagina PDF 24 (numerazione interna 23), sezione 3.3.3",
+          "finding": "Le Linee guida descrivono il DSRI come Allegato 8 del PGT e lo collegano all’art. 14 RR Lombardia 7/2017. Distinguono misure sui corsi principali, reticolo minore e fognatura."
+        },
+        {
+          "aspect": "approval",
+          "source_url": "https://www.comune.milano.it/documents/20118/39748/Determinazione%2BDirigenziale%2Bn.%2B10576%2Bdel%2B22.12.2020.pdf/4f6fd763-282a-b418-1fdb-26c489bf2bad?download=true&t=1747057791151&version=1.0",
+          "locator": "Pagina 4, dispositivo, lettura visiva",
+          "finding": "La DD 10576 del 22 dicembre 2020 approva le Linee guida SuDS come allegato parte integrante; non approva un nuovo PGT."
+        },
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://www.comune.milano.it/documents/20118/1529015/Linee%2BGuida%2Bper%2Bla%2Bprogettazione%2Bdei%2Bsistemi%2Burbani%2Bdi%2Bdrenaggio%2Bsostenibile%2Bnel%2Bterritorio%2Bcomunale%2B%281%29.pdf/08b32748-b9fd-88bf-01b9-1008147fa3ec?download=true&t=1761735461824&version=1.0",
+          "locator": "Sezione 3.3.3",
+          "finding": "La fonte di dicembre 2020 riporta approvazione PGT il 14 ottobre 2019 ed efficacia 5 febbraio 2020. Questi estremi sono storici e non costituiscono verifica del corpus PGT vigente coordinato a ottobre 2026."
+        }
+      ],
+      "limitations": [
+        "Documento operativo approvato, non regolamento urbanistico autonomo; non certificata assenza di aggiornamenti successivi."
+      ],
+      "pending": [
+        "Verificare eventuali edizioni successive delle linee guida e coordinamento con normativa e PGT aggiornati."
+      ],
+      "proposed_changes": {},
+      "sources": [
+        {
+          "key": "milano-dd10576",
+          "url": "https://www.comune.milano.it/documents/20118/39748/Determinazione%2BDirigenziale%2Bn.%2B10576%2Bdel%2B22.12.2020.pdf/4f6fd763-282a-b418-1fdb-26c489bf2bad?download=true&t=1747057791151&version=1.0",
+          "consulted_at": "2026-10-09T10:41:23.947016+00:00",
+          "http_status": 200,
+          "final_url": "https://www.comune.milano.it/documents/20118/39748/Determinazione%2BDirigenziale%2Bn.%2B10576%2Bdel%2B22.12.2020.pdf/4f6fd763-282a-b418-1fdb-26c489bf2bad?download=true&t=1747057791151&version=1.0",
+          "content_type": "application/pdf",
+          "sha256": "94ca497fbd91000d5c61c5b6b44de4086716de1e0557fbf0b9ec473a66a8c32e",
+          "bytes": 41085093,
+          "pages": 130
+        },
+        {
+          "key": "milano-suds",
+          "url": "https://www.comune.milano.it/documents/20118/1529015/Linee%2BGuida%2Bper%2Bla%2Bprogettazione%2Bdei%2Bsistemi%2Burbani%2Bdi%2Bdrenaggio%2Bsostenibile%2Bnel%2Bterritorio%2Bcomunale%2B%281%29.pdf/08b32748-b9fd-88bf-01b9-1008147fa3ec?download=true&t=1761735461824&version=1.0",
+          "consulted_at": "2026-10-09T10:41:23.947016+00:00",
+          "http_status": 200,
+          "final_url": "https://www.comune.milano.it/documents/20118/1529015/Linee%2BGuida%2Bper%2Bla%2Bprogettazione%2Bdei%2Bsistemi%2Burbani%2Bdi%2Bdrenaggio%2Bsostenibile%2Bnel%2Bterritorio%2Bcomunale%2B%281%29.pdf/08b32748-b9fd-88bf-01b9-1008147fa3ec?download=true&t=1761735461824&version=1.0",
+          "content_type": "application/pdf",
+          "sha256": "1f61b04b73a0291a34addbb1458bca9b05d6b7ff2122aa05cc54a418074b9c5a",
+          "bytes": 24676775,
+          "pages": 126
+        }
+      ]
+    },
+    {
+      "id": "dist-po",
+      "checked_at": "2026-10-09",
+      "scope": "Lettura delle NTA coordinate Po, artt. 1, 3, 12, 19, 28–31, 38 e 55–58; lettura capitoli 6–7 della relazione PGRA 2021 e portale ufficiale. Non verifica sito per sito di tutte le cartografie.",
+      "outcome": "partial",
+      "legal_state": "partial",
+      "claims": [
+        {
+          "aspect": "content",
+          "source_url": "https://pai.adbpo.it/wp-content/uploads/2025/05/NA_PAI-PO.pdf",
+          "locator": "p. 1; artt. 1 e 3; art. 56, p. 49",
+          "finding": "Il PDF ufficiale dichiara testo vigente dal 17 aprile 2025; il PAI Po riguarda il bacino Po chiuso all’incile del Po di Goro, escluso il Delta. Non equiparare il solo ambito originario del PAI all’intero distretto."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://pai.adbpo.it/wp-content/uploads/2025/05/NA_PAI-PO.pdf",
+          "locator": "p. 17, art. 12",
+          "finding": "Per nuove urbanizzazioni e infrastrutture limita lo sviluppo impermeabile e prevede aree per infiltrazione e invaso temporaneo diffuso. Modalità e limiti delle portate sono rimessi a direttiva dell’Autorità; Consorzi di bonifica verificano compatibilità dei nuovi scarichi con i propri ricettori. Non contiene un valore universale di l/s/ha o m³/ha."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://pai.adbpo.it/wp-content/uploads/2025/05/NA_PAI-PO.pdf",
+          "locator": "art. 19, p. 24; art. 38, p. 37",
+          "finding": "Nuovi attraversamenti richiedono verifiche secondo direttiva tecnica. Nelle fasce A/B le opere pubbliche essenziali non altrimenti localizzabili sono subordinate a condizioni di non ostacolo al deflusso e non significativa riduzione dell’invaso e allo studio di compatibilità per parere competente."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://pai.adbpo.it/wp-content/uploads/2025/05/NA_PAI-PO.pdf",
+          "locator": "pp. 30–33, artt. 28–31",
+          "finding": "Distingue A di deflusso, B di esondazione e C di piena catastrofica: vincoli e verifiche dipendono dalla fascia e dalle tavole. Vietate trasformazioni in A salvo casi ammessi; gli interventi consentiti devono preservare drenaggio, falde e difese."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://pai.adbpo.it/wp-content/uploads/2025/05/NA_PAI-PO.pdf",
+          "locator": "pp. 49–51, artt. 55–58",
+          "finding": "Le mappe PGRA integrano il quadro conoscitivo PAI. Scenari P1/P2/P3 e rischio R1–R4 sono diversi; per reticolo principale P3/P2/P1 rinviano a Fascia A/B/art.31; per reticolo secondario montano i rinvii cambiano. Per reticolo secondario di pianura e aree costiere lacuali disciplina demandata alle Regioni ed enti locali."
+        },
+        {
+          "aspect": "approval",
+          "source_url": "https://pianoalluvioni.adbpo.it/piano-gestione-rischio-alluvioni-2021/",
+          "locator": "Introduzione e elenco elaborati",
+          "finding": "Adottato CIP 5/20 dicembre 2021, definitivamente approvato DPCM 1 dicembre 2022; relazione e programma delle misure revisionati giugno 2022. PGRA non è il medesimo atto delle NTA PAI."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.adbpo.it/PDGA_Documenti_Piano/PGRA2021/Piano_2021/00_relazione_metodologica/RELAZIONE_PGRA_Rev.Giugno2022.pdf",
+          "locator": "pp. PDF 83–85, cap. 6 e 7.1",
+          "finding": "Definisce riduzione dei rischi per salute, economia, beni culturali e ambiente, strategie di difesa urbana, spazio ai fiumi e rallentamento delle acque piovane urbane. Le misure sono programmate per unità di gestione e soggetti attuatori; tali strategie non determinano da sole un parametro cogente uniforme per le vasche."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/delibera_CIP_13_2025_variante_PAI_Po_signed_signed.pdf",
+          "locator": "artt. 2 e 4, pp. 14–15",
+          "finding": "CIP 13/2025 adotta progetto di estensione e salvaguardie vincolanti; conserva norme pregresse più restrittive. La definitiva sostituzione dei vecchi PAI è subordinata ad approvazione definitiva."
+        }
+      ],
+      "limitations": [
+        "Lettura mirata dei capitoli sostanziali, non revisione integrale di tutte le misure PGRA o direttive tecniche.",
+        "Non accertata l’assenza di successivi aggiornamenti cartografici/locali dopo la versione coordinata citata."
+      ],
+      "pending": [
+        "Recuperare la direttiva sulle portate ex art. 12 prima di pubblicare parametri quantitativi puntuali.",
+        "Eventuali aggiornamenti delle mappe 2027 e successiva definitiva estensione da verificare separatamente."
+      ],
+      "proposed_changes": {
+        "note": "NTA Po coordinate con indicazione del 17 aprile 2025: verificati artt. 12, 19, 28–31, 38 e 55–58. Invarianza, fasce PAI e scenari PGRA hanno perimetri distinti. L’estensione CIP 13/2025 resta progetto adottato con salvaguardie, non prova di definitiva sostituzione dei precedenti PAI.",
+        "add_documents": [
+          {
+            "url": "https://pai.adbpo.it/wp-content/uploads/2025/05/NA_PAI-PO.pdf",
+            "label": "Fonte ufficiale · po-nta",
+            "format": "pdf"
+          },
+          {
+            "url": "https://pianoalluvioni.adbpo.it/piano-gestione-rischio-alluvioni-2021/",
+            "label": "Fonte ufficiale · po-pgra-piano",
+            "format": "html"
+          },
+          {
+            "url": "https://www.adbpo.it/PDGA_Documenti_Piano/PGRA2021/Piano_2021/00_relazione_metodologica/RELAZIONE_PGRA_Rev.Giugno2022.pdf",
+            "label": "Fonte ufficiale · po-pgra-relazione",
+            "format": "pdf"
+          },
+          {
+            "url": "https://www.adbpo.it/PDGA_Documenti_Piano/PGRA2021/Piano_2021/allegato1_programma_misure/Programma_misure_secondo_ciclo_parte_A_Rev20220630.pdf",
+            "label": "Fonte ufficiale · po-pgra-misure",
+            "format": "pdf"
+          },
+          {
+            "url": "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/delibera_CIP_13_2025_variante_PAI_Po_signed_signed.pdf",
+            "label": "Fonte ufficiale · po-estensione-delibera",
+            "format": "pdf"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "key": "po-nta",
+          "url": "https://pai.adbpo.it/wp-content/uploads/2025/05/NA_PAI-PO.pdf",
+          "consulted_at": "2026-10-09T13:27:47.454826+00:00",
+          "http_status": 200,
+          "final_url": "https://pai.adbpo.it/wp-content/uploads/2025/05/NA_PAI-PO.pdf",
+          "content_type": "application/pdf",
+          "sha256": "a8a9af054074a143fde62c023ad8d24e4ecadddcb979d6141d0af826f8885ab8",
+          "bytes": 486911,
+          "pages": 54
+        },
+        {
+          "key": "po-pgra-piano",
+          "url": "https://pianoalluvioni.adbpo.it/piano-gestione-rischio-alluvioni-2021/",
+          "consulted_at": "2026-10-09T13:34:57.059807+00:00",
+          "http_status": 200,
+          "final_url": "https://pianoalluvioni.adbpo.it/piano-gestione-rischio-alluvioni-2021/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "74d24137d0bd87baeb94c67c1cccd53cb54b4352aef0637c8998c613cbe957c1",
+          "bytes": 77977
+        },
+        {
+          "key": "po-pgra-relazione",
+          "url": "https://www.adbpo.it/PDGA_Documenti_Piano/PGRA2021/Piano_2021/00_relazione_metodologica/RELAZIONE_PGRA_Rev.Giugno2022.pdf",
+          "consulted_at": "2026-10-09T13:34:57.059807+00:00",
+          "http_status": 200,
+          "final_url": "https://www.adbpo.it/PDGA_Documenti_Piano/PGRA2021/Piano_2021/00_relazione_metodologica/RELAZIONE_PGRA_Rev.Giugno2022.pdf",
+          "content_type": "application/pdf",
+          "sha256": "042e257610cc12b0a1f92a1d23cf5bc703f9cb80090d0cc5294c5abab79b80ed",
+          "bytes": 4143988,
+          "pages": 139
+        },
+        {
+          "key": "po-pgra-misure",
+          "url": "https://www.adbpo.it/PDGA_Documenti_Piano/PGRA2021/Piano_2021/allegato1_programma_misure/Programma_misure_secondo_ciclo_parte_A_Rev20220630.pdf",
+          "consulted_at": "2026-10-09T13:34:57.060804+00:00",
+          "http_status": 200,
+          "final_url": "https://www.adbpo.it/PDGA_Documenti_Piano/PGRA2021/Piano_2021/allegato1_programma_misure/Programma_misure_secondo_ciclo_parte_A_Rev20220630.pdf",
+          "content_type": "application/pdf",
+          "sha256": "7a3e187d3bc3016ba6630409a7f49a7dfcda80385a289234b82361d8b34ac9c3",
+          "bytes": 1224696,
+          "pages": 158
+        },
+        {
+          "key": "po-estensione-delibera",
+          "url": "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/delibera_CIP_13_2025_variante_PAI_Po_signed_signed.pdf",
+          "consulted_at": "2026-10-09T13:27:47.455823+00:00",
+          "http_status": 200,
+          "final_url": "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/delibera_CIP_13_2025_variante_PAI_Po_signed_signed.pdf",
+          "content_type": "application/pdf",
+          "sha256": "337f052b28790459fa02e6aa73aa982421a3790c71851b8ca5fd81694c8afe0d",
+          "bytes": 765976,
+          "pages": 16
+        }
+      ]
+    },
+    {
+      "id": "po-pai-estensione-13-2025",
+      "checked_at": "2026-10-09",
+      "scope": "Lettura integrale della deliberazione firmata; lettura del portale procedurale; relazione generale consultata per ambito e coordinamento. Ricerca mirata di atti successivi, senza esaustività cartografica.",
+      "outcome": "partial",
+      "legal_state": "partial",
+      "claims": [
+        {
+          "aspect": "approval",
+          "source_url": "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/delibera_CIP_13_2025_variante_PAI_Po_signed_signed.pdf",
+          "locator": "p. 13, art. 1",
+          "finding": "Adotta il progetto di Variante PAI Po con elaborati relativi alle fasce fluviali e ai dissesti di versante."
+        },
+        {
+          "aspect": "amendment",
+          "source_url": "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/delibera_CIP_13_2025_variante_PAI_Po_signed_signed.pdf",
+          "locator": "p. 14, art. 2",
+          "finding": "La definitiva abrogazione dei precedenti PAI dei bacini interessati è subordinata alla definitiva approvazione della Variante."
+        },
+        {
+          "aspect": "approval",
+          "source_url": "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/delibera_CIP_13_2025_variante_PAI_Po_signed_signed.pdf",
+          "locator": "pp. 14–15, art. 3",
+          "finding": "Consultazione per 90 giorni, conferenze programmatiche regionali, successiva adozione e approvazione ex art. 66, comma 6, D.Lgs 152/2006: adozione del progetto e approvazione definitiva sono passaggi distinti."
+        },
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/delibera_CIP_13_2025_variante_PAI_Po_signed_signed.pdf",
+          "locator": "p. 15, art. 4",
+          "finding": "Fino alla definitiva approvazione si applicano come salvaguardia le NTA Po, direttive tecniche e regolamenti; restano le disposizioni più restrittive dei PAI Reno, Romagnoli e Conca Marecchia. Le prescrizioni sono immediatamente vincolanti dal giorno successivo alla pubblicazione sul sito e per non oltre tre anni."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/delibera_CIP_13_2025_variante_PAI_Po_signed_signed.pdf",
+          "locator": "p. 15, art. 4, comma 2",
+          "finding": "P3 rinvia ad art. 9, comma 3; P4 al comma 2; P1/P2 al comma 4. Nelle trasformazioni va valutata l’applicazione anche a fascia esterna non inferiore a 20 m, come possibile evoluzione della frana."
+        },
+        {
+          "aspect": "amendment",
+          "source_url": "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/delibera_CIP_13_2025_variante_PAI_Po_signed_signed.pdf",
+          "locator": "p. 16, art. 5",
+          "finding": "Le misure del DSG 13 del 7 marzo 2025 sono integralmente abrogate dall’entrata in vigore delle nuove salvaguardie."
+        },
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://pai.adbpo.it/progetto-variante-pai-po-estensione-ai-bacini-del-reno-romagnoli-conca-marecchia-e-fissero-tartaro-canalbianco/",
+          "locator": "Indicazioni per osservazioni e contributi",
+          "finding": "Il portale attesta pubblicazione elaborati il 30 dicembre 2025 e proroga dal 30 marzo al 31 maggio 2026 con DSG 15 dell’11 marzo 2026. La combinazione data di pubblicazione e art. 4 porta al 31 dicembre 2025 per l’avvio delle salvaguardie; questa data è una deduzione esplicita, non una prova di approvazione definitiva."
+        }
+      ],
+      "limitations": [
+        "Non verificate singolarmente tutte le tavole e le 17 monografie fluviali.",
+        "Nessun atto di approvazione definitiva successiva è stato reperito nella ricerca mirata: non equivale a prova della sua assenza.",
+        "Il dispositivo riporta due commi numerati 2 all’art. 4 e alcune espressioni Decreto riferite alla deliberazione; mantenuto il significato testuale senza inventare rettifiche."
+      ],
+      "pending": [
+        "Verificare eventuali adozione e approvazione definitive successive al 31 maggio 2026.",
+        "Applicazione locale da verificare sulle tavole e sulle norme più restrittive dei PAI precedenti."
+      ],
+      "proposed_changes": {
+        "status": "Progetto adottato con salvaguardie vincolanti · approvazione definitiva successiva non accertata",
+        "note": "CIP 13/2025, artt. 2–5: definitiva abrogazione dei precedenti PAI subordinata all’approvazione definitiva; nel frattempo restano anche le disposizioni precedenti più restrittive. Proroga storica delle osservazioni al 31 maggio 2026. Decorrenza iniziale delle salvaguardie dedotta dal combinato art. 4 e pubblicazione del 30 dicembre 2025, senza attestare assenza di atti successivi."
+      },
+      "sources": [
+        {
+          "key": "po-estensione-delibera",
+          "url": "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/delibera_CIP_13_2025_variante_PAI_Po_signed_signed.pdf",
+          "consulted_at": "2026-10-09T13:27:47.455823+00:00",
+          "http_status": 200,
+          "final_url": "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/delibera_CIP_13_2025_variante_PAI_Po_signed_signed.pdf",
+          "content_type": "application/pdf",
+          "sha256": "337f052b28790459fa02e6aa73aa982421a3790c71851b8ca5fd81694c8afe0d",
+          "bytes": 765976,
+          "pages": 16
+        },
+        {
+          "key": "po-estensione-portale",
+          "url": "https://pai.adbpo.it/progetto-variante-pai-po-estensione-ai-bacini-del-reno-romagnoli-conca-marecchia-e-fissero-tartaro-canalbianco/",
+          "consulted_at": "2026-10-09T13:27:47.519895+00:00",
+          "http_status": 200,
+          "final_url": "https://pai.adbpo.it/progetto-variante-pai-po-estensione-ai-bacini-del-reno-romagnoli-conca-marecchia-e-fissero-tartaro-canalbianco/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "31aa27f192a0c4ef6ed6472f7740745805e0bec08b59bbaaa9cf0f1727c330cf",
+          "bytes": 74525
+        },
+        {
+          "key": "po-estensione-relazione",
+          "url": "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/Relazione_generale.pdf",
+          "consulted_at": "2026-10-09T13:27:47.503909+00:00",
+          "http_status": 200,
+          "final_url": "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/Relazione_generale.pdf",
+          "content_type": "application/pdf",
+          "sha256": "1272444e536be461ee787c7d03ece226e01db9df1c5331cdc1f6d5b1c603ad2d",
+          "bytes": 611732,
+          "pages": 30
+        }
+      ]
+    }
+  ],
+  "corrections": [
+    {
+      "id": "bas9",
+      "field": "relations",
+      "before": [
+        {
+          "type": "Attuata e aggiornata da",
+          "id": "bas471"
+        }
+      ],
+      "after": [
+        {
+          "type": "Riferimento",
+          "id": "bas471"
+        }
+      ],
+      "source_urls": [
+        "https://www.regione.basilicata.it/wp-content/uploads/giunta/docs/DOCUMENT_FILE_3068771.pdf",
+        "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A397A5C07&idDocumento=795801377B580A307C5C",
+        "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+      ]
+    },
+    {
+      "id": "bas9",
+      "field": "document_note",
+      "before": "PDF del testo originario sul sito regionale: contenuto identificato nella consultazione testuale, ma download diretto successivo in errore/timeout. Vigenza coordinata ancora da verificare.",
+      "after": "PDF originario regionale recuperato integralmente il9ottobre2026(4pagine). Art.5confrontato con proposta471/2026. Coordinamento legislativo2026ancora aperto.",
+      "source_urls": [
+        "https://www.regione.basilicata.it/wp-content/uploads/giunta/docs/DOCUMENT_FILE_3068771.pdf",
+        "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A397A5C07&idDocumento=795801377B580A307C5C",
+        "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+      ]
+    },
+    {
+      "id": "er286",
+      "field": "relations",
+      "before": [
+        {
+          "type": "Da leggere con",
+          "id": "er1860"
+        }
+      ],
+      "after": [
+        {
+          "type": "Da leggere con",
+          "id": "er1860"
+        },
+        {
+          "type": "Attuazione mediante Piani di Indirizzo",
+          "id": "er1083"
+        }
+      ],
+      "source_urls": [
+        "https://bur.regione.emilia-romagna.it/archivio/inserzione?anno=2005&num_boll=49&prog_documento=1",
+        "https://ambiente.regione.emilia-romagna.it/it/acque/consultazione/norme/normativa-regionale/dgr-1083_2010.pdf/@@download/file",
+        "https://ambiente.regione.emilia-romagna.it/it/acque/consultazione/norme/normativa-regionale/dgr_2153_2021.pdf/@@download/file",
+        "https://apps.arpae.it/documento/DAMB20261430",
+        "https://aggiornati.arpae.it/it/autorizzazioni-e-concessioni/autorizzazioni-ambientali/autorizzazione-scarichi-idrici"
+      ]
+    },
+    {
+      "id": "er286",
+      "field": "note",
+      "before": "Direttiva individuata nel BUR e richiamata da ARPAE. Integrare con le linee guida D.G.R. 1860/2006 e le disposizioni successive.",
+      "after": "Verificate le sezioni 2, 3.1, 3.5, 7, 8 e 9 del testo originario e disposizioni collegate della DGR 1083/2010 e DGR 2153/2021. Soglie, competenze e durate originarie richiedono coordinamento successivo.",
+      "source_urls": [
+        "https://bur.regione.emilia-romagna.it/archivio/inserzione?anno=2005&num_boll=49&prog_documento=1",
+        "https://ambiente.regione.emilia-romagna.it/it/acque/consultazione/norme/normativa-regionale/dgr-1083_2010.pdf/@@download/file",
+        "https://ambiente.regione.emilia-romagna.it/it/acque/consultazione/norme/normativa-regionale/dgr_2153_2021.pdf/@@download/file",
+        "https://apps.arpae.it/documento/DAMB20261430",
+        "https://aggiornati.arpae.it/it/autorizzazioni-e-concessioni/autorizzazioni-ambientali/autorizzazione-scarichi-idrici"
+      ]
+    },
+    {
+      "id": "er286",
+      "field": "document_note",
+      "before": "Il collegamento apre direttamente il PDF del documento.",
+      "after": "Testo originario della direttiva e allegato letti nel BUR. La DGR 1860/2006 è un atto attuativo distinto; coordinamento completo ancora aperto.",
+      "source_urls": [
+        "https://bur.regione.emilia-romagna.it/archivio/inserzione?anno=2005&num_boll=49&prog_documento=1",
+        "https://ambiente.regione.emilia-romagna.it/it/acque/consultazione/norme/normativa-regionale/dgr-1083_2010.pdf/@@download/file",
+        "https://ambiente.regione.emilia-romagna.it/it/acque/consultazione/norme/normativa-regionale/dgr_2153_2021.pdf/@@download/file",
+        "https://apps.arpae.it/documento/DAMB20261430",
+        "https://aggiornati.arpae.it/it/autorizzazioni-e-concessioni/autorizzazioni-ambientali/autorizzazione-scarichi-idrici"
+      ]
+    },
+    {
+      "id": "dist-po",
+      "field": "documents",
+      "before": [
+        {
+          "url": "https://pai.adbpo.it/wp-content/uploads/2025/05/NA_PAI-PO.pdf",
+          "label": "PAI Po · norme di attuazione",
+          "group": "PAI",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        }
+      ],
+      "after": [
+        {
+          "url": "https://pai.adbpo.it/wp-content/uploads/2025/05/NA_PAI-PO.pdf",
+          "label": "PAI Po · norme di attuazione",
+          "group": "PAI",
+          "link_status": "checked",
+          "link_checked": "2026-09-18"
+        },
+        {
+          "url": "https://pianoalluvioni.adbpo.it/piano-gestione-rischio-alluvioni-2021/",
+          "label": "Fonte ufficiale · po-pgra-piano",
+          "format": "html"
+        },
+        {
+          "url": "https://www.adbpo.it/PDGA_Documenti_Piano/PGRA2021/Piano_2021/00_relazione_metodologica/RELAZIONE_PGRA_Rev.Giugno2022.pdf",
+          "label": "Fonte ufficiale · po-pgra-relazione",
+          "format": "pdf"
+        },
+        {
+          "url": "https://www.adbpo.it/PDGA_Documenti_Piano/PGRA2021/Piano_2021/allegato1_programma_misure/Programma_misure_secondo_ciclo_parte_A_Rev20220630.pdf",
+          "label": "Fonte ufficiale · po-pgra-misure",
+          "format": "pdf"
+        },
+        {
+          "url": "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/delibera_CIP_13_2025_variante_PAI_Po_signed_signed.pdf",
+          "label": "Fonte ufficiale · po-estensione-delibera",
+          "format": "pdf"
+        }
+      ],
+      "source_urls": [
+        "https://pai.adbpo.it/wp-content/uploads/2025/05/NA_PAI-PO.pdf",
+        "https://pianoalluvioni.adbpo.it/piano-gestione-rischio-alluvioni-2021/",
+        "https://www.adbpo.it/PDGA_Documenti_Piano/PGRA2021/Piano_2021/00_relazione_metodologica/RELAZIONE_PGRA_Rev.Giugno2022.pdf",
+        "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/delibera_CIP_13_2025_variante_PAI_Po_signed_signed.pdf",
+        "https://www.adbpo.it/PDGA_Documenti_Piano/PGRA2021/Piano_2021/allegato1_programma_misure/Programma_misure_secondo_ciclo_parte_A_Rev20220630.pdf"
+      ]
+    },
+    {
+      "id": "dist-po",
+      "field": "note",
+      "before": "Scheda di accesso al distretto, non una singola norma. Verificata la Deliberazione CIP 13/2025, che adotta il progetto di estensione del PAI Po ai bacini Reno, Romagnoli, Conca–Marecchia e Fissero–Tartaro–Canalbianco e introduce misure temporanee di salvaguardia; la variante non è ancora definitivamente approvata.",
+      "after": "NTA Po coordinate con indicazione del 17 aprile 2025: verificati artt. 12, 19, 28–31, 38 e 55–58. Invarianza, fasce PAI e scenari PGRA hanno perimetri distinti. L’estensione CIP 13/2025 resta progetto adottato con salvaguardie, non prova di definitiva sostituzione dei precedenti PAI.",
+      "source_urls": [
+        "https://pai.adbpo.it/wp-content/uploads/2025/05/NA_PAI-PO.pdf",
+        "https://pianoalluvioni.adbpo.it/piano-gestione-rischio-alluvioni-2021/",
+        "https://www.adbpo.it/PDGA_Documenti_Piano/PGRA2021/Piano_2021/00_relazione_metodologica/RELAZIONE_PGRA_Rev.Giugno2022.pdf",
+        "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/delibera_CIP_13_2025_variante_PAI_Po_signed_signed.pdf",
+        "https://www.adbpo.it/PDGA_Documenti_Piano/PGRA2021/Piano_2021/allegato1_programma_misure/Programma_misure_secondo_ciclo_parte_A_Rev20220630.pdf"
+      ]
+    },
+    {
+      "id": "po-pai-estensione-13-2025",
+      "field": "status",
+      "before": "Progetto adottato · misure temporanee di salvaguardia vigenti",
+      "after": "Progetto adottato con salvaguardie vincolanti · approvazione definitiva successiva non accertata",
+      "source_urls": [
+        "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/delibera_CIP_13_2025_variante_PAI_Po_signed_signed.pdf",
+        "https://pai.adbpo.it/progetto-variante-pai-po-estensione-ai-bacini-del-reno-romagnoli-conca-marecchia-e-fissero-tartaro-canalbianco/",
+        "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/Relazione_generale.pdf"
+      ]
+    },
+    {
+      "id": "po-pai-estensione-13-2025",
+      "field": "note",
+      "before": "La Deliberazione CIP 13/2025 adotta il progetto di variante, non la variante definitiva. L’art. 4 rende efficaci dal giorno successivo alla pubblicazione sul sito dell’Autorità le misure temporanee di salvaguardia; per Reno, Romagnoli e Conca–Marecchia restano applicabili le disposizioni dei PAI preesistenti se più restrittive.",
+      "after": "CIP 13/2025, artt. 2–5: definitiva abrogazione dei precedenti PAI subordinata all’approvazione definitiva; nel frattempo restano anche le disposizioni precedenti più restrittive. Proroga storica delle osservazioni al 31 maggio 2026. Decorrenza iniziale delle salvaguardie dedotta dal combinato art. 4 e pubblicazione del 30 dicembre 2025, senza attestare assenza di atti successivi.",
+      "source_urls": [
+        "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/delibera_CIP_13_2025_variante_PAI_Po_signed_signed.pdf",
+        "https://pai.adbpo.it/progetto-variante-pai-po-estensione-ai-bacini-del-reno-romagnoli-conca-marecchia-e-fissero-tartaro-canalbianco/",
+        "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/Relazione_generale.pdf"
+      ]
+    }
+  ],
+  "note": "Verifica circoscritta alle fonti e disposizioni indicate; non certificazione generale di vigenza.",
+  "new_record_ids": [
+    "abr31",
+    "er1083",
+    "abruzzo-scarichi-906-2022",
+    "milano-suds-10576-2020"
+  ]
+}
+

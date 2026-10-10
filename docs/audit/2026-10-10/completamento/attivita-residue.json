@@ -5420,7 +5420,7 @@
     {
       "id": "tos-lr80-2015",
       "object": "L.R. Toscana 80/2015 · Difesa del suolo, risorse idriche e gestione del demanio",
-      "scope_completed": "Identità; art. 2 comma 1 g/i/n e 1-bis, artt. 5 e 10, art. 11 commi 1–2; PDF pp. 1, 5–6, 8–10.",
+      "scope_completed": "Identità; art. 2 comma 1 g/i/n e 1-bis, artt. 5 e 10, art. 11 commi 1–2; PDF pp. 1, 5–6, 8–10. Lotto 26: confronto dei rinvii attuativi con modifiche e coordinato BURT febbraio 2025.",
       "verified_findings": [
         {
           "aspect": "identity",
@@ -5439,6 +5439,12 @@
           "source_url": "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?ext=pdf&id=0deb3a65-8cc8-11f0-b084-005056959b60",
           "locator": "Art. 5, PDF pp. 8–9; art. 11 commi 1–2, PDF p. 10",
           "finding": "Rinvia a regolamenti per concessioni, garanzie e coordinamento procedurale; promuove risparmio e riuso. Questi rinvii non dimostrano da soli parametri progettuali, qualità delle acque riutilizzabili o disciplina attuativa completa."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.regione.toscana.it/documents/10180/239087792/Parte%2BI%2Bn.%2B14%2Bdel%2B26.02.2025.pdf/924e47ab-ddef-feb6-7fcd-b9b6e7560954?t=1740549990843",
+          "locator": "D.P.G.R. 12/R/2025 e coordinato 60/R/2016, BURT pp. 5–14 e 38–46",
+          "finding": "Individuati e confrontati atti attuativi per concessioni demaniali; resta distinta la verifica delle modifiche della legge 80 e dei regolamenti dopo febbraio 2025."
         }
       ],
       "needed_source_or_operation": [
@@ -5451,6 +5457,78 @@
       "reason_still_open": "Aggiornamento fino al 2025 e rinvii attuativi da coordinare, nessuna vigenza integrale attestata.",
       "next_step": [
         "Verificare modifiche dal 10 gennaio 2025 e atti attuativi artt. 5/11; acquisire reticolo vigente e condizioni di autorizzazione per l’intervento."
+      ]
+    },
+    {
+      "id": "tos-dpgr60-2016",
+      "object": "D.P.G.R. Toscana 60/R/2016 · Concessioni per utilizzo del demanio idrico",
+      "scope_completed": "Lettura artt. 1–15 del coordinato BURT pp. 38–46 e confronto modifiche artt. 1–8 del D.P.G.R. 12/R.",
+      "verified_findings": [
+        {
+          "aspect": "identity",
+          "source_url": "https://www.regione.toscana.it/documents/10180/239087792/Parte%2BI%2Bn.%2B14%2Bdel%2B26.02.2025.pdf/924e47ab-ddef-feb6-7fcd-b9b6e7560954?t=1740549990843",
+          "locator": "BURT n. 14 parte I del 26 febbraio 2025, pp. 5 e 38",
+          "finding": "Fascicolo ufficiale contiene 12/R/2025 e coordinato 60/R/2016; il coordinato è un ausilio di lettura."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.regione.toscana.it/documents/10180/239087792/Parte%2BI%2Bn.%2B14%2Bdel%2B26.02.2025.pdf/924e47ab-ddef-feb6-7fcd-b9b6e7560954?t=1740549990843",
+          "locator": "Coordinato D.P.G.R. 60/R/2016 artt. 1–15, BURT pp. 38–46",
+          "finding": "Uso demaniale e derivazione restano titoli distinti. Atti idraulici regionali sono acquisiti nel procedimento concessorio; domanda, concorrenza e documenti dipendono dalla fattispecie."
+        },
+        {
+          "aspect": "amendment",
+          "source_url": "https://www.regione.toscana.it/documents/10180/239087792/Parte%2BI%2Bn.%2B14%2Bdel%2B26.02.2025.pdf/924e47ab-ddef-feb6-7fcd-b9b6e7560954?t=1740549990843",
+          "locator": "D.P.G.R. 12/R/2025 artt. 1–3 e 10, BURT pp. 9–10 e 13",
+          "finding": "Introduce domande telematiche; semplificazione con asseverazione per usi enumerati, senza esenzione generale dalla compatibilità. Per terreni abbandonati dalle acque rinvia ai soli casi del codice civile indicati."
+        }
+      ],
+      "needed_source_or_operation": [
+        "Verificare modifiche successive e coordinare D.P.G.R. 42/R/2018, regolamento 61/R/2016 e atti su reticolo e canoni prima dell’applicazione progettuale."
+      ],
+      "limitations": [
+        "Non ricostruite modifiche successive al BURT del 26 febbraio 2025, disciplina complessiva dei canoni né tutti i rinvii; nessuna attestazione integrale della vigenza corrente."
+      ],
+      "actual_access_problems": [],
+      "reason_still_open": "Non ricostruite modifiche successive al BURT del 26 febbraio 2025, disciplina complessiva dei canoni né tutti i rinvii; nessuna attestazione integrale della vigenza corrente.",
+      "next_step": [
+        "Verificare modifiche successive e coordinare D.P.G.R. 42/R/2018, regolamento 61/R/2016 e atti su reticolo e canoni prima dell’applicazione progettuale."
+      ]
+    },
+    {
+      "id": "tos-dpgr12-2025",
+      "object": "D.P.G.R. Toscana 12/R/2025 · Modifiche alle concessioni demaniali e derivazioni",
+      "scope_completed": "Lettura integrale del regolamento: intestazione, preambolo e artt. 1–11, BURT pp. 5–14; confronto passaggi del coordinato 60/R pp. 38–46.",
+      "verified_findings": [
+        {
+          "aspect": "identity",
+          "source_url": "https://www.regione.toscana.it/documents/10180/239087792/Parte%2BI%2Bn.%2B14%2Bdel%2B26.02.2025.pdf/924e47ab-ddef-feb6-7fcd-b9b6e7560954?t=1740549990843",
+          "locator": "BURT n. 14 parte I del 26 febbraio 2025, pp. 5 e 38",
+          "finding": "Fascicolo ufficiale contiene 12/R/2025 e coordinato 60/R/2016; il coordinato è un ausilio di lettura."
+        },
+        {
+          "aspect": "amendment",
+          "source_url": "https://www.regione.toscana.it/documents/10180/239087792/Parte%2BI%2Bn.%2B14%2Bdel%2B26.02.2025.pdf/924e47ab-ddef-feb6-7fcd-b9b6e7560954?t=1740549990843",
+          "locator": "D.P.G.R. 12/R/2025 artt. 1–3 e 10, BURT pp. 9–10 e 13",
+          "finding": "Introduce domande telematiche; semplificazione con asseverazione per usi enumerati, senza esenzione generale dalla compatibilità. Per terreni abbandonati dalle acque rinvia ai soli casi del codice civile indicati."
+        },
+        {
+          "aspect": "amendment",
+          "source_url": "https://www.regione.toscana.it/documents/10180/239087792/Parte%2BI%2Bn.%2B14%2Bdel%2B26.02.2025.pdf/924e47ab-ddef-feb6-7fcd-b9b6e7560954?t=1740549990843",
+          "locator": "D.P.G.R. 12/R/2025 artt. 4–9 e 11, BURT pp. 10–13",
+          "finding": "Modifica canoni, agevolazioni e indennizzi. Pagare l’indennizzo non sana opere abusive né costituisce titolo concessorio. Per derivazioni senza titolo distingue sanzione, canoni e ripristino."
+        }
+      ],
+      "needed_source_or_operation": [
+        "Verificare modifiche successive e coordinare D.P.G.R. 42/R/2018, regolamento 61/R/2016 e atti su reticolo e canoni prima dell’applicazione progettuale."
+      ],
+      "limitations": [
+        "Non ricostruite modifiche successive al BURT del 26 febbraio 2025, disciplina complessiva dei canoni né tutti i rinvii; nessuna attestazione integrale della vigenza corrente."
+      ],
+      "actual_access_problems": [],
+      "reason_still_open": "Non ricostruite modifiche successive al BURT del 26 febbraio 2025, disciplina complessiva dei canoni né tutti i rinvii; nessuna attestazione integrale della vigenza corrente.",
+      "next_step": [
+        "Verificare modifiche successive e coordinare D.P.G.R. 42/R/2018, regolamento 61/R/2016 e atti su reticolo e canoni prima dell’applicazione progettuale."
       ]
     }
   ],
@@ -6616,13 +6694,16 @@
       "state": "ricognizione_puntuale_non_esaustiva",
       "source_still_needed": "Repertorio legislativo e BUR del territorio, PTA/NTA e atti attuativi per la materia demanio",
       "problem": "Ricognizione sistematica non eseguita o non esaustiva; non è una prova di assenza normativa.",
-      "already_verified": "Lotto25: Artt. 2 e 10: attribuzione regionale con riserve, reticolo e rilascio dei titoli.",
+      "already_verified": "Lotto25: Artt. 2 e 10: attribuzione regionale con riserve, reticolo e rilascio dei titoli. Lotto 26: confrontati 12/R/2025 e artt. 1–15 del coordinato 60/R/2016 nel BURT ufficiale; nessuna esaustività territoriale.",
       "next_step": "Verificare modifiche dal 10 gennaio 2025 e atti attuativi artt. 5/11; acquisire reticolo vigente e condizioni di autorizzazione per l’intervento.",
       "record_ids": [
-        "tos-lr80-2015"
+        "tos-lr80-2015",
+        "tos-dpgr60-2016",
+        "tos-dpgr12-2025"
       ],
       "source_urls": [
-        "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?ext=pdf&id=0deb3a65-8cc8-11f0-b084-005056959b60"
+        "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?ext=pdf&id=0deb3a65-8cc8-11f0-b084-005056959b60",
+        "https://www.regione.toscana.it/documents/10180/239087792/Parte%2BI%2Bn.%2B14%2Bdel%2B26.02.2025.pdf/924e47ab-ddef-feb6-7fcd-b9b6e7560954?t=1740549990843"
       ]
     },
     {
@@ -6640,17 +6721,20 @@
       "state": "ricognizione_puntuale_non_esaustiva",
       "source_still_needed": "Repertorio legislativo e BUR del territorio, PTA/NTA e atti attuativi per la materia regolamenti_attuativi",
       "problem": "Ricognizione sistematica non eseguita o non esaustiva; non è una prova di assenza normativa.",
-      "already_verified": "Lettura del testo coordinato regionale, artt. 37–39 e 41–43 con note modificative; lettura integrale dell’allegato 5, due pagine, con confronto visivo della tabella 6. PDF del corpo aggiornato al 19/04/2018; non verificati tutti i rinvii esterni. Lotto25: Artt. 5 e 11: materie demandate ai regolamenti; atti di attuazione da acquisire.",
+      "already_verified": "Lettura del testo coordinato regionale, artt. 37–39 e 41–43 con note modificative; lettura integrale dell’allegato 5, due pagine, con confronto visivo della tabella 6. PDF del corpo aggiornato al 19/04/2018; non verificati tutti i rinvii esterni. Lotto25: Artt. 5 e 11: materie demandate ai regolamenti; atti di attuazione da acquisire. Lotto 26: confrontati 12/R/2025 e artt. 1–15 del coordinato 60/R/2016 nel BURT ufficiale; nessuna esaustività territoriale.",
       "next_step": "Riscontrare nel BURT i modificativi e gli aggiornamenti successivi, coordinare LR 20/2006 e completare gli altri allegati pertinenti. Verificare modifiche dal 10 gennaio 2025 e atti attuativi artt. 5/11; acquisire reticolo vigente e condizioni di autorizzazione per l’intervento.",
       "record_ids": [
         "tos46",
-        "tos-lr80-2015"
+        "tos-lr80-2015",
+        "tos-dpgr60-2016",
+        "tos-dpgr12-2025"
       ],
       "source_urls": [
         "https://raccoltanormativa.consiglio.regione.toscana.it/articolo?pr=idx,0%3Bartic,1%3Barticparziale,0&urndoc=urn:nir:regione.toscana:regolamento.giunta:2008-09-08%3B46/R",
         "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?file_path=regolamento.giunta/2008/regolamento.giunta_2008_46R_a5/regolamento.giunta_2008_46R_a5_v5.pdf",
         "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?id=9345c577-24d8-11ef-bf7a-005056959b60&ext=pdf",
-        "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?ext=pdf&id=0deb3a65-8cc8-11f0-b084-005056959b60"
+        "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?ext=pdf&id=0deb3a65-8cc8-11f0-b084-005056959b60",
+        "https://www.regione.toscana.it/documents/10180/239087792/Parte%2BI%2Bn.%2B14%2Bdel%2B26.02.2025.pdf/924e47ab-ddef-feb6-7fcd-b9b6e7560954?t=1740549990843"
       ]
     },
     {
@@ -7110,6 +7194,14 @@
         "locator": "BURL serie ordinaria n. 2 del 7 gennaio 2020 p. 214, testo indicizzato",
         "finding": "Dispositivo DGR2723 approva allegati A e B, ma la copia acquisita attuale non contiene l’atto. Candidato mantenuto da acquisire; nessun parametro progettuale pubblicato."
       }
+    },
+    {
+      "territory": "Toscana",
+      "ref": "D.P.G.R. 61/R/2016; D.P.G.R. 42/R/2018",
+      "source_url": "https://www.regione.toscana.it/documents/10180/239087792/Parte%2BI%2Bn.%2B14%2Bdel%2B26.02.2025.pdf/924e47ab-ddef-feb6-7fcd-b9b6e7560954?t=1740549990843",
+      "publication_locator": "BURT 14/2025 pp. 59–113 per il coordinato 61/R; rinvio al 42/R nell’art. 3 del 12/R",
+      "status": "Rinvii individuati, lettura integrale e allegati non ancora completati; non inseriti in catalogo",
+      "next_step": "Riutilizzare il BURT acquisito per la lettura del 61/R; coordinare compatibilità ex 42/R e verificare aggiornamenti."
     }
   ]
 }

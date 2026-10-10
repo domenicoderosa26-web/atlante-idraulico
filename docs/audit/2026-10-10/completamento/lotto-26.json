@@ -1,0 +1,40 @@
+{
+  "checked_at": "2026-10-10T18:16:08.199279+00:00",
+  "record_ids": [
+    "tos-dpgr60-2016",
+    "tos-dpgr12-2025",
+    "tos-lr80-2015"
+  ],
+  "acquisition": {
+    "url": "https://www.regione.toscana.it/documents/10180/239087792/Parte%2BI%2Bn.%2B14%2Bdel%2B26.02.2025.pdf/924e47ab-ddef-feb6-7fcd-b9b6e7560954?t=1740549990843",
+    "final_url": "https://www.regione.toscana.it/documents/10180/239087792/Parte%2BI%2Bn.%2B14%2Bdel%2B26.02.2025.pdf/924e47ab-ddef-feb6-7fcd-b9b6e7560954?t=1740549990843",
+    "http_status": 200,
+    "bytes": 2169343,
+    "sha256": "6a0edb8d09c3433f24e7e1cab9d9e9033594a83e3620cc62cf4cdff244c65c7c",
+    "checked_at": "2026-10-10T18:14:02.795714+00:00"
+  },
+  "identity_check": "PDF completo 134 pagine; ispezione visiva p. 9 e lettura intestazione p. 5.",
+  "reading_scope": [
+    "12/R/2025 integralmente pp. 5–14, artt. 1–11 e preambolo",
+    "60/R/2016 coordinato: avvertenza p. 38, artt. 1–15 pp. 39–46"
+  ],
+  "claims_location": "data.json:documentary_review dei tre record",
+  "new_record_ids": [
+    "tos-dpgr60-2016",
+    "tos-dpgr12-2025"
+  ],
+  "cells": [
+    {
+      "territory": "Toscana",
+      "sector": "demanio"
+    },
+    {
+      "territory": "Toscana",
+      "sector": "regolamenti_attuativi"
+    }
+  ],
+  "limitations": [
+    "Non lette integralmente le pp. 47–113; non completata la ricostruzione successiva al febbraio 2025."
+  ],
+  "phase3_complete": false
+}

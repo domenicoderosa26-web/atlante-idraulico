@@ -1385,18 +1385,39 @@
           "sector": "demanio",
           "state": "ricognizione_puntuale_non_esaustiva",
           "record_ids": [
-            "tos-lr80-2015"
+            "tos-lr80-2015",
+            "tos-dpgr60-2016",
+            "tos-dpgr12-2025"
           ],
-          "scope": "Lotto25: Artt. 2 e 10: attribuzione regionale con riserve, reticolo e rilascio dei titoli.",
+          "scope": "Lotto25: Artt. 2 e 10: attribuzione regionale con riserve, reticolo e rilascio dei titoli. Lotto 26: confrontati 12/R/2025 e artt. 1–15 del coordinato 60/R/2016 nel BURT ufficiale; nessuna esaustività territoriale.",
           "source_urls": [
-            "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?ext=pdf&id=0deb3a65-8cc8-11f0-b084-005056959b60"
+            "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?ext=pdf&id=0deb3a65-8cc8-11f0-b084-005056959b60",
+            "https://www.regione.toscana.it/documents/10180/239087792/Parte%2BI%2Bn.%2B14%2Bdel%2B26.02.2025.pdf/924e47ab-ddef-feb6-7fcd-b9b6e7560954?t=1740549990843"
           ],
           "previous": {
             "sector": "demanio",
-            "state": "ricognizione_non_ancora_effettuata",
-            "record_ids": [],
-            "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
-            "source_urls": []
+            "state": "ricognizione_puntuale_non_esaustiva",
+            "record_ids": [
+              "tos-lr80-2015"
+            ],
+            "scope": "Lotto25: Artt. 2 e 10: attribuzione regionale con riserve, reticolo e rilascio dei titoli.",
+            "source_urls": [
+              "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?ext=pdf&id=0deb3a65-8cc8-11f0-b084-005056959b60"
+            ],
+            "previous": {
+              "sector": "demanio",
+              "state": "ricognizione_non_ancora_effettuata",
+              "record_ids": [],
+              "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+              "source_urls": []
+            },
+            "checked_at": "2026-10-10",
+            "limitations": [
+              "Copia aggiornata al 10 gennaio 2025; non ricostruite modifiche successive, regolamenti, cartografia del reticolo e competenze operative specifiche."
+            ],
+            "pending": [
+              "Verificare modifiche dal 10 gennaio 2025 e atti attuativi artt. 5/11; acquisire reticolo vigente e condizioni di autorizzazione per l’intervento."
+            ]
           },
           "checked_at": "2026-10-10",
           "limitations": [
@@ -1418,36 +1439,62 @@
           "state": "ricognizione_puntuale_non_esaustiva",
           "record_ids": [
             "tos46",
-            "tos-lr80-2015"
+            "tos-lr80-2015",
+            "tos-dpgr60-2016",
+            "tos-dpgr12-2025"
           ],
-          "scope": "Lettura del testo coordinato regionale, artt. 37–39 e 41–43 con note modificative; lettura integrale dell’allegato 5, due pagine, con confronto visivo della tabella 6. PDF del corpo aggiornato al 19/04/2018; non verificati tutti i rinvii esterni. Lotto25: Artt. 5 e 11: materie demandate ai regolamenti; atti di attuazione da acquisire.",
+          "scope": "Lettura del testo coordinato regionale, artt. 37–39 e 41–43 con note modificative; lettura integrale dell’allegato 5, due pagine, con confronto visivo della tabella 6. PDF del corpo aggiornato al 19/04/2018; non verificati tutti i rinvii esterni. Lotto25: Artt. 5 e 11: materie demandate ai regolamenti; atti di attuazione da acquisire. Lotto 26: confrontati 12/R/2025 e artt. 1–15 del coordinato 60/R/2016 nel BURT ufficiale; nessuna esaustività territoriale.",
           "source_urls": [
             "https://raccoltanormativa.consiglio.regione.toscana.it/articolo?pr=idx,0%3Bartic,1%3Barticparziale,0&urndoc=urn:nir:regione.toscana:regolamento.giunta:2008-09-08%3B46/R",
             "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?file_path=regolamento.giunta/2008/regolamento.giunta_2008_46R_a5/regolamento.giunta_2008_46R_a5_v5.pdf",
             "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?id=9345c577-24d8-11ef-bf7a-005056959b60&ext=pdf",
-            "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?ext=pdf&id=0deb3a65-8cc8-11f0-b084-005056959b60"
+            "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?ext=pdf&id=0deb3a65-8cc8-11f0-b084-005056959b60",
+            "https://www.regione.toscana.it/documents/10180/239087792/Parte%2BI%2Bn.%2B14%2Bdel%2B26.02.2025.pdf/924e47ab-ddef-feb6-7fcd-b9b6e7560954?t=1740549990843"
           ],
           "previous": {
             "sector": "regolamenti_attuativi",
             "state": "ricognizione_puntuale_non_esaustiva",
             "record_ids": [
-              "tos46"
+              "tos46",
+              "tos-lr80-2015"
             ],
-            "scope": "Lettura del testo coordinato regionale, artt. 37–39 e 41–43 con note modificative; lettura integrale dell’allegato 5, due pagine, con confronto visivo della tabella 6. PDF del corpo aggiornato al 19/04/2018; non verificati tutti i rinvii esterni.",
+            "scope": "Lettura del testo coordinato regionale, artt. 37–39 e 41–43 con note modificative; lettura integrale dell’allegato 5, due pagine, con confronto visivo della tabella 6. PDF del corpo aggiornato al 19/04/2018; non verificati tutti i rinvii esterni. Lotto25: Artt. 5 e 11: materie demandate ai regolamenti; atti di attuazione da acquisire.",
             "source_urls": [
               "https://raccoltanormativa.consiglio.regione.toscana.it/articolo?pr=idx,0%3Bartic,1%3Barticparziale,0&urndoc=urn:nir:regione.toscana:regolamento.giunta:2008-09-08%3B46/R",
               "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?file_path=regolamento.giunta/2008/regolamento.giunta_2008_46R_a5/regolamento.giunta_2008_46R_a5_v5.pdf",
-              "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?id=9345c577-24d8-11ef-bf7a-005056959b60&ext=pdf"
+              "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?id=9345c577-24d8-11ef-bf7a-005056959b60&ext=pdf",
+              "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?ext=pdf&id=0deb3a65-8cc8-11f0-b084-005056959b60"
             ],
             "previous": {
               "sector": "regolamenti_attuativi",
-              "state": "ricognizione_non_ancora_effettuata",
-              "record_ids": [],
-              "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
-              "source_urls": []
+              "state": "ricognizione_puntuale_non_esaustiva",
+              "record_ids": [
+                "tos46"
+              ],
+              "scope": "Lettura del testo coordinato regionale, artt. 37–39 e 41–43 con note modificative; lettura integrale dell’allegato 5, due pagine, con confronto visivo della tabella 6. PDF del corpo aggiornato al 19/04/2018; non verificati tutti i rinvii esterni.",
+              "source_urls": [
+                "https://raccoltanormativa.consiglio.regione.toscana.it/articolo?pr=idx,0%3Bartic,1%3Barticparziale,0&urndoc=urn:nir:regione.toscana:regolamento.giunta:2008-09-08%3B46/R",
+                "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?file_path=regolamento.giunta/2008/regolamento.giunta_2008_46R_a5/regolamento.giunta_2008_46R_a5_v5.pdf",
+                "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?id=9345c577-24d8-11ef-bf7a-005056959b60&ext=pdf"
+              ],
+              "previous": {
+                "sector": "regolamenti_attuativi",
+                "state": "ricognizione_non_ancora_effettuata",
+                "record_ids": [],
+                "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+                "source_urls": []
+              },
+              "pending": [
+                "Riscontrare nel BURT i modificativi e gli aggiornamenti successivi, coordinare LR 20/2006 e completare gli altri allegati pertinenti."
+              ]
             },
             "pending": [
-              "Riscontrare nel BURT i modificativi e gli aggiornamenti successivi, coordinare LR 20/2006 e completare gli altri allegati pertinenti."
+              "Riscontrare nel BURT i modificativi e gli aggiornamenti successivi, coordinare LR 20/2006 e completare gli altri allegati pertinenti.",
+              "Verificare modifiche dal 10 gennaio 2025 e atti attuativi artt. 5/11; acquisire reticolo vigente e condizioni di autorizzazione per l’intervento."
+            ],
+            "checked_at": "2026-10-10",
+            "limitations": [
+              "Copia aggiornata al 10 gennaio 2025; non ricostruite modifiche successive, regolamenti, cartografia del reticolo e competenze operative specifiche."
             ]
           },
           "pending": [

@@ -10,6 +10,10 @@ I decreti ministeriali per cui l'API URN non ha restituito un atto univoco conse
 
 ## Esecuzione quotidiana e pubblicazione
 
+Gli aggiornamenti su `main` dei file nazionali o della pipeline avviano anche un controllo di riconciliazione dal checkpoint confermato. I push della pipeline con `GITHUB_TOKEN` non generano altri workflow `push`, evitando ricorsioni. La supervisione resta indipendente e non nasconde disallineamenti durante il recupero. Un controllo manuale locale conservato negli audit non sostituisce il checkpoint del branch tecnico: dopo modifiche al registro o allo stato occorre completare l'intera pipeline nazionale.
+
+L'idempotenza giornaliera confronta anche fase, URL dell'esecuzione e impronte della ricevuta con i file correnti: una modifica intervenuta dopo la ricevuta impone un nuovo controllo, anche se le date coincidono. Il test della pre-verifica preserva tutte le sezioni sostanziali sia prima sia dopo la presenza dell'estensione tecnica; non richiede che il registro resti privo di risultati automatici.
+
 La Action nazionale conserva gli avvii alle `07:17`, `08:17` e `09:17` in `Europe/Rome` (ora legale inclusa). I fallback saltano le API soltanto quando checkpoint, stato completato e file pubblici concordano per la giornata. L'avvio manuale può ripetere il controllo. Una programmazione non dimostra un avvio effettivo: il controllo indipendente legge le esecuzioni e i loro step.
 
 La verifica parte dall'ultimo `last_successful_end` confermato, con finestre massime di sette giorni. Gli elenchi paginati vengono suddivisi fino a finestre di un'ora; una risposta ancora incompleta, ambigua o discordante interrompe il controllo. Ogni richiesta ha tre tentativi con attese di uno e due secondi, timeout di 20 secondi e limite complessivo di 120 richieste. Le evidenze delle chiamate e gli errori vengono conservati nell'artifact `normattiva-attempt`, anche quando il job fallisce.

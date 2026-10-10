@@ -336,7 +336,11 @@
       "record_version": "92c558b10cef9b21dfbd29f9e9e1fd8ae622b658a4ac7264cef9d199c6e95c92",
       "evidence": "docs/audit/2026-10-09/incrementale/lotto-15.json",
       "publication": {
-        "state": "validated_pending_deployment"
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/22",
+        "merge_commit": "62531fd36b9113c4609d40363f5ee951198a5e45",
+        "evidence": "docs/audit/2026-10-09/incrementale/pubblicazione-lotto-15.json",
+        "verified_at": "2026-10-10T10:43:54.788890+00:00"
       },
       "history": [
         {
@@ -365,6 +369,35 @@
             "merge_commit": "b43141018aaae2c6502b82607a61544c0866c274",
             "receipt": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-03.json",
             "checked_at": "2026-10-08T19:54:30.784200+00:00"
+          }
+        },
+        {
+          "state": "revisione parziale",
+          "last_activity": "2026-10-10T10:35:44.907591+00:00",
+          "source_urls": [
+            "https://arianna.cr.piemonte.it/regolafo/dettaglioRegolamento.do?tornaIndietro=true&urnRegolamento=urn%3Anir%3Aregione.piemonte%3Aregolamento%3A2006-02-20%3B1%402018-12-11",
+            "https://www.regione.piemonte.it/web/sites/default/files/media/documenti/2018-11/chiarimenti.pdf",
+            "https://www.cittametropolitana.torino.it/ambiente/autorizzazioni-ambientali/acque-di-prima-pioggia",
+            "https://www.regione.piemonte.it/governo/bollettino/abbonati/2006/49/siste/00000001.htm",
+            "https://arianna.cr.piemonte.it/regolafo/dettaglioRegolamento.do?urnRegolamento=urn:nir:regione.piemonte:regolamento:2006-08-02;7@2006-12-08",
+            "https://arianna.cr.piemonte.it/regolafo/riferimentiSubiti.do?numRegolamento=1&annoRegolamento=2006",
+            "https://www.regione.piemonte.it/governo/bollettino/abbonati/2007/18/siste/00000001.htm"
+          ],
+          "verified_results": [
+            "Testo coordinato include RR 7/2006 e RR 13/2006. Il parametro 2018 nell’URL non identifica una modifica del 2018: la versione selezionata è V2 dal 2006.",
+            "RR 7/2006 sostituisce ambito e allegato A. Accumulo di norma dell’ordine di 50 m³/ha; trattamento normalmente nelle 48–60 ore successive al termine dell’ultimo evento.",
+            "Prima pioggia 5 mm ed eventi separati da almeno 48 ore asciutte. Recapito sul suolo subordinato all’assenza di alternative; scadenze 2007 dell’art. 10 sono storiche."
+          ],
+          "limitations": [
+            "Il testo coordinato regionale conserva rinvii statali storici e competenze da coordinare; non attestata l’applicabilità integrale nel 2026."
+          ],
+          "next_operation": [
+            "Coordinare rinvii statali e autorizzazioni AUA, competenze e PTA successivo prima dell’applicazione a singole attività."
+          ],
+          "record_version": "92c558b10cef9b21dfbd29f9e9e1fd8ae622b658a4ac7264cef9d199c6e95c92",
+          "evidence": "docs/audit/2026-10-09/incrementale/lotto-15.json",
+          "publication": {
+            "state": "validated_pending_deployment"
           }
         }
       ]
@@ -5559,9 +5592,37 @@
       "record_version": "0deca81c63a6fc1799f51dcc4c79b7b575c5077636f2a9acb538892fdfc7619f",
       "evidence": "docs/audit/2026-10-09/incrementale/lotto-15.json",
       "publication": {
-        "state": "validated_pending_deployment"
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/22",
+        "merge_commit": "62531fd36b9113c4609d40363f5ee951198a5e45",
+        "evidence": "docs/audit/2026-10-09/incrementale/pubblicazione-lotto-15.json",
+        "verified_at": "2026-10-10T10:43:54.788890+00:00"
       },
-      "history": []
+      "history": [
+        {
+          "state": "revisione parziale",
+          "last_activity": "2026-10-10T10:35:44.907591+00:00",
+          "source_urls": [
+            "https://www.arpal.liguria.it/images/stories/testi_normative/REGOLAMENTO_REGIONALE_4_2009.pdf"
+          ],
+          "verified_results": [
+            "Piano con planimetrie, reti, stoccaggio, trattamento, relazione e procedure di gestione. Dimensionamento dell’ordine di 50 m³/ha; acque accumulate avviate ai trattamenti in 48–60 ore. Parametri riferiti al perimetro delle attività dell’art. 7.",
+            "Vieta immissione in acque sotterranee; individua attività soggette e recapiti della prima pioggia in fognatura o acque superficiali, con piano di prevenzione e gestione.",
+            "Efficacia originaria dal quindicesimo giorno successivo alla pubblicazione. Non attesta coordinamento delle competenze e dei rinvii statali successivi."
+          ],
+          "limitations": [
+            "PDF originario; rinvii statali e assetto delle competenze amministrative non ricostruiti integralmente."
+          ],
+          "next_operation": [
+            "Coordinare competenze e rinvii statali/AUA prima di applicare il regolamento a un procedimento corrente."
+          ],
+          "record_version": "0deca81c63a6fc1799f51dcc4c79b7b575c5077636f2a9acb538892fdfc7619f",
+          "evidence": "docs/audit/2026-10-09/incrementale/lotto-15.json",
+          "publication": {
+            "state": "validated_pending_deployment"
+          }
+        }
+      ]
     }
   },
   "batches": [
@@ -5933,8 +5994,17 @@
       ],
       "evidence": "docs/audit/2026-10-09/incrementale/lotto-15.json",
       "publication": {
-        "state": "validated_pending_deployment"
-      }
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/22",
+        "merge_commit": "62531fd36b9113c4609d40363f5ee951198a5e45",
+        "evidence": "docs/audit/2026-10-09/incrementale/pubblicazione-lotto-15.json",
+        "verified_at": "2026-10-10T10:43:54.788890+00:00"
+      },
+      "publication_history": [
+        {
+          "state": "validated_pending_deployment"
+        }
+      ]
     }
   ],
   "next_batch": [

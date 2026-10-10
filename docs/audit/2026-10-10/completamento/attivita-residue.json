@@ -5262,7 +5262,7 @@
     {
       "id": "dl39-riuso-2023",
       "object": "D.L. 39/2023 · art. 7 · Regime temporaneo di riutilizzo irriguo delle acque reflue depurate",
-      "scope_completed": "Lettura completa art. 7 vigente dal 01/03/2026; allegato A: tabella 1 HTML, parte B sezioni 1–3 interamente lette, escluso segmento grafico della parte A. Riscontro proroga D.L. 200/2025 art. 13 c. 1-bis.",
+      "scope_completed": "Completata lettura art. 7 e intero allegato A: HTML tabella 1 e parte B già letti nel lotto 20; ora acquisito PDF e lette visivamente entrambe le pagine GU con tabelle 2–3 e tutte le note. Riscontro proroga 2026 conservato.",
       "verified_findings": [
         {
           "aspect": "content",
@@ -5281,19 +5281,24 @@
           "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2023-04-14;39~art7",
           "locator": "Allegato A: tabella 1 e parte B sezioni 1–3",
           "finding": "Classi A–D correlate a colture e tecniche irrigue. PGR: sistema, ruoli, pericoli, esposizione e valutazione dei rischi; requisiti ulteriori, barriere, monitoraggio e incidenti, articolati negli 11 elementi KRM. Non estese queste procedure indistintamente ai riusi civili o industriali."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/do/atto/caricaPdf?cdimg=23G0004700100010110001&num=0001&dgu=2023-04-14",
+          "locator": "GU 14/04/2023 pp. 11–12: tabelle 2–3 e note, lettura visiva integrale",
+          "finding": "Qualità e monitoraggio distinti per classi A–D. Legionella condizionata al rischio di diffusione aerea; nematodi per pascoli/foraggi. E. coli e altri microbiologici: regola del 90% con deviazioni ammissibili; Salmonella assente nel 100%. N/P per invasi e canali permeabili hanno valori specifici e possono essere più restrittivi secondo PGR. Frequenze della tabella 3 non trasferite indistintamente a tutte le classi."
         }
       ],
       "needed_source_or_operation": [
-        "Acquisire parti grafiche dell’allegato A; verificare DPR attuativo, rinvii aggiornati e applicazione territoriale."
+        "Verificare DPR esecutivo UE e atti regionali; coordinare rinvii aggiornati e prescrizioni dei singoli impianti."
       ],
       "limitations": [
-        "Parti grafiche della parte A non lette; rinvii esterni e altri articoli del decreto non riesaminati.",
-        "Non accertata eventuale entrata in vigore del DPR che anticiperebbe la cessazione del regime temporaneo."
+        "Non riesaminati altri articoli del decreto, rinvii esterni e atti regionali; non accertata eventuale entrata in vigore del DPR attuativo."
       ],
       "actual_access_problems": [],
       "reason_still_open": "Fonte o coordinamento indicati nella coda non ancora verificati. Un accesso riuscito non chiude il confronto normativo.",
       "next_step": [
-        "Acquisire parti grafiche dell’allegato A; verificare DPR attuativo, rinvii aggiornati e applicazione territoriale."
+        "Verificare DPR esecutivo UE e atti regionali; coordinare rinvii aggiornati e prescrizioni dei singoli impianti."
       ]
     }
   ],

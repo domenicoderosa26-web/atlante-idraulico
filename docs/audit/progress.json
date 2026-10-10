@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "catalog_path": "data.json",
-  "updated_at": "2026-10-10T12:20:59.313011+00:00",
+  "updated_at": "2026-10-10T12:32:39.117695+00:00",
   "basis": [
     "docs/audit/2026-10-08/schede.json",
     "docs/audit/2026-10-08/coda.json",
@@ -7119,35 +7119,71 @@
       "record_version": "a74db0f8cb7bca1c7a9f79c819da4f290e3e035d791d9c380dfc8afcb33107de",
       "evidence": "docs/audit/2026-10-09/incrementale/lotto-20.json",
       "publication": {
-        "state": "validated_pending_deployment"
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/27",
+        "merge_commit": "a2a4df4c0601ff32a6c8712aa66681d1ddd915b0",
+        "evidence": "docs/audit/2026-10-09/incrementale/pubblicazione-lotto-20.json",
+        "verified_at": "2026-10-10T12:28:04.663570+00:00"
       },
-      "history": []
+      "history": [],
+      "publication_history": [
+        {
+          "state": "validated_pending_deployment"
+        }
+      ]
     },
     "dl39-riuso-2023": {
       "state": "revisione parziale",
-      "last_activity": "2026-10-10T12:20:59.313011+00:00",
+      "last_activity": "2026-10-10T12:32:39.117695+00:00",
       "source_urls": [
         "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2023-04-14;39~art7",
-        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13"
+        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13",
+        "https://www.normattiva.it/do/atto/caricaPdf?cdimg=23G0004700100010110001&num=0001&dgu=2023-04-14"
       ],
       "verified_results": [
         "Riuso agricolo da impianti già in esercizio al 15 aprile 2023; competenza regione/Provincia autonoma, procedimento unico con ARPA e ASL, termine 45 giorni e potere sostitutivo 30 giorni. PGR predisposto dal gestore insieme ai responsabili di trasporto e stoccaggio.",
         "Termine massimo prorogato al 31 dicembre 2026, con conversione L. 26/2026; resta la cessazione anticipata all’entrata in vigore del DPR previsto dall’art. 7.",
-        "Classi A–D correlate a colture e tecniche irrigue. PGR: sistema, ruoli, pericoli, esposizione e valutazione dei rischi; requisiti ulteriori, barriere, monitoraggio e incidenti, articolati negli 11 elementi KRM. Non estese queste procedure indistintamente ai riusi civili o industriali."
+        "Classi A–D correlate a colture e tecniche irrigue. PGR: sistema, ruoli, pericoli, esposizione e valutazione dei rischi; requisiti ulteriori, barriere, monitoraggio e incidenti, articolati negli 11 elementi KRM. Non estese queste procedure indistintamente ai riusi civili o industriali.",
+        "Qualità e monitoraggio distinti per classi A–D. Legionella condizionata al rischio di diffusione aerea; nematodi per pascoli/foraggi. E. coli e altri microbiologici: regola del 90% con deviazioni ammissibili; Salmonella assente nel 100%. N/P per invasi e canali permeabili hanno valori specifici e possono essere più restrittivi secondo PGR. Frequenze della tabella 3 non trasferite indistintamente a tutte le classi."
       ],
       "limitations": [
-        "Parti grafiche della parte A non lette; rinvii esterni e altri articoli del decreto non riesaminati.",
-        "Non accertata eventuale entrata in vigore del DPR che anticiperebbe la cessazione del regime temporaneo."
+        "Non riesaminati altri articoli del decreto, rinvii esterni e atti regionali; non accertata eventuale entrata in vigore del DPR attuativo."
       ],
       "next_operation": [
-        "Acquisire parti grafiche dell’allegato A; verificare DPR attuativo, rinvii aggiornati e applicazione territoriale."
+        "Verificare DPR esecutivo UE e atti regionali; coordinare rinvii aggiornati e prescrizioni dei singoli impianti."
       ],
-      "record_version": "d3facc513d0f6d4e6e75b14fe323c608ede6b9c8f45e330418b5fd7f9b9b5366",
-      "evidence": "docs/audit/2026-10-09/incrementale/lotto-20.json",
+      "record_version": "5dce0cba8647ff7e46e6eb8775fe6b61c849ac40d8b3b96ec4d45c7964f5da49",
+      "evidence": "docs/audit/2026-10-09/incrementale/lotto-21.json",
       "publication": {
         "state": "validated_pending_deployment"
       },
-      "history": []
+      "history": [
+        {
+          "state": "revisione parziale",
+          "last_activity": "2026-10-10T12:20:59.313011+00:00",
+          "source_urls": [
+            "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2023-04-14;39~art7",
+            "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13"
+          ],
+          "verified_results": [
+            "Riuso agricolo da impianti già in esercizio al 15 aprile 2023; competenza regione/Provincia autonoma, procedimento unico con ARPA e ASL, termine 45 giorni e potere sostitutivo 30 giorni. PGR predisposto dal gestore insieme ai responsabili di trasporto e stoccaggio.",
+            "Termine massimo prorogato al 31 dicembre 2026, con conversione L. 26/2026; resta la cessazione anticipata all’entrata in vigore del DPR previsto dall’art. 7.",
+            "Classi A–D correlate a colture e tecniche irrigue. PGR: sistema, ruoli, pericoli, esposizione e valutazione dei rischi; requisiti ulteriori, barriere, monitoraggio e incidenti, articolati negli 11 elementi KRM. Non estese queste procedure indistintamente ai riusi civili o industriali."
+          ],
+          "limitations": [
+            "Parti grafiche della parte A non lette; rinvii esterni e altri articoli del decreto non riesaminati.",
+            "Non accertata eventuale entrata in vigore del DPR che anticiperebbe la cessazione del regime temporaneo."
+          ],
+          "next_operation": [
+            "Acquisire parti grafiche dell’allegato A; verificare DPR attuativo, rinvii aggiornati e applicazione territoriale."
+          ],
+          "record_version": "d3facc513d0f6d4e6e75b14fe323c608ede6b9c8f45e330418b5fd7f9b9b5366",
+          "evidence": "docs/audit/2026-10-09/incrementale/lotto-20.json",
+          "publication": {
+            "state": "validated_pending_deployment"
+          }
+        }
+      ]
     }
   },
   "batches": [
@@ -7659,6 +7695,26 @@
       ],
       "evidence": "docs/audit/2026-10-09/incrementale/lotto-20.json",
       "publication": {
+        "state": "published_verified",
+        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/27",
+        "merge_commit": "a2a4df4c0601ff32a6c8712aa66681d1ddd915b0",
+        "evidence": "docs/audit/2026-10-09/incrementale/pubblicazione-lotto-20.json",
+        "verified_at": "2026-10-10T12:28:04.663570+00:00"
+      },
+      "publication_history": [
+        {
+          "state": "validated_pending_deployment"
+        }
+      ]
+    },
+    {
+      "id": "incrementale-21",
+      "date": "2026-10-09",
+      "record_ids": [
+        "dl39-riuso-2023"
+      ],
+      "evidence": "docs/audit/2026-10-09/incrementale/lotto-21.json",
+      "publication": {
         "state": "validated_pending_deployment"
       }
     }
@@ -7891,6 +7947,24 @@
         "er1860"
       ],
       "reason": "Proseguire sui perimetri ancora parziali; il catalogo corrente non contiene schede prive di revisione."
+    },
+    {
+      "date": "2026-10-09",
+      "before": [
+        "sar-pai-frane-42-2026",
+        "sar-pai-barrali-162-2026",
+        "ue1765reuse",
+        "ue741reuse",
+        "er1860"
+      ],
+      "after": [
+        "sar-pai-frane-42-2026",
+        "sar-pai-barrali-162-2026",
+        "ue1765reuse",
+        "ue741reuse",
+        "er1860"
+      ],
+      "reason": "Proseguire sui perimetri ancora parziali; il catalogo corrente non contiene schede prive di revisione."
     }
   ],
   "phase3_completion": {
@@ -7971,17 +8045,17 @@
       "adopted": 4
     },
     "full_legal_reviews": 0,
-    "technical_urls": 374,
+    "technical_urls": 375,
     "technical_errors": 57,
     "empty_or_challenge": 13,
-    "unique_sources_with_scoped_semantic_claims": 82,
-    "document_entries": 231,
+    "unique_sources_with_scoped_semantic_claims": 83,
+    "document_entries": 232,
     "coverage_cells": {
       "ricognizione_non_ancora_effettuata": 143,
       "ricognizione_puntuale_non_esaustiva": 29,
       "atto_verificato_e_censito_perimetro_parziale": 4
     },
-    "base_commit": "371da952792cc1945f37d2db0a8970a2ec4e4498"
+    "base_commit": "a2a4df4c0601ff32a6c8712aa66681d1ddd915b0"
   },
   "residual_queue": "docs/audit/2026-10-10/completamento/attivita-residue.json",
   "coverage_snapshot": "docs/audit/2026-10-10/completamento/copertura-aggiornata.json"

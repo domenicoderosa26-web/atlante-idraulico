@@ -13890,6 +13890,10 @@
         {
           "date": "2026-10-10",
           "text": "Fase3, lotto20: riesame documentale nel perimetro dichiarato; fonti e limiti nel registro del lotto."
+        },
+        {
+          "date": "2026-10-10",
+          "text": "Fase3, lotto21: riesame documentale nel perimetro dichiarato; fonti e limiti nel registro del lotto."
         }
       ],
       "checked": "2026-10-10",
@@ -13903,12 +13907,17 @@
           "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13",
           "label": "Normattiva · proroga 2026 e abrogazione condizionata",
           "format": "html"
+        },
+        {
+          "url": "https://www.normattiva.it/do/atto/caricaPdf?cdimg=23G0004700100010110001&num=0001&dgu=2023-04-14",
+          "label": "Normattiva/GU · allegato A, tabelle grafiche 2–3",
+          "format": "pdf"
         }
       ],
-      "document_note": "Allegato A: lette tabella 1 in HTML e parte B completa; parti grafiche sulle prescrizioni e controlli ancora da acquisire.",
+      "document_note": "Letti art. 7 e intero allegato A, inclusi segmenti grafici con qualità, frequenze e note. Rinvii esterni e condizione sul DPR attuativo restano aperti.",
       "documentary_review": {
         "checked_at": "2026-10-10",
-        "scope": "Lettura completa art. 7 vigente dal 01/03/2026; allegato A: tabella 1 HTML, parte B sezioni 1–3 interamente lette, escluso segmento grafico della parte A. Riscontro proroga D.L. 200/2025 art. 13 c. 1-bis.",
+        "scope": "Completata lettura art. 7 e intero allegato A: HTML tabella 1 e parte B già letti nel lotto 20; ora acquisito PDF e lette visivamente entrambe le pagine GU con tabelle 2–3 e tutte le note. Riscontro proroga 2026 conservato.",
         "outcome": "partial",
         "legal_state": "amended",
         "claims": [
@@ -13929,21 +13938,67 @@
             "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2023-04-14;39~art7",
             "locator": "Allegato A: tabella 1 e parte B sezioni 1–3",
             "finding": "Classi A–D correlate a colture e tecniche irrigue. PGR: sistema, ruoli, pericoli, esposizione e valutazione dei rischi; requisiti ulteriori, barriere, monitoraggio e incidenti, articolati negli 11 elementi KRM. Non estese queste procedure indistintamente ai riusi civili o industriali."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.normattiva.it/do/atto/caricaPdf?cdimg=23G0004700100010110001&num=0001&dgu=2023-04-14",
+            "locator": "GU 14/04/2023 pp. 11–12: tabelle 2–3 e note, lettura visiva integrale",
+            "finding": "Qualità e monitoraggio distinti per classi A–D. Legionella condizionata al rischio di diffusione aerea; nematodi per pascoli/foraggi. E. coli e altri microbiologici: regola del 90% con deviazioni ammissibili; Salmonella assente nel 100%. N/P per invasi e canali permeabili hanno valori specifici e possono essere più restrittivi secondo PGR. Frequenze della tabella 3 non trasferite indistintamente a tutte le classi."
           }
         ],
         "limitations": [
-          "Parti grafiche della parte A non lette; rinvii esterni e altri articoli del decreto non riesaminati.",
-          "Non accertata eventuale entrata in vigore del DPR che anticiperebbe la cessazione del regime temporaneo."
+          "Non riesaminati altri articoli del decreto, rinvii esterni e atti regionali; non accertata eventuale entrata in vigore del DPR attuativo."
         ],
         "pending": [
-          "Acquisire parti grafiche dell’allegato A; verificare DPR attuativo, rinvii aggiornati e applicazione territoriale."
+          "Verificare DPR esecutivo UE e atti regionali; coordinare rinvii aggiornati e prescrizioni dei singoli impianti."
         ],
         "source_urls": [
           "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2023-04-14;39~art7",
-          "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13"
+          "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13",
+          "https://www.normattiva.it/do/atto/caricaPdf?cdimg=23G0004700100010110001&num=0001&dgu=2023-04-14"
         ],
-        "record_version": "d3facc513d0f6d4e6e75b14fe323c608ede6b9c8f45e330418b5fd7f9b9b5366"
-      }
+        "record_version": "5dce0cba8647ff7e46e6eb8775fe6b61c849ac40d8b3b96ec4d45c7964f5da49"
+      },
+      "documentary_history": [
+        {
+          "checked_at": "2026-10-10",
+          "scope": "Lettura completa art. 7 vigente dal 01/03/2026; allegato A: tabella 1 HTML, parte B sezioni 1–3 interamente lette, escluso segmento grafico della parte A. Riscontro proroga D.L. 200/2025 art. 13 c. 1-bis.",
+          "outcome": "partial",
+          "legal_state": "amended",
+          "claims": [
+            {
+              "aspect": "content",
+              "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2023-04-14;39~art7",
+              "locator": "Art. 7 commi 1–4",
+              "finding": "Riuso agricolo da impianti già in esercizio al 15 aprile 2023; competenza regione/Provincia autonoma, procedimento unico con ARPA e ASL, termine 45 giorni e potere sostitutivo 30 giorni. PGR predisposto dal gestore insieme ai responsabili di trasporto e stoccaggio."
+            },
+            {
+              "aspect": "amendment",
+              "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13",
+              "locator": "Art. 13 comma 1-bis",
+              "finding": "Termine massimo prorogato al 31 dicembre 2026, con conversione L. 26/2026; resta la cessazione anticipata all’entrata in vigore del DPR previsto dall’art. 7."
+            },
+            {
+              "aspect": "content",
+              "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2023-04-14;39~art7",
+              "locator": "Allegato A: tabella 1 e parte B sezioni 1–3",
+              "finding": "Classi A–D correlate a colture e tecniche irrigue. PGR: sistema, ruoli, pericoli, esposizione e valutazione dei rischi; requisiti ulteriori, barriere, monitoraggio e incidenti, articolati negli 11 elementi KRM. Non estese queste procedure indistintamente ai riusi civili o industriali."
+            }
+          ],
+          "limitations": [
+            "Parti grafiche della parte A non lette; rinvii esterni e altri articoli del decreto non riesaminati.",
+            "Non accertata eventuale entrata in vigore del DPR che anticiperebbe la cessazione del regime temporaneo."
+          ],
+          "pending": [
+            "Acquisire parti grafiche dell’allegato A; verificare DPR attuativo, rinvii aggiornati e applicazione territoriale."
+          ],
+          "source_urls": [
+            "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2023-04-14;39~art7",
+            "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13"
+          ],
+          "record_version": "d3facc513d0f6d4e6e75b14fe323c608ede6b9c8f45e330418b5fd7f9b9b5366"
+        }
+      ]
     }
   ],
   "regions": [

@@ -1,0 +1,93 @@
+{
+  "checked_at": "2026-10-10T17:51:48.504496+00:00",
+  "record_ids": [
+    "rd523",
+    "rd1775",
+    "lom7",
+    "lom-rr3-2025"
+  ],
+  "territorial_cells": [
+    {
+      "territory": "Lombardia",
+      "sector": "invarianza"
+    },
+    {
+      "territory": "Lombardia",
+      "sector": "prima_pioggia"
+    },
+    {
+      "territory": "Lombardia",
+      "sector": "scarichi"
+    },
+    {
+      "territory": "Lombardia",
+      "sector": "regolamenti_attuativi"
+    }
+  ],
+  "method": "Approfondimenti mirati e riuso delle precedenti evidenze sostanziali, senza nuovo audit generale. Claims e cronologia in data.json; attività aperte nella coda esistente.",
+  "source_locators": [
+    {
+      "url": "https://www.consiglioregionale.calabria.it/upload/istruttoria/R.D.%2011%20dicembre%201933,%20n.%201775%20.pdf",
+      "locator": "PDF p. 85 art. 217; pp. 90–91 art. 234 n. 19",
+      "method": "Lettura del testo PDF tramite servizio web; acquisizione locale successiva bloccata HTTP 403.",
+      "currency_limit": "Riproduzione istituzionale senza attestazione corrente"
+    },
+    {
+      "url": "https://www.protezionecivile.gov.it/static/ef607bf684989575e3d49def66060408/dlgs1121998.pdf",
+      "locator": "PDF pp. 46–49 artt. 86/88/89",
+      "method": "PDF completo acquisito, estrazione testo e controllo visivo p. 48"
+    },
+    {
+      "url": "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/accessibile/main.aspx?idparte=rr002025032800003ar0001a&selnode=rr002025032800003&view=showpart",
+      "locator": "Art. 1 r/s/t/u e intestazione",
+      "method": "Lettura banca regionale via servizio web; timeout nella successiva acquisizione locale."
+    }
+  ],
+  "access_receipts": [
+    {
+      "id": "rd1775",
+      "url": "https://www.consiglioregionale.calabria.it/upload/istruttoria/R.D.%2011%20dicembre%201933%2C%20n.%201775%20.pdf",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "dl112",
+      "url": "https://www.protezionecivile.gov.it/static/ef607bf684989575e3d49def66060408/dlgs1121998.pdf",
+      "final_url": "https://www.protezionecivile.gov.it/static/ef607bf684989575e3d49def66060408/dlgs1121998.pdf",
+      "http_status": 200,
+      "bytes": 488610,
+      "sha256": "95961a9b8e00a862ecef0f4e3f41bc513afd802359a68b1d0c20c1e09ee2d3ff"
+    },
+    {
+      "id": "rr3",
+      "url": "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/accessibile/main.aspx?idparte=rr002025032800003ar0001a&selnode=rr002025032800003&view=showpart",
+      "error": "The read operation timed out"
+    },
+    {
+      "id": "rr4",
+      "url": "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/main.aspx?idparte=rr002006032400004ar0002a&view=showpart",
+      "error": "The read operation timed out"
+    },
+    {
+      "id": "rr6landing",
+      "url": "https://www.regione.lombardia.it/ambiente-e-territorio/governo-delle-acque/disciplina-scarichi-di-acque-reflue-urbane,-domestiche-e-assimilate-e-approvazione-progetti-degli-impianti-di-depurazione",
+      "final_url": "https://www.regione.lombardia.it/ambiente-e-territorio/governo-delle-acque/disciplina-scarichi-di-acque-reflue-urbane,-domestiche-e-assimilate-e-approvazione-progetti-degli-impianti-di-depurazione",
+      "http_status": 200,
+      "bytes": 393247,
+      "sha256": "7b717299bb89a48c46c6a8044ee05def60c757b79477e0bd8caf79268d0bf1a0"
+    },
+    {
+      "id": "rr6",
+      "url": "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/main.aspx?iddoc=rr002019032900006&view=showdoc",
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.regione.lombardia.it/content/dam/rl/canali-tematici-servizi/06-ambiente-e-territorio/12-governo-delle-acque/red-disciplina-scarichi-di-acque-reflue-urbane,-domestiche-e-assimilate-e-approvazione-progetti-degli-impianti-di-depurazione/allegati/RR-6-2~1.PDF",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "normattiva_access_limit": {
+    "date": "2026-10-10",
+    "result": "Pagine art. 217/234 RD1775 e art. 86/88/89 DL112: HTTP 500; nessuna conclusione giuridica da questo esito."
+  },
+  "phase3_complete": false
+}

@@ -34,8 +34,8 @@
       "kind": "Atto normativo",
       "status": "Parzialmente abrogato · competenze e applicabilità territoriale da coordinare",
       "source_kind": "Testo coordinato · Normattiva",
-      "note": "Il collegamento principale apre il fascicolo ufficiale della Gazzetta Ufficiale contenente il testo originario. La ricostruzione della vigenza e delle modifiche successive resta da completare.",
-      "checked": "2026-10-09",
+      "note": "Fonti originarie e precedenti riscontri Normattiva conservati. Approfondito il coordinamento con R.D. 1775 e D.Lgs. 112/1998 su riproduzioni istituzionali; autorità attuale e disciplina locale da verificare.",
+      "checked": "2026-10-10",
       "relations": [],
       "history": [
         {
@@ -53,6 +53,10 @@
         {
           "date": "2026-10-09",
           "text": "Fase3, lotto12: riesame documentale nel perimetro dichiarato; fonti e limiti nel registro del lotto."
+        },
+        {
+          "date": "2026-10-10",
+          "text": "Lotto 22: coordinamento documentato nei passaggi indicati; revisione complessiva ancora parziale."
         }
       ],
       "documents": [
@@ -66,8 +70,8 @@
       "document_label": "Testo originario · Gazzetta Ufficiale",
       "document_note": "GU e PDF storici conservati come versioni originarie. Il testo Normattiva evidenzia abrogazioni puntuali; autorità competente attuale da individuare per territorio.",
       "documentary_review": {
-        "checked_at": "2026-10-09",
-        "scope": "Lettura Normattiva artt.1,2,93-98 e note: divieti, permessi e abrogazioni puntuali; coordinamento competenze attuali non concluso.",
+        "checked_at": "2026-10-10",
+        "scope": "Lettura Normattiva artt.1,2,93-98 e note: divieti, permessi e abrogazioni puntuali; coordinamento competenze attuali non concluso. Approfondimento artt. 217 e 234 n. 19 R.D. 1775 e artt. 86/88/89 D.Lgs. 112/1998 su riproduzioni istituzionali; aggiornamento corrente non certificato.",
         "outcome": "partial",
         "legal_state": "partially_repealed",
         "claims": [
@@ -88,13 +92,34 @@
             "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=5&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=97&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
             "locator": "Art.97 e note; art.98 e note",
             "finding": "Art.97 lettere f,g,h,i e art.98 lettere a,b,c risultano abrogati dal RD1775/1933; art.98 f soppresso dalla L774/1911. Art.97 k e98 d: abrogazione limitata alla parte compresa nell’art.217RD1775, come indicato dalle note. Il TU non è integralmente invariato."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.consiglioregionale.calabria.it/upload/istruttoria/R.D.%2011%20dicembre%201933,%20n.%201775%20.pdf",
+            "locator": "Art. 217, PDF p. 85",
+            "finding": "La riproduzione distingue opere sulle derivazioni soggette ad autorizzazione: trasformazioni delle chiuse, incili, botti e opere in alveo, comprese opere spondali che alterano derivazione o restituzione; resta il rinvio all’art. 49."
+          },
+          {
+            "aspect": "amendment",
+            "source_url": "https://www.consiglioregionale.calabria.it/upload/istruttoria/R.D.%2011%20dicembre%201933,%20n.%201775%20.pdf",
+            "locator": "Art. 234, n. 19, PDF pp. 90–91",
+            "finding": "Il testo dispone le abrogazioni puntuali del R.D. 523/1904: art. 97 f/g/h/i e art. 98 a/b/c; art. 97 k e art. 98 d soltanto nella parte ricompresa nell’art. 217."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.protezionecivile.gov.it/static/ef607bf684989575e3d49def66060408/dlgs1121998.pdf",
+            "locator": "Artt. 86, 88 e 89, PDF pp. 46–49",
+            "finding": "Il documento istituzionale attribuisce gestione del demanio e funzioni di polizia idraulica a regioni ed enti locali, distinguendo i compiti nazionali dell’art. 88 e le condizioni dei casi interregionali dell’art. 89. Non identifica l’ufficio competente per ogni progetto."
           }
         ],
         "limitations": [
-          "Non letto integralmente il TU né ricostruiti riassetto delle competenze e regole regionali/locali."
+          "Non letto integralmente il TU né ricostruiti riassetto delle competenze e regole regionali/locali.",
+          "Riproduzioni istituzionali senza attestazione di consolidamento al 10 ottobre 2026; accesso alle pagine degli articoli Normattiva non riuscito.",
+          "Restano da verificare modifiche successive, discipline regionali, reticolo e autorità competente per l’intervento concreto."
         ],
         "pending": [
-          "Leggere direttamente artt.217/234RD1775 e verificare trasferimenti di competenza e disciplina del reticolo interessato."
+          "Confrontare questi articoli con il testo corrente ufficiale e gli atti successivi; ricostruire disciplina territoriale del reticolo e ufficio competente.",
+          "Completare gli altri passaggi del TU e i procedimenti concessori non esaminati."
         ],
         "source_urls": [
           "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=93&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
@@ -105,9 +130,11 @@
           "https://www.normattiva.it/atto/caricaArticolo?art.versione=3&art.idGruppo=1&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=2&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
           "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=94&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
           "https://www.normattiva.it/atto/caricaArticolo?art.versione=3&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=95&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
-          "https://www.normattiva.it/atto/caricaArticolo?art.versione=5&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=98&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&"
+          "https://www.normattiva.it/atto/caricaArticolo?art.versione=5&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=98&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+          "https://www.consiglioregionale.calabria.it/upload/istruttoria/R.D.%2011%20dicembre%201933,%20n.%201775%20.pdf",
+          "https://www.protezionecivile.gov.it/static/ef607bf684989575e3d49def66060408/dlgs1121998.pdf"
         ],
-        "record_version": "d8331b7739212dc053e1794011aebfbf2e878107dd8fab83cfd4d1f3d16bd441"
+        "record_version": "82c009775fb90d338efa8079d0f622f2ea470d4aa5bcf0362b2539e32642767c"
       },
       "documentary_history": [
         {
@@ -133,6 +160,50 @@
             "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
           ],
           "record_version": "9f892c5843631a0c07e5c2c501064b03cd985e1fdc119efd4c046ef6213fb084"
+        },
+        {
+          "checked_at": "2026-10-09",
+          "scope": "Lettura Normattiva artt.1,2,93-98 e note: divieti, permessi e abrogazioni puntuali; coordinamento competenze attuali non concluso.",
+          "outcome": "partial",
+          "legal_state": "partially_repealed",
+          "claims": [
+            {
+              "aspect": "content",
+              "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=93&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+              "locator": "Artt.93-95, testo coordinato",
+              "finding": "Opere in alveo richiedono permesso; il riferimento comprende rami/diversivi asciutti in parte dell’anno. Difese frontiste non devono alterare il regime né danneggiare diritti altrui."
+            },
+            {
+              "aspect": "content",
+              "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=3&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=96&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+              "locator": "Art.96, lettere b,e,f,g,h",
+              "finding": "La lettera f richiama prima le discipline locali; sussidiariamente prevede4m per piantagioni/smovimenti e10m per fabbriche/scavi dal piede degli argini/accessori. Non è una distanza universale applicabile ignorando disciplina locale e riferimenti geometrici."
+            },
+            {
+              "aspect": "amendment",
+              "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=5&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=97&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+              "locator": "Art.97 e note; art.98 e note",
+              "finding": "Art.97 lettere f,g,h,i e art.98 lettere a,b,c risultano abrogati dal RD1775/1933; art.98 f soppresso dalla L774/1911. Art.97 k e98 d: abrogazione limitata alla parte compresa nell’art.217RD1775, come indicato dalle note. Il TU non è integralmente invariato."
+            }
+          ],
+          "limitations": [
+            "Non letto integralmente il TU né ricostruiti riassetto delle competenze e regole regionali/locali."
+          ],
+          "pending": [
+            "Leggere direttamente artt.217/234RD1775 e verificare trasferimenti di competenza e disciplina del reticolo interessato."
+          ],
+          "source_urls": [
+            "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=93&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+            "https://www.normattiva.it/atto/caricaArticolo?art.versione=3&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=96&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+            "https://www.normattiva.it/atto/caricaArticolo?art.versione=5&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=97&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+            "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=004U0523&atto.dataPubblicazioneGazzetta=1904-10-07&tipoDettaglio=vigente",
+            "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=1&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=1&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+            "https://www.normattiva.it/atto/caricaArticolo?art.versione=3&art.idGruppo=1&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=2&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+            "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=94&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+            "https://www.normattiva.it/atto/caricaArticolo?art.versione=3&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=95&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+            "https://www.normattiva.it/atto/caricaArticolo?art.versione=5&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=98&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&"
+          ],
+          "record_version": "d8331b7739212dc053e1794011aebfbf2e878107dd8fab83cfd4d1f3d16bd441"
         }
       ]
     },
@@ -159,7 +230,7 @@
       "status": "Vigenza da ricostruire",
       "source_kind": "PDF ufficiale · Gazzetta Ufficiale",
       "note": "Il collegamento principale apre il fascicolo ufficiale della Gazzetta Ufficiale contenente il testo originario. La ricostruzione delle modifiche e dell’applicabilità delle singole disposizioni resta da completare.",
-      "checked": "2026-09-19",
+      "checked": "2026-10-10",
       "relations": [],
       "history": [
         {
@@ -173,6 +244,10 @@
         {
           "date": "2026-09-18",
           "text": "Revisione manuale dei rimandi ai documenti e della relativa descrizione."
+        },
+        {
+          "date": "2026-10-10",
+          "text": "Lotto 22: coordinamento documentato nei passaggi indicati; revisione complessiva ancora parziale."
         }
       ],
       "documents": [
@@ -184,14 +259,16 @@
       ],
       "document_url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=033U1775&atto.dataPubblicazioneGazzetta=1934-01-08&tipoSerie=serie_generale&tipoVigenza=originario",
       "document_label": "Testo originario · Gazzetta Ufficiale",
-      "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto.",
+      "document_note": "GU originaria conservata. Letti ulteriori passaggi su riproduzioni istituzionali, senza attestare un testo integralmente aggiornato.",
       "documentary_review": {
-        "checked_at": "2026-10-08",
-        "scope": "Lettura sostanziale circoscritta: Art. 7; PDF p. 3",
+        "checked_at": "2026-10-10",
+        "scope": "Lettura sostanziale circoscritta: Art. 7; PDF p. 3 Approfondimento artt. 217 e 234 n. 19 R.D. 1775 e artt. 86/88/89 D.Lgs. 112/1998 su riproduzioni istituzionali; aggiornamento corrente non certificato.",
         "outcome": "partial",
         "legal_state": "partial",
         "source_urls": [
-          "https://www.gazzettaufficiale.it/eli/gu/1934/01/08/5/sg/pdf"
+          "https://www.gazzettaufficiale.it/eli/gu/1934/01/08/5/sg/pdf",
+          "https://www.consiglioregionale.calabria.it/upload/istruttoria/R.D.%2011%20dicembre%201933,%20n.%201775%20.pdf",
+          "https://www.protezionecivile.gov.it/static/ef607bf684989575e3d49def66060408/dlgs1121998.pdf"
         ],
         "claims": [
           {
@@ -199,16 +276,63 @@
             "source_url": "https://www.gazzettaufficiale.it/eli/gu/1934/01/08/5/sg/pdf",
             "locator": "Art. 7; PDF p. 3",
             "finding": "Le domande di nuova concessione sono accompagnate dal progetto delle opere di raccolta, regolazione, derivazione e restituzione. Il testo originario nomina organi amministrativi storici; il riparto di competenze attuale resta da coordinare."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.consiglioregionale.calabria.it/upload/istruttoria/R.D.%2011%20dicembre%201933,%20n.%201775%20.pdf",
+            "locator": "Art. 217, PDF p. 85",
+            "finding": "La riproduzione distingue opere sulle derivazioni soggette ad autorizzazione: trasformazioni delle chiuse, incili, botti e opere in alveo, comprese opere spondali che alterano derivazione o restituzione; resta il rinvio all’art. 49."
+          },
+          {
+            "aspect": "amendment",
+            "source_url": "https://www.consiglioregionale.calabria.it/upload/istruttoria/R.D.%2011%20dicembre%201933,%20n.%201775%20.pdf",
+            "locator": "Art. 234, n. 19, PDF pp. 90–91",
+            "finding": "Il testo dispone le abrogazioni puntuali del R.D. 523/1904: art. 97 f/g/h/i e art. 98 a/b/c; art. 97 k e art. 98 d soltanto nella parte ricompresa nell’art. 217."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.protezionecivile.gov.it/static/ef607bf684989575e3d49def66060408/dlgs1121998.pdf",
+            "locator": "Artt. 86, 88 e 89, PDF pp. 46–49",
+            "finding": "Il documento istituzionale attribuisce gestione del demanio e funzioni di polizia idraulica a regioni ed enti locali, distinguendo i compiti nazionali dell’art. 88 e le condizioni dei casi interregionali dell’art. 89. Non identifica l’ufficio competente per ogni progetto."
           }
         ],
         "limitations": [
-          "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+          "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione.",
+          "Riproduzioni istituzionali senza attestazione di consolidamento al 10 ottobre 2026; accesso alle pagine degli articoli Normattiva non riuscito.",
+          "Restano da verificare modifiche successive, discipline regionali, reticolo e autorità competente per l’intervento concreto."
         ],
         "pending": [
-          "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+          "Confrontare questi articoli con il testo corrente ufficiale e gli atti successivi; ricostruire disciplina territoriale del reticolo e ufficio competente.",
+          "Completare gli altri passaggi del TU e i procedimenti concessori non esaminati."
         ],
-        "record_version": "1dd5cce771bb0f03c5d9f046379980ea4e58c0b5000cf53e2592c7ac0fbd6474"
-      }
+        "record_version": "61c8eb6da700d73cbe3678145dd0cc7191b0a282e848b1e4f072d26fa0dfbc94"
+      },
+      "documentary_history": [
+        {
+          "checked_at": "2026-10-08",
+          "scope": "Lettura sostanziale circoscritta: Art. 7; PDF p. 3",
+          "outcome": "partial",
+          "legal_state": "partial",
+          "source_urls": [
+            "https://www.gazzettaufficiale.it/eli/gu/1934/01/08/5/sg/pdf"
+          ],
+          "claims": [
+            {
+              "aspect": "content",
+              "source_url": "https://www.gazzettaufficiale.it/eli/gu/1934/01/08/5/sg/pdf",
+              "locator": "Art. 7; PDF p. 3",
+              "finding": "Le domande di nuova concessione sono accompagnate dal progetto delle opere di raccolta, regolazione, derivazione e restituzione. Il testo originario nomina organi amministrativi storici; il riparto di competenze attuale resta da coordinare."
+            }
+          ],
+          "limitations": [
+            "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+          ],
+          "pending": [
+            "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+          ],
+          "record_version": "1dd5cce771bb0f03c5d9f046379980ea4e58c0b5000cf53e2592c7ac0fbd6474"
+        }
+      ]
     },
     {
       "id": "rd368",
@@ -970,10 +1094,10 @@
         "Studio comunale e documento semplificato"
       ],
       "kind": "Atto normativo",
-      "status": "Testo coordinato verificato",
+      "status": "Revisione parziale · modifiche progettuali 2025 esaminate",
       "source_kind": "Portale istituzionale",
       "note": "Il regolamento si applica su tutto il territorio regionale. La pagina regionale conferma gli aggiornamenti introdotti dal R.R. 8/2019 e dal R.R. 3/2025; il collegamento apre il testo coordinato della banca dati del Consiglio regionale.",
-      "checked": "2026-09-18",
+      "checked": "2026-10-10",
       "relations": [],
       "history": [
         {
@@ -991,6 +1115,10 @@
         {
           "date": "2026-10-08",
           "text": "Audit incrementale, lotto 04: approfondimento documentale nel perimetro dichiarato e integrazione delle fonti pertinenti; revisione complessiva parziale."
+        },
+        {
+          "date": "2026-10-10",
+          "text": "Lotto 23: approfonditi aggiornamenti progettuali R.R. 3/2025; corretta la precedente etichetta generale di verifica."
         }
       ],
       "documents": [
@@ -1004,12 +1132,13 @@
       "document_label": "R.R. 7/2017 · testo coordinato",
       "document_note": "Approfonditi art. 10 e art. 11, commi 1 e 2 lettera a, del testo coordinato ufficiale. Distinti Tr 50 per dimensionamento e Tr 100 per verifica qualitativa; conservata nella cronologia la precedente revisione documentale. Restano da completare metodi, allegati e catena degli aggiornamenti.",
       "documentary_review": {
-        "checked_at": "2026-10-08",
-        "scope": "Approfondimento del testo coordinato: art. 10 completo e art. 11, commi 1 e 2 lettera a; conservati i precedenti riscontri artt. 1, 7 e 14.",
+        "checked_at": "2026-10-10",
+        "scope": "Approfondimento del testo coordinato: art. 10 completo e art. 11, commi 1 e 2 lettera a; conservati i precedenti riscontri artt. 1, 7 e 14. Lettura delle modifiche R.R. 3/2025 art. 1 lettere r/s/t/u.",
         "outcome": "partial",
         "legal_state": "partial",
         "source_urls": [
-          "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf"
+          "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf",
+          "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/accessibile/main.aspx?idparte=rr002025032800003ar0001a&selnode=rr002025032800003&view=showpart"
         ],
         "claims": [
           {
@@ -1029,15 +1158,28 @@
             "source_url": "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf",
             "locator": "Art. 11, commi 1 e 2 lettera a",
             "finding": "Il dimensionamento delle opere di laminazione/infiltrazione adotta Tr 50 anni; Tr 100 serve alla valutazione qualitativa dei danni e delle ulteriori protezioni per il rischio residuo. Non si scambiano dimensionamento e verifica."
+          },
+          {
+            "aspect": "amendment",
+            "source_url": "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/accessibile/main.aspx?idparte=rr002025032800003ar0001a&selnode=rr002025032800003&view=showpart",
+            "locator": "Art. 1, comma 1, lettere r), s), t), u)",
+            "finding": "Modifica portata ammissibile, superficie dell’intervento e coefficienti di deflusso; il progetto diventa esecutivo. La verifica qualitativa a 100 anni comprende misure locali per il rischio residuo. Le classi considerano l’intervento unitario, senza frazionamento."
+          },
+          {
+            "aspect": "identity",
+            "source_url": "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/accessibile/main.aspx?idparte=rr002025032800003ar0001a&selnode=rr002025032800003&view=showpart",
+            "locator": "Intestazione e art. 1",
+            "finding": "R.R. Lombardia 28 marzo 2025 n. 3, BURL n. 14 supplemento del 1 aprile 2025: modifica il R.R. 7/2017. Letta la disposizione modificativa indicata; allegati ed eventuali atti successivi non verificati."
           }
         ],
         "limitations": [
-          "La lettura non certifica tutti gli allegati, le cartografie o l’intera catena degli atti successivi."
+          "La lettura non certifica tutti gli allegati, le cartografie o l’intera catena degli atti successivi.",
+          "Disposizione modificativa letta in banca regionale; controllo BURL e allegati da completare."
         ],
         "pending": [
-          "Completare art. 11, requisiti minimi e allegati di calcolo e ricostruire gli aggiornamenti ulteriori al testo coordinato esaminato."
+          "Completare art. 11, art. 12, allegati di calcolo e cartografie; verificare atti ulteriori e versione applicabile al progetto."
         ],
-        "record_version": "04928464548a9cf8ca67ed00abe39def0e7d216a06e672eeb60c7b1feee760e3"
+        "record_version": "7ae133fd1b4740eb9278032a200e8a281d5f788abe385a5aa07ce4f14693a2a2"
       },
       "documentary_history": [
         {
@@ -1063,6 +1205,42 @@
             "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati."
           ],
           "record_version": "c0ae778d4d2dd16a033413bf1695820226d58aeda46c3bfea39e3761ed92b604"
+        },
+        {
+          "checked_at": "2026-10-08",
+          "scope": "Approfondimento del testo coordinato: art. 10 completo e art. 11, commi 1 e 2 lettera a; conservati i precedenti riscontri artt. 1, 7 e 14.",
+          "outcome": "partial",
+          "legal_state": "partial",
+          "source_urls": [
+            "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf"
+          ],
+          "claims": [
+            {
+              "aspect": "content",
+              "source_url": "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf",
+              "locator": "Artt. 1 e 7; art. 14, comma 8; note di modifica al R.R. 3/2025",
+              "finding": "Il testo esaminato distingue criticità territoriali A/B/C e documento semplificato comunale; questo considera criticità locali, misure strutturali/non strutturali, volumi riservati e infiltrazione. Le note riportano modifiche del R.R. 28 marzo 2025 n. 3; non è ricostruita la catena completa degli aggiornamenti."
+            },
+            {
+              "aspect": "content",
+              "source_url": "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf",
+              "locator": "Art. 10, commi 1-4",
+              "finding": "Il contenuto del progetto dipende da impermeabilizzazione e ambito A/B/C; distingue casi con requisiti minimi e piccoli interventi fino a 300 m². Include relazione, elaborati, manutenzione e asseverazione secondo i casi."
+            },
+            {
+              "aspect": "content",
+              "source_url": "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf",
+              "locator": "Art. 11, commi 1 e 2 lettera a",
+              "finding": "Il dimensionamento delle opere di laminazione/infiltrazione adotta Tr 50 anni; Tr 100 serve alla valutazione qualitativa dei danni e delle ulteriori protezioni per il rischio residuo. Non si scambiano dimensionamento e verifica."
+            }
+          ],
+          "limitations": [
+            "La lettura non certifica tutti gli allegati, le cartografie o l’intera catena degli atti successivi."
+          ],
+          "pending": [
+            "Completare art. 11, requisiti minimi e allegati di calcolo e ricostruire gli aggiornamenti ulteriori al testo coordinato esaminato."
+          ],
+          "record_version": "04928464548a9cf8ca67ed00abe39def0e7d216a06e672eeb60c7b1feee760e3"
         }
       ]
     },
@@ -13999,6 +14177,80 @@
           "record_version": "d3facc513d0f6d4e6e75b14fe323c608ede6b9c8f45e330418b5fd7f9b9b5366"
         }
       ]
+    },
+    {
+      "id": "lom-rr3-2025",
+      "ref": "R.R. Lombardia 3/2025",
+      "title": "Modifiche ai principi di invarianza idraulica e idrologica",
+      "level": "Regionale",
+      "regions": [
+        "Lombardia"
+      ],
+      "topics": [
+        "Invarianza idraulica e idrologica"
+      ],
+      "date": "2025-03-28",
+      "url": "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/accessibile/main.aspx?idparte=rr002025032800003ar0001a&selnode=rr002025032800003&view=showpart",
+      "summary": "Modifica il R.R. 7/2017: superficie interessata, coefficienti di deflusso, contenuto del progetto e rischio residuo. Scheda circoscritta ai passaggi esaminati.",
+      "focus": [
+        "Art. 1, comma 1, lettere r/s/t/u",
+        "Intervento unitario e superficie interessata",
+        "Progetto esecutivo e rischio residuo"
+      ],
+      "kind": "Atto normativo",
+      "status": "Verifica parziale · atti successivi e allegati da coordinare",
+      "source_kind": "Banca normativa del Consiglio regionale",
+      "note": "Estremi e disposizioni modificative consultati nella banca istituzionale; non attestata la vigenza integrale al giorno della verifica.",
+      "checked": "2026-10-10",
+      "relations": [
+        {
+          "type": "modifica",
+          "id": "lom7"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-10",
+          "text": "Lotto 23: nuovo atto censito dopo lettura circoscritta delle disposizioni modificative."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/accessibile/main.aspx?idparte=rr002025032800003ar0001a&selnode=rr002025032800003&view=showpart",
+          "label": "R.R. 3/2025 · art. 1 e intestazione istituzionale",
+          "format": "html"
+        }
+      ],
+      "documentary_review": {
+        "checked_at": "2026-10-10",
+        "scope": "Identità e art. 1, comma 1, lettere r/s/t/u; nessuna certificazione complessiva degli allegati.",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "claims": [
+          {
+            "aspect": "amendment",
+            "source_url": "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/accessibile/main.aspx?idparte=rr002025032800003ar0001a&selnode=rr002025032800003&view=showpart",
+            "locator": "Art. 1, comma 1, lettere r), s), t), u)",
+            "finding": "Modifica portata ammissibile, superficie dell’intervento e coefficienti di deflusso; il progetto diventa esecutivo. La verifica qualitativa a 100 anni comprende misure locali per il rischio residuo. Le classi considerano l’intervento unitario, senza frazionamento."
+          },
+          {
+            "aspect": "identity",
+            "source_url": "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/accessibile/main.aspx?idparte=rr002025032800003ar0001a&selnode=rr002025032800003&view=showpart",
+            "locator": "Intestazione e art. 1",
+            "finding": "R.R. Lombardia 28 marzo 2025 n. 3, BURL n. 14 supplemento del 1 aprile 2025: modifica il R.R. 7/2017. Letta la disposizione modificativa indicata; allegati ed eventuali atti successivi non verificati."
+          }
+        ],
+        "source_urls": [
+          "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/accessibile/main.aspx?idparte=rr002025032800003ar0001a&selnode=rr002025032800003&view=showpart"
+        ],
+        "limitations": [
+          "Non esaminati allegati, BURL integrale, efficacia temporale e atti successivi."
+        ],
+        "pending": [
+          "Acquisire BURL e allegati, verificare efficacia e successive modifiche e coordinare il testo del R.R. 7/2017."
+        ],
+        "record_version": "e7441608af02224009becf75819ed6e7fbbfb0704fc36cb7e3b14efa583ef8c2"
+      }
     }
   ],
   "regions": [

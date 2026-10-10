@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-10-10T17:56:18.082545+00:00",
+  "base_commit": "0a251d58f4fc4b940482e4b7e3d7ba850b62c18d",
+  "tests": {
+    "topics": "116 schede valide",
+    "archive": "116 schede, ID e cronologie conservati",
+    "python_unittest": {
+      "tests": 69,
+      "result": "OK"
+    },
+    "javascript_syntax": "OK",
+    "javascript_frontend": "14 filtri canonici e 168 combinazioni territorio/livello OK"
+  },
+  "scope": "Codice delle automazioni invariato; un nuovo atto regionale, tre approfondimenti e quattro celle Lombardia aggiornate con limiti espliciti.",
+  "phase3_complete": false
+}

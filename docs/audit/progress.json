@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "catalog_path": "data.json",
-  "updated_at": "2026-10-10T10:35:44.907591+00:00",
+  "updated_at": "2026-10-10T11:52:00.891659+00:00",
   "basis": [
     "docs/audit/2026-10-08/schede.json",
     "docs/audit/2026-10-08/coda.json",
@@ -5623,6 +5623,112 @@
           }
         }
       ]
+    },
+    "tos46": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-10T11:50:59.605183+00:00",
+      "source_urls": [
+        "https://raccoltanormativa.consiglio.regione.toscana.it/articolo?pr=idx,0%3Bartic,1%3Barticparziale,0&urndoc=urn:nir:regione.toscana:regolamento.giunta:2008-09-08%3B46/R",
+        "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?file_path=regolamento.giunta/2008/regolamento.giunta_2008_46R_a5/regolamento.giunta_2008_46R_a5_v5.pdf",
+        "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?id=9345c577-24d8-11ef-bf7a-005056959b60&ext=pdf"
+      ],
+      "verified_results": [
+        "Note: 76/R/2012 riscrive disciplina e ambiti; 59/R/2013 integra art. 41; 3/R/2018 aggiorna competenze e aggiunge art. 43 c. 7 bis. Il coordinato non sostituisce il BURT.",
+        "Attività a rischio con condizioni di esclusione verificate dall’autorità. Il piano può comportare trattamento anche oltre la prima pioggia; le attività AIA sono disciplinate nel relativo procedimento.",
+        "Superficie scolante riferita alle aree potenzialmente inquinanti; esclusi tetti e suoli stabilmente vegetati senza ruscellamento. Piano con reti, volumi, trattamenti e gestione. Tabella 6: cantieri oltre 5.000 m², cave e miniere; soglia non universale."
+      ],
+      "limitations": [
+        "Catena di pubblicazione/efficacia dei modificativi e rinvii alla LR 20/2006 non integralmente ricostruiti.",
+        "Altri allegati e disciplina degli scaricatori non integralmente riesaminati."
+      ],
+      "next_operation": [
+        "Riscontrare nel BURT i modificativi e gli aggiornamenti successivi, coordinare LR 20/2006 e completare gli altri allegati pertinenti."
+      ],
+      "record_version": "1aa8f5bd702c1235121e1990c854bd49a0ee7116141233c6f2d783f681742a1c",
+      "evidence": "docs/audit/2026-10-09/incrementale/lotto-16.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
+    },
+    "umb627": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-10T11:50:59.605183+00:00",
+      "source_urls": [
+        "https://www.va.regione.umbria.it/documents/3852172/10456087/DIRETTIVA%2BSCARICHI%2BDGR%2B627-2019/3826918e-7531-4200-aa27-1bb1cbb2e505"
+      ],
+      "verified_results": [
+        "DGR 627 del 7 maggio 2019 approva e pubblica la direttiva tecnica; disciplina gli endoprocedimenti di autorizzazione allo scarico.",
+        "Prima pioggia: 5 mm in 15 minuti, preceduti da 48 ore asciutte. Per le attività elencate, il dilavamento contaminato è refluo industriale anche oltre tale aliquota; esclusi parcheggio e transito esclusivi.",
+        "Reti miste e separate: dispositivi negli agglomerati oltre 10.000 AE, con attuazione previo accordo Regione/AURI/gestori. Non estesa indistintamente la regola a ogni insediamento.",
+        "Annulla e sostituisce integralmente la disciplina DGR 1024/2018 e precedenti; distinto dall’accertamento di modifiche successive alla 627.",
+        "Efficacia decorsi 15 giorni dalla pubblicazione del 22 maggio 2019. Termini transitori originari e modelli non diventano nuove scadenze nel 2026."
+      ],
+      "limitations": [
+        "Testo originario 2019; modifiche successive, attuazione degli accordi e allegati non integralmente ricostruiti."
+      ],
+      "next_operation": [
+        "Acquisire gli atti modificativi successivi e il coordinato regionale; riesaminare allegati e accordi attuativi pertinenti."
+      ],
+      "record_version": "ff82f867649c63e9597095648be6455847b606aabcb0ce8f5233c7fd36c2015e",
+      "evidence": "docs/audit/2026-10-09/incrementale/lotto-16.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
+    },
+    "ue741reuse": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-10T11:52:00.891659+00:00",
+      "source_urls": [
+        "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32020R0741"
+      ],
+      "verified_results": [
+        "Campo: reflui urbani affinati per irrigazione agricola. Classi A–D correlate a colture e metodi irrigui, con qualità, monitoraggio e validazione. Il punto di conformità delimita gli obblighi del gestore, senza cancellare quelli degli altri responsabili.",
+        "Piano dei rischi dell’intero sistema e permesso per produzione/erogazione, con classi, usi, volumi e condizioni. Prescrizioni aggiuntive e barriere dipendono dalla valutazione; non autorizza automaticamente usi industriali o potabili.",
+        "Autorità verifica la conformità; in presenza di rischio significativo va sospesa immediatamente l’erogazione fino al ripristino.",
+        "Entrata in vigore il ventesimo giorno dopo la pubblicazione; applicazione dal 26 giugno 2023. Date e funzioni giuridiche distinte."
+      ],
+      "limitations": [
+        "Coordinamento nazionale e aggiornamenti delle direttive richiamate non ricostruiti integralmente.",
+        "Non riletto integralmente il corpo degli artt. 8–15."
+      ],
+      "next_operation": [
+        "Completare artt. 8–15 e coordinare attuazione nazionale, DM 185/2003, D.Lgs. 152/2006 e aggiornamenti europei pertinenti."
+      ],
+      "record_version": "435084bfeaf6038e8ed638fab0eacb9995bd367484926761ea59e956d08e1ba4",
+      "evidence": "docs/audit/2026-10-09/incrementale/lotto-17.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
+    },
+    "ue1765reuse": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-10T11:52:00.891659+00:00",
+      "source_urls": [
+        "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32024R1765",
+        "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32024R1765",
+        "https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32024R1261R%2801%29"
+      ],
+      "verified_results": [
+        "Specifiche per descrizione del sistema dall’impianto all’uso finale, soggetti responsabili, pericoli, recettori e vie di esposizione. Valutazione quantitativa quando i dati o rischi elevati lo richiedono; negli altri casi è ammessa la qualitativa.",
+        "Ulteriori requisiti, barriere, controllo qualità, monitoraggio ambientale, emergenze e coordinamento vanno definiti per il sistema concreto. Non introduce un unico limite numerico generale per tutti gli usi.",
+        "Pubblicazione 20 giugno 2024; entrata in vigore 10 luglio 2024. Integra il regolamento 2020/741 sulla base dell’art. 5, par. 5.",
+        "La rettifica dichiara nulla la pubblicazione del regolamento delegato 2024/1261. Non è una clausola di abrogazione della 1765: il dato storico del precedente è corretto sulla fonte primaria."
+      ],
+      "limitations": [
+        "Non integralmente ricostruiti aggiornamenti dei rinvii settoriali e attuazione nazionale del riuso."
+      ],
+      "next_operation": [
+        "Coordinare i rinvii settoriali dell’allegato con versioni correnti e disciplina nazionale."
+      ],
+      "record_version": "71626fc9082966e820b226ac08e4912959547090638d6405698c1e85a4dbfd7f",
+      "evidence": "docs/audit/2026-10-09/incrementale/lotto-17.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
     }
   },
   "batches": [
@@ -5821,7 +5927,7 @@
         "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/17",
         "merge_commit": "c4b49b4fd4b464d3e0c4a672814cd86155f4a2ff",
         "evidence": "docs/audit/2026-10-09/incrementale/pubblicazione-lotto-10.json",
-        "verified_at": "2026-10-10T10:35:44.907591+00:00"
+        "verification_timestamp_status": "Non registrato nella ricevuta originale; confronto dei file documentato nella ricevuta."
       },
       "publication_history": [
         {
@@ -5844,6 +5950,13 @@
           "merge_commit": "c4b49b4fd4b464d3e0c4a672814cd86155f4a2ff",
           "evidence": "docs/audit/2026-10-09/incrementale/pubblicazione-lotto-10.json",
           "verified_at": "2026-10-10T10:30:45.703886+00:00"
+        },
+        {
+          "state": "published_verified",
+          "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/17",
+          "merge_commit": "c4b49b4fd4b464d3e0c4a672814cd86155f4a2ff",
+          "evidence": "docs/audit/2026-10-09/incrementale/pubblicazione-lotto-10.json",
+          "verified_at": "2026-10-10T10:35:44.907591+00:00"
         }
       ]
     },
@@ -5866,7 +5979,7 @@
         "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/18",
         "merge_commit": "609ada299f6da75ba84cdeb890a4e1e35e48ff33",
         "evidence": "docs/audit/2026-10-09/incrementale/pubblicazione-lotto-11.json",
-        "verified_at": "2026-10-10T10:35:44.907591+00:00"
+        "verification_timestamp_status": "Non registrato nella ricevuta originale; confronto dei file documentato nella ricevuta."
       },
       "publication_history": [
         {
@@ -5885,6 +5998,13 @@
           "merge_commit": "609ada299f6da75ba84cdeb890a4e1e35e48ff33",
           "evidence": "docs/audit/2026-10-09/incrementale/pubblicazione-lotto-11.json",
           "verified_at": "2026-10-10T10:30:45.703886+00:00"
+        },
+        {
+          "state": "published_verified",
+          "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/18",
+          "merge_commit": "609ada299f6da75ba84cdeb890a4e1e35e48ff33",
+          "evidence": "docs/audit/2026-10-09/incrementale/pubblicazione-lotto-11.json",
+          "verified_at": "2026-10-10T10:35:44.907591+00:00"
         }
       ]
     },
@@ -5905,7 +6025,7 @@
         "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/19",
         "merge_commit": "45b8908ab0d67697f6f9301386237ab4ff9a9a58",
         "evidence": "docs/audit/2026-10-09/incrementale/pubblicazione-lotto-12.json",
-        "verified_at": "2026-10-10T10:35:44.907591+00:00"
+        "verification_timestamp_status": "Non registrato nella ricevuta originale; confronto dei file documentato nella ricevuta."
       },
       "publication_history": [
         {
@@ -5924,6 +6044,13 @@
           "merge_commit": "45b8908ab0d67697f6f9301386237ab4ff9a9a58",
           "evidence": "docs/audit/2026-10-09/incrementale/pubblicazione-lotto-12.json",
           "verified_at": "2026-10-10T10:30:45.703886+00:00"
+        },
+        {
+          "state": "published_verified",
+          "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/19",
+          "merge_commit": "45b8908ab0d67697f6f9301386237ab4ff9a9a58",
+          "evidence": "docs/audit/2026-10-09/incrementale/pubblicazione-lotto-12.json",
+          "verified_at": "2026-10-10T10:35:44.907591+00:00"
         }
       ]
     },
@@ -5946,7 +6073,7 @@
         "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/20",
         "merge_commit": "2b3ad790cbaae86cd4dbd1ab69a62f13bfc35daa",
         "evidence": "docs/audit/2026-10-09/incrementale/pubblicazione-lotto-13.json",
-        "verified_at": "2026-10-10T10:35:44.907591+00:00"
+        "verified_at": "2026-10-10T10:28:37.543868+00:00"
       },
       "publication_history": [
         {
@@ -5958,6 +6085,13 @@
           "merge_commit": "2b3ad790cbaae86cd4dbd1ab69a62f13bfc35daa",
           "evidence": "docs/audit/2026-10-09/incrementale/pubblicazione-lotto-13.json",
           "verified_at": "2026-10-10T10:30:45.703886+00:00"
+        },
+        {
+          "state": "published_verified",
+          "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/20",
+          "merge_commit": "2b3ad790cbaae86cd4dbd1ab69a62f13bfc35daa",
+          "evidence": "docs/audit/2026-10-09/incrementale/pubblicazione-lotto-13.json",
+          "verified_at": "2026-10-10T10:35:44.907591+00:00"
         }
       ]
     },
@@ -5977,11 +6111,18 @@
         "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/21",
         "merge_commit": "0af2b797466ea5b49fef611392b1c1d9b56ab7ad",
         "evidence": "docs/audit/2026-10-09/incrementale/pubblicazione-lotto-14.json",
-        "verified_at": "2026-10-10T10:35:44.907591+00:00"
+        "verified_at": "2026-10-10T10:35:44.371604+00:00"
       },
       "publication_history": [
         {
           "state": "validated_pending_deployment"
+        },
+        {
+          "state": "published_verified",
+          "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/21",
+          "merge_commit": "0af2b797466ea5b49fef611392b1c1d9b56ab7ad",
+          "evidence": "docs/audit/2026-10-09/incrementale/pubblicazione-lotto-14.json",
+          "verified_at": "2026-10-10T10:35:44.907591+00:00"
         }
       ]
     },
@@ -6005,13 +6146,37 @@
           "state": "validated_pending_deployment"
         }
       ]
+    },
+    {
+      "id": "incrementale-16",
+      "date": "2026-10-09",
+      "record_ids": [
+        "tos46",
+        "umb627"
+      ],
+      "evidence": "docs/audit/2026-10-09/incrementale/lotto-16.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      }
+    },
+    {
+      "id": "incrementale-17",
+      "date": "2026-10-09",
+      "record_ids": [
+        "ue741reuse",
+        "ue1765reuse"
+      ],
+      "evidence": "docs/audit/2026-10-09/incrementale/lotto-17.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      }
     }
   ],
   "next_batch": [
     "sar-pai-frane-42-2026",
     "sar-pai-barrali-162-2026",
-    "ue1765",
-    "ue2020741",
+    "ue1765reuse",
+    "ue741reuse",
     "er1860"
   ],
   "queue_history": [
@@ -6146,6 +6311,42 @@
         "er1860"
       ],
       "reason": "Riesami delle cinque schede senza revisione e delle ottoPZP; restano aperti i perimetri parziali."
+    },
+    {
+      "date": "2026-10-09",
+      "before": [
+        "sar-pai-frane-42-2026",
+        "sar-pai-barrali-162-2026",
+        "ue1765",
+        "ue2020741",
+        "er1860"
+      ],
+      "after": [
+        "sar-pai-frane-42-2026",
+        "sar-pai-barrali-162-2026",
+        "ue1765reuse",
+        "ue741reuse",
+        "er1860"
+      ],
+      "reason": "Proseguire sui perimetri ancora parziali; il catalogo corrente non contiene schede prive di revisione."
+    },
+    {
+      "date": "2026-10-09",
+      "before": [
+        "sar-pai-frane-42-2026",
+        "sar-pai-barrali-162-2026",
+        "ue1765reuse",
+        "ue741reuse",
+        "er1860"
+      ],
+      "after": [
+        "sar-pai-frane-42-2026",
+        "sar-pai-barrali-162-2026",
+        "ue1765reuse",
+        "ue741reuse",
+        "er1860"
+      ],
+      "reason": "Proseguire sui perimetri ancora parziali; il catalogo corrente non contiene schede prive di revisione."
     }
   ],
   "phase3_completion": {
@@ -6153,7 +6354,7 @@
     "phase3_complete": false,
     "start_records": 107,
     "end_records": 113,
-    "records_reexamined_this_completion": 35,
+    "records_reexamined_this_completion": 39,
     "record_ids_reexamined": [
       "codstrada285",
       "dpr495",
@@ -6189,7 +6390,11 @@
       "fvg-lr5-2026",
       "vda-lr20-2023",
       "lig4",
-      "pie1"
+      "pie1",
+      "tos46",
+      "umb627",
+      "ue741reuse",
+      "ue1765reuse"
     ],
     "new_record_ids": [
       "abr31",
@@ -6205,27 +6410,28 @@
     },
     "legal_states_scoped": {
       "partially_repealed": 2,
-      "partial": 82,
+      "partial": 81,
       "constitutionally_invalid": 1,
-      "amended": 16,
+      "amended": 17,
       "unverified": 2,
       "in_force": 3,
       "consultation": 3,
       "adopted": 4
     },
     "full_legal_reviews": 0,
-    "technical_urls": 357,
+    "technical_urls": 362,
     "technical_errors": 57,
     "empty_or_challenge": 13,
-    "unique_sources_with_scoped_semantic_claims": 63,
-    "document_entries": 217,
+    "unique_sources_with_scoped_semantic_claims": 70,
+    "document_entries": 220,
     "coverage_cells": {
-      "ricognizione_non_ancora_effettuata": 148,
-      "ricognizione_puntuale_non_esaustiva": 24,
+      "ricognizione_non_ancora_effettuata": 143,
+      "ricognizione_puntuale_non_esaustiva": 29,
       "atto_verificato_e_censito_perimetro_parziale": 4
     },
-    "base_commit": "9f279352805c4fc7f0b8c32921acbc060cf10091"
+    "base_commit": "045bd421009425dd3354dc1a97f9e016a1da8d3d"
   },
   "residual_queue": "docs/audit/2026-10-10/completamento/attivita-residue.json",
   "coverage_snapshot": "docs/audit/2026-10-10/completamento/copertura-aggiornata.json"
 }
+

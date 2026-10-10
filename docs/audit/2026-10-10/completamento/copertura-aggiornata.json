@@ -1254,10 +1254,26 @@
         },
         {
           "sector": "prima_pioggia",
-          "state": "ricognizione_non_ancora_effettuata",
-          "record_ids": [],
-          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
-          "source_urls": []
+          "state": "ricognizione_puntuale_non_esaustiva",
+          "record_ids": [
+            "tos46"
+          ],
+          "scope": "Lettura del testo coordinato regionale, artt. 37–39 e 41–43 con note modificative; lettura integrale dell’allegato 5, due pagine, con confronto visivo della tabella 6. PDF del corpo aggiornato al 19/04/2018; non verificati tutti i rinvii esterni.",
+          "source_urls": [
+            "https://raccoltanormativa.consiglio.regione.toscana.it/articolo?pr=idx,0%3Bartic,1%3Barticparziale,0&urndoc=urn:nir:regione.toscana:regolamento.giunta:2008-09-08%3B46/R",
+            "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?file_path=regolamento.giunta/2008/regolamento.giunta_2008_46R_a5/regolamento.giunta_2008_46R_a5_v5.pdf",
+            "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?id=9345c577-24d8-11ef-bf7a-005056959b60&ext=pdf"
+          ],
+          "previous": {
+            "sector": "prima_pioggia",
+            "state": "ricognizione_non_ancora_effettuata",
+            "record_ids": [],
+            "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+            "source_urls": []
+          },
+          "pending": [
+            "Riscontrare nel BURT i modificativi e gli aggiornamenti successivi, coordinare LR 20/2006 e completare gli altri allegati pertinenti."
+          ]
         },
         {
           "sector": "scarichi",
@@ -1289,10 +1305,26 @@
         },
         {
           "sector": "regolamenti_attuativi",
-          "state": "ricognizione_non_ancora_effettuata",
-          "record_ids": [],
-          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
-          "source_urls": []
+          "state": "ricognizione_puntuale_non_esaustiva",
+          "record_ids": [
+            "tos46"
+          ],
+          "scope": "Lettura del testo coordinato regionale, artt. 37–39 e 41–43 con note modificative; lettura integrale dell’allegato 5, due pagine, con confronto visivo della tabella 6. PDF del corpo aggiornato al 19/04/2018; non verificati tutti i rinvii esterni.",
+          "source_urls": [
+            "https://raccoltanormativa.consiglio.regione.toscana.it/articolo?pr=idx,0%3Bartic,1%3Barticparziale,0&urndoc=urn:nir:regione.toscana:regolamento.giunta:2008-09-08%3B46/R",
+            "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?file_path=regolamento.giunta/2008/regolamento.giunta_2008_46R_a5/regolamento.giunta_2008_46R_a5_v5.pdf",
+            "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?id=9345c577-24d8-11ef-bf7a-005056959b60&ext=pdf"
+          ],
+          "previous": {
+            "sector": "regolamenti_attuativi",
+            "state": "ricognizione_non_ancora_effettuata",
+            "record_ids": [],
+            "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+            "source_urls": []
+          },
+          "pending": [
+            "Riscontrare nel BURT i modificativi e gli aggiornamenti successivi, coordinare LR 20/2006 e completare gli altri allegati pertinenti."
+          ]
         },
         {
           "sector": "norme_locali",
@@ -1376,17 +1408,45 @@
         },
         {
           "sector": "prima_pioggia",
-          "state": "ricognizione_non_ancora_effettuata",
-          "record_ids": [],
-          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
-          "source_urls": []
+          "state": "ricognizione_puntuale_non_esaustiva",
+          "record_ids": [
+            "umb627"
+          ],
+          "scope": "Lettura sostanziale della pubblicazione originale regionale: approvazione, artt. 1–2, 17–19, 27–28; controllo visivo degli artt. 17 e 27–28. Fascicolo di 95 pagine acquisito, allegati non integralmente letti.",
+          "source_urls": [
+            "https://www.va.regione.umbria.it/documents/3852172/10456087/DIRETTIVA%2BSCARICHI%2BDGR%2B627-2019/3826918e-7531-4200-aa27-1bb1cbb2e505"
+          ],
+          "previous": {
+            "sector": "prima_pioggia",
+            "state": "ricognizione_non_ancora_effettuata",
+            "record_ids": [],
+            "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+            "source_urls": []
+          },
+          "pending": [
+            "Acquisire gli atti modificativi successivi e il coordinato regionale; riesaminare allegati e accordi attuativi pertinenti."
+          ]
         },
         {
           "sector": "scarichi",
-          "state": "ricognizione_non_ancora_effettuata",
-          "record_ids": [],
-          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
-          "source_urls": []
+          "state": "ricognizione_puntuale_non_esaustiva",
+          "record_ids": [
+            "umb627"
+          ],
+          "scope": "Lettura sostanziale della pubblicazione originale regionale: approvazione, artt. 1–2, 17–19, 27–28; controllo visivo degli artt. 17 e 27–28. Fascicolo di 95 pagine acquisito, allegati non integralmente letti.",
+          "source_urls": [
+            "https://www.va.regione.umbria.it/documents/3852172/10456087/DIRETTIVA%2BSCARICHI%2BDGR%2B627-2019/3826918e-7531-4200-aa27-1bb1cbb2e505"
+          ],
+          "previous": {
+            "sector": "scarichi",
+            "state": "ricognizione_non_ancora_effettuata",
+            "record_ids": [],
+            "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+            "source_urls": []
+          },
+          "pending": [
+            "Acquisire gli atti modificativi successivi e il coordinato regionale; riesaminare allegati e accordi attuativi pertinenti."
+          ]
         },
         {
           "sector": "riuso",
@@ -1411,10 +1471,24 @@
         },
         {
           "sector": "regolamenti_attuativi",
-          "state": "ricognizione_non_ancora_effettuata",
-          "record_ids": [],
-          "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
-          "source_urls": []
+          "state": "ricognizione_puntuale_non_esaustiva",
+          "record_ids": [
+            "umb627"
+          ],
+          "scope": "Lettura sostanziale della pubblicazione originale regionale: approvazione, artt. 1–2, 17–19, 27–28; controllo visivo degli artt. 17 e 27–28. Fascicolo di 95 pagine acquisito, allegati non integralmente letti.",
+          "source_urls": [
+            "https://www.va.regione.umbria.it/documents/3852172/10456087/DIRETTIVA%2BSCARICHI%2BDGR%2B627-2019/3826918e-7531-4200-aa27-1bb1cbb2e505"
+          ],
+          "previous": {
+            "sector": "regolamenti_attuativi",
+            "state": "ricognizione_non_ancora_effettuata",
+            "record_ids": [],
+            "scope": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
+            "source_urls": []
+          },
+          "pending": [
+            "Acquisire gli atti modificativi successivi e il coordinato regionale; riesaminare allegati e accordi attuativi pertinenti."
+          ]
         },
         {
           "sector": "norme_locali",
@@ -1870,3 +1944,4 @@
   },
   "basis": "docs/audit/2026-10-08/copertura.json"
 }
+

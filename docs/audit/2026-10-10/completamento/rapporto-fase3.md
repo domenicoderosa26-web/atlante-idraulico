@@ -4,7 +4,7 @@ Aggiornamento del 10 ottobre 2026. **Fase 3 ancora aperta:** risultati pubblicab
 
 ## 19.1 — Stato complessivo
 
-All’inizio di questo completamento: 107 schede, 102 revisioni presenti e 5 schede prive di revisione. Il precedente inventario del 8 ottobre aveva 106 schede e 86 senza riesame sostanziale: è un riferimento storico, non il numero residuo corrente. Alla fine: 113 schede e altrettante revisioni strutturate. Riesaminate nei lotti 10–15: 35 schede distinte (29 preesistenti e 6 nuove); 78 schede non hanno un nuovo riesame in questi lotti e conservano quello precedente. Tra le 35: 3 revisioni concluse nel perimetro e 32 parziali. Nuovi atti: 6. Nessuna scheda rimossa.
+All’inizio di questo completamento: 107 schede, 102 revisioni presenti e 5 schede prive di revisione. Il precedente inventario del 8 ottobre aveva 106 schede e 86 senza riesame sostanziale: è un riferimento storico, non il numero residuo corrente. Alla fine: 113 schede e altrettante revisioni strutturate. Riesaminate nei lotti 10–17: 39 schede distinte; nuovi atti: 6. Nessuna scheda rimossa.
 
 Nel catalogo: 6 revisioni concluse nel proprio perimetro e 107 parziali; 0 prive di revisione strutturata. Tre revisioni concluse riguardano il catalogo UNI e non il testo tecnico protetto. **0 verifiche giuridiche integrali dichiarate complete.** I problemi di accesso non sono conteggiati come revisioni negative. Rimane lavoro sostanziale nei perimetri indicati da ogni scheda.
 
@@ -12,7 +12,7 @@ Nuovi atti: abr31, er1083, abruzzo-scarichi-906-2022, milano-suds-10576-2020, fv
 
 ## 19.2 — Vigenza
 
-Stati strutturati del catalogo, validi esclusivamente nel perimetro della revisione: partially_repealed: 2, partial: 82, constitutionally_invalid: 1, amended: 16, unverified: 2, in_force: 3, consultation: 3, adopted: 4. Non sono conteggi di ricostruzioni integrali chiuse.
+Stati strutturati del catalogo, validi esclusivamente nel perimetro della revisione: partially_repealed: 2, partial: 81, constitutionally_invalid: 1, amended: 17, unverified: 2, in_force: 3, consultation: 3, adopted: 4. Non sono conteggi di ricostruzioni integrali chiuse.
 
 Accertata illegittimità costituzionale integrale della LR Abruzzo 17/2008 (Corte 68/2010). Basilicata 471/2026 è proposta trasmessa per parere; non prova sostituzione efficace delle linee guida precedenti. Po CIP 13/2025 distingue adozione, salvaguardie e futura approvazione definitiva. La CIP Calabria/Lao 6/2025 sostituisce il precedente regime di salvaguardia nei termini del dispositivo, senza certificare l’adozione finale del piano.
 
@@ -20,15 +20,15 @@ Le date di efficacia originaria e gli articoli modificati sono riportati nelle s
 
 ## 19.3 — Documentazione
 
-Controllati tecnicamente 357 URL: 57 errori; 13 risposte vuote o con ostacoli di accesso. 63 fonti distinte sostengono riscontri semantici nei lotti 10–15. Sono letture di disposizioni indicate, non altrettante verifiche integrali. Il catalogo contiene 217 riferimenti nella lista documents; URL principali e fonti delle revisioni sono conteggiati separatamente nel registro tecnico.
+Controllati tecnicamente 362 URL: 57 errori; 13 risposte vuote o con ostacoli di accesso. 70 fonti distinte sostengono riscontri semantici nei lotti 10–17. Sono letture di disposizioni indicate, non altrettante verifiche integrali. Il catalogo contiene 220 riferimenti nella lista documents; URL principali e fonti delle revisioni sono conteggiati separatamente nel registro tecnico.
 
-Acquisite nuove fonti o allegati: sentenza costituzionale, Basilicata 471, otto BUR PZP, decreti modificativi Bolzano, CAM edilizia e strade, LR Abruzzo 31, linee guida Abruzzo 906, Emilia-Romagna 1083, Milano SuDS, NTA Po, DPCM Centrale, NTA Centrale adottate, CIP Calabria/Lao, NTA Trento, BUR FVG e Valle d’Aosta, allegato ARPAL Liguria. Nel registro del lotto sono presenti URL, disposizioni e impronte quando il documento completo è stato acquisito.
+Acquisite nuove fonti o allegati: sentenza costituzionale, Basilicata 471, otto BUR PZP, decreti modificativi Bolzano, CAM edilizia e strade, LR Abruzzo 31, linee guida Abruzzo 906, Emilia-Romagna 1083, Milano SuDS, NTA Po, DPCM Centrale, NTA Centrale adottate, CIP Calabria/Lao, NTA Trento, BUR FVG e Valle d’Aosta, allegato ARPAL Liguria, allegato 5 Toscana e fascicolo direttiva Umbria. Letti gli allegati I–II del regolamento 2020/741 e l’intero testo HTML del delegato 2024/1765, oltre alla rettifica del precedente 1261. Nel registro del lotto sono presenti URL, disposizioni e impronte quando il documento completo è stato acquisito.
 
-Documenti mancanti e allegati non acquisiti sono elencati per ID in attivita-residue.json. Fonti UE con risposta vuota/challenge, tavole Sardegna, norme/tavole PGT Milano e coordinati regionali non ottenuti restano aperti. Impronte sample_sha256 riguardano soltanto il campione; sha256 è integrale solo se body_complete è true.
+Documenti mancanti e allegati non acquisiti sono elencati per ID in attivita-residue.json. Accesso browser riuscito ai testi UE 2020/741 e 2024/1765; le precedenti risposte tecniche vuote/challenge restano storiche. Tavole Sardegna, norme/tavole PGT Milano e coordinati regionali non ottenuti restano aperti. Impronte sample_sha256 riguardano soltanto il campione; sha256 è integrale solo se body_complete è true.
 
 ## 19.4 — Copertura territoriale
 
-La matrice conserva 22 territori e 8 materie (176 celle), incluse le Province autonome. Stati: ricognizione_non_ancora_effettuata: 148, ricognizione_puntuale_non_esaustiva: 24, atto_verificato_e_censito_perimetro_parziale: 4. Ogni cella conserva il precedente stato ed espone il perimetro aggiornato; le celle non esaminate non sono promosse a complete.
+La matrice conserva 22 territori e 8 materie (176 celle), incluse le Province autonome. Stati: ricognizione_non_ancora_effettuata: 143, ricognizione_puntuale_non_esaustiva: 29, atto_verificato_e_censito_perimetro_parziale: 4. Ogni cella conserva il precedente stato ed espone il perimetro aggiornato; le celle non esaminate non sono promosse a complete.
 
 | Territorio | Letture effettive in questo completamento |
 |---|---|
@@ -47,9 +47,9 @@ La matrice conserva 22 territori e 8 materie (176 celle), incluse le Province au
 | Puglia | norme_locali: bari |
 | Sardegna | Nessuna nuova ricognizione sostanziale documentata in questi lotti; conservato il precedente stato. |
 | Sicilia | Nessuna nuova ricognizione sostanziale documentata in questi lotti; conservato il precedente stato. |
-| Toscana | Nessuna nuova ricognizione sostanziale documentata in questi lotti; conservato il precedente stato. |
+| Toscana | prima_pioggia: tos46; regolamenti_attuativi: tos46 |
 | Trentino-Alto Adige | Nessuna nuova ricognizione sostanziale documentata in questi lotti; conservato il precedente stato. |
-| Umbria | Nessuna nuova ricognizione sostanziale documentata in questi lotti; conservato il precedente stato. |
+| Umbria | prima_pioggia: umb627; scarichi: umb627; regolamenti_attuativi: umb627 |
 | Valle d’Aosta | scarichi: vda-lr20-2023; regolamenti_attuativi: vda-lr20-2023 |
 | Veneto | Nessuna nuova ricognizione sostanziale documentata in questi lotti; conservato il precedente stato. |
 | Provincia autonoma di Bolzano | prima_pioggia: bz6; pai_pgra: bz-badia-pzp-782-2026, bz-campo-tures-pzp-799-2026, bz-fortezza-pzp-742-2026, bz-la-valle-pzp-739-2026, bz-nova-ponente-pzp-741-2026, bz-nova-ponente-pzp-776-2026, bz-rasun-anterselva-pzp-738-2026, bz-sarentino-pzp-740-2026; regolamenti_attuativi: bz6 |
@@ -59,7 +59,7 @@ Distretti: Po e Centrale approfonditi in questo completamento, Calabria/Lao appr
 
 ## 19.5 — Correzioni
 
-Il dettaglio campo per campo (valore precedente, nuovo valore e fonti) è nei registri lotto-10…lotto-15.json. Principali correzioni:
+Il dettaglio campo per campo (valore precedente, nuovo valore e fonti) è nei registri lotto-10 e successivi registri JSON. Principali correzioni:
 
 | Scheda | Prima | Risultato documentato | Fonte e commit |
 |---|---|
@@ -118,14 +118,22 @@ Il dettaglio campo per campo (valore precedente, nuovo valore e fonti) è nei re
 | tnpta · note | PTA 2022–2027 approvato con D.G.P. n. 2320 del 16/12/2022. La pagina APPA raccoglie gli allegati, incluso l’Allegato O – Norme di attuazione. Eventuali modifiche successive restano da verificare. | Letti artt. 10 e 18 delle NTA ufficiali. Verificati limiti degli scarichi secondo stato del corpo idrico, disposizioni transitorie e meccanismo di efficacia. Resta da riscontrare la pubblicazione di approvazione e gli aggiornamenti attuativi. | [Fonte](https://www.appa.provincia.tn.it/ocmultibinary/download/27681/309570/71/a344c71f7b9ed3ffacdcb176e84addbc.pdf/file/Allegato%2BO%2BNorme%2Bdi%2Battuazione.pdf); 0af2b797466ea5b49fef611392b1c1d9b56ab7ad |
 | lig4 · document_note | Il collegamento apre direttamente il PDF del documento. | Recuperato PDF ARPAL con testo originario e allegato A, letto integralmente. Distinto dalla pagina regionale corrente e dai rinvii statali successivi. | [Fonte](https://www.arpal.liguria.it/images/stories/testi_normative/REGOLAMENTO_REGIONALE_4_2009.pdf); 62531fd36b9113c4609d40363f5ee951198a5e45 |
 | pie1 · note | Collegamento diretto al testo coordinato vigente pubblicato nella banca dati normativa della Regione Piemonte. | Letto il testo Arianna con allegato A e note modificative. Versione V2 dal 8 dicembre 2006, distinta dal parametro URL 2018. Verificati ambito, recapiti e criteri del piano; rinvii a D.Lgs. 152/1999 e 59/2005 da coordinare con legislazione successiva. | [Fonte](https://arianna.cr.piemonte.it/regolafo/dettaglioRegolamento.do?tornaIndietro=true&urnRegolamento=urn%3Anir%3Aregione.piemonte%3Aregolamento%3A2006-02-20%3B1%402018-12-11); 62531fd36b9113c4609d40363f5ee951198a5e45 |
+| tos46 · document_note | Il PDF consultato reca «Testo aggiornato al 19/04/2018». Per modifiche successive consultare il testo corrente della Raccolta normativa regionale; il codice del download non identifica la data di coordinamento normativo. | Corpo coordinato: PDF aggiornato al 19/04/2018, confrontato con pagina regionale. Allegato 5 separato acquisito e letto integralmente. Il repertorio è informativo: il valore legale resta nei testi BURT. | [Fonte](https://raccoltanormativa.consiglio.regione.toscana.it/articolo?pr=idx,0%3Bartic,1%3Barticparziale,0&urndoc=urn:nir:regione.toscana:regolamento.giunta:2008-09-08%3B46/R); Pubblicazione in corso: commit da registrare dopo merge |
+| tos46 · note | Il regolamento è stato modificato più volte; usare esclusivamente il testo vigente esposto dalla Raccolta normativa regionale. | Riesaminati ambito ed esclusioni, piano di gestione e trattamento anche oltre la prima pioggia. Acquisito e letto l’allegato 5 coordinato con modifiche 76/R/2012 e 10/R/2015; la soglia 5.000 m² della tabella 6 riguarda cantieri, non ogni superficie scolante. | [Fonte](https://raccoltanormativa.consiglio.regione.toscana.it/articolo?pr=idx,0%3Bartic,1%3Barticparziale,0&urndoc=urn:nir:regione.toscana:regolamento.giunta:2008-09-08%3B46/R); Pubblicazione in corso: commit da registrare dopo merge |
+| umb627 · document_note | Collegamenti alla documentazione specifica. Consultare anche gli aggiornamenti e le varianti indicati dalla fonte. | Acquisito il fascicolo originale di 95 pagine dalla pagina regionale AUA. Letti gli articoli indicati e verificati visivamente i passaggi con estrazione alterata; il fascicolo non è un coordinato 2026. | [Fonte](https://www.va.regione.umbria.it/documents/3852172/10456087/DIRETTIVA%2BSCARICHI%2BDGR%2B627-2019/3826918e-7531-4200-aa27-1bb1cbb2e505); Pubblicazione in corso: commit da registrare dopo merge |
+| umb627 · note | Pubblicazione del 22/05/2019 individuata nel portale regionale. Esistono indicazioni di modifiche successive: acquisire il testo coordinato prima dell’uso. | Accertata sostituzione della direttiva 1024/2018 ex art. 28. Prima pioggia e dilavamento industriale sono distinti; soglie e accordi attuativi delle reti non sono generalizzati. Restano da coordinare modifiche successive e allegati. | [Fonte](https://www.va.regione.umbria.it/documents/3852172/10456087/DIRETTIVA%2BSCARICHI%2BDGR%2B627-2019/3826918e-7531-4200-aa27-1bb1cbb2e505); Pubblicazione in corso: commit da registrare dopo merge |
+| ue741reuse · note | EUR-Lex classifica l’atto come in vigore. L’art. 16 dispone l’applicazione dal 26/06/2023. Il campo riguarda il riutilizzo a fini irrigui in agricoltura e non va esteso automaticamente ad altri usi. | Verificati piano dei rischi, permesso, responsabilità al punto di conformità, sospensione per rischi significativi e classi agricole. Coordinamento nazionale e modifiche dei rinvii europei restano da completare. | [Fonte](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32020R0741); Pubblicazione in corso: commit da registrare dopo merge |
+| ue741reuse · document_note | Testo ufficiale in lingua italiana pubblicato su EUR-Lex. | PDF ufficiale completo di 24 pagine acquisito; letti artt. 1–7 e 16 e allegati I–II. Accesso riuscito nel browser dopo precedenti risposte tecniche vuote: il limite di acquisizione è superato. | [Fonte](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32020R0741); Pubblicazione in corso: commit da registrare dopo merge |
+| ue1765reuse · note | Pubblicato nella Gazzetta ufficiale dell’Unione europea il 20/06/2024. EUR-Lex lo classifica in vigore. Il precedente regolamento delegato (UE) 2024/1261, di contenuto corrispondente, risulta non più in vigore dal 08/05/2024 e non è catalogato come testo attivo. | Testo e allegato letti integralmente; efficacia dal 10/07/2024. Corretto il precedente 2024/1261: la rettifica del 15/05/2024 dichiara nulla la sua pubblicazione, senza attribuire alla 1765 una clausola di abrogazione. | [Fonte](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32024R1765); Pubblicazione in corso: commit da registrare dopo merge |
+| ue1765reuse · document_note | Testo ufficiale in lingua italiana pubblicato su EUR-Lex. | Testo HTML italiano ufficiale letto integralmente nel browser. Restano da coordinare i rinvii settoriali e l’attuazione nazionale; distinta la lettura completa dell’atto dalla ricostruzione complessiva della disciplina. | [Fonte](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32024R1765); Pubblicazione in corso: commit da registrare dopo merge |
 
 Le soglie tecniche sono accompagnate da condizioni territoriali e di applicazione; non trasformate in parametri universali.
 
 ## 19.6 — Test
 
-Ogni lotto è sottoposto a normalizzazione/validazione delle 14 categorie, controllo archivio unico e cronologie, 61 test Python, sintassi JavaScript, 168 combinazioni dei filtri e integrità della modifica. I lotti 10–14 risultano pubblicati con CI superata; ricevute riportano confronto puntuale dei file su Pages. Anche il lotto 15 ha superato CI e confronto puntuale di 16 file pubblicati su Pages; la ricevuta è pubblicazione-lotto-15.json.
+Ogni lotto è sottoposto a normalizzazione/validazione delle 14 categorie, controllo archivio unico e cronologie, 61 test Python, sintassi JavaScript, 168 combinazioni dei filtri e integrità della modifica. I lotti 10–14 risultano pubblicati con CI superata; ricevute riportano confronto puntuale dei file su Pages. Anche il lotto 15 ha superato CI e confronto dei 16 file su Pages. I lotti 16–17 superano i controlli locali; CI e confronto pubblico saranno registrati dopo il merge congiunto.
 
-Durante la preparazione dei lotti 13 e 14 due controlli hanno rilevato rispettivamente un’impronta da ricalcolare dopo ordinamento delle categorie e una denominazione territoriale non canonica. Corretti entrambi; successive esecuzioni complete superate. Durante il consolidamento anche il controllo delle differenze ha segnalato terminatori Windows CRLF: configurato il controllo per riconoscere CR a fine riga, mantenendo gli altri controlli degli spazi. Nessun test ancora fallito nei lotti pubblicati. Questi test non attestano vigenza normativa.
+Durante la preparazione dei lotti 13 e 14 due controlli hanno rilevato rispettivamente un’impronta da ricalcolare dopo ordinamento delle categorie e una denominazione territoriale non canonica. Corretti entrambi; successive esecuzioni complete superate. Nessun test ancora fallito nei lotti pronti. Questi test non attestano vigenza normativa.
 
 ## 19.7 — Repository
 
@@ -137,6 +145,8 @@ Durante la preparazione dei lotti 13 e 14 due controlli hanno rilevato rispettiv
 | 13 | https://github.com/domenicoderosa26-web/atlante-idraulico/pull/20 | 2b3ad790cbaae86cd4dbd1ab69a62f13bfc35daa | 8 file confrontati; run 38044979819 |
 | 14 | https://github.com/domenicoderosa26-web/atlante-idraulico/pull/21 | 0af2b797466ea5b49fef611392b1c1d9b56ab7ad | 9 file confrontati; run 38045331887 |
 | 15 | https://github.com/domenicoderosa26-web/atlante-idraulico/pull/22 | 62531fd36b9113c4609d40363f5ee951198a5e45 | 16 file confrontati; run 38045863808 |
+| 16 | Pubblicazione congiunta in corso | Da registrare dopo merge | Verifica finale in corso |
+| 17 | Pubblicazione congiunta in corso | Da registrare dopo merge | Verifica finale in corso |
 
 File modificati: data.json, topic-taxonomy.json, docs/audit/progress.json e registri/evidenze dei lotti. Nel lotto 10 aggiornato anche il controllo documentale per distinguere l’illegittimità costituzionale. Frontend e grafica preservati; automazioni e archivio nazionale conservati. Le modifiche partono dal main aggiornato e mantengono gli aggiornamenti concorrenti. Test dell’archivio unico e delle 14 categorie superati.
 
@@ -144,7 +154,7 @@ File modificati: data.json, topic-taxonomy.json, docs/audit/progress.json e regi
 
 La coda completa è in attivita-residue.json: per ogni ID contiene oggetto, perimetro verificato, riscontri, fonte/operazione necessaria, limiti, errori tecnici reali e prossimo passo. Comprende tutte le celle territoriali, comprese quelle non ancora ricercate sistematicamente. Non tutte le attività aperte sono bloccate da accesso: alcune richiedono ulteriore lettura e confronto, e restano esplicitamente non eseguite.
 
-Priorità concrete: allegati e cartografie delle due varianti Sardegna; coordinato Abruzzo/Basilicata e esito proposta 471; DGR Emilia-Romagna 1860; testi UE completi; mappe delle PZP e PAI, DPCM finale PAI Centrale, NTA complete Calabria/Lao, recepimenti/aggiornamenti regionali e locali. Per Milano acquisire art. 48, DSRI e tavole ufficiali PGT; per Bari confrontare anche rinnovo e istruzioni correnti con RR 26/2013 coordinato.
+Priorità concrete: allegati e cartografie delle due varianti Sardegna; coordinato Abruzzo/Basilicata e esito proposta 471; DGR Emilia-Romagna 1860; coordinamento nazionale dei testi UE acquisiti; mappe delle PZP e PAI, DPCM finale PAI Centrale, NTA complete Calabria/Lao, recepimenti/aggiornamenti regionali e locali. Per Milano acquisire art. 48, DSRI e tavole ufficiali PGT; per Bari confrontare anche rinnovo e istruzioni correnti con RR 26/2013 coordinato.
 
-Le attività tecnicamente accessibili dei dossier già acquisiti sono state portate avanti in sei lotti successivi. Il completamento integrale non è dichiarato: restano revisioni parziali e un censimento territoriale non esaustivo. Le fonti bloccate sono documentate nel registro; non sono inventati esiti o date per chiudere la fase. La fase 4 non è avviata.
+Le attività tecnicamente accessibili dei dossier già acquisiti sono state portate avanti nei lotti successivi documentati. Il completamento integrale non è dichiarato: restano revisioni parziali e un censimento territoriale non esaustivo. Le fonti bloccate sono documentate nel registro; non sono inventati esiti o date per chiudere la fase. La fase 4 non è avviata.
 

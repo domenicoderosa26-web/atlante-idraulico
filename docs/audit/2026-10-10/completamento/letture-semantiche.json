@@ -1,5 +1,5 @@
 {
-  "note": "Riscontri per disposizione dei lotti 10–18, con perimetro; non sono letture integrali di ogni documento né attestazioni complete di vigenza.",
+  "note": "Riscontri per disposizione dei lotti 10–19, con perimetro; non sono letture integrali di ogni documento né attestazioni complete di vigenza.",
   "sources": [
     {
       "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0306&atto.dataPubblicazioneGazzetta=1992-05-18&tipoDettaglio=vigente",
@@ -1919,6 +1919,110 @@
           "source_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:02000L0060-20260510",
           "locator": "Artt. 3–4, 10–14 bis",
           "finding": "Programmi coordinati nel distretto, obiettivi ambientali e deroghe condizionate, controlli più restrittivi quando richiesti dalla qualità, piani e misure con riesame sessennale. Eccezioni 7 bis/7 ter non dispensano indistintamente gli scarichi."
+        }
+      ]
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX:32007L0060",
+      "records": [
+        "ueall"
+      ],
+      "claims": [
+        {
+          "record_id": "ueall",
+          "checked_at": "2026-10-10",
+          "aspect": "status",
+          "source_url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX:32007L0060",
+          "locator": "Metadati: stato, Dates e Modified by",
+          "finding": "EUR-Lex mostra atto in vigore, efficacia dal 26 novembre 2007 e nessuna data finale. Relazioni riportano due rettifiche per le lingue slovacca e greca; non attribuite al testo italiano."
+        }
+      ]
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32007L0060",
+      "records": [
+        "ueall"
+      ],
+      "claims": [
+        {
+          "record_id": "ueall",
+          "checked_at": "2026-10-10",
+          "aspect": "content",
+          "source_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32007L0060",
+          "locator": "Artt. 2–10; allegato A–B",
+          "finding": "Distingue valutazione preliminare, pericolosità, conseguenze/rischio e PGRA. Obiettivi e priorità, attuazione, partecipazione e aggiornamenti devono essere documentati; misure transfrontaliere non aumentano significativamente rischi senza coordinamento."
+        },
+        {
+          "record_id": "ueall",
+          "checked_at": "2026-10-10",
+          "aspect": "effectiveness",
+          "source_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32007L0060",
+          "locator": "Artt. 14–18",
+          "finding": "Riesami sessennali di valutazione, mappe e piani con scadenze europee iniziali a dicembre; cambiamento climatico considerato nei riesami indicati. Le date nazionali di settembre vanno tenute distinte."
+        }
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-02-23;49",
+      "records": [
+        "dl49"
+      ],
+      "claims": [
+        {
+          "record_id": "dl49",
+          "checked_at": "2026-10-10",
+          "aspect": "status",
+          "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-02-23;49",
+          "locator": "Selettore vigente al 10/10/2026, intestazione e note",
+          "finding": "Normattiva rende disponibile il testo vigente selezionato; efficacia originaria 17 aprile 2010, ultimo aggiornamento all’atto indicato 24 giugno 2014. Il fascicolo GU originario è conservato distinto dal coordinato."
+        }
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2013-08-06;97~art19",
+      "records": [
+        "dl49"
+      ],
+      "claims": [
+        {
+          "record_id": "dl49",
+          "checked_at": "2026-10-10",
+          "aspect": "amendment",
+          "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2013-08-06;97~art19",
+          "locator": "Art. 19, comma 1, lettere a–e",
+          "finding": "Modifica definizione di alluvione, scenari e contenuti delle mappe; introduce verifica VAS condizionata e corregge rinvio al riesame nell’allegato. Il nuovo scenario raro non è una soglia universale fino a 500 anni."
+        }
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2014-06-24;91~art10",
+      "records": [
+        "dl49"
+      ],
+      "claims": [
+        {
+          "record_id": "dl49",
+          "checked_at": "2026-10-10",
+          "aspect": "amendment",
+          "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2014-06-24;91~art10",
+          "locator": "Art. 10, commi 10 e 11 bis; nota di conversione",
+          "finding": "Circoscrive il rinvio VAS alla parte del piano ex art. 7 comma 3 lett. a); sposta il primo termine PGRA dal 22 giugno al 22 dicembre 2015. DL convertito con modifiche dalla L. 116/2014."
+        }
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/esporta/attoCompleto?atto.dataPubblicazioneGazzetta=2010-04-02&atto.codiceRedazionale=010G0071",
+      "records": [
+        "dl49"
+      ],
+      "claims": [
+        {
+          "record_id": "dl49",
+          "checked_at": "2026-10-10",
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/esporta/attoCompleto?atto.dataPubblicazioneGazzetta=2010-04-02&atto.codiceRedazionale=010G0071",
+          "locator": "Artt. 3, 7, 9, 12, 17 e allegato 1",
+          "finding": "Competenze distrettuali e parte di allertamento regionale distinte; vincoli urbanistici ed emergenza, coordinamento e riesami sessennali con scadenze di settembre. Statuti speciali e Province autonome conservano la clausola dell’art. 17."
         }
       ]
     }

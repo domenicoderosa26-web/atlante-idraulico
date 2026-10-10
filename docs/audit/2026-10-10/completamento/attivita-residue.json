@@ -231,31 +231,43 @@
     {
       "id": "dl49",
       "object": "D.Lgs. 49/2010 · Valutazione e gestione dei rischi di alluvioni",
-      "scope_completed": "Lettura sostanziale circoscritta: Artt. 6 e 7; PDF pp. 6-7; Art. 7, comma 8 e nota 6; art. 12; pp. 7 e 10 del PDF",
+      "scope_completed": "Lettura integrale artt. 1–17 e allegato 1 del testo Normattiva mostrato vigente al 10/10/2026. Confronto con PDF ISPRA agosto 2014 (16 pagine); riscontro primario L. 97/2013 art. 19 e D.L. 91/2014 art. 10 commi 10 e 11 bis.",
       "verified_findings": [
         {
-          "aspect": "content",
-          "source_url": "https://www.gazzettaufficiale.it/eli/gu/2010/04/02/77/sg/pdf",
-          "locator": "Artt. 6 e 7; PDF pp. 6-7",
-          "finding": "Il testo originario disciplina mappe di pericolosità/rischio e piani distrettuali con prevenzione, protezione e preparazione, inclusi previsione e allertamento."
+          "aspect": "status",
+          "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-02-23;49",
+          "locator": "Selettore vigente al 10/10/2026, intestazione e note",
+          "finding": "Normattiva rende disponibile il testo vigente selezionato; efficacia originaria 17 aprile 2010, ultimo aggiornamento all’atto indicato 24 giugno 2014. Il fascicolo GU originario è conservato distinto dal coordinato."
         },
         {
           "aspect": "amendment",
-          "source_url": "https://www.isprambiente.gov.it/pre_meteo/file/DLGS_49_2010_agg2014.pdf",
-          "locator": "Art. 7, comma 8 e nota 6; art. 12; pp. 7 e 10 del PDF",
-          "finding": "La versione ISPRA coordinata al 2014 riporta la modifica del termine del primo PGRA al 22 dicembre 2015, operata dal D.L. 91/2014 convertito dalla L. 116/2014, e riesami ogni sei anni. È una versione al 2014, non una certificazione di assenza di modifiche successive."
+          "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2013-08-06;97~art19",
+          "locator": "Art. 19, comma 1, lettere a–e",
+          "finding": "Modifica definizione di alluvione, scenari e contenuti delle mappe; introduce verifica VAS condizionata e corregge rinvio al riesame nell’allegato. Il nuovo scenario raro non è una soglia universale fino a 500 anni."
+        },
+        {
+          "aspect": "amendment",
+          "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2014-06-24;91~art10",
+          "locator": "Art. 10, commi 10 e 11 bis; nota di conversione",
+          "finding": "Circoscrive il rinvio VAS alla parte del piano ex art. 7 comma 3 lett. a); sposta il primo termine PGRA dal 22 giugno al 22 dicembre 2015. DL convertito con modifiche dalla L. 116/2014."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/esporta/attoCompleto?atto.dataPubblicazioneGazzetta=2010-04-02&atto.codiceRedazionale=010G0071",
+          "locator": "Artt. 3, 7, 9, 12, 17 e allegato 1",
+          "finding": "Competenze distrettuali e parte di allertamento regionale distinte; vincoli urbanistici ed emergenza, coordinamento e riesami sessennali con scadenze di settembre. Statuti speciali e Province autonome conservano la clausola dell’art. 17."
         }
       ],
       "needed_source_or_operation": [
-        "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+        "Coordinare rinvii alla disciplina corrente di protezione civile e acque; verificare atti tecnici ex artt. 14–15 e singoli PGRA."
       ],
       "limitations": [
-        "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+        "Non ricostruiti integralmente rinvii alla protezione civile, norme settoriali e specifici atti attuativi o PGRA."
       ],
       "actual_access_problems": [],
       "reason_still_open": "Fonte o coordinamento indicati nella coda non ancora verificati. Un accesso riuscito non chiude il confronto normativo.",
       "next_step": [
-        "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+        "Coordinare rinvii alla disciplina corrente di protezione civile e acque; verificare atti tecnici ex artt. 14–15 e singoli PGRA."
       ]
     },
     {
@@ -409,26 +421,32 @@
     {
       "id": "ueall",
       "object": "Direttiva 2007/60/CE · Direttiva Alluvioni",
-      "scope_completed": "Lettura sostanziale circoscritta: Artt. 6 e 7; PDF pp. 5-6; Artt. 14 e 18; PDF pp. 8-9",
+      "scope_completed": "Lettura integrale degli artt. 1–19 e dell’allegato A–B nel testo ufficiale italiano; verifica date e relazioni EUR-Lex. Perimetro: atto europeo, distinto da recepimento, atti attuativi e singoli PGRA.",
       "verified_findings": [
         {
+          "aspect": "status",
+          "source_url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX:32007L0060",
+          "locator": "Metadati: stato, Dates e Modified by",
+          "finding": "EUR-Lex mostra atto in vigore, efficacia dal 26 novembre 2007 e nessuna data finale. Relazioni riportano due rettifiche per le lingue slovacca e greca; non attribuite al testo italiano."
+        },
+        {
           "aspect": "content",
-          "source_url": "https://www.consiglioregionale.calabria.it/upload/istruttoria/Direttiva%2023%20ottobre%202007%2C%20n.%202007-60-CE.pdf",
-          "locator": "Artt. 6 e 7; PDF pp. 5-6",
-          "finding": "La riproduzione istituzionale distingue mappe di pericolosità per scenari e mappe di rischio per conseguenze, e prevede PGRA coordinati con prevenzione, protezione e preparazione. I contenuti dei singoli PGRA territoriali restano una verifica distinta."
+          "source_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32007L0060",
+          "locator": "Artt. 2–10; allegato A–B",
+          "finding": "Distingue valutazione preliminare, pericolosità, conseguenze/rischio e PGRA. Obiettivi e priorità, attuazione, partecipazione e aggiornamenti devono essere documentati; misure transfrontaliere non aumentano significativamente rischi senza coordinamento."
         },
         {
           "aspect": "effectiveness",
-          "source_url": "https://www.consiglioregionale.calabria.it/upload/istruttoria/Direttiva%2023%20ottobre%202007%2C%20n.%202007-60-CE.pdf",
-          "locator": "Artt. 14 e 18; PDF pp. 8-9",
-          "finding": "Il testo prevede riesami ogni sei anni, scadenze iniziali al 22 dicembre e valutazione del cambiamento climatico; l’entrata in vigore è il ventesimo giorno dopo la pubblicazione. Non si confondono le scadenze europee con quelle del testo italiano originario."
+          "source_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32007L0060",
+          "locator": "Artt. 14–18",
+          "finding": "Riesami sessennali di valutazione, mappe e piani con scadenze europee iniziali a dicembre; cambiamento climatico considerato nei riesami indicati. Le date nazionali di settembre vanno tenute distinte."
         }
       ],
       "needed_source_or_operation": [
-        "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+        "Coordinare i rinvii settoriali aggiornati e verificare separatamente attuazione e versioni dei PGRA territoriali."
       ],
       "limitations": [
-        "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+        "Non riesaminati nel perimetro europeo i singoli PGRA, la giurisprudenza e i rinvii settoriali successivi."
       ],
       "actual_access_problems": [
         {
@@ -474,7 +492,7 @@
       ],
       "reason_still_open": "Fonte o coordinamento indicati nella coda non ancora verificati. Un accesso riuscito non chiude il confronto normativo.",
       "next_step": [
-        "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+        "Coordinare i rinvii settoriali aggiornati e verificare separatamente attuazione e versioni dei PGRA territoriali."
       ]
     },
     {

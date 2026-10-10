@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-10T12:27:14Z",
+  "checked_at": "2026-10-10T12:35:49Z",
   "national": {
     "state": "non_allineato",
     "last_completed_at": "2026-10-10T13:12:18+02:00",
@@ -29,7 +29,8 @@
         "dpr753",
         "codstrada285",
         "dpr495",
-        "dpr59"
+        "dpr59",
+        "dl39-riuso-2023"
       ],
       "excluded_ids": [
         "ntc18",
@@ -40,7 +41,7 @@
         "camstrade2025",
         "dm185"
       ],
-      "total_records": 18
+      "total_records": 19
     },
     "warnings": [
       "Controllo API limitato agli atti con URN supportato; esclusi: ntc18, dmattr2014, camed2025, camstrade2024, camverde2020, camstrade2025, dm185"
@@ -127,13 +128,21 @@
   },
   "anomalies": [
     {
+      "code": "NATIONAL_PENDING",
+      "severity": "error",
+      "message": "Verifica API documentata, pubblicazione non confermata.",
+      "evidence": null,
+      "event_id": "2fade3df9fb56dbe160ea5c3"
+    },
+    {
       "code": "NATIONAL_RECEIPT",
       "severity": "error",
       "message": "I file del repository divergono dalla ricevuta interna.",
       "evidence": [
-        "Hash del registro diverso dalla ricevuta tecnica"
+        "Hash del registro diverso dalla ricevuta tecnica",
+        "Hash dello stato diverso dalla ricevuta tecnica"
       ],
-      "event_id": "4b2ec166c5ea4a172d0b2d56"
+      "event_id": "56dfc6647f7914159238ae88"
     },
     {
       "code": "TERRITORIAL_PARZIALE",
@@ -269,8 +278,27 @@
       ],
       "event_id": "4b2ec166c5ea4a172d0b2d56",
       "recorded_at": "2026-10-10T12:27:14Z"
+    },
+    {
+      "code": "NATIONAL_PENDING",
+      "severity": "error",
+      "message": "Verifica API documentata, pubblicazione non confermata.",
+      "evidence": null,
+      "event_id": "2fade3df9fb56dbe160ea5c3",
+      "recorded_at": "2026-10-10T12:35:49Z"
+    },
+    {
+      "code": "NATIONAL_RECEIPT",
+      "severity": "error",
+      "message": "I file del repository divergono dalla ricevuta interna.",
+      "evidence": [
+        "Hash del registro diverso dalla ricevuta tecnica",
+        "Hash dello stato diverso dalla ricevuta tecnica"
+      ],
+      "event_id": "56dfc6647f7914159238ae88",
+      "recorded_at": "2026-10-10T12:35:49Z"
     }
   ],
   "has_errors": true,
-  "repository_sha": "a2a4df4c0601ff32a6c8712aa66681d1ddd915b0"
+  "repository_sha": "fbee8223fa646f2b89db61b29c12c45c87a7c84c"
 }

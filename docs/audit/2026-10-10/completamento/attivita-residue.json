@@ -341,7 +341,11 @@
       "actual_access_problems": [],
       "reason_still_open": "Fonte o coordinamento indicati nella coda non ancora verificati. Un accesso riuscito non chiude il confronto normativo.",
       "next_step": [
+        "Riutilizzare docs/audit/2026-10-10/completamento/preparazione-lotto27.json per coordinare direttiva PCM 24/02/2015, Codice della protezione civile e D.Lgs. 49/2010; non ripetere la lettura già documentata.",
         "Coordinare rinvii alla disciplina corrente di protezione civile e acque; verificare atti tecnici ex artt. 14–15 e singoli PGRA."
+      ],
+      "preparatory_evidence": [
+        "docs/audit/2026-10-10/completamento/preparazione-lotto27.json"
       ]
     },
     {
@@ -7202,6 +7206,19 @@
       "publication_locator": "BURT 14/2025 pp. 59–113 per il coordinato 61/R; rinvio al 42/R nell’art. 3 del 12/R",
       "status": "Rinvii individuati, lettura integrale e allegati non ancora completati; non inseriti in catalogo",
       "next_step": "Riutilizzare il BURT acquisito per la lettura del 61/R; coordinare compatibilità ex 42/R e verificare aggiornamenti."
+    },
+    {
+      "territory": "Italia",
+      "ref": "Direttiva PCM 24 febbraio 2015 · allertamento e parte protezione civile PGRA",
+      "source_url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=15A02543&atto.dataPubblicazioneGazzetta=2015-03-31&tipoSerie=serie_generale&tipoVigenza=originario",
+      "source_urls": [
+        "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=15A02543&atto.dataPubblicazioneGazzetta=2015-03-31&tipoSerie=serie_generale&tipoVigenza=originario",
+        "https://www.protezionecivile.gov.it/en/normativa/indirizzi-operativi-del-24-febbraio-2015-per-la-predisposizione-della-parte-dei-piani-di-gestione-relativa-al-sistema-di-allertamento-nazionale--stata/"
+      ],
+      "publication_locator": "GU 75 del 31 marzo 2015, codice 15A02543",
+      "status": "Testo originario letto; coordinamento e revisione da validare, non inserito in catalogo",
+      "evidence": "docs/audit/2026-10-10/completamento/preparazione-lotto27.json",
+      "next_step": "Riutilizzare docs/audit/2026-10-10/completamento/preparazione-lotto27.json per coordinare direttiva PCM 24/02/2015, Codice della protezione civile e D.Lgs. 49/2010; non ripetere la lettura già documentata."
     }
   ]
 }

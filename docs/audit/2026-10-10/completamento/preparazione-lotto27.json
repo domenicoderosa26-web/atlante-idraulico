@@ -1,0 +1,45 @@
+{
+  "checked_at": "2026-10-10T18:22:10.850187+00:00",
+  "record_ids": [
+    "dl49"
+  ],
+  "stage": "preparazione_salvata_non_integrata_nella_revisione",
+  "acquisition": {
+    "url": "https://www.protezionecivile.gov.it/en/normativa/indirizzi-operativi-del-24-febbraio-2015-per-la-predisposizione-della-parte-dei-piani-di-gestione-relativa-al-sistema-di-allertamento-nazionale--stata/",
+    "final_url": "https://www.protezionecivile.gov.it/en/normativa/indirizzi-operativi-del-24-febbraio-2015-per-la-predisposizione-della-parte-dei-piani-di-gestione-relativa-al-sistema-di-allertamento-nazionale--stata/",
+    "http_status": 200,
+    "bytes": 1000633,
+    "sha256": "d5516886c24027a0a270c3dfd7de2ee3bed05469fcf70333a2f599f7cafbded7",
+    "checked_at": "2026-10-10T18:19:52.543840+00:00"
+  },
+  "source_urls": [
+    "https://www.protezionecivile.gov.it/en/normativa/indirizzi-operativi-del-24-febbraio-2015-per-la-predisposizione-della-parte-dei-piani-di-gestione-relativa-al-sistema-di-allertamento-nazionale--stata/",
+    "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=15A02543&atto.dataPubblicazioneGazzetta=2015-03-31&tipoSerie=serie_generale&tipoVigenza=originario"
+  ],
+  "scope_read": "Testo DPC della direttiva PCM 24 febbraio 2015, sezioni 1–11; confronto identità e passaggi GU originaria. Nessuna lettura esaustiva del Codice della protezione civile.",
+  "findings": [
+    {
+      "aspect": "identity",
+      "source_url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=15A02543&atto.dataPubblicazioneGazzetta=2015-03-31&tipoSerie=serie_generale&tipoVigenza=originario",
+      "locator": "Intestazione GU e codice 15A02543",
+      "finding": "Direttiva PCM 24 febbraio 2015, GU 75 del 31 marzo 2015; fonte originaria, non attestazione del testo corrente."
+    },
+    {
+      "aspect": "content",
+      "source_url": "https://www.protezionecivile.gov.it/en/normativa/indirizzi-operativi-del-24-febbraio-2015-per-la-predisposizione-della-parte-dei-piani-di-gestione-relativa-al-sistema-di-allertamento-nazionale--stata/",
+      "locator": "Sezioni 1–4",
+      "finding": "Distingue gestione in tempo reale da interventi e vincoli nel tempo differito. Richiede coordinamento distrettuale di allertamento, presidi e piani di laminazione."
+    },
+    {
+      "aspect": "content",
+      "source_url": "https://www.protezionecivile.gov.it/en/normativa/indirizzi-operativi-del-24-febbraio-2015-per-la-predisposizione-della-parte-dei-piani-di-gestione-relativa-al-sistema-di-allertamento-nazionale--stata/",
+      "locator": "Sezioni 5–6 e 9–11",
+      "finding": "Collega criticità, allerte e fasi operative senza equipararle automaticamente. Considera PAI/mappe più gravose, punti critici e dati recenti; conserva competenze speciali e partecipazione pubblica."
+    }
+  ],
+  "next_operation": "Coordinare la lettura salvata con D.Lgs. 1/2018, modifiche successive e rinvii del D.Lgs. 49 prima di integrare una revisione o una nuova scheda.",
+  "limitations": [
+    "Vigenza della direttiva e coordinamento normativo corrente non ricostruiti; nessuna modifica al catalogo o alle celle territoriali da questa preparazione."
+  ],
+  "phase3_complete": false
+}

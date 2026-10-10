@@ -1,0 +1,77 @@
+{
+  "checked_at": "2026-10-10T18:19:33.909768+00:00",
+  "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/34",
+  "merge_commit": "ac8775edd672053afcbb2692bb8202a60a224359",
+  "ci": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/38075191919",
+  "deployment": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/38075232926",
+  "supervision_run": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/38075233147",
+  "file_checks": [
+    {
+      "path": "data.json",
+      "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/data.json",
+      "match": true,
+      "sha256": "b0663cc7c041ec6540d8a3da802055c03ae880daac650d405d8d71b6ddf38dfb"
+    },
+    {
+      "path": "topic-taxonomy.json",
+      "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/topic-taxonomy.json",
+      "match": true,
+      "sha256": "05680cd22e2b77f76d2bf47d0356a628001945b6d1a070c637c21975056d92c4"
+    },
+    {
+      "path": "docs/audit/progress.json",
+      "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/audit/progress.json",
+      "match": true,
+      "sha256": "04cf207c044fea29b439287a469b000d147c3b38a12b541dec172d662da53fe4"
+    },
+    {
+      "path": "docs/audit/2026-10-10/completamento/attivita-residue.json",
+      "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/audit/2026-10-10/completamento/attivita-residue.json",
+      "match": true,
+      "sha256": "cc4d2168bb1e8b751762a47620b7662d2aec01a023889e24041ea31952d9d9ba"
+    },
+    {
+      "path": "docs/audit/2026-10-10/completamento/copertura-aggiornata.json",
+      "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/audit/2026-10-10/completamento/copertura-aggiornata.json",
+      "match": true,
+      "sha256": "f792b625e5e3d1a8a5bf540ef88363ff6d23d6fc4bafc9f41436838b08a98886"
+    },
+    {
+      "path": "docs/audit/2026-10-10/completamento/lotto-26.json",
+      "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/audit/2026-10-10/completamento/lotto-26.json",
+      "match": true,
+      "sha256": "bb94a2828e6fca97d6b4fd24c090e182480171a764713953974d4febf45bc541"
+    },
+    {
+      "path": "docs/audit/2026-10-10/completamento/validazione-lotto26.json",
+      "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/audit/2026-10-10/completamento/validazione-lotto26.json",
+      "match": true,
+      "sha256": "05592cc5d1906adfecc2f5ac0b2e3c0206e174e482071d8fc5147f09bd31d378"
+    },
+    {
+      "path": "docs/audit/2026-10-10/completamento/stato-stabilizzazione.md",
+      "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/audit/2026-10-10/completamento/stato-stabilizzazione.md",
+      "match": true,
+      "sha256": "beddf6f683070177985db70c0d67890f9a7cb36337c91906d7f23a93cacf8057"
+    }
+  ],
+  "phase3_complete": false,
+  "outcome": "published_verified",
+  "supervision": {
+    "checked_at": "2026-10-10T18:18:43Z",
+    "has_errors": false,
+    "anomalies": [
+      {
+        "code": "TERRITORIAL_PARZIALE",
+        "severity": "warning",
+        "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
+        "evidence": "data.json:runs[0]",
+        "event_id": "ae6987e6b67ef285849d8eb8"
+      }
+    ],
+    "repository_sha": "ac8775edd672053afcbb2692bb8202a60a224359",
+    "national_checkpoint_consistent": true
+  },
+  "subsequent_deployment": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/38075266175",
+  "deployed_head_sha": "8b0cb033cab403afde1e8ee1dad7ea1843475c71"
+}

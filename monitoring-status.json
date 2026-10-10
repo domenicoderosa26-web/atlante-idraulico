@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-10T12:35:49Z",
+  "checked_at": "2026-10-10T17:23:59Z",
   "national": {
     "state": "non_allineato",
-    "last_completed_at": "2026-10-10T13:12:18+02:00",
+    "last_completed_at": "2026-10-10T14:32:05+02:00",
     "expected_date": "2026-10-10",
     "deadline_local": "16:00 Europe/Rome",
     "checkpoint_end": "2026-10-10T11:12:18Z",
-    "checkpoint_consistent": true,
+    "checkpoint_consistent": false,
     "latest_run": {
       "id": 38047569864,
       "html_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/38047569864",
@@ -128,11 +128,11 @@
   },
   "anomalies": [
     {
-      "code": "NATIONAL_PENDING",
+      "code": "NATIONAL_CHECKPOINT",
       "severity": "error",
-      "message": "Verifica API documentata, pubblicazione non confermata.",
-      "evidence": null,
-      "event_id": "2fade3df9fb56dbe160ea5c3"
+      "message": "Stato completato e checkpoint interno non corrispondono.",
+      "evidence": "update-status.json / normattiva-state:checkpoint.json",
+      "event_id": "ee31defba0ef58028b587ed7"
     },
     {
       "code": "NATIONAL_RECEIPT",
@@ -297,8 +297,16 @@
       ],
       "event_id": "56dfc6647f7914159238ae88",
       "recorded_at": "2026-10-10T12:35:49Z"
+    },
+    {
+      "code": "NATIONAL_CHECKPOINT",
+      "severity": "error",
+      "message": "Stato completato e checkpoint interno non corrispondono.",
+      "evidence": "update-status.json / normattiva-state:checkpoint.json",
+      "event_id": "ee31defba0ef58028b587ed7",
+      "recorded_at": "2026-10-10T17:23:59Z"
     }
   ],
   "has_errors": true,
-  "repository_sha": "fbee8223fa646f2b89db61b29c12c45c87a7c84c"
+  "repository_sha": "697aec5845fcd9ccc56c55602e034741742fc63f"
 }

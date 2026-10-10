@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-10T17:23:59Z",
+  "checked_at": "2026-10-10T17:28:29Z",
   "national": {
-    "state": "non_allineato",
+    "state": "fallito",
     "last_completed_at": "2026-10-10T14:32:05+02:00",
     "expected_date": "2026-10-10",
     "deadline_local": "16:00 Europe/Rome",
     "checkpoint_end": "2026-10-10T11:12:18Z",
     "checkpoint_consistent": false,
     "latest_run": {
-      "id": 38047569864,
-      "html_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/38047569864",
-      "event": "schedule",
+      "id": 38071849880,
+      "html_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/38071849880",
+      "event": "workflow_dispatch",
       "status": "completed",
-      "conclusion": "success",
-      "created_at": "2026-10-10T11:12:08Z",
-      "updated_at": "2026-10-10T11:13:26Z"
+      "conclusion": "failure",
+      "created_at": "2026-10-10T17:28:03Z",
+      "updated_at": "2026-10-10T17:28:16Z"
     },
     "scope": {
       "monitored_ids": [
@@ -55,20 +55,20 @@
       {
         "name": "check",
         "status": "completed",
-        "conclusion": "success"
+        "conclusion": "failure"
       },
       {
         "name": "deploy",
         "status": "completed",
-        "conclusion": "success"
+        "conclusion": "skipped"
       },
       {
         "name": "finalize",
         "status": "completed",
-        "conclusion": "success"
+        "conclusion": "skipped"
       }
     ],
-    "api_step_executed": true
+    "api_step_executed": false
   },
   "territorial": {
     "state": "parziale",
@@ -128,11 +128,18 @@
   },
   "anomalies": [
     {
+      "code": "NATIONAL_FAILED",
+      "severity": "error",
+      "message": "Ultimo workflow nazionale fallito o interrotto; ultimo risultato valido conservato.",
+      "evidence": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/38071849880",
+      "event_id": "930e748061300b2fcef8dc36"
+    },
+    {
       "code": "NATIONAL_CHECKPOINT",
       "severity": "error",
       "message": "Stato completato e checkpoint interno non corrispondono.",
       "evidence": "update-status.json / normattiva-state:checkpoint.json",
-      "event_id": "ee31defba0ef58028b587ed7"
+      "event_id": "a51d8fea3f14bbf0c62abd22"
     },
     {
       "code": "NATIONAL_RECEIPT",
@@ -142,7 +149,7 @@
         "Hash del registro diverso dalla ricevuta tecnica",
         "Hash dello stato diverso dalla ricevuta tecnica"
       ],
-      "event_id": "56dfc6647f7914159238ae88"
+      "event_id": "3889840f7179f3551adadca1"
     },
     {
       "code": "TERRITORIAL_PARZIALE",
@@ -305,8 +312,35 @@
       "evidence": "update-status.json / normattiva-state:checkpoint.json",
       "event_id": "ee31defba0ef58028b587ed7",
       "recorded_at": "2026-10-10T17:23:59Z"
+    },
+    {
+      "code": "NATIONAL_FAILED",
+      "severity": "error",
+      "message": "Ultimo workflow nazionale fallito o interrotto; ultimo risultato valido conservato.",
+      "evidence": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/38071849880",
+      "event_id": "930e748061300b2fcef8dc36",
+      "recorded_at": "2026-10-10T17:28:29Z"
+    },
+    {
+      "code": "NATIONAL_CHECKPOINT",
+      "severity": "error",
+      "message": "Stato completato e checkpoint interno non corrispondono.",
+      "evidence": "update-status.json / normattiva-state:checkpoint.json",
+      "event_id": "a51d8fea3f14bbf0c62abd22",
+      "recorded_at": "2026-10-10T17:28:29Z"
+    },
+    {
+      "code": "NATIONAL_RECEIPT",
+      "severity": "error",
+      "message": "I file del repository divergono dalla ricevuta interna.",
+      "evidence": [
+        "Hash del registro diverso dalla ricevuta tecnica",
+        "Hash dello stato diverso dalla ricevuta tecnica"
+      ],
+      "event_id": "3889840f7179f3551adadca1",
+      "recorded_at": "2026-10-10T17:28:29Z"
     }
   ],
   "has_errors": true,
-  "repository_sha": "697aec5845fcd9ccc56c55602e034741742fc63f"
+  "repository_sha": "043aef87697c250b719dc8e3b84daf302acdda3a"
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-09",
+  "updatedAt": "2026-10-10",
   "scope": "Catalogo selettivo con controllo mirato dei CAM e della disciplina delle acque di prima pioggia per tutte le regioni. La verifica locale e autorizzativa resta necessaria.",
   "automation": {
     "enabled": true,
@@ -12873,6 +12873,82 @@
     }
   ],
   "runs": [
+    {
+      "date": "2026-10-10",
+      "type": "Controllo territoriale · ricognizione parziale",
+      "summary": "Ricognizione senza nuove schede o modifiche normative pubblicabili. Villanovafranca resta in attesa di pubblicazione sul BURAS; le determinazioni Sardegna 160 e 161 sono atti di archiviazione. Le verifiche non completate sono dichiarate come limiti, senza dedurre assenza di nuovi atti.",
+      "checked": [
+        "dist-sard",
+        "sard-villanovafranca-reticolo-159-2026",
+        "dist-centr",
+        "dist-po",
+        "bz23"
+      ],
+      "territories": [
+        "Sardegna: prima pagina delle determinazioni e seduta della Giunta regionale dell'8 ottobre 2026",
+        "Provincia autonoma di Bolzano: prima pagina dell'ultima seduta del 2 ottobre 2026",
+        "Appennino Centrale: homepage e notizie recenti",
+        "Distretto del Po: homepage generale e portale PAI"
+      ],
+      "read_urls": [
+        "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/",
+        "https://delibere.regione.sardegna.it/",
+        "https://giunta-provinciale.provincia.bz.it/it/delibere",
+        "https://aubac.it/",
+        "https://www.adbpo.it/",
+        "https://pai.adbpo.it/"
+      ],
+      "source_findings": [
+        {
+          "source_url": "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/",
+          "result": "Villanovafranca, determinazione 159/2026, è ancora indicata in attesa di pubblicazione sul BURAS. Le determinazioni 160/2026 Tresnuraghes e 161/2026 Sinnai sono archiviazioni dei rispettivi procedimenti; non sono state trattate come nuove varianti approvate. Prima pagina consultata integralmente nel contenuto esposto."
+        },
+        {
+          "source_url": "https://delibere.regione.sardegna.it/",
+          "result": "Esaminati gli oggetti della seduta dell'8 ottobre 2026 esposti nella pagina: gli atti idraulici visibili riguardano competenze e finanziamenti del sistema idrico, non nuove norme PAI, PGRA o regole tecniche."
+        },
+        {
+          "source_url": "https://giunta-provinciale.provincia.bz.it/it/delibere",
+          "result": "L'ultima seduta esposta resta quella del 2 ottobre 2026. Nei dieci oggetti visibili della prima pagina non compare un nuovo PZP; la seconda pagina non è stata acquisita correttamente e la verifica non è esaustiva."
+        },
+        {
+          "source_url": "https://aubac.it/",
+          "result": "Le notizie recenti esposte comprendono l'evento del 9 ottobre e la cartografia P.S.5 del 6 ottobre già censita; nessun nuovo atto PAI o PGRA è stato identificato nella sola homepage."
+        },
+        {
+          "source_url": "https://www.adbpo.it/",
+          "result": "Le novità esposte il 9 e l'8 ottobre riguardano il Forum Acqua, la situazione idrologica e il progetto REWET; non costituiscono nuovi atti PAI o PGRA."
+        },
+        {
+          "source_url": "https://pai.adbpo.it/",
+          "result": "Il portale PAI espone ancora come ultimo aggiornamento procedurale le modalità del 15 gennaio 2026 per le osservazioni al progetto di variante PAI Po; nessun atto più recente è visibile nella pagina consultata."
+        }
+      ],
+      "errors": [
+        "Bolzano: il collegamento alla seconda pagina restituisce nuovamente i primi dieci risultati e una sezione in caricamento; i venti atti dell'ultima seduta non sono stati verificati integralmente.",
+        "Sicilia: la pagina ufficiale di partecipazione pubblica ha restituito un errore del lettore; la fonte non è considerata controllata.",
+        "Appennino Settentrionale: la pagina ufficiale del III ciclo ha restituito un errore del lettore; la fonte non è considerata controllata.",
+        "Po: il portale PGRA ha restituito un errore del lettore; sono state controllate soltanto homepage generale e portale PAI."
+      ],
+      "limitations": [
+        "Ricognizione circoscritta alle URL elencate e ai contenuti effettivamente esposti; non copre integralmente regioni, province, comuni, gestori, allegati, cartografie o catene degli atti.",
+        "L'assenza di modifiche pubblicabili vale soltanto per il perimetro letto. Nessuna conclusione è tratta dalle fonti in errore o dalle sezioni non acquisite.",
+        "L'audit documentale incrementale della Fase 3 resta separato e non è stato modificato da questo controllo."
+      ],
+      "updated_records": [],
+      "new_records": [],
+      "execution": {
+        "id": "local-territorial-20261010-100050",
+        "id_origin": "Identificativo locale generato per questa esecuzione; identificativo del servizio non disponibile.",
+        "started_at": "2026-10-10T10:00:50.395294+02:00",
+        "finished_at": "2026-10-10T10:03:24+02:00",
+        "outcome": "parziale",
+        "publication": {
+          "outcome": "in_attesa",
+          "last_valid_result": "published_github_pages"
+        }
+      }
+    },
     {
       "date": "2026-10-09",
       "type": "Audit documentale Fase 3 · lotto 08",

@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-10",
+  "lot": 21,
+  "record_ids": [
+    "dl39-riuso-2023"
+  ],
+  "records": [
+    {
+      "id": "dl39-riuso-2023",
+      "checked_at": "2026-10-10",
+      "scope": "Completata lettura art. 7 e intero allegato A: HTML tabella 1 e parte B già letti nel lotto 20; ora acquisito PDF e lette visivamente entrambe le pagine GU con tabelle 2–3 e tutte le note. Riscontro proroga 2026 conservato.",
+      "outcome": "partial",
+      "legal_state": "amended",
+      "claims": [
+        {
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2023-04-14;39~art7",
+          "locator": "Art. 7 commi 1–4",
+          "finding": "Riuso agricolo da impianti già in esercizio al 15 aprile 2023; competenza regione/Provincia autonoma, procedimento unico con ARPA e ASL, termine 45 giorni e potere sostitutivo 30 giorni. PGR predisposto dal gestore insieme ai responsabili di trasporto e stoccaggio."
+        },
+        {
+          "aspect": "amendment",
+          "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13",
+          "locator": "Art. 13 comma 1-bis",
+          "finding": "Termine massimo prorogato al 31 dicembre 2026, con conversione L. 26/2026; resta la cessazione anticipata all’entrata in vigore del DPR previsto dall’art. 7."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2023-04-14;39~art7",
+          "locator": "Allegato A: tabella 1 e parte B sezioni 1–3",
+          "finding": "Classi A–D correlate a colture e tecniche irrigue. PGR: sistema, ruoli, pericoli, esposizione e valutazione dei rischi; requisiti ulteriori, barriere, monitoraggio e incidenti, articolati negli 11 elementi KRM. Non estese queste procedure indistintamente ai riusi civili o industriali."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.normattiva.it/do/atto/caricaPdf?cdimg=23G0004700100010110001&num=0001&dgu=2023-04-14",
+          "locator": "GU 14/04/2023 pp. 11–12: tabelle 2–3 e note, lettura visiva integrale",
+          "finding": "Qualità e monitoraggio distinti per classi A–D. Legionella condizionata al rischio di diffusione aerea; nematodi per pascoli/foraggi. E. coli e altri microbiologici: regola del 90% con deviazioni ammissibili; Salmonella assente nel 100%. N/P per invasi e canali permeabili hanno valori specifici e possono essere più restrittivi secondo PGR. Frequenze della tabella 3 non trasferite indistintamente a tutte le classi."
+        }
+      ],
+      "limitations": [
+        "Non riesaminati altri articoli del decreto, rinvii esterni e atti regionali; non accertata eventuale entrata in vigore del DPR attuativo."
+      ],
+      "pending": [
+        "Verificare DPR esecutivo UE e atti regionali; coordinare rinvii aggiornati e prescrizioni dei singoli impianti."
+      ],
+      "proposed_changes": {
+        "document_note": "Letti art. 7 e intero allegato A, inclusi segmenti grafici con qualità, frequenze e note. Rinvii esterni e condizione sul DPR attuativo restano aperti.",
+        "add_document": {
+          "url": "https://www.normattiva.it/do/atto/caricaPdf?cdimg=23G0004700100010110001&num=0001&dgu=2023-04-14",
+          "label": "Normattiva/GU · allegato A, tabelle grafiche 2–3",
+          "format": "pdf"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.normattiva.it/do/atto/caricaPdf?cdimg=23G0004700100010110001&num=0001&dgu=2023-04-14",
+          "http_status": 200,
+          "bytes": 1623703,
+          "sha256": "ea92bf2a51c4990ad5208166fe4fd9f7ecb62a66bb059d33aa96b9668084760e",
+          "body_complete": true,
+          "consulted_at": "2026-10-10T12:27:41.732734+00:00"
+        }
+      ]
+    }
+  ],
+  "corrections": [
+    {
+      "id": "dl39-riuso-2023",
+      "field": "documents",
+      "before": [
+        {
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2023-04-14;39~art7",
+          "label": "Normattiva · art. 7 vigente",
+          "format": "html"
+        },
+        {
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13",
+          "label": "Normattiva · proroga 2026 e abrogazione condizionata",
+          "format": "html"
+        }
+      ],
+      "after": [
+        {
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2023-04-14;39~art7",
+          "label": "Normattiva · art. 7 vigente",
+          "format": "html"
+        },
+        {
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13",
+          "label": "Normattiva · proroga 2026 e abrogazione condizionata",
+          "format": "html"
+        },
+        {
+          "url": "https://www.normattiva.it/do/atto/caricaPdf?cdimg=23G0004700100010110001&num=0001&dgu=2023-04-14",
+          "label": "Normattiva/GU · allegato A, tabelle grafiche 2–3",
+          "format": "pdf"
+        }
+      ],
+      "source_urls": [
+        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2023-04-14;39~art7",
+        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13",
+        "https://www.normattiva.it/do/atto/caricaPdf?cdimg=23G0004700100010110001&num=0001&dgu=2023-04-14"
+      ]
+    },
+    {
+      "id": "dl39-riuso-2023",
+      "field": "document_note",
+      "before": "Allegato A: lette tabella 1 in HTML e parte B completa; parti grafiche sulle prescrizioni e controlli ancora da acquisire.",
+      "after": "Letti art. 7 e intero allegato A, inclusi segmenti grafici con qualità, frequenze e note. Rinvii esterni e condizione sul DPR attuativo restano aperti.",
+      "source_urls": [
+        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2023-04-14;39~art7",
+        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13",
+        "https://www.normattiva.it/do/atto/caricaPdf?cdimg=23G0004700100010110001&num=0001&dgu=2023-04-14"
+      ]
+    }
+  ],
+  "note": "Verifica circoscritta alle fonti e disposizioni indicate; non certificazione generale di vigenza."
+}

@@ -1,0 +1,52 @@
+{
+  "started_at": "2026-10-10T12:32:05Z",
+  "interval_start": "2026-10-10T11:12:18Z",
+  "event": null,
+  "outcome": "verificato",
+  "verification_completed_at": "2026-10-10T12:32:05Z",
+  "calls": [
+    {
+      "endpoint": "/ricerca/aggiornati",
+      "attempt": 1,
+      "requested_at": "2026-10-10T12:32:05Z",
+      "request": {
+        "dataInizioAggiornamento": "2026-10-10T11:12:18.000Z",
+        "dataFineAggiornamento": "2026-10-10T12:32:05.000Z"
+      },
+      "outcome": "success",
+      "pages": 1,
+      "total": 0
+    }
+  ],
+  "monitored_ids": [
+    "rd523",
+    "rd1775",
+    "rd368",
+    "rd215",
+    "dl152",
+    "dl49",
+    "appalti36",
+    "dpr753",
+    "codstrada285",
+    "dpr495",
+    "dpr59",
+    "dl39-riuso-2023"
+  ],
+  "excluded_ids": [
+    "ntc18",
+    "dmattr2014",
+    "camed2025",
+    "camstrade2024",
+    "camverde2020",
+    "camstrade2025",
+    "dm185"
+  ],
+  "changes_detected": 0,
+  "execution_context": "Controllo manuale locale: pipeline normattiva.py preesistente, trasporto HTTPS tramite Invoke-RestMethod con validazione TLS del sistema. Nessuna modifica alle automazioni.",
+  "public_status": "candidato verificato, pubblicazione ancora da confrontare",
+  "previous_workflow_error": {
+    "run": 38051985202,
+    "code": "NATIONAL_RECEIPT",
+    "reason": "Registro ampliato a 19 voci dopo il controllo automatico precedente."
+  }
+}

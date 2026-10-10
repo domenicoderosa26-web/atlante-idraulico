@@ -76,15 +76,15 @@
     "adopted": 4
   },
   "full_legal_reviews": 0,
-  "technical_urls": 374,
+  "technical_urls": 375,
   "technical_errors": 57,
   "empty_or_challenge": 13,
-  "unique_sources_with_scoped_semantic_claims": 82,
-  "document_entries": 231,
+  "unique_sources_with_scoped_semantic_claims": 83,
+  "document_entries": 232,
   "coverage_cells": {
     "ricognizione_non_ancora_effettuata": 143,
     "ricognizione_puntuale_non_esaustiva": 29,
     "atto_verificato_e_censito_perimetro_parziale": 4
   },
-  "base_commit": "371da952792cc1945f37d2db0a8970a2ec4e4498"
+  "base_commit": "a2a4df4c0601ff32a6c8712aa66681d1ddd915b0"
 }

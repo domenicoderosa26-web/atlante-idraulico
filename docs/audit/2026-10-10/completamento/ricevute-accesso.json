@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-10T12:19:38.015837+00:00",
+  "checked_at": "2026-10-10T12:32:44.807536+00:00",
   "catalog_records": 115,
   "note": "Accesso tecnico distinto dalla lettura normativa. Nessun controllo HTTP certifica contenuto o vigenza.",
   "receipts": [
@@ -7026,6 +7026,26 @@
       "empty_response": false,
       "access_challenge": false,
       "sha256": "2c90e9b10f765f75c752d718da30a9221ba0e26114a76cf09612878fc9853f88"
+    },
+    {
+      "url": "https://www.normattiva.it/do/atto/caricaPdf?cdimg=23G0004700100010110001&num=0001&dgu=2023-04-14",
+      "record_ids": [
+        "dl39-riuso-2023"
+      ],
+      "checked_at": "2026-10-10T12:32:44.158781+00:00",
+      "owner_hostname": "www.normattiva.it",
+      "semantic_verification": "not_performed_by_access_check",
+      "http_status": 200,
+      "final_url": "https://www.normattiva.it/do/atto/caricaPdf?cdimg=23G0004700100010110001&num=0001&dgu=2023-04-14",
+      "redirects": [],
+      "content_type": "application/pdf",
+      "declared_content_length": null,
+      "sample_bytes": 1623703,
+      "body_complete": true,
+      "content_signature": "pdf",
+      "empty_response": false,
+      "access_challenge": false,
+      "sha256": "ea92bf2a51c4990ad5208166fe4fd9f7ecb62a66bb059d33aa96b9668084760e"
     }
   ]
 }

@@ -1,0 +1,169 @@
+{
+  "pr": 24,
+  "merge_commit": "af19f4962c8d76b68ae3b42bd9fe95f27c886053",
+  "expected_repository_sha": "af19f4962c8d76b68ae3b42bd9fe95f27c886053",
+  "deployed_repository_sha": "8a8f8cc3e8d67510126269c880fe1c8256e150b2",
+  "pages_run": 38050148484,
+  "verified_at": "2026-10-10T11:57:00.050755+00:00",
+  "files": [
+    {
+      "path": "data.json",
+      "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/data.json",
+      "http_status": 200,
+      "exact_match": true,
+      "expected_sha256": "3862f044a60c9547900e31f5c92b10f8e33c608be4f4e34ac7ee62870751f4b4",
+      "sha256": "3862f044a60c9547900e31f5c92b10f8e33c608be4f4e34ac7ee62870751f4b4"
+    },
+    {
+      "path": "topic-taxonomy.json",
+      "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/topic-taxonomy.json",
+      "http_status": 200,
+      "exact_match": true,
+      "expected_sha256": "212b54796d0c217ae3f3e7fbc35636a4d8c4f2f695a76b38010270851a6b57fd",
+      "sha256": "212b54796d0c217ae3f3e7fbc35636a4d8c4f2f695a76b38010270851a6b57fd"
+    },
+    {
+      "path": "docs/audit/progress.json",
+      "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/audit/progress.json",
+      "http_status": 200,
+      "exact_match": true,
+      "expected_sha256": "5ebcb0762a466ddd4d36e1825e03e6c289af0f74c57d5ca42ca85c36634277a8",
+      "sha256": "5ebcb0762a466ddd4d36e1825e03e6c289af0f74c57d5ca42ca85c36634277a8"
+    },
+    {
+      "path": "docs/audit/2026-10-09/incrementale/lotto-17.json",
+      "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/audit/2026-10-09/incrementale/lotto-17.json",
+      "http_status": 200,
+      "exact_match": true,
+      "expected_sha256": "afc7134fac81fbeaaae2797dd9a3dc1dcf56e34e3a996c94855b6654885a84d9",
+      "sha256": "afc7134fac81fbeaaae2797dd9a3dc1dcf56e34e3a996c94855b6654885a84d9"
+    },
+    {
+      "path": "docs/audit/2026-10-09/incrementale/validazione-lotto-17.json",
+      "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/audit/2026-10-09/incrementale/validazione-lotto-17.json",
+      "http_status": 200,
+      "exact_match": true,
+      "expected_sha256": "a39dd758469a39eb60aa88e692895d4f9c308c53cc408ccad524b285b5a23d60",
+      "sha256": "a39dd758469a39eb60aa88e692895d4f9c308c53cc408ccad524b285b5a23d60"
+    },
+    {
+      "path": "docs/audit/2026-10-09/incrementale/pubblicazione-lotto-10.json",
+      "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/audit/2026-10-09/incrementale/pubblicazione-lotto-10.json",
+      "http_status": 200,
+      "exact_match": true,
+      "expected_sha256": "be817396aae9d5852fb41d76b88555bf5aeff3035d5d920297a59d77c3e48eb3",
+      "sha256": "be817396aae9d5852fb41d76b88555bf5aeff3035d5d920297a59d77c3e48eb3"
+    },
+    {
+      "path": "docs/audit/2026-10-09/incrementale/pubblicazione-lotto-11.json",
+      "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/audit/2026-10-09/incrementale/pubblicazione-lotto-11.json",
+      "http_status": 200,
+      "exact_match": true,
+      "expected_sha256": "0f58ff1b9f3e73516c230ee4525dac493e96748095d91d2594ab8c254a582485",
+      "sha256": "0f58ff1b9f3e73516c230ee4525dac493e96748095d91d2594ab8c254a582485"
+    },
+    {
+      "path": "docs/audit/2026-10-09/incrementale/pubblicazione-lotto-12.json",
+      "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/audit/2026-10-09/incrementale/pubblicazione-lotto-12.json",
+      "http_status": 200,
+      "exact_match": true,
+      "expected_sha256": "be0c63ce5819fbff61be033092e3a7c0688ad0438a0438f626f9c788feaee53f",
+      "sha256": "be0c63ce5819fbff61be033092e3a7c0688ad0438a0438f626f9c788feaee53f"
+    },
+    {
+      "path": "docs/audit/2026-10-09/incrementale/pubblicazione-lotto-13.json",
+      "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/audit/2026-10-09/incrementale/pubblicazione-lotto-13.json",
+      "http_status": 200,
+      "exact_match": true,
+      "expected_sha256": "0b96bd1c1a8d62faa31e27a7260c5bb08a13b249ecc5d441156714f90bc461e3",
+      "sha256": "0b96bd1c1a8d62faa31e27a7260c5bb08a13b249ecc5d441156714f90bc461e3"
+    },
+    {
+      "path": "docs/audit/2026-10-09/incrementale/pubblicazione-lotto-14.json",
+      "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/audit/2026-10-09/incrementale/pubblicazione-lotto-14.json",
+      "http_status": 200,
+      "exact_match": true,
+      "expected_sha256": "9fe604876ad3c037e07ce6a41d0cb50b78cea307848a32ea4b22834cc8768e7e",
+      "sha256": "9fe604876ad3c037e07ce6a41d0cb50b78cea307848a32ea4b22834cc8768e7e"
+    },
+    {
+      "path": "docs/audit/2026-10-09/incrementale/pubblicazione-lotto-15.json",
+      "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/audit/2026-10-09/incrementale/pubblicazione-lotto-15.json",
+      "http_status": 200,
+      "exact_match": true,
+      "expected_sha256": "8390020d4d036845e9c9fcd00e921c184e0f815b36c356da546cf00c44beb3f2",
+      "sha256": "8390020d4d036845e9c9fcd00e921c184e0f815b36c356da546cf00c44beb3f2"
+    },
+    {
+      "path": "docs/audit/2026-10-10/completamento/attivita-residue.json",
+      "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/audit/2026-10-10/completamento/attivita-residue.json",
+      "http_status": 200,
+      "exact_match": true,
+      "expected_sha256": "7012ced3862bf25eba8edc30ae6e12fced5e8f0a0ad27acdf44cda5625fcc2c0",
+      "sha256": "7012ced3862bf25eba8edc30ae6e12fced5e8f0a0ad27acdf44cda5625fcc2c0"
+    },
+    {
+      "path": "docs/audit/2026-10-10/completamento/copertura-aggiornata.json",
+      "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/audit/2026-10-10/completamento/copertura-aggiornata.json",
+      "http_status": 200,
+      "exact_match": true,
+      "expected_sha256": "1f8545276a3ad120eeda8db78298434b8b9facc2facf475758cb913811f00d8c",
+      "sha256": "1f8545276a3ad120eeda8db78298434b8b9facc2facf475758cb913811f00d8c"
+    },
+    {
+      "path": "docs/audit/2026-10-10/completamento/letture-semantiche.json",
+      "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/audit/2026-10-10/completamento/letture-semantiche.json",
+      "http_status": 200,
+      "exact_match": true,
+      "expected_sha256": "03f8e181aa19792a241c9d3f50d9c9b8519cd2a9028c7505d4bfef7adb6ac8f3",
+      "sha256": "03f8e181aa19792a241c9d3f50d9c9b8519cd2a9028c7505d4bfef7adb6ac8f3"
+    },
+    {
+      "path": "docs/audit/2026-10-10/completamento/rapporto-fase3.md",
+      "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/audit/2026-10-10/completamento/rapporto-fase3.md",
+      "http_status": 200,
+      "exact_match": true,
+      "expected_sha256": "fde419e87da5c5143ff78f216df0cc7080c22066bb2819c908f2804bda8f713d",
+      "sha256": "fde419e87da5c5143ff78f216df0cc7080c22066bb2819c908f2804bda8f713d"
+    },
+    {
+      "path": "docs/audit/2026-10-10/completamento/ricevute-accesso.json",
+      "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/audit/2026-10-10/completamento/ricevute-accesso.json",
+      "http_status": 200,
+      "exact_match": true,
+      "expected_sha256": "d472e3f9f2be0dbef91ec49d995c74d25b6e2c36a55145195af5dd85350c7848",
+      "sha256": "d472e3f9f2be0dbef91ec49d995c74d25b6e2c36a55145195af5dd85350c7848"
+    },
+    {
+      "path": "docs/audit/2026-10-10/completamento/risultati.json",
+      "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/audit/2026-10-10/completamento/risultati.json",
+      "http_status": 200,
+      "exact_match": true,
+      "expected_sha256": "8acd58a1e01d2542e29763544987bafb50f04d7ef28a996be0387cc0fdb256b9",
+      "sha256": "8acd58a1e01d2542e29763544987bafb50f04d7ef28a996be0387cc0fdb256b9"
+    },
+    {
+      "path": "docs/audit/2026-10-09/incrementale/lotto-16.json",
+      "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/audit/2026-10-09/incrementale/lotto-16.json",
+      "http_status": 200,
+      "exact_match": true,
+      "expected_sha256": "92049830cfa2a3d221b307954d601c6050ff8b7fd49cd9fdc70f14d9f9b44733",
+      "sha256": "92049830cfa2a3d221b307954d601c6050ff8b7fd49cd9fdc70f14d9f9b44733"
+    },
+    {
+      "path": "docs/audit/2026-10-09/incrementale/validazione-lotto-16.json",
+      "url": "https://domenicoderosa26-web.github.io/atlante-idraulico/docs/audit/2026-10-09/incrementale/validazione-lotto-16.json",
+      "http_status": 200,
+      "exact_match": true,
+      "expected_sha256": "7bdaab4a73e2e3670162939f4e19ab4afef5a73f50a802fc84ae30ffc2c660ea",
+      "sha256": "7bdaab4a73e2e3670162939f4e19ab4afef5a73f50a802fc84ae30ffc2c660ea"
+    }
+  ],
+  "joint_lots": [
+    16,
+    17
+  ],
+  "concurrent_changes": [
+    "monitoring-status.json"
+  ]
+}

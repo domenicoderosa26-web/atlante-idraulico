@@ -662,7 +662,9 @@
       ],
       "source_urls": [
         "https://eur-lex.europa.eu/eli/dir/2000/60/oj?locale=it",
-        "https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:32000L0060"
+        "https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:32000L0060",
+        "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:02000L0060-20260510",
+        "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026L0805"
       ],
       "object_versions": [
         {
@@ -3501,6 +3503,27 @@
         }
       ],
       "evidence": "Lettura integrale articoli 1–5 nel BUR; vigenza della versione coordinata successiva non certificata."
+    },
+    "ue805-2026": {
+      "topics": [
+        "scarichi"
+      ],
+      "source_urls": [
+        "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026L0805"
+      ],
+      "object_versions": [
+        {
+          "title": "Aggiornamento della direttiva quadro, acque sotterranee e standard di qualità ambientale",
+          "ref": "Direttiva (UE) 2026/805",
+          "summary": "Modifica le direttive 2000/60/CE, 2006/118/CE e 2008/105/CE; aggiorna obiettivi, monitoraggio e disciplina degli inquinanti. Entrata in vigore distinta dal recepimento nazionale.",
+          "focus": [
+            "Modifiche degli obiettivi e deroghe condizionate",
+            "Monitoraggio e programmi di misure",
+            "Entrata in vigore e termine di recepimento"
+          ]
+        }
+      ],
+      "evidence": "Lettura del testo ufficiale nei perimetri indicati dal lotto 18."
     }
   }
 }

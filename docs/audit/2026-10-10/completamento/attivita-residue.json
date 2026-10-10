@@ -291,26 +291,33 @@
     {
       "id": "ue60",
       "object": "Direttiva 2000/60/CE · Direttiva quadro sulle acque",
-      "scope_completed": "Lettura sostanziale circoscritta: Artt. 3, par. 4 e 4; estratti ufficiali indicizzati; Intestazione del consolidato 02000L0060-20260510 e tabella degli atti modificativi M8",
+      "scope_completed": "Testo consolidato italiano del 10/05/2026: lettura artt. 3–4 e 10–14 bis; confronto dei passaggi M8 con art. 1 e allegati I–II della direttiva 2026/805 ufficiale.",
       "verified_findings": [
         {
-          "aspect": "content",
-          "source_url": "https://eur-lex.europa.eu/legal-content/en/ALL/?uri=CELEX%3A32000L0060",
-          "locator": "Artt. 3, par. 4 e 4; estratti ufficiali indicizzati",
-          "finding": "Gli estratti ufficiali consultati prevedono coordinamento dei programmi di misure nel distretto e obiettivi di non deterioramento/buono stato con deroghe condizionate. La fonte consultata tramite indicizzazione non equivale all’acquisizione del PDF completo."
+          "aspect": "version",
+          "source_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:02000L0060-20260510",
+          "locator": "Intestazione 008.001 e tabella M1–M8/C1–C2",
+          "finding": "Consolidato del 10 maggio 2026 incorpora la direttiva 2026/805 (M8) e segnala rettifiche 2001/2025. È documentazione informativa; fanno fede gli atti GU."
         },
         {
-          "aspect": "version",
-          "source_url": "https://eur-lex.europa.eu/eli/dir/2000/60",
-          "locator": "Intestazione del consolidato 02000L0060-20260510 e tabella degli atti modificativi M8",
-          "finding": "L’indice ufficiale segnala il consolidato del 10 maggio 2026 e la direttiva (UE) 2026/805 del 30 marzo 2026 tra gli atti modificativi. È un candidato da acquisire e coordinare, non una nuova scheda già verificata integralmente."
+          "aspect": "content",
+          "source_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:02000L0060-20260510",
+          "locator": "Artt. 3–4, 10–14 bis",
+          "finding": "Programmi coordinati nel distretto, obiettivi ambientali e deroghe condizionate, controlli più restrittivi quando richiesti dalla qualità, piani e misure con riesame sessennale. Eccezioni 7 bis/7 ter non dispensano indistintamente gli scarichi."
+        },
+        {
+          "aspect": "amendment",
+          "source_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026L0805",
+          "locator": "Art. 1; artt. 4–5",
+          "finding": "Riscontrata la modifica M8 nella GU: efficacia europea dal 10 maggio 2026 e termine di recepimento 21 dicembre 2027, distinti dall’applicazione ai procedimenti italiani."
         }
       ],
       "needed_source_or_operation": [
-        "Leggere integralmente direttiva 2026/805 e consolidato del 10 maggio 2026."
+        "Completare altri articoli e allegati, verificare rettifiche e attuazione italiana della direttiva 2026/805."
       ],
       "limitations": [
-        "Testo acquisito solo tramite estratti ufficiali indicizzati; PDF non disponibile durante il controllo."
+        "Non integralmente riletti altri articoli e allegati; catena completa M1–M7 e rettifiche non ricostruita in questo lotto.",
+        "Recepimento nazionale della modifica 2026 non accertato."
       ],
       "actual_access_problems": [
         {
@@ -396,7 +403,7 @@
       ],
       "reason_still_open": "Fonte o coordinamento indicati nella coda non ancora verificati. Un accesso riuscito non chiude il confronto normativo.",
       "next_step": [
-        "Leggere integralmente direttiva 2026/805 e consolidato del 10 maggio 2026."
+        "Completare altri articoli e allegati, verificare rettifiche e attuazione italiana della direttiva 2026/805."
       ]
     },
     {
@@ -5177,6 +5184,42 @@
       "reason_still_open": "Fonte o coordinamento indicati nella coda non ancora verificati. Un accesso riuscito non chiude il confronto normativo.",
       "next_step": [
         "Acquisire LR 59/1982 coordinata, deliberazioni attuative ex art. 9 e modifiche successive, inclusa verifica LR 9/2024."
+      ]
+    },
+    {
+      "id": "ue805-2026",
+      "object": "Direttiva (UE) 2026/805 · Aggiornamento della direttiva quadro, acque sotterranee e standard di qualità ambientale",
+      "scope_completed": "Testo HTML italiano ufficiale: lettura completa art. 1 (modifiche 2000/60/CE), artt. 4–6 e allegati I–II. Identità e pubblicazione riscontrate nell’intestazione GU.",
+      "verified_findings": [
+        {
+          "aspect": "identity",
+          "source_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026L0805",
+          "locator": "Intestazione GU L 2026/805, 20 aprile 2026",
+          "finding": "Direttiva del 30 marzo 2026: modifica 2000/60/CE, 2006/118/CE e 2008/105/CE; destinatari gli Stati membri."
+        },
+        {
+          "aspect": "amendment",
+          "source_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026L0805",
+          "locator": "Art. 1, punti 2–3 e 6–9; allegati I–II",
+          "finding": "Introduce definizione di deterioramento e deroghe 7 bis/7 ter condizionate, con valutazioni e salvaguardie. Aggiorna controlli delle emissioni, misure alla fonte, cooperazione e accesso alla giustizia; modifica elementi e monitoraggio dell’allegato V."
+        },
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026L0805",
+          "locator": "Artt. 4–6; GU del 20 aprile 2026",
+          "finding": "Entrata in vigore il ventesimo giorno successivo: 10 maggio 2026. Recepimento entro 21 dicembre 2027; non certifica già avvenuta modifica delle autorizzazioni italiane."
+        }
+      ],
+      "needed_source_or_operation": [
+        "Completare modifiche alle direttive 2006/118/CE e 2008/105/CE e relativi allegati; acquisire gli atti italiani di recepimento."
+      ],
+      "limitations": [
+        "Artt. 2–3 e allegati III–VIII non integralmente riesaminati; recepimento italiano non accertato."
+      ],
+      "actual_access_problems": [],
+      "reason_still_open": "Fonte o coordinamento indicati nella coda non ancora verificati. Un accesso riuscito non chiude il confronto normativo.",
+      "next_step": [
+        "Completare modifiche alle direttive 2006/118/CE e 2008/105/CE e relativi allegati; acquisire gli atti italiani di recepimento."
       ]
     }
   ],

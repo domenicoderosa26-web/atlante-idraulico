@@ -618,7 +618,11 @@
       "source_urls": [
         "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=010G0071&atto.dataPubblicazioneGazzetta=2010-04-02&tipoSerie=serie_generale&tipoVigenza=originario",
         "https://www.gazzettaufficiale.it/eli/gu/2010/04/02/77/sg/pdf",
-        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-02-23;49"
+        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-02-23;49",
+        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2013-08-06;97~art19",
+        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2014-06-24;91~art10",
+        "https://www.normattiva.it/esporta/attoCompleto?atto.dataPubblicazioneGazzetta=2010-04-02&atto.codiceRedazionale=010G0071",
+        "https://www.isprambiente.gov.it/pre_meteo/file/DLGS_49_2010_agg2014.pdf"
       ],
       "object_versions": [
         {
@@ -686,7 +690,9 @@
       ],
       "source_urls": [
         "https://eur-lex.europa.eu/eli/dir/2007/60/oj?locale=it",
-        "https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:32007L0060"
+        "https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:32007L0060",
+        "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX:32007L0060",
+        "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32007L0060"
       ],
       "object_versions": [
         {

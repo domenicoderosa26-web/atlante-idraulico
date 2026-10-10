@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-10T11:59:36.941413+00:00",
+  "checked_at": "2026-10-10T12:06:53.545881+00:00",
   "catalog_records": 114,
   "note": "Accesso tecnico distinto dalla lettura normativa. Nessun controllo HTTP certifica contenuto o vigenza.",
   "receipts": [
@@ -6825,6 +6825,126 @@
       "empty_response": false,
       "access_challenge": false,
       "sha256": "74c0339151e8bb7cd18a94df330778b46e1f5bba0bf8df4fdd28e749a8afd66f"
+    },
+    {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-02-23;49",
+      "record_ids": [
+        "dl49"
+      ],
+      "checked_at": "2026-10-10T12:06:52.526477+00:00",
+      "owner_hostname": "www.normattiva.it",
+      "semantic_verification": "not_performed_by_access_check",
+      "http_status": 200,
+      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-02-23;49",
+      "redirects": [],
+      "content_type": "text/html;charset=UTF-8",
+      "declared_content_length": null,
+      "sample_bytes": 95812,
+      "body_complete": true,
+      "content_signature": "html",
+      "empty_response": false,
+      "access_challenge": false,
+      "sha256": "a7ca4c79be86b82d176015cc5dfeca2c931123e4166038c2cc7335d8d2b49d8d"
+    },
+    {
+      "url": "https://www.normattiva.it/esporta/attoCompleto?atto.dataPubblicazioneGazzetta=2010-04-02&atto.codiceRedazionale=010G0071",
+      "record_ids": [
+        "dl49"
+      ],
+      "checked_at": "2026-10-10T12:06:52.527475+00:00",
+      "owner_hostname": "www.normattiva.it",
+      "semantic_verification": "not_performed_by_access_check",
+      "http_status": 200,
+      "final_url": "https://www.normattiva.it/esporta/attoCompleto?atto.dataPubblicazioneGazzetta=2010-04-02&atto.codiceRedazionale=010G0071",
+      "redirects": [],
+      "content_type": "text/html;charset=UTF-8",
+      "declared_content_length": null,
+      "sample_bytes": 32261,
+      "body_complete": true,
+      "content_signature": "html",
+      "empty_response": false,
+      "access_challenge": false,
+      "sha256": "dbf717f38b92caa546b9fe2cfcffad5562cc7ef391c3f280879d4039d8561648"
+    },
+    {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2013-08-06;97~art19",
+      "record_ids": [
+        "dl49"
+      ],
+      "checked_at": "2026-10-10T12:06:52.527475+00:00",
+      "owner_hostname": "www.normattiva.it",
+      "semantic_verification": "not_performed_by_access_check",
+      "http_status": 200,
+      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2013-08-06;97~art19",
+      "redirects": [],
+      "content_type": "text/html;charset=UTF-8",
+      "declared_content_length": null,
+      "sample_bytes": 96763,
+      "body_complete": true,
+      "content_signature": "html",
+      "empty_response": false,
+      "access_challenge": false,
+      "sha256": "cb9406933866c42a2dba0c937f41884453976fd20e96f49713b717deb007a1bf"
+    },
+    {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2014-06-24;91~art10",
+      "record_ids": [
+        "dl49"
+      ],
+      "checked_at": "2026-10-10T12:06:52.528472+00:00",
+      "owner_hostname": "www.normattiva.it",
+      "semantic_verification": "not_performed_by_access_check",
+      "http_status": 200,
+      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2014-06-24;91~art10",
+      "redirects": [],
+      "content_type": "text/html;charset=UTF-8",
+      "declared_content_length": null,
+      "sample_bytes": 153423,
+      "body_complete": true,
+      "content_signature": "html",
+      "empty_response": false,
+      "access_challenge": false,
+      "sha256": "c6243f42de91a8a1735260dabcbe1f355b21232e1cca0ed0e56eda316d56e431"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32007L0060",
+      "record_ids": [
+        "ueall"
+      ],
+      "checked_at": "2026-10-10T12:06:52.528472+00:00",
+      "owner_hostname": "eur-lex.europa.eu",
+      "semantic_verification": "not_performed_by_access_check",
+      "http_status": 200,
+      "final_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32007L0060",
+      "redirects": [],
+      "content_type": "text/html; charset=UTF-8",
+      "declared_content_length": null,
+      "sample_bytes": 373808,
+      "body_complete": true,
+      "content_signature": "html",
+      "empty_response": false,
+      "access_challenge": false,
+      "sha256": "e1368f82797681b6568410761aea726cc9e514e089ab46a19f8880f2a44413a0"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX:32007L0060",
+      "record_ids": [
+        "ueall"
+      ],
+      "checked_at": "2026-10-10T12:06:52.529478+00:00",
+      "owner_hostname": "eur-lex.europa.eu",
+      "semantic_verification": "not_performed_by_access_check",
+      "http_status": 200,
+      "final_url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX:32007L0060",
+      "redirects": [],
+      "content_type": "text/html; charset=UTF-8",
+      "declared_content_length": null,
+      "sample_bytes": 406985,
+      "body_complete": true,
+      "content_signature": "html",
+      "empty_response": false,
+      "access_challenge": false,
+      "sha256": "f404522f49a66a1252c8ca71d543e65f74068b61aa2db0c133aad2be2ae6bffc"
     }
   ]
 }

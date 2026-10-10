@@ -43,10 +43,12 @@
   ],
   "changes_detected": 0,
   "execution_context": "Controllo manuale locale: pipeline normattiva.py preesistente, trasporto HTTPS tramite Invoke-RestMethod con validazione TLS del sistema. Nessuna modifica alle automazioni.",
-  "public_status": "candidato verificato, pubblicazione ancora da confrontare",
+  "public_status": "Candidato pubblicato e confrontato; stato finale e ricevuta tecnica consolidati con verifica separata.",
   "previous_workflow_error": {
     "run": 38051985202,
     "code": "NATIONAL_RECEIPT",
     "reason": "Registro ampliato a 19 voci dopo il controllo automatico precedente."
-  }
+  },
+  "candidate_publication_receipt": "docs/audit/2026-10-09/incrementale/pubblicazione-lotto-21.json",
+  "candidate_publication_verified_at": "2026-10-10T12:36:22.015328+00:00"
 }

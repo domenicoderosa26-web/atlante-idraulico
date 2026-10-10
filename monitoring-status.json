@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-10T12:10:48Z",
+  "checked_at": "2026-10-10T12:27:14Z",
   "national": {
-    "state": "completato",
+    "state": "non_allineato",
     "last_completed_at": "2026-10-10T13:12:18+02:00",
     "expected_date": "2026-10-10",
     "deadline_local": "16:00 Europe/Rome",
@@ -127,6 +127,15 @@
   },
   "anomalies": [
     {
+      "code": "NATIONAL_RECEIPT",
+      "severity": "error",
+      "message": "I file del repository divergono dalla ricevuta interna.",
+      "evidence": [
+        "Hash del registro diverso dalla ricevuta tecnica"
+      ],
+      "event_id": "4b2ec166c5ea4a172d0b2d56"
+    },
+    {
       "code": "TERRITORIAL_PARZIALE",
       "severity": "warning",
       "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
@@ -250,8 +259,18 @@
       "evidence": "data.json:runs[0]",
       "event_id": "ae6987e6b67ef285849d8eb8",
       "recorded_at": "2026-10-10T08:05:54Z"
+    },
+    {
+      "code": "NATIONAL_RECEIPT",
+      "severity": "error",
+      "message": "I file del repository divergono dalla ricevuta interna.",
+      "evidence": [
+        "Hash del registro diverso dalla ricevuta tecnica"
+      ],
+      "event_id": "4b2ec166c5ea4a172d0b2d56",
+      "recorded_at": "2026-10-10T12:27:14Z"
     }
   ],
-  "has_errors": false,
-  "repository_sha": "371da952792cc1945f37d2db0a8970a2ec4e4498"
+  "has_errors": true,
+  "repository_sha": "a2a4df4c0601ff32a6c8712aa66681d1ddd915b0"
 }

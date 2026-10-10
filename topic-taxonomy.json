@@ -1041,7 +1041,8 @@
       ],
       "source_urls": [
         "https://www.auriumbria.it/documento_pubblico/normativa-e-regolamenti-di-riferimento/",
-        "https://www.auriumbria.it/wp-content/uploads/2023/12/DGR-627-2019.pdf?x95031="
+        "https://www.auriumbria.it/wp-content/uploads/2023/12/DGR-627-2019.pdf?x95031=",
+        "https://www.va.regione.umbria.it/documents/3852172/10456087/DIRETTIVA%2BSCARICHI%2BDGR%2B627-2019/3826918e-7531-4200-aa27-1bb1cbb2e505"
       ],
       "object_versions": [
         {
@@ -2343,7 +2344,9 @@
       "source_urls": [
         "https://raccoltanormativa.consiglio.regione.toscana.it/",
         "https://raccoltanormativa.consiglio.regione.toscana.it/articolo?urndoc=urn:nir:regione.toscana:regolamento.giunta:2008-09-08;46/R",
-        "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?id=9345c577-24d8-11ef-bf7a-005056959b60&ext=pdf"
+        "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?id=9345c577-24d8-11ef-bf7a-005056959b60&ext=pdf",
+        "https://raccoltanormativa.consiglio.regione.toscana.it/articolo?pr=idx,0%3Bartic,1%3Barticparziale,0&urndoc=urn:nir:regione.toscana:regolamento.giunta:2008-09-08%3B46/R",
+        "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?file_path=regolamento.giunta/2008/regolamento.giunta_2008_46R_a5/regolamento.giunta_2008_46R_a5_v5.pdf"
       ],
       "object_versions": [
         {
@@ -2600,7 +2603,9 @@
       ],
       "source_urls": [
         "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32024R1765",
-        "https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:32024R1765"
+        "https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:32024R1765",
+        "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32024R1765",
+        "https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32024R1261R%2801%29"
       ],
       "object_versions": [
         {

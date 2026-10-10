@@ -3,7 +3,7 @@
   "phase3_complete": false,
   "start_records": 107,
   "end_records": 113,
-  "records_reexamined_this_completion": 35,
+  "records_reexamined_this_completion": 39,
   "record_ids_reexamined": [
     "codstrada285",
     "dpr495",
@@ -39,7 +39,11 @@
     "fvg-lr5-2026",
     "vda-lr20-2023",
     "lig4",
-    "pie1"
+    "pie1",
+    "tos46",
+    "umb627",
+    "ue741reuse",
+    "ue1765reuse"
   ],
   "new_record_ids": [
     "abr31",
@@ -55,24 +59,25 @@
   },
   "legal_states_scoped": {
     "partially_repealed": 2,
-    "partial": 82,
+    "partial": 81,
     "constitutionally_invalid": 1,
-    "amended": 16,
+    "amended": 17,
     "unverified": 2,
     "in_force": 3,
     "consultation": 3,
     "adopted": 4
   },
   "full_legal_reviews": 0,
-  "technical_urls": 357,
+  "technical_urls": 362,
   "technical_errors": 57,
   "empty_or_challenge": 13,
-  "unique_sources_with_scoped_semantic_claims": 63,
-  "document_entries": 217,
+  "unique_sources_with_scoped_semantic_claims": 70,
+  "document_entries": 220,
   "coverage_cells": {
-    "ricognizione_non_ancora_effettuata": 148,
-    "ricognizione_puntuale_non_esaustiva": 24,
+    "ricognizione_non_ancora_effettuata": 143,
+    "ricognizione_puntuale_non_esaustiva": 29,
     "atto_verificato_e_censito_perimetro_parziale": 4
   },
-  "base_commit": "9f279352805c4fc7f0b8c32921acbc060cf10091"
+  "base_commit": "045bd421009425dd3354dc1a97f9e016a1da8d3d"
 }
+

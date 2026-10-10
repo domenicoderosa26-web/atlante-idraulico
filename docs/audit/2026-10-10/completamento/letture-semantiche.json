@@ -1,5 +1,5 @@
 {
-  "note": "Riscontri per disposizione dei lotti 10–15, con perimetro; non sono letture integrali di ogni documento né attestazioni complete di vigenza.",
+  "note": "Riscontri per disposizione dei lotti 10–17, con perimetro; non sono letture integrali di ogni documento né attestazioni complete di vigenza.",
   "sources": [
     {
       "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=092G0306&atto.dataPubblicazioneGazzetta=1992-05-18&tipoDettaglio=vigente",
@@ -1672,6 +1672,191 @@
           "finding": "Prima pioggia 5 mm ed eventi separati da almeno 48 ore asciutte. Recapito sul suolo subordinato all’assenza di alternative; scadenze 2007 dell’art. 10 sono storiche."
         }
       ]
+    },
+    {
+      "url": "https://raccoltanormativa.consiglio.regione.toscana.it/articolo?pr=idx,0%3Bartic,1%3Barticparziale,0&urndoc=urn:nir:regione.toscana:regolamento.giunta:2008-09-08%3B46/R",
+      "records": [
+        "tos46"
+      ],
+      "claims": [
+        {
+          "record_id": "tos46",
+          "checked_at": "2026-10-10",
+          "aspect": "amendment",
+          "source_url": "https://raccoltanormativa.consiglio.regione.toscana.it/articolo?pr=idx,0%3Bartic,1%3Barticparziale,0&urndoc=urn:nir:regione.toscana:regolamento.giunta:2008-09-08%3B46/R",
+          "locator": "Artt. 38–43, note 56–67 e 218–220",
+          "finding": "Note: 76/R/2012 riscrive disciplina e ambiti; 59/R/2013 integra art. 41; 3/R/2018 aggiorna competenze e aggiunge art. 43 c. 7 bis. Il coordinato non sostituisce il BURT."
+        },
+        {
+          "record_id": "tos46",
+          "checked_at": "2026-10-10",
+          "aspect": "content",
+          "source_url": "https://raccoltanormativa.consiglio.regione.toscana.it/articolo?pr=idx,0%3Bartic,1%3Barticparziale,0&urndoc=urn:nir:regione.toscana:regolamento.giunta:2008-09-08%3B46/R",
+          "locator": "Artt. 39 e 43",
+          "finding": "Attività a rischio con condizioni di esclusione verificate dall’autorità. Il piano può comportare trattamento anche oltre la prima pioggia; le attività AIA sono disciplinate nel relativo procedimento."
+        }
+      ]
+    },
+    {
+      "url": "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?file_path=regolamento.giunta/2008/regolamento.giunta_2008_46R_a5/regolamento.giunta_2008_46R_a5_v5.pdf",
+      "records": [
+        "tos46"
+      ],
+      "claims": [
+        {
+          "record_id": "tos46",
+          "checked_at": "2026-10-10",
+          "aspect": "content",
+          "source_url": "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?file_path=regolamento.giunta/2008/regolamento.giunta_2008_46R_a5/regolamento.giunta_2008_46R_a5_v5.pdf",
+          "locator": "Allegato 5, capi 1–2 e tabelle 5–6",
+          "finding": "Superficie scolante riferita alle aree potenzialmente inquinanti; esclusi tetti e suoli stabilmente vegetati senza ruscellamento. Piano con reti, volumi, trattamenti e gestione. Tabella 6: cantieri oltre 5.000 m², cave e miniere; soglia non universale."
+        }
+      ]
+    },
+    {
+      "url": "https://www.va.regione.umbria.it/documents/3852172/10456087/DIRETTIVA%2BSCARICHI%2BDGR%2B627-2019/3826918e-7531-4200-aa27-1bb1cbb2e505",
+      "records": [
+        "umb627"
+      ],
+      "claims": [
+        {
+          "record_id": "umb627",
+          "checked_at": "2026-10-10",
+          "aspect": "identity",
+          "source_url": "https://www.va.regione.umbria.it/documents/3852172/10456087/DIRETTIVA%2BSCARICHI%2BDGR%2B627-2019/3826918e-7531-4200-aa27-1bb1cbb2e505",
+          "locator": "BUR Umbria, suppl. 7 al n. 26 del 22/05/2019, pp. 1–3",
+          "finding": "DGR 627 del 7 maggio 2019 approva e pubblica la direttiva tecnica; disciplina gli endoprocedimenti di autorizzazione allo scarico."
+        },
+        {
+          "record_id": "umb627",
+          "checked_at": "2026-10-10",
+          "aspect": "content",
+          "source_url": "https://www.va.regione.umbria.it/documents/3852172/10456087/DIRETTIVA%2BSCARICHI%2BDGR%2B627-2019/3826918e-7531-4200-aa27-1bb1cbb2e505",
+          "locator": "Art. 2 c. 1 lett. c); art. 17, PDF pp. 3 e 22",
+          "finding": "Prima pioggia: 5 mm in 15 minuti, preceduti da 48 ore asciutte. Per le attività elencate, il dilavamento contaminato è refluo industriale anche oltre tale aliquota; esclusi parcheggio e transito esclusivi."
+        },
+        {
+          "record_id": "umb627",
+          "checked_at": "2026-10-10",
+          "aspect": "content",
+          "source_url": "https://www.va.regione.umbria.it/documents/3852172/10456087/DIRETTIVA%2BSCARICHI%2BDGR%2B627-2019/3826918e-7531-4200-aa27-1bb1cbb2e505",
+          "locator": "Artt. 18–19, PDF pp. 23–24",
+          "finding": "Reti miste e separate: dispositivi negli agglomerati oltre 10.000 AE, con attuazione previo accordo Regione/AURI/gestori. Non estesa indistintamente la regola a ogni insediamento."
+        },
+        {
+          "record_id": "umb627",
+          "checked_at": "2026-10-10",
+          "aspect": "amendment",
+          "source_url": "https://www.va.regione.umbria.it/documents/3852172/10456087/DIRETTIVA%2BSCARICHI%2BDGR%2B627-2019/3826918e-7531-4200-aa27-1bb1cbb2e505",
+          "locator": "Art. 28 c. 2, PDF p. 28, lettura visiva",
+          "finding": "Annulla e sostituisce integralmente la disciplina DGR 1024/2018 e precedenti; distinto dall’accertamento di modifiche successive alla 627."
+        },
+        {
+          "record_id": "umb627",
+          "checked_at": "2026-10-10",
+          "aspect": "effectiveness",
+          "source_url": "https://www.va.regione.umbria.it/documents/3852172/10456087/DIRETTIVA%2BSCARICHI%2BDGR%2B627-2019/3826918e-7531-4200-aa27-1bb1cbb2e505",
+          "locator": "Art. 28 c. 3 e art. 27, PDF pp. 27–28",
+          "finding": "Efficacia decorsi 15 giorni dalla pubblicazione del 22 maggio 2019. Termini transitori originari e modelli non diventano nuove scadenze nel 2026."
+        }
+      ]
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32020R0741",
+      "records": [
+        "ue741reuse"
+      ],
+      "claims": [
+        {
+          "record_id": "ue741reuse",
+          "checked_at": "2026-10-10",
+          "aspect": "content",
+          "source_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32020R0741",
+          "locator": "Artt. 1–4; allegato I",
+          "finding": "Campo: reflui urbani affinati per irrigazione agricola. Classi A–D correlate a colture e metodi irrigui, con qualità, monitoraggio e validazione. Il punto di conformità delimita gli obblighi del gestore, senza cancellare quelli degli altri responsabili."
+        },
+        {
+          "record_id": "ue741reuse",
+          "checked_at": "2026-10-10",
+          "aspect": "content",
+          "source_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32020R0741",
+          "locator": "Artt. 5–6; allegato II",
+          "finding": "Piano dei rischi dell’intero sistema e permesso per produzione/erogazione, con classi, usi, volumi e condizioni. Prescrizioni aggiuntive e barriere dipendono dalla valutazione; non autorizza automaticamente usi industriali o potabili."
+        },
+        {
+          "record_id": "ue741reuse",
+          "checked_at": "2026-10-10",
+          "aspect": "content",
+          "source_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32020R0741",
+          "locator": "Art. 7",
+          "finding": "Autorità verifica la conformità; in presenza di rischio significativo va sospesa immediatamente l’erogazione fino al ripristino."
+        },
+        {
+          "record_id": "ue741reuse",
+          "checked_at": "2026-10-10",
+          "aspect": "effectiveness",
+          "source_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32020R0741",
+          "locator": "Art. 16; GU L 177 del 5 giugno 2020",
+          "finding": "Entrata in vigore il ventesimo giorno dopo la pubblicazione; applicazione dal 26 giugno 2023. Date e funzioni giuridiche distinte."
+        }
+      ]
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32024R1765",
+      "records": [
+        "ue1765reuse"
+      ],
+      "claims": [
+        {
+          "record_id": "ue1765reuse",
+          "checked_at": "2026-10-10",
+          "aspect": "content",
+          "source_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32024R1765",
+          "locator": "Art. 1; allegato, elementi 1–5",
+          "finding": "Specifiche per descrizione del sistema dall’impianto all’uso finale, soggetti responsabili, pericoli, recettori e vie di esposizione. Valutazione quantitativa quando i dati o rischi elevati lo richiedono; negli altri casi è ammessa la qualitativa."
+        },
+        {
+          "record_id": "ue1765reuse",
+          "checked_at": "2026-10-10",
+          "aspect": "content",
+          "source_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32024R1765",
+          "locator": "Allegato, elementi 6–11",
+          "finding": "Ulteriori requisiti, barriere, controllo qualità, monitoraggio ambientale, emergenze e coordinamento vanno definiti per il sistema concreto. Non introduce un unico limite numerico generale per tutti gli usi."
+        }
+      ]
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32024R1765",
+      "records": [
+        "ue1765reuse"
+      ],
+      "claims": [
+        {
+          "record_id": "ue1765reuse",
+          "checked_at": "2026-10-10",
+          "aspect": "effectiveness",
+          "source_url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32024R1765",
+          "locator": "Document information, Dates; art. 2",
+          "finding": "Pubblicazione 20 giugno 2024; entrata in vigore 10 luglio 2024. Integra il regolamento 2020/741 sulla base dell’art. 5, par. 5."
+        }
+      ]
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32024R1261R%2801%29",
+      "records": [
+        "ue1765reuse"
+      ],
+      "claims": [
+        {
+          "record_id": "ue1765reuse",
+          "checked_at": "2026-10-10",
+          "aspect": "version",
+          "source_url": "https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32024R1261R%2801%29",
+          "locator": "Rettifica GU L del 15 maggio 2024, dispositivo completo",
+          "finding": "La rettifica dichiara nulla la pubblicazione del regolamento delegato 2024/1261. Non è una clausola di abrogazione della 1765: il dato storico del precedente è corretto sulla fonte primaria."
+        }
+      ]
     }
   ]
 }
+

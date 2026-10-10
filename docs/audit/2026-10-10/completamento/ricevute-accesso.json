@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-10T10:35:53.817487+00:00",
+  "checked_at": "2026-10-10T11:52:22.213870+00:00",
   "catalog_records": 113,
   "note": "Accesso tecnico distinto dalla lettura normativa. Nessun controllo HTTP certifica contenuto o vigenza.",
   "receipts": [
@@ -6684,6 +6684,107 @@
       "empty_response": false,
       "access_challenge": false,
       "sha256": "6e94dd07a9b4ece88806b0e5af91fa48f051dcf62ee44d1285c531e61f171cc4"
+    },
+    {
+      "url": "https://www.va.regione.umbria.it/documents/3852172/10456087/DIRETTIVA%2BSCARICHI%2BDGR%2B627-2019/3826918e-7531-4200-aa27-1bb1cbb2e505",
+      "record_ids": [
+        "umb627"
+      ],
+      "checked_at": "2026-10-10T11:52:21.095078+00:00",
+      "owner_hostname": "www.va.regione.umbria.it",
+      "semantic_verification": "not_performed_by_access_check",
+      "http_status": 200,
+      "final_url": "https://www.va.regione.umbria.it/documents/3852172/10456087/DIRETTIVA%2BSCARICHI%2BDGR%2B627-2019/3826918e-7531-4200-aa27-1bb1cbb2e505",
+      "redirects": [],
+      "content_type": "application/pdf",
+      "declared_content_length": "1041504",
+      "sample_bytes": 1041504,
+      "body_complete": true,
+      "content_signature": "pdf",
+      "empty_response": false,
+      "access_challenge": false,
+      "sha256": "15821740ca2435271b2ef551a93deb67bfbe9607a8506e4bb507aaf323665ba5"
+    },
+    {
+      "url": "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?file_path=regolamento.giunta/2008/regolamento.giunta_2008_46R_a5/regolamento.giunta_2008_46R_a5_v5.pdf",
+      "record_ids": [
+        "tos46"
+      ],
+      "checked_at": "2026-10-10T11:52:21.095078+00:00",
+      "owner_hostname": "raccoltanormativa.consiglio.regione.toscana.it",
+      "semantic_verification": "not_performed_by_access_check",
+      "http_status": 200,
+      "final_url": "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?file_path=regolamento.giunta/2008/regolamento.giunta_2008_46R_a5/regolamento.giunta_2008_46R_a5_v5.pdf",
+      "redirects": [],
+      "content_type": "application/pdf",
+      "declared_content_length": null,
+      "sample_bytes": 49567,
+      "body_complete": true,
+      "content_signature": "pdf",
+      "empty_response": false,
+      "access_challenge": false,
+      "sha256": "0c5de3f26078d224b3fcc81226ab8e423925aa775f2ed9e1028e95396fa9d93d"
+    },
+    {
+      "url": "https://raccoltanormativa.consiglio.regione.toscana.it/articolo?pr=idx,0%3Bartic,1%3Barticparziale,0&urndoc=urn:nir:regione.toscana:regolamento.giunta:2008-09-08%3B46/R",
+      "record_ids": [
+        "tos46"
+      ],
+      "checked_at": "2026-10-10T11:52:21.096043+00:00",
+      "owner_hostname": "raccoltanormativa.consiglio.regione.toscana.it",
+      "semantic_verification": "not_performed_by_access_check",
+      "http_status": 200,
+      "final_url": "https://raccoltanormativa.consiglio.regione.toscana.it/articolo?pr=idx,0%3Bartic,1%3Barticparziale,0&urndoc=urn:nir:regione.toscana:regolamento.giunta:2008-09-08%3B46/R",
+      "redirects": [],
+      "content_type": "text/html; charset=utf-8",
+      "declared_content_length": null,
+      "sample_bytes": 593863,
+      "body_complete": true,
+      "content_signature": "html",
+      "empty_response": false,
+      "access_challenge": false,
+      "sha256": "f664708ce31e00a5c20aafe3cf706e7825b87d3ed25c2a38212de391b916a8f3"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32024R1261R%2801%29",
+      "record_ids": [
+        "ue1765reuse"
+      ],
+      "checked_at": "2026-10-10T11:52:21.096043+00:00",
+      "owner_hostname": "eur-lex.europa.eu",
+      "semantic_verification": "not_performed_by_access_check",
+      "http_status": 200,
+      "final_url": "https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32024R1261R%2801%29",
+      "redirects": [],
+      "content_type": "text/html; charset=UTF-8",
+      "declared_content_length": null,
+      "sample_bytes": 276362,
+      "body_complete": true,
+      "content_signature": "html",
+      "empty_response": false,
+      "access_challenge": false,
+      "sha256": "ba8c8f8029e8edccbe4651d9b93dc6e46b432ba94892f60a526aee6b30606560"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32024R1765",
+      "record_ids": [
+        "ue1765reuse"
+      ],
+      "checked_at": "2026-10-10T11:52:21.096043+00:00",
+      "owner_hostname": "eur-lex.europa.eu",
+      "semantic_verification": "not_performed_by_access_check",
+      "http_status": 200,
+      "final_url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32024R1765",
+      "redirects": [],
+      "content_type": "text/html; charset=UTF-8",
+      "declared_content_length": null,
+      "sample_bytes": 423007,
+      "body_complete": true,
+      "content_signature": "html",
+      "empty_response": false,
+      "access_challenge": false,
+      "sha256": "1a4d826c1dd70911cbd1e53d72e29596317fcf6cc1b1408e24a32f2711b27828"
     }
   ]
 }
+

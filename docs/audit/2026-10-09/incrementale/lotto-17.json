@@ -1,0 +1,207 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-10",
+  "lot": 17,
+  "record_ids": [
+    "ue741reuse",
+    "ue1765reuse"
+  ],
+  "records": [
+    {
+      "id": "ue741reuse",
+      "checked_at": "2026-10-10",
+      "scope": "Lettura del testo ufficiale italiano nel browser: artt. 1–7 e 16; acquisizione del PDF completo di 24 pagine e lettura integrale degli allegati I–II. Riuso agricolo di reflui urbani, distinto dagli altri usi e dalle acque meteoriche.",
+      "outcome": "partial",
+      "legal_state": "partial",
+      "claims": [
+        {
+          "aspect": "content",
+          "source_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32020R0741",
+          "locator": "Artt. 1–4; allegato I",
+          "finding": "Campo: reflui urbani affinati per irrigazione agricola. Classi A–D correlate a colture e metodi irrigui, con qualità, monitoraggio e validazione. Il punto di conformità delimita gli obblighi del gestore, senza cancellare quelli degli altri responsabili."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32020R0741",
+          "locator": "Artt. 5–6; allegato II",
+          "finding": "Piano dei rischi dell’intero sistema e permesso per produzione/erogazione, con classi, usi, volumi e condizioni. Prescrizioni aggiuntive e barriere dipendono dalla valutazione; non autorizza automaticamente usi industriali o potabili."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32020R0741",
+          "locator": "Art. 7",
+          "finding": "Autorità verifica la conformità; in presenza di rischio significativo va sospesa immediatamente l’erogazione fino al ripristino."
+        },
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32020R0741",
+          "locator": "Art. 16; GU L 177 del 5 giugno 2020",
+          "finding": "Entrata in vigore il ventesimo giorno dopo la pubblicazione; applicazione dal 26 giugno 2023. Date e funzioni giuridiche distinte."
+        }
+      ],
+      "limitations": [
+        "Coordinamento nazionale e aggiornamenti delle direttive richiamate non ricostruiti integralmente.",
+        "Non riletto integralmente il corpo degli artt. 8–15."
+      ],
+      "pending": [
+        "Completare artt. 8–15 e coordinare attuazione nazionale, DM 185/2003, D.Lgs. 152/2006 e aggiornamenti europei pertinenti."
+      ],
+      "proposed_changes": {
+        "document_note": "PDF ufficiale completo di 24 pagine acquisito; letti artt. 1–7 e 16 e allegati I–II. Accesso riuscito nel browser dopo precedenti risposte tecniche vuote: il limite di acquisizione è superato.",
+        "note": "Verificati piano dei rischi, permesso, responsabilità al punto di conformità, sospensione per rischi significativi e classi agricole. Coordinamento nazionale e modifiche dei rinvii europei restano da completare."
+      },
+      "sources": [
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32020R0741",
+          "consulted_at": "2026-10-10T11:52:00.793920+00:00",
+          "access_method": "browser_official_text_and_pdf_download",
+          "bytes": 686192,
+          "sha256": "b20383d297720fda9c4be03e3f5e12aaa3b8b411dcecdcc2b9ab617d20132588",
+          "body_complete": true,
+          "pdf_pages": 24,
+          "semantic_scope": "Lettura del testo ufficiale italiano nel browser: artt. 1–7 e 16; acquisizione del PDF completo di 24 pagine e lettura integrale degli allegati I–II. Riuso agricolo di reflui urbani, distinto dagli altri usi e dalle acque meteoriche."
+        }
+      ]
+    },
+    {
+      "id": "ue1765reuse",
+      "checked_at": "2026-10-10",
+      "scope": "Lettura integrale del testo HTML ufficiale italiano: considerando, artt. 1–2 e tutti gli undici elementi dell’allegato. Lettura delle date ufficiali e del dispositivo integrale della rettifica 2024/1261R(01).",
+      "outcome": "partial",
+      "legal_state": "partial",
+      "claims": [
+        {
+          "aspect": "content",
+          "source_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32024R1765",
+          "locator": "Art. 1; allegato, elementi 1–5",
+          "finding": "Specifiche per descrizione del sistema dall’impianto all’uso finale, soggetti responsabili, pericoli, recettori e vie di esposizione. Valutazione quantitativa quando i dati o rischi elevati lo richiedono; negli altri casi è ammessa la qualitativa."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32024R1765",
+          "locator": "Allegato, elementi 6–11",
+          "finding": "Ulteriori requisiti, barriere, controllo qualità, monitoraggio ambientale, emergenze e coordinamento vanno definiti per il sistema concreto. Non introduce un unico limite numerico generale per tutti gli usi."
+        },
+        {
+          "aspect": "effectiveness",
+          "source_url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32024R1765",
+          "locator": "Document information, Dates; art. 2",
+          "finding": "Pubblicazione 20 giugno 2024; entrata in vigore 10 luglio 2024. Integra il regolamento 2020/741 sulla base dell’art. 5, par. 5."
+        },
+        {
+          "aspect": "version",
+          "source_url": "https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32024R1261R%2801%29",
+          "locator": "Rettifica GU L del 15 maggio 2024, dispositivo completo",
+          "finding": "La rettifica dichiara nulla la pubblicazione del regolamento delegato 2024/1261. Non è una clausola di abrogazione della 1765: il dato storico del precedente è corretto sulla fonte primaria."
+        }
+      ],
+      "limitations": [
+        "Non integralmente ricostruiti aggiornamenti dei rinvii settoriali e attuazione nazionale del riuso."
+      ],
+      "pending": [
+        "Coordinare i rinvii settoriali dell’allegato con versioni correnti e disciplina nazionale."
+      ],
+      "proposed_changes": {
+        "note": "Testo e allegato letti integralmente; efficacia dal 10/07/2024. Corretto il precedente 2024/1261: la rettifica del 15/05/2024 dichiara nulla la sua pubblicazione, senza attribuire alla 1765 una clausola di abrogazione.",
+        "document_note": "Testo HTML italiano ufficiale letto integralmente nel browser. Restano da coordinare i rinvii settoriali e l’attuazione nazionale; distinta la lettura completa dell’atto dalla ricostruzione complessiva della disciplina.",
+        "add_document": {
+          "url": "https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32024R1261R%2801%29",
+          "label": "EUR-Lex · rettifica della pubblicazione 2024/1261, 15/05/2024",
+          "format": "html"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32024R1765",
+          "consulted_at": "2026-10-10T11:52:00.795915+00:00",
+          "access_method": "browser_official_text",
+          "semantic_scope": "Lettura integrale del testo HTML ufficiale italiano: considerando, artt. 1–2 e tutti gli undici elementi dell’allegato. Lettura delle date ufficiali e del dispositivo integrale della rettifica 2024/1261R(01)."
+        },
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32024R1765",
+          "consulted_at": "2026-10-10T11:52:00.795915+00:00",
+          "access_method": "browser_official_text",
+          "semantic_scope": "Date ufficiali o dispositivo della rettifica integralmente letto"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32024R1261R%2801%29",
+          "consulted_at": "2026-10-10T11:52:00.795915+00:00",
+          "access_method": "browser_official_text",
+          "semantic_scope": "Date ufficiali o dispositivo della rettifica integralmente letto"
+        }
+      ]
+    }
+  ],
+  "corrections": [
+    {
+      "id": "ue741reuse",
+      "field": "note",
+      "before": "EUR-Lex classifica l’atto come in vigore. L’art. 16 dispone l’applicazione dal 26/06/2023. Il campo riguarda il riutilizzo a fini irrigui in agricoltura e non va esteso automaticamente ad altri usi.",
+      "after": "Verificati piano dei rischi, permesso, responsabilità al punto di conformità, sospensione per rischi significativi e classi agricole. Coordinamento nazionale e modifiche dei rinvii europei restano da completare.",
+      "source_urls": [
+        "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32020R0741"
+      ]
+    },
+    {
+      "id": "ue741reuse",
+      "field": "document_note",
+      "before": "Testo ufficiale in lingua italiana pubblicato su EUR-Lex.",
+      "after": "PDF ufficiale completo di 24 pagine acquisito; letti artt. 1–7 e 16 e allegati I–II. Accesso riuscito nel browser dopo precedenti risposte tecniche vuote: il limite di acquisizione è superato.",
+      "source_urls": [
+        "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32020R0741"
+      ]
+    },
+    {
+      "id": "ue1765reuse",
+      "field": "documents",
+      "before": [
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:32024R1765",
+          "label": "PDF ufficiale · Regolamento delegato (UE) 2024/1765",
+          "format": "pdf"
+        }
+      ],
+      "after": [
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:32024R1765",
+          "label": "PDF ufficiale · Regolamento delegato (UE) 2024/1765",
+          "format": "pdf"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32024R1261R%2801%29",
+          "label": "EUR-Lex · rettifica della pubblicazione 2024/1261, 15/05/2024",
+          "format": "html"
+        }
+      ],
+      "source_urls": [
+        "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32024R1765",
+        "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32024R1765",
+        "https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32024R1261R%2801%29"
+      ]
+    },
+    {
+      "id": "ue1765reuse",
+      "field": "note",
+      "before": "Pubblicato nella Gazzetta ufficiale dell’Unione europea il 20/06/2024. EUR-Lex lo classifica in vigore. Il precedente regolamento delegato (UE) 2024/1261, di contenuto corrispondente, risulta non più in vigore dal 08/05/2024 e non è catalogato come testo attivo.",
+      "after": "Testo e allegato letti integralmente; efficacia dal 10/07/2024. Corretto il precedente 2024/1261: la rettifica del 15/05/2024 dichiara nulla la sua pubblicazione, senza attribuire alla 1765 una clausola di abrogazione.",
+      "source_urls": [
+        "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32024R1765",
+        "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32024R1765",
+        "https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32024R1261R%2801%29"
+      ]
+    },
+    {
+      "id": "ue1765reuse",
+      "field": "document_note",
+      "before": "Testo ufficiale in lingua italiana pubblicato su EUR-Lex.",
+      "after": "Testo HTML italiano ufficiale letto integralmente nel browser. Restano da coordinare i rinvii settoriali e l’attuazione nazionale; distinta la lettura completa dell’atto dalla ricostruzione complessiva della disciplina.",
+      "source_urls": [
+        "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32024R1765",
+        "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32024R1765",
+        "https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32024R1261R%2801%29"
+      ]
+    }
+  ],
+  "note": "Verifica circoscritta alle fonti e disposizioni indicate; non certificazione generale di vigenza."
+}
+

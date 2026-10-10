@@ -248,6 +248,10 @@
         {
           "date": "2026-10-10",
           "text": "Lotto 22: coordinamento documentato nei passaggi indicati; revisione complessiva ancora parziale."
+        },
+        {
+          "date": "2026-10-10",
+          "text": "Lotto 24: approfondito art. 96 D.Lgs. 152/2006 nel testo originario, distinguendo raccolta piovana da derivazione e autorizzazioni dei manufatti."
         }
       ],
       "documents": [
@@ -262,13 +266,14 @@
       "document_note": "GU originaria conservata. Letti ulteriori passaggi su riproduzioni istituzionali, senza attestare un testo integralmente aggiornato.",
       "documentary_review": {
         "checked_at": "2026-10-10",
-        "scope": "Lettura sostanziale circoscritta: Art. 7; PDF p. 3 Approfondimento artt. 217 e 234 n. 19 R.D. 1775 e artt. 86/88/89 D.Lgs. 112/1998 su riproduzioni istituzionali; aggiornamento corrente non certificato.",
+        "scope": "Lettura sostanziale circoscritta: Art. 7; PDF p. 3 Approfondimento artt. 217 e 234 n. 19 R.D. 1775 e artt. 86/88/89 D.Lgs. 112/1998 su riproduzioni istituzionali; aggiornamento corrente non certificato. Lettura fonte parlamentare originaria art. 96 commi 1, 3 e 4 D.Lgs. 152/2006; coordinamento documentale con artt. 7/12-bis/17 RD1775.",
         "outcome": "partial",
         "legal_state": "partial",
         "source_urls": [
           "https://www.gazzettaufficiale.it/eli/gu/1934/01/08/5/sg/pdf",
           "https://www.consiglioregionale.calabria.it/upload/istruttoria/R.D.%2011%20dicembre%201933,%20n.%201775%20.pdf",
-          "https://www.protezionecivile.gov.it/static/ef607bf684989575e3d49def66060408/dlgs1121998.pdf"
+          "https://www.protezionecivile.gov.it/static/ef607bf684989575e3d49def66060408/dlgs1121998.pdf",
+          "https://www.parlamento.it/parlam/leggi/deleghe/06152dl1.htm"
         ],
         "claims": [
           {
@@ -294,18 +299,32 @@
             "source_url": "https://www.protezionecivile.gov.it/static/ef607bf684989575e3d49def66060408/dlgs1121998.pdf",
             "locator": "Artt. 86, 88 e 89, PDF pp. 46–49",
             "finding": "Il documento istituzionale attribuisce gestione del demanio e funzioni di polizia idraulica a regioni ed enti locali, distinguendo i compiti nazionali dell’art. 88 e le condizioni dei casi interregionali dell’art. 89. Non identifica l’ufficio competente per ogni progetto."
+          },
+          {
+            "aspect": "amendment",
+            "source_url": "https://www.parlamento.it/parlam/leggi/deleghe/06152dl1.htm",
+            "locator": "Testo originario D.Lgs. 152/2006, art. 96 commi 1 e 3",
+            "finding": "La disposizione modificativa introduce nel R.D. 1775 il parere di bacino sulla compatibilità con il Piano di tutela e i presupposti concessori legati a qualità del corpo idrico, bilancio idrico, minimo deflusso e possibilità di riutilizzo. Non sono attestati termini e testo correnti."
+          },
+          {
+            "aspect": "amendment",
+            "source_url": "https://www.parlamento.it/parlam/leggi/deleghe/06152dl1.htm",
+            "locator": "Testo originario art. 96 comma 4, nuovo art. 17 RD1775, commi 1–2",
+            "finding": "Il testo distingue derivazione soggetta a titolo e raccolta di pioggia in invasi o cisterne al servizio di fondi agricoli o singoli edifici: questa non richiede concessione di derivazione, ma i manufatti restano soggetti alle discipline edilizie, sismiche, dighe e leggi speciali. Non è un’esenzione generale dalle autorizzazioni."
           }
         ],
         "limitations": [
           "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione.",
           "Riproduzioni istituzionali senza attestazione di consolidamento al 10 ottobre 2026; accesso alle pagine degli articoli Normattiva non riuscito.",
-          "Restano da verificare modifiche successive, discipline regionali, reticolo e autorità competente per l’intervento concreto."
+          "Restano da verificare modifiche successive, discipline regionali, reticolo e autorità competente per l’intervento concreto.",
+          "Fonte parlamentare originaria del 2006: non attestato il testo corrente né l’intero regime progettuale e concessorio."
         ],
         "pending": [
           "Confrontare questi articoli con il testo corrente ufficiale e gli atti successivi; ricostruire disciplina territoriale del reticolo e ufficio competente.",
-          "Completare gli altri passaggi del TU e i procedimenti concessori non esaminati."
+          "Completare gli altri passaggi del TU e i procedimenti concessori non esaminati.",
+          "Verificare versione corrente artt. 7/12-bis/17 RD1775, modifiche successive e condizioni regionali/di bacino prima dell’applicazione progettuale."
         ],
-        "record_version": "61c8eb6da700d73cbe3678145dd0cc7191b0a282e848b1e4f072d26fa0dfbc94"
+        "record_version": "5591cf09cc72379d85b80a3b623e9c7194411fe6e1e6c6645ec0c162590d5c36"
       },
       "documentary_history": [
         {
@@ -331,6 +350,53 @@
             "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
           ],
           "record_version": "1dd5cce771bb0f03c5d9f046379980ea4e58c0b5000cf53e2592c7ac0fbd6474"
+        },
+        {
+          "checked_at": "2026-10-10",
+          "scope": "Lettura sostanziale circoscritta: Art. 7; PDF p. 3 Approfondimento artt. 217 e 234 n. 19 R.D. 1775 e artt. 86/88/89 D.Lgs. 112/1998 su riproduzioni istituzionali; aggiornamento corrente non certificato.",
+          "outcome": "partial",
+          "legal_state": "partial",
+          "source_urls": [
+            "https://www.gazzettaufficiale.it/eli/gu/1934/01/08/5/sg/pdf",
+            "https://www.consiglioregionale.calabria.it/upload/istruttoria/R.D.%2011%20dicembre%201933,%20n.%201775%20.pdf",
+            "https://www.protezionecivile.gov.it/static/ef607bf684989575e3d49def66060408/dlgs1121998.pdf"
+          ],
+          "claims": [
+            {
+              "aspect": "content",
+              "source_url": "https://www.gazzettaufficiale.it/eli/gu/1934/01/08/5/sg/pdf",
+              "locator": "Art. 7; PDF p. 3",
+              "finding": "Le domande di nuova concessione sono accompagnate dal progetto delle opere di raccolta, regolazione, derivazione e restituzione. Il testo originario nomina organi amministrativi storici; il riparto di competenze attuale resta da coordinare."
+            },
+            {
+              "aspect": "content",
+              "source_url": "https://www.consiglioregionale.calabria.it/upload/istruttoria/R.D.%2011%20dicembre%201933,%20n.%201775%20.pdf",
+              "locator": "Art. 217, PDF p. 85",
+              "finding": "La riproduzione distingue opere sulle derivazioni soggette ad autorizzazione: trasformazioni delle chiuse, incili, botti e opere in alveo, comprese opere spondali che alterano derivazione o restituzione; resta il rinvio all’art. 49."
+            },
+            {
+              "aspect": "amendment",
+              "source_url": "https://www.consiglioregionale.calabria.it/upload/istruttoria/R.D.%2011%20dicembre%201933,%20n.%201775%20.pdf",
+              "locator": "Art. 234, n. 19, PDF pp. 90–91",
+              "finding": "Il testo dispone le abrogazioni puntuali del R.D. 523/1904: art. 97 f/g/h/i e art. 98 a/b/c; art. 97 k e art. 98 d soltanto nella parte ricompresa nell’art. 217."
+            },
+            {
+              "aspect": "content",
+              "source_url": "https://www.protezionecivile.gov.it/static/ef607bf684989575e3d49def66060408/dlgs1121998.pdf",
+              "locator": "Artt. 86, 88 e 89, PDF pp. 46–49",
+              "finding": "Il documento istituzionale attribuisce gestione del demanio e funzioni di polizia idraulica a regioni ed enti locali, distinguendo i compiti nazionali dell’art. 88 e le condizioni dei casi interregionali dell’art. 89. Non identifica l’ufficio competente per ogni progetto."
+            }
+          ],
+          "limitations": [
+            "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione.",
+            "Riproduzioni istituzionali senza attestazione di consolidamento al 10 ottobre 2026; accesso alle pagine degli articoli Normattiva non riuscito.",
+            "Restano da verificare modifiche successive, discipline regionali, reticolo e autorità competente per l’intervento concreto."
+          ],
+          "pending": [
+            "Confrontare questi articoli con il testo corrente ufficiale e gli atti successivi; ricostruire disciplina territoriale del reticolo e ufficio competente.",
+            "Completare gli altri passaggi del TU e i procedimenti concessori non esaminati."
+          ],
+          "record_version": "61c8eb6da700d73cbe3678145dd0cc7191b0a282e848b1e4f072d26fa0dfbc94"
         }
       ]
     },
@@ -512,7 +578,7 @@
       "status": "Vigente al 20/09/2026 su Normattiva",
       "source_kind": "Scheda dell’atto",
       "note": "Consultata il 21/09/2026 la scheda Normattiva, che espone il testo vigente al 20/09/2026 e indica ultimo aggiornamento all’atto pubblicato l’11/08/2026. La consultazione conferma il quadro coordinato della Parte III; applicabilità e disciplina di dettaglio devono essere verificate sul singolo articolo, sugli allegati e sugli atti regionali e attuativi.",
-      "checked": "2026-09-21",
+      "checked": "2026-10-10",
       "relations": [
         {
           "type": "Criteri ambientali pertinenti agli affidamenti",
@@ -555,6 +621,10 @@
         {
           "date": "2026-09-21",
           "text": "Verificato su Normattiva il testo vigente al 20/09/2026; aggiunti i rinvii a D.M. 185/2003, D.P.R. 59/2013 e regolamento (UE) 2020/741."
+        },
+        {
+          "date": "2026-10-10",
+          "text": "Lotto 24: approfondito art. 96 D.Lgs. 152/2006 nel testo originario, distinguendo raccolta piovana da derivazione e autorizzazioni dei manufatti."
         }
       ],
       "aliases": [
@@ -573,12 +643,13 @@
       ],
       "document_note": "Il collegamento apre il fascicolo ufficiale della Gazzetta Ufficiale in formato grafico PDF contenente l’atto.",
       "documentary_review": {
-        "checked_at": "2026-10-08",
-        "scope": "Lettura sostanziale circoscritta: Parte III, art. 113, commi 1-4; Parte III, art. 124, commi 1, 3 e 4",
+        "checked_at": "2026-10-10",
+        "scope": "Lettura sostanziale circoscritta: Parte III, art. 113, commi 1-4; Parte III, art. 124, commi 1, 3 e 4 Lettura fonte parlamentare originaria art. 96 commi 1, 3 e 4 D.Lgs. 152/2006; coordinamento documentale con artt. 7/12-bis/17 RD1775.",
         "outcome": "partial",
         "legal_state": "partial",
         "source_urls": [
-          "https://www.parlamento.it/parlam/leggi/deleghe/06152dl2.htm"
+          "https://www.parlamento.it/parlam/leggi/deleghe/06152dl2.htm",
+          "https://www.parlamento.it/parlam/leggi/deleghe/06152dl1.htm"
         ],
         "claims": [
           {
@@ -592,16 +663,62 @@
             "source_url": "https://www.parlamento.it/parlam/leggi/deleghe/06152dl2.htm",
             "locator": "Parte III, art. 124, commi 1, 3 e 4",
             "finding": "Nel testo originario l’autorizzazione preventiva agli scarichi si coordina con la disciplina regionale dei domestici e con l’ammissione degli scarichi domestici in fognatura secondo i regolamenti del gestore. Non sono estesi al testo attuale i termini procedurali originari."
+          },
+          {
+            "aspect": "amendment",
+            "source_url": "https://www.parlamento.it/parlam/leggi/deleghe/06152dl1.htm",
+            "locator": "Testo originario D.Lgs. 152/2006, art. 96 commi 1 e 3",
+            "finding": "La disposizione modificativa introduce nel R.D. 1775 il parere di bacino sulla compatibilità con il Piano di tutela e i presupposti concessori legati a qualità del corpo idrico, bilancio idrico, minimo deflusso e possibilità di riutilizzo. Non sono attestati termini e testo correnti."
+          },
+          {
+            "aspect": "amendment",
+            "source_url": "https://www.parlamento.it/parlam/leggi/deleghe/06152dl1.htm",
+            "locator": "Testo originario art. 96 comma 4, nuovo art. 17 RD1775, commi 1–2",
+            "finding": "Il testo distingue derivazione soggetta a titolo e raccolta di pioggia in invasi o cisterne al servizio di fondi agricoli o singoli edifici: questa non richiede concessione di derivazione, ma i manufatti restano soggetti alle discipline edilizie, sismiche, dighe e leggi speciali. Non è un’esenzione generale dalle autorizzazioni."
           }
         ],
         "limitations": [
-          "La lettura sostanziale riguarda la riproduzione parlamentare originaria; gli endpoint degli articoli Normattiva hanno restituito errori."
+          "La lettura sostanziale riguarda la riproduzione parlamentare originaria; gli endpoint degli articoli Normattiva hanno restituito errori.",
+          "Fonte parlamentare originaria del 2006: non attestato il testo corrente né l’intero regime progettuale e concessorio."
         ],
         "pending": [
-          "Ricostruire la versione corrente degli articoli pertinenti e gli allegati della Parte III."
+          "Ricostruire la versione corrente degli articoli pertinenti e gli allegati della Parte III.",
+          "Verificare versione corrente artt. 7/12-bis/17 RD1775, modifiche successive e condizioni regionali/di bacino prima dell’applicazione progettuale."
         ],
-        "record_version": "725fbb1c69e7007f50dd4f544d18dfa2104c33d3edce083efbf7920b73d92cf4"
-      }
+        "record_version": "fdcd19dbd00d358cf46b11e48c973fec981b9dcc7401d6feb86a132bbb5faad2"
+      },
+      "documentary_history": [
+        {
+          "checked_at": "2026-10-08",
+          "scope": "Lettura sostanziale circoscritta: Parte III, art. 113, commi 1-4; Parte III, art. 124, commi 1, 3 e 4",
+          "outcome": "partial",
+          "legal_state": "partial",
+          "source_urls": [
+            "https://www.parlamento.it/parlam/leggi/deleghe/06152dl2.htm"
+          ],
+          "claims": [
+            {
+              "aspect": "content",
+              "source_url": "https://www.parlamento.it/parlam/leggi/deleghe/06152dl2.htm",
+              "locator": "Parte III, art. 113, commi 1-4",
+              "finding": "La riproduzione parlamentare del testo originario demanda alle regioni il controllo delle meteoriche e i casi di trattamento della prima pioggia; distingue le meteoriche non disciplinate e vieta l’immissione diretta nelle acque sotterranee."
+            },
+            {
+              "aspect": "content",
+              "source_url": "https://www.parlamento.it/parlam/leggi/deleghe/06152dl2.htm",
+              "locator": "Parte III, art. 124, commi 1, 3 e 4",
+              "finding": "Nel testo originario l’autorizzazione preventiva agli scarichi si coordina con la disciplina regionale dei domestici e con l’ammissione degli scarichi domestici in fognatura secondo i regolamenti del gestore. Non sono estesi al testo attuale i termini procedurali originari."
+            }
+          ],
+          "limitations": [
+            "La lettura sostanziale riguarda la riproduzione parlamentare originaria; gli endpoint degli articoli Normattiva hanno restituito errori."
+          ],
+          "pending": [
+            "Ricostruire la versione corrente degli articoli pertinenti e gli allegati della Parte III."
+          ],
+          "record_version": "725fbb1c69e7007f50dd4f544d18dfa2104c33d3edce083efbf7920b73d92cf4"
+        }
+      ]
     },
     {
       "id": "dl49",
@@ -14250,6 +14367,90 @@
           "Acquisire BURL e allegati, verificare efficacia e successive modifiche e coordinare il testo del R.R. 7/2017."
         ],
         "record_version": "e7441608af02224009becf75819ed6e7fbbfb0704fc36cb7e3b14efa583ef8c2"
+      }
+    },
+    {
+      "id": "tos-lr80-2015",
+      "ref": "L.R. Toscana 80/2015",
+      "title": "Difesa del suolo, risorse idriche e gestione del demanio",
+      "level": "Regionale",
+      "regions": [
+        "Toscana"
+      ],
+      "topics": [
+        "Demanio e polizia idraulica"
+      ],
+      "date": "2015-12-28",
+      "url": "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?ext=pdf&id=0deb3a65-8cc8-11f0-b084-005056959b60",
+      "summary": "Riparto regionale delle funzioni di polizia idraulica e gestione del demanio; rinvii per concessioni e uso razionale della risorsa. Verifica limitata alla copia aggiornata al 10 gennaio 2025.",
+      "focus": [
+        "Artt. 2 e 10: competenze e riserve",
+        "Artt. 5 e 11: rinvii attuativi",
+        "Reticolo e autorità competente per il progetto"
+      ],
+      "kind": "Atto normativo",
+      "status": "Verifica parziale · aggiornamenti successivi al 10 gennaio 2025 da verificare",
+      "source_kind": "Raccolta normativa del Consiglio regionale",
+      "note": "PDF istituzionale completo di 17 pagine. Letti soltanto i passaggi dichiarati; non certificata la disciplina corrente nel suo insieme.",
+      "checked": "2026-10-10",
+      "relations": [
+        {
+          "type": "coordina",
+          "id": "rd523"
+        },
+        {
+          "type": "coordina",
+          "id": "rd1775"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-10",
+          "text": "Lotto 25: atto mancante censito dopo lettura delle competenze e dei rinvii attuativi; limiti di aggiornamento espliciti."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?ext=pdf&id=0deb3a65-8cc8-11f0-b084-005056959b60",
+          "label": "L.R. 80/2015 · copia coordinata al 10 gennaio 2025",
+          "format": "pdf"
+        }
+      ],
+      "documentary_review": {
+        "checked_at": "2026-10-10",
+        "scope": "Identità; art. 2 comma 1 g/i/n e 1-bis, artt. 5 e 10, art. 11 commi 1–2; PDF pp. 1, 5–6, 8–10.",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?ext=pdf&id=0deb3a65-8cc8-11f0-b084-005056959b60"
+        ],
+        "claims": [
+          {
+            "aspect": "identity",
+            "source_url": "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?ext=pdf&id=0deb3a65-8cc8-11f0-b084-005056959b60",
+            "locator": "PDF p. 1, intestazione e piede di pagina",
+            "finding": "L.R. Toscana 28 dicembre 2015 n. 80; BURT n. 57 parte I del 29 dicembre 2015. La copia dichiara aggiornamento al 10 gennaio 2025, non al giorno della verifica."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?ext=pdf&id=0deb3a65-8cc8-11f0-b084-005056959b60",
+            "locator": "Art. 2, comma 1 lettere g/i/n e comma 1-bis, PDF pp. 5–6; art. 10 pp. 9–10",
+            "finding": "Attribuisce alla Regione polizia idraulica sul reticolo individuato, autorizzazioni RD523, gestione demanio e funzioni su derivazioni e polizia delle acque, con riserve normative. Prevede linee guida anche per compatibilità di ponti e tombamenti esistenti."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?ext=pdf&id=0deb3a65-8cc8-11f0-b084-005056959b60",
+            "locator": "Art. 5, PDF pp. 8–9; art. 11 commi 1–2, PDF p. 10",
+            "finding": "Rinvia a regolamenti per concessioni, garanzie e coordinamento procedurale; promuove risparmio e riuso. Questi rinvii non dimostrano da soli parametri progettuali, qualità delle acque riutilizzabili o disciplina attuativa completa."
+          }
+        ],
+        "limitations": [
+          "Copia aggiornata al 10 gennaio 2025; non ricostruite modifiche successive, regolamenti, cartografia del reticolo e competenze operative specifiche."
+        ],
+        "pending": [
+          "Verificare modifiche dal 10 gennaio 2025 e atti attuativi artt. 5/11; acquisire reticolo vigente e condizioni di autorizzazione per l’intervento."
+        ],
+        "record_version": "37757365ebfefaacb5541017aa492d44d83147a22b5a7ea10f897d1c103cc639"
       }
     }
   ],

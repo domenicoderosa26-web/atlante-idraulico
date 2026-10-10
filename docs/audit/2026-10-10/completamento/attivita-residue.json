@@ -151,7 +151,7 @@
     {
       "id": "rd1775",
       "object": "R.D. 1775/1933 · Acque pubbliche e derivazioni",
-      "scope_completed": "Lettura sostanziale circoscritta: Art. 7; PDF p. 3 Approfondimento artt. 217 e 234 n. 19 R.D. 1775 e artt. 86/88/89 D.Lgs. 112/1998 su riproduzioni istituzionali; aggiornamento corrente non certificato.",
+      "scope_completed": "Lettura sostanziale circoscritta: Art. 7; PDF p. 3 Approfondimento artt. 217 e 234 n. 19 R.D. 1775 e artt. 86/88/89 D.Lgs. 112/1998 su riproduzioni istituzionali; aggiornamento corrente non certificato. Lettura fonte parlamentare originaria art. 96 commi 1, 3 e 4 D.Lgs. 152/2006; coordinamento documentale con artt. 7/12-bis/17 RD1775.",
       "verified_findings": [
         {
           "aspect": "content",
@@ -176,22 +176,37 @@
           "source_url": "https://www.protezionecivile.gov.it/static/ef607bf684989575e3d49def66060408/dlgs1121998.pdf",
           "locator": "Artt. 86, 88 e 89, PDF pp. 46–49",
           "finding": "Il documento istituzionale attribuisce gestione del demanio e funzioni di polizia idraulica a regioni ed enti locali, distinguendo i compiti nazionali dell’art. 88 e le condizioni dei casi interregionali dell’art. 89. Non identifica l’ufficio competente per ogni progetto."
+        },
+        {
+          "aspect": "amendment",
+          "source_url": "https://www.parlamento.it/parlam/leggi/deleghe/06152dl1.htm",
+          "locator": "Testo originario D.Lgs. 152/2006, art. 96 commi 1 e 3",
+          "finding": "La disposizione modificativa introduce nel R.D. 1775 il parere di bacino sulla compatibilità con il Piano di tutela e i presupposti concessori legati a qualità del corpo idrico, bilancio idrico, minimo deflusso e possibilità di riutilizzo. Non sono attestati termini e testo correnti."
+        },
+        {
+          "aspect": "amendment",
+          "source_url": "https://www.parlamento.it/parlam/leggi/deleghe/06152dl1.htm",
+          "locator": "Testo originario art. 96 comma 4, nuovo art. 17 RD1775, commi 1–2",
+          "finding": "Il testo distingue derivazione soggetta a titolo e raccolta di pioggia in invasi o cisterne al servizio di fondi agricoli o singoli edifici: questa non richiede concessione di derivazione, ma i manufatti restano soggetti alle discipline edilizie, sismiche, dighe e leggi speciali. Non è un’esenzione generale dalle autorizzazioni."
         }
       ],
       "needed_source_or_operation": [
         "Confrontare questi articoli con il testo corrente ufficiale e gli atti successivi; ricostruire disciplina territoriale del reticolo e ufficio competente.",
-        "Completare gli altri passaggi del TU e i procedimenti concessori non esaminati."
+        "Completare gli altri passaggi del TU e i procedimenti concessori non esaminati.",
+        "Verificare versione corrente artt. 7/12-bis/17 RD1775, modifiche successive e condizioni regionali/di bacino prima dell’applicazione progettuale."
       ],
       "limitations": [
         "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione.",
         "Riproduzioni istituzionali senza attestazione di consolidamento al 10 ottobre 2026; accesso alle pagine degli articoli Normattiva non riuscito.",
-        "Restano da verificare modifiche successive, discipline regionali, reticolo e autorità competente per l’intervento concreto."
+        "Restano da verificare modifiche successive, discipline regionali, reticolo e autorità competente per l’intervento concreto.",
+        "Fonte parlamentare originaria del 2006: non attestato il testo corrente né l’intero regime progettuale e concessorio."
       ],
       "actual_access_problems": [],
       "reason_still_open": "Ricostruzione corrente e allegati ancora incompleti; non è attestata la vigenza integrale.",
       "next_step": [
         "Confrontare questi articoli con il testo corrente ufficiale e gli atti successivi; ricostruire disciplina territoriale del reticolo e ufficio competente.",
-        "Completare gli altri passaggi del TU e i procedimenti concessori non esaminati."
+        "Completare gli altri passaggi del TU e i procedimenti concessori non esaminati.",
+        "Verificare versione corrente artt. 7/12-bis/17 RD1775, modifiche successive e condizioni regionali/di bacino prima dell’applicazione progettuale."
       ]
     },
     {
@@ -245,7 +260,7 @@
     {
       "id": "dl152",
       "object": "D.Lgs. 152/2006 · Testo unico ambientale (TUA) · Norme in materia ambientale · Parte III",
-      "scope_completed": "Lettura sostanziale circoscritta: Parte III, art. 113, commi 1-4; Parte III, art. 124, commi 1, 3 e 4",
+      "scope_completed": "Lettura sostanziale circoscritta: Parte III, art. 113, commi 1-4; Parte III, art. 124, commi 1, 3 e 4 Lettura fonte parlamentare originaria art. 96 commi 1, 3 e 4 D.Lgs. 152/2006; coordinamento documentale con artt. 7/12-bis/17 RD1775.",
       "verified_findings": [
         {
           "aspect": "content",
@@ -258,18 +273,33 @@
           "source_url": "https://www.parlamento.it/parlam/leggi/deleghe/06152dl2.htm",
           "locator": "Parte III, art. 124, commi 1, 3 e 4",
           "finding": "Nel testo originario l’autorizzazione preventiva agli scarichi si coordina con la disciplina regionale dei domestici e con l’ammissione degli scarichi domestici in fognatura secondo i regolamenti del gestore. Non sono estesi al testo attuale i termini procedurali originari."
+        },
+        {
+          "aspect": "amendment",
+          "source_url": "https://www.parlamento.it/parlam/leggi/deleghe/06152dl1.htm",
+          "locator": "Testo originario D.Lgs. 152/2006, art. 96 commi 1 e 3",
+          "finding": "La disposizione modificativa introduce nel R.D. 1775 il parere di bacino sulla compatibilità con il Piano di tutela e i presupposti concessori legati a qualità del corpo idrico, bilancio idrico, minimo deflusso e possibilità di riutilizzo. Non sono attestati termini e testo correnti."
+        },
+        {
+          "aspect": "amendment",
+          "source_url": "https://www.parlamento.it/parlam/leggi/deleghe/06152dl1.htm",
+          "locator": "Testo originario art. 96 comma 4, nuovo art. 17 RD1775, commi 1–2",
+          "finding": "Il testo distingue derivazione soggetta a titolo e raccolta di pioggia in invasi o cisterne al servizio di fondi agricoli o singoli edifici: questa non richiede concessione di derivazione, ma i manufatti restano soggetti alle discipline edilizie, sismiche, dighe e leggi speciali. Non è un’esenzione generale dalle autorizzazioni."
         }
       ],
       "needed_source_or_operation": [
-        "Ricostruire la versione corrente degli articoli pertinenti e gli allegati della Parte III."
+        "Ricostruire la versione corrente degli articoli pertinenti e gli allegati della Parte III.",
+        "Verificare versione corrente artt. 7/12-bis/17 RD1775, modifiche successive e condizioni regionali/di bacino prima dell’applicazione progettuale."
       ],
       "limitations": [
-        "La lettura sostanziale riguarda la riproduzione parlamentare originaria; gli endpoint degli articoli Normattiva hanno restituito errori."
+        "La lettura sostanziale riguarda la riproduzione parlamentare originaria; gli endpoint degli articoli Normattiva hanno restituito errori.",
+        "Fonte parlamentare originaria del 2006: non attestato il testo corrente né l’intero regime progettuale e concessorio."
       ],
       "actual_access_problems": [],
       "reason_still_open": "Fonte o coordinamento indicati nella coda non ancora verificati. Un accesso riuscito non chiude il confronto normativo.",
       "next_step": [
-        "Ricostruire la versione corrente degli articoli pertinenti e gli allegati della Parte III."
+        "Ricostruire la versione corrente degli articoli pertinenti e gli allegati della Parte III.",
+        "Verificare versione corrente artt. 7/12-bis/17 RD1775, modifiche successive e condizioni regionali/di bacino prima dell’applicazione progettuale."
       ]
     },
     {
@@ -5386,6 +5416,42 @@
         "Acquisire BURL e allegati, verificare efficacia e successive modifiche e coordinare il testo del R.R. 7/2017."
       ],
       "reason_still_open": "Ricostruzione corrente e allegati ancora incompleti; non è attestata la vigenza integrale."
+    },
+    {
+      "id": "tos-lr80-2015",
+      "object": "L.R. Toscana 80/2015 · Difesa del suolo, risorse idriche e gestione del demanio",
+      "scope_completed": "Identità; art. 2 comma 1 g/i/n e 1-bis, artt. 5 e 10, art. 11 commi 1–2; PDF pp. 1, 5–6, 8–10.",
+      "verified_findings": [
+        {
+          "aspect": "identity",
+          "source_url": "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?ext=pdf&id=0deb3a65-8cc8-11f0-b084-005056959b60",
+          "locator": "PDF p. 1, intestazione e piede di pagina",
+          "finding": "L.R. Toscana 28 dicembre 2015 n. 80; BURT n. 57 parte I del 29 dicembre 2015. La copia dichiara aggiornamento al 10 gennaio 2025, non al giorno della verifica."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?ext=pdf&id=0deb3a65-8cc8-11f0-b084-005056959b60",
+          "locator": "Art. 2, comma 1 lettere g/i/n e comma 1-bis, PDF pp. 5–6; art. 10 pp. 9–10",
+          "finding": "Attribuisce alla Regione polizia idraulica sul reticolo individuato, autorizzazioni RD523, gestione demanio e funzioni su derivazioni e polizia delle acque, con riserve normative. Prevede linee guida anche per compatibilità di ponti e tombamenti esistenti."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?ext=pdf&id=0deb3a65-8cc8-11f0-b084-005056959b60",
+          "locator": "Art. 5, PDF pp. 8–9; art. 11 commi 1–2, PDF p. 10",
+          "finding": "Rinvia a regolamenti per concessioni, garanzie e coordinamento procedurale; promuove risparmio e riuso. Questi rinvii non dimostrano da soli parametri progettuali, qualità delle acque riutilizzabili o disciplina attuativa completa."
+        }
+      ],
+      "needed_source_or_operation": [
+        "Verificare modifiche dal 10 gennaio 2025 e atti attuativi artt. 5/11; acquisire reticolo vigente e condizioni di autorizzazione per l’intervento."
+      ],
+      "limitations": [
+        "Copia aggiornata al 10 gennaio 2025; non ricostruite modifiche successive, regolamenti, cartografia del reticolo e competenze operative specifiche."
+      ],
+      "actual_access_problems": [],
+      "reason_still_open": "Aggiornamento fino al 2025 e rinvii attuativi da coordinare, nessuna vigenza integrale attestata.",
+      "next_step": [
+        "Verificare modifiche dal 10 gennaio 2025 e atti attuativi artt. 5/11; acquisire reticolo vigente e condizioni di autorizzazione per l’intervento."
+      ]
     }
   ],
   "territorial_cells": [
@@ -6048,7 +6114,7 @@
       "state": "ricognizione_puntuale_non_esaustiva",
       "source_still_needed": "Repertorio legislativo e BUR del territorio, PTA/NTA e atti attuativi per la materia regolamenti_attuativi",
       "problem": "Ricognizione sistematica non eseguita o non esaustiva; non è una prova di assenza normativa.",
-      "already_verified": "Ricerca sistematica degli atti mancanti non avviata in questo lotto. Lotto 23: banca regionale, R.R. 3/2025 art. 1 r/s/t/u; riuso della lettura sostanziale R.R. 4/2006 artt. 3 e 5 già acquisita il 2026-10-08, solo nelle materie pertinenti.",
+      "already_verified": "Lotto 23: banca regionale, R.R. 3/2025 art. 1 r/s/t/u; riuso della lettura sostanziale R.R. 4/2006 artt. 3 e 5 già acquisita il 2026-10-08, solo nelle materie pertinenti.",
       "next_step": "Completare BURL, allegati e coordinamento corrente dei regolamenti. Acquisire e leggere R.R. 6/2019 e DGR 2723/2019: estremi individuati, allegato RR6 restituisce HTTP 404.",
       "source_urls": [
         "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf",
@@ -6532,20 +6598,32 @@
     {
       "territory": "Toscana",
       "sector": "riuso",
-      "state": "ricognizione_non_ancora_effettuata",
+      "state": "ricognizione_puntuale_non_esaustiva",
       "source_still_needed": "Repertorio legislativo e BUR del territorio, PTA/NTA e atti attuativi per la materia riuso",
       "problem": "Ricognizione sistematica non eseguita o non esaustiva; non è una prova di assenza normativa.",
-      "already_verified": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
-      "next_step": "Ricercare e leggere atti e allegati della materia; mantenere distinta la vigenza dalla mera presenza nel repertorio."
+      "already_verified": "Lotto25: Art. 11 comma 1: quadro di rinvio regolamentare per risparmio e riuso; nessuna attestazione di standard o autorizzazione al riutilizzo.",
+      "next_step": "Verificare modifiche dal 10 gennaio 2025 e atti attuativi artt. 5/11; acquisire reticolo vigente e condizioni di autorizzazione per l’intervento.",
+      "record_ids": [
+        "tos-lr80-2015"
+      ],
+      "source_urls": [
+        "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?ext=pdf&id=0deb3a65-8cc8-11f0-b084-005056959b60"
+      ]
     },
     {
       "territory": "Toscana",
       "sector": "demanio",
-      "state": "ricognizione_non_ancora_effettuata",
+      "state": "ricognizione_puntuale_non_esaustiva",
       "source_still_needed": "Repertorio legislativo e BUR del territorio, PTA/NTA e atti attuativi per la materia demanio",
       "problem": "Ricognizione sistematica non eseguita o non esaustiva; non è una prova di assenza normativa.",
-      "already_verified": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
-      "next_step": "Ricercare e leggere atti e allegati della materia; mantenere distinta la vigenza dalla mera presenza nel repertorio."
+      "already_verified": "Lotto25: Artt. 2 e 10: attribuzione regionale con riserve, reticolo e rilascio dei titoli.",
+      "next_step": "Verificare modifiche dal 10 gennaio 2025 e atti attuativi artt. 5/11; acquisire reticolo vigente e condizioni di autorizzazione per l’intervento.",
+      "record_ids": [
+        "tos-lr80-2015"
+      ],
+      "source_urls": [
+        "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?ext=pdf&id=0deb3a65-8cc8-11f0-b084-005056959b60"
+      ]
     },
     {
       "territory": "Toscana",
@@ -6562,8 +6640,18 @@
       "state": "ricognizione_puntuale_non_esaustiva",
       "source_still_needed": "Repertorio legislativo e BUR del territorio, PTA/NTA e atti attuativi per la materia regolamenti_attuativi",
       "problem": "Ricognizione sistematica non eseguita o non esaustiva; non è una prova di assenza normativa.",
-      "already_verified": "Lettura del testo coordinato regionale, artt. 37–39 e 41–43 con note modificative; lettura integrale dell’allegato 5, due pagine, con confronto visivo della tabella 6. PDF del corpo aggiornato al 19/04/2018; non verificati tutti i rinvii esterni.",
-      "next_step": "Ricercare e leggere atti e allegati della materia; mantenere distinta la vigenza dalla mera presenza nel repertorio."
+      "already_verified": "Lettura del testo coordinato regionale, artt. 37–39 e 41–43 con note modificative; lettura integrale dell’allegato 5, due pagine, con confronto visivo della tabella 6. PDF del corpo aggiornato al 19/04/2018; non verificati tutti i rinvii esterni. Lotto25: Artt. 5 e 11: materie demandate ai regolamenti; atti di attuazione da acquisire.",
+      "next_step": "Riscontrare nel BURT i modificativi e gli aggiornamenti successivi, coordinare LR 20/2006 e completare gli altri allegati pertinenti. Verificare modifiche dal 10 gennaio 2025 e atti attuativi artt. 5/11; acquisire reticolo vigente e condizioni di autorizzazione per l’intervento.",
+      "record_ids": [
+        "tos46",
+        "tos-lr80-2015"
+      ],
+      "source_urls": [
+        "https://raccoltanormativa.consiglio.regione.toscana.it/articolo?pr=idx,0%3Bartic,1%3Barticparziale,0&urndoc=urn:nir:regione.toscana:regolamento.giunta:2008-09-08%3B46/R",
+        "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?file_path=regolamento.giunta/2008/regolamento.giunta_2008_46R_a5/regolamento.giunta_2008_46R_a5_v5.pdf",
+        "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?id=9345c577-24d8-11ef-bf7a-005056959b60&ext=pdf",
+        "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?ext=pdf&id=0deb3a65-8cc8-11f0-b084-005056959b60"
+      ]
     },
     {
       "territory": "Toscana",
@@ -7016,7 +7104,12 @@
       "identity_confirmed_on": "2026-10-10",
       "publication_locator": "BURL n. 14, supplemento 2 aprile 2019",
       "status": "Identità confermata; disposizioni e allegati da leggere, non inserito in catalogo",
-      "next_step": "Recuperare BURL o altra copia istituzionale; verificare artt. 13–14, allegati e modifiche. Non dedurre disciplina o vigenza dalla sola pagina descrittiva."
+      "next_step": "Recuperare BURL o altra copia istituzionale; verificare artt. 13–14, allegati e modifiche. Non dedurre disciplina o vigenza dalla sola pagina descrittiva.",
+      "additional_evidence": {
+        "url": "https://www.regione.lombardia.it/wps/wcm/connect/c31fe835-93d5-48d7-98e1-84ec2681e610/dgr-2723-2019-approvazione-linee-guida-e-indirizzi.pdf?CACHEID=ROOTWORKSPACE-c31fe835-93d5-48d7-98e1-84ec2681e610-on0Qzri&MOD=AJPERES",
+        "locator": "BURL serie ordinaria n. 2 del 7 gennaio 2020 p. 214, testo indicizzato",
+        "finding": "Dispositivo DGR2723 approva allegati A e B, ma la copia acquisita attuale non contiene l’atto. Candidato mantenuto da acquisire; nessun parametro progettuale pubblicato."
+      }
     }
   ]
 }

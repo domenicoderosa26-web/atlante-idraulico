@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-10-10T18:05:11.629864+00:00",
+  "base_commit": "34706ee97aa5210371593ae718ac577df5c74b12",
+  "tests": {
+    "archive": "117 schede, conservazione ID e cronologie OK",
+    "topics": "14 categorie canoniche, 117 schede valide",
+    "python_unittest": "69 test OK",
+    "javascript_syntax": "OK",
+    "javascript_frontend": "14 filtri e 168 combinazioni territorio/livello OK",
+    "git_diff_check": "OK"
+  },
+  "phase3_complete": false
+}

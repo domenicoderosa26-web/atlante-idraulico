@@ -4,7 +4,7 @@
     {
       "id": "rd523",
       "object": "R.D. 523/1904 · Opere idrauliche e polizia delle acque",
-      "scope_completed": "Lettura Normattiva artt.1,2,93-98 e note: divieti, permessi e abrogazioni puntuali; coordinamento competenze attuali non concluso.",
+      "scope_completed": "Lettura Normattiva artt.1,2,93-98 e note: divieti, permessi e abrogazioni puntuali; coordinamento competenze attuali non concluso. Approfondimento artt. 217 e 234 n. 19 R.D. 1775 e artt. 86/88/89 D.Lgs. 112/1998 su riproduzioni istituzionali; aggiornamento corrente non certificato.",
       "verified_findings": [
         {
           "aspect": "content",
@@ -23,13 +23,34 @@
           "source_url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=5&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=97&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
           "locator": "Art.97 e note; art.98 e note",
           "finding": "Art.97 lettere f,g,h,i e art.98 lettere a,b,c risultano abrogati dal RD1775/1933; art.98 f soppresso dalla L774/1911. Art.97 k e98 d: abrogazione limitata alla parte compresa nell’art.217RD1775, come indicato dalle note. Il TU non è integralmente invariato."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.consiglioregionale.calabria.it/upload/istruttoria/R.D.%2011%20dicembre%201933,%20n.%201775%20.pdf",
+          "locator": "Art. 217, PDF p. 85",
+          "finding": "La riproduzione distingue opere sulle derivazioni soggette ad autorizzazione: trasformazioni delle chiuse, incili, botti e opere in alveo, comprese opere spondali che alterano derivazione o restituzione; resta il rinvio all’art. 49."
+        },
+        {
+          "aspect": "amendment",
+          "source_url": "https://www.consiglioregionale.calabria.it/upload/istruttoria/R.D.%2011%20dicembre%201933,%20n.%201775%20.pdf",
+          "locator": "Art. 234, n. 19, PDF pp. 90–91",
+          "finding": "Il testo dispone le abrogazioni puntuali del R.D. 523/1904: art. 97 f/g/h/i e art. 98 a/b/c; art. 97 k e art. 98 d soltanto nella parte ricompresa nell’art. 217."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.protezionecivile.gov.it/static/ef607bf684989575e3d49def66060408/dlgs1121998.pdf",
+          "locator": "Artt. 86, 88 e 89, PDF pp. 46–49",
+          "finding": "Il documento istituzionale attribuisce gestione del demanio e funzioni di polizia idraulica a regioni ed enti locali, distinguendo i compiti nazionali dell’art. 88 e le condizioni dei casi interregionali dell’art. 89. Non identifica l’ufficio competente per ogni progetto."
         }
       ],
       "needed_source_or_operation": [
-        "Leggere direttamente artt.217/234RD1775 e verificare trasferimenti di competenza e disciplina del reticolo interessato."
+        "Confrontare questi articoli con il testo corrente ufficiale e gli atti successivi; ricostruire disciplina territoriale del reticolo e ufficio competente.",
+        "Completare gli altri passaggi del TU e i procedimenti concessori non esaminati."
       ],
       "limitations": [
-        "Non letto integralmente il TU né ricostruiti riassetto delle competenze e regole regionali/locali."
+        "Non letto integralmente il TU né ricostruiti riassetto delle competenze e regole regionali/locali.",
+        "Riproduzioni istituzionali senza attestazione di consolidamento al 10 ottobre 2026; accesso alle pagine degli articoli Normattiva non riuscito.",
+        "Restano da verificare modifiche successive, discipline regionali, reticolo e autorità competente per l’intervento concreto."
       ],
       "actual_access_problems": [
         {
@@ -121,33 +142,56 @@
           "error": "HTTP Error 500: Internal Server Error"
         }
       ],
-      "reason_still_open": "Fonte o coordinamento indicati nella coda non ancora verificati. Un accesso riuscito non chiude il confronto normativo.",
+      "reason_still_open": "Ricostruzione corrente e allegati ancora incompleti; non è attestata la vigenza integrale.",
       "next_step": [
-        "Leggere direttamente artt.217/234RD1775 e verificare trasferimenti di competenza e disciplina del reticolo interessato."
+        "Confrontare questi articoli con il testo corrente ufficiale e gli atti successivi; ricostruire disciplina territoriale del reticolo e ufficio competente.",
+        "Completare gli altri passaggi del TU e i procedimenti concessori non esaminati."
       ]
     },
     {
       "id": "rd1775",
       "object": "R.D. 1775/1933 · Acque pubbliche e derivazioni",
-      "scope_completed": "Lettura sostanziale circoscritta: Art. 7; PDF p. 3",
+      "scope_completed": "Lettura sostanziale circoscritta: Art. 7; PDF p. 3 Approfondimento artt. 217 e 234 n. 19 R.D. 1775 e artt. 86/88/89 D.Lgs. 112/1998 su riproduzioni istituzionali; aggiornamento corrente non certificato.",
       "verified_findings": [
         {
           "aspect": "content",
           "source_url": "https://www.gazzettaufficiale.it/eli/gu/1934/01/08/5/sg/pdf",
           "locator": "Art. 7; PDF p. 3",
           "finding": "Le domande di nuova concessione sono accompagnate dal progetto delle opere di raccolta, regolazione, derivazione e restituzione. Il testo originario nomina organi amministrativi storici; il riparto di competenze attuale resta da coordinare."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.consiglioregionale.calabria.it/upload/istruttoria/R.D.%2011%20dicembre%201933,%20n.%201775%20.pdf",
+          "locator": "Art. 217, PDF p. 85",
+          "finding": "La riproduzione distingue opere sulle derivazioni soggette ad autorizzazione: trasformazioni delle chiuse, incili, botti e opere in alveo, comprese opere spondali che alterano derivazione o restituzione; resta il rinvio all’art. 49."
+        },
+        {
+          "aspect": "amendment",
+          "source_url": "https://www.consiglioregionale.calabria.it/upload/istruttoria/R.D.%2011%20dicembre%201933,%20n.%201775%20.pdf",
+          "locator": "Art. 234, n. 19, PDF pp. 90–91",
+          "finding": "Il testo dispone le abrogazioni puntuali del R.D. 523/1904: art. 97 f/g/h/i e art. 98 a/b/c; art. 97 k e art. 98 d soltanto nella parte ricompresa nell’art. 217."
+        },
+        {
+          "aspect": "content",
+          "source_url": "https://www.protezionecivile.gov.it/static/ef607bf684989575e3d49def66060408/dlgs1121998.pdf",
+          "locator": "Artt. 86, 88 e 89, PDF pp. 46–49",
+          "finding": "Il documento istituzionale attribuisce gestione del demanio e funzioni di polizia idraulica a regioni ed enti locali, distinguendo i compiti nazionali dell’art. 88 e le condizioni dei casi interregionali dell’art. 89. Non identifica l’ufficio competente per ogni progetto."
         }
       ],
       "needed_source_or_operation": [
-        "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+        "Confrontare questi articoli con il testo corrente ufficiale e gli atti successivi; ricostruire disciplina territoriale del reticolo e ufficio competente.",
+        "Completare gli altri passaggi del TU e i procedimenti concessori non esaminati."
       ],
       "limitations": [
-        "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+        "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione.",
+        "Riproduzioni istituzionali senza attestazione di consolidamento al 10 ottobre 2026; accesso alle pagine degli articoli Normattiva non riuscito.",
+        "Restano da verificare modifiche successive, discipline regionali, reticolo e autorità competente per l’intervento concreto."
       ],
       "actual_access_problems": [],
-      "reason_still_open": "Fonte o coordinamento indicati nella coda non ancora verificati. Un accesso riuscito non chiude il confronto normativo.",
+      "reason_still_open": "Ricostruzione corrente e allegati ancora incompleti; non è attestata la vigenza integrale.",
       "next_step": [
-        "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+        "Confrontare questi articoli con il testo corrente ufficiale e gli atti successivi; ricostruire disciplina territoriale del reticolo e ufficio competente.",
+        "Completare gli altri passaggi del TU e i procedimenti concessori non esaminati."
       ]
     },
     {
@@ -498,7 +542,7 @@
     {
       "id": "lom7",
       "object": "R.R. 7/2017 · Invarianza idraulica e idrologica",
-      "scope_completed": "Approfondimento del testo coordinato: art. 10 completo e art. 11, commi 1 e 2 lettera a; conservati i precedenti riscontri artt. 1, 7 e 14.",
+      "scope_completed": "Approfondimento del testo coordinato: art. 10 completo e art. 11, commi 1 e 2 lettera a; conservati i precedenti riscontri artt. 1, 7 e 14. Lettura delle modifiche R.R. 3/2025 art. 1 lettere r/s/t/u.",
       "verified_findings": [
         {
           "aspect": "content",
@@ -517,18 +561,31 @@
           "source_url": "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf",
           "locator": "Art. 11, commi 1 e 2 lettera a",
           "finding": "Il dimensionamento delle opere di laminazione/infiltrazione adotta Tr 50 anni; Tr 100 serve alla valutazione qualitativa dei danni e delle ulteriori protezioni per il rischio residuo. Non si scambiano dimensionamento e verifica."
+        },
+        {
+          "aspect": "amendment",
+          "source_url": "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/accessibile/main.aspx?idparte=rr002025032800003ar0001a&selnode=rr002025032800003&view=showpart",
+          "locator": "Art. 1, comma 1, lettere r), s), t), u)",
+          "finding": "Modifica portata ammissibile, superficie dell’intervento e coefficienti di deflusso; il progetto diventa esecutivo. La verifica qualitativa a 100 anni comprende misure locali per il rischio residuo. Le classi considerano l’intervento unitario, senza frazionamento."
+        },
+        {
+          "aspect": "identity",
+          "source_url": "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/accessibile/main.aspx?idparte=rr002025032800003ar0001a&selnode=rr002025032800003&view=showpart",
+          "locator": "Intestazione e art. 1",
+          "finding": "R.R. Lombardia 28 marzo 2025 n. 3, BURL n. 14 supplemento del 1 aprile 2025: modifica il R.R. 7/2017. Letta la disposizione modificativa indicata; allegati ed eventuali atti successivi non verificati."
         }
       ],
       "needed_source_or_operation": [
-        "Completare art. 11, requisiti minimi e allegati di calcolo e ricostruire gli aggiornamenti ulteriori al testo coordinato esaminato."
+        "Completare art. 11, art. 12, allegati di calcolo e cartografie; verificare atti ulteriori e versione applicabile al progetto."
       ],
       "limitations": [
-        "La lettura non certifica tutti gli allegati, le cartografie o l’intera catena degli atti successivi."
+        "La lettura non certifica tutti gli allegati, le cartografie o l’intera catena degli atti successivi.",
+        "Disposizione modificativa letta in banca regionale; controllo BURL e allegati da completare."
       ],
       "actual_access_problems": [],
-      "reason_still_open": "Fonte o coordinamento indicati nella coda non ancora verificati. Un accesso riuscito non chiude il confronto normativo.",
+      "reason_still_open": "Ricostruzione corrente e allegati ancora incompleti; non è attestata la vigenza integrale.",
       "next_step": [
-        "Completare art. 11, requisiti minimi e allegati di calcolo e ricostruire gli aggiornamenti ulteriori al testo coordinato esaminato."
+        "Completare art. 11, art. 12, allegati di calcolo e cartografie; verificare atti ulteriori e versione applicabile al progetto."
       ]
     },
     {
@@ -5300,6 +5357,35 @@
       "next_step": [
         "Verificare DPR esecutivo UE e atti regionali; coordinare rinvii aggiornati e prescrizioni dei singoli impianti."
       ]
+    },
+    {
+      "id": "lom-rr3-2025",
+      "object": "R.R. Lombardia 3/2025 · Modifiche ai principi di invarianza idraulica e idrologica",
+      "scope_completed": "Identità e art. 1, comma 1, lettere r/s/t/u; nessuna certificazione complessiva degli allegati.",
+      "verified_findings": [
+        {
+          "aspect": "amendment",
+          "source_url": "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/accessibile/main.aspx?idparte=rr002025032800003ar0001a&selnode=rr002025032800003&view=showpart",
+          "locator": "Art. 1, comma 1, lettere r), s), t), u)",
+          "finding": "Modifica portata ammissibile, superficie dell’intervento e coefficienti di deflusso; il progetto diventa esecutivo. La verifica qualitativa a 100 anni comprende misure locali per il rischio residuo. Le classi considerano l’intervento unitario, senza frazionamento."
+        },
+        {
+          "aspect": "identity",
+          "source_url": "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/accessibile/main.aspx?idparte=rr002025032800003ar0001a&selnode=rr002025032800003&view=showpart",
+          "locator": "Intestazione e art. 1",
+          "finding": "R.R. Lombardia 28 marzo 2025 n. 3, BURL n. 14 supplemento del 1 aprile 2025: modifica il R.R. 7/2017. Letta la disposizione modificativa indicata; allegati ed eventuali atti successivi non verificati."
+        }
+      ],
+      "needed_source_or_operation": [
+        "Acquisire BURL e allegati, verificare efficacia e successive modifiche e coordinare il testo del R.R. 7/2017."
+      ],
+      "limitations": [
+        "Non esaminati allegati, BURL integrale, efficacia temporale e atti successivi."
+      ],
+      "next_step": [
+        "Acquisire BURL e allegati, verificare efficacia e successive modifiche e coordinare il testo del R.R. 7/2017."
+      ],
+      "reason_still_open": "Ricostruzione corrente e allegati ancora incompleti; non è attestata la vigenza integrale."
     }
   ],
   "territorial_cells": [
@@ -5885,26 +5971,49 @@
       "state": "ricognizione_puntuale_non_esaustiva",
       "source_still_needed": "Repertorio legislativo e BUR del territorio, PTA/NTA e atti attuativi per la materia invarianza",
       "problem": "Ricognizione sistematica non eseguita o non esaustiva; non è una prova di assenza normativa.",
-      "already_verified": "Identità DD 10576/2020, dispositivo e funzione operativa delle linee guida; lettura sezione 1, 3.3.3 e quadro progettuale.",
-      "next_step": "Ricercare e leggere atti e allegati della materia; mantenere distinta la vigenza dalla mera presenza nel repertorio."
+      "already_verified": "Identità DD 10576/2020, dispositivo e funzione operativa delle linee guida; lettura sezione 1, 3.3.3 e quadro progettuale. Lotto 23: banca regionale, R.R. 3/2025 art. 1 r/s/t/u; riuso della lettura sostanziale R.R. 4/2006 artt. 3 e 5 già acquisita il 2026-10-08, solo nelle materie pertinenti.",
+      "next_step": "Verificare eventuali edizioni successive delle linee guida e coordinamento con normativa e PGT aggiornati. Completare BURL, allegati e coordinamento corrente dei regolamenti. Acquisire e leggere R.R. 6/2019 e DGR 2723/2019: estremi individuati, allegato RR6 restituisce HTTP 404.",
+      "source_urls": [
+        "https://www.comune.milano.it/documents/20118/1529015/Linee%2BGuida%2Bper%2Bla%2Bprogettazione%2Bdei%2Bsistemi%2Burbani%2Bdi%2Bdrenaggio%2Bsostenibile%2Bnel%2Bterritorio%2Bcomunale%2B%281%29.pdf/08b32748-b9fd-88bf-01b9-1008147fa3ec?download=true&t=1761735461824&version=1.0",
+        "https://www.comune.milano.it/documents/20118/39748/Determinazione%2BDirigenziale%2Bn.%2B10576%2Bdel%2B22.12.2020.pdf/4f6fd763-282a-b418-1fdb-26c489bf2bad?download=true&t=1747057791151&version=1.0",
+        "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf",
+        "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/accessibile/main.aspx?idparte=rr002025032800003ar0001a&selnode=rr002025032800003&view=showpart"
+      ],
+      "record_ids": [
+        "milano-suds-10576-2020",
+        "lom7",
+        "lom-rr3-2025"
+      ]
     },
     {
       "territory": "Lombardia",
       "sector": "prima_pioggia",
-      "state": "ricognizione_non_ancora_effettuata",
+      "state": "ricognizione_puntuale_non_esaustiva",
       "source_still_needed": "Repertorio legislativo e BUR del territorio, PTA/NTA e atti attuativi per la materia prima_pioggia",
       "problem": "Ricognizione sistematica non eseguita o non esaustiva; non è una prova di assenza normativa.",
-      "already_verified": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
-      "next_step": "Ricercare e leggere atti e allegati della materia; mantenere distinta la vigenza dalla mera presenza nel repertorio."
+      "already_verified": "Lotto 23: ricognizione mirata della materia usando la lettura sostanziale R.R. 4/2006 artt. 3 e 5 già acquisita il 2026-10-08. Non attestato aggiornamento integrale corrente.",
+      "next_step": "Completare BURL, allegati e coordinamento corrente dei regolamenti. Acquisire e leggere R.R. 6/2019 e DGR 2723/2019: estremi individuati, allegato RR6 restituisce HTTP 404.",
+      "source_urls": [
+        "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002006032400004&type=pdf"
+      ],
+      "record_ids": [
+        "lom4pp"
+      ]
     },
     {
       "territory": "Lombardia",
       "sector": "scarichi",
-      "state": "ricognizione_non_ancora_effettuata",
+      "state": "ricognizione_puntuale_non_esaustiva",
       "source_still_needed": "Repertorio legislativo e BUR del territorio, PTA/NTA e atti attuativi per la materia scarichi",
       "problem": "Ricognizione sistematica non eseguita o non esaustiva; non è una prova di assenza normativa.",
-      "already_verified": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
-      "next_step": "Ricercare e leggere atti e allegati della materia; mantenere distinta la vigenza dalla mera presenza nel repertorio."
+      "already_verified": "Lotto 23: riuso della lettura sostanziale R.R. 4/2006 artt. 3 e 5 per la componente meteorica; pagina istituzionale scarichi individua R.R. 6/2019 e DGR 2723/2019. Testi e allegati di questi ultimi non acquisiti; settore non esaustivo.",
+      "next_step": "Completare BURL, allegati e coordinamento corrente dei regolamenti. Acquisire e leggere R.R. 6/2019 e DGR 2723/2019: estremi individuati, allegato RR6 restituisce HTTP 404.",
+      "source_urls": [
+        "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002006032400004&type=pdf"
+      ],
+      "record_ids": [
+        "lom4pp"
+      ]
     },
     {
       "territory": "Lombardia",
@@ -5936,11 +6045,21 @@
     {
       "territory": "Lombardia",
       "sector": "regolamenti_attuativi",
-      "state": "ricognizione_non_ancora_effettuata",
+      "state": "ricognizione_puntuale_non_esaustiva",
       "source_still_needed": "Repertorio legislativo e BUR del territorio, PTA/NTA e atti attuativi per la materia regolamenti_attuativi",
       "problem": "Ricognizione sistematica non eseguita o non esaustiva; non è una prova di assenza normativa.",
-      "already_verified": "Ricerca sistematica degli atti mancanti non avviata in questo lotto.",
-      "next_step": "Ricercare e leggere atti e allegati della materia; mantenere distinta la vigenza dalla mera presenza nel repertorio."
+      "already_verified": "Ricerca sistematica degli atti mancanti non avviata in questo lotto. Lotto 23: banca regionale, R.R. 3/2025 art. 1 r/s/t/u; riuso della lettura sostanziale R.R. 4/2006 artt. 3 e 5 già acquisita il 2026-10-08, solo nelle materie pertinenti.",
+      "next_step": "Completare BURL, allegati e coordinamento corrente dei regolamenti. Acquisire e leggere R.R. 6/2019 e DGR 2723/2019: estremi individuati, allegato RR6 restituisce HTTP 404.",
+      "source_urls": [
+        "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf",
+        "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/accessibile/main.aspx?idparte=rr002025032800003ar0001a&selnode=rr002025032800003&view=showpart",
+        "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002006032400004&type=pdf"
+      ],
+      "record_ids": [
+        "lom7",
+        "lom4pp",
+        "lom-rr3-2025"
+      ]
     },
     {
       "territory": "Lombardia",
@@ -6888,5 +7007,16 @@
       "next_step": "Ricercare e leggere atti e allegati della materia; mantenere distinta la vigenza dalla mera presenza nel repertorio."
     }
   ],
-  "note": "Coda puntuale dei limiti e delle attività non eseguite; i blocchi tecnici effettivi sono distinti dal lavoro ancora aperto."
+  "note": "Coda puntuale dei limiti e delle attività non eseguite; i blocchi tecnici effettivi sono distinti dal lavoro ancora aperto.",
+  "uncatalogued_candidates": [
+    {
+      "territory": "Lombardia",
+      "ref": "R.R. 29 marzo 2019 n. 6; DGR 2723 del 23 dicembre 2019",
+      "source_url": "https://www.regione.lombardia.it/ambiente-e-territorio/governo-delle-acque/disciplina-scarichi-di-acque-reflue-urbane,-domestiche-e-assimilate-e-approvazione-progetti-degli-impianti-di-depurazione",
+      "identity_confirmed_on": "2026-10-10",
+      "publication_locator": "BURL n. 14, supplemento 2 aprile 2019",
+      "status": "Identità confermata; disposizioni e allegati da leggere, non inserito in catalogo",
+      "next_step": "Recuperare BURL o altra copia istituzionale; verificare artt. 13–14, allegati e modifiche. Non dedurre disciplina o vigenza dalla sola pagina descrittiva."
+    }
+  ]
 }

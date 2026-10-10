@@ -3556,6 +3556,27 @@
         }
       ],
       "evidence": "Fonti primarie lette nel perimetro del lotto 20."
+    },
+    "lom-rr3-2025": {
+      "topics": [
+        "invarianza"
+      ],
+      "source_urls": [
+        "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/accessibile/main.aspx?idparte=rr002025032800003ar0001a&selnode=rr002025032800003&view=showpart"
+      ],
+      "object_versions": [
+        {
+          "title": "Modifiche ai principi di invarianza idraulica e idrologica",
+          "ref": "R.R. Lombardia 3/2025",
+          "summary": "Modifica il R.R. 7/2017: superficie interessata, coefficienti di deflusso, contenuto del progetto e rischio residuo. Scheda circoscritta ai passaggi esaminati.",
+          "focus": [
+            "Art. 1, comma 1, lettere r/s/t/u",
+            "Intervento unitario e superficie interessata",
+            "Progetto esecutivo e rischio residuo"
+          ]
+        }
+      ],
+      "evidence": "docs/audit/2026-10-10/completamento/lotto-22-23.json; art. 1 disposizione modificativa del R.R. 7/2017."
     }
   }
 }

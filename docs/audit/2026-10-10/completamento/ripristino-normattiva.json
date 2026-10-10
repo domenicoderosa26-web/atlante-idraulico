@@ -1,0 +1,58 @@
+{
+  "checked_at": "2026-10-10T17:56:18.082545+00:00",
+  "diagnosis": [
+    "Controllo manuale nazionale del 10 ottobre: file pubblici cambiati senza aggiornare checkpoint e ricevuta sul branch tecnico.",
+    "Workflow nazionale successivo fermato prima della chiamata API da test precheck che non teneva conto dell’estensione tecnica già persistita."
+  ],
+  "repair_pr": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/31",
+  "merge_commit": "52671279ca661b2f40ef722ef27d8b9be5a92250",
+  "repair": [
+    "Confronto del test limitato alle sezioni sostanziali, preservando l’estensione tecnica.",
+    "Riutilizzo del controllo giornaliero solo con ricevuta pubblicata coerente, timestamp e impronte nazionali corrispondenti.",
+    "Trigger push sui file nazionali e contratti pertinenti per riconciliare modifiche esterne."
+  ],
+  "national_run": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/38072604952",
+  "national_jobs": [
+    "check success",
+    "deploy success",
+    "finalize success"
+  ],
+  "api_interval": {
+    "interval_start": "2026-10-10T11:12:18Z",
+    "verification_completed_at": "2026-10-10T17:39:20Z",
+    "changes_detected": 0
+  },
+  "api_call_summary": [
+    {
+      "endpoint": "/ricerca/aggiornati",
+      "attempt": 1,
+      "requested_at": "2026-10-10T17:39:20Z",
+      "request": {
+        "dataInizioAggiornamento": "2026-10-10T11:12:18.000Z",
+        "dataFineAggiornamento": "2026-10-10T17:39:20.000Z"
+      },
+      "outcome": "success",
+      "pages": 1,
+      "total": 0
+    }
+  ],
+  "artifact": {
+    "id": 11677376246,
+    "name": "normattiva-attempt-38072604952-1",
+    "inspected_file": "monitor-state/attempt.json"
+  },
+  "checkpoint": {
+    "branch": "normattiva-state",
+    "phase": "pubblicato",
+    "last_successful_end": "2026-10-10T17:39:20Z",
+    "publication_verified_at": "2026-10-10T17:40:15Z",
+    "national_sha256": "33c90892d5466f49e4c84d5218e89bda95b97c9ffad5c24afcd6deed834daf28",
+    "status_sha256": "44f72f4b3fe6f60c9e31d1f39f0e4cb4681fad2dfbd99a0f181661e7414bd614"
+  },
+  "supervision_run": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/38072696720",
+  "supervision_result": "success; has_errors=false; sola anomalia TERRITORIAL_PARZIALE",
+  "precheck_run": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/38071486970",
+  "precheck_result": "success, 3 attività e 3 richieste, nessuna modifica agli stati normativi",
+  "publication_check": "Confronto SHA256 dei byte pubblici di national.json e update-status.json con main riuscito; il recupero API non costituisce verifica giuridica integrale.",
+  "territorial_status": "parziale, external_execution_verified=false: ricognizione limitata registrata, nessuna dichiarazione di copertura completa."
+}

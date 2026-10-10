@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "catalog_path": "data.json",
-  "updated_at": "2026-10-10T12:37:19.693088+00:00",
+  "updated_at": "2026-10-10T17:51:48.504496+00:00",
   "basis": [
     "docs/audit/2026-10-08/schede.json",
     "docs/audit/2026-10-08/coda.json",
@@ -10,8 +10,8 @@
   ],
   "note": "Registro derivato di attività: non è un secondo catalogo. Le revisioni anteriori sono conservate negli audit citati e in data.json. I conteggi sono una fotografia alla data indicata.",
   "catalog_snapshot": {
-    "records": 115,
-    "documentary_reviews": 115,
+    "records": 116,
+    "documentary_reviews": 116,
     "without_documentary_review": [],
     "full_legal_reviews": 0
   },
@@ -678,31 +678,59 @@
     },
     "lom7": {
       "state": "revisione parziale",
-      "last_activity": "2026-10-08T20:02:43.096713+00:00",
+      "last_activity": "2026-10-10T17:51:48.504496+00:00",
       "source_urls": [
-        "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf"
+        "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf",
+        "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/accessibile/main.aspx?idparte=rr002025032800003ar0001a&selnode=rr002025032800003&view=showpart"
       ],
       "verified_results": [
         "Il testo esaminato distingue criticità territoriali A/B/C e documento semplificato comunale; questo considera criticità locali, misure strutturali/non strutturali, volumi riservati e infiltrazione. Le note riportano modifiche del R.R. 28 marzo 2025 n. 3; non è ricostruita la catena completa degli aggiornamenti.",
         "Il contenuto del progetto dipende da impermeabilizzazione e ambito A/B/C; distingue casi con requisiti minimi e piccoli interventi fino a 300 m². Include relazione, elaborati, manutenzione e asseverazione secondo i casi.",
-        "Il dimensionamento delle opere di laminazione/infiltrazione adotta Tr 50 anni; Tr 100 serve alla valutazione qualitativa dei danni e delle ulteriori protezioni per il rischio residuo. Non si scambiano dimensionamento e verifica."
+        "Il dimensionamento delle opere di laminazione/infiltrazione adotta Tr 50 anni; Tr 100 serve alla valutazione qualitativa dei danni e delle ulteriori protezioni per il rischio residuo. Non si scambiano dimensionamento e verifica.",
+        "Modifica portata ammissibile, superficie dell’intervento e coefficienti di deflusso; il progetto diventa esecutivo. La verifica qualitativa a 100 anni comprende misure locali per il rischio residuo. Le classi considerano l’intervento unitario, senza frazionamento.",
+        "R.R. Lombardia 28 marzo 2025 n. 3, BURL n. 14 supplemento del 1 aprile 2025: modifica il R.R. 7/2017. Letta la disposizione modificativa indicata; allegati ed eventuali atti successivi non verificati."
       ],
       "limitations": [
-        "La lettura non certifica tutti gli allegati, le cartografie o l’intera catena degli atti successivi."
+        "La lettura non certifica tutti gli allegati, le cartografie o l’intera catena degli atti successivi.",
+        "Disposizione modificativa letta in banca regionale; controllo BURL e allegati da completare."
       ],
       "next_operation": [
-        "Completare art. 11, requisiti minimi e allegati di calcolo e ricostruire gli aggiornamenti ulteriori al testo coordinato esaminato."
+        "Completare art. 11, art. 12, allegati di calcolo e cartografie; verificare atti ulteriori e versione applicabile al progetto."
       ],
-      "record_version": "04928464548a9cf8ca67ed00abe39def0e7d216a06e672eeb60c7b1feee760e3",
-      "evidence": "docs/audit/2026-10-08/incrementale/lotto-04.json",
+      "record_version": "7ae133fd1b4740eb9278032a200e8a281d5f788abe385a5aa07ce4f14693a2a2",
+      "evidence": "docs/audit/2026-10-10/completamento/lotto-22-23.json",
       "publication": {
-        "state": "published_verified",
-        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/11",
-        "merge_commit": "c6bd0b520514c89f5e5aff05c6f5c8b4bf239cd5",
-        "verified_at": "2026-10-08T20:06:05.065616+00:00",
-        "evidence": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-04.json"
+        "state": "validated_pending_deployment"
       },
-      "history": []
+      "history": [
+        {
+          "state": "revisione parziale",
+          "last_activity": "2026-10-08T20:02:43.096713+00:00",
+          "source_urls": [
+            "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf"
+          ],
+          "verified_results": [
+            "Il testo esaminato distingue criticità territoriali A/B/C e documento semplificato comunale; questo considera criticità locali, misure strutturali/non strutturali, volumi riservati e infiltrazione. Le note riportano modifiche del R.R. 28 marzo 2025 n. 3; non è ricostruita la catena completa degli aggiornamenti.",
+            "Il contenuto del progetto dipende da impermeabilizzazione e ambito A/B/C; distingue casi con requisiti minimi e piccoli interventi fino a 300 m². Include relazione, elaborati, manutenzione e asseverazione secondo i casi.",
+            "Il dimensionamento delle opere di laminazione/infiltrazione adotta Tr 50 anni; Tr 100 serve alla valutazione qualitativa dei danni e delle ulteriori protezioni per il rischio residuo. Non si scambiano dimensionamento e verifica."
+          ],
+          "limitations": [
+            "La lettura non certifica tutti gli allegati, le cartografie o l’intera catena degli atti successivi."
+          ],
+          "next_operation": [
+            "Completare art. 11, requisiti minimi e allegati di calcolo e ricostruire gli aggiornamenti ulteriori al testo coordinato esaminato."
+          ],
+          "record_version": "04928464548a9cf8ca67ed00abe39def0e7d216a06e672eeb60c7b1feee760e3",
+          "evidence": "docs/audit/2026-10-08/incrementale/lotto-04.json",
+          "publication": {
+            "state": "published_verified",
+            "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/11",
+            "merge_commit": "c6bd0b520514c89f5e5aff05c6f5c8b4bf239cd5",
+            "verified_at": "2026-10-08T20:06:05.065616+00:00",
+            "evidence": "docs/audit/2026-10-08/incrementale/pubblicazione-lotto-04.json"
+          }
+        }
+      ]
     },
     "centr-pai-fosso-secco-20-2026": {
       "state": "revisione parziale",
@@ -4156,7 +4184,7 @@
     },
     "rd523": {
       "state": "revisione parziale",
-      "last_activity": "2026-10-10T10:35:44.907591+00:00",
+      "last_activity": "2026-10-10T17:51:48.504496+00:00",
       "source_urls": [
         "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=93&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
         "https://www.normattiva.it/atto/caricaArticolo?art.versione=3&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=96&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
@@ -4166,27 +4194,31 @@
         "https://www.normattiva.it/atto/caricaArticolo?art.versione=3&art.idGruppo=1&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=2&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
         "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=94&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
         "https://www.normattiva.it/atto/caricaArticolo?art.versione=3&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=95&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
-        "https://www.normattiva.it/atto/caricaArticolo?art.versione=5&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=98&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&"
+        "https://www.normattiva.it/atto/caricaArticolo?art.versione=5&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=98&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+        "https://www.consiglioregionale.calabria.it/upload/istruttoria/R.D.%2011%20dicembre%201933,%20n.%201775%20.pdf",
+        "https://www.protezionecivile.gov.it/static/ef607bf684989575e3d49def66060408/dlgs1121998.pdf"
       ],
       "verified_results": [
         "Opere in alveo richiedono permesso; il riferimento comprende rami/diversivi asciutti in parte dell’anno. Difese frontiste non devono alterare il regime né danneggiare diritti altrui.",
         "La lettera f richiama prima le discipline locali; sussidiariamente prevede4m per piantagioni/smovimenti e10m per fabbriche/scavi dal piede degli argini/accessori. Non è una distanza universale applicabile ignorando disciplina locale e riferimenti geometrici.",
-        "Art.97 lettere f,g,h,i e art.98 lettere a,b,c risultano abrogati dal RD1775/1933; art.98 f soppresso dalla L774/1911. Art.97 k e98 d: abrogazione limitata alla parte compresa nell’art.217RD1775, come indicato dalle note. Il TU non è integralmente invariato."
+        "Art.97 lettere f,g,h,i e art.98 lettere a,b,c risultano abrogati dal RD1775/1933; art.98 f soppresso dalla L774/1911. Art.97 k e98 d: abrogazione limitata alla parte compresa nell’art.217RD1775, come indicato dalle note. Il TU non è integralmente invariato.",
+        "La riproduzione distingue opere sulle derivazioni soggette ad autorizzazione: trasformazioni delle chiuse, incili, botti e opere in alveo, comprese opere spondali che alterano derivazione o restituzione; resta il rinvio all’art. 49.",
+        "Il testo dispone le abrogazioni puntuali del R.D. 523/1904: art. 97 f/g/h/i e art. 98 a/b/c; art. 97 k e art. 98 d soltanto nella parte ricompresa nell’art. 217.",
+        "Il documento istituzionale attribuisce gestione del demanio e funzioni di polizia idraulica a regioni ed enti locali, distinguendo i compiti nazionali dell’art. 88 e le condizioni dei casi interregionali dell’art. 89. Non identifica l’ufficio competente per ogni progetto."
       ],
       "limitations": [
-        "Non letto integralmente il TU né ricostruiti riassetto delle competenze e regole regionali/locali."
+        "Non letto integralmente il TU né ricostruiti riassetto delle competenze e regole regionali/locali.",
+        "Riproduzioni istituzionali senza attestazione di consolidamento al 10 ottobre 2026; accesso alle pagine degli articoli Normattiva non riuscito.",
+        "Restano da verificare modifiche successive, discipline regionali, reticolo e autorità competente per l’intervento concreto."
       ],
       "next_operation": [
-        "Leggere direttamente artt.217/234RD1775 e verificare trasferimenti di competenza e disciplina del reticolo interessato."
+        "Confrontare questi articoli con il testo corrente ufficiale e gli atti successivi; ricostruire disciplina territoriale del reticolo e ufficio competente.",
+        "Completare gli altri passaggi del TU e i procedimenti concessori non esaminati."
       ],
-      "record_version": "d8331b7739212dc053e1794011aebfbf2e878107dd8fab83cfd4d1f3d16bd441",
-      "evidence": "docs/audit/2026-10-09/incrementale/lotto-12.json",
+      "record_version": "82c009775fb90d338efa8079d0f622f2ea470d4aa5bcf0362b2539e32642767c",
+      "evidence": "docs/audit/2026-10-10/completamento/lotto-22-23.json",
       "publication": {
-        "state": "published_verified",
-        "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/19",
-        "merge_commit": "45b8908ab0d67697f6f9301386237ab4ff9a9a58",
-        "evidence": "docs/audit/2026-10-09/incrementale/pubblicazione-lotto-12.json",
-        "verification_timestamp_status": "Non registrato nella ricevuta originale; confronto dei file documentato nella ricevuta."
+        "state": "validated_pending_deployment"
       },
       "history": [
         {
@@ -4323,6 +4355,41 @@
             "merge_commit": "45b8908ab0d67697f6f9301386237ab4ff9a9a58",
             "evidence": "docs/audit/2026-10-09/incrementale/pubblicazione-lotto-12.json",
             "verified_at": "2026-10-10T10:35:44.907591+00:00"
+          }
+        },
+        {
+          "state": "revisione parziale",
+          "last_activity": "2026-10-10T10:35:44.907591+00:00",
+          "source_urls": [
+            "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=93&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+            "https://www.normattiva.it/atto/caricaArticolo?art.versione=3&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=96&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+            "https://www.normattiva.it/atto/caricaArticolo?art.versione=5&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=97&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+            "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=004U0523&atto.dataPubblicazioneGazzetta=1904-10-07&tipoDettaglio=vigente",
+            "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=1&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=1&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+            "https://www.normattiva.it/atto/caricaArticolo?art.versione=3&art.idGruppo=1&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=2&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+            "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=94&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+            "https://www.normattiva.it/atto/caricaArticolo?art.versione=3&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=95&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
+            "https://www.normattiva.it/atto/caricaArticolo?art.versione=5&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=98&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&"
+          ],
+          "verified_results": [
+            "Opere in alveo richiedono permesso; il riferimento comprende rami/diversivi asciutti in parte dell’anno. Difese frontiste non devono alterare il regime né danneggiare diritti altrui.",
+            "La lettera f richiama prima le discipline locali; sussidiariamente prevede4m per piantagioni/smovimenti e10m per fabbriche/scavi dal piede degli argini/accessori. Non è una distanza universale applicabile ignorando disciplina locale e riferimenti geometrici.",
+            "Art.97 lettere f,g,h,i e art.98 lettere a,b,c risultano abrogati dal RD1775/1933; art.98 f soppresso dalla L774/1911. Art.97 k e98 d: abrogazione limitata alla parte compresa nell’art.217RD1775, come indicato dalle note. Il TU non è integralmente invariato."
+          ],
+          "limitations": [
+            "Non letto integralmente il TU né ricostruiti riassetto delle competenze e regole regionali/locali."
+          ],
+          "next_operation": [
+            "Leggere direttamente artt.217/234RD1775 e verificare trasferimenti di competenza e disciplina del reticolo interessato."
+          ],
+          "record_version": "d8331b7739212dc053e1794011aebfbf2e878107dd8fab83cfd4d1f3d16bd441",
+          "evidence": "docs/audit/2026-10-09/incrementale/lotto-12.json",
+          "publication": {
+            "state": "published_verified",
+            "pull_request": "https://github.com/domenicoderosa26-web/atlante-idraulico/pull/19",
+            "merge_commit": "45b8908ab0d67697f6f9301386237ab4ff9a9a58",
+            "evidence": "docs/audit/2026-10-09/incrementale/pubblicazione-lotto-12.json",
+            "verification_timestamp_status": "Non registrato nella ricevuta originale; confronto dei file documentato nella ricevuta."
           }
         }
       ]
@@ -7193,6 +7260,59 @@
           "state": "validated_pending_deployment"
         }
       ]
+    },
+    "rd1775": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-10T17:51:48.504496+00:00",
+      "source_urls": [
+        "https://www.gazzettaufficiale.it/eli/gu/1934/01/08/5/sg/pdf",
+        "https://www.consiglioregionale.calabria.it/upload/istruttoria/R.D.%2011%20dicembre%201933,%20n.%201775%20.pdf",
+        "https://www.protezionecivile.gov.it/static/ef607bf684989575e3d49def66060408/dlgs1121998.pdf"
+      ],
+      "verified_results": [
+        "Le domande di nuova concessione sono accompagnate dal progetto delle opere di raccolta, regolazione, derivazione e restituzione. Il testo originario nomina organi amministrativi storici; il riparto di competenze attuale resta da coordinare.",
+        "La riproduzione distingue opere sulle derivazioni soggette ad autorizzazione: trasformazioni delle chiuse, incili, botti e opere in alveo, comprese opere spondali che alterano derivazione o restituzione; resta il rinvio all’art. 49.",
+        "Il testo dispone le abrogazioni puntuali del R.D. 523/1904: art. 97 f/g/h/i e art. 98 a/b/c; art. 97 k e art. 98 d soltanto nella parte ricompresa nell’art. 217.",
+        "Il documento istituzionale attribuisce gestione del demanio e funzioni di polizia idraulica a regioni ed enti locali, distinguendo i compiti nazionali dell’art. 88 e le condizioni dei casi interregionali dell’art. 89. Non identifica l’ufficio competente per ogni progetto."
+      ],
+      "limitations": [
+        "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione.",
+        "Riproduzioni istituzionali senza attestazione di consolidamento al 10 ottobre 2026; accesso alle pagine degli articoli Normattiva non riuscito.",
+        "Restano da verificare modifiche successive, discipline regionali, reticolo e autorità competente per l’intervento concreto."
+      ],
+      "next_operation": [
+        "Confrontare questi articoli con il testo corrente ufficiale e gli atti successivi; ricostruire disciplina territoriale del reticolo e ufficio competente.",
+        "Completare gli altri passaggi del TU e i procedimenti concessori non esaminati."
+      ],
+      "record_version": "61c8eb6da700d73cbe3678145dd0cc7191b0a282e848b1e4f072d26fa0dfbc94",
+      "evidence": "docs/audit/2026-10-10/completamento/lotto-22-23.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
+    },
+    "lom-rr3-2025": {
+      "state": "revisione parziale",
+      "last_activity": "2026-10-10T17:51:48.504496+00:00",
+      "source_urls": [
+        "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/accessibile/main.aspx?idparte=rr002025032800003ar0001a&selnode=rr002025032800003&view=showpart"
+      ],
+      "verified_results": [
+        "Modifica portata ammissibile, superficie dell’intervento e coefficienti di deflusso; il progetto diventa esecutivo. La verifica qualitativa a 100 anni comprende misure locali per il rischio residuo. Le classi considerano l’intervento unitario, senza frazionamento.",
+        "R.R. Lombardia 28 marzo 2025 n. 3, BURL n. 14 supplemento del 1 aprile 2025: modifica il R.R. 7/2017. Letta la disposizione modificativa indicata; allegati ed eventuali atti successivi non verificati."
+      ],
+      "limitations": [
+        "Non esaminati allegati, BURL integrale, efficacia temporale e atti successivi."
+      ],
+      "next_operation": [
+        "Acquisire BURL e allegati, verificare efficacia e successive modifiche e coordinare il testo del R.R. 7/2017."
+      ],
+      "record_version": "e7441608af02224009becf75819ed6e7fbbfb0704fc36cb7e3b14efa583ef8c2",
+      "evidence": "docs/audit/2026-10-10/completamento/lotto-22-23.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      },
+      "history": []
     }
   },
   "batches": [
@@ -7735,14 +7855,37 @@
           "state": "validated_pending_deployment"
         }
       ]
+    },
+    {
+      "id": "incrementale-22",
+      "date": "2026-10-10",
+      "record_ids": [
+        "rd523",
+        "rd1775"
+      ],
+      "evidence": "docs/audit/2026-10-10/completamento/lotto-22-23.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      }
+    },
+    {
+      "id": "incrementale-23",
+      "date": "2026-10-10",
+      "record_ids": [
+        "lom7",
+        "lom-rr3-2025"
+      ],
+      "evidence": "docs/audit/2026-10-10/completamento/lotto-22-23.json",
+      "publication": {
+        "state": "validated_pending_deployment"
+      }
     }
   ],
   "next_batch": [
-    "sar-pai-frane-42-2026",
-    "sar-pai-barrali-162-2026",
-    "ue1765reuse",
-    "ue741reuse",
-    "er1860"
+    "lom7",
+    "lom4pp",
+    "dl152",
+    "dl49"
   ],
   "queue_history": [
     {
@@ -7983,14 +8126,25 @@
         "er1860"
       ],
       "reason": "Proseguire sui perimetri ancora parziali; il catalogo corrente non contiene schede prive di revisione."
+    },
+    {
+      "updated_at": "2026-10-10T17:51:48.504496+00:00",
+      "next_batch": [
+        "sar-pai-frane-42-2026",
+        "sar-pai-barrali-162-2026",
+        "ue1765reuse",
+        "ue741reuse",
+        "er1860"
+      ],
+      "reason": "Priorità ai regi decreti e fonti regionali omogenee nel nuovo mandato; attività precedenti restano aperte."
     }
   ],
   "phase3_completion": {
     "date": "2026-10-10",
     "phase3_complete": false,
     "start_records": 107,
-    "end_records": 115,
-    "records_reexamined_this_completion": 45,
+    "end_records": 116,
+    "records_reexamined_this_completion": 48,
     "record_ids_reexamined": [
       "codstrada285",
       "dpr495",
@@ -8036,7 +8190,10 @@
       "ueall",
       "dl49",
       "dm185",
-      "dl39-riuso-2023"
+      "dl39-riuso-2023",
+      "rd1775",
+      "lom7",
+      "lom-rr3-2025"
     ],
     "new_record_ids": [
       "abr31",
@@ -8046,15 +8203,16 @@
       "fvg-lr5-2026",
       "vda-lr20-2023",
       "ue805-2026",
-      "dl39-riuso-2023"
+      "dl39-riuso-2023",
+      "lom-rr3-2025"
     ],
     "catalog_review_outcomes": {
-      "partial": 107,
+      "partial": 108,
       "verified": 8
     },
     "legal_states_scoped": {
       "partially_repealed": 2,
-      "partial": 78,
+      "partial": 79,
       "amended": 21,
       "in_force": 4,
       "constitutionally_invalid": 1,
@@ -8066,14 +8224,15 @@
     "technical_urls": 375,
     "technical_errors": 57,
     "empty_or_challenge": 13,
-    "unique_sources_with_scoped_semantic_claims": 83,
-    "document_entries": 232,
+    "unique_sources_with_scoped_semantic_claims": 196,
+    "document_entries": 233,
     "coverage_cells": {
-      "ricognizione_non_ancora_effettuata": 143,
-      "ricognizione_puntuale_non_esaustiva": 29,
+      "ricognizione_non_ancora_effettuata": 140,
+      "ricognizione_puntuale_non_esaustiva": 32,
       "atto_verificato_e_censito_perimetro_parziale": 4
     },
-    "base_commit": "a2a4df4c0601ff32a6c8712aa66681d1ddd915b0"
+    "base_commit": "a2a4df4c0601ff32a6c8712aa66681d1ddd915b0",
+    "technical_counts_basis": "Conteggi tecnici storici del completamento precedente; nuove ricevute nei lotti22-23, nessuna nuova scansione globale."
   },
   "residual_queue": "docs/audit/2026-10-10/completamento/attivita-residue.json",
   "coverage_snapshot": "docs/audit/2026-10-10/completamento/copertura-aggiornata.json",

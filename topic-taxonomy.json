@@ -864,7 +864,11 @@
       "source_urls": [
         "https://ambiente.regione.emilia-romagna.it/it/acque/consultazione/norme/normativa-regionale",
         "https://bur.regione.emilia-romagna.it/archivio/inserzione?anno=2005&num_boll=49&prog_documento=1",
-        "https://servizissiir.regione.emilia-romagna.it/deliberegiunta/servlet/AdapterHTTP?ENTE=1&action_name=ACTIONRICERCADELIBERE&codProtocollo=SSR%2F06%2F1069410&operation=downloadTestoPdf"
+        "https://servizissiir.regione.emilia-romagna.it/deliberegiunta/servlet/AdapterHTTP?ENTE=1&action_name=ACTIONRICERCADELIBERE&codProtocollo=SSR%2F06%2F1069410&operation=downloadTestoPdf",
+        "https://ambiente.regione.emilia-romagna.it/it/acque/consultazione/norme/normativa-regionale/dgr-1083_2010.pdf/@@download/file",
+        "https://ambiente.regione.emilia-romagna.it/it/acque/consultazione/norme/normativa-regionale/dgr_2153_2021.pdf/@@download/file",
+        "https://apps.arpae.it/documento/DAMB20261430",
+        "https://aggiornati.arpae.it/it/autorizzazioni-e-concessioni/autorizzazioni-ambientali/autorizzazione-scarichi-idrici"
       ],
       "object_versions": [
         {
@@ -1416,7 +1420,11 @@
       ],
       "source_urls": [
         "https://pai.adbpo.it/wp-content/uploads/2025/05/NA_PAI-PO.pdf",
-        "https://pianoalluvioni.adbpo.it/piano-di-gestione-del-rischio-alluvioni-2021-2027/"
+        "https://pianoalluvioni.adbpo.it/piano-di-gestione-del-rischio-alluvioni-2021-2027/",
+        "https://pianoalluvioni.adbpo.it/piano-gestione-rischio-alluvioni-2021/",
+        "https://www.adbpo.it/PDGA_Documenti_Piano/PGRA2021/Piano_2021/00_relazione_metodologica/RELAZIONE_PGRA_Rev.Giugno2022.pdf",
+        "https://www.adbpo.it/PAI/PAI_PROG_VARIANTE_2026/delibera_CIP_13_2025_variante_PAI_Po_signed_signed.pdf",
+        "https://www.adbpo.it/PDGA_Documenti_Piano/PGRA2021/Piano_2021/allegato1_programma_misure/Programma_misure_secondo_ciclo_parte_A_Rev20220630.pdf"
       ],
       "object_versions": [
         {
@@ -1570,7 +1578,9 @@
       ],
       "source_urls": [
         "https://www.gazzettaufficiale.it/eli/id/2017/12/16/17R00266/s3",
-        "https://www.regione.basilicata.it/wp-content/uploads/giunta/docs/DOCUMENT_FILE_3068771.pdf"
+        "https://www.regione.basilicata.it/wp-content/uploads/giunta/docs/DOCUMENT_FILE_3068771.pdf",
+        "https://opservice.regione.basilicata.it/opendata-cma/ServletDocumentAtti?idAllegato=795801377B580A397A5C07&idDocumento=795801377B580A307C5C",
+        "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
       ],
       "object_versions": [
         {
@@ -3294,6 +3304,146 @@
         }
       ],
       "evidence": "Art. 1 e premesse della determina: aggiornamento del reticolo comunale esclusivamente per l’applicazione delle prescrizioni idrauliche delle NTA PAI. Nessun tag PGRA da rinvii introduttivi, né componente frane."
+    },
+    "abr31": {
+      "topics": [
+        "scarichi",
+        "prima-pioggia"
+      ],
+      "source_urls": [
+        "https://www.gazzettaufficiale.it/atto/regioni/caricaDettaglioAtto/originario?atto.codiceRedazionale=010R1510&atto.dataPubblicazioneGazzetta=2011-04-23",
+        "https://provincia.laquila.it/files/modulistica/ambiente/rifiuti/LR_31_2010.pdf",
+        "https://bura.regione.abruzzo.it/sites/bura.regione.abruzzo.it/files/bollettini/2023-01-25/bollettino-ordinario-n-4-del-25-01-2023.pdf",
+        "https://bura.regione.abruzzo.it/sites/bura.regione.abruzzo.it/files/bollettini/2023-01-23/allegato-1-linee-guida-scarichi-aggiornamento-2022-pdf.pdf",
+        "https://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2010/lr10031.htm"
+      ],
+      "object_versions": [
+        {
+          "title": "Norme regionali contenenti la prima attuazione del decreto legislativo 3 aprile 2006, n. 152 (Norme in materia ambientale)",
+          "ref": "L.R. Abruzzo 31/2010",
+          "summary": "Legge regionale con disciplina originaria degli scarichi, acque meteoriche e prima pioggia (Capo V, articoli 12-20). Atto autonomo successivo alla declaratoria di illegittimità della L.R. 17/2008. Testo originario verificato; aggiornamenti legislativi e PTA restano da ricostruire.",
+          "focus": [
+            "Intestazioneatto010R1510",
+            "Pagine8-11,CapoVartt.12-20",
+            "Pagina1BURn.50del30luglio2010;pag.15art.26",
+            "Art.25Norme transitorie",
+            "pp. PDF 90–91, premesse",
+            "pp. 9–10, art. 10"
+          ]
+        },
+        {
+          "title": "Norme regionali contenenti la prima attuazione del decreto legislativo 3 aprile 2006, n. 152 (Norme in materia ambientale)",
+          "ref": "L.R. Abruzzo 31/2010",
+          "summary": "Legge regionale con disciplina originaria degli scarichi, acque meteoriche e prima pioggia (Capo V, articoli 12-20). Atto autonomo successivo alla declaratoria di illegittimità della L.R. 17/2008. Testo originario verificato; aggiornamenti legislativi e PTA restano da ricostruire.",
+          "focus": [
+            "Intestazioneatto010R1510",
+            "Pagine8-11,CapoVartt.12-20",
+            "Pagina1BURn.50del30luglio2010;pag.15art.26",
+            "Art.25Norme transitorie",
+            "pp. PDF 90–91, premesse",
+            "pp. 9–10, art. 10"
+          ]
+        }
+      ],
+      "evidence": "Lettura degli articoli e dell’atto di approvazione indicati nel registro del lotto 13."
+    },
+    "er1083": {
+      "topics": [
+        "prima-pioggia",
+        "invarianza"
+      ],
+      "source_urls": [
+        "https://ambiente.regione.emilia-romagna.it/it/acque/consultazione/norme/normativa-regionale/dgr-1083_2010.pdf/@@download/file"
+      ],
+      "object_versions": [
+        {
+          "title": "Linee guida per la redazione dei Piani di Indirizzo in riferimento al punto 3.6 della DGR 286/2005",
+          "ref": "D.G.R. Emilia-Romagna 1083/2010",
+          "summary": "Approva linee guida per i Piani di Indirizzo sulla gestione delle acque meteoriche e della prima pioggia. Collega riduzione dei carichi, prestazioni dei drenaggi, limitazione impermeabile, invarianza e laminazione con PTA e pianificazione locale. Non stabilisce un volume uniforme per ogni intervento.",
+          "focus": [
+            "pp. 1 e 4–5, dispositivo",
+            "pp. 8–9, sezioni 1.1–1.3",
+            "pp. 14–17, sezioni 2.1 e 2.2"
+          ]
+        },
+        {
+          "title": "Linee guida per la redazione dei Piani di Indirizzo in riferimento al punto 3.6 della DGR 286/2005",
+          "ref": "D.G.R. Emilia-Romagna 1083/2010",
+          "summary": "Approva linee guida per i Piani di Indirizzo sulla gestione delle acque meteoriche e della prima pioggia. Collega riduzione dei carichi, prestazioni dei drenaggi, limitazione impermeabile, invarianza e laminazione con PTA e pianificazione locale. Non stabilisce un volume uniforme per ogni intervento.",
+          "focus": [
+            "pp. 1 e 4–5, dispositivo",
+            "pp. 8–9, sezioni 1.1–1.3",
+            "pp. 14–17, sezioni 2.1 e 2.2"
+          ]
+        }
+      ],
+      "evidence": "Lettura degli articoli e dell’atto di approvazione indicati nel registro del lotto 13."
+    },
+    "abruzzo-scarichi-906-2022": {
+      "topics": [
+        "prima-pioggia"
+      ],
+      "source_urls": [
+        "https://bura.regione.abruzzo.it/sites/bura.regione.abruzzo.it/files/bollettini/2023-01-25/bollettino-ordinario-n-4-del-25-01-2023.pdf",
+        "https://bura.regione.abruzzo.it/sites/bura.regione.abruzzo.it/files/bollettini/2023-01-23/allegato-1-linee-guida-scarichi-aggiornamento-2022-pdf.pdf"
+      ],
+      "object_versions": [
+        {
+          "title": "Linee guida per il rilascio delle autorizzazioni allo scarico di acque reflue - aggiornamento 2022",
+          "ref": "D.G.R. Abruzzo 906/2022",
+          "summary": "Aggiorna le procedure regionali per le autorizzazioni agli scarichi. L’art. 10 disciplina meteoriche, prima pioggia e lavaggio, rischio contaminazione, autorizzazione/comunicazione e relazione con AUA, coordinando LR 31/2010 e competenze regionali. Vigenza integrale al 2026 da verificare con eventuali atti successivi.",
+          "focus": [
+            "p. PDF 88, intestazione; p. PDF 93, dispositivo",
+            "pp. PDF 90–91, premesse",
+            "pp. 9–10, art. 10",
+            "p. 10, art. 10.8; pp. 26–27, artt. 34–35"
+          ]
+        },
+        {
+          "title": "Linee guida per il rilascio delle autorizzazioni allo scarico di acque reflue - aggiornamento 2022",
+          "ref": "D.G.R. Abruzzo 906/2022",
+          "summary": "Aggiorna le procedure regionali per le autorizzazioni agli scarichi. L’art. 10 disciplina meteoriche, prima pioggia e lavaggio, rischio contaminazione, autorizzazione/comunicazione e relazione con AUA, coordinando LR 31/2010 e competenze regionali. Vigenza integrale al 2026 da verificare con eventuali atti successivi.",
+          "focus": [
+            "p. PDF 88, intestazione; p. PDF 93, dispositivo",
+            "pp. PDF 90–91, premesse",
+            "pp. 9–10, art. 10",
+            "p. 10, art. 10.8; pp. 26–27, artt. 34–35"
+          ]
+        }
+      ],
+      "evidence": "Lettura degli articoli e dell’atto di approvazione indicati nel registro del lotto 13."
+    },
+    "milano-suds-10576-2020": {
+      "topics": [
+        "invarianza"
+      ],
+      "source_urls": [
+        "https://www.comune.milano.it/documents/20118/1529015/Linee%2BGuida%2Bper%2Bla%2Bprogettazione%2Bdei%2Bsistemi%2Burbani%2Bdi%2Bdrenaggio%2Bsostenibile%2Bnel%2Bterritorio%2Bcomunale%2B%281%29.pdf/08b32748-b9fd-88bf-01b9-1008147fa3ec?download=true&t=1761735461824&version=1.0",
+        "https://www.comune.milano.it/documents/20118/39748/Determinazione%2BDirigenziale%2Bn.%2B10576%2Bdel%2B22.12.2020.pdf/4f6fd763-282a-b418-1fdb-26c489bf2bad?download=true&t=1747057791151&version=1.0"
+      ],
+      "object_versions": [
+        {
+          "title": "Linee guida per la progettazione dei sistemi urbani di drenaggio sostenibile nel territorio comunale",
+          "ref": "D.D. Comune di Milano 10576/2020",
+          "summary": "Linee guida operative SuDS approvate con DD 10576 del 22 dicembre 2020. Illustrano scelte progettuali e manutenzione del drenaggio sostenibile nel territorio milanese, in coordinamento con RR 7/2017 e DSRI. Non sostituiscono norme regionali o PGT; verifica delle versioni successive ancora aperta.",
+          "focus": [
+            "Pagina PDF 24 (numerazione interna 23), sezione 3.3.3",
+            "Pagina 4, dispositivo, lettura visiva",
+            "Sezione 3.3.3"
+          ]
+        },
+        {
+          "title": "Linee guida per la progettazione dei sistemi urbani di drenaggio sostenibile nel territorio comunale",
+          "ref": "D.D. Comune di Milano 10576/2020",
+          "summary": "Linee guida operative SuDS approvate con DD 10576 del 22 dicembre 2020. Illustrano scelte progettuali e manutenzione del drenaggio sostenibile nel territorio milanese, in coordinamento con RR 7/2017 e DSRI. Non sostituiscono norme regionali o PGT; verifica delle versioni successive ancora aperta.",
+          "focus": [
+            "Pagina PDF 24 (numerazione interna 23), sezione 3.3.3",
+            "Pagina 4, dispositivo, lettura visiva",
+            "Sezione 3.3.3"
+          ]
+        }
+      ],
+      "evidence": "Lettura degli articoli e dell’atto di approvazione indicati nel registro del lotto 13."
     }
   }
 }

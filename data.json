@@ -8979,25 +8979,25 @@
       ],
       "date": "2003-06-12",
       "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2003-07-23&atto.codiceRedazionale=003G0210",
-      "summary": "Regolamento tecnico nazionale sul riutilizzo delle acque reflue domestiche, urbane e industriali, sulle destinazioni d’uso, sui requisiti di qualità e sulle modalità di controllo.",
+      "summary": "Regolamento tecnico nazionale sul riutilizzo delle acque reflue domestiche, urbane e industriali, sulle destinazioni d�uso, sui requisiti di qualit� e sulle modalit� di controllo.",
       "focus": [
-        "Distinguere riuso irriguo, civile e industriale e verificare destinazioni d’uso e requisiti di qualità dell’allegato.",
-        "Coordinare la disciplina con l’art. 99 del D.Lgs. 152/2006, con le norme regionali e con i piani di tutela.",
+        "Distinguere riuso irriguo, civile e industriale e verificare destinazioni d�uso e requisiti di qualit� dell�allegato.",
+        "Coordinare la disciplina con l�art. 99 del D.Lgs. 152/2006, con le norme regionali e con i piani di tutela.",
         "Per il riuso irriguo agricolo verificare anche il regolamento (UE) 2020/741 e il piano di gestione dei rischi.",
-        "L’abrogazione prevista dal D.L. 200/2025, convertito dalla L. 26/2026, opera soltanto dall’entrata in vigore del futuro regolamento adottato ai sensi dell’art. 99, comma 1, TUA."
+        "L�abrogazione prevista dal D.L. 200/2025, convertito dalla L. 26/2026, opera soltanto dall�entrata in vigore del futuro regolamento adottato ai sensi dell�art. 99, comma 1, TUA."
       ],
       "kind": "Atto normativo",
-      "status": "Vigente al 21/09/2026 · abrogazione futura condizionata",
+      "status": "Abrogazione futura condizionata � riscontro Normattiva al 10/10/2026",
       "source_kind": "Testo vigente Normattiva",
-      "note": "Normattiva indica ultimo aggiornamento pubblicato il 28/02/2026 e testo in vigore dal 01/03/2026. L’art. 13, comma 1-ter, del D.L. 200/2025, convertito dalla L. 26/2026, dispone l’abrogazione del D.M. 185/2003 solo dalla data di entrata in vigore del futuro regolamento ex art. 99, comma 1, D.Lgs. 152/2006. Nel controllo del 21/09/2026 non è stato reperito sulla fonte ufficiale un regolamento definitivo già entrato in vigore; le pagine MASE individuate descrivono attività preparatorie e consultazione.",
-      "checked": "2026-09-21",
+      "note": "Letto intero corpo e allegato, inclusa tabella grafica originale. Riscontrata abrogazione condizionata ex D.L. 200/2025 art. 13 c. 1-ter; non accertata in questo lotto l�entrata in vigore del regolamento sostitutivo. Regime temporaneo irriguo distinto e prorogato al 31/12/2026.",
+      "checked": "2026-10-10",
       "relations": [
         {
-          "type": "Attua e si coordina con",
-          "id": "dl152"
+          "type": "Regime temporaneo distinto",
+          "id": "dl39-riuso-2023"
         },
         {
-          "type": "Si coordina con",
+          "type": "Da coordinare con",
           "id": "ue741reuse"
         }
       ],
@@ -9009,47 +9009,119 @@
       "history": [
         {
           "date": "2026-09-21",
-          "text": "Scheda inserita da fonte ufficiale. Confermata la vigenza; registrata separatamente la futura abrogazione condizionata, senza dichiarare la sostituzione già efficace."
+          "text": "Scheda inserita da fonte ufficiale. Confermata la vigenza; registrata separatamente la futura abrogazione condizionata, senza dichiarare la sostituzione gi� efficace."
+        },
+        {
+          "date": "2026-10-10",
+          "text": "Fase3, lotto20: riesame documentale nel perimetro dichiarato; fonti e limiti nel registro del lotto."
         }
       ],
       "documents": [
         {
           "url": "https://www.gazzettaufficiale.it/eli/gu/2003/07/23/169/sg/pdf",
-          "label": "PDF ufficiale · G.U. n. 169 del 23/07/2003",
+          "label": "PDF ufficiale � G.U. n. 169 del 23/07/2003",
           "format": "pdf"
+        },
+        {
+          "url": "https://www.normattiva.it/esporta/attoCompleto?atto.dataPubblicazioneGazzetta=2003-07-23&atto.codiceRedazionale=003G0210",
+          "label": "Normattiva � testo completo e allegato",
+          "format": "html"
+        },
+        {
+          "url": "https://www.normattiva.it/do/atto/caricaPdf?cdimg=v003G02100010001011000102&num=0001&dgu=2003-07-23",
+          "label": "Normattiva/GU � tabella grafica e note",
+          "format": "pdf"
+        },
+        {
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13",
+          "label": "Normattiva � art. 13 D.L. 200/2025 vigente",
+          "format": "html"
         }
       ],
-      "document_note": "Il PDF apre il fascicolo ufficiale della Gazzetta Ufficiale contenente il D.M. 185/2003.",
+      "document_note": "Aggiunti testo completo Normattiva e tabella grafica GU. Testo del 2003 e rinvii storici distinti dai requisiti UE e dalla disciplina transitoria aggiornata.",
       "documentary_review": {
-        "checked_at": "2026-10-08",
-        "scope": "Lettura sostanziale circoscritta: Art. 1, commi 1-4, testo visualizzato vigente all’8 ottobre 2026; Aggiornamento (1) all’art. 1: D.L. 200/2025, art. 13, comma 1-ter, convertito dalla L. 26/2026",
+        "checked_at": "2026-10-10",
+        "scope": "D.M. 185/2003: lettura completa artt. 1�15 e allegato testuale (8 paragrafi e note); tabella grafica GU acquisita e letta visivamente nelle due pagine del PDF Normattiva. Riscontro art. 13 commi 1-bis/1-ter del D.L. 200/2025 vigente.",
         "outcome": "partial",
-        "legal_state": "partial",
-        "source_urls": [
-          "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=003G0210&atto.dataPubblicazioneGazzetta=2003-07-23"
-        ],
+        "legal_state": "amended",
         "claims": [
           {
             "aspect": "content",
-            "source_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=003G0210&atto.dataPubblicazioneGazzetta=2003-07-23",
-            "locator": "Art. 1, commi 1-4, testo visualizzato vigente all’8 ottobre 2026",
-            "finding": "Il regolamento riguarda riuso di reflui domestici, urbani e industriali, sicurezza ambientale e igienico-sanitaria; esclude il riuso presso il medesimo stabilimento o consorzio che li ha prodotti. È materia di reflui, non di riuso meteorico."
+            "source_url": "https://www.normattiva.it/esporta/attoCompleto?atto.dataPubblicazioneGazzetta=2003-07-23&atto.codiceRedazionale=003G0210",
+            "locator": "Artt. 1�4, 6�12",
+            "finding": "Distingue riuso irriguo, civile e industriale; escluso il riuso interno allo stesso stabilimento o consorzio. Qualit� al punto di uscita, autorizzazione, rete separata, controlli e responsabilit� restano distinti; gratuit� della fornitura non equivale a esenzione autorizzativa."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.normattiva.it/do/atto/caricaPdf?cdimg=v003G02100010001011000102&num=0001&dgu=2003-07-23",
+            "locator": "GU 23/07/2003, p. 14: tabella e note 1�3",
+            "finding": "La tabella comprende parametri chimico-fisici e microbiologici con unit� e condizioni. E. coli: 10 UFC/100 ml nell�80% dei campioni, massimo puntuale 100; nota 3 per lagunaggio/fitodepurazione: 50 e 200. Salmonella assente. Sono limiti del regime nazionale storico con eccezioni e condizioni, non valori universali per ogni riuso UE."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.normattiva.it/esporta/attoCompleto?atto.dataPubblicazioneGazzetta=2003-07-23&atto.codiceRedazionale=003G0210",
+            "locator": "Art. 14; allegato paragrafi 2�8",
+            "finding": "La deroga transitoria triennale dell�art. 14 non � un�autorizzazione generale vigente nel 2026. Allegato distingue deroghe regionali condizionate, valori guida, limiti per l�irrigazione, sospensione e tre controlli successivi per la riattivazione."
           },
           {
             "aspect": "amendment",
-            "source_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=003G0210&atto.dataPubblicazioneGazzetta=2003-07-23",
-            "locator": "Aggiornamento (1) all’art. 1: D.L. 200/2025, art. 13, comma 1-ter, convertito dalla L. 26/2026",
-            "finding": "L’abrogazione è condizionata all’entrata in vigore del nuovo regolamento ex art. 99, comma 1, D.Lgs. 152/2006. Non si deduce dalla clausola che il nuovo regolamento sia già efficace."
+            "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13",
+            "locator": "Art. 13, comma 1-ter; conversione L. 27/02/2026 n. 26",
+            "finding": "L�abrogazione del D.M. 185/2003 decorre dall�entrata in vigore del regolamento ex art. 99 comma 1 D.Lgs. 152/2006. La legge di conversione non basta da sola a dichiararlo gi� abrogato."
+          },
+          {
+            "aspect": "amendment",
+            "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13",
+            "locator": "Art. 13, comma 1-bis",
+            "finding": "Il termine massimo del regime temporaneo ex art. 7 D.L. 39/2023 viene spostato al 31 dicembre 2026; va distinta la condizione relativa al DPR di esecuzione UE."
           }
         ],
         "limitations": [
-          "Non verificata integralmente l’eventuale entrata in vigore del nuovo regolamento ex art. 99."
+          "Rinvii storici a D.Lgs. 152/1999 e D.Lgs. 31/2001 richiedono coordinamento con i successori; non completata ricostruzione degli atti regionali.",
+          "Non accertata l�eventuale entrata in vigore del regolamento sostitutivo ex art. 99 D.Lgs. 152/2006."
         ],
         "pending": [
-          "Verificare pubblicazione ed efficacia del nuovo regolamento, allegato qualità e coordinamento europeo."
+          "Accertare pubblicazione ed efficacia del regolamento sostitutivo e del DPR esecutivo UE, poi confrontare art. 99 corrente e discipline regionali."
         ],
-        "record_version": "96bc551873c95cb273e7c9b9b7ae21210fe6b728d43030e0e3ac444ac6784fca"
-      }
+        "source_urls": [
+          "https://www.normattiva.it/esporta/attoCompleto?atto.dataPubblicazioneGazzetta=2003-07-23&atto.codiceRedazionale=003G0210",
+          "https://www.normattiva.it/do/atto/caricaPdf?cdimg=v003G02100010001011000102&num=0001&dgu=2003-07-23",
+          "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13"
+        ],
+        "record_version": "a74db0f8cb7bca1c7a9f79c819da4f290e3e035d791d9c380dfc8afcb33107de"
+      },
+      "documentary_history": [
+        {
+          "checked_at": "2026-10-08",
+          "scope": "Lettura sostanziale circoscritta: Art. 1, commi 1-4, testo visualizzato vigente all�8 ottobre 2026; Aggiornamento (1) all�art. 1: D.L. 200/2025, art. 13, comma 1-ter, convertito dalla L. 26/2026",
+          "outcome": "partial",
+          "legal_state": "partial",
+          "source_urls": [
+            "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=003G0210&atto.dataPubblicazioneGazzetta=2003-07-23"
+          ],
+          "claims": [
+            {
+              "aspect": "content",
+              "source_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=003G0210&atto.dataPubblicazioneGazzetta=2003-07-23",
+              "locator": "Art. 1, commi 1-4, testo visualizzato vigente all�8 ottobre 2026",
+              "finding": "Il regolamento riguarda riuso di reflui domestici, urbani e industriali, sicurezza ambientale e igienico-sanitaria; esclude il riuso presso il medesimo stabilimento o consorzio che li ha prodotti. � materia di reflui, non di riuso meteorico."
+            },
+            {
+              "aspect": "amendment",
+              "source_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=003G0210&atto.dataPubblicazioneGazzetta=2003-07-23",
+              "locator": "Aggiornamento (1) all�art. 1: D.L. 200/2025, art. 13, comma 1-ter, convertito dalla L. 26/2026",
+              "finding": "L�abrogazione � condizionata all�entrata in vigore del nuovo regolamento ex art. 99, comma 1, D.Lgs. 152/2006. Non si deduce dalla clausola che il nuovo regolamento sia gi� efficace."
+            }
+          ],
+          "limitations": [
+            "Non verificata integralmente l�eventuale entrata in vigore del nuovo regolamento ex art. 99."
+          ],
+          "pending": [
+            "Verificare pubblicazione ed efficacia del nuovo regolamento, allegato qualit� e coordinamento europeo."
+          ],
+          "record_version": "96bc551873c95cb273e7c9b9b7ae21210fe6b728d43030e0e3ac444ac6784fca"
+        }
+      ]
     },
     {
       "id": "dpr59",
@@ -13783,6 +13855,94 @@
           "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026L0805"
         ],
         "record_version": "4bb996074baed071a5450057b66f1d27be7c5bd1d064c90b7dbbe726220d74b5"
+      }
+    },
+    {
+      "id": "dl39-riuso-2023",
+      "ref": "D.L. 39/2023 � art. 7",
+      "title": "Regime temporaneo di riutilizzo irriguo delle acque reflue depurate",
+      "level": "Nazionale",
+      "regions": [
+        "Italia"
+      ],
+      "topics": [
+        "Scarichi e tutela delle acque"
+      ],
+      "date": "2023-04-14",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2023-04-14;39~art7",
+      "summary": "Procedimento unico regionale o provinciale autonomo per il riuso irriguo agricolo delle acque depurate da impianti gi� in esercizio all�entrata in vigore del decreto; termine massimo prorogato al 31 dicembre 2026.",
+      "kind": "Decreto-legge convertito � disposizione sul riuso",
+      "status": "Modificato � termine massimo 31/12/2026, subordinato alla condizione dell�art. 7",
+      "source_kind": "Normattiva � testo vigente",
+      "note": "Letti art. 7 e testo non grafico dell�allegato A; riscontrata proroga nel D.L. 200/2025 art. 13 comma 1-bis, convertito dalla L. 26/2026. L�eventuale precedente entrata in vigore del DPR attuativo resta da accertare.",
+      "focus": [
+        "Autorizzazione unica e piano di gestione dei rischi",
+        "Impianti gi� in esercizio e usi agricoli",
+        "Termine prorogato e condizione di cessazione anticipata"
+      ],
+      "relations": [
+        {
+          "type": "Attua temporaneamente",
+          "id": "ue741reuse"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-10",
+          "text": "Fase3, lotto20: riesame documentale nel perimetro dichiarato; fonti e limiti nel registro del lotto."
+        }
+      ],
+      "checked": "2026-10-10",
+      "documents": [
+        {
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2023-04-14;39~art7",
+          "label": "Normattiva � art. 7 vigente",
+          "format": "html"
+        },
+        {
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13",
+          "label": "Normattiva � proroga 2026 e abrogazione condizionata",
+          "format": "html"
+        }
+      ],
+      "document_note": "Allegato A: lette tabella 1 in HTML e parte B completa; parti grafiche sulle prescrizioni e controlli ancora da acquisire.",
+      "documentary_review": {
+        "checked_at": "2026-10-10",
+        "scope": "Lettura completa art. 7 vigente dal 01/03/2026; allegato A: tabella 1 HTML, parte B sezioni 1�3 interamente lette, escluso segmento grafico della parte A. Riscontro proroga D.L. 200/2025 art. 13 c. 1-bis.",
+        "outcome": "partial",
+        "legal_state": "amended",
+        "claims": [
+          {
+            "aspect": "content",
+            "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2023-04-14;39~art7",
+            "locator": "Art. 7 commi 1�4",
+            "finding": "Riuso agricolo da impianti gi� in esercizio al 15 aprile 2023; competenza regione/Provincia autonoma, procedimento unico con ARPA e ASL, termine 45 giorni e potere sostitutivo 30 giorni. PGR predisposto dal gestore insieme ai responsabili di trasporto e stoccaggio."
+          },
+          {
+            "aspect": "amendment",
+            "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13",
+            "locator": "Art. 13 comma 1-bis",
+            "finding": "Termine massimo prorogato al 31 dicembre 2026, con conversione L. 26/2026; resta la cessazione anticipata all�entrata in vigore del DPR previsto dall�art. 7."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2023-04-14;39~art7",
+            "locator": "Allegato A: tabella 1 e parte B sezioni 1�3",
+            "finding": "Classi A�D correlate a colture e tecniche irrigue. PGR: sistema, ruoli, pericoli, esposizione e valutazione dei rischi; requisiti ulteriori, barriere, monitoraggio e incidenti, articolati negli 11 elementi KRM. Non estese queste procedure indistintamente ai riusi civili o industriali."
+          }
+        ],
+        "limitations": [
+          "Parti grafiche della parte A non lette; rinvii esterni e altri articoli del decreto non riesaminati.",
+          "Non accertata eventuale entrata in vigore del DPR che anticiperebbe la cessazione del regime temporaneo."
+        ],
+        "pending": [
+          "Acquisire parti grafiche dell�allegato A; verificare DPR attuativo, rinvii aggiornati e applicazione territoriale."
+        ],
+        "source_urls": [
+          "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2023-04-14;39~art7",
+          "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13"
+        ],
+        "record_version": "d3facc513d0f6d4e6e75b14fe323c608ede6b9c8f45e330418b5fd7f9b9b5366"
       }
     }
   ],

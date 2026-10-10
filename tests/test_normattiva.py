@@ -19,7 +19,7 @@ class Tests(unittest.TestCase):
         registry = json.loads((root / 'national.json').read_text())
         records = json.loads((root / 'data.json').read_text())['records']
         validate(registry, records)
-        self.assertEqual(len(registry['acts']), 18)
+        self.assertEqual(len(registry['acts']), 19)
 
     def test_empty_and_unchanged(self):
         reg = {'acts':[ROW.copy()]}

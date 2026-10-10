@@ -2542,22 +2542,25 @@
       ],
       "source_urls": [
         "https://www.gazzettaufficiale.it/eli/gu/2003/07/23/169/sg/pdf",
-        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2003-07-23&atto.codiceRedazionale=003G0210"
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2003-07-23&atto.codiceRedazionale=003G0210",
+        "https://www.normattiva.it/esporta/attoCompleto?atto.dataPubblicazioneGazzetta=2003-07-23&atto.codiceRedazionale=003G0210",
+        "https://www.normattiva.it/do/atto/caricaPdf?cdimg=v003G02100010001011000102&num=0001&dgu=2003-07-23",
+        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13"
       ],
       "object_versions": [
         {
           "title": "Norme tecniche per il riutilizzo delle acque reflue",
           "ref": "D.M. 185/2003",
-          "summary": "Regolamento tecnico nazionale sul riutilizzo delle acque reflue domestiche, urbane e industriali, sulle destinazioni d’uso, sui requisiti di qualità e sulle modalità di controllo.",
+          "summary": "Regolamento tecnico nazionale sul riutilizzo delle acque reflue domestiche, urbane e industriali, sulle destinazioni d�uso, sui requisiti di qualit� e sulle modalit� di controllo.",
           "focus": [
-            "Distinguere riuso irriguo, civile e industriale e verificare destinazioni d’uso e requisiti di qualità dell’allegato.",
-            "Coordinare la disciplina con l’art. 99 del D.Lgs. 152/2006, con le norme regionali e con i piani di tutela.",
+            "Distinguere riuso irriguo, civile e industriale e verificare destinazioni d�uso e requisiti di qualit� dell�allegato.",
+            "Coordinare la disciplina con l�art. 99 del D.Lgs. 152/2006, con le norme regionali e con i piani di tutela.",
             "Per il riuso irriguo agricolo verificare anche il regolamento (UE) 2020/741 e il piano di gestione dei rischi.",
-            "L’abrogazione prevista dal D.L. 200/2025, convertito dalla L. 26/2026, opera soltanto dall’entrata in vigore del futuro regolamento adottato ai sensi dell’art. 99, comma 1, TUA."
+            "L�abrogazione prevista dal D.L. 200/2025, convertito dalla L. 26/2026, opera soltanto dall�entrata in vigore del futuro regolamento adottato ai sensi dell�art. 99, comma 1, TUA."
           ]
         }
       ],
-      "evidence": "Riuso delle acque reflue/affinate: requisiti qualitativi e tutela delle acque; non è riuso di pioggia, quindi unica voce Scarichi e tutela delle acque."
+      "evidence": "Riuso delle acque reflue/affinate: requisiti qualitativi e tutela delle acque; non � riuso di pioggia, quindi unica voce Scarichi e tutela delle acque."
     },
     "dpr59": {
       "topics": [
@@ -3530,6 +3533,28 @@
         }
       ],
       "evidence": "Lettura del testo ufficiale nei perimetri indicati dal lotto 18."
+    },
+    "dl39-riuso-2023": {
+      "topics": [
+        "scarichi"
+      ],
+      "source_urls": [
+        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2023-04-14;39~art7",
+        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-12-31;200~art13"
+      ],
+      "object_versions": [
+        {
+          "title": "Regime temporaneo di riutilizzo irriguo delle acque reflue depurate",
+          "ref": "D.L. 39/2023 � art. 7",
+          "summary": "Procedimento unico regionale o provinciale autonomo per il riuso irriguo agricolo delle acque depurate da impianti gi� in esercizio all�entrata in vigore del decreto; termine massimo prorogato al 31 dicembre 2026.",
+          "focus": [
+            "Autorizzazione unica e piano di gestione dei rischi",
+            "Impianti gi� in esercizio e usi agricoli",
+            "Termine prorogato e condizione di cessazione anticipata"
+          ]
+        }
+      ],
+      "evidence": "Fonti primarie lette nel perimetro del lotto 20."
     }
   }
 }

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-10T18:41:44Z",
+  "checked_at": "2026-10-11T08:06:45Z",
   "national": {
-    "state": "completato",
+    "state": "in_attesa",
     "last_completed_at": "2026-10-10T19:39:20+02:00",
-    "expected_date": "2026-10-10",
+    "expected_date": "2026-10-11",
     "deadline_local": "16:00 Europe/Rome",
     "checkpoint_end": "2026-10-10T17:39:20Z",
     "checkpoint_consistent": true,
@@ -72,55 +72,42 @@
   },
   "territorial": {
     "state": "parziale",
-    "date": "2026-10-10",
+    "date": "2026-10-11",
     "evidence": "data.json:runs[0]",
-    "summary": "Ricognizione senza nuove schede o modifiche normative pubblicabili. Villanovafranca resta in attesa di pubblicazione sul BURAS; le determinazioni Sardegna 160 e 161 sono atti di archiviazione. Le verifiche non completate sono dichiarate come limiti, senza dedurre assenza di nuovi atti.",
+    "summary": "Ricognizione senza nuove schede o modifiche normative pubblicabili nel perimetro effettivamente letto. Villanovafranca resta in attesa di pubblicazione sul BURAS; le fonti non acquisite integralmente sono registrate come limiti, senza dedurre assenza di nuovi atti.",
     "sources_checked": [
       "dist-sard",
       "sard-villanovafranca-reticolo-159-2026",
       "dist-centr",
       "dist-po",
-      "bz23"
+      "bz23",
+      "dist-merid"
     ],
     "source_urls": [
       "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/",
-      "https://delibere.regione.sardegna.it/",
       "https://giunta-provinciale.provincia.bz.it/it/delibere",
       "https://aubac.it/",
-      "https://www.adbpo.it/",
-      "https://pai.adbpo.it/"
+      "https://pianoalluvioni.adbpo.it/",
+      "https://www.distrettoappenninomeridionale.it/"
     ],
     "territories": [
-      "Sardegna: prima pagina delle determinazioni e seduta della Giunta regionale dell'8 ottobre 2026",
+      "Sardegna: prima pagina delle determinazioni del Segretario generale",
       "Provincia autonoma di Bolzano: prima pagina dell'ultima seduta del 2 ottobre 2026",
       "Appennino Centrale: homepage e notizie recenti",
-      "Distretto del Po: homepage generale e portale PAI"
+      "Distretto del Po: portale Piano Alluvioni",
+      "Appennino Meridionale: homepage e accessi agli strumenti di piano"
     ],
     "errors": [
       "Bolzano: il collegamento alla seconda pagina restituisce nuovamente i primi dieci risultati e una sezione in caricamento; i venti atti dell'ultima seduta non sono stati verificati integralmente.",
       "Sicilia: la pagina ufficiale di partecipazione pubblica ha restituito un errore del lettore; la fonte non è considerata controllata.",
-      "Appennino Settentrionale: la pagina ufficiale del III ciclo ha restituito un errore del lettore; la fonte non è considerata controllata.",
-      "Po: il portale PGRA ha restituito un errore del lettore; sono state controllate soltanto homepage generale e portale PAI."
+      "Appennino Settentrionale: la pagina ufficiale PGRA ha restituito un errore del lettore; la fonte non è considerata controllata.",
+      "Po: la homepage generale ADBPo ha restituito un errore del lettore; è stato controllato soltanto il portale Piano Alluvioni.",
+      "Appennino Meridionale: un successivo tentativo di riapertura della homepage è andato in timeout; il riscontro è limitato al contenuto acquisito con successo nel primo accesso."
     ],
     "publication": {
-      "outcome": "pubblicato",
-      "commit_sha": "a31852b2af08abdebf4276b4df002d956dc97e2d",
-      "commit_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/commit/a31852b2af08abdebf4276b4df002d956dc97e2d",
-      "verified_at": "2026-10-10T10:07:45+02:00",
-      "site_url": "https://domenicoderosa26-web.github.io/atlante-idraulico/",
-      "deployment_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/38036705427",
-      "verification": {
-        "outcome": "success",
-        "deployed_head_sha": "6c4147b271695fe83d96b9c4a0dd61861d74dd82",
-        "data": {
-          "updatedAt": "2026-10-10",
-          "records": 107,
-          "run_id": "local-territorial-20261010-100050",
-          "outcome": "parziale"
-        },
-        "site_loading": "Edizione 10/10/2026, 107 schede, 14 argomenti canonici e run territoriale del 10/10/2026 visibili nel sito pubblico."
-      },
-      "last_valid_result": "published_github_pages"
+      "outcome": "in_attesa",
+      "last_valid_result": "published_github_pages",
+      "note": "La ricevuta sarà aggiornata soltanto dopo il successo della validazione, del deployment Pages e del riscontro del run nel sito pubblico."
     },
     "external_execution_verified": false,
     "legacy_completion_marker": "2026-09-25",
@@ -132,7 +119,7 @@
       "severity": "warning",
       "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
       "evidence": "data.json:runs[0]",
-      "event_id": "ae6987e6b67ef285849d8eb8"
+      "event_id": "5dc8a4f9cce446fcf321e43c"
     }
   ],
   "events": [
@@ -315,8 +302,16 @@
       ],
       "event_id": "3889840f7179f3551adadca1",
       "recorded_at": "2026-10-10T17:28:29Z"
+    },
+    {
+      "code": "TERRITORIAL_PARZIALE",
+      "severity": "warning",
+      "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
+      "evidence": "data.json:runs[0]",
+      "event_id": "5dc8a4f9cce446fcf321e43c",
+      "recorded_at": "2026-10-11T08:06:45Z"
     }
   ],
   "has_errors": false,
-  "repository_sha": "8449551b793dc8d8a720f902460ce075807867c5"
+  "repository_sha": "4f4b225b52e1c959316549a76c114af3b44a073f"
 }

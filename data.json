@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-10",
+  "updatedAt": "2026-10-11",
   "scope": "Catalogo selettivo con controllo mirato dei CAM e della disciplina delle acque di prima pioggia per tutte le regioni. La verifica locale e autorizzativa resta necessaria.",
   "automation": {
     "enabled": true,
@@ -15283,6 +15283,81 @@
     }
   ],
   "runs": [
+    {
+      "date": "2026-10-11",
+      "type": "Controllo territoriale · ricognizione parziale",
+      "summary": "Ricognizione senza nuove schede o modifiche normative pubblicabili nel perimetro effettivamente letto. Villanovafranca resta in attesa di pubblicazione sul BURAS; le fonti non acquisite integralmente sono registrate come limiti, senza dedurre assenza di nuovi atti.",
+      "checked": [
+        "dist-sard",
+        "sard-villanovafranca-reticolo-159-2026",
+        "dist-centr",
+        "dist-po",
+        "bz23",
+        "dist-merid"
+      ],
+      "territories": [
+        "Sardegna: prima pagina delle determinazioni del Segretario generale",
+        "Provincia autonoma di Bolzano: prima pagina dell'ultima seduta del 2 ottobre 2026",
+        "Appennino Centrale: homepage e notizie recenti",
+        "Distretto del Po: portale Piano Alluvioni",
+        "Appennino Meridionale: homepage e accessi agli strumenti di piano"
+      ],
+      "read_urls": [
+        "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/",
+        "https://giunta-provinciale.provincia.bz.it/it/delibere",
+        "https://aubac.it/",
+        "https://pianoalluvioni.adbpo.it/",
+        "https://www.distrettoappenninomeridionale.it/"
+      ],
+      "source_findings": [
+        {
+          "source_url": "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/",
+          "result": "La prima pagina espone ancora come atto più recente la determinazione 162/2026 di Barrali, già censita. Villanovafranca, determinazione 159/2026, resta indicata in attesa di pubblicazione sul BURAS. Le determinazioni 160/2026 Tresnuraghes e 161/2026 Sinnai restano atti di archiviazione, non nuove varianti approvate."
+        },
+        {
+          "source_url": "https://giunta-provinciale.provincia.bz.it/it/delibere",
+          "result": "L'ultima seduta esposta resta quella del 2 ottobre 2026. Nei dieci oggetti visibili della prima pagina non compare un nuovo PZP; la seconda pagina non è stata acquisita correttamente e la verifica non è esaustiva."
+        },
+        {
+          "source_url": "https://aubac.it/",
+          "result": "Le notizie recenti esposte restano l'evento del 9 ottobre e la cartografia P.S.5 del 6 ottobre già censita; nessun nuovo atto PAI o PGRA è stato identificato nella sola homepage."
+        },
+        {
+          "source_url": "https://pianoalluvioni.adbpo.it/",
+          "result": "Il portale espone come aggiornamenti più recenti le mappe PGRA 2027–2033 del 22 gennaio 2026 e la consultazione della Valutazione Globale Provvisoria del 22 dicembre 2025, già ricomprese nel quadro del ciclo in aggiornamento; nessun contenuto più recente è visibile nella pagina letta."
+        },
+        {
+          "source_url": "https://www.distrettoappenninomeridionale.it/",
+          "result": "La homepage, indicata come aggiornata il 22 settembre 2026, espone gli accessi al progetto di piano stralcio alluvioni e agli strumenti PAI/PGRA; nel contenuto acquisito non compare un nuovo atto datato successivo. La verifica non comprende le raccolte e gli allegati collegati."
+        }
+      ],
+      "errors": [
+        "Bolzano: il collegamento alla seconda pagina restituisce nuovamente i primi dieci risultati e una sezione in caricamento; i venti atti dell'ultima seduta non sono stati verificati integralmente.",
+        "Sicilia: la pagina ufficiale di partecipazione pubblica ha restituito un errore del lettore; la fonte non è considerata controllata.",
+        "Appennino Settentrionale: la pagina ufficiale PGRA ha restituito un errore del lettore; la fonte non è considerata controllata.",
+        "Po: la homepage generale ADBPo ha restituito un errore del lettore; è stato controllato soltanto il portale Piano Alluvioni.",
+        "Appennino Meridionale: un successivo tentativo di riapertura della homepage è andato in timeout; il riscontro è limitato al contenuto acquisito con successo nel primo accesso."
+      ],
+      "limitations": [
+        "Ricognizione circoscritta alle URL elencate e ai contenuti effettivamente esposti; non copre integralmente regioni, province, comuni, gestori, allegati, cartografie o catene degli atti.",
+        "L'assenza di modifiche pubblicabili vale soltanto per il perimetro letto. Nessuna conclusione è tratta dalle fonti in errore o dalle sezioni non acquisite.",
+        "L'audit documentale incrementale della Fase 3 resta separato e non è stato modificato da questo controllo."
+      ],
+      "updated_records": [],
+      "new_records": [],
+      "execution": {
+        "id": "local-territorial-20261011-100130",
+        "id_origin": "Identificativo locale generato per questa esecuzione; identificativo del servizio non disponibile.",
+        "started_at": "2026-10-11T10:01:30+02:00",
+        "finished_at": "2026-10-11T10:05:06+02:00",
+        "outcome": "parziale",
+        "publication": {
+          "outcome": "in_attesa",
+          "last_valid_result": "published_github_pages",
+          "note": "La ricevuta sarà aggiornata soltanto dopo il successo della validazione, del deployment Pages e del riscontro del run nel sito pubblico."
+        }
+      }
+    },
     {
       "date": "2026-10-10",
       "type": "Controllo territoriale · ricognizione parziale",

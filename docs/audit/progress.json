@@ -8847,11 +8847,11 @@
     "notice": "Controllo tecnico: identità candidata, disponibilità e variazioni non attestano contenuto, vigenza o abrogazione.",
     "source_queue": "docs/audit/2026-10-10/completamento/attivita-residue.json",
     "selected": [
-      "dl49",
-      "lom4pp",
-      "lom7"
+      "tos-dpgr60-2016",
+      "abr17",
+      "abr31"
     ],
-    "requests": 1,
+    "requests": 2,
     "tasks": {
       "sar-pai-frane-42-2026": {
         "task_version": "3141b41c28ccd674995b0afeb1ff9e567ea772033f1cd4d621e62ae144cae225",
@@ -8876,10 +8876,29 @@
       "lom7": {
         "task_version": "797fe20bca06f8450141d1e092d9422ee7bd03aeddeafde2d1d41dd1669ae146",
         "prepared_at": "2026-10-12T13:31:55.374255+00:00"
+      },
+      "tos-dpgr60-2016": {
+        "task_version": "353531b63a6b0c3d155d9f9330c1a1386711e6906364c1faeeda67a5b39fa19e",
+        "prepared_at": "2026-10-12T13:32:54.921639+00:00"
+      },
+      "abr17": {
+        "task_version": "c1d60456b5a140d3cae984645503ef0c20affa08ccb3fd70fe12e50738322feb",
+        "prepared_at": "2026-10-12T13:32:54.921639+00:00"
+      },
+      "abr31": {
+        "task_version": "8030a0242bf25b08f84bfbb2824b3e03ed5a44b3587102a9ccfb71aaa631a4ef",
+        "prepared_at": "2026-10-12T13:32:54.921639+00:00"
       }
     },
     "seed_receipts": "docs/audit/2026-10-10/completamento/ricevute-accesso.json",
     "receipts": {
+      "https://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2008/lr08017.htm": {
+        "url": "https://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2008/lr08017.htm",
+        "checked_at": "2026-10-12T13:32:54.921639+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "error": "<urlopen error timed out>",
+        "technical_state": "needs_attention"
+      },
       "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32024R1765": {
         "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32024R1765",
         "checked_at": "2026-10-10T17:23:02.374289+00:00",
@@ -8942,6 +8961,13 @@
         "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "variation": "same",
         "comparison_scope": "complete_bytes"
+      },
+      "https://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2010/lr10031.htm": {
+        "url": "https://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2010/lr10031.htm",
+        "checked_at": "2026-10-12T13:32:54.921639+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "error": "<urlopen error timed out>",
+        "technical_state": "needs_attention"
       },
       "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?ext=pdf&id=0deb3a65-8cc8-11f0-b084-005056959b60": {
         "url": "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?ext=pdf&id=0deb3a65-8cc8-11f0-b084-005056959b60",
@@ -9071,9 +9097,9 @@
             "detected_signature": null,
             "identity_candidate": null,
             "body_complete": false,
-            "checked_at": "2026-10-09T13:45:39.808407+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-10-12T13:32:54.921639+00:00",
+            "stale": false,
+            "technical_state": "needs_attention"
           }
         ]
       },
@@ -9150,9 +9176,9 @@
             "detected_signature": null,
             "identity_candidate": null,
             "body_complete": false,
-            "checked_at": "2026-10-10T10:26:49.226246+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-10-12T13:32:54.921639+00:00",
+            "stale": false,
+            "technical_state": "needs_attention"
           }
         ]
       },

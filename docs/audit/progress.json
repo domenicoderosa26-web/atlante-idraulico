@@ -8847,11 +8847,11 @@
     "notice": "Controllo tecnico: identità candidata, disponibilità e variazioni non attestano contenuto, vigenza o abrogazione.",
     "source_queue": "docs/audit/2026-10-10/completamento/attivita-residue.json",
     "selected": [
-      "sar-pai-frane-42-2026",
-      "sar-pai-barrali-162-2026",
-      "ue1765reuse"
+      "dl49",
+      "lom4pp",
+      "lom7"
     ],
-    "requests": 3,
+    "requests": 1,
     "tasks": {
       "sar-pai-frane-42-2026": {
         "task_version": "3141b41c28ccd674995b0afeb1ff9e567ea772033f1cd4d621e62ae144cae225",
@@ -8864,6 +8864,18 @@
       "ue1765reuse": {
         "task_version": "6d75602dd933b06becf334737606f2d9df207743004ec3f0968f53d3c319399f",
         "prepared_at": "2026-10-10T17:23:02.374289+00:00"
+      },
+      "dl49": {
+        "task_version": "9daf502bb9b29b5204c5eef96f0f076dbc7df22023c1d474da2f5ed0ff946e81",
+        "prepared_at": "2026-10-12T13:31:55.374255+00:00"
+      },
+      "lom4pp": {
+        "task_version": "6d5f0c35aa07c0b6abd1293bced24d2296369e24ef5345cd5d60ce3c0be57deb",
+        "prepared_at": "2026-10-12T13:31:55.374255+00:00"
+      },
+      "lom7": {
+        "task_version": "797fe20bca06f8450141d1e092d9422ee7bd03aeddeafde2d1d41dd1669ae146",
+        "prepared_at": "2026-10-12T13:31:55.374255+00:00"
       }
     },
     "seed_receipts": "docs/audit/2026-10-10/completamento/ricevute-accesso.json",
@@ -8988,24 +9000,26 @@
         "semantic_verification": "not_performed_by_access_check",
         "evidence": "docs/audit/2026-10-10/completamento/lotto-26.json"
       },
-      "https://www.protezionecivile.gov.it/en/normativa/indirizzi-operativi-del-24-febbraio-2015-per-la-predisposizione-della-parte-dei-piani-di-gestione-relativa-al-sistema-di-allertamento-nazionale--stata/": {
-        "url": "https://www.protezionecivile.gov.it/en/normativa/indirizzi-operativi-del-24-febbraio-2015-per-la-predisposizione-della-parte-dei-piani-di-gestione-relativa-al-sistema-di-allertamento-nazionale--stata/",
-        "final_url": "https://www.protezionecivile.gov.it/en/normativa/indirizzi-operativi-del-24-febbraio-2015-per-la-predisposizione-della-parte-dei-piani-di-gestione-relativa-al-sistema-di-allertamento-nazionale--stata/",
+      "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/accessibile/main.aspx?idparte=rr002025032800003ar0001a&selnode=rr002025032800003&view=showpart": {
+        "url": "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/accessibile/main.aspx?idparte=rr002025032800003ar0001a&selnode=rr002025032800003&view=showpart",
+        "checked_at": "2026-10-12T13:31:55.374255+00:00",
+        "semantic_verification": "not_performed_by_access_check",
         "http_status": 200,
-        "bytes": 1000633,
-        "sha256": "d5516886c24027a0a270c3dfd7de2ee3bed05469fcf70333a2f599f7cafbded7",
-        "checked_at": "2026-10-10T18:19:52.543840+00:00",
-        "content_signature": "html",
-        "content_type": "text/html",
+        "final_url": "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/accessibile/main.aspx?idparte=rr002025032800003ar0001a&selnode=rr002025032800003&view=showpart",
+        "content_type": "text/html; charset=utf-8",
+        "etag": null,
+        "last_modified": null,
         "body_complete": true,
-        "sample_bytes": 1000633,
-        "technical_state": "available",
+        "sample_bytes": 86761,
+        "content_signature": "html",
         "empty_response": false,
         "access_challenge": false,
-        "identity_candidate": null,
-        "identity_basis": "not_detected_by_technical_check",
-        "semantic_verification": "not_performed_by_access_check",
-        "evidence": "docs/audit/2026-10-10/completamento/preparazione-lotto27.json"
+        "identity_candidate": " Banca dati del Consiglio Regionale della Lombardia ",
+        "identity_basis": "HTML title only",
+        "technical_state": "available",
+        "sha256": "c99fa502151d595b70be988afc7aab9a4f3fe7278004a0d3e186ffee9e072ccc",
+        "variation": "unknown",
+        "comparison_scope": "complete_bytes"
       }
     },
     "normative_queue": [
@@ -9137,7 +9151,7 @@
             "identity_candidate": null,
             "body_complete": false,
             "checked_at": "2026-10-10T10:26:49.226246+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "legacy_receipt"
           }
         ]
@@ -9300,7 +9314,7 @@
             "identity_candidate": null,
             "body_complete": false,
             "checked_at": "2026-10-10T10:26:48.483395+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "legacy_receipt"
           },
           {
@@ -10958,18 +10972,21 @@
       },
       {
         "id": "dl152",
-        "task_version": "23ba9896d506dcd616e0a4fd8c5be9b61fb2a70e61bfc696c0dfd896b4fb43aa",
+        "task_version": "102c6565d59bb0a61f73479b5c41e874eb5a993dd24a090af55108e1734f7f8a",
         "operations": [
-          "Ricostruire la versione corrente degli articoli pertinenti e gli allegati della Parte III."
+          "Ricostruire la versione corrente degli articoli pertinenti e gli allegati della Parte III.",
+          "Verificare versione corrente artt. 7/12-bis/17 RD1775, modifiche successive e condizioni regionali/di bacino prima dell’applicazione progettuale."
         ],
         "source_urls": [
           "https://www.gazzettaufficiale.it/eli/gu/2006/04/14/88/so/96/sg/pdf",
           "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2006-04-14&atto.codiceRedazionale=006G0171",
+          "https://www.parlamento.it/parlam/leggi/deleghe/06152dl1.htm",
           "https://www.parlamento.it/parlam/leggi/deleghe/06152dl2.htm"
         ],
-        "existing_evidence": null,
+        "existing_evidence": "docs/audit/2026-10-10/completamento/lotto-24.json",
         "limitations": [
-          "La lettura sostanziale riguarda la riproduzione parlamentare originaria; gli endpoint degli articoli Normattiva hanno restituito errori."
+          "La lettura sostanziale riguarda la riproduzione parlamentare originaria; gli endpoint degli articoli Normattiva hanno restituito errori.",
+          "Fonte parlamentare originaria del 2006: non attestato il testo corrente né l’intero regime progettuale e concessorio."
         ],
         "requires_substantive_review": true,
         "priority": "high",
@@ -10998,6 +11015,17 @@
             "technical_state": "legacy_receipt"
           },
           {
+            "url": "https://www.parlamento.it/parlam/leggi/deleghe/06152dl1.htm",
+            "available": false,
+            "expected_pdf": false,
+            "detected_signature": null,
+            "identity_candidate": null,
+            "body_complete": false,
+            "checked_at": null,
+            "stale": true,
+            "technical_state": "not_checked"
+          },
+          {
             "url": "https://www.parlamento.it/parlam/leggi/deleghe/06152dl2.htm",
             "available": true,
             "expected_pdf": false,
@@ -11012,8 +11040,9 @@
       },
       {
         "id": "dl49",
-        "task_version": "915a923cb1da0d5e1dfa1dc4fe5e9df147b7f746575e6e2be57c122d1db6b8b3",
+        "task_version": "9daf502bb9b29b5204c5eef96f0f076dbc7df22023c1d474da2f5ed0ff946e81",
         "operations": [
+          "Riutilizzare docs/audit/2026-10-10/completamento/preparazione-lotto27.json per coordinare direttiva PCM 24/02/2015, Codice della protezione civile e D.Lgs. 49/2010; non ripetere la lettura già documentata.",
           "Coordinare rinvii alla disciplina corrente di protezione civile e acque; verificare atti tecnici ex artt. 14–15 e singoli PGRA."
         ],
         "source_urls": [
@@ -12432,21 +12461,40 @@
       },
       {
         "id": "rd1775",
-        "task_version": "7b797383fb86028d71e608cd29e697b8567fff46e3d9521b8743a2f0526f9ad3",
+        "task_version": "fb0fddeed796356fc8e289ec0b9beea1d123a4cdadf0822e245d79cea6d135f3",
         "operations": [
-          "Verificare testo coordinato, atti modificativi e abrogativi, allegati non esaminati e applicabilità attuale."
+          "Confrontare questi articoli con il testo corrente ufficiale e gli atti successivi; ricostruire disciplina territoriale del reticolo e ufficio competente.",
+          "Completare gli altri passaggi del TU e i procedimenti concessori non esaminati.",
+          "Verificare versione corrente artt. 7/12-bis/17 RD1775, modifiche successive e condizioni regionali/di bacino prima dell’applicazione progettuale."
         ],
         "source_urls": [
-          "https://www.gazzettaufficiale.it/eli/gu/1934/01/08/5/sg/pdf"
+          "https://www.consiglioregionale.calabria.it/upload/istruttoria/R.D.%2011%20dicembre%201933,%20n.%201775%20.pdf",
+          "https://www.gazzettaufficiale.it/eli/gu/1934/01/08/5/sg/pdf",
+          "https://www.parlamento.it/parlam/leggi/deleghe/06152dl1.htm",
+          "https://www.protezionecivile.gov.it/static/ef607bf684989575e3d49def66060408/dlgs1121998.pdf"
         ],
-        "existing_evidence": null,
+        "existing_evidence": "docs/audit/2026-10-10/completamento/lotto-24.json",
         "limitations": [
-          "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione."
+          "Lettura circoscritta ai passaggi indicati; non è ricostruita integralmente la vigenza al giorno della consultazione.",
+          "Riproduzioni istituzionali senza attestazione di consolidamento al 10 ottobre 2026; accesso alle pagine degli articoli Normattiva non riuscito.",
+          "Restano da verificare modifiche successive, discipline regionali, reticolo e autorità competente per l’intervento concreto.",
+          "Fonte parlamentare originaria del 2006: non attestato il testo corrente né l’intero regime progettuale e concessorio."
         ],
         "requires_substantive_review": true,
         "priority": "high",
         "priority_reason": "Fonte incompleta, non accessibile, scaduta, non controllata o variata",
         "documents": [
+          {
+            "url": "https://www.consiglioregionale.calabria.it/upload/istruttoria/R.D.%2011%20dicembre%201933,%20n.%201775%20.pdf",
+            "available": false,
+            "expected_pdf": false,
+            "detected_signature": null,
+            "identity_candidate": null,
+            "body_complete": false,
+            "checked_at": null,
+            "stale": true,
+            "technical_state": "not_checked"
+          },
           {
             "url": "https://www.gazzettaufficiale.it/eli/gu/1934/01/08/5/sg/pdf",
             "available": true,
@@ -12457,6 +12505,28 @@
             "checked_at": "2026-10-09T13:45:34.459926+00:00",
             "stale": false,
             "technical_state": "legacy_receipt"
+          },
+          {
+            "url": "https://www.parlamento.it/parlam/leggi/deleghe/06152dl1.htm",
+            "available": false,
+            "expected_pdf": false,
+            "detected_signature": null,
+            "identity_candidate": null,
+            "body_complete": false,
+            "checked_at": null,
+            "stale": true,
+            "technical_state": "not_checked"
+          },
+          {
+            "url": "https://www.protezionecivile.gov.it/static/ef607bf684989575e3d49def66060408/dlgs1121998.pdf",
+            "available": true,
+            "expected_pdf": false,
+            "detected_signature": "pdf",
+            "identity_candidate": null,
+            "body_complete": true,
+            "checked_at": "2026-10-10T18:08:20.548450+00:00",
+            "stale": false,
+            "technical_state": "available"
           }
         ]
       },
@@ -12492,11 +12562,13 @@
       },
       {
         "id": "rd523",
-        "task_version": "26d93bc46043f9673b1b057e0e347919996672523fa84d5a9fe0f1bf3b1fee6e",
+        "task_version": "40cc3148624d4a03aafc9ec620f32e4ec7331660af079c9b6ca3ec0d91f37562",
         "operations": [
-          "Leggere direttamente artt.217/234RD1775 e verificare trasferimenti di competenza e disciplina del reticolo interessato."
+          "Confrontare questi articoli con il testo corrente ufficiale e gli atti successivi; ricostruire disciplina territoriale del reticolo e ufficio competente.",
+          "Completare gli altri passaggi del TU e i procedimenti concessori non esaminati."
         ],
         "source_urls": [
+          "https://www.consiglioregionale.calabria.it/upload/istruttoria/R.D.%2011%20dicembre%201933,%20n.%201775%20.pdf",
           "https://www.gazzettaufficiale.it/eli/gu/1904/10/07/234/sg/pdf",
           "https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=1&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=1&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
           "https://www.normattiva.it/atto/caricaArticolo?art.versione=2&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=93&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
@@ -12506,16 +12578,30 @@
           "https://www.normattiva.it/atto/caricaArticolo?art.versione=3&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=96&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
           "https://www.normattiva.it/atto/caricaArticolo?art.versione=5&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=97&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
           "https://www.normattiva.it/atto/caricaArticolo?art.versione=5&art.idGruppo=16&art.flagTipoArticolo=1&art.codiceRedazionale=004U0523&art.idArticolo=98&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1904-10-07&art.progressivo=0&",
-          "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=004U0523&atto.dataPubblicazioneGazzetta=1904-10-07&tipoDettaglio=vigente"
+          "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=004U0523&atto.dataPubblicazioneGazzetta=1904-10-07&tipoDettaglio=vigente",
+          "https://www.protezionecivile.gov.it/static/ef607bf684989575e3d49def66060408/dlgs1121998.pdf"
         ],
-        "existing_evidence": "docs/audit/2026-10-09/incrementale/lotto-12.json",
+        "existing_evidence": "docs/audit/2026-10-10/completamento/lotto-22-23.json",
         "limitations": [
-          "Non letto integralmente il TU né ricostruiti riassetto delle competenze e regole regionali/locali."
+          "Non letto integralmente il TU né ricostruiti riassetto delle competenze e regole regionali/locali.",
+          "Riproduzioni istituzionali senza attestazione di consolidamento al 10 ottobre 2026; accesso alle pagine degli articoli Normattiva non riuscito.",
+          "Restano da verificare modifiche successive, discipline regionali, reticolo e autorità competente per l’intervento concreto."
         ],
         "requires_substantive_review": true,
         "priority": "high",
         "priority_reason": "Fonte incompleta, non accessibile, scaduta, non controllata o variata",
         "documents": [
+          {
+            "url": "https://www.consiglioregionale.calabria.it/upload/istruttoria/R.D.%2011%20dicembre%201933,%20n.%201775%20.pdf",
+            "available": false,
+            "expected_pdf": false,
+            "detected_signature": null,
+            "identity_candidate": null,
+            "body_complete": false,
+            "checked_at": null,
+            "stale": true,
+            "technical_state": "not_checked"
+          },
           {
             "url": "https://www.gazzettaufficiale.it/eli/gu/1904/10/07/234/sg/pdf",
             "available": true,
@@ -12625,6 +12711,17 @@
             "checked_at": "2026-10-09T13:45:34.067742+00:00",
             "stale": false,
             "technical_state": "legacy_receipt"
+          },
+          {
+            "url": "https://www.protezionecivile.gov.it/static/ef607bf684989575e3d49def66060408/dlgs1121998.pdf",
+            "available": true,
+            "expected_pdf": false,
+            "detected_signature": "pdf",
+            "identity_candidate": null,
+            "body_complete": true,
+            "checked_at": "2026-10-10T18:08:20.548450+00:00",
+            "stale": false,
+            "technical_state": "available"
           }
         ]
       },
@@ -12710,7 +12807,7 @@
             "identity_candidate": null,
             "body_complete": true,
             "checked_at": "2026-10-10T17:23:02.374289+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "needs_attention"
           },
           {
@@ -12721,7 +12818,7 @@
             "identity_candidate": null,
             "body_complete": true,
             "checked_at": "2026-10-10T17:23:02.374289+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "needs_attention"
           },
           {
@@ -12732,7 +12829,7 @@
             "identity_candidate": null,
             "body_complete": true,
             "checked_at": "2026-10-10T17:23:02.374289+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "needs_attention"
           },
           {
@@ -14528,6 +14625,36 @@
         ]
       },
       {
+        "id": "lom-rr3-2025",
+        "task_version": "dfbe4f8adb82a16983d461c88655c05ba4afa955b5d767c4de3d425acf620ab6",
+        "operations": [
+          "Acquisire BURL e allegati, verificare efficacia e successive modifiche e coordinare il testo del R.R. 7/2017."
+        ],
+        "source_urls": [
+          "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/accessibile/main.aspx?idparte=rr002025032800003ar0001a&selnode=rr002025032800003&view=showpart"
+        ],
+        "existing_evidence": "docs/audit/2026-10-10/completamento/lotto-22-23.json",
+        "limitations": [
+          "Non esaminati allegati, BURL integrale, efficacia temporale e atti successivi."
+        ],
+        "requires_substantive_review": true,
+        "priority": "normal",
+        "priority_reason": "Coordinamento normativo residuo",
+        "documents": [
+          {
+            "url": "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/accessibile/main.aspx?idparte=rr002025032800003ar0001a&selnode=rr002025032800003&view=showpart",
+            "available": true,
+            "expected_pdf": false,
+            "detected_signature": "html",
+            "identity_candidate": " Banca dati del Consiglio Regionale della Lombardia ",
+            "body_complete": true,
+            "checked_at": "2026-10-12T13:31:55.374255+00:00",
+            "stale": false,
+            "technical_state": "available"
+          }
+        ]
+      },
+      {
         "id": "lom4pp",
         "task_version": "6d5f0c35aa07c0b6abd1293bced24d2296369e24ef5345cd5d60ce3c0be57deb",
         "operations": [
@@ -14559,17 +14686,19 @@
       },
       {
         "id": "lom7",
-        "task_version": "f3e2219a1c974726920c610d62807892541128c853a5f45a1172cc46ad24e461",
+        "task_version": "797fe20bca06f8450141d1e092d9422ee7bd03aeddeafde2d1d41dd1669ae146",
         "operations": [
-          "Completare art. 11, requisiti minimi e allegati di calcolo e ricostruire gli aggiornamenti ulteriori al testo coordinato esaminato."
+          "Completare art. 11, art. 12, allegati di calcolo e cartografie; verificare atti ulteriori e versione applicabile al progetto."
         ],
         "source_urls": [
           "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/esportaDoc.aspx?iddoc=rr002017112300007&type=pdf",
+          "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/accessibile/main.aspx?idparte=rr002025032800003ar0001a&selnode=rr002025032800003&view=showpart",
           "https://www.regione.lombardia.it/ambiente-e-territorio/difesa-del-suolo/invarianza-idraulica-idrologica"
         ],
-        "existing_evidence": "docs/audit/2026-10-08/incrementale/lotto-04.json",
+        "existing_evidence": "docs/audit/2026-10-10/completamento/lotto-22-23.json",
         "limitations": [
-          "La lettura non certifica tutti gli allegati, le cartografie o l’intera catena degli atti successivi."
+          "La lettura non certifica tutti gli allegati, le cartografie o l’intera catena degli atti successivi.",
+          "Disposizione modificativa letta in banca regionale; controllo BURL e allegati da completare."
         ],
         "requires_substantive_review": true,
         "priority": "normal",
@@ -14585,6 +14714,17 @@
             "checked_at": "2026-10-09T13:45:36.451822+00:00",
             "stale": false,
             "technical_state": "legacy_receipt"
+          },
+          {
+            "url": "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/accessibile/main.aspx?idparte=rr002025032800003ar0001a&selnode=rr002025032800003&view=showpart",
+            "available": true,
+            "expected_pdf": false,
+            "detected_signature": "html",
+            "identity_candidate": " Banca dati del Consiglio Regionale della Lombardia ",
+            "body_complete": true,
+            "checked_at": "2026-10-12T13:31:55.374255+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://www.regione.lombardia.it/ambiente-e-territorio/difesa-del-suolo/invarianza-idraulica-idrologica",
@@ -15602,6 +15742,108 @@
             "checked_at": "2026-10-09T13:45:42.243078+00:00",
             "stale": false,
             "technical_state": "legacy_receipt"
+          }
+        ]
+      },
+      {
+        "id": "tos-dpgr12-2025",
+        "task_version": "8267938863b9c89c774ae1cffd7a3a12474d8d14b7c6bdf19595fdf74de12689",
+        "operations": [
+          "Verificare modifiche successive e coordinare D.P.G.R. 42/R/2018, regolamento 61/R/2016 e atti su reticolo e canoni prima dell’applicazione progettuale."
+        ],
+        "source_urls": [
+          "https://www.regione.toscana.it/documents/10180/239087792/Parte%2BI%2Bn.%2B14%2Bdel%2B26.02.2025.pdf/924e47ab-ddef-feb6-7fcd-b9b6e7560954?t=1740549990843"
+        ],
+        "existing_evidence": "docs/audit/2026-10-10/completamento/lotto-26.json",
+        "limitations": [
+          "Non ricostruite modifiche successive al BURT del 26 febbraio 2025, disciplina complessiva dei canoni né tutti i rinvii; nessuna attestazione integrale della vigenza corrente."
+        ],
+        "requires_substantive_review": true,
+        "priority": "normal",
+        "priority_reason": "Coordinamento normativo residuo",
+        "documents": [
+          {
+            "url": "https://www.regione.toscana.it/documents/10180/239087792/Parte%2BI%2Bn.%2B14%2Bdel%2B26.02.2025.pdf/924e47ab-ddef-feb6-7fcd-b9b6e7560954?t=1740549990843",
+            "available": true,
+            "expected_pdf": true,
+            "detected_signature": "pdf",
+            "identity_candidate": null,
+            "body_complete": true,
+            "checked_at": "2026-10-10T18:14:02.795714+00:00",
+            "stale": false,
+            "technical_state": "available"
+          }
+        ]
+      },
+      {
+        "id": "tos-dpgr60-2016",
+        "task_version": "353531b63a6b0c3d155d9f9330c1a1386711e6906364c1faeeda67a5b39fa19e",
+        "operations": [
+          "Verificare modifiche successive e coordinare D.P.G.R. 42/R/2018, regolamento 61/R/2016 e atti su reticolo e canoni prima dell’applicazione progettuale."
+        ],
+        "source_urls": [
+          "https://www.regione.toscana.it/documents/10180/239087792/Parte%2BI%2Bn.%2B14%2Bdel%2B26.02.2025.pdf/924e47ab-ddef-feb6-7fcd-b9b6e7560954?t=1740549990843"
+        ],
+        "existing_evidence": "docs/audit/2026-10-10/completamento/lotto-26.json",
+        "limitations": [
+          "Non ricostruite modifiche successive al BURT del 26 febbraio 2025, disciplina complessiva dei canoni né tutti i rinvii; nessuna attestazione integrale della vigenza corrente."
+        ],
+        "requires_substantive_review": true,
+        "priority": "normal",
+        "priority_reason": "Coordinamento normativo residuo",
+        "documents": [
+          {
+            "url": "https://www.regione.toscana.it/documents/10180/239087792/Parte%2BI%2Bn.%2B14%2Bdel%2B26.02.2025.pdf/924e47ab-ddef-feb6-7fcd-b9b6e7560954?t=1740549990843",
+            "available": true,
+            "expected_pdf": true,
+            "detected_signature": "pdf",
+            "identity_candidate": null,
+            "body_complete": true,
+            "checked_at": "2026-10-10T18:14:02.795714+00:00",
+            "stale": false,
+            "technical_state": "available"
+          }
+        ]
+      },
+      {
+        "id": "tos-lr80-2015",
+        "task_version": "a86a0598b7bbd653989e6b99bd152ebece331d0b89a41a3ad020778eb913b7c0",
+        "operations": [
+          "Verificare modifiche dal 10 gennaio 2025 e atti attuativi artt. 5/11; acquisire reticolo vigente e condizioni di autorizzazione per l’intervento."
+        ],
+        "source_urls": [
+          "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?ext=pdf&id=0deb3a65-8cc8-11f0-b084-005056959b60",
+          "https://www.regione.toscana.it/documents/10180/239087792/Parte%2BI%2Bn.%2B14%2Bdel%2B26.02.2025.pdf/924e47ab-ddef-feb6-7fcd-b9b6e7560954?t=1740549990843"
+        ],
+        "existing_evidence": "docs/audit/2026-10-10/completamento/lotto-26.json",
+        "limitations": [
+          "Copia aggiornata al 10 gennaio 2025; non ricostruite modifiche successive, regolamenti, cartografia del reticolo e competenze operative specifiche."
+        ],
+        "requires_substantive_review": true,
+        "priority": "normal",
+        "priority_reason": "Coordinamento normativo residuo",
+        "documents": [
+          {
+            "url": "https://raccoltanormativa.consiglio.regione.toscana.it/class/download_doc.php?ext=pdf&id=0deb3a65-8cc8-11f0-b084-005056959b60",
+            "available": true,
+            "expected_pdf": true,
+            "detected_signature": "pdf",
+            "identity_candidate": null,
+            "body_complete": true,
+            "checked_at": "2026-10-10T18:08:20.548450+00:00",
+            "stale": false,
+            "technical_state": "available"
+          },
+          {
+            "url": "https://www.regione.toscana.it/documents/10180/239087792/Parte%2BI%2Bn.%2B14%2Bdel%2B26.02.2025.pdf/924e47ab-ddef-feb6-7fcd-b9b6e7560954?t=1740549990843",
+            "available": true,
+            "expected_pdf": false,
+            "detected_signature": "pdf",
+            "identity_candidate": null,
+            "body_complete": true,
+            "checked_at": "2026-10-10T18:14:02.795714+00:00",
+            "stale": false,
+            "technical_state": "available"
           }
         ]
       },

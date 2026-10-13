@@ -3640,6 +3640,27 @@
         }
       ],
       "evidence": "docs/audit/2026-10-10/completamento/lotto-26.json; norme concessorie, classificazione limitata alle disposizioni lette."
+    },
+    "bz-tesimo-pzp-836-2026": {
+      "topics": [
+        "pai-frane"
+      ],
+      "source_urls": [
+        "https://api.integrations.services.siag.it/delibere/v1/delibere/mIFPFBXQbhGbjYgSba0oIw%3D%3D/document?tstmp=1791817331811"
+      ],
+      "object_versions": [
+        {
+          "title": "Modifica PZP Tesimo · Talmühle a Narano",
+          "ref": "D.G.P. Bolzano 836/2026",
+          "summary": "Approvata la modifica della carta delle zone di pericolo da frana nell’area della Talmühle a Narano, Comune di Tesimo.",
+          "focus": [
+            "Modifica circoscritta alla componente frane nell’area Talmühle a Narano.",
+            "La carta delle zone di pericolo è sostituita nell’ambito interessato.",
+            "L’efficacia decorrerà dal giorno successivo alla pubblicazione nel Bollettino Ufficiale regionale."
+          ]
+        }
+      ],
+      "evidence": "Lettura della D.G.P. 836/2026: la modifica riguarda esclusivamente la carta delle zone di pericolo frane; nessuna componente idraulica è documentata."
     }
   }
 }

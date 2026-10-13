@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-13T12:46:23Z",
+  "checked_at": "2026-10-13T20:16:53Z",
   "national": {
     "state": "completato",
     "last_completed_at": "2026-10-13T14:44:25+02:00",
@@ -349,5 +349,5 @@
     }
   ],
   "has_errors": false,
-  "repository_sha": "0ceda84859296ba0ec2bf9b113d4697556130a26"
+  "repository_sha": "57f5dade40bb541143d8b495ee16b584a8dc7b06"
 }

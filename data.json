@@ -15449,7 +15449,7 @@
         "publication": {
           "outcome": "in_attesa",
           "last_valid_result": "published_github_pages",
-          "note": "La ricevuta sarà aggiornata soltanto dopo il successo della validazione, del deployment Pages e del riscontro del run nel sito pubblico."
+          "note": "La ricevuta di questa esecuzione sarà aggiornata soltanto dopo il successo della validazione, del deployment Pages e del riscontro del run nel sito pubblico."
         }
       }
     },

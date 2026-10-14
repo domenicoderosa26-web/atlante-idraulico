@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-14T08:12:49Z",
+  "checked_at": "2026-10-14T08:15:39Z",
   "national": {
     "state": "in_attesa",
     "last_completed_at": "2026-10-13T14:44:25+02:00",
@@ -104,7 +104,7 @@
     "publication": {
       "outcome": "in_attesa",
       "last_valid_result": "published_github_pages",
-      "note": "La ricevuta sarà aggiornata soltanto dopo il successo della validazione, del deployment Pages e del riscontro del run nel sito pubblico."
+      "note": "La ricevuta di questa esecuzione sarà aggiornata soltanto dopo il successo della validazione, del deployment Pages e del riscontro del run nel sito pubblico."
     },
     "external_execution_verified": false,
     "legacy_completion_marker": "2026-09-25",
@@ -364,5 +364,5 @@
     }
   ],
   "has_errors": false,
-  "repository_sha": "30cac1c1918c1be5b0f6351e69f6ceb5bde3108d"
+  "repository_sha": "09675ef8d29fd448da7a3a2726940d0f24dc6387"
 }

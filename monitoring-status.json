@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-13T20:16:53Z",
+  "checked_at": "2026-10-14T08:12:49Z",
   "national": {
-    "state": "completato",
+    "state": "in_attesa",
     "last_completed_at": "2026-10-13T14:44:25+02:00",
-    "expected_date": "2026-10-13",
+    "expected_date": "2026-10-14",
     "deadline_local": "16:00 Europe/Rome",
     "checkpoint_end": "2026-10-13T12:44:25Z",
     "checkpoint_consistent": true,
@@ -72,12 +72,11 @@
   },
   "territorial": {
     "state": "parziale",
-    "date": "2026-10-13",
+    "date": "2026-10-14",
     "evidence": "data.json:runs[0]",
-    "summary": "Censita la D.G.P. Bolzano 836/2026, che approva una modifica del piano delle zone di pericolo di Tesimo, area Talmühle a Narano, per la sola componente frane. L’efficacia resta subordinata alla pubblicazione nel Bollettino Ufficiale; le fonti non acquisite integralmente sono registrate come limiti, senza dedurre assenza di nuovi atti.",
+    "summary": "Ricognizione senza nuove schede o modifiche normative pubblicabili nel perimetro effettivamente letto. Le fonti non acquisite integralmente sono registrate come limiti, senza dedurre assenza di nuovi atti.",
     "sources_checked": [
       "bz23",
-      "bz-tesimo-pzp-836-2026",
       "dist-centr",
       "dist-po",
       "dist-merid"
@@ -85,14 +84,13 @@
     "source_urls": [
       "https://giunta-provinciale.provincia.bz.it/it/delibere",
       "https://giunta-provinciale.provincia.bz.it/it/delibere?page=2",
-      "https://api.integrations.services.siag.it/delibere/v1/delibere/mIFPFBXQbhGbjYgSba0oIw%3D%3D/document?tstmp=1791817331811",
       "https://aubac.it/",
       "https://www.adbpo.it/",
       "https://pianoalluvioni.adbpo.it/",
       "https://www.distrettoappenninomeridionale.it/"
     ],
     "territories": [
-      "Provincia autonoma di Bolzano: prima pagina della seduta del 9 ottobre 2026 e D.G.P. 836/2026",
+      "Provincia autonoma di Bolzano: prima pagina della seduta del 9 ottobre 2026",
       "Appennino Centrale: homepage e notizie recenti",
       "Distretto del Po: homepage generale e portale Piano Alluvioni",
       "Appennino Meridionale: homepage e accessi agli strumenti di piano"
@@ -104,34 +102,18 @@
       "Appennino Settentrionale: la pagina ufficiale PGRA ha restituito un errore del lettore; la fonte non è considerata controllata."
     ],
     "publication": {
-      "outcome": "pubblicato",
-      "commit_sha": "0edf88219c1209e8bccee6add5e944194a9cbceb",
-      "commit_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/commit/0edf88219c1209e8bccee6add5e944194a9cbceb",
-      "verified_at": "2026-10-13T10:05:24+02:00",
-      "site_url": "https://domenicoderosa26-web.github.io/atlante-idraulico/",
-      "deployment_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/38366489844",
-      "verification": {
-        "outcome": "success",
-        "deployed_head_sha": "0edf88219c1209e8bccee6add5e944194a9cbceb",
-        "data": {
-          "updatedAt": "2026-10-13",
-          "records": 120,
-          "run_id": "local-territorial-20261013-095524",
-          "outcome": "parziale"
-        },
-        "site_loading": "Edizione 13/10/2026 caricata con 120 schede e 14 argomenti canonici; la D.G.P. Bolzano 836/2026 e il run territoriale del 13 ottobre 2026 sono visibili nel sito pubblico."
-      },
+      "outcome": "in_attesa",
       "last_valid_result": "published_github_pages",
-      "publication_history": [
-        {
-          "outcome": "in_attesa",
-          "note": "La ricevuta sarà aggiornata soltanto dopo il successo della validazione, del deployment Pages e del riscontro del run nel sito pubblico."
-        }
-      ]
+      "note": "La ricevuta sarà aggiornata soltanto dopo il successo della validazione, del deployment Pages e del riscontro del run nel sito pubblico."
     },
     "external_execution_verified": false,
     "legacy_completion_marker": "2026-09-25",
-    "repeated_unavailability": []
+    "repeated_unavailability": [
+      {
+        "error": "Sardegna: la pagina ufficiale delle determinazioni ha restituito un timeout; la fonte non è considerata controllata.",
+        "runs": 2
+      }
+    ]
   },
   "anomalies": [
     {
@@ -139,7 +121,19 @@
       "severity": "warning",
       "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
       "evidence": "data.json:runs[0]",
-      "event_id": "0976389a1e8697ffbf226798"
+      "event_id": "549cc9079b69ed9459a7b75b"
+    },
+    {
+      "code": "TERRITORIAL_REPEATED_UNAVAILABILITY",
+      "severity": "warning",
+      "message": "La stessa indisponibilità è documentata in più ricognizioni recenti.",
+      "evidence": [
+        {
+          "error": "Sardegna: la pagina ufficiale delle determinazioni ha restituito un timeout; la fonte non è considerata controllata.",
+          "runs": 2
+        }
+      ],
+      "event_id": "25e9eaf513c29c3263072b30"
     }
   ],
   "events": [
@@ -346,8 +340,29 @@
       "evidence": "data.json:runs[0]",
       "event_id": "0976389a1e8697ffbf226798",
       "recorded_at": "2026-10-13T08:02:41Z"
+    },
+    {
+      "code": "TERRITORIAL_PARZIALE",
+      "severity": "warning",
+      "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
+      "evidence": "data.json:runs[0]",
+      "event_id": "549cc9079b69ed9459a7b75b",
+      "recorded_at": "2026-10-14T08:12:49Z"
+    },
+    {
+      "code": "TERRITORIAL_REPEATED_UNAVAILABILITY",
+      "severity": "warning",
+      "message": "La stessa indisponibilità è documentata in più ricognizioni recenti.",
+      "evidence": [
+        {
+          "error": "Sardegna: la pagina ufficiale delle determinazioni ha restituito un timeout; la fonte non è considerata controllata.",
+          "runs": 2
+        }
+      ],
+      "event_id": "25e9eaf513c29c3263072b30",
+      "recorded_at": "2026-10-14T08:12:49Z"
     }
   ],
   "has_errors": false,
-  "repository_sha": "57f5dade40bb541143d8b495ee16b584a8dc7b06"
+  "repository_sha": "30cac1c1918c1be5b0f6351e69f6ceb5bde3108d"
 }

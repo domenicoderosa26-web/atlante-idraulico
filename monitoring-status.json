@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-14T18:42:41Z",
+  "checked_at": "2026-10-15T08:08:10Z",
   "national": {
-    "state": "completato",
+    "state": "in_attesa",
     "last_completed_at": "2026-10-14T12:16:16+02:00",
-    "expected_date": "2026-10-14",
+    "expected_date": "2026-10-15",
     "deadline_local": "16:00 Europe/Rome",
     "checkpoint_end": "2026-10-14T10:16:16Z",
     "checkpoint_consistent": true,
@@ -72,9 +72,9 @@
   },
   "territorial": {
     "state": "parziale",
-    "date": "2026-10-14",
+    "date": "2026-10-15",
     "evidence": "data.json:runs[0]",
-    "summary": "Ricognizione senza nuove schede o modifiche normative pubblicabili nel perimetro effettivamente letto. Le fonti non acquisite integralmente sono registrate come limiti, senza dedurre assenza di nuovi atti.",
+    "summary": "Ricognizione senza nuove schede o modifiche normative pubblicabili nel perimetro effettivamente letto. La notizia del 15 ottobre sul portale del Distretto Po riguarda un corso di formazione e non un atto PAI o PGRA; le fonti non acquisite integralmente sono registrate come limiti, senza dedurre assenza di nuovi atti.",
     "sources_checked": [
       "bz23",
       "dist-centr",
@@ -86,13 +86,14 @@
       "https://giunta-provinciale.provincia.bz.it/it/delibere?page=2",
       "https://aubac.it/",
       "https://www.adbpo.it/",
+      "https://www.adbpo.it/corso-di-formazione-tra-acqua-e-terra-turismo-sostenibile-nelle-aree-protette-natura-2000-28-29-30-ottobre-2026-isola-serafini-info-point-monticelli-don/",
       "https://pianoalluvioni.adbpo.it/",
       "https://www.distrettoappenninomeridionale.it/"
     ],
     "territories": [
       "Provincia autonoma di Bolzano: prima pagina della seduta del 9 ottobre 2026",
       "Appennino Centrale: homepage e notizie recenti",
-      "Distretto del Po: homepage generale e portale Piano Alluvioni",
+      "Distretto del Po: homepage, notizia del 15 ottobre 2026 e portale Piano Alluvioni",
       "Appennino Meridionale: homepage e accessi agli strumenti di piano"
     ],
     "errors": [
@@ -102,37 +103,16 @@
       "Appennino Settentrionale: la pagina ufficiale PGRA ha restituito un errore del lettore; la fonte non è considerata controllata."
     ],
     "publication": {
-      "outcome": "pubblicato",
-      "commit_sha": "09675ef8d29fd448da7a3a2726940d0f24dc6387",
-      "commit_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/commit/09675ef8d29fd448da7a3a2726940d0f24dc6387",
-      "verified_at": "2026-10-14T10:17:34+02:00",
-      "site_url": "https://domenicoderosa26-web.github.io/atlante-idraulico/",
-      "deployment_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/38533805025",
-      "verification": {
-        "outcome": "success",
-        "deployed_head_sha": "09675ef8d29fd448da7a3a2726940d0f24dc6387",
-        "data": {
-          "updatedAt": "2026-10-14",
-          "records": 120,
-          "run_id": "local-territorial-20261014-100448",
-          "outcome": "parziale"
-        },
-        "site_loading": "Edizione 14/10/2026 caricata con 120 schede e 14 argomenti canonici; il run territoriale del 14 ottobre 2026 è presente nel data.json pubblico."
-      },
+      "outcome": "in_attesa",
       "last_valid_result": "published_github_pages",
-      "publication_history": [
-        {
-          "outcome": "in_attesa",
-          "note": "La ricevuta di questa esecuzione sarà aggiornata soltanto dopo il successo della validazione, del deployment Pages e del riscontro del run nel sito pubblico."
-        }
-      ]
+      "note": "La ricevuta di questa esecuzione sarà aggiornata soltanto dopo il successo della validazione, del deployment Pages e del riscontro del run nel sito pubblico."
     },
     "external_execution_verified": false,
     "legacy_completion_marker": "2026-09-25",
     "repeated_unavailability": [
       {
         "error": "Sardegna: la pagina ufficiale delle determinazioni ha restituito un timeout; la fonte non è considerata controllata.",
-        "runs": 2
+        "runs": 3
       }
     ]
   },
@@ -142,7 +122,7 @@
       "severity": "warning",
       "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
       "evidence": "data.json:runs[0]",
-      "event_id": "549cc9079b69ed9459a7b75b"
+      "event_id": "a3d43eb595b5fd65693a149f"
     },
     {
       "code": "TERRITORIAL_REPEATED_UNAVAILABILITY",
@@ -151,10 +131,10 @@
       "evidence": [
         {
           "error": "Sardegna: la pagina ufficiale delle determinazioni ha restituito un timeout; la fonte non è considerata controllata.",
-          "runs": 2
+          "runs": 3
         }
       ],
-      "event_id": "25e9eaf513c29c3263072b30"
+      "event_id": "5062beda731e3477f6df1f8f"
     }
   ],
   "events": [
@@ -382,8 +362,29 @@
       ],
       "event_id": "25e9eaf513c29c3263072b30",
       "recorded_at": "2026-10-14T08:12:49Z"
+    },
+    {
+      "code": "TERRITORIAL_PARZIALE",
+      "severity": "warning",
+      "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
+      "evidence": "data.json:runs[0]",
+      "event_id": "a3d43eb595b5fd65693a149f",
+      "recorded_at": "2026-10-15T08:08:10Z"
+    },
+    {
+      "code": "TERRITORIAL_REPEATED_UNAVAILABILITY",
+      "severity": "warning",
+      "message": "La stessa indisponibilità è documentata in più ricognizioni recenti.",
+      "evidence": [
+        {
+          "error": "Sardegna: la pagina ufficiale delle determinazioni ha restituito un timeout; la fonte non è considerata controllata.",
+          "runs": 3
+        }
+      ],
+      "event_id": "5062beda731e3477f6df1f8f",
+      "recorded_at": "2026-10-15T08:08:10Z"
     }
   ],
   "has_errors": false,
-  "repository_sha": "2d595d27ed27aab1032016ef9bed40fc872508db"
+  "repository_sha": "52609f8afa26f6f49d6d41250f352c598b160ca7"
 }

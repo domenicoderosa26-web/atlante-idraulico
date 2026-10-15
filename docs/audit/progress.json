@@ -8847,11 +8847,11 @@
     "notice": "Controllo tecnico: identità candidata, disponibilità e variazioni non attestano contenuto, vigenza o abrogazione.",
     "source_queue": "docs/audit/2026-10-10/completamento/attivita-residue.json",
     "selected": [
-      "tos-dpgr60-2016",
-      "abr17",
-      "abr31"
+      "abruzzo-scarichi-906-2022",
+      "appalti36",
+      "aprilia"
     ],
-    "requests": 2,
+    "requests": 0,
     "tasks": {
       "sar-pai-frane-42-2026": {
         "task_version": "3141b41c28ccd674995b0afeb1ff9e567ea772033f1cd4d621e62ae144cae225",
@@ -8888,6 +8888,18 @@
       "abr31": {
         "task_version": "8030a0242bf25b08f84bfbb2824b3e03ed5a44b3587102a9ccfb71aaa631a4ef",
         "prepared_at": "2026-10-12T13:32:54.921639+00:00"
+      },
+      "abruzzo-scarichi-906-2022": {
+        "task_version": "b74734f308fedd506fd2ac0ad60cf72f04c952bb98d6f1af9554351a20a2b555",
+        "prepared_at": "2026-10-15T10:16:43.766555+00:00"
+      },
+      "appalti36": {
+        "task_version": "b86807da7d933c1b3b32204866afc2f42aa4c7c124a4bc8480d5a3f8228e89d6",
+        "prepared_at": "2026-10-15T10:16:43.766555+00:00"
+      },
+      "aprilia": {
+        "task_version": "b5bd94627f5a58cad27ed90b507e3c85758551aabccb827af64accedde13a9c2",
+        "prepared_at": "2026-10-15T10:16:43.766555+00:00"
       }
     },
     "seed_receipts": "docs/audit/2026-10-10/completamento/ricevute-accesso.json",
@@ -9098,7 +9110,7 @@
             "identity_candidate": null,
             "body_complete": false,
             "checked_at": "2026-10-12T13:32:54.921639+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "needs_attention"
           }
         ]
@@ -9177,7 +9189,7 @@
             "identity_candidate": null,
             "body_complete": false,
             "checked_at": "2026-10-12T13:32:54.921639+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "needs_attention"
           }
         ]

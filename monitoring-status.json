@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-15T08:08:10Z",
+  "checked_at": "2026-10-15T08:13:21Z",
   "national": {
     "state": "in_attesa",
     "last_completed_at": "2026-10-14T12:16:16+02:00",
@@ -103,9 +103,30 @@
       "Appennino Settentrionale: la pagina ufficiale PGRA ha restituito un errore del lettore; la fonte non è considerata controllata."
     ],
     "publication": {
-      "outcome": "in_attesa",
+      "outcome": "pubblicato",
+      "commit_sha": "52609f8afa26f6f49d6d41250f352c598b160ca7",
+      "commit_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/commit/52609f8afa26f6f49d6d41250f352c598b160ca7",
+      "verified_at": "2026-10-15T10:10:19+02:00",
+      "site_url": "https://domenicoderosa26-web.github.io/atlante-idraulico/",
+      "deployment_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/38703460798",
+      "verification": {
+        "outcome": "success",
+        "deployed_head_sha": "52609f8afa26f6f49d6d41250f352c598b160ca7",
+        "data": {
+          "updatedAt": "2026-10-15",
+          "records": 120,
+          "run_id": "local-territorial-20261015-100448",
+          "outcome": "parziale"
+        },
+        "site_loading": "Edizione 15/10/2026 caricata con 120 schede e 14 argomenti canonici; il run territoriale del 15 ottobre 2026 è presente nel data.json pubblico."
+      },
       "last_valid_result": "published_github_pages",
-      "note": "La ricevuta di questa esecuzione sarà aggiornata soltanto dopo il successo della validazione, del deployment Pages e del riscontro del run nel sito pubblico."
+      "publication_history": [
+        {
+          "outcome": "in_attesa",
+          "note": "La ricevuta di questa esecuzione sarà aggiornata soltanto dopo il successo della validazione, del deployment Pages e del riscontro del run nel sito pubblico."
+        }
+      ]
     },
     "external_execution_verified": false,
     "legacy_completion_marker": "2026-09-25",
@@ -386,5 +407,5 @@
     }
   ],
   "has_errors": false,
-  "repository_sha": "52609f8afa26f6f49d6d41250f352c598b160ca7"
+  "repository_sha": "8c6d8060f3fdcd46ab5808f021db6209d7b111c7"
 }

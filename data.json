@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-15",
+  "updatedAt": "2026-10-16",
   "scope": "Catalogo selettivo con controllo mirato dei CAM e della disciplina delle acque di prima pioggia per tutte le regioni. La verifica locale e autorizzativa resta necessaria.",
   "automation": {
     "enabled": true,
@@ -15381,6 +15381,103 @@
     }
   ],
   "runs": [
+    {
+      "date": "2026-10-16",
+      "type": "Controllo territoriale · ricognizione parziale",
+      "summary": "Ricognizione senza nuove schede o modifiche normative pubblicabili nel perimetro effettivamente letto. Sono tornate accessibili le pagine ufficiali di Sardegna, Sicilia, PGRA Po e Appennino Settentrionale; Villanovafranca resta in attesa di pubblicazione sul BURAS e gli aggiornamenti recenti degli altri portali non costituiscono nuovi atti PAI o PGRA.",
+      "checked": [
+        "dist-sard",
+        "sard-villanovafranca-reticolo-159-2026",
+        "bz23",
+        "dist-centr",
+        "dist-po",
+        "dist-sett",
+        "dist-merid",
+        "dist-sici"
+      ],
+      "territories": [
+        "Sardegna: elenco delle varianti PAI approvate e stato di pubblicazione della determinazione 159/2026 di Villanovafranca",
+        "Provincia autonoma di Bolzano: prima pagina della seduta del 9 ottobre 2026",
+        "Appennino Centrale: homepage e notizie recenti",
+        "Distretto del Po: homepage e portale Piano Alluvioni",
+        "Appennino Settentrionale: homepage e notizie recenti",
+        "Appennino Meridionale: homepage e accessi agli strumenti di piano",
+        "Sicilia: pagina ufficiale della normativa PAI"
+      ],
+      "read_urls": [
+        "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/approvazione-varianti-pai/",
+        "https://autoritadibacino.regione.sardegna.it/ap/determinazione-n-159-prot-n-11256-del-25-09-2026/",
+        "https://giunta-provinciale.provincia.bz.it/it/delibere",
+        "https://giunta-provinciale.provincia.bz.it/it/delibere?page=2",
+        "https://aubac.it/",
+        "https://www.adbpo.it/",
+        "https://pianoalluvioni.adbpo.it/",
+        "https://www.appenninosettentrionale.it/itc/",
+        "https://www.distrettoappenninomeridionale.it/",
+        "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa"
+      ],
+      "source_findings": [
+        {
+          "source_url": "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/approvazione-varianti-pai/",
+          "result": "L'elenco ufficiale è stato acquisito integralmente nella pagina corrente: la determinazione più recente esposta resta la n. 162 del 28 settembre 2026 per Barrali, già censita; seguono le determinazioni 161, 160 e 159 del 25 settembre 2026. Non compare un provvedimento successivo nella pagina letta."
+        },
+        {
+          "source_url": "https://autoritadibacino.regione.sardegna.it/ap/determinazione-n-159-prot-n-11256-del-25-09-2026/",
+          "result": "La pagina ufficiale della determinazione 159/2026 di Villanovafranca indica ancora «In attesa di pubblicazione sul B.U.R.A.S»; il riscontro non modifica la revisione documentale del 9 ottobre né la data di lettura del PDF."
+        },
+        {
+          "source_url": "https://giunta-provinciale.provincia.bz.it/it/delibere",
+          "result": "L'ultima seduta esposta resta quella del 9 ottobre 2026, con venti delibere. Nei dieci oggetti visibili della prima pagina compare la D.G.P. 836/2026 di Tesimo già censita; non compare un ulteriore PZP."
+        },
+        {
+          "source_url": "https://aubac.it/",
+          "result": "Le nuove evidenze del 14 e 15 ottobre riguardano interventi pubblici ed eventi su clima, risorse e rischio idrogeologico; la più recente notizia di piano resta la cartografia P.S.5 del 6 ottobre già censita. Nessun nuovo provvedimento PAI o PGRA è stato identificato nella homepage."
+        },
+        {
+          "source_url": "https://www.adbpo.it/",
+          "result": "La notizia più recente resta il corso di formazione del 15 ottobre sul turismo sostenibile; non è un atto PAI o PGRA."
+        },
+        {
+          "source_url": "https://pianoalluvioni.adbpo.it/",
+          "result": "Il portale, nuovamente acquisibile, mantiene come aggiornamenti più recenti le mappe PGRA 2027–2033 del 22 gennaio 2026 e la consultazione della Valutazione Globale Provvisoria del 22 dicembre 2025."
+        },
+        {
+          "source_url": "https://www.appenninosettentrionale.it/itc/",
+          "result": "La homepage, nuovamente acquisibile, espone come notizia più recente dell'8 ottobre 2026 la banca dati ITASED sul trasporto dei sedimenti e altre comunicazioni istituzionali; nel contenuto letto non compare un nuovo atto PAI o PGRA."
+        },
+        {
+          "source_url": "https://www.distrettoappenninomeridionale.it/",
+          "result": "La homepage risulta aggiornata il 22 settembre 2026 ed espone gli accessi agli strumenti PAI, PGRA e al progetto di piano stralcio alluvioni; nel contenuto acquisito non compare un nuovo atto successivo."
+        },
+        {
+          "source_url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa",
+          "result": "La pagina ufficiale della normativa PAI, nuovamente acquisibile, reca ultimo aggiornamento 9 luglio 2026 e la modifica alla circolare applicativa del 23 giugno 2026; nel solo contenuto della pagina non compare un atto PAI successivo."
+        }
+      ],
+      "errors": [
+        "Bolzano: il collegamento alla seconda pagina restituisce nuovamente i primi dieci risultati e una sezione in caricamento; i venti atti della seduta del 9 ottobre non sono stati verificati integralmente."
+      ],
+      "limitations": [
+        "Ricognizione circoscritta alle URL elencate e ai contenuti effettivamente esposti; non copre integralmente regioni, province, comuni, gestori, albi pretori, allegati, cartografie o catene degli atti.",
+        "L'assenza di modifiche pubblicabili vale soltanto per il perimetro letto. Nessuna conclusione è tratta dalla seconda pagina Bolzano non acquisita correttamente o dalle sezioni non lette.",
+        "Le pagine Sicilia e Appennino Settentrionale sono state verificate rispettivamente per la normativa PAI e per le notizie della homepage, non come controllo esaustivo di tutti i provvedimenti e allegati.",
+        "L'audit documentale incrementale della Fase 3 resta separato e non è stato modificato da questo controllo."
+      ],
+      "updated_records": [],
+      "new_records": [],
+      "execution": {
+        "id": "local-territorial-20261016-100349",
+        "id_origin": "Identificativo locale generato per questa esecuzione; identificativo del servizio non disponibile.",
+        "started_at": "2026-10-16T10:03:49+02:00",
+        "finished_at": "2026-10-16T10:10:51+02:00",
+        "outcome": "parziale",
+        "publication": {
+          "outcome": "in_attesa",
+          "last_valid_result": "published_github_pages",
+          "note": "La ricevuta di questa esecuzione sarà aggiornata soltanto dopo il successo della validazione, del deployment Pages e del riscontro del run nel sito pubblico."
+        }
+      }
+    },
     {
       "date": "2026-10-15",
       "type": "Controllo territoriale · ricognizione parziale",

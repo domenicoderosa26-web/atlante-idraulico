@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-16T08:13:46Z",
+  "checked_at": "2026-10-16T08:18:37Z",
   "national": {
     "state": "in_attesa",
     "last_completed_at": "2026-10-15T11:58:23+02:00",
@@ -110,9 +110,30 @@
       "Bolzano: il collegamento alla seconda pagina restituisce nuovamente i primi dieci risultati e una sezione in caricamento; i venti atti della seduta del 9 ottobre non sono stati verificati integralmente."
     ],
     "publication": {
-      "outcome": "in_attesa",
+      "outcome": "pubblicato",
+      "commit_sha": "0150e91c6602b6472452d3db294361dc2b2384d8",
+      "commit_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/commit/0150e91c6602b6472452d3db294361dc2b2384d8",
+      "verified_at": "2026-10-16T10:16:44+02:00",
+      "site_url": "https://domenicoderosa26-web.github.io/atlante-idraulico/",
+      "deployment_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/38872235460",
+      "verification": {
+        "outcome": "success",
+        "deployed_head_sha": "0150e91c6602b6472452d3db294361dc2b2384d8",
+        "data": {
+          "updatedAt": "2026-10-16",
+          "records": 120,
+          "run_id": "local-territorial-20261016-100349",
+          "outcome": "parziale"
+        },
+        "site_loading": "Edizione 16/10/2026 caricata con 120 schede e 14 argomenti canonici; il run territoriale del 16 ottobre 2026 è presente nel data.json pubblico."
+      },
       "last_valid_result": "published_github_pages",
-      "note": "La ricevuta di questa esecuzione sarà aggiornata soltanto dopo il successo della validazione, del deployment Pages e del riscontro del run nel sito pubblico."
+      "publication_history": [
+        {
+          "outcome": "in_attesa",
+          "note": "La ricevuta di questa esecuzione sarà aggiornata soltanto dopo il successo della validazione, del deployment Pages e del riscontro del run nel sito pubblico."
+        }
+      ]
     },
     "external_execution_verified": false,
     "legacy_completion_marker": "2026-09-25",
@@ -414,5 +435,5 @@
     }
   ],
   "has_errors": false,
-  "repository_sha": "0150e91c6602b6472452d3db294361dc2b2384d8"
+  "repository_sha": "fa7a5d3fc3e6598ec0f11821dde47d590652841e"
 }

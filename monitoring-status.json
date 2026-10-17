@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-17T08:07:43Z",
+  "checked_at": "2026-10-17T08:11:46Z",
   "national": {
     "state": "in_attesa",
     "last_completed_at": "2026-10-16T11:52:56+02:00",
@@ -110,9 +110,30 @@
     ],
     "errors": [],
     "publication": {
-      "outcome": "in_attesa",
-      "note": "La ricevuta di questa esecuzione sarà aggiornata soltanto dopo il successo della validazione, del deployment Pages e del riscontro del run nel sito pubblico.",
-      "last_valid_result": "published_github_pages"
+      "outcome": "pubblicato",
+      "commit_sha": "c8ae3ff3ac905da3672b2fc23e2cef5d2a216034",
+      "commit_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/commit/c8ae3ff3ac905da3672b2fc23e2cef5d2a216034",
+      "verified_at": "2026-10-17T10:10:31+02:00",
+      "site_url": "https://domenicoderosa26-web.github.io/atlante-idraulico/",
+      "deployment_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/39016165326",
+      "verification": {
+        "outcome": "success",
+        "deployed_head_sha": "fc6dd883d8d5602fdd48c982bb6d4d35c9656fb0",
+        "data": {
+          "updatedAt": "2026-10-17",
+          "records": 123,
+          "run_id": "local-territorial-20261017-095653",
+          "outcome": "parziale"
+        },
+        "site_loading": "Edizione 17/10/2026 caricata con 123 schede e 14 argomenti canonici ordinati A–Z; le tre nuove schede Bolzano e il run territoriale del 17 ottobre 2026 sono presenti nel data.json pubblico."
+      },
+      "last_valid_result": "published_github_pages",
+      "publication_history": [
+        {
+          "outcome": "in_attesa",
+          "note": "La ricevuta di questa esecuzione sarà aggiornata soltanto dopo il successo della validazione, del deployment Pages e del riscontro del run nel sito pubblico."
+        }
+      ]
     },
     "external_execution_verified": false,
     "legacy_completion_marker": "2026-09-25",
@@ -405,5 +426,5 @@
     }
   ],
   "has_errors": false,
-  "repository_sha": "c8ae3ff3ac905da3672b2fc23e2cef5d2a216034"
+  "repository_sha": "55e6e125eb5427a2f77ee57ebbf040ed25afe551"
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-17",
   "scope": "Catalogo selettivo con controllo mirato dei CAM e della disciplina delle acque di prima pioggia per tutte le regioni. La verifica locale e autorizzativa resta necessaria.",
   "automation": {
     "enabled": true,
@@ -14763,6 +14763,302 @@
         ],
         "record_version": "6b9bd28665fb3bb2a4104604ef6dce415b9b9661071eeafcfa615984ef88a00d"
       }
+    },
+    {
+      "id": "bz-castelrotto-pzp-860-2026",
+      "ref": "D.G.P. Bolzano 860/2026",
+      "title": "Modifica PZP Castelrotto · Rio Nero",
+      "level": "Provinciale",
+      "regions": [
+        "Trentino-Alto Adige"
+      ],
+      "topics": [
+        "PZP - Pericolosità e rischio idraulico"
+      ],
+      "date": "2026-10-16",
+      "url": "https://giunta-provinciale.provincia.bz.it/it/delibere",
+      "summary": "Approvata la modifica della carta delle zone di pericolo idraulico per il Rio Nero, nel tratto presso l’Hotel Sensoria Dolomites nel Comune di Castelrotto.",
+      "focus": [
+        "Modifica circoscritta ai pericoli idraulici del Rio Nero (B.150).",
+        "La carta delle zone di pericolo è sostituita nell’ambito interessato.",
+        "L’efficacia decorrerà dal giorno successivo alla pubblicazione nel Bollettino Ufficiale regionale."
+      ],
+      "kind": "Piano",
+      "status": "Approvazione verificata; efficacia subordinata alla pubblicazione nel Bollettino Ufficiale",
+      "source_kind": "Delibera ufficiale della Provincia autonoma di Bolzano",
+      "note": "La D.G.P. 860/2026 approva la modifica PZP per la componente idraulica. La pubblicazione nel Bollettino Ufficiale, necessaria per l’entrata in vigore, non è stata ancora riscontrata; cartografia e relazione sono menzionate ma non allegate al PDF.",
+      "checked": "2026-10-17",
+      "relations": [
+        {
+          "type": "Disciplina degli interventi nelle zone di pericolo",
+          "id": "bz23"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-17",
+          "text": "Acquisita e letta la D.G.P. 860/2026: approvazione e componente idraulica verificate; efficacia e cartografia restano da accertare sulle rispettive fonti ufficiali."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/pvqlbdi12TCWJ9BMpbxLcw%3D%3D/document?tstmp=1792225000000",
+          "label": "PDF ufficiale · D.G.P. Bolzano 860/2026",
+          "format": "pdf"
+        }
+      ],
+      "document_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/pvqlbdi12TCWJ9BMpbxLcw%3D%3D/document?tstmp=1792225000000",
+      "document_label": "Apri la delibera provinciale (PDF)",
+      "document_note": "Il dispositivo approva la modifica e subordina l’entrata in vigore al giorno successivo alla pubblicazione nel Bollettino Ufficiale.",
+      "documentary_review": {
+        "checked_at": "2026-10-17",
+        "scope": "Lettura integrale della D.G.P. 860/2026 per identità, iter, componente di pericolosità, approvazione, ambito territoriale e condizione di efficacia della singola modifica PZP.",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://api.integrations.services.siag.it/delibere/v1/delibere/pvqlbdi12TCWJ9BMpbxLcw%3D%3D/document?tstmp=1792225000000"
+        ],
+        "claims": [
+          {
+            "aspect": "identity",
+            "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/pvqlbdi12TCWJ9BMpbxLcw%3D%3D/document?tstmp=1792225000000",
+            "locator": "pagina PDF 1, numero, seduta e oggetto",
+            "finding": "D.G.P. Bolzano 860/2026 del 16 ottobre 2026; Comune di Castelrotto; modifica del piano delle zone di pericolo per il Rio Nero (B.150)."
+          },
+          {
+            "aspect": "approval",
+            "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/pvqlbdi12TCWJ9BMpbxLcw%3D%3D/document?tstmp=1792225000000",
+            "locator": "pagine PDF 2–3, motivazione e dispositivo",
+            "finding": "Il Consiglio comunale ha adottato definitivamente la proposta il 16 settembre 2026; la Giunta provinciale approva la modifica come proposta dal Comune."
+          },
+          {
+            "aspect": "topics",
+            "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/pvqlbdi12TCWJ9BMpbxLcw%3D%3D/document?tstmp=1792225000000",
+            "locator": "pagine PDF 1–3, oggetto ed elenco degli elaborati esaminati",
+            "finding": "La modifica riguarda espressamente la carta delle zone di pericolo idraulico del Rio Nero; non è documentata una componente frane o valanghe."
+          },
+          {
+            "aspect": "territory",
+            "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/pvqlbdi12TCWJ9BMpbxLcw%3D%3D/document?tstmp=1792225000000",
+            "locator": "pagina PDF 3, dispositivo sulla sostituzione cartografica",
+            "finding": "La carta è sostituita soltanto nel tratto del Rio Nero presso l’Hotel Sensoria Dolomites interessato dalla modifica."
+          },
+          {
+            "aspect": "effectiveness",
+            "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/pvqlbdi12TCWJ9BMpbxLcw%3D%3D/document?tstmp=1792225000000",
+            "locator": "pagina PDF 3, ultimo paragrafo del dispositivo",
+            "finding": "La deliberazione dispone l’entrata in vigore il giorno successivo alla pubblicazione nel Bollettino Ufficiale; la data di pubblicazione non è accertata in questo controllo."
+          }
+        ],
+        "limitations": [
+          "Non acquisita la pubblicazione nel Bollettino Ufficiale: la decorrenza di efficacia non è determinata.",
+          "Il PDF contiene la deliberazione ma non la carta modificata né la relazione illustrativa.",
+          "Non verificata l’assenza di modifiche successive né la vigenza complessiva del PZP comunale."
+        ],
+        "pending": [
+          "Verificare numero e data del Bollettino Ufficiale e registrare l’eventuale decorrenza di efficacia.",
+          "Acquisire dal deposito comunale o dal portale cartografico gli elaborati della variante e confrontare le delimitazioni."
+        ],
+        "record_version": "b4d31d8ee572bfe700db51d67921b1bb76d90fd4b252e57f69befb8adbd8c8dd"
+      }
+    },
+    {
+      "id": "bz-laion-pzp-859-2026",
+      "ref": "D.G.P. Bolzano 859/2026",
+      "title": "Modifica PZP Laion · maso Marzun ad Albions",
+      "level": "Provinciale",
+      "regions": [
+        "Trentino-Alto Adige"
+      ],
+      "topics": [
+        "PAI - Pericolosità e rischio frane"
+      ],
+      "date": "2026-10-16",
+      "url": "https://giunta-provinciale.provincia.bz.it/it/delibere",
+      "summary": "Approvata la modifica della carta delle zone di pericolo da frana nell’area del maso Marzun ad Albions, Comune di Laion.",
+      "focus": [
+        "Modifica circoscritta alla componente frane nell’area del maso Marzun ad Albions.",
+        "La carta delle zone di pericolo è sostituita nell’ambito interessato.",
+        "L’efficacia decorrerà dal giorno successivo alla pubblicazione nel Bollettino Ufficiale regionale."
+      ],
+      "kind": "Piano",
+      "status": "Approvazione verificata; efficacia subordinata alla pubblicazione nel Bollettino Ufficiale",
+      "source_kind": "Delibera ufficiale della Provincia autonoma di Bolzano",
+      "note": "La D.G.P. 859/2026 approva la modifica PZP per la sola componente frane. La pubblicazione nel Bollettino Ufficiale, necessaria per l’entrata in vigore, non è stata ancora riscontrata; cartografia e relazione sono menzionate ma non allegate al PDF.",
+      "checked": "2026-10-17",
+      "relations": [
+        {
+          "type": "Disciplina degli interventi nelle zone di pericolo",
+          "id": "bz23"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-17",
+          "text": "Acquisita e letta la D.G.P. 859/2026: approvazione e componente frane verificate; efficacia e cartografia restano da accertare sulle rispettive fonti ufficiali."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/LQRr5i8YiVHPnCYlRns6Hg%3D%3D/document?tstmp=1792225000000",
+          "label": "PDF ufficiale · D.G.P. Bolzano 859/2026",
+          "format": "pdf"
+        }
+      ],
+      "document_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/LQRr5i8YiVHPnCYlRns6Hg%3D%3D/document?tstmp=1792225000000",
+      "document_label": "Apri la delibera provinciale (PDF)",
+      "document_note": "Il dispositivo approva la modifica e subordina l’entrata in vigore al giorno successivo alla pubblicazione nel Bollettino Ufficiale.",
+      "documentary_review": {
+        "checked_at": "2026-10-17",
+        "scope": "Lettura integrale della D.G.P. 859/2026 per identità, iter, componente di pericolosità, approvazione, ambito territoriale e condizione di efficacia della singola modifica PZP.",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://api.integrations.services.siag.it/delibere/v1/delibere/LQRr5i8YiVHPnCYlRns6Hg%3D%3D/document?tstmp=1792225000000"
+        ],
+        "claims": [
+          {
+            "aspect": "identity",
+            "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/LQRr5i8YiVHPnCYlRns6Hg%3D%3D/document?tstmp=1792225000000",
+            "locator": "pagina PDF 1, numero, seduta e oggetto",
+            "finding": "D.G.P. Bolzano 859/2026 del 16 ottobre 2026; Comune di Laion; modifica del piano delle zone di pericolo nell’area del maso Marzun ad Albions."
+          },
+          {
+            "aspect": "approval",
+            "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/LQRr5i8YiVHPnCYlRns6Hg%3D%3D/document?tstmp=1792225000000",
+            "locator": "pagine PDF 2–3, motivazione e dispositivo",
+            "finding": "Il Consiglio comunale ha adottato definitivamente la proposta il 21 settembre 2026; la Giunta provinciale approva la modifica come proposta dal Comune."
+          },
+          {
+            "aspect": "topics",
+            "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/LQRr5i8YiVHPnCYlRns6Hg%3D%3D/document?tstmp=1792225000000",
+            "locator": "pagine PDF 1–3, oggetto ed elenco degli elaborati esaminati",
+            "finding": "La modifica riguarda espressamente la carta delle zone di pericolo frane; non è documentata una componente idraulica o valanghiva."
+          },
+          {
+            "aspect": "territory",
+            "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/LQRr5i8YiVHPnCYlRns6Hg%3D%3D/document?tstmp=1792225000000",
+            "locator": "pagina PDF 3, dispositivo sulla sostituzione cartografica",
+            "finding": "La carta è sostituita soltanto nell’area del maso Marzun ad Albions interessata dalla modifica."
+          },
+          {
+            "aspect": "effectiveness",
+            "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/LQRr5i8YiVHPnCYlRns6Hg%3D%3D/document?tstmp=1792225000000",
+            "locator": "pagina PDF 3, ultimo paragrafo del dispositivo",
+            "finding": "La deliberazione dispone l’entrata in vigore il giorno successivo alla pubblicazione nel Bollettino Ufficiale; la data di pubblicazione non è accertata in questo controllo."
+          }
+        ],
+        "limitations": [
+          "Non acquisita la pubblicazione nel Bollettino Ufficiale: la decorrenza di efficacia non è determinata.",
+          "Il PDF contiene la deliberazione ma non la carta modificata né la relazione illustrativa.",
+          "Non verificata l’assenza di modifiche successive né la vigenza complessiva del PZP comunale."
+        ],
+        "pending": [
+          "Verificare numero e data del Bollettino Ufficiale e registrare l’eventuale decorrenza di efficacia.",
+          "Acquisire dal deposito comunale o dal portale cartografico gli elaborati della variante e confrontare le delimitazioni."
+        ],
+        "record_version": "de83af797369b26f7a30cd661116ef10fe19a2fdcc1c01ba5791831e85d95ccf"
+      }
+    },
+    {
+      "id": "bz-falzes-pzp-858-2026",
+      "ref": "D.G.P. Bolzano 858/2026",
+      "title": "Modifica PZP Falzes · particelle 927 e 1229/1",
+      "level": "Provinciale",
+      "regions": [
+        "Trentino-Alto Adige"
+      ],
+      "topics": [
+        "PAI - Pericolosità e rischio frane",
+        "PZP - Pericolosità e rischio idraulico"
+      ],
+      "date": "2026-10-16",
+      "url": "https://giunta-provinciale.provincia.bz.it/it/delibere",
+      "summary": "Approvato l’aggiornamento del Piano delle zone di pericolo nelle particelle 927 e 1229/1 del Comune di Falzes, coordinato con la destinazione urbanistica a verde pubblico.",
+      "focus": [
+        "Gli elaborati modificati comprendono la carta frane, valanghe e pericoli idraulici.",
+        "Aggiornamento circoscritto alle particelle 927 e 1229/1 C.C. Falzes.",
+        "L’efficacia decorrerà dal giorno successivo alla pubblicazione nel Bollettino Ufficiale regionale."
+      ],
+      "kind": "Piano",
+      "status": "Approvazione verificata; efficacia subordinata alla pubblicazione nel Bollettino Ufficiale",
+      "source_kind": "Delibera ufficiale della Provincia autonoma di Bolzano",
+      "note": "La D.G.P. 858/2026 approva congiuntamente modifiche urbanistiche, paesaggistiche e PZP. La carta esaminata comprende frane, valanghe e pericoli idraulici; il tag PZP resta riservato alla componente idraulica e frane/valanghe confluiscono nel tema frane. La pubblicazione nel Bollettino Ufficiale e gli elaborati cartografici restano da acquisire.",
+      "checked": "2026-10-17",
+      "relations": [
+        {
+          "type": "Disciplina degli interventi nelle zone di pericolo",
+          "id": "bz23"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-17",
+          "text": "Acquisita e letta la D.G.P. 858/2026: approvazione, ambito e componenti frane/valanghe/idraulica verificate; efficacia e cartografia restano da accertare sulle rispettive fonti ufficiali."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/j3ALmCPJpiwFSeNB-QwbRw%3D%3D/document?tstmp=1792225000000",
+          "label": "PDF ufficiale · D.G.P. Bolzano 858/2026",
+          "format": "pdf"
+        }
+      ],
+      "document_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/j3ALmCPJpiwFSeNB-QwbRw%3D%3D/document?tstmp=1792225000000",
+      "document_label": "Apri la delibera provinciale (PDF)",
+      "document_note": "Il dispositivo approva le modifiche coordinate e subordina l’entrata in vigore al giorno successivo alla pubblicazione nel Bollettino Ufficiale.",
+      "documentary_review": {
+        "checked_at": "2026-10-17",
+        "scope": "Lettura integrale della D.G.P. 858/2026 per identità, iter, componenti di pericolosità, approvazione, ambito territoriale e condizione di efficacia dell’aggiornamento PZP.",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://api.integrations.services.siag.it/delibere/v1/delibere/j3ALmCPJpiwFSeNB-QwbRw%3D%3D/document?tstmp=1792225000000"
+        ],
+        "claims": [
+          {
+            "aspect": "identity",
+            "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/j3ALmCPJpiwFSeNB-QwbRw%3D%3D/document?tstmp=1792225000000",
+            "locator": "pagina PDF 1, numero, seduta e oggetto",
+            "finding": "D.G.P. Bolzano 858/2026 del 16 ottobre 2026; Comune di Falzes; modifica coordinata del piano urbanistico, paesaggistico e del piano delle zone di pericolo."
+          },
+          {
+            "aspect": "approval",
+            "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/j3ALmCPJpiwFSeNB-QwbRw%3D%3D/document?tstmp=1792225000000",
+            "locator": "pagine PDF 3–5, iter e dispositivo",
+            "finding": "Il Consiglio comunale ha approvato la proposta il 29 luglio 2026; la Giunta provinciale approva le modifiche coordinate e l’aggiornamento PZP."
+          },
+          {
+            "aspect": "topics",
+            "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/j3ALmCPJpiwFSeNB-QwbRw%3D%3D/document?tstmp=1792225000000",
+            "locator": "pagina PDF 3, elenco degli elaborati esaminati",
+            "finding": "La carta modificata comprende frane, valanghe e pericoli idraulici. In tassonomia, PZP è assegnato alla sola componente idraulica; frane e valanghe confluiscono nel tema frane senza mutare la natura dello strumento."
+          },
+          {
+            "aspect": "territory",
+            "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/j3ALmCPJpiwFSeNB-QwbRw%3D%3D/document?tstmp=1792225000000",
+            "locator": "pagina PDF 5, punto 3 del dispositivo",
+            "finding": "L’aggiornamento PZP è circoscritto alle particelle 927 e 1229/1 C.C. Falzes."
+          },
+          {
+            "aspect": "effectiveness",
+            "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/j3ALmCPJpiwFSeNB-QwbRw%3D%3D/document?tstmp=1792225000000",
+            "locator": "pagina PDF 5, clausola finale del dispositivo",
+            "finding": "La deliberazione dispone l’entrata in vigore il giorno successivo alla pubblicazione nel Bollettino Ufficiale; la data di pubblicazione non è accertata in questo controllo."
+          }
+        ],
+        "limitations": [
+          "Non acquisita la pubblicazione nel Bollettino Ufficiale: la decorrenza di efficacia non è determinata.",
+          "Il PDF contiene la deliberazione ma non la carta modificata né la relazione illustrativa.",
+          "La deliberazione non dettaglia nel dispositivo le singole classi di pericolosità attribuite alle particelle.",
+          "Non verificata l’assenza di modifiche successive né la vigenza complessiva del PZP comunale."
+        ],
+        "pending": [
+          "Verificare numero e data del Bollettino Ufficiale e registrare l’eventuale decorrenza di efficacia.",
+          "Acquisire dal deposito comunale o dal portale cartografico gli elaborati della variante e confrontare classi e delimitazioni."
+        ],
+        "record_version": "2cd0e1f0eeb19f5e1f8fcf8dbab5419b195128eec71c18837d0e6dbf26383936"
+      }
     }
   ],
   "regions": [
@@ -15381,6 +15677,115 @@
     }
   ],
   "runs": [
+    {
+      "date": "2026-10-17",
+      "type": "Controllo territoriale · ricognizione parziale",
+      "summary": "Acquisite e lette integralmente tre nuove deliberazioni della Provincia autonoma di Bolzano del 16 ottobre 2026: modifiche PZP di Castelrotto (pericoli idraulici), Laion (frane) e Falzes (frane, valanghe e pericoli idraulici). Le approvazioni sono verificate; l’efficacia resta subordinata alla pubblicazione nel Bollettino Ufficiale. Nelle altre fonti effettivamente lette non sono emersi ulteriori atti pubblicabili nel perimetro dichiarato.",
+      "checked": [
+        "bz-castelrotto-pzp-860-2026",
+        "bz-laion-pzp-859-2026",
+        "bz-falzes-pzp-858-2026",
+        "bz23",
+        "dist-sard",
+        "dist-centr",
+        "dist-po",
+        "dist-merid",
+        "dist-sici"
+      ],
+      "territories": [
+        "Provincia autonoma di Bolzano: intera seduta del 16 ottobre 2026 e lettura integrale delle D.G.P. 858, 859 e 860/2026",
+        "Sardegna: elenco ufficiale delle varianti PAI approvate",
+        "Appennino Centrale: homepage e notizie recenti",
+        "Distretto del Po: homepage e portale Piano Alluvioni",
+        "Appennino Meridionale: homepage e accessi agli strumenti di piano",
+        "Sicilia: pagina ufficiale della normativa PAI"
+      ],
+      "read_urls": [
+        "https://giunta-provinciale.provincia.bz.it/it/delibere",
+        "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=10&page=1&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
+        "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=10&page=2&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
+        "https://api.integrations.services.siag.it/delibere/v1/delibere/pvqlbdi12TCWJ9BMpbxLcw%3D%3D/document?tstmp=1792225000000",
+        "https://api.integrations.services.siag.it/delibere/v1/delibere/LQRr5i8YiVHPnCYlRns6Hg%3D%3D/document?tstmp=1792225000000",
+        "https://api.integrations.services.siag.it/delibere/v1/delibere/j3ALmCPJpiwFSeNB-QwbRw%3D%3D/document?tstmp=1792225000000",
+        "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/approvazione-varianti-pai/",
+        "https://aubac.it/",
+        "https://www.adbpo.it/",
+        "https://pianoalluvioni.adbpo.it/",
+        "https://www.distrettoappenninomeridionale.it/",
+        "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa"
+      ],
+      "source_findings": [
+        {
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=10&page=1&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
+          "result": "L’API ufficiale espone la seduta del 16 ottobre 2026, delibere 866–857. Gli oggetti delle D.G.P. 858, 859 e 860 riguardano modifiche ai Piani delle zone di pericolo; i rispettivi PDF sono stati acquisiti e letti integralmente."
+        },
+        {
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=10&page=2&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
+          "result": "La seconda pagina dell’API ufficiale espone le delibere 856–847 della stessa seduta. Tutti i venti oggetti sono stati controllati; non compare un ulteriore PZP oltre alle D.G.P. 858–860."
+        },
+        {
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/pvqlbdi12TCWJ9BMpbxLcw%3D%3D/document?tstmp=1792225000000",
+          "result": "La D.G.P. 860/2026 approva la modifica PZP di Castelrotto per il Rio Nero, componente idraulica, e sostituisce la carta nell’ambito interessato; l’entrata in vigore è rinviata al giorno successivo alla pubblicazione nel Bollettino Ufficiale."
+        },
+        {
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/LQRr5i8YiVHPnCYlRns6Hg%3D%3D/document?tstmp=1792225000000",
+          "result": "La D.G.P. 859/2026 approva la modifica PZP di Laion nell’area del maso Marzun ad Albions, per la sola componente frane; l’entrata in vigore è rinviata al giorno successivo alla pubblicazione nel Bollettino Ufficiale."
+        },
+        {
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/j3ALmCPJpiwFSeNB-QwbRw%3D%3D/document?tstmp=1792225000000",
+          "result": "La D.G.P. 858/2026 approva l’aggiornamento PZP di Falzes nelle particelle 927 e 1229/1; la carta esaminata comprende frane, valanghe e pericoli idraulici. L’entrata in vigore è rinviata al giorno successivo alla pubblicazione nel Bollettino Ufficiale."
+        },
+        {
+          "source_url": "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/approvazione-varianti-pai/",
+          "result": "La pagina corrente mantiene come provvedimento più recente la determinazione 162/2026 di Barrali, già censita; seguono le determinazioni 161, 160 e 159/2026."
+        },
+        {
+          "source_url": "https://aubac.it/",
+          "result": "Gli aggiornamenti del 14 e 15 ottobre riguardano interventi pubblici e iniziative; la notizia di piano più recente visibile resta quella del 6 ottobre sulla cartografia P.S.5, già censita."
+        },
+        {
+          "source_url": "https://www.adbpo.it/",
+          "result": "L’aggiornamento del 16 ottobre riguarda la situazione idrologica settimanale; non è un nuovo atto PAI o PGRA."
+        },
+        {
+          "source_url": "https://pianoalluvioni.adbpo.it/",
+          "result": "Il portale mantiene come aggiornamenti di piano più recenti le mappe PGRA 2027–2033 del 22 gennaio 2026 e la consultazione del 22 dicembre 2025."
+        },
+        {
+          "source_url": "https://www.distrettoappenninomeridionale.it/",
+          "result": "La homepage reca aggiornamento al 22 settembre 2026 e gli accessi agli strumenti PAI e PGRA; nel contenuto acquisito non compare un nuovo atto successivo."
+        },
+        {
+          "source_url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa",
+          "result": "La pagina normativa PAI reca ultimo aggiornamento 9 luglio 2026 e la modifica alla circolare applicativa del 23 giugno 2026; nel contenuto letto non compare un atto PAI successivo."
+        }
+      ],
+      "errors": [],
+      "limitations": [
+        "Ricognizione circoscritta alle URL elencate e ai contenuti effettivamente esposti; non copre integralmente regioni, province, comuni, gestori, albi pretori, allegati, cartografie o catene degli atti.",
+        "Per le tre nuove D.G.P. Bolzano non sono stati acquisiti il Bollettino Ufficiale né gli elaborati cartografici: non è attestata la decorrenza di efficacia né la vigenza complessiva dei PZP comunali.",
+        "Le pagine Sardegna, AUBAC, Po, Appennino Meridionale e Sicilia sono state verificate nel solo contenuto acquisito; l’assenza di ulteriori atti vale esclusivamente per tale perimetro.",
+        "L’audit documentale di Fase 3 è stato applicato alle tre nuove schede nel perimetro effettivamente letto; non sono state aggiornate le date documentali delle schede preesistenti."
+      ],
+      "updated_records": [],
+      "new_records": [
+        "bz-castelrotto-pzp-860-2026",
+        "bz-laion-pzp-859-2026",
+        "bz-falzes-pzp-858-2026"
+      ],
+      "execution": {
+        "id": "local-territorial-20261017-095653",
+        "id_origin": "Identificativo locale generato per questa esecuzione; identificativo del servizio non disponibile.",
+        "started_at": "2026-10-17T09:56:53+02:00",
+        "finished_at": "2026-10-17T10:05:20+02:00",
+        "outcome": "parziale",
+        "publication": {
+          "outcome": "in_attesa",
+          "note": "La ricevuta di questa esecuzione sarà aggiornata soltanto dopo il successo della validazione, del deployment Pages e del riscontro del run nel sito pubblico.",
+          "last_valid_result": "published_github_pages"
+        }
+      }
+    },
     {
       "date": "2026-10-16",
       "type": "Controllo territoriale · ricognizione parziale",

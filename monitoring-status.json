@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-16T18:09:13Z",
+  "checked_at": "2026-10-17T08:07:43Z",
   "national": {
-    "state": "completato",
+    "state": "in_attesa",
     "last_completed_at": "2026-10-16T11:52:56+02:00",
-    "expected_date": "2026-10-16",
+    "expected_date": "2026-10-17",
     "deadline_local": "16:00 Europe/Rome",
     "checkpoint_end": "2026-10-16T09:52:56Z",
     "checkpoint_consistent": true,
@@ -72,77 +72,51 @@
   },
   "territorial": {
     "state": "parziale",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "evidence": "data.json:runs[0]",
-    "summary": "Ricognizione senza nuove schede o modifiche normative pubblicabili nel perimetro effettivamente letto. Sono tornate accessibili le pagine ufficiali di Sardegna, Sicilia, PGRA Po e Appennino Settentrionale; Villanovafranca resta in attesa di pubblicazione sul BURAS e gli aggiornamenti recenti degli altri portali non costituiscono nuovi atti PAI o PGRA.",
+    "summary": "Acquisite e lette integralmente tre nuove deliberazioni della Provincia autonoma di Bolzano del 16 ottobre 2026: modifiche PZP di Castelrotto (pericoli idraulici), Laion (frane) e Falzes (frane, valanghe e pericoli idraulici). Le approvazioni sono verificate; l’efficacia resta subordinata alla pubblicazione nel Bollettino Ufficiale. Nelle altre fonti effettivamente lette non sono emersi ulteriori atti pubblicabili nel perimetro dichiarato.",
     "sources_checked": [
-      "dist-sard",
-      "sard-villanovafranca-reticolo-159-2026",
+      "bz-castelrotto-pzp-860-2026",
+      "bz-laion-pzp-859-2026",
+      "bz-falzes-pzp-858-2026",
       "bz23",
+      "dist-sard",
       "dist-centr",
       "dist-po",
-      "dist-sett",
       "dist-merid",
       "dist-sici"
     ],
     "source_urls": [
-      "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/approvazione-varianti-pai/",
-      "https://autoritadibacino.regione.sardegna.it/ap/determinazione-n-159-prot-n-11256-del-25-09-2026/",
       "https://giunta-provinciale.provincia.bz.it/it/delibere",
-      "https://giunta-provinciale.provincia.bz.it/it/delibere?page=2",
+      "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=10&page=1&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
+      "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=10&page=2&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
+      "https://api.integrations.services.siag.it/delibere/v1/delibere/pvqlbdi12TCWJ9BMpbxLcw%3D%3D/document?tstmp=1792225000000",
+      "https://api.integrations.services.siag.it/delibere/v1/delibere/LQRr5i8YiVHPnCYlRns6Hg%3D%3D/document?tstmp=1792225000000",
+      "https://api.integrations.services.siag.it/delibere/v1/delibere/j3ALmCPJpiwFSeNB-QwbRw%3D%3D/document?tstmp=1792225000000",
+      "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/approvazione-varianti-pai/",
       "https://aubac.it/",
       "https://www.adbpo.it/",
       "https://pianoalluvioni.adbpo.it/",
-      "https://www.appenninosettentrionale.it/itc/",
       "https://www.distrettoappenninomeridionale.it/",
       "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa"
     ],
     "territories": [
-      "Sardegna: elenco delle varianti PAI approvate e stato di pubblicazione della determinazione 159/2026 di Villanovafranca",
-      "Provincia autonoma di Bolzano: prima pagina della seduta del 9 ottobre 2026",
+      "Provincia autonoma di Bolzano: intera seduta del 16 ottobre 2026 e lettura integrale delle D.G.P. 858, 859 e 860/2026",
+      "Sardegna: elenco ufficiale delle varianti PAI approvate",
       "Appennino Centrale: homepage e notizie recenti",
       "Distretto del Po: homepage e portale Piano Alluvioni",
-      "Appennino Settentrionale: homepage e notizie recenti",
       "Appennino Meridionale: homepage e accessi agli strumenti di piano",
       "Sicilia: pagina ufficiale della normativa PAI"
     ],
-    "errors": [
-      "Bolzano: il collegamento alla seconda pagina restituisce nuovamente i primi dieci risultati e una sezione in caricamento; i venti atti della seduta del 9 ottobre non sono stati verificati integralmente."
-    ],
+    "errors": [],
     "publication": {
-      "outcome": "pubblicato",
-      "commit_sha": "0150e91c6602b6472452d3db294361dc2b2384d8",
-      "commit_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/commit/0150e91c6602b6472452d3db294361dc2b2384d8",
-      "verified_at": "2026-10-16T10:16:44+02:00",
-      "site_url": "https://domenicoderosa26-web.github.io/atlante-idraulico/",
-      "deployment_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/38872235460",
-      "verification": {
-        "outcome": "success",
-        "deployed_head_sha": "0150e91c6602b6472452d3db294361dc2b2384d8",
-        "data": {
-          "updatedAt": "2026-10-16",
-          "records": 120,
-          "run_id": "local-territorial-20261016-100349",
-          "outcome": "parziale"
-        },
-        "site_loading": "Edizione 16/10/2026 caricata con 120 schede e 14 argomenti canonici; il run territoriale del 16 ottobre 2026 è presente nel data.json pubblico."
-      },
-      "last_valid_result": "published_github_pages",
-      "publication_history": [
-        {
-          "outcome": "in_attesa",
-          "note": "La ricevuta di questa esecuzione sarà aggiornata soltanto dopo il successo della validazione, del deployment Pages e del riscontro del run nel sito pubblico."
-        }
-      ]
+      "outcome": "in_attesa",
+      "note": "La ricevuta di questa esecuzione sarà aggiornata soltanto dopo il successo della validazione, del deployment Pages e del riscontro del run nel sito pubblico.",
+      "last_valid_result": "published_github_pages"
     },
     "external_execution_verified": false,
     "legacy_completion_marker": "2026-09-25",
-    "repeated_unavailability": [
-      {
-        "error": "Sardegna: la pagina ufficiale delle determinazioni ha restituito un timeout; la fonte non è considerata controllata.",
-        "runs": 2
-      }
-    ]
+    "repeated_unavailability": []
   },
   "anomalies": [
     {
@@ -150,19 +124,7 @@
       "severity": "warning",
       "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
       "evidence": "data.json:runs[0]",
-      "event_id": "837d1b675f57a2ed34f89371"
-    },
-    {
-      "code": "TERRITORIAL_REPEATED_UNAVAILABILITY",
-      "severity": "warning",
-      "message": "La stessa indisponibilità è documentata in più ricognizioni recenti.",
-      "evidence": [
-        {
-          "error": "Sardegna: la pagina ufficiale delle determinazioni ha restituito un timeout; la fonte non è considerata controllata.",
-          "runs": 2
-        }
-      ],
-      "event_id": "94e8d3e2678a73e6a22fe7ea"
+      "event_id": "dcd495769e666a635f40fbfa"
     }
   ],
   "events": [
@@ -432,8 +394,16 @@
       ],
       "event_id": "94e8d3e2678a73e6a22fe7ea",
       "recorded_at": "2026-10-16T08:13:46Z"
+    },
+    {
+      "code": "TERRITORIAL_PARZIALE",
+      "severity": "warning",
+      "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
+      "evidence": "data.json:runs[0]",
+      "event_id": "dcd495769e666a635f40fbfa",
+      "recorded_at": "2026-10-17T08:07:43Z"
     }
   ],
   "has_errors": false,
-  "repository_sha": "fa0fda6d96dc1516d1dd6a07747b893d1475110a"
+  "repository_sha": "c8ae3ff3ac905da3672b2fc23e2cef5d2a216034"
 }

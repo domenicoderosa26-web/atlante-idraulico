@@ -15754,7 +15754,23 @@
         "finished_at": "2026-10-18T10:05:43+02:00",
         "outcome": "parziale",
         "publication": {
-          "outcome": "in_attesa",
+          "outcome": "pubblicato",
+          "commit_sha": "847a246e627d7c09512963c5146075c79eacc191",
+          "commit_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/commit/847a246e627d7c09512963c5146075c79eacc191",
+          "verified_at": "2026-10-18T10:13:06+02:00",
+          "site_url": "https://domenicoderosa26-web.github.io/atlante-idraulico/",
+          "deployment_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/39110299390",
+          "verification": {
+            "outcome": "success",
+            "deployed_head_sha": "f92cb12cce6f771142938060cfb903fe31d268a9",
+            "data": {
+              "updatedAt": "2026-10-18",
+              "records": 123,
+              "run_id": "local-territorial-20261018-100015",
+              "outcome": "parziale"
+            },
+            "site_loading": "Edizione 18/10/2026 caricata con 123 schede e 14 argomenti canonici ordinati A–Z; la scheda Tesimo aggiornata e il run territoriale del 18 ottobre 2026 sono presenti nel data.json pubblico."
+          },
           "last_valid_result": "published_github_pages",
           "publication_history": [
             {

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-17",
+  "updatedAt": "2026-10-18",
   "scope": "Catalogo selettivo con controllo mirato dei CAM e della disciplina delle acque di prima pioggia per tutte le regioni. La verifica locale e autorizzativa resta necessaria.",
   "automation": {
     "enabled": true,
@@ -11549,13 +11549,13 @@
       "focus": [
         "Modifica circoscritta alla componente frane nell’area Talmühle a Narano.",
         "La carta delle zone di pericolo è sostituita nell’ambito interessato.",
-        "L’efficacia decorrerà dal giorno successivo alla pubblicazione nel Bollettino Ufficiale regionale."
+        "L’efficacia decorre dal 16 ottobre 2026, giorno successivo alla pubblicazione nel Bollettino Ufficiale regionale n. 42."
       ],
       "kind": "Piano",
-      "status": "Approvazione verificata; efficacia subordinata alla pubblicazione nel Bollettino Ufficiale",
+      "status": "In vigore dal 16 ottobre 2026",
       "source_kind": "Delibera ufficiale della Provincia autonoma di Bolzano",
-      "note": "La D.G.P. 836/2026 approva la modifica PZP per la sola componente frane. La pubblicazione nel Bollettino Ufficiale, necessaria per l’entrata in vigore, non è stata ancora riscontrata; cartografia menzionata ma non allegata al PDF.",
-      "checked": "2026-10-13",
+      "note": "La D.G.P. 836/2026 approva la modifica PZP per la sola componente frane. L’atto è pubblicato nel Bollettino Ufficiale regionale n. 42 del 15 ottobre 2026 ed è efficace dal giorno successivo; la cartografia è menzionata ma non allegata al PDF della deliberazione.",
+      "checked": "2026-10-18",
       "relations": [
         {
           "type": "Disciplina degli interventi nelle zone di pericolo",
@@ -11566,6 +11566,10 @@
         {
           "date": "2026-10-13",
           "text": "Acquisita e letta la D.G.P. 836/2026: approvazione e componente frane verificate; efficacia e cartografia restano da accertare sulle rispettive fonti ufficiali."
+        },
+        {
+          "date": "2026-10-18",
+          "text": "Riscontrata nel Bollettino Ufficiale regionale n. 42 del 15 ottobre 2026 la pubblicazione della D.G.P. 836/2026; in base alla clausola di efficacia della deliberazione, la modifica è in vigore dal 16 ottobre 2026."
         }
       ],
       "documents": [
@@ -11573,62 +11577,53 @@
           "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/mIFPFBXQbhGbjYgSba0oIw%3D%3D/document?tstmp=1791817331811",
           "label": "PDF ufficiale · D.G.P. Bolzano 836/2026",
           "format": "pdf"
+        },
+        {
+          "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/42/BO/BO422601200135.pdf",
+          "label": "Bollettino Ufficiale n. 42 del 15/10/2026 · D.G.P. 836/2026",
+          "format": "pdf"
         }
       ],
       "document_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/mIFPFBXQbhGbjYgSba0oIw%3D%3D/document?tstmp=1791817331811",
       "document_label": "Apri la delibera provinciale (PDF)",
-      "document_note": "Il dispositivo approva la modifica e subordina l’entrata in vigore al giorno successivo alla pubblicazione nel Bollettino Ufficiale.",
+      "document_note": "Il dispositivo approva la modifica e dispone l’entrata in vigore il giorno successivo alla pubblicazione, avvenuta nel Bollettino Ufficiale n. 42 del 15 ottobre 2026.",
+      "publication_date": "2026-10-15",
+      "effective_date": "2026-10-16",
       "documentary_review": {
-        "checked_at": "2026-10-13",
-        "scope": "Lettura integrale della D.G.P. 836/2026 per identità, iter, componente di pericolosità, approvazione, ambito territoriale e condizione di efficacia della singola modifica PZP.",
+        "checked_at": "2026-10-18",
+        "scope": "Verifica della pubblicazione della D.G.P. 836/2026 nel Bollettino Ufficiale regionale e della conseguente decorrenza di efficacia della singola modifica PZP.",
         "outcome": "partial",
-        "legal_state": "partial",
+        "legal_state": "in_force",
         "claims": [
           {
             "aspect": "identity",
-            "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/mIFPFBXQbhGbjYgSba0oIw%3D%3D/document?tstmp=1791817331811",
-            "locator": "pagina PDF 1, numero, seduta e oggetto",
-            "finding": "D.G.P. Bolzano 836/2026 del 9 ottobre 2026; Comune di Tesimo, area Talmühle a Narano; modifica del piano delle zone di pericolo per frane."
-          },
-          {
-            "aspect": "approval",
-            "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/mIFPFBXQbhGbjYgSba0oIw%3D%3D/document?tstmp=1791817331811",
-            "locator": "pagine PDF 2–3, motivazione e dispositivo",
-            "finding": "Il Consiglio comunale ha adottato definitivamente la proposta il 24 settembre 2026; la Giunta provinciale approva la modifica come proposta dal Comune."
-          },
-          {
-            "aspect": "topics",
-            "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/mIFPFBXQbhGbjYgSba0oIw%3D%3D/document?tstmp=1791817331811",
-            "locator": "pagina PDF 2, elenco degli elaborati esaminati",
-            "finding": "La modifica riguarda la carta delle zone di pericolo frane e la relativa relazione illustrativa; non è documentata una componente idraulica."
-          },
-          {
-            "aspect": "territory",
-            "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/mIFPFBXQbhGbjYgSba0oIw%3D%3D/document?tstmp=1791817331811",
-            "locator": "pagina PDF 3, dispositivo sulla sostituzione cartografica",
-            "finding": "La carta delle zone di pericolo è sostituita soltanto nell’ambito interessato dalla modifica, nell’area Talmühle a Narano."
+            "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/42/BO/BO422601200135.pdf",
+            "locator": "Bollettino Ufficiale n. 42 del 15 ottobre 2026, Parte prima, voce D.G.P. Bolzano 836/2026",
+            "finding": "Il Bollettino Ufficiale pubblica la D.G.P. Bolzano 836/2026 del 9 ottobre 2026, relativa alla modifica PZP di Tesimo nell’area Talmühle a Narano per la componente frane."
           },
           {
             "aspect": "effectiveness",
-            "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/mIFPFBXQbhGbjYgSba0oIw%3D%3D/document?tstmp=1791817331811",
-            "locator": "pagina PDF 3, ultimo paragrafo del dispositivo",
-            "finding": "La deliberazione dispone l’entrata in vigore il giorno successivo alla pubblicazione nel Bollettino Ufficiale; la data di pubblicazione non è accertata in questo controllo."
+            "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/42/BO/BO422601200135.pdf",
+            "locator": "data del fascicolo e clausola finale della D.G.P. 836/2026",
+            "finding": "La pubblicazione è avvenuta il 15 ottobre 2026; poiché la deliberazione dispone l’entrata in vigore il giorno successivo, la modifica è efficace dal 16 ottobre 2026."
           }
         ],
         "limitations": [
-          "Non acquisita la pubblicazione nel Bollettino Ufficiale: la decorrenza di efficacia non è determinata.",
-          "Il PDF contiene la deliberazione ma non la carta modificata né la relazione illustrativa.",
+          "Il controllo odierno accerta pubblicazione e decorrenza di efficacia, non riesamina integralmente il contenuto della deliberazione già letto il 13 ottobre 2026.",
+          "Il fascicolo e il PDF della deliberazione non forniscono la carta modificata né la relazione illustrativa.",
           "Non verificata l’assenza di modifiche successive né la vigenza complessiva del PZP comunale."
         ],
         "pending": [
-          "Verificare numero e data del Bollettino Ufficiale e registrare l’eventuale decorrenza di efficacia.",
           "Acquisire dal deposito comunale o dal portale cartografico gli elaborati della variante e confrontare le delimitazioni."
         ],
         "source_urls": [
-          "https://api.integrations.services.siag.it/delibere/v1/delibere/mIFPFBXQbhGbjYgSba0oIw%3D%3D/document?tstmp=1791817331811"
+          "https://bollettino.regione.taa.it/pdf/I-II/2026/42/BO/BO422601200135.pdf"
         ],
-        "record_version": "5b3555dec0ac23f92b0d961e0ff62857700c2da787f40b012edb714d93876471"
-      }
+        "record_version": "fe2c3eb90c7905ccfd23681a478995cecf7c14b6041e6a6b647dc3012c946cad"
+      },
+      "documentary_history": [
+        {"checked_at":"2026-10-13","scope":"Lettura integrale della D.G.P. 836/2026 per identità, iter, componente di pericolosità, approvazione, ambito territoriale e condizione di efficacia della singola modifica PZP.","outcome":"partial","legal_state":"partial","claims":[{"aspect":"identity","source_url":"https://api.integrations.services.siag.it/delibere/v1/delibere/mIFPFBXQbhGbjYgSba0oIw%3D%3D/document?tstmp=1791817331811","locator":"pagina PDF 1, numero, seduta e oggetto","finding":"D.G.P. Bolzano 836/2026 del 9 ottobre 2026; Comune di Tesimo, area Talmühle a Narano; modifica del piano delle zone di pericolo per frane."},{"aspect":"approval","source_url":"https://api.integrations.services.siag.it/delibere/v1/delibere/mIFPFBXQbhGbjYgSba0oIw%3D%3D/document?tstmp=1791817331811","locator":"pagine PDF 2–3, motivazione e dispositivo","finding":"Il Consiglio comunale ha adottato definitivamente la proposta il 24 settembre 2026; la Giunta provinciale approva la modifica come proposta dal Comune."},{"aspect":"topics","source_url":"https://api.integrations.services.siag.it/delibere/v1/delibere/mIFPFBXQbhGbjYgSba0oIw%3D%3D/document?tstmp=1791817331811","locator":"pagina PDF 2, elenco degli elaborati esaminati","finding":"La modifica riguarda la carta delle zone di pericolo frane e la relativa relazione illustrativa; non è documentata una componente idraulica."},{"aspect":"territory","source_url":"https://api.integrations.services.siag.it/delibere/v1/delibere/mIFPFBXQbhGbjYgSba0oIw%3D%3D/document?tstmp=1791817331811","locator":"pagina PDF 3, dispositivo sulla sostituzione cartografica","finding":"La carta delle zone di pericolo è sostituita soltanto nell’ambito interessato dalla modifica, nell’area Talmühle a Narano."},{"aspect":"effectiveness","source_url":"https://api.integrations.services.siag.it/delibere/v1/delibere/mIFPFBXQbhGbjYgSba0oIw%3D%3D/document?tstmp=1791817331811","locator":"pagina PDF 3, ultimo paragrafo del dispositivo","finding":"La deliberazione dispone l’entrata in vigore il giorno successivo alla pubblicazione nel Bollettino Ufficiale; la data di pubblicazione non è accertata in questo controllo."}],"limitations":["Non acquisita la pubblicazione nel Bollettino Ufficiale: la decorrenza di efficacia non è determinata.","Il PDF contiene la deliberazione ma non la carta modificata né la relazione illustrativa.","Non verificata l’assenza di modifiche successive né la vigenza complessiva del PZP comunale."],"pending":["Verificare numero e data del Bollettino Ufficiale e registrare l’eventuale decorrenza di efficacia.","Acquisire dal deposito comunale o dal portale cartografico gli elaborati della variante e confrontare le delimitazioni."],"source_urls":["https://api.integrations.services.siag.it/delibere/v1/delibere/mIFPFBXQbhGbjYgSba0oIw%3D%3D/document?tstmp=1791817331811"],"record_version":"5b3555dec0ac23f92b0d961e0ff62857700c2da787f40b012edb714d93876471"}
+      ]
     },
     {
       "id": "centr-pai-idraulico-67-2026",
@@ -15677,6 +15672,99 @@
     }
   ],
   "runs": [
+    {
+      "date": "2026-10-18",
+      "type": "Controllo territoriale · ricognizione parziale",
+      "summary": "Verificata sul Bollettino Ufficiale regionale n. 42 del 15 ottobre 2026 la pubblicazione della D.G.P. Bolzano 836/2026: la modifica PZP di Tesimo è efficace dal 16 ottobre 2026. Nelle altre fonti effettivamente lette non sono emersi ulteriori atti pubblicabili nel perimetro dichiarato.",
+      "checked": [
+        "bz-tesimo-pzp-836-2026",
+        "bz23",
+        "dist-sard",
+        "dist-centr",
+        "dist-po"
+      ],
+      "territories": [
+        "Provincia autonoma di Bolzano: intera seduta del 16 ottobre 2026 e pubblicazione della D.G.P. 836/2026 nel Bollettino Ufficiale regionale",
+        "Sardegna: elenco ufficiale delle varianti PAI approvate",
+        "Appennino Centrale: homepage e notizie recenti",
+        "Distretto del Po: homepage e pagina delle varianti PAI in corso"
+      ],
+      "read_urls": [
+        "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=20&page=1&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
+        "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=20&page=2&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
+        "https://bollettino.regione.taa.it/it/default.aspx",
+        "https://bollettino.regione.taa.it/it/parte123.aspx?&numeroid=16922&anno=2026&voce=262",
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/42/BO/BO422601200135.pdf",
+        "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/approvazione-varianti-pai/",
+        "https://aubac.it/",
+        "https://www.adbpo.it/",
+        "https://pai.adbpo.it/varianti-in-corso-2/"
+      ],
+      "source_findings": [
+        {
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=20&page=1&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
+          "result": "La prima pagina dell’API ufficiale espone le delibere 866–847 della seduta del 16 ottobre 2026; gli unici oggetti PZP sono le D.G.P. 858, 859 e 860 già censite."
+        },
+        {
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=20&page=2&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
+          "result": "La seconda pagina espone le delibere 846–844 della medesima seduta; nessuna riguarda un PZP, PAI o PGRA. Sono stati controllati tutti i 23 oggetti della seduta."
+        },
+        {
+          "source_url": "https://bollettino.regione.taa.it/it/parte123.aspx?&numeroid=16922&anno=2026&voce=262",
+          "result": "Il sommario ufficiale del Bollettino n. 42 del 15 ottobre 2026 elenca, nella voce Piano delle zone di pericolo, la D.G.P. Bolzano 836/2026 relativa alla modifica PZP di Tesimo per frane."
+        },
+        {
+          "source_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/42/BO/BO422601200135.pdf",
+          "result": "La pubblicazione del 15 ottobre 2026 completa la condizione prevista dalla deliberazione; l’efficacia decorre quindi dal 16 ottobre 2026."
+        },
+        {
+          "source_url": "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/approvazione-varianti-pai/",
+          "result": "La pagina corrente espone 154 risultati e mantiene come provvedimento più recente la determinazione 162/2026 di Barrali, già censita; seguono le determinazioni 161, 160 e 159/2026."
+        },
+        {
+          "source_url": "https://aubac.it/",
+          "result": "Le notizie più recenti visibili restano l’evento del 15 ottobre, la notizia del 14 ottobre e la pubblicazione cartografica P.S.5 del 6 ottobre già censita; nella homepage non compare un nuovo provvedimento PAI o PGRA."
+        },
+        {
+          "source_url": "https://www.adbpo.it/",
+          "result": "L’aggiornamento più recente del 16 ottobre riguarda la situazione idrologica settimanale; non è un nuovo atto PAI o PGRA."
+        },
+        {
+          "source_url": "https://pai.adbpo.it/varianti-in-corso-2/",
+          "result": "La pagina ufficiale delle varianti PAI in corso continua a elencare il progetto generale 13/2025 e gli aggiornamenti Enza 91/2025, Terdoppio 5/2026 e Mera 27/2026, tutti già considerati nel catalogo."
+        }
+      ],
+      "errors": [
+        "Appennino Settentrionale: la homepage ufficiale ha restituito un errore del lettore; la fonte non è considerata controllata e non se ne deduce l’assenza di nuovi atti."
+      ],
+      "limitations": [
+        "Ricognizione circoscritta alle URL elencate e ai contenuti effettivamente esposti; non copre integralmente regioni, province, comuni, gestori, albi pretori, allegati, cartografie o catene degli atti.",
+        "L’assenza di ulteriori modifiche pubblicabili vale soltanto per il perimetro letto; nessuna conclusione è tratta dalla fonte dell’Appennino Settentrionale non acquisita.",
+        "Per la modifica PZP di Tesimo sono state verificate pubblicazione ed efficacia, ma non sono stati acquisiti gli elaborati cartografici né riesaminata la vigenza complessiva del PZP comunale.",
+        "Le D.G.P. 858–860 del 16 ottobre non risultano nel Bollettino n. 42, anteriore alla loro adozione; la loro futura pubblicazione e l’efficacia restano da verificare."
+      ],
+      "updated_records": [
+        "bz-tesimo-pzp-836-2026"
+      ],
+      "new_records": [],
+      "execution": {
+        "id": "local-territorial-20261018-100015",
+        "id_origin": "Identificativo locale generato per questa esecuzione; identificativo del servizio non disponibile.",
+        "started_at": "2026-10-18T10:00:15+02:00",
+        "finished_at": "2026-10-18T10:05:43+02:00",
+        "outcome": "parziale",
+        "publication": {
+          "outcome": "in_attesa",
+          "last_valid_result": "published_github_pages",
+          "publication_history": [
+            {
+              "outcome": "in_attesa",
+              "note": "La ricevuta di questa esecuzione sarà aggiornata soltanto dopo il successo della validazione, del deployment Pages e del riscontro del run nel sito pubblico."
+            }
+          ]
+        }
+      }
+    },
     {
       "date": "2026-10-17",
       "type": "Controllo territoriale · ricognizione parziale",

@@ -3646,7 +3646,8 @@
         "pai-frane"
       ],
       "source_urls": [
-        "https://api.integrations.services.siag.it/delibere/v1/delibere/mIFPFBXQbhGbjYgSba0oIw%3D%3D/document?tstmp=1791817331811"
+        "https://api.integrations.services.siag.it/delibere/v1/delibere/mIFPFBXQbhGbjYgSba0oIw%3D%3D/document?tstmp=1791817331811",
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/42/BO/BO422601200135.pdf"
       ],
       "object_versions": [
         {
@@ -3658,9 +3659,19 @@
             "La carta delle zone di pericolo è sostituita nell’ambito interessato.",
             "L’efficacia decorrerà dal giorno successivo alla pubblicazione nel Bollettino Ufficiale regionale."
           ]
+        },
+        {
+          "title": "Modifica PZP Tesimo · Talmühle a Narano",
+          "ref": "D.G.P. Bolzano 836/2026",
+          "summary": "Approvata la modifica della carta delle zone di pericolo da frana nell’area della Talmühle a Narano, Comune di Tesimo.",
+          "focus": [
+            "Modifica circoscritta alla componente frane nell’area Talmühle a Narano.",
+            "La carta delle zone di pericolo è sostituita nell’ambito interessato.",
+            "L’efficacia decorre dal 16 ottobre 2026, giorno successivo alla pubblicazione nel Bollettino Ufficiale regionale n. 42."
+          ]
         }
       ],
-      "evidence": "Lettura della D.G.P. 836/2026: la modifica riguarda esclusivamente la carta delle zone di pericolo frane; nessuna componente idraulica è documentata."
+      "evidence": "Lettura della D.G.P. 836/2026: la modifica riguarda esclusivamente la carta delle zone di pericolo frane; nessuna componente idraulica è documentata. Il Bollettino Ufficiale n. 42 del 15 ottobre 2026 conferma l’identità dell’atto e la pubblicazione, senza modificare la classificazione sostanziale."
     },
     "bz-castelrotto-pzp-860-2026": {
       "topics": [

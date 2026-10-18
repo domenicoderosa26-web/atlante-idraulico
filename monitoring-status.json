@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-17T17:17:12Z",
+  "checked_at": "2026-10-18T08:08:23Z",
   "national": {
-    "state": "completato",
+    "state": "in_attesa",
     "last_completed_at": "2026-10-17T11:24:54+02:00",
-    "expected_date": "2026-10-17",
+    "expected_date": "2026-10-18",
     "deadline_local": "16:00 Europe/Rome",
     "checkpoint_end": "2026-10-17T09:24:54Z",
     "checkpoint_consistent": true,
@@ -72,61 +72,38 @@
   },
   "territorial": {
     "state": "parziale",
-    "date": "2026-10-17",
+    "date": "2026-10-18",
     "evidence": "data.json:runs[0]",
-    "summary": "Acquisite e lette integralmente tre nuove deliberazioni della Provincia autonoma di Bolzano del 16 ottobre 2026: modifiche PZP di Castelrotto (pericoli idraulici), Laion (frane) e Falzes (frane, valanghe e pericoli idraulici). Le approvazioni sono verificate; l’efficacia resta subordinata alla pubblicazione nel Bollettino Ufficiale. Nelle altre fonti effettivamente lette non sono emersi ulteriori atti pubblicabili nel perimetro dichiarato.",
+    "summary": "Verificata sul Bollettino Ufficiale regionale n. 42 del 15 ottobre 2026 la pubblicazione della D.G.P. Bolzano 836/2026: la modifica PZP di Tesimo è efficace dal 16 ottobre 2026. Nelle altre fonti effettivamente lette non sono emersi ulteriori atti pubblicabili nel perimetro dichiarato.",
     "sources_checked": [
-      "bz-castelrotto-pzp-860-2026",
-      "bz-laion-pzp-859-2026",
-      "bz-falzes-pzp-858-2026",
+      "bz-tesimo-pzp-836-2026",
       "bz23",
       "dist-sard",
       "dist-centr",
-      "dist-po",
-      "dist-merid",
-      "dist-sici"
+      "dist-po"
     ],
     "source_urls": [
-      "https://giunta-provinciale.provincia.bz.it/it/delibere",
-      "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=10&page=1&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
-      "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=10&page=2&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
-      "https://api.integrations.services.siag.it/delibere/v1/delibere/pvqlbdi12TCWJ9BMpbxLcw%3D%3D/document?tstmp=1792225000000",
-      "https://api.integrations.services.siag.it/delibere/v1/delibere/LQRr5i8YiVHPnCYlRns6Hg%3D%3D/document?tstmp=1792225000000",
-      "https://api.integrations.services.siag.it/delibere/v1/delibere/j3ALmCPJpiwFSeNB-QwbRw%3D%3D/document?tstmp=1792225000000",
+      "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=20&page=1&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
+      "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=20&page=2&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
+      "https://bollettino.regione.taa.it/it/default.aspx",
+      "https://bollettino.regione.taa.it/it/parte123.aspx?&numeroid=16922&anno=2026&voce=262",
+      "https://bollettino.regione.taa.it/pdf/I-II/2026/42/BO/BO422601200135.pdf",
       "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/approvazione-varianti-pai/",
       "https://aubac.it/",
       "https://www.adbpo.it/",
-      "https://pianoalluvioni.adbpo.it/",
-      "https://www.distrettoappenninomeridionale.it/",
-      "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa"
+      "https://pai.adbpo.it/varianti-in-corso-2/"
     ],
     "territories": [
-      "Provincia autonoma di Bolzano: intera seduta del 16 ottobre 2026 e lettura integrale delle D.G.P. 858, 859 e 860/2026",
+      "Provincia autonoma di Bolzano: intera seduta del 16 ottobre 2026 e pubblicazione della D.G.P. 836/2026 nel Bollettino Ufficiale regionale",
       "Sardegna: elenco ufficiale delle varianti PAI approvate",
       "Appennino Centrale: homepage e notizie recenti",
-      "Distretto del Po: homepage e portale Piano Alluvioni",
-      "Appennino Meridionale: homepage e accessi agli strumenti di piano",
-      "Sicilia: pagina ufficiale della normativa PAI"
+      "Distretto del Po: homepage e pagina delle varianti PAI in corso"
     ],
-    "errors": [],
+    "errors": [
+      "Appennino Settentrionale: la homepage ufficiale ha restituito un errore del lettore; la fonte non è considerata controllata e non se ne deduce l’assenza di nuovi atti."
+    ],
     "publication": {
-      "outcome": "pubblicato",
-      "commit_sha": "c8ae3ff3ac905da3672b2fc23e2cef5d2a216034",
-      "commit_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/commit/c8ae3ff3ac905da3672b2fc23e2cef5d2a216034",
-      "verified_at": "2026-10-17T10:10:31+02:00",
-      "site_url": "https://domenicoderosa26-web.github.io/atlante-idraulico/",
-      "deployment_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/39016165326",
-      "verification": {
-        "outcome": "success",
-        "deployed_head_sha": "fc6dd883d8d5602fdd48c982bb6d4d35c9656fb0",
-        "data": {
-          "updatedAt": "2026-10-17",
-          "records": 123,
-          "run_id": "local-territorial-20261017-095653",
-          "outcome": "parziale"
-        },
-        "site_loading": "Edizione 17/10/2026 caricata con 123 schede e 14 argomenti canonici ordinati A–Z; le tre nuove schede Bolzano e il run territoriale del 17 ottobre 2026 sono presenti nel data.json pubblico."
-      },
+      "outcome": "in_attesa",
       "last_valid_result": "published_github_pages",
       "publication_history": [
         {
@@ -145,7 +122,7 @@
       "severity": "warning",
       "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
       "evidence": "data.json:runs[0]",
-      "event_id": "dcd495769e666a635f40fbfa"
+      "event_id": "d049b5f19de7b7c56528b4ba"
     }
   ],
   "events": [
@@ -423,8 +400,16 @@
       "evidence": "data.json:runs[0]",
       "event_id": "dcd495769e666a635f40fbfa",
       "recorded_at": "2026-10-17T08:07:43Z"
+    },
+    {
+      "code": "TERRITORIAL_PARZIALE",
+      "severity": "warning",
+      "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
+      "evidence": "data.json:runs[0]",
+      "event_id": "d049b5f19de7b7c56528b4ba",
+      "recorded_at": "2026-10-18T08:08:23Z"
     }
   ],
   "has_errors": false,
-  "repository_sha": "3944a7e2835b6117f615d7329adb112fcb8cf9c8"
+  "repository_sha": "847a246e627d7c09512963c5146075c79eacc191"
 }

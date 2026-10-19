@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-18",
+  "updatedAt": "2026-10-19",
   "scope": "Catalogo selettivo con controllo mirato dei CAM e della disciplina delle acque di prima pioggia per tutte le regioni. La verifica locale e autorizzativa resta necessaria.",
   "automation": {
     "enabled": true,
@@ -15672,6 +15672,119 @@
     }
   ],
   "runs": [
+    {
+      "date": "2026-10-19",
+      "type": "Controllo territoriale · ricognizione parziale",
+      "summary": "Ricognizione senza nuove schede o modifiche normative pubblicabili nel perimetro effettivamente letto. Il Bollettino Ufficiale ha pubblicato il 16 ottobre 2026 l’ordinanza provinciale 10/2026 sull’emergenza idrica nel comprensorio Latzfons–Feldthurns e nel bacino del rio Tina/Chiusa: l’atto è stato esaminato dal sommario ufficiale ma non inserito, perché la gestione temporanea delle utilizzazioni idriche non ricade in nessuno dei 14 argomenti autorizzati.",
+      "checked": [
+        "bz23",
+        "dist-sard",
+        "sard-villanovafranca-reticolo-159-2026",
+        "dist-centr",
+        "dist-po",
+        "dist-sett",
+        "dist-merid",
+        "dist-sici"
+      ],
+      "territories": [
+        "Provincia autonoma di Bolzano: intera seduta del 16 ottobre 2026 e Bollettino Ufficiale regionale disponibile al 19 ottobre 2026",
+        "Sardegna: elenco ufficiale delle varianti PAI e stato della determinazione 159/2026 di Villanovafranca",
+        "Appennino Centrale: homepage e notizie recenti",
+        "Distretto del Po: homepage e pagina delle varianti PAI in corso",
+        "Appennino Settentrionale: homepage e notizia più recente",
+        "Appennino Meridionale: homepage e accessi agli strumenti di piano",
+        "Sicilia: pagina ufficiale della normativa PAI"
+      ],
+      "read_urls": [
+        "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=20&page=1&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
+        "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=20&page=2&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
+        "https://bollettino.regione.taa.it/it/default.aspx",
+        "https://bollettino.regione.taa.it/it/parte123.aspx?&numeroid=16929&anno=2026&top=1",
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/42/N1/N1422601200151.pdf",
+        "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/approvazione-varianti-pai/",
+        "https://autoritadibacino.regione.sardegna.it/ap/determinazione-n-159-prot-n-11256-del-25-09-2026/",
+        "https://aubac.it/",
+        "https://www.adbpo.it/",
+        "https://pai.adbpo.it/varianti-in-corso-2/",
+        "https://www.appenninosettentrionale.it/itc/",
+        "https://www.appenninosettentrionale.it/itc/?p=19887",
+        "https://www.distrettoappenninomeridionale.it/",
+        "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa"
+      ],
+      "source_findings": [
+        {
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=20&page=1&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
+          "result": "L’API ufficiale mantiene come ultima seduta quella del 16 ottobre 2026 e nella prima pagina espone le delibere 866–847; gli unici oggetti PZP sono le D.G.P. 858, 859 e 860 già censite."
+        },
+        {
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=20&page=2&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
+          "result": "La seconda pagina espone le delibere 846–844 della medesima seduta; tutti i 23 oggetti risultano controllati e non compare un ulteriore PZP, PAI o PGRA."
+        },
+        {
+          "source_url": "https://bollettino.regione.taa.it/it/parte123.aspx?&numeroid=16929&anno=2026&top=1",
+          "result": "Il numero straordinario 1 al Bollettino 42, pubblicato il 16 ottobre 2026, contiene l’ordinanza del Presidente della Provincia di Bolzano 10/2026 sullo stato di emergenza idrica e sulle misure temporanee per le utilizzazioni idriche nel comprensorio Latzfons–Feldthurns e nel bacino del rio Tina/Chiusa. L’oggetto non è PAI, PGRA o PZP e non rientra nei 14 argomenti canonici del catalogo."
+        },
+        {
+          "source_url": "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/approvazione-varianti-pai/",
+          "result": "La pagina espone ancora 154 risultati: il provvedimento più recente resta la determinazione 162/2026 di Barrali, già censita; seguono le determinazioni 161, 160 e 159/2026."
+        },
+        {
+          "source_url": "https://autoritadibacino.regione.sardegna.it/ap/determinazione-n-159-prot-n-11256-del-25-09-2026/",
+          "result": "La determinazione 159/2026 di Villanovafranca risulta ancora «In attesa di pubblicazione sul B.U.R.A.S»; il controllo di stato non aggiorna la precedente data di lettura documentale."
+        },
+        {
+          "source_url": "https://aubac.it/",
+          "result": "Le notizie più recenti restano l’evento del 15 ottobre, la notizia del 14 ottobre e la pubblicazione cartografica P.S.5 del 6 ottobre già censita; non compare un nuovo provvedimento PAI o PGRA."
+        },
+        {
+          "source_url": "https://www.adbpo.it/",
+          "result": "La notizia più recente resta l’aggiornamento idrologico settimanale del 16 ottobre 2026; non è un nuovo atto PAI o PGRA."
+        },
+        {
+          "source_url": "https://pai.adbpo.it/varianti-in-corso-2/",
+          "result": "La pagina continua a elencare il progetto generale 13/2025 e gli aggiornamenti Enza 91/2025, Terdoppio 5/2026 e Mera 27/2026, già considerati nel catalogo."
+        },
+        {
+          "source_url": "https://www.appenninosettentrionale.it/itc/?p=19887",
+          "result": "La notizia più recente visibile resta quella dell’8 ottobre 2026 sulla banca dati ITASED; la homepage non espone un nuovo atto PAI o PGRA."
+        },
+        {
+          "source_url": "https://www.distrettoappenninomeridionale.it/",
+          "result": "La homepage espone gli accessi agli strumenti PAI, PGRA e al progetto di piano stralcio alluvioni; nel contenuto acquisito non compare un nuovo provvedimento successivo."
+        },
+        {
+          "source_url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa",
+          "result": "La pagina normativa PAI reca ultimo aggiornamento 9 luglio 2026 e la modifica alla circolare applicativa del 23 giugno 2026; non compare un atto PAI successivo nel contenuto letto."
+        }
+      ],
+      "errors": [],
+      "limitations": [
+        "Ricognizione circoscritta alle URL elencate e ai contenuti effettivamente esposti; non copre integralmente regioni, province, comuni, gestori, albi pretori, allegati, cartografie o catene degli atti.",
+        "L’assenza di ulteriori modifiche pubblicabili vale soltanto per il perimetro letto; la verifica delle homepage e degli elenchi non equivale a un controllo esaustivo dei singoli procedimenti.",
+        "Dell’ordinanza provinciale 10/2026 sono stati acquisiti il sommario ufficiale e il collegamento diretto al documento, ma non il testo integrale; non è formulata alcuna attestazione sulla durata o sull’efficacia delle misure.",
+        "Le future pubblicazioni nel Bollettino Ufficiale delle D.G.P. Bolzano 858–860/2026 e la pubblicazione BURAS della determinazione Sardegna 159/2026 restano da verificare.",
+        "Le revisioni documentali delle schede preesistenti non sono state aggiornate da semplici controlli di elenco, homepage o raggiungibilità."
+      ],
+      "updated_records": [],
+      "new_records": [],
+      "execution": {
+        "id": "local-territorial-20261019-102218",
+        "id_origin": "Identificativo locale generato per questa esecuzione; identificativo del servizio non disponibile.",
+        "started_at": "2026-10-19T10:22:18+02:00",
+        "finished_at": "2026-10-19T10:27:47+02:00",
+        "outcome": "parziale",
+        "publication": {
+          "outcome": "in_attesa",
+          "last_valid_result": "published_github_pages",
+          "publication_history": [
+            {
+              "outcome": "in_attesa",
+              "note": "La ricevuta di questa esecuzione sarà aggiornata soltanto dopo il successo della validazione, del deployment Pages e del riscontro del run nel sito pubblico."
+            }
+          ]
+        }
+      }
+    },
     {
       "date": "2026-10-18",
       "type": "Controllo territoriale · ricognizione parziale",

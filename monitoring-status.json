@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-19T19:59:50Z",
+  "checked_at": "2026-10-20T08:08:55Z",
   "national": {
-    "state": "completato",
+    "state": "in_attesa",
     "last_completed_at": "2026-10-19T12:48:50+02:00",
-    "expected_date": "2026-10-19",
+    "expected_date": "2026-10-20",
     "deadline_local": "16:00 Europe/Rome",
     "checkpoint_end": "2026-10-19T10:48:50Z",
     "checkpoint_consistent": true,
@@ -72,9 +72,9 @@
   },
   "territorial": {
     "state": "parziale",
-    "date": "2026-10-19",
+    "date": "2026-10-20",
     "evidence": "data.json:runs[0]",
-    "summary": "Ricognizione senza nuove schede o modifiche normative pubblicabili nel perimetro effettivamente letto. Il Bollettino Ufficiale ha pubblicato il 16 ottobre 2026 l’ordinanza provinciale 10/2026 sull’emergenza idrica nel comprensorio Latzfons–Feldthurns e nel bacino del rio Tina/Chiusa: l’atto è stato esaminato dal sommario ufficiale ma non inserito, perché la gestione temporanea delle utilizzazioni idriche non ricade in nessuno dei 14 argomenti autorizzati.",
+    "summary": "Ricognizione senza nuove schede o modifiche normative pubblicabili nel perimetro effettivamente letto. Bolzano mantiene come ultima seduta quella del 16 ottobre 2026 e il Bollettino Ufficiale non espone pubblicazioni successive al numero straordinario già registrato; Villanovafranca resta in attesa di pubblicazione sul BURAS. Le altre novità visibili non costituiscono nuovi atti PAI, PGRA o PZP.",
     "sources_checked": [
       "bz23",
       "dist-sard",
@@ -89,46 +89,27 @@
       "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=20&page=1&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
       "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=20&page=2&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
       "https://bollettino.regione.taa.it/it/default.aspx",
-      "https://bollettino.regione.taa.it/it/parte123.aspx?&numeroid=16929&anno=2026&top=1",
-      "https://bollettino.regione.taa.it/pdf/I-II/2026/42/N1/N1422601200151.pdf",
       "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/approvazione-varianti-pai/",
       "https://autoritadibacino.regione.sardegna.it/ap/determinazione-n-159-prot-n-11256-del-25-09-2026/",
       "https://aubac.it/",
       "https://www.adbpo.it/",
       "https://pai.adbpo.it/varianti-in-corso-2/",
       "https://www.appenninosettentrionale.it/itc/",
-      "https://www.appenninosettentrionale.it/itc/?p=19887",
       "https://www.distrettoappenninomeridionale.it/",
       "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa"
     ],
     "territories": [
-      "Provincia autonoma di Bolzano: intera seduta del 16 ottobre 2026 e Bollettino Ufficiale regionale disponibile al 19 ottobre 2026",
+      "Provincia autonoma di Bolzano: intera seduta del 16 ottobre 2026 e homepage del Bollettino Ufficiale disponibile al 20 ottobre 2026",
       "Sardegna: elenco ufficiale delle varianti PAI e stato della determinazione 159/2026 di Villanovafranca",
       "Appennino Centrale: homepage e notizie recenti",
       "Distretto del Po: homepage e pagina delle varianti PAI in corso",
-      "Appennino Settentrionale: homepage e notizia più recente",
+      "Appennino Settentrionale: homepage e notizie recenti",
       "Appennino Meridionale: homepage e accessi agli strumenti di piano",
       "Sicilia: pagina ufficiale della normativa PAI"
     ],
     "errors": [],
     "publication": {
-      "outcome": "pubblicato",
-      "commit_sha": "32c6b7d29284be7b2e9bcfbdb56d1de36cfd1535",
-      "commit_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/commit/32c6b7d29284be7b2e9bcfbdb56d1de36cfd1535",
-      "verified_at": "2026-10-19T10:32:03+02:00",
-      "site_url": "https://domenicoderosa26-web.github.io/atlante-idraulico/",
-      "deployment_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/39223143762",
-      "verification": {
-        "outcome": "success",
-        "deployed_head_sha": "717327b2e3c567a7bb6451a18fcc1119494a3018",
-        "data": {
-          "updatedAt": "2026-10-19",
-          "records": 123,
-          "run_id": "local-territorial-20261019-102218",
-          "outcome": "parziale"
-        },
-        "site_loading": "Edizione 19/10/2026 caricata con 123 schede e 14 argomenti canonici ordinati A–Z; il run territoriale del 19 ottobre 2026 è presente nel data.json pubblico."
-      },
+      "outcome": "in_attesa",
       "last_valid_result": "published_github_pages",
       "publication_history": [
         {
@@ -147,7 +128,7 @@
       "severity": "warning",
       "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
       "evidence": "data.json:runs[0]",
-      "event_id": "9370bc0bcce521ee97192f3b"
+      "event_id": "ba5578e11df5ecc966f031ec"
     }
   ],
   "events": [
@@ -441,8 +422,16 @@
       "evidence": "data.json:runs[0]",
       "event_id": "9370bc0bcce521ee97192f3b",
       "recorded_at": "2026-10-19T08:30:08Z"
+    },
+    {
+      "code": "TERRITORIAL_PARZIALE",
+      "severity": "warning",
+      "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
+      "evidence": "data.json:runs[0]",
+      "event_id": "ba5578e11df5ecc966f031ec",
+      "recorded_at": "2026-10-20T08:08:55Z"
     }
   ],
   "has_errors": false,
-  "repository_sha": "a789355da2b612330adbf38d44b33440a7c27812"
+  "repository_sha": "94cba8588c2dbc0f8ae21fdfc9749be3f87b8115"
 }

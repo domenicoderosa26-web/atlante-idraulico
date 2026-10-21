@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-20T18:31:50Z",
+  "checked_at": "2026-10-21T08:09:05Z",
   "national": {
-    "state": "completato",
+    "state": "in_attesa",
     "last_completed_at": "2026-10-20T12:06:55+02:00",
-    "expected_date": "2026-10-20",
+    "expected_date": "2026-10-21",
     "deadline_local": "16:00 Europe/Rome",
     "checkpoint_end": "2026-10-20T10:06:55Z",
     "checkpoint_consistent": true,
@@ -72,9 +72,9 @@
   },
   "territorial": {
     "state": "parziale",
-    "date": "2026-10-20",
+    "date": "2026-10-21",
     "evidence": "data.json:runs[0]",
-    "summary": "Ricognizione senza nuove schede o modifiche normative pubblicabili nel perimetro effettivamente letto. Bolzano mantiene come ultima seduta quella del 16 ottobre 2026 e il Bollettino Ufficiale non espone pubblicazioni successive al numero straordinario già registrato; Villanovafranca resta in attesa di pubblicazione sul BURAS. Le altre novità visibili non costituiscono nuovi atti PAI, PGRA o PZP.",
+    "summary": "Ricognizione senza nuove schede o modifiche normative pubblicabili nel perimetro effettivamente letto. Bolzano mantiene come ultima seduta quella del 16 ottobre 2026 e la sezione generale del Bollettino Ufficiale non espone ancora le D.G.P. 858–860/2026; Villanovafranca resta in attesa di pubblicazione sul BURAS. Le novità del 20 ottobre su AUBAC e Appennino Settentrionale sono eventi o contributi informativi, non nuovi atti PAI, PGRA o PZP.",
     "sources_checked": [
       "bz23",
       "dist-sard",
@@ -95,37 +95,22 @@
       "https://www.adbpo.it/",
       "https://pai.adbpo.it/varianti-in-corso-2/",
       "https://www.appenninosettentrionale.it/itc/",
+      "https://www.appenninosettentrionale.it/itc/?p=19915",
       "https://www.distrettoappenninomeridionale.it/",
       "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa"
     ],
     "territories": [
-      "Provincia autonoma di Bolzano: intera seduta del 16 ottobre 2026 e homepage del Bollettino Ufficiale disponibile al 20 ottobre 2026",
+      "Provincia autonoma di Bolzano: intera seduta del 16 ottobre 2026 e homepage del Bollettino Ufficiale disponibile al 21 ottobre 2026",
       "Sardegna: elenco ufficiale delle varianti PAI e stato della determinazione 159/2026 di Villanovafranca",
       "Appennino Centrale: homepage e notizie recenti",
       "Distretto del Po: homepage e pagina delle varianti PAI in corso",
-      "Appennino Settentrionale: homepage e notizie recenti",
+      "Appennino Settentrionale: homepage e nuova notizia istituzionale del 20 ottobre 2026",
       "Appennino Meridionale: homepage e accessi agli strumenti di piano",
       "Sicilia: pagina ufficiale della normativa PAI"
     ],
     "errors": [],
     "publication": {
-      "outcome": "pubblicato",
-      "commit_sha": "94cba8588c2dbc0f8ae21fdfc9749be3f87b8115",
-      "commit_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/commit/94cba8588c2dbc0f8ae21fdfc9749be3f87b8115",
-      "verified_at": "2026-10-20T10:10:59+02:00",
-      "site_url": "https://domenicoderosa26-web.github.io/atlante-idraulico/",
-      "deployment_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/39391277933",
-      "verification": {
-        "outcome": "success",
-        "deployed_head_sha": "07217bacddb0ac5338cf8a3711a7976fc70c92e3",
-        "data": {
-          "updatedAt": "2026-10-20",
-          "records": 123,
-          "run_id": "local-territorial-20261020-100407",
-          "outcome": "parziale"
-        },
-        "site_loading": "Edizione 20/10/2026 caricata con 123 schede e 14 argomenti canonici ordinati A–Z; il run territoriale del 20 ottobre 2026 è presente nel data.json pubblico."
-      },
+      "outcome": "in_attesa",
       "last_valid_result": "published_github_pages",
       "publication_history": [
         {
@@ -144,7 +129,7 @@
       "severity": "warning",
       "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
       "evidence": "data.json:runs[0]",
-      "event_id": "ba5578e11df5ecc966f031ec"
+      "event_id": "3d49cdac792f6a33645b85a1"
     }
   ],
   "events": [
@@ -446,8 +431,16 @@
       "evidence": "data.json:runs[0]",
       "event_id": "ba5578e11df5ecc966f031ec",
       "recorded_at": "2026-10-20T08:08:55Z"
+    },
+    {
+      "code": "TERRITORIAL_PARZIALE",
+      "severity": "warning",
+      "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
+      "evidence": "data.json:runs[0]",
+      "event_id": "3d49cdac792f6a33645b85a1",
+      "recorded_at": "2026-10-21T08:09:05Z"
     }
   ],
   "has_errors": false,
-  "repository_sha": "684d922ab819cb7f9fbd8a737925e03a88329029"
+  "repository_sha": "d7bc7ee5daf6659ba490571520fbc27570f2204c"
 }

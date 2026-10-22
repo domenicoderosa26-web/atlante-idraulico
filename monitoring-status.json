@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-21T18:44:34Z",
+  "checked_at": "2026-10-22T08:13:21Z",
   "national": {
-    "state": "completato",
+    "state": "in_attesa",
     "last_completed_at": "2026-10-21T12:13:15+02:00",
-    "expected_date": "2026-10-21",
+    "expected_date": "2026-10-22",
     "deadline_local": "16:00 Europe/Rome",
     "checkpoint_end": "2026-10-21T10:13:15Z",
     "checkpoint_consistent": true,
@@ -72,10 +72,13 @@
   },
   "territorial": {
     "state": "parziale",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "evidence": "data.json:runs[0]",
-    "summary": "Ricognizione senza nuove schede o modifiche normative pubblicabili nel perimetro effettivamente letto. Bolzano mantiene come ultima seduta quella del 16 ottobre 2026 e la sezione generale del Bollettino Ufficiale non espone ancora le D.G.P. 858–860/2026; Villanovafranca resta in attesa di pubblicazione sul BURAS. Le novità del 20 ottobre su AUBAC e Appennino Settentrionale sono eventi o contributi informativi, non nuovi atti PAI, PGRA o PZP.",
+    "summary": "Pubblicate nel Bollettino Ufficiale regionale n. 43 del 22 ottobre 2026 le D.G.P. Bolzano 858–860/2026, già censite: le tre modifiche PZP diventeranno efficaci il 23 ottobre 2026. Villanovafranca resta in attesa di pubblicazione sul BURAS; nelle altre fonti istituzionali effettivamente lette non sono emersi nuovi atti PAI, PGRA o PZP pubblicabili.",
     "sources_checked": [
+      "bz-castelrotto-pzp-860-2026",
+      "bz-laion-pzp-859-2026",
+      "bz-falzes-pzp-858-2026",
       "bz23",
       "dist-sard",
       "sard-villanovafranca-reticolo-159-2026",
@@ -89,44 +92,31 @@
       "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=20&page=1&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
       "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=20&page=2&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
       "https://bollettino.regione.taa.it/it/default.aspx",
+      "https://bollettino.regione.taa.it/it/parte123.aspx?&numeroid=16927&anno=2026&top=1",
+      "https://bollettino.regione.taa.it/pdf/I-II/2026/43/BO/BO432601200166.pdf",
+      "https://bollettino.regione.taa.it/pdf/I-II/2026/43/BO/BO432601200167.pdf",
+      "https://bollettino.regione.taa.it/pdf/I-II/2026/43/BO/BO432601200168.pdf",
       "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/approvazione-varianti-pai/",
       "https://autoritadibacino.regione.sardegna.it/ap/determinazione-n-159-prot-n-11256-del-25-09-2026/",
       "https://aubac.it/",
       "https://www.adbpo.it/",
       "https://pai.adbpo.it/varianti-in-corso-2/",
       "https://www.appenninosettentrionale.it/itc/",
-      "https://www.appenninosettentrionale.it/itc/?p=19915",
       "https://www.distrettoappenninomeridionale.it/",
       "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa"
     ],
     "territories": [
-      "Provincia autonoma di Bolzano: intera seduta del 16 ottobre 2026 e homepage del Bollettino Ufficiale disponibile al 21 ottobre 2026",
+      "Provincia autonoma di Bolzano: seduta del 16 ottobre 2026 e pubblicazione delle D.G.P. 858–860/2026 nel Bollettino Ufficiale n. 43 del 22 ottobre 2026",
       "Sardegna: elenco ufficiale delle varianti PAI e stato della determinazione 159/2026 di Villanovafranca",
-      "Appennino Centrale: homepage e notizie recenti",
+      "Appennino Centrale: homepage istituzionale",
       "Distretto del Po: homepage e pagina delle varianti PAI in corso",
-      "Appennino Settentrionale: homepage e nuova notizia istituzionale del 20 ottobre 2026",
+      "Appennino Settentrionale: homepage e notizie recenti",
       "Appennino Meridionale: homepage e accessi agli strumenti di piano",
       "Sicilia: pagina ufficiale della normativa PAI"
     ],
     "errors": [],
     "publication": {
-      "outcome": "pubblicato",
-      "commit_sha": "d7bc7ee5daf6659ba490571520fbc27570f2204c",
-      "commit_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/commit/d7bc7ee5daf6659ba490571520fbc27570f2204c",
-      "verified_at": "2026-10-21T10:11:00+02:00",
-      "site_url": "https://domenicoderosa26-web.github.io/atlante-idraulico/",
-      "deployment_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/39567063239",
-      "verification": {
-        "outcome": "success",
-        "deployed_head_sha": "e6ea51e4011252039289c9e1ea58b256559e6da5",
-        "data": {
-          "updatedAt": "2026-10-21",
-          "records": 123,
-          "run_id": "local-territorial-20261021-100204",
-          "outcome": "parziale"
-        },
-        "site_loading": "Edizione 21/10/2026 caricata con 123 schede e 14 argomenti canonici ordinati A–Z; il run territoriale del 21 ottobre 2026 è presente nel data.json pubblico."
-      },
+      "outcome": "in_attesa",
       "last_valid_result": "published_github_pages",
       "publication_history": [
         {
@@ -145,7 +135,7 @@
       "severity": "warning",
       "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
       "evidence": "data.json:runs[0]",
-      "event_id": "3d49cdac792f6a33645b85a1"
+      "event_id": "c22482ee4017290b413666a1"
     }
   ],
   "events": [
@@ -455,8 +445,16 @@
       "evidence": "data.json:runs[0]",
       "event_id": "3d49cdac792f6a33645b85a1",
       "recorded_at": "2026-10-21T08:09:05Z"
+    },
+    {
+      "code": "TERRITORIAL_PARZIALE",
+      "severity": "warning",
+      "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
+      "evidence": "data.json:runs[0]",
+      "event_id": "c22482ee4017290b413666a1",
+      "recorded_at": "2026-10-22T08:13:21Z"
     }
   ],
   "has_errors": false,
-  "repository_sha": "4fcc9565b7c724bcb2332edf36ab10f425e8852c"
+  "repository_sha": "355f3c96aaa4ceb4dad2874496228b847998ebda"
 }

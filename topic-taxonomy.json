@@ -3678,7 +3678,8 @@
         "pzp"
       ],
       "source_urls": [
-        "https://api.integrations.services.siag.it/delibere/v1/delibere/pvqlbdi12TCWJ9BMpbxLcw%3D%3D/document?tstmp=1792225000000"
+        "https://api.integrations.services.siag.it/delibere/v1/delibere/pvqlbdi12TCWJ9BMpbxLcw%3D%3D/document?tstmp=1792225000000",
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/43/BO/BO432601200168.pdf"
       ],
       "object_versions": [
         {
@@ -3690,16 +3691,27 @@
             "La carta delle zone di pericolo è sostituita nell’ambito interessato.",
             "L’efficacia decorrerà dal giorno successivo alla pubblicazione nel Bollettino Ufficiale regionale."
           ]
+        },
+        {
+          "title": "Modifica PZP Castelrotto · Rio Nero",
+          "ref": "D.G.P. Bolzano 860/2026",
+          "summary": "Approvata la modifica della carta delle zone di pericolo idraulico per il Rio Nero, nel tratto presso l’Hotel Sensoria Dolomites nel Comune di Castelrotto.",
+          "focus": [
+            "Modifica circoscritta ai pericoli idraulici del Rio Nero (B.150).",
+            "La carta delle zone di pericolo è sostituita nell’ambito interessato.",
+            "L’efficacia decorrerà dal 23 ottobre 2026, giorno successivo alla pubblicazione nel Bollettino Ufficiale regionale n. 43."
+          ]
         }
       ],
-      "evidence": "Lettura della D.G.P. 860/2026, pp. 1–3: la modifica riguarda espressamente la carta delle zone di pericolo idraulico del Rio Nero; nessuna componente frane o valanghe è documentata."
+      "evidence": "Lettura della D.G.P. 860/2026, pp. 1–3: la modifica riguarda espressamente la carta delle zone di pericolo idraulico del Rio Nero; nessuna componente frane o valanghe è documentata. Il Bollettino Ufficiale n. 43 del 22 ottobre 2026 conferma identità e pubblicazione della D.G.P. 860/2026 senza modificare la classificazione sostanziale."
     },
     "bz-laion-pzp-859-2026": {
       "topics": [
         "pai-frane"
       ],
       "source_urls": [
-        "https://api.integrations.services.siag.it/delibere/v1/delibere/LQRr5i8YiVHPnCYlRns6Hg%3D%3D/document?tstmp=1792225000000"
+        "https://api.integrations.services.siag.it/delibere/v1/delibere/LQRr5i8YiVHPnCYlRns6Hg%3D%3D/document?tstmp=1792225000000",
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/43/BO/BO432601200167.pdf"
       ],
       "object_versions": [
         {
@@ -3711,9 +3723,19 @@
             "La carta delle zone di pericolo è sostituita nell’ambito interessato.",
             "L’efficacia decorrerà dal giorno successivo alla pubblicazione nel Bollettino Ufficiale regionale."
           ]
+        },
+        {
+          "title": "Modifica PZP Laion · maso Marzun ad Albions",
+          "ref": "D.G.P. Bolzano 859/2026",
+          "summary": "Approvata la modifica della carta delle zone di pericolo da frana nell’area del maso Marzun ad Albions, Comune di Laion.",
+          "focus": [
+            "Modifica circoscritta alla componente frane nell’area del maso Marzun ad Albions.",
+            "La carta delle zone di pericolo è sostituita nell’ambito interessato.",
+            "L’efficacia decorrerà dal 23 ottobre 2026, giorno successivo alla pubblicazione nel Bollettino Ufficiale regionale n. 43."
+          ]
         }
       ],
-      "evidence": "Lettura della D.G.P. 859/2026, pp. 1–3: la modifica riguarda esclusivamente la carta delle zone di pericolo frane; nessuna componente idraulica o valanghiva è documentata."
+      "evidence": "Lettura della D.G.P. 859/2026, pp. 1–3: la modifica riguarda esclusivamente la carta delle zone di pericolo frane; nessuna componente idraulica o valanghiva è documentata. Il Bollettino Ufficiale n. 43 del 22 ottobre 2026 conferma identità e pubblicazione della D.G.P. 859/2026 senza modificare la classificazione sostanziale."
     },
     "bz-falzes-pzp-858-2026": {
       "topics": [
@@ -3721,7 +3743,8 @@
         "pzp"
       ],
       "source_urls": [
-        "https://api.integrations.services.siag.it/delibere/v1/delibere/j3ALmCPJpiwFSeNB-QwbRw%3D%3D/document?tstmp=1792225000000"
+        "https://api.integrations.services.siag.it/delibere/v1/delibere/j3ALmCPJpiwFSeNB-QwbRw%3D%3D/document?tstmp=1792225000000",
+        "https://bollettino.regione.taa.it/pdf/I-II/2026/43/BO/BO432601200166.pdf"
       ],
       "object_versions": [
         {
@@ -3733,9 +3756,19 @@
             "Aggiornamento circoscritto alle particelle 927 e 1229/1 C.C. Falzes.",
             "L’efficacia decorrerà dal giorno successivo alla pubblicazione nel Bollettino Ufficiale regionale."
           ]
+        },
+        {
+          "title": "Modifica PZP Falzes · particelle 927 e 1229/1",
+          "ref": "D.G.P. Bolzano 858/2026",
+          "summary": "Approvato l’aggiornamento del Piano delle zone di pericolo nelle particelle 927 e 1229/1 del Comune di Falzes, coordinato con la destinazione urbanistica a verde pubblico.",
+          "focus": [
+            "Gli elaborati modificati comprendono la carta frane, valanghe e pericoli idraulici.",
+            "Aggiornamento circoscritto alle particelle 927 e 1229/1 C.C. Falzes.",
+            "L’efficacia decorrerà dal 23 ottobre 2026, giorno successivo alla pubblicazione nel Bollettino Ufficiale regionale n. 43."
+          ]
         }
       ],
-      "evidence": "Lettura della D.G.P. 858/2026, pp. 3–5: la carta modificata comprende frane, valanghe e pericoli idraulici. PZP è assegnato alla sola componente idraulica; frane e valanghe confluiscono nel tema frane."
+      "evidence": "Lettura della D.G.P. 858/2026, pp. 3–5: la carta modificata comprende frane, valanghe e pericoli idraulici. PZP è assegnato alla sola componente idraulica; frane e valanghe confluiscono nel tema frane. Il Bollettino Ufficiale n. 43 del 22 ottobre 2026 conferma identità e pubblicazione della D.G.P. 858/2026 senza modificare la classificazione sostanziale."
     }
   }
 }

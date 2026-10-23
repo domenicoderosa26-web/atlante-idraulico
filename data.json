@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-22",
+  "updatedAt": "2026-10-23",
   "scope": "Catalogo selettivo con controllo mirato dei CAM e della disciplina delle acque di prima pioggia per tutte le regioni. La verifica locale e autorizzativa resta necessaria.",
   "automation": {
     "enabled": true,
@@ -15860,6 +15860,116 @@
     }
   ],
   "runs": [
+    {
+      "date": "2026-10-23",
+      "type": "Controllo territoriale · ricognizione parziale",
+      "summary": "Ricognizione senza nuove schede o modifiche normative pubblicabili nel perimetro effettivamente letto. Le tre modifiche PZP di Falzes, Laion e Castelrotto raggiungono oggi la decorrenza già documentata nelle schede, senza richiedere una modifica dell’oggetto o delle evidenze. Villanovafranca resta in attesa di pubblicazione sul BURAS; le altre fonti lette non espongono nuovi atti PAI, PGRA o PZP.",
+      "checked": [
+        "bz23",
+        "dist-sard",
+        "sard-villanovafranca-reticolo-159-2026",
+        "dist-centr",
+        "dist-po",
+        "dist-sett",
+        "dist-merid",
+        "dist-sici"
+      ],
+      "territories": [
+        "Provincia autonoma di Bolzano: intera seduta del 16 ottobre 2026 e homepage del Bollettino Ufficiale disponibile al 23 ottobre 2026",
+        "Sardegna: elenco ufficiale delle varianti PAI e stato della determinazione 159/2026 di Villanovafranca",
+        "Appennino Centrale: homepage e notizie recenti",
+        "Distretto del Po: homepage e pagina delle varianti PAI in corso",
+        "Appennino Settentrionale: homepage e notizie recenti",
+        "Appennino Meridionale: homepage e accessi agli strumenti di piano",
+        "Sicilia: pagina ufficiale della normativa PAI"
+      ],
+      "read_urls": [
+        "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=20&page=1&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
+        "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=20&page=2&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
+        "https://bollettino.regione.taa.it/it/default.aspx",
+        "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/approvazione-varianti-pai/",
+        "https://autoritadibacino.regione.sardegna.it/ap/determinazione-n-159-prot-n-11256-del-25-09-2026/",
+        "https://aubac.it/",
+        "https://www.adbpo.it/",
+        "https://pai.adbpo.it/varianti-in-corso-2/",
+        "https://www.appenninosettentrionale.it/itc/",
+        "https://www.distrettoappenninomeridionale.it/",
+        "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa"
+      ],
+      "source_findings": [
+        {
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=20&page=1&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
+          "result": "L’API ufficiale mantiene come ultima seduta quella del 16 ottobre 2026 e nella prima pagina espone le delibere 866–847; gli unici oggetti PZP sono le D.G.P. 858, 859 e 860 già censite."
+        },
+        {
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=20&page=2&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
+          "result": "La seconda pagina espone le delibere 846–844 della medesima seduta; nei 23 oggetti complessivi non compare un ulteriore PZP, PAI o PGRA."
+        },
+        {
+          "source_url": "https://bollettino.regione.taa.it/it/default.aspx",
+          "result": "La sezione generale espone il numero straordinario 1 del 23 ottobre 2026, dedicato a misure urgenti sulle dichiarazioni di appartenenza linguistica e non pertinente all’archivio; il Bollettino ordinario più recente resta il n. 43 del 22 ottobre 2026. La decorrenza odierna delle D.G.P. 858–860/2026 era già documentata nelle schede e questo controllo di indice non aggiorna la lettura documentale."
+        },
+        {
+          "source_url": "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/approvazione-varianti-pai/",
+          "result": "La pagina espone ancora 154 risultati e mantiene come provvedimento più recente la determinazione 162/2026 di Barrali, già censita."
+        },
+        {
+          "source_url": "https://autoritadibacino.regione.sardegna.it/ap/determinazione-n-159-prot-n-11256-del-25-09-2026/",
+          "result": "La determinazione 159/2026 di Villanovafranca risulta ancora «In attesa di pubblicazione sul B.U.R.A.S»; il controllo di stato non aggiorna la precedente data di lettura documentale."
+        },
+        {
+          "source_url": "https://aubac.it/",
+          "result": "La homepage istituzionale mantiene come contenuto più recente l’evento del 21 ottobre 2026 e non espone un nuovo provvedimento PAI o PGRA nel contenuto acquisito."
+        },
+        {
+          "source_url": "https://www.adbpo.it/",
+          "result": "Le novità del 22 ottobre 2026 riguardano l’aggiornamento idrologico settimanale, il progetto REWET e gli Stati generali Natura 2000; non costituiscono nuovi atti PAI o PGRA."
+        },
+        {
+          "source_url": "https://pai.adbpo.it/varianti-in-corso-2/",
+          "result": "La pagina continua a elencare il progetto generale 13/2025 e gli aggiornamenti Enza 91/2025, Terdoppio 5/2026 e Mera 27/2026, già considerati nel catalogo."
+        },
+        {
+          "source_url": "https://www.appenninosettentrionale.it/itc/",
+          "result": "La homepage espone contenuti informativi ed eventi recenti, incluso il convegno sul riuso delle acque, ma non un nuovo atto PAI, PGRA o PZP nel contenuto letto."
+        },
+        {
+          "source_url": "https://www.distrettoappenninomeridionale.it/",
+          "result": "La homepage espone gli accessi agli strumenti PAI, PGRA e agli altri piani ma non un nuovo provvedimento nel contenuto acquisito."
+        },
+        {
+          "source_url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa",
+          "result": "La pagina normativa PAI reca ancora ultimo aggiornamento 9 luglio 2026 e la modifica alla circolare applicativa del 23 giugno 2026; non presenta un atto PAI successivo nel contenuto letto."
+        }
+      ],
+      "errors": [],
+      "limitations": [
+        "Ricognizione circoscritta alle URL elencate e ai contenuti effettivamente esposti; non copre integralmente regioni, province, comuni, gestori, albi pretori, allegati, cartografie o catene degli atti.",
+        "L’assenza di ulteriori modifiche pubblicabili vale soltanto per il perimetro letto; la verifica delle homepage e degli elenchi non equivale a un controllo esaustivo dei singoli procedimenti.",
+        "La decorrenza odierna delle D.G.P. Bolzano 858–860/2026 deriva dalle clausole già lette e documentate il 22 ottobre; in questo run non sono stati riletti i tre testi deliberativi e le relative revisioni documentali non sono state aggiornate.",
+        "La pubblicazione BURAS della determinazione Sardegna 159/2026 e gli elaborati cartografici delle tre modifiche PZP restano da verificare.",
+        "Le revisioni documentali delle altre schede preesistenti non sono state aggiornate da semplici controlli di elenco, homepage o raggiungibilità."
+      ],
+      "updated_records": [],
+      "new_records": [],
+      "execution": {
+        "id": "local-territorial-20261023-100127",
+        "id_origin": "Identificativo locale generato per questa esecuzione; identificativo del servizio non disponibile.",
+        "started_at": "2026-10-23T10:01:27+02:00",
+        "finished_at": "2026-10-23T10:06:21+02:00",
+        "outcome": "parziale",
+        "publication": {
+          "outcome": "in_attesa",
+          "last_valid_result": "published_github_pages",
+          "publication_history": [
+            {
+              "outcome": "in_attesa",
+              "note": "La ricevuta di questa esecuzione sarà aggiornata soltanto dopo il successo della validazione, del deployment Pages e del riscontro del run nel sito pubblico."
+            }
+          ]
+        }
+      }
+    },
     {
       "date": "2026-10-22",
       "type": "Controllo territoriale · ricognizione parziale",

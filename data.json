@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23",
+  "updatedAt": "2026-10-24",
   "scope": "Catalogo selettivo con controllo mirato dei CAM e della disciplina delle acque di prima pioggia per tutte le regioni. La verifica locale e autorizzativa resta necessaria.",
   "automation": {
     "enabled": true,
@@ -15242,6 +15242,104 @@
       ],
       "publication_date": "2026-10-22",
       "effective_date": "2026-10-23"
+    },
+    {
+      "id": "bz-brennero-pzp-878-2026",
+      "ref": "D.G.P. Bolzano 878/2026",
+      "title": "Modifica PZP Brennero · stazione elettrica 132/110 kV",
+      "level": "Provinciale",
+      "regions": [
+        "Trentino-Alto Adige"
+      ],
+      "topics": [
+        "PAI - Pericolosità e rischio frane"
+      ],
+      "date": "2026-10-23",
+      "url": "https://giunta-provinciale.provincia.bz.it/it/delibere",
+      "summary": "Approvata la modifica della carta delle zone di pericolo da frana presso la stazione elettrica 132/110 kV nel Comune di Brennero.",
+      "focus": [
+        "Modifica circoscritta alla componente frane presso la stazione elettrica 132/110 kV.",
+        "La carta delle zone di pericolo è sostituita soltanto nell’ambito interessato.",
+        "L’efficacia decorrerà dal giorno successivo alla pubblicazione nel Bollettino Ufficiale; la pubblicazione non risulta ancora nel fascicolo consultato il 24 ottobre 2026."
+      ],
+      "kind": "Piano",
+      "status": "Approvata il 23 ottobre 2026; efficacia subordinata alla pubblicazione nel Bollettino Ufficiale",
+      "source_kind": "Delibera ufficiale della Provincia autonoma di Bolzano",
+      "note": "La D.G.P. 878/2026 approva la modifica PZP per la sola componente frane. Il testo dispone la pubblicazione e l’entrata in vigore il giorno successivo; la cartografia e la relazione illustrativa sono richiamate ma non incluse nel PDF.",
+      "checked": "2026-10-24",
+      "relations": [
+        {
+          "type": "Disciplina degli interventi nelle zone di pericolo",
+          "id": "bz23"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-24",
+          "text": "Acquisita e letta integralmente la D.G.P. 878/2026: verificati approvazione, componente frane, ambito della sostituzione cartografica e condizione di efficacia; pubblicazione ed elaborati restano da acquisire."
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/oH1cS29ZEEvoZrYdcFQz3w%3D%3D/document",
+          "label": "PDF ufficiale · D.G.P. Bolzano 878/2026",
+          "format": "pdf"
+        }
+      ],
+      "document_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/oH1cS29ZEEvoZrYdcFQz3w%3D%3D/document",
+      "document_label": "Apri la delibera provinciale (PDF)",
+      "document_note": "Il dispositivo approva la modifica e ne subordina l’entrata in vigore al giorno successivo alla pubblicazione nel Bollettino Ufficiale.",
+      "documentary_review": {
+        "checked_at": "2026-10-24",
+        "scope": "Lettura integrale della D.G.P. 878/2026 per identità, iter, componente di pericolosità, approvazione, ambito territoriale e condizione di efficacia della singola modifica PZP.",
+        "outcome": "partial",
+        "legal_state": "partial",
+        "source_urls": [
+          "https://api.integrations.services.siag.it/delibere/v1/delibere/oH1cS29ZEEvoZrYdcFQz3w%3D%3D/document"
+        ],
+        "claims": [
+          {
+            "aspect": "identity",
+            "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/oH1cS29ZEEvoZrYdcFQz3w%3D%3D/document",
+            "locator": "pagina PDF 1, numero, seduta e oggetto",
+            "finding": "D.G.P. Bolzano 878/2026 del 23 ottobre 2026; Comune di Brennero, stazione elettrica 132/110 kV; modifica del piano delle zone di pericolo per frane."
+          },
+          {
+            "aspect": "approval",
+            "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/oH1cS29ZEEvoZrYdcFQz3w%3D%3D/document",
+            "locator": "pagine PDF 2–3, iter e dispositivo",
+            "finding": "Il Consiglio comunale ha adottato definitivamente la proposta con deliberazione 38 del 24 settembre 2026 e la Giunta provinciale approva la modifica richiesta."
+          },
+          {
+            "aspect": "topics",
+            "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/oH1cS29ZEEvoZrYdcFQz3w%3D%3D/document",
+            "locator": "pagine PDF 1–2, oggetto ed elaborati esaminati",
+            "finding": "La modifica riguarda la carta delle zone di pericolo frane e la relativa relazione illustrativa; non è documentata una componente idraulica."
+          },
+          {
+            "aspect": "territory",
+            "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/oH1cS29ZEEvoZrYdcFQz3w%3D%3D/document",
+            "locator": "pagina PDF 3, dispositivo sulla sostituzione cartografica",
+            "finding": "La carta delle zone di pericolo è sostituita soltanto nell’ambito interessato presso la stazione elettrica 132/110 kV di Brennero."
+          },
+          {
+            "aspect": "effectiveness",
+            "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/oH1cS29ZEEvoZrYdcFQz3w%3D%3D/document",
+            "locator": "pagina PDF 3, ultimo paragrafo del dispositivo",
+            "finding": "La deliberazione dispone l’entrata in vigore il giorno successivo alla pubblicazione nel Bollettino Ufficiale; la data di pubblicazione non è accertata in questo controllo."
+          }
+        ],
+        "limitations": [
+          "La pubblicazione nel Bollettino Ufficiale e la conseguente data di efficacia non sono state ancora acquisite.",
+          "Il PDF della deliberazione non contiene la carta modificata né la relazione illustrativa.",
+          "Non verificata l’assenza di modifiche successive né la vigenza complessiva del PZP comunale."
+        ],
+        "pending": [
+          "Verificare numero e data del Bollettino e la conseguente efficacia.",
+          "Acquisire cartografia e relazione illustrativa dal deposito comunale o dal portale cartografico."
+        ],
+        "record_version": "ce6b79125ea0cb4a1609dad6a1ee555fd4d751f75d5df06a58a776a5cc8192fa"
+      }
     }
   ],
   "regions": [
@@ -15860,6 +15958,109 @@
     }
   ],
   "runs": [
+    {
+      "date": "2026-10-24",
+      "type": "Controllo territoriale · ricognizione parziale",
+      "summary": "Censita la D.G.P. Bolzano 878/2026, che approva una modifica del PZP di Brennero per la sola componente frane presso la stazione elettrica 132/110 kV; pubblicazione ed efficacia restano da accertare. Nelle altre fonti effettivamente lette non sono emersi nuovi atti PAI, PGRA o PZP pubblicabili. La fonte Sardegna non è stata considerata controllata per due errori di connessione consecutivi.",
+      "checked": [
+        "bz-brennero-pzp-878-2026",
+        "bz23",
+        "dist-centr",
+        "dist-po",
+        "dist-sett",
+        "dist-merid",
+        "dist-sici"
+      ],
+      "territories": [
+        "Provincia autonoma di Bolzano: intera seduta del 23 ottobre 2026, D.G.P. 878/2026 e homepage del Bollettino Ufficiale disponibile al 24 ottobre 2026",
+        "Appennino Centrale: homepage e contenuti recenti",
+        "Distretto del Po: homepage e pagina delle varianti PAI in corso",
+        "Appennino Settentrionale: homepage e contenuti recenti",
+        "Appennino Meridionale: homepage e accessi agli strumenti di piano",
+        "Sicilia: pagina ufficiale della normativa PAI"
+      ],
+      "read_urls": [
+        "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=20&page=1&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
+        "https://api.integrations.services.siag.it/delibere/v1/delibere/oH1cS29ZEEvoZrYdcFQz3w%3D%3D/document",
+        "https://bollettino.regione.taa.it/it/default.aspx",
+        "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/approvazione-varianti-pai/",
+        "https://aubac.it/",
+        "https://www.adbpo.it/",
+        "https://pai.adbpo.it/varianti-in-corso-2/",
+        "https://www.appenninosettentrionale.it/itc/",
+        "https://www.distrettoappenninomeridionale.it/",
+        "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa"
+      ],
+      "source_findings": [
+        {
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=20&page=1&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
+          "result": "L’API ufficiale espone 17 delibere per la seduta del 23 ottobre 2026, numeri 883–867; la D.G.P. 878/2026 è l’unico oggetto pertinente a PZP, PAI o PGRA."
+        },
+        {
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere/oH1cS29ZEEvoZrYdcFQz3w%3D%3D/document",
+          "result": "Il testo integrale approva la modifica PZP di Brennero per frane, limita la sostituzione cartografica all’area della stazione elettrica 132/110 kV e fissa l’efficacia al giorno successivo alla pubblicazione nel Bollettino."
+        },
+        {
+          "source_url": "https://bollettino.regione.taa.it/it/default.aspx",
+          "result": "La homepage espone il numero ordinario 43 del 22 ottobre 2026 e il numero straordinario 1 del 23 ottobre 2026; la D.G.P. 878/2026 non risulta ancora pubblicata nel perimetro consultato e non se ne dichiara l’efficacia."
+        },
+        {
+          "source_url": "https://aubac.it/",
+          "result": "La homepage istituzionale mantiene come contenuto più recente l’evento del 21 ottobre 2026 e non espone un nuovo provvedimento PAI o PGRA nel contenuto acquisito."
+        },
+        {
+          "source_url": "https://www.adbpo.it/",
+          "result": "La homepage espone accessi ai piani e contenuti informativi, senza un nuovo provvedimento PAI o PGRA nel contenuto acquisito."
+        },
+        {
+          "source_url": "https://pai.adbpo.it/varianti-in-corso-2/",
+          "result": "La pagina continua a elencare il progetto generale 13/2025 e gli aggiornamenti Enza 91/2025, Terdoppio 5/2026 e Mera 27/2026, già considerati nel catalogo."
+        },
+        {
+          "source_url": "https://www.appenninosettentrionale.it/itc/",
+          "result": "I contenuti recenti acquisiti sono informativi o relativi a eventi e non pubblicano un nuovo atto PAI, PGRA o PZP."
+        },
+        {
+          "source_url": "https://www.distrettoappenninomeridionale.it/",
+          "result": "La homepage espone gli accessi agli strumenti PAI, PGRA e agli altri piani ma non un nuovo provvedimento nel contenuto acquisito."
+        },
+        {
+          "source_url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa",
+          "result": "La pagina normativa PAI reca ultimo aggiornamento 9 luglio 2026 e la modifica alla circolare applicativa del 23 giugno 2026; non presenta un atto successivo nel contenuto letto."
+        }
+      ],
+      "errors": [
+        "Sardegna: l’elenco ufficiale delle varianti PAI ha restituito due errori di connessione consecutivi; la fonte non è considerata controllata e non se ne deduce l’assenza di nuovi atti né lo stato di Villanovafranca."
+      ],
+      "limitations": [
+        "Ricognizione circoscritta alle URL elencate e ai contenuti effettivamente esposti; non copre integralmente regioni, province, comuni, gestori, albi pretori, allegati, cartografie o catene degli atti.",
+        "L’assenza di ulteriori modifiche pubblicabili vale soltanto per il perimetro letto; homepage ed elenchi non equivalgono a un controllo esaustivo dei singoli procedimenti.",
+        "La fonte Sardegna non è stata verificata a causa degli errori di accesso e non consente conclusioni su nuovi atti o sullo stato della determinazione 159/2026 di Villanovafranca.",
+        "Per la D.G.P. 878/2026 restano da acquisire pubblicazione nel Bollettino, data di efficacia, cartografia e relazione illustrativa.",
+        "Le revisioni documentali delle schede preesistenti non sono state aggiornate da semplici controlli di elenco, homepage o raggiungibilità."
+      ],
+      "updated_records": [],
+      "new_records": [
+        "bz-brennero-pzp-878-2026"
+      ],
+      "execution": {
+        "id": "local-territorial-20261024-100348",
+        "id_origin": "Identificativo locale generato per questa esecuzione; identificativo del servizio non disponibile.",
+        "started_at": "2026-10-24T10:03:48+02:00",
+        "finished_at": "2026-10-24T10:09:58+02:00",
+        "outcome": "parziale",
+        "publication": {
+          "outcome": "in_attesa",
+          "last_valid_result": "published_github_pages",
+          "publication_history": [
+            {
+              "outcome": "in_attesa",
+              "note": "La ricevuta di questa esecuzione sarà aggiornata soltanto dopo il successo della validazione, del deployment Pages e del riscontro del run nel sito pubblico."
+            }
+          ]
+        }
+      }
+    },
     {
       "date": "2026-10-23",
       "type": "Controllo territoriale · ricognizione parziale",

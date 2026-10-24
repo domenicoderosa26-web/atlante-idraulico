@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-23T18:27:56Z",
+  "checked_at": "2026-10-24T08:12:43Z",
   "national": {
-    "state": "completato",
+    "state": "in_attesa",
     "last_completed_at": "2026-10-23T12:07:24+02:00",
-    "expected_date": "2026-10-23",
+    "expected_date": "2026-10-24",
     "deadline_local": "16:00 Europe/Rome",
     "checkpoint_end": "2026-10-23T10:07:24Z",
     "checkpoint_consistent": true,
@@ -72,13 +72,12 @@
   },
   "territorial": {
     "state": "parziale",
-    "date": "2026-10-23",
+    "date": "2026-10-24",
     "evidence": "data.json:runs[0]",
-    "summary": "Ricognizione senza nuove schede o modifiche normative pubblicabili nel perimetro effettivamente letto. Le tre modifiche PZP di Falzes, Laion e Castelrotto raggiungono oggi la decorrenza già documentata nelle schede, senza richiedere una modifica dell’oggetto o delle evidenze. Villanovafranca resta in attesa di pubblicazione sul BURAS; le altre fonti lette non espongono nuovi atti PAI, PGRA o PZP.",
+    "summary": "Censita la D.G.P. Bolzano 878/2026, che approva una modifica del PZP di Brennero per la sola componente frane presso la stazione elettrica 132/110 kV; pubblicazione ed efficacia restano da accertare. Nelle altre fonti effettivamente lette non sono emersi nuovi atti PAI, PGRA o PZP pubblicabili. La fonte Sardegna non è stata considerata controllata per due errori di connessione consecutivi.",
     "sources_checked": [
+      "bz-brennero-pzp-878-2026",
       "bz23",
-      "dist-sard",
-      "sard-villanovafranca-reticolo-159-2026",
       "dist-centr",
       "dist-po",
       "dist-sett",
@@ -87,10 +86,9 @@
     ],
     "source_urls": [
       "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=20&page=1&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
-      "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=20&page=2&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
+      "https://api.integrations.services.siag.it/delibere/v1/delibere/oH1cS29ZEEvoZrYdcFQz3w%3D%3D/document",
       "https://bollettino.regione.taa.it/it/default.aspx",
       "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/approvazione-varianti-pai/",
-      "https://autoritadibacino.regione.sardegna.it/ap/determinazione-n-159-prot-n-11256-del-25-09-2026/",
       "https://aubac.it/",
       "https://www.adbpo.it/",
       "https://pai.adbpo.it/varianti-in-corso-2/",
@@ -99,40 +97,25 @@
       "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa"
     ],
     "territories": [
-      "Provincia autonoma di Bolzano: intera seduta del 16 ottobre 2026 e homepage del Bollettino Ufficiale disponibile al 23 ottobre 2026",
-      "Sardegna: elenco ufficiale delle varianti PAI e stato della determinazione 159/2026 di Villanovafranca",
-      "Appennino Centrale: homepage e notizie recenti",
+      "Provincia autonoma di Bolzano: intera seduta del 23 ottobre 2026, D.G.P. 878/2026 e homepage del Bollettino Ufficiale disponibile al 24 ottobre 2026",
+      "Appennino Centrale: homepage e contenuti recenti",
       "Distretto del Po: homepage e pagina delle varianti PAI in corso",
-      "Appennino Settentrionale: homepage e notizie recenti",
+      "Appennino Settentrionale: homepage e contenuti recenti",
       "Appennino Meridionale: homepage e accessi agli strumenti di piano",
       "Sicilia: pagina ufficiale della normativa PAI"
     ],
-    "errors": [],
+    "errors": [
+      "Sardegna: l’elenco ufficiale delle varianti PAI ha restituito due errori di connessione consecutivi; la fonte non è considerata controllata e non se ne deduce l’assenza di nuovi atti né lo stato di Villanovafranca."
+    ],
     "publication": {
-      "outcome": "pubblicato",
+      "outcome": "in_attesa",
       "last_valid_result": "published_github_pages",
       "publication_history": [
         {
           "outcome": "in_attesa",
           "note": "La ricevuta di questa esecuzione sarà aggiornata soltanto dopo il successo della validazione, del deployment Pages e del riscontro del run nel sito pubblico."
         }
-      ],
-      "commit_sha": "91b70abc338ec0f0887291f9104d71a3ccafd6a7",
-      "commit_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/commit/91b70abc338ec0f0887291f9104d71a3ccafd6a7",
-      "verified_at": "2026-10-23T10:10:47+02:00",
-      "site_url": "https://domenicoderosa26-web.github.io/atlante-idraulico/",
-      "deployment_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/39922562145",
-      "verification": {
-        "outcome": "success",
-        "deployed_head_sha": "91b70abc338ec0f0887291f9104d71a3ccafd6a7",
-        "data": {
-          "updatedAt": "2026-10-23",
-          "records": 123,
-          "run_id": "local-territorial-20261023-100127",
-          "outcome": "parziale"
-        },
-        "site_loading": "Edizione 23/10/2026 caricata con 123 schede e 14 argomenti canonici ordinati A–Z; il run territoriale del 23 ottobre 2026 è presente nel data.json pubblico."
-      }
+      ]
     },
     "external_execution_verified": false,
     "legacy_completion_marker": "2026-09-25",
@@ -144,7 +127,7 @@
       "severity": "warning",
       "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
       "evidence": "data.json:runs[0]",
-      "event_id": "cb09d1882bbc9376cd28ecd5"
+      "event_id": "3c97d20cd3be656d91f41990"
     }
   ],
   "events": [
@@ -470,8 +453,16 @@
       "evidence": "data.json:runs[0]",
       "event_id": "cb09d1882bbc9376cd28ecd5",
       "recorded_at": "2026-10-23T08:08:54Z"
+    },
+    {
+      "code": "TERRITORIAL_PARZIALE",
+      "severity": "warning",
+      "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
+      "evidence": "data.json:runs[0]",
+      "event_id": "3c97d20cd3be656d91f41990",
+      "recorded_at": "2026-10-24T08:12:43Z"
     }
   ],
   "has_errors": false,
-  "repository_sha": "9007273c8d3cc2da1078110b95c8fbc2c616d57f"
+  "repository_sha": "14591addaf12241cff5a5d585a3cbed8117d0295"
 }

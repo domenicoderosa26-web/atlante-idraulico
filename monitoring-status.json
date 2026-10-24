@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-24T08:12:43Z",
+  "checked_at": "2026-10-24T08:15:29Z",
   "national": {
     "state": "in_attesa",
     "last_completed_at": "2026-10-23T12:07:24+02:00",
@@ -108,14 +108,30 @@
       "Sardegna: l’elenco ufficiale delle varianti PAI ha restituito due errori di connessione consecutivi; la fonte non è considerata controllata e non se ne deduce l’assenza di nuovi atti né lo stato di Villanovafranca."
     ],
     "publication": {
-      "outcome": "in_attesa",
+      "outcome": "pubblicato",
       "last_valid_result": "published_github_pages",
       "publication_history": [
         {
           "outcome": "in_attesa",
           "note": "La ricevuta di questa esecuzione sarà aggiornata soltanto dopo il successo della validazione, del deployment Pages e del riscontro del run nel sito pubblico."
         }
-      ]
+      ],
+      "commit_sha": "14591addaf12241cff5a5d585a3cbed8117d0295",
+      "commit_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/commit/14591addaf12241cff5a5d585a3cbed8117d0295",
+      "verified_at": "2026-10-24T10:14:07+02:00",
+      "site_url": "https://domenicoderosa26-web.github.io/atlante-idraulico/",
+      "deployment_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/40077111167",
+      "verification": {
+        "outcome": "success",
+        "deployed_head_sha": "14591addaf12241cff5a5d585a3cbed8117d0295",
+        "data": {
+          "updatedAt": "2026-10-24",
+          "records": 124,
+          "run_id": "local-territorial-20261024-100348",
+          "outcome": "parziale"
+        },
+        "site_loading": "Edizione 24/10/2026 caricata con 124 schede e 14 argomenti canonici ordinati A–Z; la scheda D.G.P. Bolzano 878/2026 e il run territoriale del 24 ottobre 2026 sono presenti nel sito e nel data.json pubblici."
+      }
     },
     "external_execution_verified": false,
     "legacy_completion_marker": "2026-09-25",
@@ -464,5 +480,5 @@
     }
   ],
   "has_errors": false,
-  "repository_sha": "14591addaf12241cff5a5d585a3cbed8117d0295"
+  "repository_sha": "6f34d7e5f2d6b21363c802fafba3e6dccb0204b0"
 }

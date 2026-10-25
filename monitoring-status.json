@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-24T17:29:35Z",
+  "checked_at": "2026-10-25T09:04:55Z",
   "national": {
-    "state": "completato",
+    "state": "in_attesa",
     "last_completed_at": "2026-10-24T11:34:41+02:00",
-    "expected_date": "2026-10-24",
+    "expected_date": "2026-10-25",
     "deadline_local": "16:00 Europe/Rome",
     "checkpoint_end": "2026-10-24T09:34:41Z",
     "checkpoint_consistent": true,
@@ -72,9 +72,9 @@
   },
   "territorial": {
     "state": "parziale",
-    "date": "2026-10-24",
+    "date": "2026-10-25",
     "evidence": "data.json:runs[0]",
-    "summary": "Censita la D.G.P. Bolzano 878/2026, che approva una modifica del PZP di Brennero per la sola componente frane presso la stazione elettrica 132/110 kV; pubblicazione ed efficacia restano da accertare. Nelle altre fonti effettivamente lette non sono emersi nuovi atti PAI, PGRA o PZP pubblicabili. La fonte Sardegna non è stata considerata controllata per due errori di connessione consecutivi.",
+    "summary": "Ricognizione senza nuove schede o modifiche normative pubblicabili nel perimetro effettivamente letto. La D.G.P. Bolzano 878/2026 resta non pubblicata nel Bollettino Ufficiale disponibile al 25 ottobre 2026; nelle altre fonti accessibili non sono emersi nuovi atti PAI, PGRA o PZP. La fonte Sardegna ha nuovamente restituito un errore di connessione e non è considerata controllata.",
     "sources_checked": [
       "bz-brennero-pzp-878-2026",
       "bz23",
@@ -86,10 +86,9 @@
     ],
     "source_urls": [
       "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=20&page=1&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
-      "https://api.integrations.services.siag.it/delibere/v1/delibere/oH1cS29ZEEvoZrYdcFQz3w%3D%3D/document",
       "https://bollettino.regione.taa.it/it/default.aspx",
       "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/approvazione-varianti-pai/",
-      "https://aubac.it/",
+      "https://www.aubac.it/",
       "https://www.adbpo.it/",
       "https://pai.adbpo.it/varianti-in-corso-2/",
       "https://www.appenninosettentrionale.it/itc/",
@@ -97,41 +96,25 @@
       "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa"
     ],
     "territories": [
-      "Provincia autonoma di Bolzano: intera seduta del 23 ottobre 2026, D.G.P. 878/2026 e homepage del Bollettino Ufficiale disponibile al 24 ottobre 2026",
+      "Provincia autonoma di Bolzano: intera seduta del 23 ottobre 2026 e homepage del Bollettino Ufficiale disponibile al 25 ottobre 2026",
       "Appennino Centrale: homepage e contenuti recenti",
       "Distretto del Po: homepage e pagina delle varianti PAI in corso",
       "Appennino Settentrionale: homepage e contenuti recenti",
-      "Appennino Meridionale: homepage e accessi agli strumenti di piano",
+      "Appennino Meridionale: homepage, contenuti recenti e accessi agli strumenti di piano",
       "Sicilia: pagina ufficiale della normativa PAI"
     ],
     "errors": [
-      "Sardegna: l’elenco ufficiale delle varianti PAI ha restituito due errori di connessione consecutivi; la fonte non è considerata controllata e non se ne deduce l’assenza di nuovi atti né lo stato di Villanovafranca."
+      "Sardegna: l’elenco ufficiale delle varianti PAI ha restituito un errore di connessione prima delle intestazioni; la fonte non è considerata controllata e non se ne deduce l’assenza di nuovi atti né lo stato di Villanovafranca."
     ],
     "publication": {
-      "outcome": "pubblicato",
+      "outcome": "in_attesa",
       "last_valid_result": "published_github_pages",
       "publication_history": [
         {
           "outcome": "in_attesa",
           "note": "La ricevuta di questa esecuzione sarà aggiornata soltanto dopo il successo della validazione, del deployment Pages e del riscontro del run nel sito pubblico."
         }
-      ],
-      "commit_sha": "14591addaf12241cff5a5d585a3cbed8117d0295",
-      "commit_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/commit/14591addaf12241cff5a5d585a3cbed8117d0295",
-      "verified_at": "2026-10-24T10:14:07+02:00",
-      "site_url": "https://domenicoderosa26-web.github.io/atlante-idraulico/",
-      "deployment_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/40077111167",
-      "verification": {
-        "outcome": "success",
-        "deployed_head_sha": "14591addaf12241cff5a5d585a3cbed8117d0295",
-        "data": {
-          "updatedAt": "2026-10-24",
-          "records": 124,
-          "run_id": "local-territorial-20261024-100348",
-          "outcome": "parziale"
-        },
-        "site_loading": "Edizione 24/10/2026 caricata con 124 schede e 14 argomenti canonici ordinati A–Z; la scheda D.G.P. Bolzano 878/2026 e il run territoriale del 24 ottobre 2026 sono presenti nel sito e nel data.json pubblici."
-      }
+      ]
     },
     "external_execution_verified": false,
     "legacy_completion_marker": "2026-09-25",
@@ -143,7 +126,7 @@
       "severity": "warning",
       "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
       "evidence": "data.json:runs[0]",
-      "event_id": "3c97d20cd3be656d91f41990"
+      "event_id": "9d717410f378081b1614a2b6"
     }
   ],
   "events": [
@@ -477,8 +460,16 @@
       "evidence": "data.json:runs[0]",
       "event_id": "3c97d20cd3be656d91f41990",
       "recorded_at": "2026-10-24T08:12:43Z"
+    },
+    {
+      "code": "TERRITORIAL_PARZIALE",
+      "severity": "warning",
+      "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
+      "evidence": "data.json:runs[0]",
+      "event_id": "9d717410f378081b1614a2b6",
+      "recorded_at": "2026-10-25T09:04:55Z"
     }
   ],
   "has_errors": false,
-  "repository_sha": "b1ab70a2a45414f82d8f9e4906eee223d59d2802"
+  "repository_sha": "1d63b5448f11ae78b9d1d36b816b915ab81055e9"
 }

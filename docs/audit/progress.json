@@ -8847,11 +8847,11 @@
     "notice": "Controllo tecnico: identità candidata, disponibilità e variazioni non attestano contenuto, vigenza o abrogazione.",
     "source_queue": "docs/audit/2026-10-10/completamento/attivita-residue.json",
     "selected": [
-      "bz-badia-pzp-782-2026",
-      "bz-campo-tures-pzp-799-2026",
-      "bz-fortezza-pzp-742-2026"
+      "bz-la-valle-pzp-739-2026",
+      "bz-nova-ponente-pzp-741-2026",
+      "bz-nova-ponente-pzp-776-2026"
     ],
-    "requests": 5,
+    "requests": 3,
     "tasks": {
       "sar-pai-frane-42-2026": {
         "task_version": "3141b41c28ccd674995b0afeb1ff9e567ea772033f1cd4d621e62ae144cae225",
@@ -8924,6 +8924,18 @@
       "bz-fortezza-pzp-742-2026": {
         "task_version": "cd72f59532ac62f6efd0b537697d66b5fea8a63f372e86e3416bdfec63a01825",
         "prepared_at": "2026-10-22T10:36:36.951036+00:00"
+      },
+      "bz-la-valle-pzp-739-2026": {
+        "task_version": "fddf5100d692e41201949f5f4b171cb141b362e9faccecd43268e3c784605e64",
+        "prepared_at": "2026-10-26T11:30:46.510805+00:00"
+      },
+      "bz-nova-ponente-pzp-741-2026": {
+        "task_version": "9d1c260b5941129b8d21de70a75b759b931e5d99ed686fc99e53cd70a0224054",
+        "prepared_at": "2026-10-26T11:30:46.510805+00:00"
+      },
+      "bz-nova-ponente-pzp-776-2026": {
+        "task_version": "645812dd9cb7a115c502582966edba5ebe8dc82b922fa2ab815a97c65e75d26c",
+        "prepared_at": "2026-10-26T11:30:46.510805+00:00"
       }
     },
     "seed_receipts": "docs/audit/2026-10-10/completamento/ricevute-accesso.json",
@@ -9201,6 +9213,34 @@
         "variation": "same",
         "comparison_scope": "complete_bytes"
       },
+      "https://api.integrations.services.siag.it/delibere/v1/delibere/03qj3RHzult3pGstFd%2BQsQ%3D%3D/document?tstmp=1790750000000": {
+        "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/03qj3RHzult3pGstFd%2BQsQ%3D%3D/document?tstmp=1790750000000",
+        "checked_at": "2026-10-26T11:30:46.510805+00:00",
+        "technical_state": "blocked",
+        "error": "URL non autorizzato",
+        "semantic_verification": "not_performed_by_access_check"
+      },
+      "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200075.pdf": {
+        "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200075.pdf",
+        "checked_at": "2026-10-26T11:30:46.510805+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200075.pdf",
+        "content_type": "application/pdf",
+        "etag": "\"bbab3ba9b350dd1:0\"",
+        "last_modified": "Wed, 30 Sep 2026 08:14:05 GMT",
+        "body_complete": true,
+        "sample_bytes": 626230,
+        "content_signature": "pdf",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": null,
+        "identity_basis": "PDF signature only",
+        "technical_state": "available",
+        "sha256": "f215831c5a5b20d673f1fff88eb2881922181822b5eea88a5050de1f3a1457ee",
+        "variation": "same",
+        "comparison_scope": "complete_bytes"
+      },
       "https://api.integrations.services.siag.it/delibere/v1/delibere/f5awpYMYyI7-Nv91yjrfaw%3D%3D/document?tstmp=1790750000000": {
         "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/f5awpYMYyI7-Nv91yjrfaw%3D%3D/document?tstmp=1790750000000",
         "checked_at": "2026-10-22T10:36:36.951036+00:00",
@@ -9226,6 +9266,62 @@
         "identity_basis": "PDF signature only",
         "technical_state": "available",
         "sha256": "a310043aa6357e78df399a2cc93de9f8e4843d1f915225b04d71945e8c947660",
+        "variation": "same",
+        "comparison_scope": "complete_bytes"
+      },
+      "https://api.integrations.services.siag.it/delibere/v1/delibere/XB%2BxsmykMNX4WRP4cDf9Eg%3D%3D/document?tstmp=1790750000000": {
+        "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/XB%2BxsmykMNX4WRP4cDf9Eg%3D%3D/document?tstmp=1790750000000",
+        "checked_at": "2026-10-26T11:30:46.510805+00:00",
+        "technical_state": "blocked",
+        "error": "URL non autorizzato",
+        "semantic_verification": "not_performed_by_access_check"
+      },
+      "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200070.pdf": {
+        "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200070.pdf",
+        "checked_at": "2026-10-26T11:30:46.510805+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200070.pdf",
+        "content_type": "application/pdf",
+        "etag": "\"f562159bb350dd1:0\"",
+        "last_modified": "Wed, 30 Sep 2026 08:13:42 GMT",
+        "body_complete": true,
+        "sample_bytes": 450723,
+        "content_signature": "pdf",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": null,
+        "identity_basis": "PDF signature only",
+        "technical_state": "available",
+        "sha256": "744c3beac51583031c2404d397914ff4bdda0c6920e75c99666a907da8e5b284",
+        "variation": "same",
+        "comparison_scope": "complete_bytes"
+      },
+      "https://api.integrations.services.siag.it/delibere/v1/delibere/sSWjeY6wMsUs%2BRZX0J8S0Q%3D%3D/document?tstmp=1790750000000": {
+        "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/sSWjeY6wMsUs%2BRZX0J8S0Q%3D%3D/document?tstmp=1790750000000",
+        "checked_at": "2026-10-26T11:30:46.510805+00:00",
+        "technical_state": "blocked",
+        "error": "URL non autorizzato",
+        "semantic_verification": "not_performed_by_access_check"
+      },
+      "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200025.pdf": {
+        "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200025.pdf",
+        "checked_at": "2026-10-26T11:30:46.510805+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200025.pdf",
+        "content_type": "application/pdf",
+        "etag": "\"a5b44a9a3d4bdd1:0\"",
+        "last_modified": "Wed, 23 Sep 2026 09:26:24 GMT",
+        "body_complete": true,
+        "sample_bytes": 460927,
+        "content_signature": "pdf",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": null,
+        "identity_basis": "PDF signature only",
+        "technical_state": "available",
+        "sha256": "943c32f704fade15b9af5ebad9e8ee1c14431a860d7b341d4e0cf538e940c879",
         "variation": "same",
         "comparison_scope": "complete_bytes"
       },
@@ -9609,6 +9705,61 @@
         ]
       },
       {
+        "id": "bari",
+        "task_version": "8049d99d1081ee635fc852979d10b8ed099a9539a8b89f1da85de727e0cf2562",
+        "operations": [
+          "Confrontare istruzioni attuali e tre moduli con RR26/2013 coordinato e competenza amministrativa."
+        ],
+        "source_urls": [
+          "https://burp.regione.puglia.it/documents/20135/784664/REGOLAMENTO%2BREGIONALE%2B9%2Bdicembre%2B2013%2C%2Bn.%2B26%2B%28id%2B4906507%29.pdf/82bcb1fd-8b6d-ec17-ae21-235fdca40c45?t=1622786288358&version=1.0",
+          "https://www.cittametropolitana.ba.it/amministrazione/documenti_e_dati/modulistica/documento_268.html",
+          "https://www.cittametropolitana.ba.it/halley//ht/eg527/acque_meteoriche.zip"
+        ],
+        "existing_evidence": "docs/audit/2026-10-09/incrementale/lotto-10.json",
+        "limitations": [
+          "Non verificata la conformità di ogni campo alla versione regionale vigente.",
+          "Modulo di rinnovo acquisito, lettura completa non conclusa."
+        ],
+        "requires_substantive_review": true,
+        "priority": "high",
+        "priority_reason": "Fonte incompleta, non accessibile, scaduta, non controllata o variata",
+        "documents": [
+          {
+            "url": "https://burp.regione.puglia.it/documents/20135/784664/REGOLAMENTO%2BREGIONALE%2B9%2Bdicembre%2B2013%2C%2Bn.%2B26%2B%28id%2B4906507%29.pdf/82bcb1fd-8b6d-ec17-ae21-235fdca40c45?t=1622786288358&version=1.0",
+            "available": true,
+            "expected_pdf": true,
+            "detected_signature": "pdf",
+            "identity_candidate": null,
+            "body_complete": true,
+            "checked_at": "2026-10-19T11:12:38.508560+00:00",
+            "stale": true,
+            "technical_state": "available"
+          },
+          {
+            "url": "https://www.cittametropolitana.ba.it/amministrazione/documenti_e_dati/modulistica/documento_268.html",
+            "available": true,
+            "expected_pdf": false,
+            "detected_signature": "html",
+            "identity_candidate": "Città metropolitana di Bari - Autorizzazione scarico acque meteoriche RR 26/2013",
+            "body_complete": true,
+            "checked_at": "2026-10-19T11:12:38.508560+00:00",
+            "stale": true,
+            "technical_state": "available"
+          },
+          {
+            "url": "https://www.cittametropolitana.ba.it/halley//ht/eg527/acque_meteoriche.zip",
+            "available": true,
+            "expected_pdf": false,
+            "detected_signature": "unknown",
+            "identity_candidate": null,
+            "body_complete": true,
+            "checked_at": "2026-10-19T11:12:38.508560+00:00",
+            "stale": true,
+            "technical_state": "available"
+          }
+        ]
+      },
+      {
         "id": "bas471",
         "task_version": "1799ffe7b6b2c1aa8c475d6fb86f53b34dc18fdb2eea209f7efff9e7ffc19e26",
         "operations": [
@@ -9702,7 +9853,7 @@
             "identity_candidate": "Gazzetta Ufficiale",
             "body_complete": true,
             "checked_at": "2026-10-19T11:12:38.508560+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           },
           {
@@ -9749,7 +9900,7 @@
             "identity_candidate": null,
             "body_complete": false,
             "checked_at": "2026-10-22T10:36:36.951036+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "blocked"
           },
           {
@@ -9818,7 +9969,7 @@
             "identity_candidate": null,
             "body_complete": false,
             "checked_at": "2026-10-22T10:36:36.951036+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "blocked"
           },
           {
@@ -9887,7 +10038,7 @@
             "identity_candidate": null,
             "body_complete": false,
             "checked_at": "2026-10-22T10:36:36.951036+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "blocked"
           },
           {
@@ -9950,14 +10101,14 @@
         "documents": [
           {
             "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/sSWjeY6wMsUs%2BRZX0J8S0Q%3D%3D/document?tstmp=1790750000000",
-            "available": true,
+            "available": false,
             "expected_pdf": true,
-            "detected_signature": "pdf",
+            "detected_signature": null,
             "identity_candidate": null,
-            "body_complete": true,
-            "checked_at": "2026-10-09T13:46:05.412674+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "body_complete": false,
+            "checked_at": "2026-10-26T11:30:46.510805+00:00",
+            "stale": false,
+            "technical_state": "blocked"
           },
           {
             "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200025.pdf",
@@ -9966,9 +10117,9 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": true,
-            "checked_at": "2026-10-09T13:46:05.435619+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-10-26T11:30:46.510805+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://giunta-provinciale.provincia.bz.it/it/delibere",
@@ -10019,14 +10170,14 @@
         "documents": [
           {
             "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/XB%2BxsmykMNX4WRP4cDf9Eg%3D%3D/document?tstmp=1790750000000",
-            "available": true,
+            "available": false,
             "expected_pdf": true,
-            "detected_signature": "pdf",
+            "detected_signature": null,
             "identity_candidate": null,
-            "body_complete": true,
-            "checked_at": "2026-10-09T13:46:04.860572+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "body_complete": false,
+            "checked_at": "2026-10-26T11:30:46.510805+00:00",
+            "stale": false,
+            "technical_state": "blocked"
           },
           {
             "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200070.pdf",
@@ -10035,9 +10186,9 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": true,
-            "checked_at": "2026-10-09T13:46:05.248317+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-10-26T11:30:46.510805+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://giunta-provinciale.provincia.bz.it/it/delibere",
@@ -10089,14 +10240,14 @@
         "documents": [
           {
             "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/03qj3RHzult3pGstFd%2BQsQ%3D%3D/document?tstmp=1790750000000",
-            "available": true,
+            "available": false,
             "expected_pdf": true,
-            "detected_signature": "pdf",
+            "detected_signature": null,
             "identity_candidate": null,
-            "body_complete": true,
-            "checked_at": "2026-10-09T13:46:04.680706+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "body_complete": false,
+            "checked_at": "2026-10-26T11:30:46.510805+00:00",
+            "stale": false,
+            "technical_state": "blocked"
           },
           {
             "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200075.pdf",
@@ -10105,9 +10256,9 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": true,
-            "checked_at": "2026-10-09T13:46:04.696696+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-10-26T11:30:46.510805+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://giunta-provinciale.provincia.bz.it/it/delibere",
@@ -14884,6 +15035,36 @@
         ]
       },
       {
+        "id": "pug26",
+        "task_version": "5274687a17b52d3f3b5b185afc91e3cd1141536960673c28dc6acfe1d7b11dc5",
+        "operations": [
+          "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati."
+        ],
+        "source_urls": [
+          "https://burp.regione.puglia.it/documents/20135/784664/REGOLAMENTO%2BREGIONALE%2B9%2Bdicembre%2B2013%2C%2Bn.%2B26%2B%28id%2B4906507%29.pdf/82bcb1fd-8b6d-ec17-ae21-235fdca40c45?t=1622786288358&version=1.0"
+        ],
+        "existing_evidence": null,
+        "limitations": [
+          "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+        ],
+        "requires_substantive_review": true,
+        "priority": "high",
+        "priority_reason": "Fonte incompleta, non accessibile, scaduta, non controllata o variata",
+        "documents": [
+          {
+            "url": "https://burp.regione.puglia.it/documents/20135/784664/REGOLAMENTO%2BREGIONALE%2B9%2Bdicembre%2B2013%2C%2Bn.%2B26%2B%28id%2B4906507%29.pdf/82bcb1fd-8b6d-ec17-ae21-235fdca40c45?t=1622786288358&version=1.0",
+            "available": true,
+            "expected_pdf": true,
+            "detected_signature": "pdf",
+            "identity_candidate": null,
+            "body_complete": true,
+            "checked_at": "2026-10-19T11:12:38.508560+00:00",
+            "stale": true,
+            "technical_state": "available"
+          }
+        ]
+      },
+      {
         "id": "rd1775",
         "task_version": "fb0fddeed796356fc8e289ec0b9beea1d123a4cdadf0822e245d79cea6d135f3",
         "operations": [
@@ -16607,91 +16788,6 @@
             "checked_at": "2026-10-09T13:46:00.898487+00:00",
             "stale": true,
             "technical_state": "legacy_receipt"
-          }
-        ]
-      },
-      {
-        "id": "bari",
-        "task_version": "8049d99d1081ee635fc852979d10b8ed099a9539a8b89f1da85de727e0cf2562",
-        "operations": [
-          "Confrontare istruzioni attuali e tre moduli con RR26/2013 coordinato e competenza amministrativa."
-        ],
-        "source_urls": [
-          "https://burp.regione.puglia.it/documents/20135/784664/REGOLAMENTO%2BREGIONALE%2B9%2Bdicembre%2B2013%2C%2Bn.%2B26%2B%28id%2B4906507%29.pdf/82bcb1fd-8b6d-ec17-ae21-235fdca40c45?t=1622786288358&version=1.0",
-          "https://www.cittametropolitana.ba.it/amministrazione/documenti_e_dati/modulistica/documento_268.html",
-          "https://www.cittametropolitana.ba.it/halley//ht/eg527/acque_meteoriche.zip"
-        ],
-        "existing_evidence": "docs/audit/2026-10-09/incrementale/lotto-10.json",
-        "limitations": [
-          "Non verificata la conformità di ogni campo alla versione regionale vigente.",
-          "Modulo di rinnovo acquisito, lettura completa non conclusa."
-        ],
-        "requires_substantive_review": true,
-        "priority": "normal",
-        "priority_reason": "Coordinamento normativo residuo",
-        "documents": [
-          {
-            "url": "https://burp.regione.puglia.it/documents/20135/784664/REGOLAMENTO%2BREGIONALE%2B9%2Bdicembre%2B2013%2C%2Bn.%2B26%2B%28id%2B4906507%29.pdf/82bcb1fd-8b6d-ec17-ae21-235fdca40c45?t=1622786288358&version=1.0",
-            "available": true,
-            "expected_pdf": true,
-            "detected_signature": "pdf",
-            "identity_candidate": null,
-            "body_complete": true,
-            "checked_at": "2026-10-19T11:12:38.508560+00:00",
-            "stale": false,
-            "technical_state": "available"
-          },
-          {
-            "url": "https://www.cittametropolitana.ba.it/amministrazione/documenti_e_dati/modulistica/documento_268.html",
-            "available": true,
-            "expected_pdf": false,
-            "detected_signature": "html",
-            "identity_candidate": "Città metropolitana di Bari - Autorizzazione scarico acque meteoriche RR 26/2013",
-            "body_complete": true,
-            "checked_at": "2026-10-19T11:12:38.508560+00:00",
-            "stale": false,
-            "technical_state": "available"
-          },
-          {
-            "url": "https://www.cittametropolitana.ba.it/halley//ht/eg527/acque_meteoriche.zip",
-            "available": true,
-            "expected_pdf": false,
-            "detected_signature": "unknown",
-            "identity_candidate": null,
-            "body_complete": true,
-            "checked_at": "2026-10-19T11:12:38.508560+00:00",
-            "stale": false,
-            "technical_state": "available"
-          }
-        ]
-      },
-      {
-        "id": "pug26",
-        "task_version": "5274687a17b52d3f3b5b185afc91e3cd1141536960673c28dc6acfe1d7b11dc5",
-        "operations": [
-          "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati."
-        ],
-        "source_urls": [
-          "https://burp.regione.puglia.it/documents/20135/784664/REGOLAMENTO%2BREGIONALE%2B9%2Bdicembre%2B2013%2C%2Bn.%2B26%2B%28id%2B4906507%29.pdf/82bcb1fd-8b6d-ec17-ae21-235fdca40c45?t=1622786288358&version=1.0"
-        ],
-        "existing_evidence": null,
-        "limitations": [
-          "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
-        ],
-        "requires_substantive_review": true,
-        "priority": "normal",
-        "priority_reason": "Coordinamento normativo residuo",
-        "documents": [
-          {
-            "url": "https://burp.regione.puglia.it/documents/20135/784664/REGOLAMENTO%2BREGIONALE%2B9%2Bdicembre%2B2013%2C%2Bn.%2B26%2B%28id%2B4906507%29.pdf/82bcb1fd-8b6d-ec17-ae21-235fdca40c45?t=1622786288358&version=1.0",
-            "available": true,
-            "expected_pdf": true,
-            "detected_signature": "pdf",
-            "identity_candidate": null,
-            "body_complete": true,
-            "checked_at": "2026-10-19T11:12:38.508560+00:00",
-            "stale": false,
-            "technical_state": "available"
           }
         ]
       }

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-25T18:26:58Z",
+  "checked_at": "2026-10-26T09:24:09Z",
   "national": {
-    "state": "completato",
+    "state": "in_attesa",
     "last_completed_at": "2026-10-25T12:36:05+01:00",
-    "expected_date": "2026-10-25",
+    "expected_date": "2026-10-26",
     "deadline_local": "16:00 Europe/Rome",
     "checkpoint_end": "2026-10-25T11:36:05Z",
     "checkpoint_consistent": true,
@@ -72,9 +72,9 @@
   },
   "territorial": {
     "state": "parziale",
-    "date": "2026-10-25",
+    "date": "2026-10-26",
     "evidence": "data.json:runs[0]",
-    "summary": "Ricognizione senza nuove schede o modifiche normative pubblicabili nel perimetro effettivamente letto. La D.G.P. Bolzano 878/2026 resta non pubblicata nel Bollettino Ufficiale disponibile al 25 ottobre 2026; nelle altre fonti accessibili non sono emersi nuovi atti PAI, PGRA o PZP. La fonte Sardegna ha nuovamente restituito un errore di connessione e non è considerata controllata.",
+    "summary": "Ricognizione senza nuove schede o modifiche normative pubblicabili nel perimetro effettivamente letto. La D.G.P. Bolzano 878/2026 resta non pubblicata nel Bollettino Ufficiale disponibile al 26 ottobre 2026; nelle altre fonti accessibili non sono emersi nuovi atti PAI, PGRA o PZP. La fonte Sardegna ha restituito un errore 502 e non è considerata controllata.",
     "sources_checked": [
       "bz-brennero-pzp-878-2026",
       "bz23",
@@ -93,44 +93,29 @@
       "https://pai.adbpo.it/varianti-in-corso-2/",
       "https://www.appenninosettentrionale.it/itc/",
       "https://www.distrettoappenninomeridionale.it/",
+      "https://www.distrettoappenninomeridionale.it/notizie/",
       "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa"
     ],
     "territories": [
-      "Provincia autonoma di Bolzano: intera seduta del 23 ottobre 2026 e homepage del Bollettino Ufficiale disponibile al 25 ottobre 2026",
+      "Provincia autonoma di Bolzano: intera seduta del 23 ottobre 2026 e homepage del Bollettino Ufficiale disponibile al 26 ottobre 2026",
       "Appennino Centrale: homepage e contenuti recenti",
       "Distretto del Po: homepage e pagina delle varianti PAI in corso",
       "Appennino Settentrionale: homepage e contenuti recenti",
-      "Appennino Meridionale: homepage, contenuti recenti e accessi agli strumenti di piano",
+      "Appennino Meridionale: homepage, elenco delle notizie e accessi agli strumenti di piano",
       "Sicilia: pagina ufficiale della normativa PAI"
     ],
     "errors": [
-      "Sardegna: l’elenco ufficiale delle varianti PAI ha restituito un errore di connessione prima delle intestazioni; la fonte non è considerata controllata e non se ne deduce l’assenza di nuovi atti né lo stato di Villanovafranca."
+      "Sardegna: l’elenco ufficiale delle varianti PAI ha restituito 502 Bad Gateway; la fonte non è considerata controllata e non se ne deduce l’assenza di nuovi atti né lo stato di Villanovafranca."
     ],
     "publication": {
-      "outcome": "pubblicato",
+      "outcome": "in_attesa",
       "last_valid_result": "published_github_pages",
       "publication_history": [
         {
           "outcome": "in_attesa",
           "note": "La ricevuta di questa esecuzione sarà aggiornata soltanto dopo il successo della validazione, del deployment Pages e del riscontro del run nel sito pubblico."
         }
-      ],
-      "commit_sha": "1d63b5448f11ae78b9d1d36b816b915ab81055e9",
-      "commit_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/commit/1d63b5448f11ae78b9d1d36b816b915ab81055e9",
-      "verified_at": "2026-10-25T10:07:19+01:00",
-      "site_url": "https://domenicoderosa26-web.github.io/atlante-idraulico/",
-      "deployment_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/40179180694",
-      "verification": {
-        "outcome": "success",
-        "deployed_head_sha": "f5000e0948bbf9d0ad1bac34311053618eb7fe56",
-        "data": {
-          "updatedAt": "2026-10-25",
-          "records": 124,
-          "run_id": "local-territorial-20261025-095745",
-          "outcome": "parziale"
-        },
-        "site_loading": "Edizione 25/10/2026 caricata con 124 schede e 14 argomenti canonici ordinati A–Z; il run territoriale del 25 ottobre 2026 è presente nel data.json pubblico con pubblicazione inizialmente in attesa."
-      }
+      ]
     },
     "external_execution_verified": false,
     "legacy_completion_marker": "2026-09-25",
@@ -142,7 +127,7 @@
       "severity": "warning",
       "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
       "evidence": "data.json:runs[0]",
-      "event_id": "9d717410f378081b1614a2b6"
+      "event_id": "cf78e7ab85a98a14b37a7e9d"
     }
   ],
   "events": [
@@ -484,8 +469,16 @@
       "evidence": "data.json:runs[0]",
       "event_id": "9d717410f378081b1614a2b6",
       "recorded_at": "2026-10-25T09:04:55Z"
+    },
+    {
+      "code": "TERRITORIAL_PARZIALE",
+      "severity": "warning",
+      "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
+      "evidence": "data.json:runs[0]",
+      "event_id": "cf78e7ab85a98a14b37a7e9d",
+      "recorded_at": "2026-10-26T09:24:09Z"
     }
   ],
   "has_errors": false,
-  "repository_sha": "f4ae2347b3edb8c41e5e9feb73fd722b7c667f1f"
+  "repository_sha": "c0df6c66b209466e60a0a86a791e752b9a519982"
 }

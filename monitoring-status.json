@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-26T20:35:18Z",
+  "checked_at": "2026-10-27T09:13:17Z",
   "national": {
-    "state": "completato",
+    "state": "in_attesa",
     "last_completed_at": "2026-10-26T14:08:46+01:00",
-    "expected_date": "2026-10-26",
+    "expected_date": "2026-10-27",
     "deadline_local": "16:00 Europe/Rome",
     "checkpoint_end": "2026-10-26T13:08:46Z",
     "checkpoint_consistent": true,
@@ -72,9 +72,9 @@
   },
   "territorial": {
     "state": "parziale",
-    "date": "2026-10-26",
+    "date": "2026-10-27",
     "evidence": "data.json:runs[0]",
-    "summary": "Ricognizione senza nuove schede o modifiche normative pubblicabili nel perimetro effettivamente letto. La D.G.P. Bolzano 878/2026 resta non pubblicata nel Bollettino Ufficiale disponibile al 26 ottobre 2026; nelle altre fonti accessibili non sono emersi nuovi atti PAI, PGRA o PZP. La fonte Sardegna ha restituito un errore 502 e non è considerata controllata.",
+    "summary": "Ricognizione senza nuove schede o modifiche normative pubblicabili nel perimetro effettivamente letto. La D.G.P. Bolzano 878/2026 resta non pubblicata nel Bollettino Ufficiale disponibile al 27 ottobre 2026; nelle altre fonti accessibili non sono emersi nuovi atti PAI, PGRA o PZP. La fonte Sardegna ha restituito 502 Bad Gateway e non è considerata controllata.",
     "sources_checked": [
       "bz-brennero-pzp-878-2026",
       "bz23",
@@ -89,53 +89,42 @@
       "https://bollettino.regione.taa.it/it/default.aspx",
       "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/approvazione-varianti-pai/",
       "https://www.aubac.it/",
+      "https://www.aubac.it/news/notizie/pai-distrettuali-aubac-presentati-alla-presidenza-del-consiglio-i-nuovi-strumenti-prevenzione",
       "https://www.adbpo.it/",
       "https://pai.adbpo.it/varianti-in-corso-2/",
       "https://www.appenninosettentrionale.it/itc/",
-      "https://www.distrettoappenninomeridionale.it/",
       "https://www.distrettoappenninomeridionale.it/notizie/",
       "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa"
     ],
     "territories": [
-      "Provincia autonoma di Bolzano: intera seduta del 23 ottobre 2026 e homepage del Bollettino Ufficiale disponibile al 26 ottobre 2026",
-      "Appennino Centrale: homepage e contenuti recenti",
+      "Provincia autonoma di Bolzano: intera seduta del 23 ottobre 2026 e homepage del Bollettino Ufficiale disponibile al 27 ottobre 2026",
+      "Appennino Centrale: homepage, contenuti recenti e pagina istituzionale sui PAI distrettuali adottati nel 2026",
       "Distretto del Po: homepage e pagina delle varianti PAI in corso",
       "Appennino Settentrionale: homepage e contenuti recenti",
-      "Appennino Meridionale: homepage, elenco delle notizie e accessi agli strumenti di piano",
+      "Appennino Meridionale: elenco delle notizie e accessi agli strumenti di piano",
       "Sicilia: pagina ufficiale della normativa PAI"
     ],
     "errors": [
       "Sardegna: l’elenco ufficiale delle varianti PAI ha restituito 502 Bad Gateway; la fonte non è considerata controllata e non se ne deduce l’assenza di nuovi atti né lo stato di Villanovafranca."
     ],
     "publication": {
-      "outcome": "pubblicato",
+      "outcome": "in_attesa",
       "last_valid_result": "published_github_pages",
       "publication_history": [
         {
           "outcome": "in_attesa",
           "note": "La ricevuta di questa esecuzione sarà aggiornata soltanto dopo il successo della validazione, del deployment Pages e del riscontro del run nel sito pubblico."
         }
-      ],
-      "commit_sha": "c0df6c66b209466e60a0a86a791e752b9a519982",
-      "commit_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/commit/c0df6c66b209466e60a0a86a791e752b9a519982",
-      "verified_at": "2026-10-26T10:28:21+01:00",
-      "site_url": "https://domenicoderosa26-web.github.io/atlante-idraulico/",
-      "deployment_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/40299372123",
-      "verification": {
-        "outcome": "success",
-        "deployed_head_sha": "f300d81ccd79ab29023b80207059fc5c5f1b0043",
-        "data": {
-          "updatedAt": "2026-10-26",
-          "records": 124,
-          "run_id": "local-territorial-20261026-101622",
-          "outcome": "parziale"
-        },
-        "site_loading": "Edizione 26/10/2026 caricata con 124 schede e 14 argomenti canonici ordinati A–Z; il run territoriale del 26 ottobre 2026 è presente nel data.json pubblico con pubblicazione inizialmente in attesa."
-      }
+      ]
     },
     "external_execution_verified": false,
     "legacy_completion_marker": "2026-09-25",
-    "repeated_unavailability": []
+    "repeated_unavailability": [
+      {
+        "error": "Sardegna: l’elenco ufficiale delle varianti PAI ha restituito 502 Bad Gateway; la fonte non è considerata controllata e non se ne deduce l’assenza di nuovi atti né lo stato di Villanovafranca.",
+        "runs": 2
+      }
+    ]
   },
   "anomalies": [
     {
@@ -143,7 +132,19 @@
       "severity": "warning",
       "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
       "evidence": "data.json:runs[0]",
-      "event_id": "cf78e7ab85a98a14b37a7e9d"
+      "event_id": "f6a9bd0b9425a0788fb59337"
+    },
+    {
+      "code": "TERRITORIAL_REPEATED_UNAVAILABILITY",
+      "severity": "warning",
+      "message": "La stessa indisponibilità è documentata in più ricognizioni recenti.",
+      "evidence": [
+        {
+          "error": "Sardegna: l’elenco ufficiale delle varianti PAI ha restituito 502 Bad Gateway; la fonte non è considerata controllata e non se ne deduce l’assenza di nuovi atti né lo stato di Villanovafranca.",
+          "runs": 2
+        }
+      ],
+      "event_id": "fe64223bda312ba20820d901"
     }
   ],
   "events": [
@@ -493,8 +494,29 @@
       "evidence": "data.json:runs[0]",
       "event_id": "cf78e7ab85a98a14b37a7e9d",
       "recorded_at": "2026-10-26T09:24:09Z"
+    },
+    {
+      "code": "TERRITORIAL_PARZIALE",
+      "severity": "warning",
+      "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
+      "evidence": "data.json:runs[0]",
+      "event_id": "f6a9bd0b9425a0788fb59337",
+      "recorded_at": "2026-10-27T09:13:17Z"
+    },
+    {
+      "code": "TERRITORIAL_REPEATED_UNAVAILABILITY",
+      "severity": "warning",
+      "message": "La stessa indisponibilità è documentata in più ricognizioni recenti.",
+      "evidence": [
+        {
+          "error": "Sardegna: l’elenco ufficiale delle varianti PAI ha restituito 502 Bad Gateway; la fonte non è considerata controllata e non se ne deduce l’assenza di nuovi atti né lo stato di Villanovafranca.",
+          "runs": 2
+        }
+      ],
+      "event_id": "fe64223bda312ba20820d901",
+      "recorded_at": "2026-10-27T09:13:17Z"
     }
   ],
   "has_errors": false,
-  "repository_sha": "d928e7fa8016324c5bfd07bb2ced11b81d4ee4f0"
+  "repository_sha": "4d91b621d0d8fd7b51c4b1acbf61e7c118b64f55"
 }

@@ -1,9 +1,9 @@
 {
   "last_completed_at": "2026-10-26T14:08:46+01:00",
-  "verification_completed_at": "2026-10-26T14:08:46+01:00",
+  "verification_completed_at": "2026-10-27T13:16:56+01:00",
   "timezone": "Europe/Rome",
-  "outcome": "completato",
-  "publication_status": "pubblicato",
+  "outcome": "verificato",
+  "publication_status": "in_attesa",
   "sources": [
     "Normattiva Open Data: normativa nazionale"
   ],
@@ -12,6 +12,50 @@
   "warnings": [
     "Controllo API limitato agli atti con URN supportato; esclusi: ntc18, dmattr2014, camed2025, camstrade2024, camverde2020, camstrade2025, dm185"
   ],
+  "last_successful_result": {
+    "last_completed_at": "2026-10-26T14:08:46+01:00",
+    "verification_completed_at": "2026-10-26T14:08:46+01:00",
+    "timezone": "Europe/Rome",
+    "outcome": "completato",
+    "publication_status": "pubblicato",
+    "sources": [
+      "Normattiva Open Data: normativa nazionale"
+    ],
+    "changes_detected": 0,
+    "changes_published": 0,
+    "warnings": [
+      "Controllo API limitato agli atti con URN supportato; esclusi: ntc18, dmattr2014, camed2025, camstrade2024, camverde2020, camstrade2025, dm185"
+    ],
+    "scope": {
+      "monitored_ids": [
+        "rd523",
+        "rd1775",
+        "rd368",
+        "rd215",
+        "dl152",
+        "dl49",
+        "appalti36",
+        "dpr753",
+        "codstrada285",
+        "dpr495",
+        "dpr59",
+        "dl39-riuso-2023"
+      ],
+      "excluded_ids": [
+        "ntc18",
+        "dmattr2014",
+        "camed2025",
+        "camstrade2024",
+        "camverde2020",
+        "camstrade2025",
+        "dm185"
+      ],
+      "total_records": 19
+    },
+    "interval_start": "2026-10-25T11:36:05Z",
+    "event_keys": [],
+    "run_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/40328044604"
+  },
   "scope": {
     "monitored_ids": [
       "rd523",
@@ -38,7 +82,7 @@
     ],
     "total_records": 19
   },
-  "interval_start": "2026-10-25T11:36:05Z",
+  "interval_start": "2026-10-26T13:08:46Z",
   "event_keys": [],
-  "run_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/40328044604"
+  "run_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/40502509498"
 }

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-27T20:07:55Z",
+  "checked_at": "2026-10-28T09:19:18Z",
   "national": {
-    "state": "completato",
+    "state": "in_attesa",
     "last_completed_at": "2026-10-27T13:16:56+01:00",
-    "expected_date": "2026-10-27",
+    "expected_date": "2026-10-28",
     "deadline_local": "16:00 Europe/Rome",
     "checkpoint_end": "2026-10-27T12:16:56Z",
     "checkpoint_consistent": true,
@@ -72,10 +72,17 @@
   },
   "territorial": {
     "state": "parziale",
-    "date": "2026-10-27",
+    "date": "2026-10-28",
     "evidence": "data.json:runs[0]",
-    "summary": "Ricognizione senza nuove schede o modifiche normative pubblicabili nel perimetro effettivamente letto. La D.G.P. Bolzano 878/2026 resta non pubblicata nel Bollettino Ufficiale disponibile al 27 ottobre 2026; nelle altre fonti accessibili non sono emersi nuovi atti PAI, PGRA o PZP. La fonte Sardegna ha restituito 502 Bad Gateway e non è considerata controllata.",
+    "summary": "Censiti sette decreti AUBAC: sei proposte di aggiornamento PAI per Montazzoli, Fara Filiorum Petri, Tavullia, San Costanzo, Gubbio e Assisi e l’aggiornamento definitivo di Gaeta. La D.G.P. Bolzano 878/2026 resta non pubblicata nel Bollettino disponibile; Sardegna ha restituito 502 e non è considerata controllata.",
     "sources_checked": [
+      "centr-pai-montazzoli-187-2026",
+      "centr-pai-fara-filiorum-petri-188-2026",
+      "centr-pai-tavullia-189-2026",
+      "centr-pai-san-costanzo-190-2026",
+      "centr-pai-gubbio-valderchia-191-2026",
+      "centr-pai-assisi-ivancich-195-2026",
+      "centr-pai-gaeta-198-2026",
       "bz-brennero-pzp-878-2026",
       "bz23",
       "dist-centr",
@@ -85,11 +92,24 @@
       "dist-sici"
     ],
     "source_urls": [
+      "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+      "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?StwEvent=101&DB_NAME=n1202633&IdDelibere=3411",
+      "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1333980&DOCORE_versione=1&FNSTR=PCWMHT_JJERHFF_19154381632201567100330209645394.LNK.L7G&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+      "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?StwEvent=101&DB_NAME=n1202633&IdDelibere=3412",
+      "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334000&DOCORE_versione=1&FNSTR=PCWMHT_JJERHFF_30049367310381671007591434594326.LNK.L7G&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+      "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?StwEvent=101&DB_NAME=n1202633&IdDelibere=3413",
+      "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334002&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_140126735521545671011292054718097.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+      "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?StwEvent=101&DB_NAME=n1202633&IdDelibere=3414",
+      "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334013&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_139572548937205671017321757291516.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+      "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?StwEvent=101&DB_NAME=n1202633&IdDelibere=3415",
+      "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334044&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_111075871530273671024341531476287.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+      "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?StwEvent=101&DB_NAME=n1202633&IdDelibere=3424",
+      "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1335358&DOCORE_versione=1&FNSTR=YUYHOB_XFOZKCF_2807339032235671106321942960459.TPR.R7I&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+      "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?StwEvent=101&DB_NAME=n1202633&IdDelibere=3435",
+      "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1339702&DOCORE_versione=1&FNSTR=YUYHOB_XFOZKCF_6154554428401671019131373883654.TPR.R7I&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
       "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=20&page=1&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
       "https://bollettino.regione.taa.it/it/default.aspx",
       "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/approvazione-varianti-pai/",
-      "https://www.aubac.it/",
-      "https://www.aubac.it/news/notizie/pai-distrettuali-aubac-presentati-alla-presidenza-del-consiglio-i-nuovi-strumenti-prevenzione",
       "https://www.adbpo.it/",
       "https://pai.adbpo.it/varianti-in-corso-2/",
       "https://www.appenninosettentrionale.it/itc/",
@@ -97,41 +117,26 @@
       "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa"
     ],
     "territories": [
-      "Provincia autonoma di Bolzano: intera seduta del 23 ottobre 2026 e homepage del Bollettino Ufficiale disponibile al 27 ottobre 2026",
-      "Appennino Centrale: homepage, contenuti recenti e pagina istituzionale sui PAI distrettuali adottati nel 2026",
+      "Appennino Centrale: raccolta decreti di pianificazione 2026, registri e testi integrali dei D.S. 187, 188, 189, 190, 191, 195 e 198/2026",
+      "Provincia autonoma di Bolzano: intera seduta del 23 ottobre 2026 e homepage del Bollettino Ufficiale disponibile al 28 ottobre 2026",
       "Distretto del Po: homepage e pagina delle varianti PAI in corso",
       "Appennino Settentrionale: homepage e contenuti recenti",
       "Appennino Meridionale: elenco delle notizie e accessi agli strumenti di piano",
       "Sicilia: pagina ufficiale della normativa PAI"
     ],
     "errors": [
-      "Sardegna: l’elenco ufficiale delle varianti PAI ha restituito 502 Bad Gateway; la fonte non è considerata controllata e non se ne deduce l’assenza di nuovi atti né lo stato di Villanovafranca."
+      "Sardegna: l’elenco ufficiale delle varianti PAI ha restituito 502 Bad Gateway; la fonte non è considerata controllata e non se ne deduce l’assenza di nuovi atti.",
+      "AUBAC: nella raccolta 2026 il collegamento del D.S. 191/2026 punta al D.S. 165/2026; è stato usato il dettaglio URBI corretto IdDelibere=3415 e l’anomalia resta segnalata."
     ],
     "publication": {
-      "outcome": "pubblicato",
+      "outcome": "in_attesa",
       "last_valid_result": "published_github_pages",
       "publication_history": [
         {
           "outcome": "in_attesa",
           "note": "La ricevuta di questa esecuzione sarà aggiornata soltanto dopo il successo della validazione, del deployment Pages e del riscontro del run nel sito pubblico."
         }
-      ],
-      "commit_sha": "4d91b621d0d8fd7b51c4b1acbf61e7c118b64f55",
-      "commit_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/commit/4d91b621d0d8fd7b51c4b1acbf61e7c118b64f55",
-      "verified_at": "2026-10-27T10:16:57+01:00",
-      "site_url": "https://domenicoderosa26-web.github.io/atlante-idraulico/",
-      "deployment_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/40479084599",
-      "verification": {
-        "outcome": "success",
-        "deployed_head_sha": "4d91b621d0d8fd7b51c4b1acbf61e7c118b64f55",
-        "data": {
-          "updatedAt": "2026-10-27",
-          "records": 124,
-          "run_id": "local-territorial-20261027-100259",
-          "outcome": "parziale"
-        },
-        "site_loading": "Edizione 27/10/2026 caricata con 124 schede e 14 argomenti canonici ordinati A–Z; il run territoriale del 27 ottobre 2026 è presente nel data.json pubblico con pubblicazione inizialmente in attesa. Il contenuto pubblico del data.json coincide integralmente con il commit atteso."
-      }
+      ]
     },
     "external_execution_verified": false,
     "legacy_completion_marker": "2026-09-25",
@@ -148,7 +153,7 @@
       "severity": "warning",
       "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
       "evidence": "data.json:runs[0]",
-      "event_id": "f6a9bd0b9425a0788fb59337"
+      "event_id": "4528f8305addec90ed700f8e"
     },
     {
       "code": "TERRITORIAL_REPEATED_UNAVAILABILITY",
@@ -160,7 +165,7 @@
           "runs": 2
         }
       ],
-      "event_id": "fe64223bda312ba20820d901"
+      "event_id": "b45034744c4fd234e1bb7f26"
     }
   ],
   "events": [
@@ -531,8 +536,29 @@
       ],
       "event_id": "fe64223bda312ba20820d901",
       "recorded_at": "2026-10-27T09:13:17Z"
+    },
+    {
+      "code": "TERRITORIAL_PARZIALE",
+      "severity": "warning",
+      "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
+      "evidence": "data.json:runs[0]",
+      "event_id": "4528f8305addec90ed700f8e",
+      "recorded_at": "2026-10-28T09:19:18Z"
+    },
+    {
+      "code": "TERRITORIAL_REPEATED_UNAVAILABILITY",
+      "severity": "warning",
+      "message": "La stessa indisponibilità è documentata in più ricognizioni recenti.",
+      "evidence": [
+        {
+          "error": "Sardegna: l’elenco ufficiale delle varianti PAI ha restituito 502 Bad Gateway; la fonte non è considerata controllata e non se ne deduce l’assenza di nuovi atti né lo stato di Villanovafranca.",
+          "runs": 2
+        }
+      ],
+      "event_id": "b45034744c4fd234e1bb7f26",
+      "recorded_at": "2026-10-28T09:19:18Z"
     }
   ],
   "has_errors": false,
-  "repository_sha": "1b0c6af482be8f5cfa7fd4bbc8be289378367b88"
+  "repository_sha": "57a25e58d88adc36d0395330c00bff82c7a1b353"
 }

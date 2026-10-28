@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-27",
+  "updatedAt": "2026-10-28",
   "scope": "Catalogo selettivo con controllo mirato dei CAM e della disciplina delle acque di prima pioggia per tutte le regioni. La verifica locale e autorizzativa resta necessaria.",
   "automation": {
     "enabled": true,
@@ -15340,6 +15340,797 @@
         ],
         "record_version": "ce6b79125ea0cb4a1609dad6a1ee555fd4d751f75d5df06a58a776a5cc8192fa"
       }
+    },
+    {
+      "id": "centr-pai-montazzoli-187-2026",
+      "ref": "D.S. AUBAC 187/2026",
+      "title": "Proposta PAI Abruzzo · dissesto P3 nel centro abitato di Montazzoli",
+      "level": "Distrettuale",
+      "regions": [
+        "Abruzzo"
+      ],
+      "topics": [
+        "PAI - Pericolosità e rischio frane"
+      ],
+      "date": "2026-10-09",
+      "url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+      "documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?StwEvent=101&DB_NAME=n1202633&IdDelibere=3411",
+          "label": "Decreto segretariale 187/2026 · dettaglio atto",
+          "group": "Atto",
+          "link_status": "checked",
+          "link_checked": "2026-10-28"
+        },
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1333980&DOCORE_versione=1&FNSTR=PCWMHT_JJERHFF_19154381632201567100330209645394.LNK.L7G&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "label": "Decreto segretariale 187/2026 · PDF ufficiale",
+          "format": "pdf",
+          "group": "Atto",
+          "link_status": "checked",
+          "link_checked": "2026-10-28"
+        },
+        {
+          "url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+          "label": "Raccolta ufficiale dei decreti di pianificazione 2026",
+          "group": "Raccolta",
+          "link_status": "checked",
+          "link_checked": "2026-10-28"
+        }
+      ],
+      "summary": "Proposta di aggiornamento del PAI Abruzzo nel centro abitato di Montazzoli: inserimento di un dissesto P3 per scivolamento attivo in corrispondenza di via Vittorio Emanuele, via Sant’Antonio e via Principe di Piemonte, con misure di salvaguardia previste per le nuove perimetrazioni.",
+      "focus": [
+        "Consultare la perimetrazione P3 proposta",
+        "Verificare le misure di salvaguardia dopo la pubblicazione sul BURA",
+        "Seguire consultazione ed eventuale approvazione definitiva"
+      ],
+      "kind": "Variante PAI",
+      "status": "Proposta di aggiornamento · consultazione",
+      "source_kind": "Autorità di bacino distrettuale",
+      "note": "La raccolta AUBAC riporta ancora un riferimento segnaposto al BURA; non è stata accertata la pubblicazione dell’avviso e non si dichiara l’efficacia delle salvaguardie.",
+      "checked": "2026-10-28",
+      "relations": [
+        {
+          "type": "PAI distrettuale frane",
+          "id": "centr-pai-frane-68-2026"
+        },
+        {
+          "type": "Quadro distrettuale",
+          "id": "dist-centr"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-28",
+          "text": "Scheda creata dopo lettura del D.S. 187/2026 e del dettaglio ufficiale AUBAC; pubblicazione regionale ed esito definitivo restano da accertare."
+        }
+      ],
+      "document_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1333980&DOCORE_versione=1&FNSTR=PCWMHT_JJERHFF_19154381632201567100330209645394.LNK.L7G&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+      "document_label": "Decreto segretariale 187/2026 · PDF ufficiale",
+      "document_note": "Letti identità, oggetto e dispositivo del decreto ufficiale. La proposta non è trattata come aggiornamento definitivo; cartografie, relazioni tecniche, osservazioni e successivo provvedimento conclusivo restano da verificare.",
+      "documentary_review": {
+        "checked_at": "2026-10-28",
+        "scope": "Identità, oggetto e dispositivo artt. 1-2 del decreto ufficiale; non l’intera cartografia, le relazioni tecniche, le osservazioni o l’atto definitivo successivo.",
+        "outcome": "partial",
+        "legal_state": "consultation",
+        "source_urls": [
+          "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1333980&DOCORE_versione=1&FNSTR=PCWMHT_JJERHFF_19154381632201567100330209645394.LNK.L7G&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?StwEvent=101&DB_NAME=n1202633&IdDelibere=3411",
+          "https://aubac.it/decreti-segretariali-di-pianificazione-2026"
+        ],
+        "claims": [
+          {
+            "aspect": "identity",
+            "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1333980&DOCORE_versione=1&FNSTR=PCWMHT_JJERHFF_19154381632201567100330209645394.LNK.L7G&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+            "locator": "Intestazione e data in calce",
+            "finding": "Decreto segretariale AUBAC 187/2026, datato 9 ottobre 2026; identità riscontrata sul PDF ufficiale."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1333980&DOCORE_versione=1&FNSTR=PCWMHT_JJERHFF_19154381632201567100330209645394.LNK.L7G&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+            "locator": "Dispositivo, art. 1",
+            "finding": "L’art. 1 propone l’inserimento del dissesto P3 per scivolamento attivo nelle vie indicate e prevede misure di salvaguardia nelle nuove aree, la cui efficacia è collegata alla futura pubblicazione dell’avviso nel BURA."
+          },
+          {
+            "aspect": "status",
+            "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1333980&DOCORE_versione=1&FNSTR=PCWMHT_JJERHFF_19154381632201567100330209645394.LNK.L7G&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+            "locator": "Dispositivo, art. 2",
+            "finding": "L’atto qualifica espressamente le disposizioni come proposta di modifica e prevede trenta giorni dalla pubblicazione dell’avviso regionale per consultazione e osservazioni; non è un aggiornamento definitivo."
+          }
+        ],
+        "limitations": [
+          "La raccolta AUBAC espone “BURA n. 00 del 00.10.2026”; la pubblicazione regionale non è stata verificata e non si deduce l’avvio del termine di consultazione o l’efficacia delle salvaguardie."
+        ],
+        "pending": [
+          "Acquisire l’avviso nel BURA, le cartografie e l’eventuale decreto definitivo."
+        ],
+        "record_version": "98bc89086d48227d26bbe55b60d09e677d4e77881ebe889f660454be66c8632f"
+      },
+      "topic_evidence": [
+        {
+          "category": "pai-frane",
+          "source": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1333980&DOCORE_versione=1&FNSTR=PCWMHT_JJERHFF_19154381632201567100330209645394.LNK.L7G&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "note": "Il dispositivo ufficiale riguarda sostanzialmente pericolosità, attività o rischio da frana/dissesto di versante nell’ambito del PAI; non contiene una componente idraulica autonoma."
+        }
+      ]
+    },
+    {
+      "id": "centr-pai-fara-filiorum-petri-188-2026",
+      "ref": "D.S. AUBAC 188/2026",
+      "title": "Proposta PAI Abruzzo · scarpate e fasce di pericolosità a Fara Filiorum Petri",
+      "level": "Distrettuale",
+      "regions": [
+        "Abruzzo"
+      ],
+      "topics": [
+        "PAI - Pericolosità e rischio frane"
+      ],
+      "date": "2026-10-09",
+      "url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+      "documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?StwEvent=101&DB_NAME=n1202633&IdDelibere=3412",
+          "label": "Decreto segretariale 188/2026 · dettaglio atto",
+          "group": "Atto",
+          "link_status": "checked",
+          "link_checked": "2026-10-28"
+        },
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334000&DOCORE_versione=1&FNSTR=PCWMHT_JJERHFF_30049367310381671007591434594326.LNK.L7G&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "label": "Decreto segretariale 188/2026 · PDF ufficiale",
+          "format": "pdf",
+          "group": "Atto",
+          "link_status": "checked",
+          "link_checked": "2026-10-28"
+        },
+        {
+          "url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+          "label": "Raccolta ufficiale dei decreti di pianificazione 2026",
+          "group": "Raccolta",
+          "link_status": "checked",
+          "link_checked": "2026-10-28"
+        }
+      ],
+      "summary": "Proposta di aggiornamento del PAI Abruzzo per Fara Filiorum Petri: corretta trasposizione delle scarpate geomorfologiche, apposizione delle fasce di rispetto e conseguente aggiornamento delle carte geomorfologica, della pericolosità e del rischio.",
+      "focus": [
+        "Consultare le scarpate e le fasce di rispetto proposte",
+        "Verificare le misure di salvaguardia dopo la pubblicazione sul BURA",
+        "Seguire consultazione ed eventuale approvazione definitiva"
+      ],
+      "kind": "Variante PAI",
+      "status": "Proposta di aggiornamento · consultazione",
+      "source_kind": "Autorità di bacino distrettuale",
+      "note": "La raccolta AUBAC riporta ancora un riferimento segnaposto al BURA; non è stata accertata la pubblicazione dell’avviso e non si dichiara l’efficacia delle salvaguardie.",
+      "checked": "2026-10-28",
+      "relations": [
+        {
+          "type": "PAI distrettuale frane",
+          "id": "centr-pai-frane-68-2026"
+        },
+        {
+          "type": "Quadro distrettuale",
+          "id": "dist-centr"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-28",
+          "text": "Scheda creata dopo lettura del D.S. 188/2026 e del dettaglio ufficiale AUBAC; pubblicazione regionale ed esito definitivo restano da accertare."
+        }
+      ],
+      "document_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334000&DOCORE_versione=1&FNSTR=PCWMHT_JJERHFF_30049367310381671007591434594326.LNK.L7G&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+      "document_label": "Decreto segretariale 188/2026 · PDF ufficiale",
+      "document_note": "Letti identità, oggetto e dispositivo del decreto ufficiale. La proposta non è trattata come aggiornamento definitivo; cartografie, relazioni tecniche, osservazioni e successivo provvedimento conclusivo restano da verificare.",
+      "documentary_review": {
+        "checked_at": "2026-10-28",
+        "scope": "Identità, oggetto e dispositivo artt. 1-2 del decreto ufficiale; non l’intera cartografia, le relazioni tecniche, le osservazioni o l’atto definitivo successivo.",
+        "outcome": "partial",
+        "legal_state": "consultation",
+        "source_urls": [
+          "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334000&DOCORE_versione=1&FNSTR=PCWMHT_JJERHFF_30049367310381671007591434594326.LNK.L7G&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?StwEvent=101&DB_NAME=n1202633&IdDelibere=3412",
+          "https://aubac.it/decreti-segretariali-di-pianificazione-2026"
+        ],
+        "claims": [
+          {
+            "aspect": "identity",
+            "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334000&DOCORE_versione=1&FNSTR=PCWMHT_JJERHFF_30049367310381671007591434594326.LNK.L7G&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+            "locator": "Intestazione e data in calce",
+            "finding": "Decreto segretariale AUBAC 188/2026, datato 9 ottobre 2026; identità riscontrata sul PDF ufficiale."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334000&DOCORE_versione=1&FNSTR=PCWMHT_JJERHFF_30049367310381671007591434594326.LNK.L7G&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+            "locator": "Dispositivo, art. 1",
+            "finding": "L’art. 1 propone la corretta trasposizione delle scarpate geomorfologiche e le relative fasce, aggiornando le tre carte PAI e prevedendo misure di salvaguardia nelle nuove perimetrazioni."
+          },
+          {
+            "aspect": "status",
+            "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334000&DOCORE_versione=1&FNSTR=PCWMHT_JJERHFF_30049367310381671007591434594326.LNK.L7G&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+            "locator": "Dispositivo, art. 2",
+            "finding": "L’atto qualifica espressamente le disposizioni come proposta di modifica e prevede trenta giorni dalla pubblicazione dell’avviso regionale per consultazione e osservazioni; non è un aggiornamento definitivo."
+          }
+        ],
+        "limitations": [
+          "La raccolta AUBAC espone “BURA n. 00 del 00.10.2026”; la pubblicazione regionale non è stata verificata e non si deduce l’avvio del termine di consultazione o l’efficacia delle salvaguardie."
+        ],
+        "pending": [
+          "Acquisire l’avviso nel BURA, le cartografie e l’eventuale decreto definitivo."
+        ],
+        "record_version": "0d218cf061986ea35585a32388143a9ec1731cf510640168c4e824486f530e0c"
+      },
+      "topic_evidence": [
+        {
+          "category": "pai-frane",
+          "source": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334000&DOCORE_versione=1&FNSTR=PCWMHT_JJERHFF_30049367310381671007591434594326.LNK.L7G&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "note": "Il dispositivo ufficiale riguarda sostanzialmente pericolosità, attività o rischio da frana/dissesto di versante nell’ambito del PAI; non contiene una componente idraulica autonoma."
+        }
+      ]
+    },
+    {
+      "id": "centr-pai-tavullia-189-2026",
+      "ref": "D.S. AUBAC 189/2026",
+      "title": "Proposta PAI Marche · riduzione P3–P1 dei dissesti di Cà Asprete a Tavullia",
+      "level": "Distrettuale",
+      "regions": [
+        "Marche"
+      ],
+      "topics": [
+        "PAI - Pericolosità e rischio frane"
+      ],
+      "date": "2026-10-09",
+      "url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+      "documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?StwEvent=101&DB_NAME=n1202633&IdDelibere=3413",
+          "label": "Decreto segretariale 189/2026 · dettaglio atto",
+          "group": "Atto",
+          "link_status": "checked",
+          "link_checked": "2026-10-28"
+        },
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334002&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_140126735521545671011292054718097.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "label": "Decreto segretariale 189/2026 · PDF ufficiale",
+          "format": "pdf",
+          "group": "Atto",
+          "link_status": "checked",
+          "link_checked": "2026-10-28"
+        },
+        {
+          "url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+          "label": "Raccolta ufficiale dei decreti di pianificazione 2026",
+          "group": "Raccolta",
+          "link_status": "checked",
+          "link_checked": "2026-10-28"
+        }
+      ],
+      "summary": "Proposta di aggiornamento del PAI Marche a Cà Asprete, Tavullia: riduzione della classe di pericolosità da P3 a P1 per i dissesti F-02-0146 e F-02-0143, mantenendo la rappresentazione cartografica e subordinando la modifica al monitoraggio del versante.",
+      "focus": [
+        "Verificare i dissesti F-02-0146 e F-02-0143",
+        "Considerare invariata la disciplina vigente fino all’approvazione",
+        "Seguire monitoraggio, consultazione e provvedimento definitivo"
+      ],
+      "kind": "Variante PAI",
+      "status": "Proposta di aggiornamento · consultazione",
+      "source_kind": "Autorità di bacino distrettuale",
+      "note": "Il decreto mantiene espressamente ferma la disciplina vigente sino all’approvazione dell’aggiornamento. La raccolta AUBAC riporta un riferimento segnaposto al BUR Marche.",
+      "checked": "2026-10-28",
+      "relations": [
+        {
+          "type": "PAI distrettuale frane",
+          "id": "centr-pai-frane-68-2026"
+        },
+        {
+          "type": "Quadro distrettuale",
+          "id": "dist-centr"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-28",
+          "text": "Scheda creata dopo lettura del D.S. 189/2026 e del dettaglio ufficiale AUBAC; pubblicazione regionale ed esito definitivo restano da accertare."
+        }
+      ],
+      "document_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334002&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_140126735521545671011292054718097.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+      "document_label": "Decreto segretariale 189/2026 · PDF ufficiale",
+      "document_note": "Letti identità, oggetto e dispositivo del decreto ufficiale. La proposta non è trattata come aggiornamento definitivo; cartografie, relazioni tecniche, osservazioni e successivo provvedimento conclusivo restano da verificare.",
+      "documentary_review": {
+        "checked_at": "2026-10-28",
+        "scope": "Identità, oggetto e dispositivo artt. 1-2 del decreto ufficiale; non l’intera cartografia, le relazioni tecniche, le osservazioni o l’atto definitivo successivo.",
+        "outcome": "partial",
+        "legal_state": "consultation",
+        "source_urls": [
+          "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334002&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_140126735521545671011292054718097.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?StwEvent=101&DB_NAME=n1202633&IdDelibere=3413",
+          "https://aubac.it/decreti-segretariali-di-pianificazione-2026"
+        ],
+        "claims": [
+          {
+            "aspect": "identity",
+            "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334002&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_140126735521545671011292054718097.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+            "locator": "Intestazione e data in calce",
+            "finding": "Decreto segretariale AUBAC 189/2026, datato 9 ottobre 2026; identità riscontrata sul PDF ufficiale."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334002&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_140126735521545671011292054718097.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+            "locator": "Dispositivo, art. 1",
+            "finding": "L’art. 1 propone la riduzione P3–P1 per i due dissesti, prescrive il monitoraggio periodico e mantiene ferma la disciplina vigente fino all’approvazione."
+          },
+          {
+            "aspect": "status",
+            "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334002&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_140126735521545671011292054718097.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+            "locator": "Dispositivo, art. 2",
+            "finding": "L’atto qualifica espressamente le disposizioni come proposta di modifica e prevede trenta giorni dalla pubblicazione dell’avviso regionale per consultazione e osservazioni; non è un aggiornamento definitivo."
+          }
+        ],
+        "limitations": [
+          "La pubblicazione nel BUR Marche non è stata verificata; non si deduce l’avvio del termine di consultazione né l’approvazione della riduzione."
+        ],
+        "pending": [
+          "Acquisire l’avviso regionale, cartografie, rapporti di monitoraggio e decreto definitivo."
+        ],
+        "record_version": "0050fffe949ac32891108b8aef4ef63981af03cac8d17f9a8d1acdf5815aea13"
+      },
+      "topic_evidence": [
+        {
+          "category": "pai-frane",
+          "source": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334002&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_140126735521545671011292054718097.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "note": "Il dispositivo ufficiale riguarda sostanzialmente pericolosità, attività o rischio da frana/dissesto di versante nell’ambito del PAI; non contiene una componente idraulica autonoma."
+        }
+      ]
+    },
+    {
+      "id": "centr-pai-san-costanzo-190-2026",
+      "ref": "D.S. AUBAC 190/2026",
+      "title": "Proposta PAI Marche · dissesti di San Fortunato a San Costanzo",
+      "level": "Distrettuale",
+      "regions": [
+        "Marche"
+      ],
+      "topics": [
+        "PAI - Pericolosità e rischio frane"
+      ],
+      "date": "2026-10-09",
+      "url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+      "documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?StwEvent=101&DB_NAME=n1202633&IdDelibere=3414",
+          "label": "Decreto segretariale 190/2026 · dettaglio atto",
+          "group": "Atto",
+          "link_status": "checked",
+          "link_checked": "2026-10-28"
+        },
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334013&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_139572548937205671017321757291516.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "label": "Decreto segretariale 190/2026 · PDF ufficiale",
+          "format": "pdf",
+          "group": "Atto",
+          "link_status": "checked",
+          "link_checked": "2026-10-28"
+        },
+        {
+          "url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+          "label": "Raccolta ufficiale dei decreti di pianificazione 2026",
+          "group": "Raccolta",
+          "link_status": "checked",
+          "link_checked": "2026-10-28"
+        }
+      ],
+      "summary": "Proposta di aggiornamento del PAI Marche a San Fortunato, San Costanzo: riduzione dei perimetri F-06-0029 (P3–R2) e F-06-0030 (P2–R2) e inserimento del dissesto F-06-5002 (P1–R1), con monitoraggio del versante.",
+      "focus": [
+        "Consultare i perimetri F-06-0029, F-06-0030 e F-06-5002",
+        "Considerare invariata la disciplina vigente fino all’approvazione",
+        "Seguire monitoraggio, consultazione e provvedimento definitivo"
+      ],
+      "kind": "Variante PAI",
+      "status": "Proposta di aggiornamento · consultazione",
+      "source_kind": "Autorità di bacino distrettuale",
+      "note": "Il decreto mantiene espressamente ferma la disciplina vigente sino all’approvazione dell’aggiornamento. La raccolta AUBAC riporta un riferimento segnaposto al BUR Marche.",
+      "checked": "2026-10-28",
+      "relations": [
+        {
+          "type": "PAI distrettuale frane",
+          "id": "centr-pai-frane-68-2026"
+        },
+        {
+          "type": "Quadro distrettuale",
+          "id": "dist-centr"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-28",
+          "text": "Scheda creata dopo lettura del D.S. 190/2026 e del dettaglio ufficiale AUBAC; pubblicazione regionale ed esito definitivo restano da accertare."
+        }
+      ],
+      "document_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334013&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_139572548937205671017321757291516.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+      "document_label": "Decreto segretariale 190/2026 · PDF ufficiale",
+      "document_note": "Letti identità, oggetto e dispositivo del decreto ufficiale. La proposta non è trattata come aggiornamento definitivo; cartografie, relazioni tecniche, osservazioni e successivo provvedimento conclusivo restano da verificare.",
+      "documentary_review": {
+        "checked_at": "2026-10-28",
+        "scope": "Identità, oggetto e dispositivo artt. 1-2 del decreto ufficiale; non l’intera cartografia, le relazioni tecniche, le osservazioni o l’atto definitivo successivo.",
+        "outcome": "partial",
+        "legal_state": "consultation",
+        "source_urls": [
+          "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334013&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_139572548937205671017321757291516.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?StwEvent=101&DB_NAME=n1202633&IdDelibere=3414",
+          "https://aubac.it/decreti-segretariali-di-pianificazione-2026"
+        ],
+        "claims": [
+          {
+            "aspect": "identity",
+            "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334013&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_139572548937205671017321757291516.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+            "locator": "Intestazione e data in calce",
+            "finding": "Decreto segretariale AUBAC 190/2026, datato 9 ottobre 2026; identità riscontrata sul PDF ufficiale."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334013&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_139572548937205671017321757291516.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+            "locator": "Dispositivo, art. 1",
+            "finding": "L’art. 1 propone la riduzione di due perimetri e l’inserimento di un nuovo dissesto, prescrive il monitoraggio periodico e mantiene ferma la disciplina vigente fino all’approvazione."
+          },
+          {
+            "aspect": "status",
+            "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334013&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_139572548937205671017321757291516.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+            "locator": "Dispositivo, art. 2",
+            "finding": "L’atto qualifica espressamente le disposizioni come proposta di modifica e prevede trenta giorni dalla pubblicazione dell’avviso regionale per consultazione e osservazioni; non è un aggiornamento definitivo."
+          }
+        ],
+        "limitations": [
+          "La pubblicazione nel BUR Marche non è stata verificata; non si deduce l’avvio del termine di consultazione né l’approvazione delle modifiche."
+        ],
+        "pending": [
+          "Acquisire l’avviso regionale, cartografie, rapporti di monitoraggio e decreto definitivo."
+        ],
+        "record_version": "505d0c794c55c8028b7c3de1316bf41923c3032ae8056b1f98ca23584b65ad6c"
+      },
+      "topic_evidence": [
+        {
+          "category": "pai-frane",
+          "source": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334013&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_139572548937205671017321757291516.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "note": "Il dispositivo ufficiale riguarda sostanzialmente pericolosità, attività o rischio da frana/dissesto di versante nell’ambito del PAI; non contiene una componente idraulica autonoma."
+        }
+      ]
+    },
+    {
+      "id": "centr-pai-gubbio-valderchia-191-2026",
+      "ref": "D.S. AUBAC 191/2026",
+      "title": "Proposta PAI Tevere · attività del dissesto di Valderchia a Gubbio",
+      "level": "Distrettuale",
+      "regions": [
+        "Umbria"
+      ],
+      "topics": [
+        "PAI - Pericolosità e rischio frane"
+      ],
+      "date": "2026-10-09",
+      "url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+      "documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?StwEvent=101&DB_NAME=n1202633&IdDelibere=3415",
+          "label": "Decreto segretariale 191/2026 · dettaglio atto",
+          "group": "Atto",
+          "link_status": "checked",
+          "link_checked": "2026-10-28"
+        },
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334044&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_111075871530273671024341531476287.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "label": "Decreto segretariale 191/2026 · PDF ufficiale",
+          "format": "pdf",
+          "group": "Atto",
+          "link_status": "checked",
+          "link_checked": "2026-10-28"
+        },
+        {
+          "url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+          "label": "Raccolta ufficiale dei decreti di pianificazione 2026",
+          "group": "Raccolta",
+          "link_status": "checked",
+          "link_checked": "2026-10-28"
+        }
+      ],
+      "summary": "Proposta di aggiornamento del PAI Tevere a Valderchia, Gubbio: nel PAI previgente il poligono 20C30126 passa da quiescente ad attivo a pericolosità invariata; nel quadro del PAI distrettuale frane la conseguente riclassificazione proposta è da P2 a P3.",
+      "focus": [
+        "Verificare il poligono 20C30126 nei due quadri PAI",
+        "Seguire il monitoraggio prescritto",
+        "Attendere l’esito della consultazione e il provvedimento definitivo"
+      ],
+      "kind": "Variante PAI",
+      "status": "Proposta di aggiornamento · consultazione",
+      "source_kind": "Autorità di bacino distrettuale",
+      "note": "La raccolta AUBAC indica il BUR Umbria n. 53 del 20/10/2026 ma collega erroneamente il testo “191/2026” al dettaglio del D.S. 165/2026. La scheda usa il dettaglio corretto URBI IdDelibere=3415, riscontrato sul registro ufficiale.",
+      "checked": "2026-10-28",
+      "relations": [
+        {
+          "type": "PAI distrettuale frane",
+          "id": "centr-pai-frane-68-2026"
+        },
+        {
+          "type": "Quadro distrettuale",
+          "id": "dist-centr"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-28",
+          "text": "Scheda creata dopo lettura del D.S. 191/2026 e individuazione del dettaglio URBI corretto; registrato il collegamento errato presente nella raccolta AUBAC."
+        }
+      ],
+      "document_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334044&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_111075871530273671024341531476287.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+      "document_label": "Decreto segretariale 191/2026 · PDF ufficiale",
+      "document_note": "Letti identità, oggetto e dispositivo del decreto ufficiale. La proposta non è trattata come aggiornamento definitivo; cartografie, relazioni tecniche, osservazioni e successivo provvedimento conclusivo restano da verificare.",
+      "documentary_review": {
+        "checked_at": "2026-10-28",
+        "scope": "Identità, oggetto e dispositivo artt. 1-2 del decreto ufficiale; non l’intera cartografia, le relazioni tecniche, le osservazioni o l’atto definitivo successivo.",
+        "outcome": "partial",
+        "legal_state": "consultation",
+        "source_urls": [
+          "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334044&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_111075871530273671024341531476287.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?StwEvent=101&DB_NAME=n1202633&IdDelibere=3415",
+          "https://aubac.it/decreti-segretariali-di-pianificazione-2026"
+        ],
+        "claims": [
+          {
+            "aspect": "identity",
+            "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334044&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_111075871530273671024341531476287.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+            "locator": "Intestazione e data in calce",
+            "finding": "Decreto segretariale AUBAC 191/2026, datato 9 ottobre 2026; identità riscontrata sul PDF ufficiale."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334044&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_111075871530273671024341531476287.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+            "locator": "Dispositivo, art. 1",
+            "finding": "L’art. 1 distingue la modifica da quiescente ad attivo, a pericolosità invariata nel PAI Tevere previgente, dalla conseguente riclassificazione P2–P3 nel quadro conoscitivo del PAI distrettuale frane; prescrive monitoraggio."
+          },
+          {
+            "aspect": "status",
+            "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334044&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_111075871530273671024341531476287.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+            "locator": "Dispositivo, art. 2",
+            "finding": "L’atto qualifica espressamente le disposizioni come proposta di modifica e prevede trenta giorni dalla pubblicazione dell’avviso regionale per consultazione e osservazioni; non è un aggiornamento definitivo."
+          }
+        ],
+        "limitations": [
+          "Il collegamento al decreto nella raccolta AUBAC punta al D.S. 165/2026; il BUR Umbria n. 53 del 20/10/2026 non è stato letto integralmente in questa esecuzione."
+        ],
+        "pending": [
+          "Verificare l’avviso nel BUR Umbria, cartografie, monitoraggio ed eventuale decreto definitivo; chiedere la correzione del link nella raccolta AUBAC."
+        ],
+        "record_version": "58151a1d68e140503bcfe4a357c4c476047c30ad71d96b8e1de184f00620a8cb"
+      },
+      "topic_evidence": [
+        {
+          "category": "pai-frane",
+          "source": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334044&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_111075871530273671024341531476287.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "note": "Il dispositivo ufficiale riguarda sostanzialmente pericolosità, attività o rischio da frana/dissesto di versante nell’ambito del PAI; non contiene una componente idraulica autonoma."
+        }
+      ]
+    },
+    {
+      "id": "centr-pai-assisi-ivancich-195-2026",
+      "ref": "D.S. AUBAC 195/2026",
+      "title": "Proposta PAI Tevere · dissesti di Ivancich ad Assisi",
+      "level": "Distrettuale",
+      "regions": [
+        "Umbria"
+      ],
+      "topics": [
+        "PAI - Pericolosità e rischio frane"
+      ],
+      "date": "2026-10-12",
+      "url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+      "documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?StwEvent=101&DB_NAME=n1202633&IdDelibere=3424",
+          "label": "Decreto segretariale 195/2026 · dettaglio atto",
+          "group": "Atto",
+          "link_status": "checked",
+          "link_checked": "2026-10-28"
+        },
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1335358&DOCORE_versione=1&FNSTR=YUYHOB_XFOZKCF_2807339032235671106321942960459.TPR.R7I&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "label": "Decreto segretariale 195/2026 · PDF ufficiale",
+          "format": "pdf",
+          "group": "Atto",
+          "link_status": "checked",
+          "link_checked": "2026-10-28"
+        },
+        {
+          "url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+          "label": "Raccolta ufficiale dei decreti di pianificazione 2026",
+          "group": "Raccolta",
+          "link_status": "checked",
+          "link_checked": "2026-10-28"
+        }
+      ],
+      "summary": "Proposta di aggiornamento del PAI Tevere a Ivancich, Assisi: modifica dello stato di attività di cinque poligoni; nel quadro del PAI distrettuale frane, quattro poligoni sono riclassificati da P2 a P3 e il 27C20056 da P1 a P3.",
+      "focus": [
+        "Verificare i poligoni 27C20005, 27C20006, 27C20008, 27C20058 e 27C20056",
+        "Seguire il monitoraggio prescritto",
+        "Attendere l’esito della consultazione e il provvedimento definitivo"
+      ],
+      "kind": "Variante PAI",
+      "status": "Proposta di aggiornamento · consultazione",
+      "source_kind": "Autorità di bacino distrettuale",
+      "note": "La raccolta AUBAC indica il BUR Umbria n. 53 del 20/10/2026; l’avviso regionale non è stato letto integralmente in questa esecuzione.",
+      "checked": "2026-10-28",
+      "relations": [
+        {
+          "type": "PAI distrettuale frane",
+          "id": "centr-pai-frane-68-2026"
+        },
+        {
+          "type": "Quadro distrettuale",
+          "id": "dist-centr"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-28",
+          "text": "Scheda creata dopo lettura del D.S. 195/2026 e del dettaglio ufficiale AUBAC; esito definitivo e allegati restano da verificare."
+        }
+      ],
+      "document_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1335358&DOCORE_versione=1&FNSTR=YUYHOB_XFOZKCF_2807339032235671106321942960459.TPR.R7I&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+      "document_label": "Decreto segretariale 195/2026 · PDF ufficiale",
+      "document_note": "Letti identità, oggetto e dispositivo del decreto ufficiale. La proposta non è trattata come aggiornamento definitivo; cartografie, relazioni tecniche, osservazioni e successivo provvedimento conclusivo restano da verificare.",
+      "documentary_review": {
+        "checked_at": "2026-10-28",
+        "scope": "Identità, oggetto e dispositivo artt. 1-2 del decreto ufficiale; non l’intera cartografia, le relazioni tecniche, le osservazioni o l’atto definitivo successivo.",
+        "outcome": "partial",
+        "legal_state": "consultation",
+        "source_urls": [
+          "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1335358&DOCORE_versione=1&FNSTR=YUYHOB_XFOZKCF_2807339032235671106321942960459.TPR.R7I&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?StwEvent=101&DB_NAME=n1202633&IdDelibere=3424",
+          "https://aubac.it/decreti-segretariali-di-pianificazione-2026"
+        ],
+        "claims": [
+          {
+            "aspect": "identity",
+            "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1335358&DOCORE_versione=1&FNSTR=YUYHOB_XFOZKCF_2807339032235671106321942960459.TPR.R7I&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+            "locator": "Intestazione e data in calce",
+            "finding": "Decreto segretariale AUBAC 195/2026, datato 12 ottobre 2026; identità riscontrata sul PDF ufficiale."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1335358&DOCORE_versione=1&FNSTR=YUYHOB_XFOZKCF_2807339032235671106321942960459.TPR.R7I&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+            "locator": "Dispositivo, art. 1",
+            "finding": "L’art. 1 propone il passaggio ad attivo dei cinque poligoni e distingue il quadro PAI Tevere previgente dal riallineamento P2–P3 o P1–P3 nel PAI distrettuale frane; prescrive monitoraggio."
+          },
+          {
+            "aspect": "status",
+            "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1335358&DOCORE_versione=1&FNSTR=YUYHOB_XFOZKCF_2807339032235671106321942960459.TPR.R7I&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+            "locator": "Dispositivo, art. 2",
+            "finding": "L’atto qualifica espressamente le disposizioni come proposta di modifica e prevede trenta giorni dalla pubblicazione dell’avviso regionale per consultazione e osservazioni; non è un aggiornamento definitivo."
+          }
+        ],
+        "limitations": [
+          "Il BUR Umbria n. 53 del 20/10/2026 non è stato letto integralmente; non si attesta l’esito successivo della consultazione."
+        ],
+        "pending": [
+          "Verificare l’avviso regionale, cartografie, monitoraggio ed eventuale decreto definitivo."
+        ],
+        "record_version": "3f3a78fa11eb97fd75f812df7489d04be15b63fff2f41d87a84977bcd327ef65"
+      },
+      "topic_evidence": [
+        {
+          "category": "pai-frane",
+          "source": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1335358&DOCORE_versione=1&FNSTR=YUYHOB_XFOZKCF_2807339032235671106321942960459.TPR.R7I&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "note": "Il dispositivo ufficiale riguarda sostanzialmente pericolosità, attività o rischio da frana/dissesto di versante nell’ambito del PAI; non contiene una componente idraulica autonoma."
+        }
+      ]
+    },
+    {
+      "id": "centr-pai-gaeta-198-2026",
+      "ref": "D.S. AUBAC 198/2026",
+      "title": "Aggiornamento PAI Lazio · riclassificazione FZ9 a Gaeta",
+      "level": "Distrettuale",
+      "regions": [
+        "Lazio"
+      ],
+      "topics": [
+        "PAI - Pericolosità e rischio frane"
+      ],
+      "date": "2026-10-15",
+      "url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+      "documents": [
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?StwEvent=101&DB_NAME=n1202633&IdDelibere=3435",
+          "label": "Decreto segretariale 198/2026 · dettaglio atto",
+          "group": "Atto",
+          "link_status": "checked",
+          "link_checked": "2026-10-28"
+        },
+        {
+          "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1339702&DOCORE_versione=1&FNSTR=YUYHOB_XFOZKCF_6154554428401671019131373883654.TPR.R7I&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "label": "Decreto segretariale 198/2026 · PDF ufficiale",
+          "format": "pdf",
+          "group": "Atto",
+          "link_status": "checked",
+          "link_checked": "2026-10-28"
+        },
+        {
+          "url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+          "label": "Raccolta ufficiale dei decreti di pianificazione 2026",
+          "group": "Raccolta",
+          "link_status": "checked",
+          "link_checked": "2026-10-28"
+        }
+      ],
+      "summary": "Aggiornamento definitivo del PAI Lazio a Gaeta, località S. Angelo sul versante sud-orientale del Monte Conca: una porzione dell’area FZ9 è riclassificata da pericolo A e rischio R4 a pericolo B e rischio R3 dopo interventi di mitigazione, con prescrizioni di manutenzione e monitoraggio.",
+      "focus": [
+        "Applicare la riclassificazione alle particelle indicate nel decreto",
+        "Rispettare piano di manutenzione e monitoraggio",
+        "Verificare la decorrenza sul BURL n. 84 del 20/10/2026"
+      ],
+      "kind": "Variante PAI",
+      "status": "Aggiornamento definitivo · avviso indicato nel BURL n. 84 del 20/10/2026",
+      "source_kind": "Autorità di bacino distrettuale",
+      "note": "Il decreto dispone l’immediata variante e collega gli effetti alla pubblicazione dell’avviso nel BURL. La raccolta AUBAC indica il n. 84 del 20/10/2026, ma il bollettino non è stato letto integralmente in questa esecuzione: la decorrenza resta da riscontrare direttamente.",
+      "checked": "2026-10-28",
+      "relations": [
+        {
+          "type": "PAI distrettuale frane",
+          "id": "centr-pai-frane-68-2026"
+        },
+        {
+          "type": "Quadro distrettuale",
+          "id": "dist-centr"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-28",
+          "text": "Scheda creata dopo lettura integrale del D.S. 198/2026 e del dettaglio ufficiale AUBAC; decorrenza da riscontrare direttamente nel BURL n. 84 del 20/10/2026."
+        }
+      ],
+      "document_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1339702&DOCORE_versione=1&FNSTR=YUYHOB_XFOZKCF_6154554428401671019131373883654.TPR.R7I&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+      "document_label": "Decreto segretariale 198/2026 · PDF ufficiale",
+      "document_note": "Letti identità, premesse e dispositivo completo. Cartografie, piano di manutenzione e monitoraggio e avviso regionale non sono stati riesaminati integralmente.",
+      "documentary_review": {
+        "checked_at": "2026-10-28",
+        "scope": "Identità, procedimento e dispositivo completo artt. 1-2 del decreto ufficiale; non gli allegati cartografici, il piano di manutenzione o il testo integrale dell’avviso regionale.",
+        "outcome": "partial",
+        "legal_state": "amended",
+        "source_urls": [
+          "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1339702&DOCORE_versione=1&FNSTR=YUYHOB_XFOZKCF_6154554428401671019131373883654.TPR.R7I&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?StwEvent=101&DB_NAME=n1202633&IdDelibere=3435",
+          "https://aubac.it/decreti-segretariali-di-pianificazione-2026"
+        ],
+        "claims": [
+          {
+            "aspect": "identity",
+            "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1339702&DOCORE_versione=1&FNSTR=YUYHOB_XFOZKCF_6154554428401671019131373883654.TPR.R7I&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+            "locator": "Intestazione e data in calce",
+            "finding": "Decreto segretariale AUBAC 198/2026, datato 15 ottobre 2026; identità riscontrata sul PDF ufficiale."
+          },
+          {
+            "aspect": "amendment",
+            "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1339702&DOCORE_versione=1&FNSTR=YUYHOB_XFOZKCF_6154554428401671019131373883654.TPR.R7I&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+            "locator": "Dispositivo, art. 1",
+            "finding": "Il decreto dispone la riclassificazione della porzione FZ9 alle particelle indicate da pericolo A/R4 a pericolo B/R3, impone manutenzione e monitoraggio e allinea il quadro conoscitivo del PAI distrettuale frane."
+          },
+          {
+            "aspect": "effectiveness",
+            "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1339702&DOCORE_versione=1&FNSTR=YUYHOB_XFOZKCF_6154554428401671019131373883654.TPR.R7I&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+            "locator": "Dispositivo, art. 2, commi 1-3",
+            "finding": "Le disposizioni costituiscono immediata variante; l’aggiornamento produce effetti dalla pubblicazione dell’avviso nel BURL. La raccolta ufficiale indica BURL n. 84 del 20 ottobre 2026, non integralmente riesaminato in questo controllo."
+          }
+        ],
+        "limitations": [
+          "La decorrenza è collegata dal decreto alla pubblicazione regionale; il BURL n. 84 del 20/10/2026 non è stato letto integralmente e non si certifica l’assenza di modifiche successive."
+        ],
+        "pending": [
+          "Leggere l’avviso nel BURL n. 84, gli elaborati cartografici e il piano di manutenzione e monitoraggio."
+        ],
+        "record_version": "4a0817f1694cf5ee016f15c451de4cc21e185ce6690e4e3bc869ac9e12b483a8"
+      },
+      "topic_evidence": [
+        {
+          "category": "pai-frane",
+          "source": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1339702&DOCORE_versione=1&FNSTR=YUYHOB_XFOZKCF_6154554428401671019131373883654.TPR.R7I&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "note": "Il dispositivo ufficiale riguarda sostanzialmente pericolosità, attività o rischio da frana/dissesto di versante nell’ambito del PAI; non contiene una componente idraulica autonoma."
+        }
+      ]
     }
   ],
   "regions": [
@@ -15958,6 +16749,149 @@
     }
   ],
   "runs": [
+    {
+      "date": "2026-10-28",
+      "type": "Controllo territoriale · ricognizione parziale",
+      "summary": "Censiti sette decreti AUBAC: sei proposte di aggiornamento PAI per Montazzoli, Fara Filiorum Petri, Tavullia, San Costanzo, Gubbio e Assisi e l’aggiornamento definitivo di Gaeta. La D.G.P. Bolzano 878/2026 resta non pubblicata nel Bollettino disponibile; Sardegna ha restituito 502 e non è considerata controllata.",
+      "checked": [
+        "centr-pai-montazzoli-187-2026",
+        "centr-pai-fara-filiorum-petri-188-2026",
+        "centr-pai-tavullia-189-2026",
+        "centr-pai-san-costanzo-190-2026",
+        "centr-pai-gubbio-valderchia-191-2026",
+        "centr-pai-assisi-ivancich-195-2026",
+        "centr-pai-gaeta-198-2026",
+        "bz-brennero-pzp-878-2026",
+        "bz23",
+        "dist-centr",
+        "dist-po",
+        "dist-sett",
+        "dist-merid",
+        "dist-sici"
+      ],
+      "territories": [
+        "Appennino Centrale: raccolta decreti di pianificazione 2026, registri e testi integrali dei D.S. 187, 188, 189, 190, 191, 195 e 198/2026",
+        "Provincia autonoma di Bolzano: intera seduta del 23 ottobre 2026 e homepage del Bollettino Ufficiale disponibile al 28 ottobre 2026",
+        "Distretto del Po: homepage e pagina delle varianti PAI in corso",
+        "Appennino Settentrionale: homepage e contenuti recenti",
+        "Appennino Meridionale: elenco delle notizie e accessi agli strumenti di piano",
+        "Sicilia: pagina ufficiale della normativa PAI"
+      ],
+      "read_urls": [
+        "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+        "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?StwEvent=101&DB_NAME=n1202633&IdDelibere=3411",
+        "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1333980&DOCORE_versione=1&FNSTR=PCWMHT_JJERHFF_19154381632201567100330209645394.LNK.L7G&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+        "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?StwEvent=101&DB_NAME=n1202633&IdDelibere=3412",
+        "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334000&DOCORE_versione=1&FNSTR=PCWMHT_JJERHFF_30049367310381671007591434594326.LNK.L7G&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+        "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?StwEvent=101&DB_NAME=n1202633&IdDelibere=3413",
+        "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334002&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_140126735521545671011292054718097.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+        "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?StwEvent=101&DB_NAME=n1202633&IdDelibere=3414",
+        "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334013&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_139572548937205671017321757291516.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+        "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?StwEvent=101&DB_NAME=n1202633&IdDelibere=3415",
+        "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334044&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_111075871530273671024341531476287.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+        "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?StwEvent=101&DB_NAME=n1202633&IdDelibere=3424",
+        "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1335358&DOCORE_versione=1&FNSTR=YUYHOB_XFOZKCF_2807339032235671106321942960459.TPR.R7I&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+        "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?StwEvent=101&DB_NAME=n1202633&IdDelibere=3435",
+        "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1339702&DOCORE_versione=1&FNSTR=YUYHOB_XFOZKCF_6154554428401671019131373883654.TPR.R7I&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+        "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=20&page=1&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
+        "https://bollettino.regione.taa.it/it/default.aspx",
+        "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/approvazione-varianti-pai/",
+        "https://www.adbpo.it/",
+        "https://pai.adbpo.it/varianti-in-corso-2/",
+        "https://www.appenninosettentrionale.it/itc/",
+        "https://www.distrettoappenninomeridionale.it/notizie/",
+        "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa"
+      ],
+      "source_findings": [
+        {
+          "source_url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+          "result": "La raccolta ufficiale espone i D.S. 187–191 e 195/2026 come proposte e il D.S. 198/2026 come aggiornamento definitivo. Il collegamento testuale del D.S. 191 punta erroneamente al D.S. 165; il dettaglio corretto è stato riscontrato nel registro URBI IdDelibere=3415."
+        },
+        {
+          "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1339702&DOCORE_versione=1&FNSTR=YUYHOB_XFOZKCF_6154554428401671019131373883654.TPR.R7I&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "result": "Il D.S. 198/2026 dispone la riclassificazione definitiva della porzione FZ9 a Gaeta da A/R4 a B/R3, prescrive manutenzione e monitoraggio e collega gli effetti alla pubblicazione dell’avviso nel BURL."
+        },
+        {
+          "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1333980&DOCORE_versione=1&FNSTR=PCWMHT_JJERHFF_19154381632201567100330209645394.LNK.L7G&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "result": "Il D.S. 187/2026 propone il dissesto P3 attivo a Montazzoli e prevede salvaguardie efficaci solo dalla pubblicazione dell’avviso regionale, non ancora riscontrata."
+        },
+        {
+          "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334000&DOCORE_versione=1&FNSTR=PCWMHT_JJERHFF_30049367310381671007591434594326.LNK.L7G&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "result": "Il D.S. 188/2026 propone l’aggiornamento delle carte PAI per scarpate e fasce a Fara Filiorum Petri, con salvaguardie subordinate alla pubblicazione regionale."
+        },
+        {
+          "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334002&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_140126735521545671011292054718097.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "result": "Il D.S. 189/2026 propone la riduzione P3–P1 a Tavullia e mantiene espressamente la disciplina vigente fino all’approvazione."
+        },
+        {
+          "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334013&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_139572548937205671017321757291516.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "result": "Il D.S. 190/2026 propone modifiche ai dissesti di San Costanzo e mantiene espressamente la disciplina vigente fino all’approvazione."
+        },
+        {
+          "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1334044&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_111075871530273671024341531476287.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "result": "Il D.S. 191/2026 propone il passaggio ad attivo del poligono di Valderchia e la riclassificazione P2–P3 nel quadro del PAI distrettuale frane."
+        },
+        {
+          "source_url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1335358&DOCORE_versione=1&FNSTR=YUYHOB_XFOZKCF_2807339032235671106321942960459.TPR.R7I&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+          "result": "Il D.S. 195/2026 propone il passaggio ad attivo di cinque poligoni a Ivancich e il riallineamento a P3 nel PAI distrettuale frane."
+        },
+        {
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=20&page=1&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
+          "result": "L’API espone ancora 17 delibere della seduta del 23 ottobre 2026; la D.G.P. 878/2026 resta l’unico oggetto pertinente già censito."
+        },
+        {
+          "source_url": "https://bollettino.regione.taa.it/it/default.aspx",
+          "result": "La homepage espone ancora il numero ordinario 43 del 22 ottobre e lo straordinario 1 del 23 ottobre; la D.G.P. 878/2026 non risulta pubblicata nel perimetro letto."
+        },
+        {
+          "source_url": "https://pai.adbpo.it/varianti-in-corso-2/",
+          "result": "La pagina continua a elencare progetto generale 13/2025 e aggiornamenti Enza 91/2025, Terdoppio 5/2026 e Mera 27/2026, già considerati."
+        },
+        {
+          "source_url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa",
+          "result": "La pagina reca ultimo aggiornamento 9 luglio 2026 e non espone un atto successivo nel contenuto letto."
+        }
+      ],
+      "errors": [
+        "Sardegna: l’elenco ufficiale delle varianti PAI ha restituito 502 Bad Gateway; la fonte non è considerata controllata e non se ne deduce l’assenza di nuovi atti.",
+        "AUBAC: nella raccolta 2026 il collegamento del D.S. 191/2026 punta al D.S. 165/2026; è stato usato il dettaglio URBI corretto IdDelibere=3415 e l’anomalia resta segnalata."
+      ],
+      "limitations": [
+        "Ricognizione circoscritta alle URL elencate e ai documenti effettivamente letti; non copre integralmente regioni, province, comuni, gestori, albi pretori, allegati o cartografie.",
+        "Per i D.S. 187–191 e 195/2026 non si dichiara l’approvazione definitiva; per 187–190 i riferimenti ai bollettini nella raccolta sono ancora segnaposto.",
+        "Per il D.S. 198/2026 il decreto e la raccolta sono stati letti, ma il BURL n. 84 del 20/10/2026 e gli allegati non sono stati integralmente riesaminati.",
+        "La fonte Sardegna non è stata verificata a causa dell’errore 502 e non consente conclusioni su nuovi atti o su Villanovafranca.",
+        "Per la D.G.P. 878/2026 restano da acquisire pubblicazione nel Bollettino, data di efficacia, cartografia e relazione illustrativa.",
+        "Homepage ed elenchi degli altri distretti non equivalgono a un controllo esaustivo dei singoli procedimenti."
+      ],
+      "updated_records": [],
+      "new_records": [
+        "centr-pai-montazzoli-187-2026",
+        "centr-pai-fara-filiorum-petri-188-2026",
+        "centr-pai-tavullia-189-2026",
+        "centr-pai-san-costanzo-190-2026",
+        "centr-pai-gubbio-valderchia-191-2026",
+        "centr-pai-assisi-ivancich-195-2026",
+        "centr-pai-gaeta-198-2026"
+      ],
+      "execution": {
+        "id": "local-territorial-20261028-100153",
+        "id_origin": "Identificativo locale generato per questa esecuzione; identificativo del servizio non disponibile.",
+        "started_at": "2026-10-28T10:01:53+01:00",
+        "finished_at": "2026-10-28T10:16:38+01:00",
+        "outcome": "parziale",
+        "publication": {
+          "outcome": "in_attesa",
+          "last_valid_result": "published_github_pages",
+          "publication_history": [
+            {
+              "outcome": "in_attesa",
+              "note": "La ricevuta di questa esecuzione sarà aggiornata soltanto dopo il successo della validazione, del deployment Pages e del riscontro del run nel sito pubblico."
+            }
+          ]
+        }
+      }
+    },
     {
       "date": "2026-10-27",
       "type": "Controllo territoriale · ricognizione parziale",

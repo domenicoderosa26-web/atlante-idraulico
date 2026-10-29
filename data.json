@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-28",
+  "updatedAt": "2026-10-29",
   "scope": "Catalogo selettivo con controllo mirato dei CAM e della disciplina delle acque di prima pioggia per tutte le regioni. La verifica locale e autorizzativa resta necessaria.",
   "automation": {
     "enabled": true,
@@ -16749,6 +16749,105 @@
     }
   ],
   "runs": [
+    {
+      "date": "2026-10-29",
+      "type": "Controllo territoriale · ricognizione parziale",
+      "summary": "Nessuna nuova scheda o modifica normativa pubblicabile nel perimetro effettivamente letto. La raccolta AUBAC espone otto candidati di aggiornamento definitivo ancora privi di numero di decreto, link all’atto e riferimenti reali ai bollettini; non sono stati trasformati in schede. La D.G.P. Bolzano 878/2026 resta assente dal Bollettino n. 44 del 29 ottobre 2026. Sardegna ha restituito 502 Bad Gateway e non è considerata controllata.",
+      "checked": [
+        "bz-brennero-pzp-878-2026",
+        "bz23",
+        "dist-centr",
+        "dist-po",
+        "dist-sett",
+        "dist-merid",
+        "dist-sici"
+      ],
+      "territories": [
+        "Provincia autonoma di Bolzano: intera seduta del 23 ottobre 2026 e sommario del Bollettino Ufficiale n. 44 del 29 ottobre 2026",
+        "Appennino Centrale: raccolta ufficiale dei decreti segretariali di pianificazione 2026, inclusi i candidati incompleti successivi alla Conferenza operativa del 24 settembre",
+        "Distretto del Po: homepage e pagina delle varianti PAI in corso",
+        "Appennino Settentrionale: homepage e contenuti recenti fino al 28 ottobre 2026",
+        "Appennino Meridionale: elenco delle notizie e accessi agli strumenti di piano",
+        "Sicilia: pagina ufficiale della normativa PAI"
+      ],
+      "read_urls": [
+        "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=20&page=1&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
+        "https://bollettino.regione.taa.it/it/default.aspx",
+        "https://bollettino.regione.taa.it/it/parte123.aspx?&numeroid=16932&anno=2026&top=1",
+        "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/approvazione-varianti-pai/",
+        "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+        "https://www.adbpo.it/",
+        "https://pai.adbpo.it/varianti-in-corso-2/",
+        "https://www.appenninosettentrionale.it/itc/",
+        "https://www.distrettoappenninomeridionale.it/notizie/",
+        "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa"
+      ],
+      "source_findings": [
+        {
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=20&page=1&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
+          "result": "L’API ufficiale espone ancora 17 delibere della seduta del 23 ottobre 2026, numeri 883–867; la D.G.P. 878/2026, già censita, resta l’unico oggetto pertinente a PZP, PAI o PGRA."
+        },
+        {
+          "source_url": "https://bollettino.regione.taa.it/it/parte123.aspx?&numeroid=16932&anno=2026&top=1",
+          "result": "Il Bollettino n. 44 del 29 ottobre 2026 pubblica, tra le deliberazioni provinciali, le D.G.P. 868 e 869 del 23 ottobre; non contiene la D.G.P. 878/2026. L’efficacia della modifica PZP di Brennero non è quindi dichiarata."
+        },
+        {
+          "source_url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+          "result": "Dopo le proposte 187–191 e 195/2026, la raccolta espone otto voci di aggiornamento definitivo ancora indicate come D.S. 000/2026: Martinsicuro–Colonnella, Lanciano, Pennapiedimonte, Raiano, Casalanguida, Loro Piceno, Ripe San Ginesio e Force. Le voci non hanno link ai decreti e riportano bollettini 00.00.2026; restano candidati incompleti e non certificano adozione, approvazione o efficacia."
+        },
+        {
+          "source_url": "https://www.adbpo.it/",
+          "result": "La homepage espone come contenuto più recente la notizia del 26 ottobre 2026 sulle reti idriche e il clima; non pubblica un nuovo provvedimento PAI o PGRA nel contenuto letto."
+        },
+        {
+          "source_url": "https://pai.adbpo.it/varianti-in-corso-2/",
+          "result": "La pagina continua a elencare il progetto generale 13/2025 e gli aggiornamenti Enza 91/2025, Terdoppio 5/2026 e Mera 27/2026, già considerati nel catalogo."
+        },
+        {
+          "source_url": "https://www.appenninosettentrionale.it/itc/",
+          "result": "I contenuti recenti fino al 28 ottobre riguardano eventi, memoria delle alluvioni e informazione istituzionale; non espongono un nuovo atto PAI, PGRA o PZP nel contenuto acquisito."
+        },
+        {
+          "source_url": "https://www.distrettoappenninomeridionale.it/notizie/",
+          "result": "L’elenco delle notizie inizia dal Progetto Ripa a Bacoli del 15 ottobre 2026 e non espone un nuovo provvedimento PAI o PGRA nel contenuto acquisito."
+        },
+        {
+          "source_url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa",
+          "result": "La pagina normativa PAI reca ultimo aggiornamento 9 luglio 2026 e la modifica alla circolare applicativa del 23 giugno 2026; non presenta un atto successivo nel contenuto letto."
+        }
+      ],
+      "errors": [
+        "Sardegna: l’elenco ufficiale delle varianti PAI ha restituito 502 Bad Gateway; la fonte non è considerata controllata e non se ne deduce l’assenza di nuovi atti né lo stato di Villanovafranca.",
+        "AUBAC: otto candidati di aggiornamento definitivo sono privi di numero di decreto, link all’atto e riferimento reale ai bollettini; non è possibile verificarne identità, data, dispositivo o stato giuridico e non sono pubblicati come schede."
+      ],
+      "limitations": [
+        "Ricognizione circoscritta alle URL elencate e ai contenuti effettivamente esposti; non copre integralmente regioni, province, comuni, gestori, albi pretori, allegati, cartografie o catene degli atti.",
+        "Le otto voci AUBAC incomplete restano candidati: la pagina di raccolta, senza decreto identificato e documento leggibile, non consente di dichiarare aggiornamenti definitivi.",
+        "La fonte Sardegna non è stata verificata a causa dell’errore 502 e non consente conclusioni su nuovi atti o sulla determinazione 159/2026 di Villanovafranca.",
+        "Per la D.G.P. 878/2026 restano da acquisire pubblicazione nel Bollettino, data di efficacia, cartografia e relazione illustrativa.",
+        "Homepage ed elenchi degli altri distretti non equivalgono a un controllo esaustivo dei singoli procedimenti.",
+        "Le revisioni documentali delle schede preesistenti non sono state aggiornate da semplici controlli di elenco, homepage o raggiungibilità."
+      ],
+      "updated_records": [],
+      "new_records": [],
+      "execution": {
+        "id": "local-territorial-20261029-095611",
+        "id_origin": "Identificativo locale generato per questa esecuzione; identificativo del servizio non disponibile.",
+        "started_at": "2026-10-29T09:56:11+01:00",
+        "finished_at": "2026-10-29T10:05:43+01:00",
+        "outcome": "parziale",
+        "publication": {
+          "outcome": "in_attesa",
+          "last_valid_result": "published_github_pages",
+          "publication_history": [
+            {
+              "outcome": "in_attesa",
+              "note": "La ricevuta di questa esecuzione sarà aggiornata soltanto dopo il successo della validazione, del deployment Pages e del riscontro del run nel sito pubblico."
+            }
+          ]
+        }
+      }
+    },
     {
       "date": "2026-10-28",
       "type": "Controllo territoriale · ricognizione parziale",

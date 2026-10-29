@@ -8847,11 +8847,11 @@
     "notice": "Controllo tecnico: identità candidata, disponibilità e variazioni non attestano contenuto, vigenza o abrogazione.",
     "source_queue": "docs/audit/2026-10-10/completamento/attivita-residue.json",
     "selected": [
-      "bz-la-valle-pzp-739-2026",
-      "bz-nova-ponente-pzp-741-2026",
-      "bz-nova-ponente-pzp-776-2026"
+      "bz-rasun-anterselva-pzp-738-2026",
+      "bz-sarentino-pzp-740-2026",
+      "bz23"
     ],
-    "requests": 3,
+    "requests": 7,
     "tasks": {
       "sar-pai-frane-42-2026": {
         "task_version": "3141b41c28ccd674995b0afeb1ff9e567ea772033f1cd4d621e62ae144cae225",
@@ -8936,6 +8936,18 @@
       "bz-nova-ponente-pzp-776-2026": {
         "task_version": "645812dd9cb7a115c502582966edba5ebe8dc82b922fa2ab815a97c65e75d26c",
         "prepared_at": "2026-10-26T11:30:46.510805+00:00"
+      },
+      "bz-rasun-anterselva-pzp-738-2026": {
+        "task_version": "74b5414e9e1cc43173e0a72392b42a198e00b842aeb1e267cd6917d4d79fb2f2",
+        "prepared_at": "2026-10-29T11:44:01.605222+00:00"
+      },
+      "bz-sarentino-pzp-740-2026": {
+        "task_version": "3159363ab1f774f6e5072a17d798f615f7d30985b3ffdf3568bbf347636ba9de",
+        "prepared_at": "2026-10-29T11:44:01.605222+00:00"
+      },
+      "bz23": {
+        "task_version": "59a900ab3f8d45a1b8530be0e3f589988b3d5974dc0f1f1ef4cff503949f7ea2",
+        "prepared_at": "2026-10-29T11:44:01.605222+00:00"
       }
     },
     "seed_receipts": "docs/audit/2026-10-10/completamento/ricevute-accesso.json",
@@ -8967,6 +8979,56 @@
         "semantic_verification": "not_performed_by_access_check",
         "error": "<urlopen error timed out>",
         "technical_state": "needs_attention"
+      },
+      "https://lexbrowser.provinz.bz.it/doc/it/217759/decreto_del_presidente_della_provincia_10_ottobre_2019_n_23.aspx": {
+        "url": "https://lexbrowser.provinz.bz.it/doc/it/217759/decreto_del_presidente_della_provincia_10_ottobre_2019_n_23.aspx",
+        "checked_at": "2026-10-29T11:44:01.605222+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 500,
+        "error": "HTTP Error 500: Patience running out.",
+        "technical_state": "needs_attention"
+      },
+      "https://www.gazzettaufficiale.it/eli/gu/2020/01/11/2/s3/pdf#page=20": {
+        "url": "https://www.gazzettaufficiale.it/eli/gu/2020/01/11/2/s3/pdf#page=20",
+        "checked_at": "2026-10-29T11:44:01.605222+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://www.gazzettaufficiale.it/eli/gu/2020/01/11/2/s3/pdf#page=20",
+        "content_type": "application/pdf",
+        "etag": null,
+        "last_modified": null,
+        "body_complete": false,
+        "sample_bytes": 2000000,
+        "content_signature": "pdf",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": null,
+        "identity_basis": "PDF signature only",
+        "technical_state": "partial_pdf",
+        "sample_sha256": "b68d813954ef2eeebdf0890aee1fd593b0eef43782056d1af128d87a4a625b64",
+        "variation": "same",
+        "comparison_scope": "prefix_only"
+      },
+      "https://www.gazzettaufficiale.it/eli/gu/2020/01/11/2/s3/pdf#page=22": {
+        "url": "https://www.gazzettaufficiale.it/eli/gu/2020/01/11/2/s3/pdf#page=22",
+        "checked_at": "2026-10-29T11:44:01.605222+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://www.gazzettaufficiale.it/eli/gu/2020/01/11/2/s3/pdf#page=22",
+        "content_type": "application/pdf",
+        "etag": null,
+        "last_modified": null,
+        "body_complete": false,
+        "sample_bytes": 2000000,
+        "content_signature": "pdf",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": null,
+        "identity_basis": "PDF signature only",
+        "technical_state": "partial_pdf",
+        "sample_sha256": "b68d813954ef2eeebdf0890aee1fd593b0eef43782056d1af128d87a4a625b64",
+        "variation": "same",
+        "comparison_scope": "prefix_only"
       },
       "https://www.cittametropolitana.ba.it/amministrazione/documenti_e_dati/modulistica/documento_268.html": {
         "url": "https://www.cittametropolitana.ba.it/amministrazione/documenti_e_dati/modulistica/documento_268.html",
@@ -9117,7 +9179,7 @@
       },
       "https://giunta-provinciale.provincia.bz.it/it/delibere": {
         "url": "https://giunta-provinciale.provincia.bz.it/it/delibere",
-        "checked_at": "2026-10-22T10:36:36.951036+00:00",
+        "checked_at": "2026-10-29T11:44:01.605222+00:00",
         "semantic_verification": "not_performed_by_access_check",
         "http_status": 200,
         "final_url": "https://giunta-provinciale.provincia.bz.it/it/delibere",
@@ -9134,7 +9196,8 @@
         "technical_state": "available",
         "sha256": "1822c72da7bd03aab835ec6e6c362e7289fca7a676509add0945a831d9ceca57",
         "variation": "same",
-        "comparison_scope": "complete_bytes"
+        "comparison_scope": "server_validator",
+        "revalidation_http_status": 304
       },
       "https://api.integrations.services.siag.it/delibere/v1/delibere/esiuL8RBQoDk1lstoAKo%2BQ%3D%3D/document?tstmp=1790196547437": {
         "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/esiuL8RBQoDk1lstoAKo%2BQ%3D%3D/document?tstmp=1790196547437",
@@ -9166,7 +9229,7 @@
       },
       "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo": {
         "url": "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo",
-        "checked_at": "2026-10-22T10:36:36.951036+00:00",
+        "checked_at": "2026-10-29T11:44:01.605222+00:00",
         "semantic_verification": "not_performed_by_access_check",
         "http_status": 200,
         "final_url": "https://pericoli-naturali.provincia.bz.it/it/cos-e-il-piano-delle-zone-di-pericolo",
@@ -9183,7 +9246,8 @@
         "technical_state": "available",
         "sha256": "c597e94f7468d0b810bbe295eef00cbc4e18059f92c8f83ad72d5ad01444d1f8",
         "variation": "same",
-        "comparison_scope": "complete_bytes"
+        "comparison_scope": "server_validator",
+        "revalidation_http_status": 304
       },
       "https://api.integrations.services.siag.it/delibere/v1/delibere/ZzOArA8ANeWZFuTKiVQGSA%3D%3D/document?tstmp=1790598720328": {
         "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/ZzOArA8ANeWZFuTKiVQGSA%3D%3D/document?tstmp=1790598720328",
@@ -9297,6 +9361,34 @@
         "variation": "same",
         "comparison_scope": "complete_bytes"
       },
+      "https://api.integrations.services.siag.it/delibere/v1/delibere/QDiyUDJvk7Ajnb95m6fsng%3D%3D/document?tstmp=1790750000000": {
+        "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/QDiyUDJvk7Ajnb95m6fsng%3D%3D/document?tstmp=1790750000000",
+        "checked_at": "2026-10-29T11:44:01.605222+00:00",
+        "technical_state": "blocked",
+        "error": "URL non autorizzato",
+        "semantic_verification": "not_performed_by_access_check"
+      },
+      "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200071.pdf": {
+        "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200071.pdf",
+        "checked_at": "2026-10-29T11:44:01.605222+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200071.pdf",
+        "content_type": "application/pdf",
+        "etag": "\"9d321d98b350dd1:0\"",
+        "last_modified": "Wed, 30 Sep 2026 08:13:37 GMT",
+        "body_complete": true,
+        "sample_bytes": 636075,
+        "content_signature": "pdf",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": null,
+        "identity_basis": "PDF signature only",
+        "technical_state": "available",
+        "sha256": "b3c19bab5f736e11396118498415c359efa78232910b75e5e037cbff420905a0",
+        "variation": "same",
+        "comparison_scope": "complete_bytes"
+      },
       "https://api.integrations.services.siag.it/delibere/v1/delibere/sSWjeY6wMsUs%2BRZX0J8S0Q%3D%3D/document?tstmp=1790750000000": {
         "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/sSWjeY6wMsUs%2BRZX0J8S0Q%3D%3D/document?tstmp=1790750000000",
         "checked_at": "2026-10-26T11:30:46.510805+00:00",
@@ -9322,6 +9414,34 @@
         "identity_basis": "PDF signature only",
         "technical_state": "available",
         "sha256": "943c32f704fade15b9af5ebad9e8ee1c14431a860d7b341d4e0cf538e940c879",
+        "variation": "same",
+        "comparison_scope": "complete_bytes"
+      },
+      "https://api.integrations.services.siag.it/delibere/v1/delibere/EG2E4ptZZnKQGIZaBUV5Qg%3D%3D/document?tstmp=1790750000000": {
+        "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/EG2E4ptZZnKQGIZaBUV5Qg%3D%3D/document?tstmp=1790750000000",
+        "checked_at": "2026-10-29T11:44:01.605222+00:00",
+        "technical_state": "blocked",
+        "error": "URL non autorizzato",
+        "semantic_verification": "not_performed_by_access_check"
+      },
+      "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200026.pdf": {
+        "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200026.pdf",
+        "checked_at": "2026-10-29T11:44:01.605222+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200026.pdf",
+        "content_type": "application/pdf",
+        "etag": "\"cfaf983d4bdd1:0\"",
+        "last_modified": "Wed, 23 Sep 2026 09:26:20 GMT",
+        "body_complete": true,
+        "sample_bytes": 448254,
+        "content_signature": "pdf",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": null,
+        "identity_basis": "PDF signature only",
+        "technical_state": "available",
+        "sha256": "5837bb36c407bcf1247a359630e0471304887754eee8d4f889aa18271d0840aa",
         "variation": "same",
         "comparison_scope": "complete_bytes"
       },
@@ -9911,7 +10031,7 @@
             "identity_candidate": null,
             "body_complete": true,
             "checked_at": "2026-10-22T10:36:36.951036+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           },
           {
@@ -9921,7 +10041,7 @@
             "detected_signature": "html",
             "identity_candidate": "Landesregierung | Autonome Provinz Bozen - Südtirol",
             "body_complete": true,
-            "checked_at": "2026-10-22T10:36:36.951036+00:00",
+            "checked_at": "2026-10-29T11:44:01.605222+00:00",
             "stale": false,
             "technical_state": "available"
           },
@@ -9932,7 +10052,7 @@
             "detected_signature": "html",
             "identity_candidate": "Pericoli naturali | Provincia autonoma di Bolzano - Alto Adige",
             "body_complete": true,
-            "checked_at": "2026-10-22T10:36:36.951036+00:00",
+            "checked_at": "2026-10-29T11:44:01.605222+00:00",
             "stale": false,
             "technical_state": "available"
           }
@@ -9980,7 +10100,7 @@
             "identity_candidate": null,
             "body_complete": true,
             "checked_at": "2026-10-22T10:36:36.951036+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           },
           {
@@ -9990,7 +10110,7 @@
             "detected_signature": "html",
             "identity_candidate": "Landesregierung | Autonome Provinz Bozen - Südtirol",
             "body_complete": true,
-            "checked_at": "2026-10-22T10:36:36.951036+00:00",
+            "checked_at": "2026-10-29T11:44:01.605222+00:00",
             "stale": false,
             "technical_state": "available"
           },
@@ -10001,7 +10121,7 @@
             "detected_signature": "html",
             "identity_candidate": "Pericoli naturali | Provincia autonoma di Bolzano - Alto Adige",
             "body_complete": true,
-            "checked_at": "2026-10-22T10:36:36.951036+00:00",
+            "checked_at": "2026-10-29T11:44:01.605222+00:00",
             "stale": false,
             "technical_state": "available"
           }
@@ -10049,7 +10169,7 @@
             "identity_candidate": null,
             "body_complete": true,
             "checked_at": "2026-10-22T10:36:36.951036+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           },
           {
@@ -10059,7 +10179,7 @@
             "detected_signature": "html",
             "identity_candidate": "Landesregierung | Autonome Provinz Bozen - Südtirol",
             "body_complete": true,
-            "checked_at": "2026-10-22T10:36:36.951036+00:00",
+            "checked_at": "2026-10-29T11:44:01.605222+00:00",
             "stale": false,
             "technical_state": "available"
           },
@@ -10070,7 +10190,7 @@
             "detected_signature": "html",
             "identity_candidate": "Pericoli naturali | Provincia autonoma di Bolzano - Alto Adige",
             "body_complete": true,
-            "checked_at": "2026-10-22T10:36:36.951036+00:00",
+            "checked_at": "2026-10-29T11:44:01.605222+00:00",
             "stale": false,
             "technical_state": "available"
           }
@@ -10107,7 +10227,7 @@
             "identity_candidate": null,
             "body_complete": false,
             "checked_at": "2026-10-26T11:30:46.510805+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "blocked"
           },
           {
@@ -10128,7 +10248,7 @@
             "detected_signature": "html",
             "identity_candidate": "Landesregierung | Autonome Provinz Bozen - Südtirol",
             "body_complete": true,
-            "checked_at": "2026-10-22T10:36:36.951036+00:00",
+            "checked_at": "2026-10-29T11:44:01.605222+00:00",
             "stale": false,
             "technical_state": "available"
           },
@@ -10139,7 +10259,7 @@
             "detected_signature": "html",
             "identity_candidate": "Pericoli naturali | Provincia autonoma di Bolzano - Alto Adige",
             "body_complete": true,
-            "checked_at": "2026-10-22T10:36:36.951036+00:00",
+            "checked_at": "2026-10-29T11:44:01.605222+00:00",
             "stale": false,
             "technical_state": "available"
           }
@@ -10176,7 +10296,7 @@
             "identity_candidate": null,
             "body_complete": false,
             "checked_at": "2026-10-26T11:30:46.510805+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "blocked"
           },
           {
@@ -10197,7 +10317,7 @@
             "detected_signature": "html",
             "identity_candidate": "Landesregierung | Autonome Provinz Bozen - Südtirol",
             "body_complete": true,
-            "checked_at": "2026-10-22T10:36:36.951036+00:00",
+            "checked_at": "2026-10-29T11:44:01.605222+00:00",
             "stale": false,
             "technical_state": "available"
           },
@@ -10208,7 +10328,7 @@
             "detected_signature": "html",
             "identity_candidate": "Pericoli naturali | Provincia autonoma di Bolzano - Alto Adige",
             "body_complete": true,
-            "checked_at": "2026-10-22T10:36:36.951036+00:00",
+            "checked_at": "2026-10-29T11:44:01.605222+00:00",
             "stale": false,
             "technical_state": "available"
           }
@@ -10246,7 +10366,7 @@
             "identity_candidate": null,
             "body_complete": false,
             "checked_at": "2026-10-26T11:30:46.510805+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "blocked"
           },
           {
@@ -10267,7 +10387,7 @@
             "detected_signature": "html",
             "identity_candidate": "Landesregierung | Autonome Provinz Bozen - Südtirol",
             "body_complete": true,
-            "checked_at": "2026-10-22T10:36:36.951036+00:00",
+            "checked_at": "2026-10-29T11:44:01.605222+00:00",
             "stale": false,
             "technical_state": "available"
           },
@@ -10278,7 +10398,7 @@
             "detected_signature": "html",
             "identity_candidate": "Pericoli naturali | Provincia autonoma di Bolzano - Alto Adige",
             "body_complete": true,
-            "checked_at": "2026-10-22T10:36:36.951036+00:00",
+            "checked_at": "2026-10-29T11:44:01.605222+00:00",
             "stale": false,
             "technical_state": "available"
           }
@@ -10309,14 +10429,14 @@
         "documents": [
           {
             "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/EG2E4ptZZnKQGIZaBUV5Qg%3D%3D/document?tstmp=1790750000000",
-            "available": true,
+            "available": false,
             "expected_pdf": true,
-            "detected_signature": "pdf",
+            "detected_signature": null,
             "identity_candidate": null,
-            "body_complete": true,
-            "checked_at": "2026-10-09T13:46:05.686798+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "body_complete": false,
+            "checked_at": "2026-10-29T11:44:01.605222+00:00",
+            "stale": false,
+            "technical_state": "blocked"
           },
           {
             "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/39/BO/BO392601200026.pdf",
@@ -10325,9 +10445,9 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": true,
-            "checked_at": "2026-10-09T13:46:05.687795+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-10-29T11:44:01.605222+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://giunta-provinciale.provincia.bz.it/it/delibere",
@@ -10336,7 +10456,7 @@
             "detected_signature": "html",
             "identity_candidate": "Landesregierung | Autonome Provinz Bozen - Südtirol",
             "body_complete": true,
-            "checked_at": "2026-10-22T10:36:36.951036+00:00",
+            "checked_at": "2026-10-29T11:44:01.605222+00:00",
             "stale": false,
             "technical_state": "available"
           },
@@ -10347,7 +10467,7 @@
             "detected_signature": "html",
             "identity_candidate": "Pericoli naturali | Provincia autonoma di Bolzano - Alto Adige",
             "body_complete": true,
-            "checked_at": "2026-10-22T10:36:36.951036+00:00",
+            "checked_at": "2026-10-29T11:44:01.605222+00:00",
             "stale": false,
             "technical_state": "available"
           }
@@ -10378,14 +10498,14 @@
         "documents": [
           {
             "url": "https://api.integrations.services.siag.it/delibere/v1/delibere/QDiyUDJvk7Ajnb95m6fsng%3D%3D/document?tstmp=1790750000000",
-            "available": true,
+            "available": false,
             "expected_pdf": true,
-            "detected_signature": "pdf",
+            "detected_signature": null,
             "identity_candidate": null,
-            "body_complete": true,
-            "checked_at": "2026-10-09T13:46:05.293617+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "body_complete": false,
+            "checked_at": "2026-10-29T11:44:01.605222+00:00",
+            "stale": false,
+            "technical_state": "blocked"
           },
           {
             "url": "https://bollettino.regione.taa.it/pdf/I-II/2026/40/BO/BO402601200071.pdf",
@@ -10394,9 +10514,9 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": true,
-            "checked_at": "2026-10-09T13:46:05.334129+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-10-29T11:44:01.605222+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://giunta-provinciale.provincia.bz.it/it/delibere",
@@ -10405,7 +10525,7 @@
             "detected_signature": "html",
             "identity_candidate": "Landesregierung | Autonome Provinz Bozen - Südtirol",
             "body_complete": true,
-            "checked_at": "2026-10-22T10:36:36.951036+00:00",
+            "checked_at": "2026-10-29T11:44:01.605222+00:00",
             "stale": false,
             "technical_state": "available"
           },
@@ -10416,7 +10536,7 @@
             "detected_signature": "html",
             "identity_candidate": "Pericoli naturali | Provincia autonoma di Bolzano - Alto Adige",
             "body_complete": true,
-            "checked_at": "2026-10-22T10:36:36.951036+00:00",
+            "checked_at": "2026-10-29T11:44:01.605222+00:00",
             "stale": false,
             "technical_state": "available"
           }
@@ -10447,12 +10567,12 @@
             "url": "https://lexbrowser.provinz.bz.it/doc/it/217759/decreto_del_presidente_della_provincia_10_ottobre_2019_n_23.aspx",
             "available": false,
             "expected_pdf": false,
-            "detected_signature": "html",
+            "detected_signature": null,
             "identity_candidate": null,
-            "body_complete": true,
-            "checked_at": "2026-10-09T13:45:42.099018+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "body_complete": false,
+            "checked_at": "2026-10-29T11:44:01.605222+00:00",
+            "stale": false,
+            "technical_state": "needs_attention"
           },
           {
             "url": "https://www.gazzettaufficiale.it/eli/gu/2020/01/11/2/s3/pdf#page=20",
@@ -10461,9 +10581,9 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": false,
-            "checked_at": "2026-10-09T13:45:42.149823+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-10-29T11:44:01.605222+00:00",
+            "stale": false,
+            "technical_state": "partial_pdf"
           },
           {
             "url": "https://www.gazzettaufficiale.it/eli/gu/2020/01/11/2/s3/pdf#page=22",
@@ -10472,9 +10592,9 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": false,
-            "checked_at": "2026-10-09T13:45:42.203185+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-10-29T11:44:01.605222+00:00",
+            "stale": false,
+            "technical_state": "partial_pdf"
           }
         ]
       },

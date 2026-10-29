@@ -16837,14 +16837,30 @@
         "finished_at": "2026-10-29T10:05:43+01:00",
         "outcome": "parziale",
         "publication": {
-          "outcome": "in_attesa",
+          "outcome": "pubblicato",
           "last_valid_result": "published_github_pages",
           "publication_history": [
             {
               "outcome": "in_attesa",
               "note": "La ricevuta di questa esecuzione sarà aggiornata soltanto dopo il successo della validazione, del deployment Pages e del riscontro del run nel sito pubblico."
             }
-          ]
+          ],
+          "commit_sha": "a249614a5dc4f9b65685645ef220534c3e1b17ec",
+          "commit_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/commit/a249614a5dc4f9b65685645ef220534c3e1b17ec",
+          "verified_at": "2026-10-29T10:13:38+01:00",
+          "site_url": "https://domenicoderosa26-web.github.io/atlante-idraulico/",
+          "deployment_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/40847186187",
+          "verification": {
+            "outcome": "success",
+            "deployed_head_sha": "a249614a5dc4f9b65685645ef220534c3e1b17ec",
+            "data": {
+              "updatedAt": "2026-10-29",
+              "records": 131,
+              "run_id": "local-territorial-20261029-095611",
+              "outcome": "parziale"
+            },
+            "site_loading": "Edizione 29/10/2026 caricata con 131 schede (52 atti e riferimenti tecnici, 79 piani, raccolte e procedure) e 14 argomenti canonici ordinati A–Z. Il run è presente nel data.json pubblico con pubblicazione inizialmente in attesa; il contenuto pubblico coincide integralmente con il commit atteso."
+          }
         }
       }
     },

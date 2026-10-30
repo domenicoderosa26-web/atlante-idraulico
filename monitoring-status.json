@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-29T20:20:54Z",
+  "checked_at": "2026-10-30T09:12:59Z",
   "national": {
-    "state": "completato",
+    "state": "in_attesa",
     "last_completed_at": "2026-10-29T14:07:04+01:00",
-    "expected_date": "2026-10-29",
+    "expected_date": "2026-10-30",
     "deadline_local": "16:00 Europe/Rome",
     "checkpoint_end": "2026-10-29T13:07:04Z",
     "checkpoint_consistent": true,
@@ -72,10 +72,13 @@
   },
   "territorial": {
     "state": "parziale",
-    "date": "2026-10-29",
+    "date": "2026-10-30",
     "evidence": "data.json:runs[0]",
-    "summary": "Nessuna nuova scheda o modifica normativa pubblicabile nel perimetro effettivamente letto. La raccolta AUBAC espone otto candidati di aggiornamento definitivo ancora privi di numero di decreto, link all’atto e riferimenti reali ai bollettini; non sono stati trasformati in schede. La D.G.P. Bolzano 878/2026 resta assente dal Bollettino n. 44 del 29 ottobre 2026. Sardegna ha restituito 502 Bad Gateway e non è considerata controllata.",
+    "summary": "Censite tre modifiche definitive PAI-frane dell’Appennino Meridionale, tutte disposte il 5 gennaio 2026: Anagni e Arnara risultano efficaci dal 13 febbraio 2026 dopo la pubblicazione nel BUR Lazio n. 13; la modifica interregionale per quattro Comuni molisani e Vallerotonda resta con efficacia incerta finché non sarà acquisito il BUR Molise richiamato da un registro ufficiale con anno incoerente. Non risultano ulteriori atti pubblicabili nel solo perimetro letto. L’elenco Sardegna ha restituito zero risultati in contrasto con la propria funzione storica e non consente conclusioni.",
     "sources_checked": [
+      "merid-pai-frane-anagni-1-2026",
+      "merid-pai-frane-interregionale-2-2026",
+      "merid-pai-frane-arnara-8-2026",
       "bz-brennero-pzp-878-2026",
       "bz23",
       "dist-centr",
@@ -85,63 +88,47 @@
       "dist-sici"
     ],
     "source_urls": [
-      "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=20&page=1&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
-      "https://bollettino.regione.taa.it/it/default.aspx",
+      "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=30&page=1&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
       "https://bollettino.regione.taa.it/it/parte123.aspx?&numeroid=16932&anno=2026&top=1",
       "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/approvazione-varianti-pai/",
       "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
-      "https://www.adbpo.it/",
       "https://pai.adbpo.it/varianti-in-corso-2/",
       "https://www.appenninosettentrionale.it/itc/",
       "https://www.distrettoappenninomeridionale.it/notizie/",
+      "https://www.distrettoappenninomeridionale.it/piano-assetto-idrogeologico/approvazione-modifiche-al-pai/anno-2026/regione-lazio",
+      "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2026/02/Approvazione/RegioneLazio/DS%201.pdf",
+      "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2026/02/Approvazione/RegioneLazio/DS%202.pdf",
+      "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2026/02/Approvazione/RegioneLazio/DS%208.pdf",
+      "https://www.distrettoappenninomeridionale.it/modifiche-e-varianti-al-piano-assetto-idrogeologico/registro-pubblicazioni-ds-2026-Lazio/",
+      "https://www.distrettoappenninomeridionale.it/modifiche-e-varianti-al-piano-assetto-idrogeologico/registro-pubblicazioni-ds-2026-molise/",
       "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa"
     ],
     "territories": [
       "Provincia autonoma di Bolzano: intera seduta del 23 ottobre 2026 e sommario del Bollettino Ufficiale n. 44 del 29 ottobre 2026",
-      "Appennino Centrale: raccolta ufficiale dei decreti segretariali di pianificazione 2026, inclusi i candidati incompleti successivi alla Conferenza operativa del 24 settembre",
-      "Distretto del Po: homepage e pagina delle varianti PAI in corso",
-      "Appennino Settentrionale: homepage e contenuti recenti fino al 28 ottobre 2026",
-      "Appennino Meridionale: elenco delle notizie e accessi agli strumenti di piano",
+      "Appennino Centrale: raccolta ufficiale dei decreti segretariali di pianificazione 2026",
+      "Distretto del Po: pagina delle varianti PAI in corso",
+      "Appennino Settentrionale: homepage e contenuti recenti fino al 30 ottobre 2026",
+      "Appennino Meridionale: notizie, raccolta delle modifiche PAI 2026, decreti 1, 2 e 8 e registri di pubblicazione Lazio e Molise",
       "Sicilia: pagina ufficiale della normativa PAI"
     ],
     "errors": [
-      "Sardegna: l’elenco ufficiale delle varianti PAI ha restituito 502 Bad Gateway; la fonte non è considerata controllata e non se ne deduce l’assenza di nuovi atti né lo stato di Villanovafranca.",
-      "AUBAC: otto candidati di aggiornamento definitivo sono privi di numero di decreto, link all’atto e riferimento reale ai bollettini; non è possibile verificarne identità, data, dispositivo o stato giuridico e non sono pubblicati come schede."
+      "Sardegna: la pagina ufficiale visualizza zero risultati, dato incoerente con la propria raccolta storica; la fonte non è considerata verificata e non se ne deduce l’assenza di nuovi atti né lo stato di Villanovafranca.",
+      "D.S. Appennino Meridionale 2/2026: il registro Molise riporta un anno incoerente e non è stato acquisito direttamente il BUR Molise; la data di efficacia interregionale non è dichiarata.",
+      "AUBAC: otto voci di aggiornamento definitivo restano segnaposto D.S. 000/2026 senza atto diretto o riferimenti reali ai bollettini e non sono pubblicate come schede."
     ],
     "publication": {
-      "outcome": "pubblicato",
+      "outcome": "in_attesa",
       "last_valid_result": "published_github_pages",
       "publication_history": [
         {
           "outcome": "in_attesa",
           "note": "La ricevuta di questa esecuzione sarà aggiornata soltanto dopo il successo della validazione, del deployment Pages e del riscontro del run nel sito pubblico."
         }
-      ],
-      "commit_sha": "a249614a5dc4f9b65685645ef220534c3e1b17ec",
-      "commit_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/commit/a249614a5dc4f9b65685645ef220534c3e1b17ec",
-      "verified_at": "2026-10-29T10:13:38+01:00",
-      "site_url": "https://domenicoderosa26-web.github.io/atlante-idraulico/",
-      "deployment_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/40847186187",
-      "verification": {
-        "outcome": "success",
-        "deployed_head_sha": "a249614a5dc4f9b65685645ef220534c3e1b17ec",
-        "data": {
-          "updatedAt": "2026-10-29",
-          "records": 131,
-          "run_id": "local-territorial-20261029-095611",
-          "outcome": "parziale"
-        },
-        "site_loading": "Edizione 29/10/2026 caricata con 131 schede (52 atti e riferimenti tecnici, 79 piani, raccolte e procedure) e 14 argomenti canonici ordinati A–Z. Il run è presente nel data.json pubblico con pubblicazione inizialmente in attesa; il contenuto pubblico coincide integralmente con il commit atteso."
-      }
+      ]
     },
     "external_execution_verified": false,
     "legacy_completion_marker": "2026-09-25",
-    "repeated_unavailability": [
-      {
-        "error": "Sardegna: l’elenco ufficiale delle varianti PAI ha restituito 502 Bad Gateway; la fonte non è considerata controllata e non se ne deduce l’assenza di nuovi atti né lo stato di Villanovafranca.",
-        "runs": 2
-      }
-    ]
+    "repeated_unavailability": []
   },
   "anomalies": [
     {
@@ -149,19 +136,7 @@
       "severity": "warning",
       "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
       "evidence": "data.json:runs[0]",
-      "event_id": "31117c67e89835f252a86de5"
-    },
-    {
-      "code": "TERRITORIAL_REPEATED_UNAVAILABILITY",
-      "severity": "warning",
-      "message": "La stessa indisponibilità è documentata in più ricognizioni recenti.",
-      "evidence": [
-        {
-          "error": "Sardegna: l’elenco ufficiale delle varianti PAI ha restituito 502 Bad Gateway; la fonte non è considerata controllata e non se ne deduce l’assenza di nuovi atti né lo stato di Villanovafranca.",
-          "runs": 2
-        }
-      ],
-      "event_id": "cbfafc65388bd7e21e8d6cd6"
+      "event_id": "17de07eba7b91e9a5383b886"
     }
   ],
   "events": [
@@ -574,8 +549,16 @@
       ],
       "event_id": "cbfafc65388bd7e21e8d6cd6",
       "recorded_at": "2026-10-29T09:08:12Z"
+    },
+    {
+      "code": "TERRITORIAL_PARZIALE",
+      "severity": "warning",
+      "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
+      "evidence": "data.json:runs[0]",
+      "event_id": "17de07eba7b91e9a5383b886",
+      "recorded_at": "2026-10-30T09:12:59Z"
     }
   ],
   "has_errors": false,
-  "repository_sha": "36bc9c1fc4d71655c92f6f46c74626f4c6b37bdb"
+  "repository_sha": "70e4c5349ca8b0dc82de6211f3d6a91484afaea3"
 }

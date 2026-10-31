@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30",
+  "updatedAt": "2026-10-31",
   "scope": "Catalogo selettivo con controllo mirato dei CAM e della disciplina delle acque di prima pioggia per tutte le regioni. La verifica locale e autorizzativa resta necessaria.",
   "automation": {
     "enabled": true,
@@ -16483,6 +16483,264 @@
           "note": "Il dispositivo ufficiale riguarda sostanzialmente pericolosità e rischio da frana o dissesto di versante nell’ambito del PAI; non documenta una componente idraulica autonoma."
         }
       ]
+    },
+    {
+      "id": "sic-pai-gela-856-2026",
+      "ref": "D.S.G. Sicilia 856/2026",
+      "title": "Aggiornamento PAI idraulico · Gela, bacino 076",
+      "level": "Distrettuale",
+      "regions": [
+        "Sicilia"
+      ],
+      "topics": [
+        "PAI - Pericolosità e rischio idraulico"
+      ],
+      "date": "2026-09-29",
+      "url": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/decreti-e-direttive/approvazione-aggiornamento-piano-stralcio-bacino-l-assetto-idrogeologico-pai-aspetti-idraulici-area-territoriale-bacini-idrografici-torrente",
+      "documents": [
+        {
+          "url": "https://www.regione.sicilia.it/system/files/2026-10/DSG.n.856_Gela_idro_def%28firmato%29.pdf",
+          "label": "D.S.G. 856/2026 · PDF ufficiale",
+          "group": "Atto",
+          "link_status": "checked",
+          "link_checked": "2026-10-31",
+          "format": "pdf"
+        },
+        {
+          "url": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/decreti-e-direttive/approvazione-aggiornamento-piano-stralcio-bacino-l-assetto-idrogeologico-pai-aspetti-idraulici-area-territoriale-bacini-idrografici-torrente",
+          "label": "D.S.G. 856/2026 · pagina ufficiale",
+          "group": "Atto",
+          "link_status": "checked",
+          "link_checked": "2026-10-31"
+        },
+        {
+          "url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-anno-2026",
+          "label": "Raccolta ufficiale PAI 2026",
+          "group": "Raccolta",
+          "link_status": "checked",
+          "link_checked": "2026-10-31"
+        }
+      ],
+      "summary": "Approvazione dell’aggiornamento PAI per gli aspetti idraulici dell’area tra il Torrente Comunelli e il Fiume Gela, bacino 076, con sostituzione delle tavole di pericolosità e rischio da esondazione della sezione CTR 643110.",
+      "focus": [
+        "Consultare le nuove tavole di pericolosità e rischio idraulico CTR 643110",
+        "Verificare la pubblicazione per estratto nella G.U.R.S. prima di fissare la decorrenza",
+        "Controllare gli allegati cartografici ufficiali per il punto di intervento"
+      ],
+      "kind": "Variante PAI",
+      "status": "Approvato il 29 settembre 2026; efficacia da verificare",
+      "source_kind": "Autorità di bacino distrettuale",
+      "note": "Il dispositivo approva l’aggiornamento e prevede la pubblicazione per estratto nella G.U.R.S.; in questa esecuzione non è stato acquisito il fascicolo della Gazzetta e non si dichiara una data di efficacia.",
+      "checked": "2026-10-31",
+      "relations": [
+        {
+          "type": "Quadro distrettuale",
+          "id": "dist-sici"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-31",
+          "text": "Scheda creata dopo lettura integrale del D.S.G. 856/2026 e della pagina ufficiale; approvazione e tavole sostituite verificate, decorrenza mantenuta incerta in assenza del riscontro G.U.R.S."
+        }
+      ],
+      "document_url": "https://www.regione.sicilia.it/system/files/2026-10/DSG.n.856_Gela_idro_def%28firmato%29.pdf",
+      "document_label": "D.S.G. 856/2026 · PDF ufficiale",
+      "document_note": "Letti integralmente intestazione, premesse e dispositivo del decreto; non sono stati letti integralmente gli allegati cartografici né acquisita la pubblicazione per estratto nella G.U.R.S.",
+      "documentary_review": {
+        "checked_at": "2026-10-31",
+        "scope": "Identità, oggetto, approvazione, territorio e tavole sostituite del singolo aggiornamento; non gli allegati cartografici completi, la pubblicazione in G.U.R.S. o eventuali atti successivi.",
+        "outcome": "partial",
+        "legal_state": "uncertain_effectiveness",
+        "source_urls": [
+          "https://www.regione.sicilia.it/system/files/2026-10/DSG.n.856_Gela_idro_def%28firmato%29.pdf",
+          "https://www.regione.sicilia.it/istituzioni/servizi-informativi/decreti-e-direttive/approvazione-aggiornamento-piano-stralcio-bacino-l-assetto-idrogeologico-pai-aspetti-idraulici-area-territoriale-bacini-idrografici-torrente",
+          "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-anno-2026"
+        ],
+        "claims": [
+          {
+            "aspect": "identity",
+            "source_url": "https://www.regione.sicilia.it/system/files/2026-10/DSG.n.856_Gela_idro_def%28firmato%29.pdf",
+            "locator": "Intestazione e data in calce",
+            "finding": "Decreto del Segretario Generale dell’Autorità di Bacino del Distretto Idrografico della Sicilia n. 856/2026, datato 29 settembre 2026."
+          },
+          {
+            "aspect": "approval",
+            "source_url": "https://www.regione.sicilia.it/system/files/2026-10/DSG.n.856_Gela_idro_def%28firmato%29.pdf",
+            "locator": "Dispositivo, art. 1",
+            "finding": "È approvato l’aggiornamento PAI per gli aspetti idraulici dell’area tra il Torrente Comunelli e il Fiume Gela (076), nel Comune di Gela."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.regione.sicilia.it/system/files/2026-10/DSG.n.856_Gela_idro_def%28firmato%29.pdf",
+            "locator": "Dispositivo, art. 1, elenco 2.b–2.c",
+            "finding": "Le carte di pericolosità e rischio idraulico da esondazione della sezione CTR 643110 sostituiscono le corrispondenti tavole del PAI già approvato con D.P.R. 121/2007."
+          },
+          {
+            "aspect": "effectiveness",
+            "source_url": "https://www.regione.sicilia.it/system/files/2026-10/DSG.n.856_Gela_idro_def%28firmato%29.pdf",
+            "locator": "Dispositivo, art. 3",
+            "finding": "Il decreto dispone la futura pubblicazione per estratto nella G.U.R.S. e sul sito regionale; il testo letto non attesta gli estremi dell’avvenuta pubblicazione in G.U.R.S."
+          },
+          {
+            "aspect": "version",
+            "source_url": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/decreti-e-direttive/approvazione-aggiornamento-piano-stralcio-bacino-l-assetto-idrogeologico-pai-aspetti-idraulici-area-territoriale-bacini-idrografici-torrente",
+            "locator": "Metadati dell’atto",
+            "finding": "La pagina istituzionale indica emissione 29 settembre 2026, pubblicazione web 5 ottobre 2026 e collega decreto e allegato ufficiali."
+          },
+          {
+            "aspect": "topics",
+            "source_url": "https://www.regione.sicilia.it/system/files/2026-10/DSG.n.856_Gela_idro_def%28firmato%29.pdf",
+            "locator": "Oggetto e dispositivo, art. 1",
+            "finding": "L’atto riguarda esclusivamente gli aspetti idraulici del PAI e le tavole di pericolosità e rischio da esondazione."
+          }
+        ],
+        "limitations": [
+          "Non è stato acquisito il fascicolo G.U.R.S. richiamato dall’art. 3; la data di efficacia non è certificata.",
+          "Gli allegati cartografici non sono stati letti integralmente e non è stata verificata l’assenza di atti successivi."
+        ],
+        "pending": [
+          "Acquisire la pubblicazione per estratto nella G.U.R.S. e determinare la decorrenza.",
+          "Esaminare gli allegati cartografici e gli eventuali provvedimenti successivi."
+        ],
+        "record_version": "ec5bca63be0ab78c648ffb7116b8cd415fa07289f315775523fd49b9677c3335"
+      },
+      "topic_evidence": [
+        {
+          "category": "pai-idraulico",
+          "source": "https://www.regione.sicilia.it/system/files/2026-10/DSG.n.856_Gela_idro_def%28firmato%29.pdf",
+          "note": "Oggetto e art. 1 del decreto riguardano sostanzialmente gli aspetti idraulici del PAI e sostituiscono tavole di pericolosità e rischio da esondazione; non è documentata una componente geomorfologica autonoma."
+        }
+      ]
+    },
+    {
+      "id": "sic-pai-cefalu-857-2026",
+      "ref": "D.S.G. Sicilia 857/2026",
+      "title": "Aggiornamento PAI geomorfologico · Cefalù, dissesti 027-6CX",
+      "level": "Distrettuale",
+      "regions": [
+        "Sicilia"
+      ],
+      "topics": [
+        "PAI - Pericolosità e rischio geomorfologico"
+      ],
+      "date": "2026-09-29",
+      "url": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/decreti-e-direttive/approvazione-aggiornamento-pai-aspetti-geomorfologici-comune-cefalu-pa-ricadente-nei-bacini-idrografici-026-027-028-modifiche-dissesti-027-6cx-198",
+      "documents": [
+        {
+          "url": "https://www.regione.sicilia.it/system/files/2026-10/D.S.G.%20n.%20857%20del%2029.09.2026_Cefal%C3%B9%28firmato%29.pdf",
+          "label": "D.S.G. 857/2026 · PDF ufficiale",
+          "group": "Atto",
+          "link_status": "checked",
+          "link_checked": "2026-10-31",
+          "format": "pdf"
+        },
+        {
+          "url": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/decreti-e-direttive/approvazione-aggiornamento-pai-aspetti-geomorfologici-comune-cefalu-pa-ricadente-nei-bacini-idrografici-026-027-028-modifiche-dissesti-027-6cx-198",
+          "label": "D.S.G. 857/2026 · pagina ufficiale",
+          "group": "Atto",
+          "link_status": "checked",
+          "link_checked": "2026-10-31"
+        },
+        {
+          "url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-anno-2026",
+          "label": "Raccolta ufficiale PAI 2026",
+          "group": "Raccolta",
+          "link_status": "checked",
+          "link_checked": "2026-10-31"
+        }
+      ],
+      "summary": "Approvazione dell’aggiornamento PAI geomorfologico di Cefalù nei bacini 026, 027 e 028 per i dissesti 027-6CX-198, 027-6CX-200 e 027-6CX-201, con sostituzione delle tavole dissesti, pericolosità e rischio della sezione CTR 597130.",
+      "focus": [
+        "Consultare le nuove tavole geomorfologiche CTR 597130",
+        "Verificare la pubblicazione per estratto nella G.U.R.S. prima di fissare la decorrenza",
+        "Controllare gli allegati cartografici per i tre dissesti interessati"
+      ],
+      "kind": "Variante PAI",
+      "status": "Approvato il 29 settembre 2026; efficacia da verificare",
+      "source_kind": "Autorità di bacino distrettuale",
+      "note": "Il dispositivo approva l’aggiornamento e prevede la pubblicazione per estratto nella G.U.R.S.; in questa esecuzione non è stato acquisito il fascicolo della Gazzetta e non si dichiara una data di efficacia.",
+      "checked": "2026-10-31",
+      "relations": [
+        {
+          "type": "Quadro distrettuale",
+          "id": "dist-sici"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-31",
+          "text": "Scheda creata dopo lettura integrale del D.S.G. 857/2026 e della pagina ufficiale; approvazione, dissesti e tavole sostituite verificati, decorrenza mantenuta incerta in assenza del riscontro G.U.R.S."
+        }
+      ],
+      "document_url": "https://www.regione.sicilia.it/system/files/2026-10/D.S.G.%20n.%20857%20del%2029.09.2026_Cefal%C3%B9%28firmato%29.pdf",
+      "document_label": "D.S.G. 857/2026 · PDF ufficiale",
+      "document_note": "Letti integralmente intestazione, premesse e dispositivo del decreto; non sono stati letti integralmente gli allegati cartografici né acquisita la pubblicazione per estratto nella G.U.R.S.",
+      "documentary_review": {
+        "checked_at": "2026-10-31",
+        "scope": "Identità, oggetto, approvazione, territorio, dissesti e tavole sostituite del singolo aggiornamento; non gli allegati cartografici completi, la pubblicazione in G.U.R.S. o eventuali atti successivi.",
+        "outcome": "partial",
+        "legal_state": "uncertain_effectiveness",
+        "source_urls": [
+          "https://www.regione.sicilia.it/system/files/2026-10/D.S.G.%20n.%20857%20del%2029.09.2026_Cefal%C3%B9%28firmato%29.pdf",
+          "https://www.regione.sicilia.it/istituzioni/servizi-informativi/decreti-e-direttive/approvazione-aggiornamento-pai-aspetti-geomorfologici-comune-cefalu-pa-ricadente-nei-bacini-idrografici-026-027-028-modifiche-dissesti-027-6cx-198",
+          "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-anno-2026"
+        ],
+        "claims": [
+          {
+            "aspect": "identity",
+            "source_url": "https://www.regione.sicilia.it/system/files/2026-10/D.S.G.%20n.%20857%20del%2029.09.2026_Cefal%C3%B9%28firmato%29.pdf",
+            "locator": "Intestazione e data in calce",
+            "finding": "Decreto del Segretario Generale dell’Autorità di Bacino del Distretto Idrografico della Sicilia n. 857/2026, datato 29 settembre 2026."
+          },
+          {
+            "aspect": "approval",
+            "source_url": "https://www.regione.sicilia.it/system/files/2026-10/D.S.G.%20n.%20857%20del%2029.09.2026_Cefal%C3%B9%28firmato%29.pdf",
+            "locator": "Dispositivo, art. 1",
+            "finding": "È approvato l’aggiornamento PAI per gli aspetti geomorfologici di Cefalù nei bacini 026, 027 e 028, relativo ai dissesti 027-6CX-198, 027-6CX-200 e 027-6CX-201."
+          },
+          {
+            "aspect": "content",
+            "source_url": "https://www.regione.sicilia.it/system/files/2026-10/D.S.G.%20n.%20857%20del%2029.09.2026_Cefal%C3%B9%28firmato%29.pdf",
+            "locator": "Dispositivo, art. 1, elenco 2.a–2.c",
+            "finding": "Le carte dei dissesti, della pericolosità e del rischio della sezione CTR 597130 sostituiscono le corrispondenti tavole del PAI già approvato con D.S.G. 496/2023."
+          },
+          {
+            "aspect": "effectiveness",
+            "source_url": "https://www.regione.sicilia.it/system/files/2026-10/D.S.G.%20n.%20857%20del%2029.09.2026_Cefal%C3%B9%28firmato%29.pdf",
+            "locator": "Dispositivo, art. 3",
+            "finding": "Il decreto dispone la futura pubblicazione per estratto nella G.U.R.S. e sul sito regionale; il testo letto non attesta gli estremi dell’avvenuta pubblicazione in G.U.R.S."
+          },
+          {
+            "aspect": "version",
+            "source_url": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/decreti-e-direttive/approvazione-aggiornamento-pai-aspetti-geomorfologici-comune-cefalu-pa-ricadente-nei-bacini-idrografici-026-027-028-modifiche-dissesti-027-6cx-198",
+            "locator": "Metadati dell’atto",
+            "finding": "La pagina istituzionale indica emissione 29 settembre 2026, pubblicazione web 5 ottobre 2026 e collega decreto e allegato ufficiali."
+          },
+          {
+            "aspect": "topics",
+            "source_url": "https://www.regione.sicilia.it/system/files/2026-10/D.S.G.%20n.%20857%20del%2029.09.2026_Cefal%C3%B9%28firmato%29.pdf",
+            "locator": "Oggetto e dispositivo, art. 1",
+            "finding": "L’atto qualifica espressamente l’aggiornamento come geomorfologico e identifica tre dissesti; non documenta una componente idraulica autonoma."
+          }
+        ],
+        "limitations": [
+          "Non è stato acquisito il fascicolo G.U.R.S. richiamato dall’art. 3; la data di efficacia non è certificata.",
+          "Gli allegati cartografici non sono stati letti integralmente e non è stata verificata l’assenza di atti successivi."
+        ],
+        "pending": [
+          "Acquisire la pubblicazione per estratto nella G.U.R.S. e determinare la decorrenza.",
+          "Esaminare gli allegati cartografici e gli eventuali provvedimenti successivi."
+        ],
+        "record_version": "d4014c1ca99a1879ddfaacec682497b2318970b62ec2ad24053ad30f0fff9681"
+      },
+      "topic_evidence": [
+        {
+          "category": "pai-geomorfologico",
+          "source": "https://www.regione.sicilia.it/system/files/2026-10/D.S.G.%20n.%20857%20del%2029.09.2026_Cefal%C3%B9%28firmato%29.pdf",
+          "note": "Oggetto e art. 1 qualificano espressamente l’aggiornamento come geomorfologico e individuano tre dissesti; la tassonomia Sicilia distingue questa componente dal PAI-frane generico e non è documentata una componente idraulica autonoma."
+        }
+      ]
     }
   ],
   "regions": [
@@ -17101,6 +17359,119 @@
     }
   ],
   "runs": [
+    {
+      "date": "2026-10-31",
+      "type": "Controllo territoriale · ricognizione parziale",
+      "summary": "Censiti i D.S.G. Sicilia 856 e 857 del 29 settembre 2026: approvano rispettivamente l’aggiornamento PAI idraulico di Gela e quello geomorfologico di Cefalù, ma la decorrenza resta da verificare sulla G.U.R.S. La raccolta Sicilia 2026 espone complessivamente 18 aggiornamenti: i restanti 16 sono mantenuti come coda documentale e non pubblicati senza lettura dei singoli atti. Nelle altre fonti lette non è emerso un ulteriore atto pubblicabile; la raccolta Sardegna continua a restituire zero risultati e non consente conclusioni.",
+      "checked": [
+        "sic-pai-gela-856-2026",
+        "sic-pai-cefalu-857-2026",
+        "bz23",
+        "dist-centr",
+        "dist-po",
+        "dist-sett",
+        "dist-merid",
+        "dist-sard",
+        "dist-sici"
+      ],
+      "territories": [
+        "Provincia autonoma di Bolzano: intera seduta del 30 ottobre 2026, delibere 923–884",
+        "Appennino Centrale: raccolta ufficiale dei decreti segretariali di pianificazione 2026",
+        "Distretto del Po: pagina delle varianti PAI in corso",
+        "Appennino Settentrionale: servizio cartografico ufficiale della variante PGRA 2026",
+        "Appennino Meridionale: pagina modifiche e varianti PAI e percorso di partecipazione PGA–PGRA",
+        "Sardegna: raccolta ufficiale delle determinazioni di approvazione delle varianti puntuali PAI",
+        "Sicilia: raccolta PAI 2026 e D.S.G. 856 e 857 del 29 settembre 2026"
+      ],
+      "read_urls": [
+        "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=100&page=1&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
+        "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+        "https://pai.adbpo.it/varianti-in-corso-2/",
+        "https://geodataserver.appenninosettentrionale.it/arcgis/rest/services/Pericolosita_Alluvione/mappa_variante_pericolosita2026/MapServer/0",
+        "https://www.distrettoappenninomeridionale.it/modifiche-e-varianti-al-piano-assetto-idrogeologico/",
+        "https://www.distrettoappenninomeridionale.it/partecipazione-pubblica/",
+        "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/approvazione-varianti-pai/",
+        "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-anno-2026",
+        "https://www.regione.sicilia.it/istituzioni/servizi-informativi/decreti-e-direttive/approvazione-aggiornamento-piano-stralcio-bacino-l-assetto-idrogeologico-pai-aspetti-idraulici-area-territoriale-bacini-idrografici-torrente",
+        "https://www.regione.sicilia.it/system/files/2026-10/DSG.n.856_Gela_idro_def%28firmato%29.pdf",
+        "https://www.regione.sicilia.it/istituzioni/servizi-informativi/decreti-e-direttive/approvazione-aggiornamento-pai-aspetti-geomorfologici-comune-cefalu-pa-ricadente-nei-bacini-idrografici-026-027-028-modifiche-dissesti-027-6cx-198",
+        "https://www.regione.sicilia.it/system/files/2026-10/D.S.G.%20n.%20857%20del%2029.09.2026_Cefal%C3%B9%28firmato%29.pdf"
+      ],
+      "source_findings": [
+        {
+          "source_url": "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=100&page=1&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
+          "result": "L’API espone 40 delibere della seduta del 30 ottobre 2026, numeri 923–884; nessun oggetto riguarda PZP, PAI, PGRA o una modifica di zona di pericolo."
+        },
+        {
+          "source_url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+          "result": "La raccolta arriva al D.S. 198/2026, già censito, e continua a esporre otto candidati di aggiornamento definitivo come D.S. 000/2026 con riferimenti segnaposto ai bollettini; non sono trasformati in schede."
+        },
+        {
+          "source_url": "https://pai.adbpo.it/varianti-in-corso-2/",
+          "result": "La pagina continua a elencare CIP 13/2025, Enza 91/2025, Terdoppio 5/2026 e Mera 27/2026, già considerate nel catalogo."
+        },
+        {
+          "source_url": "https://geodataserver.appenninosettentrionale.it/arcgis/rest/services/Pericolosita_Alluvione/mappa_variante_pericolosita2026/MapServer/0",
+          "result": "Il servizio ufficiale descrive ancora il progetto di variante PGRA adottato con delibera CIP 62 del 28 aprile 2026 in fase di consultazione; non espone un nuovo provvedimento conclusivo."
+        },
+        {
+          "source_url": "https://www.distrettoappenninomeridionale.it/partecipazione-pubblica/",
+          "result": "La pagina espone gli eventi del terzo ciclo PGRA del 20 e 26 ottobre 2026 come partecipazione pubblica; non sono atti di adozione o approvazione."
+        },
+        {
+          "source_url": "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/approvazione-varianti-pai/",
+          "result": "La pagina risponde ma visualizza ‘Risultati trovati 0’ e ‘Nessuna delibera presente’, in contrasto con la funzione storica dichiarata; non consente di verificare l’assenza di nuovi atti."
+        },
+        {
+          "source_url": "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-anno-2026",
+          "result": "La raccolta ufficiale PAI 2026, aggiornata il 5 ottobre, elenca 18 aggiornamenti: cinque del 9 gennaio, cinque del 10 aprile, cinque del 7 luglio e tre del 29 settembre. Sono stati letti integralmente e censiti i D.S.G. 856 e 857; gli altri 16 restano in coda documentale."
+        },
+        {
+          "source_url": "https://www.regione.sicilia.it/system/files/2026-10/DSG.n.856_Gela_idro_def%28firmato%29.pdf",
+          "result": "Il D.S.G. 856/2026 approva l’aggiornamento PAI idraulico di Gela e sostituisce le tavole di pericolosità e rischio da esondazione CTR 643110; l’art. 3 dispone la pubblicazione per estratto in G.U.R.S., non acquisita in questa esecuzione."
+        },
+        {
+          "source_url": "https://www.regione.sicilia.it/system/files/2026-10/D.S.G.%20n.%20857%20del%2029.09.2026_Cefal%C3%B9%28firmato%29.pdf",
+          "result": "Il D.S.G. 857/2026 approva l’aggiornamento PAI geomorfologico di Cefalù per tre dissesti e sostituisce le tavole dissesti, pericolosità e rischio CTR 597130; l’art. 3 dispone la pubblicazione per estratto in G.U.R.S., non acquisita in questa esecuzione."
+        }
+      ],
+      "errors": [
+        "Sardegna: la pagina ufficiale visualizza zero risultati, dato incoerente con la propria raccolta storica; la fonte non è considerata verificata e non se ne deduce l’assenza di nuovi atti.",
+        "Sicilia: non è stato acquisito il fascicolo G.U.R.S. dei D.S.G. 856 e 857; l’approvazione è verificata ma non si dichiara la data di efficacia.",
+        "Sicilia: il dettaglio del D.S.G. 855 su Trappeto e Partinico non è stato acquisito per timeout; con gli altri quindici atti 2026 non riesaminati integralmente resta nella coda documentale.",
+        "AUBAC: otto voci di aggiornamento definitivo restano segnaposto D.S. 000/2026 senza atto diretto o riferimenti reali ai bollettini e non sono pubblicate come schede."
+      ],
+      "limitations": [
+        "Ricognizione circoscritta alle URL elencate e ai contenuti effettivamente esposti; non copre integralmente regioni, province, comuni, gestori, albi pretori, allegati, cartografie o catene degli atti.",
+        "L’assenza di ulteriori modifiche pubblicabili vale soltanto per il perimetro letto; elenchi, homepage e servizi cartografici non equivalgono a un controllo esaustivo dei singoli procedimenti.",
+        "La fonte Sardegna non è stata verificata a causa dell’elenco anomalo a zero risultati.",
+        "Dei 18 aggiornamenti PAI Sicilia 2026 sono stati letti integralmente soltanto i D.S.G. 856 e 857; i restanti 16 non sono pubblicati senza esame documentale del singolo atto.",
+        "Per i D.S.G. 856 e 857 restano da acquisire la G.U.R.S., gli allegati cartografici completi e gli eventuali atti successivi.",
+        "Le revisioni documentali delle schede preesistenti non sono state aggiornate da semplici controlli di elenco, homepage o raggiungibilità."
+      ],
+      "updated_records": [],
+      "new_records": [
+        "sic-pai-gela-856-2026",
+        "sic-pai-cefalu-857-2026"
+      ],
+      "execution": {
+        "id": "local-territorial-20261031-100240",
+        "id_origin": "Identificativo locale generato per questa esecuzione; identificativo del servizio non disponibile.",
+        "started_at": "2026-10-31T10:02:40+01:00",
+        "finished_at": "2026-10-31T10:09:19+01:00",
+        "outcome": "parziale",
+        "publication": {
+          "outcome": "in_attesa",
+          "last_valid_result": "published_github_pages",
+          "publication_history": [
+            {
+              "outcome": "in_attesa",
+              "note": "La ricevuta di questa esecuzione sarà aggiornata soltanto dopo il successo della validazione, del deployment Pages e del riscontro del run nel sito pubblico."
+            }
+          ]
+        }
+      }
+    },
     {
       "date": "2026-10-30",
       "type": "Controllo territoriale · ricognizione parziale",

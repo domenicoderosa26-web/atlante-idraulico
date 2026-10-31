@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-31T09:12:06Z",
+  "checked_at": "2026-10-31T09:14:53Z",
   "national": {
     "state": "in_attesa",
     "last_completed_at": "2026-10-30T13:59:51+01:00",
@@ -116,14 +116,30 @@
       "AUBAC: otto voci di aggiornamento definitivo restano segnaposto D.S. 000/2026 senza atto diretto o riferimenti reali ai bollettini e non sono pubblicate come schede."
     ],
     "publication": {
-      "outcome": "in_attesa",
+      "outcome": "pubblicato",
       "last_valid_result": "published_github_pages",
       "publication_history": [
         {
           "outcome": "in_attesa",
           "note": "La ricevuta di questa esecuzione sarà aggiornata soltanto dopo il successo della validazione, del deployment Pages e del riscontro del run nel sito pubblico."
         }
-      ]
+      ],
+      "commit_sha": "d9cad5de91accbafddb82c6fcdabb454f730bcd1",
+      "commit_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/commit/d9cad5de91accbafddb82c6fcdabb454f730bcd1",
+      "verified_at": "2026-10-31T10:13:09+01:00",
+      "site_url": "https://domenicoderosa26-web.github.io/atlante-idraulico/",
+      "deployment_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/41187684103",
+      "verification": {
+        "outcome": "success",
+        "deployed_head_sha": "d9cad5de91accbafddb82c6fcdabb454f730bcd1",
+        "data": {
+          "updatedAt": "2026-10-31",
+          "records": 136,
+          "run_id": "local-territorial-20261031-100240",
+          "outcome": "parziale"
+        },
+        "site_loading": "Edizione 31/10/2026 caricata con 136 schede (52 atti e riferimenti tecnici, 84 piani, raccolte e procedure) e 14 argomenti canonici ordinati A–Z. Le schede di Gela e Cefalù sono visibili. Il run è presente nel data.json pubblico con pubblicazione inizialmente in attesa; lunghezza e doppia impronta del contenuto pubblico coincidono con il commit atteso. Il deployment Pages 41187684103 è riuscito. Il commit concorrente di supervisione 555f4ee non ha modificato data.json."
+      }
     },
     "external_execution_verified": false,
     "legacy_completion_marker": "2026-09-25",
@@ -567,5 +583,5 @@
     }
   ],
   "has_errors": false,
-  "repository_sha": "d9cad5de91accbafddb82c6fcdabb454f730bcd1"
+  "repository_sha": "c0e7edbafd72245d59451696e4b45802911d013b"
 }

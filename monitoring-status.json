@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-30T19:56:46Z",
+  "checked_at": "2026-10-31T09:12:06Z",
   "national": {
-    "state": "completato",
+    "state": "in_attesa",
     "last_completed_at": "2026-10-30T13:59:51+01:00",
-    "expected_date": "2026-10-30",
+    "expected_date": "2026-10-31",
     "deadline_local": "16:00 Europe/Rome",
     "checkpoint_end": "2026-10-30T12:59:51Z",
     "checkpoint_consistent": true,
@@ -72,75 +72,58 @@
   },
   "territorial": {
     "state": "parziale",
-    "date": "2026-10-30",
+    "date": "2026-10-31",
     "evidence": "data.json:runs[0]",
-    "summary": "Censite tre modifiche definitive PAI-frane dell’Appennino Meridionale, tutte disposte il 5 gennaio 2026: Anagni e Arnara risultano efficaci dal 13 febbraio 2026 dopo la pubblicazione nel BUR Lazio n. 13; la modifica interregionale per quattro Comuni molisani e Vallerotonda resta con efficacia incerta finché non sarà acquisito il BUR Molise richiamato da un registro ufficiale con anno incoerente. Non risultano ulteriori atti pubblicabili nel solo perimetro letto. L’elenco Sardegna ha restituito zero risultati in contrasto con la propria funzione storica e non consente conclusioni.",
+    "summary": "Censiti i D.S.G. Sicilia 856 e 857 del 29 settembre 2026: approvano rispettivamente l’aggiornamento PAI idraulico di Gela e quello geomorfologico di Cefalù, ma la decorrenza resta da verificare sulla G.U.R.S. La raccolta Sicilia 2026 espone complessivamente 18 aggiornamenti: i restanti 16 sono mantenuti come coda documentale e non pubblicati senza lettura dei singoli atti. Nelle altre fonti lette non è emerso un ulteriore atto pubblicabile; la raccolta Sardegna continua a restituire zero risultati e non consente conclusioni.",
     "sources_checked": [
-      "merid-pai-frane-anagni-1-2026",
-      "merid-pai-frane-interregionale-2-2026",
-      "merid-pai-frane-arnara-8-2026",
-      "bz-brennero-pzp-878-2026",
+      "sic-pai-gela-856-2026",
+      "sic-pai-cefalu-857-2026",
       "bz23",
       "dist-centr",
       "dist-po",
       "dist-sett",
       "dist-merid",
+      "dist-sard",
       "dist-sici"
     ],
     "source_urls": [
-      "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=30&page=1&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
-      "https://bollettino.regione.taa.it/it/parte123.aspx?&numeroid=16932&anno=2026&top=1",
-      "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/approvazione-varianti-pai/",
+      "https://api.integrations.services.siag.it/delibere/v1/delibere?rows=100&page=1&onlyLastSession=true&from=2021-01-01&orderBy=number%7Cdesc",
       "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
       "https://pai.adbpo.it/varianti-in-corso-2/",
-      "https://www.appenninosettentrionale.it/itc/",
-      "https://www.distrettoappenninomeridionale.it/notizie/",
-      "https://www.distrettoappenninomeridionale.it/piano-assetto-idrogeologico/approvazione-modifiche-al-pai/anno-2026/regione-lazio",
-      "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2026/02/Approvazione/RegioneLazio/DS%201.pdf",
-      "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2026/02/Approvazione/RegioneLazio/DS%202.pdf",
-      "https://www.distrettoappenninomeridionale.it/wp-content/uploads/2026/02/Approvazione/RegioneLazio/DS%208.pdf",
-      "https://www.distrettoappenninomeridionale.it/modifiche-e-varianti-al-piano-assetto-idrogeologico/registro-pubblicazioni-ds-2026-Lazio/",
-      "https://www.distrettoappenninomeridionale.it/modifiche-e-varianti-al-piano-assetto-idrogeologico/registro-pubblicazioni-ds-2026-molise/",
-      "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-normativa"
+      "https://geodataserver.appenninosettentrionale.it/arcgis/rest/services/Pericolosita_Alluvione/mappa_variante_pericolosita2026/MapServer/0",
+      "https://www.distrettoappenninomeridionale.it/modifiche-e-varianti-al-piano-assetto-idrogeologico/",
+      "https://www.distrettoappenninomeridionale.it/partecipazione-pubblica/",
+      "https://autoritadibacino.regione.sardegna.it/atti-e-documenti/determine/approvazione-varianti-pai/",
+      "https://www.regione.sicilia.it/istituzioni/regione/strutture-regionali/presidenza-regione/autorita-bacino-distretto-idrografico-sicilia/pai-anno-2026",
+      "https://www.regione.sicilia.it/istituzioni/servizi-informativi/decreti-e-direttive/approvazione-aggiornamento-piano-stralcio-bacino-l-assetto-idrogeologico-pai-aspetti-idraulici-area-territoriale-bacini-idrografici-torrente",
+      "https://www.regione.sicilia.it/system/files/2026-10/DSG.n.856_Gela_idro_def%28firmato%29.pdf",
+      "https://www.regione.sicilia.it/istituzioni/servizi-informativi/decreti-e-direttive/approvazione-aggiornamento-pai-aspetti-geomorfologici-comune-cefalu-pa-ricadente-nei-bacini-idrografici-026-027-028-modifiche-dissesti-027-6cx-198",
+      "https://www.regione.sicilia.it/system/files/2026-10/D.S.G.%20n.%20857%20del%2029.09.2026_Cefal%C3%B9%28firmato%29.pdf"
     ],
     "territories": [
-      "Provincia autonoma di Bolzano: intera seduta del 23 ottobre 2026 e sommario del Bollettino Ufficiale n. 44 del 29 ottobre 2026",
+      "Provincia autonoma di Bolzano: intera seduta del 30 ottobre 2026, delibere 923–884",
       "Appennino Centrale: raccolta ufficiale dei decreti segretariali di pianificazione 2026",
       "Distretto del Po: pagina delle varianti PAI in corso",
-      "Appennino Settentrionale: homepage e contenuti recenti fino al 30 ottobre 2026",
-      "Appennino Meridionale: notizie, raccolta delle modifiche PAI 2026, decreti 1, 2 e 8 e registri di pubblicazione Lazio e Molise",
-      "Sicilia: pagina ufficiale della normativa PAI"
+      "Appennino Settentrionale: servizio cartografico ufficiale della variante PGRA 2026",
+      "Appennino Meridionale: pagina modifiche e varianti PAI e percorso di partecipazione PGA–PGRA",
+      "Sardegna: raccolta ufficiale delle determinazioni di approvazione delle varianti puntuali PAI",
+      "Sicilia: raccolta PAI 2026 e D.S.G. 856 e 857 del 29 settembre 2026"
     ],
     "errors": [
-      "Sardegna: la pagina ufficiale visualizza zero risultati, dato incoerente con la propria raccolta storica; la fonte non è considerata verificata e non se ne deduce l’assenza di nuovi atti né lo stato di Villanovafranca.",
-      "D.S. Appennino Meridionale 2/2026: il registro Molise riporta un anno incoerente e non è stato acquisito direttamente il BUR Molise; la data di efficacia interregionale non è dichiarata.",
+      "Sardegna: la pagina ufficiale visualizza zero risultati, dato incoerente con la propria raccolta storica; la fonte non è considerata verificata e non se ne deduce l’assenza di nuovi atti.",
+      "Sicilia: non è stato acquisito il fascicolo G.U.R.S. dei D.S.G. 856 e 857; l’approvazione è verificata ma non si dichiara la data di efficacia.",
+      "Sicilia: il dettaglio del D.S.G. 855 su Trappeto e Partinico non è stato acquisito per timeout; con gli altri quindici atti 2026 non riesaminati integralmente resta nella coda documentale.",
       "AUBAC: otto voci di aggiornamento definitivo restano segnaposto D.S. 000/2026 senza atto diretto o riferimenti reali ai bollettini e non sono pubblicate come schede."
     ],
     "publication": {
-      "outcome": "pubblicato",
+      "outcome": "in_attesa",
       "last_valid_result": "published_github_pages",
       "publication_history": [
         {
           "outcome": "in_attesa",
           "note": "La ricevuta di questa esecuzione sarà aggiornata soltanto dopo il successo della validazione, del deployment Pages e del riscontro del run nel sito pubblico."
         }
-      ],
-      "commit_sha": "70e4c5349ca8b0dc82de6211f3d6a91484afaea3",
-      "commit_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/commit/70e4c5349ca8b0dc82de6211f3d6a91484afaea3",
-      "verified_at": "2026-10-30T10:16:04+01:00",
-      "site_url": "https://domenicoderosa26-web.github.io/atlante-idraulico/",
-      "deployment_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/41031803677",
-      "verification": {
-        "outcome": "success",
-        "deployed_head_sha": "dd9c3b75148136fd1e3b5ecd09e65646544b5885",
-        "data": {
-          "updatedAt": "2026-10-30",
-          "records": 134,
-          "run_id": "local-territorial-20261030-100049",
-          "outcome": "parziale"
-        },
-        "site_loading": "Edizione 30/10/2026 caricata con 134 schede (52 atti e riferimenti tecnici, 82 piani, raccolte e procedure) e 14 argomenti canonici ordinati A–Z. Il run è presente nel data.json pubblico con pubblicazione inizialmente in attesa; lunghezza e doppia impronta del contenuto pubblico coincidono con il commit atteso. Il deployment riuscito include il commit concorrente di supervisione dd9c3b7, che non ha modificato data.json."
-      }
+      ]
     },
     "external_execution_verified": false,
     "legacy_completion_marker": "2026-09-25",
@@ -152,7 +135,7 @@
       "severity": "warning",
       "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
       "evidence": "data.json:runs[0]",
-      "event_id": "17de07eba7b91e9a5383b886"
+      "event_id": "34253f72b409109570fcdb96"
     }
   ],
   "events": [
@@ -573,8 +556,16 @@
       "evidence": "data.json:runs[0]",
       "event_id": "17de07eba7b91e9a5383b886",
       "recorded_at": "2026-10-30T09:12:59Z"
+    },
+    {
+      "code": "TERRITORIAL_PARZIALE",
+      "severity": "warning",
+      "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
+      "evidence": "data.json:runs[0]",
+      "event_id": "34253f72b409109570fcdb96",
+      "recorded_at": "2026-10-31T09:12:06Z"
     }
   ],
   "has_errors": false,
-  "repository_sha": "b5667dd094a44246112fc8c41f4c700492b6df10"
+  "repository_sha": "d9cad5de91accbafddb82c6fcdabb454f730bcd1"
 }

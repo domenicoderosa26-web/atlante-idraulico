@@ -8847,11 +8847,11 @@
     "notice": "Controllo tecnico: identità candidata, disponibilità e variazioni non attestano contenuto, vigenza o abrogazione.",
     "source_queue": "docs/audit/2026-10-10/completamento/attivita-residue.json",
     "selected": [
-      "bz-rasun-anterselva-pzp-738-2026",
-      "bz-sarentino-pzp-740-2026",
-      "bz23"
+      "bz6",
+      "bzpta",
+      "cal10"
     ],
-    "requests": 7,
+    "requests": 8,
     "tasks": {
       "sar-pai-frane-42-2026": {
         "task_version": "3141b41c28ccd674995b0afeb1ff9e567ea772033f1cd4d621e62ae144cae225",
@@ -8948,6 +8948,10 @@
       "bz23": {
         "task_version": "59a900ab3f8d45a1b8530be0e3f589988b3d5974dc0f1f1ef4cff503949f7ea2",
         "prepared_at": "2026-10-29T11:44:01.605222+00:00"
+      },
+      "bz6": {
+        "task_version": "ef391e71f3389f16d1543f11c77c8dbecd31be34816034add291d9611cdfe1dd",
+        "prepared_at": "2026-11-02T13:48:34.994353+00:00"
       }
     },
     "seed_receipts": "docs/audit/2026-10-10/completamento/ricevute-accesso.json",
@@ -8979,6 +8983,174 @@
         "semantic_verification": "not_performed_by_access_check",
         "error": "<urlopen error timed out>",
         "technical_state": "needs_attention"
+      },
+      "https://bollettino.regione.taa.it/pdf/I-II/2008/11/S1/S111080151963.pdf": {
+        "url": "https://bollettino.regione.taa.it/pdf/I-II/2008/11/S1/S111080151963.pdf",
+        "checked_at": "2026-11-02T13:48:34.994353+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://bollettino.regione.taa.it/pdf/I-II/2008/11/S1/S111080151963.pdf",
+        "content_type": "application/pdf",
+        "etag": "\"c6a241306771d21:0\"",
+        "last_modified": "Wed, 18 Jan 2017 08:45:15 GMT",
+        "body_complete": true,
+        "sample_bytes": 393100,
+        "content_signature": "pdf",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": null,
+        "identity_basis": "PDF signature only",
+        "technical_state": "available",
+        "sha256": "e490787dc04ba7ae1251a63feab9268b5b1182042fdf77be91b1241241c09849",
+        "variation": "same",
+        "comparison_scope": "complete_bytes"
+      },
+      "https://www.gazzettaufficiale.it/eli/gu/2009/01/24/4/s3/pdf": {
+        "url": "https://www.gazzettaufficiale.it/eli/gu/2009/01/24/4/s3/pdf",
+        "checked_at": "2026-11-02T13:48:34.994353+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://www.gazzettaufficiale.it/eli/gu/2009/01/24/4/s3/pdf",
+        "content_type": "application/pdf",
+        "etag": null,
+        "last_modified": null,
+        "body_complete": false,
+        "sample_bytes": 2000000,
+        "content_signature": "pdf",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": null,
+        "identity_basis": "PDF signature only",
+        "technical_state": "partial_pdf",
+        "sample_sha256": "e76d2fda6fec09fe07939b6b85a286a977944c0c5d9b29500dfa1d267b56fb53",
+        "variation": "same",
+        "comparison_scope": "prefix_only"
+      },
+      "https://bollettino.regione.taa.it/pdf/I-II/2016/5/BO/BO051601104672.pdf": {
+        "url": "https://bollettino.regione.taa.it/pdf/I-II/2016/5/BO/BO051601104672.pdf",
+        "checked_at": "2026-11-02T13:48:34.994353+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://bollettino.regione.taa.it/pdf/I-II/2016/5/BO/BO051601104672.pdf",
+        "content_type": "application/pdf",
+        "etag": "\"62782857925ed11:0\"",
+        "last_modified": "Wed, 03 Feb 2016 14:51:19 GMT",
+        "body_complete": true,
+        "sample_bytes": 636748,
+        "content_signature": "pdf",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": null,
+        "identity_basis": "PDF signature only",
+        "technical_state": "available",
+        "sha256": "ffd78f3451e0ac621f0dbceed7502b88dbb7a5a277c756819fbb8f24ded25f01",
+        "variation": "same",
+        "comparison_scope": "complete_bytes"
+      },
+      "https://bollettino.regione.taa.it/pdf/I-II/2020/49/BO/BO492001190266.pdf": {
+        "url": "https://bollettino.regione.taa.it/pdf/I-II/2020/49/BO/BO492001190266.pdf",
+        "checked_at": "2026-11-02T13:48:34.994353+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://bollettino.regione.taa.it/pdf/I-II/2020/49/BO/BO492001190266.pdf",
+        "content_type": "application/pdf",
+        "etag": "\"fc5a59139bc8d61:0\"",
+        "last_modified": "Wed, 02 Dec 2020 11:05:42 GMT",
+        "body_complete": true,
+        "sample_bytes": 1005524,
+        "content_signature": "pdf",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": null,
+        "identity_basis": "PDF signature only",
+        "technical_state": "available",
+        "sha256": "1a67057bcd27fdafdc7a72ef94ff5d482f380eab99e84ee8278d79633e326877",
+        "variation": "same",
+        "comparison_scope": "complete_bytes"
+      },
+      "https://bollettino.regione.taa.it/pdf/I-II/2022/24/BO/BO242201193179.pdf": {
+        "url": "https://bollettino.regione.taa.it/pdf/I-II/2022/24/BO/BO242201193179.pdf",
+        "checked_at": "2026-11-02T13:48:34.994353+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://bollettino.regione.taa.it/pdf/I-II/2022/24/BO/BO242201193179.pdf",
+        "content_type": "application/pdf",
+        "etag": "\"a89ee4a4ca80d81:0\"",
+        "last_modified": "Wed, 15 Jun 2022 15:14:44 GMT",
+        "body_complete": true,
+        "sample_bytes": 753951,
+        "content_signature": "pdf",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": null,
+        "identity_basis": "PDF signature only",
+        "technical_state": "available",
+        "sha256": "cc7d10a9a28e9ea243ea7d8884a187fbb104fdb8f90da539490c7a1b6a003005",
+        "variation": "same",
+        "comparison_scope": "complete_bytes"
+      },
+      "https://bollettino.regione.taa.it/pdf/I-II/2024/10/BO/BO102401196101.pdf": {
+        "url": "https://bollettino.regione.taa.it/pdf/I-II/2024/10/BO/BO102401196101.pdf",
+        "checked_at": "2026-11-02T13:48:34.994353+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://bollettino.regione.taa.it/pdf/I-II/2024/10/BO/BO102401196101.pdf",
+        "content_type": "application/pdf",
+        "etag": "\"a59ea748b46fda1:0\"",
+        "last_modified": "Wed, 06 Mar 2024 10:51:46 GMT",
+        "body_complete": true,
+        "sample_bytes": 100712,
+        "content_signature": "pdf",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": null,
+        "identity_basis": "PDF signature only",
+        "technical_state": "available",
+        "sha256": "34a988b6f8416bc978495607b387fd46af187d52650c65021487d3842ff984d9",
+        "variation": "same",
+        "comparison_scope": "complete_bytes"
+      },
+      "https://bollettino.regione.taa.it/pdf/I-II/2024/38/BO/BO382401196906.pdf": {
+        "url": "https://bollettino.regione.taa.it/pdf/I-II/2024/38/BO/BO382401196906.pdf",
+        "checked_at": "2026-11-02T13:48:34.994353+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://bollettino.regione.taa.it/pdf/I-II/2024/38/BO/BO382401196906.pdf",
+        "content_type": "application/pdf",
+        "etag": "\"bc5a4599b9db1:0\"",
+        "last_modified": "Wed, 18 Sep 2024 07:21:16 GMT",
+        "body_complete": true,
+        "sample_bytes": 178960,
+        "content_signature": "pdf",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": null,
+        "identity_basis": "PDF signature only",
+        "technical_state": "available",
+        "sha256": "295f62ed1e6a1d39381c8539b1663fd50c74024edfd159cd2e2ea0c9f193333e",
+        "variation": "same",
+        "comparison_scope": "complete_bytes"
+      },
+      "https://bollettino.regione.taa.it/pdf/I-II/2025/22/BO/BO222501197979.pdf": {
+        "url": "https://bollettino.regione.taa.it/pdf/I-II/2025/22/BO/BO222501197979.pdf",
+        "checked_at": "2026-11-02T13:48:34.994353+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://bollettino.regione.taa.it/pdf/I-II/2025/22/BO/BO222501197979.pdf",
+        "content_type": "application/pdf",
+        "etag": "\"8543186ea1cfdb1:0\"",
+        "last_modified": "Wed, 28 May 2025 07:23:38 GMT",
+        "body_complete": true,
+        "sample_bytes": 157143,
+        "content_signature": "pdf",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": null,
+        "identity_basis": "PDF signature only",
+        "technical_state": "available",
+        "sha256": "afac0743c5cb1ca54453c1a25ff322c8b789fdc9a30dbe181ef569ed72c4d3f4",
+        "variation": "same",
+        "comparison_scope": "complete_bytes"
       },
       "https://lexbrowser.provinz.bz.it/doc/it/217759/decreto_del_presidente_della_provincia_10_ottobre_2019_n_23.aspx": {
         "url": "https://lexbrowser.provinz.bz.it/doc/it/217759/decreto_del_presidente_della_provincia_10_ottobre_2019_n_23.aspx",
@@ -9029,6 +9201,13 @@
         "sample_sha256": "b68d813954ef2eeebdf0890aee1fd593b0eef43782056d1af128d87a4a625b64",
         "variation": "same",
         "comparison_scope": "prefix_only"
+      },
+      "https://www.seab.bz.it/sites/default/files/2024-04/landesgesetz_vom_18._juni_2002_nr._8_bestimmungen_ueber_die_gewaesser_1.pdf": {
+        "url": "https://www.seab.bz.it/sites/default/files/2024-04/landesgesetz_vom_18._juni_2002_nr._8_bestimmungen_ueber_die_gewaesser_1.pdf",
+        "checked_at": "2026-11-02T13:48:34.994353+00:00",
+        "technical_state": "blocked",
+        "error": "URL non autorizzato",
+        "semantic_verification": "not_performed_by_access_check"
       },
       "https://www.cittametropolitana.ba.it/amministrazione/documenti_e_dati/modulistica/documento_268.html": {
         "url": "https://www.cittametropolitana.ba.it/amministrazione/documenti_e_dati/modulistica/documento_268.html",
@@ -10238,7 +10417,7 @@
             "identity_candidate": null,
             "body_complete": true,
             "checked_at": "2026-10-26T11:30:46.510805+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           },
           {
@@ -10307,7 +10486,7 @@
             "identity_candidate": null,
             "body_complete": true,
             "checked_at": "2026-10-26T11:30:46.510805+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           },
           {
@@ -10377,7 +10556,7 @@
             "identity_candidate": null,
             "body_complete": true,
             "checked_at": "2026-10-26T11:30:46.510805+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           },
           {
@@ -10435,7 +10614,7 @@
             "identity_candidate": null,
             "body_complete": false,
             "checked_at": "2026-10-29T11:44:01.605222+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "blocked"
           },
           {
@@ -10504,7 +10683,7 @@
             "identity_candidate": null,
             "body_complete": false,
             "checked_at": "2026-10-29T11:44:01.605222+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "blocked"
           },
           {
@@ -10571,7 +10750,7 @@
             "identity_candidate": null,
             "body_complete": false,
             "checked_at": "2026-10-29T11:44:01.605222+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "needs_attention"
           },
           {
@@ -10630,9 +10809,9 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": true,
-            "checked_at": "2026-10-09T13:45:41.075031+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-02T13:48:34.994353+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://bollettino.regione.taa.it/pdf/I-II/2016/5/BO/BO051601104672.pdf",
@@ -10641,9 +10820,9 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": true,
-            "checked_at": "2026-10-09T13:45:41.275084+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-02T13:48:34.994353+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://bollettino.regione.taa.it/pdf/I-II/2020/49/BO/BO492001190266.pdf",
@@ -10652,9 +10831,9 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": true,
-            "checked_at": "2026-10-09T13:45:41.583677+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-02T13:48:34.994353+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://bollettino.regione.taa.it/pdf/I-II/2022/24/BO/BO242201193179.pdf",
@@ -10663,9 +10842,9 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": true,
-            "checked_at": "2026-10-09T13:45:41.626437+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-02T13:48:34.994353+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://bollettino.regione.taa.it/pdf/I-II/2024/10/BO/BO102401196101.pdf",
@@ -10674,9 +10853,9 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": true,
-            "checked_at": "2026-10-09T13:45:41.649545+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-02T13:48:34.994353+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://bollettino.regione.taa.it/pdf/I-II/2024/38/BO/BO382401196906.pdf",
@@ -10685,9 +10864,9 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": true,
-            "checked_at": "2026-10-09T13:45:41.674437+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-02T13:48:34.994353+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://bollettino.regione.taa.it/pdf/I-II/2025/22/BO/BO222501197979.pdf",
@@ -10696,9 +10875,9 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": true,
-            "checked_at": "2026-10-09T13:45:41.758486+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-02T13:48:34.994353+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://www.gazzettaufficiale.it/eli/gu/2009/01/24/4/s3/pdf",
@@ -10707,9 +10886,9 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": false,
-            "checked_at": "2026-10-09T13:45:41.090958+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-02T13:48:34.994353+00:00",
+            "stale": false,
+            "technical_state": "partial_pdf"
           }
         ]
       },
@@ -10744,14 +10923,14 @@
           },
           {
             "url": "https://www.seab.bz.it/sites/default/files/2024-04/landesgesetz_vom_18._juni_2002_nr._8_bestimmungen_ueber_die_gewaesser_1.pdf",
-            "available": true,
+            "available": false,
             "expected_pdf": true,
-            "detected_signature": "pdf",
+            "detected_signature": null,
             "identity_candidate": null,
-            "body_complete": true,
-            "checked_at": "2026-10-09T13:45:42.701912+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "body_complete": false,
+            "checked_at": "2026-11-02T13:48:34.994353+00:00",
+            "stale": false,
+            "technical_state": "blocked"
           }
         ]
       },

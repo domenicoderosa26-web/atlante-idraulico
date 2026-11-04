@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-04T14:39:13Z",
+  "checked_at": "2026-11-04T21:21:46Z",
   "national": {
     "state": "completato",
     "last_completed_at": "2026-11-04T15:37:18+01:00",
@@ -152,6 +152,13 @@
       "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
       "evidence": "data.json:runs[0]",
       "event_id": "34253f72b409109570fcdb96"
+    },
+    {
+      "code": "TERRITORIAL_MISSING",
+      "severity": "error",
+      "message": "Nessuna ricognizione territoriale documentata oggi entro la finestra delle 16:00.",
+      "evidence": "data.json:runs; esecutore esterno non interrogabile da questo workflow",
+      "event_id": "69cfba128375ca2af0af979f"
     }
   ],
   "events": [
@@ -590,6 +597,6 @@
       "recorded_at": "2026-11-01T19:45:47Z"
     }
   ],
-  "has_errors": false,
-  "repository_sha": "17de82a2a34fd3dad8d35471679e54f43a3e741b"
+  "has_errors": true,
+  "repository_sha": "7e335a46dc93d9c971a41e0c5cbcb169c0a48f4b"
 }

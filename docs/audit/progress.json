@@ -8847,9 +8847,9 @@
     "notice": "Controllo tecnico: identità candidata, disponibilità e variazioni non attestano contenuto, vigenza o abrogazione.",
     "source_queue": "docs/audit/2026-10-10/completamento/attivita-residue.json",
     "selected": [
-      "bz6",
       "bzpta",
-      "cal10"
+      "cal10",
+      "camed2025"
     ],
     "requests": 8,
     "tasks": {
@@ -8952,6 +8952,14 @@
       "bz6": {
         "task_version": "ef391e71f3389f16d1543f11c77c8dbecd31be34816034add291d9611cdfe1dd",
         "prepared_at": "2026-11-02T13:48:34.994353+00:00"
+      },
+      "bzpta": {
+        "task_version": "ea8fb1a7609db97b34a6f9cbb2d2435c156879cfb462ecfa1aa920811f29cb37",
+        "prepared_at": "2026-11-05T13:28:14.955212+00:00"
+      },
+      "cal10": {
+        "task_version": "d3e0f9995c3de8d0db0dabc3a8881a18ccba93185766b1fe7d1ad689a2449811",
+        "prepared_at": "2026-11-05T13:28:14.955212+00:00"
       }
     },
     "seed_receipts": "docs/audit/2026-10-10/completamento/ricevute-accesso.json",
@@ -8983,6 +8991,69 @@
         "semantic_verification": "not_performed_by_access_check",
         "error": "<urlopen error timed out>",
         "technical_state": "needs_attention"
+      },
+      "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=1997&numero=10": {
+        "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=1997&numero=10",
+        "checked_at": "2026-11-05T13:28:14.955212+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=1997&numero=10",
+        "content_type": "application/pdf",
+        "etag": null,
+        "last_modified": null,
+        "body_complete": true,
+        "sample_bytes": 502490,
+        "content_signature": "pdf",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": null,
+        "identity_basis": "PDF signature only",
+        "technical_state": "available",
+        "sha256": "3fe651a20c0b86620e688e17a3d95e40cda87be7ba7ca03b04b94b0fcf6f81af",
+        "variation": "same",
+        "comparison_scope": "complete_bytes"
+      },
+      "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=2017&numero=18": {
+        "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=2017&numero=18",
+        "checked_at": "2026-11-05T13:28:14.955212+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=2017&numero=18",
+        "content_type": "application/pdf",
+        "etag": null,
+        "last_modified": null,
+        "body_complete": true,
+        "sample_bytes": 298522,
+        "content_signature": "pdf",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": null,
+        "identity_basis": "PDF signature only",
+        "technical_state": "available",
+        "sha256": "a0f9eb0b83506ea64d91eb2b341302914d719858c2bee1d964f59efb39a5de6c",
+        "variation": "same",
+        "comparison_scope": "complete_bytes"
+      },
+      "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=2022&numero=10": {
+        "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=2022&numero=10",
+        "checked_at": "2026-11-05T13:28:14.955212+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=2022&numero=10",
+        "content_type": "application/pdf",
+        "etag": null,
+        "last_modified": null,
+        "body_complete": true,
+        "sample_bytes": 228681,
+        "content_signature": "pdf",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": null,
+        "identity_basis": "PDF signature only",
+        "technical_state": "available",
+        "sha256": "0d18f0916c12ac6610370234f6ea0e0779c627433e2993a143a7122ec1b0c1ee",
+        "variation": "same",
+        "comparison_scope": "complete_bytes"
       },
       "https://bollettino.regione.taa.it/pdf/I-II/2008/11/S1/S111080151963.pdf": {
         "url": "https://bollettino.regione.taa.it/pdf/I-II/2008/11/S1/S111080151963.pdf",
@@ -9202,9 +9273,30 @@
         "variation": "same",
         "comparison_scope": "prefix_only"
       },
+      "https://ambiente.provincia.bz.it/it/acqua": {
+        "url": "https://ambiente.provincia.bz.it/it/acqua",
+        "checked_at": "2026-11-05T13:28:14.955212+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://ambiente.provincia.bz.it/it/acqua",
+        "content_type": "text/html",
+        "etag": "\"04d3f8cb5f8dc1:0\"",
+        "last_modified": "Wed, 10 Jun 2026 08:45:54 GMT",
+        "body_complete": true,
+        "sample_bytes": 2487,
+        "content_signature": "html",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": "Umweltagentur | Autonome Provinz Bozen - Südtirol",
+        "identity_basis": "HTML title only",
+        "technical_state": "available",
+        "sha256": "19a6633c3c08271175454eec79bfc303497528da1b68bfb5e5f3464e58cda9b5",
+        "variation": "same",
+        "comparison_scope": "complete_bytes"
+      },
       "https://www.seab.bz.it/sites/default/files/2024-04/landesgesetz_vom_18._juni_2002_nr._8_bestimmungen_ueber_die_gewaesser_1.pdf": {
         "url": "https://www.seab.bz.it/sites/default/files/2024-04/landesgesetz_vom_18._juni_2002_nr._8_bestimmungen_ueber_die_gewaesser_1.pdf",
-        "checked_at": "2026-11-02T13:48:34.994353+00:00",
+        "checked_at": "2026-11-05T13:28:14.955212+00:00",
         "technical_state": "blocked",
         "error": "URL non autorizzato",
         "semantic_verification": "not_performed_by_access_check"
@@ -9292,6 +9384,94 @@
         "semantic_verification": "not_performed_by_access_check",
         "error": "<urlopen error timed out>",
         "technical_state": "needs_attention"
+      },
+      "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=25A06516&atto.dataPubblicazioneGazzetta=2025-12-03&tipoSerie=serie_generale&tipoVigenza=originario": {
+        "url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=25A06516&atto.dataPubblicazioneGazzetta=2025-12-03&tipoSerie=serie_generale&tipoVigenza=originario",
+        "checked_at": "2026-11-05T13:28:14.955212+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=25A06516&atto.dataPubblicazioneGazzetta=2025-12-03&tipoSerie=serie_generale&tipoVigenza=originario",
+        "content_type": "text/html;charset=UTF-8",
+        "etag": null,
+        "last_modified": null,
+        "body_complete": true,
+        "sample_bytes": 11357,
+        "content_signature": "html",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": "*** ATTO COMPLETO ***",
+        "identity_basis": "HTML title only",
+        "technical_state": "available",
+        "sha256": "25d09ab4435ee99f03b3a3b5cf00345ff70765837037794b4afbef2e868945ce",
+        "variation": "same",
+        "comparison_scope": "complete_bytes"
+      },
+      "https://www.gazzettaufficiale.it/eli/gu/2025/12/03/281/sg/pdf": {
+        "url": "https://www.gazzettaufficiale.it/eli/gu/2025/12/03/281/sg/pdf",
+        "checked_at": "2026-11-05T13:28:14.955212+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://www.gazzettaufficiale.it/eli/gu/2025/12/03/281/sg/pdf",
+        "content_type": "application/pdf",
+        "etag": null,
+        "last_modified": null,
+        "body_complete": false,
+        "sample_bytes": 2000000,
+        "content_signature": "pdf",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": null,
+        "identity_basis": "PDF signature only",
+        "technical_state": "partial_pdf",
+        "sample_sha256": "add862615f82d546bfa7145a22bc990b903fbe37bb7df2f2f06640110fccd6a6",
+        "variation": "same",
+        "comparison_scope": "prefix_only"
+      },
+      "https://www.mase.gov.it/portale/documents/d/guest/allegato_1_cam_edilizia_30_10_25-def-pdf": {
+        "url": "https://www.mase.gov.it/portale/documents/d/guest/allegato_1_cam_edilizia_30_10_25-def-pdf",
+        "checked_at": "2026-11-05T13:28:14.955212+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://www.mase.gov.it/portale/documents/d/guest/allegato_1_cam_edilizia_30_10_25-def-pdf",
+        "content_type": "application/pdf",
+        "etag": null,
+        "last_modified": "Thu, 04 Dec 2025 07:29:27 GMT",
+        "body_complete": true,
+        "sample_bytes": 843925,
+        "content_signature": "pdf",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": null,
+        "identity_basis": "PDF signature only",
+        "technical_state": "available",
+        "sha256": "24b50d2b277d55afb75b10564c80fbeedd82b0f0c29742775110c50622a6265c",
+        "variation": "same",
+        "comparison_scope": "complete_bytes"
+      },
+      "https://www.mase.gov.it/portale/cam-vigenti": {
+        "url": "https://www.mase.gov.it/portale/cam-vigenti",
+        "checked_at": "2026-11-05T13:28:14.955212+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://www.mase.gov.it/portale/cam-vigenti",
+        "content_type": "text/html;charset=UTF-8",
+        "etag": null,
+        "last_modified": null,
+        "body_complete": true,
+        "sample_bytes": 166190,
+        "content_signature": "html",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": "CAM vigenti - Ministero dell&#39;Ambiente e della Sicurezza energetica",
+        "identity_basis": "HTML title only",
+        "technical_state": "available",
+        "sha256": "5574014843f2950fa0df431f8f06a1ad06e5525f89b95ce37fbeacf8b140f920",
+        "variation": "different",
+        "comparison_scope": "complete_bytes",
+        "previous_observation": {
+          "checked_at": "2026-10-09T13:45:57.381845+00:00",
+          "sha256": "768b5a2a76c0ed07326c59b68985ff072c31693b336bd28f7142d54281d3ce24"
+        }
       },
       "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32024R1765": {
         "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32024R1765",
@@ -10221,7 +10401,7 @@
             "identity_candidate": "Landesregierung | Autonome Provinz Bozen - Südtirol",
             "body_complete": true,
             "checked_at": "2026-10-29T11:44:01.605222+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           },
           {
@@ -10232,7 +10412,7 @@
             "identity_candidate": "Pericoli naturali | Provincia autonoma di Bolzano - Alto Adige",
             "body_complete": true,
             "checked_at": "2026-10-29T11:44:01.605222+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           }
         ]
@@ -10290,7 +10470,7 @@
             "identity_candidate": "Landesregierung | Autonome Provinz Bozen - Südtirol",
             "body_complete": true,
             "checked_at": "2026-10-29T11:44:01.605222+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           },
           {
@@ -10301,7 +10481,7 @@
             "identity_candidate": "Pericoli naturali | Provincia autonoma di Bolzano - Alto Adige",
             "body_complete": true,
             "checked_at": "2026-10-29T11:44:01.605222+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           }
         ]
@@ -10359,7 +10539,7 @@
             "identity_candidate": "Landesregierung | Autonome Provinz Bozen - Südtirol",
             "body_complete": true,
             "checked_at": "2026-10-29T11:44:01.605222+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           },
           {
@@ -10370,7 +10550,7 @@
             "identity_candidate": "Pericoli naturali | Provincia autonoma di Bolzano - Alto Adige",
             "body_complete": true,
             "checked_at": "2026-10-29T11:44:01.605222+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           }
         ]
@@ -10428,7 +10608,7 @@
             "identity_candidate": "Landesregierung | Autonome Provinz Bozen - Südtirol",
             "body_complete": true,
             "checked_at": "2026-10-29T11:44:01.605222+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           },
           {
@@ -10439,7 +10619,7 @@
             "identity_candidate": "Pericoli naturali | Provincia autonoma di Bolzano - Alto Adige",
             "body_complete": true,
             "checked_at": "2026-10-29T11:44:01.605222+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           }
         ]
@@ -10497,7 +10677,7 @@
             "identity_candidate": "Landesregierung | Autonome Provinz Bozen - Südtirol",
             "body_complete": true,
             "checked_at": "2026-10-29T11:44:01.605222+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           },
           {
@@ -10508,7 +10688,7 @@
             "identity_candidate": "Pericoli naturali | Provincia autonoma di Bolzano - Alto Adige",
             "body_complete": true,
             "checked_at": "2026-10-29T11:44:01.605222+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           }
         ]
@@ -10567,7 +10747,7 @@
             "identity_candidate": "Landesregierung | Autonome Provinz Bozen - Südtirol",
             "body_complete": true,
             "checked_at": "2026-10-29T11:44:01.605222+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           },
           {
@@ -10578,7 +10758,7 @@
             "identity_candidate": "Pericoli naturali | Provincia autonoma di Bolzano - Alto Adige",
             "body_complete": true,
             "checked_at": "2026-10-29T11:44:01.605222+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           }
         ]
@@ -10625,7 +10805,7 @@
             "identity_candidate": null,
             "body_complete": true,
             "checked_at": "2026-10-29T11:44:01.605222+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           },
           {
@@ -10636,7 +10816,7 @@
             "identity_candidate": "Landesregierung | Autonome Provinz Bozen - Südtirol",
             "body_complete": true,
             "checked_at": "2026-10-29T11:44:01.605222+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           },
           {
@@ -10647,7 +10827,7 @@
             "identity_candidate": "Pericoli naturali | Provincia autonoma di Bolzano - Alto Adige",
             "body_complete": true,
             "checked_at": "2026-10-29T11:44:01.605222+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           }
         ]
@@ -10694,7 +10874,7 @@
             "identity_candidate": null,
             "body_complete": true,
             "checked_at": "2026-10-29T11:44:01.605222+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           },
           {
@@ -10705,7 +10885,7 @@
             "identity_candidate": "Landesregierung | Autonome Provinz Bozen - Südtirol",
             "body_complete": true,
             "checked_at": "2026-10-29T11:44:01.605222+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           },
           {
@@ -10716,7 +10896,7 @@
             "identity_candidate": "Pericoli naturali | Provincia autonoma di Bolzano - Alto Adige",
             "body_complete": true,
             "checked_at": "2026-10-29T11:44:01.605222+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           }
         ]
@@ -10761,7 +10941,7 @@
             "identity_candidate": null,
             "body_complete": false,
             "checked_at": "2026-10-29T11:44:01.605222+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "partial_pdf"
           },
           {
@@ -10772,7 +10952,7 @@
             "identity_candidate": null,
             "body_complete": false,
             "checked_at": "2026-10-29T11:44:01.605222+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "partial_pdf"
           }
         ]
@@ -10915,11 +11095,11 @@
             "available": true,
             "expected_pdf": false,
             "detected_signature": "html",
-            "identity_candidate": null,
+            "identity_candidate": "Umweltagentur | Autonome Provinz Bozen - Südtirol",
             "body_complete": true,
-            "checked_at": "2026-10-09T13:45:42.356381+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-05T13:28:14.955212+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://www.seab.bz.it/sites/default/files/2024-04/landesgesetz_vom_18._juni_2002_nr._8_bestimmungen_ueber_die_gewaesser_1.pdf",
@@ -10928,64 +11108,9 @@
             "detected_signature": null,
             "identity_candidate": null,
             "body_complete": false,
-            "checked_at": "2026-11-02T13:48:34.994353+00:00",
+            "checked_at": "2026-11-05T13:28:14.955212+00:00",
             "stale": false,
             "technical_state": "blocked"
-          }
-        ]
-      },
-      {
-        "id": "cal10",
-        "task_version": "d3e0f9995c3de8d0db0dabc3a8881a18ccba93185766b1fe7d1ad689a2449811",
-        "operations": [
-          "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati.",
-          "Coordinare disciplina residua e competenze con TUA/PTA; acquisire gli allegati omessi e verificare ulteriori atti modificativi."
-        ],
-        "source_urls": [
-          "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=1997&numero=10",
-          "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=2017&numero=18",
-          "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=2022&numero=10"
-        ],
-        "existing_evidence": null,
-        "limitations": [
-          "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
-        ],
-        "requires_substantive_review": true,
-        "priority": "high",
-        "priority_reason": "Fonte incompleta, non accessibile, scaduta, non controllata o variata",
-        "documents": [
-          {
-            "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=1997&numero=10",
-            "available": true,
-            "expected_pdf": true,
-            "detected_signature": "pdf",
-            "identity_candidate": null,
-            "body_complete": true,
-            "checked_at": "2026-10-09T13:45:40.175799+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
-          },
-          {
-            "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=2017&numero=18",
-            "available": true,
-            "expected_pdf": false,
-            "detected_signature": "pdf",
-            "identity_candidate": null,
-            "body_complete": true,
-            "checked_at": "2026-10-09T13:45:40.191744+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
-          },
-          {
-            "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=2022&numero=10",
-            "available": true,
-            "expected_pdf": false,
-            "detected_signature": "pdf",
-            "identity_candidate": null,
-            "body_complete": true,
-            "checked_at": "2026-10-09T13:45:40.231513+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
           }
         ]
       },
@@ -11015,11 +11140,11 @@
             "available": true,
             "expected_pdf": false,
             "detected_signature": "html",
-            "identity_candidate": null,
+            "identity_candidate": "*** ATTO COMPLETO ***",
             "body_complete": true,
-            "checked_at": "2026-10-09T13:45:56.904216+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-05T13:28:14.955212+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://www.gazzettaufficiale.it/eli/gu/2025/12/03/281/sg/pdf",
@@ -11028,20 +11153,20 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": false,
-            "checked_at": "2026-10-09T13:45:56.920177+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-05T13:28:14.955212+00:00",
+            "stale": false,
+            "technical_state": "partial_pdf"
           },
           {
             "url": "https://www.mase.gov.it/portale/cam-vigenti",
             "available": true,
             "expected_pdf": false,
             "detected_signature": "html",
-            "identity_candidate": null,
+            "identity_candidate": "CAM vigenti - Ministero dell&#39;Ambiente e della Sicurezza energetica",
             "body_complete": true,
-            "checked_at": "2026-10-09T13:45:57.381845+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-05T13:28:14.955212+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://www.mase.gov.it/portale/documents/d/guest/allegato_1_cam_edilizia_30_10_25-def-pdf",
@@ -11050,9 +11175,9 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": true,
-            "checked_at": "2026-10-09T13:45:56.921173+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-05T13:28:14.955212+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://www.mase.gov.it/portale/documents/d/guest/modello-di-relazione-cam-di-progetto-vers-_02-02-2026-pdf",
@@ -11125,11 +11250,11 @@
             "available": true,
             "expected_pdf": false,
             "detected_signature": "html",
-            "identity_candidate": null,
+            "identity_candidate": "CAM vigenti - Ministero dell&#39;Ambiente e della Sicurezza energetica",
             "body_complete": true,
-            "checked_at": "2026-10-09T13:45:57.381845+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-05T13:28:14.955212+00:00",
+            "stale": false,
+            "technical_state": "available"
           }
         ]
       },
@@ -11191,11 +11316,11 @@
             "available": true,
             "expected_pdf": false,
             "detected_signature": "html",
-            "identity_candidate": null,
+            "identity_candidate": "CAM vigenti - Ministero dell&#39;Ambiente e della Sicurezza energetica",
             "body_complete": true,
-            "checked_at": "2026-10-09T13:45:57.381845+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-05T13:28:14.955212+00:00",
+            "stale": false,
+            "technical_state": "available"
           }
         ]
       },
@@ -17087,6 +17212,61 @@
             "checked_at": "2026-10-09T13:46:00.898487+00:00",
             "stale": true,
             "technical_state": "legacy_receipt"
+          }
+        ]
+      },
+      {
+        "id": "cal10",
+        "task_version": "d3e0f9995c3de8d0db0dabc3a8881a18ccba93185766b1fe7d1ad689a2449811",
+        "operations": [
+          "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati.",
+          "Coordinare disciplina residua e competenze con TUA/PTA; acquisire gli allegati omessi e verificare ulteriori atti modificativi."
+        ],
+        "source_urls": [
+          "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=1997&numero=10",
+          "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=2017&numero=18",
+          "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=2022&numero=10"
+        ],
+        "existing_evidence": null,
+        "limitations": [
+          "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+        ],
+        "requires_substantive_review": true,
+        "priority": "normal",
+        "priority_reason": "Coordinamento normativo residuo",
+        "documents": [
+          {
+            "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=1997&numero=10",
+            "available": true,
+            "expected_pdf": true,
+            "detected_signature": "pdf",
+            "identity_candidate": null,
+            "body_complete": true,
+            "checked_at": "2026-11-05T13:28:14.955212+00:00",
+            "stale": false,
+            "technical_state": "available"
+          },
+          {
+            "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=2017&numero=18",
+            "available": true,
+            "expected_pdf": false,
+            "detected_signature": "pdf",
+            "identity_candidate": null,
+            "body_complete": true,
+            "checked_at": "2026-11-05T13:28:14.955212+00:00",
+            "stale": false,
+            "technical_state": "available"
+          },
+          {
+            "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=2022&numero=10",
+            "available": true,
+            "expected_pdf": false,
+            "detected_signature": "pdf",
+            "identity_candidate": null,
+            "body_complete": true,
+            "checked_at": "2026-11-05T13:28:14.955212+00:00",
+            "stale": false,
+            "technical_state": "available"
           }
         ]
       }

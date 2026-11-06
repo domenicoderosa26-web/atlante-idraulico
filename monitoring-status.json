@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-05T21:29:13Z",
+  "checked_at": "2026-11-06T14:26:57Z",
   "national": {
-    "state": "completato",
-    "last_completed_at": "2026-11-05T15:42:18+01:00",
-    "expected_date": "2026-11-05",
+    "state": "non_allineato",
+    "last_completed_at": "2026-11-06T15:19:58+01:00",
+    "expected_date": "2026-11-06",
     "deadline_local": "16:00 Europe/Rome",
     "checkpoint_end": "2026-11-05T14:42:18Z",
-    "checkpoint_consistent": true,
+    "checkpoint_consistent": false,
     "latest_run": {
-      "id": 42047542828,
-      "html_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/42047542828",
+      "id": 42232938195,
+      "html_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/42232938195",
       "event": "schedule",
       "status": "completed",
-      "conclusion": "success",
-      "created_at": "2026-11-05T14:42:06Z",
-      "updated_at": "2026-11-05T14:44:09Z"
+      "conclusion": "failure",
+      "created_at": "2026-11-06T14:19:47Z",
+      "updated_at": "2026-11-06T14:24:44Z"
     },
     "scope": {
       "monitored_ids": [
@@ -49,7 +49,7 @@
     "public_files_match": {
       "data.json": true,
       "national.json": true,
-      "update-status.json": true
+      "update-status.json": false
     },
     "jobs": [
       {
@@ -60,12 +60,12 @@
       {
         "name": "deploy",
         "status": "completed",
-        "conclusion": "success"
+        "conclusion": "failure"
       },
       {
         "name": "finalize",
         "status": "completed",
-        "conclusion": "success"
+        "conclusion": "skipped"
       }
     ],
     "api_step_executed": true
@@ -147,18 +147,38 @@
   },
   "anomalies": [
     {
+      "code": "NATIONAL_CHECKPOINT",
+      "severity": "error",
+      "message": "Stato completato e checkpoint interno non corrispondono.",
+      "evidence": "update-status.json / normattiva-state:checkpoint.json",
+      "event_id": "1ef83dbbe48a8cff3f2fc3f1"
+    },
+    {
+      "code": "PUBLIC_DIVERGENCE",
+      "severity": "error",
+      "message": "I file pubblici non corrispondono alla base del repository verificata.",
+      "evidence": {
+        "data.json": true,
+        "national.json": true,
+        "update-status.json": false
+      },
+      "event_id": "67a73eecb7ef5f46cd87ed37"
+    },
+    {
+      "code": "NATIONAL_RECEIPT",
+      "severity": "error",
+      "message": "I file del repository divergono dalla ricevuta interna.",
+      "evidence": [
+        "Hash dello stato diverso dalla ricevuta tecnica"
+      ],
+      "event_id": "a9aa469c6f9a7d7b753403c0"
+    },
+    {
       "code": "TERRITORIAL_PARZIALE",
       "severity": "warning",
       "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
       "evidence": "data.json:runs[0]",
       "event_id": "34253f72b409109570fcdb96"
-    },
-    {
-      "code": "TERRITORIAL_MISSING",
-      "severity": "error",
-      "message": "Nessuna ricognizione territoriale documentata oggi entro la finestra delle 16:00.",
-      "evidence": "data.json:runs; esecutore esterno non interrogabile da questo workflow",
-      "event_id": "69cfba128375ca2af0af979f"
     }
   ],
   "events": [
@@ -595,8 +615,38 @@
       "evidence": "data.json:runs; esecutore esterno non interrogabile da questo workflow",
       "event_id": "69cfba128375ca2af0af979f",
       "recorded_at": "2026-11-01T19:45:47Z"
+    },
+    {
+      "code": "NATIONAL_CHECKPOINT",
+      "severity": "error",
+      "message": "Stato completato e checkpoint interno non corrispondono.",
+      "evidence": "update-status.json / normattiva-state:checkpoint.json",
+      "event_id": "1ef83dbbe48a8cff3f2fc3f1",
+      "recorded_at": "2026-11-06T14:26:57Z"
+    },
+    {
+      "code": "PUBLIC_DIVERGENCE",
+      "severity": "error",
+      "message": "I file pubblici non corrispondono alla base del repository verificata.",
+      "evidence": {
+        "data.json": true,
+        "national.json": true,
+        "update-status.json": false
+      },
+      "event_id": "67a73eecb7ef5f46cd87ed37",
+      "recorded_at": "2026-11-06T14:26:57Z"
+    },
+    {
+      "code": "NATIONAL_RECEIPT",
+      "severity": "error",
+      "message": "I file del repository divergono dalla ricevuta interna.",
+      "evidence": [
+        "Hash dello stato diverso dalla ricevuta tecnica"
+      ],
+      "event_id": "a9aa469c6f9a7d7b753403c0",
+      "recorded_at": "2026-11-06T14:26:57Z"
     }
   ],
   "has_errors": true,
-  "repository_sha": "62b27b7a38e852e4176003b0c7398bacc85110f8"
+  "repository_sha": "4e999301b2fa8cd1c5f3fa10fc29909b6cc883c1"
 }

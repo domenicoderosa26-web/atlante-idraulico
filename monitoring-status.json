@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-06T20:56:35Z",
+  "checked_at": "2026-11-07T13:08:59Z",
   "national": {
-    "state": "non_allineato",
-    "last_completed_at": "2026-11-06T15:19:58+01:00",
-    "expected_date": "2026-11-06",
+    "state": "completato",
+    "last_completed_at": "2026-11-07T14:07:32+01:00",
+    "expected_date": "2026-11-07",
     "deadline_local": "16:00 Europe/Rome",
-    "checkpoint_end": "2026-11-05T14:42:18Z",
-    "checkpoint_consistent": false,
+    "checkpoint_end": "2026-11-07T13:07:32Z",
+    "checkpoint_consistent": true,
     "latest_run": {
-      "id": 42232938195,
-      "html_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/42232938195",
+      "id": 42375499287,
+      "html_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/42375499287",
       "event": "schedule",
       "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-11-06T14:19:47Z",
-      "updated_at": "2026-11-06T14:24:44Z"
+      "conclusion": "success",
+      "created_at": "2026-11-07T13:07:22Z",
+      "updated_at": "2026-11-07T13:08:47Z"
     },
     "scope": {
       "monitored_ids": [
@@ -60,12 +60,12 @@
       {
         "name": "deploy",
         "status": "completed",
-        "conclusion": "failure"
+        "conclusion": "success"
       },
       {
         "name": "finalize",
         "status": "completed",
-        "conclusion": "skipped"
+        "conclusion": "success"
       }
     ],
     "api_step_executed": true
@@ -147,34 +147,11 @@
   },
   "anomalies": [
     {
-      "code": "NATIONAL_CHECKPOINT",
-      "severity": "error",
-      "message": "Stato completato e checkpoint interno non corrispondono.",
-      "evidence": "update-status.json / normattiva-state:checkpoint.json",
-      "event_id": "1ef83dbbe48a8cff3f2fc3f1"
-    },
-    {
-      "code": "NATIONAL_RECEIPT",
-      "severity": "error",
-      "message": "I file del repository divergono dalla ricevuta interna.",
-      "evidence": [
-        "Hash dello stato diverso dalla ricevuta tecnica"
-      ],
-      "event_id": "a9aa469c6f9a7d7b753403c0"
-    },
-    {
       "code": "TERRITORIAL_PARZIALE",
       "severity": "warning",
       "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
       "evidence": "data.json:runs[0]",
       "event_id": "34253f72b409109570fcdb96"
-    },
-    {
-      "code": "TERRITORIAL_MISSING",
-      "severity": "error",
-      "message": "Nessuna ricognizione territoriale documentata oggi entro la finestra delle 16:00.",
-      "evidence": "data.json:runs; esecutore esterno non interrogabile da questo workflow",
-      "event_id": "69cfba128375ca2af0af979f"
     }
   ],
   "events": [
@@ -643,6 +620,6 @@
       "recorded_at": "2026-11-06T14:26:57Z"
     }
   ],
-  "has_errors": true,
-  "repository_sha": "b71a255d0de448ebe2fe6144bb5f4a0ed6e63237"
+  "has_errors": false,
+  "repository_sha": "3404974a6e1ea705a44dedb2b9815610f1ebde21"
 }

@@ -8847,11 +8847,11 @@
     "notice": "Controllo tecnico: identità candidata, disponibilità e variazioni non attestano contenuto, vigenza o abrogazione.",
     "source_queue": "docs/audit/2026-10-10/completamento/attivita-residue.json",
     "selected": [
-      "bzpta",
-      "cal10",
-      "camed2025"
+      "camed2025",
+      "camstrade2024",
+      "camstrade2025"
     ],
-    "requests": 8,
+    "requests": 5,
     "tasks": {
       "sar-pai-frane-42-2026": {
         "task_version": "3141b41c28ccd674995b0afeb1ff9e567ea772033f1cd4d621e62ae144cae225",
@@ -8960,6 +8960,18 @@
       "cal10": {
         "task_version": "d3e0f9995c3de8d0db0dabc3a8881a18ccba93185766b1fe7d1ad689a2449811",
         "prepared_at": "2026-11-05T13:28:14.955212+00:00"
+      },
+      "camed2025": {
+        "task_version": "72150c22886570754cf697fe7e200208f68b4b3b6bf891ec2ee5b3f10820a7a0",
+        "prepared_at": "2026-11-09T14:17:16.414389+00:00"
+      },
+      "camstrade2024": {
+        "task_version": "f061e564dc9a355850302ed005d020e97dfbccdc63718f9b3b699071003cb168",
+        "prepared_at": "2026-11-09T14:17:16.414389+00:00"
+      },
+      "camstrade2025": {
+        "task_version": "0679c882dec2b6bed49b2f0cd233cffba7090b7de982b2d3c8806b72326cbb2f",
+        "prepared_at": "2026-11-09T14:17:16.414389+00:00"
       }
     },
     "seed_receipts": "docs/audit/2026-10-10/completamento/ricevute-accesso.json",
@@ -9448,6 +9460,27 @@
         "variation": "same",
         "comparison_scope": "complete_bytes"
       },
+      "https://www.mase.gov.it/portale/documents/d/guest/modello-di-relazione-cam-di-progetto-vers-_02-02-2026-pdf": {
+        "url": "https://www.mase.gov.it/portale/documents/d/guest/modello-di-relazione-cam-di-progetto-vers-_02-02-2026-pdf",
+        "checked_at": "2026-11-09T14:17:16.414389+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://www.mase.gov.it/portale/documents/d/guest/modello-di-relazione-cam-di-progetto-vers-_02-02-2026-pdf",
+        "content_type": "application/pdf",
+        "etag": null,
+        "last_modified": "Mon, 02 Feb 2026 12:59:50 GMT",
+        "body_complete": true,
+        "sample_bytes": 510305,
+        "content_signature": "pdf",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": null,
+        "identity_basis": "PDF signature only",
+        "technical_state": "available",
+        "sha256": "405a928522ee75ce0f535070aa5d978f285fa2f0cb2fd05bb65f9396299c2d11",
+        "variation": "same",
+        "comparison_scope": "complete_bytes"
+      },
       "https://www.mase.gov.it/portale/cam-vigenti": {
         "url": "https://www.mase.gov.it/portale/cam-vigenti",
         "checked_at": "2026-11-05T13:28:14.955212+00:00",
@@ -9472,6 +9505,90 @@
           "checked_at": "2026-10-09T13:45:57.381845+00:00",
           "sha256": "768b5a2a76c0ed07326c59b68985ff072c31693b336bd28f7142d54281d3ce24"
         }
+      },
+      "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=24A04332&atto.dataPubblicazioneGazzetta=2024-08-23&tipoSerie=serie_generale&tipoVigenza=originario": {
+        "url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=24A04332&atto.dataPubblicazioneGazzetta=2024-08-23&tipoSerie=serie_generale&tipoVigenza=originario",
+        "checked_at": "2026-11-09T14:17:16.414389+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=24A04332&atto.dataPubblicazioneGazzetta=2024-08-23&tipoSerie=serie_generale&tipoVigenza=originario",
+        "content_type": "text/html;charset=UTF-8",
+        "etag": null,
+        "last_modified": null,
+        "body_complete": true,
+        "sample_bytes": 12416,
+        "content_signature": "html",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": "*** ATTO COMPLETO ***",
+        "identity_basis": "HTML title only",
+        "technical_state": "available",
+        "sha256": "05cd7daf8b52b26edb12a7c28adfc796ce47ba6c1348aae85c5a57658ca75e31",
+        "variation": "same",
+        "comparison_scope": "complete_bytes"
+      },
+      "https://www.gazzettaufficiale.it/eli/gu/2024/08/23/197/sg/pdf": {
+        "url": "https://www.gazzettaufficiale.it/eli/gu/2024/08/23/197/sg/pdf",
+        "checked_at": "2026-11-09T14:17:16.414389+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://www.gazzettaufficiale.it/eli/gu/2024/08/23/197/sg/pdf",
+        "content_type": "application/pdf",
+        "etag": null,
+        "last_modified": null,
+        "body_complete": false,
+        "sample_bytes": 2000000,
+        "content_signature": "pdf",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": null,
+        "identity_basis": "PDF signature only",
+        "technical_state": "partial_pdf",
+        "sample_sha256": "dfe5ec7c2276f9da92ac6d9bad15306143eb8bff86c3272e8602db9f9d88976b",
+        "variation": "same",
+        "comparison_scope": "prefix_only"
+      },
+      "https://www.gazzettaufficiale.it/eli/gu/2025/09/23/221/sg/pdf": {
+        "url": "https://www.gazzettaufficiale.it/eli/gu/2025/09/23/221/sg/pdf",
+        "checked_at": "2026-11-09T14:17:16.414389+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://www.gazzettaufficiale.it/eli/gu/2025/09/23/221/sg/pdf",
+        "content_type": "application/pdf",
+        "etag": null,
+        "last_modified": null,
+        "body_complete": false,
+        "sample_bytes": 2000000,
+        "content_signature": "pdf",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": null,
+        "identity_basis": "PDF signature only",
+        "technical_state": "partial_pdf",
+        "sample_sha256": "7c74975a20478549b5ce0967cbcee3910a05e6e5fcf75ee32c30391c99362952",
+        "variation": "same",
+        "comparison_scope": "prefix_only"
+      },
+      "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=25A05133&atto.dataPubblicazioneGazzetta=2025-09-23&tipoSerie=serie_generale&tipoVigenza=originario": {
+        "url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=25A05133&atto.dataPubblicazioneGazzetta=2025-09-23&tipoSerie=serie_generale&tipoVigenza=originario",
+        "checked_at": "2026-11-09T14:17:16.414389+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=25A05133&atto.dataPubblicazioneGazzetta=2025-09-23&tipoSerie=serie_generale&tipoVigenza=originario",
+        "content_type": "text/html;charset=UTF-8",
+        "etag": null,
+        "last_modified": null,
+        "body_complete": true,
+        "sample_bytes": 12100,
+        "content_signature": "html",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": "*** ATTO COMPLETO ***",
+        "identity_basis": "HTML title only",
+        "technical_state": "available",
+        "sha256": "ba2bace379d260229bed35d3c8210c37b44def25b102d5f3eab0dd905302835d",
+        "variation": "same",
+        "comparison_scope": "complete_bytes"
       },
       "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32024R1765": {
         "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32024R1765",
@@ -10990,7 +11107,7 @@
             "identity_candidate": null,
             "body_complete": true,
             "checked_at": "2026-11-02T13:48:34.994353+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           },
           {
@@ -11001,7 +11118,7 @@
             "identity_candidate": null,
             "body_complete": true,
             "checked_at": "2026-11-02T13:48:34.994353+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           },
           {
@@ -11012,7 +11129,7 @@
             "identity_candidate": null,
             "body_complete": true,
             "checked_at": "2026-11-02T13:48:34.994353+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           },
           {
@@ -11023,7 +11140,7 @@
             "identity_candidate": null,
             "body_complete": true,
             "checked_at": "2026-11-02T13:48:34.994353+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           },
           {
@@ -11034,7 +11151,7 @@
             "identity_candidate": null,
             "body_complete": true,
             "checked_at": "2026-11-02T13:48:34.994353+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           },
           {
@@ -11045,7 +11162,7 @@
             "identity_candidate": null,
             "body_complete": true,
             "checked_at": "2026-11-02T13:48:34.994353+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           },
           {
@@ -11056,7 +11173,7 @@
             "identity_candidate": null,
             "body_complete": true,
             "checked_at": "2026-11-02T13:48:34.994353+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           },
           {
@@ -11067,7 +11184,7 @@
             "identity_candidate": null,
             "body_complete": false,
             "checked_at": "2026-11-02T13:48:34.994353+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "partial_pdf"
           }
         ]
@@ -11109,7 +11226,7 @@
             "identity_candidate": null,
             "body_complete": false,
             "checked_at": "2026-11-05T13:28:14.955212+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "blocked"
           }
         ]
@@ -11186,9 +11303,9 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": true,
-            "checked_at": "2026-10-09T13:45:57.191369+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-09T14:17:16.414389+00:00",
+            "stale": false,
+            "technical_state": "available"
           }
         ]
       },
@@ -11217,11 +11334,11 @@
             "available": true,
             "expected_pdf": false,
             "detected_signature": "html",
-            "identity_candidate": null,
+            "identity_candidate": "*** ATTO COMPLETO ***",
             "body_complete": true,
-            "checked_at": "2026-10-09T13:45:57.711408+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-09T14:17:16.414389+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://www.gazzettaufficiale.it/eli/gu/2024/08/23/197/sg/pdf",
@@ -11230,9 +11347,9 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": false,
-            "checked_at": "2026-10-09T13:45:57.789376+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-09T14:17:16.414389+00:00",
+            "stale": false,
+            "technical_state": "partial_pdf"
           },
           {
             "url": "https://www.gazzettaufficiale.it/eli/gu/2025/09/23/221/sg/pdf",
@@ -11241,9 +11358,9 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": false,
-            "checked_at": "2026-10-09T13:45:57.875345+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-09T14:17:16.414389+00:00",
+            "stale": false,
+            "technical_state": "partial_pdf"
           },
           {
             "url": "https://www.mase.gov.it/portale/cam-vigenti",
@@ -11283,11 +11400,11 @@
             "available": true,
             "expected_pdf": false,
             "detected_signature": "html",
-            "identity_candidate": null,
+            "identity_candidate": "*** ATTO COMPLETO ***",
             "body_complete": true,
-            "checked_at": "2026-10-09T13:45:58.620764+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-09T14:17:16.414389+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://www.gazzettaufficiale.it/eli/gu/2024/08/23/197/sg/pdf",
@@ -11296,9 +11413,9 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": false,
-            "checked_at": "2026-10-09T13:45:57.789376+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-09T14:17:16.414389+00:00",
+            "stale": false,
+            "technical_state": "partial_pdf"
           },
           {
             "url": "https://www.gazzettaufficiale.it/eli/gu/2025/09/23/221/sg/pdf",
@@ -11307,9 +11424,9 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": false,
-            "checked_at": "2026-10-09T13:45:57.875345+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-09T14:17:16.414389+00:00",
+            "stale": false,
+            "technical_state": "partial_pdf"
           },
           {
             "url": "https://www.mase.gov.it/portale/cam-vigenti",

@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-10T21:20:30Z",
+  "checked_at": "2026-11-11T14:28:47Z",
   "national": {
-    "state": "non_allineato",
-    "last_completed_at": "2026-11-09T17:27:08+01:00",
-    "expected_date": "2026-11-10",
+    "state": "completato",
+    "last_completed_at": "2026-11-11T15:27:16+01:00",
+    "expected_date": "2026-11-11",
     "deadline_local": "16:00 Europe/Rome",
-    "checkpoint_end": "2026-11-09T16:27:08Z",
+    "checkpoint_end": "2026-11-11T14:27:16Z",
     "checkpoint_consistent": true,
     "latest_run": {
-      "id": 42839162675,
-      "html_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/42839162675",
+      "id": 43038586122,
+      "html_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/43038586122",
       "event": "schedule",
       "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-11-10T14:56:13Z",
-      "updated_at": "2026-11-10T15:00:39Z"
+      "conclusion": "success",
+      "created_at": "2026-11-11T14:27:05Z",
+      "updated_at": "2026-11-11T14:28:32Z"
     },
     "scope": {
       "monitored_ids": [
@@ -60,12 +60,12 @@
       {
         "name": "deploy",
         "status": "completed",
-        "conclusion": "failure"
+        "conclusion": "success"
       },
       {
         "name": "finalize",
         "status": "completed",
-        "conclusion": "skipped"
+        "conclusion": "success"
       }
     ],
     "api_step_executed": true
@@ -147,41 +147,11 @@
   },
   "anomalies": [
     {
-      "code": "NATIONAL_FAILED",
-      "severity": "error",
-      "message": "Ultimo workflow nazionale fallito o interrotto; ultimo risultato valido conservato.",
-      "evidence": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/42839162675",
-      "event_id": "06541ebe68f931b7daf778ed"
-    },
-    {
-      "code": "NATIONAL_PENDING",
-      "severity": "error",
-      "message": "Verifica API documentata, pubblicazione non confermata.",
-      "evidence": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/42839162675",
-      "event_id": "edae27a5ec31fbd2177c6497"
-    },
-    {
-      "code": "NATIONAL_RECEIPT",
-      "severity": "error",
-      "message": "I file del repository divergono dalla ricevuta interna.",
-      "evidence": [
-        "Hash dello stato diverso dalla ricevuta tecnica"
-      ],
-      "event_id": "7499124a96fef3dee5e50c48"
-    },
-    {
       "code": "TERRITORIAL_PARZIALE",
       "severity": "warning",
       "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
       "evidence": "data.json:runs[0]",
       "event_id": "34253f72b409109570fcdb96"
-    },
-    {
-      "code": "TERRITORIAL_MISSING",
-      "severity": "error",
-      "message": "Nessuna ricognizione territoriale documentata oggi entro la finestra delle 16:00.",
-      "evidence": "data.json:runs; esecutore esterno non interrogabile da questo workflow",
-      "event_id": "69cfba128375ca2af0af979f"
     }
   ],
   "events": [
@@ -676,6 +646,6 @@
       "recorded_at": "2026-11-10T15:02:16Z"
     }
   ],
-  "has_errors": true,
-  "repository_sha": "3467c3a56a56409240c69520f8fb7709c303da5e"
+  "has_errors": false,
+  "repository_sha": "c04e197189c73dd12e2b95177135254ebb27a5dc"
 }

@@ -1,6 +1,6 @@
 {
   "last_completed_at": "2026-11-09T17:27:08+01:00",
-  "verification_completed_at": "2026-11-10T15:56:23+01:00",
+  "verification_completed_at": "2026-11-11T15:27:16+01:00",
   "timezone": "Europe/Rome",
   "outcome": "verificato",
   "publication_status": "in_attesa",
@@ -84,5 +84,5 @@
   },
   "interval_start": "2026-11-09T16:27:08Z",
   "event_keys": [],
-  "run_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/42839162675"
+  "run_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/43038586122"
 }

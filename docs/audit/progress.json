@@ -8847,11 +8847,11 @@
     "notice": "Controllo tecnico: identità candidata, disponibilità e variazioni non attestano contenuto, vigenza o abrogazione.",
     "source_queue": "docs/audit/2026-10-10/completamento/attivita-residue.json",
     "selected": [
-      "camed2025",
-      "camstrade2024",
-      "camstrade2025"
+      "camverde2020",
+      "centr-pai-fosso-secco-20-2026",
+      "centr-pai-frane-68-2026"
     ],
-    "requests": 5,
+    "requests": 8,
     "tasks": {
       "sar-pai-frane-42-2026": {
         "task_version": "3141b41c28ccd674995b0afeb1ff9e567ea772033f1cd4d621e62ae144cae225",
@@ -8972,6 +8972,14 @@
       "camstrade2025": {
         "task_version": "0679c882dec2b6bed49b2f0cd233cffba7090b7de982b2d3c8806b72326cbb2f",
         "prepared_at": "2026-11-09T14:17:16.414389+00:00"
+      },
+      "camverde2020": {
+        "task_version": "9cefcf512f7b09069ee21da331cd1e0f417f0342baf0f256d3df8f504f888e9b",
+        "prepared_at": "2026-11-12T13:57:55.537529+00:00"
+      },
+      "centr-pai-fosso-secco-20-2026": {
+        "task_version": "38f66f64d4ce2866b5ed50938ff3283d3fef805f0bc7c49c8028e537d1d9ec38",
+        "prepared_at": "2026-11-12T13:57:55.537529+00:00"
       }
     },
     "seed_receipts": "docs/audit/2026-10-10/completamento/ricevute-accesso.json",
@@ -9355,6 +9363,27 @@
         "variation": "same",
         "comparison_scope": "complete_bytes"
       },
+      "https://aubac.it/pai-distrettuale-frane": {
+        "url": "https://aubac.it/pai-distrettuale-frane",
+        "checked_at": "2026-11-12T13:57:55.537529+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://aubac.it/pai-distrettuale-frane",
+        "content_type": "text/html; charset=utf-8",
+        "etag": "\"zbhaoeyaqa41pr\"",
+        "last_modified": null,
+        "body_complete": true,
+        "sample_bytes": 188932,
+        "content_signature": "html",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": "PAI Distrettuale Frane | AUBAC",
+        "identity_basis": "HTML title only",
+        "technical_state": "available",
+        "sha256": "fa25e50d775ee0bfeb74dbce1c58ec2ee9cb507120cd8694aae3e3a26f0d38be",
+        "variation": "same",
+        "comparison_scope": "complete_bytes"
+      },
       "https://www.gazzettaufficiale.it/eli/id/2017/12/16/17R00266/s3": {
         "url": "https://www.gazzettaufficiale.it/eli/id/2017/12/16/17R00266/s3",
         "checked_at": "2026-10-19T11:12:38.508560+00:00",
@@ -9566,6 +9595,48 @@
         "identity_basis": "PDF signature only",
         "technical_state": "partial_pdf",
         "sample_sha256": "7c74975a20478549b5ce0967cbcee3910a05e6e5fcf75ee32c30391c99362952",
+        "variation": "same",
+        "comparison_scope": "prefix_only"
+      },
+      "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=20A01904&atto.dataPubblicazioneGazzetta=2020-04-04&tipoSerie=serie_generale&tipoVigenza=originario": {
+        "url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=20A01904&atto.dataPubblicazioneGazzetta=2020-04-04&tipoSerie=serie_generale&tipoVigenza=originario",
+        "checked_at": "2026-11-12T13:57:55.537529+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=20A01904&atto.dataPubblicazioneGazzetta=2020-04-04&tipoSerie=serie_generale&tipoVigenza=originario",
+        "content_type": "text/html;charset=UTF-8",
+        "etag": null,
+        "last_modified": null,
+        "body_complete": true,
+        "sample_bytes": 11678,
+        "content_signature": "html",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": "*** ATTO COMPLETO ***",
+        "identity_basis": "HTML title only",
+        "technical_state": "available",
+        "sha256": "7cfc8c87eefb01fa0784297074b768f9a4d864db2f970d14a3d2bc32be916aa1",
+        "variation": "same",
+        "comparison_scope": "complete_bytes"
+      },
+      "https://www.gazzettaufficiale.it/eli/gu/2020/04/04/90/sg/pdf": {
+        "url": "https://www.gazzettaufficiale.it/eli/gu/2020/04/04/90/sg/pdf",
+        "checked_at": "2026-11-12T13:57:55.537529+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://www.gazzettaufficiale.it/eli/gu/2020/04/04/90/sg/pdf",
+        "content_type": "application/pdf",
+        "etag": null,
+        "last_modified": null,
+        "body_complete": false,
+        "sample_bytes": 2000000,
+        "content_signature": "pdf",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": null,
+        "identity_basis": "PDF signature only",
+        "technical_state": "partial_pdf",
+        "sample_sha256": "be40a84d4edc46c17038a694cf3a73abfdbfd8887a40ce5e06e62cbc886fbe9c",
         "variation": "same",
         "comparison_scope": "prefix_only"
       },
@@ -9920,6 +9991,129 @@
         "sha256": "5837bb36c407bcf1247a359630e0471304887754eee8d4f889aa18271d0840aa",
         "variation": "same",
         "comparison_scope": "complete_bytes"
+      },
+      "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2068%20-%20PAI%20FRANE_signed_signed_0.pdf": {
+        "url": "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2068%20-%20PAI%20FRANE_signed_signed_0.pdf",
+        "checked_at": "2026-11-12T13:57:55.537529+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2068%20-%20PAI%20FRANE_signed_signed_0.pdf",
+        "content_type": "application/pdf",
+        "etag": "\"4b334-6549c4822c351\"",
+        "last_modified": "Fri, 19 Jun 2026 14:41:02 GMT",
+        "body_complete": true,
+        "sample_bytes": 308020,
+        "content_signature": "pdf",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": null,
+        "identity_basis": "PDF signature only",
+        "technical_state": "available",
+        "sha256": "fb98c98fec37be54415fab3798120a6c45d318e0c6d62ef534f302456d63dd20",
+        "variation": "same",
+        "comparison_scope": "complete_bytes"
+      },
+      "https://cms.aubac.it/sites/default/files/2026-06/PAI%20FRANE%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO_0.pdf": {
+        "url": "https://cms.aubac.it/sites/default/files/2026-06/PAI%20FRANE%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO_0.pdf",
+        "checked_at": "2026-11-12T13:57:55.537529+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://cms.aubac.it/sites/default/files/2026-06/PAI%20FRANE%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO_0.pdf",
+        "content_type": "application/pdf",
+        "etag": "\"d7933-6549c49d94a52\"",
+        "last_modified": "Fri, 19 Jun 2026 14:41:30 GMT",
+        "body_complete": true,
+        "sample_bytes": 882995,
+        "content_signature": "pdf",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": null,
+        "identity_basis": "PDF signature only",
+        "technical_state": "available",
+        "sha256": "5704e9a24cd55714e173bb0e524eefd45ad4f9896799150878845fca02a3c840",
+        "variation": "same",
+        "comparison_scope": "complete_bytes"
+      },
+      "https://cms.aubac.it/sites/default/files/2026-06/AVVISO%20-%20PAI%20frane%20adozione%20definitiva_signed.pdf": {
+        "url": "https://cms.aubac.it/sites/default/files/2026-06/AVVISO%20-%20PAI%20frane%20adozione%20definitiva_signed.pdf",
+        "checked_at": "2026-11-12T13:57:55.537529+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://cms.aubac.it/sites/default/files/2026-06/AVVISO%20-%20PAI%20frane%20adozione%20definitiva_signed.pdf",
+        "content_type": "application/pdf",
+        "etag": "\"31ca7-6549c44459219\"",
+        "last_modified": "Fri, 19 Jun 2026 14:39:57 GMT",
+        "body_complete": true,
+        "sample_bytes": 203943,
+        "content_signature": "pdf",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": null,
+        "identity_basis": "PDF signature only",
+        "technical_state": "available",
+        "sha256": "4b00e5e4f3855da1a7db52ef94cccf797d17eefe1fed5802741e8d30ef680c13",
+        "variation": "same",
+        "comparison_scope": "complete_bytes"
+      },
+      "https://aubac.it/decreti-segretariali-di-pianificazione-2026": {
+        "url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+        "checked_at": "2026-11-12T13:57:55.537529+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
+        "content_type": "text/html; charset=utf-8",
+        "etag": "\"cno4tqv01l52eq\"",
+        "last_modified": null,
+        "body_complete": true,
+        "sample_bytes": 236583,
+        "content_signature": "html",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": "Decreti segretariali di Pianificazione 2026 | AUBAC",
+        "identity_basis": "HTML title only",
+        "technical_state": "available",
+        "sha256": "23b3b302a98b90c2097e43dade1f33db28f6e3dab70e8b279a8ddb9f627e2dd3",
+        "variation": "different",
+        "comparison_scope": "complete_bytes",
+        "previous_observation": {
+          "checked_at": "2026-10-09T13:46:06.511061+00:00",
+          "sha256": "fc290753ec55eec9233ddc15435a4f9d6986f2c6994d846c84d00b4a475115e8"
+        }
+      },
+      "https://aubac.it/news/notizie/rischio-idraulico-pubblicato-laggiornamento-definitivo-della-perimetrazione-del-bacino-del-fosso": {
+        "url": "https://aubac.it/news/notizie/rischio-idraulico-pubblicato-laggiornamento-definitivo-della-perimetrazione-del-bacino-del-fosso",
+        "checked_at": "2026-11-12T13:57:55.537529+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://aubac.it/news/notizie/rischio-idraulico-pubblicato-laggiornamento-definitivo-della-perimetrazione-del-bacino-del-fosso",
+        "content_type": "text/html; charset=utf-8",
+        "etag": "\"10s3zn1wve04t9s\"",
+        "last_modified": null,
+        "body_complete": true,
+        "sample_bytes": 224729,
+        "content_signature": "html",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": "Rischio idraulico: pubblicato l’aggiornamento definitivo della perimetrazione del Bacino del Fosso Secco (RM)",
+        "identity_basis": "HTML title only",
+        "technical_state": "available",
+        "sha256": "382b59c2e53790da6499137b39a50f9819584b96e1669e9ebd7f65de8ee9af76",
+        "variation": "same",
+        "comparison_scope": "complete_bytes"
+      },
+      "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=2873&StwEvent=101": {
+        "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=2873&StwEvent=101",
+        "checked_at": "2026-11-12T13:57:55.537529+00:00",
+        "technical_state": "blocked",
+        "error": "URL non autorizzato",
+        "semantic_verification": "not_performed_by_access_check"
+      },
+      "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1146564&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_170734403182658867151742648249991.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S": {
+        "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1146564&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_170734403182658867151742648249991.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+        "checked_at": "2026-11-12T13:57:55.537529+00:00",
+        "technical_state": "blocked",
+        "error": "URL non autorizzato",
+        "semantic_verification": "not_performed_by_access_check"
       },
       "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi": {
         "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
@@ -11215,7 +11409,7 @@
             "identity_candidate": "Umweltagentur | Autonome Provinz Bozen - Südtirol",
             "body_complete": true,
             "checked_at": "2026-11-05T13:28:14.955212+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           },
           {
@@ -11228,6 +11422,61 @@
             "checked_at": "2026-11-05T13:28:14.955212+00:00",
             "stale": true,
             "technical_state": "blocked"
+          }
+        ]
+      },
+      {
+        "id": "cal10",
+        "task_version": "d3e0f9995c3de8d0db0dabc3a8881a18ccba93185766b1fe7d1ad689a2449811",
+        "operations": [
+          "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati.",
+          "Coordinare disciplina residua e competenze con TUA/PTA; acquisire gli allegati omessi e verificare ulteriori atti modificativi."
+        ],
+        "source_urls": [
+          "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=1997&numero=10",
+          "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=2017&numero=18",
+          "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=2022&numero=10"
+        ],
+        "existing_evidence": null,
+        "limitations": [
+          "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
+        ],
+        "requires_substantive_review": true,
+        "priority": "high",
+        "priority_reason": "Fonte incompleta, non accessibile, scaduta, non controllata o variata",
+        "documents": [
+          {
+            "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=1997&numero=10",
+            "available": true,
+            "expected_pdf": true,
+            "detected_signature": "pdf",
+            "identity_candidate": null,
+            "body_complete": true,
+            "checked_at": "2026-11-05T13:28:14.955212+00:00",
+            "stale": true,
+            "technical_state": "available"
+          },
+          {
+            "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=2017&numero=18",
+            "available": true,
+            "expected_pdf": false,
+            "detected_signature": "pdf",
+            "identity_candidate": null,
+            "body_complete": true,
+            "checked_at": "2026-11-05T13:28:14.955212+00:00",
+            "stale": true,
+            "technical_state": "available"
+          },
+          {
+            "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=2022&numero=10",
+            "available": true,
+            "expected_pdf": false,
+            "detected_signature": "pdf",
+            "identity_candidate": null,
+            "body_complete": true,
+            "checked_at": "2026-11-05T13:28:14.955212+00:00",
+            "stale": true,
+            "technical_state": "available"
           }
         ]
       },
@@ -11260,7 +11509,7 @@
             "identity_candidate": "*** ATTO COMPLETO ***",
             "body_complete": true,
             "checked_at": "2026-11-05T13:28:14.955212+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           },
           {
@@ -11271,7 +11520,7 @@
             "identity_candidate": null,
             "body_complete": false,
             "checked_at": "2026-11-05T13:28:14.955212+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "partial_pdf"
           },
           {
@@ -11282,7 +11531,7 @@
             "identity_candidate": "CAM vigenti - Ministero dell&#39;Ambiente e della Sicurezza energetica",
             "body_complete": true,
             "checked_at": "2026-11-05T13:28:14.955212+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           },
           {
@@ -11293,7 +11542,7 @@
             "identity_candidate": null,
             "body_complete": true,
             "checked_at": "2026-11-05T13:28:14.955212+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           },
           {
@@ -11370,7 +11619,7 @@
             "identity_candidate": "CAM vigenti - Ministero dell&#39;Ambiente e della Sicurezza energetica",
             "body_complete": true,
             "checked_at": "2026-11-05T13:28:14.955212+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           }
         ]
@@ -11436,7 +11685,7 @@
             "identity_candidate": "CAM vigenti - Ministero dell&#39;Ambiente e della Sicurezza energetica",
             "body_complete": true,
             "checked_at": "2026-11-05T13:28:14.955212+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           }
         ]
@@ -11464,11 +11713,11 @@
             "available": true,
             "expected_pdf": false,
             "detected_signature": "html",
-            "identity_candidate": null,
+            "identity_candidate": "*** ATTO COMPLETO ***",
             "body_complete": true,
-            "checked_at": "2026-10-09T13:45:57.915274+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-12T13:57:55.537529+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://www.gazzettaufficiale.it/eli/gu/2020/04/04/90/sg/pdf",
@@ -11477,9 +11726,9 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": false,
-            "checked_at": "2026-10-09T13:45:57.965874+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-12T13:57:55.537529+00:00",
+            "stale": false,
+            "technical_state": "partial_pdf"
           }
         ]
       },
@@ -11508,44 +11757,44 @@
             "available": true,
             "expected_pdf": false,
             "detected_signature": "html",
-            "identity_candidate": null,
+            "identity_candidate": "Decreti segretariali di Pianificazione 2026 | AUBAC",
             "body_complete": true,
-            "checked_at": "2026-10-09T13:46:06.511061+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-12T13:57:55.537529+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://aubac.it/news/notizie/rischio-idraulico-pubblicato-laggiornamento-definitivo-della-perimetrazione-del-bacino-del-fosso",
             "available": true,
             "expected_pdf": false,
             "detected_signature": "html",
-            "identity_candidate": null,
+            "identity_candidate": "Rischio idraulico: pubblicato l’aggiornamento definitivo della perimetrazione del Bacino del Fosso Secco (RM)",
             "body_complete": true,
-            "checked_at": "2026-10-09T13:46:12.797594+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-12T13:57:55.537529+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1146564&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_170734403182658867151742648249991.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
-            "available": true,
+            "available": false,
             "expected_pdf": true,
-            "detected_signature": "pdf",
+            "detected_signature": null,
             "identity_candidate": null,
-            "body_complete": true,
-            "checked_at": "2026-10-09T13:46:13.206636+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "body_complete": false,
+            "checked_at": "2026-11-12T13:57:55.537529+00:00",
+            "stale": false,
+            "technical_state": "blocked"
           },
           {
             "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=2873&StwEvent=101",
-            "available": true,
+            "available": false,
             "expected_pdf": false,
-            "detected_signature": "html",
+            "detected_signature": null,
             "identity_candidate": null,
-            "body_complete": true,
-            "checked_at": "2026-10-09T13:46:12.954209+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "body_complete": false,
+            "checked_at": "2026-11-12T13:57:55.537529+00:00",
+            "stale": false,
+            "technical_state": "blocked"
           }
         ]
       },
@@ -11575,11 +11824,11 @@
             "available": true,
             "expected_pdf": false,
             "detected_signature": "html",
-            "identity_candidate": null,
+            "identity_candidate": "PAI Distrettuale Frane | AUBAC",
             "body_complete": true,
-            "checked_at": "2026-10-09T13:45:47.170403+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-12T13:57:55.537529+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://cms.aubac.it/sites/default/files/2026-06/AVVISO%20-%20PAI%20frane%20adozione%20definitiva_signed.pdf",
@@ -11588,9 +11837,9 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": true,
-            "checked_at": "2026-10-09T13:46:06.276140+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-12T13:57:55.537529+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2068%20-%20PAI%20FRANE_signed_signed_0.pdf",
@@ -11599,9 +11848,9 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": true,
-            "checked_at": "2026-10-09T13:46:06.207812+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-12T13:57:55.537529+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://cms.aubac.it/sites/default/files/2026-06/PAI%20FRANE%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO_0.pdf",
@@ -11610,9 +11859,9 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": true,
-            "checked_at": "2026-10-09T13:46:06.226762+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-12T13:57:55.537529+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://www.gazzettaufficiale.it/eli/gu/2026/06/04/127/sg/pdf",
@@ -11743,11 +11992,11 @@
             "available": true,
             "expected_pdf": false,
             "detected_signature": "html",
-            "identity_candidate": null,
+            "identity_candidate": "Decreti segretariali di Pianificazione 2026 | AUBAC",
             "body_complete": true,
-            "checked_at": "2026-10-09T13:46:06.511061+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-12T13:57:55.537529+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267634&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_109917858867121659555146232.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
@@ -11810,11 +12059,11 @@
             "available": true,
             "expected_pdf": false,
             "detected_signature": "html",
-            "identity_candidate": null,
+            "identity_candidate": "Decreti segretariali di Pianificazione 2026 | AUBAC",
             "body_complete": true,
-            "checked_at": "2026-10-09T13:46:06.511061+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-12T13:57:55.537529+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://bur.regione.umbria.it/web/guest/bur?p_p_id=home_INSTANCE_pLi8X7iNviFL&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_resource_id=downloadCaricamento&p_p_cacheability=cacheLevelPage&id=http%3A%2F%2Fknowledge.progettosemplice.it%2Fresources%2FburUmbriaCaricamento%2Fno_g%2F2026%2F2%2F35%2F260721B35.pdf&nome=260721B35.pdf",
@@ -11887,11 +12136,11 @@
             "available": true,
             "expected_pdf": false,
             "detected_signature": "html",
-            "identity_candidate": null,
+            "identity_candidate": "Decreti segretariali di Pianificazione 2026 | AUBAC",
             "body_complete": true,
-            "checked_at": "2026-10-09T13:46:06.511061+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-12T13:57:55.537529+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267653&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_202664497767122929821541099.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
@@ -11953,11 +12202,11 @@
             "available": true,
             "expected_pdf": false,
             "detected_signature": "html",
-            "identity_candidate": null,
+            "identity_candidate": "Decreti segretariali di Pianificazione 2026 | AUBAC",
             "body_complete": true,
-            "checked_at": "2026-10-09T13:46:06.511061+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-12T13:57:55.537529+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267684&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_192166046567123425881295260.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
@@ -12019,11 +12268,11 @@
             "available": true,
             "expected_pdf": false,
             "detected_signature": "html",
-            "identity_candidate": null,
+            "identity_candidate": "Decreti segretariali di Pianificazione 2026 | AUBAC",
             "body_complete": true,
-            "checked_at": "2026-10-09T13:46:06.511061+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-12T13:57:55.537529+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267702&DOCORE_versione=1&FNSTR=NYJMGR_VCGXFFF_1283506217671238211642869001.KYW.O7R&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
@@ -12151,11 +12400,11 @@
             "available": true,
             "expected_pdf": false,
             "detected_signature": "html",
-            "identity_candidate": null,
+            "identity_candidate": "Decreti segretariali di Pianificazione 2026 | AUBAC",
             "body_complete": true,
-            "checked_at": "2026-10-09T13:46:06.511061+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-12T13:57:55.537529+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267806&DOCORE_versione=1&FNSTR=GZBYYD_BVOCWKF_51704336667130452272963305.NRJ.D7D&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
@@ -12217,11 +12466,11 @@
             "available": true,
             "expected_pdf": false,
             "detected_signature": "html",
-            "identity_candidate": null,
+            "identity_candidate": "Decreti segretariali di Pianificazione 2026 | AUBAC",
             "body_complete": true,
-            "checked_at": "2026-10-09T13:46:06.511061+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-12T13:57:55.537529+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267721&DOCORE_versione=1&FNSTR=GZBYYD_BVOCWKF_23264438671243021997059961.NRJ.D7D&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
@@ -12283,11 +12532,11 @@
             "available": true,
             "expected_pdf": false,
             "detected_signature": "html",
-            "identity_candidate": null,
+            "identity_candidate": "Decreti segretariali di Pianificazione 2026 | AUBAC",
             "body_complete": true,
-            "checked_at": "2026-10-09T13:46:06.511061+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-12T13:57:55.537529+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267780&DOCORE_versione=1&FNSTR=GZBYYD_BVOCWKF_37065169667125904232763601.NRJ.D7D&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
@@ -12428,11 +12677,11 @@
             "available": true,
             "expected_pdf": false,
             "detected_signature": "html",
-            "identity_candidate": null,
+            "identity_candidate": "Decreti segretariali di Pianificazione 2026 | AUBAC",
             "body_complete": true,
-            "checked_at": "2026-10-09T13:46:06.511061+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-12T13:57:55.537529+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1247209&DOCORE_versione=1&FNSTR=XEMDSS_FMGQCDF_516680749377781367150821753836836.EDX.N7P&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
@@ -12700,11 +12949,11 @@
             "available": true,
             "expected_pdf": false,
             "detected_signature": "html",
-            "identity_candidate": null,
+            "identity_candidate": "PAI Distrettuale Frane | AUBAC",
             "body_complete": true,
-            "checked_at": "2026-10-09T13:45:47.170403+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-12T13:57:55.537529+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://aubac.it/pai-distrettuale-idraulico",
@@ -17329,61 +17578,6 @@
             "checked_at": "2026-10-09T13:46:00.898487+00:00",
             "stale": true,
             "technical_state": "legacy_receipt"
-          }
-        ]
-      },
-      {
-        "id": "cal10",
-        "task_version": "d3e0f9995c3de8d0db0dabc3a8881a18ccba93185766b1fe7d1ad689a2449811",
-        "operations": [
-          "Ricostruire integralmente testo corrente, modifiche/abrogazioni, pubblicazione/efficacia e allegati ulteriori; la lettura riguarda solo i passaggi indicati.",
-          "Coordinare disciplina residua e competenze con TUA/PTA; acquisire gli allegati omessi e verificare ulteriori atti modificativi."
-        ],
-        "source_urls": [
-          "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=1997&numero=10",
-          "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=2017&numero=18",
-          "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=2022&numero=10"
-        ],
-        "existing_evidence": null,
-        "limitations": [
-          "Non è certificata la ricostruzione esaustiva della vigenza e dell’applicabilità alla data di consultazione."
-        ],
-        "requires_substantive_review": true,
-        "priority": "normal",
-        "priority_reason": "Coordinamento normativo residuo",
-        "documents": [
-          {
-            "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=1997&numero=10",
-            "available": true,
-            "expected_pdf": true,
-            "detected_signature": "pdf",
-            "identity_candidate": null,
-            "body_complete": true,
-            "checked_at": "2026-11-05T13:28:14.955212+00:00",
-            "stale": false,
-            "technical_state": "available"
-          },
-          {
-            "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=2017&numero=18",
-            "available": true,
-            "expected_pdf": false,
-            "detected_signature": "pdf",
-            "identity_candidate": null,
-            "body_complete": true,
-            "checked_at": "2026-11-05T13:28:14.955212+00:00",
-            "stale": false,
-            "technical_state": "available"
-          },
-          {
-            "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?anno=2022&numero=10",
-            "available": true,
-            "expected_pdf": false,
-            "detected_signature": "pdf",
-            "identity_candidate": null,
-            "body_complete": true,
-            "checked_at": "2026-11-05T13:28:14.955212+00:00",
-            "stale": false,
-            "technical_state": "available"
           }
         ]
       }

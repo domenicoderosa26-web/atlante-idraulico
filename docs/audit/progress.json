@@ -8847,11 +8847,11 @@
     "notice": "Controllo tecnico: identità candidata, disponibilità e variazioni non attestano contenuto, vigenza o abrogazione.",
     "source_queue": "docs/audit/2026-10-10/completamento/attivita-residue.json",
     "selected": [
-      "camverde2020",
-      "centr-pai-fosso-secco-20-2026",
-      "centr-pai-frane-68-2026"
+      "centr-pai-frane-68-2026",
+      "centr-pai-idraulico-67-2026",
+      "centr-pai-lettomanoppello-142-2026"
     ],
-    "requests": 8,
+    "requests": 7,
     "tasks": {
       "sar-pai-frane-42-2026": {
         "task_version": "3141b41c28ccd674995b0afeb1ff9e567ea772033f1cd4d621e62ae144cae225",
@@ -8980,6 +8980,18 @@
       "centr-pai-fosso-secco-20-2026": {
         "task_version": "38f66f64d4ce2866b5ed50938ff3283d3fef805f0bc7c49c8028e537d1d9ec38",
         "prepared_at": "2026-11-12T13:57:55.537529+00:00"
+      },
+      "centr-pai-frane-68-2026": {
+        "task_version": "ec3daa3e2f94a48bb9d1dfb11346d08b7cdde2d03483b7b6636ed76d1dd3c816",
+        "prepared_at": "2026-11-16T13:57:48.971890+00:00"
+      },
+      "centr-pai-idraulico-67-2026": {
+        "task_version": "42db2b22a0ee731360d2b88875dbe050e0b2d162cb0861bafd2ebefd251b3e0a",
+        "prepared_at": "2026-11-16T13:57:48.971890+00:00"
+      },
+      "centr-pai-lettomanoppello-142-2026": {
+        "task_version": "26d2f2c5db11a5605a68110451c02c2cae15536ac1a3bc29d8f09e1580e73f2a",
+        "prepared_at": "2026-11-16T13:57:48.971890+00:00"
       }
     },
     "seed_receipts": "docs/audit/2026-10-10/completamento/ricevute-accesso.json",
@@ -9362,6 +9374,13 @@
         "sha256": "bfea380dae29e327c6964dd8136920f968d53a7431241f2439ffca5c0ba48c2d",
         "variation": "same",
         "comparison_scope": "complete_bytes"
+      },
+      "https://aubac.it/pai-distrettuale-idraulico": {
+        "url": "https://aubac.it/pai-distrettuale-idraulico",
+        "checked_at": "2026-11-16T13:57:48.971890+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "error": "The read operation timed out",
+        "technical_state": "needs_attention"
       },
       "https://aubac.it/pai-distrettuale-frane": {
         "url": "https://aubac.it/pai-distrettuale-frane",
@@ -9992,6 +10011,111 @@
         "variation": "same",
         "comparison_scope": "complete_bytes"
       },
+      "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2067%20-%20PAI%20IDRAULICO_signed_signed_0.pdf": {
+        "url": "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2067%20-%20PAI%20IDRAULICO_signed_signed_0.pdf",
+        "checked_at": "2026-11-16T13:57:48.971890+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2067%20-%20PAI%20IDRAULICO_signed_signed_0.pdf",
+        "content_type": "application/pdf",
+        "etag": "\"4b77f-6549bfa8be427\"",
+        "last_modified": "Fri, 19 Jun 2026 14:19:20 GMT",
+        "body_complete": true,
+        "sample_bytes": 309119,
+        "content_signature": "pdf",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": null,
+        "identity_basis": "PDF signature only",
+        "technical_state": "available",
+        "sha256": "8dff9b617f73776bda6551dbdfd8080bacf3bbb1e334baca1b5c3393cb0d04e7",
+        "variation": "same",
+        "comparison_scope": "complete_bytes"
+      },
+      "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO_0.pdf": {
+        "url": "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO_0.pdf",
+        "checked_at": "2026-11-16T13:57:48.971890+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO_0.pdf",
+        "content_type": "application/pdf",
+        "etag": "\"cc900-6549bfc7eacfe\"",
+        "last_modified": "Fri, 19 Jun 2026 14:19:53 GMT",
+        "body_complete": true,
+        "sample_bytes": 837888,
+        "content_signature": "pdf",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": null,
+        "identity_basis": "PDF signature only",
+        "technical_state": "available",
+        "sha256": "f09d865af4f3903175e663e04d924ff952e85640df4aae481c3da2eaa70aa6df",
+        "variation": "same",
+        "comparison_scope": "complete_bytes"
+      },
+      "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20RELAZIONE%20GENERALE_def_0.pdf": {
+        "url": "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20RELAZIONE%20GENERALE_def_0.pdf",
+        "checked_at": "2026-11-16T13:57:48.971890+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20RELAZIONE%20GENERALE_def_0.pdf",
+        "content_type": "application/pdf",
+        "etag": "\"52b52-6549bfe89f367\"",
+        "last_modified": "Fri, 19 Jun 2026 14:20:27 GMT",
+        "body_complete": true,
+        "sample_bytes": 338770,
+        "content_signature": "pdf",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": null,
+        "identity_basis": "PDF signature only",
+        "technical_state": "available",
+        "sha256": "adf8e5243dc83b3d6f2b7fe1a287eb0dc175d5bd53e959bc01e415316e921f4d",
+        "variation": "same",
+        "comparison_scope": "complete_bytes"
+      },
+      "https://cms.aubac.it/sites/default/files/2026-06/AVVISO%20-%20PAI%20idraulico%20adozione%20definitiva_signed.pdf": {
+        "url": "https://cms.aubac.it/sites/default/files/2026-06/AVVISO%20-%20PAI%20idraulico%20adozione%20definitiva_signed.pdf",
+        "checked_at": "2026-11-16T13:57:48.971890+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://cms.aubac.it/sites/default/files/2026-06/AVVISO%20-%20PAI%20idraulico%20adozione%20definitiva_signed.pdf",
+        "content_type": "application/pdf",
+        "etag": "\"2811f-6549bf5a53d3e\"",
+        "last_modified": "Fri, 19 Jun 2026 14:17:58 GMT",
+        "body_complete": true,
+        "sample_bytes": 164127,
+        "content_signature": "pdf",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": null,
+        "identity_basis": "PDF signature only",
+        "technical_state": "available",
+        "sha256": "158eae56d938fbdb36d5efbcd4d15ac153e51733b04bf0ec96e10786054b5401",
+        "variation": "same",
+        "comparison_scope": "complete_bytes"
+      },
+      "https://www.gazzettaufficiale.it/eli/gu/2026/06/04/127/sg/pdf": {
+        "url": "https://www.gazzettaufficiale.it/eli/gu/2026/06/04/127/sg/pdf",
+        "checked_at": "2026-11-16T13:57:48.971890+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://www.gazzettaufficiale.it/eli/gu/2026/06/04/127/sg/pdf",
+        "content_type": "application/pdf",
+        "etag": null,
+        "last_modified": null,
+        "body_complete": false,
+        "sample_bytes": 2000000,
+        "content_signature": "pdf",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": null,
+        "identity_basis": "PDF signature only",
+        "technical_state": "partial_pdf",
+        "sample_sha256": "1c32c9d1a2281fab9ed0b2ff358c788d820513e1248be53f749a086cce283e13",
+        "variation": "same",
+        "comparison_scope": "prefix_only"
+      },
       "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2068%20-%20PAI%20FRANE_signed_signed_0.pdf": {
         "url": "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2068%20-%20PAI%20FRANE_signed_signed_0.pdf",
         "checked_at": "2026-11-12T13:57:55.537529+00:00",
@@ -10079,6 +10203,41 @@
           "checked_at": "2026-10-09T13:46:06.511061+00:00",
           "sha256": "fc290753ec55eec9233ddc15435a4f9d6986f2c6994d846c84d00b4a475115e8"
         }
+      },
+      "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267634&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_109917858867121659555146232.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S": {
+        "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267634&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_109917858867121659555146232.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+        "checked_at": "2026-11-16T13:57:48.971890+00:00",
+        "technical_state": "blocked",
+        "error": "URL non autorizzato",
+        "semantic_verification": "not_performed_by_access_check"
+      },
+      "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3273&StwEvent=101": {
+        "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3273&StwEvent=101",
+        "checked_at": "2026-11-16T13:57:48.971890+00:00",
+        "technical_state": "blocked",
+        "error": "URL non autorizzato",
+        "semantic_verification": "not_performed_by_access_check"
+      },
+      "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf": {
+        "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+        "checked_at": "2026-11-16T13:57:48.971890+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
+        "content_type": "application/pdf",
+        "etag": "\"618b10-657bd6e4bbf40\"",
+        "last_modified": "Wed, 29 Jul 2026 10:29:31 GMT",
+        "body_complete": false,
+        "sample_bytes": 2000000,
+        "content_signature": "pdf",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": null,
+        "identity_basis": "PDF signature only",
+        "technical_state": "partial_pdf",
+        "sample_sha256": "ec6b323624779f1bea7f846874e6a60e453a00612a814656143ff95086c913c6",
+        "variation": "same",
+        "comparison_scope": "prefix_only"
       },
       "https://aubac.it/news/notizie/rischio-idraulico-pubblicato-laggiornamento-definitivo-della-perimetrazione-del-bacino-del-fosso": {
         "url": "https://aubac.it/news/notizie/rischio-idraulico-pubblicato-laggiornamento-definitivo-della-perimetrazione-del-bacino-del-fosso",
@@ -11782,7 +11941,7 @@
             "identity_candidate": null,
             "body_complete": false,
             "checked_at": "2026-11-12T13:57:55.537529+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "blocked"
           },
           {
@@ -11793,7 +11952,7 @@
             "identity_candidate": null,
             "body_complete": false,
             "checked_at": "2026-11-12T13:57:55.537529+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "blocked"
           }
         ]
@@ -11870,9 +12029,9 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": false,
-            "checked_at": "2026-10-09T13:46:06.059355+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-16T13:57:48.971890+00:00",
+            "stale": false,
+            "technical_state": "partial_pdf"
           }
         ]
       },
@@ -11900,14 +12059,14 @@
         "documents": [
           {
             "url": "https://aubac.it/pai-distrettuale-idraulico",
-            "available": true,
+            "available": false,
             "expected_pdf": false,
-            "detected_signature": "html",
+            "detected_signature": null,
             "identity_candidate": null,
-            "body_complete": true,
-            "checked_at": "2026-10-09T13:45:46.966531+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "body_complete": false,
+            "checked_at": "2026-11-16T13:57:48.971890+00:00",
+            "stale": false,
+            "technical_state": "needs_attention"
           },
           {
             "url": "https://cms.aubac.it/sites/default/files/2026-06/AVVISO%20-%20PAI%20idraulico%20adozione%20definitiva_signed.pdf",
@@ -11916,9 +12075,9 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": true,
-            "checked_at": "2026-10-09T13:46:06.006028+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-16T13:57:48.971890+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://cms.aubac.it/sites/default/files/2026-06/DELIBERA%20CIP%20n.%2067%20-%20PAI%20IDRAULICO_signed_signed_0.pdf",
@@ -11927,9 +12086,9 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": true,
-            "checked_at": "2026-10-09T13:46:05.726691+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-16T13:57:48.971890+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20NTA%20-%20CIP%2026.05.2026%20-TESTO%20DEFINITIVO%20ADOTTATO_0.pdf",
@@ -11938,9 +12097,9 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": true,
-            "checked_at": "2026-10-09T13:46:05.832282+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-16T13:57:48.971890+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://cms.aubac.it/sites/default/files/2026-06/PAI%20IDRAULICO%20-%20RELAZIONE%20GENERALE_def_0.pdf",
@@ -11949,9 +12108,9 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": true,
-            "checked_at": "2026-10-09T13:46:05.922641+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-16T13:57:48.971890+00:00",
+            "stale": false,
+            "technical_state": "available"
           },
           {
             "url": "https://www.gazzettaufficiale.it/eli/gu/2026/06/04/127/sg/pdf",
@@ -11960,9 +12119,9 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": false,
-            "checked_at": "2026-10-09T13:46:06.059355+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-16T13:57:48.971890+00:00",
+            "stale": false,
+            "technical_state": "partial_pdf"
           }
         ]
       },
@@ -12000,25 +12159,25 @@
           },
           {
             "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267634&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_109917858867121659555146232.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
-            "available": true,
+            "available": false,
             "expected_pdf": true,
-            "detected_signature": "pdf",
+            "detected_signature": null,
             "identity_candidate": null,
-            "body_complete": true,
-            "checked_at": "2026-10-09T13:46:07.004315+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "body_complete": false,
+            "checked_at": "2026-11-16T13:57:48.971890+00:00",
+            "stale": false,
+            "technical_state": "blocked"
           },
           {
             "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3273&StwEvent=101",
-            "available": true,
+            "available": false,
             "expected_pdf": false,
-            "detected_signature": "html",
+            "detected_signature": null,
             "identity_candidate": null,
-            "body_complete": true,
-            "checked_at": "2026-10-09T13:46:07.202005+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "body_complete": false,
+            "checked_at": "2026-11-16T13:57:48.971890+00:00",
+            "stale": false,
+            "technical_state": "blocked"
           },
           {
             "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
@@ -12027,9 +12186,9 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": false,
-            "checked_at": "2026-10-09T13:46:07.223899+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-16T13:57:48.971890+00:00",
+            "stale": false,
+            "technical_state": "partial_pdf"
           }
         ]
       },
@@ -12171,9 +12330,9 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": false,
-            "checked_at": "2026-10-09T13:46:07.223899+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-16T13:57:48.971890+00:00",
+            "stale": false,
+            "technical_state": "partial_pdf"
           }
         ]
       },
@@ -12237,9 +12396,9 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": false,
-            "checked_at": "2026-10-09T13:46:07.223899+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-16T13:57:48.971890+00:00",
+            "stale": false,
+            "technical_state": "partial_pdf"
           }
         ]
       },
@@ -12303,9 +12462,9 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": false,
-            "checked_at": "2026-10-09T13:46:07.223899+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-16T13:57:48.971890+00:00",
+            "stale": false,
+            "technical_state": "partial_pdf"
           }
         ]
       },
@@ -12435,9 +12594,9 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": false,
-            "checked_at": "2026-10-09T13:46:07.223899+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-16T13:57:48.971890+00:00",
+            "stale": false,
+            "technical_state": "partial_pdf"
           }
         ]
       },
@@ -12501,9 +12660,9 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": false,
-            "checked_at": "2026-10-09T13:46:07.223899+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-16T13:57:48.971890+00:00",
+            "stale": false,
+            "technical_state": "partial_pdf"
           }
         ]
       },
@@ -12567,9 +12726,9 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": false,
-            "checked_at": "2026-10-09T13:46:07.223899+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-16T13:57:48.971890+00:00",
+            "stale": false,
+            "technical_state": "partial_pdf"
           }
         ]
       },
@@ -12624,9 +12783,9 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": false,
-            "checked_at": "2026-10-09T13:46:07.223899+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-16T13:57:48.971890+00:00",
+            "stale": false,
+            "technical_state": "partial_pdf"
           },
           {
             "url": "https://cms.aubac.it/sites/default/files/2026-07/BURM%20n.%2068%20del%2023%20luglio%202026.pdf",
@@ -12957,14 +13116,14 @@
           },
           {
             "url": "https://aubac.it/pai-distrettuale-idraulico",
-            "available": true,
+            "available": false,
             "expected_pdf": false,
-            "detected_signature": "html",
+            "detected_signature": null,
             "identity_candidate": null,
-            "body_complete": true,
-            "checked_at": "2026-10-09T13:45:46.966531+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "body_complete": false,
+            "checked_at": "2026-11-16T13:57:48.971890+00:00",
+            "stale": false,
+            "technical_state": "needs_attention"
           },
           {
             "url": "https://aubac.it/piani-di-bacino/piano-di-gestione-del-rischio-alluvioni-pgra",

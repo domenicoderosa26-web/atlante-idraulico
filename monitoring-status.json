@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-16T23:45:37Z",
+  "checked_at": "2026-11-17T16:06:03Z",
   "national": {
-    "state": "in_attesa",
-    "last_completed_at": "2026-11-16T16:52:05+01:00",
+    "state": "completato",
+    "last_completed_at": "2026-11-17T17:04:15+01:00",
     "expected_date": "2026-11-17",
     "deadline_local": "16:00 Europe/Rome",
-    "checkpoint_end": "2026-11-16T15:52:05Z",
+    "checkpoint_end": "2026-11-17T16:04:15Z",
     "checkpoint_consistent": true,
     "latest_run": {
-      "id": 43901026568,
-      "html_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/43901026568",
+      "id": 44121482241,
+      "html_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/44121482241",
       "event": "schedule",
       "status": "completed",
       "conclusion": "success",
-      "created_at": "2026-11-16T15:51:47Z",
-      "updated_at": "2026-11-16T15:53:30Z"
+      "created_at": "2026-11-17T16:04:04Z",
+      "updated_at": "2026-11-17T16:05:43Z"
     },
     "scope": {
       "monitored_ids": [
@@ -152,6 +152,13 @@
       "message": "Il controllo territoriale è parziale; la ricognizione non certifica tutte le fonti.",
       "evidence": "data.json:runs[0]",
       "event_id": "34253f72b409109570fcdb96"
+    },
+    {
+      "code": "TERRITORIAL_MISSING",
+      "severity": "error",
+      "message": "Nessuna ricognizione territoriale documentata oggi entro la finestra delle 16:00.",
+      "evidence": "data.json:runs; esecutore esterno non interrogabile da questo workflow",
+      "event_id": "69cfba128375ca2af0af979f"
     }
   ],
   "events": [
@@ -646,6 +653,6 @@
       "recorded_at": "2026-11-10T15:02:16Z"
     }
   ],
-  "has_errors": false,
-  "repository_sha": "98864f594f8df570f2442a440ade2713c02e3f52"
+  "has_errors": true,
+  "repository_sha": "3894f8957ac26f7708e59e8408b23038d38d769b"
 }

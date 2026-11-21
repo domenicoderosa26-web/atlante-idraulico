@@ -1,9 +1,9 @@
 {
-  "last_successful_end": "2026-11-20T15:30:02Z",
-  "interval_start": "2026-11-19T15:48:02Z",
+  "last_successful_end": "2026-11-21T14:41:55Z",
+  "interval_start": "2026-11-20T15:30:02Z",
   "phase": "pubblicato",
-  "run_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/44763840811",
-  "publication_verified_at": "2026-11-20T15:31:04Z",
+  "run_url": "https://github.com/domenicoderosa26-web/atlante-idraulico/actions/runs/44915249130",
+  "publication_verified_at": "2026-11-21T14:42:45Z",
   "national_sha256": "33c90892d5466f49e4c84d5218e89bda95b97c9ffad5c24afcd6deed834daf28",
-  "status_sha256": "a7b87f31c09d346e0a70ea32b3ed4234cf9e447ebc03388cabe36a21ca5ff9a1"
+  "status_sha256": "a53f2df7a637b582489ee06e3eff5228815021620fc46410274f90c53e4cb754"
 }

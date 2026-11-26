@@ -8847,9 +8847,9 @@
     "notice": "Controllo tecnico: identità candidata, disponibilità e variazioni non attestano contenuto, vigenza o abrogazione.",
     "source_queue": "docs/audit/2026-10-10/completamento/attivita-residue.json",
     "selected": [
-      "centr-pai-notaresco-145-2026",
-      "centr-pai-offida-39-2026",
-      "centr-pai-penne-148-2026"
+      "centr-pai-pescara-146-2026",
+      "centr-pai-spoltore-147-2026",
+      "centr-pai-tronto-140-2026"
     ],
     "requests": 3,
     "tasks": {
@@ -9016,6 +9016,18 @@
       "centr-pai-penne-148-2026": {
         "task_version": "8c0c9a28c074ad955a700282978de7fbec31cc2289128a26ea7a78ab2c3306e2",
         "prepared_at": "2026-11-23T16:26:13.474786+00:00"
+      },
+      "centr-pai-pescara-146-2026": {
+        "task_version": "7066acea486ddd62538028c662612a7c9daeaae2c82855b7bb258fe8a1194023",
+        "prepared_at": "2026-11-26T15:43:25.137689+00:00"
+      },
+      "centr-pai-spoltore-147-2026": {
+        "task_version": "1b13a15b1f9544eca2c7b1839f2f7c65be49d6ba3fe28a0cdf7214bc4e10a5e0",
+        "prepared_at": "2026-11-26T15:43:25.137689+00:00"
+      },
+      "centr-pai-tronto-140-2026": {
+        "task_version": "d1a19aa89b1514c456e87378f76f7501e056574795b2f7bd20a1b89cb755b6c8",
+        "prepared_at": "2026-11-26T15:43:25.137689+00:00"
       }
     },
     "seed_receipts": "docs/audit/2026-10-10/completamento/ricevute-accesso.json",
@@ -10244,29 +10256,28 @@
       },
       "https://aubac.it/decreti-segretariali-di-pianificazione-2026": {
         "url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
-        "checked_at": "2026-11-19T14:40:07.141538+00:00",
+        "checked_at": "2026-11-26T15:43:25.137689+00:00",
         "semantic_verification": "not_performed_by_access_check",
         "http_status": 200,
         "final_url": "https://aubac.it/decreti-segretariali-di-pianificazione-2026",
         "content_type": "text/html; charset=utf-8",
-        "etag": "\"cno4tqv01l52eq\"",
+        "etag": "\"n4t8gnb2vs4zo3\"",
         "last_modified": null,
         "body_complete": true,
-        "sample_bytes": 236583,
+        "sample_bytes": 233032,
         "content_signature": "html",
         "empty_response": false,
         "access_challenge": false,
         "identity_candidate": "Decreti segretariali di Pianificazione 2026 | AUBAC",
         "identity_basis": "HTML title only",
         "technical_state": "available",
-        "sha256": "23b3b302a98b90c2097e43dade1f33db28f6e3dab70e8b279a8ddb9f627e2dd3",
-        "variation": "same",
-        "comparison_scope": "server_validator",
+        "sha256": "ae631b67dfb7e0b44522ec7e275c778a820399937206639ade897bf584a831b3",
+        "variation": "different",
+        "comparison_scope": "complete_bytes",
         "previous_observation": {
-          "checked_at": "2026-10-09T13:46:06.511061+00:00",
-          "sha256": "fc290753ec55eec9233ddc15435a4f9d6986f2c6994d846c84d00b4a475115e8"
-        },
-        "revalidation_http_status": 304
+          "checked_at": "2026-11-19T14:40:07.141538+00:00",
+          "sha256": "23b3b302a98b90c2097e43dade1f33db28f6e3dab70e8b279a8ddb9f627e2dd3"
+        }
       },
       "https://bur.regione.umbria.it/web/guest/bur?p_p_id=home_INSTANCE_pLi8X7iNviFL&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_resource_id=downloadCaricamento&p_p_cacheability=cacheLevelPage&id=http%3A%2F%2Fknowledge.progettosemplice.it%2Fresources%2FburUmbriaCaricamento%2Fno_g%2F2026%2F2%2F35%2F260721B35.pdf&nome=260721B35.pdf": {
         "url": "https://bur.regione.umbria.it/web/guest/bur?p_p_id=home_INSTANCE_pLi8X7iNviFL&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_resource_id=downloadCaricamento&p_p_cacheability=cacheLevelPage&id=http%3A%2F%2Fknowledge.progettosemplice.it%2Fresources%2FburUmbriaCaricamento%2Fno_g%2F2026%2F2%2F35%2F260721B35.pdf&nome=260721B35.pdf",
@@ -10366,6 +10377,34 @@
         "error": "URL non autorizzato",
         "semantic_verification": "not_performed_by_access_check"
       },
+      "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267721&DOCORE_versione=1&FNSTR=GZBYYD_BVOCWKF_23264438671243021997059961.NRJ.D7D&DB_NAME=n1202633&ContestoChk=DE&P7M=S": {
+        "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267721&DOCORE_versione=1&FNSTR=GZBYYD_BVOCWKF_23264438671243021997059961.NRJ.D7D&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+        "checked_at": "2026-11-26T15:43:25.137689+00:00",
+        "technical_state": "blocked",
+        "error": "URL non autorizzato",
+        "semantic_verification": "not_performed_by_access_check"
+      },
+      "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3277&StwEvent=101": {
+        "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3277&StwEvent=101",
+        "checked_at": "2026-11-26T15:43:25.137689+00:00",
+        "technical_state": "blocked",
+        "error": "URL non autorizzato",
+        "semantic_verification": "not_performed_by_access_check"
+      },
+      "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267780&DOCORE_versione=1&FNSTR=GZBYYD_BVOCWKF_37065169667125904232763601.NRJ.D7D&DB_NAME=n1202633&ContestoChk=DE&P7M=S": {
+        "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267780&DOCORE_versione=1&FNSTR=GZBYYD_BVOCWKF_37065169667125904232763601.NRJ.D7D&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+        "checked_at": "2026-11-26T15:43:25.137689+00:00",
+        "technical_state": "blocked",
+        "error": "URL non autorizzato",
+        "semantic_verification": "not_performed_by_access_check"
+      },
+      "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3278&StwEvent=101": {
+        "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3278&StwEvent=101",
+        "checked_at": "2026-11-26T15:43:25.137689+00:00",
+        "technical_state": "blocked",
+        "error": "URL non autorizzato",
+        "semantic_verification": "not_performed_by_access_check"
+      },
       "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267806&DOCORE_versione=1&FNSTR=GZBYYD_BVOCWKF_51704336667130452272963305.NRJ.D7D&DB_NAME=n1202633&ContestoChk=DE&P7M=S": {
         "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267806&DOCORE_versione=1&FNSTR=GZBYYD_BVOCWKF_51704336667130452272963305.NRJ.D7D&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
         "checked_at": "2026-11-23T16:26:13.474786+00:00",
@@ -10379,6 +10418,66 @@
         "technical_state": "blocked",
         "error": "URL non autorizzato",
         "semantic_verification": "not_performed_by_access_check"
+      },
+      "https://www.aubac.it/news/notizie/rischio-idraulico-approvato-laggiornamento-delle-aree-rischio-di-esondazione-del-fiume-tronto-e-dei": {
+        "url": "https://www.aubac.it/news/notizie/rischio-idraulico-approvato-laggiornamento-delle-aree-rischio-di-esondazione-del-fiume-tronto-e-dei",
+        "checked_at": "2026-11-26T15:43:25.137689+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://www.aubac.it/news/notizie/rischio-idraulico-approvato-laggiornamento-delle-aree-rischio-di-esondazione-del-fiume-tronto-e-dei",
+        "content_type": "text/html; charset=utf-8",
+        "etag": "\"39j63sl1896bhs\"",
+        "last_modified": null,
+        "body_complete": true,
+        "sample_bytes": 295017,
+        "content_signature": "html",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": "Rischio idraulico: approvato l’aggiornamento delle aree a rischio di esondazione del Fiume Tronto e dei suoi affluenti",
+        "identity_basis": "HTML title only",
+        "technical_state": "available",
+        "sha256": "fc1b4a85caad722b8193ff23a16993bee2f887281aa41fa6718541628d46097e",
+        "variation": "different",
+        "comparison_scope": "complete_bytes",
+        "previous_observation": {
+          "checked_at": "2026-10-09T13:46:11.095774+00:00",
+          "sha256": "0521e10beff956ad8122d4c2c234145e8bbf803bd1c9ec129d24d109e6d599b2"
+        }
+      },
+      "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1263502&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_153475338167172906294542067.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S": {
+        "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1263502&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_153475338167172906294542067.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
+        "checked_at": "2026-11-26T15:43:25.137689+00:00",
+        "technical_state": "blocked",
+        "error": "URL non autorizzato",
+        "semantic_verification": "not_performed_by_access_check"
+      },
+      "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3267&StwEvent=101": {
+        "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3267&StwEvent=101",
+        "checked_at": "2026-11-26T15:43:25.137689+00:00",
+        "technical_state": "blocked",
+        "error": "URL non autorizzato",
+        "semantic_verification": "not_performed_by_access_check"
+      },
+      "https://cms.aubac.it/sites/default/files/2026-07/BURM%20n.%2068%20del%2023%20luglio%202026.pdf": {
+        "url": "https://cms.aubac.it/sites/default/files/2026-07/BURM%20n.%2068%20del%2023%20luglio%202026.pdf",
+        "checked_at": "2026-11-26T15:43:25.137689+00:00",
+        "semantic_verification": "not_performed_by_access_check",
+        "http_status": 200,
+        "final_url": "https://cms.aubac.it/sites/default/files/2026-07/BURM%20n.%2068%20del%2023%20luglio%202026.pdf",
+        "content_type": "application/pdf",
+        "etag": "\"14ab538-65746c677d9eb\"",
+        "last_modified": "Thu, 23 Jul 2026 12:55:49 GMT",
+        "body_complete": false,
+        "sample_bytes": 2000000,
+        "content_signature": "pdf",
+        "empty_response": false,
+        "access_challenge": false,
+        "identity_candidate": null,
+        "identity_basis": "PDF signature only",
+        "technical_state": "partial_pdf",
+        "sample_sha256": "3d683c261954aa54c35fdf26b86b6f7dd820c1090f16b53b219613346f71c089",
+        "variation": "same",
+        "comparison_scope": "prefix_only"
       },
       "https://aubac.it/decreti-segretariali-di-pianificazione-2025": {
         "url": "https://aubac.it/decreti-segretariali-di-pianificazione-2025",
@@ -12115,7 +12214,7 @@
             "detected_signature": "html",
             "identity_candidate": "Decreti segretariali di Pianificazione 2026 | AUBAC",
             "body_complete": true,
-            "checked_at": "2026-11-19T14:40:07.141538+00:00",
+            "checked_at": "2026-11-26T15:43:25.137689+00:00",
             "stale": false,
             "technical_state": "available"
           },
@@ -12350,7 +12449,7 @@
             "detected_signature": "html",
             "identity_candidate": "Decreti segretariali di Pianificazione 2026 | AUBAC",
             "body_complete": true,
-            "checked_at": "2026-11-19T14:40:07.141538+00:00",
+            "checked_at": "2026-11-26T15:43:25.137689+00:00",
             "stale": false,
             "technical_state": "available"
           },
@@ -12417,7 +12516,7 @@
             "detected_signature": "html",
             "identity_candidate": "Decreti segretariali di Pianificazione 2026 | AUBAC",
             "body_complete": true,
-            "checked_at": "2026-11-19T14:40:07.141538+00:00",
+            "checked_at": "2026-11-26T15:43:25.137689+00:00",
             "stale": false,
             "technical_state": "available"
           },
@@ -12429,7 +12528,7 @@
             "identity_candidate": null,
             "body_complete": true,
             "checked_at": "2026-11-19T14:40:07.141538+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           },
           {
@@ -12462,7 +12561,7 @@
             "identity_candidate": "Rischio idraulico: approvato l’aggiornamento delle fasce fluviali e delle aree a rischio di esondazione del Fiume Nestore",
             "body_complete": true,
             "checked_at": "2026-11-19T14:40:07.141538+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "available"
           }
         ]
@@ -12494,7 +12593,7 @@
             "detected_signature": "html",
             "identity_candidate": "Decreti segretariali di Pianificazione 2026 | AUBAC",
             "body_complete": true,
-            "checked_at": "2026-11-19T14:40:07.141538+00:00",
+            "checked_at": "2026-11-26T15:43:25.137689+00:00",
             "stale": false,
             "technical_state": "available"
           },
@@ -12560,7 +12659,7 @@
             "detected_signature": "html",
             "identity_candidate": "Decreti segretariali di Pianificazione 2026 | AUBAC",
             "body_complete": true,
-            "checked_at": "2026-11-19T14:40:07.141538+00:00",
+            "checked_at": "2026-11-26T15:43:25.137689+00:00",
             "stale": false,
             "technical_state": "available"
           },
@@ -12626,7 +12725,7 @@
             "detected_signature": "html",
             "identity_candidate": "Decreti segretariali di Pianificazione 2026 | AUBAC",
             "body_complete": true,
-            "checked_at": "2026-11-19T14:40:07.141538+00:00",
+            "checked_at": "2026-11-26T15:43:25.137689+00:00",
             "stale": false,
             "technical_state": "available"
           },
@@ -12638,7 +12737,7 @@
             "identity_candidate": null,
             "body_complete": false,
             "checked_at": "2026-11-23T16:26:13.474786+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "blocked"
           },
           {
@@ -12649,7 +12748,7 @@
             "identity_candidate": null,
             "body_complete": false,
             "checked_at": "2026-11-23T16:26:13.474786+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "blocked"
           },
           {
@@ -12704,7 +12803,7 @@
             "identity_candidate": null,
             "body_complete": false,
             "checked_at": "2026-11-23T16:26:13.474786+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "blocked"
           },
           {
@@ -12715,7 +12814,7 @@
             "identity_candidate": null,
             "body_complete": false,
             "checked_at": "2026-11-23T16:26:13.474786+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "blocked"
           },
           {
@@ -12758,7 +12857,7 @@
             "detected_signature": "html",
             "identity_candidate": "Decreti segretariali di Pianificazione 2026 | AUBAC",
             "body_complete": true,
-            "checked_at": "2026-11-19T14:40:07.141538+00:00",
+            "checked_at": "2026-11-26T15:43:25.137689+00:00",
             "stale": false,
             "technical_state": "available"
           },
@@ -12770,7 +12869,7 @@
             "identity_candidate": null,
             "body_complete": false,
             "checked_at": "2026-11-23T16:26:13.474786+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "blocked"
           },
           {
@@ -12781,7 +12880,7 @@
             "identity_candidate": null,
             "body_complete": false,
             "checked_at": "2026-11-23T16:26:13.474786+00:00",
-            "stale": false,
+            "stale": true,
             "technical_state": "blocked"
           },
           {
@@ -12824,31 +12923,31 @@
             "detected_signature": "html",
             "identity_candidate": "Decreti segretariali di Pianificazione 2026 | AUBAC",
             "body_complete": true,
-            "checked_at": "2026-11-19T14:40:07.141538+00:00",
+            "checked_at": "2026-11-26T15:43:25.137689+00:00",
             "stale": false,
             "technical_state": "available"
           },
           {
             "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267721&DOCORE_versione=1&FNSTR=GZBYYD_BVOCWKF_23264438671243021997059961.NRJ.D7D&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
-            "available": true,
+            "available": false,
             "expected_pdf": true,
-            "detected_signature": "pdf",
+            "detected_signature": null,
             "identity_candidate": null,
-            "body_complete": true,
-            "checked_at": "2026-10-09T13:46:08.772784+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "body_complete": false,
+            "checked_at": "2026-11-26T15:43:25.137689+00:00",
+            "stale": false,
+            "technical_state": "blocked"
           },
           {
             "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3277&StwEvent=101",
-            "available": true,
+            "available": false,
             "expected_pdf": false,
-            "detected_signature": "html",
+            "detected_signature": null,
             "identity_candidate": null,
-            "body_complete": true,
-            "checked_at": "2026-10-09T13:46:09.277590+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "body_complete": false,
+            "checked_at": "2026-11-26T15:43:25.137689+00:00",
+            "stale": false,
+            "technical_state": "blocked"
           },
           {
             "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
@@ -12890,31 +12989,31 @@
             "detected_signature": "html",
             "identity_candidate": "Decreti segretariali di Pianificazione 2026 | AUBAC",
             "body_complete": true,
-            "checked_at": "2026-11-19T14:40:07.141538+00:00",
+            "checked_at": "2026-11-26T15:43:25.137689+00:00",
             "stale": false,
             "technical_state": "available"
           },
           {
             "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1267780&DOCORE_versione=1&FNSTR=GZBYYD_BVOCWKF_37065169667125904232763601.NRJ.D7D&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
-            "available": true,
+            "available": false,
             "expected_pdf": true,
-            "detected_signature": "pdf",
+            "detected_signature": null,
             "identity_candidate": null,
-            "body_complete": true,
-            "checked_at": "2026-10-09T13:46:09.448448+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "body_complete": false,
+            "checked_at": "2026-11-26T15:43:25.137689+00:00",
+            "stale": false,
+            "technical_state": "blocked"
           },
           {
             "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3278&StwEvent=101",
-            "available": true,
+            "available": false,
             "expected_pdf": false,
-            "detected_signature": "html",
+            "detected_signature": null,
             "identity_candidate": null,
-            "body_complete": true,
-            "checked_at": "2026-10-09T13:46:09.957644+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "body_complete": false,
+            "checked_at": "2026-11-26T15:43:25.137689+00:00",
+            "stale": false,
+            "technical_state": "blocked"
           },
           {
             "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
@@ -12953,14 +13052,14 @@
         "documents": [
           {
             "url": "https://cloud.urbi.it/urbi/progs/urp/fecore02.sto?DOCORE_testata=1263502&DOCORE_versione=1&FNSTR=DDLHNC_YREWACF_153475338167172906294542067.HZB.S7M&DB_NAME=n1202633&ContestoChk=DE&P7M=S",
-            "available": true,
+            "available": false,
             "expected_pdf": true,
-            "detected_signature": "pdf",
+            "detected_signature": null,
             "identity_candidate": null,
-            "body_complete": true,
-            "checked_at": "2026-10-09T13:46:11.360931+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "body_complete": false,
+            "checked_at": "2026-11-26T15:43:25.137689+00:00",
+            "stale": false,
+            "technical_state": "blocked"
           },
           {
             "url": "https://cloud.urbi.it/urbi/progs/urp/ur2DE001.sto?DB_NAME=n1202633&IdDelibere=3267&StwEvent=101",
@@ -12969,9 +13068,9 @@
             "detected_signature": null,
             "identity_candidate": null,
             "body_complete": false,
-            "checked_at": "2026-10-09T13:46:11.590720+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-26T15:43:25.137689+00:00",
+            "stale": false,
+            "technical_state": "blocked"
           },
           {
             "url": "https://cms.aubac.it/sites/default/files/2026-07/BURA%20n.%2030%20del%2029%20luglo%202026.pdf",
@@ -12991,20 +13090,20 @@
             "detected_signature": "pdf",
             "identity_candidate": null,
             "body_complete": false,
-            "checked_at": "2026-10-09T13:46:11.667067+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-26T15:43:25.137689+00:00",
+            "stale": false,
+            "technical_state": "partial_pdf"
           },
           {
             "url": "https://www.aubac.it/news/notizie/rischio-idraulico-approvato-laggiornamento-delle-aree-rischio-di-esondazione-del-fiume-tronto-e-dei",
             "available": true,
             "expected_pdf": false,
             "detected_signature": "html",
-            "identity_candidate": null,
+            "identity_candidate": "Rischio idraulico: approvato l’aggiornamento delle aree a rischio di esondazione del Fiume Tronto e dei suoi affluenti",
             "body_complete": true,
-            "checked_at": "2026-10-09T13:46:11.095774+00:00",
-            "stale": true,
-            "technical_state": "legacy_receipt"
+            "checked_at": "2026-11-26T15:43:25.137689+00:00",
+            "stale": false,
+            "technical_state": "available"
           }
         ]
       },
@@ -13035,7 +13134,7 @@
             "detected_signature": "html",
             "identity_candidate": "Decreti segretariali di Pianificazione 2026 | AUBAC",
             "body_complete": true,
-            "checked_at": "2026-11-19T14:40:07.141538+00:00",
+            "checked_at": "2026-11-26T15:43:25.137689+00:00",
             "stale": false,
             "technical_state": "available"
           },
